@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0">
+  <ns0:teiHeader>
+    <ns0:fileDesc>
+      <ns0:titleStmt>
+        <ns0:title>ParlaMint-AL: Seanca 2025-10-17 (plain)</ns0:title>
+        <ns0:respStmt>
+          <ns0:resp>Konvertim/kurim TEI</ns0:resp>
+          <ns0:name>Ekipi ParlaMint‑AL (pilot)</ns0:name>
+        </ns0:respStmt>
+      </ns0:titleStmt>
+      <ns0:publicationStmt>
+        <ns0:publisher>ParlaMint‑AL pilot</ns0:publisher>
+        <ns0:availability>
+          <ns0:licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 (derivat TEI)</ns0:licence>
+        </ns0:availability>
+        <ns0:date when="2025-10-28"/>
+      </ns0:publicationStmt>
+      <ns0:sourceDesc>
+        <ns0:bibl>
+          <ns0:title>Procesverbal i seancës parlamentare</ns0:title>
+          <ns0:idno type="url">https://kuvendiwebfiles.blob.core.windows.net/webfiles/202510241107180185Procesverbal%2C%20dat%C3%AB%2017.10.2025.pdf</ns0:idno>
+          <ns0:date when="2025-10-17"/>
+          <ns0:note type="provenance">Burim: Kuvendi i Shqipërisë (PDF zyrtar).</ns0:note>
+        </ns0:bibl>
+      </ns0:sourceDesc>
+    </ns0:fileDesc>
+    <ns0:encodingDesc>
+      <ns0:classDecl>
+        <ns0:taxonomy xml:id="taxo-speaker">
+          <ns0:category xml:id="role-chair">
+            <ns0:catDesc>Kryetar(ja) e seancës</ns0:catDesc>
+          </ns0:category>
+          <ns0:category xml:id="role-mp">
+            <ns0:catDesc>Deputet/e</ns0:catDesc>
+          </ns0:category>
+          <ns0:category xml:id="role-guest">
+            <ns0:catDesc>I/e ftuar</ns0:catDesc>
+          </ns0:category>
+        </ns0:taxonomy>
+      </ns0:classDecl>
+    </ns0:encodingDesc>
+    <ns0:profileDesc>
+      <ns0:langUsage>
+        <ns0:language ident="sq">Shqip</ns0:language>
+      </ns0:langUsage>
+      <ns0:settingDesc>
+        <ns0:setting>
+          <ns0:name type="parliament">Kuvendi i Shqipërisë</ns0:name>
+          <ns0:placeName>Tiranë</ns0:placeName>
+          <ns0:date when="2025-10-17"/>
+        </ns0:setting>
+      </ns0:settingDesc>
+    </ns0:profileDesc>
+    <ns0:revisionDesc>
+      <ns0:change when="2025-10-28">Version pilot; tekst i pjesshëm për demonstrim.</ns0:change>
+    </ns0:revisionDesc>
+  </ns0:teiHeader>
+  <ns0:text>
+    <ns0:body>
+      <ns0:div type="debate">
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u1">
+          <ns0:seg>REPUBLIKA E SHQIPËRISË</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u2">
+          <ns0:seg>KUVENDI</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u3">
+          <ns0:seg>Konferenca e Kryetarëve</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u4">
+          <ns0:seg>PROCESVERBAL</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u5">
+          <ns0:seg>Tiranë, më 17.10.2025, ora 11:00</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u6">
+          <ns0:seg>Drejton mbledhjen:</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u7">
+          <ns0:seg>Niko Peleshi – Kryetar i Kuvendit</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u8">
+          <ns0:seg>Rendi i ditës:</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u9">
+          <ns0:seg>1.</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u10">
+          <ns0:seg>Shqyrtimi i kërkesës nr. 2891 protokolli, datë 13.10.2025, të Grupit Parlamentar</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u11">
+          <ns0:seg>të Partisë Demokratike “Për ngritjen e komisionit hetimor të Kuvendit për verifikimin e</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u12">
+          <ns0:seg>ligjshmërisë së veprimeve të zyrtarëve shqiptarë në raport me ish-agjentin special të FBI-së,</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u13">
+          <ns0:seg>Charles McGonigal”.</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u14">
+          <ns0:seg>2.</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u15">
+          <ns0:seg>Shqyrtimi i kërkesës nr. 2892 protokolli, datë 13.10.2025, të Grupit Parlamentar</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u16">
+          <ns0:seg>të Partisë Demokratike “Për ngritjen e komisionit hetimor të Kuvendit për kontrollin e</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u17">
+          <ns0:seg>ligjshmërisë së veprimtarisë të organeve të pushtetit qendror dhe pushtetit vendor, si dhe për të</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u18">
+          <ns0:seg>verifikuar përdorimin e burimeve të administratës shtetërore për qëllime elektorale në zgjedhjet e</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u19">
+          <ns0:seg>11 majit 2025”.</ns0:seg>
+        </ns0:u>
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u20">
+          <ns0:seg>3.</ns0:seg>
+        </ns0:u>
+      </ns0:div>
+    </ns0:body>
+  </ns0:text>
+</ns0:TEI>

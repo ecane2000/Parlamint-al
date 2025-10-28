@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0">
+  <ns0:teiHeader>
+    <ns0:fileDesc>
+      <ns0:titleStmt>
+        <ns0:title>ParlaMint-AL: Seanca 2025-10-08 (.ana)</ns0:title>
+        <ns0:respStmt>
+          <ns0:resp>Konvertim/kurim TEI</ns0:resp>
+          <ns0:name>Ekipi ParlaMint‑AL (pilot)</ns0:name>
+        </ns0:respStmt>
+      </ns0:titleStmt>
+      <ns0:publicationStmt>
+        <ns0:publisher>ParlaMint‑AL pilot</ns0:publisher>
+        <ns0:availability>
+          <ns0:licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 (derivat TEI)</ns0:licence>
+        </ns0:availability>
+        <ns0:date when="2025-10-28"/>
+      </ns0:publicationStmt>
+      <ns0:sourceDesc>
+        <ns0:bibl>
+          <ns0:title>Procesverbal i seancës parlamentare</ns0:title>
+          <ns0:idno type="url">https://kuvendiwebfiles.blob.core.windows.net/webfiles/202510281245171998Procesverbal%2C%20dat%C3%AB%2008.10.2025%20.pdf</ns0:idno>
+          <ns0:date when="2025-10-08"/>
+          <ns0:note type="provenance">Burim: Kuvendi i Shqipërisë (PDF zyrtar).</ns0:note>
+        </ns0:bibl>
+      </ns0:sourceDesc>
+    </ns0:fileDesc>
+    <ns0:encodingDesc>
+      <ns0:classDecl>
+        <ns0:taxonomy xml:id="taxo-speaker">
+          <ns0:category xml:id="role-chair">
+            <ns0:catDesc>Kryetar(ja) e seancës</ns0:catDesc>
+          </ns0:category>
+          <ns0:category xml:id="role-mp">
+            <ns0:catDesc>Deputet/e</ns0:catDesc>
+          </ns0:category>
+          <ns0:category xml:id="role-guest">
+            <ns0:catDesc>I/e ftuar</ns0:catDesc>
+          </ns0:category>
+        </ns0:taxonomy>
+      </ns0:classDecl>
+    </ns0:encodingDesc>
+    <ns0:profileDesc>
+      <ns0:langUsage>
+        <ns0:language ident="sq">Shqip</ns0:language>
+      </ns0:langUsage>
+      <ns0:settingDesc>
+        <ns0:setting>
+          <ns0:name type="parliament">Kuvendi i Shqipërisë</ns0:name>
+          <ns0:placeName>Tiranë</ns0:placeName>
+          <ns0:date when="2025-10-08"/>
+        </ns0:setting>
+      </ns0:settingDesc>
+    </ns0:profileDesc>
+    <ns0:revisionDesc>
+      <ns0:change when="2025-10-28">Version pilot; tekst i pjesshëm për demonstrim.</ns0:change>
+    </ns0:revisionDesc>
+  </ns0:teiHeader>
+  <ns0:text>
+    <ns0:body>
+      <ns0:div type="debate">
+        <ns0:u who="#per_AL_unknown" ana="#role-mp" xml:id="AL_demo.u_ana">
+          <ns0:s xml:id="AL_demo.s1">
+            <ns0:w xml:id="w1_1" lemma="repu" ana="#upos-PROPN">REPU</ns0:w>
+            <ns0:w xml:id="w1_2" lemma="blika" ana="#upos-PROPN">BLIKA</ns0:w>
+            <ns0:w xml:id="w1_3" lemma="e" ana="#upos-PRON">E</ns0:w>
+            <ns0:w xml:id="w1_4" lemma="sHQIPËRoj" ana="#upos-VERB #deprel-root">SHQIPËRISË</ns0:w>
+            <ns0:w xml:id="w1_5" lemma="kuvendi" ana="#upos-NOUN">KUVENDI</ns0:w>
+            <ns0:w xml:id="w1_6" lemma="Komision" ana="#upos-NOUN">Komisioni</ns0:w>
+            <ns0:w xml:id="w1_7" lemma="për" ana="#upos-ADP">për</ns0:w>
+            <ns0:w xml:id="w1_8" lemma="të" ana="#upos-DET">të</ns0:w>
+            <ns0:w xml:id="w1_9" lemma="Drejtë" ana="#upos-NOUN">Drejtat</ns0:w>
+            <ns0:w xml:id="w1_10" lemma="e" ana="#upos-DET">e</ns0:w>
+            <ns0:w xml:id="w1_11" lemma="njeri" ana="#upos-NOUN">Njeriut</ns0:w>
+            <ns0:w xml:id="w1_12" lemma="dhe" ana="#upos-CCONJ">dhe</ns0:w>
+            <ns0:w xml:id="w1_13" lemma="Mjet" ana="#upos-NOUN">Mjetet</ns0:w>
+            <ns0:w xml:id="w1_14" lemma="e" ana="#upos-DET">e</ns0:w>
+            <ns0:w xml:id="w1_15" lemma="Informim" ana="#upos-NOUN">Informimit</ns0:w>
+            <ns0:w xml:id="w1_16" lemma="publik" ana="#upos-ADJ">Publik</ns0:w>
+            <ns0:w xml:id="w1_17" lemma="Komision" ana="#upos-NOUN">Komisioni</ns0:w>
+            <ns0:w xml:id="w1_18" lemma="për" ana="#upos-ADP">për</ns0:w>
+            <ns0:w xml:id="w1_19" lemma="nismë" ana="#upos-NOUN">Nismat</ns0:w>
+            <ns0:w xml:id="w1_20" lemma="Qytetar" ana="#upos-ADJ">Qytetare</ns0:w>
+            <ns0:pc>,</ns0:pc>
+            <ns0:w xml:id="w1_22" lemma="Bashkëpunim" ana="#upos-NOUN">Bashkëpunimin</ns0:w>
+            <ns0:w xml:id="w1_23" lemma="dhe" ana="#upos-CCONJ">dhe</ns0:w>
+            <ns0:w xml:id="w1_24" lemma="Mbikëqyrje" ana="#upos-NOUN">Mbikëqyrjen</ns0:w>
+            <ns0:w xml:id="w1_25" lemma="Institucional" ana="#upos-ADJ">Institucionale</ns0:w>
+            <ns0:w xml:id="w1_26" lemma="procesverbal" ana="#upos-PROPN">PROCESVERBAL</ns0:w>
+          </ns0:s>
+        </ns0:u>
+      </ns0:div>
+    </ns0:body>
+  </ns0:text>
+</ns0:TEI>
