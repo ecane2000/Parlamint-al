@@ -7,12 +7,8 @@ import pytesseract
 from pathlib import Path
 from argparse import ArgumentParser
 from urllib.parse import urlparse
-PDF_URLS = [
-    "https://kuvendiwebfiles.blob.core.windows.net/webfiles/202510281245171998Procesverbal%2C%20dat%C3%AB%2008.10.2025%20.pdf",
-    "https://kuvendiwebfiles.blob.core.windows.net/webfiles/202510281244562738Procesverbal%2C%20dat%C3%AB%2007.10.%202025.pdf",
-    "https://kuvendiwebfiles.blob.core.windows.net/webfiles/202510281244347130Procesverbal%2C%20dat%C3%AB%2006.10.2025%20.pdf",
-    "https://kuvendiwebfiles.blob.core.windows.net/webfiles/202510241107180185Procesverbal%2C%20dat%C3%AB%2017.10.2025.pdf",
-]
+from .config import PDF_URLS  # reuse your existing list of source URLs
+
 
 # Optional: set tesseract path on Windows if needed (keep empty otherwise)
 # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
