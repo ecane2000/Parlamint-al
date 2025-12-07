@@ -8,7 +8,7 @@ from pathlib import Path
 from argparse import ArgumentParser
 from urllib.parse import urlparse
 from .config import PDF_URLS  # reuse your existing list of source URLs
-
+from typing import list, Optional 
 
 # Optional: set tesseract path on Windows if needed (keep empty otherwise)
 # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
@@ -98,6 +98,7 @@ def _download_text(url: str) -> str:
         return r.content.decode("latin-1")
 
 def crawl_to_txt(inbox_dir: Path, do_clean: bool = True) -> list[Path]:
+    
     """
     For each URL in PDF_URLS:
       - if .txt → download as-is
