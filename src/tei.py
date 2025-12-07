@@ -57,7 +57,17 @@ def insert_body_plain(TEI_root, paragraphs, who="#per_AL_unknown", ana="#role-mp
         etree.SubElement(u, "{http://www.tei-c.org/ns/1.0}seg").text = normalize_whitespace(p)
     return TEI_root
 
-def insert_body_ana(TEI_root, stanza_sentences):
+def insert_body_ana(TEI_root, sentences):
+    """
+    sentences: 
+      - List[List[dict]] from annotate.ud_doc (unified tokens) 
+    """
+    tei = "{http://www.tei-c.org/ns/1.0}"
+    body = root.find(f".//{tei}body")
+    if body is None:
+        body = ET.SubElement(root, f"{tei}body")
+    div = ET.SubElement(body, f"{tei}div", attrib={"type": "session"})
+    
     text = TEI_root.find(".//tei:text", namespaces=NS) or etree.SubElement(TEI_root, "{http://www.tei-c.org/ns/1.0}text")
     body = TEI_root.find(".//tei:body", namespaces=NS) or etree.SubElement(text, "{http://www.tei-c.org/ns/1.0}body")
     div = TEI_root.find(".//tei:div[@type='debate']", namespaces=NS) or etree.SubElement(body, "{http://www.tei-c.org/ns/1.0}div", type="debate")

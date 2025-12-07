@@ -7,3 +7,7 @@ PDF_URLS = [
     "https://kuvendiwebfiles.blob.core.windows.net/webfiles/202510281244347130Procesverbal%2C%20dat%C3%AB%2006.10.2025%20.pdf",
     "https://kuvendiwebfiles.blob.core.windows.net/webfiles/202510241107180185Procesverbal%2C%20dat%C3%AB%2017.10.2025.pdf",
 ]
+# --- UDPipe fallback model path (place the .udpipe file here) -------------
+# Example suggestion:
+#   models/udpipe/albanian.udpipe
+UDPIPE_MODEL_PATH = "models/udpipe/albanian.udpipe"
