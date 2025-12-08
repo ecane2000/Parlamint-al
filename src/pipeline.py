@@ -9,7 +9,7 @@ from . import config
 from .utils import filename_stem_from_url, guess_date_from_url
 from .metadata import DocumentMetadata, metadata_from_url, make_document_id
 from .tei import txt_to_tei
-from .annotate import annotate_corpus_stanza
+# from .annotate import annotate_corpus_stanza
 
 
 def build_url_index() -> Dict[str, str]:
@@ -77,13 +77,17 @@ def annotate_tei(
     ana_dir = out_root / "ana"
 
     if annotator == "stanza":
+        # lazy import – only needed if you actually request annotation
+        from .annotate_stanza import annotate_corpus_stanza
         annotate_corpus_stanza(plain_dir, ana_dir)
+
     elif annotator == "udpipe":
+        from .annotate_udpipe import annotate_corpus_udpipe
         from pathlib import Path as _Path
         annotate_corpus_udpipe(plain_dir, ana_dir, _Path(config.UDPIPE_MODEL_PATH))
+
     else:
         raise ValueError(f"Unknown annotator: {annotator}")
-
 
 def main(argv=None) -> None:
     import argparse
@@ -122,8 +126,10 @@ def main(argv=None) -> None:
 
     args = ap.parse_args(argv)
 
+    # Always: TXT -> TEI
     convert_inbox_to_tei(args.inbox, args.out, country_code=args.country_code)
 
+    # Only if requested: TEI -> TEI.ana
     if args.with_ana:
         annotate_tei(args.out, annotator=args.annotator)
 
