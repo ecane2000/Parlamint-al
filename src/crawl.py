@@ -1,142 +1,119 @@
+# crawl.py
+from __future__ import annotations
+
 import io
-import re
+from pathlib import Path
+from typing import List, Optional
+
 import fitz  # PyMuPDF
 import requests
 from PIL import Image
 import pytesseract
-from pathlib import Path
-from argparse import ArgumentParser
-from urllib.parse import urlparse
-from .config import PDF_URLS  # reuse your existing list of source URLs
-from typing import list, Optional 
 
-# Optional: set tesseract path on Windows if needed (keep empty otherwise)
-# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+from argparse import ArgumentParser
+
+from .config import PDF_URLS
+from .utils import filename_stem_from_url, normalise_text
+
 
 def _filename_from_url(url: str) -> str:
-    """Create a stable base name for output files."""
-    name = urlparse(url).path.split('/')[-1] or "document"
-    name = name.replace('%20', '_').replace('%C3%AB', 'ë')
-    # strip extension to produce a .txt basename
-    if name.lower().endswith('.pdf'):
-        name = name[:-4]
-    return name if name else "document"
-
-def extract_text_from_pdf_bytes(pdf_bytes: bytes) -> str:
     """
-    Extract text from a PDF. Prefer digital text via PyMuPDF; fallback to OCR per page.
-    (Based on the OCR pattern you use in pdf_xml.py.)
+    Backwards-compatible wrapper around utils.filename_stem_from_url().
     """
-    text_chunks = []
-    doc = fitz.open(stream=pdf_bytes, filetype="pdf")
-    for page_idx in range(len(doc)):
-        page = doc[page_idx]
-        # Try digital text first
-        page_text = page.get_text("text") or ""
-        if page_text.strip():
-            text_chunks.append(page_text)
-            continue
-        # Fallback: render page → OCR
-        pix = page.get_pixmap(matrix=fitz.Matrix(300/72, 300/72))
-        img = Image.open(io.BytesIO(pix.tobytes("png")))
-        try:
-            ocr = pytesseract.image_to_string(img, lang="sqi+eng")
-        except Exception:
-            ocr = pytesseract.image_to_string(img, lang="eng")
-        text_chunks.append(ocr)
-    doc.close()
-    return "\n\n".join(chunk.strip() for chunk in text_chunks if chunk and chunk.strip())
+    return filename_stem_from_url(url)
 
-_rx_header = re.compile(r"^\s*=+\s*Page\s*\(\s*\d+\s*\)\s*=+\s*$", re.IGNORECASE)
-_rx_lone_pagenum = re.compile(r"^\s*\d+\s*$")
-_rx_pagebreak = re.compile(r"\f|^\s*(?:-{3,}\s*Page\s*break\s*-{3,})\s*$", re.IGNORECASE)
-_rx_ge = re.compile(r"\bg([ëé])", re.IGNORECASE)   # gé/gë at word start → që
-_rx_gy = re.compile(r"\bgy", re.IGNORECASE)        # gy... → gj...
 
-def normalise_text(s: str) -> str:
+def pdf_bytes_to_text(pdf_bytes: bytes) -> str:
     """
-    Apply the requested cleanups:
-     - remove headers/footers & page breaks
-     - character fixes and OCR misreads
+    Extract text from PDFs coming from the Parliament website.
+
+    Strategy per page:
+      * try PyMuPDF's built-in text extraction
+      * if the page is (mostly) empty, fall back to Tesseract OCR
+
+    This is intentionally simple; tweak dpi / OCR language as needed.
     """
-   # Split into lines to filter headers/footers
-    lines = []
-    for line in s.splitlines():
-        if _rx_header.match(line):
-            continue
-        if _rx_lone_pagenum.match(line):
-            continue
-        if _rx_pagebreak.search(line):
-            continue
-        lines.append(line)
-    s2 = "\n".join(lines)
+    text_parts: List[str] = []
 
-    # Replace characters
-    s2 = s2.replace("¢", "ç")
-    s2 = s2.replace("é", "ë")
+    with fitz.open(stream=pdf_bytes, filetype="pdf") as doc:
+        for page in doc:
+            txt = page.get_text("text") or ""
+            if txt.strip():
+                text_parts.append(txt)
+                continue
 
-    # Fix gé/gë → që (preserve case of the vowel)
-    def _fix_ge(m):
-        vowel = m.group(1)
-        # After earlier replacement, both 'é' and 'ë' should be ë
-        return "q" + ("ë" if vowel.lower() in ("ë", "é") else vowel)
-    s2 = _rx_ge.sub(_fix_ge, s2)
+            # No text layer – run OCR on a 300dpi bitmap
+            pix = page.get_pixmap(dpi=300)
+            mode = "RGB" if pix.n < 4 else "RGBA"
+            img = Image.frombytes(mode, [pix.width, pix.height], pix.samples)
+            ocr_txt = pytesseract.image_to_string(img)
+            text_parts.append(ocr_txt)
 
-    # Fix gy → gj at word start (gyysm* → gjysm*)
-    s2 = _rx_gy.sub("gj", s2)
+    return "\n".join(text_parts)
 
-    return s2
 
-def _download_text(url: str) -> str:
-    """Download plain text from a URL that serves .txt."""
-    r = requests.get(url, timeout=60)
-    r.raise_for_status()
-    # Try decode as UTF-8, fallback to latin-1 if needed
-    try:
-        return r.content.decode("utf-8")
-    except UnicodeDecodeError:
-        return r.content.decode("latin-1")
-
-def crawl_to_txt(inbox_dir: Path, do_clean: bool = True) -> list[Path]:
-    
+def crawl_to_txt(
+    inbox_root: Path,
+    urls: Optional[List[str]] = None,
+    do_clean: bool = True,
+) -> List[Path]:
     """
-    For each URL in PDF_URLS:
-      - if .txt → download as-is
-      - if .pdf → extract text (digital or OCR)
-    Save RAW to inbox/raw/*.txt and (optionally) CLEANED to inbox/cleaned/*.txt
+    Download parliamentary PDFs listed in config.PDF_URLS (or the
+    given `urls` list), convert them to TXT, and write them under:
+
+        <inbox_root>/raw/<stem>.txt
+        <inbox_root>/cleaned/<stem>.txt   (if do_clean)
+
+    Returns a list of written TXT paths (cleaned if do_clean else raw).
     """
-    raw_dir = inbox_dir / "raw"
-    cleaned_dir = inbox_dir / "cleaned"
+    urls = urls or list(PDF_URLS)
+    raw_dir = inbox_root / "raw"
+    cleaned_dir = inbox_root / "cleaned"
+
     raw_dir.mkdir(parents=True, exist_ok=True)
     if do_clean:
         cleaned_dir.mkdir(parents=True, exist_ok=True)
 
-    written = []
-    for url in PDF_URLS:
-        base = _filename_from_url(url)
-        out_raw = raw_dir / f"{base}.txt"
+    written: List[Path] = []
 
-        if url.lower().endswith(".txt"):
-            text = _download_text(url)
-        else:
-            # Assume PDF → text
-            r = requests.get(url, timeout=90)
-            r.raise_for_status()
-            text = extract_text_from_pdf_bytes(r.content)
+    for url in urls:
+        stem = _filename_from_url(url)
+        raw_txt_path = raw_dir / f"{stem}.txt"
 
-        out_raw.write_text(text, encoding="utf-8")
-        written.append(out_raw)
+        resp = requests.get(url)
+        resp.raise_for_status()
+        text = pdf_bytes_to_text(resp.content)
+        raw_txt_path.write_text(text, encoding="utf-8")
+
+        target_path = raw_txt_path
 
         if do_clean:
-            cleaned = normalise_text(text)
-            (cleaned_dir / f"{base}.txt").write_text(cleaned, encoding="utf-8")
+            cleaned_text = normalise_text(text)
+            cleaned_txt_path = cleaned_dir / f"{stem}.txt"
+            cleaned_txt_path.write_text(cleaned_text, encoding="utf-8")
+            target_path = cleaned_txt_path
+
+        written.append(target_path)
 
     return written
 
+
 if __name__ == "__main__":
     ap = ArgumentParser()
-    ap.add_argument("--out", default="inbox", help="Root inbox directory (will create raw/ and cleaned/)")
-    ap.add_argument("--no-clean", action="store_true", help="Skip cleaned output")
+    ap.add_argument(
+        "--out",
+        default="inbox",
+        type=Path,
+        help="Root inbox directory (will create raw/ and cleaned/).",
+    )
+    ap.add_argument(
+        "--no-clean",
+        action="store_true",
+        help="Skip cleaned output (only raw/.txt will be written).",
+    )
     args = ap.parse_args()
+
     paths = crawl_to_txt(Path(args.out), do_clean=not args.no_clean)
-    print("Saved TXT files:", *map(str, paths), sep="\n- ")
+    print("Saved TXT files:")
+    for p in paths:
+        print("-", p)

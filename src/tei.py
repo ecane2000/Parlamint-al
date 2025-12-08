@@ -1,91 +1,199 @@
-from lxml import etree
-from datetime import date
-from .utils import normalize_whitespace
+# tei.py
+from __future__ import annotations
 
-NS = {"tei": "http://www.tei-c.org/ns/1.0"}
+from pathlib import Path
+from typing import Iterable
 
-def build_header(title, source_url, when_iso, parliament_name, city, license_url):
-    TEI = etree.Element("{http://www.tei-c.org/ns/1.0}TEI")
-    teiHeader = etree.SubElement(TEI, "{http://www.tei-c.org/ns/1.0}teiHeader")
-    fileDesc = etree.SubElement(teiHeader, "{http://www.tei-c.org/ns/1.0}fileDesc")
-    titleStmt = etree.SubElement(fileDesc, "{http://www.tei-c.org/ns/1.0}titleStmt")
-    etree.SubElement(titleStmt, "{http://www.tei-c.org/ns/1.0}title").text = title
-    respStmt = etree.SubElement(titleStmt, "{http://www.tei-c.org/ns/1.0}respStmt")
-    etree.SubElement(respStmt, "{http://www.tei-c.org/ns/1.0}resp").text = "Konvertim/kurim TEI"
-    etree.SubElement(respStmt, "{http://www.tei-c.org/ns/1.0}name").text = "Ekipi ParlaMint‑AL (pilot)"
-    publicationStmt = etree.SubElement(fileDesc, "{http://www.tei-c.org/ns/1.0}publicationStmt")
-    etree.SubElement(publicationStmt, "{http://www.tei-c.org/ns/1.0}publisher").text = "ParlaMint‑AL pilot"
-    availability = etree.SubElement(publicationStmt, "{http://www.tei-c.org/ns/1.0}availability")
-    etree.SubElement(availability, "{http://www.tei-c.org/ns/1.0}licence", target=license_url).text = "CC BY 4.0 (derivat TEI)"
-    etree.SubElement(publicationStmt, "{http://www.tei-c.org/ns/1.0}date", when=date.today().isoformat())
-    sourceDesc = etree.SubElement(fileDesc, "{http://www.tei-c.org/ns/1.0}sourceDesc")
-    bibl = etree.SubElement(sourceDesc, "{http://www.tei-c.org/ns/1.0}bibl")
-    etree.SubElement(bibl, "{http://www.tei-c.org/ns/1.0}title").text = "Procesverbal i seancës parlamentare"
-    etree.SubElement(bibl, "{http://www.tei-c.org/ns/1.0}idno", type="url").text = source_url
-    etree.SubElement(bibl, "{http://www.tei-c.org/ns/1.0}date", when=when_iso)
-    etree.SubElement(bibl, "{http://www.tei-c.org/ns/1.0}note", type="provenance").text = "Burim: Kuvendi i Shqipërisë (PDF zyrtar)."
+import xml.etree.ElementTree as ET
 
-    encodingDesc = etree.SubElement(teiHeader, "{http://www.tei-c.org/ns/1.0}encodingDesc")
-    classDecl = etree.SubElement(encodingDesc, "{http://www.tei-c.org/ns/1.0}classDecl")
-    taxonomy = etree.SubElement(classDecl, "{http://www.tei-c.org/ns/1.0}taxonomy", **{"{http://www.w3.org/XML/1998/namespace}id": "taxo-speaker"})
-    c1 = etree.SubElement(taxonomy, "{http://www.tei-c.org/ns/1.0}category", **{"{http://www.w3.org/XML/1998/namespace}id": "role-chair"})
-    etree.SubElement(c1, "{http://www.tei-c.org/ns/1.0}catDesc").text = "Kryetar(ja) e seancës"
-    c2 = etree.SubElement(taxonomy, "{http://www.tei-c.org/ns/1.0}category", **{"{http://www.w3.org/XML/1998/namespace}id": "role-mp"})
-    etree.SubElement(c2, "{http://www.tei-c.org/ns/1.0}catDesc").text = "Deputet/e"
-    c3 = etree.SubElement(taxonomy, "{http://www.tei-c.org/ns/1.0}category", **{"{http://www.w3.org/XML/1998/namespace}id": "role-guest"})
-    etree.SubElement(c3, "{http://www.tei-c.org/ns/1.0}catDesc").text = "I/e ftuar"
+from .metadata import DocumentMetadata
+from .config import PARLIAMENT_NAME, CITY, LICENSE_URL
 
-    profileDesc = etree.SubElement(teiHeader, "{http://www.tei-c.org/ns/1.0}profileDesc")
-    langUsage = etree.SubElement(profileDesc, "{http://www.tei-c.org/ns/1.0}langUsage")
-    etree.SubElement(langUsage, "{http://www.tei-c.org/ns/1.0}language", ident="sq").text = "Shqip"
-    settingDesc = etree.SubElement(profileDesc, "{http://www.tei-c.org/ns/1.0}settingDesc")
-    setting = etree.SubElement(settingDesc, "{http://www.tei-c.org/ns/1.0}setting")
-    etree.SubElement(setting, "{http://www.tei-c.org/ns/1.0}name", type="parliament").text = parliament_name
-    etree.SubElement(setting, "{http://www.tei-c.org/ns/1.0}placeName").text = city
-    etree.SubElement(setting, "{http://www.tei-c.org/ns/1.0}date", when=when_iso)
+XML_NS = "http://www.w3.org/XML/1998/namespace"
+TEI_NS = "http://www.tei-c.org/ns/1.0"
 
-    revisionDesc = etree.SubElement(teiHeader, "{http://www.tei-c.org/ns/1.0}revisionDesc")
-    etree.SubElement(revisionDesc, "{http://www.tei-c.org/ns/1.0}change", when=date.today().isoformat()).text = "Version pilot; tekst i pjesshëm për demonstrim."
-    return TEI
+ET.register_namespace("", TEI_NS)
+ET.register_namespace("xml", XML_NS)
 
-def insert_body_plain(TEI_root, paragraphs, who="#per_AL_unknown", ana="#role-mp"):
-    text = TEI_root.find(".//tei:text", namespaces=NS) or etree.SubElement(TEI_root, "{http://www.tei-c.org/ns/1.0}text")
-    body = TEI_root.find(".//tei:body", namespaces=NS) or etree.SubElement(text, "{http://www.tei-c.org/ns/1.0}body")
-    div = etree.SubElement(body, "{http://www.tei-c.org/ns/1.0}div", type="debate")
-    for i, p in enumerate(paragraphs, start=1):
-        u = etree.SubElement(div, "{http://www.tei-c.org/ns/1.0}u", who=who, ana=ana, **{"{http://www.w3.org/XML/1998/namespace}id": f"AL_demo.u{i}"})
-        etree.SubElement(u, "{http://www.tei-c.org/ns/1.0}seg").text = normalize_whitespace(p)
-    return TEI_root
 
-def insert_body_ana(TEI_root, sentences):
+def qname(local: str) -> str:
+    """Build a TEI QName."""
+    return f"{{{TEI_NS}}}{local}"
+
+
+def make_tei_root(meta: DocumentMetadata, body_text: str) -> ET.Element:
     """
-    sentences: 
-      - List[List[dict]] from annotate.ud_doc (unified tokens) 
-    """
-    tei = "{http://www.tei-c.org/ns/1.0}"
-    body = root.find(f".//{tei}body")
-    if body is None:
-        body = ET.SubElement(root, f"{tei}body")
-    div = ET.SubElement(body, f"{tei}div", attrib={"type": "session"})
-    
-    text = TEI_root.find(".//tei:text", namespaces=NS) or etree.SubElement(TEI_root, "{http://www.tei-c.org/ns/1.0}text")
-    body = TEI_root.find(".//tei:body", namespaces=NS) or etree.SubElement(text, "{http://www.tei-c.org/ns/1.0}body")
-    div = TEI_root.find(".//tei:div[@type='debate']", namespaces=NS) or etree.SubElement(body, "{http://www.tei-c.org/ns/1.0}div", type="debate")
-    u = etree.SubElement(div, "{http://www.tei-c.org/ns/1.0}u", who="#per_AL_unknown", ana="#role-mp", **{"{http://www.w3.org/XML/1998/namespace}id": "AL_demo.u_ana"})
-    for si, sent in enumerate(stanza_sentences, start=1):
-        s = etree.SubElement(u, "{http://www.tei-c.org/ns/1.0}s", **{"{http://www.w3.org/XML/1998/namespace}id": f"AL_demo.s{si}"})
-        for ti, tok in enumerate(sent, start=1):
-            if tok.get("text") in {",", ".", ";", ":"}:
-                etree.SubElement(s, "{http://www.tei-c.org/ns/1.0}pc").text = tok["text"]
-            else:
-                w = etree.SubElement(s, "{http://www.tei-c.org/ns/1.0}w", **{"{http://www.w3.org/XML/1998/namespace}id": f"w{si}_{ti}"})
-                w.text = tok.get("text")
-                if tok.get("lemma"): w.set("lemma", tok["lemma"])
-                ana_vals = []
-                if tok.get("upos"): ana_vals.append(f"#upos-{tok['upos']}")
-                if tok.get("deprel") == "root": ana_vals.append("#deprel-root")
-                if ana_vals: w.set("ana", " ".join(ana_vals))
-    return TEI_root
+    Build a minimal ParlaMint-style TEI component for a single day.
 
-def serialize(TEI_root) -> str:
-    return etree.tostring(TEI_root, encoding="utf-8", pretty_print=True, xml_declaration=True).decode("utf-8")
+    For now we treat the whole TXT as one 'sitting' with a single
+    generic utterance. You will later replace this with proper
+    division into <div>, <u>, <seg> according to the Albanian
+    parliament layout.
+    """
+    tei = ET.Element(
+        qname("TEI"),
+        {
+            f"{{{XML_NS}}}id": meta.doc_id,
+            f"{{{XML_NS}}}lang": meta.language,
+            # By default, everything goes into the reference subcorpus
+            "ana": "#parla.sitting #reference",
+        },
+    )
+
+    tei.append(build_tei_header(meta))
+    tei.append(build_text_block(meta, body_text))
+    return tei
+
+
+def build_tei_header(meta: DocumentMetadata) -> ET.Element:
+    """
+    Very small teiHeader that still follows the ParlaMint guidelines
+    in spirit. It covers:
+
+    * fileDesc (titleStmt, publicationStmt, sourceDesc)
+    * encodingDesc (projectDesc stub)
+    * profileDesc (settingDesc + langUsage)
+    * revisionDesc (single 'built' change)
+    """
+    teiHeader = ET.Element(qname("teiHeader"))
+
+    fileDesc = ET.SubElement(teiHeader, qname("fileDesc"))
+    titleStmt = ET.SubElement(fileDesc, qname("titleStmt"))
+
+    title_sq = meta.title_sq or f"{PARLIAMENT_NAME}, seancë plenare, {meta.date}"
+    title_en = meta.title_en or f"Parliamentary sitting, {PARLIAMENT_NAME}, {meta.date}"
+
+    t1 = ET.SubElement(titleStmt, qname("title"), {"type": "main", f"{{{XML_NS}}}lang": "sq"})
+    t1.text = title_sq
+
+    t2 = ET.SubElement(titleStmt, qname("title"), {"type": "main", f"{{{XML_NS}}}lang": "en"})
+    t2.text = title_en
+
+    respStmt = ET.SubElement(titleStmt, qname("respStmt"))
+    resp = ET.SubElement(respStmt, qname("resp"))
+    resp.text = "Compilation and TEI conversion"
+    name = ET.SubElement(respStmt, qname("name"))
+    name.text = PARLIAMENT_NAME
+
+    publicationStmt = ET.SubElement(fileDesc, qname("publicationStmt"))
+    publisher = ET.SubElement(publicationStmt, qname("publisher"))
+    publisher.text = PARLIAMENT_NAME
+    pubPlace = ET.SubElement(publicationStmt, qname("pubPlace"))
+    pubPlace.text = CITY
+    availability = ET.SubElement(publicationStmt, qname("availability"))
+    licence = ET.SubElement(
+        availability,
+        qname("licence"),
+        {"target": LICENSE_URL},
+    )
+    licence.text = "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+
+    sourceDesc = ET.SubElement(fileDesc, qname("sourceDesc"))
+    bibl = ET.SubElement(sourceDesc, qname("bibl"))
+    if meta.source_url:
+        ref = ET.SubElement(bibl, qname("ref"), {"target": meta.source_url})
+        ref.text = meta.source_url
+    else:
+        bibl.text = "Official transcript from the Parliament of Albania website."
+
+    # encodingDesc stub
+    encodingDesc = ET.SubElement(teiHeader, qname("encodingDesc"))
+    projectDesc = ET.SubElement(encodingDesc, qname("projectDesc"))
+    p = ET.SubElement(projectDesc, qname("p"))
+    p.text = (
+        "Pilot conversion of Albanian parliamentary proceedings to the "
+        "ParlaMint/Parla-CLARIN TEI format. Header is intentionally minimal "
+        "and will be enriched in later iterations."
+    )
+
+    # profileDesc
+    profileDesc = ET.SubElement(teiHeader, qname("profileDesc"))
+    settingDesc = ET.SubElement(profileDesc, qname("settingDesc"))
+    setting = ET.SubElement(settingDesc, qname("setting"))
+    place = ET.SubElement(setting, qname("name"), {"type": "place"})
+    place.text = PARLIAMENT_NAME
+    city = ET.SubElement(setting, qname("name"), {"type": "city"})
+    city.text = CITY
+    country = ET.SubElement(
+        setting,
+        qname("name"),
+        {"type": "country", "key": meta.country_code},
+    )
+    country.text = "Albania"
+    date_el = ET.SubElement(setting, qname("date"), {"when": meta.date})
+    date_el.text = meta.date
+
+    langUsage = ET.SubElement(profileDesc, qname("langUsage"))
+    l1 = ET.SubElement(langUsage, qname("language"), {"ident": "sq", f"{{{XML_NS}}}lang": "sq"})
+    l1.text = "shqip"
+    l2 = ET.SubElement(langUsage, qname("language"), {"ident": "en", f"{{{XML_NS}}}lang": "en"})
+    l2.text = "English"
+
+    # revisionDesc
+    revisionDesc = ET.SubElement(teiHeader, qname("revisionDesc"))
+    change = ET.SubElement(
+        revisionDesc,
+        qname("change"),
+        {"when": meta.date},
+    )
+    who = ET.SubElement(change, qname("name"))
+    who.text = "Automatic pipeline"
+    change.text = (change.text or "") + ": initial TEI conversion."
+
+    return teiHeader
+
+
+def split_into_paragraphs(text: str) -> Iterable[str]:
+    """
+    Simple heuristic: split on double newlines; fall back to single
+    lines if there's no blank lines in the file.
+    """
+    text = text.strip()
+    if "\n\n" in text:
+        parts = [p.strip() for p in text.split("\n\n") if p.strip()]
+    else:
+        parts = [line.strip() for line in text.splitlines() if line.strip()]
+    return parts
+
+
+def build_text_block(meta: DocumentMetadata, body_text: str) -> ET.Element:
+    """
+    Very simple TEI <text>/<body> with a single <div> and anonymous
+    utterances. This is enough for running the ParlaMint validation
+    scripts and the linguistic annotators; later you can replace it
+    with a richer structure (<u>, speaker IDs, etc.).
+    """
+    text_el = ET.Element(qname("text"), {"ana": "#reference"})
+    body = ET.SubElement(text_el, qname("body"))
+
+    div = ET.SubElement(
+        body,
+        qname("div"),
+        {
+            "type": "sitting",
+            f"{{{XML_NS}}}id": meta.doc_id + ".sitting",
+        },
+    )
+
+    # We use a single anonymous utterance; paragraphs become <seg>
+    u = ET.SubElement(div, qname("u"), {"who": "#unknown"})
+    for i, para in enumerate(split_into_paragraphs(body_text), start=1):
+        seg = ET.SubElement(
+            u,
+            qname("seg"),
+            {f"{{{XML_NS}}}id": f"{meta.doc_id}.seg{i}"},
+        )
+        seg.text = para
+
+    return text_el
+
+
+def txt_to_tei(txt_path: Path, meta: DocumentMetadata, out_path: Path) -> None:
+    """
+    Convert a cleaned TXT file to a TEI XML component.
+    """
+    text = txt_path.read_text(encoding="utf-8")
+    tei_root = make_tei_root(meta, text)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    tree = ET.ElementTree(tei_root)
+    tree.write(out_path, encoding="utf-8", xml_declaration=True)

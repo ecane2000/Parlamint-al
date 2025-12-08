@@ -1,113 +1,114 @@
-"""
-UD annotator with graceful fallback:
-  1) Try Stanza (if 'sq' processors exist).
-  2) Fallback to UDPipe (ufal.udpipe) using a local .udpipe model.
-Returns a unified sentence structure consumable by tei.insert_body_ana:
-  List[List[Token]], where Token is dict with:
-    form, lemma, upos, feats (string or "_"), head (int), deprel (str)
-"""
-from typing import List, Dict
+# annotate_stanza.py  (annotator option 1)
+from __future__ import annotations
+
 from pathlib import Path
+from typing import Iterable
 
+import xml.etree.ElementTree as ET
 
+from .tei import qname, TEI_NS, XML_NS  # type: ignore[attr-defined]
+
+# Stanza is an optional dependency; import lazily in main()
 try:
-    import stanza
-    _HAS_STANZA = True
-except Exception:
-    _HAS_STANZA = False
+    import stanza  # type: ignore[import]
+except ImportError:  # pragma: no cover - handled at runtime
+    stanza = None  # type: ignore[assignment]
 
-from .config import UDPIPE_MODEL_PATH
 
-_nlp = None
-_udpipe_model = None
+def iter_plain_tei_files(plain_dir: Path) -> Iterable[Path]:
+    return sorted(plain_dir.glob("*.xml"))
 
-def nlp():
-    """Try to build a Stanza pipeline; raise if unavailable."""
-    if not _HAS_STANZA:
-        raise RuntimeError("Stanza not installed")
-    global _nlp
-    if _nlp is None:
-        # This will raise ValueError if 'sq' is unsupported.
-        _nlp = stanza.Pipeline('sq',
-                               processors='tokenize,pos,lemma,depparse',
-                               tokenize_no_ssplit=False, use_gpu=False)
-    return _nlp
 
-def _udpipe():
-    """Load UDPipe model if present; raise if not found."""
-    global _udpipe_model
-    if _udpipe_model is not None:
-        return _udpipe_model
-    try:
-        from ufal.udpipe import Model, Pipeline
-    except Exception as e:
-        raise RuntimeError("UDPipe not installed. Run: pip install ufal.udpipe conllu") from e
-    model_path = Path(UDPIPE_MODEL_PATH)
-    if not model_path.exists():
-        raise FileNotFoundError(f"UDPipe model not found at {model_path}. "
-                                "Download an Albanian UD model (.udpipe) and place it there.")
-    _udpipe_model = Model.load(str(model_path))
-    if _udpipe_model is None:
-        raise RuntimeError(f"Failed to load UDPipe model: {model_path}")
-    return _udpipe_model
+def stanza_pipeline(lang: str = "sq"):
+    if stanza is None:
+        raise RuntimeError(
+            "stanza is not installed. Install it with `pip install stanza` "
+            "and download the Albanian models with `python -m stanza.download sq`."
+        )
+    return stanza.Pipeline(
+        lang=lang,
+        processors="tokenize,pos,lemma,depparse",
+        tokenize_no_ssplit=False,
+    )
 
-def _annotate_with_udpipe(text: str) -> List[List[Dict]]:
-    """Annotate text with UDPipe and return unified token structure."""
-    from ufal.udpipe import Pipeline
-    from conllu import parse
 
-    model = _udpipe()
-    # Tokenize+tag+parse in one go; udpipe output format = conllu
-    pipeline = Pipeline(model, "tokenize", "tag", "parse", "conllu")
-    conllu_str = pipeline.process(text)
-    sentences = parse(conllu_str)
-
-    out: List[List[Dict]] = []
-    for sent in sentences:
-        toks: List[Dict] = []
-        for t in sent:
-            if isinstance(t, dict) and "form" in t:
-                toks.append({
-                    "form": t.get("form", ""),
-                    "lemma": t.get("lemma", "_"),
-                    "upos": t.get("upostag", "_"),
-                    "feats": t.get("feats") if t.get("feats") not in (None, {}) else "_",
-                    "head": t.get("head", 0) or 0,
-                    "deprel": t.get("deprel", "_"),
-                })
-        if toks:
-            out.append(toks)
-    return out
-
-def _annotate_with_stanza(text: str):
-    """Annotate with Stanza and convert to unified structure."""
-    doc = nlp()(text)
-    sents = []
-    for s in doc.sentences:
-        toks = []
-        for w in s.words:
-            toks.append({
-                "form": w.text,
-                "lemma": w.lemma or "_",
-                "upos": w.upos or "_",
-                "feats": w.feats or "_",
-                "head": int(w.head or 0),
-                "deprel": w.deprel or "_",
-            })
-        if toks:
-           sents.append(toks)
-    return sents
-
-def ud_doc(text: str):
+def annotate_seg_with_stanza(seg_el: ET.Element, nlp) -> None:
     """
-    Return List[List[Token]] with keys: form, lemma, upos, feats, head, deprel.
-    Tries Stanza first; on failure, falls back to UDPipe.
+    Replace the text content of <seg> with <s>/<w>/<pc> structure
+    using Stanza's UD annotation.
     """
-    # Try Stanza
-    if _HAS_STANZA:
-        try:
-            return _annotate_with_stanza(text)
-        except Exception:
-            pass
-    # Fallback to UDPipe
-    return _annotate_with_udpipe(text)
+    text = (seg_el.text or "").strip()
+    if not text:
+        return
+
+    doc = nlp(text)
+
+    # Preserve xml:id, then remove children/attributes
+    xml_id = seg_el.get(f"{{{XML_NS}}}id")
+    seg_el.clear()
+    if xml_id:
+        seg_el.set(f"{{{XML_NS}}}id", xml_id)
+
+    for sent_idx, sent in enumerate(doc.sentences, start=1):
+        s_attrs = {}
+        if xml_id:
+            s_attrs[f"{{{XML_NS}}}id"] = f"{xml_id}.s{sent_idx}"
+        s_el = ET.SubElement(seg_el, qname("s"), s_attrs)
+
+        for w in sent.words:
+            tag = "pc" if w.upos == "PUNCT" else "w"
+            token_el = ET.SubElement(s_el, qname(tag))
+            token_el.text = w.text
+
+            if w.lemma:
+                token_el.set("lemma", w.lemma)
+            if w.upos:
+                token_el.set("pos", w.upos)
+            if w.feats:
+                token_el.set("msd", w.feats)
+            if w.deprel:
+                token_el.set("dep", w.deprel)
+            if w.head is not None:
+                token_el.set("head", str(w.head))
+
+
+def annotate_file_stanza(src: Path, dst: Path, nlp) -> None:
+    tree = ET.parse(src)
+    root = tree.getroot()
+
+    # Mark this component as linguistically annotated
+    root.set("ana", (root.get("ana", "") + " #ud-sq-stanza").strip())
+
+    for seg in root.findall(".//{%s}seg" % TEI_NS):
+        annotate_seg_with_stanza(seg, nlp)
+
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    tree.write(dst, encoding="utf-8", xml_declaration=True)
+
+
+def annotate_corpus_stanza(
+    plain_dir: Path,
+    ana_dir: Path,
+    lang: str = "sq",
+) -> None:
+    """
+    Annotate all TEI component files in `plain_dir` and write
+    linguistically annotated `.ana.xml` files to `ana_dir`.
+    """
+    nlp = stanza_pipeline(lang=lang)
+
+    for src in iter_plain_tei_files(plain_dir):
+        target_name = src.stem + ".ana.xml"
+        dst = ana_dir / target_name
+        annotate_file_stanza(src, dst, nlp)
+
+
+if __name__ == "__main__":
+    import argparse
+
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--plain", type=Path, default=Path("out/plain"))
+    ap.add_argument("--ana", type=Path, default=Path("out/ana"))
+    args = ap.parse_args()
+
+    annotate_corpus_stanza(args.plain, args.ana)
