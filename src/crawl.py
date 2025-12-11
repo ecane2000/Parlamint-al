@@ -15,7 +15,6 @@ from argparse import ArgumentParser
 from .config import PDF_URLS
 from .utils import filename_stem_from_url, normalise_text
 
-
 def _filename_from_url(url: str) -> str:
     """
     Backwards-compatible wrapper around utils.filename_stem_from_url().
@@ -49,7 +48,7 @@ def pdf_bytes_to_text(pdf_bytes: bytes) -> str:
             ocr_txt = pytesseract.image_to_string(img)
             text_parts.append(ocr_txt)
 
-    return "\n".join(text_parts)
+    return "\n".join (text_parts)
 
 
 def crawl_to_txt(

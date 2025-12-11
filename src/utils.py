@@ -22,20 +22,28 @@ def guess_date_from_url(text: str) -> str:
         return f"{y}-{mth}-{d}"
     return datetime.today().strftime("%Y-%m-%d")
 
+def normalize_preserve_para_before_caps(text: str) -> str:
+    """
+    Normalize horizontal whitespace but:
+      - keep a newline ONLY if the next non-space char is uppercase (incl. Ç, Ë)
+      - otherwise collapse that newline to a space.
+    """
+    # collapse spaces/tabs but keep \n
+    t = re.sub(r"[^\S\r\n]+", " ", text).strip()
 
-def normalize_whitespace(text: str) -> str:
-    """
-    Collapse all runs of whitespace (including newlines) into a single
-    space and strip leading/trailing space.
-    """
-    return re.sub(r"\s+", " ", text).strip()
+    def _joiner(m):
+        ch = m.group(1)
+        return ("\n" + ch) if (ch.isupper() or ch in "ÇË") else (" " + ch)
+
+    # decide per newline: preserve before uppercase, else flatten
+    return re.sub(r"\n[ \t]*([^\n])", _joiner, t)
 
 
 def normalise_text(text: str) -> str:
     """
     British spelling alias used elsewhere in the code base.
     """
-    return normalize_whitespace(text)
+    return normalize_preserve_para_before_caps(text)
 
 
 def filename_stem_from_url(url: str) -> str:
