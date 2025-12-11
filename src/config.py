@@ -6,11 +6,7 @@ PDF_URLS = [
     "https://kuvendiwebfiles.blob.core.windows.net/webfiles/202510281244562738Procesverbal%2C%20dat%C3%AB%2007.10.%202025.pdf",
     "https://kuvendiwebfiles.blob.core.windows.net/webfiles/202510281244347130Procesverbal%2C%20dat%C3%AB%2006.10.2025%20.pdf",
     "https://kuvendiwebfiles.blob.core.windows.net/webfiles/202510241107180185Procesverbal%2C%20dat%C3%AB%2017.10.2025.pdf",
-<<<<<<< HEAD
     "https://kuvendiwebfiles.blob.core.windows.net/webfiles/202512111507528093Procesverbal%20dat%C3%AB%204.12.2025.pdf"
-=======
-    "https://kuvendiwebfiles.blob.core.windows.net/webfiles/202512111507528093Procesverbal%20dat%C3%AB%204.12.2025.pdf",
->>>>>>> 8a71dc2ffa66ae3c9a800646d031c9103fb7f323
 ]
 # --- UDPipe fallback model path (place the .udpipe file here) -------------
 # Example suggestion:
