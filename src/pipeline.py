@@ -104,9 +104,10 @@ def main(argv=None) -> None:
     ap.add_argument(
         "--out",
         type=Path,
-        default=Path("out"),
+        default=Path("TEI"),      # 👈 instead of Path("out")
         help="Output root directory (plain/ and ana/ will be created).",
     )
+
     ap.add_argument(
         "--country-code",
         default="AL",
@@ -126,13 +127,14 @@ def main(argv=None) -> None:
 
     args = ap.parse_args(argv)
 
-    # Always: TXT -> TEI
+    # ✅ ALWAYS do TXT -> TEI:
     convert_inbox_to_tei(args.inbox, args.out, country_code=args.country_code)
 
-    # Only if requested: TEI -> TEI.ana
+    # ✅ ONLY if requested, do TEI -> TEI.ana:
     if args.with_ana:
         annotate_tei(args.out, annotator=args.annotator)
 
 
 if __name__ == "__main__":
     main()
+
