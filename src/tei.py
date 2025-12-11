@@ -9,6 +9,11 @@ import xml.etree.ElementTree as ET
 from .metadata import DocumentMetadata
 from .config import PARLIAMENT_NAME, CITY, LICENSE_URL
 
+from .utils import (
+    extract_meeting_title_from_cleaned,
+    strip_detected_header_block,
+)
+
 XML_NS = "http://www.w3.org/XML/1998/namespace"
 TEI_NS = "http://www.tei-c.org/ns/1.0"
 
@@ -193,7 +198,21 @@ def txt_to_tei(txt_path: Path, meta: DocumentMetadata, out_path: Path) -> None:
     Convert a cleaned TXT file to a TEI XML component.
     """
     text = txt_path.read_text(encoding="utf-8")
-    tei_root = make_tei_root(meta, text)
+    # Try to detect the header block: REPUBLIKA… / KUVENDI / <TITLE LINES> / PROCESVERBAL
+    detected = extract_meeting_title_from_cleaned(text)
+    if detected:
+        title, used_idx = detected
+        # Put the detected (possibly multi-line) title into the SQ header.
+        # If there is no explicit English title, mirror the same string for now.
+        meta.title_sq = title
+        if not getattr(meta, "title_en", None):
+            meta.title_en = title
+        body_text = strip_detected_header_block(text, used_idx)
+    else:
+        body_text = text
+
+    tei_root = make_tei_root(meta, body_text)
+
     out_path.parent.mkdir(parents=True, exist_ok=True)
     tree = ET.ElementTree(tei_root)
     tree.write(out_path, encoding="utf-8", xml_declaration=True)
