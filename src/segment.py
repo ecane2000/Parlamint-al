@@ -23,6 +23,7 @@ SESSION_HDR = re.compile(r"^\s*(Seanca|Mbledhja|Konferenca e Kryetarëve)\b.*$",
 
 def _paragraphs(text: str) -> List[str]:
     # Split on blank lines, preserve internal newlines
+
     parts = _RE.split(text, r"\n\s*\n") if _RE is not re else re.split(r"\n\s*\n", text)
     return [p.strip("\n") for p in parts if p.strip("\n")]
 

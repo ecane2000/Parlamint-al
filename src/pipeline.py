@@ -1,17 +1,13 @@
 from __future__ import annotations
-
 from collections import defaultdict
-from pathlib import Path
 from typing import Dict
-
 from . import config
 from .utils import filename_stem_from_url, guess_date_from_url
-from .metadata import (
-    DocumentMetadata,
-    metadata_from_url,
-    make_document_id,
-)
-from .tei import txt_to_tei
+from pathlib import Path
+import glob
+from .segment import segment_by_speakers
+from .metadata import ensure_speakers_csv, ensure_orgs_csv
+from .tei import write_plain_day
 
 
 def build_url_index() -> Dict[str, str]:
@@ -26,50 +22,36 @@ def build_url_index() -> Dict[str, str]:
     return index
 
 
-def convert_inbox_to_tei(
-    inbox_root: Path,
-    out_root: Path,
-    country_code: str = "AL",
-) -> None:
+def convert_inbox_to_tei(inbox_root: Path, out_root: Path) -> None:
     """
-    Read cleaned TXT files from <inbox_root>/cleaned and write
-    TEI components into <out_root>/plain.
+    Read cleaned TXT files from <inbox_root>/cleaned, detect speakers/utterances,
+    and write ParlaMint plain day-files into <out_root>/plain.
     """
-    cleaned = inbox_root / "cleaned"
+    cleaned = Path(inbox_root) / "cleaned"
     if not cleaned.exists():
         raise FileNotFoundError(f"Cleaned TXT directory not found: {cleaned}")
+    plain_dir = Path(out_root) / "plain"
+    (plain_dir).mkdir(parents=True, exist_ok=True)
 
-    plain_dir = out_root / "plain"
-    plain_dir.mkdir(parents=True, exist_ok=True)
+    for f in sorted(glob.glob(str(cleaned / "*.txt"))):
+        stem = Path(f).stem
+        txt = Path(f).read_text(encoding="utf-8")
+        session = segment_by_speakers(stem, txt)
 
-    url_index = build_url_index()
-    per_date_counter: Dict[str, int] = defaultdict(int)
+        # (i) accumulate speakers -> meta/speakers.csv
+        people_map = ensure_speakers_csv(session["speakers_found"], meta_root=Path("meta"))
+        ensure_orgs_csv(meta_root=Path("meta"))  # (iv) ensure meta/orgs.csv exists
 
-    # Iterate cleaned TXT files
-    for txt_path in sorted(cleaned.glob("*.txt")):
-        stem = txt_path.stem
-        url = url_index.get(stem)
+        # build name->id (lowercased full name)
+        name_to_pid = {}
+        for pid, row in people_map.items():
+            key = f'{row.get("forename","")} {row.get("surname","")}'.strip().lower()
+            if key:
+                name_to_pid[key] = pid
 
-        if url:
-            meta = metadata_from_url(url, country_code=country_code)
-        else:
-            # Fallback: try to guess date from the stem itself
-            date = guess_date_from_url(stem)
-            doc_id = make_document_id(country_code, date)
-            meta = DocumentMetadata(
-                doc_id=doc_id,
-                date=date,
-                country_code=country_code,
-            )
-
-        # If multiple components share the same date, disambiguate
-        idx = per_date_counter[meta.date]
-        per_date_counter[meta.date] = 1
-        if idx:
-            meta.doc_id = make_document_id(meta.country_code, meta.date, index=idx)
-
-        out_path = plain_dir / f"{meta.doc_id}.xml"
-        txt_to_tei(txt_path, meta, out_path)
+        out_path = plain_dir / f"ParlaMint-AL_{session['date']}.xml"
+        write_plain_day(session, speakers_idx=name_to_pid, out_path=out_path,
+                        license_url="https://creativecommons.org/licenses/by/4.0/")
 
 
 def annotate_tei(
@@ -131,8 +113,7 @@ def main(argv=None) -> None:
     args = ap.parse_args(argv)
 
     # Always: TXT -> TEI
-    convert_inbox_to_tei(args.inbox, args.out, country_code=args.country_code)
-
+    convert_inbox_to_tei(args.inbox, args.out)
     # Only if requested: TEI -> TEI.ana
     if args.with_ana:
         annotate_tei(args.out, annotator=args.annotator)

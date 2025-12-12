@@ -21,10 +21,42 @@ TEI_NS = "http://www.tei-c.org/ns/1.0"
 ET.register_namespace("", TEI_NS)
 ET.register_namespace("xml", XML_NS)
 
+# --- NEW: minimal TEI header/root builder used by write_plain_day ---
+def tei_root(title: str, when_iso: str, license_url: str):
+    """
+    Build a lightweight ParlaMint-style TEI root with a sane header.
+    write_plain_day(...) will append <text>/<body>/<u> afterwards.
+    """
+    # NOTE: relies on a module-level helper q(tag) -> '{TEI_NS}tag'
+    TEI = ET.Element(q("TEI"), {
+        "{http://www.w3.org/XML/1998/namespace}lang": "sq"
+    })
+    teiHeader = ET.SubElement(TEI, q("teiHeader"))
+    fileDesc = ET.SubElement(teiHeader, q("fileDesc"))
+    titleStmt = ET.SubElement(fileDesc, q("titleStmt"))
+    ET.SubElement(titleStmt, q("title"), {
+        "type": "main",
+        "{http://www.w3.org/XML/1998/namespace}lang": "sq"
+    }).text = title
+
+    publicationStmt = ET.SubElement(fileDesc, q("publicationStmt"))
+    availability = ET.SubElement(publicationStmt, q("availability"), {"status": "free"})
+    ET.SubElement(availability, q("licence")).text = license_url
+    ET.SubElement(publicationStmt, q("date"), {"when": when_iso}).text = when_iso
+
+    sourceDesc = ET.SubElement(fileDesc, q("sourceDesc"))
+    ET.SubElement(sourceDesc, q("p")).text = "Source: Parliament of Albania."
+
+    # Do NOT create <text> here; write_plain_day() will add it.
+    return TEI
 
 def qname(local: str) -> str:
     """Build a TEI QName."""
     return f"{{{TEI_NS}}}{local}"
+
+TEI_NS = "http://www.tei-c.org/ns/1.0"
+def q(tag: str) -> str:
+    return f"{{{TEI_NS}}}{tag}"
 
 
 def make_tei_root(meta: DocumentMetadata, body_text: str) -> ET.Element:
@@ -166,9 +198,11 @@ def write_plain_day(session, speakers_idx, out_path, license_url):
     text = ET.SubElement(root, q("text"))
     body = ET.SubElement(text, q("body"))
     div  = ET.SubElement(body, q("div"), {"type":"session", "when": session["date"]})
-    for i,u in enumerate(session["utterances"],1):
+
+    for i, u in enumerate(session["utterances"], 1):
         who_name = u.get("who_name") or u.get("who") or "UNKNOWN"
-        pid = speakers_idx.get(who_name.lower()) if isinstance(speakers_idx, dict) else None
+        pid = speakers_idx.get((who_name or "").lower()) if isinstance(speakers_idx, dict) else None
+         
         who = f"#{pid}" if pid else "#pAL_UNKNOWN"
         u_el = ET.SubElement(div, q("u"), {"xml:id":f"spAL_{i:04d}", "who": who})
 

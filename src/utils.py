@@ -120,3 +120,52 @@ def normalize_text(text: str) -> str:
     British spelling alias used elsewhere in the code base.
     """
     return normalize_preserve_para_before_caps(text)
+
+
+_RE_YMD = re.compile(r"(?P<y>\d{4})[-_](?P<m>\d{2})[-_](?P<d>\d{2})")
+_RE_DMY = re.compile(r"(?P<d>\d{2})[.\-/_](?P<m>\d{2})[.\-/_](?P<y>\d{4})")
+_RE_YYYYMMDD = re.compile(r"(?P<y>\d{4})(?P<m>\d{2})(?P<d>\d{2})")
+
+def _safe_date(y: str, m: str, d: str) -> str | None:
+    try:
+        return datetime(int(y), int(m), int(d)).strftime("%Y-%m-%d")
+    except ValueError:
+        return None
+    
+
+def _extract_date(s: str) -> str | None:
+    if not s:
+        return None
+    m = _RE_YMD.search(s)
+    if m:
+        got = _safe_date(m["y"], m["m"], m["d"])
+        if got: return got
+    m = _RE_DMY.search(s)
+    if m:
+        got = _safe_date(m["y"], m["m"], m["d"])
+        if got: return got
+    m = _RE_YYYYMMDD.search(s)
+    if m:
+        got = _safe_date(m["y"], m["m"], m["d"])
+        if got: return got
+    return None
+
+def parse_date_from_filename_or_text(stem: str, text: str | None = None) -> str:
+    """
+    Try to find a date for this document. Preference order:
+      1) filename/stem (e.g., ParlaMint-AL_2025-10-08, 08.10.2025, 20251008)
+      2) first date-like pattern in the text
+      3) fallback to today's date
+    Returns ISO date 'YYYY-MM-DD'.
+    """
+    # 1) stem
+    got = _extract_date(stem)
+    if got:
+        return got
+    # 2) text
+    if text:
+        got = _extract_date(text[:2000]) or _extract_date(text)  # quick scan first
+        if got:
+            return got
+    # 3) fallback
+    return datetime.today().strftime("%Y-%m-%d")
