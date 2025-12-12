@@ -12,6 +12,7 @@ from .config import PARLIAMENT_NAME, CITY, LICENSE_URL
 from .utils import (
     extract_meeting_title_from_cleaned,
     strip_detected_header_block,
+    normalize_text,
 )
 
 XML_NS = "http://www.w3.org/XML/1998/namespace"
@@ -159,6 +160,26 @@ def split_into_paragraphs(text: str) -> Iterable[str]:
     else:
         parts = [line.strip() for line in text.splitlines() if line.strip()]
     return parts
+
+def write_plain_day(session, speakers_idx, out_path, license_url):
+    root = tei_root(session["title"], session["date"], license_url)
+    text = ET.SubElement(root, q("text"))
+    body = ET.SubElement(text, q("body"))
+    div  = ET.SubElement(body, q("div"), {"type":"session", "when": session["date"]})
+    for i,u in enumerate(session["utterances"],1):
+        who_name = u.get("who_name") or u.get("who") or "UNKNOWN"
+        pid = speakers_idx.get(who_name.lower()) if isinstance(speakers_idx, dict) else None
+        who = f"#{pid}" if pid else "#pAL_UNKNOWN"
+        u_el = ET.SubElement(div, q("u"), {"xml:id":f"spAL_{i:04d}", "who": who})
+
+        # Preserve paragraph breaks inside the utterance: split on blank lines -> <seg>
+        paras = [p for p in u["text"].split("\n\n") if p.strip()]
+        if not paras:
+            paras = [u["text"]]
+        for para in paras:
+            seg = ET.SubElement(u_el, q("seg"))
+            seg.text = para
+    ET.ElementTree(root).write(out_path, encoding="utf-8", xml_declaration=True)
 
 
 def build_text_block(meta: DocumentMetadata, body_text: str) -> ET.Element:
