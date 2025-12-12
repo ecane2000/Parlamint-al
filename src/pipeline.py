@@ -1,4 +1,3 @@
-# pipeline.py
 from __future__ import annotations
 
 from collections import defaultdict
@@ -7,9 +6,12 @@ from typing import Dict
 
 from . import config
 from .utils import filename_stem_from_url, guess_date_from_url
-from .metadata import DocumentMetadata, metadata_from_url, make_document_id
+from .metadata import (
+    DocumentMetadata,
+    metadata_from_url,
+    make_document_id,
+)
 from .tei import txt_to_tei
-# from .annotate import annotate_corpus_stanza
 
 
 def build_url_index() -> Dict[str, str]:
@@ -43,6 +45,7 @@ def convert_inbox_to_tei(
     url_index = build_url_index()
     per_date_counter: Dict[str, int] = defaultdict(int)
 
+    # Iterate cleaned TXT files
     for txt_path in sorted(cleaned.glob("*.txt")):
         stem = txt_path.stem
         url = url_index.get(stem)
@@ -61,7 +64,7 @@ def convert_inbox_to_tei(
 
         # If multiple components share the same date, disambiguate
         idx = per_date_counter[meta.date]
-        per_date_counter[meta.date] += 1
+        per_date_counter[meta.date] = 1
         if idx:
             meta.doc_id = make_document_id(meta.country_code, meta.date, index=idx)
 
@@ -89,6 +92,7 @@ def annotate_tei(
     else:
         raise ValueError(f"Unknown annotator: {annotator}")
 
+
 def main(argv=None) -> None:
     import argparse
 
@@ -104,10 +108,9 @@ def main(argv=None) -> None:
     ap.add_argument(
         "--out",
         type=Path,
-        default=Path("TEI"),      # 👈 instead of Path("out")
+        default=Path("out"),
         help="Output root directory (plain/ and ana/ will be created).",
     )
-
     ap.add_argument(
         "--country-code",
         default="AL",
@@ -127,14 +130,13 @@ def main(argv=None) -> None:
 
     args = ap.parse_args(argv)
 
-    # ✅ ALWAYS do TXT -> TEI:
+    # Always: TXT -> TEI
     convert_inbox_to_tei(args.inbox, args.out, country_code=args.country_code)
 
-    # ✅ ONLY if requested, do TEI -> TEI.ana:
+    # Only if requested: TEI -> TEI.ana
     if args.with_ana:
         annotate_tei(args.out, annotator=args.annotator)
 
 
 if __name__ == "__main__":
     main()
-
