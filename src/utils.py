@@ -115,7 +115,7 @@ def normalize_preserve_para_before_caps(text: str) -> str:
     return re.sub(r"\n[ \t]*([^\n])", _joiner, t)
 
 
-def normalise_text(text: str) -> str:
+def normalize_text(text: str) -> str:
     """
     British spelling alias used elsewhere in the code base.
     """
