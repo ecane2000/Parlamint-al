@@ -110,32 +110,28 @@ def normalize_preserve_para_before_caps(text: str) -> str:
       - lines starting with a capital letter start a new paragraph that
         segment.py can detect via blank lines (\n\n).
     """
-    # Collapse spaces/tabs but keep existing newlines
+    # collapse spaces/tabs but keep \n
     t = re.sub(r"[^\S\r\n]+", " ", text).strip()
 
     def _joiner(m):
         ch = m.group(1)
-        # ch is the first non-newline character after \n[ \t]*
-        if ch.isupper() or ch in "ÇË":
-            # Preserve as a paragraph break: ensure TWO newlines before the capital
-            return "\n\n" + ch
-        else:
-            # Flatten this newline into a space
-            return " " + ch
+        return ("\n" + ch) if (ch.isupper() or ch in "ÇË") else (" " + ch)
 
-    # For every "\n + optional spaces + next char":
-    # - promote to paragraph break if next char is uppercase
-    # - otherwise join with a space
+    # decide per newline: preserve before uppercase, else flatten
     return re.sub(r"\n[ \t]*([^\n])", _joiner, t)
-
-
 
 def normalize_text(text: str) -> str:
     """
-    British spelling alias used elsewhere in the code base.
+    Pipeline entry point:
+      - remove page-number artefacts
+      - then normalize whitespace / paragraph breaks.
     """
+    text = remove_page_numbers(text)
     return normalize_preserve_para_before_caps(text)
 
+# British spelling alias used by crawl.py
+def normalise_text(text: str) -> str:
+    return normalize_text(text)
 
 _RE_YMD = re.compile(r"(?P<y>\d{4})[-_](?P<m>\d{2})[-_](?P<d>\d{2})")
 _RE_DMY = re.compile(r"(?P<d>\d{2})[.\-/_](?P<m>\d{2})[.\-/_](?P<y>\d{4})")
@@ -184,3 +180,36 @@ def parse_date_from_filename_or_text(stem: str, text: str | None = None) -> str:
             return got
     # 3) fallback
     return datetime.today().strftime("%Y-%m-%d")
+
+import re
+# ... rest of imports already there
+
+def remove_page_numbers(text: str) -> str:
+    """
+    Remove page numbers from a cleaned text.
+
+    Rules:
+    1) Drop lines that consist only of digits + whitespace (e.g. " 2   ").
+    2) If a line starts with optional spaces, then digits, then AT LEAST two spaces,
+       and then some text, strip off the number + spaces and keep the text.
+       Example: " 16    edhe një herë..." -> "edhe një herë..."
+    """
+    out_lines = []
+    for line in text.splitlines():
+        stripped = line.strip()
+
+        # Case 1: line is just a number (page number alone)
+        if stripped.isdigit():
+            continue
+
+        # Case 2: page number at line start, then 2+ spaces, then text
+        m = re.match(r"^(\s*)(\d{1,3})(\s{2,})(.+)$", line)
+        if m:
+            leading_ws, num, spaces, rest = m.groups()
+            cleaned_line = leading_ws + rest.lstrip()
+            out_lines.append(cleaned_line)
+        else:
+            out_lines.append(line)
+
+    return "\n".join(out_lines)
+

@@ -195,16 +195,62 @@ def split_into_paragraphs(text: str) -> Iterable[str]:
 
 def write_plain_day(session, speakers_idx, out_path, license_url):
     root = tei_root(session["title"], session["date"], license_url)
+
+    # --- Attach extra metadata into teiHeader/fileDesc/notesStmt ---
+    header = root.find(q("teiHeader"))
+    if header is not None:
+        fileDesc = header.find(q("fileDesc"))
+        if fileDesc is None:
+            fileDesc = ET.SubElement(header, q("fileDesc"))
+        notesStmt = fileDesc.find(q("notesStmt"))
+        if notesStmt is None:
+            notesStmt = ET.SubElement(fileDesc, q("notesStmt"))
+
+        # Chair note
+        chair_name = session.get("chair_name")
+        chair_role = session.get("chair_role")
+        if chair_name or chair_role:
+            note = ET.SubElement(notesStmt, q("note"), {"type": "chair"})
+            parts = []
+            if chair_name:
+                parts.append(chair_name)
+            if chair_role:
+                parts.append(" – " + chair_role if chair_name else chair_role)
+            note.text = "".join(parts)
+
+        # Agenda / topics
+        topics = session.get("topics") or []
+        if topics:
+            note_ag = ET.SubElement(notesStmt, q("note"), {"type": "agenda"})
+            lst = ET.SubElement(note_ag, q("list"))
+            for t in topics:
+                n = t.get("n")
+                it_attrib = {"n": str(n)} if n else {}
+                it = ET.SubElement(lst, q("item"), it_attrib)
+                it.text = t.get("text")
+
+        # Participants: present / absent / guests
+        for key, ntype in [
+            ("participants_present", "participants-present"),
+            ("participants_absent", "participants-absent"),
+            ("participants_guests", "participants-guests"),
+        ]:
+            val = session.get(key)
+            if val:
+                note = ET.SubElement(notesStmt, q("note"), {"type": ntype})
+                note.text = val
+
+    # --- Body / utterances as before ---
     text = ET.SubElement(root, q("text"))
     body = ET.SubElement(text, q("body"))
-    div  = ET.SubElement(body, q("div"), {"type":"session", "when": session["date"]})
+    div  = ET.SubElement(body, q("div"), {"type": "session", "when": session["date"]})
 
     for i, u in enumerate(session["utterances"], 1):
         who_name = u.get("who_name") or u.get("who") or "UNKNOWN"
         pid = speakers_idx.get((who_name or "").lower()) if isinstance(speakers_idx, dict) else None
-         
+
         who = f"#{pid}" if pid else "#pAL_UNKNOWN"
-        u_el = ET.SubElement(div, q("u"), {"xml:id":f"spAL_{i:04d}", "who": who})
+        u_el = ET.SubElement(div, q("u"), {"xml:id": f"spAL_{i:04d}", "who": who})
 
         # Preserve paragraph breaks inside the utterance: split on blank lines -> <seg>
         paras = [p for p in u["text"].split("\n\n") if p.strip()]
@@ -213,8 +259,8 @@ def write_plain_day(session, speakers_idx, out_path, license_url):
         for para in paras:
             seg = ET.SubElement(u_el, q("seg"))
             seg.text = para
-    ET.ElementTree(root).write(out_path, encoding="utf-8", xml_declaration=True)
 
+    ET.ElementTree(root).write(out_path, encoding="utf-8", xml_declaration=True)
 
 def build_text_block(meta: DocumentMetadata, body_text: str) -> ET.Element:
     """
