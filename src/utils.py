@@ -101,18 +101,33 @@ def strip_detected_header_block(text: str, used_line_indexes: List[int]) -> str:
 def normalize_preserve_para_before_caps(text: str) -> str:
     """
     Normalize horizontal whitespace but:
-      - keep a newline ONLY if the next non-space char is uppercase (incl. Ç, Ë)
+      - if the next non-space char on the next line is uppercase (incl. Ç, Ë),
+        keep a PARAGRAPH break (blank line) before it,
       - otherwise collapse that newline to a space.
+
+    Effect:
+      - normal lines are joined into running text,
+      - lines starting with a capital letter start a new paragraph that
+        segment.py can detect via blank lines (\n\n).
     """
-    # collapse spaces/tabs but keep \n
+    # Collapse spaces/tabs but keep existing newlines
     t = re.sub(r"[^\S\r\n]+", " ", text).strip()
 
     def _joiner(m):
         ch = m.group(1)
-        return ("\n" + ch) if (ch.isupper() or ch in "ÇË") else (" " + ch)
+        # ch is the first non-newline character after \n[ \t]*
+        if ch.isupper() or ch in "ÇË":
+            # Preserve as a paragraph break: ensure TWO newlines before the capital
+            return "\n\n" + ch
+        else:
+            # Flatten this newline into a space
+            return " " + ch
 
-    # decide per newline: preserve before uppercase, else flatten
+    # For every "\n + optional spaces + next char":
+    # - promote to paragraph break if next char is uppercase
+    # - otherwise join with a space
     return re.sub(r"\n[ \t]*([^\n])", _joiner, t)
+
 
 
 def normalize_text(text: str) -> str:

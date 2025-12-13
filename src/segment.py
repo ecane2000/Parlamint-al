@@ -13,6 +13,7 @@ try:
     import regex as _rx  # allows \p{L}
     _RE = _rx
     SPEAKER_LINE = _rx.compile(rf"^({_NAME_TOKEN}\s+{_NAME_TOKEN})\s{_DASH}\s(.*)$")
+    
 except Exception:
     # Fallback without \p{L} (works reasonably for Albanian too)
     _RE = re
@@ -21,10 +22,17 @@ except Exception:
 
 SESSION_HDR = re.compile(r"^\s*(Seanca|Mbledhja|Konferenca e Kryetarëve)\b.*$", re.I)
 
+
 def _paragraphs(text: str) -> List[str]:
     # Split on blank lines, preserve internal newlines
 
-    parts = _RE.split(text, r"\n\s*\n") if _RE is not re else re.split(r"\n\s*\n", text)
+    pattern = r"\n\s*\n"
+    if _RE is not re:
+        # regex module: same API as re.split(pattern, string)
+        parts = _RE.split(pattern, text)
+    else:
+        parts = re.split(pattern, text)
+
     return [p.strip("\n") for p in parts if p.strip("\n")]
 
 def segment_by_speakers(stem: str, text: str) -> Dict:
