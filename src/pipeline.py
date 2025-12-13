@@ -2,12 +2,12 @@ from __future__ import annotations
 from collections import defaultdict
 from typing import Dict
 from . import config
-from .utils import filename_stem_from_url, guess_date_from_url
 from pathlib import Path
 import glob
 from .segment import segment_by_speakers
 from .metadata import ensure_speakers_csv, ensure_orgs_csv
 from .tei import write_plain_day
+from .utils import filename_stem_from_url, guess_date_from_url, normalize_text
 
 
 def build_url_index() -> Dict[str, str]:
@@ -35,9 +35,10 @@ def convert_inbox_to_tei(inbox_root: Path, out_root: Path) -> None:
 
     for f in sorted(glob.glob(str(cleaned / "*.txt"))):
         stem = Path(f).stem
-        txt = Path(f).read_text(encoding="utf-8")
+        raw_txt = Path(f).read_text(encoding="utf-8")
+        txt = normalize_text(raw_txt)
         session = segment_by_speakers(stem, txt)
-
+        
         # (i) accumulate speakers -> meta/speakers.csv
         people_map = ensure_speakers_csv(session["speakers_found"], meta_root=Path("meta"))
         ensure_orgs_csv(meta_root=Path("meta"))  # (iv) ensure meta/orgs.csv exists

@@ -25,14 +25,8 @@ SESSION_HDR = re.compile(r"^\s*(Seanca|Mbledhja|Konferenca e Kryetarëve)\b.*$",
 
 def _paragraphs(text: str) -> List[str]:
     # Split on blank lines, preserve internal newlines
-
-    pattern = r"\n\s*\n"
-    if _RE is not re:
-        # regex module: same API as re.split(pattern, string)
-        parts = _RE.split(pattern, text)
-    else:
-        parts = re.split(pattern, text)
-
+    text = text.replace("\r\n", "\n")
+    parts = _RE.split(r"\n\s*\n", text)  # pattern first, then text
     return [p.strip("\n") for p in parts if p.strip("\n")]
 
 def segment_by_speakers(stem: str, text: str) -> Dict:
