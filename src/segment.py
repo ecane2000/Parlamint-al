@@ -12,14 +12,19 @@ _DASH = r"[–—-]"
 _NAME_TOKEN = r"[A-ZÇË][\w\p{L}\.'’-]*"
 try:
     import regex as _rx  # allows \p{L}
+
     _RE = _rx
+    # NOTE: use raw double-quoted strings so the ASCII apostrophe (') is safe
     SPEAKER_LINE = _rx.compile(rf"^({_NAME_TOKEN}\s+{_NAME_TOKEN})\s{_DASH}\s(.*)$")
-    
+  
 except Exception:
     # Fallback without \p{L} (works reasonably for Albanian too)
     _RE = re
+
     NAME_TOKEN_FALLBACK = r"[A-ZÇË][A-Za-zÇËçëĞğŠšŽžËëÇçÀ-ÖØ-öø-ÿ'\.\-’]*"
+    # Also switch to raw double-quoted here
     SPEAKER_LINE = re.compile(rf"^({NAME_TOKEN_FALLBACK}\s+{NAME_TOKEN_FALLBACK})\s{_DASH}\s(.*)$")
+
 
 SESSION_HDR = re.compile(r"^\s*(Seanca|Mbledhja|Konferenca e Kryetarëve)\b.*$", re.I)
 
@@ -137,15 +142,16 @@ def _extract_session_metadata(header_text: str) -> Dict:
 # in segment.py
 try:
     import regex as re  # supports \p{L}
+    
 except ImportError:
     import re
 
-SPEAKER_RE = re.compile(
-    r'^\s*(?P<name>[A-ZÇË][\p{L}\.'’\-]*\s+[A-ZÇË][\p{L}\.'’\-]*)'
-    r'\s*(?:[–—-])\s+(?P<rest>.+)$',
-    re.UNICODE
-)
 
+
+SPEAKER_RE = re.compile(
+    r"^\s*(?P<name>[A-ZÇË][\p{L}\.'’\-]*\s+[A-ZÇË][\p{L}\.'’\-]*)\s*(?:[–—-])\s+(?P<rest>.+)$",
+    re.UNICODE,
+)
 def segment_by_speakers(stem: str, text: str):
     text = normalize_for_segmentation(text)  # from step 1
     lines = text.splitlines()

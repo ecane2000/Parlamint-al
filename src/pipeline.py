@@ -35,13 +35,12 @@ def convert_inbox_to_tei(inbox_root: Path, out_root: Path) -> None:
 
     for f in sorted(glob.glob(str(cleaned / "*.txt"))):
         stem = Path(f).stem
+       
         raw_txt = Path(f).read_text(encoding="utf-8")
         txt = normalize_text(raw_txt)
-        text = normalize_for_segmentation(text)
-        text = reinsert_breaks_before_speakers(text)
-        session = segment_by_speakers(stem, text)
-        
-        
+        txt = normalize_for_segmentation(txt)
+        txt = reinsert_breaks_before_speakers(txt)
+        session = segment_by_speakers(stem, txt)        
         # (i) accumulate speakers -> meta/speakers.csv
         people_map = ensure_speakers_csv(session["speakers_found"], meta_root=Path("meta"))
         ensure_orgs_csv(meta_root=Path("meta"))  # (iv) ensure meta/orgs.csv exists

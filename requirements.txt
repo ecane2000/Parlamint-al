@@ -6,3 +6,4 @@ torch>=2.1.0
 transformers==4.44.2
 ufal.udpipe
 conllu
+regex>=2024.5.15

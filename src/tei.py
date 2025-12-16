@@ -245,6 +245,14 @@ def write_plain_day(session, speakers_idx, out_path, license_url):
     body = ET.SubElement(text, q("body"))
     div  = ET.SubElement(body, q("div"), {"type": "session", "when": session["date"]})
 
+    # helper: normalize body text, preserving paragraph breaks if supported
+    def _norm_body(s: str) -> str:
+        try:
+            return normalize_text(s, preserve_paragraphs=True)
+        except TypeError:
+            # older normalize_text without the kwarg
+            return normalize_text(s)
+
     for i, u in enumerate(session["utterances"], 1):
         who_name = u.get("who_name") or u.get("who") or "UNKNOWN"
         pid = speakers_idx.get((who_name or "").lower()) if isinstance(speakers_idx, dict) else None
@@ -253,7 +261,8 @@ def write_plain_day(session, speakers_idx, out_path, license_url):
         u_el = ET.SubElement(div, q("u"), {"xml:id": f"spAL_{i:04d}", "who": who})
 
         # Preserve paragraph breaks inside the utterance: split on blank lines -> <seg>
-        utext = normalize_text(u["text"], preserve_paragraphs=True)
+        utext = _norm_body(u["text"])
+
         paras = [p for p in utext.split("\n\n") if p.strip()]
         for para in paras:
             seg = ET.SubElement(u_el, q("seg"))
