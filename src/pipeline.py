@@ -4,10 +4,10 @@ from typing import Dict
 from . import config
 from pathlib import Path
 import glob
-from .segment import segment_by_speakers
+from .segment import segment_by_speakers, reinsert_breaks_before_speakers
 from .metadata import ensure_speakers_csv, ensure_orgs_csv
 from .tei import write_plain_day
-from .utils import filename_stem_from_url, guess_date_from_url, normalize_text
+from .utils import filename_stem_from_url, guess_date_from_url, normalize_text, normalize_for_segmentation
 
 
 def build_url_index() -> Dict[str, str]:
@@ -37,7 +37,10 @@ def convert_inbox_to_tei(inbox_root: Path, out_root: Path) -> None:
         stem = Path(f).stem
         raw_txt = Path(f).read_text(encoding="utf-8")
         txt = normalize_text(raw_txt)
-        session = segment_by_speakers(stem, txt)
+        text = normalize_for_segmentation(text)
+        text = reinsert_breaks_before_speakers(text)
+        session = segment_by_speakers(stem, text)
+        
         
         # (i) accumulate speakers -> meta/speakers.csv
         people_map = ensure_speakers_csv(session["speakers_found"], meta_root=Path("meta"))

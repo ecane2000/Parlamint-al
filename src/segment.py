@@ -187,3 +187,10 @@ def segment_by_speakers(stem: str, text: str):
         "speakers_found": speakers_found,
     }
 
+def reinsert_breaks_before_speakers(text: str) -> str:
+    out = []
+    for ln in text.splitlines():
+        if SPEAKER_RE.match(ln) and out and out[-1].strip() != "":
+            out.append("")  # insert a blank line
+        out.append(ln)
+    return "\n".join(out)
