@@ -1,7 +1,7 @@
 # segment.py — speaker-based segmentation per spec
 import re
 from typing import List, Dict, Tuple
-from .utils import parse_date_from_filename_or_text, normalize_text
+from .utils import parse_date_from_filename_or_text, normalize_text, normalize_for_segmentation
 
 
 # Accept EN dash, EM dash, hyphen; require exactly TWO tokens, each Initial-capital,
@@ -134,72 +134,56 @@ def _extract_session_metadata(header_text: str) -> Dict:
 
     return meta
 
-def segment_by_speakers(stem: str, text: str) -> Dict:
-    """
-    Returns:
-      {
-        "date": "YYYY-MM-DD",
-        "title": "...",
-        "utterances": [
-           {"who_name":"Niko Peleshi", "text":"Mirëdita…\n…"},
-           ...
-        ],
-        "speakers_found": {...},
-        "chair_name": "...",
-        "chair_role": "...",
-        "topics": [{"n":"1","text":"..."}, ...],
-        "participants_present": "...",
-        "participants_absent": "...",
-        "participants_guests": "..."
-      }
-    """
+# in segment.py
+try:
+    import regex as re  # supports \p{L}
+except ImportError:
+    import re
 
-    # 1) Normalize text (remove page numbers, clean whitespace/paragraphs)
-    text = normalize_text(text)
+SPEAKER_RE = re.compile(
+    r'^\s*(?P<name>[A-ZÇË][\p{L}\.'’\-]*\s+[A-ZÇË][\p{L}\.'’\-]*)'
+    r'\s*(?:[–—-])\s+(?P<rest>.+)$',
+    re.UNICODE
+)
 
-    # 2) Date from filename or text
-    date = parse_date_from_filename_or_text(stem, text)
+def segment_by_speakers(stem: str, text: str):
+    text = normalize_for_segmentation(text)  # from step 1
+    lines = text.splitlines()
 
-    # 3) Split header/body and extract header metadata
-    header_text, body_text = _split_header_and_body(text)
-    extra_meta = _extract_session_metadata(header_text)
+    utterances = []
+    current = None
 
-    title = None
-    utterances: List[Dict] = []
-    speakers_found = set()
-
-    cur: Dict | None = None
-    for para in _paragraphs(body_text):
-        # use first line of paragraph to test speaker
-        first_line = para.splitlines()[0].strip()
-        if not title and SESSION_HDR.match(first_line):
-            title = first_line
-        m = SPEAKER_LINE.match(first_line)
+    for ln in lines:
+        m = SPEAKER_RE.match(ln)
         if m:
-            # close previous utterance
-            if cur and cur["text"].strip():
-                utterances.append(cur)
-            who_name = m.group(1).strip()
-            # replace the starting "Name – " with remaining text
-            rest_first = m.group(2)
-            rest_lines = para.splitlines()
-            rest_lines[0] = rest_first
-            body = "\n".join(rest_lines).strip()
-            cur = {"who_name": who_name, "text": body}
-            speakers_found.add(who_name)
+            # start a new utterance
+            who = m.group('name')
+            rest = m.group('rest').strip()
+            if current:
+                utterances.append(current)
+            current = {"who_name": who, "text": rest}
         else:
-            # continuation of current speaker if any; otherwise ignore as preamble
-            if cur is not None:
-                cur["text"] += "\n\n" + para
+            # continuation
+            if current:
+                if ln.strip() == "":
+                    # preserve paragraph boundaries inside <u> as blank lines
+                    current["text"] += "\n\n"
+                else:
+                    # keep natural line breaks
+                    current["text"] += ("\n" + ln)
+            # if no current, we’re in preamble; ignore or collect separately
 
-    if cur and cur["text"].strip():
-        utterances.append(cur)
+    if current:
+        utterances.append(current)
 
-    session = {
+    # build session dict (date/title—you already have helpers)
+    date = parse_date_from_filename_or_text(stem, text)
+    title = f"Seancë {date}"
+    speakers_found = {u["who_name"] for u in utterances}
+    return {
         "date": date,
-        "title": title or f"Seancë {date}",
+        "title": title,
         "utterances": utterances,
         "speakers_found": speakers_found,
     }
-    session.update(extra_meta)
-    return session
+

@@ -161,6 +161,18 @@ def _extract_date(s: str) -> str | None:
         if got: return got
     return None
 
+def normalize_for_segmentation(text: str) -> str:
+    # Replace NBSPs with regular spaces so \s matches:
+    text = text.replace('\u00A0', ' ').replace('\u202F', ' ')
+    # Unify dash characters
+    text = (text
+            .replace('\u2014', '–')   # em dash → en dash
+            .replace('\u2212', '-')   # minus sign → hyphen
+    )
+    # IMPORTANT: do NOT collapse single \n into spaces; keep paragraph breaks.
+    # If you previously had something like re.sub(r'\n{1,}', ' ', ...), remove it.
+    return text
+
 def parse_date_from_filename_or_text(stem: str, text: str | None = None) -> str:
     """
     Try to find a date for this document. Preference order:

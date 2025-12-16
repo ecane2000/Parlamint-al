@@ -253,12 +253,13 @@ def write_plain_day(session, speakers_idx, out_path, license_url):
         u_el = ET.SubElement(div, q("u"), {"xml:id": f"spAL_{i:04d}", "who": who})
 
         # Preserve paragraph breaks inside the utterance: split on blank lines -> <seg>
-        paras = [p for p in u["text"].split("\n\n") if p.strip()]
-        if not paras:
-            paras = [u["text"]]
+        utext = normalize_text(u["text"], preserve_paragraphs=True)
+        paras = [p for p in utext.split("\n\n") if p.strip()]
         for para in paras:
             seg = ET.SubElement(u_el, q("seg"))
             seg.text = para
+
+
 
     ET.ElementTree(root).write(out_path, encoding="utf-8", xml_declaration=True)
 
