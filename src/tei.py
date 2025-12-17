@@ -193,7 +193,13 @@ def split_into_paragraphs(text: str) -> Iterable[str]:
     return parts
 
 def write_plain_day(session, speakers_idx, out_path, license_url):
-    root = tei_root(session["title"], session["date"], license_url)
+
+    # Derive a sane title if not provided by the session
+    title = f"Kuvendi i Shqipërisë, Procesverbal, {session.get('date','')}"
+    if session.get("eventType"):
+        one_line = " / ".join([ln.strip() for ln in session["eventType"].splitlines() if ln.strip()])
+        title = f"Kuvendi i Shqipërisë — {one_line}, {session.get('date','')}"
+    root = tei_root(title, session.get("date",""), license_url)
 
     # --- Attach extra metadata into teiHeader/fileDesc/notesStmt ---
     header = root.find(q("teiHeader"))
