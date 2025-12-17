@@ -1,126 +1,59 @@
-from __future__ import annotations
-from collections import defaultdict
-from typing import Dict
-from . import config
+import argparse
 from pathlib import Path
 import glob
-from .segment import segment_by_speakers, reinsert_breaks_before_speakers
-from .metadata import ensure_speakers_csv, ensure_orgs_csv
+import unicodedata
+
+from .segment import segment_by_speakers
 from .tei import write_plain_day
-from .utils import filename_stem_from_url, guess_date_from_url, normalize_text, normalize_for_segmentation
+from .utils import normalize_for_segmentation
 
+DEFAULT_LICENSE = "https://creativecommons.org/licenses/by/4.0/"
 
-def build_url_index() -> Dict[str, str]:
-    """
-    Map filename stems to their source URLs so that we can recover
-    basic metadata (date, source URL) when building TEI.
-    """
-    index: Dict[str, str] = {}
-    for url in getattr(config, "PDF_URLS", []):
-        stem = filename_stem_from_url(url)
-        index[stem] = url
-    return index
+def _mint_pid(name: str) -> str:
+    # pAL_joridatabaku (strip spaces and accents)
+    base = ''.join(ch for ch in unicodedata.normalize('NFKD', name.lower()) if ch.isalnum())
+    return f"pAL_{base}" if base else "pAL_UNKNOWN"
 
+def convert_inbox_to_tei(inbox_dir: str, out_dir: str):
+    inbox = Path(inbox_dir)
+    candidates = []
+    candidates += glob.glob(str(inbox / "*.txt"))
+    candidates += glob.glob(str(inbox / "cleaned" / "*.txt"))
+    if not candidates:
+        raise FileNotFoundError(f"No TXT files found in {inbox} or {inbox/'cleaned'}")
+    out = Path(out_dir)
+    out_plain = out / "plain"
+    out_plain.mkdir(parents=True, exist_ok=True)
 
-def convert_inbox_to_tei(inbox_root: Path, out_root: Path) -> None:
-    """
-    Read cleaned TXT files from <inbox_root>/cleaned, detect speakers/utterances,
-    and write ParlaMint plain day-files into <out_root>/plain.
-    """
-    cleaned = Path(inbox_root) / "cleaned"
-    if not cleaned.exists():
-        raise FileNotFoundError(f"Cleaned TXT directory not found: {cleaned}")
-    plain_dir = Path(out_root) / "plain"
-    (plain_dir).mkdir(parents=True, exist_ok=True)
+    # group by date to avoid overwrite
+    per_date_count = {}
 
-    for f in sorted(glob.glob(str(cleaned / "*.txt"))):
+    for f in sorted(candidates):
         stem = Path(f).stem
-       
         raw_txt = Path(f).read_text(encoding="utf-8")
-        txt = normalize_text(raw_txt)
-        txt = normalize_for_segmentation(txt)
-        txt = reinsert_breaks_before_speakers(txt)
-        session = segment_by_speakers(stem, txt)        
-        # (i) accumulate speakers -> meta/speakers.csv
-        people_map = ensure_speakers_csv(session["speakers_found"], meta_root=Path("meta"))
-        ensure_orgs_csv(meta_root=Path("meta"))  # (iv) ensure meta/orgs.csv exists
+        cleaned = normalize_for_segmentation(raw_txt)
 
-        # build name->id (lowercased full name)
+        session = segment_by_speakers(stem, cleaned)
+
+        # simple name->pid dictionary
         name_to_pid = {}
-        for pid, row in people_map.items():
-            key = f'{row.get("forename","")} {row.get("surname","")}'.strip().lower()
-            if key:
-                name_to_pid[key] = pid
+        for who in session.get("speakers_found", []):
+            name_to_pid[who.lower()] = _mint_pid(who)
 
-        out_path = plain_dir / f"ParlaMint-AL_{session['date']}.xml"
-        write_plain_day(session, speakers_idx=name_to_pid, out_path=out_path,
-                        license_url="https://creativecommons.org/licenses/by/4.0/")
+        date = session.get("date") or "0000-00-00"
+        cnt = per_date_count.get(date, 0)
+        per_date_count[date] = cnt + 1
+        suffix = "" if cnt == 0 else f"_{cnt+1:02d}"
+        out_path = out_plain / f"ParlaMint-AL_{date}{suffix}.xml"
 
+        write_plain_day(session, speakers_idx=name_to_pid, out_path=out_path, license_url=DEFAULT_LICENSE)
 
-def annotate_tei(
-    out_root: Path,
-    annotator: str = "stanza",
-) -> None:
-    plain_dir = out_root / "plain"
-    ana_dir = out_root / "ana"
-
-    if annotator == "stanza":
-        # lazy import – only needed if you actually request annotation
-        from .annotate_stanza import annotate_corpus_stanza
-        annotate_corpus_stanza(plain_dir, ana_dir)
-
-    elif annotator == "udpipe":
-        from .annotate_udpipe import annotate_corpus_udpipe
-        from pathlib import Path as _Path
-        annotate_corpus_udpipe(plain_dir, ana_dir, _Path(config.UDPIPE_MODEL_PATH))
-
-    else:
-        raise ValueError(f"Unknown annotator: {annotator}")
-
-
-def main(argv=None) -> None:
-    import argparse
-
-    ap = argparse.ArgumentParser(
-        description="Minimal ParlaMint-AL pipeline: TXT -> TEI -> TEI.ana"
-    )
-    ap.add_argument(
-        "--inbox",
-        type=Path,
-        default=Path("inbox"),
-        help="Root inbox directory containing cleaned/ TXT files.",
-    )
-    ap.add_argument(
-        "--out",
-        type=Path,
-        default=Path("out"),
-        help="Output root directory (plain/ and ana/ will be created).",
-    )
-    ap.add_argument(
-        "--country-code",
-        default="AL",
-        help="ISO 3166 country code used in TEI ids (default: AL).",
-    )
-    ap.add_argument(
-        "--with-ana",
-        action="store_true",
-        help="Also run linguistic annotation to produce .ana TEI.",
-    )
-    ap.add_argument(
-        "--annotator",
-        choices=["stanza", "udpipe"],
-        default="stanza",
-        help="Annotator to use for .ana files.",
-    )
-
-    args = ap.parse_args(argv)
-
-    # Always: TXT -> TEI
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--inbox", default="inbox", help="Folder with cleaned TXT (or inbox/cleaned)")
+    ap.add_argument("--out", default="out", help="Output root folder")
+    args = ap.parse_args()
     convert_inbox_to_tei(args.inbox, args.out)
-    # Only if requested: TEI -> TEI.ana
-    if args.with_ana:
-        annotate_tei(args.out, annotator=args.annotator)
-
 
 if __name__ == "__main__":
     main()
