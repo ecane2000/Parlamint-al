@@ -6,7 +6,6 @@ from typing import Iterable
 
 import xml.etree.ElementTree as ET
 
-from .metadata import DocumentMetadata
 from .config import PARLIAMENT_NAME, CITY, LICENSE_URL
 
 from .utils import (

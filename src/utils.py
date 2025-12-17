@@ -1,7 +1,7 @@
 import re
 from datetime import datetime
 from typing import Optional, Tuple, List
-
+from urllib.parse import urlparse
 # --- Whitespace & text normalization ---
 
 def normalize_whitespace(text: str) -> str:
@@ -132,3 +132,52 @@ def split_name_function(line: str) -> Tuple[str, Optional[str]]:
     if m:
         return m.group(1).strip(), m.group(2).strip()
     return line.strip(), None
+
+def extract_meeting_title_from_cleaned(text: str, max_scan_lines: int = 80) -> Optional[Tuple[str, List[int]]]:
+    """
+    From a cleaned TXT, detect title lines between:
+      REPUBLIKA E SHQIPËRISË
+      KUVENDI
+      <ONE OR MORE TITLE LINES>
+      PROCESVERBAL
+    Returns (title_string, line_indexes_used) or None if not found.
+    Supports multi-line titles (e.g., two commissions).
+    """
+    lines = text.splitlines()
+    scan = lines[:max_scan_lines]
+    # Normalize for matching
+    norm = [_ascii_norm(x) for x in scan]
+
+    def is_header_rep(idx): return "republika e shqiperise" == norm[idx]
+    def is_header_kuv(idx): return "kuvendi" == norm[idx]
+    def is_procesverbal(idx): return "procesverbal" == norm[idx].replace(" ", "")
+
+    i = 0
+    while i < len(scan) - 3:  # need at least 4 lines ahead
+        if is_header_rep(i) and is_header_kuv(i+1):
+            # collect title lines until we hit PROCESVERBAL
+            j = i + 2
+            title_lines: List[str] = []
+            used_idx: List[int] = [i, i+1]
+            while j < len(scan):
+                if is_procesverbal(j):
+                    # stop before PROCESVERBAL
+                    used_idx.append(j)
+                    title = "\n".join([lines[k].strip() for k in range(i+2, j) if lines[k].strip()])
+                    if title:
+                        # include all indices used: header, title block, PROCESVERBAL
+                        used_idx.extend(list(range(i+2, j)))
+                        return (title, sorted(set(used_idx)))
+                    break
+                j += 1
+        i += 1
+    return None
+
+def strip_detected_header_block(text: str, used_line_indexes: List[int]) -> str:
+    """Remove the header lines used to form the title from the text body."""
+    lines = text.splitlines()
+    keep = [ln for idx, ln in enumerate(lines) if idx not in set(used_line_indexes)]
+    # Remove possible leading empty lines after strip
+    while keep and not keep[0].strip():
+        keep.pop(0)
+    return "\n".join(keep)
