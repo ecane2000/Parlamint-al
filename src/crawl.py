@@ -44,5 +44,23 @@ def main():
 
     print(f"Done. PDFs in {pdf_dir}, tentative TXT in {txt_dir}")
 
+# at bottom of src/crawl.py
+def crawl_urls(urls, pdf_out: str = "pdfs", txt_out: str = "raw_txt"):
+    """
+    Crawl a list of URLs (strings) and write PDFs/TXT out to the given folders.
+    Mirrors what main() does when fed --urls urls.txt.
+    """
+    from pathlib import Path
+    from .crawl import download_pdf_and_extract_text  # or your internal function
+
+    pdf_dir = Path(pdf_out); pdf_dir.mkdir(parents=True, exist_ok=True)
+    txt_dir = Path(txt_out); txt_dir.mkdir(parents=True, exist_ok=True)
+
+    for url in urls:
+        if not url or url.strip().startswith("#"):
+            continue
+        download_pdf_and_extract_text(url.strip(), pdf_dir, txt_dir)
+
+
 if __name__ == "__main__":
     main()
