@@ -152,8 +152,16 @@ def _convert_inbox_to_tei(inbox: Path, out_root: Path) -> None:
             eventTypeAna="#parla.sitting",
         )
 
-        print(f"[OK] {p.name} -> {out_path.relative_to(REPO_ROOT)}")
-
+        # Print a nice relative path if possible; otherwise print the plain path
+        try:
+            rel = out_path.resolve().relative_to(REPO_ROOT.resolve())
+        except Exception:
+            try:
+                import os
+                rel = Path(os.path.relpath(out_path.resolve(), REPO_ROOT.resolve()))
+            except Exception:
+                rel = out_path
+        print(f"[OK] {p.name} -> {rel}")
 
 # ---- CLI ---------------------------------------------------------------------
 
