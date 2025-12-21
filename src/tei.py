@@ -1,15 +1,34 @@
 # -*- coding: utf-8 -*-
+"""
+TEI day-file writer (plain variant), aligned with ParlaMint-HU style.
+
+- tei_root(title, when_iso, license_url) builds the header skeleton
+- write_plain_day(session, speakers_idx, out_path, license_url, eventTypeAna)
+  writes <text>/<body>/<div>/<u>/<seg> with HU-like structure
+"""
 from xml.etree import ElementTree as ET
+from pathlib import Path
 from typing import Dict, Optional
 from .utils import squash_ws
 
-NS = {"tei": "http://www.tei-c.org/ns/1.0"}
-def q(tag): return f"{{{NS['tei']}}}{tag}"
+TEI_NS = "http://www.tei-c.org/ns/1.0"
+XML_NS = "http://www.w3.org/XML/1998/namespace"
+NS = {"tei": TEI_NS, "xml": XML_NS}
+ET.register_namespace("", TEI_NS)
+ET.register_namespace("xml", XML_NS)
+
+def q(tag: str) -> str:
+    return f"{{{TEI_NS}}}{tag}"
+
+def xml_attr(local: str) -> str:
+    """Build a namespaced xml:* attribute name."""
+    return f"{{{XML_NS}}}{local}"
 
 def tei_root(title: str, when_iso: str, license_url: str) -> ET.Element:
-    root = ET.Element(q("TEI"), {"xmlns:tei": NS["tei"]})
+    root = ET.Element(q("TEI"))
     teiHeader = ET.SubElement(root, q("teiHeader"))
 
+    # fileDesc
     fileDesc = ET.SubElement(teiHeader, q("fileDesc"))
     titleStmt = ET.SubElement(fileDesc, q("titleStmt"))
     ET.SubElement(titleStmt, q("title"), {"type": "main"}).text = title
@@ -29,6 +48,7 @@ def tei_root(title: str, when_iso: str, license_url: str) -> ET.Element:
     if when_iso:
         ET.SubElement(bibl, q("date"), {"when": when_iso}).text = when_iso
 
+    # encodingDesc (taxonomy etc.)
     encodingDesc = ET.SubElement(teiHeader, q("encodingDesc"))
     projectDesc = ET.SubElement(encodingDesc, q("projectDesc"))
     ET.SubElement(projectDesc, q("p")).text = (
@@ -49,6 +69,7 @@ def tei_root(title: str, when_iso: str, license_url: str) -> ET.Element:
     ce2 = ET.SubElement(cat_events, q("category"), {"xml:id": "parla.committee"})
     ET.SubElement(ce2, q("catDesc")).text = "Komision"
 
+    # profileDesc
     profileDesc = ET.SubElement(teiHeader, q("profileDesc"))
     settingDesc = ET.SubElement(profileDesc, q("settingDesc"))
     setting = ET.SubElement(settingDesc, q("setting"))
@@ -58,6 +79,7 @@ def tei_root(title: str, when_iso: str, license_url: str) -> ET.Element:
     ET.SubElement(setting, q("placeName")).text = "Tiranë, AL"
     ET.SubElement(profileDesc, q("p")).text = "Pjesëmarrësit referohen te listPerson/listOrg në nivel korpusi."
 
+    # revisionDesc
     revisionDesc = ET.SubElement(teiHeader, q("revisionDesc"))
     ET.SubElement(revisionDesc, q("change"), {"when": when_iso or ""}).text = "Konvertimi fillestar në TEI (ParlaMint-AL)."
 
@@ -69,18 +91,30 @@ def write_plain_day(
     out_path: str,
     license_url: str,
     eventTypeAna: Optional[str] = None,
-):
+) -> None:
+    """
+    session = {
+      "title": str,
+      "date": "YYYY-MM-DD",
+      "time": "HH:MM" (optional),
+      "eventType": "lines between KUVENDI and PROCESVERBAL",
+      "chair_name": str,
+      "chair_role": str,
+      "utterances": [{"who_name": "...", "paragraphs": ["...", ...]}, ...]
+    }
+    """
     title = session.get("title") or f"Kuvendi i Shqipërisë, Procesverbal, {session.get('date','')}"
-    root = tei_root(title, session.get("date",""), license_url)
+    root = tei_root(title, session.get("date", ""), license_url)
 
-    # Enrich <titleStmt> with <meeting>
+    # meeting block in titleStmt (HU style)
     teiHeader = root.find(q("teiHeader"))
     titleStmt = teiHeader.find(f".//{q('titleStmt')}")
     meeting = ET.SubElement(titleStmt, q("meeting"))
     if session.get("eventType"):
         for line in session["eventType"].splitlines():
-            if line.strip():
-                ET.SubElement(meeting, q("p")).text = line.strip()
+            line = line.strip()
+            if line:
+                ET.SubElement(meeting, q("p")).text = line
     if session.get("date"):
         ET.SubElement(meeting, q("date"), {"when": session["date"]}).text = session["date"]
     if session.get("time"):
@@ -93,28 +127,33 @@ def write_plain_day(
     if eventTypeAna:
         meeting.set("ana", eventTypeAna)
 
-    text = ET.SubElement(root, q("text"), {"xml:lang": "sq"})
+    # text/body/div/utterances
+    text = ET.SubElement(root, q("text"), {xml_attr("lang"): "sq"})
+    body = ET.SubElement(text, q("body"))
     div_attrs = {"type": "debateSection"}
     if eventTypeAna:
         div_attrs["ana"] = eventTypeAna
-    body = ET.SubElement(text, q("body"))
     div = ET.SubElement(body, q("div"), div_attrs)
 
+    date_key = (session.get("date") or "0000-00-00").replace("-", "")
     for i, u in enumerate(session.get("utterances", []), 1):
-        who_name = u.get("who_name") or "UNKNOWN"
-        pid = speakers_idx.get((who_name or "").strip().lower())
-        who = f"#{pid}" if pid else "#pAL_UNKNOWN"
+        who_name = (u.get("who_name") or "").strip()
+        pid = speakers_idx.get(who_name.lower())
+        who_ref = f"#{pid}" if pid else "#pAL_UNKNOWN"
         u_el = ET.SubElement(
-            div, q("u"),
+            div,
+            q("u"),
             {
-                "xml:id": f"uAL_{session.get('date','0000-00-00').replace('-','')}_{i:04d}",
-                "who": who,
+                xml_attr("id"): f"uAL_{date_key}_{i:04d}",
+                "who": who_ref,
                 "ana": "#parla.speaker",
-            }
+            },
         )
         for seg in u.get("paragraphs", []):
             seg_el = ET.SubElement(u_el, q("seg"))
             seg_el.text = squash_ws(seg)
 
-    Path(out_path).parent.mkdir(parents=True, exist_ok=True)
-    ET.ElementTree(root).write(out_path, encoding="utf-8", xml_declaration=True)
+    # write file
+    out = Path(out_path)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    ET.ElementTree(root).write(out, encoding="utf-8", xml_declaration=True)

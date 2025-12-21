@@ -2,7 +2,7 @@
 import re
 from pathlib import Path
 
-# Unicode dash set: hyphen-minus, en dash, em dash
+# Accept hyphen-minus, en dash, em dash
 UNICODE_DASHES = r"[–—-]"
 SPACE_DASH_SPACE = re.compile(rf"\s*{UNICODE_DASHES}\s*")
 BLANK_PARA_RE = re.compile(r"\n\s*\n", flags=re.UNICODE)
@@ -25,6 +25,7 @@ def normalize_name(name: str) -> str:
     return re.sub(r"\s+", " ", (name or "").strip()).lower()
 
 def mint_person_id(full_name: str) -> str:
+    """Create a stable-ish ParlaMint-style person id from a name."""
     full_name = (full_name or "").strip()
     parts = re.split(r"\s+", full_name)
     if len(parts) >= 2:
@@ -39,6 +40,7 @@ def looks_like_committee(header_block: str) -> bool:
     return bool(re.search(r"\bKomision\w*", header_block or "", flags=re.I))
 
 def split_paragraphs(text: str):
+    """Split on blank lines; trim single trailing/leading newlines per paragraph."""
     text = normalize_newlines(text).strip("\n")
     parts = BLANK_PARA_RE.split(text)
     return [p.strip("\n") for p in parts if p.strip("\n")]

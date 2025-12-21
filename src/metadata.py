@@ -23,3 +23,5 @@ class DocumentMetadata:
         pid = mint_person_id(full_name)
         self.speakers_idx[key] = pid
         return pid
+
+
