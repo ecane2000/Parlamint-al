@@ -13,7 +13,7 @@ import pytesseract
 from argparse import ArgumentParser
 
 from .config import PDF_URLS
-from .utils import filename_stem_from_url, normalise_text
+from .utils1 import filename_stem_from_url, normalise_text
 
 def _filename_from_url(url: str) -> str:
     """

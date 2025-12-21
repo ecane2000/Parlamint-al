@@ -4,7 +4,7 @@ try:
 except Exception:
     import re
 
-from .utils import (
+from .utils1 import (
     normalize_for_segmentation,
     strip_page_numbers,
     find_idx,

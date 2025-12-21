@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Optional, Dict, Iterable
 
 from .config import PARLIAMENT_NAME, CITY, LICENSE_URL
-from .utils import guess_date_from_url, filename_stem_from_url
+from .utils1 import guess_date_from_url, filename_stem_from_url
 
 XML_NS = "http://www.w3.org/XML/1998/namespace"
 TEI_NS = "http://www.tei-c.org/ns/1.0"

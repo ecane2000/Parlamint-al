@@ -1,9 +1,9 @@
 requests==2.32.3
 pdfminer.six==20231228
 lxml==5.3.0
-stanza==1.8.2
-torch>=2.1.0
-transformers==4.44.2
-ufal.udpipe
-conllu
+ufal.udpipe==1.4.0.1
+conllu==6.0.0
 regex>=2024.5.15
+# stanza==1.8.2    # optional; comment out if you’re not using it
+# transformers==4.44.2  # REMOVE for Py 3.13 unless you switch Python
+# this was skipped too:  torch>=2.1.0

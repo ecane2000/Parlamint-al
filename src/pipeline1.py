@@ -3,9 +3,9 @@ from pathlib import Path
 import glob
 import unicodedata
 
-from .segment import segment_by_speakers
-from .tei import write_plain_day
-from .utils import normalize_for_segmentation
+from .segment1 import segment_by_speakers
+from .tei1 import write_plain_day
+from .utils1 import normalize_for_segmentation
 
 DEFAULT_LICENSE = "https://creativecommons.org/licenses/by/4.0/"
 
