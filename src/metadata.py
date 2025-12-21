@@ -4,9 +4,11 @@ import csv
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional, Dict, Iterable
+from .utils import normalize_name, mint_person_id
 
 from .config import PARLIAMENT_NAME, CITY, LICENSE_URL
 from .utils import guess_date_from_url, filename_stem_from_url
+
 
 XML_NS = "http://www.w3.org/XML/1998/namespace"
 TEI_NS = "http://www.tei-c.org/ns/1.0"
@@ -23,12 +25,19 @@ class DocumentMetadata:
     """
     doc_id: str           # e.g. "ParlaMint-AL_2025-10-08-0"
     date: str             # ISO date "YYYY-MM-DD"
+    time: Optional[str]
+    eventType: Optional[str]
+    eventTypeAna: Optional[str] = None   
     country_code: str     # "AL"
     language: str = "sq"  # ISO 639-1
     title_sq: Optional[str] = None
     title_en: Optional[str] = None
     source_url: Optional[str] = None
-
+    chair_name: Optional[str] = None
+    chair_role: Optional[str] = None
+    topics: Optional[str] = None
+    place: str = "Tiranë, AL"
+    licence_url: str = "https://creativecommons.org/licenses/by/4.0/"
 
 def make_document_id(country_code: str, date: str, index: int = 0) -> str:
     """
