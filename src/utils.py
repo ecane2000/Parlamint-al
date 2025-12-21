@@ -4,9 +4,43 @@ from typing import Optional, Tuple, List
 from urllib.parse import urlparse
 # --- Whitespace & text normalization ---
 
+UNICODE_DASHES = r"[–—-]"
+SPACE_DASH_SPACE = re.compile(rf"\s*{UNICODE_DASHES}\s*")
+
+def squash_ws(s: str) -> str:
+    """Collapse internal whitespace to single spaces; keep newlines."""
+    return re.sub(r"[ \t]+", " ", s)
+
 def normalize_whitespace(text: str) -> str:
     """Collapse internal runs of spaces/tabs and trim ends (use for one-line fields)."""
     return re.sub(r"[ \t]+", " ", text or "").strip()
+
+
+
+
+def normalize_name(name: str) -> str:
+    """Lowercase, trim, collapse spaces for stable lookups."""
+    return re.sub(r"\s+", " ", (name or "").strip()).lower()
+
+def mint_person_id(full_name: str) -> str:
+    """
+    ParlaMint-style simple person id from name:
+    pAL_<Surname><Name> (ASCII-ish, but we keep UTF-8 to stay readable).
+    """
+    full_name = (full_name or "").strip()
+    parts = re.split(r"\s+", full_name)
+    if len(parts) >= 2:
+        surname = re.sub(r"[^A-Za-zÇËçëÀ-ÖØ-öø-ÿ]", "", parts[-1])
+        name = re.sub(r"[^A-Za-zÇËçëÀ-ÖØ-öø-ÿ]", "", parts[0])
+        base = f"{surname}{name}"
+    else:
+        base = re.sub(r"[^A-Za-zÇËçëÀ-ÖØ-öø-ÿ]", "", full_name) or "UNKNOWN"
+    return f"pAL_{base}"
+
+def looks_like_committee(lines_between_kv_and_procesverbal: str) -> bool:
+    """Heuristic: if header mentions 'Komision' consider it committee context."""
+    return bool(re.search(r"\bKomision\w*", lines_between_kv_and_procesverbal or "", flags=re.I))
+
 
 def normalize_text(text: str, *, preserve_paragraphs: bool = True) -> str:
     """
