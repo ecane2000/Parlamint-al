@@ -1,58 +1,97 @@
+# -*- coding: utf-8 -*-
 import argparse
 from pathlib import Path
-import glob
-import unicodedata
-
+from .root import repo_root_for
+from .utils import ensure_dir, read_text, write_text, looks_like_committee
+from .extract import clean_folder, extract_header_block
 from .segment import segment_by_speakers
+from .metadata import DocumentMetadata
 from .tei import write_plain_day
-from .utils import normalize_for_segmentation
 
-DEFAULT_LICENSE = "https://creativecommons.org/licenses/by/4.0/"
+REPO_ROOT = repo_root_for(__file__)
 
-def _mint_pid(name: str) -> str:
-    # pAL_joridatabaku (strip spaces and accents)
-    base = ''.join(ch for ch in unicodedata.normalize('NFKD', name.lower()) if ch.isalnum())
-    return f"pAL_{base}" if base else "pAL_UNKNOWN"
+def convert_inbox_to_tei(inbox: str, out_dir: str):
+    inbox_p = Path(inbox)
+    out_p = Path(out_dir)
+    ensure_dir(out_p)
 
-def convert_inbox_to_tei(inbox_dir: str, out_dir: str):
-    inbox = Path(inbox_dir)
-    candidates = []
-    candidates += glob.glob(str(inbox / "*.txt"))
-    candidates += glob.glob(str(inbox / "cleaned" / "*.txt"))
-    if not candidates:
-        raise FileNotFoundError(f"No TXT files found in {inbox} or {inbox/'cleaned'}")
-    out = Path(out_dir)
-    out_plain = out / "plain"
-    out_plain.mkdir(parents=True, exist_ok=True)
+    for p in sorted(inbox_p.glob("*.txt")):
+        clean_txt = read_text(p)  # already cleaned if you run extract.clean_folder; OK if not
+        # Header
+        header = extract_header_block(clean_txt)
+        eventType = header.get("eventType", "")
+        eventTypeAna = "#parla.sitting"
+        if looks_like_committee(eventType):
+            eventTypeAna += " #parla.committee"
 
-    # group by date to avoid overwrite
-    per_date_count = {}
+        md = DocumentMetadata(
+            date=header.get("date", ""),
+            time=header.get("time"),
+            eventType=eventType,
+            eventTypeAna=eventTypeAna,
+            chair_name=header.get("chair_name"),
+            chair_role=header.get("chair_role"),
+            topics=header.get("agenda_text"),
+        )
 
-    for f in sorted(candidates):
-        stem = Path(f).stem
-        raw_txt = Path(f).read_text(encoding="utf-8")
-        cleaned = normalize_for_segmentation(raw_txt)
+        # Segment body into utterances
+        seg = segment_by_speakers(clean_txt)
+        utterances = seg["utterances"]
 
-        session = segment_by_speakers(stem, cleaned)
+        # Build speaker index on the fly (chair + utterers)
+        if md.chair_name:
+            md.speaker_id(md.chair_name)
+        for u in utterances:
+            md.speaker_id(u.get("who_name", "UNKNOWN"))
 
-        # simple name->pid dictionary
-        name_to_pid = {}
-        for who in session.get("speakers_found", []):
-            name_to_pid[who.lower()] = _mint_pid(who)
+        # Assemble session dict for TEI writer
+        session = {
+            "date": md.date,
+            "time": md.time,
+            "eventType": md.eventType,
+            "chair_name": md.chair_name,
+            "chair_role": md.chair_role,
+            "utterances": utterances,
+        }
+        # Title (HU-like)
+        if session["eventType"]:
+            one_line = " / ".join([ln.strip() for ln in session["eventType"].splitlines() if ln.strip()])
+            session["title"] = f"Kuvendi i Shqipërisë — {one_line}, {md.date}"
+        else:
+            session["title"] = f"Kuvendi i Shqipërisë, Procesverbal, {md.date}"
 
-        date = session.get("date") or "0000-00-00"
-        cnt = per_date_count.get(date, 0)
-        per_date_count[date] = cnt + 1
-        suffix = "" if cnt == 0 else f"_{cnt+1:02d}"
-        out_path = out_plain / f"ParlaMint-AL_{date}{suffix}.xml"
-
-        write_plain_day(session, speakers_idx=name_to_pid, out_path=out_path, license_url=DEFAULT_LICENSE)
+        out_path = out_p / "plain" / f"ParlaMint-AL_{md.date or p.stem}.xml"
+        write_plain_day(
+            session,
+            speakers_idx=md.speakers_idx,
+            out_path=str(out_path),
+            license_url=md.licence_url,
+            eventTypeAna=md.eventTypeAna,
+        )
+        print(f"Wrote {out_path}")
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--inbox", default="inbox", help="Folder with cleaned TXT (or inbox/cleaned)")
-    ap.add_argument("--out", default="out", help="Output root folder")
+    ap = argparse.ArgumentParser(description="ParlaMint-AL end-to-end day-file builder (HU-style).")
+    ap.add_argument("--inbox", default=str(REPO_ROOT / "texts"), help="Folder with cleaned TXT files")
+    ap.add_argument("--out", default=str(REPO_ROOT / "out"), help="Output folder")
+    ap.add_argument("--clean_from", default=None, help="If set, clean raw TXT from this folder into --inbox first")
+    ap.add_argument("--urls", default=None, help="Optional: crawl PDFs listed in this file (requires requests, pdfminer.six)")
     args = ap.parse_args()
+
+    # Optional: crawl PDFs → texts
+    if args.urls:
+        from .crawl import main as crawl_main
+        # run crawl in-process
+        import sys
+        sys.argv = ["crawl.py", "--urls", args.urls, "--txt_out", args.inbox]
+        crawl_main()
+
+    # Optional: clean raw folder into inbox
+    if args.clean_from:
+        raw = Path(args.clean_from)
+        inbox = Path(args.inbox)
+        clean_folder(raw, inbox)
+
     convert_inbox_to_tei(args.inbox, args.out)
 
 if __name__ == "__main__":
