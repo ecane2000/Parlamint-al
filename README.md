@@ -21,3 +21,5 @@ make build-ana    # or: python -m parlamint_al.pipeline --out out --with-ana
 ```
 Outputs go to `out/TEI/plain` and (if enabled) `out/TEI/ana`.
 >>>>>>> dd8156e0 (Initial commit: ParlaMint-AL pilot stack)
+>>>>>>>
+>>>>>>> nnn
