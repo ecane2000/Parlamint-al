@@ -15,3 +15,8 @@ build-ana:
 
 clean:
 	rm -rf inbox $(OUT)
+
+# Process existing files
+python3 run_pipeline.py
+# Crawl fresh PDFs + process
+python3 run_pipeline.py --crawl --limit 10
