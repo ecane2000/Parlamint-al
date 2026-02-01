@@ -11,12 +11,8 @@ def text_match(element, text):
     return text.lower() in element.inner_text().lower()
 
 def run(limit=None):
-    print("Initializing Playwright...", flush=True)
     with sync_playwright() as p:
-        print("Launching browser...", flush=True)
         browser = p.chromium.launch(headless=True)
-        print("Browser launched.", flush=True)
-        
         context = browser.new_context(accept_downloads=True)
         page = context.new_page()
 
@@ -125,6 +121,6 @@ def run(limit=None):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--limit", type=int, help="Limit number of PDFs", default=None)
+    parser.add_argument("--limit", type=int, help="Limit number of PDFs", default=10)
     args = parser.parse_args()
     run(limit=args.limit)
