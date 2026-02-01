@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2020-09-21" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2020-09-21 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2020-09-21 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="17" unit="speeches">17 beszéd</measure>
+        <measure xml:lang="en" quantity="17" unit="speeches">17 speeches</measure>
+        <measure xml:lang="hu" quantity="5362" unit="words">5362 szó</measure>
+        <measure xml:lang="en" quantity="5362" unit="words">5362 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2020-09-21">2020. 09. 21.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="17"/>
+          <tagUsage gi="seg" occurs="73"/>
+          <tagUsage gi="kinesic" occurs="16"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2020-09-21">2020-09-21</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2020-9-21-urgent_question-AC8_11312" who="#PéterJakab" ana="#regular"><note>JAKAB PÉTER (Jobbik):</note>
+<seg xml:id="AC8_11312.1">Köszönöm a szót. Tisztelt Ház! Tisztelt Miniszterelnök Úr! Az elmúlt két évben mi már számtalan csörtét megvívtunk itt a parlamentben. Én mindig feltettem önnek egy kérdést, ön pedig mindig válaszolt egy másikra. Mintha nem is ugyanabban a világban élnénk. És valóban. Tudja, az én világomban a magyar emberek nyugati életszínvonalat szeretnének, nyugati egészségügyi ellátást, jólétet, szabadságot. Az ön világában egészen más a helyzet. Az ön világában idén nyáron megtudhattuk a magyarok számára a Nyugat már nem vonzó, de mondjuk, a fehérorosz rezsim igen. Sőt, korábban mondott olyat is ez a kedvencem , hogy nekünk, magyaroknak hamarosan az lesz a problémánk, hogy mihez is kezdjünk a Nyugat-Európából hozzánk érkező munkavállalókkal. Úgy elképzelem, ahogy Jürgennek a szeme felcsillan, amikor meghallja, hogy Magyarországon már akár nettó 200 ezer forintot is haza lehet vinni havonta, és azon nyomban rohan Münchenből Miskolcra munkát vállalni.</seg>
+<seg xml:id="AC8_11312.2">Miniszterelnök úr, ön tényleg egy egészen más filmet néz ott a fejében, egy mesét, Viktor Csodaországban, vagy nem tudom, micsodát. Vagy ön komolyan azt gondolja, hogy egy holland kipróbálná, hogyan lehet egy hónapra beosztani a 107 ezres minimálbért vagy a 28 500 forintos minimálnyugdíjat? Ön szerint egy nyugat-európai szeretne olyan országban élni, ahol a kormány a súlyosabb betegségeket tízparancsolattal orvosolná, a többieknek meg gyűjtene kupakokat? Ne nevettessen már! Ide maximum azok fognak jönni, akik hallották már a kis magyar gázszerelő történetét, aki úgy lett dollármilliárdos, hogy okosabbnak hitte magát a Facebook alapítójánál, közben pedig csak az ön barátja.</seg>
+<seg xml:id="AC8_11312.3">Miniszterelnök úr, kabaré, amit ön ezzel az országgal művel, és tudja, csak azért nem tudunk rajta nevetni, mert mi nem Nyugat-Európából jöttünk ide, hanem itt születtünk, és jó eséllyel itt is fogunk meghalni ha önökön múlik, hamarabb, mint gondolnánk.</seg>
+<seg xml:id="AC8_11312.4">Miniszterelnök úr, a mesének vége, térjen vissza közénk a valóságba! Nézzen rám! Menni fog? Várom a válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban. Közbeszólás a kormánypártok soraiból: Mi a kérdés?</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-21-urgent_question-AC8_12931" who="#OlivioKocsis-Cake" ana="#regular"><note>KOCSIS-CAKE OLIVIO (Párbeszéd):</note>
+<seg xml:id="AC8_12931.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Miniszterelnök Úr! Én nem tudom egyébként, hogy mi a vicces azon, hogy rászoruló embereknek ingyenes tesztelést követel az ellenzék, hogy miért röhögnek ezen a fideszes képviselők</seg>
+<kinesic type="noise"><desc>Zaj a kormányzó pártok padsoraiból.</desc></kinesic>
+<seg xml:id="AC8_12931.2">(17.00)</seg>
+<seg xml:id="AC8_12931.3">Miniszterelnök úr, ön tavasszal itt a parlamentben azt nyilatkozta, hogy nincs felső gátja a járvány elleni védekezésnek. Akkor nem értem, hogy miért sajnálják a pénzt az ingyenes tesztelésre. Abban egyetértünk, hogy az elsőrendű cél az egészség megőrzése, a halálesetek, megbetegedések megakadályozása, másodrangú cél az, hogy a gazdasági leállást elkerüljük.</seg>
+<seg xml:id="AC8_12931.4">Miniszterelnök úr, ön szerint mi az olcsóbb: tömegesen tesztelni, és ezzel megakadályozni, hogy gócpontok alakuljanak ki, akár gazdasági városokban, Esztergomban, Szentgotthárdon, Győrben vagy Budapesten, ezzel meggátolni azt, hogy a vírus elterjedjen, vagy leállítani a gazdaságot? Énszerintem biztos az az olcsóbb, hogy tömegesen teszteljünk.</seg>
+<seg xml:id="AC8_12931.5">Tisztelt Miniszterelnök Úr! Korábban mi mondtuk itt először, hogy mindenki viseljen maszkot, mert ez véd a vírus ellen. Önök ezt lesöpörték, azt mondták, hogy fölösleges maszkot viselni. Az önök tisztiorvosa azt mondta, hogy egészséges ember ne is viseljen maszkot. Most már mindenki viseli a maszkot, most már elfogadták, belátták, hogy ez valóban egy hatékony módszer. Korábban mi hangsúlyoztuk azt, hogy a területi adatokat is hozzák nyilvánosságra, megyénként tudjuk azt, hogy hol, mennyi megbetegedés van. Azt is lesöpörték kezdetben az asztalról, azt mondták, fölösleges. Most már ezeket is nyilvánosságra hozzák, belátják, hogy tévedtek.</seg>
+<seg xml:id="AC8_12931.6">Korábban azt mondtuk, hogy tesztelni kell. Akkor is azt mondták, hogy fölösleges a teszt, meg hogy a WHO protokollját követik. Az biztos, hogy nem az a protokoll, hogy 6-7 napot kell várni addig, hogy megjöjjön a teszt, ez biztos, hogy nincs benne a protokollban. Most pedig az ingyenes tesztet követeljük. Legyenek kedvesek átgondolni azt, hogy ezzel hogyan tudjuk megakadályozni azt, hogy ez a vírus elterjedjen.</seg>
+<seg xml:id="AC8_12931.7">Kérdésem az, hogy mikor lesz ingyenes a teszt minden egyes állampolgárnak. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Párbeszéd, az MSZP, a DK soraiból.</desc></kinesic>
+<seg xml:id="AC8_12931.8">(Dr. Szűcs Lajost a jegyzői székben</seg>
+<seg xml:id="AC8_12931.9">dr. Vinnai Győző váltja fel.)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-21-urgent_question-AC8_12933" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC8_12933.1">Köszönöm szépen. Tisztelt Miniszterelnök Úr! Ma, a mai nap kezdetén az ön expozéjához való hozzászólásomban több konkrét kérdést tettem fel önnek, amire nem kaptam választ. Most néhányat megismétlek. Remélem, nem veszi zokon, és bízom abban, hogy most választ fogok kapni.Az első kérdésem, illetve a javaslatunk az volt, hogy egy válságkezelő programra lenne szükség. Ön, azt gondolom, nagyon jól ecsetelte, hogy milyen komoly egészségügyi következmények, helyzet várható, akár 400 ezer ember fertőzötté válhat. Nyilván ennek a problémának a kezelése egyrészt sok pénzt, másrészt pedig nagyon sok komoly intézkedést igényel.</seg>
+<seg xml:id="AC8_12933.2">Ugyancsak tudjuk, hogy a gazdasággal is gondok vannak. Már az első hullámnak a következményeképpen 13,5 százalékkal csökkent a GDP. A második hullám, tudjuk azt, hogy sokkal súlyosabb. Igaz, hogy önök azt mondják, hogy most a gazdaságot nem állítjuk le, de nem tudjuk, hogy mi következhet. Tehát megítélésünk, hogy egy pótköltségvetés elkészítésével párhuzamosan szükség lenne egy ilyen válságkezelő programra.</seg>
+<seg xml:id="AC8_12933.3">És négy konkrét kérdést tettem fel, amit mi nagyon szeretnénk, ha ennek a részeként ezt tartalmazná. A kérdésem az, hogy megfontoljáke azt, hogy a 27 százalékos, tényleg világmagas áfa az alapvető élelmiszereken 5 százalékra csökkenjen. A másik kérdésem pedig az, hogy a szociális dolgozók előbb vagy utóbb megkapjáke az egyszeri 500 ezer forintos juttatást. A harmadik kérdés, vajon készeke arra, hogy a munkanélküli-járadékot 3 hónapról 9 hónapra emeljék, és hogy a nyugdíjasok helyzetén most, azonnal és gyorsan javítsanak.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-21-urgent_question-AC8_12936" who="#AntalCsárdi" ana="#regular"><note>CSÁRDI ANTAL (LMP):</note>
+<seg xml:id="AC8_12936.1">Tisztelt Ház! Tisztelt Elnök Úr! Köszönöm szépen. Mindannyian tudjuk, hogy a koronavírus által okozott gazdasági helyzet nemcsak az ország számára, hanem mindannyiunk számára és a dolgozó emberek számára is rendkívül nehéz helyzetet teremtett. Azt látjuk, hogy ma családok tízezreinek és százezreinek nehézséget okoz olyan alapvető élelmiszerek megvásárlása, mint a zöldség vagy a gyümölcs. Egy év alatt a gyümölcsök ára átlagosan több mint 40 százalékkal drágult meg, míg a zöldségek árnövekedése is 17 százalék körüli volt egy év alatt. Azt látjuk, hogy az áfatörvény végtelenül igazságtalan. Ma, ha valaki elmegy egy étterembe, akkor ötödannyi áfát kell fizetnie, mint annak, aki bevásárol a piacon. Ma annak, aki elmegy nyaralni a Balaton-partra, ötödannyi áfát kell fizetnie, mint ha elmenne és vásárolna magának rizst vagy bármilyen más gyümölcsöt. Azt gondolom, hogy mindannyiunknak, minden itt élő állampolgárnak joga és a kormánynak pedig felelőssége, hogy elérhetővé tegye azokat az alapvető élelmiszereket, amelyek ma 27 százalékkal adóznak, éppen ezért elérhetetlen az emberek többségének a számára.</seg>
+<seg xml:id="AC8_12936.2">(17.50)</seg>
+<seg xml:id="AC8_12936.3">Minthogy ez a vita már viszonylag régóta folyik köztünk, sejtem, hogy azt próbálja majd államtitkár úr elmagyarázni nekem, hogy már eddig is csökkentettek néhány alapvető élelmiszeráfát az elmúlt időszakban, de ezt ilyen hasraütésszerűen. Államtitkár úr, ha ezzel akarna érvelni, akkor szeretném kérdezni, hogy ön mikor vitt haza féldisznót vásárláskor, aminek eredetileg az áfája 5 százalékra csökkent.</seg>
+<seg xml:id="AC8_12936.4">Az én tiszteletteljes kérdésem az, hogy mikor veszik észre, hogy a társadalomnak jogos igénye az, hogy csökkenjen az általános forgalmi adója az alapvető élelmiszereknek. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-21-urgent_question-AC8_12938" who="#TimeaSzabó" ana="#regular"><note>SZABÓ TIMEA (Párbeszéd):</note>
+<seg xml:id="AC8_12938.1">Köszönöm a szót. Nem tudom, hogy államtitkár úr tude erre a kérdésemre válaszolni, nagyon egyszerű lesz, azt megígérem. Július 30-án Gulyás Gergely miniszter úr bejelentette azt, hogy a kormány semmilyen beruházást nem támogat a Hajógyári-szigeten, ehhez képest nem láttuk azt, hogy visszavonta volna a tervezett mobilgát építésének az engedélyezését, illetve az erről szóló kormányhatározatot. Ugyan nagy hercehurca és nyomás után, miután én miniszter úrnak küldtem külön erről írásbeli kérdést, illetve egy országgyűlési határozati javaslatot is benyújtottam, a kormány meghozott egy olyan határozatot, hogy a kajak-kenu központot helyezi át a Hajógyári-szigetről Sukoróra, de nem vonta vissza továbbra sem a mobilgát építésének engedélyezését, azaz elvileg a kormány még mindig azt tervezi, hogy kivág 3 hektárnyi erdőt, azaz több mint 3 ezer fát. Óbuda és a főváros is tiltakozott, a lakosok is tiltakoztak.</seg>
+<seg xml:id="AC8_12938.2">Nagyon egyszerű lesz a kérdésem, államtitkár úr. Mikor vonja vissza a kormány a 302/2019. számú határozatot az Óbudai-, Hajógyári-sziget árvízvédelmi rendszere megvalósításának előkészítéséhez szükséges forrás biztosításáról? Hogy még egyszerűbben fogalmazzak: megerősítie most Gulyás Gergely szavait, hogy a kormány semmilyen beruházást nem támogat a Hajógyári-szigeten, azaz nem fog megtörténni 3 ezer fa kivágása, és nem fog megépülni a pusztító, körülbelül 20 milliárd forintba kerülő mobilgát? Várom válaszát. Köszönöm szépen.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-21-urgent_question-AC8_12940" who="#BalázsAnder" ana="#regular"><note>ANDER BALÁZS (Jobbik):</note>
+<seg xml:id="AC8_12940.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Önöknek volt tíz évük és kétharmaduk arra, hogy bizonyítsanak. Bizonyítsanak az olyan embert próbáló nehéz terepen is, mint például Borsod, és különösen az olyan halmozottan hátrányos helyzetűvé nyomorodott perifériákon, mint amiből ott is található néhány. 2015-ben egy interjúban Lakatos Attila borsodi cigányvajda Taktaközt nevezte meg azon területként, ahol aztán minden problémával találkozhatunk, és itt vannak a legsúlyosabb gondok. Azóta eltelt öt év, a problémák azóta sem változtak. Merem állítani, hogy az elmúlt időszakban a jobbikos képviselőtársaimhoz hasonlóan több időt töltöttem ott, az ott élő emberekkel beszélgetve azok valós problémáiról, mint az önök Amerikából hazahozott, és nem túl sok élet- meg munkatapasztalattal rendelkező jelöltje, akinek édesanyja, minő véletlen, annak a Mészáros Lőrincnek az egyik cégének a vezetője, amelyik Mészáros Lőrinc közpénzmilliárdokból gyarapodik. Tudják, mit mondanak ott nagyon sokan az ilyen területeken? Azt, hogy innét menekülni kell. Mondják sajnos az ott élő emberek közül nagyon sokan.</seg>
+<seg xml:id="AC8_12940.2">A világból kiesettség érzete mellbe vágja az odatévedő utazót. Az a helyzet, hogy a taktaközi utakon már ha annak nevezhető az ilyen förmedvény bizony jó, ha előveszik a helikoptert, mert a narancsos urak bizony nem biztos, hogy autóval azt meg tudják járni. Romos, széthordott házak, és tapintható mélyszegénység. Tarolt itt is az uzsorás, a szocpol, valamint a végrehajtói maffia. Mi azonban nem ezekkel akarunk szövetséget kötni, azokkal, akik ikszelni terelik az ott élő embereket, és ígérgetésekkel, fenyegetéssel meg címzett csomagokkal leszállítják az elvárt szavazatmennyiséget, hanem azokkal a becsületes emberekkel és hozzátenném, származásra való tekintet nélkül akarunk ott is szövetséget kötn</seg>
+<seg xml:id="AC8_12940.3">(Nacsa Lőrinc: Bíró László nem így gondolja!)</seg>
+<seg xml:id="AC8_12940.4">, akik bizony ott szeretnének élni, és tisztességes munkából tisztességes bért kapva ott boldogulni.</seg>
+<seg xml:id="AC8_12940.5">Várom válaszát, mi lesz ezekkel a régiókkal, államtitkár úr. Nem hiányzik a közpénz onnét</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-21-urgent_question-AC8_12941" who="#ZoltánBalczó" ana="#regular"><note>BALCZÓ ZOLTÁN (Jobbik):</note>
+<seg xml:id="AC8_12941.1">Elfogadom</seg>
+<seg xml:id="AC8_12941.2">(Nacsa Lőrinc: Nem kell!)</seg>
+<seg xml:id="AC8_12941.3">Tisztelt Államtitkár Úr! Szeptember 27-én, vasárnap önkormányzati választások lesznek Romániában. Ennek kapcsán Semjén Zsolt miniszterelnök-helyettes egy videoüzenetet küldött, amelyben kifejezi azt az egyértelmű álláspontját, hogy csak az RMDSZ az egyetlen olyan politikai szervezet, amely képes a magyar érdek védelmére. A felmerülő kérdés: önök szerint a Magyar Polgári Párt, tiszteletbeli elnöke Kövér László, az Erdélyi Magyar Néppárt, védnöke Tőkés László, alkalmatlan a romániai magyarság képviseletére? A tömbmagyar területen, ahol a magyar győzelem biztos, ott sem lehet verseny az RMDSZ és az említett politikai pártok és független jelöltek között, akkor sem, ha ők előzőleg kiválóan teljesítettek? Ahol indokolt csak egy magyar párt vagy jelölt indulása, automatikus, hogy minden egyeztetés nélkül csak az RMDSZ lehet az?Tőkés László hozzám is eljuttatott nyilatkozatában megrökönyödését fejezte ki Semjén Zsolt közvetlen beavatkozása miatt, amellyel esélytelennek és elvetendőnek minősíti a nem RMDSZ-es magyar jelölteket, és a következőt mondja, pontosan idézem: „A Sapientia online évnyitója alkalmából elhangzott beszédében Potápi államtitkár pedig már egészen a régi időkre emlékeztető antidemokratikus egypártrendszer propagálásáig megy el, amikor kijelenti: ’Egy külhoni magyar közösség nem bír el több etnikai pártot, csak egy magyar pártban tudjuk erőinket összpontosítani.’”</seg>
+<seg xml:id="AC8_12941.4">Nem kívánok eltántorítani senkit az RMDSZ-re való szavazástól, de ezt a durva magyar kormányzati beavatkozást elutasítom. Ezt Tőkés László úgy fogalmazta meg: „Hiszem azt, hogy a romániai magyaroknak nemcsak szavazni, hanem választani is joguk van.” Miért propagálják az ezzel ellentétes állásponto</seg>
+<kinesic type="signal"><desc>Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC8_12941.5">, miért veszik el a lehetőséget? Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-21-urgent_question-AC8_12942" who="#ÁgnesKunhalmi" ana="#regular"><note>KUNHALMI ÁGNES (MSZP):</note>
+<seg xml:id="AC8_12942.1">Tisztelt Miniszterelnök Úr! A kormány a háziorvosi, a kórházi vagy a hatósági döntés alapján elrendelt tesztelés esetében biztosítja az ingyenességet elméletileg. Amennyiben azonban valaki külföldről tért vissza és mentesülni szeretne a karantén alól, vagy saját elhatározása alapján kívánja magát teszteltetni, 19 500 forintos hatósági ár alapján teheti ezt meg, melyből 2500 a mintavétel díja, 17 000 forint pedig a vizsgálaté. A kormány érzékelte, hogy a kezdeti 30-40 ezer forintos tesztárak rendkívül magasak, nagyon nagy terhet rónak a társadalom tagjainak döntő többségére.</seg>
+<seg xml:id="AC8_12942.2">A hatósági ár bevezetése ebben az esetben viszont nem jelent megoldást. Ez az ár továbbra is magas a magukat teszteltetni kívánók számára. A jelen helyzetben viszont a korábbiaknál sokkal több tesztelésre lenne szükség egyfelől azért, mert meredeken emelkedik az új fertőzöttek száma, másfelől pedig, a tavaszi első hullámmal ellentétben nincsenek jól azonosítható gócpontok. Ebben a helyzetben azok viselkednek felelős polgárként Magyarországon, akik önként vállalják a tesztelést, és utána akarnak járni annak, hogy ha adott esetben rosszul érzik magukat, tesztelhessék, de nincs rá pénzük vagy félnek attól, hogy a munkahelyről kirúgják őket, és sorolhatnánk ezeket az anomáliákat, amelyek mindennaposak.</seg>
+<seg xml:id="AC8_12942.3">Azt sem hagyhatjuk figyelmen kívül, hogy a járulékok befizetése formájában a magukat teszteltetni akarók tulajdonképpen már megfizették ezeket a vizsgálatokat egyszer. Egészségügyi közgazdászok számításai szerint az ingyenes tesztelés nem jelentene jelentős megterhelést az államháztartásnak sem. Továbbá én azt gondolom, miniszterelnök úr, hogy ha a gazdaságot továbbra is működtetni akarjuk, akkor a tesztelésnek lenne itt az ideje, mert azzal tudnánk nemcsak a vírust kontroll alatt tartani, vagyis mindannyian meg a kormány, hanem bizony akkor működtetni is tudnánk a gazdaságot, mert a munkahelyekről időben ki lehetne szedni azokat az embereket, ki tudnának kerülni azok, akik körbefertőznek.</seg>
+<seg xml:id="AC8_12942.4">Kérdezem miniszterelnök urat, nem gondoltae meg magát az ingyenes teszteléssel kapcsolatban</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-21-urgent_question-AC8_12943" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC8_12943.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! A mai nap folyamán Orbán Viktor és ön is elmondta már többször, hogy a koronavírust a nyáron külföldről hurcolták be, és ezért fenntartjuk a határzárat és a szigorú beutazási korlátozásokat. Ezt mind a ketten megerősítették. Sőt, Orbán Viktor ma egy egészen elképesztő járványügyi helyzetről is beszámolt, hogy ő mire számít, hogy milyen rossz lehet majd a helyzet, akár 400 ezer vírusos megbetegedést is prognosztizál.Egyetlenegy dolog nem hangzott el a mai nap folyamán, hogy 24-én, csütörtökön megrendezésre kerül Magyarországon a Szuperkupa, úgy, hogy több ezer külföldi szurkolót engednek be az arénába, és 14 ezer magyar szurkolót fognak beengedni a stadionba. Igaz, hogy már most a Bayern edzője is azt mondta, hogy ez egy olyan dolog, amit az ember nem teljesen ért, de nem mi hozzuk a döntéseket, hanem mások. A bajor miniszterelnök egyszerűen ki van akadva a mai hírek szerint.</seg>
+<seg xml:id="AC8_12943.2">Olvasnék egy nyilatkozatot. Az UEFA saját nyilatkozata szerint erre a rendezvényre azért van szükség, hogy tesztelni tudják a szurkolók visszatérésének többek között egészségügyi hatásait. A tesztelni kívánt protokoll több tételes egészségügyi rendelkezést is tartalmaz, a teszteléstől, a tesztelések eredményeinek feldolgozásán át a helyszínen jelentkező tünetek kezelésével bezárólag. Tehát elismerték, hogy kísérleti nyúlnak használják a húszezer szurkolót, aki ide fog látogatni erre a meccsre.</seg>
+<seg xml:id="AC8_12943.3">Az egészségügyről szóló 1997. évi törvény nagyon szigorúan szabályozza, hogy hogyan lehet emberen végzett orvostudományi kutatást végezni. Erre Müller Cecília adhat engedélyt, és az Egészségügyi Tudományos Tanács tudományos és kutatásetikai bizottságának elnöke kivételes esetekben. Államtitkár úr, megkaptáke az engedélyt emberkísérletre a 24-ei Szuperkupára? Kiadtae az engedélyt Müller Cecília vagy a tudományos és kutatásetikai bizottság elnöke? Szeretném tudni, hogy kaptake ilyen engedélyt, és ha megkapták az engedélyt, ki fogja vállalni a felelősséget, ha tömeges megbetegedés fog a meccsen kitörni. Várom megtisztelő válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-21-urgent_question-AC8_12944" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC8_12944.1">Köszönöm szépen, elnök úr. Az Emberi Erőforrások Minisztériumának augusztus végi nyilatkozata alapján bizonyos, hogy Magyarországon a vírus második hulláma a külföldről behurcolt fertőzések miatt indult el. Az Emberi Erőforrások Minisztériumának nyilatkozata alapján az is megállapítható, hogy egy fertőzött átlagosan 8-10 másik embernek adja tovább a fertőzést. Akkor megpróbáljuk megint, amit az imént elkezdtem, államtitkár úr. Önök folyamatosan azzal vádolják az ellenzéki oldalt, hogy mi csak annak drukkolunk, hogy ne tudjon a kormány védekezni, minden eszközt bevetettünk annak érdekében, hogy ez ne működjön. Államtitkár úr, 20 ezer ember fog 24-én, csütörtökön a Puskás Arénába bemenni, kísérleti jelleggel.</seg>
+<seg xml:id="AC8_12944.2">Azért kísérleti jelleggel, mert ezt maga az UEFA is elismerte. Már mindenki nyilatkozik, a bajor miniszterelnöktől kezdve a csapat edzőjéig, hogy nem értik, miért engedi ezt Magyarország, mert a legnagyobb veszélynek teszik ki nemcsak a szurkolókat, a játékosokat, hanem Budapest lakosságát vagy akár Magyarország lakosságát is. A bajor miniszterelnök bejelentette, hogy nagyon szigorú szankciókkal fognak élni a szurkolókkal szemben, akik vissza fognak térni Németországba.</seg>
+<seg xml:id="AC8_12944.3">Államtitkár úr, állandóan hivatkoznak arra, hogy önök ismerik a magyar nép véleményét. Tudjae, államtitkár úr, hogy miről beszélnek az emberek a fodrászatban, a piacon, a boltban? Hogy miért nem tesznek szigorúbb intézkedéseket ma Magyarországon, pedig rekordot dönt mindennap az esetek száma, és nő a halálozások száma. Azért, mert Orbán Viktornak fontos a csütörtöki meccs. Arról beszélnek otthon, vidéken, a városokban, hogy semmi mást nem vár Orbán Viktor és kormánya, csak azt, hogy ez a meccs megrendezésre kerüljön. És jövő héten majd jönnek a szigorítások, csak, kedves képviselő asszony, ezt a meccset Magyarországon mindenféleképpen meg kell rendezni, mert Orbán Viktornak fontosabb a meccs, mint a magyar emberek védelme.</seg>
+<seg xml:id="AC8_12944.4">Szeretném megtudni, államtitkár úr, hogy kaptake engedélyt Müller Cecíliától a meccs megrendezésére, vagy sem.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-21-urgent_question-AC8_12946" who="#LászlóSzászfalvi" ana="#regular"><note>SZÁSZFALVI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC8_12946.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A koronavírus-járvány első hulláma elleni harcot sikeresen megvívtuk. A nemzetközi elemzések szerint Magyarország egyike a világ 25 legjobban védekező országának. A védekezés sikerét az emberéletekben kell mérni; összehasonlításképp a hasonló lélekszámú Svédországban tízszer annyian haltak meg, mint hazánkban. Az első hullámot követően hazánkat sem kerülte el a vírus második hulláma, amely ellen természetesen folytatnunk kell ezt a védekezést. Továbbra is nélkülözhetetlen a védőintézkedések betartása, kötelező a maszkhasználat a tömegközlekedés során, a boltokban, a mozikban, a színházakban, az egészségügyi és szociális intézményekben, valamint az ügyfélfogadási irodákban is. Fennmarad továbbra is a teljes körű látogatási tilalom a kórházakban és az idősotthonokban, valamint érvényben marad a határainkon a beutazási korlátozás is.</seg>
+<seg xml:id="AC8_12946.2">Tisztelt Államtitkár Úr! Szeptember 1-jén hagyományos munkarendben, de szigorú biztonsági intézkedések mellett kezdődött el a tanév csaknem 6 ezer köznevelési intézmény több mint 13 ezer feladatellátási helyén. Az óvodák, iskolák betartják a biztonsági ajánlásokat, az Emberi Erőforrások Minisztériuma, az Oktatási Hivatal a Tisztiorvosi Szolgálattal közreműködve folyamatosan figyelemmel kíséri a járványügyi folyamatokat. A múlt héten döntött a kormány, hogy az iskolákban a vírus terjedésének megakadályozása érdekében október 1-jétől bevezetésre kerül a kötelező testhőmérséklet-mérés.</seg>
+<seg xml:id="AC8_12946.3">A fentiek alapján kérdezem a tisztelt államtitkár urat: fel tudnake készülni az iskolák, a köznevelési intézmények az október 1-jén bevezetésre kerülő kötelező testhőmérséklet-mérésre? Várom az államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-21-urgent_question-AC8_12947" who="#LőrincNacsa" ana="#regular"><note>NACSA LŐRINC (KDNP):</note>
+<seg xml:id="AC8_12947.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Az elmúlt néhány hónapban a koronavírus-járvány átalakította mindannyiunk életét, az egész világ életét, így természetesen Magyarország életét is, hazánk a rendszerváltás óta talán az egyik legnagyobb kihívásával szembesül, ennek kell megfelelnünk a következő időszakban is. A koronavírus-járvány első hulláma elleni harcot sikeresen megvívtuk, és mi, Fidesz-KDNP-s képviselők reménykedünk abban, hogy a második hullám beköszöntével a baloldal viselkedése is meg fog változni, és ezúttal nem fogják akadályozni a védekezést bár ma is csak annyira futotta tőlük, hogy egy antiszemita jelölt mellett kampányoltak itt a parlamentben. Azonban az első adandó alkalommal kiderült, hogy ez nem így van, a baloldal újra és újra bebizonyítja, hogy rájuk a védekezésben nem lehet számítani. Pontosan ott folytatják, ahol a járvány első hullámakor abbahagyták: akkor kamuvideókat gyártottak, most kamuhíreket.</seg>
+<seg xml:id="AC8_12947.2">A múlt héten egy baloldali médium közölt hazugságot, hogy nincs elég lélegeztetőgép két kórházban, és baloldali politikusok azonnal rácsatlakoztak, és terjesztették a kamuhírt. Természetesen az álhírterjesztésben élen járt a Gyurcsány-párt, Szabó Timea és persze Gyurcsányék segédcsapata, a Jobbik is.</seg>
+<seg xml:id="AC8_12947.3">Tisztelt Államtitkár Úr! Öntsünk tiszta vizet a pohárba! Kérdezem a tisztelt államtitkár urat, hogy elegendő lélegeztetőgép álle rendelkezésre a kórházakban, avagy mi a helyzet az álhírekkel, hiszen nagyon fontos, hogy megfelelő eszközökkel, megfelelően felkészítve várja a második hullámot az egészségügy. Ezért kérdezem ezeket az államtitkár úrtól. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-21-urgent_question-AC8_12948" who="#LászlóVarju" ana="#regular"><note>VARJU LÁSZLÓ (DK):</note>
+<seg xml:id="AC8_12948.1">Köszönöm szépen. Ismétlés a tudás anyja, épp ezért szeretném, tisztelt miniszterelnök úr, önt kérdezni. De hadd kezdjem a felszólalásomat két találós kérdéssel! Az első: ki mondta, hogy az egészség nem lehet üzlet? A második pedig az: ki a miniszterelnök abban az országban, ahol csak az tudhatja meg magáról, hogy koronavírusose, akinek van erre a saját zsebéből 40 ezer forintja? Igen, mindkét kérdésre az a helyes válasz, hogy Orbán Viktor, azaz ön, miniszterelnök úr.Ez mindent elmond arról, hogy a Fidesz hogyan hagyta az embereket az árok szélén, hogyan távolodott el a magyaroktól, az országtól és hogyan lett a közpénzből urizáló milliárdos, jachtkeresztény kormány, az, amit önök csinálnak. Az egészség ma üzlet, ahogy üzlet a koronavírus-tesztelés is. Az önök kormánya tette azzá. Egész Európában lassan ingyenes a tesztelés, és az európai államok kifejezetten biztatják az embereket, hogy éljenek az ingyenteszttel. Önöknek van képük azt mondani, hogy két tesztért fizessenek 40 ezer forintot.</seg>
+<seg xml:id="AC8_12948.2">Hadd emlékeztessem önt arra, hogy mit mondott korábban Gulyás Gergely kancelláriaminiszter a hatósági áras koronavírustesztekről!</seg>
+<seg xml:id="AC8_12948.3">(16.50)</seg>
+<seg xml:id="AC8_12948.4">Azt mondta, hogy 6-8 ezer forintnál nem fognak többe kerülni, ne legyenek négy-ötszörösen túlárazva. Akkor ebből az következik, hogy a jelenlegi árazásuk szerint ez most már csak kétszeresére-háromszorosára van túlárazva.</seg>
+<seg xml:id="AC8_12948.5">Kérdezem tehát, hol van az a pénz, amit mi, magyarok már befizettünk az államkasszába egészségügyi hozzájárulás címén, ha most nem tudják a koronavírus-tesztelést mindenkinek, akinek erre szüksége van és kéri, ingyenessé tenni.</seg>
+<seg xml:id="AC8_12948.6">Úgyhogy most még tisztelettel kérem miniszterelnök urat, az embereknek adják meg azt, ami nekik jár, azt, hogy legyen módjuk ingyenesen tesztelni. Várom válaszát, köszönöm szépen</seg>
+<kinesic type="applause"><desc>Szórványos taps az ellenzéki pártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-21-urgent_question-AC8_12949" who="#GergelyArató" ana="#regular"><note>ARATÓ GERGELY (DK):</note>
+<seg xml:id="AC8_12949.1">Tisztelt Ház! Hadd kezdjem azzal, hogy egészen megdöbbentőnek tartom, hogy Rétvári államtitkár úr már büntetőjogi felelősséggel fenyegeti az ellenzéki képviselőket azért, mert kérdéseket mernek feltenni</seg>
+<seg xml:id="AC8_12949.2">(Dr. Rétvári Bence: Rémhíreket terjesztenek!)</seg>
+<seg xml:id="AC8_12949.3">Szeretném önnek mondani, hogy nem fog minket ezzel elrettenteni, és én is föl fogom tenni természetesen a kérdésemet ugyanúgy, ahogy terveztem. De ezt elképesztőnek tartom, ez csak az önök haverjainál Belorussziában és Törökországban divat.</seg>
+<seg xml:id="AC8_12949.4">(17.40)</seg>
+<seg xml:id="AC8_12949.5">No, tisztelt államtitkár úr, akkor térjünk is rá egy szintén kevéssé kellemes kérdésre</seg>
+<kinesic type="noise"><desc>Dr. Rétvári Bence közbeszól.</desc></kinesic>
+<seg xml:id="AC8_12949.6">Tudjuk, hogy a teljes magyar tudományos világ föl van háborodva amiatt, hogy az Innovációs és Technológiai Minisztérium felülbírálta az OTKA-pályázatokat, belenyúlt a szakmai elbírálásba, és politikai döntést hozott tudományos pályázatokról</seg>
+<seg xml:id="AC8_12949.7">(Dr. Rétvári Bence: Könnygázos demokrata.)</seg>
+<seg xml:id="AC8_12949.8">Van azonban ennek az ügynek egy, az eddigieknél is pikánsabb részlete. A minisztérium által győztesnek kihirdetett pályázatok közül a győztes kutatócsoport vezetőjét pont úgy hívják, mint a minisztérium egyik államtitkárát. Csütörtökön megkérdeztük a minisztériumot, hogy ez véletlen egybeesés vagy nem. Sajnos nem válaszoltak, most megkérdezem itt is. Az a Boros Anita, aki a győztes pályázók között szerepel, ugyanaz a Boros Anitae, aki az Innovációs és Technológiai Minisztérium építésgazdaságért, infrastrukturális környezetért és fenntarthatóságért felelős államtitkára, vagy csak névazonosságról van szó</seg>
+<seg xml:id="AC8_12949.9">Valóban a minisztérium államtitkára által vezetett kutatócsoport kap közel 36 millió forintot a saját minisztériumától, a munkahelyétől? És választ várunk arra is: azért írták át az OTKA-pályázatok elbírálását, hogy a saját államtitkárukat hozzák ki győztesen?</seg>
+<seg xml:id="AC8_12949.10">Kérem, hogy most egyenesen, nyíltan és egyértelműen válaszoljon erre a három kérdésre</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-21-urgent_question-AC8_12950" who="#AnettBősz" ana="#regular"><note>BŐSZ ANETT (DK):</note>
+<seg xml:id="AC8_12950.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Alelnök Úr! Tavasszal a kormány és a jegybank rendkívül optimista becsléseket adott ki arról, hogy a magyar gazdaság milyen ütemben tud talpra állni. A legoptimistábbnak Matolcsy György, a Nemzeti Bank elnöke tűnt. Május közepén is 2-3 százalékos idei növekedésről és a válság V alakú lefolyásáról beszélt. Történt mindez akkor, amikor nem volt komolyan vehető gazdasági tényező Európában, aki az úgynevezett gyors visszapattanásra számított volna. Ekkor már a magyar kormány is 3 százalékos visszaeséssel számolt konvergenciaprogramjában, az Európai Bizottság pedig 7 százalékos recessziót jelzett előre. Ebből lett a második negyedévre hazánkban 14,5 százalékos visszaesés.Ideje szembesülni tehát azzal, hogy a korábbi évek monetáris politikája után a jegybanknak alig maradt eszköze a gazdasági növekedés támogatására, emiatt csak az államháztartási hiányt lehet elengedni. Ez meg is történt: július végén a hiány az eredeti tervezett hatszorosa volt, év végére akár a GDP 10 százalékát is elérheti.</seg>
+<seg xml:id="AC8_12950.2">Év végére az államadósság a Fitch Ratings várakozása szerint 78,3 százalék lesz, ezek szerint pedig a 2010-es, Orbán Viktor által akkor szörnyűségesnek tekintett 80,6 százalékos adósságot tíz év alatt sikerült kemény munkával 2,3 százalékponttal csökkenteni. Hasonlóan eredményes gazdaságstratégiai tervezéssel az Alaptörvényben célul kitűzött 50 százalékos adósságrátát 133 év alatt, tehát 2143-ra sikerülhet elérni. Az így megmaradt pénz sem olyan gazdasági szektorokba vándorolt a tapasztalatok szerint, amely a gazdaság megmentését, vállalkozások, munkahelyek megteremtését szolgálja.</seg>
+<seg xml:id="AC8_12950.3">Tisztelettel kérdezem tehát az alelnök urat, hogy hol marad a visszapattanás. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki sorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-21-urgent_question-AC8_12951" who="#JózsefKovács" ana="#regular"><note>DR. KOVÁCS JÓZSEF (Fidesz):</note>
+<seg xml:id="AC8_12951.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! A járvány első hullámában Magyarország sikeresen védekezett, a vírus szinte teljesen eltűnt az országban. Ennek köszönhetően nyáron a korlátozásokon is enyhíthettünk, azonban ősszel a járvány újra felütötte a fejét, jelenleg a második hullám elején járunk, ami várhatóan december-januárban tetőzik. Tavasszal még egy ismeretlen ellenség ellen védekeztünk, a második hullámra már számítottunk, így a vírus előtt járunk, ma már többet tudunk, mi felkészültebbek vagyunk. Sajnos azonban még mindig nincs tömegesen használható vakcina. A vírust komolyan kell venni. Meg kell tanulnunk együtt élni a járvánnyal, úgy, hogy közben az országnak is működnie kell. Ez nem lesz kis feladat sem a kormánynak, sem a magyar embereknek. Ezekben a nehéz időkben nemzeti összefogásra van, illetve lenne szükség, és ezt minden magyar ember tudja. Az ellenzéki pártok rosszindulatú pánikkeltése helyett fegyelmezetten követni kellene az utasításokat, a kormányzati ajánlásokat. A nemzeti konzultációt 1 millió 800 ezer ember aláírta, elküldte, és elmondta véleményét a koronavírus-járványról. A járvány kezdete óta a baloldal napról napra bizonyítja, hogy nem lehet rájuk számítani. Támadnak bennünket, támadják a védelmi intézkedéseket, a pénzügyi forrásokat sem voltak hajlandók megszavazni. Tevékenységük célja valójában az, hogy alaptalan álhírekkel félrevezessék az embereket, politikai előnyökre tegyenek szert. Külföldön rágalmaznak bennünket, kamuvideókat, kamuhíreket gyártanak. Pár napja például azzal riogatott a baloldal, hogy nincs elegendő lélegeztetőgép, és nincs elegendő személyzet, mindezt egy téves sajtóhírre alapozták.</seg>
+<seg xml:id="AC8_12951.2">A járvány elleni védekezés nagyon kemény munka. Tisztelettel kérdezem államtitkár urat, hogy most hogyan nő a koronavírusos betegek száma, s a kormány milyen újabb intézkedésekkel készül, miben lesz más a védekezés, mint tavasszal. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-21-urgent_question-AC8_12952" who="#KatalinCsöbör" ana="#regular"><note>CSÖBÖR KATALIN (Fidesz):</note>
+<seg xml:id="AC8_12952.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Október 11-én időközi országgyűlési választást tartanak a tiszaújvárosi választókerületben, azonban aggodalomra ad okot, hogy a szociálliberálisok álszentsége nem ismer határokat. Pont ők, akik naponta kígyót-békát összehordva siratják a demokráciát és a jogállamiságot, most egy olyan jelöltet indítanak, aki nyíltan rasszista kijelentéseket tett. Ráadásul Gyurcsány Ferenc, a baloldal vezére igyekezett védelmébe is venni ezt a személyt. A baloldali jelöltről nagyon súlyos dolgok derültek ki. Kezdődött mindez a judapestező és a „tetűcsúszdások” címszó alatt futó antiszemita kijelentésekkel, ezekhez hasonló cigányellenes megnyilvánulásokkal, majd folytatódott a homályos cégügyekkel, kisemmizett dolgozókkal és a fegyverrel való fenyegetéssel.</seg>
+<seg xml:id="AC8_12952.2">A kormánypártok számos kérdéssel keresték meg a baloldali, jobbikos Bíró Lászlót, ám ő érdemben nem válaszolt a kérdésekre, hanem perrel fenyegetőzött. Ugyanakkor most új helyzet állt elő, hiszen a sajtóban is megjelent, hogy több irat igazolja, Bíró visszatartotta az alkalmazottai bérét. Vajon hány embert nem fizettek ki a Bíró által vezetett cégből? Vajon hány család megélhetése került veszélybe? Elég most már a lapításból és a mellébeszélésből, az emberek egyenes válaszokat várnak a sumákság helyett. Valljon színt a baloldal, hogy a vállalhatatlan kiszólásai és az emberek életének tönkretétele ellenére továbbra is támogatjae Bíró Lászlót. Vajon tényleg egy olyan jelöltet tartanak alkalmasnak az ott lakók képviseletére, aki mások emberi méltóságát szemrebbenés nélkül megsérti?</seg>
+<seg xml:id="AC8_12952.3">Az elhangzottakra tekintettel kérdezem miniszter, illetve államtitkár urat, miként védhető meg az emberi méltósághoz fűződő alapvető jog, ha a baloldal egy ilyen jelöltet képes kiállítani, illetve felvállalni. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból. Nunkovics Tibor: Legalább felolvasni úgy-ahogy sikerült! Nacsa Lőrinc: Attól még igaz!</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

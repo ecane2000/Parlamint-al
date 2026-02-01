@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2016-11-02" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2016-11-02 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2016-11-02 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2987" unit="words">2987 szó</measure>
+        <measure xml:lang="en" quantity="2987" unit="words">2987 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2016-11-02">2016. 11. 02.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="53"/>
+          <tagUsage gi="kinesic" occurs="14"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2016-11-02">2016-11-02</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2016-11-02-urgent_question-AC7_12453" who="#GergelyBárándy" ana="#regular"><note>DR. BÁRÁNDY GERGELY (MSZP):</note>
+<seg xml:id="AC7_12453.1">Köszönöm a szót, elnök úr. Tisztelt Felperes Úr! A Matolcsy-saga korábbi felvonásaiban sokan számon kértük már magán, hogy miként tömte ki családjának zsebét közpénzekből. Hogy miként kaptak százmilliókat unokatestvérek cégei és milliós fizetéseket rokonok jegybanki pénzekből. Azóta se szeri, se száma az ön botrányainak. A család már megvolt, folytassuk a haverokkal! Mégis hogy képzeli ön, hogy egy bankvezető lakásában lakik? Nem zavarja önt, hogy egy olyan ember lakásában lakik - vagy lakott -, akit ellenőriznie kéne? Nem gondolja, Matolcsy úr, hogy ez a korrupciónak a magasiskolája? A korrupció legklasszikusabb esete, iskolapéldája, amikor attól fogad el valaki valamit, aki fölött döntési joga van. A közlekedési rendőr a gépkocsivezetőtől, az építési osztály dolgozója az építési vállalkozótól, esetleg a bankfelügyelet első számú vezetője a bankvezértől, név szerint Matolcsy Pataitól. Azt nem kérdezem, hogy igaz-e, hogy ott lakott, mert ha eddig - hetek óta - nem cáfolták a tényt, nyilván igaz; javaslom, ne is próbálja letagadni, mert a végén még hazugságba keveri egy-két fotó, mint Rogán Antalt a helikopteresek vagy esetleg egy-egy szállodai alkalmazott.</seg>
+<seg xml:id="AC7_12453.2">Szeretném viszont megkérdezni: fizetett lakbért Patainak vagy szívességi lakáshasználó volt? Mi köze a maguk személyes viszonyának ahhoz, hogy az MNB - szakértők szerint - a piaci ár másfélszereséért vásárolta meg az Eiffel Palace-t, amivel Patai bankja, az UniCredit is nagyot nyert? Milyen előnyöket élvez az UniCredit, amióta ön a vezetőjének a lakásában lakik?</seg>
+<seg xml:id="AC7_12453.3">Aztán a sajtó szerint a szeretőjét alkalmazza kiemelt fizetésért a jegybanknál és alapítványainál. Nem telik a támogatásra a maga ötmilliós fizetéséből, elnök úr? Mégis hogy gondolja, hogy a hírek szerint havi milliós nagyságrendű közpénzből tartja el a barátnőjét? Igaz, hogy India-kutatásokra 600 ezer forintot kap egy jógaoktató, csak mert a maga barátnője?</seg>
+<seg xml:id="AC7_12453.4">(13.30)</seg>
+<seg xml:id="AC7_12453.5">Aki egyetemi tanárként évtizedek óta foglalkozik ezzel a témával, az nem keres ennyit vele, pedig ő tényleg ért hozzá. Nem gondolja, hogy ez főként konzervatív politikusként kicsit gáz, elnök úr</seg>
+<kinesic type="signal"><desc>Az elnök csengetéssel jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_12453.6">Mikor fejezi már be az ámokfutását, Matolcsy úr? Mikor mond le végre? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-02-urgent_question-AC7_12745" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_12745.1">Köszönöm szépen, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Lázár János miniszter úr az egyik legutóbbi kormányinfón arról beszélt, hogy 2018-tól az új Nemzeti alaptantervben már előírhatják a kötelező gimnáziumi felvételit. Ezzel gyakorlatilag csökkentenék a gimnáziumi férőhelyek számát. Amit korábban a tiltakozások miatt nem mertek közvetlenül meglépni, azt most ilyen módszerrel vihetik keresztül, ha Lázár János álláspontja győz a kormányon belül.</seg>
+<seg xml:id="AC7_12745.2">Ma tíz középiskolásból négy gimnazista - úgy látszik, ezt soknak gondolják</seg>
+<seg xml:id="AC7_12745.3">(Dr. Rétvári Bence: Most is van felvételi! Rossz a kérdés.)</seg>
+<seg xml:id="AC7_12745.4">Az LMP szerint azonban ez súlyos hiba lenne, amely a társadalmi felemelkedés lehetőségét még mélyebbre, még szűkebbre venné az oktatási rendszerünkben. Nem akarjuk, hogy a szakképzés lebutítása után a gimnáziumoknak is nekiessenek, és elvegyék a diákok tízezrei elől a magas szintű általános műveltség megszerzésének a lehetőségét, korlátozva későbbi továbbtanulásukat. Vajon miért akarják ezt?</seg>
+<seg xml:id="AC7_12745.5">Mi nem értjük, miért van szükség minderre. A gimnáziummal mint rendszerrel nincsen probléma. Bár Lázár János azt mondta, hogy nem jó az, ha a gimnázium munkanélkülieket termel, de ez nem így van. Ha megnézzük a munkanélküliségi statisztákat, akkor látjuk azt, hogy a felsőfokú végzettségűek után a gimnáziumot végzetteknek a rátája a második legalacsonyabb. A gimnazisták döntő része továbbtanul, de aki valamiért mégsem, az is el tud helyezkedni, legalábbis az adatok szerint.</seg>
+<seg xml:id="AC7_12745.6">Tisztelt Ház! A gimnáziumi felvételi bevezetése tovább rombolná a magyar középfokú oktatás színvonalát. Az LMP határozottan tiltakozik egy ilyen intézkedés ellen. Lázár János álláspontját ismerjük az ügyben. De vajon mi a kormány álláspontja, meglépik-e a gimnáziumi felvételik újbóli bevezetését, korlátozzák-e a gimnáziumokba való bekerülést, visszaszorítják-e a gimnazisták számát? Várom válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-02-urgent_question-AC7_12746" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_12746.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Lázár miniszter úr a legutóbbi kormányinfón arról beszélt, hogy ugyan az ön által emlegetett 500 ezer fős leépítés a közszférában túlzó és hibás számításokon alapul, de a pontos számokat ő maga sem akarja megmondani, mert arra az ellenzéki pártok kampányt építenek. Erről a Gyurcsány-kormány jut eszembe, ugyanis annak idején a Gyurcsány-kormány eltitkolta a hiányadatokat, szintén azt állítva, hogy arra kampányt építene az ellenzék. Ezen túl igencsak érdekes az, amikor egy miniszter megvádolja a helyettesét, hogy helytelen számítások alapján dobálózik számokkal egy ilyen komoly kérdésben.</seg>
+<seg xml:id="AC7_12746.2">De ennél is rosszabb, amikor a területért felelős miniszter nem hajlandó megmondani, hogy hány embert kívánnak elbocsátani a közszférában. Azt állítjuk, hogy a kormány teljesen tévúton jár, ma ugyanis a közszférára is sokkal inkább a munkaerőhiány a jellemző, mint a felesleg. Az LMP semmilyen szintű leépítéssel nem ért egyet. Biztosak vagyunk abban, hogy a közszférából elbocsátott, elsősorban adminisztratív munkát végző százezrek nem fogják enyhíteni a szakképzett munkaerő hiányát az olyan ágazatokban, mint például az építőipar, a feldolgozóipar, a kisipari szolgáltatások vagy az informatika. S hozzá kell tenni, hogy több százezer ember elbocsátása tovább fogja rontani az állami intézmények működését, erősíteni fogja a kivándorlást, és semmit sem fog enyhíteni az ország munkaerő-problémáján.</seg>
+<seg xml:id="AC7_12746.3">Ezért egyértelmű választ szeretnénk kapni: hány ember leépítését tervezi pontosan a kormány? Milyen háttértanulmányok alapján döntenek a leépítések mellett, és miért nem hozzák azokat nyilvánosságra? Miért nem tudnak nyíltak lenni azzal a több százezer emberrel, akiket el akarnak bocsátani a közszférából?</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-02-urgent_question-AC7_12748" who="#LászlóGyörgyLukács" ana="#regular"><note>DR. LUKÁCS LÁSZLÓ GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_12748.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! Új keletűen a köznyelv azokat a pénzeket nevezi az egészségügy védelmi pénzének, amelyeket a betegek adnak vagy éppen az orvosok fogadnak el a jobb ellátás reményében. Ez a védelmi pénz az egészségügy mindennapi korrupciója, közismert nevén a hálapénz.</seg>
+<seg xml:id="AC7_12748.2">Mára talán már közismert, hiszen a hálapénzzel kapcsolatos kutatásokból ez kiderült, hogy rég nem hálából, hanem kiszolgáltatottságból adják a betegek, illetve fogadják el reményeink szerint egyre kevesebben az orvosok azt. Az ilyen védelmi pénznek, azaz a hálapénznek komoly elutasítottsága van, az orvosok, betegek egyaránt 90 százaléka teljesen elutasító a jelenséggel kapcsolatban, sőt, ez is a kimutatásban szerepel, mindkét fél részére többségében megalázó is. A cél tehát nem lehet más a hálapénz vonatkozásában, mint teljesen felszámolni azt, és erről bizony beszélni kell, hogy hogyan, illetve mikor. Különösen azért is fontos lehetne felszámolni a hálapénzt, hiszen ez már nem a segítségért nyújtott hála, hanem a jelenlegi működése szerint a velünk együtt élő szocializmusnak az egyik maradványa.</seg>
+<seg xml:id="AC7_12748.3">A kormánnyal ellentétben a Jobbik nem azt akarja, hogy a hálapénz sok évet, esetleg évtizedet várva kikopjon a rendszerből, a Jobbik rövid időn belül megszüntetni kívánja azt. Persze kevesen veszik a bátorságot, hogy beszéljenek a hálapénzről, és kimondják, hogy cselekedni kell, pedig ha utánanézünk, orvosok és betegek egyaránt elutasítják, többségükben megalázónak tartják. Akkor miért ne mondhatnánk ki, hogy meg kell szüntetni? A megszüntetés pedig nem lóghat a levegőben. Így a megszüntetéshez az első lépés, több feltétel megvalósulása mellett, például egy sokkal komolyabb béremelés, a kórházi adósságok teljes megszüntetése vagy az orvosi hűbérviszonyok teljes felszámolása, tehát egy pluszlépés, egy valós és egy pontos, véges határidő megszabása lenne.</seg>
+<seg xml:id="AC7_12748.4">Mindezekre tekintettel kérdezem az államtitkár urat, tervezi-e a kormány a hálapénz megszüntetését. Mikorra lehet az egészségügyben szedett védelmi pénzeket végleg megszüntetni</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-02-urgent_question-AC7_12749" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC7_12749.1">Tisztelt Elnök Úr! Tisztelt Ház! A hétvége folyamán Kispesten újfent egy devizahitel-károsult családnál jártam, akik kilakoltatás előtt állnak. Az ő szerződésük egy a 140 ezer közül, akik nem tudnak vagy nem teljeskörűen tudnak teljesíteni, és részben önhibájukon kívül olyan méltatlan helyzetbe kerültek, ami tarthatatlan. Eközben a Nemzeti Eszközkezelő keretei lassan betelnek, már csak 500 szabad hely áll rendelkezésre, ha lehet hinni a sajtóhíreknek. Nagyon érdekelne miniszter úr válasza, hogy azt a néhány milliárd forintot mikor és hogyan kívánják elkülöníteni, amiből legalább a csonka megoldásként kezelhető Nemzeti Eszközkezelő keretszámait bővíteni lehet. Látható, hogy egyéb pénzek is rendelkezésre állnának. Ha csak a letelepedésikötvény-üzletüknél a közvetítőcégeknél lecsapódott százmilliárdos nagyságrendű pénzösszeget fordítanánk, mondjuk, a hitelkárosultak helyzetének részleges rendezésére, akkor mérhető, hosszú távú előrelépést lehetne elérni.</seg>
+<seg xml:id="AC7_12749.2">Ezzel szemben az a helyzet, hogy nem a csalárd kötvényüzletág kivezetésére készülnek a jelek szerint. A miniszter úr személyes véleménye érdekelne azt illetően, hogy ha már meglebegtette feltételes módon ezen kötvénykonstrukció felülvizsgálatának a lehetőségét - hangsúlyozom, nem a kivezetését lebegtette meg, hanem a felülvizsgálatának a lehetőségét -, akkor mi a véleménye arról, hogy ma a Gazdasági bizottság ülésén egy perccel a szavazás előtt kiosztott anyag alapján egy Cipruson bejegyzett, feltételezhetően offshore hátterű cég tevékenységi körét a fideszes többség a letelepedési kötvények kapcsán a Seychelle-szigetek területére terjesztette ki.</seg>
+<seg xml:id="AC7_12749.3">Tehát nemhogy nem vezette ki a csalárd konstrukciót, amivel a piszkos pénzt szerzik, hanem egyenesen a Cipruson bejegyzett cég tevékenységét a Seychelle-szigetek területére terjesztették ki. Milyen okból tették ezt? Milyen alapon tették ezt? Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-02-urgent_question-AC7_12751" who="#LászlóSzászfalvi" ana="#regular"><note>SZÁSZFALVI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC7_12751.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A kormányzat az utóbbi években sikeres egészségügyi ágazati fejlesztést hajtott végre. Gondoljunk csak arra, hogy az elmúlt öt évben 500 milliárd forintot fordítottak az egészségügy fejlesztésére, mind intézményfejlesztésre, mind az ellátórendszer szakmai megerősítésére és béremelésre is. Ez például a visegrádi országok közül Magyarországon volt a legnagyobb mértékű: 40 százalékos béremelés a területen.</seg>
+<seg xml:id="AC7_12751.2">A következő négyéves béremelési program keretében pedig tovább emelkedhet az egészségügyi szakdolgozók bére, amely 2011-hez képest 2019-re reményeink szerint megduplázódik. Ez azért is fontos, mert az egészségügy, azon belül az egészségügyi alapellátás megújítása azt a célt szolgálja, hogy olyan betegellátó rendszer jöjjön létre Magyarországon, amelynek köszönhetően nő a lakosság egészségben eltöltött éveinek száma. Ennek megfelelően, ha az ellátórendszert nézzük, akkor az alapellátásban érintettek köre, a mintegy 5 ezer fős háziorvosi létszám, az ugyanennyi tagot számláló védőnői hálózat, a mintegy 1500 fős házi-gyermekorvosi kar, 238 főállású iskolaorvos és az alapellátást végző 2800 fős fogorvosi közösség tagjai.</seg>
+<seg xml:id="AC7_12751.3">Tisztelt Államtitkár Úr! Mindannyian nagy örömmel üdvözöltük a most ősszel, ágazati szintű egyeztetést követően megkezdődött jelentős béremelési folyamatot. Az alapellátás területén a védőnők finanszírozásával kapcsolatos problémákhoz hasonlóan további teendők adódnak az alapellátó fogorvosoknál, iskolaorvosoknál vagy az egészségügyi tevékenységet végző, de nem egészségügyi besorolásban dolgozó munkavállalók helyzetének javításában is.</seg>
+<seg xml:id="AC7_12751.4">Éppen ezért tisztelettel kérdezem államtitkár urat, hogy a háziorvosi szolgálatok finanszírozásának növelésére, fogorvosi ellátás megerősítésére, a védőnők havi díjazásának emelésére és az iskolaorvosi ellátás támogatásár</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_12751.5">mekkora többletforrást fordít a kormányzat az idén</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-02-urgent_question-AC7_12752" who="#LászlóSzakács" ana="#regular"><note>DR. SZAKÁCS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_12752.1">Köszönöm a szót, elnök úr. Tisztelt Elnök Úr! Tisztelt Ház! A takarékosság világnapján végigtekintettük, hogy mit tettek a magyarok, hogyan tudtak ők takarékoskodni az elmúlt időszakban; jó pár döntést láttunk. Volt, amikor a magyarok magánnyugdíjpénztárakba helyezték a pénzüket, gondolva az időskorra, gondolva arra, hogy nem lesznek mindig majd munkahelyeik, hanem majd a nyugdíj mellett egy kis kiegészítéssel mennyire jobban tudnak majd élni. Ezt önök államosították.</seg>
+<seg xml:id="AC7_12752.2">Aztán ezt követően voltak, akik más megtakarítási formát választottak, elvitték ezt bankokba, brókercégekhez. Önök úgy döntöttek, hogy nem kell ezekre külön vigyázni, a Magyar Nemzeti Bankba bele lehet olvasztani a Pénzügyi Szervezetek Állami Felügyeletét, és majd ők vigyáznak a magyarok befektetéseire. Ez sem sikerült. A tavalyi év elején három hónap alatt, januárban, februárban, márciusban három pénzügyi szolgáltatót sikerült maga alá temetnie: januárban DRB, februárban Buda-Cash, márciusban pedig a Quaestor.</seg>
+<seg xml:id="AC7_12752.3">(14.00)</seg>
+<seg xml:id="AC7_12752.4">Több száz milliárd forint tűnt el, több tízezer károsultat hagyva maguk után. Mindezek dacára és mindemellett még volt egy döntés, amivel önök úgy megsegítették a devizakárosultakat, a devizaadósokat, hogy arról koldultak. Azóta, igaz, hogy a Magyar Nemzeti Bankban mintegy 140-150 milliárdnyi forint haszon keletkezhetett ebből, viszont őnekik most is kétségbeejtő a helyzetük. Önök nem takarékosságra nevelik a magyarokat, önök pontosan arra nevelik a magyarokat, arra a pénzügyi kultúrára, hogy élj a mának, ahogyan ezt önök és ön is teszi - pazarolnak.</seg>
+<seg xml:id="AC7_12752.5">Úgy gondolom, hogy ez az önök legfőbb karaktere, ez a fajta pazarlás. Lássuk be, hogy ha ilyen értékteremtő munka nincs, akkor helyette hatékonyság sincsen, mert ezt a fajta teljesítményt béremeléssel - mintegy 66 százalékkal magasabbak a bérek az MNB-ben, mint a piacon - sikerült honorálni és legalább azza</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC7_12752.6">, hogy egymilliárdot el lehet utazgatni. Kérem szépen, meddig tarthat még ez? Köszönöm szépen a figyelmet</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-02-urgent_question-AC7_12753" who="#SándorBurány" ana="#regular"><note>BURÁNY SÁNDOR (MSZP):</note>
+<seg xml:id="AC7_12753.1">Köszönöm a szót. Tisztelt Elnök Úr! Az, amit önök az ön vezetésével művelnek a Magyar Nemzeti Banknál, egyrészt mértéktelen, másrészt erkölcstelen, harmadrészt szabálytalan. Mértéktelen, mert ha például ingatlanvásárlásról van szó, akkor önök mértéktelenül sokat költenek az adófizetők pénzéből ezeknek az ingatlanoknak a megvásárlására, jellemzően a könyv szerinti érték többszöröséért vásárolnak ingatlanokat. A korábbi példákat is említhetném, de csak egy friss, mai példát mondok. A Millenáris Irodaház Classicért 6 milliárd helyett 8 milliárdot fognak fizetni, a Millenáris Irodaház Avantgarde-ért a könyv szerinti érték dupláját, több mint 2 milliárdot szurkolnak le, a Posta-székházat, az úgynevezett Buda Palotát pedig csaknem 83 százalékkal drágábban vásárolják meg. Ez mértéktelenség.</seg>
+<seg xml:id="AC7_12753.2">Az pedig erkölcstelenség, hogy ön a saját barátnőjét a saját intézményénél, a saját munkahelyén olyan fizetésért alkalmazza, amiről a magyar munkavállaló csak álmodni tud; de nemcsak őt, hanem a barátnő közvetlen családtagjait is, jut pénz a kedves mamának is.</seg>
+<seg xml:id="AC7_12753.3">Az pedig egyenesen szabálytalan, hogy önök - mint ahogy egy bírósági ítéletben ez nyilvánvalóvá vált - közvetlenül finanszírozzák a költségvetést azáltal, hogy állampapírokat vásárolnak. Ez nemcsak erkölcstelen, nemcsak mértéktelen, hanem szabálytalan a hazai és az európai törvények szerint is. Nem véletlen, hogy az Európai Központi Bank jelezte, hogy vizsgálja a Magyar Nemzeti Bank tevékenységét.</seg>
+<seg xml:id="AC7_12753.4">(14.30)</seg>
+<seg xml:id="AC7_12753.5">Elnök úr! Tisztelettel várom a válaszát, hogy ezt a mértéktelenséget, ezt az erkölcstelenséget és ezt a szabálytalanságot mikor kívánják felszámolni</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-02-urgent_question-AC7_12754" who="#GyörgyBalla" ana="#regular"><note>BALLA GYÖRGY (Fidesz):</note>
+<seg xml:id="AC7_12754.1">Köszönöm szépen a szót, elnök úr. Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! Nehéz napokon van túl a magyar baloldal. No, nem számukra volt nehéz, ők csak a lényegüket adták; a jóérzésű emberek számára volt nehéz elviselni azt, amit műveltek</seg>
+<kinesic type="signal"><desc>Dr. Szakács László: Ülj le! - Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC7_12754.2">Kezdődött azzal, hogy kivezényeltek egy szűk szélsőséges baloldali csoportot az október 23-ai megemlékezés megzavarására. Azért küldték oda őket, hogy több tízezer ember méltóságban töltött megemlékezését megzavarják</seg>
+<seg xml:id="AC7_12754.3">(Gőgös Zoltán: Ti meg jól megvertétek őket.)</seg>
+<seg xml:id="AC7_12754.4">Nyilvánvalóan provokáltak, nyílvánvalóan balhét akartak. Az, hogy ez nem sikerült végül, semmit nem vesz el a felbujtók szándékának aljasságából.</seg>
+<seg xml:id="AC7_12754.5">A szocialisták ugyanezen idő alatt egyébként pedig Gyurcsány Ferenccel látványosan egy közös színpadon csókolóztak</seg>
+<kinesic type="noise"><desc>Zaj, közbeszólások az MSZP soraiból, köztük Gőgös Zoltán: Na, na!</desc></kinesic>
+<seg xml:id="AC7_12754.6">Azzal a Gyurcsány Ferenccel, aki egyértelmű erkölcsi és politikai felelőse mindannak, ami tíz évvel ezelőtt történt</seg>
+<kinesic type="noise"><desc>Közbeszólások az MSZP soraiból, köztük Gőgös Zoltán: Annak Orbán a felelőse, meg a Fidesz!</desc></kinesic>
+<seg xml:id="AC7_12754.7">Egyértelmű felelőse a szemkilövetésnek, a lovasrohamnak, mindennek. És ugyanezek a szocialisták akkor ott voltak, de azon az ünnepi ülésen, amikor a lengyel szejm elnöke, a német Bundesrat elnöke fejet hajtott a magyar hősök előtt, na, erre az ülésre, erre már nem voltak hajlandóak eljönni</seg>
+<seg xml:id="AC7_12754.8">(Gőgös Zoltán: Koszorúztunk.)</seg>
+<seg xml:id="AC7_12754.9">Számukra a magyar hősök semmit nem számítanak.</seg>
+<seg xml:id="AC7_12754.10">Azt hittük, nincs ennél lejjebb</seg>
+<seg xml:id="AC7_12754.11">(Gőgös Zoltán: Még te mondod?!)</seg>
+<seg xml:id="AC7_12754.12">De van. Nagy tiszteletben álló politikus képviselőtársuk, Havas Szófia ugyanis a következőket tudta mondani, sajnos szó szerint kell idézzem</seg>
+<kinesic type="noise"><desc>Gőgös Zoltán: Tudsz oroszul, vagy mi van? - Derültség, zaj az MSZP és a Jobbik soraiban. - Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC7_12754.13">Havas Szófia szerint „’56 horthysta provokáció, a nácik által szervezett fasiszta ellenforradalmi puccs”. Havas Szófia jelenleg az önök pártjának tagja</seg>
+<seg xml:id="AC7_12754.14">(Dr. Józsa István közbeszólása.)</seg>
+<seg xml:id="AC7_12754.15">Szeretném megtudni, hogy hány Havas Szófia lehet a Magyar Szocialista Pártban. Várom államtitkár úr válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

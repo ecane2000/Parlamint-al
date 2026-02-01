@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2018-11-19" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2018-11-19 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2018-11-19 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="8" unit="speeches">8 beszéd</measure>
+        <measure xml:lang="en" quantity="8" unit="speeches">8 speeches</measure>
+        <measure xml:lang="hu" quantity="2541" unit="words">2541 szó</measure>
+        <measure xml:lang="en" quantity="2541" unit="words">2541 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2018-11-19">2018. 11. 19.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="8"/>
+          <tagUsage gi="seg" occurs="30"/>
+          <tagUsage gi="kinesic" occurs="8"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2018-11-19">2018-11-19</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2018-11-19-urgent_question-AC8_3568" who="#LászlóVarju" ana="#regular"><note>VARJU LÁSZLÓ (DK):</note>
+<seg xml:id="AC8_3568.1">Köszönöm szépen. Tisztelt Ház! Miniszter úr, az ön által képviselt minisztérium elismerte, hogy külön ellátásban, elbánásban részesíti a börtön elől Magyarországra menekült volt macedón miniszterelnököt. Eddig érdemi válaszokat erre a helyzetre nem kaptunk, pedig tudjuk, hogy ebből világra szóló botrány lett.Elmondom, hogy ez a különleges bánásmód miből állt eddig önöknek. Mivel a volt macedón miniszterelnök biztonságos származási országból indult, ráadásul egy biztonságos harmadik országon keresztül jutott Magyarországra, a tranzitzónán nem jöhetett volna át menekültügyi eljárás lefolytatása nélkül.</seg>
+<seg xml:id="AC8_3568.2">(14.10)</seg>
+<seg xml:id="AC8_3568.3">Mégis a korrupcióba belebukott volt macedón miniszterelnök egyből egy budapesti szállodában, majd a hírek szerint Orbán Viktor házában bujkálhatott.</seg>
+<seg xml:id="AC8_3568.4">Miniszter úr, saját népét meglopó, börtön elől menekülő ember az önök diplomáciai segítségével jött Budapestre útlevél nélkül, illegális migránsként. Ez a helyzet. ezt nevezik önök különleges bánásmódnak. Tehát önök becsempésztek az országba egy illegális bevándorlót és felvállalták, ez tény. Önnek tudnia kell, hogy az önök által hozott törvények szerint egy olyan szervezetnek, amely a bevándorlást segíti, regisztráltatnia kell magát, sőt be kell fizetnie a bevándorlási különadót.</seg>
+<seg xml:id="AC8_3568.5">Kérdezem ezért miniszter urat: regisztrálták-e már a Miniszterelnökséget és a Fideszt bevándorlást támogató szervezetként? Megtették-e már? Ha nem, akkor mikor fogják megtenni? Kérdezem továbbá, hogy befizette-e már a Miniszterelnökség és a Fidesz a bevándorlási különadót. Megtették már? Ha nem, akkor mikor fogják befizetni a különadót? Gondolom, ez nem fog önöknek gondot okozni, nyilván jól fizetett egy börtön elől menekülő illegális bevándorló, pláne egy saját népe elől menekülő bukott miniszterelnök.</seg>
+<seg xml:id="AC8_3568.6">A törvények önökre is vonatkoznak, akkor is, ha önök hozták őket. Kérem, válaszoljon kérdéseimre. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-11-19-urgent_question-AC8_3569" who="#LászlóVarga" ana="#regular"><note>DR. VARGA LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC8_3569.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Magyarországon hatalmas egészségügyi kockázatot jelent a légszennyezés. Rendkívül magas az erre visszavezethető megbetegedések, különösen magas az erre visszavezethető halálesetek száma. Az Európai Bizottság kötelezettségszegési eljárást is indított Magyarország ellen, és intézkedési tervet vár már nagyon régen e tekintetben önöktől, a kormánytól. Két kiemelkedő gócpontot hadd említsek meg, amely a leginkább sújtott az országban a légszennyezés kapcsán. Sokszor elhangzik Budapest, az ország fővárosa, ahol nagyon kevés a zöldfelület, és nagyon rosszak az adatok sokszor. De hadd beszéljek kicsit szűkebb pátriámról, a Sajó völgyéről, amely talán még szennyezettebb terület. Itt Kazincbarcika, Sajószentpéter, Putnok és a legnagyobb lakosságszámmal Miskolc érintett, összesen mintegy 400 ezer ember. Nagyon sok javaslatot tettem én személyesen és frakciónk is az elmúlt időszakban arra, hogy mit kéne csinálni. Önök leállították az épületenergetikai fejlesztéseket gyakorlatilag 2010 után, például Miskolcon a paneltechnológiával épült ingatlanoknak mintegy harmadát sikerült megújítani ’10 előtt. Azóta gyakorlatilag semmit.</seg>
+<seg xml:id="AC8_3569.2">Nagyon sokan korszerűtlen fűtési módszereket használnak, nagyon sokan korszerűtlen kazánokkal fűtenek, azonban nincsenek érdemi kazáncsereprogramok. Nagyon komoly a tűzifahiány, erről ma már esett szó. Az is kérdés, hogy hajlandóak-e végre 5 százalékra csökkenteni a tűzifa áfáját, mert ez is jelentősen csökkentené a légszennyezést, és sokaknak jelentene szociálisan is nagyon sokat. A gépjárműforgalom is jelentős szennyező. A BKV és vidéken a Volán-társaságok járműállománya nagyon komolyan szennyező, és érett már a személygépkocsik állományának lakossági csereprogramja is. Romániának sikerült ilyen programot bevezetnie. Remélem, nekünk is fog.</seg>
+<seg xml:id="AC8_3569.3">Várom tehát válaszát, tisztelt miniszter úr, hogy milyen intézkedéseket terveznek végre a légszennyezés problémájának kezelésére. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-11-19-urgent_question-AC8_3573" who="#MártonGyöngyösi" ana="#regular"><note>GYÖNGYÖSI MÁRTON (Jobbik):</note>
+<seg xml:id="AC8_3573.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Az elmúlt napok a Gruevszki-botránytól voltak hangosak. Ez, ugye, az az exminiszterelnök Macedóniában, akivel Orbán Viktor, Németh Zsolt és ön, miniszter úr is személyesen találkozott, és akinek a rendezvényén, a VMRO-nak az egyik kampányrendezvényén maga Szijjártó Péter emelkedett szólásra, hogy kampányoljon, és miniszter úr is, nagyon örülök, hogy ezzel kiegészíti a felszólalásomat. Ez az a Gruevszki exminiszterelnök, akihez az önök kormányát számos gazdasági szál is fűzi, hiszen a Habony Árpádnak a köreihez tartozó Schatz Péter és Adamik Ágnes Gruevszki médiájában vásárolt részesedést, és idén tavasszal Schatz urat húsz nap leforgása alatt 12-szer látták megfordulni a VMRO irodájában. Itt ugye, három év alatt a migrációs kampány során önök tettek arról, hogy mind Macedóniát, mind Montenegrót, mind Albániát, mind Szerbiát biztonságos országnak minősítsék. Ezek azok az országok, amelyeken az önök diplomatái keresztülsegítették ezt a bukott miniszterelnököt, aki nemcsak megbukott a választók akaratából, hanem egy luxus-Mercedesnek a célzott közbeszerzése miatt, amit magáncélra is használt, ebbe belebukott, és korrupció vádjával két év börtönre ítélték. Ezt az embert önök ezeken az országokon keresztül csempészték be ebbe az országba, olyan országokon keresztül, amelyeket önök néhány évvel ezelőtt biztonságos országnak minősítettek.</seg>
+<seg xml:id="AC8_3573.2">A rendszerváltás óta ilyenre még nem volt példa. Kérdezem miniszter urat: mi volt a diplomaták szerepe ebben, hogy embert csempésztek ide, Magyarországra, nem is akármilyet, és hogy a menekültjogról mi a véleményük egy ilyen emberrel szemben, aki négy országon keresztül érkezett Magyarországra, amelyek közül mindegyiket biztonságosnak minősítette Magyarország</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-11-19-urgent_question-AC8_3574" who="#IstvánSzávay" ana="#regular"><note>SZÁVAY ISTVÁN (Jobbik):</note>
+<seg xml:id="AC8_3574.1">Köszönöm szépen a szót. Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Mindnyájunk előtt ismert a szlovák állampolgársági törvénynek az ügye. Miután Magyarország 2010-ben egy történelmi kötelességét teljesítve biztosította a kedvezményes honosítás lehetőségét, néhány nappal ezt követően Szlovákia egy ellentörvényt hozott, amelynek értelmében elveszíti szlovák állampolgárságát az, aki felvette a magyart vagy valamilyen másmilyet, és a más állampolgárság meglétéről a törvény szerint egyébként az adott illetőnek saját magának kell nyilatkoznia.Mostanra Szlovákia eljutott odáig, hogy már a saját, egyébként európai mércével mérve is vállalhatatlan és elfogadhatatlan törvényét sem tartja be. A 2018. november 11-én megtartott felvidéki helyhatósági választásokon ugyanis közölték Pallér Péter felvidéki magyar középiskolai tanárral, a Jobbik felvidéki szervezőjével, hogy nem vehet részt a voksoláson, ugyanis nem szerepel a választói névjegyzékben, a lakcímnyilvántartásban sem. Hosszabb telefonálgatás után kiderült, hogy ez azért van, mert Pétertől 2018. április 8-án megvonták a szlovák állampolgárságot, majd a lakcímnyilvántartásból törölték őt; mindezt egyébként úgy, hogy saját tulajdonú lakással is rendelkezik Révkomáromban.</seg>
+<seg xml:id="AC8_3574.2">Április 8-a pedig éppen a magyarországi parlamenti választások napja volt, amit Pallér Péter a pozsonyi nagykövetségen felügyelt a Jobbik megfigyelőjeként. Minderről pedig hét hónap elteltével sem kapott semmilyen értesítést. Ennek híján magának kell kinyomozni, hogy tulajdonképpen ki és milyen indokok alapján döntött az állampolgársága elvételétől, és egyáltalán mit tud tenni ez ellen a döntés ellen. A szlovák hatalom tehát törvénytelenségben és magyarellenességben egy újabb szintet lépett, egy újabb határt lépett át. Tették mindezt, hangsúlyozom még egyszer, a magyarországi választások napján, és tették mindezt éppen a Jobbik felvidéki szervezőjével.</seg>
+<seg xml:id="AC8_3574.3">Államtitkár úrtól azt szeretném kérdezni, hogy hogyan kívánnak reagálni erre az újabb vörösvonal-átlépésre. Várhatunk-e a szokottnál valamivel határozottabb választ arra, hogy a szlovák állam most már a saját törvényeit sem tartja be, megsérti, és ártatlan állampolgárokat tesz hajléktalanná a saját hazájukban? Milyen segítséget kívánnak konkrétan nyújtani a jogfosztott felvidéki jobbikos fiatalembernek</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-11-19-urgent_question-AC8_3575" who="#PéterUngár" ana="#regular"><note>UNGÁR PÉTER (LMP):</note>
+<seg xml:id="AC8_3575.1">Köszönöm a szót. Azt mindannyian tudjuk, hogy az emberi erőforrások minisztere foglalkoztatja a tiszti főorvost, önöknek felel. A tiszti főorvos, amikor a legutóbbi légszennyezettségi adatokat publikálta, azt mondta, hogy azt javasolja a budapesti polgároknak, akik a légszennyezettségben élnek, hogy minél kevesebb időt töltsenek a szabadban, kerüljék a kültéren végzett aktív testmozgást, fizikai munkát. Amikor ezt mondta, úgy 20 fok volt.Az lenne először a kérdésem államtitkár úrhoz, hogy mi az álláspontja a tiszti főorvos ezen kijelentéséről, és ő is azt tanácsolja-e azoknak az embereknek, akiknek a légszenyezettség problémát okoz, hogy maradjanak otthon.</seg>
+<seg xml:id="AC8_3575.2">Tovább szeretnék menni, ami korábban már elhangzott erről, azt nem szeretném megismételni, Budapest viszont különösen rossz helyzetben van az országban a levegőszennyezettség terén. Az a helyzet, hogy Budapesten több ember hal meg egy főre lebontva, mint bármelyik más vidéki városban a levegőszennyezettség miatt. Ezt kétféleképpen lehetne alapvetően megállítani. Az egyik, ha csökkentenék az autóforgalmat. Kérem, válaszoljon arra, hogy támogatja-e a Fidesz a dugódíj bevezetését, amit az LMP amúgy támogat, amiről korábban összevissza több álláspontot is megfogalmaztak egy évben belül. Illetve terveznek-e bármit azért, hogy Budapesten nőjön a zöldfelületek aránya? Jelenleg 0,3 négyzetméter zöldfelület jut egy erzsébetvárosi lakóra. Ha az egy főre jutó zöldfelületet nézzük, akkor Budapest az egyik utolsó az Európai Unióban.</seg>
+<seg xml:id="AC8_3575.3">Van-e bármilyen tervük arra, hogy csökkentsék a légszennyezettséget, azon kívül, hogy a budapestiek otthon maradnak egész évben? Van-e bármi tervük arra, hogy a fűtés-korszerűsítésre vagy a lakásszigetelésekre költsenek, ahelyett, hogy minden egyes fát, amit látnak, kivágjanak, és egy olyan lebetonozott Budapestet csináljanak, ahol senki számára nem marad élhető levegő, és komoly közegészségügyi kockázatot okoz? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-11-19-urgent_question-AC8_3577" who="#SándorF.Kovács" ana="#regular"><note>F. KOVÁCS SÁNDOR (Fidesz):</note>
+<seg xml:id="AC8_3577.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! A nemzeti jogrend világos keretet szab a törvényesen bejegyzett pártok szervezeti, gazdálkodási és igazgatási működésének. Úgy vélem, hogy ezeket a normákat kivétel nélkül valamennyi, Magyarországon bejegyzett és működő politikai párt köteles betartani. A pártok működéséről és gazdálkodásáról szóló törvény részletesen szabályozza a működési kereteket, köztük a pártok gazdálkodási szabályait is. A törvény rendelkezése szerint egyéb hozzájárulás és adomány elfogadása esetében, amennyiben annak értéke az 500 ezer forintot meghaladja, az adott párt köteles a kapott hozzájárulást nevesíteni.A közelmúltban tanúi lehettünk a Jobbik gazdálkodási botrányainak. Az Állami Számvevőszék szabálytalan gazdálkodás miatt több mint 600 millió forint megfizetésére kötelezte a pártot, majd erre való hivatkozással adománygyűjtésbe kezdett a Jobbik, amely pénzeket valószínűsíthetően, az ígéretükkel ellentétes módon kampányuk finanszírozására költötték el. A Jobbik balratolódása miatti kilépési hullámnak köszönhetően újabb kétes ügyletek kerültek felszínre. Szabó Balázs, a feloszlatott szekszárdi alapszervezet vezetőjének elmondása szerint Simicska Lajos volt médiavállalkozó nejlonzacskóban küldte a rántott húst a Jobbiknak</seg>
+<kinesic type="noise"><desc>Moraj és folyamatos közbeszólások a Jobbik soraiban.</desc></kinesic>
+<seg xml:id="AC8_3577.2">Tisztelt Képviselőtársaim! Államtitkár Úr! Úgy gondolom, mindannyiunk számára világos, hogy a rántott hús jelző alatt mire gondolt az exjobbikos politikus. Elmondása szerint ilyen törvénytelen módon küldte a médiamágnás a pénzeket az ÁSZ-büntetés finanszírozására. Teljesen abszurd, hogy egy párt a szabálytalan gazdálkodás miatt szankció kiegyenlítésére ismét törvénytelen módon gyűjtött pénzeket.</seg>
+<seg xml:id="AC8_3577.3">Tisztelt Képviselőtársaim! Úgy gondolom, ideje lenne, hogy a Jobbik tiszta vizet öntsön a pohárba, hiszen a körülményeket tisztázni kell. Kérdezem államtitkár urat, meddig folytatható még a zavaros pénzügyi…</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2018-11-19-urgent_question-AC8_3579" who="#TimeaSzabó" ana="#regular"><note>SZABÓ TIMEA (Párbeszéd):</note>
+<seg xml:id="AC8_3579.1">Miniszter úr, ön iménti két válaszában is azt mondta, hogy Nikola Gruevszkivel kapcsolatban folyik egy menekülteljárás, ezért nem adhat erről tájékoztatást. Köszönjük, hogy ezek szerint elismerte, hogy van tehát menekülteljárás folyamatban. Ez nem volt teljesen világos a közvélemény számára, csak mondom. Ha viszont így van, hogy folyik menekülteljárás, akkor szeretném hangsúlyozni, hogy az önök kormánya nemcsak uniós, de a saját maguk által szigorított magyar jogszabályokat is súlyosan megsértik a macedón volt miniszterelnök esetében. Az uniós szabályok és a magyar menedékjogi törvény szerint is ugyanis nem adható menekültstátusz annak, akit az országában súlyos, nem politikai bűncselekmény miatt ítéltek el. Gruevszkit a hazájában nem üldözték sem politikai nézete miatt, sem vallása miatt, sem semmilyen társadalmi csoporthoz való hovatartozása miatt. Őt kizárólag korrupció miatt ítélték két év börtönre.</seg>
+<seg xml:id="AC8_3579.2">A súlyos bűncselekmények ügyében világosan fogalmaz az Unió alapszerződésének 83. cikkelye. Az Európai Parlament és a Tanács rendes jogalkotási eljárás keretében elfogadott irányelvekben szabályozási minimumokat állapíthat meg a bűncselekmények tényállásai és a büntetési tételek meghatározására vonatkozóan az olyan különösen súlyos bűncselekmények esetében, amelyek esetében különösen szükséges, hogy az ellenük folytatott küzdelem közös alapokon nyugodjék.</seg>
+<seg xml:id="AC8_3579.3">Ezek a bűncselekmények a következők: terrorizmus, emberkereskedelem, a nők és gyermekek szexuális kizsákmányolása, tiltott kábítószer-kereskedelem, fegyverkereskedelem, pénzmosás, korrupció, pénz és egyéb fizetőeszközök hamisítása, számítógépes bűnözés és szervezett bűnözés. Egyértelmű tehát, hogy a korrupciót az európai országok különösen súlyos bűncselekménynek nyilvánították.</seg>
+<seg xml:id="AC8_3579.4">Kérdezem tehát miniszter urat, hogy ha folyamatban van egy eljárás, és ezek szerint nem zárták ki automatikusan Gruevszkit ebből, akkor ön szerint a gátlástalan pénztolvajlás, közismertebb nevén a korrupció egy súlyos bűncselekmény, vagy esetleg egy olyan politikai szabadságjog, amit a magyar államnak védeni kell. Ha esetleg az előbbi, akkor miért segítette aktívan a magyar kormány a magyar határon való bejutását a volt macedón miniszterelnöknek? Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Párbeszéd soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-11-19-urgent_question-AC8_3580" who="#IstvánSimicskó" ana="#regular"><note>DR. SIMICSKÓ ISTVÁN (KDNP):</note>
+<seg xml:id="AC8_3580.1">Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tisztelt Országgyűlés! A Fidesz-KDNP-kormány azért indította el a családi otthonteremtési kedvezmény rendszerét, hogy akik gyermeket nevelnek vagy gyermekvállalás előtt állnak, a lehető legjobb körülmények között élhessenek Magyarországon. A CSOK népszerűsége azóta is töretlen, a kedvezménnyel eddig több tízezer család élhetett, ami azt jelenti, hogy az elmúlt időszakban több százezer ember otthonteremtését tudtuk segíteni. A CSOK emellett nemcsak a gyermekvállalási kedvet igyekszik segíteni, hanem a hazai építőipar fellendüléséhez is hozzájárul az egyéb kedvezmények mellett, ami azonnali nemzetgazdasági pozitívumot jelent mindannyiunk számára. 2018 első félévében 30 százalékkal több lakás épült, mint egy évvel korábban, évente pedig 30-40 százalékkal emelkedett a kiadott építési engedélyek száma.</seg>
+<seg xml:id="AC8_3580.2">Tisztelt Államtitkár Úr! Kereszténydemokrata képviselőként hadd mondjam el, hogy a politikánk kiemelten fontos része a családtámogatás, a családi élet körülményeinek a folyamatos javítása. Nem túlzás azt feltételeznünk, hogy a családpolitikai intézkedések között, hangsúlyosan a CSOK-nak is köszönhetően javultak a népesedési mutatók. Persze, őszintén tegyük hozzá, hogy van még teendő ezen a területen is.</seg>
+<seg xml:id="AC8_3580.3">A CSOK igényelhető már meglévő és születendő gyermek után is, egyszülős és kétszülős családok otthonteremtését is szolgálja. Az adatok alapján elmondhatjuk, hogy a legtöbben 30-40 éves koruk között veszik igénybe a támogatást, nagyságrendileg 11 százalékuk vállal előre gyermeket, 30 százalékuk egy, 34 százalékuk két gyermekkel rendelkezik, és 25 százalékuk három vagy annál több gyermeket nevelő családban él. Fontos látnunk, hogy a CSOK a vidék megmaradásához is hozzájárul.</seg>
+<seg xml:id="AC8_3580.4">Ezzel együtt továbbra is nagyon nagy igény van arra, hogy segítsük a fiatalokat az első otthon megszerzésében, és ha bővül a család, lehetőségeink szerint segítsük a továbblépésben is.</seg>
+<seg xml:id="AC8_3580.5">Ebben is segíthet a családi otthonteremtési kedvezmény kibővítése. Ezért kérdezem tisztelt államtitkár urat, hogyan értékeli a CSOK eddigi hatását, hogyan változik a CSOK rendszere a jövőben.</seg>
+<seg xml:id="AC8_3580.6">Köszönöm szépen megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

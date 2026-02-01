@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2019-11-11" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2019-11-11 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2019-11-11 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2698" unit="words">2698 szó</measure>
+        <measure xml:lang="en" quantity="2698" unit="words">2698 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2019-11-11">2019. 11. 11.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="32"/>
+          <tagUsage gi="kinesic" occurs="10"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2019-11-11">2019-11-11</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2019-11-11-urgent_question-AC8_7978" who="#GergelyArató" ana="#regular"><note>ARATÓ GERGELY (DK):</note>
+<seg xml:id="AC8_7978.1">Tisztelt Ház! Az előző vita arra ingerelne, hogy beszámoljak a lajosmizsei vonalon szerzett tapasztalataimró</seg>
+<seg xml:id="AC8_7978.2">(Derültség az ellenzéki pártok soraiban.)</seg>
+<seg xml:id="AC8_7978.3">, lenne hozzá szókincsem, de ha megengedik, ennél egy talán még fontosabb problémát szeretnék ma az Országgyűlés elé hozni.Az elmúlt hetekben újabb nevelőszülővel fordult elő egy olyan eset, ami teljes joggal keltett felháborodást, hiszen egy nevelőszülő pártól, akik féléves kora óta neveltek egy gyereket, négy és fél év után vették el a gyereküket úgy, hogy egyébként ez a pár is kezdeményezte, hogy ők örökbefogadói lehessenek ennek a kisgyereknek. Ennek ellenére nem ők kapták meg ezt a gyermeket, hanem egy idegen pár, ráadásul egy szokatlanul gyors eljárásban. Lényegében néhány nap alatt elszakították ezt a gyereket az addig őt nevelő családjától. Biztosan egyetértünk abban, hogy ez eljárás nem szolgálja semmilyen módon a gyerek érdekét, és nem elfogadható semmilyen módon.</seg>
+<seg xml:id="AC8_7978.4">Sajnos, nem ez az egyetlen eset. A sajtóban is megjelentek más esetek, és vannak olyan nevelőszülők is, akik engem személyesen megkerestek, de nem szeretnék, ha nyilvánosságra kerülne az ügyük, mert félnek attól, hogy a többi gyereket is elveszik tőlük ebben a rendszerben.</seg>
+<seg xml:id="AC8_7978.5">Természetesen jól tudom, hogy a nevelőszülői elhelyezés alapvetően ideiglenes elhelyezés, a jó megoldást az örökbe adás jelenti, de az is teljesen egyértelmű, hogy ezekben az örökbeadási esetekben figyelembe kellene venni a már kialakult kapcsolatot a nevelőszülő és a gyermek között, és ha szükség is van arra, hogy más családhoz kerüljön a gyerek, akkor ennek humánus módon és megfelelő idő alatt kellene végbemennie.</seg>
+<seg xml:id="AC8_7978.6">Az a kérdésem, hogy terveze a kormány jogszabályi változást vagy más intézkedést annak érdekében, hogy elkerülhetőek legyenek az ilyen esetek</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-11-11-urgent_question-AC8_7979" who="#ZsoltGréczy" ana="#regular"><note>GRÉCZY ZSOLT (DK):</note>
+<seg xml:id="AC8_7979.1">Köszönöm a szót, elnök úr. Tisztelt Ház! A közmédiának hazudott állami média fideszes irányítói újabb gyalázatos lépésre szánták el magukat. Az MTVA belső működéséről, a Fidesz folyamatos irányításáról, a hírhamisítás kötelező előírásairól kipakoló korábbi munkatársukat, Balogh Krisztinát perrel fenyegetik. Balogh Krisztina egyike azoknak, akiknek elege lett az ’50-es évekre emlékeztető pártutasításokból. Például beszámolt arról, hogy egészségügyi témában megmondták, hogy nem szólalhat meg az az ellenzéki rokonnal rendelkező szereplő, akit esetleg ő megtalált nyilatkozni. Elmondta azt is Balogh Krisztina, hogy szem- és fültanúja volt, ahogy a riportereket instruálják, adott politikai témában kinél és mire kell rákérdezni, és hogy milyen formában provokálják az ellenzéki politikusokat. Azt is elmondta, hogy a hírigazgató időnként saját maga végzi el ezt a munkát, behíva egy-egy riportert, utasításokat fogalmaz meg, olykor szerkesztőkön keresztül vagy e-mailen keresztül. Ezenkívül azt is elmondta Balogh Krisztina, hogy házon belül nyílt titok, hogy a kormányzati kommunikációt felügyelő államtitkárságról küldik a használandó paneleket és a témákat a szerkesztőségbe. Ezek után nyilvánvalóan az a kérdés, hogy kik és naponta hányszor küldenek önöktől utasításokat az adófizetők 90 milliárdjából fenntartott MTVA-nak, hogy kit és mit akarnak látni a műsorban, és kit és mit nem akarnak látni. Vane olyan kritérium az MTVA-ban, hogy a Fidesznek hűségesküt tevő embereket lehet alkalmazni? Balogh Krisztina ellen valóban elindule jogi eljárás? Polt Pétert már mozgósítottáke az ügy érdekében? A perrel fenyegetés üzenete az MTVA dolgozóinak, hogy megüthetik a bokájukat, ha ki merik nyitni a szájukat? Várom államtitkár úr válaszát</seg>
+<kinesic type="applause"><desc>Taps a DK soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-11-11-urgent_question-AC8_7981" who="#HajnalkaJuhász" ana="#regular"><note>JUHÁSZ HAJNALKA (KDNP):</note>
+<seg xml:id="AC8_7981.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Képviselőtársaim! Alig múlik el nap anélkül, hogy szóba ne kerülne a környezet védelme és a klímaváltozás elleni küzdelem. Hiszen mindannnyian tiszta vizet, tisztább levegőt és elviselhetőbb klímát szeretnénk. A szén-dioxid-kibocsátás csökkentésének, illetve az éghajlatváltozás kihívásainak egyik hatékony eszköze az erdőgazdálkodás. Jelenleg Magyarországon az egyetlen szénelnyelő ágazat az erdőgazdálkodás. Az erdő az általa biztosított haszonvételi lehetőségek, illetve számos egyéb közérdekű védelmi és közjóléti szolgáltatása révén az egyik legfontosabb természeti erőforrásunk, kiemelkedő jelentőségű nemzeti kincsünk.Az erdőnek minden szolgáltatása a közjólétet szolgálja. A gazdasági funkciója értelmében a fa megújulóenergia- és nyersanyagforrás, amely a minőségi életvitel egyik alapfeltétele, míg az erdei mellékhaszonvétel által egészséges termékekhez és élelmiszerekhez juthatunk. Az erdő sokrétű védelmi funkciója az erdő bonyolult rendszeréből fakad, és nagyon fontos szerepet tölt be a hazai biológiai sokféleség megőrzésében.</seg>
+<seg xml:id="AC8_7981.2">(14.40)</seg>
+<seg xml:id="AC8_7981.3">Tisztelt Miniszter Úr! Trianon után a hazai erdőterületek 84 százaléka a mai határainkon kívülre került, így 1,1 millió hektárra zsugorodtak erdőink. Ez az ország területének alig 12 százaléka volt. Mostanra ez az arány csaknem megduplázódott, ma körülbelül 2 millió hektáron található erdő. A hazai erdők évente 4-5 millió tonna szén-dioxid egyenértékének megfelelő üvegházhatású gázt kötnek meg, ami jelenleg az országos kibocsátás 7-8 százalékát ellensúlyozza. A faanyag energetikai célú hasznosítása további mintegy 5 millió tonna fosszilis eredetű szén-dioxid kibocsátását váltja ki.</seg>
+<seg xml:id="AC8_7981.4">Tisztelt Miniszter Úr! A fentiek alapján egyértelmű, hogy nem elég a meglévő erdőterületeket megőrizni, hanem új erdőterületeket is létre kell hozni. Éppen ezért kérdezem miniszter urat: mit tett a kormány az elmúlt időszakban az erdősültség növeléséért, az erdőterület megőrzéséért, és milyen intézkedéseket tervez a közeljövőben? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-11-11-urgent_question-AC8_7982" who="#PéterUngár" ana="#regular"><note>UNGÁR PÉTER (LMP):</note>
+<seg xml:id="AC8_7982.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A kormány rendszeresen és sokat hivatkozik arra, hogy a földgáz biztonságos szállítása fogja megalapozni Magyarország energetikai hátterét a következő időszakban, ugyanakkor az elmúlt időszak hírei alapján ki lehet jelenteni, hogy a földgáznál nem ellátásbiztonság, hanem ellátásbizonytalanság van. Pontosan tudjuk, hogy bár az Északi Áramlat II. és a Török Áramlat megépülni készül azért, hogy Oroszország el tudja kerülni az ukrajnai tranzitot, ezek a gázvezetékek nem fognak megépülni 2019. december 31-ével, ami a bejelentett határidő a Gazprom és a Naftogaz közötti szállítási szerződés megszüntetésére. Ez azt jelenti, hogy pontosan nem lehet tudni, hogy 2020. január 1-jétől hogy fog Magyarországra érkezni a gáz.</seg>
+<seg xml:id="AC8_7982.2">A Kreml szóvivője november 5-én azt mondta, hogy Vlagyimir Putyin tartja magát ahhoz, amit a budapesti sajtótájékoztatón mondott, hogy Ukrajnával minden vitás kérdést le kell zárni, mielőtt az ukrajnai szállítási szerződést az orosz fél újra megköti. Ezzel kapcsolatban a következő kérdéseim lennének.</seg>
+<seg xml:id="AC8_7982.3">Tudjae a kormány garantálni a biztonságos gázszállítást a jövő évben? Jelente ez lakossági gázáremelést a jövő évben, ha nem tudja a Barátság vezetéken keresztüli gázszállítást garantálni? Milyen előrelépés történt azokban a gázszállítási lehetőségekben, amelyek nem Oroszország irányából jelentenek gázt, gondolok itt a román, illetve a krki LNG-terminálra? Amennyiben ebben nem voltak előrelépések, milyen gazdasági következményei lesznek annak, ha jövőre a spotpiacon kell világpiaci áron gázt vásárolni, hogyha a gáztározók előbb-utóbb kiürülnek, mert az sem tart végtelen ideig?</seg>
+<seg xml:id="AC8_7982.4">Tehát az a kérdésem, hogy az orosz kapcsolatot, ami Magyarországnak olyan fontos, hogyan lehet arra beváltani, hogy legyen gáz jövőre is Magyarországon. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Szórványos taps az ellenzéki pártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-11-11-urgent_question-AC8_7983" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC8_7983.1">Köszönöm, sőt külön köszönöm, hogy államtitkár úr fog válaszolni, mert államtitkár úr múlt heti interpellációmra adott válaszát szeretném egy kicsikét szétszedni. Azt mondta nekem az interpellációmra államtitkár úr, hogy naponta 3900 vonat indul el és 32 500 darab autóbusz, és a tisztaságot firtató kérdésemre azt mondta államtitkár úr, hogy a kárpittisztítások száma 25 százalékkal nőtt az elmúlt években, viszont azt is mondta, hogy közel 4 millió emberrel többen utaznak a vasúton 2015 óta, mint előtte. Akkor lényegében egy szikrával nem csinálnak több tisztítást, mert az utasok száma is körülbelül 25 százalékkal nőtt, tehát, államtitkár úr, egyetlenegy takarítással sincs több a magyar államvasúton, mi utasok, meg tudjuk, hogy napi szinten ez így is van.A másik, amit mondott államtitkár úr, hogy 2014-2016 között 63 darab új FLIRT motorvonatot sikerült beszerezni, az IC-kocsik gyártásának eredményeként pedig 20 darab új IC-kocsit állítottak be. Ha 4 millióval nőtt az utasok száma, államtitkár úr, és amúgy meg az eszközállomány, a vasúti kocsik és a mozdonyok életkora sokszor meghaladja a 40-50 évet, akkor megint csak nem csináltak semmit az elmúlt kilenc évben, mert amennyivel nőtt az utasok száma, azt vesszük észre, hogy semmivel nem nőtt a szolgáltatások színvonala.</seg>
+<seg xml:id="AC8_7983.2">Ráadásul nagyon szerettem volna, ha államtitkár úr elfogadja a meghívásomat, mert hétfőn egy óra harminc perceket késtek a vonatok, kedden, amikor mentem haza, ugyanez volt a helyzet. Múlt héten megint tragédia volt, aki kiment a vasútállomásra, és azt látta, hogy megint nem indulnak el vonatok. Ma reggel megint járatkimaradás volt, sőt most Kisvárda és Nyíregyháza között állt meg a forgalom.</seg>
+<seg xml:id="AC8_7983.3">Államtitkár úr, minősíthetetlen a vasút állapota, és ennek a pénzhiány és a szakemberhiány a legnagyobb okozója</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC8_7983.4">Mikor lesz már végre valami előrelépés a MÁV-val kapcsolatban? Várom válaszát, államtitkár úr</seg>
+<kinesic type="applause"><desc>Taps az MSZP és a Párbeszéd soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-11-11-urgent_question-AC8_7984" who="#OlivioKocsis-Cake" ana="#regular"><note>KOCSIS-CAKE OLIVIO (Párbeszéd):</note>
+<seg xml:id="AC8_7984.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Múlt hét csütörtökön a török elnök látogatásakor a budapestiek nagy türelemről tettek tanúbizonyságot. Köszönet illeti őket. Köszönetet érdemelnek még a rendőrök, akik sokszor vidékről felrendelve, próbálták az értelmetlen utasításokat végrehajtani. Akik viszont nem érdemelnek köszönetet, azok, akiknek sikerült úgy megszervezni a török elnök látogatását, hogy káoszba fulladt a budapesti közlekedés.</seg>
+<seg xml:id="AC8_7984.2">(14.20)</seg>
+<seg xml:id="AC8_7984.3">A budapestieket méltatlan, kiszolgáltatott helyzetbe sikerült hozni. A közlekedők hosszú időn keresztül voltak kénytelenek a hidegben álldogálni, a környékbeli villamosok nem közlekedtek, de volt olyan is, aki gyalog sem tudott a dolgára menni, nem léphettek ki az épületekből, ott rekedtek vagy nem tudtak hazamenni, pedig az út túloldalán laktak. Hosszú időre a metróaluljárókban rekedtek, a Batthyány téren nem engedték ki az embereket a metróállomásból, visszatereltek mindenkit a föld alá, így hatalmas tumultus alakult ki. A zavaros pillanatokban semmiféle tájékoztatás nem volt arról, hogy meddig tart ez a zárás, volt, amikor több mint két órán volt a zárás. Elkeseredett, felháborodott budapestiek voltak az utcán. A budapestieknek tehát joguk van tudni, hogy hogyan fordulhatott elő mindez és ki a felelős ezért; főként, hogy Budapest eddig megbirkózott a hasonló típusú látogatásokkal.</seg>
+<seg xml:id="AC8_7984.4">Tisztelt Államtitkár Úr! Miért okozott jóval nagyobb közlekedési káoszt Budapesten Erdoğan látogatása, s legközelebb körültekintőbben fognake eljárni? Köszönöm válaszát</seg>
+<kinesic type="applause"><desc>Taps a Párbeszéd és a DK soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-11-11-urgent_question-AC8_7985" who="#TamásSneider" ana="#regular"><note>SNEIDER TAMÁS (Jobbik):</note>
+<seg xml:id="AC8_7985.1">Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Államtitkár Úr! Mennyit ér önöknek a szociális dolgozók megbecsülése? Úgy néz ki, körülbelül annyit, hogy a szociális ágazatban az elmúlt időszakban már tízezer dolgozó döntött a munkabeszüntetésről. Ők már nem a most meghirdetett sztrájkra készülnek, ők már elhagyták a szakmájukat az elmúlt időszakban. Kilenc éve folyik a hitegetés. Kilenc éve ígérték meg, hogy haladéktalanul visszaállítják a szakma megbecsülését.</seg>
+<seg xml:id="AC8_7985.2">(13.50)</seg>
+<seg xml:id="AC8_7985.3">A megbecsülés az asztal alatti pótlékokkal vagy kompenzáció formájában garasokat jelentett az ágazatnak. A garasoskodás oda vezetett, hogy kilenc év alatt lecsökkent az egész ágazat bére. Mára az ágazatban dolgozó szakemberek bére annyira elszakadt a magyar átlagbértől, hogy az már a megélhetésüket veszélyezteti. Idén januárban a márciusra kihirdetett sztrájkra reagálva jelentős bérfelzárkóztatást ígértek. A sokadik mézesmadzagot húzták el az egyre szegényebb dolgozók előtt, de megint nem történt semmi. Kilenc éven át hittek, reménykedtek, küzdöttek a szociális ágazat dolgozói, és továbbra sem kaptak szinte semmit. Önök most a törvények mögé bújnak, és ha kell, akár még a megfélemlítéstől sem riadnak vissza, és most a november 13-ára meghirdetett sztrájkot az elégséges szolgáltatás álarca mögé bújva sunyi módon próbálják ellehetetleníteni. Annyi, de annyi megaláztatás érte már a szociális szférában dolgozókat, hogy nehéz szavakba önteni.</seg>
+<seg xml:id="AC8_7985.4">Kérdezem államtitkár urat, hogy mit várnak cserébe a dolgozóktól. November 13-án a szakma meghirdette a szociális szakmai önmegbecsülés napját, és fokozzák a sztrájkkészültséget. Államtitkár úr, meddig teszik ezt még ezekkel az emberekkel? Kérem, a lelkiismeretére hallgatva most válaszoljon számomra. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-11-11-urgent_question-AC8_7986" who="#ZoltánBalczó" ana="#regular"><note>BALCZÓ ZOLTÁN (Jobbik):</note>
+<seg xml:id="AC8_7986.1">Elnök úr, köszönöm a szót. Tisztelt Országgyűlés! Tisztelt Miniszter Úr! Államtitkár úrral tisztáztam előzetesen, hogy a júliusban már írásban beadott kérdésem megismétlésére kényszerülök, kényszerülünk, mely szerint mikor fizetik ki végre az őshonos állattartóknak járó támogatásokat.A kormányzat pályázatot hirdetett védett őshonos és veszélyeztetett mezőgazdasági állatfajták genetikai állományának megőrzése érdekében. A támogatás célja ezen alacsony létszámmal rendelkező állatfajtáknak a tenyésztésben történő megőrzése, a fajta eredeti tartási, takarmányozási körülményeihez hasonló feltételek között. A pályázat pénzügyi forrása az Európai Unió mezőgazdasági-vidékfejlesztési alapja, és a projektben részt vevők vállalták, hogy a támogatáson felül önerőből finanszírozzák ezeket a költségeket.</seg>
+<seg xml:id="AC8_7986.2">Nos, a valóság az, és ez a probléma, hogy gyakorlatilag hosszú távon teljesen önerőből kénytelenek finanszírozni a kifizetések brutális késése miatt. Most a ’16-os kérelmek kifizetésére kerül sor, viszont a ’17-18-ban esedékessé vált kifizetésekről még szó sincsen. Ezek a gazdálkodók hiába érdeklődnek a kifizető vagy elbíráló hatóságoknál, csak semmitmondó válaszokat kapnak. A projekt brüsszeli forrása rendelkezésre áll, így érthetetlen a kifizetések elmaradása vagy feltehetőleg nem is a pénz a gond, hanem a hivatalok működésképtelensége? Ez egy felelőtlen kormányzati magatartás, sok állattartót kényszerített már az állomány leépítésére vagy sodort súlyos adósságba.</seg>
+<seg xml:id="AC8_7986.3">Ezért kérdezem tisztelt miniszter urat, mi az oka a kifizetések több éves csúszásának, mikor kaphatják meg végre a jogosan járó összeget? És igen, meddig él még vissza a kormány ezeknek a gazdáknak a türelmével, és számíthatnake és milyen mértékű kártalanításra? Várom miniszter úr érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-11-11-urgent_question-AC8_7988" who="#AttilaBarcza" ana="#regular"><note>BARCZA ATTILA (Fidesz):</note>
+<seg xml:id="AC8_7988.1">Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Kedélyeket borzoló felvételek láttak napvilágot az idei helyhatósági választások kampánya során, melyek következményeként a közélet tisztasága további romlásnak indult. Ez a mélyzuhanás a XIX. kerület egyik önkormányzati képviselőjének és társainak volt köszönhető. Szomorú tény, hogy a kispesti önkormányzatban a mára már közismert Lackner Csabának adott az ellenzék bizottsági pozíciót, aki erkölcsi határokat nem ismerve és azokat gátlástalanul áthágva kizárólag anyagi haszonszerzés vezérelte célból vállalta közéleti megbízatását. Lackner nem rejtette véka alá, hogy ilyen-olyan trükkös ügyletek megkötésével és strómanok alkalmazásával miként sikerülhet évente minimum 100 millió forintos jövedelemre szert tenni. Aki pedig önkormányzati képviselőként erre nem képes, az véleménye szerint tehetségtelen, egyszerűen botor. Aggasztó, hogy a Lacknert és társait eddig is kontroll nélkül keresztapát játszani engedő szociálliberális kispesti kerületi vezetés a saját koalíciós társait is megtévesztve próbálta bizottsági pozícióba juttatni az említett személyt. Utólag persze könnyű már azzal magyarázkodni, hogy véletlenül hibás listát terjesztettek a közgyűlés elé. Úgy gondolom, hogy ilyen esetekben nem szabadna hibás listának lenni. Még a balliberális összefogás részeként szerepet vállaló Momentum elnöke is kijelentette interjúiban, hogy Lackner Csaba velejéig korrupt, és hogy harcolni kell a Lackner-félékkel szemben. Egyértelművé kell tehát tenni mindenki számára, hogy Magyarországon következmények nélkül senki sem idézheti elő a helyi közélet tisztaságának súlyos romlását, ezzel párhuzamosan pedig a helyi önkormányzatok törvényes működésének zavarát.</seg>
+<seg xml:id="AC8_7988.2">A fentiekre tekintettel kérdezem tisztelt államtitkár urat, hogy milyen eszközökkel biztosítható a helyi önkormányzatok törvényes működése. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

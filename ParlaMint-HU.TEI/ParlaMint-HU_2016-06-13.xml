@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2016-06-13" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2016-06-13 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2016-06-13 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="3293" unit="words">3293 szó</measure>
+        <measure xml:lang="en" quantity="3293" unit="words">3293 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2016-06-13">2016. 06. 13.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="50"/>
+          <tagUsage gi="kinesic" occurs="14"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2016-06-13">2016-06-13</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2016-06-13-urgent_question-AC7_10786" who="#GergelyBárándy" ana="#regular"><note>DR. BÁRÁNDY GERGELY (MSZP):</note>
+<seg xml:id="AC7_10786.1">Köszönöm a szót, elnök úr. Tisztelt Felperes Úr! Úgy tűnik, hogy a múltkor nem mondott igazat. Azt állította, hogy az unokatestvérének semmi köze a VS hírportálhoz. Ehhez képest a VS főszerkesztője azt mondta, hogy Szemerey úr tulajdonosként tárgyalt vele, egy főszerkesztő pedig csak felismer ilyesmit egy beszélgetés során. Vagy ön szerint nem? Megjegyzem, ha semmi köze a VS-hez, mit keresett a szerkesztőségben?</seg>
+<seg xml:id="AC7_10786.2">Persze mindez csak a jéghegy csúcsa. Szemerey úr ugyanis ezer szálon kötődik a jegybankhoz, például új bankján keresztül. És nem csak úgy, hogy ő is elnyert növekedési hitelt. Nem arról van szó, hogy az unokatestvére részesült a növekedési hitelprogramból, hanem arról, hogy az újonnan tulajdonába került banknak éppen a fő tevékenysége a növekedési hitelek kihelyezése. Még a bank neve is erre utal, amit az unokatestvére adott neki: Növekedési Hitelbank. Szóval, a Matolcsy-Szemerey család alapított egy bankot a jegybanki pénzek megcsapolására.</seg>
+<seg xml:id="AC7_10786.3">Szemerey úr nyilatkozata szerint a hitelkihelyezéseken felül véletlenül ez a bank kezeli az MNB hat alapítványának és több hozzájuk kötődő cégnek a milliárdjait is. De még a másik unokatestvérének kezelésében lévő, a kecskeméti matolcsysta képzésre szánt 12 milliárd forint is Szemerey Tamás bankján futott keresztül. Na, és persze az ön fia, jegybankelnök úr, Matolcsy Ádám véletlenül éppen ugyanettől a családi banktól kapta meg a hitelt több százmillió forint értékben.</seg>
+<seg xml:id="AC7_10786.4">De nézzük meg az unokatestvérének egy másik vállalkozását is! A BanKonzult Kft. az MNB hat alapítványával és magával a jegybankkal is szerződéses viszonyban áll. Szemerey úr saját bevallása szerint összesen mintegy évi 60 millió forintért. Nyilván a Nemzeti Banknál nem dolgoznak pénzügyi elemzők, így egy unokatestvér szakértelmét kell kifizetni évente több tízmillió forint értékben az adófizetők pénzéből. És hogy Szemerey Tamás felesége se maradjon ki a jóból, ő lett az egyik MNB-s alapítvány igazgatója, gondolom, nem kevés fizetésért. Azóta tudjuk, az aprópénzért is lehajol a rokonság, hiszen részesültek az 5 millió forint alatti kifizetésekből is.</seg>
+<seg xml:id="AC7_10786.5">Nem sok kicsit a rokoni szál az MNB-s pénzek körül, elnök úr? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-06-13-urgent_question-AC7_11102" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_11102.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Egy ország döbbent le azon teljesen joggal, hogy a nemzetbiztonsági átvilágításon duplán megbukott, csalásba és korrupciós ügyekbe keveredő, jelenleg is információink szerint büntetőeljárás alatt álló Kiss Szilárd ma is teljesen nyugodtan jár-kel az országban orosz diplomatarendszámot használó luxusautójával.</seg>
+<seg xml:id="AC7_11102.2">Kezdem ott, hogy a Lehet Más a Politika már egy éve fölhívta a figyelmet arra, hogy valakinek ott a Földművelésügyi Minisztériumban vállalnia kell a politikai felelősséget. Nyilván Fazekas Sándor miniszter úrról van szó, mert önök voltak azok, akik évekig szemet hunytak a miniszteri biztos és az önök bizalmasa, Kiss Szilárd botrányos ügyei fölött</seg>
+<seg xml:id="AC7_11102.3">(Dr. Lukács László György: Így van!)</seg>
+<seg xml:id="AC7_11102.4">Önök voltak azok, akik annak ellenére kinevezték ezt az embert, és tisztségben tartották, hogy Kiss Szilárd duplán megbukott a nemzetbiztonsági átvilágításon. Egyébként az LMP ezért tavaly kétszer is kezdeményezte a meghallgatást a Nemzetbiztonsági bizottság ülésén, hogy kiderüljön, mégis miért volt szükség arra, hogy a politikai felelősséget magukra vállalják, vajon mit tud Kiss Szilárd felmutatni olyan hasznos munkát, ami miatt feltétlenül tisztségben kell őt tartani, de önök nem jelentek meg a Nemzetbiztonsági bizottság előtt, ezért a mai napig nem tudhatjuk, hogy mit tud Kiss Szilárd, ami miatt ilyen politikai kockázatot magukra vállaltak.</seg>
+<seg xml:id="AC7_11102.5">De a botrányok nem maradtak abba, azért szeretnék egy-két dologra még emlékeztetni. Kiss Szilárdról tudjuk, hogy pénzért árusított schengeni beutazási vízumokat; tudjuk azt, hogy az üzelmekben társai voltak, és felmerültek orosz alvilági kötődések is; és egyáltalán nem mellékes, hogy Kiss Szilárd nyolc, illetve öt évig felügyelőbizottsági tag volt két Quaestor-brókerházban. Ez azt jelenti, hogy a tízmilliárdokat az adófizetőktől elsikkasztó cég törvényes működését figyelte ez a Kiss Szilárd.</seg>
+<seg xml:id="AC7_11102.6">Kérdezem azt, hogy mégis mi volt az a miniszteri protokoll vagy mi volt az a nagyon extra hozzáadott érték, ami miatt Kiss Szilárdot önök pozícióban tartották, és figyelmen kívül hagyták az Alkotmányvédelmi Hivatal szakmai álláspontját, és kiküldték ezt az embert Moszkvába. Közük van netán ahhoz is ott a Földművelésügyi Minisztériumban, hogy ez az ember most diplomatavédettséggel, luxusautókkal furikázik Budapesten? Miért tartják még mindig Kiss Szilárdot pozícióban</seg>
+<kinesic type="applause"><desc>Taps az LMP és az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-06-13-urgent_question-AC7_11103" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_11103.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! A kormány álságos kommunikációt folytat cafetériaügyben. Úgy állítja be, mintha az Európai Bizottság zúzta volna szét a magyar cafetéria-rendszert, az Unió szüntette volna meg az Erzsébet-utalványt, és a legtöbb, amit a kormány tehet, az az, hogy a cafetériarészét az embereknél hagyja béremelés formájában. Persze, ennek a fele sem igaz. Az Európai Bizottságnak nem a kedvezményes adózású béren kívüli juttatással volt gondja, nem az egész rendszert érték kritikák, hanem csak az Erzsébet-utalványt és a SZÉP-kártyát. Végül a béremelés meséből sem igaz semmi. A kormány valójában ürügyként használja az uniós kötelezettségszegési eljárást a cafetéria-rendszer további gyengítéséhez. Orbán Viktor vesszőparipája évek óta a béren kívüli juttatások készpénzesítése, ehhez most kapóra jött az EU Bíróságának döntése. Lehetőséget látnak benne arra, hogy papíron növeljék a jövedelmet anélkül, hogy bért emelnének.</seg>
+<seg xml:id="AC7_11103.2">A kormány most egy jól működő, közkedvelt juttatási rendszert készül megszüntetni rövid távú politikai célok érdekében. Az adóemelés éppen az alacsony jövedelmű dolgozókat érinti hátrányosan, hiszen az étkeztetés, iskolakezdés támogatása, képzés, egészségmegőrzés vagy az öngondoskodás kedvezményes adózása nekik kedvezett leginkább. A kormány ezeket a társadalmilag is fontos célokat áldozza be úgy, hogy a 100 ezer forint készpénzjuttatás még a nyugdíjba sem fog beszámítani. Ahelyett, hogy bővítenék a cafetériát és béreket emelnének a munkára rakódó, Európában is rekordnak számító terhek csökkentésével, önök ismét lerombolnak egy jól működő rendszert. Meddig akarják még elodázni a valódi béremelést?</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2016-06-13-urgent_question-AC7_11106" who="#ZsoltCsenger-Zalán" ana="#regular"><note>CSENGER-ZALÁN ZSOLT (Fidesz):</note>
+<seg xml:id="AC7_11106.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! A múlt héten feltett azonnali kérdésemre adott válaszból kiderült, hogy Bajnai Gordon volt offshore Index-tulajdonos, jelenlegi párizsi befektetésialap-kezelő e két, szívének kedves tevékenység közöt</seg>
+<seg xml:id="AC7_11106.2">(Dr. Bárándy Gergely: Mi köze a parlamentnek hozzá?)</seg>
+<seg xml:id="AC7_11106.3">, beugró kormányfőként mennyit költött külföldi útjaira. Rövid, 13 hónapos miniszterelnöksége alatt összesen 231 millió forintot utazott el, ebből amerikai útra az adófizetők 49 millió 285 ezer forintja ment el. Ez ma 57 millió 600 ezer forintnak felel meg.</seg>
+<seg xml:id="AC7_11106.4">Tisztelt Képviselőtársaim! Bajnai mikropártja a jelenlegi miniszterelnök hivatalos útjairól érdeklődik, de elfelejti, hogy előbb a saját háza táján kellene rendet tennie. A hecckampány egyik zászlóvivője a 444.hu néven ismert nihilista blo</seg>
+<seg xml:id="AC7_11106.5">(Derültség az ellenzéki padsorokban.)</seg>
+<seg xml:id="AC7_11106.6">, amelynek hátteréről annyit lehet tudni, hogy az egyik tulajdonos</seg>
+<kinesic type="noise"><desc>Dr. Szávay István: Bezzeg a 888! - Zaj. - Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC7_11106.7">a Media Development Investment Fund, ami többek között a Magyar Narancs működését is finanszírozza. A Media Development Investmentet az ominózus Open Society Institute hozta létre 1995-ben, és a mai napig is támogatj</seg>
+<seg xml:id="AC7_11106.8">(Dr. Szél Bernadett: Éljenek az ötvenes évek!)</seg>
+<seg xml:id="AC7_11106.9">, csak 2005 és 2009 között például 15,7 millió dollárral.</seg>
+<seg xml:id="AC7_11106.10">(14.00)</seg>
+<seg xml:id="AC7_11106.11">Vagyis a magyar kormány elleni támadás mögött, mint az már annyiszor kiderült, ezúttal is Soros György áll. Azt már tudjuk, milyen eredménnyel jártak Bajnai útjai. Az MSZP megmentője, az úgynevezett szakértői kormány feje azzal dicsekedhet, hogy miniszterelnöksége évében emberemlékezet óta nem látott mértékben, 6,8 százalékkal csökkent a nemzeti össztermék, 4,6 százalék volt a költségvetési hiány, és 20 milliárd eurós hitelfelvétellel a GDP 80 százalékára sikerült feltornászni az államadósságot</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_11106.12">Azt azonban még nem tudjuk, mire költötte Bajnai Gordon az említett 49 millión felüli 182 millió forintot.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2016-06-13-urgent_question-AC7_11107" who="#GyörgySzilágyi" ana="#regular"><note>SZILÁGYI GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_11107.1">Köszönöm szépen a szót, elnök úr. Tisztelt Legfőbb Ügyész Úr! Bár több mint két éve volt, gondolom, emlékszik még az amerikai kitiltási botrányra. Tudja, ez volt az a kitiltási botrány, ami után Vida „tolmácsot kérek” Ildikó magyarázkodott az amerikai ügyvivőnél; ez volt az az ügy, ami után Habony „nincs közöm a kormányhoz” Árpád Washingtonból posztolt képeket, hogy ő nincs kitiltva; és ez volt az az ügy, ahol felmerült magas fideszes politikai körök érintettsége is.</seg>
+<seg xml:id="AC7_11107.2">Társadalmi nyomásra elindult egy nyomozás, majd megszületett az ügyészség vádirata, amely teljesen mást vizionál az egész ügyről, azt mondja, hogy egy magányos elkövetőről van szó, ráadásul ez a magányos elkövető valószínűleg még bolond is volt meg unatkozott, és unalmában elment egy nagy amerikai céghez, és azt mondta ennek a nagy amerikai cégnek, hogy különböző előnyöket tud ő biztosítani, és adjon kétmilliárd forintot a Fideszhez köthető Századvégnek.</seg>
+<seg xml:id="AC7_11107.3">Azért mondom, hogy bolond volt, mert nem férhetett volna hozzá ehhez a pénzhez, hiszen semmi köze nincs állítólag sem a Századvéghez, sem semmilyen fideszes politikai körökhöz. Ezt állapították meg önök, aztán lett egy bírósági tárgyalás, és a bíróság teljesen más véleményen volt: a bírósági ítélet kimondta, hogy Tábor Viktor nem magányos elkövető, hanem közvetítő volt, és minden valószínűség szerint valakinek az ajánlatát közvetítette az amerikai cég felé.</seg>
+<seg xml:id="AC7_11107.4">De mit tesz az ügyészség? Nem érdekli, hogy ki lehetett ez a megbízó. A Legfőbb Ügyészség bejelenti, hogy ő lezárta a nyomozást, nem érdekli őt, hogy ki lehet ez a minden bizonnyal a Fideszhez közel álló megbízó, nem nyomoz tovább, a nyomozást lezárta. Bejelentik ezt akkor egyébként, amikor az ügyészség napja van, és Orbán Viktor azt mondja, hogy az ügyészség a rendszer egyik legkiemelkedőbb támasza. Valóban, a fideszes korrupciós rendszer egyik legnagyobb támasza ez az ügyészség, amely folyamatosan megpróbálja eltitkolni azokat a korrupciós ügyeket, és nem nyomoz bennük.</seg>
+<seg xml:id="AC7_11107.5">Kérdezem a legfőbb ügyész urat: ön jónak tartja-e azt, hogy ön a Fidesz érdekében és az ügyészség a Fidesz érdekében végzi a munkáját, és nem Magyarország és a magyar társadalom érdekében, hogy ilyen korrupciós ügyekben feltárja a teljes elkövetői kört? Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-06-13-urgent_question-AC7_11108" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC7_11108.1">Tisztelt Elnök Úr! Tisztelt Ház! A Jobbik szokása, hogy mielőtt a politikai állásfoglalását és véleményét kialakítja egy kérdésben, személyesen kísérli meg a tapasztalatok beszerzését. Ezt tettük az utóbbi jó másfél éves periódusban, amikor a migrációs krízis hatásait közvetlenül Toroczkai László ásotthalmi polgármester útmutatása alapján az érintett régiót bejárva, Röszkére, Magyarkanizsára és más, a környéken elhelyezkedő településekre, vidékekre kitérve beszereztük azokat az életszerű és életszagú tapasztalatokat, amelyek nélkül álláspontunk szerint a parlamentben egy képviselő nehezebben tud felelősséggel gombot nyomni.</seg>
+<seg xml:id="AC7_11108.2">Már az egy évvel ezelőtti időszakban vissza-visszatérő problémák merültek fel, különböző híresztelések kaptak lábra azt illetően, hogy az érkező migrációs hullám tagjai olyan bajokat, olyan kórságokat, olyan egészségügyi kockázatot hoznak magukkal, amelyekre Magyarország nem feltétlenül van felkészülve. Ezt követően kaptunk vészjelzéseket szegedi egészségügyi intézményből, de budapesti fertőző osztályról is, valamint az érintett régióban szolgálatot teljesítőktől is, miszerint olyan betegségek, kórságok terjengenek az érkezők tevékenységéből kifolyólag és azon átvonulásból kifolyólag, ami jórészt szabályozatlanul folyt le, hogy ez bizony felveti a komolyabb, szélesebb körű egészségügyi kockázat egész országra vonatkozó kiterjedését is.</seg>
+<seg xml:id="AC7_11108.3">Éppen ezért, a pánikkeltés elkerülése érdekében szólítjuk fel a kormányt arra, hogy egyrészt itt és most valljon színt ebben a kérdésben, hogy milyen információtömeggel bír a migránsok által okozott egészségügyi kockázatot illetően, hiszen ezt már járványügyi és egyéb szakemberek is folyamatosan pedzegetik, ugyanakkor összesített adatsort nem láttunk a kormánytól ezt illetően.</seg>
+<seg xml:id="AC7_11108.4">A felszólításunk második fele tehát egyértelműen arra vonatkozik, hogy tegyék közkinccsé ezeket az adatokat, hogy amennyiben ez a veszély kiterjedt vagy kiterjedtté válhat, Magyarország időben be tudjon avatkozni, hiszen nem várható el a magyar állampolgároktól, hogy az adóforintokon keresztül történő kiszolgáltatottság mellett még az egészségükkel is fizessenek azért, hogy a hermetikusan lezárt határon idén tízezre</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret lejártát.</desc></kinesic>
+<seg xml:id="AC7_11108.5">nagyságrendben sétáltak át, lényegébe</seg>
+<kinesic type="signal"><desc>Az elnök újból csenget.</desc></kinesic>
+<seg xml:id="AC7_11108.6">zavartalanul. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-06-13-urgent_question-AC7_11109" who="#LászlóGyörgyLukács" ana="#regular"><note>DR. LUKÁCS LÁSZLÓ GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_11109.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! A múlt héten vált világossá és nyilvánossá, hogy hat év után talán egy érdeminek tűnő béremelésben részesülhetnek az egészségügyi dolgozók, és érdemes azt is tisztázni ezzel kapcsolatosan, hogy aki nem becsüli azokat az adóforintokat, amelyeket erre most a kormány szán, az igazából nem is ismeri el azt, hogy mindenképpen fejlesztésre szorult az ő bérhelyzetük. Jól jön természetesen minden béremelés, és ezt a dolgozók egy része meg is köszönte, és a megoldásban egyébként a Jobbik Magyarországért Mozgalom is érdekelt, hogy jobb fizetések között dolgozhassanak az egészségügyi dolgozók, azonban az Orbán-kormány már egy régóta fennálló adósságát törlesztheti ezzel, vagy legalábbis kezdheti meg így hat év után, hiszen már a kormányt megelőzően, a két kormányt megelőzően is rossz viszonyok voltak az egészségügyben.</seg>
+<seg xml:id="AC7_11109.2">De tudomásul kell venni azt is, tisztelt államtitkár úr, hogy bizony az emelés nem lett mindenre kiterjedő. Napvilágot látott adatok szerint tisztán látszik, hogy az egészségügyi szakdolgozók, akik a legnagyobb számban érintettek, egy kisebb, arányos béremelésben, 10-30 ezer forint bruttó emelésben - ami 5-20 ezer forint nettó emelés átlagosan - részesülhetnek. De azt is tudomásul kell venni, hogy ezzel az emeléssel egy bérfeszültséget sikerül majd kreálni a rendszeren belül, de azt is, hogy vannak olyanok, és ezt sajnos a védőnők napján - hiszen az ő napjukat ünnepeljük ma - ki kell mondani, hogy például a védőnők kimaradtak ebből a béremelésből, vagy úgy tűnik, ki fognak maradni ebből a béremelésből. De kimaradtak azok a kórházakban, egészségügyi intézményekben dolgozó technikai dolgozók, adminisztrációban vagy egyébként magát a kórház fenntartását végző dolgozók is, akik szintén várnák, hogy az ő bérüket, az egyébként kimagaslóan alacsony bérüket rendezzék. Ki kell mondani tehát, hogy az ő részükre ez a bér, ez az alacsony bértömeg egy nagyon nagy, komoly problémát jelent, és ki kell azt is mondani, hogy bizony ildomos lenne elgondolkodni, hogy újra kell nyitni azokat a bértárgyalásokat, amelyeket, most úgy tűnik, befejeztek.</seg>
+<seg xml:id="AC7_11109.3">Azt szeretném kérdezni a tisztelt államtitkár úrtó</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_11109.4">, hogy miért maradtak ki az említett dolgozók. Tervezik-e, hogy ők kapjanak béremelést, illetve ha igen, akkor mikor? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-06-13-urgent_question-AC7_11110" who="#BertalanTóth" ana="#regular"><note>DR. TÓTH BERTALAN (MSZP):</note>
+<seg xml:id="AC7_11110.1">Köszönöm a szót, elnök úr. Az MNB egy hete 105 millió forintos piacfelügyeleti bírságot szabott ki a Spéder Zoltán fideszes oligarcha által irányított FHB-ra tiltott piacbefolyásolás miatt. Az MNB azt is közölte, hogy a bírságot azért kellett kiszabni, mert három és fél évvel ezelőtt az FHB úgy bocsátott ki alapvető kölcsöntőkeként és nem biztosított kötelezettségvállalásként mintegy 30 milliárd forint értékben eurókötvényt, hogy azzal kapcsolatban hamis tájékoztatást tett közzé, amely szerint az nem magyarországi befektetők részére történt. Ez az egész kötvényes történet tele van furcsasággal: a kibocsátás körülményei, az állam szerepe, Spéder Zoltán helyzetbe hozása és a bírságolás időzítése.</seg>
+<seg xml:id="AC7_11110.2">Korábban én is számos kérdést intéztem a kormány tagjaihoz, amelyben azt igyekeztem megtudni, hogy az Orbán-kormány és a Spéder-birodalom egyre szorosabb összefonódása az államnak, vagyis az adófizetőknek jobb-e, vagy inkább a Spéder-birodalomnak. Érdemi válaszokat eddig nem kaptam.</seg>
+<seg xml:id="AC7_11110.3">Ami azonban a konkrét kötvényes ügyletet illeti, mindez azért is furcsa, mert ön még nemzetgazdasági miniszter volt, amikor Orbán Viktor kormánya elkezdett foglalkozni az FHB tőkehelyzetével. Ahogyan arról Lázár János miniszter úr korábban engem tájékoztatott, 2012. szeptember 4-én a kormány elfogadta az FHB tőkehelyzetével kapcsolatos előterjesztést, amelyből egy sor későbbi kormányzati intézkedés következett. Így például Seszták Miklós tájékoztatásából azt a következtetést lehetett levonni, hogy 2012. december 20-án az MNB szerint félrevezető tájékoztatással kibocsátott 30 milliárd forintnyi FHB-kötvény a kibocsátást követően néhány napon belül a Magyar Nemzeti Vagyonkezelő Zrt.-hez került, feltehetően egy csereügylet keretében. Az erről szóló részvényesijog-gyakorlói határozatot Németh Lászlóné írta alá, aki jelenleg a takarékszövetkezeti integrációért is felel, és ekkor ő még miniszter volt.</seg>
+<seg xml:id="AC7_11110.4">Mindezek alapján kérdezem: mi tartott három és fél évig? Miért kellett ennyi időt várni, hogy a pénzügyi felügyelet rájöjjön, nincs rendben minden az ügylettel kapcsolatban</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_11110.5">Mit talált az MNB az átfogó vizsgálata során? Mit vár az MNB a személyi felelősségre vonási eljárástól? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-06-13-urgent_question-AC7_11111" who="#GáborIstvánHarangozó" ana="#regular"><note>HARANGOZÓ GÁBOR ISTVÁN (MSZP):</note>
+<seg xml:id="AC7_11111.1">Köszönöm, elnök úr. Még 2012-ben Lázár miniszter úr egy rádióműsorban egyértelműen Csányi Sándorra utalva azt mondta, hogy egy „magyarnak tűnő nagybank, illetve annak vezetője polip módjára hálózza be az országot és gyakorol hatást a magyar gazdaságra, társadalomra és a magyar politikára”. Aztán ezt követően 2013-ban visszavágott Csányi úr, azt mondta, hogy Lázár urat nem ismeri, de tehetséges ember, hiszen láthatjuk, milyen jól intézte a trafikügyet. Hát, jött riposzt, Lázár úr azt mondta, az ország első számú uzsorásának nevezte Csányi urat, aki ezután be is perelte.</seg>
+<seg xml:id="AC7_11111.2">Majd egy darabig béke volt, aztán 2015-ben, mikor az OTP első embere megkapta a legmagasabb állami kitüntetést, Lázár miniszter úr kijelentette, hogy nem ért egyet a kitüntetéssel, és ezt követően Csányi úr pedig elmondta, hogy szerinte nem megnyugtató, hogy Lázár úr felügyeli az uniós pénzek szétosztását. Aztán valami történt, mert hirtelen nagy fordulat következhetett be, hiszen 2015. december 15-én a Mezőgazdasági bizottság ülésén az éves meghallgatásán már azt mondta Lázár úr, idézem: a mintagazdaságnak a másik ága, és ez kétségtelenül egybeesik jelen pillanatban a Csányi család érdekeltségével, meggyőződésünk szerint államérdek fűződik ahhoz, hogy azzal tudjuk támogatni őket, hogy hosszú távon garantáljuk a föld bérleti jogát.</seg>
+<seg xml:id="AC7_11111.3">És aztán itt jön, ami aztán egészen elképesztő, Kaposvár ügye. Kaposvárra Csányi úr elküldte a gumiégető cégének a tulajdonosát, majd lássunk csodát, Kaposvár fideszes polgármestere bejelentette, hogy Kaposvár önként jelentkezik, hogy szeretné, hogy Kaposvárra menjen ez a gumiégető, majd három nap múlva a fideszes többség meg is szavazta, hogy ez Kaposvárra kerüljön, majd aztán a kormány kihirdette, hogy kiemelt állami beruházás keretében szeretné kockáztatn</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC7_11111.4">a kaposváriak egészségét.</seg>
+<seg xml:id="AC7_11111.5">Államtitkár úr, mi zajlik itt a háttérben</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

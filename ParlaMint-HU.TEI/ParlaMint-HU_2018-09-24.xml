@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2018-09-24" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2018-09-24 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2018-09-24 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2978" unit="words">2978 szó</measure>
+        <measure xml:lang="en" quantity="2978" unit="words">2978 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2018-09-24">2018. 09. 24.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="34"/>
+          <tagUsage gi="kinesic" occurs="13"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2018-09-24">2018-09-24</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2018-9-24-urgent_question-AC8_1610" who="#ZsoltGréczy" ana="#regular"><note>GRÉCZY ZSOLT (DK):</note>
+<seg xml:id="AC8_1610.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Az a furcsa helyzet állt elő az utolsó néhány hónapban, hogy vannak olyan fideszes orgánumok, olyan pártsajtó, amelyik, természetesen az 1952-es Szabad Nép stílusában, de nekiindult és elkezdte a kultúrharcot</seg>
+<seg xml:id="AC8_1610.2">(Nacsa Lőrinc: Ti mondjátok?)</seg>
+<seg xml:id="AC8_1610.3">Most az a kérdés, hogy ez a kultúrharc milyen mélységet fog ölteni. Elkezdődött azzal, hogy elkezdtek betiltani egy színházi előadást, utána volt színházigazgató, aki nem tudta megtartani az előadását, mert szintén betiltották. Utána folytatódott azzal, hogy nekimentek énekesnőnek, aki nem győzött a Facebookon egy hosszú levélben elhatárolódni attól, hogy bármilyen módon összemaszatolja magát a Fidesszel, illetve Bereményi Géza kénytelen volt lehülyézni ezt a bizonyos újságírót, és nagyon helyesen tette. Vannak már olyan újságírók is, akik úgy gondolják, hogy Esterházy Péternek nincs helye a kortárs magyar irodalomban, pedig azt kell mondanom, hogy a középszer viselkedése és árulása nem menti azt a helyzetet, amit Orbán Viktor ez ügyben előállított.</seg>
+<seg xml:id="AC8_1610.4">Ezért az lenne az én kérdésem, hogy milyen mélységet fog ölteni ez a kultúrharc Magyarországon. Lesznek-e, kényszerítenek-e olyan helyzetbe embereket, hogy ne merjenek megírni egy regényt, ne írjanak meg egy színdarabot; lesznek-e betiltott kiállítások, esetleg zeneművek; vagy mondjuk, készüljünk-e arra, hogy olyan helyzet áll elő, mint amit Bartók Béla volt kénytelen megélni, hogy el kellett menekülnie ebből az országból azért, mert az akkori diktátor gyakorlatilag lehetetlenné tette a működését? Ugyanez a helyzet most is előállhat. Orbán Viktor ma Magyarország diktátora, és azok az emberek, akik ezeket az újságcikkeket írják, nyilván az ő tudtával és beleegyezésével indították el ezt a szégyenteljes kultúrharcot. Várom államtitkár úr válaszát</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-9-24-urgent_question-AC8_1614" who="#PéterJakab" ana="#regular"><note>JAKAB PÉTER (Jobbik):</note>
+<seg xml:id="AC8_1614.1">Köszönöm a szót. Tisztelt Ház! Tisztelt Elnök Úr! Most, hogy az óvodákban is bevezették a hazafias nevelést, eljátszottam a gondolattal, hogy ha én lennék az óvó bácsi, akkor hogyan foglalnám össze röviden a magyar állam történetét a gyerekeknek. És röviden valahogy úgy, hog</seg>
+<seg xml:id="AC8_1614.2">(Kezével mutatja:)</seg>
+<seg xml:id="AC8_1614.3">István király megalapította, az Árpádok megerősítették, a Hunyadiak megvédték, Széche-nyiék megreformálták, ez az icike-picike kis diktátor meg az egészet ellopta. Ez a helyzet, tisztelt elnökhelyettes úr. A helyzet az, hogy mára az igazi államalapítók, az igazi államférfiak helyét a hamis cégalapítók, a strómanok vették át, akiknek ez a nemzet nem jelent semmit, maximum egy trafikot az utcasarko</seg>
+<kinesic type="noise"><desc>Közbeszólás a KDNP soraiból: A Jobbikról beszélsz? Közbeszólás a Jobbik soraiból: Rólad!</desc></kinesic>
+<seg xml:id="AC8_1614.4">, mint ahogy a 2Rule sem jelent többet, mint egy közönséges Mészáros-logót valamelyik hatodrangú felcsúti focista mezén.</seg>
+<seg xml:id="AC8_1614.5">A helyzet az, hogy önök nem megerősítik az államot, nem megvédik, hanem egyszerűen csak kifosztják. Önök lopott pénzből játszanak új arisztokráciát, újbáróknak meg újgrófoknak képzelik magukat, miközben minden magyarnak szolgasorsot szánnak. Mondjuk ki, szabad ember csak az lehet, aki anyagilag is szabad! De vajon szabad-e az a család, aki attól retteg, hogy holnap mehet az utcára? Szabad-e az az édesapa, az az édesanya, akinek külföldre kell mennie dolgozni, hogy eltartsa a szeretteit? Szabad-e az a gyermek, az a fiatal, akinek húszéves lakáshitellel indul az élete, a nagybetűs élet, a családalapítás? Szabad-e az a nagypapa, aki soha nem lesz nyugdíjas, mert még előtte meghal?</seg>
+<seg xml:id="AC8_1614.6">Nem, ez az ország nem szabad, ezt az országot fel kell szabadítani. Előtte persze a lovagiasság jegyében azért illik megkérdezni: hajlandóak-e önök mint az állampárt képviselői, önként visszaadni a magyarok szabadságát?</seg>
+<seg xml:id="AC8_1614.7">(14.00)</seg>
+<seg xml:id="AC8_1614.8">Hajlandóak-e visszaadni a magyar otthonait, a magyarok fizetését, a ki nem fizetett nyugdíjakat és mindazt, amit az elmúlt nyolc évben ettől a nemzettől elvettek? Várom a válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-9-24-urgent_question-AC8_1615" who="#LajosRig" ana="#regular"><note>RIG LAJOS (Jobbik):</note>
+<seg xml:id="AC8_1615.1">Köszönöm szépen a szót. Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! Az elmúlt hetekben, napokban, sőt az elmúlt órákban is hallhattunk most már az ajkai kórház esetéről, hogy milyen szörnyű dolgok történnek. Sorozatosan mondanak fel akár a szakdolgozók, akár most már a szakorvosok is. Sajnálom, hogy jelenleg a Házban nem tartózkodik a térség országgyűlési képviselője, akinek kötelessége lett volna ezt itt, a Parlament falai között szóvá tenni, hiszen neki a választói érdeket kell képviselnie itt az Országházban, és nem a pártérdekeket a saját választókerületében. Azt gondolom, ez a legnagyobb probléma.A Macedónia és Magyarország közötti együttműködés is fontos, vagy a Magyarország és Szlovákia között építendő híd is fontos, de egy ajkai kórház esete nem lehet fontosabb semminél. Amikor felmondtak ezek a nővérek, önök hazudtak. Azt mondták, hogy a kórház egy más osztályára kerülnek át, egy magasabb beosztásba. Az igaz, hogy magasabb beosztásba kerültek, de nem a kórházba, hanem egy másik intézménybe, a farkasgyepűi intézménybe, és követte őket négy másik szakképzett nővér, akik évek óta űzték ezt a szakmát. Majd a múlt hét közepén kiderült, hogy őket követik a szakorvosok is, akik már több évtizede dolgoznak az osztályon.</seg>
+<seg xml:id="AC8_1615.2">És önök megint kiadtak az ÁEK-n keresztül egy hazugságot, hogy az a bérkövetelés, amit ők kértek, 3 millió forint atyaúristen, 3 millió forint! -, mekkora összeg, és nem tudja kigazdálkodni ezt az intézmény.</seg>
+<seg xml:id="AC8_1615.3">(14.40)</seg>
+<seg xml:id="AC8_1615.4">Hazugság! 960 ezer forintot keresnek bruttóban bruttóban! -, havi szinten, úgy, hogy 8 órát dolgoznak, plusz az ügyelet, ellátják az intenzív osztályt, ellátják az altatott betegeket több műtőasztalon, plusz ha a sürgősségi osztályra politraumatizált beteg érkezik, akkor azt is ellátják. Önök pedig bársonyszékből, milliós fizetésekért, okosságokat osztanak a szakdolgozók és az orvosok felé. Hogy próbálják ezt a helyzetet kezelni, államtitkár úr</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiból, valamint szórványos taps az LMP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-9-24-urgent_question-AC8_1617" who="#SándorBurány" ana="#regular"><note>BURÁNY SÁNDOR (Párbeszéd):</note>
+<seg xml:id="AC8_1617.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Kőbányán évek óta szedi áldozatait a dizájnerdrog, a helyi vezetés pedig a kormánnyal együtt képtelen megoldást találni a problémára. Hiába vezényelnek ki az utcára több száz rendőrt, ők csak kullognak a dílerek után. Idén augusztus 29-ig 81 személyt állítottak elő a környéken, ám ezenkívül semmi sem történt, a helyzet továbbra is kritikus. Prevenció évek óta nincs, nemcsak a kerületben, hanem az országban sem, a szociális ellátórendszer pedig képtelen segítséget nyújtani ezeknek az embereknek. Sőt, a rendőrség egy újságírói kérdésre cinikusan azzal válaszolt, hogy „a rendőrségnek a bűncselekmények felderítése és a közbiztonság védelme a feladata, így azokra az úgymond szociológiai jellegű kérdésekre, hogyan tudnák a nyomornegyed problémáit közép- és hosszú távon felszámolni, nem feladatuk felelni”. Ez tehát most a helyzet. A helyzet az, hogy a nyomor és kilátástalanság miatt a Hős utca környékén a helyzet tragikus, évek óta változatlan, a kormány és az önkormányzat egyértelműen kudarcot vallott. Felmerül tehát a kérdés, hogy a razziákon kívül milyen ötletük van még. Milyen megoldásokat tervez a kormány a biofű és más dizájnerdrogok visszaszorításának elősegítése érdekében a rendőrségi razziákon kívül? Készül-e cselekvési terv a kőbányai probléma megoldására, és ha igen, kikkel egyeztetnek, és mekkora összeget szánnak erre? Államtitkár úr, kérem, válaszoljon: elbontja-e az önkormányzat, illetve a kormány a Hős utcai épületeket? Mik a konkrét terveik az épület esetleges lebontásán túl a probléma megoldására? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Párbeszéd soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-9-24-urgent_question-AC8_1619" who="#AntalCsárdi" ana="#regular"><note>CSÁRDI ANTAL (LMP):</note>
+<seg xml:id="AC8_1619.1">Tisztelt Ház! Tisztelt Elnök Úr! Tisztelt Miniszterelnök-helyettes Úr! Magyarországon lakhatási válság van, és azt gondolom, hogy ez ma már nem nagyon képezi vita tárgyát sehol ebben az országban. Ugyanakkor azt gondolom, azt is látni kell, hogy ennek a válságnak a legkiszolgáltatottabb szereplői a devizahitel-károsultak. Azok a devizahitel-károsultak, akik annak az árfolyamkockázatnak lettek a vesztesei, amit a bankok és a magyar kormány egyoldalúan az ő nyakukba varrt. Ugyanakkor a múlt héten érdekes előrelépés történt ebben a kérdésben, mert az Európai Bíróság egy előremutató döntést hozott, és rögtön idézni fogok ebből a döntésből. Azt gondolom, hogy ez megnyitja a teret a Magyar Országgyűlés előtt, illetve a magyar kormány előtt, hogy jogalkotóként végre-valahára megoldást nyújtson erre a régen megoldatlan problémára.</seg>
+<seg xml:id="AC8_1619.2">A bíróság álláspontja szerint: „A pénzügyi intézmények kötelesek elegendő tájékoztatást nyújtani a kölcsönfelvevők számára ahhoz, hogy az utóbbiak tájékozott és megalapozott döntést hozhassanak. E követelmény magában foglalja, hogy az árfolyamkockázattal kapcsolatos feltételeknek nemcsak alaki és nyelvtani szempontból, hanem a konkrét tartalom vonatkozásában is érthetőnek kell lennie.” Éppen ezért azt gondolom, hogy ha valaki itt vett fel annak idején devizakölcsönt, pontosan tudja, hogy ennek a feltételrendszernek, amit a bíróság az indoklásában leírt, egyik devizahitel sem felel meg.</seg>
+<seg xml:id="AC8_1619.3">Ezért kérdezem, tisztelt miniszterelnök-helyettes úr, hogy mit kíván tenni a magyar kormány annak érdekében, hogy az a sok tízezer devizahitel-károsult, akinek a feje felett lebeg a végrehajtás, megoldást kapjon erre a válságra. Mit kíván tenni annak érdekében, hogy az adósoknak, akik a mai napig cipelik a devizahitel következményeit, ne kelljen egyenként bírósághoz fordulnia, kíván-e a magyar kormány bármit tenni ennek érdekében?</seg>
+<seg xml:id="AC8_1619.4">Köszönöm szépen a megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki padsorokból.</desc></kinesic>
+<seg xml:id="AC8_1619.5">(14.20)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2018-9-24-urgent_question-AC8_1620" who="#LőrincNacsa" ana="#regular"><kinesic type="noise"><desc>NACSA LŐRINC (KDNP): Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Államtitkár Asszony! Tanulságos volt a sporttörvény-módosítás nyáron lezajlott általános vitáját figyelemmel kísérni, amely itt zajlott a tisztelt Ház falai között. Újra mindenki előtt világossá válhatott az, hogy az ellenzék a kormány hazai sportéletre vonatkozó, jobbító szándékú intézkedéseit csak becsmérelni tudja, az eredményeket pedig nem ismeri el, vagy egyszerűen nem vesz tudomást azokról. Sokan becsmérlik a létesítményeket, a támogatási rendszert, az igazolt sportolókat, sőt többen saját nemzeti csapataink ellen is szurkoltak. Elképesztő volt ezt hallgatni főként akkor, amikor kormányzásból a választásokon már többször elégtelent kapó párt képviselői adták ezeket a tanácsokat. Pedig, ha valakik tudják, hogy milyen állapotban vettük át 2010-ben a sportirányítást, akkor ők azok. Lepusztult sportlétesítményekkel és elapasztott költségvetési támogatással párosultak a lehangoló népegészségügyi mutatók és sportolási szokások. A népesség 5 százaléka sportolt rendszeresen, és a tanköteles korú fiatalok mintegy 75 százaléka kizárólag a testnevelési órák keretében végzett bármiféle sporttevékenységet.</desc></kinesic>
+<seg xml:id="AC8_1620.1">Annak érdekében, hogy ezt a folyamatot kicsit megfordítsuk, megváltoztassuk, bevezettük a mindennapi testnevelést, és az élsport támogatási rendszerébe is olyan pluszösztönzőket építettünk be, amelyek segítségével jelentősen emelkedett az igazolt sportolók száma a versenysportban az elmúlt 8 évben.</seg>
+<seg xml:id="AC8_1620.2">Nem hagyhatjuk azonban figyelmen kívül azt a célkitűzést sem, hogy a rendszeres testmozgás kultúrája minél szélesebb körben terjedjen el, hogy növelni tudjuk a sportolni akarók számát a szabadidősport területén is. Itt, akárcsak az élsport esetében, az államnak alapvető feladata a feltételek megfelelő biztosítása. Kiemelt figyelmet kell fordítanunk a szabadidő aktív és egészséges eltöltését szolgáló létesítmények fejlesztésére. Ennek érdekében indította útjára a kormány a „Nemzeti Szabadidős Egészség Sportpark” programot. Kérdezem tisztelt államtitkár asszonyt, hogy milyen eredményeket ért el a kormány ezen a területe</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret lejártát.</desc></kinesic>
+<seg xml:id="AC8_1620.3">, és hogyan tervezik a program folytatását. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormányzó pártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-9-24-urgent_question-AC8_1621" who="#LajosKorózs" ana="#regular"><note>KORÓZS LAJOS (MSZP):</note>
+<seg xml:id="AC8_1621.1">Köszönöm szépen. Tisztelt Ház! Tisztelt Képviselőtársaim! Most már több hete borzolja a kedélyeket az egészségügy áldatlan állapota, és ha szabad úgy fogalmaznom, a hab a tortán, ami az ajkai kórházban történt az elmúlt két hétben azon túlmenően, hogy a nyár folyamán a sürgősségi ellátás szakdolgozói mondtak fel, később az orvosok is arra kényszerültek, hogy otthagyják ezt az intézményt. Ez az egyik ilyen dolog, ami mellett nem mehetünk el szó nélkül.A másik, hogy azt látjuk, hogy az ország más helyein sem jobb a helyzet. Több száz háziorvos hiányzik, és több száz házi-fogorvos hiányzik a rendszerből. Ha jól láttam, most 430 olyan hely van az alapellátásban, ahol tartósan nem tudták betölteni a háziorvosi szolgálatot. Nem kell fejszámolónak lenni, tisztelt miniszterelnök-helyettes úr, ez körülbelül olyan 550-600 ezer ember, akinek nincs ma Magyarországon alapellátása.</seg>
+<seg xml:id="AC8_1621.2">A Honvédkórházban történtek azért érdekesek és hozom ide, mert ott egyértelművé vált, hogy a szükséges szakemberek 25 százaléka sincs meg az alapellátásban, Nógrád megyében és másik tíz megyében lévő kórházban minden szakorvos és szakképesítés hiányszakmának minősül, országosan nincs elég érsebész, pszichiáter, fül-orr-gégész, sebész, patológus vagy éppen radiológus.</seg>
+<seg xml:id="AC8_1621.3">Éppen ezért azt kérdezem, hogy mikor jönnek rá arra, hogy az egészségügyi politikájuk nem képes az országban vagy a szakmában tartani a magyar orvosokat és ápolókat. És kérdezem azt is, hogy hogyan mondhatja Orbán Viktor úr, hogy a kórházakban minden rendben van, amikor gyakorlatilag nem képesek biztosítani azok megfelelő működését, és akkor a non plus ultra, hogy milyen adósságállománnyal bírnak a kórházak azt már nem is említem</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-9-24-urgent_question-AC8_1622" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC8_1622.1">Köszönöm szépen, elnök úr. Tisztelt Miniszterelnök-helyettes Úr! 2014-ig megszokott volt, hogy Magyarországon ősszel a kormány a KSH-ra hivatkozva ismertetett a parlamenttel és a lakossággal egy jelentést, ahol azt közölték, hogy milyen Magyarországon a szegénység helyzete. Ezt 2015 óta nem teszi meg a magyar kormány, és nem ismerhetjük meg a KSH-nak ezen adatait, sőt 2016-tól fogva nem hoznak nyilvánosságra létminimumadatokat. Kérdezem ezért, miniszterelnök-helyettes úr, mert ha a magyar lakosságot megkérdezzük, hogy mi az a probléma, ami ma feszíti a magyar társadalmat, akkor rangsorolom, hogy hogyan sorolják a magyar emberek: első helyre az egészségügy helyzetét mondják, hogy az a legkritikusabb, az a legrosszabb Magyarországon; a második helyre a megélhetést, a szegénységi problémákat sorolják a magyar emberek; a harmadik helyre az oktatás helyzetét; a negyedik helyre a korrupciót, majd a kivándorlást és a lakhatási válságot sorolják a magyar emberek. Mondom azért, mert a hétvégén nyilvánosságra került az az adatsor, ahol ha az uniós átlagot megtekintjük, ha az életszínvonalat nézzük, Nógrád megyét emeli ki, hogy az uniós átlagnak a 30 százalékán élnek a Nógrád megyei emberek, de ha megnézzük a Szabolcs-Szatmár-Bereg megyei embereket, akkor az uniós átlag 38 százalékán élnek, de még a Pest megyei emberek is csak a 70 százalékán, csak a budapesti adatok kimagaslóak: 136 százalékos, ami azt jelenti, hogy Budapesten kívül mindenki Magyarországon az uniós átlag alatt él.</seg>
+<seg xml:id="AC8_1622.2">Ha önök folyamatosan azt kommunikálják, hogy a hanyatló Nyugat mert arról beszélnek, hogy nekünk már Kelet felé kell kacsingatnunk, mert lassan ott már jobb élni, mert a hanyatló Nyugaton már az életszínvonal kezd hanyatlani -, akkor mondja már meg, tisztelt miniszterelnök-helyettes úr: hogyan fordulhat az elő, hogy Magyarországon még mindig drasztikusan kevesebből élnek az emberek? 30-38 százaléka az uniós átlag alatt</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC8_1622.3">Mikor kívánunk felzárkózni, és mikor kívánja a kormány újra a szegénységi adatokat közzétenni? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-9-24-urgent_question-AC8_1623" who="#RóbertBalázsSimon" ana="#regular"><note>SIMON RÓBERT BALÁZS (Fidesz):</note>
+<seg xml:id="AC8_1623.1">Köszönöm szépen a szót. Tisztelt Államtitkár Úr! A nyilvánosság előtt is ismert, hogy Czeglédy Csabát, a szombathelyi MSZP-DK-Együtt-frakció önkormányzati képviselőjét, aki az MSZP-t és a DK-t jogi ügyekben több alkalommal is képviselte, az állam súlyos megkárosításának gyanúja miatt már korábban előzetes letartóztatásba helyezték. A Szegedi Járásbíróság újabb 3 hónappal meghosszabbította a volt szocialista politikus előzetes letartóztatását, egyben elutasította, hogy 50 millió forint óvadék befizetése esetén szabadlábra kerülhessen.A bíróság szerint indokolt a szombathelyi önkormányzat egykori képviselője előzetes letartóztatásának fenntartása. Czeglédy és társai ellen bűnszövetkezetben, üzletszerűen, különösen nagy vagyoni hátrányt okozó költségvetési csalás bűntette miatt folyik büntetőeljárás. A nyomozás eddigi eredményei szerint a többmilliárdos vagyoni hátrányt okozó bűncselekmények elkövetésében több szinten 22 terhelt, 2 cég és a Czeglédy Csaba által vezetett Humán Operátor Zrt. működött közre. A nyomozó hatóság rendelkezésére álló iratok szerint Czeglédy többmilliós kölcsönöket kapott a Gyurcsány Ferenchez köthető Altus Zrt.-től.</seg>
+<seg xml:id="AC8_1623.2">Czeglédy tevékenységével nemcsak az államot károsította meg, hanem a munkaerő-kölcsönzés során alkalmazott időseket és diákokat egyaránt. A szövevényes bűnhálózat felderítésének első jelentős eredménye, hogy a Humán Operátor Zrt. makói strómanjainak elsőfokú ítéletében a bíróság bűnösnek mondta ki a vádlottakat bűnsegédként elkövetett, különösen nagy vagyoni hátrányt okozó, üzletszerűen elkövetett költségvetési csalás bűntettében. Az ítélet szerint az érdemi munkát a Humán Operátor Zrt. munkatársai látták el, az iskolaszövetkezetekre csak a bűncselekmények megvalósítása miatt volt szükség.</seg>
+<seg xml:id="AC8_1623.3">A szövetkezet által kiállított számlákat a munkaerő-közvetítő cégek a könyvelésük során felhasználták, de a szövetkezet a számlákhoz kapcsolódó áfabefizetési kötelezettségét elmulasztotta teljesíteni. Az elhangzottakra tekintettel kérdezem tisztelt miniszter urat, hogy milyen érdekek mentén állhatnak ki még mindig a baloldali pártok Czeglédy Csaba mellett. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

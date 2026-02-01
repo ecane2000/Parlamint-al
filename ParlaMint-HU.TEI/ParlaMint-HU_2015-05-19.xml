@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2015-05-19" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2015-05-19 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2015-05-19 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2759" unit="words">2759 szó</measure>
+        <measure xml:lang="en" quantity="2759" unit="words">2759 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2015-05-19">2015. 05. 19.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="39"/>
+          <tagUsage gi="kinesic" occurs="8"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2015-05-19">2015-05-19</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2015-05-19-urgent_question-AC7_4807" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_4807.1">Köszönöm, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Az Országos Mentőszolgálat évek óta nem hajlandó elismerni, hogy a mentőautókon szolgáló dolgozók pótlékra jogosultak a munkájuk során elszenvedett pszichés terhelés miatt. 2012 óta küzdenek a mentősök az egészségkárosító kockázati pótlékért az ország 18 bíróságán. Havi 20 ezer forintról van szó, ami átlag bruttó 150 ezer forintos keresetüket egészítené ki. Eddig két nem jogerős ítélet született, amelyek közül az egyiket megnyerték.</seg>
+<seg xml:id="AC7_4807.2">Miközben a mentés a tíz legnagyobb megterheléssel járó munkakörök egyike, a magyar jogszabályok mégsem ismerik el mint egészségkárosító munkát. A hatályos jogszabályok szerint a munkakörhöz akkor jár kockázati pótlék, ha a munkaidő több mint 50 százalékában fennáll valamilyen egészségügyi kockázat. Az Országos Mentőszolgálat arra hivatkozik, hogy a mentősök által ténylegesen munkával töltött idő nem éri el a munkaidő 50 százalékát. Holott a várakozás is megterheléssel jár, nem beszélve arról a stresszről, amely a kivonuláskor éri őket.</seg>
+<seg xml:id="AC7_4807.3">A munkaügyi perek során az igazságügyi szakértők is megállapították, hogy a mentőtiszt, a mentőápoló és a mentő-gépkocsivezető munkakörben foglalkoztatottak jelentős munkahelyi kockázatnak vannak kitéve, amelyek közül a pszichoszociális kockázatok egészségkárosító mértékűek. Az OMSZ és az EMMI azonban ezt nem hajlandó elismerni. Az írásbeli kérdésemre nemrég azt válaszolták, hogy működik egy úgynevezett burn-out team, amely a munkatársak pszichés és mentálhigiénés gondozását végzi. Miközben a pszichés segítségnyújtásra nyilvánvalóan szükség van, ez nem zárja ki, hogy a dolgozók veszélyességi pótlékot kapjanak.</seg>
+<seg xml:id="AC7_4807.4">6500 dolgozó pótléka 3 milliárdba kerülne az államnak. Kérdésem, hogy megadják-e ezt a pótlékot most, amikor egy költségvetés elfogadása előtt vagyunk. Várom válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-05-19-urgent_question-AC7_4827" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_4827.1">Köszönöm a szót. Tisztelt Miniszter Úr! Mint ön is tudja, az elmúlt két napban a sajtó attól volt hangos, hogy a miniszterelnök és egy miniszter eldönti: ki és milyen beruházást valósít meg európai uniós forrásból és mennyiből. Ezt először miniszter ú</seg>
+<seg xml:id="AC7_4827.2">(sic!)</seg>
+<seg xml:id="AC7_4827.3">elismerte, majd a második nap, amikor érezte, hogy ez mégiscsak kínos, cáfolta.</seg>
+<seg xml:id="AC7_4827.4">De az elmúlt évek gyakorlata miniszterelnök úr első nyilatkozatát igazolja, azt, hogy az uniós pénzek elosztása lényegében kézi vezérléssel történik. És ez nincs jól, nincs jól, legalább öt dolog miatt.</seg>
+<seg xml:id="AC7_4827.5">1. Magyarországon fejlesztés, beruházás csak uniós pénzből valósul meg, lényegében, amióta tagjává váltunk az Uniónak. Ezért különös jelentősége van az uniós támogatások felhasználásánál a tisztességes versenynek. Önök viszont a kézi vezérléssel, a tisztességes verseny korlátozásával drágábbá teszik a készülő projekteket, így pedig sokkal kevesebb olyan fejlesztés valósulhat meg, ami az emberek tényleges életkörülményeit javítja.</seg>
+<seg xml:id="AC7_4827.6">2. Ennek a gyakorlatnak köszönhető, hogy a fejlesztési pénzek többsége ugyanahhoz a szűk körhöz kerül. Így nem fejlődhet a gazdaság, nem erősödhetnek a kis- és közepes vállalkozások, nincs munkahelyteremtés. A magyar kis- és középvállalkozások legfeljebb alvállalkozók lehetnek a megbízási díj töredékéért, így pedig létminimum alatti fizetésekhez juthatnak az alvállalkozók dolgozói.</seg>
+<seg xml:id="AC7_4827.7">3. Nem igaz, hogy önök a hazai kis- és középvállalkozásokat kiemelten támogatnák. Ha így volna, akkor nem látnánk a nyertesek között ennyi konzorciumot, teli külföldi mamutcéggel.</seg>
+<seg xml:id="AC7_4827.8">4. Maguk a fejlesztési célok, pályázati kiírások is eltorzulnak, hiszen az a fontos szempont, hogy ki nyerjen.</seg>
+<seg xml:id="AC7_4827.9">5. És nem utolsósorban azért is elfogadhatatlan az önök gyakorlata, mert rossz példát mutat a társadalomnak.</seg>
+<seg xml:id="AC7_4827.10">Tisztelt Miniszter Úr! Azt gondolom, jogos a kérdés: mikor alakítják át végre úgy a fejlesztési pénzek elosztásának rendszerét, hogy az ne a Fidesz-KDNP gazdasági hátországának kiszolgálását jelentse, hanem az ország valódi fejlődését, a magyar kis- és középvállalkozások erősödését, és mindebből a társadalom profitáljon</seg>
+<kinesic type="applause"><desc>Varga Mihály: Legyen több külföldi, igaz? - Taps az LMP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-05-19-urgent_question-AC7_4828" who="#ZoltánGőgös" ana="#regular"><note>GŐGÖS ZOLTÁN (MSZP):</note>
+<seg xml:id="AC7_4828.1">Köszönöm szépen a szót, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Tegnap este egy lakossági tájékoztató volt Várpalotán, és jó néhány kérdés felmerült az ottani azbeszttel szennyezett hulladék lerakásával kapcsolatban, de én most egy más típusú kérdést szeretnék az államtitkár úrnak feltenni, ami ott tegnap nem hangzott el.</seg>
+<seg xml:id="AC7_4828.2">Megnéztem azt az engedélyt, amely az egységes környezethasználati engedély módosításáról szól. Az érintett cég, aki ezt a veszélyes hulladékot Várpalotára vagy Inotára kívánja szállítani, 2015. február 23-án adta be az ötödik módosítási kérelmét a környezethasználati engedélyük kapcsán, a depónia kapcsán, és 18 nap alatt sikerült a kft.-nek ezt az engedélyt megszereznie. Nem tűnt az fel senkinek, államtitkár úr, hogy ilyen gyorsan hogyan lehet egy olyan engedélyt megszerezni, amelyben négy oldalon sorolják fel azokat a veszélyes anyagokat, amelyeket mellesleg egy lakossági hulladéktárolóban ezután el lehet majd helyezni?</seg>
+<seg xml:id="AC7_4828.3">Azt kérdezem, államtitkár úr, az se tűnt fel senkinek, hogy ennek kapcsán indulhatott ez a vállalkozás azon a fővárosi vagy pontosabban Pest megyei tenderen, amit ő aztán megnyert, annak ellenére, hogy ebben az esetben 170 kilométerre kell szállítani 27 ezer tonna azbeszttel szennyezet anyagot. Tényleg senkinek nem tűnt az fel, hogy ilyen volumenű, ilyen tömegű szállítás mellett hogyan lehetett ez a legjobb ajánlat? Nyilván úgy, hogy a másik két depónia más típusú eljárással dolgozott volna.</seg>
+<seg xml:id="AC7_4828.4">Azt szeretném kérdezni, államtitkár úr, hogy mindig ilyen rekordgyorsasággal dönt-e a környezetvédelmi hatóság vagy csak bizonyos esetekben, főleg akkor, amikor 1,3 milliárdos bizniszről van szó. Ezekre kérnék választ. Erre ott tegnap nem történt kérdés sem, de válasz sem. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-05-19-urgent_question-AC7_4829" who="#JánosVolner" ana="#regular"><note>VOLNER JÁNOS (Jobbik):</note>
+<seg xml:id="AC7_4829.1">Köszönöm szépen. Miniszter úr, mint minden bizonnyal tudja, jó ideje kirobbant már a brókerbotrány, 300 milliárd forint fölötti károkozásról beszélhetünk. Sajnos a saját választókerületem, Cegléd és környéke súlyosan érintett ebben a brókerbotrányban. Jó néhány ember a Hungária Értékpapírhoz vitte el a megtakarításait, annak reményében és azzal a bizodalommal, hogy egy hatóságok által felügyelt cégnél legális befektetés formájában biztonságban tudhatják ezek az emberek a pénzüket. Amikor bementek a Hungária Értékpapír Zrt.-hez, akkor azonban egy Biztonság Trade Kft. nevű cégnek a papírját dugták az emberek orra alá, és ennek nevében vették el az emberek pénzét, visszaélve azzal a bizalommal, hogy egy, az elvileg hatósági engedélyek birtokában működő cég befektetései természetes módon biztonságot jelentenek az oda befektető ügyfelek számára.</seg>
+<seg xml:id="AC7_4829.2">Egyes sajtóhírek szerint a választókerületemben és környékén 25 ezernél több károsultja van ennek az intézkedésnek, annak, hogy a hatóságok éveken keresztül nem ellenőrizték le érdemben ezt a vállalkozást, nem találtak érdemben okot arra, hogy megszüntessék a tevékenységét, és most bizony eljutottunk abba a helyzetbe, hogy a Fidesz országgyűlési képviselője hallgat ebben az ügyben. Most én vagyok kénytelen képviselni ezeknek az embereknek az érdekeit, és hallatni az Országgyűlésben a hangjukat annak érdekében, hogy ezek az emberek is kártérítésben részesüljenek, hiszen a Magyar Nemzeti Bank, amelyet az ön elődje, Matolcsy György vezet, elmulasztotta a törvényi kötelezettségét, elmulasztotta ellenőrizni, szigorúan számon kérni ezt a brókercéget, és ezért tűnhetett el az emberek pénze. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-05-19-urgent_question-AC7_4830" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC7_4830.1">Köszönöm, elnök úr. Tisztelt Államtitkár Úr! Néhány héttel ezelőtt Lázár János egy feltett kérdésemre ugyanebben az ügyben az alábbiakat mondta: „M4-es ügyben az igaz szó, amit Seszták miniszter úr önnek papírra vetett, mármint hogy az Európai Bizottság is megvonta a forrásokat a projekttől, a költségvetés pedig nem bocsátotta rendelkezésre az összeget. Ez pontosan ugyanaz a helyzet, mint amikor valaki házat épít, és elfogy a pénze. Ebben a pillanatban a legfontosabb, hogy elszámoljon a kőművessel, akinek megbízást adott, majd miután számba veszi, hogy van-e rá lehetősége, hogy folytassa, akkor ennek a folytatásnak természetesen semmi lehetősége nincs.”</seg>
+<seg xml:id="AC7_4830.2">Na már most, több baj van ezzel a néhány mondattal. Az első: amikor házat építünk, akkor van valamennyi pénzünk, amikor elkezdünk házat építeni, vagy a teljes összeg megvan. Viszont az M4-es építését, az Abony-Fegyvernek-szakaszt úgy kezdte el a kormány, hogy soha nem volt rá pénze. Már 2013-ban tudta, hogy nem fogja az Európai Unió támogatni ezt a szakaszt. Éveken keresztül hazudott a kormány, Lázár János, Orbán Viktor, és éveken keresztül növelték ennek a szakasznak a beruházási költségét. Még 2014 decemberében is megnövelték néhány tíz milliárd forinttal, vagyis maga Orbán Viktor. Nem elég, hogy maga Orbán Viktor és csapata dönt azokról a beruházásokról és projektekről - ezt maga a miniszterelnök úr vallotta be napokkal ezelőtt -, hanem lényegében még be is csapták a beruházókat, becsapták a Szolnok megyében és a Hajdú-Bihar megyében élő embereket is.</seg>
+<seg xml:id="AC7_4830.3">Ráadásul az elmúlt napokban kiderült, és most Lázár János is elismerte, hogy csökkentett műszaki tartalommal akarják folytatni a beruházást, új közbeszerzéssel. Szeretném megkérdezni, államtitkár úr, meddig hazudnak még az M4-essel kapcsolatban. Már hallottunk hetvenhét verziót - végre mondják már el az igazat, hogy mi fog történni, milyen beruházás fog megvalósulni, és mikor fogják folytatni az M4-es építését! Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-05-19-urgent_question-AC7_4831" who="#GergelyKulcsár" ana="#regular"><note>KULCSÁR GERGELY (Jobbik):</note>
+<seg xml:id="AC7_4831.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Orbán Viktor tegnapi debreceni látogatása több érdekességgel szolgált, többek között olyan dolgokról beszélt menekültügyben, amit a Jobbik már évek óta szorgalmazott. A következő mondat is elhagyta a miniszterelnök úr száját: nem bővíteni kell a befogadó állomást, hanem bezárni.</seg>
+<seg xml:id="AC7_4831.2">Emlékezhet rá, államtitkár úr, pár héttel ezelőtt arról beszéltem a Ház falai között, hogy 143 millió forintot költenek arra, hogy bővítsék a tábort, és újabb menekültek, bevándorlók százaival terheljék Debrecen városát. A Jobbik már régóta szeretné elérni, hogy elkerüljön Debrecen belterületéről a tábor, azonban az újdonság, hogy a Fidesz is ezt akarja. A kormányfő szavai hiteltelenek bevándorlásügyben, ugyanis az elmúlt öt évben nem tettek lépéseket a szocialisták által megszüntetett határőrség visszaállításának érdekében sem. Ez számos európai országban létezik.</seg>
+<seg xml:id="AC7_4831.3">Azért is hiteltelenek, álságosak és propagandaízűek a miniszterelnök szavai, mert a Jobbik debreceni menekülttáborral kapcsolatos törekvéseit nem támogatták éveken keresztül, pedig számos fórumon, sajtótájékoztatókon, tüntetéseken és parlamenti, önkormányzati felszólalások tucatjain jeleztük azt, hogy a debreceniek érdeke azt kívánná, hogy zárttá tegyék a menekülttábort és a későbbiekben elköltöztessék azt. Maga az államtitkár úr is mindig mellébeszélt, akárhányszor is kérdeztem a Ház falai között ez ügyben.</seg>
+<seg xml:id="AC7_4831.4">Most ismét megkérdezném, hogy a miniszterelnök úr szavai tükrében mit gondol erről az ügyről, és két kérdést tennék fel, amire egyenes, érdemi válaszokat várok. A határőrséget vissza kívánják-e állítani - a teljesen fölösleges és ócska kérdésekből álló nemzeti konzultáció költségéből megoldható lenne ez a kérdés -, és a debreceni menekülttábor bezárása felé tett első lépésként zárttá kívánják-e tenni a debreceni befogadó állomást? Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-05-19-urgent_question-AC7_4833" who="#SándorFont" ana="#regular"><note>FONT SÁNDOR (Fidesz):</note>
+<seg xml:id="AC7_4833.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! A Kalocsa és Paks térségében élőknek egy régi vágyát, kívánságát teljesítheti a kormány azzal a döntésével, amit múlt héten hozott, hogy a két város közelségében, térségében egy új összekötő közúti hidat szeretnénk építeni a kormány döntése alapján.</seg>
+<seg xml:id="AC7_4833.2">Közismert, hogy ez a kérdés régóta a térségben élők gondolatában ott volt, különféle javaslatok születtek is arra, hogy ezt az összeköttetést meg kellene teremteni, de egyértelművé vált, hogy az elmúlt hónapokban, amikor is a Paks II. atomerőművi energiakiváltás, -pótlás érdekében lakossági tájékoztatást tartott a kormány és Aszódi Attila kormánybiztos úr, nem volt olyan település, ahol ez a kérdés ne merült volna fel a lakosok részéről. Nem kérdéses, hogy elsősorban az atomerőmű építéséhez kapcsolódva gondolják azt a kívülállók, hogy ez egy hatalmas lehetőség a Duna bal partján élőknek, mintegy 6-8, esetleg 10 ezer olyan érintettje lehet, vállalkozóként, alkalmazottként, aki akár az erőmű építési szakaszában, netán az erőmű általános üzemelési időszakában is részt tud venni ezekben a folyamatokban, hiszen nem kell 80-100 kilométerrel körbekerülve elérni Paksot és vonzáskörzetét.</seg>
+<seg xml:id="AC7_4833.3">Mi úgy látjuk, hogy ezenkívül is számos jelentős problémát oldhat meg egy esetleges híd építése, például a Kalocsán működő kórház rendkívül komoly ellátási körzetet tud biztosítani a Duna jobb partján élőknek, akiknek a közelében nincs kórház, de akár a logisztikai bázis területe, akár a Glencore növényolaj-ipari céghez rendkívül nagy mennyiségű, több mint 600 ezer tonna mezőgazdasági alapanyag beszállítását is egyszerűsítheti a Dunántúlról érkező gazdák számára.</seg>
+<seg xml:id="AC7_4833.4">Kérdezem miniszter urat, hogy önök hogyan látják, mire alapozzák a javaslatukat, hogyan segítheti a térségben élők életét Kalocsa és Paks között egy esetleges Duna-híd felépítése. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-05-19-urgent_question-AC7_4834" who="#ImreVejkey" ana="#regular"><note>DR. VEJKEY IMRE (KDNP):</note>
+<seg xml:id="AC7_4834.1">Tisztelt Elnök Úr! Köszönöm a szót. Tisztelt Miniszter Úr! A kutatás-fejlesztés a kreatív tudásbázis célzott, szisztematikus bővítése. A kutatás-fejlesztés és a segítségével megvalósuló innováció nemzetstratégiai kérdés, hazánk számára az egyik kitörési pont.</seg>
+<seg xml:id="AC7_4834.2">Az innováció segítségével minél több magyar és Magyarországról származó termékkel találkozhatunk a világban. A kutatás-fejlesztés társadalmi szerepét jól ismerte fel a kormányzat, amikor 2013-ban elfogadásra került a „Befektetés a jövőbe” nemzeti kutatás-fejlesztési és innovációs stratégia 2020, amelynek feladata a 2014-2020. ciklus fő célkitűzéseit meghatározni a kutatás-fejlesztési és az innovációs politika területén.</seg>
+<seg xml:id="AC7_4834.3">(14.10)</seg>
+<seg xml:id="AC7_4834.4">A stratégia bevezetője így fogalmaz: „Aligha újdonság, hogy a kutatás-fejlesztésre és az innovációra fordított minden egyes forint egyúttal befektetés mind a vállalatok, mind pedig az ország jövőjébe. Éppen ezért a mindenkori kormányok fontos feladata, hogy olyan keretfeltételeket alakítsanak ki, amelyek a vállalatokat kutatás-fejlesztésre és innovációra ösztönzik.”</seg>
+<seg xml:id="AC7_4834.5">Tisztelt Miniszter Úr! Komoly gondot jelent, hogy nagyon sok magyar ötlet külföldi finanszírozással került ki a világpiacra, ezért az abból származó jövedelem és plusz hozzáadott érték is külföldre kerül. Kérdezem ezért a tisztelt miniszter urat, hogy mit és főleg milyen mennyiségben tervez a kormány K+F tevékenység támogatására a 2020-ig tartó uniós költségvetési időszakban. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-05-19-urgent_question-AC7_4835" who="#GergelyBárándy" ana="#regular"><note>DR. BÁRÁNDY GERGELY (MSZP):</note>
+<seg xml:id="AC7_4835.1">Köszönöm szépen a szót, elnök úr. Tisztelt Államtitkár Úr! A Buda-Cash Brókerház honlapján található felszámolói tájékoztatás szerint a Nemzeti Nyomozó Iroda zár alá vette a vagyont, és ezért a tájékoztató szerint az ügyfélvagyon kiadása jelenleg nem lehetséges. A befektetési vállalkozásokról és az árutőzsdei szolgáltatókról szóló törvény alapján - illetve ez egyértelműen azt rögzíti - a befektetési vállalkozás felszámolása során az ügyfél által a befektetési vállalkozásnál letétbe helyezett pénz, pénzügyi eszköz, illetve nyilvántartott pénzeszköz, az ügyfél tulajdonában lévő vagy őt megillető pénzügyi eszköz és pénzeszköz, valamint az árutőzsdei szolgáltatás tárgyát képező eszköz a befektetési vállalkozás, illetve az árutőzsdei szolgáltató bármely, az ügyfél javára vezetett számláján nem képezi a felszámolási vagyon részét. A törvény egyértelműen elkülöníti az ügyfelek vagyonát a társaság vagyonától, éppen ezért soron kívül kiadhatóvá teszi a vagyont az ügyfeleknek, azaz, hogy nekik ne kelljen megvárniuk a felszámolás végét, ezt lehetővé teszi a törvény, sőt erre kötelezi a jogalkalmazót.</seg>
+<seg xml:id="AC7_4835.2">Nyilvánvaló, hogy a Buda-Cash Brókerház Zrt.-nél elkövetett bűncselekmények elkövetőinek majdani jogerős elítélését követően végrehajtandó vagyonelkobzás nem érinti az ügyfelek vagyonát. Ha más nem is, a megbízói számlákon lévő eszközök mindenképpen az ügyfelek vagyonának tekintendőek, de sajnos előfordulhat az is, hogy a saját számlán kimutatott eszközök egy része valójában ügyfélvagyon. Erről Harangozó Tamás képviselőtársam két kérdést is feltett miniszter úrnak. Önök írásban nem voltak hajlandóak erre válaszolni. Most azt kérem, hogy akkor szóban próbáljuk meg, hátha sikerül.</seg>
+<seg xml:id="AC7_4835.3">Annyit mondjon meg, államtitkár úr, semmi többet, hogy mi a jogalapja annak az intézkedésnek, hogy ezt a vagyont nem adják ki, hiszen a Nemzeti Nyomozó Iroda lefoglalására hivatkoznak. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

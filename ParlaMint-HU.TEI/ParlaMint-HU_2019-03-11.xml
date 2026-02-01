@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2019-03-11" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2019-03-11 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2019-03-11 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="8" unit="speeches">8 beszéd</measure>
+        <measure xml:lang="en" quantity="8" unit="speeches">8 speeches</measure>
+        <measure xml:lang="hu" quantity="2638" unit="words">2638 szó</measure>
+        <measure xml:lang="en" quantity="2638" unit="words">2638 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2019-03-11">2019. 03. 11.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="8"/>
+          <tagUsage gi="seg" occurs="47"/>
+          <tagUsage gi="kinesic" occurs="16"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2019-03-11">2019-03-11</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2019-3-11-urgent_question-AC8_5143" who="#ImreLászló" ana="#regular"><note>DR. LÁSZLÓ IMRE (DK):</note>
+<seg xml:id="AC8_5143.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Ház! Miközben a kormány a születésszám növelését szorgalmazza, megfeledkezik arról, hogy a népességfogyás ellen a halálozás mérséklésével is lehetne küzdeni, márpedig évente, pontosan Kásler miniszter úr bevallása szerint is, mintegy 30 ezer olyan beteg hal meg, aki megfelelő orvosi ellátással megmenthető lett volna. Ehelyett azonban az egészségügy egyre inkább szétesik: az alapellátás jelen formájában már nem működhet tovább, a háziorvosok átlagéletkora kétségbeejtően magas, a betöltetlen praxisok száma pedig folyamatosan nő, a szakorvosi ellátásban mind hosszabbak az előjegyzési idők, az első számú halálokot jelentő szív- és érrendszeri megbetegedések esetében heteket, endokrinológiai vagy cukorbetegség kezelését megalapozó vizsgálatokra pedig hónapokat kell várni. A kórházi ellátásról már szólni sem érdemes: kardiológusok altatnak, gasztroenterológusok adnak kardiológiai ügyeletet, és évente több ezer végtagot kell amputálni, amelyet érsebész hiányában nem lehetett megmenteni. A rokkantak ellátása persze komoly teher a költségvetésnek, de inkább orvosolni kéne az egészségügy rokkantakat futószalagon gyártó hiányosságait ahelyett, hogy az út szélén hagyják őket. A kórházak olyan ágyakat kénytelenek szüneteltetni, amelyek orvosok és szakdolgozók hiánya miatt nem működtethetők. A gyógyításban nem több orvos van Magyarországon, államtitkár úr, hanem kevesebb.</seg>
+<seg xml:id="AC8_5143.2">Minderre pedig nem jelenthetnek választ az olyan lózungok, hogy az egészségügyben minden rendben van, vagy az ellátás folyamatos, meg soha ennyi orvos nem dolgozott hazánkban, mint ma</seg>
+<kinesic type="signal"><desc>Az elnök csengetéssel jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC8_5143.3">Ráolvasással és hazug hitegetéssel azonban nemcsak a betegek, de az egészségügy sem gyógyítható meg. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a DK padsoraiban.</desc></kinesic>
+<seg xml:id="AC8_5143.4">(14.10)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2019-3-11-urgent_question-AC8_5147" who="#JánosStummer" ana="#regular"><note>STUMMER JÁNOS (Jobbik):</note>
+<seg xml:id="AC8_5147.1">Köszönöm szépen a szót. Tisztelt Ház! Tisztelt Hölgyeim és Uraim! A hétvégén benyújtott törvényjavaslatunkkal magyar kvótát akarunk a magyar munkahelyekre. A magyarkvóta-törvény értelmében a jövőben minden tíz embernél többet foglalkoztató magyarországi munkáltató kötelezve lesz arra, hogy a tíz dolgozójából legalább kilenc rendelkezzen uniós állampolgársággal, a külföldi dolgozóikat pedig tanítsák meg legalább az alapfokú nyelvvizsga szintjéig magyarul. A magyarkvóta-törvény a magyar dolgozókat, a magyar családokat fogja védeni az önök stratégiai partnereinek gátlástalanságától és az önök által az országba beengedett 86 ezer gazdasági bevándorlótól. Azért akarjuk ezt a törvényt, mert elég volt abból, hogy a magyar melóst rabszolgának nézik a saját hazájában. Elég volt abból, hogy Dunaújvárosban hajléktalansággal fenyegethetik meg a magasabb bért követelő magyarokat; hogy Miskolcon karámba terelhetik a sztrájkolókat; hogy Esztergomban kirúghatják azt az embert, aki szakszervezetet akar létrehozni</seg>
+<kinesic type="noise"><desc>Közbeszólás a Jobbik soraiból: Szégyen!</desc></kinesic>
+<seg xml:id="AC8_5147.2">Elég volt abból, hogy önök és a vendégmunkásokat immár tömegesen az országba betelepítő üzlettársaik a bolondját járatják ezzel az országgal; hogy amíg a magyar családapának Bristolban kell dolgoznia, addig önök a multival összekacsintva a padláson dugdossák Vlagyimirt, csak hogy a stratégiai partner minél több hasznot tudjon kiszivattyúzni az országból.</seg>
+<seg xml:id="AC8_5147.3">A magyar munkavállalókat, a magyar családokat védi majd ez a törvény, a multinacionális cégeket pedig arra kényszeríti, hogy a munkaerőhiány okozta problémát ne a Keletről behozott olcsó munkaerővel, hanem a magyaroknak fizetett, európai mércével mérve is tisztességes és versenyképes bérrel oldják meg. Önök most megmutathatják, hogy a magyar munkavállalók oldalán, nem pedig a külföldi rabszolgatartóik pártján állnak. Álljanak az ügy mellé, és a magyarkvóta-törvénnyel védjük meg a magyar dolgozókat a közös hazánkba áramló gazdasági bevándorlóktól, hogy azok, akik Magyarországra jönnek, ne vehessék el a magyarok munkáját!</seg>
+<seg xml:id="AC8_5147.4">A bérből és fizetésből élő emberek nem tudnak tovább várni, ne késlekedjenek sokáig a válasszal: támogatnia fogják-e a magyarkvóta-törvényt? Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-3-11-urgent_question-AC8_5148" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC8_5148.1">Tisztelt Elnök Úr! Tisztelt Ház! Bízva végre egy szakmai diskurzusban, nem vagyok eltántorítható attól, hogy visszarángassam a politikai science fictionből a valóságba a kormányzatot, hiszen amikor azt közlik velünk, hogy 2030-ig utol szeretnék érni Ausztriát, amikor azt közli velünk az MNB prognózisa, hogy adott esetben 110 ezer élveszületést szeretnének évente, azt mondom, hogy én is szeretném, támogatom ezeket a törekvéseket, ugyanakkor a megvalósíthatóságuk útjai között azért vita van közöttünk. Szeretném elmondani azt is, hogy üdvözlöm, államtitkár úr, amikor a kormány kilencévnyi Csipkerózsika-álom után államtitkár úr, ez önre is vonatkozik, mert bűnrészes ebben felébred, és azt mondja, hogy a Magyarországon működő multicégeket a közteherviselésbe szeretné behúzni. Szeretném megkérdezni, hogy államtitkár úr milyen módszerek mentén képzeli el mindezt, főleg annak ismeretében, hogy a nálunk is működő multicégek a piaci becslések szerint profitjuk mintegy 40 százalékát rejtik el az adózás elől.</seg>
+<seg xml:id="AC8_5148.2">Míg Magyarországon vizsgáljuk csak az önök időszakának első felét 2010 és ’15 között a magyar gazdaság 26 százalékkal nőtt, ebből a magyar tulajdonú csak tizenegynéhány százalékkal, és az itt működő külföldi cégek voltak képesek 34 százalékos növekményre. A kettő átlagából jött ki az eredeti szám, amit említettem.</seg>
+<seg xml:id="AC8_5148.3">Adódik tehát a kérdés, államtitkár úr, hogy miközben önök stratégiai szerződéseikben kényeztetik ezeket a cégeket, olyan kedvezményeket biztosítanak számukra, amelyeket utoljára csak a Gyurcsány-, Bajnai-kabinetek biztosítottak, milyen módszerekkel kívánják a közteherviselésbe behúzni azokat a cégeket, amelyek az önök regnálása alatt éves szinten ezermilliárdos nagyságrendet vittek ki adózatlanul ebből az országból, folyamatos kormányzati asszisztencia mellett. Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiból.</desc></kinesic>
+<seg xml:id="AC8_5148.4">(14.40)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2019-3-11-urgent_question-AC8_5150" who="#HajnalkaJuhász" ana="#regular"><note>JUHÁSZ HAJNALKA (KDNP):</note>
+<seg xml:id="AC8_5150.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! A technológiai fejlődés az utóbbi időben hihetetlen méreteket öltött, mindennapjaink részévé vált, számos napi használati cikkünkről az elmúlt század végén még csak nem is álmodtunk. A fejlődés nem áll meg, így Magyarországnak készen kell lennie a digitalizáció által nyújtott előnyökre.A digitalizáció a fenntartható növekedés egyik legfontosabb hajtóereje, jelentős versenyképességi tényező, ahogy Palkovics miniszter úr is megfogalmazta korábban. A digitalizáció növeli a termelékenységet, a hatékonyságot, a hozzáadott értéket. A gazdaságban egyértelműen pozitív hatást gyakorol a vállalkozások eredményességére. A gazdaságfejlesztési operatív programok információs rendszerének adatai alapján az IT-fejlesztésekbe fektetett minden forint háromszoros üzleti eredménynövekedést hoz az adott vállalkozásnál két éven belül.</seg>
+<seg xml:id="AC8_5150.2">Tisztelt Államtitkár Úr! Március 1-jén az EU informális távközlési tanácsi ülésén Európa digitális jövőjéről egyeztettek a tagországok. A tagállamok távközlésért és digitalizációért felelős állami vezetői megvitatták, hogy milyen irányba szeretnék alakítani az Unió digitális stratégiáját 2020 után. Ekkor jár le ugyanis a jelenleg érvényben lévő, 2015-ben kiadott digitális egységes piaci stratégia. A résztvevők egyetértettek abban, hogy a globális versenyképesség megőrzése érdekében közös európai fellépésre van szükség, és hogy az új technológiák ideértve a mesterséges intelligenciát, a nagy teljesítményű számítástechnikát, a blokklánctechnológiát mielőbbi elterjesztése kulcsfontosságú.</seg>
+<seg xml:id="AC8_5150.3">A Kereszténydemokrata Néppárt fontosnak tartja a XXI. századi megoldások alkalmazását minden szinten. Így időről időre a kormányzat tájékoztatását kérjük a digitális fejlődéshez kapcsolódó projektek előrehaladásáról. Kérdezem államtitkár urat, hogy mit tesz a kormány annak érdekében, hogy Magyarország Európa élvonalába kerüljön a digitalizáció tekintetében.</seg>
+<seg xml:id="AC8_5150.4">Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-3-11-urgent_question-AC8_5151" who="#AntalCsárdi" ana="#regular"><note>CSÁRDI ANTAL (LMP):</note>
+<seg xml:id="AC8_5151.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Államtitkár Úr! Évtizedek óta mindenki számára látható módon szivattyúzza ki a parkolási maffia a közpénzt a budapesti parkolási rendszerből. Teszi ezt annak ellenére, hogy a magyar önkormányzati törvény módosításra került oly módon, hogy ezt ne tehessék meg, és mégis ma az a tapasztalata mindenkinek, és egyre többen ismerjük a rendszert, hogy az önkormányzatok kijátsszák a parkolási bevételeket magáncégeknek, a parkolási maffiának. Sajnos, azt kell látnunk, hogy a budapesti parkolási rendszer a zavarosban halászás fő iparága lett, és döbbenetes ezt látnunk. Ugyanakkor azt gondolom, hogy ezt igazolja az is, hogy bár az önkormányzat szerint számlának minősül a parkolójegy, addig a NAV azt mondja, hogy ez egy rágógumi-automatával megegyező módon történő adózással adózó tevékenység. Szeretnénk tisztán látni ebben a kérdésben, ezért a következő öt kérdésre várom tisztelettel a válaszát. Igaz-e, amit Tarlós István mondott, miszerint miniszterelnök úr nemet mondott a parkolás rendezésére? A kormányülésen szóba került-e a parkolási visszaélések ügye, és ha igen, akkor mit kívánnak tenni? A harmadik kérdés, hogy mi a kormány álláspontja a parkolás fővárosi hatáskörbe utalásáról? A negyedik kérdés, hogy eddig miért nem kezdeményezték a parkolóórák NAV-hoz bekötött online rendszerének a bevezetését, annak ellenére, hogy ma már minden zöldséges, minden fodrász, minden kisebb-nagyobb vállalkozá</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret lejártát.</desc></kinesic>
+<seg xml:id="AC8_5151.2">be van kötve a NAV-hoz. Bocsánat, az ötödik kérdés: önök szerint, az álláspontjuk szerint számlának minősül-e a parkolójegy? Megtisztelő válaszait nagy tisztelettel megköszönöm</seg>
+<kinesic type="applause"><desc>Szórványos taps az ellenzéki pártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-3-11-urgent_question-AC8_5153" who="#LajosKorózs" ana="#regular"><note>KORÓZS LAJOS (MSZP):</note>
+<seg xml:id="AC8_5153.1">Köszönöm szépen. Tisztelt Ház! Tisztelt Miniszter Úr! Tudomásom szerint Kásler Miklós egészségügyért is felelős emberi erőforrások minisztere egy nagyon alapos stratégiai anyagot vitt a kormány elé, amelynek az a summázata, hogy kérne ennek a programnak a végrehajtására mintegy 1500 milliárd forintot. Ebben benne foglaltatna egy új népegészségügyi program, benne lenne egy új nemzeti rákellenes stratégia, de úgy tudom, benne lett volna vagy benne van az előterjesztésben az alapellátás rendbetétele is. A kormány tagjai előszeretettel hivatkoznak mindig az elmúlt nyolc évre, most én is azt teszem. Tudomásom szerint, amikor nem a Fidesz kormányzott, Magyarországon egyetlenegy kórházi osztályt nem zártak be azért, mert nem volt elég orvos. Ellenben most egymás utá</seg>
+<seg xml:id="AC8_5153.2">(Dr. Rétvári Bence: Négy kórházat zártak be!)</seg>
+<seg xml:id="AC8_5153.3">, szinte hetente kell hogy emlékeztessem a tisztelt Házat: az elsők között a Honvédkórház, amely az első számú kórháza Magyarországnak, az ajkai kórház, a veszprémi kórház, a pécsi egyetemi klinika, a miskolci kórház és a múlt héten a Péterfy Sándor utcai kórház is be kellett hogy zárjon kórházi osztályokat, illetve szolgáltatásokat fel kellett függeszteni, csupáncsak azért, mert nincs elegendő orvos.</seg>
+<seg xml:id="AC8_5153.4">Éppen ebből adódóan kérdezem miniszter urat, hogy mi lesz ennek a programnak a sorsa, hiszen nyilvánvalóan van 1500 milliárd forintja a kormánynak. Annak idején 3000 milliárd forint magánnyugdíjpénztári megtakarítást elvettek, gondolom, abból tartalékoltak, és minden további nélkül lehet finanszírozni ezt a nagy ívű programot. Előszeretettel üdvözölné a parlament minden ellenzéki pártja, ha ezekről az érdemi kérdésekről, többek között erről folyna a parlamentben a vita.</seg>
+<seg xml:id="AC8_5153.5">Tehát lesz-e forrás az egészségügy rendbetételére? És mikorra várható az az előterjesztés, amelyet Kásler Miklós a kormány elé szánt? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP és a Párbeszéd padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-3-11-urgent_question-AC8_5156" who="#LászlóBöröcz" ana="#regular"><note>BÖRÖCZ LÁSZLÓ (Fidesz):</note>
+<seg xml:id="AC8_5156.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Képviselőtársaim! A rendszerváltást követő években sajnos sokan kihasználták az átmeneti időszako</seg>
+<seg xml:id="AC8_5156.2">(Dr. Brenner Koloman: Apukád!)</seg>
+<seg xml:id="AC8_5156.3">, és szervezetten bűncselekmények elkövetésére szakosodtak</seg>
+<seg xml:id="AC8_5156.4">(Dr. Varga-Damm Andrea: Igaz! Úgyhogy apuka is tudja! Mesélt apuka, ugye? Moraj a Jobbik padsoraiban.)</seg>
+<seg xml:id="AC8_5156.5">A jogellenes cselekményeket elkövetők egyik tipikus csoportja a lakásmaffia volt</seg>
+<kinesic type="noise"><desc>Dr. Varga-Damm Andrea közbeszól.</desc></kinesic>
+<seg xml:id="AC8_5156.6">A bűnszervezet tagjai olyan személyeket választottak áldozatul, akik súlyosan kiszolgáltatott helyzetben voltak</seg>
+<kinesic type="noise"><desc>Dr. Varga-Damm Andrea közbeszól. Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC8_5156.7">A megnyerő stílusú közreműködők kicsalták az áldozatok otthonát jelentő ingatlanokat, és így sok embert földönfutóvá tettek</seg>
+<seg xml:id="AC8_5156.8">(Dr. Brenner Koloman: Kicsit gördülékenyebben! Dr. Varga-Damm Andrea: El kellett volna előtte olvasni legalább egyszer!)</seg>
+<seg xml:id="AC8_5156.9">A csalások elkövetésére…</seg>
+<note>BÖRÖCZ LÁSZLÓ (Fidesz):</note>
+<seg xml:id="AC8_5156.10">A csalások elkövetéséhez a bűnszervezetben szükség volt cinkos közjegyzőre, cinkos hivatali alkalmazottakra és természetesen cinkos ügyvédekre</seg>
+<seg xml:id="AC8_5156.11">(Dr. Varga-Damm Andrea: Simonka úrral nincs probléma? Dr. Brenner Koloman: Farkas Flóri!)</seg>
+<kinesic type="noise"><desc>Az áldozatok megsegítésére létrehozott… (Nagy zaj, közbekiáltások a Jobbik padsoraiból. Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC8_5156.12">az áldozatok megsegítésére létrehozott Sors-Társak Közhasznú Egyesület birtokába jutott egy problémás szerződés.</seg>
+<kinesic type="signal"><desc>BÖRÖCZ LÁSZLÓ (Fidesz): Az áldozatok megsegítésére létrehozott Sors-Társak Közhasznú Egyesület birtokába jutott egy problémás szerződés… (Dr. Varga-Damm Andrea: Nem úgy hívják! Nem úgy hívják! Derültség a Jobbik padsoraiban. Az elnök csenget.</desc></kinesic>
+<note>BÖRÖCZ LÁSZLÓ (Fidesz):</note>
+<seg xml:id="AC8_5156.13">…amelyen dr. Damm Andrea ügyvéd aláírása és pecsétje szerepel. Gondolom, nem okozok vele meglepetést, ha elmondom, ha elárulom, hogy ez a Damm Andrea ugyanaz a Varga-Damm Andrea, aki jelenleg a jobbikos képviselők parlamenti frakciójában ül</seg>
+<kinesic type="signal"><desc>Z. Kárpát Dániel: Miért remeg a kezed? Dr. Varga-Damm Andrea: Néha férjhez megy az ember, tudja! Derültség az ellenzéki padsorokban. Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC8_5156.14">Az ügyvédnőt hasonló cselekmények miatt kizárták a Budapesti Ügyvédi Kamarából is</seg>
+<seg xml:id="AC8_5156.15">(Z. Kárpát Dániel: Idő! Idő!)</seg>
+<seg xml:id="AC8_5156.16">Rendkívül érdekes, hogy a tevékenysége folytatásában ez nem zavarta, hiszen dr. Varga Andrea néven a Győr-Moson-Sopron Megyei Ügyvédi Kamara tagjaként tovább dolgozott</seg>
+<seg xml:id="AC8_5156.17">(Dr. Varga-Damm Andrea: Rendkívül érdekes! Rendkívül érdekes! Dr. Brenner Koloman: Jákob! Jákob! Soros! Soros! Jákob! Soros! Tiborcz! Elios! 13 milliárd! Soros!)</seg>
+<seg xml:id="AC8_5156.18">Az egyesület alapítója szerint annál a társaságnál, akiknél a jobbikos képviselőnő dolgozott, nagyon sok kilakoltatás történt</seg>
+<seg xml:id="AC8_5156.19">(Rig Lajos: Elnök úr, nem lehet érteni, mert csak tátog!)</seg>
+<note>BÖRÖCZ LÁSZLÓ (Fidesz):</note>
+<seg xml:id="AC8_5156.20">Ezen információk tükrében visszásnak tűnnek a jobbikos képviselők kilakoltatással szembeni, megmentő szerepben tetszelgő hangzatos akciói. Az elhangzottakra tekintettel kérdezem tisztelettel államtitkár urat: milyen kapcsolat lehet az ügyvédi kamarából kizárt jobbikos képviselő és a lakásmaffia között</seg>
+<seg xml:id="AC8_5156.21">(Z. Kárpát Dániel: Kormányzati hatáskör!)</seg>
+<seg xml:id="AC8_5156.22">Milyen eszközökkel küzd a kormány a lakásmaffia visszásságainak visszaszorítására? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban. Dr. Brenner Koloman: Hurrá! Z. Kárpát Dániel: Szép volt! Szórványos taps az ellenzéki pártok padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-3-11-urgent_question-AC8_5157" who="#TamásMellár" ana="#regular"><note>DR. MELLÁR TAMÁS (Párbeszéd):</note>
+<seg xml:id="AC8_5157.1">Köszönöm szépen, elnök úr. Tisztelt Ház! Kedves Képviselőtársaim! Nemrégiben egy tragédia rázta meg Pécs városát, amikor is az történt, hogy egy kisbusz egy kereszteződésben elütött egy idős asszonyt, és az asszony ott meg is halt. Ez Pécsett a Lánc utca és a Koller utca kereszteződésében volt. Erről a kereszteződésről azt lehet tudni, hogy a balesetet megelőző hetekben-hónapokban visszatérően a lakosság panasszal élt az önkormányzat felé a tekintetben, hogy a felszerelt világítótestek, lámpák nem adnak elég fényt, és sötétbe burkolózik ez a kereszteződés. Az önkormányzathoz beadott panaszok azonban nem nagyon kerültek meghallgatásra. Az önkormányzat állítólag egy vizsgálatot végzett, amelynek eredményeképpen azt hozta ki, hogy a felszerelt új lámpatestek, amelyeket ezt azért ne felejtsük el, mert nagyon fontos kérdés az Elios Zrt. szerelt fel, 30 százalékkal nagyobb fényt adnak, mint a korábbiak, miközben a lakossági bejelentések éppen arról számoltak be, hogy legalább 30 százalékkal alacsonyabb fényt adnak.</seg>
+<seg xml:id="AC8_5157.2">Ezzel kapcsolatosan azt szeretném megkérdezni államtitkár úrtól, hogy indítanak-e vizsgálatot a lámpák fényerejének megvizsgálására vonatkozólag; illetve hogy milyen intézkedéseket terveznek az Elios Zrt.-vel szemben; illetve harmadrészt, hogy vajon meddig kell várni beavatkozásra? Már emberéletet is követelt a közvilágítás helyzete. Mikor lesz végre hajlandó cselekedni a kormány? Meg kell várni egy újabb balesetet? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Párbeszéd soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2019-11-25" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2019-11-25 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2019-11-25 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="8" unit="speeches">8 beszéd</measure>
+        <measure xml:lang="en" quantity="8" unit="speeches">8 speeches</measure>
+        <measure xml:lang="hu" quantity="2552" unit="words">2552 szó</measure>
+        <measure xml:lang="en" quantity="2552" unit="words">2552 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2019-11-25">2019. 11. 25.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="8"/>
+          <tagUsage gi="seg" occurs="23"/>
+          <tagUsage gi="kinesic" occurs="8"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2019-11-25">2019-11-25</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2019-11-25-urgent_question-AC8_8231" who="#RóbertDudás" ana="#regular"><kinesic type="noise"><desc>DUDÁS RÓBERT (Jobbik): Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Miniszter Úr! Ön még most érkezett... A Mátrai Erőmű ügyében kívánok föltenni önnek kérdést. Elhangzott már több kérdés ezzel kapcsolatban, és hallhattunk rá elég semmitmondó államtitkári válaszokat. Én nagyon bízom benne, hogy ön sokkal inkább meg fogja tudni nyugtatni nem engem, hanem a Mátrában élőket. Engedje meg, hogy elmondjam, hogy én Heves megyéből érkeztem, azon belül a Mátrából; Heves megyéből, ahol található a Mátrai Erőmű. A Mátrai Erőmű két éve van magántulajdonban, két éve van annak a Mészáros Lőrincnek a birtokában, akinek az üzemeltetése alatt az elmúlt fél évben két komoly szennyeződés adott aggályra okot az ott élőknek. Amikor kiderült, hogy habzik a patak, önök azt mondták, az első megnyilvánulás az volt, hogy pusztán csak az iszap kavarodott föl benne. Nem, kérem! Azt mondták, hogy abszolút nincs gond, pusztán rémhírkeltés zajlik. Nem! Több tucatnyian lettek rosszul.</desc></kinesic>
+<seg xml:id="AC8_8231.1">A miniszter úr azt mondta kormányinfóján, hogy rémhírkeltés zajlik, ugyanakkor viszont a cégnél, a Mátrai Erőműnél komoly korlátozásokat vezettek be, és vannak részek, amik nem látogathatók csak védőfelszereléssel, van, ahol gumiruhában veszik a mintát az említett tóból, az említett patakból.</seg>
+<seg xml:id="AC8_8231.2">(14.00)</seg>
+<seg xml:id="AC8_8231.3">Csak engedje meg, hogy megemlítsem, hogy nem pusztán lokális problémáról van szó, mert a Bene-patakon keresztül a Tarna, majd a Zagyva, majd pedig a Tisza is veszélyeztetheti az ott élők életét. A helyiek válaszokat várnak, mert abszolút nem nyugtatták meg őket. Válaszokat várnak, hogy a patak szennyezettsége milyen mértékű, az ivóvízkútjaik szennyezetteke, a termőföldjeik ezáltal szennyezetteke, mert pusztán őket az érdekli, hogy megvédjék saját életterüket, féltik családjukat, féltik a saját egészségüket. Mit kívánnak tenni ebben a kérdésben? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-11-25-urgent_question-AC8_8232" who="#JánosBencsik" ana="#regular"><note>BENCSIK JÁNOS (Jobbik):</note>
+<seg xml:id="AC8_8232.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! Az Állami Számvevőszék a múlt héten hozta nyilvánosságra Az Állami Egészségügyi Ellátó Központot érintő vizsgálatot, ami meglehetősen lesújtó képet mutat. Az ÁSZ megállapította, hogy az egészségügyi intézményekben nem átlátható a közpénzfelhasználás, és nem védettek eléggé a korrupciós kockázatokkal szemben.A legrosszabb helyzetben a budapesti kórházak és azon belül a Jahn Ferenc Dél-pesti Kórház van. Ez az a kórház, amely rendszerint csak úgy tud bejutni az országos sajtóba, ha valahol találnak egy többnapos hullát valamelyik lezárt WC-ben, vagy pedig tömegesen mondanak fel az ott dolgozók a ki nem fizetett túlórapénzek és a leterheltség miatt, megnyitva ezzel az osztálybezárásoknak a veszélyét. De rendszeresek a panaszok a sürgősségi ellátásra is, mindennaposak azok a képek, amelyek az összetolt székeken és a földön fetrengő emberek képét mutatják, akik sokszor 10-12 órát kell hogy várjanak ahhoz, hogy bármiféle ellátást kapjanak.</seg>
+<seg xml:id="AC8_8232.2">Tisztelt Államtitkár Úr! Nemcsak a betegek, hanem a gyógyítók is elképesztő állapotok között kell hogy dolgozzanak. A közel 200 fős dél-pesti nővérszállón olyannyira elszaporodtak az ágyi poloskák, hogy már a rendszeres irtással sem tudnak megszabadulni tőlük, a fertőzés miatt pedig a pszichiátria egyes osztályait is be kellett zárni.</seg>
+<seg xml:id="AC8_8232.3">A vérszívó rovaroknak a csípéseit kell hogy elviseljék az ott dolgozó nővérek, a velük lévő gyermekek, hiszen sokan vidékről jöttek fel, és a más osztályokon lévő betegek is, hiszen a fertőzés továbbterjed a fekvőosztályokra is. Az ágyi poloskák mellett ezeknek a nővéreknek 40 éves bútorokat, penészes fürdőszobákat, használhatatlan tűzhelyeket és az ágyhiány miatt sokszor a földön fekvést kell elviselniük, a panaszaikra pedig a kórházvezetés teljes érzéketlenséget mutat, és minden egyes panaszukra az a válasz, hogy nincs rá kapacitás.</seg>
+<seg xml:id="AC8_8232.4">Az az egyszerű kérdésem van, államtitkár úr, hogy ön szerint rendben vane, hogy ilyen körülmények között kell mindennap azoknak az embereknek a munkájukat végezni, akik más embertársaink gyógyítására esküdtek fel, és ha nem, akkor mit kívánnak tenni ez ellen.</seg>
+<seg xml:id="AC8_8232.5">Köszönöm szépen a megtisztelő figyelmüket</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-11-25-urgent_question-AC8_8234" who="#HajnalkaJuhász" ana="#regular"><note>JUHÁSZ HAJNALKA (KDNP):</note>
+<seg xml:id="AC8_8234.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Képviselőtársaim! Tisztelt Miniszter Úr! A klímaváltozás súlyosabb következményeinek elkerülése, mérséklése érdekében sorsdöntő, hogy minél előbb, minél alacsonyabb átlaghőmérsékleten kell megállítani a bolygó légkörének felmelegedését. Ezen cél elérése érdekében az áramtermelésben az atomerőművek és a megújuló energiaforrások részarányát jelentősen növelni szükséges. Ettől függetlenül egyes zöldszervezetek folyamatosan a Paks II.-projektet támadják. Néhány nappal ezelőtt mély megdöbbenéssel olvastam egy atomenergetikai szakértő írásait, amiben arról is ír, hogy az Energiaklubot osztrák, német és több más nemzetközi szervezet finanszírozza az atomenergia-ellenes tevékenységükben. Az Energiaklubot tavaly például az osztrák szövetségi fenntarthatósági és idegenforgalmi minisztérium is támogatta. A hivatalos éves beszámolójukban az osztrák minisztériumi támogatással kapcsolatban ezt írják: „Figyelemmel követjük a Paks II.-beruházással kapcsolatos ügyeket, és azon dolgozunk, hogy a Paks II.-vel szemben további jogi lépéseket tudjunk meglépni.” Fontosnak tartom kiemelni azt is, hogy két évvel ezelőtt az ENSZ espooi egyezmény titkársága best practice-nek, azaz jó gyakorlatnak, követendő példának minősítette a Paks II.-projekt környezeti hatásvizsgálati eljárását, illetve szintén jó gyakorlatnak nevezte azt a Nemzetközi Atomenergia Ügynökség is.</seg>
+<seg xml:id="AC8_8234.2">Ettől függetlenül egyes zöldszervezetek panaszt nyújtottak be a környezetvédelmi engedélyezési eljárással kapcsolatban. Egy héttel ezelőtt miniszter úr a Gazdasági bizottság tagjainak arról számolt be, hogy az ENSZ Aarhus Megfelelési Bizottsága elutasította a Greenpeace Energy és társai Paks II. ügyében benyújtott ezen panaszát. Tisztelettel kérdezem miniszter úrtól: mit gondol és mit tud az Energiaklub osztrák minisztériumi támogatásáról, valamint mi a véleménye arról, hogy az atomellenes zöldszervezetek folyamatosan a klímabarát Paks II. atomerőmű megépítését támadják? Köszönöm megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-11-25-urgent_question-AC8_8235" who="#LászlóVarju" ana="#regular"><note>VARJU LÁSZLÓ (DK):</note>
+<seg xml:id="AC8_8235.1">Elnök úr, köszönöm a szót. Államtitkár úr, nagyon fontos ez a kérdés, hiszen Johann Strauss Kék Duna keringőjét 1866-ban mutatták be, több mint 150 évvel ezelőtt. Bécsben, ugye, lehet, hogy őt megihlette a Duna színe, de az, ami most Budapestnél történt, ez ezzel össze nem hasonlítható. Jelenleg általában zöld, barna vagy valamilyen színű, de a dunai evezősök, horgászok meghökkenésére egy héttel ezelőtt azt tapasztalták, hogy az újpesti részen élénk türkizkék a színe. Még Görögországban a tenger, és más ilyen helyeket még emlegethetnék, össze nem hasonlítható azzal, amit ott láthattak. Ráadásul a látványon kívül a szagát és annak maró hatását is megtapasztalhatták. Éppen ezért, azt gondolom, hogy erre a rendkívüli helyzetre fontos, hogy önök pontos választ adjanak. Azt tudom, hogy a katasztrófavédelem illetékesei kint voltak a helyszínen, mintát vettek, de azóta tájékoztatást nem kaptunk. Éppen ezért kérdezem tisztelt államtitkár urat, hogy milyen anyag szennyezte a múlt héten a Dunát Újpestnél. Mennyire volt ártalmas ez a szennyező anyag? Felderítettéke már a szennyező kilétét? Mit kívánnak tenni „a szennyező fizet” elv érvényesítése érdekében, hogy pontosan láthassuk azt, hogy mi történt? Fontos, mert egyre több ilyen esemény van, és szeretném, ha az újpesti lakosok, a választópolgárok pontos választ kaphatnának, illetve én is tudnám tájékoztatni őket. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-11-25-urgent_question-AC8_8239" who="#PéterUngár" ana="#regular"><note>UNGÁR PÉTER (LMP):</note>
+<seg xml:id="AC8_8239.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Azzal szeretném elkezdeni, hogy jelenleg is, az Orbán-kormány lassan tizedik évében 38, illetve 58 ezer forintot kapnak azok az emberek, akik nem gyermeküket, legtöbb esetben idős szüleiket ápolják otthon. A Fidesz ebben a témában még a saját 2004-es javaslatát, a Mátrai Márta által jegyzett javaslatot is visszautasította, hogy ez ne változzon meg. Ugyanakkor most van egy akutabb probléma. A gyermekek otthongondozási díját, amit idén januártól bevezettek, mindenki automatikusan megkapta, akinek járt az ápolási díj. Tavaly júniustól elkezdődött egy felülvizsgálat a tekintetben, hogy ki jogosult erre, illetve melyik család nem jogosult erre. Ezen felülvizsgálat során, mivel ezt egy olyan pontrendszer alapján végzik el, amit azóta már önök kétszer módosítottak, és amit több, az ebben a szakmában lévő szakmai szervezet kifogásolt, ebben több család esett ki. Most például két olyan család története is országos médianyilvánosságot kapott, akik önellátásra képtelen gyermeküket nevelik, ennek ellenére elvették tőlük azt a gyermekek otthongondozási díját, ami amúgy automatikusan járt volna nekik.</seg>
+<seg xml:id="AC8_8239.2">A következő három számra lennék kíváncsi, államtitkár úr. Az egyik: hány konkrét felülvizsgálati eljárás folyt le júliustól egészen mostanáig? Ebből hány visszautasítás volt? Ezeknek a visszautasításoknak a nagy része milyen indoklás alapján lett? Ezek az emberek alapvetően megérdemlik ezért a 0-24 órán át tartó lelkes és nagyon nehéz munkáért, hogy megkapják azt, amit önök amúgy törvényben elfogadtak. Az, hogy önök ezen spórolnak és bürokratikus akadályokat gördítenek érintett családok elé, szerintem nagyon nehezen megmagyarázható. Itt a lehetősége államtitkár úrnak, hogy ezeknek a családoknak elmondja, ők miért nem érdemlik meg a gyermekek otthongondozási díját</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-11-25-urgent_question-AC8_8240" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC8_8240.1">Köszönöm szépen, elnök úr. Ennél cinikusabb választ nem lehetne adni egy egészségügyi kérdésre, és ezt Gulyás Gergely adta a múlt héten a kormányinfón, amit én most feltettem. És feltehetjük azt a kérdést az elmúlt hónapokból, évekből, hogy mitől működik még Magyarországon az egészségügy, mi az, ami még életben tartja ezt az ezer sebből végző szektort. Ha valaki nap mint nap találkozik akár az alapellátással, akár a kórházi ellátással, akkor megkapja a választ. A válasz az, hogy az ott dolgozók adják még ezt. Az orvosok, az ápolók, a szakdolgozók, az asszisztensek, a műtősök, és hozzáteszem, nagyon sok esetben a betegek hozzátartozói, akik még működtetik ezt a rendszert, azért, mert elhivatottak, és gyógyítani és ápolni akarnak.</seg>
+<seg xml:id="AC8_8240.2">Ha az ember saját tapasztalatból látja, és bekerül a kórházba… engedjék meg, hogy egy múlt heti tapasztalatomat osszam meg önökkel, és kimondottan most az ápolónőkkel kapcsolatban, hogy milyen munkát végez ma Magyarországon egy ápolónő. Nagyon sok esetben 12 órában fürdet, etet, adminisztrál, takarít, ápol, ágyaz, vizitel, pelenkáz, és lehet, hogy a nap végén még mindig van annyi ereje, hogy simogat és mosolyog; nem azért a fizetésért, amit megalázó módon kap önöktől, hanem azért, mert elhivatott. És tudják, döbbenten látja az ember, amikor bejön ide a parlamentbe, és hallgatja, mondjuk, államtitkár úr válaszait, hogy mennyire csodálatos ma Magyarországon az egészségügy helyzete, és sorolja azokat a számokat, és millió egyszer elmondjuk, hogy a számok mögött mindig emberek vannak és emberi sorsok.</seg>
+<seg xml:id="AC8_8240.3">Államtitkár úr, itt még nem is beszéltem arról, hogy mondjuk, milyen körülmények között dolgoznak ezek az emberek, amikor meghallgatjuk őket, és elmondják, hogy a hónap végén már ők viszik be a kórházba a tisztítószert, és ők viszik be, mondjuk, a habfürdőt a betegek lefürdetésére. Államtitkár úr, mikor fejezik be a hazudozást, és ténylegesen vallják azt be, hogy mekkora nagy probléma van ma az egészségügyben?! Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-11-25-urgent_question-AC8_8243" who="#OlivioKocsis-Cake" ana="#regular"><note>KOCSIS-CAKE OLIVIO (Párbeszéd):</note>
+<seg xml:id="AC8_8243.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Most derült ki, hogy a kormány konzultál, konzultációt indított a klímakérdésről, csak ezt eddig nem tudta senki. Tényleg nem értem, hogy a jövőnket meghatározó legfontosabb kérdésről miért nem kívánja tájékoztatni a magyar embereket a kormány. Hol marad a személyes levél? Hol marad a közpénzből készült óriásplakát, tévéspot? Ilyenkor, úgy tűnik, hogy ez nem fontos, ellentétben azzal, amikor Brüsszel-ellenes kampányt kell folytatni, gyűlöletkeltő kampányt kell folytatni vagy a fideszes propagandát kell harsogni.Tisztelt Államtitkár Úr! Egy idén publikált felmérés szerint, a Závecz Research kutatása szerint a magyarok 88 százaléka úgy gondolja, hogy a klímaváltozás az egész emberi civilizáció jövőjét fenyegeti, 77 százaléka úgy gondolja az embereknek, hogy emiatt a következő három évtizedben jelentősen át kell alakítanunk az életmódunkat, és 82 százaléka azt gondolja a magyar embereknek, hogy ez az egyik legfontosabb probléma, és sokkal többet kéne ezzel foglalkozni.</seg>
+<seg xml:id="AC8_8243.2">Tehát az egyetlen konzultáció, amely valóban érdekelné az embereket, csak az uniós kötelezettség miatt indul el. És akkor is igyekeznek ezt titokban tartani</seg>
+<seg xml:id="AC8_8243.3">(Dr. Rétvári Bence: Titokban tartani?)</seg>
+<seg xml:id="AC8_8243.4">Tisztelt Államtitkár Úr! Miért rejtegette a kormány a klímavédelemről szóló kérdőívet? Propagandacélú konzultációk reklámozására rendre milliárdokat költenek el, a valódi problémák miért nem kerülnek napirendre a konzultációk során? Legyen olyan kedves tájékoztatni, hogy milyen részeredménye, itt hangsúlyozom a részeredményt, hiszen tudom, hogy ma jár le a határidő, de bizonyára vannak adataik arról, hogy eddig, tegnapig, múlt hétig mennyien töltötték ki ezt a konzultációt, tehát milyen részeredményei vannak a jelenlegi konzultációnak. Várom válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2019-11-25-urgent_question-AC8_8244" who="#ZsoltCsenger-Zalán" ana="#regular"><note>CSENGER-ZALÁN ZSOLT (Fidesz):</note>
+<seg xml:id="AC8_8244.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Ismét aggasztó hírek érkeznek a Nyugat-Balkánról. Úgy tudni, lassan a százezret is eléri, sőt talán már meg is haladja a feltorlódott migránsok száma. Törökországi jelentések szerint az év első tíz hónapjában 350 ezer illegális határátlépőt fogtak el a török hatóságok, 80 ezerrel többet, mint tavaly egész évben. A görög szigetek migránsokkal telítettek, akik innen átjutnak a szárazföldre, azok könnyen továbbhaladnak Bosznia-Hercegovina felé.Az Európa környéki konfliktusok sajnos továbbra sem a migrációs válság megoldásának irányába hatnak, ellenkezőleg, a nyomás a jövőben alighanem fokozódni fog. Éppen ezért lenne legfőbb ideje, hogy a nemzetközi intézmények, mindenekelőtt, de nem kizárólag az Európai Unió, változtassanak végre migrációs politikájukon, elősegítve az otthonukat elhagyók hazatérését és javítva az otthonukban maradtak biztonságát, megelőzendő, hogy útra induljanak.</seg>
+<seg xml:id="AC8_8244.2">Különösen aggasztóak ugyanakkor azok a próbálkozások, amelyek arra irányulnak, hogy az ENSZ globális migrációs csomagját részletekben vagy egészében, lopva, de kötelezővé tegyék. Magyarország bebizonyította, hogy meg lehet állítani a migrációt, és jó példát mutat arra, hogyan lehet a segítséget az érintett országokba vinni ahelyett, hogy a gondokat hoznánk ide. A Hungary Helps programmal hazánk gazdaságának méretével arányosan kiveszi a részét a kibocsátó országokban élők életkörülményeinek javításából.</seg>
+<seg xml:id="AC8_8244.3">Tisztelt Államtitkár Úr! A tél beálltával a migrációs útvonalak a tengerről a szárazföldre helyeződnek át. Mire kell számítanunk a következő hónapokban? Hogyan tudja Magyarország kezelni a növekvő nyomást</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2016-09-19" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2016-09-19 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2016-09-19 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2726" unit="words">2726 szó</measure>
+        <measure xml:lang="en" quantity="2726" unit="words">2726 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2016-09-19">2016. 09. 19.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="33"/>
+          <tagUsage gi="kinesic" occurs="7"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2016-09-19">2016-09-19</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2016-09-19-urgent_question-AC7_12054" who="#ÁgnesKunhalmi" ana="#regular"><note>KUNHALMI ÁGNES (MSZP):</note>
+<seg xml:id="AC7_12054.1">Köszönöm szépen, elnök úr. Tisztelt Legfőbb Ügyész Úr! A 2014. évi önkormányzati választások során Terézvárosban választási csalás történt. Kiderült, hogy a volt Schmuck-féle párt legalább 148 esetben hamis aláírással ellátva más jelölőszervezet, azaz a Fidesz ajánlóinak adatait használta fel. Már az ajánlóívek lefoglalása is nyögvenyelősen ment. Eddigi ismereteink szerint a közel kétévnyi vizsgálat során a hamisító szervezet részéről csak az elnököt hallgatta meg a hatóság.</seg>
+<seg xml:id="AC7_12054.2">A fővárosban számos kerületben állított önálló jelölteket a Schmuck-féle párt. Szinten mindenhol látványosan, akár nagyságrenddel kevesebb szavazatot kaptak, mint ajánlást. Feltételezhető, hogy nemcsak Terézvárosban, hanem máshol is - például a VIII., a XI. vagy a XIX. kerületben - csaláshoz kellett folyamodniuk, hogy elérjék céljukat, hogy a közös demokratikus ellenzéki jelölttel szemben ők is tudjanak a választásokon indulni. Vélhetően minden ilyen kerületben - Terézvároshoz hasonlóan - a Fidesz volt az együttműködő partner, aki átadta saját szimpatizánsainak adatait, hogy ezzel befolyásolni tudják a választások eredményét. Minderre a választási törvény adott lehetőséget azzal, hogy nem kellett az összes leadott ajánlást, különösen pdig az aláírások hitelességét ellenőrizni.</seg>
+<seg xml:id="AC7_12054.3">Tisztelt Legfőbb Ügyész Úr! Kérdezem öntől: mit tesz ön a törvénnyel lehetővé vált csalások kiszűrése, különösen pedig azok megelőzése érdekében? Kezdeményezi-e a választási törvény módosítását? Mit tesz ön a kizárólag a terézvárosi szocialistáknak köszönhetően leleplezett csalás felderítése, a helyi közbizalom helyreállítása érdekében? Köszönöm megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-09-19-urgent_question-AC7_12145" who="#LászlóVarga" ana="#regular"><note>DR. VARGA LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_12145.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! A tegnapi nap ért véget a 2016-os riói paralimpia, ez egy lehetőség a számomra, hogy gratuláljak minden érmesnek, hiszen várakozáson felül, 10 érmet vártak a paralimpikonjainktól, végül is 18 érmet szerzett a magyar küldöttség, de gratulálnék a 43 fős küldöttség minden tagjának és a szakmai stábnak is. Azt gondolom, nagyon nagy siker, amit elértek.</seg>
+<seg xml:id="AC7_12145.2">A szereplésük kapcsán elindult egy közéleti vita egy szerintem nagyon fontos kérdésről, a paralimpikonok jutalmáról, a jutalmuk kérdéséről. Én nagyon szomorú vagyok abban a tekintetben, hogy az elmúlt hetekben ebben a kérdésben nem történt előrelépés, vagyis abban a kérdésben, hogy miért kapnak mindössze feleannyi jutalmat a paralimpikonok egy-egy siker után, mint ép sportolótársaik. 2008-ban ugyanannyi jutalmat kaptak még az MSZP kormányzása idején, 2012-ben a jutalmuk 70 százalékra csökkent, és ennek az olimpiának a kapcsán már csak 50 százaléka ép társaikénak. Nemcsak egy politikai vita alakult erről ki, hanem a Mozgáskorlátozottak Egyesületének Országos Szövetsége is tiltakozott ebben a tekintetben; mi egyetértünk velük. Eleinte még úgy tűnt számomra, hogy talán van értelme ennek a tiltakozásnak, és megváltoztatják a döntésüket. A kormánynak lehetősége van a módosításra, lehetősége volna arra, hogy teljes jutalmat adjon nekik, azonban ez nem történt meg, sőt az elmúlt hetekben ezzel ellentétesen is kommunikáltak.</seg>
+<seg xml:id="AC7_12145.3">Azt gondolom, adott a kérdés; nem lehet különbséget tenni két hasonló teljesítmény, érem, siker között. Egy ország várja tehát, hogy mikor változtatják meg a döntésüket, és mikor adják meg ugyanazt a jutalmat a paralimpikonoknak a sikereik után, mint ép sportolótársaiknak. Köszönöm a szót, elnök úr. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-09-19-urgent_question-AC7_12146" who="#ZoltánLukács" ana="#regular"><note>LUKÁCS ZOLTÁN (MSZP):</note>
+<seg xml:id="AC7_12146.1">Köszönöm szépen a szót. Tisztelt Ház! Hölgyeim és Uraim! Magyarország utóbbi időben egyik legsúlyosabb politikai botránya, hogy egy állami intézményben, a Magyar Televízió Kunigunda utcai székházában titkos lehallgató- és képrögzítő berendezéseket helyeztek el. Azóta Vas Imre üzemeltetési igazgató, aki most már egyik gyanúsítottja ennek az ügynek, azt mondta, amikor a rendőrök először megkérdezték, hogy ezeknek az eszközöknek az elhelyezése magasabb célokat szolgált.</seg>
+<seg xml:id="AC7_12146.2">Ez azt mutatja, hogy nyilvánvalóan Vas Imre nem magától fölkelt egy reggelen, és elhelyezett ilyen berendezéseket a székházban, hanem valamilyen megrendelésre tette azt. Azt is tudjuk, hogy Vas Várhegyi Attila bizalmi embere volt, az ő kérésére került oda a Televízióba. Annak a Várhegyi Attilának, aki egyébként szolnoki polgármesterként elítélt bűnözővé vált, és most is irodája van az MTVA Kunigunda utcai székházában úgy, hogy semmilyen jogviszonya nincs az MTVA-val. Ehhez képest úgy tudni, hogy ő a póráz az MTVA nyakán, és azt is tudjuk Várhegyi Attiláról, hogy a miniszterelnök bizalmasa.</seg>
+<seg xml:id="AC7_12146.3">Nos, elhelyezték ezt a hang- és képrögzítő berendezést egy tárgyalóban, ahol nemcsak az MTVA dolgozói, hanem politikusok, diplomaták, szakértők és mindenki megfordulhatott. Ezért aztán kérdezem államtitkár urakat, hogy kinek az utasítására történt ezeknek a berendezéseknek az elhelyezése. Igaz-e, hogy a megfigyelés politikai céllal történt? Igaz-e, hogy a Fideszen belüli politikai háború részét látjuk? Miért nem hallgatják meg és vonják be Várhegyi Attilát ebbe az ügybe, aki, világosan látszik, politikai felügyeletet lát el az MTVA-nál? Megsemmisülhet-e ugyanúgy ez a felvétel, mint a Kubatov Gábornak írt Portik-levél, vagy Rogán Antal ügyében az ingatlanokat tartalmazó cédé? Kérem, válaszoljanak erre. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-09-19-urgent_question-AC7_12147" who="#DóraDúró" ana="#regular"><note>DÚRÓ DÓRA (Jobbik):</note>
+<seg xml:id="AC7_12147.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A Pillanatkép az oktatásról című OECD-jelentésből kiderült, hogy Magyarország az OECD-tagországok közt az utolsó helyen áll az oktatásra fordított százalékos arányban. 2010 után az OECD kimutatása szerint csökkent az oktatásra fordított összeg aránya, tehát nemcsak arról van szó, hogy azért költ Magyarország kevesebbet az oktatásra, mert eleve egy szegényebb ország, hanem arról is szó van, hogy a meglévő GDP-ből a legutolsó helyen állunk a tekintetben, hogy mennyit fordítunk oktatásra. Az OECD-átlag 5,2 százalék, a magyar ráfordítás 3,8 százalék.</seg>
+<seg xml:id="AC7_12147.2">A vizsgált időszakban a legnagyobb csökkenést Magyarország produkálta, és a legnagyobb csökkenést az egy tanulóra jutó forrás mértékében is hazánk tudhatja magáénak. Mindezek ellenére azzal indokolták az állami fenntartásba vételt, hogy az önkormányzatok azok, amelyek nem költenek megfelelő mennyiségű pénzt az oktatási intézményeikre, majd ha állami fenntartásba veszik az iskolákat, akkor ez kiegyenlítődik, és biztosítják a megfelelő pénzt. Ez nem így történt, államtitkár úr, ebből az adatsorból is kiderül.</seg>
+<seg xml:id="AC7_12147.3">Másrészről Györgyi Zoltán oktatáskutató éppen az OFI lapjában írta meg, hogy a centralizáltság és a tudáseredmények között nagyon laza a kapcsolat, ez teljesen világosan látszik a PISA-eredményekből is. Ugyanő a tankerületek átalakításával kapcsolatban azt írta: nem látszik átgondolt szervezeti felépítés, megfelelő mechanizmusok nélkül érdemi célokat nem lehet megvalósítani.</seg>
+<seg xml:id="AC7_12147.4">Tisztelt Államtitkár Úr! A számok is azt mutatják és a szakértők is azt mondják, hogy az önök koncepciója az oktatásra vonatkozóan hibás. Hajlandóak-e változtatni ezen, s minek kell még történnie, milyen adatokat kell még megismernünk, hogy belássák, hogy tévedtek és nem jó úton járnak? Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-09-19-urgent_question-AC7_12148" who="#GáborStaudt" ana="#regular"><note>DR. STAUDT GÁBOR (Jobbik):</note>
+<seg xml:id="AC7_12148.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! A múlt héten a letelepedésikötvény-konstrukció nemzetbiztonsági kockázatát feszegettem, erre hívtam fel a figyelmet, és erre nem kaptam kielégítő választ államtitkár úrtól, és most sajnos egy újabb tényre kell felhívnom az ön figyelmét, és ebben kérdést kell intéznem az ön, illetve az ön főnöke által vezetett minisztériumhoz. Úgy tűnik ugyebár, hogy nem múlhat el hét letelepedési kötvényes botrány nélkül, a monopolpiacon dolgozó közvetítő cégek arcátlansága és a kormány sunyítása újabb csúcsokat döntött, hiszen már nemcsak az EU-n belüli szabad mozgás és üzletelés lehetősége a közvetítő cégek által zászlóra tűzött hívó szó, hanem egyenesen magyar útlevél, szavazati jog, vagyis a magyar állampolgárság megszerzése. Az embernek egyszerre lesz libabőrös a háta, és szorul ökölbe a keze, amikor ezeket a reklámvideókat megnézi.</seg>
+<seg xml:id="AC7_12148.2">Mintha nem is szeretett hazánkról, hanem valamilyen offshore banánköztársaságról szólnának a hírek, amikor az ügynökök fontosnak tartják kiemelni, hogy a jelenlegi szabályok szerint a letelepedési engedély megszerzése után nyolc évvel igényelhető a magyar állampolgárság. Hangsúlyozzák persze, hogy valójában nem kell itt élni, viszont sajnos egyelőre a helyi nyelvből - értsd: magyar - nyelvvizsgát kell tenni. De ha valaki elszomorodna, semmi vész, hamarosan ez is megváltozik, nyolc helyett öt év lesz a várakozási idő, sőt a kötelező nyelvvizsga követelménye is megszűnik. Hiába tagadja a kormány, hogy a letelepedési kötvénnyel állampolgársághoz is lehet jutni, hatályos jogszabályok alapján is, államtitkár úr, nyolc év kivárási idő után ezt meg lehet szerezni.</seg>
+<seg xml:id="AC7_12148.3">Kérdezem ezért államtitkár urat, igaz-e, hogy könnyíteni fognak az állampolgárság megszerzésén, ami a jövőben csupán öt év várakozási időt jelentene, és a magyar nyelv ismeretét is kihúznák a kritériumok köréből, illetve, amennyiben tagadnák a könnyítés tényét, milyen jogi lépéseket tesznek a videón elhangzó állításokkal kapcsolatosan. Kivizsgálják és szankcionálják-e a történteket, vagy a kapzsiság megint minden nemzeti érdeket felülír? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Szilágyi György: A biznisz az biznisz! - Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-09-19-urgent_question-AC7_12150" who="#KristófSzatmáry" ana="#regular"><note>SZATMÁRY KRISTÓF (Fidesz):</note>
+<seg xml:id="AC7_12150.1">Köszönöm szépen, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! A tavaszi ülésszakon az Országgyűlés elfogadta az egyes diákszövetkezetekkel összefüggő törvények módosításáról szóló törvényjavaslatot. Erre szükség is volt, hiszen Magyarországon évente átlagosan 200 ezer diák vállal valamilyen alkalmi munkát, jelentős részük ezt diák-, illetve iskolaszövetkezetek keretében teszi meg.</seg>
+<seg xml:id="AC7_12150.2">A javaslat célja az volt, hogy új alapokra helyezze a diákok által történő munkavégzéssel kapcsolatos szabályozást, valamint az ilyen tevékenység szervezésével foglalkozó iskolaszövetkezetek működésének új jogi keretet adjon. Erre már csak azért is szükség volt, mert néhány olyan visszaélés is köztudottá vált, illetve aktuális fejlemény van a diákszövetkezetek háza táján, ami szükségessé tette a szigorúbb szabályozást. Aktuálisan érdemes idehozni azt a csalássorozatot, amelynek központjában az MSZP egyik ambiciózus és nagyratörő szombathelyi politikusa, Czeglédy Csaba áll. Azért is vált ez most időszerűvé, mert tudomásunk szerint már a Nemzeti Nyomozó Iroda is vizsgálódni kezdett az ügyben.</seg>
+<seg xml:id="AC7_12150.3">Egyébként nem előzmények nélküli a cselekmény, hiszen a Kopernikusz Iskolaszövetkezet két korábbi vezetőjét az ügyészség 2015 június végén kelt vádiratában üzletszerűen elkövetett, mintegy 550 millió forintos vagyoni hátrányt okozó költségvetési csalás bűntettével, továbbá a számvitel rendjének megsértésével vádolta meg. Korábban egyébként jelentős adótartozás miatt indult eljárás több, ugyancsak Czeglédy Csabához köthető szövetkezetnél, a Cooperitas, a Rébusz Iskolaszövetkezet, valamint a Studentka Work Iskolaszövetkezet kapcsán is, jelentős adótartozást hagyva maguk után szűntek meg. De szerencsére az új szabályozás kereteket kíván biztosítani, illetve pluszjogokat a diákoknak.</seg>
+<seg xml:id="AC7_12150.4">Kérdezném államtitkár urat, hogy a fentiekre tekintettel az új, szigorúbb szabályozás a diákok számára pozitív módon, illetve a visszaélések visszaszorítása szempontjából hasznos volt-e, mik az első tapasztalatok. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a Fidesz soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-09-19-urgent_question-AC7_12151" who="#LászlóSzászfalvi" ana="#regular"><note>SZÁSZFALVI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC7_12151.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Magyarország és a magyar kormány tevékenységének óriási elismerése, hogy az Európai Bizottság tanulmánya sikeresnek és eredményesnek minősíti a Magyarországon meghozott gazdaságfehérítő intézkedéseket, hiszen egy év alatt több mint 4 százalékponttal csökkent az áfaadórés. A Bizottság tanulmánya alapján a magyarországi becsült áfaadórés mértéke a 2013. évi 22,24 százalékról - köszönhetően az adóelkerülés visszaszorítását célzó kormányzati intézkedéseknek - 17,95 százalékra csökkent 2014-ben. Ezzel az eredménnyel Magyarország a harmadik legnagyobb javulást érte el az EU-ban. A javulásban a legnagyobb szerepet kétségkívül az online pénztárgépek játszották, pedig csak 2014 utolsó négy hónapjában kellett kötelezően a vállalkozóknak ezt a kasszát használniuk.</seg>
+<seg xml:id="AC7_12151.2">Minden valószínűség szerint a 2015-ös adatsor még jobb lesz, hiszen abban az évben debütált az EKÁER, és az volt az első teljes év, amikor már csak az adóhivatali összeköttetéssel bíró pénztárgépbe üthették bevételüket a vállalkozások. Brüsszel évről évre méri minden egyes tagállam esetében a várt áfabevételek és a ténylegesen beszedett összeg közötti különbséget. Ez az úgynevezett, fentiekben is hivatkozott áfaadórés, amelybe az adóelkerülés miatt elméletileg kieső költségvetési bevételeken kívül egyéb dolgok is beleszámítanak, de ez a leghangsúlyosabb. Az elmúlt idők legfontosabb feketegazdaság elleni intézkedései tehát bizonyítottak.</seg>
+<seg xml:id="AC7_12151.3">Tisztelt Államtitkár Úr! A KDNP képviselőcsoportja bízik abban, hogy nincs megállás, és a kormány törekvése a feketegazdaság további csökkentése. Éppen ezért kérdezem államtitkár urat, tervez-e intézkedéseket a kormány az adóelkerülés további csökkentéséhez. Tisztelettel várom válaszát.</seg>
+<seg xml:id="AC7_12151.4">(14.20)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2016-09-19-urgent_question-AC7_12152" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_12152.1">Igen, elfogadom. Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Nem olyan régen szembesült a közvélemény azzal, hogy sokáig teljesen titokban, az emberek háta mögött, a multinacionális cégeket bevonva készül az USA és az EU, Kanada és az EU közötti szabadkereskedelmi egyezmény.</seg>
+<seg xml:id="AC7_12152.2">(13.50)</seg>
+<seg xml:id="AC7_12152.3">Az LMP már sok esetben felhívta a figyelmet arra, hogy ezek az egyezmények arra szolgálnak, hogy a tőke szabad mozgása elől lebontsák a korlátokat, és gyakorlatilag a gazdag országokat még gazdagabbá, a szegény országokat pedig még szegényebbé teszik.</seg>
+<seg xml:id="AC7_12152.4">Mindkét egyezmény veszélyezteti Európában az élelmiszer-biztonságot, a GMO-mentességet, a környezetvédelmi normákat, az emberi jogok és a munkajogi garanciák jelenlegi szintjét, valamint antidemokratikus vitarendezési eljárásokat tartalmaznak. A CETA legalább annyira veszélyes, mint a TTIP, mondhatni, a trójai falónak a falova.</seg>
+<seg xml:id="AC7_12152.5">Szintén tartalmazza a befektető-állam vitarendezési mechanizmus kicsit átalakított formáját, a befektetési bírósági rendszert. A multinacionális vállalatok továbbra is perelhetik a kormányokat, hogyha úgy vélik, hogy a profitjukat egy adott országban veszélyezteti az egészségvédelmi, élelmiszer-biztonsági vagy környezetvédelmi szabályok szintje.</seg>
+<seg xml:id="AC7_12152.6">Az Európai Bizottság július 5-én terjesztette a tagállamok elé az EU és Kanada közötti szabadkereskedelmi egyezményt ratifikálásra. A következőkre szeretnék választ kapni, igen vagy nem. Támogatja-e a kormány, hogy a CETA-ban közös EU-s célkitűzésként szerepeljen a GMO zéró tolerancia elvének feladása? Támogatja-e a kormány a CETA-ban az antidemokratikus befektetési bírósági rendszert? Tesz-e lépéseket a kormány az ideiglenes hatályba lépés ellen? Végül, de nem utolsósorban: támogatja-e a kormány a CETA magyar parlament általi ratifikációját</seg>
+<kinesic type="applause"><desc>Taps az LMP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-09-19-urgent_question-AC7_12155" who="#ÁkosHadházy" ana="#regular"><note>DR. HADHÁZY ÁKOS (LMP):</note>
+<seg xml:id="AC7_12155.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Miniszter Úr! Kezdő újfiúként sokat gondolkodtam rajta, hogy ilyenkor az értelemre vagy az érzelemre jó-e hatni egy ilyen felszólalásnál vagy érvelésnél. Ez nehéz kérdés, én inkább az érzelemnél maradnék, s nem azért, mert azt gondolnám, hogy önök nem tudják, mit miért tesznek. Gondolom, hogy nagyon is tudják, ezért is kell ma felszólalnom.</seg>
+<seg xml:id="AC7_12155.2">A szégyenérzetre kell apellálnom. Ugyanazt csinálják, mint amit a kommunisták csináltak. A kommunisták előtt jóval, 1892-ben indult Magyarországon a társadalombiztosítás a kötelező egészségügyi pénztárról szóló törvényjavaslattal. Viszont 1951-ben Gerőék alatt szüntették meg az Országos Társadalombiztosítási Intézetet, ugyanúgy, ahogy most önök az országos egészségügyi pénztárt terveznek megszüntetni. Akkor egy racionalizálási bizottság áldozatául esett az egészségügyi biztosítás, most pedig az ön bürokráciacsökkentésének. Akkor Ratkó Anna csinálta, most pedig ön csinálja ezt a feladatot. Kormányhatározatok voltak. Itt van a kezemben egy kormányhatározat. Ennek a következménye az volt, hogy onnantól kezdve a kormány határozott például a VKM-klinikákon vagy a Népjóléti Minisztérium kezelésében lévő klinikákon az ágyszámokról, és Gerő Ernő maga saját kezűleg húzta át. Nem kétséges, hogy ezentúl is így fognak a döntések történni. Akkor még volt jegyzőkönyv, ez különbség, mert úgy tudom, hogy most már nincs jegyzőkönyv. Nem tudom, hogy van-e jegyzőkönyv, de hogy nem nyilvános, az biztos.</seg>
+<seg xml:id="AC7_12155.3">A kérdés az, hogy mi az oka ennek a megszüntetésnek. Nem az-e az oka, hogy a biztosítási piacot akarják megnyitni a társadalombiztosítás beszántásával? Kérem, adja a szavát - nem tudom, hogy ez mennyit jelent -, de adja a szavát, hogy nem ezt készítik elő ezzel a lépéssel. Köszönöm.</seg>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2018-12-10" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2018-12-10 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2018-12-10 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="6" unit="speeches">6 beszéd</measure>
+        <measure xml:lang="en" quantity="6" unit="speeches">6 speeches</measure>
+        <measure xml:lang="hu" quantity="2170" unit="words">2170 szó</measure>
+        <measure xml:lang="en" quantity="2170" unit="words">2170 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2018-12-10">2018. 12. 10.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="6"/>
+          <tagUsage gi="seg" occurs="24"/>
+          <tagUsage gi="kinesic" occurs="7"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2018-12-10">2018-12-10</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2018-12-10-interpellation-IC8_215" who="#BarnaPálZsigmond" ana="#regular"><note>DR. ZSIGMOND BARNA PÁL (Fidesz):</note>
+<seg xml:id="IC8_215.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! A határon túli magyar közösségek közül alighanem a kárpátaljai magyarság helyzete a legnehezebb. Szerzett jogaikat az ukrán kormány sorozatosan csorbítja és csorbítani kívánja, jövőjüket kockáztatva ezáltal. A Kárpátaljai Magyar Kulturális Szövetséget egy hónapon belül két támadás is érte, mindeközben az Európai Unió és a NATO tagállamai látványosan kitérnek az állásfoglalás elől.Örömmel láthatjuk, hogy a magyar kormány, így a Külgazdasági és Külügyminisztérium már eddig is határozottan és keményen kiállt a kárpátaljai magyarság jogainak csorbítása ellen. A minisztériumnak a nyelvtörvény, az oktatási törvény, valamint az állampolgársági törvény negatív rendelkezései elleni kemény fellépése, a magyar közösség jogait védő határozott álláspontja komoly fegyvertény a magyar-ukrán bilaterális kapcsolatok jövője terén is.</seg>
+<seg xml:id="IC8_215.2">Bizton állíthatjuk, hogy az Ukrajna elnöke által sürgősségi eljárással beterjesztett állampolgársági törvénytervezet visszavonása nagymértékben köszönhető a miniszter úr, a minisztérium, de a teljes magyar politika és közélet erőfeszítéseinek, és bízunk abban, hogy az ellentmondást nem tűrő hozzáállás a többi törvénytervezetet is hasonlóan a kárpátaljai magyarság számára pozitív irányba fogja elmozdítani.</seg>
+<seg xml:id="IC8_215.3">Tisztelt Államtitkár Úr! Kérdezem tehát államtitkár urat, a magyar-ukrán kapcsolatok alakulása fényében hol tartunk most a kárpátaljai magyarság jogainak megvédése terén, várhatjuke a közeljövőben a kialakult konfliktus feloldását, az ukrán kormány belátását, amely szerint a nemzeti közösségek szerzett jogai elidegeníthetetlenek. Várom megtisztelő válaszát, köszönöm a szót</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-12-10-interpellation-IC8_3900" who="#JózsefAttilaMóring" ana="#regular"><note>MÓRING JÓZSEF ATTILA (KDNP):</note>
+<seg xml:id="IC8_3900.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tisztelt Ház! A Fidesz-KDNP-kormány gazdaságpolitikájának eredményeképpen támogatásban részesülhetnek az elavult, nagy energiaigényű eszközeik lecserélésére a családok, és ennek köszönhetően modern, energiatakarékos gépek kerülnek a magyar háztartásokba. A 2014-ben útjára indított „Otthon melege” program háztartási nagygépek cseréjének alprogramja eddig több mint 200 ezer család életkörülményeit tudta javítani, és a modernebb, jobb energiafelhasználású háztartási gépek támogatásával az energiafelhasználást csökkenteni. Az „Otthon melege” programban a kormány az elmúlt években mintegy 30 milliárd forintot fordított erre a támogatásra. A program része Magyarország nemzeti éghajlatváltozási stratégiájának is, így környezetvédelmi célokat is szolgál, és a teljes program által éves szinten 100 ezer tonnával csökken a szén-dioxid-kibocsátás. Tisztelt Államtitkár Úr! Idén háztartási nagygépek cseréjére régiónként november 5. és 21. között lehetett beadni pályázatot, ahol hűtő-, fagyasztó- és mosógép cseréjéhez kérhetett támogatást a lakosság. A nemrég zárult 2018. évi alprogramban a kérelmezők száma meghaladta a 119 ezret, az igényelt összeg pedig elérte az 5 milliárd forintot. A híradások szerint idén a pályázatban részt vevők igényeit látva a kormány az ország gazdasági teljesítményének köszönhetően megemelte a támogatás összegét. Azt gondolom, mindannyiunk közös célja, hogy a lehető legszélesebb körben tudjunk segítséget nyújtani a családoknak az energiafogyasztástól függő 20, 40, illetve 45 ezer forintnyi összeggel amellett, hogy családok ezreinek csökkenti a támogatás a rezsiköltségét, éves szinten mintegy 15-20 ezer forinttal.</seg>
+<seg xml:id="IC8_3900.2">Tisztelt Államtitkár Úr! A fentiek kapcsán az „Otthon melege” programmal kapcsolatban kérdezem tisztelt államtitkár urat, hogyan értékeli az „Otthon melege” program eddigi eredményit, milyen lakossági energiamegtakarítást ösztönző program várható a jövőben. Várom államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-12-10-interpellation-IC8_3912" who="#KristófSzatmáry" ana="#regular"><note>SZATMÁRY KRISTÓF (Fidesz):</note>
+<seg xml:id="IC8_3912.1">Köszönöm szépen a szót. Elnök Úr! Tisztelt Ház! Tisztelt Képviselőtársaim! Én azt gondolom, egy olyan ügyről szólhatok, amely egyébként a budapestiek tízezreit méltán érdekli, és ez a következő. Tudjuk jól, hogy Budapest nemcsak az ország és a magyar nemzet fővárosa, hanem mára Európa egyik legdinamikusabban fejlődő, mégis, én úgy mondanám: legélhetőbb településeinek egyike. Biztonságának köszönhetően pedig egyre népszerűbb és látogatottabb turisztikai célpont szerte Európában. Mi, budapestiek ezért is szeretünk itt élni. Örömmel állapíthatjuk meg, hogy Budapest 2010-et követően többet fejlődött, mint az azt megelőző 20 évben összesen, többek között a Fidesz-kormány segítségének köszönhetően is. Új közintézmények, megújuló közterületek, sportberuházások, Liget-projekt, sok száz milliárd forintos állami támogatás, nemzetközi rendezvények</seg>
+<seg xml:id="IC8_3912.2">(A teremből távozó Bana Tibor a kormányzó pártok padsorai felé: Szégyelljétek magatokat!)</seg>
+<seg xml:id="IC8_3912.3">Mi büszkék vagyunk arra, hogy a Fidesz többet tett Budapestért, mint bármely már politikai pár</seg>
+<kinesic type="noise"><desc>A folyosóról sípszó és zaj hallatszik be a terembe.</desc></kinesic>
+<seg xml:id="IC8_3912.4">, ez jól hallatszik itt mögöttem is. Mindezek ellenére egyébként vannak még elvégzendő feladatok. Az egyik ilyen: a múlt örökségét felszámolandó a belterületi földutak problémája.</seg>
+<seg xml:id="IC8_3912.5">Éppen ezért a fővárosi Fidesz közel egy éve arról döntött, hogy egy négyéves program keretében kezdeményezi az összes belterületi földút szilárd útburkolattal való ellátását</seg>
+<seg xml:id="IC8_3912.6">(A teremből távozó Z. Kárpát Dániel a kormányzó pártok padsorai felé: Büszkék lehettek…)</seg>
+<seg xml:id="IC8_3912.7">A kormány a tavalyi év végén döntött, és ennek eredményeképpen a 2019. évi költségvetésből 10 milliárd forint összegű forrást különített el erre a célra. A rendelkezésre álló forrással reményeink szerint az önkormányzatokon keresztül ez hatékonyan és gyorsan megvalósulhat. A fővárosi önkormányzatok a budapesti útépítési program keretében idén november 30-áig nyújthatták be egyedi támogatási kérelmüket a Miniszterelnökséghez, a 100 százalékban tulajdonukban lévő szilárd útburkolat nélküli utak aszfaltozására.</seg>
+<seg xml:id="IC8_3912.8">Budapesti, XVI. kerületi egyéni választókerületi képviselőként, ahol egyébként a kerületemben korábban is nagyon-nagyon sok út épült meg önkormányzati önerőből, bízom benne, hogy ezen program keretében az a 10 milliárd forint, amely rendelkezésre áll, valóban nagyon sok budapesti lakoson segít, javítva életminőségüket, és a mindennapi munkájuk során a családjuk által ott tapasztalt környezetet is. Mindezek alapján kérdezem tisztelt államtitkár urat, hogy a budapesti útépítési program keretében mekkora közútfejlesztés várható 2019-ben. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormányzó pártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-12-10-urgent_question-AC8_3973" who="#LászlóFöldi" ana="#regular"><note>FÖLDI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC8_3973.1">Köszönöm a szót, elnök úr. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! Karácsony közeledtével érdemes szólni arról, hogy ebben az időszakban mire figyeljenek fokozottabban a fogyasztók. A fogyasztóvédelemre is nagyobb feladat hárul ilyenkor, hiszen az ő kötelességük a különféle lehetséges fogyasztóvédelmi problémák minimalizálása, illetve azok megelőzése, kiszűrése. A leggyakoribb árucikkek ilyenkor a karácsonyi fényfüzérek és egyéb világító dekorációs eszközök, amiket már az ünnepeket megelőző időszakban is használnak a vásárlók akár kinti, akár benti díszítésként. De ugyanilyen fontos odafigyelni az internetes vásárlásra is. Ezen a területen komoly eredmény már, hogy a korábbi időszak 54 százalékos problémaarányát sikerült 13 százalékosra csökkenteni. Tisztelt Államtitkár Úr! A Fogyasztóvédelemi Hatóság a karácsonyt megelőző időszakban fokozottabban ellenőrzi a vásárokat, üzleteket, ajándékboltokat, a vállalkozások és a családok védelme érdekében.</seg>
+<seg xml:id="AC8_3973.2">(15.50)</seg>
+<seg xml:id="AC8_3973.3">A fogyasztóvédelmi ellenőrzések során egyebek közt vizsgálják a megfelelő ártájékoztatást, hiteles mérőeszközöket használnake és azt, hogy a vásárló kapotte blokkot a vásárláskor. A híradásokból is tudjuk, hogy az elmúlt időszakban már több száz vállalkozást ellenőriztek a Fogyasztóvédelmi Hatóság szakemberei.</seg>
+<seg xml:id="AC8_3973.4">Éppen ezért kérdezem a tisztelt államtitkár urat: hogyan értékeli az eddigi fogyasztóvédelmi ellenőrzéseket, milyen tendenciát tapasztaltak a fogyasztókat érintő jogsértések tekintetében? Karácsony előtt milyen helyszíneken terveznek további ellenőrzéseket? Milyen további intézkedéseket foganatosítanak a hatóságok a fogyasztók védelme érdekében? Tisztelettel várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-12-10-urgent_question-AC8_3982" who="#PéterÁgh" ana="#regular"><note>ÁGH PÉTER (Fidesz):</note>
+<seg xml:id="AC8_3982.1">Tisztelt Államtitkár Úr! Az európai parlamenti választásokhoz közeledve egyre jobban kirajzolódik két markáns, eltérő álláspont Európa-szerte. Az egyik a Soros eszméit valló multikulturalista, bevándorláspárti oldal, a másik a több ezer éves európai keresztény kultúra fennmaradásáért küzdő bevándorlásellenes tábor. A kérdés az, hogy bevándorlókontinenssé, ezáltal bevándorlóországgá válunk, vagy meg kívánjuk tartani magunknak, amit ezerévesnél is régebbi történelmünk során felépítettünk. Egyértelmű, hogy a májusi EP-választás sorsdöntő lesz Európa jövőjének szempontjából. Világos, hogy a következő öt év ágazati kérdéseit az fogja meghatározni, hogy meg tudjuke fékezni az illegális bevándorlást, és tudjuke kezelni a már ideérkezett több millió, azonosítatlan illegális bevándorlót. Jól látszik, hogy a Soros-hálózat brüsszeli helytartói egyre agresszívebbek. Már-már beteges módon ragaszkodnak az illegális bevándorlás további erősítéséhez. Elég, ha csak a fű alatt elfogadtatni kívánt migránsvízumra vagy a névtelen migránsbankkártyákra gondolunk.</seg>
+<seg xml:id="AC8_3982.2">A témában legutóbb a mániákusan bevándorláspárti Guy Verhofstadt ment neki a magyar embereknek és a miniszterelnöknek, csak azért, mert mi nem kívánunk bevándorlóország lenni. Az illegális migráció fenntartásáért és Soros politikájának érvényesítéséért megszállottan küzdő politikus alpári stílusában a politika trágyadombját emlegette, csak azért, mert a kormány intézkedéseinek eredményeként megvédtük hazánk és a schengeni övezet határait. Elfogadhatatlan, hogy Brüsszelből ilyen szavakkal illessék azt a nemzetet, amely kiáll Európa keresztény kultúrájának fennmaradásáért.</seg>
+<seg xml:id="AC8_3982.3">Tisztelt Államtitkár Úr! Komoly veszélyforrás Európa megmaradásának szempontjából, hogy a brüsszeli bürokraták Soros érdekeit képviselve foggal-körömmel ragaszkodnak az illegális bevándorlás fenntartásához. Fentiekre figyelemmel kérdezem, hogy milyen jövő vár Európára, ha Guy Verhofstadt és társai kerülnek hatalomra jövő májusban. Köszönöm a szót</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-12-10-urgent_question-AC8_3983" who="#SándorKovács" ana="#regular"><note>KOVÁCS SÁNDOR (Fidesz):</note>
+<seg xml:id="AC8_3983.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Államtitkár Úr! Mint mindenki előtt ismert, a közelmúltban nyílvánosságra került egy májusi, a Jobbik tisztújító kongresszusán készült hangfelvétel, amelyen a párt országgyűlési képviselője, Szávay István azzal hencegett, hogy leütött egy zsidó származású nőt egy szórakozóhelyen. A hangfelvételen egyéb, származásra vonatkozó durva kijelentéseket is tett, amelyek már önmagukban is megalapozhatják a gyűlölet bűncselekmény elkövetését. Szávay István ígérete ellenére még mindig nem adta vissza mandátumát, és a Jobbik továbbra is tagjai között tudja a politikust.A 2010-es kormányváltást megelőzően hasonló stílusú, a köznyugalmat súlyosan zavaró megnyilvánulások sokaságával találkozhattunk az országban. Emlékezzünk vissza, amikor Budapest utcáin szabadon vonulhattak olyan szervezetek, amelyek antiszemita, gyűlöletkeltő mondatokat és elveket tűztek zászlajukra.</seg>
+<seg xml:id="AC8_3983.2">A baloldali pártok által vezetett kormányok csak asszisztáltak ezekhez a cselekményekhez, de érdemi lépést nem tettek az ellen, hogy ilyen szervezetek és őket képviselő személyek ne terjeszthessék nyíltan félelemkeltő, erőszakos nézeteiket. A szocialista-liberális kormányok csődje összekovácsolta és felerősítette a szélsőséges hangokat, amelyek egyik ilyen képződménye a Jobbik volt.</seg>
+<seg xml:id="AC8_3983.3">A 2010-es választásokat követően Magyarország Kormánya minden eszközt bevetett annak érdekében, hogy visszaszorítsa a szélsőségeket. Jól látható, hogy ez sikerült, hiszen ma Magyarország a világ egyik legbiztonságosabb országa, ahol félelem nélkül élhetnek az emberek, ellentétben Európa egyes csúcsdemokráciáival, ahol mindennapossá váltak az antiszemita megnyilvánulások, a vallási és etnikai közösségek közötti feszültségek.</seg>
+<seg xml:id="AC8_3983.4">Az elhangzottakra tekintettel kérdezem tisztelt államtitkár urat: milyen intézkedéseket tett a kormány annak érdekében, hogy Magyarországon érvényesüljön a gyűlöletkeltéssel szembeni zéró tolerancia? Köszönöm megtisztelő figyelmüket</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

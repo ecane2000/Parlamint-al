@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2017-06-06" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2017-06-06 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2017-06-06 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="10" unit="speeches">10 beszéd</measure>
+        <measure xml:lang="en" quantity="10" unit="speeches">10 speeches</measure>
+        <measure xml:lang="hu" quantity="3417" unit="words">3417 szó</measure>
+        <measure xml:lang="en" quantity="3417" unit="words">3417 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2017-06-06">2017. 06. 06.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="10"/>
+          <tagUsage gi="seg" occurs="51"/>
+          <tagUsage gi="kinesic" occurs="12"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2017-06-06">2017-06-06</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2017-06-06-urgent_question-AC7_15612" who="#IstvánApáti" ana="#regular"><note>DR. APÁTI ISTVÁN (Jobbik):</note>
+<seg xml:id="AC7_15612.1">Köszönöm szépen. Tisztelt Ház! Tisztelt Miniszterelnök Úr! A korrupció elleni küzdelemnek, az elszámoltatásnak és az igazságtételnek léteznek büntetőjogi, polgári jogi és adójogi, adópolitikai eszközei. Kérdéseim ezen utóbbiakkal kapcsolatosak.</seg>
+<seg xml:id="AC7_15612.2">Ugyanis azt talán már ön sem hiszi el, hogy az adóamnesztia jelenlegi szabályai akár csak a legcsekélyebb mértékben a köz javát vagy a költségvetés érdekeit szolgálja. Ugyanis a hatályos szabályozás szerint azok a személyek, akik a tavaly június 30-áig külföldi bankszámlán összegyűjtött, ismeretlen, akár korrupciós eredetű pénzeiket, jövedelmeiket idén június 30-áig egy NAV által megjelölt banknál vezetett bankszámlaszámra átutalják, akkor 10 százalék személyi jövedelemadó megfizetésével valamennyi adófizetési kötelezettségüknek eleget tettek, és a hatóságok a továbbiakban nem firtathatják, nem vizsgálhatják ezen jövedelmek eredetét és forrását. Messzire bűzlik ez az egész szabályozás, és olyan érzése van az embernek, hogy ezt saját maguk érdekében alkották meg, éppen ezért a következő kérdések merülnek fel.</seg>
+<seg xml:id="AC7_15612.3">Tisztelt Miniszterelnök Úr! Ön érintett-e ezen szabályozás kapcsán? Ön, kormányának bármely tagja, országgyűlési képviselőik, hozzátartozói és közeli hozzátartozói körük rendelkezik-e külföldre menekített, ott parkoltatott ingó vagy ingatlan vagyonnal, ilyen jellegű bankszámlával? Végrehajtottak-e bankszámla-műveleteket vagy terveznek-e a következő három hétben? Igen vagy nem? Elég egyszerű a kérdés.</seg>
+<seg xml:id="AC7_15612.4">A másik pedig: nem gondolja-e, hogy az igazságos és az arányos közteherviselés érdekében ezt a szabályozást teljes mértékben meg kell változtatni, és az ilyen jövedelmek tulajdonosait ne kedvezményes mértékű adó hozza gyakorlatilag hihetetlenül kedvező helyzetbe, hanem kiemelt mértékű adóval kellene sújtani ezeket a jövedelmeket? Várom mellébeszélésektől mentes, érdemi válaszát. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-06-06-urgent_question-AC7_15617" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_15617.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Miniszterelnök Úr</seg>
+<kinesic type="noise"><desc>Zaj. - Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC7_15617.2">27 éve zajlott le a rendszerváltásnak vagy rendszerváltozásnak nevezett folyamat, ez hét négyéves kormányzati ciklust foglalt magába, a legutolsónak éppen az utolsó évét kezdtük meg. Ez idő alatt 8 miniszterelnök vezette a kormányt, ült a kormányfői székben, ezek közül ön volt az, aki leghosszabb ideig, most már 11 éve, illetve 12. évét kezdte meg ebben a székben. Ezért gondolom azt, meg azért is, mert az önt követő második leghosszabb ideig regnáló miniszterelnök mindössze 4,5 évet ült ebben a székben, hogy ön az, aki leginkább illetékes, ha valaki, ön az, aki tud válaszolni a kérdésemre. A kérdésem pedig a következő lenne. Nagyon jól látható az a folyamat, hogy az elmúlt 27 évben folyamatosan, ha nem is egyenletesen, de folyamatosan csökkennek az önkormányzatok lehetőségei, és csökkennek a forrásaik is. Mi ennek az oka, miniszterelnök úr?</seg>
+<seg xml:id="AC7_15617.3">Nyilván a lehetőségeit tekintve nem tudom a jogszabályi változásokat egy-két percben elmondani, és ezt értékelni, viszont azt igen - mégpedig nem is valamiféle statisztikák alapján, hanem a zárszámadási törvények alapján, tehát törvénybe foglalva -, hogy miként változott az önkormányzatok számára biztosított költségvetési forrás. 1990-ben ez a forrás a költségvetés egészéhez viszonyítva 18 százalék volt. 18 százalék! Ez mostanra 3 százalék alá csökkent, kevesebb, mint az ötödére. 18 százalékról 27 év alatt 3 százalék alá csökkent! Ez egy óriási veszteség az önkormányzatoknak, az alsóbb szinteknek, az önkormányzásnak.</seg>
+<seg xml:id="AC7_15617.4">Miniszterelnök úr, azt gondolom, hogy ez az intézkedés, ez a folyamat a társadalomban jelentős károkat okoz, és súlyos bűn. Várom válaszát, hogy mi az oka ennek</seg>
+<kinesic type="applause"><desc>Szórványos taps az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-06-06-urgent_question-AC7_15618" who="#ÁkosHadházy" ana="#regular"><note>DR. HADHÁZY ÁKOS (LMP):</note>
+<seg xml:id="AC7_15618.1">Köszönöm szépen, elnök úr. Tisztelt Miniszterelnök Úr! Rögtön az elején mondom a kérdést, hogy szokott-e ön beszélni az édesapjával, szokott-e beszélni a testvéreivel pénzügyi kérdésekről, hogy édesapám, hogy megy az üzlet, hogy állnak a bányák, mennyi a bevétel. Szokta-e esetleg mondani, hogy azért nem kéne ennyire túltolni ezeket az állami beruházásokat? Ha nem szokta, akkor segítek, mert egy újságíró megnézte ezeknek a cégeknek a bevételeit, és gyakorlatilag 2010-ben 1,9 milliárd, majd 2015-ben már 5,2 milliárd forint jött be a bányákból meg a fuvarozásból. Az osztalék 2010 és 2015 között 3,9 milliárd volt, ebből 2015-ben 2,2 milliárd forint jött be. Ez annyi pénz, amennyit egy átlagos ember ezer év alatt keres, ezer év alatt, tehát Szent Istvántól mostanáig ha valaki dolgozott, ennyit keresett volna ezen a gödrön. Szokott-e ön arról beszélni, hogy édesapám, ezért haragudni fognak, mit mondjak nekik. El tudom képzelni, hogy akkor azt mondaná, hogy fiam, azt mondjad, hogy én egy beszállító voltam, én nem az állammal üzleteltem, és akiknek beszállítottam, azok meg nyílt közbeszerzésen szerezték azt a beruházást vagy azt a megrendelést.</seg>
+<seg xml:id="AC7_15618.2">Ha gondolja, akkor elmondom, hogy ez nem egy jó érvelés, mert a nyílt közbeszerzéseket nagyon egyszerű kijátszani. Az ön tisztelt veje például úgy játszotta ki, hogy olyan referenciákat írtak ki a városok, amelyekre csak ő volt alkalmas. Hódmezővásárhelyen bárki indulhatott, utána viszont már az összes többi városban úgy írták ki, hogy csak az ő cége indulhatott volna.</seg>
+<seg xml:id="AC7_15618.3">Nagyon sokat szoktam azon gondolkodni, hogy hogy meri ön ezeket megcsinálni, hogy meri ön ezt a történelmi szintű csalássorozatot tulajdonképpen engedni, hogy meri azt mondani, hogy Farkas Flórián megmarad itt úgy, hogy közben 1,6 milliárd forintot elvittek valahova valakik az ő vezetésével. Azt gondolom, azért meri, mert Kádár Jánosra ránézet</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC7_15618.4">, és ő is nagyon sokáig húzta, de azért itt lesznek különbségek. Köszönöm szépen. A kérdés tehát, hogy az édesapjával beszélt-e erről.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-06-06-urgent_question-AC7_15621" who="#AttilaMesterházy" ana="#regular"><note>MESTERHÁZY ATTILA (MSZP):</note>
+<seg xml:id="AC7_15621.1">Nagyon szépen köszönöm. Tisztelt Elnök Úr! Tisztelt Ház! Ma elnök urat nem a korábbi konspirációelméleteiről szeretném kérdezni, amikor éppen a kormányt mentette meg az amerikaiaktól, sőt nem is a bankpánikról, amit fantasztikusan elhárított, hanem valóban egy új kihívásról, ami látszik, hogy az új feladata volt elnök úrnak az elmúlt pár évben, ez pedig az MKB privatizációja. Ma világosan látszik már, hogy ez a folyamat nem szólt másról, mint hogy az állam megmentett egy bankot, majd ezt a bankot átjátszották a fideszeseknek, és ezt nagyjából az alapján a recept alapján tették természetesen, hogy mindezt közpénzből kellett megcsinálni, mindezt a legnagyobb titkolózás mentén, és az is világos, hogy leginkább átláthatatlan módon. De a végeredmény az, hogy ezt ön vezényelte le, ezért önhöz kell feltennem ezeket a kérdéseket, és az is világos, hogy létrehozták a Fidesznek a bankját.</seg>
+<seg xml:id="AC7_15621.2">Ennek a banknak két tulajdonosa van a Fidesz részéről strómanokon keresztül: az egyik ön, a másik pedig a miniszterelnök. Innen kezdve önhöz kell hogy intézzem a kérdésemet, hiszen önnek a fia, Balogh Ádám, a bizalmasa, Szemerei úr, aki az unokatestvére, és Orbán úr részéről pedig Mészáros Lőrinc az, aki tulajdonolja ezt a bankot. Ezért kérdezném az elnök urat - itt miniszterelnök úr viccelt az előbb a kommunistákkal, akkor önt kérdezném, mint az MSZMP egyik volt büszke tagjá</seg>
+<seg xml:id="AC7_15621.3">(Derültség az MSZP soraiból.)</seg>
+<seg xml:id="AC7_15621.4">-, hogy véget ért-e ez a folyamat, tehát meg akarják-e a továbbiakban venni a Takarékbankot, a Szeremley bankját, a Gránitbankot, a MagNet Bankot, tehát akarják-e tovább hizlalni a Fidesz saját házi bankját, és hogy vajon mi a cél. Az-e a cél ezzel, hogy még átláthatatlanabb módon lehessen pénzeket adni fideszes vállalkozóknak? Nem piaci alapon természetesen, és az üzleti titoktartás mellett, hiszen így lenne értelme annak, hogy megszereznek egy ilyen komoly bankot Magyarországon, és innen kezdve nem az Eximnek, nem az MKB-nak vagy éppen a különböző költségvetésből kell finanszírozni ezeket a fideszes vállalkozókat.</seg>
+<seg xml:id="AC7_15621.5">És az utolsó kérdés, üröm az örömben: távozik-e ennek a fantasztikus nagy banknak az éléről? Mert ha már ellopták a bankot, ennyi hasznunk legyen, a magyar adófizetőknek, hogy ön eltűnik a jegybank éléről. Köszönöm szépen a figyelmet</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-06-06-urgent_question-AC7_15860" who="#GáborVona" ana="#regular"><note>VONA GÁBOR (Jobbik):</note>
+<seg xml:id="AC7_15860.1">Tisztelt Miniszterelnök Úr! Az Európai Bizottság három héttel ezelőtt elfogadta a Jobbik kezdeményezését a bérunióról, úgyhogy megkezdődhet az aláírásgyűjtés. Mi többször kérdeztük már önt erről a kérdésről, és mindig azt mondta, hogy ne forduljunk Brüsszelhez, ne várjunk onnan segítséget, ne adjunk pluszjogokat az Európai Bizottságnak.</seg>
+<seg xml:id="AC7_15860.2">Az a helyzet, miniszterelnök úr, hogy ez a kezdeményezés nem erről szól. Mi ilyet nem mondtunk, ön nem olvasta el ezt a kezdeményezést mind a mai napig. Ez ugyanis arról szól, hogy az „egyenlő munkáért egyenlő bért” elvet ültessük be az Európai Unió működésének alapelvei közé, hogy egy olyan szolidáris, szociális és igazságos Európai Uniót építsünk, ahol mindenki a szülőföldjén tud boldogulni, ahol a személyek szabad áramlása jog, és nem pedig kényszer, mint amilyen most.</seg>
+<seg xml:id="AC7_15860.3">Az Európai Bizottság elismerte ennek a felvetésnek a legitimitását, jogilag is, gazdaságilag is megalapozottnak találta, tehát elkezdődhet az európai népszavazás vagy a hivatalosabb nevén az európai polgári kezdeményezés. Ez egy történelmi jelentőségű fordulópont, egy új időszámítás kezdete, miniszterelnök úr. Önnek is lehetőség arra, hogy a saját pozícióját újragondolja, hiszen szaván fogtuk az Európai Uniót, egész Kelet-Közép-Európát összefogtuk egy jó ügy mögé, és önnek is itt a lehetőség, hogy átgondolja, hogyan is álljon ehhez a javaslathoz.</seg>
+<seg xml:id="AC7_15860.4">Én tudom azt, miniszterelnök úr, hogy ön nagyon nehezen viseli, hogyha másnak van igaza, azt is tudom, hogy nem szokása az, hogyha más kezdeményezését kell támogatni, vagy nem szereti az ilyeneket, mégis erre kérem, hogy vegyen erőt magán, miniszterelnök úr, és ne háborúzzon tovább. Tízből kilenc háborúnak, amit ön kezdeményez, miniszterelnök úr, semmi értelme.</seg>
+<seg xml:id="AC7_15860.5">A magyar embereknek ebből már nagyon elege van, a magyar emberek valójában nyugodt, közös, békés országépítésre várnak, és nem rögeszméktől vezérelt háborúskodásra.</seg>
+<seg xml:id="AC7_15860.6">A magyar embereknek erre van szükségük, és én tudom, hogy mi nagyon sok dologban nem értünk egyet, sőt a választások felé közeledve még több dologban nem fogunk egyetérteni, de miniszterelnök úr, jöjjön ki a kis világából és vegye észre, hogy ez most más.</seg>
+<seg xml:id="AC7_15860.7">Ez egy nemzeti ügy. Ha ön államférfi, akkor nem teheti meg, hogy ezt a kezdeményezést nem támogatja, ezért kérem, hogy támogassa, vagy akár úgy is megfogalmazhatnám a kérdést, hogy mi önnek a fontosabb, miniszterelnök úr: a magyar embereknek a bére vagy Habony Árpádnak a krokodilbőr táskája? Köszönöm a válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-06-06-urgent_question-AC7_15970" who="#PéterCsizi" ana="#regular"><note>CSIZI PÉTER (Fidesz):</note>
+<seg xml:id="AC7_15970.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! A ma délutáni vitanapon még sokszor föl fogjuk majd tenni magunknak azt a kérdést, hogy mennyire hihetjük el, hogy visszaállítja a 13. havi nyugdíjat az a Botka László, aki egyébként korábban országgyűlési képviselőként mindent megszavazott, ami a nyugdíjasok kárára volt. Most egyébként azt szeretnénk megtudni, hogy mit titkol a szocialisták miniszterelnök-jelöltje, hiszen egyre több kérdést vet fel Szeged polgármestere vagyonnyilatkozatának a folyamatos javítgatása, toldozgatása-foldozgatása, nyilvánosságra kerülése</seg>
+<kinesic type="noise"><desc>Közbeszólások az MSZP soraiban. - Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC7_15970.2">Luxusterepjárók, tóparti házak, méregdrága karórák, és ki tudja, hogy még mik derülnek ki majd az elkövetkezendő napokban és hónapokban Botka László vagyona körül</seg>
+<seg xml:id="AC7_15970.3">(Dr. Szakács László: Na, mit tud a belügy Botkáról? - Gőgös Zoltán: Titkos adatgyűjtés van?)</seg>
+<seg xml:id="AC7_15970.4">Botka László vagyona, azt is mondhatjuk, hogy szinte úgy változik, mint az időjárás: napról napra, hol ilyen, hol olyan. „Rolex Laci” - ahogy állítólag most már a szocialisták maguk közt is hívják - nem akar színt vallani vagyonát illetően, hiszen hiába szerette volna megtudni a szegedi Fidesz, hogy az eltitkolt tóparti telek, a felesége nevére kiállított, de üzemben tartott, méregdrága luxusterepjárón és karórán kívül van-e még más vagyona Botka Lászlónak, ezt az MSZP és a DK megakadályozta.</seg>
+<seg xml:id="AC7_15970.5">(13.50)</seg>
+<seg xml:id="AC7_15970.6">Bár a választási együttműködés még kérdéses, bár a kirakatban nagyon látványos az egyet nem értés Gyurcsány Ferenccel, mégis, amikor a baloldalnak a múltjáról, Botka László vagyonáról van szó, hirtelen összezárnak a szocialisták és a DK-sok. Egyből felmerül a kérdés, mi lehet az oka, hogy a szocialista és a DK-s képviselők nem szeretnék megmutatni a nagyvilágnak, hogy milyen valós vagyona van a szocialisták miniszterelnök-jelöltjének.</seg>
+<seg xml:id="AC7_15970.7">Tisztelt Államtitkár Úr! Mikor derülhet rá fény, hogy mit rejt a Botka-vagyon valójában, milyen jogi vagy egyéb eljárás kezdeményezéseire lehetne végre az igazságot kideríteni</seg>
+<kinesic type="applause"><desc>Gőgös Zoltán: Ebben a témában Rogán rutinosabb. - Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-06-06-urgent_question-AC7_15971" who="#LászlóSalacz" ana="#regular"><note>DR. SALACZ LÁSZLÓ (Fidesz):</note>
+<seg xml:id="AC7_15971.1">Tisztelt Államtitkár Úr! Elsöprő többséggel szavazták meg az Európai Parlament képviselői 2017. június 1-jén Kovács Béla jobbikos európai parlamenti képviselő mentelmi jogának felfüggesztését egy újabb ügyben. Úgy tudom, hogy Kovács Béla védettségének felfüggesztését Polt Péter legfőbb ügyész tavaly szeptemberben indítványozta, miután az Unió Csalás Elleni Hivatalától, az OLAF-tól érkezett jelzés alapján kiderült, hogy a jobbikos képviselő költségvetési csalást és magánokirat-hamisítást követhetett el. A politikus a gyanú szerint 2012-13-ban gyakornoki szerződést kötött négy magánszeméllyel. Ennek alapján ezek a személyek Brüsszelben négy és hat hónapos szakmai gyakorlatot teljesítettek, valójában azonban soha nem jártak ott, és semmilyen munkát nem végeztek.</seg>
+<seg xml:id="AC7_15971.2">A helyzetet súlyosbítja, hogy a jobbikos EP-képviselő két alkalommal sem jelent meg azokon a meghallgatásokon, amelyeken tisztázhatta volna a vele szemben felmerült vádakat. Ráadásul Kovács Bélának már másodjára függesztették fel a mentelmi jogát Brüsszelben. Legutóbb az Alkotmányvédelmi Hivatal 2014 áprilisában tett feljelentést, miután a politikus egy jelenleg is aktív, egykori KGB-ügynökkel kapcsolatos nyomozás során a titkosszolgálat látókörébe került, mert konspiratív módon kapcsolatot tartott orosz diplomatákkal. A jelek szerint a Jobbik tele van korrupciós ügyekkel, és erre, úgy látszik, már az OLAF is felfigyelt.</seg>
+<seg xml:id="AC7_15971.3">Kérdezem tisztelt államtitkár urat, milyen eljárást von maga után egy EP-képviselő, jelesül Kovács Béla mentelmi jogának felfüggesztése</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-06-06-urgent_question-AC7_15972" who="#LászlóSzakács" ana="#regular"><note>DR. SZAKÁCS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_15972.1">Köszönöm a szót, elnök úr. Tisztelt Miniszterelnök Úr! Tisztelt Képviselőtársaim! 2013 januárja óta árul Magyarország úgynevezett letelepedési kötvényeket. Van ilyen másutt is a világon, hiszen másutt is, igaz, ötször-tízszer ennyi pénzért, üzleti tervért, munkateremtési kötelezettségért cserébe kaphatnak könnyített letelepedést más országoknak az állampolgárai is. Magyarország ilyeneket nem kér, pedig itt nálunk is ennek a kötvénynek a leánykori neve, hogy nemzetgazdasági szempontból kiemelt jelentőségű emberek juthatnak így könnyített úton letelepedési engedélyhez.</seg>
+<seg xml:id="AC7_15972.2">Persze, azt is kérdezhetném miniszterelnök úrtól, hogy abból a nagyjából-egészében 20 ezer főből, aki letelepedési vagy tartózkodási engedélyt kapott így Magyarországon, mondjon akár egyet közülük, akinek kiemelt nemzetgazdasági jelentősége van a magyar nemzetgazdaság szempontjából. De nem is ez itt a fő kérdés, hanem a fő kérdés, úgy gondolom, hogy az üzlet. Ez úgy derül ki, hogyha végignézzük, hogy hogyan alakult ki ez a rendszer, hogyan született meg ez a rendszer. Rogán Antal javaslatára a magyar parlament megbízta a Rogán Antal által vezetett Gazdasági bizottságot, amelyik kijelölte azokat a közreműködő szervezeteket, amelyek nem rosszul, ezzel szemben piszkosul jól keresnek ezen az üzleten. Sajtóhírek szerint egy 500 milliárd forintos üzletből nagyjából-egészében - ahogy a sajtó írja - olyan 110-130 milliárd forintot vihettek el ezek a cégek.</seg>
+<seg xml:id="AC7_15972.3">A magyaroké is lehetett volna ez a 110-130 milliárd forint, és ilyenkor persze muszáj megkérdezni, csak legutóbb az ön minisztere nem tudott erre válaszolni, ezért muszáj, hogy önnek tegyem fel a kérdést, miniszterelnök úr: miért van szükség ezekre a közvetítő cégekre, amelyek offshore cégek? Egy dolgot tudunk róluk egészen biztosan: nem Magyarországon adóznak, és nem a magyar emberek érdekében járnak el. Miért van rájuk szükség?</seg>
+<seg xml:id="AC7_15972.4">Köszönöm szépen a figyelmet</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-06-06-urgent_question-AC7_15973" who="#IstvánHollik" ana="#regular"><note>HOLLIK ISTVÁN (KDNP):</note>
+<seg xml:id="AC7_15973.1">Köszönöm szépen, elnök úr. Tisztelt Képviselőtársaim! Fél évvel ezelőtt Ózd jobbikos polgármestere, Janiczak Dávid félmeztelenre vetkőzött az irodájában. A furcsa akcióról már akkor is sejteni lehetett, hogy ez valami frappáns válasz akar lenni valamire. Mondjuk, ha a Jobbik táján egy félmeztelen fénykép küldözgetése a frappáns válasz bármire is, akkor a Jobbik elég nagy bajban van, de ez legyen az ő problémájuk.</seg>
+<seg xml:id="AC7_15973.2">Azóta kiderült, hogy egy hangfelvétel váltotta ki mindezt. Ezen a hangfelvételen sok minden hallható. Például egy újságíró megvesztegetésére történő javaslat, van benne egy kis cigányozás, és ami még ennél is talán súlyosabb, egy korrupciógyanús ügy tárgyalása. Miről is szól ez az ügy?</seg>
+<seg xml:id="AC7_15973.3">Két cég pályázott Ózd ivóvízellátásának fejlesztésére. Az egyik pályázó 40 millió forinttal drágább pályázatot adott be, a másik 40 millióval olcsóbbat. Janiczak Dávid azt szerette volna, hogy a drágább ajánlatot tevő cég nyerjen.</seg>
+<seg xml:id="AC7_15973.4">(14.10)</seg>
+<seg xml:id="AC7_15973.5">Tehát a drágább pályázatot benyújtó cég nyert, az ózdiak pedig vesztettek 40 millió forintot, ezért a Fidesz-KDNP feljelentést tett a Központi Nyomozó Főügyészségnél. Amikor mindezzel szembesítették a polgármestert, ő azt mondta, hogy ez nem korrupció, hanem kockázatelemzés.</seg>
+<seg xml:id="AC7_15973.6">Tehát ha egy jobbikos polgármester egy adott céget akar látni a pályázat győzteseként, majd a jegyzője a hangfelvételen azt mondta, hogy nyugodjon meg, ráállította az embereit az olcsóbb ajánlatot tevő cégre, hogy találjanak valamit a múltjában, amely miatt ki tudják zárni a pályázatból, az nem korrupció, hanem kockázatelemzés.</seg>
+<seg xml:id="AC7_15973.7">Államtitkár úr, ha a polgármester befolyásolni akar egy pályázatot, és ezért utasítja is a jegyzőjét, az valóban csupán kockázatelemzés lenne? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-06-06-urgent_question-AC7_15975" who="#GáborIstvánHarangozó" ana="#regular"><note>HARANGOZÓ GÁBOR ISTVÁN (MSZP):</note>
+<seg xml:id="AC7_15975.1">Köszönöm, elnök úr. Miniszterelnök-helyettes Úr! A mentőszolgálat dolgozóinak 60 százalékos béremelést ígért a kormány, de valódi béremelés helyett csak felzárkóztatták a bruttó bérüket a garantált bérminimum szintjére. Így a nettó bérük maradt ugyanaz, ami átlag 119 ezer forint</seg>
+<seg xml:id="AC7_15975.2">(Korózs Lajos: Szégyen!)</seg>
+<seg xml:id="AC7_15975.3">A döbbenetesen alacsony fizetések miatt elkeseredettségükben az utcára vonultak. Magyarországon szó szerint nyomorognak azok az emberek, akiktől baj esetén szeretteink életének megmentését várjuk.</seg>
+<seg xml:id="AC7_15975.4">Miniszterelnök-helyettes Úr! Ez szégyen! És különösen szégyen akkor, amikor miniszterelnök úr családja bányacégeiből 1200 milliárd forint osztalékot vett fel csak ebben az évben, vagy felcsúti barátja, aki sokak szerint miniszterelnök úr vagyonának kezelője, becslések szerint egyetlen év alatt százezer millió forinttal gyarapította vagyonát. Az elmúlt hónapokban, úgy láttam, az állami vezetők autóinak lecserélésére is futotta. Amint láttam, miniszterelnök úr autóján is új rendszám díszeleg.</seg>
+<seg xml:id="AC7_15975.5">Miniszterelnök-helyettes Úr! Az önök kormányzásának lényege: a fideszes elitnek mindent, a dolgozóknak csak annyit, amennyit feltétlenül muszáj. És ha reklamálnak, akkor a tiltakozó hangokat erőszakosan elfojtják. Legutóbb a Magyarországi Mentődolgozók Szövetségének vezetői ellen indítottak fegyelmit, számonkérték és megfenyegették őket, mert nyilatkozni mertek a mentőszolgálatnál fennálló problémákról. Azt ígérték nekik, hogy a hangoskodókat egyenként fogják levadászni. Néhány hete a villamosenergia-ipari szakszervezet vezetőjét rúgták ki a bértárgyalások közepén, amihez persze önöknek egyetlenegy szavuk sem volt.</seg>
+<seg xml:id="AC7_15975.6">Miniszterelnök-helyettes Úr! Hajlandók-e érdemben foglalkozni a mentődolgozók jogos követeléseivel, megkapják-e a beígért béremelést, vagy marad a megbélyegzés, a fenyegetés, ahogy teszik ezt az érdekvédőkkel, újságírókkal vagy akár az MTA kutatóival szemben, ha fel merik emelni a hangjukat az ellen, ami nem tetszik nekik? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

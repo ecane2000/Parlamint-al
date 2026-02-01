@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2017-11-20" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2017-11-20 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2017-11-20 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2791" unit="words">2791 szó</measure>
+        <measure xml:lang="en" quantity="2791" unit="words">2791 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2017-11-20">2017. 11. 20.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="46"/>
+          <tagUsage gi="kinesic" occurs="10"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2017-11-20">2017-11-20</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2017-11-20-urgent_question-AC7_18491" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_18491.1">Köszönöm, elnök úr. Tisztelt Ház! Tisztelt Miniszter Úr! A Fidesz-KDNP-kormányt nem érdekli a tudásalapú társadalom építése, és önök egyáltalán nem értik a XXI. század kihívásait, beleragadtak a XX. századba, és nem is akarnak onnét kimozdulni. Tökéletesen mutatja ezt az is, hogy milyen keveset költenek kutatásra, fejlesztésre, innovációra.</seg>
+<seg xml:id="AC7_18491.2">Nézzük csak a KSH adatait: a 2010-es hatalomra kerülésük óta az utolsó teljes évben, 2016-ban ismét mélypontot értek el a kutatás-fejlesztési ráfordítások a GDP százalékában, hiszen tavaly csupán 1,22 százalékot költöttünk erre a célra.</seg>
+<seg xml:id="AC7_18491.3">Ezen belül az állami ráfordítások valóságos zuhanást mutattak, hiszen a korábbi, szintén nevetségesen alacsony 0,4 százalék környékéről az utolsó évben 0,3 százalék közelébe sikerült lecsökkenteni a költéseket. Gyakorlatilag a vállalkozói szférán és a külföldi forrásokon múlik, hogy Magyarországon van-e valamekkora innovációs tevékenység. A kormányra nem számíthat az ország, ha megújulásról, fejlődésről, magas hozzáadott értékű munkavégzés megalapozásáról van szó.</seg>
+<seg xml:id="AC7_18491.4">(13.50)</seg>
+<seg xml:id="AC7_18491.5">Ráadásul most készül az új kutatás-fejlesztési stratégia, pontosabban a 2013-as stratégiát frissítik. Óriási hibát követnek el benne, hiszen úgy értesültünk, hogy a tervek szerint a 2020-ra előirányzott 1,8 százalékos költést is le akarják faragni, le akarják vinni másfél százalékra, be akarják betonozni, hogy a következő években ne is legyen érdemi forrásnövekedés ezen a területen. Valóban igaz mindez, miniszter úr? Nem akarnak többet költeni a kutatás-fejlesztésre, az innováció támogatására? Ennyire nem fontos Magyarország megújulása, versenyképessége, a kreativitás és a tudás támogatása? Várom válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-11-20-urgent_question-AC7_18492" who="#R.BenedekSallai" ana="#regular"><note>SALLAI R. BENEDEK (LMP):</note>
+<seg xml:id="AC7_18492.1">Köszönöm. Érdeklődéssel hallgattam az előző azonnali kérdést, azt, hogy sportnagyhatalom leszünk. Az én kérdésem nyilvánvalóan inkább arra fog irányulni, hogy mikor leszünk oktatási nagyhatalom, ha már arra nincs válaszuk, hogy mikor leszünk környezetvédelmi vagy egészségügyi nagyhatalom. Jelenleg be kell érnünk azzal, hogy olyan focinagyhatalom vagyunk, amiről keveset kérdeznek itt kormánypárti képviselőtársaim, és más területekre viszik el a sport ügyét. Viszont ezen nagyhatalmasságok mellett még egy dologban vagyunk nagyhatalom, az államosításban. Ez sajnos az oktatási rendszert is elérte a közszféra mellett, és a Fidesz-KDNP-kormány a totális államosításával elérte azt, hogy az önkormányzatoknak egyre kevesebb legyen az a tér és lehetőség, ahol önkormányzati jogaikkal élve hatással tudnak lenni az oktatási rendszerükre.</seg>
+<seg xml:id="AC7_18492.2">A Lehet Más a Politika jó ideje hangoztatja, hogy minden 100 forintból 20 forintot oktatásra költene, éppen ezért minden olyan településnek, amelyik ezt kéri és amelyik képes oktatási intézményeket fenntartani, visszaadná az iskoláit a megfelelő forrásokkal együtt.</seg>
+<seg xml:id="AC7_18492.3">Kikötnénk, hogy iskolákat nem lehet bezárni; ha a helyi önkormányzat meg akarja tartani az iskoláját, ahhoz minden segítséget meg kell adni, egy iskola megmaradásán ugyanis az egész település jövője múlhat, mert ez nem csupán oktatáspolitikai, hanem településvédelmi és vidékfejlesztési kérdés is, hiszen ahol megszűnik az óvoda, megszűnik az iskola, ott egy idő után eltűnik a település.</seg>
+<seg xml:id="AC7_18492.4">Az esélyek kiegyenlítésére, az oktatás hatékonyságára vagy a szegregáció felszámolására vonatkozóan is kérhetünk adatokat, hogy miben segített az iskolák államosítása, hiszen szemlátomást úgy tűnik, hogy korábban a 2003-tól dívó modellben túlságosan nagy súly nehezedett az önkormányzatokra, és mindent letolt magáról a kormányzat. Viszont most úgy tűnik, hogy a Szalay utcában dől el minden, és az önkormányzatoknak, az oktatási intézményeknek semmire nincs hatásuk, semmibe nincs beleszólásuk, és ez nyilvánvalóan érződik mindazon oktatáspolitikai kérdéseken, amiket a mai nap folyamán egész nap feszegetünk.</seg>
+<seg xml:id="AC7_18492.5">Kérdezem tehát, hogy mikor adják vissza az iskolákat a településeknek, mi lesz a kistelepülési iskolákkal, mi lesz a kisfalvak iskoláival, mikor várható, hogy ez a tendencia megfordul. Erre várom tisztelettel a válaszukat. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-11-20-urgent_question-AC7_18493" who="#AttilaTilki" ana="#regular"><note>DR. TILKI ATTILA (Fidesz):</note>
+<seg xml:id="AC7_18493.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Komolyan vehető politikus ma már talán nem vitatja, hogy a bevándorlási válság a legsúlyosabb kihívás, amivel az Európai Uniónak a megalakulása óta szembe kell néznie. Sajnos az is világos, hogy a brüsszeli bürokraták még mindig nem értik azt, hogy az európaiak nem akarnak évente százezerszámra bevándorlókat fogadni és eltartani.</seg>
+<seg xml:id="AC7_18493.2">A társadalmi feszültségek mellett a bevándorlás ugyanakkor nagyon komoly biztonsági kockázatot is jelent. Az elmúlt két évben több mint húsz terrortámadás történt Európában, amelyek mögött minden esetben, kivétel nélkül első- vagy másodikgenerációs bevándorlók álltak.</seg>
+<seg xml:id="AC7_18493.3">Az, hogy a nemzetközi koalíció a közelmúltban jelentős sikereket ért el az Iszlám Állam nevű barbár terrorszervezet ellen, felszabadítva az általa korábban birtokolt területek közel 90 százalékát, csak tovább fokozza ezt a veszélyt. A terroristák nem tudnak tovább harcolni, menniük kell, és hova máshova menekülnének, mint Európába, ahol tárt karokkal fogadják őket. A Soros-terv felelőtlen brüsszeli támogatása épp ezeket a terroristákat is a nyakunkra hozza.</seg>
+<seg xml:id="AC7_18493.4">Tisztelt Államtitkár Úr! A helyzet minden korábbinál veszélyesebb. Ha az Unió nem tesz végre eredményes lépéseket határai megvédése érdekében, Európa maradék biztonsága is romba dőlhet, és félő, hogy a közeljövő híradásai újabb európai terrorista merényletekről és újabb ártatlan áldozatokról fognak szólni</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-11-20-urgent_question-AC7_18494" who="#MónikaDunai" ana="#regular"><note>DUNAI MÓNIKA (Fidesz):</note>
+<seg xml:id="AC7_18494.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A Fidesz és a KDNP politikájában mindig is a gyermek az első. A Fidesz-KDNP-kormányzás eredményeképpen országszerte 208 ezer rászoruló gyermek részesülhet az iskolai szünetekben is napi egyszeri ingyenes étkezésben, amennyiben a szülei igénylik azt. A szünidei gyermekétkeztetés költségeire az idén közel 6,7 milliárd forintot különítettünk el, ami közel háromszorosa a 2010-ben nyári gyermekétkeztetésre fordított támogatásnak. Soha annyi gyermek nem részesült ingyenes gyermekétkeztetésben, mint manapság. Azzal együtt, hogy Magyarországon minden hátrányos helyzetű gyermek számára biztosított az ingyenes étkeztetés, arra is odafigyelünk, hogy az minőségi legyen. Az egy napra jutó ételadagok anyagi támogatását megnöveltük közel 50 százalékkal, így egy gyermek egynapi szünidei étkeztetésére fordított összeg 370 forintról 570 forintra emelkedett. Örvendetes az is, hogy az óvodás és iskolás gyermekeken kívül a háromévesnél fiatalabb rászoruló gyermekeket is támogatni tudjuk.</seg>
+<seg xml:id="AC7_18494.2">(14.30)</seg>
+<seg xml:id="AC7_18494.3">A már több hónapja tartó élelmiszercsomag-osztás a rászoruló személyeket támogató operatív program keretében zajlik. A programnak köszönhetően olyan gyermekeket segítünk, akik rendszeres gyermekvédelmi kedvezményben részesülnek, és nem járnak bölcsődébe, hátrányos körülmények között élnek. Az ilyen gyermekeket nevelő családok minden hónapban egy 8 ezer forint értékű csomagot kapnak.</seg>
+<seg xml:id="AC7_18494.4">Tisztelt Államtitkár Úr! Kérdezem, hogy mik a tapasztalatok ezzel kapcsolatban, mennyi embernek segítettünk ennek a programnak a keretében, és várható-e a program további folytatása. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-11-20-urgent_question-AC7_18495" who="#GergelyGaal" ana="#regular"><note>GAAL GERGELY (KDNP):</note>
+<seg xml:id="AC7_18495.1">Tisztelt Államtitkár Asszony! Az idei évben hazánk számos alkalommal adott otthont kiemelkedő nemzetközi sporteseményeknek. Büszkék lehetünk rá, hogy mi rendezhettük meg a labdarúgó-világbajnokság és az olimpia után legnézettebbnek számító világversenyt, a FINA 2017. évi vizes világbajnokságot. Soha nem látott eseménynek voltunk tanúi, hiszen a vizes világbajnokság Magyarország történetének legnagyobb sporteseménye volt, amelynek nyitó előadása egyébként éppen a napokban kapott nemzetközi díjat két kategóriában is.</seg>
+<seg xml:id="AC7_18495.2">A sikeres megrendezéssel bizonyítottuk, hogy két év alatt a semmiből képesek voltunk megépíteni a világ harmadik legnagyobb sporteseményének megrendezéséhez szükséges infrastruktúrát. Sportolóink a hazai pályán bizonyíthattak, és a sikerek nem is maradtak el. Itthon szurkolhattunk többek között Hosszú Katinkának, Cseh Lászlónak, Verrasztó Dávidnak, a női és a férfi vízilabda-válogatottnak. Kilencedikek lettünk a világbajnokság összesített éremtáblázatán. Sikerünk tovább erősítette sportnagyhatalmi státuszunkat.</seg>
+<seg xml:id="AC7_18495.3">Tisztelt Államtitkár Asszony! Sikereinkkel nem elégedhetünk meg, gondolnunk kell a jövőre is. A nemzetközi tapasztalatok azt mutatják, hogy az infrastrukturális fejlesztések mellett a sportolók felkészülésében egyre nagyobb szerep jut a táplálkozástudománynak. Természetesen fontos hangsúlyozni, hogy a legális teljesítményfokozókról beszélünk, mert sajnálatos tény az, amit a nemzetközi tapasztalatok mutatnak, miszerint az étrend-kiegészítőkben a tiltott teljesítményfokozó anyagok mennyisége 10-15 százalékra tehető. Sportolóink érdekében kérdezem tisztelt államtitkár asszonyt, hogyan segíti a kormány sportolóink felkészülését. Hazánk lépést tud-e tartani a fejlődéssel a táplálkozástudomány területén? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-11-20-urgent_question-AC7_18497" who="#TamásHarangozó" ana="#regular"><note>DR. HARANGOZÓ TAMÁS (MSZP):</note>
+<seg xml:id="AC7_18497.1">Köszönöm a szót, elnök úr. Miniszter Úr! Én idén minden minisztertől kikértem a 2010-2016 között a miniszter egyedi döntési jogkörében megítélt pályázatok listáját.</seg>
+<seg xml:id="AC7_18497.2">Az ön tárcája, illetve ön, ha elsőre nem is, második kérésre, felszólításra és a közérdekűadat-igénylés elküldése után megküldte számomra ezeket a táblázatokat. Van néhány furcsa dolog ezzel az üggyel kapcsolatban, amit itt szerettem volna a parlament előtt is tisztázni önnel. Kezdjük mindjárt az elején!</seg>
+<seg xml:id="AC7_18497.3">Ez az a lista, amit ön elküldött nekem postán is</seg>
+<seg xml:id="AC7_18497.4">(Felmutatja a dokumentumot.)</seg>
+<seg xml:id="AC7_18497.5">Itt lehet látni. Ez minimum több mint 1500 megítélt pályázat, amelyekről ezek szerint - az ön bevallása szerint - ön személyesen döntött minden egyes ügyben.</seg>
+<seg xml:id="AC7_18497.6">A másik érdekesség ebben a kérdésben, hogy átbogarászva néhány furcsaságot lehet találni bennük, mint például egy hagyományőrző íjász egyesületnek 3 millió forint a Hadjárat-projekt előkészítésére - remélem, belügyminiszter kollégájával ezt egyeztette előtte -; vagy éppen egy gazdakörnek 1 millió forint, a pályázat megnevezése: három rendezvény. Vagy éppen böllérversenyre 1,5 millió; ugyanazoknak nemzetközi böllérversenyre 3 millió forint. De az sem semmi, hogy a „vidéki közösségfejlesztés, retorikai képességek fejlesztésére” közel 5 millió forintot ítélt meg.</seg>
+<seg xml:id="AC7_18497.7">De a legfurcsább az egész ügyben - és nagyon hosszan sorolhatnám még ezeket a furcsaságokat -, hogy én tíz pályázatot kikértem öntől, hogy részletesen számoljon el velük, de tíz pályázatból egyről tudott nekem elszámolást adni, a többire a tárcája azt írta, hogy nem rendelkeznek adattal a minisztériumban ezen pályázatok elszámolásával kapcsolatban.</seg>
+<seg xml:id="AC7_18497.8">Miniszter Úr! Kérem, hogy ne jogászkodjon! Ön írta le és küldte el nekem, hogy ezt a több mint 1500 pályázatot ön a minisztériumban döntötte el. Elfogadhatatlan számomra, hogy ezek után az ön minisztériumában ezekről a pályázatokról semmilyen elszámolás nincsen. Kérem akkor, mondja el, hogy a maradék kilenc pályázattal ki tud elszámolni, ha ön nem. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-11-20-urgent_question-AC7_18498" who="#ZsoltLegény" ana="#regular"><note>DR. LEGÉNY ZSOLT (MSZP):</note>
+<seg xml:id="AC7_18498.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Szűkebb hazámban, Szabolcs-Szatmár-Bereg megye 3. választókerületében van egy település, Demecser városa, ahol egészen érdekes dolgok történtek és történnek a mindennapokban. Ezen a településen nem olyan régen volt egy időközi választás, hiszen a polgármester és a képviselő-testület nem tudott együtt dolgozni. Akkor egy új testület állt fel. Természetesen polgármestert is választottak. A polgármester maradt a régi, a testületi tagok újak lettek, nagyrészt fideszes önkormányzati képviselők a Fidesz színeiben.</seg>
+<seg xml:id="AC7_18498.2">És egészen furcsa dolgok történnek most is Demecserben. Jelesül röviden annyi történt, hogy az önkormányzat képviselő-testülete a jegyző kezdeményezésére a polgármestert, mondjuk úgy, hogy felfüggesztette tisztségéből, egy vizsgálat lefolytatására pedig egy bizottságot hozott létre, és 30 nap alatt ezt a vizsgálatot le kell folytatni.</seg>
+<seg xml:id="AC7_18498.3">Ha felülnénk a felületes szóbeszédeknek és pletykáknak, akkor természetesen nem járnánk el jól, hiszen az ártatlanság vélelme megillet mindenkit, azonban több van annál, mint szóbeszédek és pletykák sorozatáról, többről van szó. Szó van itt a polgármester által elkövetett visszaélésekről, amelyek folyamatosan zajlottak talán: 50 milliós tétel, 3 milliós tétel, 5 milliós tétel, és a jegyző ezzel kapcsolatosan talán feljelentést is tett a bűnüldöző hatóságoknál. Azonban, ahogyan említettem, ez állítólag folyamatosan zajlott az elmúlt időszakban.</seg>
+<seg xml:id="AC7_18498.4">Éppen ezért azt szeretném kérdezni, hogy önök mint a Miniszterelnökséget vezető minisztériu</seg>
+<seg xml:id="AC7_18498.5">(sic!)</seg>
+<seg xml:id="AC7_18498.6">, akihez tartoznak a régi megyei közigazgatási hivatalok, akik már beolvadtak a kormányhivatalokba, akik az önkormányzatok törvényességi felügyeletét látják el, hogyan felügyelik a megyei kormányhivatalokat, ha a kormányhivatalok nem tudják ezt a törvényességi felügyeletet ellátni, és engedik, hogy ilyen, folyamatosan elkövetet</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_18498.7">törvénysértések zajlódjanak le akármelyik önkormányzatnál. Köszönöm, elnök úr</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-11-20-urgent_question-AC7_18500" who="#GyörgySzilágyi" ana="#regular"><note>SZILÁGYI GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_18500.1">Köszönöm szépen a szót, elnök úr. Tisztelt Képviselőtársaim! A fideszes média, élén az Orbán Viktor bizalmasának számító Habony Árpád által irányított szennylapokkal, régi, többéves jobbikos nyilatkozatokkal támadjak a Jobbik képviselőit. Úgy gondoltam, ha már ennyire szeret a múltba révedni a miniszterelnök úr strómanjain keresztül, akkor beszéljünk egy kicsit Orbán Viktor politikai múltjának pár mozzanatáról.</seg>
+<seg xml:id="AC7_18500.2">Tartja-e még a régi meggyőződését Orbán Viktor és a Fidesz, például azt, hogy megvesztegethetetlen liberálisként és fiatalos hévvel hagyták faképnél a trianoni békediktátumra egyperces néma felállással érkez</seg>
+<seg xml:id="AC7_18500.3">(sic!)</seg>
+<seg xml:id="AC7_18500.4">honatyákat? Vagy ma is suttogják-e még titkokban, hogy „csuhások térdre, imához!”, amikor egy KDNP-s képviselő szót kér, hiszen régen ezt fennhangon tették itt a parlamentben?</seg>
+<seg xml:id="AC7_18500.5">Vagy mit szól ma miniszterelnök úr és a Fidesz ahhoz a jegyzőkönyvrészlethez, amit most idézni fogok? Andrásfalvy Bertalan, volt művelődési és közoktatási miniszter, aki a következőket mondta itt az Országgyűlésben: „Hadd tegyem hozzá, hogy amikor a kereszténydemokrata oldalról valamilyen vallásos vagy az egyházzal kapcsolatos megnyilvánulás hangzik el, akkor itt mögöttem a frakcióvezető elkiáltja: imához, vagy énekeljük el a Himnuszt. Ezek lehetnek számára humor, de ezek azok az alkotmánysértő dolgok, amikor valakit meggyőződése és értéke szerint gúnyolunk.” A miniszter mögött ülő frakcióvezetőt úgy hívták, Orbán Viktor.</seg>
+<kinesic type="applause"><desc>Esetleg mi a véleménye egy másik jegyzőkönyvrészletről? Az MDF-es Bogdán Emil felszólalása után: „Taps az MDF soraiban. - Dr. Orbán Viktor: Remélem, a kereszténydemokraták tapsolnak! Jézus Krisztus nevében tapsot kérek!” Ez szintén Orbán Viktor volt.</desc></kinesic>
+<seg xml:id="AC7_18500.6">Ön szerint melyik Orbán Viktor igazi arca: a Soros-pénzen tanult liberálisé, aki az elmúlt 27 év legmagasabb rangú liberális politikusa hazánkban? Hiszen ő volt az, aki a Liberális Internacionálé alelnöke és a Liberális Internacionálé végrehajtó bizottságának is a tagja volt. Melyik a Fidesz igazi arca, és vajon melyik az önök igazi értékrendje ebben az országban? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban. - Dr. Völner Pál közbeszól.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-11-20-urgent_question-AC7_18501" who="#JánosVolner" ana="#regular"><note>VOLNER JÁNOS (Jobbik):</note>
+<seg xml:id="AC7_18501.1">Köszönöm szépen. Tisztelt Államtitkár Úr! Egyszer Lázár Jánosnál már rákérdeztem arra, hogy azok a nagykőrösi családok, akik befizették a csatornázási költségnek az önrészét, majd pedig a lakosok engedélye nélkül a polgármesterük, a saját polgármesterük másra fordította ezt az összeget, amikor később aztán kiderült, hogy önrészt nyert el a város közösségi forrásból, mikor kapják vissza ezek az emberek a pénzüket. A kérdés már csak azért is égető, mert részint elkezdődött ennek a pénznek a kifizetése, sokakat azonban úgy tájékoztattak, hogy nem kapják vissza a pénzüket. Sokan pedig nem az eredeti összeget kapják vissza, mint amennyit befizettek, hanem annál kevesebbet.</seg>
+<seg xml:id="AC7_18501.2">Azért indokolt ez a kérdés, mert olyan emberekről van szó, akiknek 200 ezer forintot meghaladó önrész befizetése nagyon sokszor csak úgy sikerült, hogy eladósították a saját családjukat, kispénzű, nagyon sokszor szerény körülmények között élő emberekről van szó. Sajnos, nemcsak nagykőrösi egyébként ez a probléma, hiszen például Tápiószele környékén vagy éppen Nagybajomban hasonló problémákkal küzdenek. Ott sem fizetik vissza az embereknek az önrészt, amit korábban befizettek.</seg>
+<seg xml:id="AC7_18501.3">Kérdezem, államtitkár úr - Lázár János miniszter úr ígéretet tett arra, hogy mindenki maradéktalanul meg fogja kapni ezt az önrészt, és minden nagykőrösi lakosnak ingyen lesz a csatornaberuházás, hiszen elnyerte erre a város a közösségi forrásból származó pénzt -, nos, kérdezem, államtitkár úr, hogy mi a helyzet ezzel, mert azóta hónapok teltek el. Még egyszer: van, aki egyáltalán nem lett kifizetve. Nagyon sokan nem kapták meg a pénzt, csak részben.</seg>
+<seg xml:id="AC7_18501.4">Mi lesz ezekkel az emberekkel? Én képviselni szeretném ezeknek az embereknek az érdekét, és fontosnak tartom azt is elmondani, hogy egy képviselő nem a protokolleseményeken képviseli az emberek érdekét, hanem akkor, amikor erre valóban szükség van. Én most ezt teszem. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2018-06-25" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2018-06-25 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2018-06-25 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="17" unit="speeches">17 beszéd</measure>
+        <measure xml:lang="en" quantity="17" unit="speeches">17 speeches</measure>
+        <measure xml:lang="hu" quantity="6112" unit="words">6112 szó</measure>
+        <measure xml:lang="en" quantity="6112" unit="words">6112 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2018-06-25">2018. 06. 25.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="17"/>
+          <tagUsage gi="seg" occurs="95"/>
+          <tagUsage gi="kinesic" occurs="20"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2018-06-25">2018-06-25</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2018-06-25-interpellation-IC8_41" who="#LászlóVarju" ana="#regular"><note>VARJU LÁSZLÓ (DK):</note>
+<seg xml:id="IC8_41.1">Elnök Úr! Tisztelt Ház! Tisztelt Államtitkár Úr! Megértve az újpesti választópolgárok akaratát, szeretném újra és újra felhívni olyan témában a figyelmüket, amely sok ezer ember aláírásával támogatva jelzi azt, hogy önöknek milyen feladatuk van, illetve milyen hiányosság van, amit önöknek pótolni kellene. Ez pedig az, hogy a Magyar Köztársaság és az Ukrán Köztársaság megörökölt jogelődeitől, a Magyar Népköztársaságtól és a Szovjetuniótól egy 1962-ben kötött egyezményt, amely a két ország polgárainak kölcsönös szociális ellátásáról jött létre. Ez az egyezmény vált alapjává az ukrán nyugdíjbiznisznek; ilyen néven vált ismertté az a csalássorozat, amelynek keretében ukrán állampolgároknak a magyar nyugdíjkassza folyósított Ukrajnában, fizetett sokszorosan meghaladó nyugdíjat. Hosszú időn át csak pár százan éltek a lehetőséggel, jórészt olyan kárpátaljai magyarok, akik csakugyan át is települtek Magyarországra, és ennek megfelelően jártak el. A Gyurcsány- és a Bajnai-kormány letárgyalta és előkészítette ennek az egyezménynek a felmondását, önök azonban a 2010-es kormányra kerülésük óta sem igyekeznek megszabadítani ettől a magyar költségvetést, és ezt a terhet nem igyekeznek megszüntetni.</seg>
+<seg xml:id="IC8_41.2">Éppen azért, mivel ez a kérdéskör, ez a problémakör az általunk folytatott levelezésben is már régóta ismert, újra és újra fel kell tennem azokat a kérdéseket, amelyek e tárgykörben felmerülnek. Miért mulasztották el felmondani az egyezményt? Az egyezmény alapján ma havonta hány embernek összesen mennyi nyugdíjat folyósít a magyar állam? Miért nem tűnt fel önöknek, hogy 2011 óta ugrásszerűen növekedésnek indult az egyezmény alapján magyar nyugdíjat igénylő ukrán állampolgárok száma? Életszerűnek tartották-e, hogy az ukrán határ menti pár száz fős kistelepülések lakossága néhány év alatt két-háromszorosára növekedett? Elképzelhetőnek tartották-e, hogy ekkora falvakban olyan lakóépületek legyenek, amelyekben 100-150-200 ember életvitelszerűen lakhat, ahogyan ez a lakcímnyilvántartásból kiderül? Hány eljárás indult eddig egy megvalósított közokirat-hamisítás gyanújával?</seg>
+<seg xml:id="IC8_41.3">A fiktív magyarországi lakcím választójogot biztosított a tulajdonosoknak a 2014-es önkormányzati választásokon is. Hány eljárás indult ez alapján a választások rendje elleni bűncselekmény alapos gyanúja miatt? Várom államtitkár úr válaszát. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a DK és az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-06-25-interpellation-IC8_540" who="#OlivioKocsis-Cake" ana="#regular"><note>KOCSIS-CAKE OLIVIO (Párbeszéd):</note>
+<seg xml:id="IC8_540.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! A két héttel ezelőtti napirend előtti fölszólalásomban már megpróbáltam felhívni a figyelmet a fiatalok elvándorlásának problémájára. Mint ismert, az Eurostat által közölt adatok alapján több mint 600 ezer magyar él európai uniós országban és dolgozik ott. Az elvándorlók jelentős része 2010 után hagyta el hazáját.Ennek a folyamatnak mára az az eredménye, hogy jelentős munkaerőhiány alakult ki, hiszen a szakképzett munkavállalók, a kétkezi munkások egyre nagyobb számban dolgoznak külföldön. A felszólalásomra az államtitkár úr igyekezett felsorolni, miket tett a kormány a fiatalok itthon maradásáért, külön említve a kedvezményes fesztiváláfát, valamint a Cseh Tamás-programot.</seg>
+<seg xml:id="IC8_540.2">Én viszont azt gondolom, hogy ezek a programok a lakhatási problémák és az alacsony bérek miatt itthon csak vegetálni képes fiatalok tömegeit aligha tartják itthon. Ajánlom képviselőtársaimnak is, hogy olvassák el a „Határátkelő” blogot, ahol kivándorolt honfitársaink írják le sorsukat, és azt, hogy miért hagyták el ezt az országot. Engedjék meg, hogy idézzek röviden ebből pár sort.</seg>
+<seg xml:id="IC8_540.3">Az Angliában élő Gergő a következőt írta: „Az én tapasztalatom az volt, hogy a Magyarországon kapott fizetésből igen magas százalékot kell adóként megfizetni, majd ami marad, abból megpróbálni megélni így vagy úgy. Felteszem magamnak a kérdést, hogy élnéke újra a szülőhazámban. A válasz természetesen igen lenne, ha tudnám, hogy megvannak a megfelelő feltételei a jelenlegi életszínvonalam fenntartásához.” Zsolt Münchenből a következőt írja: „Évek óta dolgoztam Magyarországon szakácsként, borzasztó körülmények között. A vendéglátásban a fizetés jobb helyeken a magyar átlag feletti volt, ennek azonban ára volt. 15-16 órás munkanapok, hétvégi munka, ünnepnapok és szabadság nélkül. A magasabb fizetés a több ledolgozott óra miatt jön ki, nem a kimagasló fizetés miatt.”</seg>
+<seg xml:id="IC8_540.4">Ebből is látszik, hogy a kormány nem képes egyedül megoldani ezt a problémát. A „Gyere haza, fiatal!” program is kudarcot vallott. Éppen ezért azt gondolom, hogy itt tényleg nemzeti együttműködésre lenne szükség.</seg>
+<seg xml:id="IC8_540.5">Kérdezem tehát államtitkár urat, hogy hajlandóe a kormány egy olyan országgyűlési eseti bizottság létrehozására a frakciókkal rendelkező pártokkal közösen, amelynek kizárólagos feladata a kivándorlás megállítása, a cikluson átívelő közpolitikai megoldások kidolgozása. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Szórványos taps.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-06-25-interpellation-IC8_630" who="#PéterUngár" ana="#regular"><note>UNGÁR PÉTER (LMP):</note>
+<seg xml:id="IC8_630.1">Köszönöm a szót. Tisztelt Miniszter Úr! Úgy tűnik, hogy a környezetvédelem hosszú évek alatt felépített intézményrendszerét semmibe veszik, és az állampolgárok egészséges környezetben való élésének jogát pedig a Fidesz rendszere az utóbbi időben nem veszi komolyan. Ebbe a három percbe nem fér az bele, hogy felsoroljuk, milyen olyan ügyek vannak Magyarországon, ahol környezetkárosító helyek mellett élnek emberek százai, itt most egy konkrét esetre fogunk kitérni. De azt azért megjegyezném, hogy a környezetügy most már hivatali rendszerbe betagolt módon működik, és így semmilyen komoly ellátórendszer nem tud lenni.Azt szeretném még hozzátenni, hogy a legutóbbi ügy, amely már lassan évek óta tér vissza, Hatvanban kerestek meg minket emiatt, egy lakó szerint nem lehet megmaradni az utcákon; ha 30 fokban megpróbálnak szellőztetni, akkor a lakásban sem. Hiába gyűjtöttek aláírásokat, senki sem csinált semmit. Elég jelentős számú aláírást gyűjtöttek amúgy. A hatvani önkormányzat és az egri környezetvédelmi hatóság egymásra mutogat.</seg>
+<seg xml:id="IC8_630.2">Az a helyzet, hogy itt akármi történik, rengeteg lakossági panasz történt az elmúlt időszakban azzal kapcsolatban, hogy az önkormányzat, bár szagnaplót vezet és bűzcsapdákat helyez ki, Hatvanban tulajdonképpen nem lehet megmaradni abban a bűzben, ami évek óta terjeng. De ez nemcsak Hatvanra igaz, hanem igaz Lőrincire, Herédre és Nagygombosra is. Ezek a települések Hatvannal már összefogtak annak érdekében, hogy valamit kezdjenek ezzel a helyzettel.</seg>
+<seg xml:id="IC8_630.3">A Heves megyei kormányhivatal a hónapok óta özönlő panaszok miatt állítólag vizsgálatot indított, de ennek a vizsgálatnak az eredményéről a mai napig nem számoltak be senkinek, pedig ez több mint két hónapja történt. Emellett pedig, bár tudjuk, hogy mik lehetnek azok a potenciális bűzkibocsátó telephelyek, ezeknél nem jelezték azt, hogy bármilyen hivatali vizsgált történt volna, illetve hogy ennek a hivatali vizsgálatnak milyen eredménye lett volna.</seg>
+<seg xml:id="IC8_630.4">A következő kérdéseim lennének. Az első az, hogy mi az oka annak, hogy ebben az elég egyértelmű ügyben több hónap óta nem tudott előrelépni sem a hatóság, sem pedig a felelős minisztérium. Milyen vizsgálatokat végzett a kormányhivatal, és ezek a vizsgálatok milyen megállapításra jutottak? Mi hiányzik ahhoz, hogy ezt a problémát megoldják? Mit tettek pontosan az elmúlt időszakban? És vane elképzelése arról, hogy hogyan tudja a környezetügyi hatóságnak úgy helyreállítani a jogkörét, hogy a jövőben ne legyen ilyen több másik magyar településen?</seg>
+<seg xml:id="IC8_630.5">És végezetül annyit szeretnék kérni, hogy ebben a válaszban majd a kérdésre válaszoljon, és ne a migrációról beszéljen, ha lehetséges. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-06-25-interpellation-IC8_631" who="#ÁgnesKunhalmi" ana="#regular"><note>KUNHALMI ÁGNES (MSZP):</note>
+<seg xml:id="IC8_631.1">Tisztelt Elnök Úr! Tisztelt Ház! Kedves tisztelt Képviselőtársaim! Májussal vége lett a kilakoltatási moratóriumnak, amit a kormány csak azért hosszabbított idén meg, hogy a választások előtt ne lássák a választók, ahogy utcára rakják családok tömkelegét.Ma ismét családok ezreit fenyegeti az utcára kerülés. Közülük a legnagyobb csoportot továbbra is a devizahiteleseknek az a része jelenti, akiknek nem segítettek az állami mentőövek. Ők még mindig több tízezren vannak annak ellenére, hogy a bankok számára sokuk már eltűnt a rendszerből.</seg>
+<seg xml:id="IC8_631.2">De nemcsak a hitelcsapdába esettek tarthatnak a kilakoltatástól, hanem az önkormányzati szociális bérházakból, bérlakásokból is hontalanná válhatnak családok egyik napról a másikra.</seg>
+<seg xml:id="IC8_631.3">A minisztérium tavaly ősszel úgy becsülte, hogy több mint 30 ezer lakás vagy ház esetében fordulhat elő, hogy sikeres árverés után kiteszik a lakókat, ha önként nem költöznek el. Már ez is rettenetesen magas szám, de a valóság még ennél is rosszabb lehet, a késedelmes jelzáloghitelek száma ugyanis tavaly 120 ezer körül volt. Szakértők szerint a kilakoltatások száma ebben az évben is elérheti a majdnem 40 ezres számot, és így már 100 ezer ember lakhatási válságát hozhatja el Magyarországon.</seg>
+<seg xml:id="IC8_631.4">Nagyon sokszor kérik számon az önkormányzatokat, hogy miért nem segítenek jobban a szegény elesett nyomorultakon. Célzott állami segítség nélkül nem tudják az önkormányzatok ezt a hatalmas lakhatási válságot kezelni, tudjuk nagyon jól.</seg>
+<seg xml:id="IC8_631.5">Önök csodafegyverként használták a magáncsőd intézményét. Szintén a minisztérium adatai szerint 2792 embernek nyújtottak ez idáig bárminemű védelmet. Kérem, a magáncsőd maga a csőd, de mostanra a Nemzetközi Eszközkezelő is bedugult teljesen.</seg>
+<seg xml:id="IC8_631.6">A kormány a legnehezebb körülmények között élők szociális támogatását is durván megnyirbálta az utóbbi években, a nagyjából 20 milliárd forintot kitevő lakásfenntartási támogatást megszüntette. Önök bármelyik pillanatban egy közepes vagy rosszabb focistára elköltik ezt a pénzt, és még futni se tud a pályán, ahelyett, hogy a bajban lévők ezreinek segítenének.</seg>
+<seg xml:id="IC8_631.7">De mondhatnám a CSOK-ot is, merthogy biztosan ezzel fognak minket bombázni. Sajnos ez sem segít, és a továbbtanuló, az otthonteremtés előtt álló fiatalok lakhatását sem segítik sem a lakásbérleti árak csökkentésével vagy leszorításával, de kollégiumi férőhelyeket sem hoznak létre.</seg>
+<seg xml:id="IC8_631.8">Az meg aztán tényleg felháborító, hogy Bajkai István, aki ezzel az egész szánalmas és felháborító ötlettel előállt, hogy a hajléktalanságot tiltsuk be az alkotmányunkban, azt mondta, hogy menjen el közmunkásnak mindenki, és majd tudja fizetni a saját bérleti díját és egyéb rezsijeit. Azt javaslom Bajkai úrnak, álljon már be egy hónapra közmunkásnak, és fizesse ki, próbálja ki, hogy ki bírjae fizetni a gyógyszereit, a lakhatásá</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret lejártát.</desc></kinesic>
+<seg xml:id="IC8_631.9">és egyebeket.</seg>
+<seg xml:id="IC8_631.10">Kérdezem tisztelt államtitkár urat, miért nem tesznek valamit azért, hogy ma tízezrek normális lakhatáshoz jussanak Magyarországon. Köszönöm, elnök úr</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-06-25-interpellation-IC8_632" who="#LőrincNacsa" ana="#regular"><note>NACSA LŐRINC (KDNP):</note>
+<seg xml:id="IC8_632.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Mint az sokak által ismert, május végén az Európai Bizottság beterjesztette a következő, 2021-2027-es időszakra vonatkozó uniós költségvetési tervét. A terv érzékenyen érinti Magyarország középtávú jövőjét, az uniós támogatások visszaesésén keresztül a magyar családok mindennapjait. A nemzetközi kapcsolatokat tekintve elmondhatjuk, hogy a közös érdek, a józan ész politikája ennek ellentmond, hiszen a magyar export 75 százaléka ma az Unióba irányul, ami igen szoros kapcsolatos jelez, ezzel Brüsszelnek is tisztában kellene lennie.</seg>
+<seg xml:id="IC8_632.2">Napjainkban az Unió új kihívásokkal néz szembe, mint például a migrációs válság kezelése, a gazdaságfejlesztés, új tagországok felvétele vagy olyan szociális problémák, mint a munkanélküliség, kiemelten is a fiatalkori munkanélküliség, valamint a versenyképesség romlása, a felzárkózás a digitális korszak kihívásaira. Ehhez viszont uniós szinten forrásokat kell biztosítani. Tisztelt Államtitkár Úr! A Kereszténydemokrata Néppárt képviselőcsoportja nevében szeretném jelezni, hogy az uniós javaslat, ami összességében a szegényebb államoktól csoportosítana át forrásokat a gazdagabbakhoz, számunkra teljességgel elfogadhatatlan.</seg>
+<seg xml:id="IC8_632.3">(15.40)</seg>
+<seg xml:id="IC8_632.4">Amíg a magyar költségvetési politika középpontjában a biztonság megőrzése, a gazdasági növekedés fenntartása, a befektetés ösztönzése, a családok támogatása és a teljes foglalkoztatottság elérése van, addig a brüsszeli testület a tervezet szerint csökkentené a nagyobb gazdasági növekedést produkáló kelet- és közép-európai tagországoknak nyújtott forrásokat. Ez a sajtóban megjelent hírek szerint idei áron számolva mintegy 25 százalékos visszaesést jelentene a mostani költségvetési ciklushoz képest. Bár a brexit miatt csökkenő költségvetési forrásokkal kell majd számolnunk a következő időszakban, nekünk az az érdekünk, hogy az EU költségvetése ne büntesse a teljesítményt.</seg>
+<seg xml:id="IC8_632.5">Az elmúlt évek erőfeszítései hatására megteremtődött gazdasági fejlődés, az életszínvonal emelkedése ne számítson hátránynak azokkal az országokkal szemben, akik nem tartották be a költségvetési fegyelmet és uniós jogot sértő gazdaságpolitikát folytattak. A pénzügyi stabilitás megőrzése mellett a következő években is garantálnunk kell Magyarország biztonságát, és küzdenünk kell az illegális migráció ellen. A migráció kezelése és bátorítása, a vámbevételek elosztásának tervezete, az egységesülő adópolitika a tagállamok érdekeivel ellentétes, Magyarországot hátrányosan érinti.</seg>
+<seg xml:id="IC8_632.6">Épp ezért kérdezem tisztelt államtitkár urat: mit gondol az Európai Bizottság javaslatáról a magyar kormány? Magyarország érdekeit szem előtt tartva milyen eszközökkel küzd a kormány a számunkra kedvezőtlen tervezet megvalósulása ellen, valamint számíthatunke a visegrádi országok és a hátrányosan érintett többi állam támogatására, akár összefogására közös céljaink eléréséhez? Köszönöm szépen, és várom államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-06-25-interpellation-IC8_644" who="#GáborStaudt" ana="#regular"><note>DR. STAUDT GÁBOR (Jobbik):</note>
+<seg xml:id="IC8_644.1">Köszönöm, elnök úr. Tisztelt Államtitkár Úr! A kérdésemre a válasz egy jól működő jogállamban evidencia lenne: igen, a kormánynak feladata, hogy az igazságszolgáltatás és legfőképpen a bíróságok független működését biztosítsa. Sajnos, ma Magyarországon ez nagyon nem egyértelmű. Az Országos Bírósági Hivatal és annak egyszemélyi vezetője nagyon sok kritikát kapott az elmúlt években, amelyekre sajnos szakmai válaszok nem érkeztek, a kormány pedig azt hangoztatta, hogy nincs teendője, hiszen Handó Tündének van ellenőrző szerve, egy kvázi főnöke, az Országos Bírói Tanács, majd az teszi a dolgát. Nos, úgy tűnik, hogy az OBT az utóbbi időben tette is a dolgát, és ki is derült gyorsan, hogy valójában semmiféle kontrollt nem tud gyakorolni az OBH működése felett. A feszültség addig fokozódott, hogy az OBH elnöke nemes egyszerűséggel lehazaárulózta azokat a bírákat, akik kritizálni merték a kormány igazságügyi terveit.</seg>
+<seg xml:id="IC8_644.2">Handó Tünde szerint a hazaárulást úgy hajtották végre, hogy egy olyan szervezethez fordultak, amelyet Brüsszel finanszíroz. Elnök asszony a Kossuth rádióban osztotta meg észrevételeit, idézem: „Sajnálatosnak tartom azt, hogy néhány bírótársunk magáról és a kötelességeiről, a közösség iránti felelősségeiről megfeledkezve külföldre szalad, és elárulja a hazáját.” Főleg úgy, hogy az OBT közleményben cáfolta, hogy az igazságügyi tanácsok európai hálózatához fordult volna. De ha oda fordult volna, akkor már hazaáruló lenne? A haza biztosan egyenértékű a Fidesz-kormányzat és Handó Tünde kritizálhatatlanságával? De a fő gond mégiscsak az a tény, hogy az Országos Bírósági Hivatal elnöke nem ismeri el a munkája ellenőrzését az arra alkotmányosan hivatott szervtől. Az OBT közleményében aggályosnak tartotta, hogy Handó Tünde önkényesen illegitimnek nevezte az őt az Alaptörvény által felügyelni hivatott közjogi testületet, és megtagadta a testület felügyeleti jogkörének ellátásához szükséges adatok kiadását. Az OBT felhívta a figyelmet arra is, hogy az OBH elnöke az OBT által felügyeleti jogkörében megfogalmazott kritikákat érdemben a mai napig nem válaszolta meg egy alkalommal sem.</seg>
+<seg xml:id="IC8_644.3">(15.30)</seg>
+<seg xml:id="IC8_644.4">Fentiek miatt kérdezem államtitkár urat: valóban nincsen önök szerint teendője a kormánynak a bíróságok működésével kapcsolatosan és a kialakult helyzetben? Rendben lévőnek tekintik, hogy a bíróságok egyszemélyi vezetője hazaárulóknak nevezi az őt ellenőrizni hivatott testület bíráit, és ellehetetleníti az Országos Bírói Tanács működését? Ön szerint ma Magyarországon ki az a személy vagy testület, akinek jogosítványa van Handó Tünde ténykedését ellenőrizni és az esetleges jogsértéseket megállapítani? Várom államtitkár úr érdemi válaszát. Köszönöm</seg>
+<kinesic type="applause"><desc>Közbeszólás a Jobbik soraiból: Úgy van! - Taps ugyanott.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-06-25-interpellation-IC8_645" who="#JánosVolner" ana="#regular"><note>VOLNER JÁNOS (Jobbik):</note>
+<seg xml:id="IC8_645.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! Mint ahogy ön is minden bizonnyal emlékszik, a 2010-ben hivatalba lépő Orbán-kormány igyekezett arányos közteherviselésről beszélni, arról beszéltek, hogy olyan nagyvállalatokat - a bankszektort magát is - bevonnak a közteherviselés körébe, amelyek korábban nem arányosan, nem a nyereségük arányában vettek részt a közterhek viselésében. Azért is fontos ezt most hangsúlyozni, mert idén az első negyedévben 160 milliárd forintos volt a bankszektor nyeresége Magyarországon, tavaly pedig egész évben az adózás utáni eredményük elérte a 694 milliárd forintot. Rekordot döntött a bankok nyeresége Magyarországon, államtitkár úr, egy olyan rekordot, amelynek egyrészről örülhetünk, hiszen ha jól prosperál a bankszektor, annak mindannyian örülünk, a másik oldalról viszont sajnos azt láthattuk, hogy a devizahiteleseket bajban hagyták a bankok, a kormány segítségével tették ezt, jó néhány sérült társadalmi csoport van, és sajnos azt láthattuk, tisztelt államtitkár úr, hogy a bankok javára a kormány óriási összegű adókedvezményeket biztosított az elmúlt időszakban, nem kis részben egyébként ennek is köszönhető ez a közel 700 milliárd forintos éves nyerség, amit a bankok Magyarországon tavaly elértek.</seg>
+<seg xml:id="IC8_645.2">Mire is gondolok? A nagyobb bankoknál, az 50 milliárd forint mérlegfőösszegű bankoknál elengedték a bankadót. Korábban 0,5 százalékos kulcsa volt ennek a mérlegfőösszeghez viszonyítva, most 0,21 százalékos lett ennek a kulcsa, kevesebb, mint felére csökkent ezeknek a bankoknak az adóterhelése. Volt aztán még egy hitelintézeti járadék című adónem, amit a bankoknak fizetniük kellett, ezt egyenesen eltörölte a kormány, tehát ilyen jelentős adókedvezményeket kaptak a bankok.</seg>
+<seg xml:id="IC8_645.3">Ehhez képest azonban elnézte az ön kormánya, számos figyelmeztetésünk ellenére, amit 2012 óta évről évre megfogalmaztunk, hogy a bankok a tranzakciós illetéket egy az egyben átterhelik a lakosságra, a tranzakciós illeték összegével megegyező tranzakciósköltség-növekedés következett be a magánszemélyeknél és a magyar kisvállalkozásoknál, tehát a valódi teherviselője ezeknek az intézkedéseknek nem a bankszektor, hanem maguk az itt élő vállalkozások és magánszemélyek.</seg>
+<seg xml:id="IC8_645.4">Kérdezem tehát, államtitkár úr, hogy egyrészt kívánnake valamit tenni annak érdekében, hogy a bankok a rájuk rótt közterheket ne hárítsák át a magyar emberekre. Másik oldalról kérdezném azt is, hogy kívánnake annak érdekében tenni valamit, hogy a bankokat az eddigieknél keményebben megadóztassá</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="IC8_645.5">, ugyanis feleakkorára nem a dolgozó magyar embereknek csökkent az adója, hanem a bankszektornak. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-06-25-interpellation-IC8_647" who="#MihályWitzmann" ana="#regular"><note>WITZMANN MIHÁLY (Fidesz):</note>
+<seg xml:id="IC8_647.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tisztelt Ház</seg>
+<kinesic type="signal"><desc>Több képviselő elhagyja az üléstermet. - Az elnök csenget.</desc></kinesic>
+<seg xml:id="IC8_647.2">Mint ismeretes, az Országgyűlés már februárban megtárgyalta az úgynevezett Stop Soros törvénycsomagot, de a döntést az április 8-ai választások utánra halasztotta annak érdekében, hogy az emberek véleményét tükröző, újonnan megalakuló Országgyűlés dönthessen ebben a rendkívül fontos kérdésben. A választópolgárok tehát nemcsak az elmúlt közel egy évtizedben elért eredményekről, hanem az előttünk álló egyik legnagyobb kihívásról, a migrációs válság kezeléséről is döntést hoztak április 8-án. Az eredmény azóta mindenki számára ismert: a magyar emberek, a magyar választók immár harmadik alkalommal adtak kétharmados felhatalmazást a Fidesz-KDNP-pártszövetségnek.</seg>
+<seg xml:id="IC8_647.3">Azt is jól tudjuk, hogy a kormány eddig több száz milliárd forintot fordított hazánk határainak védelmére a költségvetésből. Fontos hangsúlyozni, hogy minden szervezet, amely az illegális migrációt segíti és támogatja, növeli a védekezésre fordítandó kiadásokat, és ezáltal komoly károkat okoz a magyar költségvetésnek, közvetve a magyar adófizető polgároknak.</seg>
+<seg xml:id="IC8_647.4">A magyar emberek számtalanszor kinyilvánították, hogy elutasítják a hazánk kulturális, nyelvi és vallási berendezkedésének megváltoztatására irányuló törekvéseket. Az ilyen tevékenységek hatékony megakadályozását szolgálja a bevándorlási különadó bevezetésére vonatkozó javaslat is.</seg>
+<seg xml:id="IC8_647.5">A Pénzügyminisztérium ez irányú javaslata az illegális migrációt anyagilag támogató, illetve segítő szervezetek számára különadó-fizetési kötelezettségét ír elő. Az adót azoknak a szervezeteknek kell megfizetniük, amelyek pénzbeli vagy vagyoni jellegű juttatásban részesülnek, és az így végzett tevékenységükkel akár közvetlenül vagy közvetve elősegítik az illegális migrációt. A javaslat szerint az adó mértéke az annak alapjául szolgáló pénzbeli vagy vagyoni jellegű juttatás 25 százaléka lesz.</seg>
+<seg xml:id="IC8_647.6">Az intézkedés egyértelmű célja, hogy a Soros György által pénzelt szervezetek a jelenlegi formában ne folytathassák tovább tevékenységüket. Ugyanis ezek a szervezetek valójában nem a rászorulókat kívánják segíteni, hanem káros tevékenységet szerveznek, erre buzdítanak, és közben hazugságokat terjesztve jelentgetik föl hazánkat, Magyarországot.</seg>
+<seg xml:id="IC8_647.7">Soros aktivistái, bár csak pár százan vannak, úgy próbálják feltüntetni magukat, mintha az egész magyarországi civil társadalmat képviselnék. Ezek a szervezetek szélsőséges nézeteikkel megkérdőjelezik a nemzetek létjogosultságát, a hagyományos, valódi európai értékeket a családok, valamint a házasság intézményének tekintetében, és támogatják az illegális migrációt. Ezért mindenképpen indokolt fellépni az általuk folytatott tevékenység ellen.</seg>
+<seg xml:id="IC8_647.8">Tisztelt Államtitkár Úr! Azt nem tudjuk ugyan pontosan, hogy akár Soros György szervezetei, akár mások mennyi pénzt adnak a Magyarországon tevékenykedő ilyen szervezeteknek a migráció támogatására, azt azonban sejthetjük, hogy ez az összeg nem lehet kicsi. Arra is számítani lehet, hogy a támogató szervezetek majd megpróbálnak kibújni az effajta adókötelezettség alól.</seg>
+<seg xml:id="IC8_647.9">Tisztelettel kérdezem, hogy miképp lehet utolérni a jog eszközével ezeket a szervezeteket, illetőleg hogy a bevándorlást segítő támogatások adóztatásából befolyó bevételt az állam milyen célokra kívánja a jövőben felhasználni. Előre is köszönöm a megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-6-25-urgent_question-AC8_435" who="#BernadettSzél" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC8_435.1">Köszönöm a szót, elnök úr. Tisztelt Miniszterelnök Úr! A magyar gazdaság nem fenntartható, szinte teljes mértékben a nemzetközi gazdasági folyamatoktól, az autóipartól, a multinacionális vállalatok teljesítményétől és az uniós támogatásoktól függ. A gazdaság fenntarthatóságát, a sok lábon való állást a hazai kis- és középvállalkozások tudnák biztosítani, de ők az önök gazdaságpolitikájában jobb esetben is csak a multinacionális cégek beszállítói lehetnek. Az elmúlt években a kormány semmi érdemi lépést nem tett, hogy ez a helyzet megváltozzon, sőt növelték a függőséget, különösen az autóipartól. Pedig 2008 óta tudjuk, hogy az autóipar minden nemzetközi válság egyik első és legsúlyosabb áldozata. Miniszterelnök Úr!</seg>
+<seg xml:id="AC8_435.2">A világgazdaság felett sötét felhők gyülekeznek, Matolcsy György a múlt héten nyilatkozta, hogy a gazdasági válság már itt van, itt kopogtat és nem csak majd lesz. Önök azt állítják, hogy mindenre felkészültek, hiszen megemelték a tartalékot. De ez az 55 milliárd forintos tartalékmegemelés válsághelyzetben semmire sem lesz elég, hiszen az adóbevételek akár több száz milliárd forinttal is csökkenhetnek. Igaz, van még százmilliárd forint céltartalék, de ezt tulajdonképpen az állami szféra béremelésére és a kórházak fejlesztésére tették félre. Természetesen félő, hogy ha a dolgok rosszabbul mennek, akkor nem lesz majd az állami alkalmazottaknak béremelése és kórházfejlesztés.</seg>
+<seg xml:id="AC8_435.3">A következő kérdésekre szeretnék választ kapni miniszterelnök úrtól. Hogyan készülünk fel a gazdasági válságra? Készüle a kormánynak válságterve? Céljae a kormánynak, hogy csökkentse a magyar gazdaság függőségét az autóipartól? Tervezik-e, hogy a külföldi nagyvállalatok helyett inkább a magyar kis- és középvállalatokat részesítik előnyben? Válság esetén mi lesz az állami dolgozók beígért béremelésével és a kórházak fejlesztésével? Köszönöm. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az LMP és a DK soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-6-25-urgent_question-AC8_437" who="#MártonGyöngyösi" ana="#regular"><note>GYÖNGYÖSI MÁRTON (Jobbik):</note>
+<seg xml:id="AC8_437.1">Köszönöm a szót, elnök úr. Tisztelt Miniszterelnök Úr! Bejárta a sajtót, hogy nemrégiben ön bent járt egy budapesti egészségügyi intézmény szakrendelésén, de ahelyett, hogy kivárta volna a sorát, beelőzte a sort, sőt kiküldték azt, aki az ön orvosánál bent volt ön előtt. Pedig ha kivárta volna a sorát, akkor bőven lett volna ideje elmélkedni a magyar egészségügy helyzetén, katasztrofális helyzetén és ennek a kiváltó okairól.Aki járt már magyar egészségügyi intézményben, pontosan tudja és ismeri ezeket az okokat és jól látja magát a problémát, de álljon itt néhány adat a KSH-tól, néhány hivatalos adat. 2010 és 2016 között több mint 26 százalékkal nőtt a betöltetlen orvosi állások száma a járóbeteg-szakellátás területén. Ennek az oka egyértelműen a területről elvándorolt orvosok és egészségügyi dolgozók. 2016-ban ennek dacára közel 400 ezer beavatkozás történt ezen a területen. A szakma szerint a járóbeteg-ellátást, a háziorvosi szolgáltatást kell fejleszteni ahhoz, hogy a kórházi ellátás tehermentesíthető legyen. Teljes mértékben abszurd az, hogy 2016-ban 10 ezer lakosra alig 70 kórházi ágy jutott.</seg>
+<seg xml:id="AC8_437.2">A Századvég, az önök házi kutatóintézete egy tanulmányban azt mondja, hogy a járóbeteg-ellátás, alapellátás rendszerszintű fejlesztése nem ment végbe; a prevenció, az egészségfejlesztés területén szigetszerű kezdeményezések történtek ugyan, de országosan kiterjeszthető, hosszabb távon is fenntartható modellek nem születtek. A fenti körülmények miatt többórás várakozás vár a betegekre, kivéve természetesen miniszterelnök urat, aki soron kívül jut ellátáshoz.</seg>
+<seg xml:id="AC8_437.3">Kérdezem: mikor kezdenek el a sok álprobléma után az egészségügy helyzetével is foglalkozni? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-6-25-urgent_question-AC8_669" who="#IstvánSzávay" ana="#regular"><note>SZÁVAY ISTVÁN (Jobbik):</note>
+<seg xml:id="AC8_669.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Miniszterelnök Úr! Ön a februári évértékelőjén úgy fogalmazott, hogy antikommunisták vagyunk és hazafiak. Engedjen meg néhány cáfolatot ezzel kapcsolatban. Mi úgy gondoljuk, hogy ha önök valóban antikommunisták lennének, akkor már régen nem lenne Óbudán Lukács György utca, átnevezték volna például a Fővárosi Szabó Ervin Könyvtárat, a Schönherz Zoltán Kollégiumot, a Rajk László Szakkollégiumot vagy éppen a XIX. kerületi Károlyi Mihály Gimnáziumot. Ha önök valójában antikommunisták lennének, akkor miért tartják fenn még mindig a Sztálin emlékét törvénybe iktató, a magyarországi németeket kitelepítő és a padláslesöpréseket elrendelő moszkovita gazember, Nagy Imre hamis kultuszát, miért nem takarítják el innen a szobrát a Parlament mellől a szoborparkba, és állítják oda vissza a helyére a Vörös Hadsereg, pontosabban a vörös terror áldozatainak korábban ott állt emlékművét? De önöknek még arra sem volt bátorságuk, hogy végre eltakarítsák a magyar szabadság teréről a Vörös Hadsereg díszoszlopát.</seg>
+<seg xml:id="AC8_669.2">Miközben Magyarországon magyar nyugdíjasok milliói nyomorognak, aközben az egykori kommunista vezetők a mai napig is luxusnyugdíjakat, százezres és milliós luxusnyugdíjakat kaphatnak. Ön, miniszterelnök úr, állítólagos antikommunistaként olyan személyeket tűr meg a pártjában és a kormányában, mint például a saját családtagjait is lelkesen besúgó Szita Károly, vagy például mint rendészeti államtitkára, a volt III/II-es Tasnádi László. De a fideszes pártállam szervilis kiszolgálói körében is bőven találunk olyanokat, akik ugyanilyen lelkesen szolgálták az előző pártállamot, az MSZMP-t is, mint például a CÖF nevű pénznyelőt irányító egykori vállalatigazgató, Csizmadia László, a kommunista belügy által kitüntetett Stefka István, a Népszabadság Pártélet rovatának egykori munkatársa, Bencsik András, vagy éppen a korábbi III/III-as ügynök, a Magyar Ökumenikus Segélyszervezet elnök-igazgatója, Lehel László.</seg>
+<seg xml:id="AC8_669.3">Miniszterelnök úr, kinek van még ilyen jellegű takargatnivalója az ön környezetében? Mikor hajlandó végre a kormány nyilvánosságra hozni az ügynöklistákat és az ügynökaktákat?</seg>
+<seg xml:id="AC8_669.4">Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-6-25-urgent_question-AC8_671" who="#TamásHarangozó" ana="#regular"><note>DR. HARANGOZÓ TAMÁS (MSZP):</note>
+<seg xml:id="AC8_671.1">Köszönöm a szót, elnök úr. Drága Miniszterelnök Úr! Kérem, hogy népünk fényes tekintetű vezetőjeként válaszoljon néhány kérdésre, amelyekkel kapcsolatban kétségek gyötörnek.Nem tudom ugyanis eldönteni, hogy ön tényleg becsapjae az embereket, vagy csak kollégái folyamatosan félretájékoztatják önt. Tudtae például, hogy miközben ön Mátyás nevű elődjét megszégyenítő módon munkásokkal fényképezkedett az épülő Puskás Stadionnál, eközben kormánya épp el akarja venni a kafetériajuttatásokat a munkavállalóktól, megkeserítve, sok esetben tönkretéve milliónyi szorgosan dolgozó magyar ember életét?</seg>
+<seg xml:id="AC8_671.2">Tudta-e, hogy miközben kormánya épp azon mesterkedik, hogy a miniszterek fizetését havi 5 millió forintra emelje, a minisztériumokban, iskolákban, kórházakban közel 60 ezer ember fizetése a minimálbért sem éri el, és bérkompenzáció nélkül nem kapnák meg még azt a havi 138 ezer bruttót sem?</seg>
+<seg xml:id="AC8_671.3">Tudta-e, hogy miközben ön a felcsúti kisvasút meghosszabbításával bíbelődik, és reméljük, egyszer el fog érni Parndorfig is, hogy mindenki boldog legyen a faluban, a Pécs-Budapest vasútvonalon a menetidő mára meghaladja az öt órát is?</seg>
+<seg xml:id="AC8_671.4">Végezetül: kérem, segítsen értelmezni az ön egyik fontos tanácsadójának, Parragh Lászlónak a szavait, miszerint, idézem: „Tudomásul kell venni, hogy a fehérbőrű, keresztény gyökerű munkavállalók elfogytak, ez nem egy reális tartalék, ahonnan embert lehetne hozni a gazdaságba.” Ismerve az ön végtelenül egyszerű politikáját, eléggé zavarba ejtő szavak ezek, nemcsak egy ellenzéki képviselőnek, de, azt gondolom, a Fidesz-szavazóknak is. Úgyhogy kérem, a mára már legfőbb jogforrásnak számító szavaival segítsen eligazodni megtévelyedett népének. Kérem, válaszoljon</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-6-25-urgent_question-AC8_672" who="#BenceTordai" ana="#regular"><note>TORDAI BENCE (Párbeszéd):</note>
+<seg xml:id="AC8_672.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Orbán Pártelnök Úr! Kétbillió forint… - nem szól a mikrofonom!</seg>
+<note>TORDAI BENCE (Párbeszéd):</note>
+<seg xml:id="AC8_672.2">Jegyzőként természetesen megadom a kellő tiszteletet, frakcióvezető-helyettesként pedig hadd szólítsam úgy az interpelláltat, illetve a kérdezettet, ahogy én szeretném</seg>
+<seg xml:id="AC8_672.3">(Felzúdulás a kormánypárti padsorokban.)</seg>
+<seg xml:id="AC8_672.4">Orbán Úr! - megteszi? Orbán úr</seg>
+<kinesic type="noise"><desc>Nincs a házszabályban semmi… (Közbeszólások a Fidesz soraiból, köztük: Ülj le!</desc></kinesic>
+<note>TORDAI BENCE (Párbeszéd):</note>
+<seg xml:id="AC8_672.5">A házszabály szerint sértő és illetlen kifejezésekkel nem illethetem képviselőtársaimat, nem is teszek ilyet, hacsak nem a Fidesz elnökének lenni egy illetlen, sértő dolog, ezt döntsék el önök</seg>
+<seg xml:id="AC8_672.6">De akkor tekintsünk el a megszólítástól!</seg>
+<note>TORDAI BENCE (Párbeszéd):</note>
+<seg xml:id="AC8_672.7">Ha újrakezdődik a két perc, akkor örömmel miniszterelnöknek szólítom</seg>
+<seg xml:id="AC8_672.8">(Felzúdulás a kormánypárti padsorokban. - Soltész Miklós: Nem a piacon vagy! - Dr. Apáti István: Őrség!)</seg>
+<seg xml:id="AC8_672.9">Jó, megy az idő. Tehát Kétbillió forintot, 2000 milliárd forintot veszít Magyarország a Fidesz-rezsim miatt. Azért veszít Magyarország kétbillió forintot, mert az EU nem hagyja tovább következmények nélkül, hogy a Fidesz szétlopja az uniós adófizetők pénzét Magyarországon.Kétbillió forintot veszít Magyarország, mert nem nézik tovább tétlenül, hogy nem képesek jól elkölteni azt a pénzt sem, amit nem lopnak el</seg>
+<seg xml:id="AC8_672.10">(Font Sándor: Kinek drukkolsz ebben a vitában?)</seg>
+<seg xml:id="AC8_672.11">Nem nézi tovább az EU azt sem, hogy tartják a markukat az európai pénzekért, de nem kérnek az európai kultúrából, az európai megoldásokból, az európai szolidaritásból</seg>
+<seg xml:id="AC8_672.12">(Moraj, felzúdulás a kormánypárti padsorokban.)</seg>
+<seg xml:id="AC8_672.13">Kétbillió forintot veszít Magyarország azért, mert a Fidesz szétveri a közös uniós külpolitikát</seg>
+<seg xml:id="AC8_672.14">(Moraj a kormánypárti padsorokban.)</seg>
+<seg xml:id="AC8_672.15">De ne tévedjünk, legfőképpen a korrupciót büntetik, azt, hogy nem csatlakozunk az európai ügyészséghez, illetve a Fidesz-kormány nem csatlakozik, hogy Polt Péter asszisztálása mellett nyugodtan lophassanak tovább.</seg>
+<seg xml:id="AC8_672.16">A kérdés, ha már csak arra van idő, hogy vállaljae az úgynevezett miniszterelnök a felelősséget azért, hogy Magyarországot most, a közeli napokban, hetekben százmilliárd forintra, hamarosan pedig kétbillió forintra fogják megbüntetni</seg>
+<seg xml:id="AC8_672.17">Köszönöm a választ előre is.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2018-6-25-urgent_question-AC8_673" who="#GergelyArató" ana="#regular"><note>ARATÓ GERGELY (DK):</note>
+<seg xml:id="AC8_673.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Államtitkár Úr! Először is örülök, hogy nem miniszterelnök urat kérdeztem, mert nyilván ugyanúgy elhárította volna a felelősséget a kormány oktatáspolitikájáért is, ahogy ezt az egészségügyi politika esetében tette. Így aztán államtitkár úrtól esetleg kapok arra választ, hogy miért kíván kevesebb diplomást a kormány. Egy 2014-es kormányrendelet szerint ugyanis 2020-tól kezdődően már nem jelentkezhet felsőoktatási intézménybe az, akinek nincs középfokú nyelvvizsgája. Önmagában a szándék tulajdonképpen nem is lenne vitatható vagy nem is lenne rossz, hiszen lehetővé tenné azt, hogy a felsőoktatási intézményekben jobban támaszkodjanak a diákok idegennyelv-ismeretére, csak éppen ma ennek semmilyen feltételét nem teremti meg a kormányzat.</seg>
+<seg xml:id="AC8_673.2">A Magyar Tudományos Akadémia felmérése alapján a felvételiző diákok felének ma nincs nyelvvizsgája. Ez azt jelenti, hogy az önök intézkedése a felére csökkentené azoknak a diákoknak a számát, akiknek esélye van a felsőoktatásban folytatni a tanulmányaikat. Nem kétséges, hogy a szándék az, hogy olyan polgárai legyenek az országnak, akiket nem zavar meg a diploma, nem zavar meg a túl sok tudás, hanem csak az önök propagandatévéjéből és pár mondatos plakátszövegeiből tájékozódnak. Azonban ez nem az ország érdeke, ez legfeljebb az önök meglehetősen silány politikai érdeke.</seg>
+<seg xml:id="AC8_673.3">Éppen ezért szeretném megkérdezni államtitkár urat, hogy miért akarják kiszorítani a magyar fiatalokat a felsőoktatásból.</seg>
+<seg xml:id="AC8_673.4">(16.00)</seg>
+<seg xml:id="AC8_673.5">Miért akarják azt, hogy a nehezebb sorból jövő diákok ne tanulhassanak? Hiszen elsősorban ők azok, akiknek a szülei nem engedhetik meg maguknak a nyelvvizsgával és a nyelvtanulással járó költségeket. Miért akarják kiváltsággá tenni a diplomát Orbán Viktor Magyarországán? Köszönöm szépen, elnök úr</seg>
+<kinesic type="applause"><desc>Taps a DK és a Párbeszéd soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-6-25-urgent_question-AC8_674" who="#ZsoltGréczy" ana="#regular"><note>GRÉCZY ZSOLT (DK):</note>
+<seg xml:id="AC8_674.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Komoly veszélybe került a Magyar Tudományos Akadémia. Most ott tartunk az Orbán-kormány kilencedik évében, hogy most már, ahelyett, hogy konszolidálnák a politikai viszonyokat és megpróbálnák az országban egy kicsit csillapítani az indulatokat és a feszültséget, ott tartanak, hogy a legrosszabb bolsevik hagyományoknak megfelelően megpróbálják rátenni a kezüket a Magyar Tudományos Akadémia szabadságára, annak szellemi műhelyeire. Nem én mondom ezt természetesen, én itt most csak egy szócsöve vagyok a Magyar Tudományos Akadémia különböző műhelyeine</seg>
+<seg xml:id="AC8_674.2">(Dr. Rétvári Bence: Azt kétlem…)</seg>
+<seg xml:id="AC8_674.3">vagy akár az elnökének, ha meg nem sértem vele. Egész egyszerűen arról van szó, ők maguk mondják azt, hogy a költségvetési törvényben szereplő átcsoportosításokkal nem kevesebbről van szó, mint arról, hogy megszűnne a Magyar Tudományos Akadémia függetlensége, a benne dolgozó alkotóműhelyek autonómiája.</seg>
+<seg xml:id="AC8_674.4">A költségvetésből a Magyar Tudományos Akadémia költségvetésének 70 százalékát akarják közvetlenül a kormány alá csoportosítani, és azokat a műhelyeket pedig, amelyek Lendület-műhelyként, hozzáteszem, még a mi kormányzásunk idején jöttek létre, teljes egészében állami gyámság alá kívánják helyezni.</seg>
+<seg xml:id="AC8_674.5">Ezek a fiatal kutatók nem véletlenül emelték fel a szavukat és írtak közös közleményt arról híres-neves kutatók aláírásával, hogy ez így nem mehet, és tiltakoznak az autonómia és a kutatás szabadságának megnyirbálása ellen, ezért arra szólítom fel a kormányt, hogy vegye figyelembe azt, hogy a Magyar Tudományos Akadémiára, annak önállóságára szükség van, és ne tegyék tönkre önök, akik állandóan a nemzet nevében döngetik a mellüket, Széchenyi István örökségét. Köszönöm szépen államtitkár úr válaszát</seg>
+<kinesic type="applause"><desc>Szórványos taps az ellenzéki pártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-6-25-urgent_question-AC8_675" who="#LászlóSzászfalvi" ana="#regular"><note>SZÁSZFALVI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC8_675.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Miniszterelnök-helyettes Úr! A 2010-es kormányváltással párhuzamosan radikális változás következett be a nemzetpolitikában is. A nemzetpolitika fundamentuma ma már az, hogy egyetemes magyarságban gondolkodunk, és az egyetemes magyarságnak megkerülhetetlen része a Kárpát-medencei és a diaszpórában élő magyarság is. Éppen ezért indult el öt éve a diaszpóra magyarságát felkaroló Kőrösi Csoma Sándor-program 47 ösztöndíjassal, ami tavaly már 21 országban 115 pályázót küldött azzal a céllal, hogy a külhoni magyarság kulturális, nyelvi identitását erősítse, s kiterjessze a magyar nyelvű oktatást, erősítse a diaszpóra és az anyaország magyarsága közti kapcsolatokat.</seg>
+<seg xml:id="AC8_675.2">A Körösi Csoma Sándor-programmal párhuzamosan 2015 tavaszán a Kárpát-medence szórványmagyarságát segítő programot indított a Miniszterelnökség Nemzetpolitikai Államtitkársága, ez a Petőfi Sándor-program, ami az egykori Monarchia területére terjed ki. Érinti Romániát, Ukrajnát, Szerbiát, Horvátországot, Szlovéniát, Szlovákiát, Csehországot, Bosznia-Hercegovinát, Macedóniát és Dél-Lengyelországot.</seg>
+<seg xml:id="AC8_675.3">Ezekben az országokban a magyar szervezetek, egyházak, oktatási intézmények határozták meg azokat a területeket, ahol a legnagyobb hasznukra lehetnek ösztöndíjasaink, alapvetően azzal a céllal, hogy megerősítsük a szórványterületeken fogyásban lévő magyarság identitását, segítsük a már meglévő kinti magyar közösségeket. Az idén kiutazó 75 ösztöndíjas munkájának célja, hogy megerősítse a szórványterületeken fogyásban lévő magyarság identitását, segítse a meglévő közösségeket.</seg>
+<seg xml:id="AC8_675.4">Tisztelt Miniszterelnök-helyettes Úr! Az elmondottak alapján kérdezem: milyen célokat sikerült elérni? Hogyan bővültek a lehetőségek mind az ösztöndíjprogramban részt vevők, mind pedig a magyar kormány számára? Hol tartanak a diaszpórát és szórványmagyarságot felkaroló programok? Várom miniszterelnök-helyettes úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-6-25-urgent_question-AC8_680" who="#KristófSzatmáry" ana="#regular"><note>SZATMÁRY KRISTÓF (Fidesz):</note>
+<seg xml:id="AC8_680.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Miniszter Úr! Tisztelt Ház! Tordai Bence előbb a valóság és a különböző álhírek viszonyában egy elég meglepő kijelentést tett. Már csak azért hozom ezt ide, mert a mostani azonnali kérdésem arról szólna, hogy éppen az önök vazallusa idején történtek olyan komoly lopások, amik miatt az Európai Unió minket dorgálni akar. Részben megdöbbenve, részben beletörődve olvassa az ember, hogy nyolc évvel a szocialista-liberális kormánykoalíció bukása után újabb csontváz került elő a szekrényből. A 4-es metró ügye után, ami, mint tudjuk, az Unió legnagyobb korrupciós botránya, most éppen Göncz Kinga MSZP-s politikus a főszereplője az újabb teleregénynek, ugyanis az általa létrehozott alapítvány is tagja volt azon két társaság egyikének, amelyeknél nagyon súlyos szabálytalanságot és csalást állapított meg az OLAF. Az egymással stratégiai kapcsolatban álló Pillar Europa Nonprofit Kft., amelynek Göncz alapítványa is tagja volt, és a BME-Infokom Kft. ugyanis költségvetési forrásból finanszírozott projektjeikhez közösen alkalmaztak kutatókat és más dolgozókat.</seg>
+<seg xml:id="AC8_680.2">Egy, még 2015-ben indított OLAF-vizsgálat szerint a két cég azért hozott létre regionális irodákat, hogy minél nagyobb uniós támogatáshoz jusson hozzá. De a valóságban ezek a dolgozók soha nem dolgoztak azokban az irodákban, amelyekre a támogatási összeget fölvették. A 13 munkavállaló is mind az egyes irodákba volt bejelentve, miközben a budapesti irodahelyiségben dolgoztak. Ők csak utasítást kaptak arra, hogy a projekt ellenőrzése alkalmával jelenjenek meg a vidéki irodában. Az OLAF nagyjából két tucat szervezetet talált érintettnek az ügyben. A jelentés szerint a cégek közel 12,5 milliárdos csalást követtek el.</seg>
+<seg xml:id="AC8_680.3">Kérdezem miniszter urat, milyen következményei lesznek ennek. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

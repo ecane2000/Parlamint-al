@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2019-12-10" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2019-12-10 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2019-12-10 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="17" unit="speeches">17 beszéd</measure>
+        <measure xml:lang="en" quantity="17" unit="speeches">17 speeches</measure>
+        <measure xml:lang="hu" quantity="6051" unit="words">6051 szó</measure>
+        <measure xml:lang="en" quantity="6051" unit="words">6051 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2019-12-10">2019. 12. 10.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="17"/>
+          <tagUsage gi="seg" occurs="105"/>
+          <tagUsage gi="kinesic" occurs="26"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2019-12-10">2019-12-10</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2019-12-10-interpellation-IC8_7850" who="#KolomanBrenner" ana="#regular"><note>DR. BRENNER KOLOMAN (Jobbik):</note>
+<seg xml:id="IC8_7850.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Ház! 2019 nyarán írásbeli kérdéssel fordultam a Belügyminisztériumhoz azzal a címmel, hogy ki tart rendet a magyar autópályákon. Az írásbeli kérdésemre adott választ ezúton szeretném először is megköszönni, a tartalmát azonban sajnos nem tudom elfogadni. A kérdésem ugyanis arra irányult, hogy a magyar rendőrség milyen stratégiával rendelkezik az autópályákon csak horrorkaraván néven elhíresült, többnyire román vagy más balkáni illetőségű szabálytalan közlekedők visszaszorításával kapcsolatban.</seg>
+<seg xml:id="IC8_7850.2">(Dr. Szűcs Lajost a jegyzői székben</seg>
+<seg xml:id="IC8_7850.3">Földi László váltja fel.)</seg>
+<seg xml:id="IC8_7850.4">Jómagam nagyrészt az M1-es autópályán nagyon sokszor találkoztam azzal, hogy egy román szerelvény 90-es sebességnél hirtelen átrántja a kormányt a bal sávba; az érzés leírhatatlan. Azt kaptam a válaszban, hogy 2018-ban 11 468 esetben szabtak ki bírságot a reggel 6 és este 10 óra közötti előzési tilalmat megszegő kamionokra, valamint 1004 alkalommal szankcionálták a járművek szabálytalan megterhelését. Ezek valóban magas számok, de a mai napig nemrég jelent meg egy nagy híradás egy komoly balesetről ez ügyben a magyar autópályákon ezek a horrorkaravánok továbbra is ott vannak. Ezúttal több kérdést szeretnék feltenni ez ügyben az illetékes államtitkár úrnak.</seg>
+<seg xml:id="IC8_7850.5">Elég hatékonynak ítélike meg a szankcionálás rendszerét ahhoz, hogy a megbüntetett román, bolgár s a többi szabálytalankodón a büntetést valóban be lehessen hajtani? Elég visszatartó erejük vane a jelenlegi szankcióknak, vagy ezeknek a horrorkaravánoknak a visszaszorításához ami mindannyiunk közös érdeke, hogy a magyar autópályákon biztonságban közlekedhessünk érdemes volnae a büntetések mértékén emelni?</seg>
+<seg xml:id="IC8_7850.6">(13.40)</seg>
+<seg xml:id="IC8_7850.7">Vane arra nézve kimutatás, hogy, mondjuk, az elmúlt évben, illetve lassan már a 2019. évben is hány gépjármű volt külföldi, és hányan fizették be valóban a kirótt büntetést? Hiszen nem olyan egyszerű ezeket a nemzetközi szinten kirótt büntetéseket behajtani. A teljes szankcionálás véleményünk szerint reformra szorul, hiszen ezek általában olyan kereskedők, nevezzük őket így, akik Németországból vagy egyéb nyugati országból általában levetett, idős kocsikat hoznak be üzletszerűen Romániába, Bulgáriába, Szerbiába s a többi. És nagy valószínűséggel már be van kalkulálva ennek a büntetésnek a mértéke az ő üzleti tervükbe, ha szabad így mondani.</seg>
+<seg xml:id="IC8_7850.8">Tehát az a kérdésünk, hogy kellenee itt ez ügyben egy olyan büntetési reformot végrehajtanunk, és meggyőződésünk, hogy igen, ami visszatartó erővel bír. Hiszen, még egyszer mondom, ez mindannyiunk közös érdeke, hogy a magyar autópályákon végre biztonságban tudjunk közlekedni. Várom államtitkár úr érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-10-interpellation-IC8_8045" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="IC8_8045.1">Tisztelt Elnök Úr! Tisztelt Ház! Mint ismeretes, a forint folyamatos gyengülése és a 2010-eshez, 2012-eshez képest lényegesen gyengébb sávba történő beállása brutális, évente több száz milliárdos kiadási terhet jelent a magyar lakosságra nézve, a magyar családok pénztárcáira nézve. Múlt héten ismertettem önökkel, hogy egy önök által luxuscikknek nevezett okostelefon esetében, amit én azért mindennapi szükségletnek érzek, akár 30-40 ezer forint is lehet az árkülönbözet, pusztán és csak a forint gyenge árfolyama miatt, ahogy azt is elmondtam önöknek, hogy egy H&amp;M-es ruhát venni egy bevásárlóközpontban sem tekinthető szerintem luxuscikknek; egy ilyen ruhadarab esetében 3-4 ezer forint is lehet a különbség, csak a gyenge forintárfolyam miatt, amit önök tudatosan helybenhagynak. Nem azt akarom mondani, hogy egyedül a kormány felelős egy deviza vagy valuta árfolyamáért, nem vagyok szakmaiatlan és felelőtlen sem. De azt mondom, hogy a nem cselekvéssel hagyják ezeket a káros gazdasági folyamatokat elburjánzani, aminek eredménye, hogy egy egyszerű importgyümölcs darabja esetén is lehet 30-40 forint az a pluszár, amit ki kell fizetni a kasszánál, pusztán azért, mert az Orbán-kormány és az MNB tulajdonképpeni közös stratégiája a gyenge forint megtűrése.</seg>
+<seg xml:id="IC8_8045.2">Ez a gyenge forint Orbán Viktor miniszterelnök úr szerint az exportáló cégeknek jó, és nincs okunk vitatkozni ezzel a szakmai megjegyzéssel; azt kell megvizsgálnunk, hogy kik ezek az exportáló cégek. Hogy a miniszterelnököt idézzem: kinek jó ez? Az exportáló cégek között minimális mennyiségű magyar mikro-, kis- és közepes méretű vállalkozást találunk, viszont rengeteg olyan multicéget, amelyet ez a kormány kedvezményez infrastrukturális támogatásokkal, munkahelyteremtési támogatásokkal, vissza nem térítendő dotációkkal és számtalan olyan kedvezménnyel, ami bődületes, a közteherviselés alól vonja ki gyakorlatilag ezeket a társaságokat.</seg>
+<seg xml:id="IC8_8045.3">Ha valaki kritikus a Gyurcsány-, Bajnai-kormányok multikkal elbánó gazdaságpolitikájával szemben, akkor az én vagyo</seg>
+<kinesic type="noise"><desc>Közbeszólások a kormánypártok soraiból.</desc></kinesic>
+<seg xml:id="IC8_8045.4">; egyáltalán nem tudom elfogadni azt, hogy túlkedvezményezték ezeket a társaságokat, viszont azt hozzá kell tennem, hogy az Orbán-kormányok még ezen a vállalhatatlan retorikán is túltesznek és ezen a vállalhatatlan viselkedésen is túltesznek azzal a kedvezménytömeggel, amit indokolatlanul adnak oda. És Font képviselőtársam röhögcsélhet, de álljon fel, magyarázza meg, hogy miért tartják ilyen brutálisan alacsonyan gyengén a forintárfolyamot, miért kell a magyar lakosságnak több száz milliárdos bónuszterhet vállalni évente ezért, amikor a másik oldalon a kafetériaelemek megszüntetésével előállítanak mesterséges, papíron lévő bérnövekményt, de a valóságban ez nem feltétlenül létezik; amikor a lakástakarék állami lábának leépítésével szintén lehetőségeket vesznek el a magyaroktól, a 27 százalékos áfa helyben tartásával pedig szénné adóztatják egy európai uniós rekorder áfatartalommal a teljes magyar lakosságot, elképesztő összegeket vonnak el indokolatlanul.</seg>
+<seg xml:id="IC8_8045.5">A kérdésem az, hogy számszerűsítettéke ezeket az indokolatlan elvonásoka</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="IC8_8045.6">, mennyibe kerül tehát a magyar lakosságnak az Orbán-kormány és az MNB stratégiájának megfelelő, elképesztően gyenge magyar forint. Várom az érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-10-interpellation-IC8_8379" who="#IstvánHiller" ana="#regular"><note>DR. HILLER ISTVÁN (MSZP):</note>
+<seg xml:id="IC8_8379.1">Tisztelt Elnök Úr! Képviselő Asszonyok és Képviselő Urak! Igen tisztelt Államtitkár Úr! Kormányzati bejelentés szerint néhány hónap múlva, 2020. február 1-jétől jelentkezhetnek a diákok külföldi nyári nyelvi kurzusra, amikor is 9. és 11. osztályos fiatalok idegen nyelvi környezetben tanulhatnak angolul, németül és más nyelveken. Ezzel nincs is semmi baj. Azzal már igen, hogy ezzel a bejelentéssel szinte egyidejűleg kénytelenek voltak bejelenteni egy másik hírt, azt, hogy öt évvel az eredeti döntés után mégis visszalépnek, és elállnak attól a tervüktől, hogy a felsőoktatási intézményekbe való bejutáshoz kötelező a középfokú nyelvvizsga. Ez nyilvánvalóan bizonyítja, hogy belátták, az elmúlt kilenc év oktatáspolitikája és azon belül az idegennyelv-oktatással kapcsolatos elképzeléseik teljes csődöt mondtak.</seg>
+<seg xml:id="IC8_8379.2">Ha ehhez még hozzátesszük, hogy a felsőoktatásban több mint 91 ezer ember azért nem tudja átvenni a diplomáját, mert nincs legalább egy idegen nyelvből középfokú nyelvvizsgája, jól látható, hogy ez az egész maga a kudarc. A számot tisztelettel megismétlem: kedves képviselőtársak, ma Magyarországon 91 ezer olyan felnőtt van, aki elvégezte a felsőoktatási tanulmányait, de idegennyelv-tudás birtokában nem lévén nem kapja meg a diplomáját.</seg>
+<seg xml:id="IC8_8379.3">Az, hogy idegen nyelvi közegben tanuljanak a diákok, önmagában helyes elképzelés. A megvalósítás módja, már amennyit erről most tudni lehet, azonban ismét felveti, hogy nem egy újabb sikertelen kísérletről vane szó. A tervek szerint diákjaink, közel 90 ezren kéthetes, azaz 14 napos külföldi tartózkodás során 20-25 órás nyelvtanfolyamokon vennének részt, amelynek költségvetési igénye a sajtóban megjelent hírek szerint 90 milliárd forint.</seg>
+<seg xml:id="IC8_8379.4">Azt szeretném kérdezni, hogy ez meg mi. Mert ha külföldi kirándulás, annak egy kicsit drága 90 milliárdért. Ha viszont nyelvtanulás 20-25 órában, ahhoz meg kevés.</seg>
+<seg xml:id="IC8_8379.5">Akkor azt szeretném megkérdezni, tisztelt államtitkár úr, valóban 20-25 óra alatt akarjáke megtanítani külföldön a diákokat idegen nyelvre 90 milliárd forintért. Egyeztettéke elképzelésüket szakmai szervezetekkel, és mit kívánnak tenni a hazai közoktatásban az idegen nyelv tanításáért és javításáért? Köszönöm szépen, hogy meghallgattak</seg>
+<kinesic type="applause"><desc>Taps az MSZP, az LMP és a Párbeszéd soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-10-interpellation-IC8_8380" who="#PéterUngár" ana="#regular"><note>UNGÁR PÉTER (LMP):</note>
+<seg xml:id="IC8_8380.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Ház! Többen láthatták azt a nyílt levelet, amit a Lépjünk, hogy léphessenek! Közhasznú Egyesület publikált, megjelent itt a különböző asztalokon is, aminek az a címe, hogy „Lesz szabad karácsonya az otthon ápoló családoknak”. Három jelentős és fontos probléma van, amit a szociális kormányzat nem tudott megoldani az elmúlt időszakban. Hiába emelték a gyodot, jelenleg Magyarországon az a helyzet, hogy 38 ezer, illetve 58 ezer forintot kapnak azok az otthongondozást végző, 0-24 órás munkát végző családok, akik legtöbbször idős embereket, tehát nem gyermeküket gondozzák otthon. Ennek a minimálbérre való emelése amúgy Mátrai Márta képviselőtársam javaslata volt 2004-ben. Ez egy nagyon helyes javaslat volt, a Fidesz sajnos az ön javaslatát leszavazta azóta. Ez a javaslat kéne hogy megvalósuljon, és akkor minimálbért tudnának ezek az emberek is kapni.</seg>
+<seg xml:id="IC8_8380.2">A második az, hogy nagyon sok visszaélés volt a gyodnak a felülvizsgálata kapcsán. Sok olyan család esett ki a gyod felülvizsgálata során a gyermekek otthongondozási díjából, akik amúgy megérdemelték volna ezt az összeget, hiszen fáradhatatlan munkát végeznek.</seg>
+<seg xml:id="IC8_8380.3">De továbbmennék: a házi segítségnyújtáson és a támogató szolgálatokon kívül probléma az is, hogy a szociális szektor bérei az állami szektor legalacsonyabb bérei, a szociális szektorral önök látszattárgyalásokat folytatnak helyettes államtitkári szinten, és nem hagyják, hogy az Alaptörvényben biztosított sztrájkjogukkal éljenek a szociális dolgozók. Az a helyzet, hogy jelenleg ma Magyarországon egy 15 év munkatapasztalattal dolgozó gyógypedagógus egy nyugat-magyarországi megyei jogú városnak a FENO-jában vagy ÉNO-jában 154 ezer forint nettót keres. Ha arrébb megy 30 kilométert Ausztriába, többet keres, mint az intézményvezető. Nem csoda, hogy több mint tízezer betöltetlen álláshely van a szociális szektorban.</seg>
+<seg xml:id="IC8_8380.4">Az a helyzet, hogy 60-70 milliárd forrást igényelne elsősorban tűzoltásszerűen ezeknek a gondoknak a mérséklése. Megvan jelenleg ez ebben a költségvetésben, de önök és nem fogok belekezdeni populista összehasonlításokba sokkal több felesleges pénzt költöttek más dolgokra, mint hogy a szociális szektor megkapja ezt a 60-70 milliárdot. Az a helyzet, hogy az otthongondozást végző emberek rettentő megterhelő, fáradhatatlan munkát végeznek. Szabadságra nem tudnak elmenni, nem tudnak három napra elmenni a Balatonra.</seg>
+<seg xml:id="IC8_8380.5">Igen, helyes volt, hogy a gyodot megemelték a minimálbér szintjér</seg>
+<kinesic type="noise"><desc>Nacsa Lőrinc közbeszól.</desc></kinesic>
+<seg xml:id="IC8_8380.6">, azóta amúgy, hogy egységesen a minimálbér legyen minden otthongondozónak, kedves Nacsa képviselőtársam, négy alkalommal szavazta le a Fidesz. Négy alkalommal! Úgyhogy mielőtt államtitkár úr újra felolvassa azt a kétéves, megunt panelt, szeretném, ha inkább erre meg a 38 ezer, meg az 58 ezer forintra válaszolna, nem pedig úgy tenne, mintha minden rendben lenne a szociális szektorban, és ezek az emberek megkapnák azt, amit megérdemelnek.</seg>
+<seg xml:id="IC8_8380.7">Önök folyamatosan megalázzák ezeket az embereket, a szociális dolgozókkal meg tárgyalni sem ülnek le. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzék soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-10-interpellation-IC8_8382" who="#MónikaDunai" ana="#regular"><note>DUNAI MÓNIKA (Fidesz):</note>
+<seg xml:id="IC8_8382.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Nemrég kiderült, hogy Gothár Péter rendező, aki korábban az SZDSZ színeiben is politizált, szexuális zaklatási ügybe keveredett, amit később ő maga is beismert</seg>
+<seg xml:id="IC8_8382.2">(Moraj a kormánypártok padsoraiban. Közbekiáltás a Fidesz padsoraiból: Úgy van! Ungár Péter: Ez a nyomozó hatóság?)</seg>
+<seg xml:id="IC8_8382.3">Az elmúlt időszak hírei alapján az is kiderült, hogy a balliberális fellegvárnak számító Katona József Színház vezetője, Máté Gábor már egy éve tudott az esetről, de mindent megtett annak érdekében, hogy az ügyet lehetőleg teljes csendben eltussolja. Ezt Fekete Péter kultúráért felelős államtitkár úrnak adott válaszában is elismerte</seg>
+<kinesic type="noise"><desc>Ungár Péter közbeszól.</desc></kinesic>
+<seg xml:id="IC8_8382.4">Elismerte, hogy húzták az időt az ügy kivizsgálásával és nyilvánosságra hozásával. Gothár az ügy kirobbanása után etikai vizsgálatot kért maga ellen a másik munkahelyén, a Színház- és Filmművészeti Egyetemen</seg>
+<seg xml:id="IC8_8382.5">(Közbekiáltás a kormánypárti padsorokból: Szégyen!)</seg>
+<seg xml:id="IC8_8382.6">Az is kiderült az eset kapcsán, hogy az áldozatok nem mernek megszólalni, mivel a színház vezetése titoktartási szerződést íratott alá az ott dolgozó színészekkel, köztük az áldozattal, áldozatokkal is</seg>
+<kinesic type="noise"><desc>Közbeszólás a Fidesz padsoraiból: Szégyen!</desc></kinesic>
+<seg xml:id="IC8_8382.7">Felháborító, hogy a teátrum így igyekezett védelmezni a zaklatással vádolt rendezőt, annak dacára, hogy éppen a Katona József Színház volt az, amely a MeToo-kampány kirobbanásakor a szexuális zaklatások elleni küzdelem élharcosává kiáltotta ki magát</seg>
+<seg xml:id="IC8_8382.8">(Ungár Péter: Ez a MeToo-kampány, itt! Szászfalvi László: Mi is végighallgattunk téged!)</seg>
+<seg xml:id="IC8_8382.9">Most meg azt látjuk, tisztelt képviselőtársaim, hogy amikor a valódi botrány kitör, a színház az áldozatok védelme helyett csak azzal foglalkozik, miként mentse meg az ismert rendezőt. Az egyetem korábban egy külső vizsgálat indítása helyett az iskola falai között próbálta elsimítani az ügyet, és csak azután vontak be minisztériumi szakértőket is a vizsgálatba, miután Fekete Péter államtitkár úr kérdőre vonta a színház és az egyetem igazgatóit.</seg>
+<seg xml:id="IC8_8382.10">Furcsa az is, tisztelt képviselőtársaim, hogy amikor a nők elleni erőszakról van szó, az ellenzék gyakran akciózik az Országgyűlésben, viszont a Gothár-ügyben eddig semmit nem tett</seg>
+<kinesic type="noise"><desc>Közbeszólás a Fidesz soraiból: Úgy van! Szászfalvi László: Ezt hallgassátok meg!</desc></kinesic>
+<seg xml:id="IC8_8382.11">Úgy látom, hogy a balliberális elit megpróbálja eltussolni Gothár ügyét. Az eset kapcsán teljes körű vizsgálatra van szükség, hogy kiderüljön, hány áldozat van, illetve az intézmények vezetői tudtake ezekről. Indokolt lehet a hatóságok megkeresése is, ha megalapozottá válik a szexuális zaklatás vádja. Az ügy kapcsán elindult egy online petíció is</seg>
+<seg xml:id="IC8_8382.12">(Ungár Péter: Kíváncsi vagyok, ki válaszol.)</seg>
+<seg xml:id="IC8_8382.13">Tisztelt Államtitkár Úr! Az elhangzottakra tekintettel kérdezem önt, hogy milyen lehetőségek vannak arra, hogy ezen személyek a kulturális közéletből kikerüljenek, valamint milyen jogi eszközök állnak rendelkezések ezen személyek felelősségre vonására. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-10-interpellation-IC8_8421" who="#SándorBurány" ana="#regular"><note>BURÁNY SÁNDOR (Párbeszéd):</note>
+<seg xml:id="IC8_8421.1">Elnök úr, köszönöm a szót. Tisztelt Miniszter Úr! Tisztelt Ház! Miniszter úr nemrég úgy nyilatkozott, hogy „Magyarország hosszú távú, biztonságos gázellátása érdekében alapvető érdekünk egy hosszú távú, kiszámítható és megbízható együttműködés a Gazprommal, ezért a Gazprom vezetőjével együtt készek vagyunk megkezdeni a tárgyalásokat egy újabb, hosszú távú gázszállítási megállapodásról.” Ám ahhoz, hogy eldönthessük, a magyar energiafogyasztóknak valóban érdekükben álle egy ilyen szerződés, azt csak a szerződési feltételek ismeretében lehet eldönteni, ezen feltételeket azonban az Orbán-kormány rendre eltitkolja a közvélemény elől.</seg>
+<seg xml:id="IC8_8421.2">Magyarország jelenleg a 2015-ben lejárt, azóta többször meghosszabbított gázszállítási szerződés alapján kapja a gázt Oroszországtól. Az ár többszöri kérdésünk és a média kitartó érdeklődése ellenére ismeretlen. Pontosabban egy olyan bonyolult képlet alapján számítódik, hogy ahhoz egyértelmű gázárat rendelni még a szaksajtó sem tudott. Így a magyar közvéleménynek nincs támpontja arról, hogy milyen áron, milyen feltételekkel hozzák be önök a gázt Oroszországból.</seg>
+<seg xml:id="IC8_8421.3">(A jegyzői székeket Móring József Attila</seg>
+<seg xml:id="IC8_8421.4">és dr. Varga László foglalja el.)</seg>
+<seg xml:id="IC8_8421.5">A gyanús jelek viszont sokasodnak. Néhány éve az Orbán-közeli tulajdonban lévő MET 50 milliárd forintos tiszta profitra tett szert az orosz gáz Magyarországra importálásán. Ezt még lehetett egyszeri, bár a fogyasztóknak így is jelentős veszteséget okozó botlásnak tekinteni. Amellett viszont aligha mehetünk el szó nélkül, hogy időközben a közpénzszázmilliárdokért visszavásárolt magyar gáztároló-kapacitást az orosz gázexportőr Gazprom rendelkezésére bocsátotta a kormány, a nagyságrendileg hasonló összegből kiépült alternatív gázszállító-kapacitásokat érdemben pedig nem használjuk. Mindkét lépés az oroszok monopolhelyzetének tartósítását szolgálja, ami aligha magyar érdek.</seg>
+<seg xml:id="IC8_8421.6">Az is feltűnhetett a figyelmes szemlélőknek, hogy a magyar fogyasztói gázár immár tartósan magasabb a szabadpiaci gázárnál, amin a magyar gázfogyasztók évente százmilliárdokat buknak. Hogy az említett összeg kinek a zsebébe vándorol, azt nem tudjuk, ezért is lenne fontos az importár megismerése.</seg>
+<seg xml:id="IC8_8421.7">Ezért kérem, szíveskedjen válaszolni néhány egyszerű kérdésre. 1. Jelenleg köbméterenként hány forintért vásároljuk a földgázt Oroszországtól? 2. Az alternatív beszerzési csatornák kiépítése után mi indokolja, hogy évtizedekre elkötelezzük magunkat egyetlen olyan beszállítónak, amely már így is egészségtelenül nagy szerepet visz a magyar energiaellátásban? 3. A jelenlegi árhoz képest milyen árszinten szeretnék az új szerződést megkötni? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Párbeszéd soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-10-interpellation-IC8_8423" who="#IstvánSimicskó" ana="#regular"><note>DR. SIMICSKÓ ISTVÁN (KDNP):</note>
+<seg xml:id="IC8_8423.1">Köszönöm szépen a szót, elnök úr. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Asszony! A mindenkori kormány célja kell legyen az emberek életminőségének folyamatos javítása. A Fidesz-KDNP-kormány egészségpolitikájának is ez a célja, ez az alapja, a megelőzéstől az alapfokú ellátáson át a kórházi betegellátásig, a sürgősségi ellátáson keresztül a szűrővizsgálatok fejlesztéséig ennek a célnak kíván megfelelni. Az elmúlt időszak tevékenységének köszönhetően már kezdenek látszani az eredmények. Az emberek általános egészségügyi állapota kezd javuló tendenciát mutatni.Tisztelt Országgyűlés! A kormány a központi és vidéki régiók kórházi és rendelőintézeti ellátását fejlesztette az elmúlt években. Egy-két példát hadd említsek! 2010 óta több mint ezer mentőautót cserélt le a kormány. Ez egy óriási eredmény, azt hiszem, önmagában is, de emellett számos intézkedést hozott, többek között a sokat emlegetett CT és MR kérdéskörében is, hiszen 2010 óta csaknem 200 milliárd forintot fordított a kormány ilyen eszközökre és ilyen típusú vizsgálatokra.</seg>
+<seg xml:id="IC8_8423.2">A 2010 előtti kormány 600 milliárd forintot vett el az egészségügytől, 16 ezer aktív kórházi ágyat számolt fel, és közel hatezer egészségügyi dolgozó munkahelyét szüntette meg. Az októberi önkormányzati választások után úgy tűnik, hogy az egyes ellenzéki budapesti városvezetők és az új főpolgármester is azt akarja folytatni, amit 2010 előtti elődeik tettek. A főpolgármester úr kórházstopot hirdetett, a dél-budai centrumkórház megépítése ellen szavazott, hozott határozatot.</seg>
+<seg xml:id="IC8_8423.3">Kérdezem tisztelt államtitkár asszonyt, milyen eredményeket hoztak a népegészségügyi programok, a szűrővizsgálatok, és mely területeken látszanak a megelőzés eredményei. Kérdezem tisztelettel, hogy hol tartanak országosan és budapesti szinten az egészségügyi intézmények fejlesztései, különös tekintettel mi várható a dél-budai centrumkórház megépítésének ügyében.</seg>
+<seg xml:id="IC8_8423.4">Köszönöm előre is megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-10-urgent_question-AC8_8230" who="#PéterJakab" ana="#regular"><note>JAKAB PÉTER (Jobbik):</note>
+<seg xml:id="AC8_8230.1">Köszönöm a szót. Tisztelt Miniszterelnök Úr! Hát, nézem a híreket a minap, és azt olvasom, hogy Magyarország két új kórházat is épít.</seg>
+<seg xml:id="AC8_8230.2">(14.40)</seg>
+<seg xml:id="AC8_8230.3">Hát, mondom, na végre, megjött az önök józan esze, aztán tovább olvasom a hírt, és látom, hogy igen, két új kórházat építünk Kenyában. Miniszterelnök úr, ön most ezt komolyan gondolja? Tehát Magyarországon kórházi osztályokat zárnak be, Miskolcon épp a szülészetet akarják bezárn</seg>
+<seg xml:id="AC8_8230.4">(Dr. Rétvári Bence: Nem igaz!)</seg>
+<seg xml:id="AC8_8230.5">, a Szent János Kórházban gumikesztyűre meg vécédeszkára gyűjtenek, a Heim Pál Gyermekkórházban kamionosok kalapoznak lázmérőre valót, és önök Kenyában építenek kórházat? Isten bizony, én megnéztem, hátha az Origo vagy a Lokál írta, mert akkor biztos, hogy nem igaz, de sajnos igaz.</seg>
+<seg xml:id="AC8_8230.6">Miniszterelnök úr, döntsék már el, önöknek most Magyarország az első, vagy Kenya, vagy Vietnám, ahol önök, a magyar kormány 20 milliárd forintért építenek onkológiai kórházat akkor, teszem hozzá, amikor Magyarországon évente 33 ezer beteg ember hal meg rákban! Az önök egészségügyért is felelős miniszterének meg van bőr a képén azt mondani, hogy az egész világ irigykedik a magyar onkológiai ellátás láttán.</seg>
+<seg xml:id="AC8_8230.7">Miniszterelnök úr, egyetért ön ezzel? Egyetért ön azzal, hogy irigylésre méltó 33 ezer embernek a halála? Vagy egyetért ön azzal, hogy a kórházi fertőzésekért a látogatók a hibásak? Kásler miniszter úr szerint nem az a baj, hogy nincs kézfertőtlenítő a kórházakban, hanem az a baj, hogy van látogató. Vagy azzal egyetért, hogy azért nincs vécépapír a kórházakban, mert ellopják? Emlékezhetünk, az Állami Számvevőszék fideszes elnöke mondta azt, hogy a kórházak jó eséllyel ellophatják a vécépapírt, miközben nemhogy nem lopják el, de épphogy ők gyűjtenek azért, hogy legyen.</seg>
+<seg xml:id="AC8_8230.8">Eközben önök arról beszélnek, hogy a magyar egészségügyi ellátás felszereltsége európai színvonalú. Miniszterelnök úr, az a helyzet, hogy az önök nagyotmondásával népiesen szólva pont kitörölhetjük, vécépapírral meg maximum csak akkor, ha viszünk be. Úgyhogy válaszoljon nekem, de őszintén! Hova tűnik el az a rengeteg tb, amit a magyar emberek egy életen át befizetnek önöknek, merthogy az egészségügyben nincs, az holtbiztos</seg>
+<seg xml:id="AC8_8230.9">(Dr. Rétvári Bence: Ez az a szeretet, amiről beszéltél?)</seg>
+<seg xml:id="AC8_8230.10">Várom a válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-10-urgent_question-AC8_8238" who="#AntalCsárdi" ana="#regular"><note>CSÁRDI ANTAL (LMP):</note>
+<seg xml:id="AC8_8238.1">Köszönöm szépen a szót. Tisztelt Ház! Tisztelt Miniszterelnök Úr! Kocsis Máté egy közösségi oldalon úgy fogalmazott, hog</seg>
+<seg xml:id="AC8_8238.2">(Németh Szilárd István: Hogy bakfitty!)</seg>
+<seg xml:id="AC8_8238.3">az aggódó színházak zaklatószínházak, és mint ilyen, épp ezért a Fidesz-KDNP szövetség támogatni fogja az egyébként ma tárgyalandó, színházi finanszírozásról szóló törvényt. Az volna a tiszteletteljes kérdésem, hogy ezzel a csúnya általánosítással, ezzel a csúnya általános lejáratással, amivel a teljes színházi életet megsértette a Fidesz-KDNP frakcióvezetője, erről mi a véleménye</seg>
+<seg xml:id="AC8_8238.4">(Kocsis Máté: KDNP nem!)</seg>
+<seg xml:id="AC8_8238.5">Bocsánat, a Fidesz frakcióvezetője.</seg>
+<seg xml:id="AC8_8238.6">Azt gondolom, egy ilyen kijelentés joggal sért minden, színházi életben dolgozó embert, a rendezőtől a színészen keresztül a dramaturgig. Azt gondolom, joggal várja el mindenki a választ, hogy olyan nagyjainkat meg lehete sérteni egy ilyen általánosítással, mint Bodrogi Gyula, Cserhalmi György vagy Molnár Piroska. Azt gondolom, hogy erre joggal várjuk a választ. Tisztelettel várom válaszát. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-10-urgent_question-AC8_8439" who="#TimeaSzabó" ana="#regular"><note>KOCSIS-CAKE OLIVIO (Párbeszéd):</note>
+<seg xml:id="AC8_8439.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Miniszterelnök Úr! A múlt héten összeült a Nemzeti Média- és Hírközlési Hatóság Médiatanácsa tagjait jelölő eseti bizottság, ahova minden parlamenti frakció jelölhetett tagokat. A kérdés az persze, hogy minek jelölhetett minden frakció tagokat a bizottságba, hiszen mind a négy szabad helyre négy fideszest, saját embereket választott a Fidesz. Minek kellettek oda az ellenzéki pártok, hogyha a Fidesz megoldja maga is? Persze, a kérdés költői. A Médiatanács feladata, hogy felügyelje a médiát annak érdekében, hogy biztosítsa a demokratikus nyilvánosság működését. De az biztos nem demokratikus, hogy az ellenzék nem jelölhetett egyetlen tagot sem a Médiatanácsba. Azt se nevezném demokratikus nyilvánosságnak, hogy a közszolgálati tévé és rádió a kormányzó pártok szócsöve. Volt MTVA-s dolgozók nyilatkoztak arról, hogy egyenesen a Fidesz kommunikációs osztályáról érkeznek az instrukciók, melyik az aktuális propaganda, amit harsogni kell, melyik az az ellenzéki képviselő, akit le kell járatni vagy rágalmazni kell. De a látszatra se figyelnek, hiszen ugyanazok a szlogenek, ugyanazok a szófordulatok mennek ezekben a műsorokban, amiket az ön államtitkárai itt használnak.</seg>
+<seg xml:id="AC8_8439.2">Tisztelt Miniszterelnök Úr! Érkezik parancs az MTVA-ba, hogy kiket kell lejáratni és milyen propagandát kell harsogni? Nehéz így választásokat nyerni? Veszélyeztetné a Fidesz hatalmát, hogyha egyetlenegy ellenzéki tagot beengednének a Médiatanácsba? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a Párbeszéd soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-10-urgent_question-AC8_8440" who="#OlivioKocsis-Cake" ana="#regular"><note>KOCSIS-CAKE OLIVIO (Párbeszéd):</note>
+<seg xml:id="AC8_8440.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Miniszter Úr! Látom, próbálják azt a képet beállítani, mintha itt a visontai erőmű kapcsán csak egy egyszeri problémáról lenne szó és csak egy egyszeri szennyezés történt volna, de a helyzet nem ez. Én még idén augusztusban értesültem, hogy a Bene- és a Tarna-patak koromfekete, ezért kérdéssel fordultam a belügyminiszterhez, aki a válaszában azt közölte, hogy a Bene- és a Tarna-patakot a visontai Viresol Kft. tározójából fakadó szennyezés borította el. Azóta rendszeresen komoly ipari szennyezés éri ezeket a patakokat és a környezetet is. Gyakorlatilag ezekből a patakokból teljesen eltűnt az élővilág. És most ön mondja, hogy rendszeresen folytat méréseket a katasztrófavédelem, és nem talál semmi szennyezést.</seg>
+<seg xml:id="AC8_8440.2">(15.30)</seg>
+<seg xml:id="AC8_8440.3">November 20-án a Greenpeace mért jó pár helyen, és jó pár helyen megállapította, hogy a megengedett határértéken túl szennyező anyag, gyakorlatilag szennyvíz folyik ezekbe a patakokba, helyekre. Önök, amikor Bige Lajos gyárával kapcsolatban fölmerült bármi gyanú, akkor nagy szigorúsággal jártak el, felfüggesztették egyből a gyár működését, megszállták a gyárat, és vizsgálódtak.</seg>
+<seg xml:id="AC8_8440.4">Az a kérdésem, hogy miért nem járnak el ugyanilyen szigorúsággal a Viresol Kft. ellen, nyilvánvalóan Mészáros Lőrinc tulajdona, mikor fognak ugyanilyen keményen eljárni és ugyanilyen vizsgálatokat folytatni egy olyan gyárral szemben, amely rendszeresen szennyezi a környezetet. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az LMP és a Párbeszéd soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-10-urgent_question-AC8_8446" who="#TamásCsányi" ana="#regular"><note>CSÁNYI TAMÁS (Jobbik):</note>
+<seg xml:id="AC8_8446.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Miniszterelnök Úr! Tisztelt Ház! A kérdésem elején engedje meg, hogy egy alaptézist fogalmazzak meg, amelyet ugyan mindenki igen jól ismer, bár nem mindig tekintik önök sem irányadónak, a tézis pedig az, hogy nincs két Fidesz. Annál is inkább fontos ezt hangsúlyoznunk, mert itt ül az önök soraiban Farkas Flórián, akinek elnöksége alatt kötött az EMMI uniós támogatási szerződést az Országos Roma Önkormányzattal. A „Híd a munka világába” nevű program keretében az ORÖ 1,6 milliárd forintot kapott szociális szövetkezet alapítására. Kiderült azonban, hogy a pénzt elköltötték, miközben érdemi munka nem történt. Az Európai Unió Csalás Elleni Hivatala, az OLAF már egy éve megküldte a jelentését a Legfőbb Ügyészségnek, amelyből egyértelműen kiderül, hogy az Országos Roma Önkormányzat által elszámolásra benyújtott 1,6 milliárd forintot illetően, idézem: „a teljes összeg esetében fennáll a szabálytalanság gyanúja”. Vagyis szőrén-szálán eltűnt a pénz, vádemelés azonban nem történt. Nincs két Fidesz.</seg>
+<seg xml:id="AC8_8446.2">Ezt azért is érdemes hangsúlyoznunk, mert itt ül az önök soraiban az a Simonka György, akinek lassan egész családját bűnszervezetben elkövetett költségvetési csalással vádolja az ügyészség. Sajtóhírek szerint a fideszes parlamenti képviselő neje és unokahúga ellen már vádat is emelt, sőt úgy tudni, Simonka édesanyja is az ügyészség látókörébe került. A vád szerint Simonka György és társai 1,4 milliárd forint kárt okozó költségvetési csalást és más bűncselekményeket követtek el. Az önök képviselőjére nyolc és fél év fegyház és teljes vagyonelkobzás várhat. Nincs két Fidesz.</seg>
+<seg xml:id="AC8_8446.3">És most itt van Boldog István ügye, akinek a jobbkezeként ismert Fehér Petrát többedmagával előzetes letartóztatásba helyezték. Hivatali vesztegetés elfogadásának bűntette és más bűncselekmények miatt folyamatban lévő büntetőügyben nyomoznak. A kérdésem az, hogy leülteke Boldog Istvánnal, ha nem is Cserkén a termálban egy szál fürdőgatyában, de bármely körülmények között, és megkérdeztéke tőle, hogy mit szól ezekhez a vádakhoz.</seg>
+<seg xml:id="AC8_8446.4">A választókerületünk egy emberként kérdezi öntől: mi lesz Boldog István sorsa? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-10-urgent_question-AC8_8455" who="#LászlóSzászfalvi" ana="#regular"><note>SZÁSZFALVI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC8_8455.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Miniszter Úr! Gyurcsány Ferenc és a baloldali ellenzék a nemzetárulás szégyennapjává tette 2004. december 5-ét, hiszen ekkor tartották Magyarországon a magyar állampolgárság kiterjesztéséről szóló népszavazást. Azóta sem feledhetjük el a baloldal akkori nemzetárulását. A határon túli magyarok ellen áskálódó politikusok most demokratának és jóakaratúnak állítják be magukat, miközben a volt miniszterelnök és frakciójának tagjai látványosan bojkottálják például a Magyar Állandó Értekezletet, és nem szavazták meg a 2020-as esztendőt a nemzeti összetartozás évévé nyilvánító országgyűlési határozatot sem.</seg>
+<seg xml:id="AC8_8455.2">Az Orbán-kormány első intézkedéseivel a magyarság közjogi újraegyesítése és az egyszerűsített honosítási eljárás bevezetése megtörtént, ma már Magyarország Alaptörvényének is része az elszakított területeken élő magyar testvéreink iránti felelősségviselés.</seg>
+<seg xml:id="AC8_8455.3">Tisztelt Miniszter Úr! A kormány a kettős állampolgárság bevezetésén kívül számtalan más formában is támogatja a határon túli magyarokat, és arra törekszik, hogy erősítse a nemzetrészek közötti kapcsolatokat. A kormány több mint ötven magyar középiskola, kollégium, szórványkollégium fenntartható működését biztosítja, nyolc külhoni magyar nyelvű felsőoktatási intézmény, kar számára nyújt folyamatos támogatást. A Határtalanul!-program keretében pedig a 2019-2020-as tanévben csaknem 101 ezer iskolás ismerheti meg a Kárpát-medencét és építheti a kapcsolatokat nemzettársaival.</seg>
+<seg xml:id="AC8_8455.4">Mindezek alapján tisztelettel kérdezem miniszter urat, hogyan értékeli a kormány eddigi szerepvállalását a határon túli magyarok érdekében, és milyen további intézkedéseket terveznek a közeljövőben. Várom miniszter úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-10-urgent_question-AC8_8456" who="#TamásHarangozó" ana="#regular"><note>DR. HARANGOZÓ TAMÁS (MSZP):</note>
+<seg xml:id="AC8_8456.1">Köszönöm a szót, elnök úr. Miniszterelnök Úr! A Privát Kopó bűnügyi magazinban jelent meg egy írás, és ezzel kapcsolatban szeretném kérni az ön álláspontját, illetve hogy valóban valóságot tartalmaz-e</seg>
+<seg xml:id="AC8_8456.2">(Németh Szilárd István: Komoly kérdés lesz!)</seg>
+<seg xml:id="AC8_8456.3">A történet úgy néz ki, hogy hosszas operatív nyomozás után csapott le a NAV Nyugat-dunántúli nem olyan vicces a történet, miniszterelnök úr Bűnügyi Igazgatósága a szinte családi vállalkozásban működtetett győri roma kisebbségi önkormányzatot irányító H. család tagjaira. A nyomozó hatóság hat feljelentés után kezdett el vizsgálódni, a pénzügyi nyomozók üzletszerűen elkövetett költségvetési csalásra és más gazdasági bűncselekményekre gyanakodnak. Az államnak okozott kár meghaladhatja a 800 millió forintot, ám ami történt, az túlmutat a gyanúban megfogalmazott tényeken, az eseményeket átszövik a helyi politikai érdekek, valamint lépten-nyomon felsejlik a kiszolgáltatott, választási csalásra kényszerített és a sajátjaik által kizsákmányolt cigány közösség sorsa.</seg>
+<seg xml:id="AC8_8456.4">A biznisz abból állt, hogy cégeket, egyesületeket alapítottak, amelyekben elsősorban a családtagok, azaz Horváth édesanyja, lánytestvére, majd gyermeke is ügyvezető lett, elsősorban a Győr-Szol Zrt.-vel, önkormányzati céggel kötöttek megbízási szerződést. Az önkormányzati gazdasági társaság megbízható megrendelő lett, közfoglalkoztatási feladatokkal bízták meg ezeket a cégeket. Nyomon követhetően 2012 óta minden évben kötöttek velük megbízási szerződést. A hírek szerint amikor Sági Géza Tibor elnök nem kívánta már igénybe venni a szolgáltatást, akkor közbelépett a csak Vezérnek nevezett nagyember, és intézkedett az újabb és újabb szerződések megkötésére.</seg>
+<seg xml:id="AC8_8456.5">Az, hogy a feljelentéseknek alapja van, úgy tűnik, megalapozott, hiszen a család és a családtagok vagyonát mintegy 200 millió forint értékben zár alá vette a NAV az elmúlt időszakban. Kitűnik egyébként, hogy gyermekek, köztük kiskorú gyermekek tulajdonában lévő több tíz milliós vagy több száz milliós ingatlanokról és bankszámlákról beszélünk.</seg>
+<seg xml:id="AC8_8456.6">Tehát kérdezem miniszterelnök urat, igazake a cikk állításai, valóban folyike a nyomozás a győri roma kisebbségi önkormányzat elnöke ellen</seg>
+<kinesic type="signal"><desc>Az elnök csengetéssel jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC8_8456.7">És lehete tudni, miniszterelnök úr, hogy ki az a Vezér és nagyember, aki rendszeresen Győrben odaszól</seg>
+<kinesic type="signal"><desc>Az elnök ismét csenget.</desc></kinesic>
+<seg xml:id="AC8_8456.8">, hogy ezek a szerződések megköttessenek?</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-10-urgent_question-AC8_8458" who="#LajosKorózs" ana="#regular"><note>KORÓZS LAJOS (MSZP):</note>
+<seg xml:id="AC8_8458.1">Köszönöm szépen. Tisztelt Ház! Tisztelt Elnök Úr! Miniszter Úr! A hét végén kihelyezett bizottsági ülésre került volna sor Egerben, a Fenntartható fejlődés bizottsága szerette volna meghallgatni azokat a szakhatósági vezetőket, akik kompetenciával bírnak a visontai erőműben kialakult helyzet kapcsán, a katasztrófavédelemtől kezdve a hulladékgazdálkodáson keresztül egyéb szervezeteket, és sajnos a fideszes képviselők egymás után mondták le a bizottsági ülésen való részvételt, így meghiúsult ez a kihelyezett bizottsági ülés. Ugyanakkor el kell hogy mondjam önnek, miniszter úr, hogy hozzám is eljuttattak egy úgynevezett gyorsinformációt, itt van a kezemben egy másolat</seg>
+<seg xml:id="AC8_8458.2">(Mutatja.)</seg>
+<seg xml:id="AC8_8458.3">, amit az erőmű adott ki, ebből kiderül, hogy szennyezés áll fönn az erőmű területén, a szennyezés forrása az Őzse-völgyi víztározóból érkező technológiai víz, az ebből felszabaduló gázok pedig, kén-hidrogén, nitrogén-monoxid és foszfor-hidrogén az egészségügyi határértéket meghaladták.</seg>
+<seg xml:id="AC8_8458.4">Néhány írásbeli kérdést benyújtottam, de mivel ez a bizottsági ülés elmaradt, engedje meg, miniszter úr, hogy itt is feltegyek önnek néhány kérdést. Itt mindenki azon a véleményen van, hogy nem az erőművel vannak a problémák, hanem az erőmű területén lévő ipari parkban, a Mészáros Lőrinc birtokában lévő Viresol cégnél. Azt szeretném kérdezni, hogy a Viresol vajon a törvényeknek megfelelően kezelie a hulladékot.</seg>
+<seg xml:id="AC8_8458.5">Szeretném megkérdezni, hogy átviszneke hulladékot a Viresolból a Geosolba, ami szintén, úgy tudom, hogy Mészáros Lőrinc birtokában van, illetve a Viresolból az erőműbe. Ezen túl szeretném megkérdezni, hogy szállítottake a Mátraaljáról szennyvíziszaphoz hasonló anyagot a Fővárosi Csatornázási Művek telephelyeire, valamint a Fővárosi Csatornázási Műveknek volte átvételi jogosultsága ezekre a szennyező anyagokra. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-10-urgent_question-AC8_8459" who="#PéterÁgh" ana="#regular"><note>ÁGH PÉTER (Fidesz):</note>
+<seg xml:id="AC8_8459.1">Köszönöm a szót. Tisztelt Államtitkár Úr! Az elmúlt napokban, hetekben egyre több aggasztó hírről lehetett hallani, melyek szerint egy újabb, minden eddiginél erősebb illegális migrációs hullám érheti el a határainkat</seg>
+<seg xml:id="AC8_8459.2">(Dr. Lukács László György: Köszönhető a magyar szerepvállalásnak!)</seg>
+<seg xml:id="AC8_8459.3">Egyes beszámolók szerint több millió illegális bevándorló állomásozik Törökországban. Számuk napról napra és óráról órára megállíthatatlanul növekszik. Ha mindez nem lenne elég vészjósló jel, akkor arra is legyünk figyelemmel, hogy Görögországban több mint százezer, a balkáni országokban több tízezer, és a vajdasági magyar testvéreink beszámolói szerint a határunk közvetlen közelében majd’ 30 ezer illegális migráns bujkál indulásra készen. Ezen bevándorlók százezrei nemcsak a magyarlakta határ menti településeket, de fosztogatásaikkal, agresszív megnyilvánulásaikkal már az egész balkáni térséget rettegésben tartják.Az egyik legaggasztóbb tény pedig, amibe sajnos sokan bele sem gondolnak, hogy majd’ 90 százaléka ezen illegális bevándorlóknak felnőtt, életerős, 30 év alatti, katonakorú férfi. Mi ez, ha nem Európa tudatos megszállása? Felmerül a kérdés, hogy vajon felmértee már bárki annak a kockázatát, a magyar kormány kivételével, hogy mivel járhat egész kontinensünkre és a keresztény kultúrára épülő Európára nézve, ha fiatal, adott esetben akár harcképzett férfiak millióit engedjük be az Európai Unió területére ellenőrzés nélkül? Ahogy láthattuk Brüsszel hozzáállását a kérdéshez, a válasz valószínűleg az, hogy nem.</seg>
+<seg xml:id="AC8_8459.4">A hideg beköszöntével fennállhat annak a veszélye, hogy egyszerre nagyobb tömegek indulnak meg Magyarország irányába, és határátlépési szándékuk minden eddiginél agresszívebb lesz. Fentiekre figyelemmel kérdezem a tisztelt államtitkár urat, hogy felkészülte a kormány egy újabb, akár drasztikus méreteket öltő migrációs hullám megfékezésére is. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-10-urgent_question-AC8_8460" who="#MáriaKállai" ana="#regular"><note>DR. KÁLLAI MÁRIA (Fidesz):</note>
+<seg xml:id="AC8_8460.1">Köszönöm szépen. Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Tisztelt Ház! Ma már volt szó róla ebben a Házban, mint tudjuk, Gothár Péter rendező, aki korábban az SZDSZ színeiben politizált, szexuális zaklatási ügybe keveredett, és ezt ő maga is beismerte. Az elmúlt időszak hírei alapján sokfajta hír látott napvilágot, az is kiderült, hogy a balliberális fellegvárnak számító Katona József Színház vezetője, Máté Gábor nem most tudta ezt meg, egy éve tudott már erről, és mindent megtett annak érdekében, hogy a lehető legnagyobb csendben eltussolja ezt az ügyet. Viszont megdöbbentő az a cinizmus, amivel a Katona József Színház és a főváros balliberális vezetése a Gothár-ügy nyomán kirobbant botrányt kezelte, egyszóval: a hallgatás eszközét választva megpróbálták elhallgatni a szexuális zaklatási ügyet, illetve kisebbíteni a Katona szerepét mindebben.</seg>
+<seg xml:id="AC8_8460.2">A balliberális elit semmiképpen nem akarta azt, hogy ez nyilvánosságra kerüljön. A Gyurcsány-párti Gy. Németh Erzsébet, a DK befolyásos politikusa, aki jelenleg a kultúráért felelős főpolgármester-helyettes, kijelentette, részéről lezártnak tekinthető az ügy, mivel a színház nem tett büntetőfeljelentést.</seg>
+<seg xml:id="AC8_8460.3">Ne feledkezzünk meg arról sem, hogy a Színház- és Filmművészeti Egyetem mindent elkövetett, hogy mentse a lebukott zaklatót, Gothár Pétert. Először álvizsgálattal próbálkozott, majd amikor Fekete Péter határozott levelet küldött, ezt követően ezt már nem tudta megtenni, annak ellenére, hogy különböző trükkökkel továbbra is húzták az időt. Mint ismert, a Katona József Színházat és a Színház- és Filmművészeti Egyetemet lényegében ugyanazok irányítjá</seg>
+<note>(Ungár Péter: Kik?):</note>
+<seg xml:id="AC8_8460.4">Máté Gábor, Ascher Tamás, Gothár Péter</seg>
+<kinesic type="noise"><desc>Ungár Péter közbeszól.</desc></kinesic>
+<seg xml:id="AC8_8460.5">Mivel Máté Gábor mind a két helyen vezető, így a Színművészetiről is elmondható, hogy egy éve már tudott Gothár szexuális zaklatásáról, de nem csinált semmit.</seg>
+<seg xml:id="AC8_8460.6">A kirobbant botrány hatására a közvélemény nyomására szüntette meg csupán az egyetem Gothár Péter jogviszonyát 2019. december 9-én, tette mindezt egy olyan időszakban, amikor a balliberális oldal által jobboldalinak tartott Marton László szó szerint belehalt egy hasonló botrányba. Nem csupán a szexuális zaklatás ténye az, ami felháborító, mélyen elítélendő, elfogadhatatlan, de az is, hogy egy színház vezetése megpróbálja eltitkolni, eltussolja, ahelyett, hogy azonnali hatállyal elbocsátotta volna az elkövetőt</seg>
+<kinesic type="noise"><desc>Ungár Péter közbeszól. Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC8_8460.7">Magyarországon minden alkotóközösségben harmonikus közeg biztosítja és kötelességünk a művészet kiteljesedését, ne kelljen azokért a gyerekekért aggódni, akik ezt a pályát választják</seg>
+<kinesic type="signal"><desc>Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC8_8460.8">Tisztelt Államtitkár Úr! A fentiekre tekintettel kérdezem, milyen garanciák segíthetnek a visszaélések elkerülésében a jövőben, hiszen egyértelmű az, hogy Budapest…</seg>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2015-03-23" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2015-03-23 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2015-03-23 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="10" unit="speeches">10 beszéd</measure>
+        <measure xml:lang="en" quantity="10" unit="speeches">10 speeches</measure>
+        <measure xml:lang="hu" quantity="3449" unit="words">3449 szó</measure>
+        <measure xml:lang="en" quantity="3449" unit="words">3449 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2015-03-23">2015. 03. 23.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="10"/>
+          <tagUsage gi="seg" occurs="50"/>
+          <tagUsage gi="kinesic" occurs="11"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2015-03-23">2015-03-23</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2015-03-23-urgent_question-AC7_3990" who="#LászlóKiss" ana="#regular"><note>KISS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_3990.1">Köszönöm a szót, elnök úr. Mint ismeretes, a KLIK majd’ 300 közoktatási intézményt kért arra, hogy küldjön diákokat és pedagógusokat is a központi állami ünnepélyre. Sajtóhírek szerint az intézmények nagy többsége, több mint 250 intézmény elutasító választ adott erre a felkérésre, ezek közül az egyik, a váci Madách Imre Gimnázium nyíltan utasította el ezt a felkérést, azt írták: tantestületünk pedagógusai nem támogatják és nem szervezik meg a diákok politikai színezetű rendezvényeken való részvételét, elfogadhatatlannak tartják, hogy azt a diákok számára bárki is kötelezővé tegye, és az adatvédelmi törvényekkel ellentétesnek vélik annak kérését, hogy az esetleges résztvevők vagy a diákok adatait továbbküldjék a szervezőknek. Emellett tájékoztatták a közvéleményt arról is, hogy mint mindig, ebben az évben is megemlékeznek a nemzeti ünnepről.</seg>
+<seg xml:id="AC7_3990.2">A visszautasítás híre bombaként robbant, elsőként Fideszhez köthető, álcivil szervezetek nevében fenyegették meg az iskola diákjait, később kiderült, hogy a megjelölt aláírók vagy nem léteznek, vagy az aláírói nem adták ki ezt a közleményt. Erről azonban, úgy tűnik, Vác polgármestere nem értesült időben, így jelentős párthűségről tanúbizonyságot téve behívatta irodájába a gimnázium igazgatóját és annak helyettesét, és számon kérte rajtuk a hazafias nevelést - idézőjelben mondom -, megpróbálta kiszedni belőlük, hogy ki fogalmazta a nyílt levelet, majd közölte, hogy többet nem teszi be a lábát a gimnáziumba. Nyilván a polgármester úr sem tudta, hogy nem fideszes álcivilek tették ezt a provokációt, ennek a buzgalma ehhez köthető.</seg>
+<seg xml:id="AC7_3990.3">Kérdezem tisztelt államtitkár urat a következőkről. A KLIK azt állítja, hogy nem volt szó arról, hogy kötelező részt venni az ünnepségen, ugyanakkor más szerint a tankerületi igazgató március 5-én kötelezőnek mondta a megjelenést. Mi az igazság? Tervezi-e megvédeni az oktatási kormányzat a közoktatási intézmények vezetőit attól, hogy polgármesterek politikai nyomás alá helyezzék őket? Megvédték-e az intézmény diákjait és igazgatóját? Hogy fordulhat elő, hogy egy városi polgármester hatáskörét messze túllépve fenyegessen meg igazgatót, pedagógust?</seg>
+<seg xml:id="AC7_3990.4">(13.30)</seg>
+<seg xml:id="AC7_3990.5">Van-e vizsgálat? Tudják-e pontosan, hogy kik voltak azok, akik az álcivilek nevében megfenyegették az iskola diákjait, tanárait? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-03-23-urgent_question-AC7_3991" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC7_3991.1">Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tudták, hogy mi lesz, mégis megtették. Igaz, folyamatosan hazudtak: nem létezik ez a tanulmány. Most már mindenki tudja, mivel maga a készítő is elismerte a tanulmány létezését. Nem hatástanulmány nélkül záratták be ugyanis vasárnaponként a boltokat. 2011-ben már megvizsgálták, hogy mi várható a vasárnapi zárva tartástól. A 2011-es hatástanulmány semmi jót nem tartalmazott, az volt benne, hogy a kereskedelemből elküldenek 15-20 ezer embert, a költségvetésből pedig kiesik mintegy 50 milliárd forint, és a lakosság kétharmada elutasította. Tudjuk, valahonnan pótolni kell a kieső összeget. Be kell szedni az adófizetőktől, el kell venni valahonnan máshonnan, lehetőleg olyan helyről, ahonnan már eddig is sikeresen elvettek. Ha eddig sikerült elvenni az oktatástól, a kultúrától, az egészségügytől, a szociális ellátórendszerből, miért ne sikerülne most is; a szegényektől, vagy ahogyan az EMMI ajánlja a megnevezést: a rászorultaktól. Ezt tartalmazta a 2011-es hatástanulmány, ami több mint 3 millió forintba került. Igaz, a minisztérium még most sem leli az általa készíttetett anyagot.</seg>
+<seg xml:id="AC7_3991.2">Hogy fordulhat elő, államtitkár úr, hogy egy ilyen anyag csak úgy eltűnik? Egy normális munkahelyen ennek komoly következményei vannak. Még egyszer kérdezem: ki a felelős? Ameddig ötnapi munkából nem lehet megélni, mondta Orbán Viktor, addig nem tudjuk támogatni a vasárnapi zárva tartást. Ezeknek az embereknek, akik elveszítik a munkahelyüket, nemhogy öt napjuk nem lesz most már, hogy meg tudjanak élni belőle, hanem egy sem.</seg>
+<seg xml:id="AC7_3991.3">Egy állampolgári véleményt olvasnék fel önnek, államtitkár úr. „Vádolunk mindenkit, aki közreműködött abban a hétköznapi gazemberségben. Már csak a pontos minősítést kell megtalálni hozzá, valahogy így: előre megfontolt szándékkal, aljas indokból, különös kegyetlenséggel, folytatólagosan elkövetett, nagy társadalmi kárt okozó gazemberség.” Ez a véleménye az embereknek.</seg>
+<seg xml:id="AC7_3991.4">Hol a tanulmány, tisztelt államtitkár úr? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+<seg xml:id="AC7_3991.5">(14.00)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-03-23-urgent_question-AC7_3992" who="#LászlóSzakács" ana="#regular"><note>DR. SZAKÁCS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_3992.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Államtitkár Úr! A szociális biztonság alappillére a biztonságos egészségügyi ellátás. A költségvetés tárgyalásakor többször elmondtam én is, többször föltettük a kérdést, hogy a 100 milliárd forintot meghaladó egészségügyi adósság, illetve a kórházak adóssága tekintetében beállított 60 milliárd forintnyi költségvetési összeg nem lesz elegendő, és látjuk azt, hogy a kormányzat nem tett semmit, egyébként akkor sem kaptunk egyetlenegy érdemi választ sem erre a kérdésre, hogy mi lesz a fennmaradó több mint 40 százalékkal. Most azt látjuk, hogy az Államkincstár jelentése szerint az első két hónapban, januárban és februárban megállíthatatlanul, mintegy 8,4 milliárd forinttal nőtt a kórházak adóssága, ebből 8 milliárd az EMMI intézményeiben volt.</seg>
+<seg xml:id="AC7_3992.2">Most 107 milliárd forint környékére rúg ez az adósság, amelyből 77,4 milliárdot - kiemelném ezt -, 72 százalékot meghaladó összeget egészségügyi intézményekben sikerült felhalmozni. Ideértem a járóbeteg-, fekvőbeteg-szakellátás intézményeit, az egészségügy ágazati háttérintézményeit és a klinikai központokkal rendelkező felsőoktatási intézményeket, és ebből a hatalmas összegből 76,7 milliárd forint beszállítókkal szemben fennálló tartozás.</seg>
+<seg xml:id="AC7_3992.3">Szakmai berkeken belül nagyon tartja magát az a mondás, hogy a GYEMSZI és az EMMI költségvetésébe fog majd bekerülni ez a rengeteg követelés, és a beszállítóknak majd őtőlük kell kérni. Azt kérdezem államtitkár úrtól, hogy ez most tényleg játék-e a számokkal, ez a 60 milliárd forint valójában tényleg csak egy hó végi kölcsön volt-e, és mennyiben fogja befolyásolni a két hatalmas intézmény, az EMMI és a GYEMSZI költségvetését így az adósságállomány. Köszönöm a szót</seg>
+<kinesic type="applause"><desc>Szórványos taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-03-23-urgent_question-AC7_3994" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_3994.1">Köszönöm a szót. Elnök Úr! Tisztelt Államtitkár Úr! Múlt kedden Varga miniszter úr a brókerbotránnyal kapcsolatban azt nyilatkozta, hogy az állampapír a legbiztonságosabb befektetési forma, és ahhoz, hogy valaki állampapírt vegyen, nem kell brókercégnél számlát nyitni. Ez egy ártatlan kijelentésnek tűnhetne más körülmények között, ugyanakkor a mostani helyzetben, amikor bármiféle ellenzéki kritikát a pénzügyi felügyelet felé azzal utasítanak vissza, hogy nem szabad megingatni a pénzügyi rendszerbe vetett bizalmat, nem egyszerűen furcsa, hanem rendkívül visszatetsző. Azt üzeni ugyanis ezzel, hogy az egész pénzügyi szektor megbízhatatlan, és aki félti megtakarított pénzét, bízza állam atyácskára, mert különben rajtaveszthet. Azaz az állam képviselője saját kezűleg fog a bizalom rombolásába. Riogat, pánikot kelt, a pénzügyi rendszer stabilitásába vetett hitet rombolja. Ez egy kormánytagtól rendkívül felelőtlen magatartás. Cinikus üzenet, és különösen felháborító azok szemszögéből, akik bíznak az állami felügyeletben, abban, hogy a PSZÁF és az MNB végzi a dolgát, és nem engedi, hogy csalássorozatok folyjanak akár 15 éven keresztül.</seg>
+<seg xml:id="AC7_3994.2">Államtitkár úr, idézett kijelentésével a miniszter úr bevallotta, hogy a pénzügyi rendszer felügyeletével megbízott MNB a feladatát nem képes teljesíteni. Úgy látja, hogy nincs más megoldás, mint a rendszer megbízhatatlanságának tudomásul vétele - és egy kis nyerészkedés, ha már így alakult. Szerintünk van más megoldás: nem Fidesz-katonákat, hanem hozzáértő szakértőket kell megbízni a pénzügyi szektor felügyeletével</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-03-23-urgent_question-AC7_3995" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_3995.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Mint ön is olvashatja, a MET valószínűtlen sikersorozata tovább folytatódik ebben az országban. Lázár miniszter úr kedvéért mondom, aki állítása szerint kevésbé ismeri a MET-et, amúgy meg a feladatok meghaladják a szellemi kapacitását, hogy a MET egy olyan cég, amely a miniszterelnökhöz ugyancsak közel áll, baráti szálakon kötődik, Orbán Viktorig érnek a szálak gyakorlatilag; részben offshore-cég és részben orosz tulajdonban áll.</seg>
+<seg xml:id="AC7_3995.2">Most a MET egy újabb tendert nyert: hamarosan a MET új partnerétől, a Magyar Telekomtól veszi a parlament az áramot. Tehát az a fény, amelyben itt fogunk ülni, az hamarosan közvetve a MET-től fog jönni, hiszen a vállalat így közvetett módon a Magyar Országgyűlés áramszállítója lett.</seg>
+<seg xml:id="AC7_3995.3">A MET tehát tovább szárnyal, immár most a Magyar Telekom hoz létre vegyes vállalatot a MET-tel, ami azért is érdekes, mert látni kell, hogy itt két olyan vállalatról van szó, amelyik közül egyiknek sincsen saját energiatermelő kapacitása.</seg>
+<seg xml:id="AC7_3995.4">Két út létezik ahhoz, hogy ez a páros energiához jusson, hogyha árampiacról van szó: vagy az MVM-től, vagy más hazai szereplőtől vásárolnak. Na most, ha így tudnak jobb árat mondani, mint az MVM, főleg úgy, hogy a Magyar Telekomon keresztül értékesítenek, az egy gazdasági csoda, de egyébként pedig nagyjából lehetetlen. Vagy pedig külföldről behozzák ezt az áramot. Kérdés persze, hogy miért ők hozzák az áramot, és miért nem az állami cég, és miért nem a magyar adófizető polgároknál csapódik le az ezzel kapcsolatos nyereség. De ezzel kapcsolatban most már a feljelentésnél tartunk, azt nem a parlamentben fogjuk ezek szerint megbeszélni, hanem a bíróságokon.</seg>
+<seg xml:id="AC7_3995.5">Mindenesetre mi úgy látjuk, hogy két lehetséges módon történhetett meg ez a biznisz. Az egyik az, hogy nem az ár döntött. Kérdezem én, hogy akkor mi, tisztelt államtitkár úr. A másik út pedig az, hogy a MET egy újabb célzott importkedvezményt kapott, és így jutott olcsó energiához. Ez azért is egy indokolt felvetés, hiszen a gázpiacon pont ez történt.</seg>
+<seg xml:id="AC7_3995.6">Tehát, tisztelt államtitkár úr, a kérdésem a következő: kapott-e közvetett vagy közvetlen kedvezményt a MET az elmúlt időszakban az árampiacon? Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiból. - Szórványos taps a Jobbik padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-03-23-urgent_question-AC7_3996" who="#MihályWitzmann" ana="#regular"><note>WITZMANN MIHÁLY (Fidesz):</note>
+<seg xml:id="AC7_3996.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Miniszter Úr! Tisztelt Ház! A Buda-Cash-botrány egyik érdekes mellékszála az MSZP pálfordulása a takarékszövetkezeti integráció kérdésében. Emlékeztetőül csupán: pár héttel ezelőtt Harangozó Tamás azzal vádolta meg a köztársasági elnököt, hogy Áder János is aktív szerepet játszott a Buda-Cash érdekeltségi körébe tartozó bankcsoport létrejöttében azzal, hogy 2013-ban nem írta alá a takarékszövetkezeti törvényt, hanem visszaküldte azt a parlamentnek. A fenti idézet már csak azért is felettébb érdekes, mert nincs még két éve sem, hogy a szocialisták homlokegyenest ellenkező véleményt fogalmaztak meg az ügyben.</seg>
+<seg xml:id="AC7_3996.2">Józsa István 2013. július 10-én azt nyilatkozta a takarékszövetkezeti integrációról, idézem: „Ez egy egészen durva megsértése a piacgazdaság fundamentumát képező, a magántulajdon védelmét kimondó alapjogoknak. A kormány az adófizetők, a mi pénzünket használja arra, hogy a fideszes holdudvart feltőkésítse, a kisemmizett kistulajdonosok, a takarékszövetkezeti tulajdonosok kárára</seg>
+<kinesic type="noise"><desc>Közbeszólás az MSZP soraiból: Jól beszélsz!</desc></kinesic>
+<seg xml:id="AC7_3996.3">Ezzel szemben most a szocialisták azt kérik számon a köztársasági elnöktől, kedves Harangozó Gábor, önnek is mondom, hogy annak idején miért küldte vissza a törvényt az Országgyűlésnek</seg>
+<seg xml:id="AC7_3996.4">(Harangozó Gábor István: Miért nem küldte alkotmányos kontrollra? Nem aláírni kellett volna, hanem visszaküldeni!)</seg>
+<seg xml:id="AC7_3996.5">Ebből azt a következtetést vonhatjuk le, hogy az MSZP 2013-ban csúsztatott, vagy most teszi ezt.</seg>
+<seg xml:id="AC7_3996.6">De a sornak itt még nincs vége, tisztelt képviselőtársaim. Tukacs István 2013. november 13-án találta azt mondani, hogy a több ezer fiókot működtető takarékszövetkezetek olyan stabil lábakon nyugvó pénzintézetek voltak, amelyek nemcsak jól gazdálkodtak, hanem saját biztosítási alapokkal is rendelkeztek</seg>
+<seg xml:id="AC7_3996.7">(Harangozó Gábor István: Nem érted, mit beszélsz, ülj le!)</seg>
+<seg xml:id="AC7_3996.8">Tisztelt Képviselőtársaim! Hadd emlékeztesse</seg>
+<kinesic type="signal"><desc>Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC7_3996.9">önöket arra is, hogy 2013. június 26-án az MSZP 15 képviselője nemmel szavazott a szóban forgó törvényjavaslatra, az MSZP-frakció több tagja pedig nem volt jelen a szavazásnál. Úgy látszik, hogy akkor még nem tartották ennyire fontosnak a betétesek biztonságát a szocialisták.</seg>
+<seg xml:id="AC7_3996.10">Ahogy a köztársasági elnök úr is jelezte a válaszlevelében, a takarékszövetkezetek bankká való átalakulásának lehetősége és feltételei már a törvénytervezet szövegében is adottak voltak. Az újbóli országgyűlési tárgyalás ezen nem változtatott. Maga az átalakulás pedig egyetlen takarékszövetkezet esetében sem múlhatott azon, hogy azok kezdeményezik-e bankká alakulásukat, hiszen az átalakuláshoz szükséges feltételek meglétét az erre hivatott állami szerveknek minden esetben alaposan meg kellett vizsgálniuk.</seg>
+<seg xml:id="AC7_3996.11">Fentiekre tekintette</seg>
+<seg xml:id="AC7_3996.12">kérem miniszter urat, segítse elő a betétesek pénzének biztonságos takarékszövetkezeti…</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-03-23-urgent_question-AC7_3997" who="#MihályBalla" ana="#regular"><note>BALLA MIHÁLY (Fidesz):</note>
+<seg xml:id="AC7_3997.1">Köszönöm szépen a lehetőséget, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Az önmagát Iszlám Államnak nevező barbár terrorszervezet harcot hirdetett az egész nyugati civilizáció ellen, az egyetemes kulturális örökség egészét rombolja, és el akar pusztítani mindent, ami ahhoz kötődik. A terroristák a múlt héten egy múzeumban gyilkoltak meg európai turistákat, és nap mint nap kerülnek fel az internetre olyan videók, amelyben válogatott brutalitással végzik ki foglyaikat.</seg>
+<seg xml:id="AC7_3997.2">A közvélemény előtt hetek óta ismertek annak a tervezett magyar katonai szerepvállalásnak a részletei, amelyre egy 62 államot számláló nemzetközi koalíció tagjaként kerülne sor az észak-iraki Erbíl mellett.</seg>
+<seg xml:id="AC7_3997.3">(14.20)</seg>
+<seg xml:id="AC7_3997.4">Az erbíli katonai tábor működése során a 100 fős magyar kontingens német, illetve olasz parancsnokság alatt látná el feladatát a következő két évben. A Külgazdasági és Külügyminisztérium hetek óta egyeztet a parlamenti pártokkal, frakciókkal annak érdekében, hogy minél szélesebb körű konszenzussal kerüljön sor a magyar szerepvállalásra. A zárt ajtós megbeszéléseken túl nyílt bizottsági ülésekre is sor került az elmúlt napokban, elmúlt hetekben, ennek ellenére az ellenzék egy része továbbra is nemet mond a nyugati koalícióhoz való csatlakozásra, míg egy másik része azt mondja, nem tudja eldönteni, hogy melléálljon-e.</seg>
+<seg xml:id="AC7_3997.5">Kérdezem államtitkár urat, hogyan látja a Külügyminisztérium az egyeztetések menetét és annak különböző lehetőségeit az eredményességben. Kérem megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Szórványos taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-03-23-urgent_question-AC7_3999" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC7_3999.1">Tisztelt Elnök Úr! Tisztelt Ház! A Kelet-magyarországi Szolgáltató Központ ellen eljárás indult a tavalyi évben, aminek következtében a Magyar Államkincstár leállította a normatíva folyósítását a szervezet számára, amely egyébként elesettek ápolásában is részt vesz. El kell hogy mondjuk, nem tisztünk állást foglalni a hasonló ügyekben, hiszen ha gazdasági szálak kibogozása során valakiről bebizonyosodik, hogy bűnös, akkor az bűnhődjön, ez a világ legtermészetesebb dolga. De azt ugyanakkor elfogadhatatlannak kell tartanunk, hogy mintegy 600 dolgozó és legalább 6 ezer ápolt mindennapi biztonsága, munkavégzésének biztonsága, az ápoltak esetében pedig kimondottan az életük kerülhet veszélybe abból kifolyólag, hogy egy ilyen esetben, mint a mostani, a normatíva leállításából következően a dolgozók hónapok óta nem kaptak fizetést; az ápoltak, ellátottak esetén pedig felmerülhet annak a veszélye, hogy ha a dolgozók tömegesen hagyják el munkahelyüket, akkor mégis milyenfajta átállással lehet biztosítani számukra a folyamatosságot.</seg>
+<seg xml:id="AC7_3999.2">Elmondható tehát, miközben nemcsak az ápoltak, de egyébként a dolgozók között is nagyon sok a devizahitel-károsult, tehát több súly nyomja ezen emberek vállát, itt, a Parlament I. kapujához kifáradva államtitkár úr vagy bármely kormánypárti képviselő nagy szeretettel elbeszélgethet velük a megoldás lehetőségeinek kimunkálásáról. Hiszen értjük mi, hogy adott esetben felfüggeszthető egy intézmény működésével kapcsolatban lényegében bármi. De az, még egyszer mondom, elfogadhatatlan, hogy több száz dolgozó és több ezer ellátott kerüljön bajba, ellátása kerüljön veszélybe.</seg>
+<seg xml:id="AC7_3999.3">Megoldásként adódna, hogy a Szociális és Gyermekvédelmi Főigazgatóság mint központi intézményfenntartó vegye át akár a dolgozókat, és a szakellátások mellett biztosítsa az alapellátást is. Ez egy olyan civilizált megoldás lenne, amelynek értelmében a folyamatosságot is biztosítanák, és arról is beszélnünk kell, ami a kérdésünk lényege, hogy a hónapok óta ki nem fizetett, becsületesen dolgozó emberek mégis honnan, mégis milyen módon fogják megkapni a nekik járó juttatást.</seg>
+<seg xml:id="AC7_3999.4">Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-03-23-urgent_question-AC7_4000" who="#SebestyénVágó" ana="#regular"><note>VÁGÓ SEBESTYÉN (Jobbik):</note>
+<seg xml:id="AC7_4000.1">Köszönöm szépen a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Pár héttel ezelőtt bombaként robbant a magyar köztudatban az, hogy a szigetszentmiklósi pár, akik éveken keresztül brutálisan bántalmazták a gyermekeiket, embertelen körülmények között tartották őket, a bíróság elsőfokú ítélete alapján, kitöltve a büntetésüket - alig kevesebb, mint egy év letöltött börtönbüntetéssel kitöltötték a börtönbüntetésüket - szabadlábra kerültek.</seg>
+<seg xml:id="AC7_4000.2">Azt tudom, hogy ilyenkor főleg az államtitkár úr - még az előző ciklusból tudom - mindig a bírói függetlenségre szokott hivatkozni, ezzel tisztában vagyok. Tisztában vagyok azzal is, hogy a büntető törvénykönyv szigorítása nem az EMMI hatásköre, viszont az EMMI, mint a gyermekvédelemért, a gyermekek védelméért felelős minisztérium, igenis ki kellene hogy használja a lobbierejét arra, hogy ráhasson az illetékes minisztériumra, hogy ezeket a törvényeket szigorítsuk, mert ha legenyhébb büntetésként ez így kiszabható, akkor nagyon rossz helyen vagyunk.</seg>
+<seg xml:id="AC7_4000.3">A másik bomba, ami robbant, az az ügyészség sajtótájékoztatója volt, ahol felhívták a figyelmet arra, hogy egyértelműek voltak a bizonyítékok, hogy azok a brutális cselekmények megtörténtek, amelyeknek a büntethetősége sokkal tágabb, de ilyen-olyan indokokra hivatkozva ezt a bíróság nem vette figyelembe.</seg>
+<seg xml:id="AC7_4000.4">A harmadik bomba pedig az volt, hogy ha másodfokon igazat adnak az elsőfokú ítéletnek, helybenhagyják, akkor ez a pár még kártérítési igénnyel is élhet az állam felé. Felháborító, és ezért az EMMI-nek mint a gyermekvédelemért felelős minisztériumnak tennie kéne valamit. Amit konkrétan tehetne még, az pedig az, hogy ez az eset például - számtalan más esettel kapcsolatban is - nem történhetett volna meg, illetve nem ölthetett volna ekkora méretet, ha a gyermekvédelmi jelzőrendszer Magyarországon működne. Vagy a jogszabályi szabályozása nem jó, vagy az ellenőrzése nem jó, de hogy nem működik, az biztos. Ez pedig egyértelműen az EMMI-nek a felelőssége, hogy végre kidolgozzon egy olyan rendszert, amelyben a gyermekvédelmi jelzőrendszer működni tud, idejében tetten lehet érni az ilyen helyzeteket, és ilyen brutális cselekmények nem történhetnek meg Magyarországon. Köszönöm, hogy meghallgattak</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban. - Közbeszólás a Jobbik soraiból: Úgy van!</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-03-23-urgent_question-AC7_4001" who="#GyörgySzilágyi" ana="#regular"><note>SZILÁGYI GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_4001.1">Köszönöm szépen a szót, elnök úr. Tisztelt Államtitkár Úr! A magyar sportágazat támogatásának rendszerét 2011-ben reformálta meg az önök akkori kormánya, új alapokra helyezve az öt kiemelt sportág, az úgynevezett látvány-csapatsportok fejlesztésének és fenntartásának finanszírozási modelljét, és bevezették a taotámogatási rendszert.</seg>
+<seg xml:id="AC7_4001.2">Az azóta eltelt évek alatt szerzett tapasztalatok a támogatási rendszer visszaéléseit mutatják. Lépten-nyomon találkozunk olyan jelenségekkel, hallunk olyan történeteket, amelyek a társasági adójukból a látvány-csapatsportágak fejlesztésére adományozók visszaéléseiről, illetve a kedvezményezettek átláthatatlan gazdálkodásáról szólnak. Példaként említhetem az MLSZ-t, amely arról tesz említést, hogy a sportágra szánt taoforrásokat közvetítők hada zsongja körül. Sajnos, a támogatások súlyos milliárdjairól és azok felhasználásáról szinte alig áll rendelkezésünkre információ, szinte valamennyi szereplő arra hivatkozik, hogy ezen források tulajdonképpen nem is közpénzek, hanem adományok, ezáltal az adományozó és a kedvezményezett magánügye.</seg>
+<seg xml:id="AC7_4001.3">Tisztelt Államtitkár Úr! A magyar közvéleményt félrevezethetik, az Országgyűlésben a többséggel visszaélve elkendőzhetik a problémát, de a finanszírozási rendszer egészét jóváhagyó EU Bizottság számonkérése esetén már nem lesz elégséges a hivatali jogászok fondorlatos szóforgatása. Az EU Bizottság jóváhagyta ugyan a taotámogatási rendszert, azonban egyértelművé tette a preambulum 65. pontjában, hogy ezek bizony közpénzek. A határozatot a Bizottság arra tekintettel hozta meg, hogy a hozzá benyújtott előterjesztésben foglalt garanciákat Magyarország betartja, ezen garanciális elemek között kiemelt szerepet kapott az átlátható felhasználás, a rendszeres beszámoló, valamint a következetes ellenőrzés.</seg>
+<seg xml:id="AC7_4001.4">Kérdezem: miként kívánja biztosítani a taotámogatások átláthatóságát? Mivel magyarázza azt a jelenséget, hogy a rendszer bevezetése óta eltelt mintegy négy év alatt, a megannyi beruházás ellenére csökkent például a labdarúgás eseményeit látogatók száma? Mit kíván tenni az észlelt szabálytalanságok és a visszaélésgyanús helyzetek felszámolására? Várom a megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

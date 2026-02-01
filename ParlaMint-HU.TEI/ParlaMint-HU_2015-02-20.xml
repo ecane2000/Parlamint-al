@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2015-02-20" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2015-02-20 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2015-02-20 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="7" unit="speeches">7 beszéd</measure>
+        <measure xml:lang="en" quantity="7" unit="speeches">7 speeches</measure>
+        <measure xml:lang="hu" quantity="3259" unit="words">3259 szó</measure>
+        <measure xml:lang="en" quantity="3259" unit="words">3259 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2015-02-20">2015. 02. 20.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="7"/>
+          <tagUsage gi="seg" occurs="24"/>
+          <tagUsage gi="kinesic" occurs="11"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2015-02-20">2015-02-20</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2015-02-20-interpellation-IC7_3032" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="IC7_3032.1">Tisztelt Államtitkár Úr! Az Európai Unió 2014. szeptember 26-án bejelentette az átfogó gazdasági és kereskedelmi egyezmény, CETA, megkötését Kanadával. Ebben a nagy horderejű szabadkereskedelmi egyezményben, hasonlóan a készülő USA-EU szabadkereskedelmi egyezményhez, megtaláljuk a befektető állam vitarendezési mechanizmusát. Ez megnyithatja az utat Kanada, az EU és az uniós tagállamok elleni vállalati peres eljárások előtt, és mélyen alááshatja az állampolgárok és a környezet védelme érdekében tett erőfeszítéseket. Ez a vitarendezési mechanizmus lehetőséget ad a külföldi vállalatoknak arra, hogy nemzetközi választottbíróságokon pereljék az országokat, ha azok olyan szabályokat hoznak, amelyek a profitjukat veszélyeztetik. A Kanada és az EU között bejelentett szabadkereskedelmi egyezmény az Unió gazdagabb országainak is kockázatot jelent, de tragikus következményekkel járhat Magyarország számára. A szabadkereskedelmi egyezmények jellemzően az erős gazdaságoknak kedveznek, míg a gyengébb országokban munkahelyek szűnnek meg, a helyben termelt hasznot külföldre viszik. Veszélybe kerülhetnek a magyar vállalatok és gazdák piacai, meggyengülhetnek az emberek egészségét, a természetet védő jogszabályok. Hogy csak egyetlen példát említsek: ha a CETA hatályba lép, kanadai befektetők rákényszeríthetik a román kormányra a cianidos technológiájú verespataki aranybánya engedélyezését. Azt már tudjuk, hogy az USA-EU szabadkereskedelmi egyezményt zárt ajtók mögött, titkosan készítik elő, de sajnos hasonlóan jártak el a szeptemberben bejelentett Kanada-EU szabadkereskedelmi egyezménnyel is. Tisztelt Államtitkár Úr! Hogyan fordulhatott elő, hogy önök részt vettek a CETA előkészítésében, de a magyar parlamenttel, a magyar emberekkel semmilyen információt nem osztottak meg az egyezmény részleteiről? Kérem, nyilatkozzon, kész-e a magyar kormány arra, hogy elutasítsa a CETA ratifikálását</seg>
+<kinesic type="applause"><desc>Taps az LMP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-02-20-interpellation-IC7_3036" who="#AnitaHeringes" ana="#regular"><note>HERINGES ANITA (MSZP):</note>
+<seg xml:id="IC7_3036.1">Köszönöm a szót. Bár Orbán Viktorhoz írtam interpellációmat, akit, úgy látszik, nem érdekel, hogy mi folyik a saját minisztériumában; 2010 óta ugyanaz a személy vezeti a Vidékfejlesztési Minisztériumot, majd később a Földművelésügyi Minisztériumot: Fazekas Sándor.Az első ügy: a 2009-es adóévben több mint 177 ezer tudatos adózó parlagfű-mentesítésre ajánlotta fel az 1 százalékot. Fazekas Sándor miniszter úr kinevezése után elég rugalmasan hagyta ezt felhasználni, röviden mondva: másra költötte el, mint amire kapták. 2014-ben beismerték bűnüket, hogy elherdálták ezt a pénzt, és visszaadták. A kérdés az, hogy ennek lesz-e további jogi következménye, felelőse, bár ez önöknél nem divat.A második ügy: 2014 elején látott napvilágot a hír, hogy a Hortobágyi Nemzeti Park határán súlyosan szennyező anyagok találhatók. Illés Zoltán államtitkár úr erről állítása szerint háromszor írt jelentést a kormány felé, de Fazekas Sándor levetette a témát a napirendről. Ha ez így van, akkor ez hivatali visszaélés.A harmadik ügy: még azt sem tudni, ki volt Fazekas Sándor miniszteri biztosa és ki nem. A Harangozó Tamás írásbeli kérdésére adott miniszteri válaszból kiderül, hogy Horváth István szekszárdi polgármester úgy intézkedett 2013 elejétől másfél éven keresztül, mint sertésprogramért felelős miniszteri biztos, hogy csak 2014 augusztusában kapta meg a kinevezést, ráadásul még akkor is törvénytelenül, hiszen trafikosztó polgármesterként nem létesíthetett volna ilyen munkaviszonyt.Végezetül: itt van az Orgovány és Vidéke Takarékszövetkezet ügyében előzetes letartóztatásba került Kiss Szilárd, aki 2014. december 14-ig közel három éven keresztül volt a keleti gazdasági kapcsolatokért felelős miniszteri biztos, legalábbis többször így nyilatkozott. A hivatalos jogi aktus a kinevezésről sehol nem található. Kiss Szilárd az a személy, akivel Fazekas Sándor &#8209; állítása szerint &#8209; nem állt közvetlen munkakapcsolatban, ennek ellenére munkáját miniszteri oklevéllel ismerte el Fazekas Sándor. Akkor mi alapján? A miniszterelnök úr, úgy látszik, nem látja, mi folyik a saját kormányában: elherdálják az adófizetői 1 százalékot, Orbán Viktor minisztere, Fazekas Sándor eltussol törvénysértéseket, törvénytelen kinevezések, miniszteri biztos előzetes letartóztatásban. Ennyi kínos botrány után itt lenne az ideje, hogy Orbán Viktor felmentse Fazekas Sándort, de úgy látszik, számára a korrupció, az előzetes letartóztatás és hasonló botrányok elférnek a Földművelésügyi Minisztériumban. Sajnálom, hogy ilyen kellemetlen helyzetbe hozták az államtitkár urat, hogy önnek kell megvédenie saját főnökét ezen védhetetlen időszakkal kapcsolatban, amikor ön még nem volt az ő államtitkára. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-02-20-interpellation-IC7_3037" who="#LajosKorózs" ana="#regular"><note>KORÓZS LAJOS (MSZP):</note>
+<seg xml:id="IC7_3037.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! Ha jól emlékszem, először az volt a szlogen, hogy segély helyett munkát, ebből aztán később kifejlődött a segély helyett közmunkát, sőt segélyért is közmunkát, és most már úgy látom, hogy a munka helyett is közmunkát szlogen dívik a kormányzati oldalon. Márciustól semmi sem lesz: sem önkormányzati segély, sem lakásfenntartási támogatás, sem adósságcsökkentési támogatás, sőt tudjuk, hogy meg fogják szüntetni az ápolási díj és a közgyógyellátás méltányosságból adható típusát is, rendszeres szociális segély sem lesz ebben a formában, ahogy eddig volt</seg>
+<seg xml:id="IC7_3037.2">(10.40)Hogy nézzük tételesen, mit is jelent ez pontosan, nézzük a számokat! Az önkormányzati segély, ami korábban három másik ellátást jelentett, akkor mindösszesen 850 ezer esetben segítette a rászorulókat egy évben, és az esetek 98 százalékában ez nem jelentett ugyan többet 6-7 ezer forintnál, de nagy segítség volt ezeknek az embereknek, és a kormány kasszáját sem terhelte különösebben, 6,5 milliárd forintot szántak erre.A lakásfenntartási támogatást &#8209; rezsicsökkentés ide vagy oda &#8209; közel félmillió család kapta - hangsúlyozom: félmillió család kapta &#8209;, havi összege átlagosan kevesebb mint 4 ezer forint volt, és ez mintegy 21 milliárd forintra rúgott. Ezt is megszüntetik március 1-jével.Az adósságcsökkentési támogatás már jóval kevesebbeket segített, alig több mint tízezer családot, de számukra legalább volt egy ilyenfajta segítség. És a költségvetésnek sem került nagyon sok pénzébe, mintegy egymilliárd forintot szántak az előző évben erre a tételre.A méltányosságból adható ápolási díjra és a közgyógyellátásra már régóta egyre kevesebbet költenek az önkormányzatok, tudniillik nincs rá pénzük. A Széll Kálmán 2. számú terv 2012-ben a méltányossági segélyek rossz elosztására hivatkozva nagyjából 10 milliárd forintot vont ki az önkormányzatok segélykasszájából, holott a válság közepette véleményem szerint éppen hogy növelni kellett volna ezt a tételt, és nem csökkenteni. 2010-ben még 4,3 milliárd forint jutott arra, hogy a nagykorú hozzátartozóik ápolását végzők méltányosságból ellátást kapjanak, 2013-ban már csak 2,6 milliárd forint, nagyjából megfelezték a tételt. Az alig tízezer főt érintő ellátás szintén március 1-jével meg fog szűnni</seg>
+<kinesic type="noise"><desc>Közbeszólás az MSZP soraiból: Botrányos!</desc></kinesic>
+<seg xml:id="IC7_3037.3">A beteg, sok esetben idős emberek támogatását segítő méltányos közgyógyellátás 36 ezer embert érintett. Kérdezem államtitkár urat, hogy nem gondolják-e, hogy ezen pénzbeli transzferek eltörlésével éppen az elszegényedést, a nyomorba döntést fogják elősegíteni, és nem az embereken és nem a települési önkormányzatokon fognak segíteni. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-02-20-interpellation-IC7_3043" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="IC7_3043.1">Tisztelt Elnök Úr! Tisztelt Ház! A kormányzat az utóbbi egy év során számtalanszor elborította óriásplakátjaival Magyarország közterületeit, miszerint elszámoltatták a bankokat, miszerint rendbe tettek egy olyan rendszert, amely mögött egy évtizedes mulasztás húzódik. A helyzet ezzel szemben az, hogy kimaradt két nagyon komoly társadalmi csoport a rendezésből, akiket most a svájci frank árfolyamának az irtózatos mértékű elszállása nagyon-nagyon keményen terhel. 250 ezer gépjárműhitellel rendelkező szerződés tulajdonosának és a mögöttük álló családtagoknak, valamint mintegy 300 ezer szabad felhasználású kölcsön birtokosának üzente azt a kormányzat, hogy gyakorlati lépéssel nem segít rajtuk, esetleg majd közvetítői szerepet vállal. Pontosabban azóta kiegészítésre került Trócsányi László által ez a nyilatkozat azzal, hogy a Bankszövetség javaslatát várja a kormány az autóhitelesek megemelkedett terheinek csökkentéséhez, a kabinet ugyanis e téren már nem tervez beavatkozást, nem tervez módosítást.(10.50)Ezen elképesztő szavak azt jelentik, hogy nemcsak az évszázad pénzügyi átverése, a devizahiteles csalás érinti nagyon keményen az autóhiteleseket és a szabad felhasználású kölcsönök tulajdonosait, hanem a jelen esetben &#8209; amikor a lakáshiteleseket látszólag megsegítette a kormányzat, azonban a gyakorlatban csak megakadályozta, hogy még jobban elharapózzanak az ő terheik &#8209; azt üzenik ennek a teljes társadalmi csoportnak, hogy majd esetleg közvetítünk. Abban az esetben közvetítünk, ha a bankok, a Bankszövetség méltóztatnak valamifajta megoldást felajánlani. A helyzet az, hogy megint csak a farkasoktól várják azt, hogy vegetarianizmusra térjenek át, és megint csak azt várják, hogy az önök cselekvése helyett a piac vagy valaki más majd megoldja ezt a kérdéskört. Azt fogják erre mondani, jelesül azt szokták válaszolni sokszor, hogy 6, azaz hat alkalommal volt előttünk a devizahitelesekkel foglalkozó csomag az utóbbi években, önök mennyit segítettek. Azt nem akarom elvitatni, hogy a mostani nagyon durva árfolyamelszállás lecsapódását tudták csökkenteni bizonyos csoportok esetében. De hogyan fordulhat elő az, hogy bizonyos csoportok esetében pedig nem? Tehát 250 ezer, plusz 300 ezer embert olyan helyzetben tartanak, hogy egyértelmű üzenetet küldenek nekik, nem segítenek. Magyarország kormánya ezeken az embereken nem segít, és elképesztő, kétharmados felhatalmazással bírva azt mondják, hogy gyengék beavatkozni ezen teljesen igazságtalan, piacinak nem igazán nevezhető folyamatokba, ahol az árfolyamelszállás csak egy következmény. Egy évtizedes pénzügyi csalás alapozza meg azt, amit devizahitelezésnek nevezünk, és aminek a hatásaitól igenis kutya kötelességük lenne megóvni a magyar állampolgárokat. Ehelyett mit csinálnak? Paktumot kötnek a Bankszövetséggel a bankadó csökkentéséről, a kilakoltatási kvóta és a magáncsőd intézményének a bankok szájíze szerint történő bevezetéséről. Adódik tehát a kérdés, hogy lesz-e önökben lélek, bátorság, hogy ezen több százezer, az út szélén hagyott magyar emberen segítsenek</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-02-20-interpellation-IC7_3144" who="#SándorHadházy" ana="#regular"><note>HADHÁZY SÁNDOR (Fidesz):</note>
+<seg xml:id="IC7_3144.1">Köszönöm a szót. Tisztelt Államtitkár Úr! A Fidesz-KDNP-frakciószövetség és a magyar kormány 2010 óta dolgozik azon, hogy a devizahitelekkel rendelkező állampolgárok életét megkönnyítse, ezeket a hitelkonstrukciókat kivezesse a piacról. A végtörlesztés, az árfolyamgát és a Nemzeti Eszközkezelő intézményének bevezetését követően a parlament tavaly nyáron a Kúria jogegységi határozatban rögzített elveit emelte jogszabályi szintre, vagyis a Kúria jogértelmezése általános érvényűvé, mindenki számára kötelezővé vált. Ezáltal a jogegységi törvény mentesítette a devizahiteleseket a perindítás alól, és a bankokat kötelezte arra, hogy elszámoljanak az adósokkal az árfolyamrés és az egyoldalú szerződésmódosítások alkalmazásával tisztességtelenül beszedett túlfizetésekkel. Az elszámolást az elszámolási törvény szigorú határidőhöz köti, mely biztosítja az elszámolások gyors lebonyolítását. Az elszámolással egyidejűleg a forintosítási törvény az állampolgárok számára legkiszolgáltatottabb, legérzékenyebb területen, a lakhatás vonatkozásában a jelzáloghitelek esetén kötelezővé teszi a forintosítást. Ez az átváltási árfolyamot svájci frank esetében 256 forint 47 fillérben, az eurónál 308 forint 97 fillérben, a japán jennél pedig 2,163 forintban határozta meg. A svájci jegybank azon döntése, miszerint nem védi tovább a frank árfolyamát a felértékelődés ellen, különösen időszerűvé teszi a kérdést: milyen ütemezés alapján történik a bankok elszámoltatása és a forintosítás? Tisztelt Államtitkár Úr! Milyen menetrend alapján forintosítják a közel 500 ezer érintett hitelszerződést? Mikortól törleszt kevesebbet egy átlagos devizahiteles? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-02-20-interpellation-IC7_3150" who="#JánosVolner" ana="#regular"><note>VOLNER JÁNOS (Jobbik):</note>
+<seg xml:id="IC7_3150.1">Köszönöm szépen, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Miniszter Úr! Nagyon régóta tisztában vagyunk már azzal, hogy a magyar baloldal külföldi pénzekből él, külföldi pénzekből folytat politikai tevékenysége</seg>
+<kinesic type="noise"><desc>Közbeszólások az MSZP padsoraiból.</desc></kinesic>
+<seg xml:id="IC7_3150.2">, külföldi pénzekből kampányol. Megjegyzem, ezt egyébként nem változtatja meg az sem, ha a baloldali képviselőtársak üvöltözve hallgatják végig a beszédemet, engem sem fog őszintén szólva különösebben zavarni</seg>
+<kinesic type="signal"><desc>Felzúdulás az MSZP padsoraiban. &#8209; Az elnök csenget.</desc></kinesic>
+<seg xml:id="IC7_3150.3">Akkor, amikor a sajtóban arról olvastunk, hogy a Norvég Civil Alap körül kormányzati ellenőrzési tevékenység bontakozott ki, bevallom őszintén, először nem tudtuk, hogy ennek vajon mi lehet az alapja, aztán később megismertük a tényeket. Kiderült a kormányzati vizsgálatból az, hogy egy, az LMP-hez köthető, szűk szerveződés, az Ökotárs Alapítván</seg>
+<seg xml:id="IC7_3150.4">(Dr. Schiffer András: Miről beszélsz?)</seg>
+<seg xml:id="IC7_3150.5">részesedik azokból a pénzekből, melyeket a Norvég Civil Alap oszt a részükre, és ilyen módon több mint 500 millió forint került be gyakorlatilag az LMP-hez köthet</seg>
+<seg xml:id="IC7_3150.6">(Dr. Schiffer András: Miről mesélsz?)</seg>
+<seg xml:id="IC7_3150.7">pártalapítvány formájába és az LMP-hez köthető magánszemélyekhez</seg>
+<kinesic type="noise"><desc>Dr. Schiffer András: Hogyan? Hová? &#8209; Nagy zaj. &#8209; Az elnök csenget.</desc></kinesic>
+<seg xml:id="IC7_3150.8">Látható az is, hogy egyértelmű és kimutatható személyes kapcsolat volt 55 esetből 21 esetben, amit a Kormányzati Ellenőrzési Hivatal azonnal meg tudott állapítani; olyan, a baloldalhoz és az LMP-hez köthető személyiségek részesedtek vagy bírálóként, vagy kedvezményezettként ezekből a pénzekből, mint Kaufer Virág, Foltányi Zsuzsa, Móra Veronika vagy az azóta a LMP-ből a PM-be távozott Szabó Timea, vagy éppen egy MSZP-s képviselő is kapott ebből a pénzből: Matiszlovicsné Horváth Évának hívják.A Norvég Alap bőkezűen támogatott olyan liberális célokat szolgáló politikai szerveződéseket is, mint a Roma Sajtóközpont vagy éppen a magát függetlennek ábrázoló diákszervezet, a Hallgatói Hálózat, vagy éppen a szintén liberálisként megismert Humán Platform szerveződés. A kormányzati ellenőrzés 63 vizsgált projektből 61 esetben tárt fel egyértelmű szabálytalanságot: hűtlen kezelés, költségvetési csalás, jogosulatlan pénzügyi tevékenység szerepel a megállapítás tényei között. Emlékeztetni szeretném a miniszter urat, hogy mi voltunk az a párt, aki nyilvánossá tette a családtagok vagyonnyilatkozatát a képviselőknél, és mi voltunk azok, akik minden esetben követeltük a kormánytól azt, hogy óvja meg Magyarország szuverenitását a külföldi befolyásszerzési kísérletektől, és nagyon keményen hasson oda annak érdekében, hogy ilyenek ne fordulhassanak elő. Kérdezem én: miniszter úr, mit tettek önök az elmúlt időszakban azért, hogy más államok a magyar belpolitikát ne befolyásolják?Köszönöm, elnök úr</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-02-20-interpellation-IC7_3151" who="#NándorGúr" ana="#regular"><note>GÚR NÁNDOR (MSZP):</note>
+<seg xml:id="IC7_3151.1">Köszönöm szépen, elnök úr. A korkedvezményes nyugdíj, mint tudjuk, 2014. december 31-ével megszűnt. Lehet másról beszélni, lehet mást mondani, de ez az intézményrendszer gyakorlatilag meghalt, január 1-jétől nem lehet korkedvezmény-jogosultságot szerezni, hiába dolgoznak az emberek olyan munkakörülmények között, olyan munkaviszonyban, ami erre alapot adna. Több tízezer embert fosztottak meg ettől a lehetőségtől, minden józan gondolkodással ellentétesen, hiszen ezek az emberek alapvetően egészségkárosító munkahelyeken végezték a munkatevékenységüket. Ezeknek az egészségkárosító munkahelyeknek a sokasága nem szűnt meg, ott a munkakörülmények nem változtak meg, sőt még azt is mondhatom, hogy az elmúlt öt esztendőben nem lettek jobbak, nem lettek kedvezőbbek, de a kedvezményt önök lenullázták, azt elvették az emberektől. Mi van ezeknek az embereknek a fejében, amikor ez megtörténik velük? Rettegnek. Rettegnek, mert ha 55-60 évesen nem tudnak több jogszerző időt, kedvezményt szerezni, akkor azzal kell szembenézniük, hogy ha elveszítik a munkahelyüket, a munkalehetőségüket, akkor a nyugdíj időszakáig csak senyvedni fognak, és a nyugdíj elérhetetlenné válik számukra, az elhelyezkedés meg lehetetlen. Aki egy picit is ismeri a munkaerőpiacot, az tudja, hogy nem az 50, 55 vagy 60 év feletti emberek azok, akik újra el tudnak helyezkedni a munkaerőpiacon. De van ennek más üzenete is, ha belegondolnak. Van ennek a fiatalabb korosztály felé is üzenete, hiszen azt a jogintézményt, amely évtizedeken keresztül működött és jogszerző időt adhatott, ami alapján jogszerző időt szerezhetett a munkavállaló, önök egy lendülettel kilúgozták, kimosták</seg>
+<seg xml:id="IC7_3151.2">(11.00)Nincs ilyen értelemben jogbiztonság az önök kormányzásának időszakában. A másik üzenete az, hogy ők, a pályakezdők is nyilván ebből fakadóan nehezebben tudnak elhelyezkedni. Az ő számukra pedig az az üzenet, ha van munka, akkor van értelme azon gondolkodni, hogy itthon éljék le az életüket. Ha nincs munka, akkor keresik a megélhetésüket máshol, külföldön; tudják, Matolcsy szerint is az az 500 ezer ember, akik esetében ma már nagyon sokan nem 500, hanem 600 ezerről beszélnek, és joggal, megalapozottan támasztják mindezt alá.Végül is tehát nem tehetek mást, csak és annyit kérdezek, mikor vizsgálják felül ezt a hibás döntésüket. Mikor változtatják meg, mikor lesz újra jogszerző lehetőség, korkedvezmény-szerzési lehetőség ezen emberek számára? Azt kérem a válaszadótól, hogy ne hadovázzon összevissza, a kérdésre válaszoljon. Ne azzal foglalkozzon, hogy mi volt addig. Január 1-jétől nincs jogszerző idő. Erről beszéljen, erre válaszoljon! Köszönöm szépen, elnök úr</seg>
+<kinesic type="applause"><desc>Szórványos taps az MSZP soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

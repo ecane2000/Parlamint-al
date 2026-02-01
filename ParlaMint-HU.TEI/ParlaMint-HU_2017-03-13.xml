@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2017-03-13" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2017-03-13 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2017-03-13 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="10" unit="speeches">10 beszéd</measure>
+        <measure xml:lang="en" quantity="10" unit="speeches">10 speeches</measure>
+        <measure xml:lang="hu" quantity="3167" unit="words">3167 szó</measure>
+        <measure xml:lang="en" quantity="3167" unit="words">3167 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2017-03-13">2017. 03. 13.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="10"/>
+          <tagUsage gi="seg" occurs="49"/>
+          <tagUsage gi="kinesic" occurs="16"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2017-03-13">2017-03-13</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2017-03-13-urgent_question-AC7_14069" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_14069.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Örülök neki, hogy negyedszerre, de végre betalált a magyar parlamentbe, és válaszol arra, amire már régóta kellett volna válaszolnia. A Kiss Szilárd-ügy mindent tud, amit a Fidesz tudott az elmúlt hat évben: korrupciót, bűnözést és olyan fideszes politikusokat, akik bűnözőket szolgálnak ki és bűnözőket támogatnak.</seg>
+<seg xml:id="AC7_14069.2">Tisztelt Miniszter Úr! Nagyon nehéz feladat lenne számomra kiválogatni azt, hogy Kiss Szilárd kormányközeli pályafutásából mi a legbotrányosabb. Egy biztos: itt egy olyan emberről van szó, aki prostituáltaknak, bűnözőknek és gengsztereknek szervezett illegálisan belépést a schengeni területre, és ehhez asszisztált egy rakat magyar miniszter. Senki sem tett feljelentést, azt nekem kellett ellenzékből megtenni, ráadásul ön, tisztelt miniszter úr, még ki is segítette ezt a csalót azzal, hogy miután kettőször megbukott a nemzetbiztonsági átvilágításon, kreált neki egy állást, olyat, amihez nem kell átvilágítás.</seg>
+<seg xml:id="AC7_14069.3">Eddig az volt a duma a magyar parlamentben, hogy ez azért kellett, mert nőtt az export. Én most itt tartom a kezemben azt a belső jelentést, amelyben feketén-fehéren benne van, hogy Kiss Szilárdnak, ennek a csalónak, akit önök megtartottak állásban, ki tudja, hogy miért, nem volt nemzetgazdasági haszna, ebből Magyarország semmit nem profitált, viszont benne van, hogy a korrupcióhoz annál több köze volt ennek az ügynek.</seg>
+<seg xml:id="AC7_14069.4">Tisztelt Miniszter Úr! Nekem egy kérdésem van most önhöz. Kinevezné-e ön ma is Kiss Szilárdot? Ha tehetné, és másként dönthetne, akkor ma is úgy döntene, hogy Kiss Szilárd attasé lehetne? Mit tenne ön ma, tisztelt miniszter úr</seg>
+<kinesic type="applause"><desc>Taps az LMP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-03-13-urgent_question-AC7_14070" who="#ErzsébetSchmuck" ana="#regular"><note>SALLAI R. BENEDEK (LMP):</note>
+<seg xml:id="AC7_14070.1">Köszönöm a szót. Igen tisztelt Elnök Úr! Tisztelt Miniszterelnök Úr! Ma már többször emlegettük itt a múltat és az elmúlt időszakokat, én is ezt szeretném egy picit felidézni.</seg>
+<seg xml:id="AC7_14070.2">Ugyanis kíváncsi lennék, hogy amikor Nagy Imre újratemetésére készült, akkor mi járt a fejében, amikor legelőször miniszterelnök lett, mi járt a fejében, hogy milyen lesz a polgári Magyarország. Erre lennék kíváncsi, hogy akkor gondolt-e arra, hogy több százezer honfitársunk keresi külföldön majd a megélhetést; kíváncsi vagyok, hogy akkor volt-e az tervben, hogy a közvagyon lenyúlására szerveződött bűnszervezet mondja önöknek tollba a jogszabályokat trafikoktól termőföld-privatizációig, hogy ez már a polgári Magyarország lenne.</seg>
+<seg xml:id="AC7_14070.3">Érdeklődnék: amikor varázslókra és sarlatánokra bízza a közpénzeket, akik kézérintéssel el tudják tüntetni annak közpénz jellegét, erre készült, és már a polgári Magyarországra gondolt, hogy ilyen lesz? Amikor egy falunyi ember fagyhalállal hal idén téle</seg>
+<kinesic type="noise"><desc>Felzúdulás, közbeszólások a Fidesz soraiból, köztük: Ne beszélj már! - Ne hazudozzatok!</desc></kinesic>
+<seg xml:id="AC7_14070.4">, amikor leszakad a társadalom 40 százaléka, ez már nagyjából a polgári Magyarország lenne? Amikor Oroszországból határozzák meg önöknek, hogy mit kell tenni energiapolitikánkkal, akkor így képzelték a jövőt, hogy majd Moszkvában mondják el, hogy milyen legyen Magyarország energetikai jövőképe?</seg>
+<seg xml:id="AC7_14070.5">Amikor az iskola állampárti propagandát sulykol, és sem a szülő, sem a pedagógus nem tud beleszólni, hogy miből oktassanak; amikor a kormánypárti propaganda gyakorlatilag egyöntetűen csak az önök propagandáját tolja, ez konkrétan már a polgári Magyarország? Tehát így készült annak idején?</seg>
+<seg xml:id="AC7_14070.6">Kíváncsi lennék: az a lejárató politikai kultúra, amit itt megvalósítanak, amikor képviselőtársunknak, mondjuk, a szexuális orientációjával érve</seg>
+<kinesic type="noise"><desc>Közbeszólás a Fidesz soraiból: Ki?</desc></kinesic>
+<seg xml:id="AC7_14070.7">, ez már a polgári Magyarország? Tehát erre készült annak idején</seg>
+<kinesic type="noise"><desc>Zaj, felzúdulás, közbeszólások a kormánypárti padsorokból.</desc></kinesic>
+<seg xml:id="AC7_14070.8">Kíváncsi lennék, hogy Farkas Flórián vagy Rogán Antal szabadlábon - ez a polgári Magyarország? Vagy miniszterelnök a királyi várban, szemben a népképviselet házával, konkrétan ez megtestesíti már a polgári Magyarországot?</seg>
+<seg xml:id="AC7_14070.9">Nagy tisztelettel kérem, hogy mondja már el, hogy ez már konkrétan a polgári Magyarország-e, amit jelenleg élünk, és mik azok az indikátorok, amikkel felismerhetjük ezt. Köszönöm a szót, elnök úr</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-03-13-urgent_question-AC7_14194" who="#GergelyBárándy" ana="#regular"><note>DR. BÁRÁNDY GERGELY (MSZP):</note>
+<seg xml:id="AC7_14194.1">Köszönöm szépen a szót, elnök úr. Tisztelt Elnök Úr! Az ön beszámolója vitájában azt mondta, idézem: „Megtisztítottuk a magyar pénzügyi rendszert a rablólovagoktól, a csalárdan rablásból élő brókercégektől és pénzügyi intézményektől. Az árnyék onnan van, tisztelt képviselő hölgyek és urak, hogy a Magyar Nemzeti Banknak ez a brókercsalásokat leleplező tevékenysége egy sorozatba illeszkedik, egy forgatókönyvbe illeszkedik. Ez egy nagy NATO-szövetséges ország budapesti nagykövetségéről folytatott kormánybuktató és jegybankbuktató tevékenységébe illeszkedik, amely 2014 őszén indult el.”</seg>
+<seg xml:id="AC7_14194.2">Azóta sokan próbálták értelmezni a mondatait, és számos fórumot kezdeményeztek, hogy ön számot tudjon adni a mondatok hátteréről, az Egyesült Államok nagykövetsége pedig egyértelműen visszautasította az ön szavait, mondatait. A magunk részéről kezdeményeztük több bizottság ülésén, hogy vegyük napirendre az önnel kapcsolatos problémákat, ezt az ön párttársai elutasították. Kezdeményeztük a témában vizsgálóbizottság felállítását is, azt sem írták alá. Egy ilyen mondat pedig nem maradhat a levegőben.</seg>
+<seg xml:id="AC7_14194.3">Kérem, válaszolja meg nekem, elnök úr: van-e alapja a kijelentésének, vagy csak hülyeségeket beszélt egyszerűen? Ha van alapja, akkor ossza meg velünk, hogy mi az - csak mert, ha az állítása igaz, azzal nekünk, országgyűlési képviselőknek dolgunk van. S hadd kérdezzem meg azt is: hajlandó-e a parlament valamilyen fóruma előtt számot adni arról, hogy milyen tények húzódnak meg az ön szavai, az ön mondatai mögött?</seg>
+<seg xml:id="AC7_14194.4">És ha már így összejöttünk, elnök úr - hosszú idő óta nem találkoztunk -, árulja már el nekem végre, amit annyiszor kérdeztünk: fizetett-e bérleti díjat Patai Mihálynak, amikor a lakásában lakott? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-03-13-urgent_question-AC7_14331" who="#LászlóSzakács" ana="#regular"><note>DR. SZAKÁCS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_14331.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Elnök Úr! A 2015-ös MNB-jelentést tárgyaltuk alig két hete, és akkor ön azt a kijelentést tette, hogy Magyarországot egy szövetséges NATO-tagállam nagykövetségéről érkező forgatókönyv alapján - ami katonai és titkosszolgálati eszközöket is tartalmazott - érte egy támadás.</seg>
+<seg xml:id="AC7_14331.2">(15.30)</seg>
+<seg xml:id="AC7_14331.3">Ez kormánybuktató, jegybankbuktató támadás lett volna. Ezt önök megelőzték, legalábbis ezt mondta innen a pulpitusról. De ezt nekünk muszáj komolyan venni, amikor a jegybankelnök ilyeneket mond. Ezért négy kérdést szeretnék feltenni; ha már az előbb homályba burkolózott a válasza, nem tudta megválaszolni Bárándy képviselőtársam kérdését, most akkor egészen pontosan elmondok csak négy kérdést - nem nyolc, csak négy.</seg>
+<seg xml:id="AC7_14331.4">Kik, melyik ország az, amelyik megtámadta Magyarországot? Milyen eszközökkel támadták meg Magyarországot? Milyen eszközökkel sikerült elhárítani ezt a támadást a magyar pénzügyi rendszer ellen? Talán a legfontosabb kérdés: 2017-ben, ma fennáll-e még ennek a támadásnak a veszélye.</seg>
+<seg xml:id="AC7_14331.5">Ugyanebben a négy kérdésben vizsgálóbizottság felállítását kezdeményeztük a parlamentben, viszont az önt is támogató Fidesz-frakció úgy menekül ez elől, mint ördög a tömjénfüst elől. Úgyhogy szerintem ön segítsen most a frakciónak, hogy ne kelljen ilyen vizsgálóbizottságot felállítani, azzal, ha most erre a négy kérdésre tud válaszolni.</seg>
+<seg xml:id="AC7_14331.6">Utána már csak arra kell megfelelő válaszokat adni, hogy tett-e ön feljelentést, és ha ilyenről tudomása volt, akkor kinek jelentette. Jelentette-e az Információs Hivatalnak, az Alkotmányvédelmi Hivatalnak, az elhárításnak, bárkinek jelentette-e ezt az ellenséges tevékenységet? Köszönöm szépen. Megtisztelve várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-03-13-urgent_question-AC7_14333" who="#GáborVona" ana="#regular"><note>VONA GÁBOR (Jobbik):</note>
+<seg xml:id="AC7_14333.1">Köszönöm szépen, elnök úr. Tisztelt Országgyűlés! Tisztelt Miniszterelnök Úr! Előre szólok, hogy egy kellemetlen kérdést fogok feltenni, egy nehéz ügyet. Azért teszem mégis, mert az elmúlt időszakban, még a korábbiakhoz képest is jól láthatóan nehezebben viseli az ilyen szituációkat, úgyhogy előre szólok.</seg>
+<seg xml:id="AC7_14333.2">Miniszterelnök Úr! Rátérve a lényegre: a rendszerváltozás több szempontból csalódást okozott Magyarországnak és a magyar társadalomnak, és ezen szempontok közül, amelyek csalódást okoztak, talán a legfőbb csalódási ok az igazságtétel elmaradása volt, annak az elmaradása, hogy az ügynöklistákat nem hoztuk teljes nyilvánosságra. A szocialistáknak három ciklusa volt erre, bár az ő szempontjukból érthető, hogy miért nem tették meg, de a fiatal demokrata-kereszténydemokrata koalíciónak is volt három ciklusa arra, hogy ezt megtegye, és mégsem tették meg, miniszterelnök úr.</seg>
+<seg xml:id="AC7_14333.3">Most ezt kéri a Jobbik, mint az ellenzék vezető ereje, ezt kéri az LMP, és ezt kéri a Momentum is a parlamenten kívü</seg>
+<seg xml:id="AC7_14333.4">(Moraj a kormánypártok soraiban.)</seg>
+<seg xml:id="AC7_14333.5">, és nemcsak most kéri ezt, hanem jó ideje kéri, és mégsem történt meg</seg>
+<kinesic type="signal"><desc>Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC7_14333.6">Miniszterelnök Úr! Én tisztában vagyok azzal, hogy ön a katonaévei alatt kapcsolatba került a szolgálatokkal. Én azzal is tisztában vagyok, miniszterelnök úr, hogy az ön családjában is volt olyan, aki 1956-ban, a forradalom idején ügynökként dolgozott az ÁVH-nak. Azzal is tisztában vagyok, hogy egy ilyen nyilvánosságra hozatal az egész társadalom számára traumákkal, drámákkal járna. De azzal is tisztában vagyok, miniszterelnök úr, hogy egy ilyen lépés elkerülhetetlen, mert nem akarunk egy olyan országban élni, ahol a diktatúra fenntartói és működtetői ma is szabadon élhetnek, sőt akár a legmagasabb politikai tisztségekre is pályázhatnak.</seg>
+<seg xml:id="AC7_14333.7">Arra kérem a miniszterelnök urat, hogy ebben a kérdésben végre mutassa meg rendszerváltó énjét, és válaszoljon nekem arra a kérdésre, hogy mi elől menekül, mi elől fut, van-e esetleg a miniszterelnök úrnak valami további titkolnivalója ebben a kérdésben. Miért próbálja elkerülni azt a helyzetet, ami előbb-utóbb úgyis elkerülhetetlen? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-03-13-urgent_question-AC7_14402" who="#GáborIstvánHarangozó" ana="#regular"><kinesic type="noise"><desc>HARANGOZÓ GÁBOR ISTVÁN (MSZP): Köszönöm szépen, elnök úr. Tisztelt Miniszter Úr! A felsőoktatásért felelős kollégája egy kifejezetten káros, a vidék életét nem segítő, de fejlődését jelentősen veszélyeztető javaslatot tett le az asztalra. Arról van szó, hogy Magyarországon gyakorlatilag ma öt nagy agrár-felsőoktatási központ létezik, és emellett még számos más helyen zajlik agrár-felsőoktatási képzés és kutatás az országban. A kollégája által jegyzett javaslat arról szól, hogy megszüntetné ezt a szerteágazó agrár-felsőoktatást, és jelentősen koncentrálná azt. Egy új nagy nemzeti agráregyetemet akarnak létrehozni, és ebbe az egyetembe integrálnák be a többi egyetem jelentős részét. Azok az egyetemek, amiket nem akarnak e szerint a koncepció szerint beintegrálni fizikailag ebbe az egyetembe, azok is elvesztik a kutatásokkal kapcsolatos önállóságukat.</desc></kinesic>
+<seg xml:id="AC7_14402.1">A múlt héten egy kérdésre válaszolva Rétvári Bence államtitkár úr elmondta azt is, hogy nagyon komoly fejlesztéseket kívánnak ezen az új egyetemen létrehozni, és koncentrálni is kívánják a kutatási kapacitásokat. Nem nehéz végiggondolni, hogy ha ez megvalósul, akkor ezek a vidéki egyetemek szépen lassan el fognak sorvadni. Pedig óriási lehetőség lenne abban, hogy ezeket az egyetemeket nem összerakni kell, nem koncentrálni kell, nem egy vízfejet kell belőle létrehozni, hanem az öt egyetemi központra alapozva lehetne olyan vidéki tudásbázisokat kialakítani, amely a vidék fejlesztésének az alapját, motorját tudná képezni.</seg>
+<seg xml:id="AC7_14402.2">Miniszter úr, az ön portfóliójába tartozik a vidék fejlesztése, ezért kérdezem önt, hogy a vidék mellé áll, vagy e mellé a koncepció mellé. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-03-13-urgent_question-AC7_14411" who="#LászlóSzászfalvi" ana="#regular"><note>SZÁSZFALVI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC7_14411.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! 2015 nyarán, amikor a Fidesz-KDNP-kormány bevezette a családi otthonteremtési kedvezményt a kormány új szemléletű családtámogatási rendszerének részeként, szinte azonnal látszott, hogy kiemelkedően nagy érdeklődést fog kiváltani. Régóta vártak a fiatal családok erre a lehetőségre, az intézkedést sokan megismerték, s rengetegen éltek is már a támogatási lehetőséggel. A CSOK a saját otthon felépítése vagy megvásárlása támogatásával elősegíti a fiatal családok életkezdését, ösztönzi a gyermekvállalást, a családalapítást, ezáltal hosszú távon Magyarország megerősödését, demográfiai helyzetének javítását.</seg>
+<seg xml:id="AC7_14411.2">Tavaly már lakáspiaci fordulat is történt, köszönhetően a CSOK sikerének is, hiszen 10 ezer új lakás épült, ami 31 százalékos bővülés az előző évihez képest. Az építőiparban keresletet generál, ezáltal munkahelyeket teremt, összességében pedig javítja a hazai lakhatási állapotokat is. Ezt segíti a tartós és kiegyensúlyozott gazdasági növekedés, a kedvező foglalkoztatási helyzet, a lakossági reáljövedelmek emelkedése, az alacsony kamatkörnyezet és az új lakások áfájának csökkentése is. Örömmel értesülhettünk a híradásokból, hogy a CSOK-igénylések összértéke ezekben a hetekben haladja meg a 100 milliárd forintos határt, és a családok közel egyharmada vállalt előre gyermeket.</seg>
+<seg xml:id="AC7_14411.3">Tisztelt Államtitkár Úr! Reméljük, idén is folytatódhat a CSOK sikere, szemben az ellenzék véleményével, akik rendszeresen támadják az otthonteremtési intézkedéseket, sőt a baloldali kormányzás alatt sok mindent megtettek azért, hogy az első polgári kormány lakástámogatási programját lerombolják. Tisztelettel kérdezem államtitkár urat: az összesített adatokból milyen tendenciákra következtethetünk, és a CSOK az elmúlt másfél év alat</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_14411.4">milyen társadalmi folyamatokat erősített meg vagy indított el? Várom államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-03-13-urgent_question-AC7_14415" who="#MártonGyöngyösi" ana="#regular"><note>GYÖNGYÖSI MÁRTON (Jobbik):</note>
+<seg xml:id="AC7_14415.1">Köszönöm a szót, elnök úr. Tisztelt Miniszterelnök Úr! Az elmúlt 27 évben, a rendszerváltás óta az a gazdaságpolitikai konszenzus uralta Magyarországot, hogy Magyarország felzárkózását, az életszínvonal javítását a működő tőke, a külföldi befektetések vonzásával lehet elérni, amihez alacsony béreket kell szolgáltatni, állami támogatást kell nyújtani a külföldi tőkének, és alacsony adókkal, adókedvezményekkel kell megkínálni az itt megtelepedni kívánó befektetőket.</seg>
+<seg xml:id="AC7_14415.2">Hét kormányzati ciklusból hármat az ön neve fémjelzett. Ön annak ellenére nem akart szakítani ezzel a gazdaságpolitikával, hogy ennek a politikának a negatív következményei szembeötlőek. Egy magyar fiatal ma két választási lehetőség előtt áll: vagy itthon marad és elszegényedik, illetve eladósodik, vagy külföldre távozik. Ön továbbra is azzal kampányol külföldön, és azzal hívja fel Magyarországra a figyelmet, hogy az olcsó munkaerőt, a jól képzett, de olcsó munkaerőt kínálja a külföldi működő tőkének, és a bérek leszakadásáról hallani sem akar.</seg>
+<seg xml:id="AC7_14415.3">A Jobbik ellenzékből most hív létre a kelet-közép-európai régiós országok teljes körű összefogásával egy európai polgári kezdeményezést, ezt indítja holnap. Ezzel fordul az Európai Bizottsághoz, amelyben kéri az európai uniós alapokmányokban annak az elvnek a rögzítését, hogy egyenlő munkáért egyenlő bér jár, és hogy a közös piacon ne csak az árunió valósuljon meg, ne csak az árak egyenlítődjenek ki, hanem ehhez a bérek is felzárkózzanak, és létrejöjjön Európában a bérunió.</seg>
+<seg xml:id="AC7_14415.4">Tisztelt Miniszterelnök Úr! Ha önnek háromszor négy év alatt kormányon nem jutott eszébe az, hogy az Európai Unió Tanácsában felvesse ezt a kérdést, szövetségeseket találjon, és nekünk ezt ellenzékből kell megvalósítani, akkor csak az a kérdésem van, hogy miniszterelnök úr tudja-e ezt a kezdeményezésünket támogatni, beáll-e a kezdeményezésünk mögé. Köszönöm szépen. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-03-13-urgent_question-AC7_14417" who="#PéterÁgh" ana="#regular"><note>ÁGH PÉTER (Fidesz):</note>
+<seg xml:id="AC7_14417.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Itt a parlamentben a múlt héten elfogadtuk a jogi határzár megerősítéséről szóló törvényt. Ez a módosítás erősebb védelmet ad Magyarországnak, és erősebb védelmet biztosít Európának is.</seg>
+<seg xml:id="AC7_14417.2">Szinte már meg sem lepődünk azon, hogy ismét politikai támadások érik hazánkat Brüsszelből a szigorítások miatt. Az elmúlt években már többször látott forgatókönyv ismétlődik: a magukat jogvédőnek nevező álcivil szervezetek minden lehetséges nemzetközi fórumon kritizálják a magyar migrációs szabályozást, és ehhez örömmel csatlakoznak az Európai Unió bevándorláspárti politikusai is. Nos, láttunk már ilyet, úgy látszik, ez a csata még folytatódni fog.</seg>
+<seg xml:id="AC7_14417.3">A nemzetközi álcivil szervezetek a menedékjog eredeti tartalmát kiforgatják, és úgy értelmezik, mintha ez egy, az EU területére jogellenesen belépő embertömegeket is megillető szociális ellátáshoz való jog lenne. A mi célunk pedig, hogy egyetlen migráns se tartózkodjon ellenőrizetlenül, jogellenesen hazánk területén, mert elfogadhatatlan, hogy a migránsok visszaéljenek a politikai menedékjog iránti kérelemmel, és arra használják fel, hogy eltűnjenek a schengeni határokon belül.</seg>
+<seg xml:id="AC7_14417.4">Az új szabályrendszer abszolút következetes, és az EU többi tagállamára nézve is pozitív hatással bír. Fontos sikerként könyvelhető el, hogy a nagy biztonsági kockázattal küzdő tagállamok már szépen lassan belátják, hogy a magyar szabályozás hatékony és eredményes. De nagy kihívás még, hogy Brüsszelben is világossá tegyük, hogy a nemzetállami szintű hasonló szigorításokra a gyakorlati problémák kezelése miatt igenis szükség van.</seg>
+<seg xml:id="AC7_14417.5">Tisztelt Államtitkár Úr! Számíthatunk arra, hogy a kormány eredményesen védi meg a múlt héten elfogadott jogi határzárral kapcsolatos szigorítást? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-03-13-urgent_question-AC7_14418" who="#LászlóL.Simon" ana="#regular"><note>L. SIMON LÁSZLÓ (Fidesz):</note>
+<seg xml:id="AC7_14418.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Miniszter Úr! A magyar filmgyártás 120 éves hagyományra tekint vissza. Ezalatt volt idő, amikor a világ élvonalába tartozott. Örülök, hogy újra sikeres időszakról beszélhetünk. Ez annak is köszönhető, hogy 2011-ben új alapokra helyeztük a magyar filmtámogatási rendszert. Szükség volt új filmszakmai támogatási rendszer kidolgozására, valamint a megszűnő Magyar Mozgókép Közalapítvány és ily módon lényegében az egész hazai filmipar felhalmozott tartozásállományának konszolidációjára az ágazat megmentése érdekében, valamint a korábbi finanszírozási bizonytalanságok orvoslására.</seg>
+<seg xml:id="AC7_14418.2">Létrejött a Magyar Nemzeti Filmalap és a Nemzeti Média- és Hírközlési Hatóság „Magyar média mecenatúra” programja. A Filmalap a moziforgalmazásra szánt egész estés játékfilmek, dokumentumfilmek és animációs filmek fejlesztéséhez, gyártásához és terjesztéséhez nyújt támogatást, míg az NMHH „Magyar média mecenatúra” programja a kísérleti és kisjátékfilmek, tévéfilmek, animációs rövidfilmek, tévés dokumentumfilmek készítésében segíti az alkotókat.</seg>
+<seg xml:id="AC7_14418.3">Az átalakítás sikerességét jelzi, hogy egyre több a kimagasló színvonalú alkotás, és a magyar filmesek újabb és újabb rangos nemzetközi díjat nyernek el szerte a világon. Az elmúlt években készített magyar játékfilmek több mint 200 rangos nemzetközi díjat kaptak, míg az NMHH által támogatott filmek közel 300 díjat hoztak el. Tehát ez összesen 500 rangos elismerés. Ezek közül ki kell emelnem, hogy szenzációs módon magyar alkotások két egymást követő évben is elnyerték a világ legrangosabb filmes díját, az Oscar-díjat. Emellett Cannes-ból, Londonból, Berlinből, hogy csak néhányat említsek, rendre díjakkal térnek haza a magyar alkotók.</seg>
+<seg xml:id="AC7_14418.4">Erre mindannyian büszkék lehetünk. Köszönöm szépen, elnök úr</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

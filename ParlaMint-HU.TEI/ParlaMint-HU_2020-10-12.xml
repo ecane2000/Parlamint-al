@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2020-10-12" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2020-10-12 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2020-10-12 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="16" unit="speeches">16 beszéd</measure>
+        <measure xml:lang="en" quantity="16" unit="speeches">16 speeches</measure>
+        <measure xml:lang="hu" quantity="5007" unit="words">5007 szó</measure>
+        <measure xml:lang="en" quantity="5007" unit="words">5007 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2020-10-12">2020. 10. 12.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="16"/>
+          <tagUsage gi="seg" occurs="57"/>
+          <tagUsage gi="kinesic" occurs="17"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2020-10-12">2020-10-12</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2020-10-12-urgent_question-AC8_13179" who="#GergelyFarkas" ana="#regular"><note>FARKAS GERGELY (független):</note>
+<seg xml:id="AC8_13179.1">Köszönöm szépen. Tisztelt Ház! Tisztelt Államtitkár Úr! Az előző két kormányzati alákérdezés hatására hallhattuk, hogy ki mindenkinek segítettek az elmúlt években; én azokra szeretném most felhívni a figyelmet, akiknek nem segítettek, és szeretném is megragadni az alkalmat, hogy ismertessem önnel két átlagos magyar fiatal helyzetét, és arra szeretném kérni, hogy adjon nekik tanácsot, hogy mit tegyenek az előrejutás érdekében.Nézzük Klárit, aki 23 éves, eladóként dolgozik egy dohányboltban, nettó 230 ezer forintot keres. Mivel vidéki, ezért egy kisebb szobát bérel Budapesten, rezsivel együtt 85 ezer forintot fizet, megveszi a BKV-bérletét, kifizeti a telefonszámláját, meglátogatja vidéken élő családját havonta kétszer. Nagyjából 90 ezer forintja marad egy hónapban, ebből kell fenntartania magát, amiből hó végére alig marad, megtakarításra kilátása sincs. Saját lakás? Neki csak álom.</seg>
+<seg xml:id="AC8_13179.2">A másik fiatal Dávid, ő 26 éves, vidéki, egy városabeli vállalatnál dolgozik adminisztrátorként, nettó 166 ezer forintot kap kézhez. Szeretne már külön élni szüleitől, de anyagi okok miatt nem teheti meg. Az otthoni rezsibe, ételbe havi 60 ezer forintot ad, kifizeti a telefonszámláját, néha ruhát vesz, néha elmegy a barátokkal szórakozni, körülbelül havi 30 ezer forintja marad. A legnagyobb álma, hogy elhagyja a mamahotelt, azonban ez elérhetetlennek tűnik számára, hiszen a 30 ezer forintos havi megtakarítással egy 15 milliós házra összespórolni mindösszesen 500 hónap, azaz röpke 41 év.</seg>
+<seg xml:id="AC8_13179.3">Tisztelt Államtitkár Úr! A két fiatalban van még néhány közös: a devizaválság és egyéb rossz tapasztalatok miatt nem akarnak eladósodni már önálló életük kezdetén, és messze vannak még a családalapítástól, tehát a CSOK vagy a babaváró sem opció nekik. Két konkrét esetet vázoltam fel, de sok tízezer fiatal van hasonló helyzetben, hiszen a 25 év alattiak átlagkeresete a KSH szerint 189 ezer forint, ebből pedig ilyen albérletárak vagy épp élelmiszerárak mellett nem lehet félretenni, illetve manapság nem huszonévesen vágnak bele a fiatalok a gyermekvállalásba, és az sem biztos, hogy minden fiatal három gyereket akar. Mit tanácsol nekik, kedves államtitkár úr</seg>
+<kinesic type="applause"><desc>Taps az ellenzék soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-10-12-urgent_question-AC8_13219" who="#BenceTordai" ana="#regular"><note>TORDAI BENCE (Párbeszéd):</note>
+<seg xml:id="AC8_13219.1">Köszönöm, elnök úr. Miniszterhelyettes Úr! Orbán Viktor múlt nyáron szégyent hozott Magyarországra, amikor megvétózta a közös uniós klímacélokat, a klímasemlegesség célját, aztán szégyent hozott a saját fejére is, amikor végül visszakullogott ebbe a megállapodásba. De úgy látszik, hogy ez súlyos nyomot hagyott benne, mert az idei évadnyitó dolgozatában arról értekezett, hogy ő aztán nem fog behajolni az abszurditásig emelt uniós klímacéloknak, és úgy látszik, hogy a fideszes katonák az EP-ben követték is ezt az útmutatást, hiszen múlt héten leszavazták azt, hogy az Európai Parlament egy ambiciózus klímacélt, a 60 százalékos csökkentés célját fogalmazza meg. Ezzel természetesen és szerencsére kisebbségben maradtak, hiszen a zöldek, a szociáldemokraták és minden felelősen gondolkodó európai vezető átvitték ezt a törvényjavaslatot.</seg>
+<seg xml:id="AC8_13219.2">Most az Európai Tanácson a sor, hogy ők is megtegyék tétjeiket, és tegyenek egy olyan felelősségteljes vállalást, amely tényleg gyerekeink jövőjéről szól, de eddig az a jövőgyilkos politika, amit a Fidesz folytatott, legalábbis aggályokat kelt bennünk a tekintetben, hogy Orbán Viktor nem készüle egy újabb vétóra, nem készüle a Fidesz-kormány egy újabb vétóra. Hiszen a klímaváltozás elleni harc nemcsak a jövőt érinti, a jövő nemzedékeket érdekli, az itt van velünk a mindennapokban. A dupla gyümölcsárak a klímaváltozás egyenes következményei. Az, hogy most hatszáz forint egy kiló alma, azért van, mert koraiak a fagyok, mert aszály van, és ezért pusztítanak szerte a világon erdőtüzek és borult fel teljesen az időjárás, vannak halálos hőhullámok szerte a világban, idén nyáron minket pont elkerültek, de 2020 nyara a legmelegebb valaha mért nyár volt a Föld történetében, amióta az ember ezt méri; szóval, ez a klímaváltozás itt van a nyakunkon, a hétköznapi életünket teszi tönkre. Úgyhogy kérdezném, hogy végre egy valódi problémával is megpróbálnake megküzden</seg>
+<seg xml:id="AC8_13219.3">(Dr. Rétvári Bence: A bevándorlással, vagy mire gondol?)</seg>
+<seg xml:id="AC8_13219.4">, vagy csak az önök által kitalált démonokkal hadakoznak</seg>
+<seg xml:id="AC8_13219.5">(Dr. Rétvári Bence: A bevándorlás vagy a koronavírus a démon?)</seg>
+<seg xml:id="AC8_13219.6">Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Párbeszéd padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-10-12-urgent_question-AC8_13220" who="#OlivioKocsis-Cake" ana="#regular"><note>KOCSIS-CAKE OLIVIO (Párbeszéd):</note>
+<seg xml:id="AC8_13220.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! A Biodómmal kapcsolatban szeretném önt kérdezni</seg>
+<seg xml:id="AC8_13220.2">(Dr. Rétvári Bence: Miért nem Karácsony Gergelyt? A tulajdonost kéne kérdezni.)</seg>
+<seg xml:id="AC8_13220.3">Az új fővárosi városvezetés az előző városvezetéstől, illetve a kormánytól nagy, súlyos terhet vett át a Biodómmal. Ahogy azt a kormányzati beruházásoknál láttuk, az eredeti tervek többszöröse lett az ár. A becsült összköltség 2014-ben még 16 milliárd volt, aztán ’15-ben 25 milliárd, 2017-ben 40 milliárd, 2019 végén meg 64 milliárdot terveztek.Az új városvezetés, azt gondolom, hogy felelősen járt el, és megvizsgálta, hogy mit lehet kezdeni a Biodómmal, megvizsgáltuk, hogy mit lehet kezdeni ezzel a nehéz helyzettel. Jelenleg az a helyzet, hogy a jelentés szerint 16,4 milliárdból be lehetne fejezni ezt a projektet. Ez egyébként 10 milliárddal kevesebb, mint az eddigi kalkuláció. Ebből hatmilliárd megtalálható a fővárosnál támogatásként, a Hermina garázs meg nem építésével 5,7 milliárd forint még hozzáadható a projekthez, illetve és a jelentés legfontosabb eredménye plusz 5 milliárd kellene még 2024-ig lépcsőzetesen a projektig.</seg>
+<seg xml:id="AC8_13220.4">A javaslat szerint meg a tervek szerint be kéne fejezni ezt a projektet, mert a visszabontása több tíz milliárddal járna, és az sem jó, ha egy torzó áll Budapest közepén. Szóval, itt lenne az 5 milliárd forintos kérdés államtitkár úrhoz, hogy mit tervez a kormány a Biodómmal, és kifizetike azt az 5 milliárd forintot 2024-ig, amely ahhoz szükséges, hogy a Biodómot befejezzék, a Biodóm felálljon, és elkezdhessen működni. Várom válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-10-12-urgent_question-AC8_13221" who="#LászlóSebián-Petrovszki" ana="#regular"><note>SEBIÁN-PETROVSZKI LÁSZLÓ (DK):</note>
+<seg xml:id="AC8_13221.1">Köszönöm szépen, elnök úr. Miniszter Úr! Májusban, vagyis több mint öt hónapja próbáltam szembesíteni és tettem szóvá miniszterelnök úrnak azt, hogy az Alkotmánybíróság alkotmányellenesnek minősítette azt a törvényt, amely a rokkantnyugdíjakat megvágta néhány évvel ezelőtt, és a Fidesz által beterjesztett, a Fidesz által elfogadott törvény több százezer embert hagyott az út mentén, több százezer rokkantnyugdíjat csökkentett le, vagy az érintettek 10 százalékát effektíve kiejtette a rendszerből; az Alkotmánybíróság ezt törvénytelennek minősítette. Mit kíván tenni a magyar kormány, hogy orvosolja ezt a problémát? Még egyszer mondom: az az Alkotmánybíróság döntött így, amelyikbe már teljes egészében az összes tagot önök delegálták, tehát nem lehet azzal vádolni őket, hogy az ellenzékhez közel álló tagok hozták volna meg ezt a döntést.</seg>
+<seg xml:id="AC8_13221.2">A határidő erre múlt év március 31e volt, tehát amikor májusban én ezt kérdeztem miniszterelnök úrtól, már akkor több mint egyéves csúszásban voltunk. Azóta eltelt újabb öt hónap, és semmi nem történt, nemhogy a kártalanításról, egyáltalán a rendezésről sem beszélhetünk. Itt akkor is elmondtam, hogy vannak olyanok, akik a havi 122 ezer forintos juttatásuk helyett már csak 30 ezer forintot kapnak havonta.</seg>
+<seg xml:id="AC8_13221.3">A miniszterelnök úr akkor a jogtalanságot elszenvedőkre próbálta hárítani a felelősséget, szerintem felháborító módon, az Alkotmánybíróság döntése azonban világosan kimondta, hogy elfogadhatatlan az a szabályozás, hogy egy fél lábát elveszítőnek ismét meg kell vizsgáltatnia magát, hogy vajon kinőtte a fél lába időközben. Mindazonáltal akkor a miniszterelnök úr a válaszát ezzel fejezte be, és itt hadd idézzem: „Nem olyan egyszerű lefordítani az alkotmánybírósági döntést a kormányzati cselekvés nyelvére, de igyekszünk és dolgozunk rajta.”</seg>
+<seg xml:id="AC8_13221.4">Miniszter Úr! Azt kérdezném akkor a kormánytól, csaknem öt hónapjuk volt erre, hogy dolgozzanak ezen a törvényen, illetve a törvény korrigálásá</seg>
+<kinesic type="signal"><desc>Az elnök csengetéssel jelzi az időkeret leteltét.): mégis meddig tart önöknek lefordítani ezt a döntést, mit jelent az, hogy igyekeznek? Ez jelenti az igyekvést? Köszönöm szépen</desc></kinesic>
+<kinesic type="applause"><desc>Taps a DK padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-10-12-urgent_question-AC8_13222" who="#LászlóVarju" ana="#regular"><kinesic type="noise"><desc>VARJU LÁSZLÓ (DK): Köszönöm szépen. Bízom abban, hogy nem ebben a kioktató stílusban folytatja majd államtitkár úr. Bízom abban, hogy a Pénzügyminisztérium higgadtsága lehetőséget ad arra, még akkor is, ha emlékeztetnem kell arra önt, hogy amikor tíz évvel ezelőtt átvették a kormányzást, kifejezetten szörnyülködve beszéltek arról, hogy a megelőző három évben lezajlott válság nyomán az államadósság 80 százalékra emelkedett. Ezt tekintették akkor a gazdaság fő problémájának, még az Alaptörvényükbe is belevették a célt, hogy ezt a nemzeti össztermék felére kell csökkenteni. A miniszterelnökük egy napirend előtti felszólalásában jegyezte meg, hogy hálát kéne adni a jóistennek, amiért ennek ellenére itt ülünk büntetlenül mármint mi. Ember, érti?! mondta magából kikelve az akkori szónoknak, a felszólalónak.</desc></kinesic>
+<seg xml:id="AC8_13222.1">Nos, nézzük, hogy állunk most! Július végén… a hiány az eredetileg tervezettnek az év végére elérheti a 10 százalékát is</seg>
+<seg xml:id="AC8_13222.2">(Sic!)</seg>
+<seg xml:id="AC8_13222.3">A gazdasági visszaesést az Európai Bizottság prognózisa 7 százalékra teszi. Mindezt összevetve a Fitch Ratings 78,3 százalékos adósságot jelez az idei év végére, ami már igazán nincs messze a 80 százaléktól, amit önök tíz éve valóságos apokalipszisként éltek meg. És akkor még nem is szóltam a vezető európai hitelminősítő, a Scope Ratings prognózisáról, ami optimista szcenárió esetére 80 százalékos adóssággal számol, mert pesszimista verziója már 90 százalékot mond. Maradjunk azonban csak a Fitch előrejelzésénél! Mint ahogy a tavalyi év végén az adósságráta 66,3 százalék volt, akkor ez azt jelenti, hogy miközben önök alig burkoltan börtönnel fenyegettek bennünket, addig önöknek egyetlen év alatt sikerült 12 ponttal növelni mindezt. Ember, érti?! idézhetném itt a kormányfőt.</seg>
+<seg xml:id="AC8_13222.4">Árulja el ezek után, tisztelt államtitkár úr, mit kívánnak tenni, hogy az adósság a célul kitűzött 50 százalék alatt legyen. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok soraiban.</desc></kinesic>
+<seg xml:id="AC8_13222.5">(13.40)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-10-12-urgent_question-AC8_13224" who="#KrisztinaHohn" ana="#regular"><note>HOHN KRISZTINA (LMP):</note>
+<seg xml:id="AC8_13224.1">Köszönöm szépen a szót. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Azok után, hogy nemrég, az előző ülésszak végén egy számomra kedves rendeletet fogadott el a Ház, és az örökbefogadást megkönnyítendő, többféle módosítást is eszközölt a törvényhozás, ezzel szemben most az október 5-ei rendeletet megdöbbenve láttam a Magyar Közlönyben, amelynek hatására tulajdonképpen, ha nincs házaspár, örökbe fogadni kívánó vagy szándékozó házaspár, aki örökbe fogadna egy adott gyermeket, akkor az kikerül az országos listára, és ha ott sincs, akkor kerülhet vissza a megyei listára esetleg egy egyedülálló örökbe fogadó számára kiajánlásra. De kik azok, akik egyedülállónak minősülnek a magyar örökbefogadási gyakorlatban? Például, akiknek tényleg nincs párjuk; akiknek van, de nem élnek együtt; akik együtt élnek, de nem házasok; akik regisztrált élettársi kapcsolatban élnek; sőt azok is, akik házasként vágnak bele az örökbefogadásba, de mondjuk, a társuk nem kívánja örökbe fogadni a gyermeket, még erre is van lehetőség a magyar jog szerint.Nem értem ezt a fajta ötletet, hiszen ezzel a magyar kormány elítéli az egyedülálló szülőket. Sajnos ezt ki kell mondani, mert ez nemcsak örökbefogadási szempontból hátrányos, hanem el kell azon gondolkodnunk, hogy akkor ezek szerint a körülbelül 45 százalékban házasságon kívül vagy nem házasságba született gyermekek is ugyanaz alá az elbírálás alá esnek. Egy gyereknek az a cél, hogy minél előbb szeressék, és biztonságban, szeretetben nőjön fel, és lehet, hogy egy tágabb család is tud elegendő támogatást adni annak a gyermeknek, nem csak és kizárólag akkor, ha egy szülőpárról beszélünk. Pont ez a lényege az előzetes pszichikai vizsgálatnak is, amely felderíti, hogy alkalmasake az örökbefogadásra azok, akik jelentkeznek</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-10-12-urgent_question-AC8_13225" who="#AntalCsárdi" ana="#regular"><note>CSÁRDI ANTAL (LMP):</note>
+<seg xml:id="AC8_13225.1">Köszönöm szépen a szót. Tisztelt Államtitkár Úr! Azt gondolom, hogy önnek is illene tudni és reményeim szerint talán tudja is, hogy a mai Magyarországon ebben a járvány sújtotta időszakban vagy a járvány okozta gazdasági helyzetben családok százezrei kénytelenek kisebb jövedelemből megélni, mint ahogy meg kellett élniük a járvány kitörése előtt. És azt gondolom, hogy önnek is tisztában kell lennie azzal a ténnyel, hogy emiatt családok százezreinek okoz nehézséget megvenni a mindennapi alapvető élelmiszert a boltokban vagy a piacon. És azt gondolom, hogy sokszor vívtunk már csatát annak érdekében, hogy a magyar kormány végre jelenítsen meg egy társadalompolitikát az adórendszerében, és csökkentse le az alapvető élelmiszerek áfáját 5 százalékra.Gondolom, nem véletlen van az, hogy a gyógyszerek áfája 5 százalék. Hiszen minél nagyobb, szélesebb körnek akarjuk könnyen elérhetővé tenni; gondolom, nem véletlen van az, hogy a Braille-tábla, a Braille-írógép áfája 5 százalék, hiszen azt gondolom, hogy egy társadalompolitikai kép kell hogy emögött megbújjon. Épp ezért kérdezem a tisztelt államtitkár urat: ön szerint hány családnak van szüksége elérhető árú alapvető élelmiszerekre? Ön szerint hány családnak van szüksége elérhető árú éttermekre, illetve ön szerint hány családnak van szüksége újépítésű lakásokra? Egy szám szerinti választ szeretnék kapni.</seg>
+<seg xml:id="AC8_13225.2">Valamint egy zárókérdés: mikor kívánja a magyar kormány végre megjeleníteni bármilyen társadalompolitikai célkitűzését például az áfarendszerben, az áfatörvényben? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-10-12-urgent_question-AC8_13226" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC8_13226.1">Köszönöm szépen, elnök úr. Tisztelt Képviselőtársak! Tisztelt Államtitkár Urak! Az elmúlt héten minden tekintetben majdnem mindennap rekordot döntöttek azok az adatok, amelyeket meghallgathattunk a koronavírus-járvánnyal kapcsolatban. Október 10-én 1374 új fertőzöttet regisztráltak, és október 7-én 24-en haltak meg. A mai nap sem sokkal jobb adatokat hallgathattunk meg: 1173 új beteget regisztráltak, és 14-en hunytak el.Az elmúlt hetekben folyamatosan arról tájékoztattak bennünket kormányzati szinten, hogy az egészségügy fel van készülve a koronavírusos betegek ellátására, a kórházak felkészültek, minden eszközzel rendelkeznek azzal kapcsolatban, hogy minden beteget el tudjanak látni.</seg>
+<seg xml:id="AC8_13226.2">Arról nem beszélünk, hogy a betegek legtöbb esetben nem a kórházat látogatják meg, hanem az alapellátásban a háziorvosukat keresik fel</seg>
+<seg xml:id="AC8_13226.3">(Dr. Rétvári Bence: Telefonon.)</seg>
+<seg xml:id="AC8_13226.4">Ma Magyarországon 562 üres háziorvosi praxis van, közel 720 ezer magyar honfitársunk nem jut hozzá az alapellátáshoz, az alapszolgáltatáshoz, amiért ma súlyos adóforintokat fizetünk. Van olyan település, ahol már 15-16 éve betöltetlen a háziorvosi körzet.</seg>
+<seg xml:id="AC8_13226.5">Beszélhetünk arról is, hogy a háziorvosok korfája hogyan tevődik össze, és a kormányzat erről nem sokat beszél nap mint nap. 2010-ben még a háziorvosi körzetek 53 százaléka volt tartósan betöltetlen, 2018-ban már 71 százaléka.</seg>
+<seg xml:id="AC8_13226.6">(12.30)</seg>
+<seg xml:id="AC8_13226.7">Államtitkár Úr! Kérdezem én, hogy ezek az emberek, akik napi szinten nem kapnak alapellátást, kihez forduljanak. Milyen esélyekkel indulnak most a járvánnyal kapcsolatban? Szerintem ők vannak a legnagyobb veszélyben ma Magyarországon</seg>
+<kinesic type="signal"><desc>Az elnök csengetéssel jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC8_13226.8">Államtitkár Úr! Őnekik hova kell fordulni, és milyen szolgáltatáshoz tudnak hozzájutni? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-10-12-urgent_question-AC8_13227" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC8_13227.1">Köszönöm szépen, elnök úr. Tisztelt Képviselőtársak! Tisztelt Államtitkár Urak! 2018. november 20-án belobbant a gáz a nagyhegyesi gáztározóban. Egy hibás vezeték okozta a problémát, és több mint 9 órán keresztül tombolt a tűz Nagyhegyes és Hajdúszoboszló között. Itt még az utat is le kellett zárni több óra hosszára, és több mint 35 tűzoltó oltotta a tüzet. 2019. november 18-án hajnalban gázrobbanás volt Püspökladányban. Egy felszín alatti vezeték robbant be, a lakóházaktól néhány száz méterre. Itt is több órán keresztül tombolt a tűz. Tőlünk Püspökladány 16 kilométerre van, még ott is iszonyatos félelmet keltett a lakosságban, olyan irtózatos hangja volt ennek a gázrobbanásnak és magának a tűznek.</seg>
+<seg xml:id="AC8_13227.2">Majd múlt héten, 2020. október 5-én újra gázrobbanás volt a nagyhegyesi gáztározóban, alig 800 méterre a lakóházaktól. Beszélve a dolgozókkal és azokkal, akik ismerik ezeket a területeket, azt mondják, hogy az elmaradt karbantartások miatt vannak ezek a robbanások, meg a szakemberhiány miatt.</seg>
+<seg xml:id="AC8_13227.3">Államtitkár úr, nyugtasson meg! Lehet azt mondani a közvéleménynek vagy a politikusoknak, hogy ez két év alatt csupán három robbanás volt, de ez egy megyén belül, és Nagyhegyesen, ahol a MOL telephelye van, kétszer történt az elmúlt években. Államtitkár Úr! Nyugtasson meg, hogy van információjuk arról, hogy mi történt az elmúlt héten Nagyhegyesen, és ez nem rendszerszintű lesz, és nem rendszerszintű hibáról beszélünk, hogy olyan régiek a vezetékek, hogy nem újították fel ezeket a vezetékeket. Szerintem ez sokkal fontosabb téma annál, úgyhogy kormányzati szinten figyeljenek most már oda, hogy a lakosság veszélyben van vagy nincs veszélyben. Várom megtisztelő válaszát, államtitkár úr.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-10-12-urgent_question-AC8_13229" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC8_13229.1">Tisztelt Elnök Úr! Tisztelt Ház! Ha egy pillanatra elvonjuk tekintetünket a borsodi akciós fideszes burgonyavásárról, a tömeges krumpliosztásról, a szavazók szervezett szállításáról, az utcafórumok résztvevőinek helyi fideszes potentátok általi rögzítésétől, aztán ezen személyek informális csatornákon történő feltételezhető zsarolásáról, fenyegetéséről, és ha még a jobbikos aktivista életveszélyes megfenyegetésén is egy kicsit túllépünk, akkor el kell hogy mondjak önöknek egy másik olyan hétvégi történést, amely a kormányzat válaszáért kiált, márpedig akkor mindenképpen, ha legalább nyomokban nemzeti kormánynak vallja magát. Történt ugyanis az, hogy Szentendrén és lehet ezen mosolyogni, biztos nagyon vicces egy daganatos beteg asszony, miután a kórházban küzdött az életéért, hazatért. Mire hazatért ez az asszony, arra lett figyelmes, hogy nem tud bejutni a saját otthonába, hiszen amíg a kórházban küzdött a daganatos betegségével, a végrehajtó lecserélte a zárat a saját otthonán rendőri segédlettel tette mindezt , és a beteg hölgy a saját gyógyszereiért, személyes holmijáért sem tudott bejutni. Óriási szerencse, hogy egy északi megyében élő fia a segítségére tudott sietni; helyi jobbikos aktivistánk, képviselőnk a mai nap folyamán fog segíteni panaszt tenni ezen ügyek mentén.</seg>
+<seg xml:id="AC8_13229.2">Azt látjuk, hogy a magát nemzetinek hazudó kormány bizony több mint tízezer elhelyezés nélküli kilakoltatáshoz asszisztált. Erről kellene önöknek beszélni és dicshimnuszokat zengeni, a megvédett családokról, ehelyett a szavazatvásárlások után beállt eredmény után dicsőítik magukat.</seg>
+<seg xml:id="AC8_13229.3">De egy konkrét esetben kérem miniszter úr válaszát: a Fidesz Magyarországán elfogadhatónak tartjae azt, hogy egy daganatos betegséggel küzdő hölgy hazatértekor ne tudjon bejutni a lakásába, ne tudjon hozzáférni a gyógyszereihez, a személyes holmijaihoz? Kérem, érdemében válaszoljon erre a felvetésre. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-10-12-urgent_question-AC8_13231" who="#RóbertDudás" ana="#regular"><note>DUDÁS RÓBERT (Jobbik):</note>
+<seg xml:id="AC8_13231.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Első parlamenti felszólalásom is a Mátrai Erőművel volt kapcsolatos, ami az erőmű fontosságán, nemzetgazdasági, nemzetstratégiai szerepén túl abból fakad többek között, hogy ott élek, így ismerem a Mátrában élők életét, gondjait, problémáit, helyzetét, és azt is tudom, hogy a Mátrai Erőmű milyen fontos szerepet játszik az ottani munkavállalók és a családjaik életében.Most szeretném nagyon röviden az elmúlt három év történéseit felvázolni, sajnos csak vázlatosan tudom mindezt megtenni. Az előző német tulajdonostól három évvel ezelőtt megvette egy Mészáros Lőrinc nevű magánszemély a Mátrai Erőművet egy cseh céggel karöltve, akkor 5,9 milliárd forintért. Ekkor azt mondta a magyar állam, hogy ennyi pénzért nem éri meg, ezért nem veszi meg a magyar állam. Alig telt el négy nap, kifizették a cseheket, négyszeres haszonnal szálltak ki, talán az évszázad vagy az évezred üzletét csinálták ebből a cseh cégek azért, mert azt mondta Mészáros, hogy a csehek be akarták zárni az erőművet, ő pedig ezt nem engedi. Ennek még később fontos szerepe lesz. Tavaly decemberben zárult le az a tranzakció, amelynek keretén belül a magyar állam megvette a Mátrai Erőművet, már nem 5,9 milliárd forintért, hanem 17,4 milliárdért. Ha minden összeget figyelembe veszünk, a feltőkésítést és más vonzatos költséget, akkor 75 milliárd forintnál tartunk. Józan logikával érthetetlen, hogy miért nem három évvel azelőtt vette meg az állam, és miért kellett hagyni, hogy egy tolvaj kirabolja azt.</seg>
+<seg xml:id="AC8_13231.2">És hogy mivel magyarázta Mészáros Lőrinc, vagyis mivel magyarázta Orbán Viktor összekevertem a két személyt , hogy meg kell venni a magyar államnak? Azzal magyarázta, hogy Mészáros Lőrinc be akarja zárni az erőművet, megfenyegette a kormányt. Ezt mondta tíz hónappal ezelőtt a miniszterelnök úr. Legyünk őszinték: ez mennyire életszerű? Nagyon vicces fiú ez a Lőrinc. Nem egészen egy év elteltével most a köztársasági elnök azt mondja, hogy be kell zárni az erőművet.</seg>
+<seg xml:id="AC8_13231.3">Államtitkár úr, a Mátrai Erőművet meg kell menteni, korszerűsíteni kell, mert nemcsak nemzetstratégiai fontosságú cég, hanem több mint kétezer munkavállaló megélhetését biztosítja. Mit tesz ennek érdekében a kormány</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-10-12-urgent_question-AC8_13232" who="#CsabaGyüre" ana="#regular"><note>DR. GYÜRE CSABA (Jobbik):</note>
+<seg xml:id="AC8_13232.1">Köszönöm szépen a szót, elnök úr. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Áder János köztárasági elnök úr 2020. október 5-én kelt átiratában dr. Varga Zsolt András alkotmánybírót jelölte a Kúria elnökévé, aki ezt a jelölést elfogadta. A bíróságok szervezetéről és igazgatásáról szóló 2011. évi CLXI. törvény 103. § (3) bekezdés e)</seg>
+<seg xml:id="AC8_13232.2">pontja alapján az Országos Bírói Tanács személyes meghallgatás alapján előzetes véleményt nyilvánított a Kúria elnökének tisztségére jelölt személyről. Az Országos Bírói Tanács 2020. október 9-én hallgatta meg dr. Varga Zsolt Andrást, majd 1 igen és 13 nem szavazattal, tartózkodás nélkül nem támogatta a jelölt Kúria-elnökké történő kinevezését.</seg>
+<seg xml:id="AC8_13232.3">Ennek okai: ítélkezési tevékenységet soha nem végzett Varga Zsolt András, tárgyalótermi tapasztalatokkal nem rendelkezik, a bírósági igazgatás terén nincs múltja. Az OBT összefoglaló véleménye szerint Varga Zsolt András nem felel meg annak az elvárásnak, hogy a bírósági szervezet csúcsára más hatalmi ágaktól független, külső szemlélő számára is pártatlannak látszó személy kerüljön.</seg>
+<seg xml:id="AC8_13232.4">Varga Zsolt András bíróként nem dolgozott, de volt többek között nevelőtanár az ELTE kollégiumában, előadó, adjunktus, egyetemi docens, tanszékvezető egyetemi tanár, volt tisztviselő, fogalmazó az ügyészségen, dolgozott az Országgyűlési Biztos Hivatalában, volt legfőbbügyész-helyettes, volt a Jogi Szakvizsga Bizottság tagja, a Velencei Bizottság tagja, volt szerkesztőbizottsági tag. Gyakorlatilag ő minden volt, egyetlenegy dolog nem volt: mégpedig bíró nem volt sohasem.</seg>
+<seg xml:id="AC8_13232.5">Mit gondol erről, államtitkár úr? Helyénvalónak tartjae, hogy egy olyan személy kerüljön a bírósági szervezet élére, aki soha nem volt bíró, soha nem dolgozott bírósági szervezetben</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-10-12-urgent_question-AC8_13235" who="#MónikaDunai" ana="#regular"><note>DUNAI MÓNIKA (Fidesz):</note>
+<seg xml:id="AC8_13235.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A Fidesz-KDNP-kormány által bevezetett családok otthonteremtési kedvezménye, valamint a családvédelmi akcióterv célja a gyermekvállalás minden korábbinál nagyobb mértékű ösztönzése, a fiatalok életkezdésének és otthonteremtésének támogatása, a nagycsaládosok erőfeszítéseinek elismerése, a családi élet és a munkavállalás közti egyensúly megteremtése, valamint a magyar kistelepülések megerősítése és modernizálása. A családi adókedvezmény mai formában létező rendszere a kormány talán legemblematikusabb intézkedése, amely eddig soha nem látott mértékű segítséget jelent a fiatal, gyermeket vállaló párok részére. 2010-ben egy súlyos pénzügyi válság kellős közepén volt Magyarország. Ezt a válságot a polgári kormány nem olyan eszközökkel kezelte, mint ahogy azt a baloldali kormányok tették annak idején, akik minden terhet áthárítottak a magyar családokra. A Gyurcsány-Bajnai-szövetség nem a magyar családokat, hanem a bankokat és a multikat képviselte, a családokat elszegényítették és devizahitelbe sodorták. Minden magyar családot megkárosítottak, amikor elvették tőlük a rendszeres gyermekvédelmi támogatást, valamint az egy és két gyermeket nevelő szülők családi adókedvezményét. A három- és többgyermekesek esetében a családi adókedvezményt a gyermekenkénti havi 10 ezer forintról 4 ezer forintra csökkentették. Megrövidítették a gyes idejét, a családi pótlék felső életkori határát 23 évről 20 évre csökkentették, hogy csak néhányat említsünk. A baloldali kormányok időszakában tizenötször emelték az energia árát, a villanyét kétszeresére, a gázét pedig háromszorosára emelték.</seg>
+<seg xml:id="AC8_13235.2">Tisztelt Államtitkár Úr! Az elmúlt évtizedben kialakított családtámogatási, otthonteremtési rendszer azt mutatja, hogy a magyar családok számíthatnak a magyar kormány támogatására. Ugyanakkor az előbb elhangzottakra tekintettel kérdezem tisztelt államtitkár urat, hogy milyen további eszközökkel segítik a családalapításban gondolkodó fiatal párokat. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-10-12-urgent_question-AC8_13236" who="#LászlóBöröcz" ana="#regular"><note>BÖRÖCZ LÁSZLÓ (Fidesz):</note>
+<seg xml:id="AC8_13236.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! Nemrég hallhattunk egy felvételt, melyen a Momentum európai parlamenti képviselője a következőket mondja: „Věra Jourovával háromnaponta beszéltem telefonon. Rengeteg informális telefonhívás, beszélgetés történt nemcsak velük, hanem az új Sargentinivel is, Gwendoline Delbosszal, ő viszi tovább a magyar kérdést.”A dolog azért is meghökkentő, mert még két hét sem telt el azóta, hogy a felvételen szereplő Donáth Anna éppen egy, Varga Judit miniszter asszonnyal folytatott nyilvános vitában egyszerűen letagadta, hogy rendszeresen informálisan egyeztetett volna Věra Jourovával, a Bizottság alelnökével a magyar jogállamiság kapcsán.</seg>
+<seg xml:id="AC8_13236.2">(14.00)</seg>
+<seg xml:id="AC8_13236.3">Most már teljesen nyilvánvaló, hogy ezt a jelentést Jourová többek között a magyar baloldali politikusok és 11 olyan civil szervezet anyagából állította össze, amelyek az elmúlt években pénzügyi támogatásokat kaptak a Soros Györgyhöz köthető Nyílt Társadalom Alapítványtól. Egyértelműen kiderül, hogy a szintén Soros által pénzelt baloldali ifjúsági szervezet közvetlenül is szerepet játszik a Magyarország elleni külföldi támadásokban.</seg>
+<seg xml:id="AC8_13236.4">Tisztelt Államtitkár Úr! A vak is láthatja, ha a Momentumnak választania kell Magyarország és a Soros-hálózat érdekei között, nyíltan az utóbbi pártjára áll. De nincs min csodálkozni, ha visszaemlékszünk az első politikai akciójukra, már az is arról szólt, hogy Magyarországgal szemben Franciaországot segítették az olimpia megrendezéséért folyó versenyben. Akkor is lebuktatták magukat, hiszen nem sokkal később kiderült, hogy éppen a francia kormánypártoktól kaptak kampánykiképzést ajándékba. Így nem lehetnek illúzióink a motivációjukat illetően. Jogos tehát a kérdés: ezúttal vajon mit kap fizetségül Gyurcsány Ferenc ifjúsági szervezete, a Momentum azért, hogy hazáját Brüsszelben támadja? Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-10-12-urgent_question-AC8_13239" who="#LászlóSzászfalvi" ana="#regular"><note>SZÁSZFALVI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC8_13239.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A 2010-ben megalakuló Fidesz-KDNP-kormányzat már a kormányzása kezdetén egyértelműsítette, hogy a családok Magyarország értékhordozó és értékteremtő alapegységei, ahogy ez később az Alaptörvényben is rögzítésre került. Ez természetesen nemcsak egy jelmondat volt, hanem konkrét cselekvések is társultak az Alaptörvényben rögzítettek mellé. Létrejött az új családtámogatási rendszer, melynek keretében bevezetésre, illetve a későbbiekben kibővítésre került a családi adókedvezmény. A kormány Magyarország teljesítőképességéhez mérten folyamatosan bővítette és bővíti a családtámogatási rendszert. Nincs ez másképp most sem a koronavírus okozta válság idején. A veszélyhelyzet idején az első intézkedések között került sor a hitelmoratórium bevezetésére, ami a koronavírus okozta válság idején több százezer család lakhatását, otthonát védte meg. Nemrégiben a hitelmoratórium meghosszabbítására is sor került, egészen a jövő év közepéig. Tisztelt Államtitkár Úr! Nem csupán intézkedésekről van szó, hanem egy szemléletről, amely a kormányzati gondolkodásnak az alapja. A KDNP-frakció éppen ezért üdvözli a miniszterelnök úr múlt heti bejelentését, mely szerint Novák Katalin miniszter asszony egy új otthonteremtési program pilléreit terjesztette elő a kormány elé. Ennek egyik elemeként a lakások 5 százalékos áfáját már el is fogadta a kabinet.</seg>
+<seg xml:id="AC8_13239.2">Tisztelt Államtitkár Úr! A bejelentett intézkedésekkel kapcsolatban kérdezem, hogyan segíti az 5 százalékos áfa bevezetése a családok otthonteremtését, mikortól tudják igénybe venni ezt a kedvezményt, és hogyan illeszthető be ez a kedvezmény a CSOK rendszerébe. Várom államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-10-12-urgent_question-AC8_13240" who="#ImreVejkey" ana="#regular"><note>DR. VEJKEY IMRE (KDNP):</note>
+<seg xml:id="AC8_13240.1">Tisztelt Elnök Úr! Köszönöm a szót. Tisztelt Államtitkár Úr és kevésbé tisztelt Momentum! Az iskairóti Júdás 30 ezüstöt kapott Jézus Krisztus elárulásáért. A Momentum mennyit kapott vajon azért, hogy elárulta a felvidéki magyarok után most már az Erdélyben élő székelyeket is? Tudják, bár az iskairóti Júdás együtt élt Jézussal és az apostolokkal, de mégis lélekben és gondolkodásban semmi köze nem volt ehhez a közösséghez. A Momentumban vajon tudjáke egyáltalán, hogy mit is jelent az igazi magyar lélekkel való gondolkodás, a magyar közösséghez való tartozás? Tudjáke azt, hogy mit tesz magyarnak lenni? Nekünk, kereszténydemokratáknak azt teszi, hogy Trianon száz év után is mélységesen fáj. Tudják azt, hogy a székelyek milyen büszkék történelmükre, hitükre és nyelvükre, mely nem román? Ha nem tudják, akkor hát, tanulják meg! Ha tudják, akkor pedig a kérdés az, hogy miért kampányolnak Székelyföldön a székelyek ellen, és a székelyek győzelmekor miért írnak nekik magyar helyett román nyelven. Én mint tiszteletbeli székely mondhatom, hogy ezzel a Momentum a lelkünkbe gázolt.</seg>
+<seg xml:id="AC8_13240.2">Tisztelt Államtitkár Úr! A kérdés az, hogy a Momentum bár a magyar jog szerint bejegyzett magyarországi párt, de mégis miért érzéketlen az elcsatolt területek magyarsága iránt, de mégis miért érzéketlen történelmi nemzetünk iránt, de mégis miért követ el nemzetpolitikai árulást. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

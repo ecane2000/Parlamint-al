@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2015-09-28" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2015-09-28 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2015-09-28 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="10" unit="speeches">10 beszéd</measure>
+        <measure xml:lang="en" quantity="10" unit="speeches">10 speeches</measure>
+        <measure xml:lang="hu" quantity="3163" unit="words">3163 szó</measure>
+        <measure xml:lang="en" quantity="3163" unit="words">3163 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2015-09-28">2015. 09. 28.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="10"/>
+          <tagUsage gi="seg" occurs="47"/>
+          <tagUsage gi="kinesic" occurs="10"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2015-09-28">2015-09-28</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2015-09-28-urgent_question-AC7_6354" who="#LászlóSzászfalvi" ana="#regular"><note>SZÁSZFALVI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC7_6354.1">Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Itt van az ősz, itt van újra - mondjuk és mondhatnánk együtt Petőfi Sándorral, azonban a horvát-magyar határon történő események miatt az ősz nem olyan szép, mint korábban.</seg>
+<seg xml:id="AC7_6354.2">A választókerületemben, a zákányi és a barcsi köznevelési intézményekben a sokezres illegális migráció árnyékában folyik az oktató-nevelő munka jelenleg. Innen is köszönet illeti a rendőrökön, a katonákon, a mentősökön, a polgármestereken, az önkormányzati képviselőkön és a helyi polgárokon túlmenően a pedagógusoknak is a segítő-támogató munkáját. Ebben a vészjósló helyzetben sem feledkezhetünk meg azonban arról, hogy szeptember az iskola- és az óvodakezdés hónapja is, a gyermekek izgalommal élik át ezeket a napokat, és a szülők is, hiszen sokáig az iskolakezdés a családi kassza jelentős megcsappanását is jelentette: tankönyv-, iskolatáska-, tornafelszerelés-vásárlás, ebéd- és osztálypénz-befizetés. Az elmúlt időszakban azonban jelentős törvényi változások és kormányzati döntések léptek életbe, amelyek jelentősen könnyítették a családok életét.</seg>
+<seg xml:id="AC7_6354.3">Tisztelt Államtitkár Úr! Tisztelettel kérdezem, hogy hány gyermeket érint az ingyenes tankönyvellátás. A gyermekétkeztetésre szánt forrás idén 10 százalékkal, 53-ról 58 milliárd forintra emelkedett, az elmúlt öt évben pedig több mint a duplájára nőtt. Ez a növekedés hány gyermeket érint?</seg>
+<seg xml:id="AC7_6354.4">Az iskola a gyermekekért van, de ne feledkezzünk el az őket oktató-nevelő pedagógusok áldozatos munkájáról sem. Tisztelettel kérdezem, hogy megkapták-e a tanárok az idén esedékes béremelésüket. Várom a megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-09-28-urgent_question-AC7_6355" who="#ZsoltLegény" ana="#regular"><note>DR. LEGÉNY ZSOLT (MSZP):</note>
+<seg xml:id="AC7_6355.1">Köszönöm, elnök úr. Tisztelt Ház! Tisztelt Miniszter Úr! 2015. szeptember 24-én, múlt héten, csütörtökön 9 órára a Mezőgazdasági bizottság ellenőrző albizottságának elnökeként összehívtam az ellenőrző albizottságot ellenzéki képviselőtársaim kezdeményezésére. Egy napirendi pontunk lett volna, ez pedig úgy hangzott volna: tájékoztató az állami tulajdonban lévő termőföldek magántulajdonba adásáról, valamint a földművesek földtulajdonhoz juttatásához szükséges tervezett intézkedésekről. Azért kezdeményezték ellenzéki képviselőtársaim ezen ellenőrző albizottság összehívását, hiszen jobbára sajtóértesülésekből szereztünk arról tudomást, hogy a kormány szándékszik mintegy 380 ezer hektár állami földet értékesíteni.</seg>
+<seg xml:id="AC7_6355.2">Ellenzéki képviselőtársaimmal tehát kezdeményeztük ezen albizottság összehívását, ezt az albizottság elnökeként meg is tettem. Meghívtuk volna a napirendi ponthoz előadónak Lázár János Miniszterelnökséget vezető miniszter urat, Fazekas Sándor földművelésügyi miniszter urat és Bitay Mártont, az FM állami földekért felelős államtitkárát.</seg>
+<seg xml:id="AC7_6355.3">Ahhoz már hozzászoktunk, hogy a fideszes képviselőtársaim, mondjuk úgy, bojkottálni szokták szinte ennek az ellenőrző albizottságnak az ülését, ahhoz azonban nem, hogy a kormány részéről az említett miniszter és államtitkár urak - jóllehet meghívtuk őket, hogy személyesen tájékoztassanak minket és talán rajtunk és a sajtón keresztül a közvéleményt is, hogy milyen tartalommal és hogyan tervezi a kormány ezt az intézkedését, amivel mi nem értünk egyet, de most politikai felhangoktól mentesen - nem jönnek el. Szóval, azt nem értjük, hogy miért nem jöttek el erre az ülésre a miniszter és az államtitkár urak. Írásban jelezték aznap reggel, illetőleg előző este, hogy nem fognak eljönni az ülésre. Azt gondoljuk, hogy a parlament mint a legfőbb népképviseleti szerv, az ellenőrző szerepét is betölti, betöltheti, és azt gondoljuk, hogy egy ellenőrző albizottsági ülésre el kellett volna jönni.</seg>
+<seg xml:id="AC7_6355.4">Ezért tehát kérdeztem volna a miniszterelnök urat, akkor így miniszter urat, bár mondom, személyesen érintett, hogy hogyan működik a kormány, helyreállítják-e a Ház tekintélyét, becsületé</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_6355.5">, mert úgy gondoljuk, hogy ez kifejezetten káros volt. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-09-28-urgent_question-AC7_6356" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC7_6356.1">Köszönöm szépen, elnök úr. Tisztelt Miniszter Úr! Nyíregyháza, Újfehértó, Nagyhalász, Kótaj, Buj, Ibrány, Kemecse, Nyírtelek, Kálmánháza, Vásárosnamény, Debrecen, Bagamér, Nyíradony, Bóly, Nagykereki, Berettyóújfalu, Mezőpeterd, Szentpéterszeg, Tiszabura, Tiszaroff, Kunhegyes, Kunmadaras, Törökszentmiklós, Jászberény, Jászapáti, Szolnok - csak néhány település az Eszosz-károsultak kapcsán. Három megye, 2800 becsapott munkavállaló, 2800 család, majdnem 10 ezer ember. Hat hónap alatt az Eszosz elköltött 1,3 milliárd közpénzt, naponta 7 millió forintot.</seg>
+<seg xml:id="AC7_6356.2">Tisztelt Miniszter Úr! Rácz Róbert a megyei közgyűlésben pénteken az alábbiakat mondta: „Hajdú-Bihar megyében az Eszosznál alkalmazott mintegy ezer, a munkaügyi kirendeltségek által kiközvetített emberből 463-nak mondott fel július 20-án a szervezet. Közülük 386-an fordultak segítségért a járási hivatalok munkaügyi kirendeltségeihez, 379-en már kapnak valamilyen ellátást, mindössze 7 ember nem kap jelenleg semmilyen ellátást a megyében.” - mondta Rácz Róbert megyei kormánymegbízott.</seg>
+<seg xml:id="AC7_6356.3">Már megint - finoman fogalmazva - ferdítenek vagy tudatosan hazudnak. Ezerből ha kivonjuk a 386-ot, az nem 7, hanem 614. Ennyi ember nem kap most Hajdú-Bihar megyében semmilyen ellátást Eszosz kapcsán, és ugyanez a helyzet Szolnok megyében és Szabolcs megyében is.</seg>
+<seg xml:id="AC7_6356.4">Mindezek miatt kérdezem miniszter urat: meddig lehet ön szerint jövedelem nélkül megélni ma Magyarországon? A kifizetések teljesítésénél miért nem tűnt fel a csalás, valósak voltak-e a minisztériumtól az ellenőrzések? Mit csinált a kormány négy hónapon keresztül? Akinek nincs semmije, akkor tényleg annyit is ér, miniszter úr? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-09-28-urgent_question-AC7_6357" who="#LászlóKiss" ana="#regular"><note>KISS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_6357.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Azokról az emberekről szeretnék beszélni, akik az iskolákban, az óvodákban, az oktatási intézményekben nap mint nap a gyermekeink mellett vannak, segítik őket, akik erejük és legjobb tudásuk szerint idejük nagy részében foglalkoznak velük, és akik nélkül nem működne az oktatási intézményrendszer. Ezekről az emberekről méltánytalanul kevés szó esik a mindennapokban: az iskolatitkárokról, az óvodatitkárokról, a kollégiumi titkárokról, a dajkákról, laboránsokról, rendszergazdákról, iskolapszichológusokról, portásokról, takarítókról, gondnokokról, könyvelőkről, adminisztrátorokról, gazdasági ügyintézőkről, a technikai személyzetről. Kevés szó esik róluk, és úgy tűnik, a kormánynak sem fontosak, ugyanis az oktató-nevelő munkát közvetlenül segítő alkalmazottak fizetése már régóta nem nőtt. A közalkalmazotti bértábla alapján a legtöbben a garantált bérminimumot kapják, az állami fenntartásba vétel óta pedig a helyzetük folyamatosan romlik.</seg>
+<seg xml:id="AC7_6357.2">(14.30)</seg>
+<seg xml:id="AC7_6357.3">2012 végéig ugyanis az önkormányzatok alkalmazottai voltak, ott még kaphattak kafetériát, most már ezt nem kapják, és a pluszmunkáért is járt bérkiegészítés, most már ezt nem kapják. Abban az időben tehát 20-30 ezer forinttal is több lehetett a jövedelmük, magasabb lehetett a fizetésük. Az iskolák államosításával gyakorlatilag ez is megszűnt.</seg>
+<seg xml:id="AC7_6357.4">Felmerül a kérdés, miért nem biztosítanak nekik tisztességes megélhetést. Miért gondolják azt, hogy az a fizetés, amit kapnak, elég nekik? Egy állandó, kiszámítható, megfelelő, tisztességes fizetés lenne a megoldás. Hallani, hogy most egyszeri 50 ezer forintos béren kívüli juttatást biztosítanak nekik. A kérdés azonban az, hiszen ez nyilván egy szép gesztus, hogy vajon a fizetésüket is megnyugtatóan emelni fogják-e. Kérdés továbbá az, hogy az NGM-hez átkerült közalkalmazottak is megkapják-e ezt a fizetésemelést, és kérdezem államtitkár urat, hogy számíthatnak-e általános fizetésemelésre ezek az alkalmazottak. Köszönöm, államtitkár úr</seg>
+<kinesic type="applause"><desc>Szórványos taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-09-28-urgent_question-AC7_6358" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_6358.1">Köszönöm, elnök úr. Tisztelt Államtitkár Úr! Néhány hete Farkas Flórián miniszterelnöki biztos alkalmasságáról, alkalmatlanságáról kérdeztem Balog Zoltán emberierőforrás-minisztert, Farkas Flórián alkalmatlanságát jó néhány uniós program gyanús megvalósításával támasztottam alá.</seg>
+<seg xml:id="AC7_6358.2">A miniszter úr nem is nagyon tudta védeni a mundér becsületét, a sok közül egyedül a „Nő az esély - ezer roma nő képzése” című programot vette védelmébe, kijelentve, hogy egyébként ez az egyik legsikeresebb program a foglalkoztatást tekintve. Mi egyáltalán nem ezt gondoljuk, sőt tragédiának tartjuk, hogy ez számít a legsikeresebb programnak. Vajon milyen lehet a többi? A miniszter úr szerint ezt még Brüsszelben is az egyik legsikeresebb programnak tartják. Ha ez így van, akkor ott is nagyon komoly gondok vannak.</seg>
+<seg xml:id="AC7_6358.3">Nézzünk csak néhány részletet! Mitől lenne sikeres az a program, ahol másfél milliárd forintból képeztek ezer főt, vagyis egy fő képzése, résztvevőnként a program során - a megélhetési támogatást levonva ebből a számításból - egymillió forintba került? Egymillió forintba kerül egy pár hónapos dajkaképzés, egy gyermek- és ifjúsági felügyelő képzése, egy szociális gondozó képzése? Ez nonszensz. Egymillió forintból nem pár hónapos OKJ-s képzést, hanem komplett egyetemi alapképzést lehet már finanszírozni.</seg>
+<seg xml:id="AC7_6358.4">Mitől lenne sikeres az a program, ahol sikerült milliós luxusrendezvényt összehozni a Podmaniczky-Vigyázó Kastélyban? Mitől siker az, ha sok millió forintért tartunk úgynevezett érzékenyítő tréningeket fürdővárosokban?</seg>
+<seg xml:id="AC7_6358.5">Tisztelt Ház! Ez nem siker, hanem ugyanolyan pazarlás, és ugyanúgy felveti a korrupció és más bűncselekmények gyanúját, mint ahogy láthattuk a „Híd a munkába” programnál vagy az „Út a szakmaválasztáshoz” projektnél. Az előbbinél az EMMI is megállapította már a szabálytalanságokat.</seg>
+<seg xml:id="AC7_6358.6">A „Nő az esély” program ugyanolyan tragédia a hatékonyságát illetően, mint minden, amihez az Országos Roma Önkormányzatnak és Farkas Flóriánnak köze van.</seg>
+<seg xml:id="AC7_6358.7">Tisztelettel várom válaszát a változtatásokról</seg>
+<kinesic type="applause"><desc>Taps az LMP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-09-28-urgent_question-AC7_6360" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_6360.1">Köszönöm. Tisztelt Államtitkár Úr! Amikor tavasszal az Illatos úti méreghordók ügyéből országos sajtóbotrány lett, a kormánytöbbség azzal a jelszóval nem csinált semmit, hogy nincs katasztrófahelyzet, sem az egészség, sem a környezet nem forog veszélyben. Miután a lakosság, a sajtó és a felelős ellenzék továbbra sem engedte el az ügyet, az Orbán-kormány is belátta, hogy cselekvéskényszer van. A miniszterelnök kárelhárítási akcióterv készítésére kötelezte Fazekas Sándor környezetvédelmi minisztert, majd megkezdődött a legkönnyebben hozzáférhető mintegy ezerhordónyi vegyszer elszállítása.</seg>
+<seg xml:id="AC7_6360.2">Ezek után önök úgy tettek, mintha minden problémát megoldottak volna. A valóság azonban az, hogy nem oldottak meg semmit. A talaj és a talajvíz továbbra is tele van elásott, szétrohadt vegyszeres hordókkal és többféle veszélyes méreggel. A ferencvárosi önkormányzat a sajtó nyomására nemrég nyilvánosságra hozta annak a felmérésnek az eredményeit, amely a Budapesti Vegyiművek Illatos úti telephelye mellett lévő lakott területen mérte fel a szennyezőanyagok koncentrációját. Az eredmények drámaiak és ijesztőek. A talajvízben a benzol 7300-szoros, a klórbenzol 19 000-szeres, a diklórprop 22 000-szeres, az amino-benzo-trifluorid pedig 212 000-szeres mennyiségben van jelen a környezetben. Ezek mind súlyosan mérgező, rákkeltő, magzatkárosító és vérképzésgátló anyagok. Eközben a hatósági rendszer, a kormányzat és leginkább a IX. kerület továbbra is tétlen.</seg>
+<seg xml:id="AC7_6360.3">Tisztelt Államtitkár Úr! Tudni szeretnénk, mit tartalmazott a Fazekas Sándor által elkészített kármentesítési akcióterv, mikor kezdenek hozzá a szennyezés teljes körű felméréséhez, a minden részletre kiterjedő kárelhárításhoz és a környezet megtisztításához, továbbá ki és mikor fogja felelősségre vonni ennek a többszörösen félrekezelt haváriának az állami felelőseit. Köszönöm a figyelmet.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-09-28-urgent_question-AC7_6361" who="#LászlóGyörgyLukács" ana="#regular"><note>DR. LUKÁCS LÁSZLÓ GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_6361.1">Köszönöm szépen a szót, elnök úr. Tisztelt Államtitkár Úr! A 2013-ban újraírt választási eljárási törvényre és nemzetbiztonsági érdekre hivatkozva gyártotta le tavaly az állam a konkurencia kizárásával a szavazólapokat Gyurcsány Ferenc egykori üzletfelének érdekeltségével.</seg>
+<seg xml:id="AC7_6361.2">Így a korábban a Gyurcsány okán támadott Erdős Ákos cége egy 2,5 milliárdos üzletet kapott tálcán - írta a Magyar Nemzet -, Erdős Ákos érdekeltségébe tartozik ugyanis az ANY Biztonsági Nyomda Nyrt., amelyet nyílt közbeszerzés nélkül, gyakorlatilag titokban jelöltek ki az elmúlt három választásra a szavazólapok gyártására és szállítására.</seg>
+<seg xml:id="AC7_6361.3">A Nemzeti Választási Iroda arra hivatkozva, hogy a nyilvánosságot ki kell zárni, nemzetbiztonsági érdekeket hozott fel, illetve azt, hogy azokon a szavazólapokon a biztonsági elemek illetéktelen kezekbe ne juthassanak, ez volt az alapvető indokuk. Ebben tökéletesen igaza van, azonban az ANY Biztonsági Nyomda Nyrt., amely Gyurcsány Ferenc egykori üzletfelének érdekeltsége, és amelyben egyébként igazgatósági elnök is Erdős Ákos - aki egyébként a cégnyilvántartás szerint az Amerikai Egyesült Államokban, bostoni címen érhető el -, szóval, ennek a cégnek valójában olyan részvényesei, tulajdonosai vannak, mint az EGC, az EG Capital LLC 11,5 százalékos tulajdoni hányaddal, a Digital Forest 6,7 százalékos aránnyal.</seg>
+<seg xml:id="AC7_6361.4">Bár az MSZP–SZDSZ-kormányzás idején úgy látszott, hogy nagyon szúrja a szemét a Fidesznek a Gyurcsány-üzletfél, Erdős tevékenysége, most mégis összenő, ami összetartozik, bátran tömik pénzzel a fideszes kormányok a Gyurcsány-oligarchákat, ráadásul olyan indokokat felhozva, mint a nemzetbiztonsági érdek, akkor, amikor az elvégzendő munkát olyan cégre bízzák, amelynek tulajdonosi háttere hemzseg a külföldi jogi személyektől.</seg>
+<seg xml:id="AC7_6361.5">Mindezekre tekintettel kérdezem államtitkár urat: miért támogatja a konkurencia kizárásával a Gyurcsány üzleti partnercéget az Orbán-kormány?</seg>
+<seg xml:id="AC7_6361.6">Nem érzik-e, hogy alaptalan a nemzetbiztonsági hivatkozás akkor, amikor külföldi cégek a részbeni tulajdonosok a kiválasztott cégben? Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-09-28-urgent_question-AC7_6362" who="#GyörgySzilágyi" ana="#regular"><note>SZILÁGYI GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_6362.1">Köszönöm szépen a szót. Tisztelt Államtitkár Úr! A fővárosi és agglomerációs lakosság, legyen szó akár az egyéni, akár a tömegközlekedést igénybe vevőkről, egyaránt szenvednek azoktól az áldatlan állapotoktól, amelyek immáron huzamosabb ideje jellemzik Budapest közútjait. Az egyes valóban fontos és üdvözlendő felújítások mellett számos olyan lezárással, tereléssel szembesülünk, amelyeknek észszerű indoka egyszerűen nincsen. A helyzet a tanévkezdésre teljességgel kaotikussá vált, jelenleg teljesen mindegy, hogy ki és milyen útvonalon kíván közlekedni, egészen egyszerűen minden úton dugó van. Amellett, hogy mindez rendkívüli bosszúságot okoz az iskolába vagy éppen a munkába igyekvő lakosoknak, rendkívüli környezeti terhelést is jelent, ami a teljes lakosság életminőségére kihatással van. A fejetlenség teljes mértékű, lehet ezt mondani.</seg>
+<seg xml:id="AC7_6362.2">A meggondolatlanul, koncepciótlanul, hogy ne mondjam, fejetlenül meghozott intézkedések megannyi honfitársunk életét keserítik meg, sokszor olybá tűnik, mintha a jelenlegi kormányzat, a közlekedésszervezésért felelős vezetők teljességgel az autóstársadalom ellen lennének. Ideje lenne véget vetni ennek a több évtizedes gyakorlatnak, az egyes felújításokat összehangoltan kellene elvégezni. Nem lenne ördögtől való elképzelés az sem, ha a frekventált közlekedési forgalomnak kitett utak úgy kerülnének megújításra, hogy az útépítők több műszakban, 0-24 órában végeznék a munkát. Ezzel a tőlünk nyugatabbra már természetesnek mondható munkaszervezéssel érdemben lehetne csökkenteni az útlezárással érintett időt, számos forgalmi dugó, balesetveszélyes helyzet lenne elkerülhető.</seg>
+<seg xml:id="AC7_6362.3">Kérdezem tehát elsősorban arról, hogy mit kíván tenni a főváros útjain jelenleg tapasztalható kaotikus állapotok megszüntetése érdekében. Másodsorban pedig az iránt érdeklődöm, hogy tervez-e bármilyen szervezeti, irányítási modellt kialakítani annak érdekében, hogy a jövőben az útfelújítások összehangoltan, a közlekedők számára a legkisebb tehertételt jelentve valósuljanak meg.</seg>
+<seg xml:id="AC7_6362.4">Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-09-28-urgent_question-AC7_6363" who="#LajosKepli" ana="#regular"><note>KEPLI LAJOS (Jobbik):</note>
+<seg xml:id="AC7_6363.1">Köszönöm szépen, elnök úr. Tisztelt Legfőbb Ügyész Úr, illetve tisztelt Legfőbbügyész-helyettes Úr! 2010. október 4-én, egy hét híján öt éve történt Magyarország eddigi legsúlyosabb és legszörnyűbb ipari katasztrófája, a vörösiszap-katasztrófa, amelynek során Devecser, Kolontár és Somlóvásárhely településeket öntötte el a MAL Zrt. zagytározójából kiszabadult lúgos vörös folyam, és ennek során életek munkája ment tönkre, többen elveszítették egész életük munkáját, és többen életüket is elveszítették, hiszen tíz ember halálával járt ez a vörösiszap-katasztrófa. Ezt azért ne feledjük el, hiszen egy rendkívül súlyos esetről, súlyos ügyről van szó.</seg>
+<seg xml:id="AC7_6363.2">A Jobbik Magyarországért Mozgalom a katasztrófa bekövetkezése után nyomban vizsgálóbizottság felállítását kezdeményezte a parlamentben, amely az Országgyűlés akkori összetételének köszönhetően meg is kezdhette a munkáját, és már néhány évvel ezelőtt be is fejezte. Letett egy jelentést az asztalra, amelyben a soktucatnyi meghallgatott által elmondottak alapján összeállítottuk, hogy mi lehetett a katasztrófa kiváltó oka, és milyen olyan teendői vannak az Országgyűlésnek, amelyek a jövőben az ilyen katasztrófákat megakadályoznák.</seg>
+<seg xml:id="AC7_6363.3">Azonban egy ország vár arra, hogy a büntetőeljárásnak is valamiféle kézzelfogható eredménye legyen így öt év után, hiszen még az elsőfokú bírósági ítéletig sem sikerült eljutni. Sőt, ugye legutóbb, néhány héttel ezelőtt az borzolta a kedélyeket, hogy az ügyészség, az ügyész módosított a vádiraton, a médiában elterjedt hírek szerint enyhítette a vádiratot, hiszen már nem halált okozó, hanem csupán jelentős vagyoni hátrányt okozó veszélyeztetés szerepel a vádiratban, hiszen már a vádirat szerint sem volt előre jelezhető a katasztrófa bekövetkezése. És már azzal sem vádolják a vádlottakat, hogy elmulasztották az azonnali segítségnyújtást a katasztrófa bekövetkezése után. Mindez rendkívül aggályossá teszi, hogy mint már oly sok ügyben az elmúlt évtizedekben, megint egy büntetőügy elmaszatolása folyik.</seg>
+<seg xml:id="AC7_6363.4">Ezért szeretném legfőbbügyész-helyettes úr megnyugtató válaszát hallani az ügyben, hogy szakmailag minden megfelelő volt-e a vádirat módosítását illetően. Köszönöm, várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Szórványos taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-09-28-urgent_question-AC7_6364" who="#GabriellaSelmeczi" ana="#regular"><note>DR. SELMECZI GABRIELLA (Fidesz):</note>
+<seg xml:id="AC7_6364.1">Köszönöm. Tisztelt Elnök Úr! Képviselőtársaim! Államtitkár asszony! Nagyon sok a teendőnk még abban, hogy Magyarországon a fiatalok bízzanak abban, hogy van jövőjük Magyarországon. Nagyon fontos az, hogy beszéljünk tehát arról, hogy milyen támogatásokat vezettünk be annak érdekében, hogy segítsük a fiatalok tanulását, munkavállalását, családalapítását vagy éppen az otthonteremtésüket.</seg>
+<seg xml:id="AC7_6364.2">Tisztelt Képviselőtársaim! Európa egyik nagyon nagy gondja a fiatalok magas munkanélkülisége. Magyarországon az ifjúsági garanciaprogram a pályakezdők elhelyezkedését segíti, indulása óta már több mint 23 ezer, hónapok óta munkát kereső fiatal tudott a program által elhelyezkedni. A cél - nagyon komoly a cél -, hogy 2018-ra valamennyi 25 év alatti fiatalra kiterjesszük ezt a támogatást.</seg>
+<seg xml:id="AC7_6364.3">Tisztelt Képviselőtársaim! A nemzeti tehetségprogramra ebben az évben kétszer akkora összeget fordít a kormány, mint eddig: vagyis a korábbi 1,4 milliárd forint helyett már 2,8 milliárd forintot. Ebből tanulmányi versenyek és egyedi ösztöndíjak finanszírozása válik lehetségessé.</seg>
+<seg xml:id="AC7_6364.4">A program üzenete nagyon fontos: ha tehetséges és szorgalmas vagy, akkor megkapod a tanuláshoz szükséges támogatást.</seg>
+<seg xml:id="AC7_6364.5">Nagyon jelentős, hogy a családi otthonteremtési kedvezményt kibővítettük. A vissza nem térítendő támogatás összege 500 ezer forinttól 3 millió 250 ezer forintig terjed. Például egy két gyermeket nevelő család akár 1 millió 700 ezer forint támogatást is kaphat. Az eddigi adatok alapján évente minimum 12 ezer családnak tudunk ilyen módon segítséget nyújtani.</seg>
+<seg xml:id="AC7_6364.6">Tisztelt Államtitkár Asszony! Milyen területen számíthatunk még a fiatalok segítésére, támogatására ahhoz, hogy itthon maradjanak, szülőföldjükön maradjanak, és bízzanak abban, hogy Magyarországon van jövőjük? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

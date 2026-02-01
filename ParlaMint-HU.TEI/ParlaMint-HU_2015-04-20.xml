@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2015-04-20" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2015-04-20 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2015-04-20 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2806" unit="words">2806 szó</measure>
+        <measure xml:lang="en" quantity="2806" unit="words">2806 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2015-04-20">2015. 04. 20.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="43"/>
+          <tagUsage gi="kinesic" occurs="8"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2015-04-20">2015-04-20</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2015-04-20-urgent_question-AC7_4430" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_4430.1">Tisztelt Államtitkár Úr! Az elmúlt hetekben kisbefektetők, családok tízezrei veszítették el megtakarításukat, sok esetben önhibájukon kívül. Az LMP jogsegélyszolgálatot indított a károsult kisbefektetők számára, és szomorúan szembesültünk az elkeseredett panaszáradattal.</seg>
+<seg xml:id="AC7_4430.2">A nem Quaestor-károsult panaszosok úgy érzik, hogy másodrendű károsultak lettek, miután a Quaestor-károsultakat megemelt összeggel és a Befektetővédelmi Alap, illetve a pereskedés hosszadalmas kárrendezéséből kiemelve külön követeléskezelő alap kártalanítja az ígéretek szerint villámgyorsan.</seg>
+<seg xml:id="AC7_4430.3">A kormánypárti nyilatkozatokkal ellentétben több ezer Buda-Cash- és Hungária Értékpapír-károsult ügyfél vár arra, hogy a zárolt magánvagyonához hozzáférhessen. A Buda-Cash vagy a Hungária Értékpapír ügyfelei több mint egy hónapja nem tudják, pontosan mijük is veszett oda.</seg>
+<seg xml:id="AC7_4430.4">Míg azonban a Quaestor kötvényeseit egy kapkodó törvényjavaslattal igyekezett megmenteni az állam, a többiek magukra maradtak, és bonyolult procedúrák sorozatát kell kezdeményezniük, ha valamikor még látni akarnak valamit a pénzükből. A személyes és úgynevezett szakmai kapcsolatok a kormányzat és a Quaestor vezetése között nyilvánvalóvá teszi, hogy a brókercég törvénytelen és felelőtlen működését politikai támogatás olajozta.</seg>
+<seg xml:id="AC7_4430.5">És felhívom a figyelmet arra is, hogy ne feledkezzünk meg azokról a korábbi ügyekről sem, amelyek az elmúlt évtizedben a pénzügyi rendszer következmény nélküli működését szimbolizálják. A Baumag- vagy éppen a Pilis-Invest-ügyekben is több tízezer ember több tízmilliárd forintja tűnt el. Ezek a károsultak ugyanúgy a rosszul működő állami gépezet áldozatai, mint most a quaestorosok.</seg>
+<seg xml:id="AC7_4430.6">Kérdezem az államtitkár urat, a nem Quaestor-károsultakkal mi lesz. Miért lett több ezer károsult másodrendű</seg>
+<kinesic type="applause"><desc>Taps az LMP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-04-20-urgent_question-AC7_4431" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_4431.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Az atomügyben előadott kormányzati ámokfutás egyik legszomorúbb fejezete a kiégett fűtőanyagokról szól, amelyek elhelyezése egyáltalán nem megoldott sem itt, ebben az országban, sem máshol. A jelenlegi paksi atomszemét elhelyezéséről nekünk kell gondoskodnunk, az Európai Unió ugyanis megtiltja - nagyon helyesen -, hogy a tagállamok a saját atomszemetükkel más országokat pakoljanak tele.</seg>
+<seg xml:id="AC7_4431.2">A feladat tehát adott. Nézzük meg, hogyan birkózik meg ezzel az önök kormánya! Nagyjából úgy, ahogy az egész paksi bővítéssel: titkolózva az emberek háta mögött. Gőzerővel folytatják a feltárásokat Pécs határában. Hozzáteszem, hogy csak itt kutattak, más helyszínben nem is gondolkodnak, tehát már tényként kezelik, hogy ebben a térségben egy már meghatározott, 87 négyzetkilométeres kutatási területen belül lenne valahol a tároló.</seg>
+<seg xml:id="AC7_4431.3">És vajon tájékoztatták és megkérdezték erről a pécsieket, a Dunántúl legnagyobb városának lakóit, hogy ők mit szólnak hozzá? Hát dehogyis! A helyi fideszes városvezetés évekig a füle botját sem mozdította, sőt Páva Zsolt önként lemondott az RHK Kft. által felajánlott tájékoztatásról, majd leszavazták a közgyűlésen a helyi LMP-s képviselők tájékoztatást előíró indítványát is. Önök meg itt a parlamentben segítették ezt a manővert: az önök által beterjesztett atomtörvény módosításával gyakorlatilag oda kell költözni a hulladéktároló kerítése mellé, hogy bárki információt kérhessen a projektről, hiszen önök egy teljesen vérlázító húzással a helyszíntől számított 100, azaz száz méterre csökkentették azt a kört, ameddig az ott élő emberek belefolyhatnak a közigazgatási eljárásba. És ezt még a pécsi fideszes képviselők is megszavazták ebben a Házban szó nélkül, ezzel majd nyilván nekik kell elszámolni a pécsi polgárok előtt.</seg>
+<seg xml:id="AC7_4431.4">Ezért kérdezem a tisztelt miniszter úrtól, hogy mikor kezdik el végre a pécsiek, továbbá a tájékoztatásból szintén kihagyott szentlőrinciek, bicsérdiek, szabadszentkirályiak, pellérdiek alapos tájékoztatását a tervezett beruházásról, és mikor kérdezik meg a felsorolt városok, falvak lakóit, hozzájárulnak-e egyáltalán ahhoz, hogy a lakóhelyüktől néhány kilométerre épüljön a világon még sehol ki nem próbált technológiával ez az atomtemető.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-04-20-urgent_question-AC7_4433" who="#TamásHarangozó" ana="#regular"><note>DR. HARANGOZÓ TAMÁS (MSZP):</note>
+<seg xml:id="AC7_4433.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Mint emlékezetes, Szijjártó Péter még az utolsó pillanatban is kimenekíthette az egyik külügyes cég vagyonát a bedőlt Quaestorból. Amit Szijjártó Péter megtehetett, arra a Honvéd Egészségpénztárnak nem volt lehetősége, pedig azonnal intézkedtek, amint a médiából értesültek a Buda-Cash csődjéről.</seg>
+<seg xml:id="AC7_4433.2">A BRB banknál vezetett számlájukról azonban továbbutalták az egészségpénztár ott elhelyezett 1,8 milliárd forintját. Ennek következtében ugyan az egészségpénztár egyenlege lenullázódott, azonban az átutalt pénz soha sem érkezett meg a másik számlára. Ezért írásbeli kérdésben kértünk magyarázatot arra, hogy hová tűnt az átutalt pénz. Matolcsy György magyarázata szerint az átutaláskor már életbe léptek az MNB által elrendelt korlátozások, ezért az átutalás nem ment végbe. Mivel a tranzakciót törölték, az egészségpénztár bankszámlájának egyenlege visszaállt a korábbi állapotba - mondja az MNB.</seg>
+<seg xml:id="AC7_4433.3">Tisztelt alelnök úr, a tény az, hogy az egészségpénztár mostanáig nem fért hozzá a szóba forgó milliárdos nagyságrendű összeghez. Ez 28 ezer katona, rendvédelmi és nemzetbiztonsági dolgozó egészségpénztári befizetését érinti, amelynek következtében műtétek, orvosi beavatkozások maradhatnak el, emberek életét és testi épségét veszélyeztetve.</seg>
+<seg xml:id="AC7_4433.4">Ezért világos és egyenes válaszokat várunk a Parlament falai között. Először is, az elindított átutalás törlését milyen jogszabályhely alapján, kinek az utasítására hajtották végre? Mindezekről adott-e tájékoztatást a felügyeleti biztos az egészségpénztárnak? Az, hogy válasza szerint az egészségpénztár BRB Banknál vezetett számlájának egyenlege visszaállt, azt jelenti-e, hogy a szóban forgó 1,8 milliárd forint maradéktalanul az egészségpénztár számláján rendelkezésre áll most is? Végezetül a legfontosabb kérdés: mikor férhet hozzá az egészségpénztár ehhez az összeghez és kezdheti meg tagjai felé a kifizetéseket?</seg>
+<seg xml:id="AC7_4433.5">Várom a válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-04-20-urgent_question-AC7_4434" who="#LászlóFöldi" ana="#regular"><note>FÖLDI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC7_4434.1">Köszönöm a szót, elnök úr. Tisztelt Elnök Úr! Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Cegléd és térsége fejlődésének egy fontos záloga, hogy korszerűsödjön a 4-es számú főút, korszerűsödjön a régió úthálózata. Az elmúlt hetekben felröppentek az M4-es építésével kapcsolatban hírek: elrendelt belső vizsgálat, majd ezzel együtt az építkezés felfüggesztése Szolnok és Fegyvernek között. Ahhoz, hogy a mi régiónkat - a közép-magyarországi régióban, a nagy régióban vagyunk - és a mi kis régiónkat vonzóbbá tudjuk tenni a cégek, befektetők számára, biztosítanunk kell a minőségi közlekedést.</seg>
+<seg xml:id="AC7_4434.2">(14.10)</seg>
+<seg xml:id="AC7_4434.3">Ehhez elengedhetetlenül szükséges a 4-es számú főút korszerűsítése, négysávosítása Cegléd-Budapest, illetve - ahogy már ma elhangzott - Szolnok irányában.Az elmúlt napokban Cegléd és környékén az a hír kapott lábra, hogy a Ceglédet érintő útfejlesztés elmarad; hogy nem érinti a várost a régóta várt M4-es autópálya megépítése.</seg>
+<seg xml:id="AC7_4434.4">Tisztelt Államtitkár Úr! Mennyiben érinti az Abony-Fegyvernek közúti útfejlesztés felfüggesztése az 1696/2014. kormányhatározat által tartalmazott Albertirsa-Abony közötti M4-es szakaszt, illetve a 405. számú főút szélesítését Újhartyán és Albertirsa között? Tisztelettel várom az államtitkár úr válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-04-20-urgent_question-AC7_4435" who="#IldikóBene" ana="#regular"><kinesic type="noise"><desc>DR. BENE ILDIKÓ (Fidesz): Köszönöm szépen, elnök úr. Tisztelt Miniszter Úr! Szolnokon és a környező településeken örömmel tapasztaljuk, hogy a kormány az önkormányzatokkal karöltve mindent megtesz annak érdekében, hogy megyénket intenzíven bekapcsolja az ország gazdasági vérkeringésébe. A gyorsan zajló vasúti fejlesztések mellett azonban évtizedes kívánság a térségben élők részéről, hogy négysávos úton érhessük el a fővárost, valamint a keleti országrészeket is.</desc></kinesic>
+<seg xml:id="AC7_4435.1">Szolnok és a térség közvetlen gyorsforgalmiút-kapcsolata Budapesttel hatalmas gazdasági fejlődés lehetőségét hozhatja magával, a működőtőke rendkívül szívesen települ ugyanis gyorsforgalmi utak mellé.</seg>
+<seg xml:id="AC7_4435.2">(13.50)</seg>
+<seg xml:id="AC7_4435.3">Szolnok kedvező fekvése ezáltal még jelentősebbé válna, hiszen a főváros egy órán belül elérhető lenne biztonságosan. Úthálózatunk fejlesztésére nemcsak a versenyhátrány leküzdése érdekében van szükségünk, szomorú baleseti statisztikákkal és a hatalmas tranzitforgalommal kell mindennap szembesülni a 4-es számú főúton közlekedő polgároknak.</seg>
+<seg xml:id="AC7_4435.4">Nem csoda, hogy a megyénkben élők aggodalommal vették tudomásul a már megkezdett, Szolnokot elkerülő, Abony és Fegyvernek között építendő M4-es autópálya-szakasz építésének leállítását. Természetesen elfogadjuk, hogy a felmerült szabálytalanságokat ki kell vizsgálni, mert a törvények mindenkire egyformán vonatkoznak, ugyanakkor abbéli reményünket is szeretnénk kifejezni, hogy az építkezés folytatódni fog.</seg>
+<seg xml:id="AC7_4435.5">Tisztelt Miniszter Úr! Bízhatunk-e abban, hogy a már megkezdett fejlesztések záros határidőn belül folytatódnak, és a keleti országrész is elérhetővé válik biztonságos négysávos úttal? Az építkezés leállítása után mire számíthatnak az elvégzett munka tekintetében az ott munkát vállaló alvállalkozók? Kérem, adjon választ arra, hogy a Szolnokon és a térségben élők számára mikor válik biztosítottá Budapest gyorsforgalmi úttal történő elérésének a lehetősége. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-04-20-urgent_question-AC7_4436" who="#AnitaHeringes" ana="#regular"><note>HERINGES ANITA (MSZP):</note>
+<seg xml:id="AC7_4436.1">Nagyon szépen köszönöm. A paksi sportéletben nagyon nincsenek rendben a dolgok az elmúlt fél évben, és ez nem a sportolók teljesítményén múlik. Mivel az MVM Paks II. Zrt. felügyelete a Miniszterelnökséghez tartozik, ami akár városunk jövőjét is jelentheti, ezért kérdezem most a miniszter urat a közeljövőnkről.</seg>
+<seg xml:id="AC7_4436.2">Paks sportéletét az utóbbi három évtizedben kiemelten támogatta az atomerőmű és az MVM Zrt. Ezen támogatás nélkül városunk sportteljesítménye nem lehetne ilyen kimagasló. Sajnos, fél éve valami eltört önöknél. Hiszen sem az MVM Zrt., sem az általa most már száz százalékban tulajdonolt, Pakson működő atomerőmű nem támogatja úgy a sportot, ahogy eddig. De még a nevét sem adja a paksi tehetséges sportolókhoz. Az NBI-es focicsapat 363 millió helyett csak 150 milliót kapott a tavalyi évben. Idén még a szerződést sem írták alá velük. Az atomerőmű saját sportegyesülete, az ASE 240 millió helyett 100 milliót kapott.</seg>
+<seg xml:id="AC7_4436.3">Nézzük akkor az eredményeket! A négyszeres bajnok kosárcsapat, a jövő évi olimpiára készülő kajakosok, kenusok, cselgáncsozók, ahol felnőhetett Kozmann György és Kovács Antal, nem kapnak támogatást mostantól. Aradszki államtitkár úr múltkor kérdésemre azt mondta, hogy „biztos vagyok abban, hogy piaci alapon döntött az MVM a szponzorálásról”. Akkor nézzük a tényeket! Piaci alapon mi ér többet? A pletykák szerint a most első helyen álló Paks helyett a rosszabbul szereplő kaposvári kosárcsapat kapja meg a támogatást. Az ötödik helyen álló paksi focicsapat helyett az utolsó helyen álló Dunaújváros kapja meg a támogatást és az MTK. Két év alatt Andy Vajna közel 6 milliárdos Filmalap-támogatásáról már ne is beszéljünk, amit a Paksi Atomerőműnek kellett kifizetnie, piaci alapon biztos.</seg>
+<seg xml:id="AC7_4436.4">Ezért kérdezem most a miniszter urat, hol születnek valójában ezek a támogatási döntések: a pártközpontban? Ugye, nem az történik, hogy a fideszes önkormányzatok sportegyesületeit támogatják inkább, vagy Andy Vajna Filmalapjába mentik ki a pénzt az MVM-ből, hogy a gyémánt fokozatú haverok ki legyenek fizetve? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-04-20-urgent_question-AC7_4438" who="#BalázsGyőrffy" ana="#regular"><note>GYŐRFFY BALÁZS (Fidesz):</note>
+<seg xml:id="AC7_4438.1">Köszönöm szépen. Tisztelt Államtitkár Úr! Néhány nappal ezelőtt Bangóné Borbély Ildikó nyilvánosan fejezte ki aggodalmát a kormány egyes beruházásainak megvalósulásával kapcsolatban. Szavai szerint „az ördögöt ne fesd a falra, mert Lázár János jelenik meg”. Én az effajta diabolizálástól elvonatkoztatva kérdezem miniszter urat, illetve államtitkár urat.</seg>
+<seg xml:id="AC7_4438.2">Talán elsőre meglepő, hogy a képviselő asszony azért kritizálja a kormányt, mert az minden eszközzel igyekszik kizárni a visszaélések lehetőségét. Az MSZP-s képviselő asszony eddigi tevékenységére pillantva azonban rögtön világossá válik, hogy csupán a megszokott szoci tempótól, az ellenőrizetlenül áramló milliók rendszerétől nem tud szabadulni.</seg>
+<seg xml:id="AC7_4438.3">Arról a Bangónéról beszélünk, aki 2008-ban a szocialisták LEADER Egyesületen keresztüli 500 milliós pénzosztásának is a kedvezményezettje volt. Bangóné Borbély Ildikó a gazdasági válság közepén asszisztált ahhoz, hogy a hozzá köthető, beszédes nevű Segítünk-Jövünk Kft.-n keresztül is megvalósuljon az azóta jogerős bírósági ítéletben is jogosulatlannak talált szocialista pénzosztás. Bangóné akkoriban kevésbé volt aggodalmaskodó: jött és segített - magának. Például nem aggódott amiatt, hogy úgy kapta a kft. a támogatást, hogy ő maga eközben a Magyarországi LEADER Közhasznú Egyesület alelnöke volt, vagy hogy a helyi LEADER-iroda egy szocialista polgármester csirkefarmján működött, vagy amikor benzinpénzeket számolt el a saját maga részére úgy, hogy jogosítvánnyal sem rendelkezett</seg>
+<seg xml:id="AC7_4438.4">(Dr. Rétvári Bence: Felháborító!)</seg>
+<seg xml:id="AC7_4438.5">A képviselő asszony azon sem aggódott túl sokat, hogy miközben a LEADER Egyesületen keresztüli szocialista pénzosztás zajlott, Csontos János MSZP-s képviselő politikai munkatársaként is tevékenykedett. Mindennek ellenére Bangóné most mégis úgy gondolja, hogy ideje aggodalmaskodni egy keveset a kormány beruházásai miatt. Úgy tűnik, ismét segítene és jönne.</seg>
+<seg xml:id="AC7_4438.6">Tisztelt Államtitkár Úr! Hogyan jutottunk odáig, hogy ezek a szellemi örökösök, ezek a mai napig a Parlament falain belül kószáló örök MSZP-s túlélők a kormány beruházásainak megvalósulása miatt aggódnak? Várom válaszát</seg>
+<kinesic type="noise"><desc>Zaj.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-04-20-urgent_question-AC7_4439" who="#JánosVolner" ana="#regular"><note>VOLNER JÁNOS (Jobbik):</note>
+<seg xml:id="AC7_4439.1">Köszönöm szépen. Tisztelt Miniszter Úr! Hideg zuhanyként érte az országot az elmúlt héten az a hír, hogy több száz milliárd forint kifizetését az Európai Unió Magyarország felé leállíthatja. A leállítás okaként nem különböző formai hibákat, apró működési szabálytalanságokat jelölt meg az Unió, hanem olyan, erősen korrupciógyanúsnak ható eseteket, amikor többszörösére áraztak valamit, és ez a pályázatok során nem derült ki, nem volt semmiféle szűrő a rendszerben, amivel ezeket ki lehetett volna szűrni. Volt itt ötszörösére árazott gépbeszerzési ügylet, volt itt kilencszeresére árazott pályázati tanácsadói díj. Ezeket a rendszer nem szűrte ki.</seg>
+<seg xml:id="AC7_4439.2">Emlékeztetni szeretném miniszter urat, hogy a Jobbik minden esetben konstruktív javaslatokkal, rámutatva az európai uniós pénzek visszásságaira, működött az Országgyűlésben. Én magam például miniszter úr segítségére siettem, amikor 21 milliárd forint, offshore-cégeknek kifizetett pénznek találtam a nyomát a rendszeren belül. Ez az Orbán-kormány időszakára eső kifizetés volt. Rá tudtam mutatni arra, amiről a közelmúltban címlapos sajtósztori volt, hogy 53 esetben fordult elő egyetlen olyan cégcsoportnál, hogy az egyik cég kiírta a pályázatot, a másik cég megírta a pályázatot, a harmadik cég pedig megnyerte. Ez gyakorlatilag egy családi vállalkozás keretein belül zajlott, egy családon, néhány családtagon belül.</seg>
+<seg xml:id="AC7_4439.3">Arra is emlékeztetni szeretnék, hogy ezekben az esetekben is láttuk azt, hogy hol van lyuk a rendszerben, de a kormány ezekre az esetekre nem reagált, és most gyanúnk szerint azért fenyegeti ez a több száz milliárd forintos károkozás Magyarországot, mert a kormány annak érdekében, hogy ezeket a kiskapukat betömje és a Jobbik építő szakmai javaslatát beépítse, az égvilágon semmit nem tett.</seg>
+<seg xml:id="AC7_4439.4">Én annyit tudok tenni a parlamentáris keretek között, hogy mindig fölhívom erre a figyelmet, csak kérem miniszter urat, hogy válaszolja meg, hogy mi volt az oka annak, hogy ez nem sikerült. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-04-20-urgent_question-AC7_4440" who="#SebestyénVágó" ana="#regular"><note>VÁGÓ SEBESTYÉN (Jobbik):</note>
+<seg xml:id="AC7_4440.1">Köszönöm szépen a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Most hétvégén volt az ápolók fekete hétvégéje. Ez azt jelentette, hogy Budapesten az ápolók fekete ruhában teljesítették a szolgálatukat. Mindezzel fel kívánták hívni a figyelmet arra, hogy milyen tarthatatlan az ágazat és az ápolók helyzete ma Magyarországon.</seg>
+<seg xml:id="AC7_4440.2">Miért ilyen szörnyű a helyzet? Létszámhiánnyal küzdenek, erre rátett egy lapáttal a rengeteg kórházbezárás és kórházi osztály megszüntetése, a nagyobb kórházak még jobban túlzsúfolttá váltak, szinte embertelen körülmények között, emberfeletti munkát kell végezniük az ott dolgozóknak. A jövedelmi helyzetük is hagy némi kívánnivalót maga után, és akkor még enyhén fogalmaztam.</seg>
+<seg xml:id="AC7_4440.3">Erre rátesz még egy lapáttal az, ami a szociális szférában dolgozókat is sújtja, mégpedig az, hogy ebből a szférából tömegesen vándorolnak ki Nyugat-Európába az ott dolgozók, ott keresve megélhetést, mert ha nem is a végzettségüknek megfelelő, hanem alacsonyabb szintű munkát is kapnak, a fizetésüknek a sokszorosát kaphatják meg Nyugat-Európában, sokkal emberibb és sokkal elvégezhetőbb munkakörülmények között. Ez így fenntarthatatlan. És látjuk, hogy mi a helyzet, látjuk, hogy mennyire kevés az ápoló feladatot ellátó egészségügyi dolgozó. Ehhez képest azt tapasztaljuk, hogy Budapest egyik legnagyobb képző központját, a Raoul Wallenberg Gimnáziumot és Szakközépiskolát is bezárják, ahol egészségügyi és szociális képzést biztosítottak az ott tanulók számára.</seg>
+<seg xml:id="AC7_4440.4">Azt is láthatjuk, hogy ez egy tendencia. Az elmúlt 25 évben a fővárosban öt egészségügyi szakközépiskolát szüntettek meg, egyet pedig vidéken, Kazincbarcikán. Igaz, hogy az tagintézményként megmaradhatott, de ez inkább a szakma elsorvasztását jelenti abban az intézményben is.</seg>
+<seg xml:id="AC7_4440.5">Látjuk azt, hogy az elmúlt 25 évben nem javult, hanem inkább romlott az egészségügy helyzete a mindenkori kormányok áldatlan tevékenysége következtében. Éppen ezért nem értjük az újabb iskolabezárást, inkább fejleszteni kellene ezt a képzést, hogy túlélhetővé váljon ez a szakma is, így Magyarország is. Köszönöm, és várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

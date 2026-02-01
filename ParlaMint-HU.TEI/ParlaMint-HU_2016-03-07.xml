@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2016-03-07" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2016-03-07 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2016-03-07 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2869" unit="words">2869 szó</measure>
+        <measure xml:lang="en" quantity="2869" unit="words">2869 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2016-03-07">2016. 03. 07.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="39"/>
+          <tagUsage gi="kinesic" occurs="10"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2016-03-07">2016-03-07</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2016-03-07-urgent_question-AC7_9549" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_9549.1">Köszönöm a szót, elnök úr. Tisztelt Kormány! Tisztelt Országgyűlés! Friss hírek szerint a magyar állam, illetve az állami kiadásokat maradéktalanul finanszírozó magyar adófizetői közösség durván ráfizetett az Orbán-kormány egyik legátgondolatlanabb energiapolitikai kalandjára, a MOL-részvények és a magyarországi gáztározók megvásárlására. Annak idején, ha visszaemlékszünk rá, senki sem értette, hogy miért kellett teljesen hirtelen, jócskán az akkori piaci érték felett megvásárolni a Szurgutnyeftyegaz MOL-pakettjét. Orbán Viktornak volt egy teljesen fals érvelése, amit azóta senki sem hisz el, ugyanis azt állította a miniszterelnök úr, hogy itt nemzetbiztonsági érdek az oroszok kiszorítása. Azok után, hogy önök fogták és hozzákötötték az országot egy olyan atomerőmű-projekttel az orosz birodalomhoz, amely orosz hitelből épül, orosz fűtőanyagot használ és orosz technológiára épül, azt gondolom, hogy miniszterelnök úr akkori érvelése okafogyottá vált. Látni kell, hogy önök ezzel az ügylettel egy pénzszűkében lévő orosz gazdaságnak tettek szívességet, amelyen a magyar adófizetők körülbelül 200 milliárd forintot elbuktak úgy, hogy közben semmilyen mértékben nem csökkent Magyarország kiszolgáltatottsága az orosz energiaszektortól. De ott van a másik teljesen fals próbálkozás, a stratégiai gáztározók megvásárlása. 265 milliárd forintot költöttek el erre. Ezek a stratégiai tározók most üresen konganak, gyakorlatilag alig van bennük gáz, néhány száz millió köbméternyi gáz lötyög bennük, miközben épp visszatér a tél, és nőni fog a fűtésienergia-igény. Ráadásul az energiafüggőség terén még rosszabb is lett a helyzet, mert azok után, hogy önök drága pénzért megvásárolták a tározókat, érthetetlen okból a kapacitás egy részét átadták a Gazpromnak. Ennek aztán végképp semmi értelme nincsen, ugyanis annak a cégnek adták oda, aki már eddig is egészségtelen mértékben monopolizálta a magyar gázellátást.</seg>
+<seg xml:id="AC7_9549.2">Tehát önök elköltöttek 450 milliárd forintot. Szeretném tudni, hogy mi indokolta ezeket a kirívóan drága, kizárólag az orosz fél számára kedvező vásárlásokat, kit terhel a felelősség ezért, és kit fognak felelősségre vonni azér</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_9549.3">, hogy gyakorlatilag 450 milliárd adófizetői forintot kidobtak az ablakon</seg>
+<kinesic type="applause"><desc>Taps az LMP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-03-07-urgent_question-AC7_9550" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_9550.1">Köszönöm, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Miért van az, hogy a kormány egyetlen ígéretét sem tudja tisztességesen teljesíteni? Még azt a keveset, amit az oktatásban hosszú huzavona után végre megígértek, sem sikerül megoldani tisztességesen. Mondok egy aktuális példát: tavaly év végén harangozták be a felsőoktatási béremelést. Ez nem valósult meg. Az eredeti tervekhez képest végül az idén év elején pótlékot kaptak csupán az egyetemeken, főiskolákon dolgozók. Az egyetemeken és főiskolákon oktatóknak nem az alapbérét növelték meg, hanem mindenkivel aláírattak egy szerződést a bérükhöz kapcsolódó pótlék kifizetéséről. Ezek az év végén lejáró időleges szerződések. Az oktatók munkáját segítőket a közoktatáshoz hasonlóan a felsőoktatásban is becsapták, központi támogatásból ők sem kaptak semmit.</seg>
+<seg xml:id="AC7_9550.2">Tisztelt Ház! A Fidesz-KDNP-kormánnyal ellentétben az LMP azt vallja, hogy Magyarországnak nem összeszerelő üzemekre, hanem magas hozzáadott értékű munkahelyekre van szüksége. Ehhez invesztálnunk kell az oktatásba, ezen belül a felsőoktatásba. A minőségi oktatás alapfeltétele az egyetemeken, főiskolákon dolgozók biztos egzisztenciája.</seg>
+<seg xml:id="AC7_9550.3">Tisztelt Államtitkár Úr! Csodálkoznak a tüntetéseken, amikor egyértelműen bebizonyosodott, hogy csak az oktatás szereplőinek közös összefogása, a pedagógusok, oktatók, szülők, diákok vagy hallgatók példás kiállása, határozott érdekérvényesítése hozhat eredményt? Csodálkoznak azon, hogy nem hisznek a kormány ígéreteinek és látszatintézkedéseinek, amikor nap mint nap tapasztalják, hogy a pozitív változásokat sem tudják rendesen végrehajtani?</seg>
+<seg xml:id="AC7_9550.4">Tisztelt Államtitkár Úr! Miért nem valósult meg a felsőoktatási béremelés? Várom válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2016-03-07-urgent_question-AC7_9551" who="#GergelyBárándy" ana="#regular"><note>DR. BÁRÁNDY GERGELY (MSZP):</note>
+<seg xml:id="AC7_9551.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Ahogy erről már ma volt szó, 2016. február 23-án vélhetően a Fidesz által felbérelt verőemberek erőszakkal állták útját Nyakó Istvánnak, hogy benyújthassa a népszavazási kezdeményezését a vasárnapi kötelező boltzárról. Ez példátlan a magyar demokrácia történetében. A kormánypártok erőszakkal akadályoztak meg valakit abban, hogy állampolgári jogait gyakorolja. Az igazságügyi miniszter a kormányon belül a demokratikus és jogállami működés őre kell hogy legyen, de nemhogy nem ez, hanem a minisztériumban még sunnyognak is. Ön szerint ez elfogadható?</seg>
+<seg xml:id="AC7_9551.2">Lassan fél éve a Nemzeti Választási Iroda elnöke elmondta, és ezt ön is jól tudja, hiszen önöknek is elmondta, hogy módosítani kell mind a választójogi törvényen, mind a népszavazásról szóló jogszabályokon, törvényeken, mert visszaélésekre adnak lehetőséget. Szeretném megkérdezni, államtitkár úr, hogy miért nem tették ezt meg, ha fél éve tudják, hogy ez problémás. Most pedig úgy csinálnak, mintha most szembesültek volna először ezzel a problémával - eljátsszák azt, mint egy gyerek, hogy rácsodálkoznak: jé, tényleg problémás? Fél éve tudják, államtitkár úr!</seg>
+<seg xml:id="AC7_9551.3">Ez a kérdés nem egyszerűen rendőrségi vagy bűnüldözési kérdés, ezért nem a belügyminiszter urat kérdezem erről. Az embereknek a demokráciába vetett hite rendült meg, amikor ezeket a felvételeket meglátták. A felbérelt verőemberek a demokratikus állami működést támadták meg. Mint a kormányon belül a jogállamiságért felelős miniszter helyettese mit kíván tenni ez ügyben? Szóba hozták-e a kormányülésen, hogy vizsgálják meg azt, hogy a kormánypártok prominensei milyen mértékben felelősek a történtekért?</seg>
+<seg xml:id="AC7_9551.4">Annak ugyanis, államtitkár úr, hogy részt vegyünk, és egyáltalán szóba kerülhessen az, hogy kidolgozzunk egy módosító javaslatot arra, hogy ezeket megakadályozzuk, előfeltétele az, hogy ezt az ügyet feltárjuk, és az elkövetőket megbüntessék. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-03-07-urgent_question-AC7_9552" who="#NándorGúr" ana="#regular"><note>GÚR NÁNDOR (MSZP):</note>
+<seg xml:id="AC7_9552.1">Köszönöm szépen, elnök úr. A haveroknak mindent, egyébként a többi embernek meg semmit - ez így rendben van, ez az önök filozófiája, én úgy látom. Rogán korábban a Gazdasági bizottságot vezetve ilyen offshore típusú háttércégeket jelölt ki a letelepedési kötvény eladására. 300 ezer euró ma az az összeg, amiért egy kötvényt eladnak, ebből 34 ezret ezek az offshore hátterű cégek kaszálnak. A haverok ott vannak, ők gondoskodnak arról, hogy megfelelő kézbe kerüljenek pénzek. Ezek a haverok adminisztrációs költséget is felszámolnak, nagyjából 25-30 millió forintot kaszálnak egy kötvény után - jól járnak. A vásárlók sem járnak rosszul, ők öt év után visszakapják a pénzüket, de azt a 34 ezer eurót - az nagyjából 10 millió forint egy kötvény után, amit ezek az offshore hátterű cégek kapnak - az adófizetők fizetik vissza. Nem mások, az adófizetők! Értik?! A haverok, amit megkaptak, ezt az adófizetők fizetik vissza.</seg>
+<seg xml:id="AC7_9552.2">Olcsóbb lenne az államnak még az is, ha a piacról finanszírozná a dolgait, és nem az lenne a cél, hogy a haverok, meg a Jóisten tudja már, hogy kik még, akik jól járnak. De hát, gondoljunk csak bele, ez a legnagyobb fokú aljasság. Az adófizető emberekkel fizettetik vissza azt, ami a haverokhoz kerül. És ezeket az offshore hátterű cégeket ki ellenőrzi? Hogyan ellenőrzik? Gyakorlatilag ezeket a pénzmozgásokat lehet egyáltalán ellenőrizni, államtitkár úr? Vagy a korrupció melegágyát teremtik meg ezzel? Miért az emberekkel fizettetik meg azt, ami a haverokhoz kerül? Nagyon egyszerű kérdések, nagyon korrekt, tisztességes válaszokat várok államtitkár úrtól. Köszönöm szépen, elnök úr</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-03-07-urgent_question-AC7_9553" who="#MátyásFirtl" ana="#regular"><note>FIRTL MÁTYÁS (KDNP):</note>
+<seg xml:id="AC7_9553.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A tej és a tejtermékek világpiaci kereslete az utóbbi években folyamatosan csökken. A fő tejtermékimportőrök közül Kína és Oroszország vásárlásai egyaránt elmaradtak a korábban tapasztalt mértéktől. Kínában a gazdasági növekedés lassulása, a magas készletszint, míg Oroszország esetében a továbbra is életben lévő, a mezőgazdasági termékekre kivetett, széles körű embargó jelenti a problémát. A tejtermékek így az Európai Unió piacán maradnak, ami tovább csökkenti a felvásárlási árakat az Unió területén és a külkereskedelmi folyamatokon keresztül Magyarországon is. Míg 2014 februárjában a nyers tej termelői ára 109 forint volt tejkilogrammonként, addig jelenleg a nyers tej átvételi ára a kistermelőknél 60-65 forint, míg a nagyobb volument előállítóknál 80 forint.</seg>
+<seg xml:id="AC7_9553.2">A kormány döntése értelmében a Földművelésügyi Minisztérium a tejtermelő gazdák megsegítése érdekében 11,4 milliárd forint többlettámogatást biztosít 2016-ban, valamint az ágazat jelentős nehézségére tekintettel a minisztérium megkezdte a tejstratégia összeállítását, amely piaci és ágazati helyzetelemzés, illetve a rendelkezésre álló pénzügyi és jogszabályi keretek mentén konkrét intézkedéseket tartalmaz.</seg>
+<seg xml:id="AC7_9553.3">Tisztelt Államtitkár Úr! A tejstratégia összeállításának a keretében milyen konkrét intézkedésre lehet számítani? Mikorra valósulhatnak meg ezek az intézkedések? Illetve: milyen egyéb eszközöket tervez a kormány, hogy a tejtermelés hosszú távon újra nyereséges lehessen? Várom államtitkár úr megtisztelő válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2016-03-07-urgent_question-AC7_9555" who="#ImreVas" ana="#regular"><note>DR. VAS IMRE (Fidesz):</note>
+<seg xml:id="AC7_9555.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Pénteken a miniszterelnök úr szokásos rádióinterjújában világosan megfogalmazta, hogy Magyarország nem enged be területére senkit sem ellenőrzés nélkül. Továbbá egyértelművé tette, hogy hazánkban nem lesznek kerítésáttörések, bevándorlózendülések, felgyújtott menekülttáboro</seg>
+<seg xml:id="AC7_9555.2">(Szilágyi György: Ez a válasz!)</seg>
+<seg xml:id="AC7_9555.3">és nem fognak vadászni mindenfajta bandák magyar nőkre, feleségeinkre, lányainkra. Vagyis hazánkban nem lesznek olyan események, amelyek az Európai Unió más tagállamaiban előfordulhattak. A miniszterelnök úr kijelentette, hogy jobb külön cselekedni, mint együtt tétlennek maradni, amivel a magyar állampolgárok döntő többsége egyet is ért.</seg>
+<seg xml:id="AC7_9555.4">A magyar kormány továbbra is támogatja Macedóniát, aki komoly erőfeszítéseket tesz, hogy kontrollálja az Európát elárasztó migránstömeget. Rendőri segítséget és határvédelemhez szükséges műszaki eszközöket adunk Macedóniának, aki jelenleg egyedülállóként tartja az illegális bevándorlók tömegeit. A migránsokkal szembeni hazai védekezés eddigi teljes költségeit szinte teljes egészében Magyarország biztosította, ami mára már elérte a 85 milliárd forintot. Ehhez az Unió csak csekély mértékben járult hozzá. Így tudjuk, hogy mekkora terhet ró a válság a tranzitországokra, így Magyarországra.</seg>
+<seg xml:id="AC7_9555.5">Tisztelt Államtitkár Úr! Az interjúban elhangzott, hogy a kormány felkészült arra is, hogy ha Magyarországon a magyar-román határszakaszon alakul ki nyomás, akkor két-három hét alatt fizikai határzárat tudunk felépíteni, illetve tovább tudjuk erősíteni a meglévő határszakaszainkat, így elsősorban a magyar-szerb határszakaszt. Ennek fényében kérdezem államtitkár urat, hogy milyen újabb intézkedéseket tesz a kormány a magyar emberek biztonsága érdekében.</seg>
+<seg xml:id="AC7_9555.6">Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-03-07-urgent_question-AC7_9556" who="#TiborBana" ana="#regular"><note>BANA TIBOR (Jobbik):</note>
+<seg xml:id="AC7_9556.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Idézetekkel kezdeném azonnali kérdésemet. „Föl kell tennünk a kérdést, hogy lehet-e helyes egy menekültpolitika, ha ellentétben van a népakarattal.”</seg>
+<seg xml:id="AC7_9556.2">(13.40)</seg>
+<seg xml:id="AC7_9556.3">Orbán Viktor mondta ezt pénteken a Kossuth Rádióban, és a miniszterelnök úr hozzátette: alapvető kérdésekben, amelyek népek sorsát határozzák meg, nem az a kérdés, hogy mi mit gondolunk, hanem hogy mit gondolnak az emberek. Ezért meg kell őket kérdezni, meg kell őket hallgatni, és a véleményüket, döntésüket el kell fogadni.</seg>
+<seg xml:id="AC7_9556.4">Ez hangzott el tehát a Kossuth Rádióban, és egyébként is azt tapasztalhatjuk, hogy a szavak és a tettek ismét nincsenek összhangban egymással: a kormány által megfogalmazott hangzatos ígéretek és a valóság olyan messze vannak egymástól, mint Makó Jeruzsálemtől.</seg>
+<seg xml:id="AC7_9556.5">Önök népszavazást kezdeményeznek a kvótarendszerrel kapcsolatban. Ezt nemhogy támogatja a Jobbik, hanem már fél évvel korábban felvetettük a referendum szükségességét, sőt elmondtuk, hogy a visszatoloncolásokkal szemben is érdemben fel kellene lépnünk, önkormányzati szinten pedig képviselőink megtették a javaslataikat Körmend és Szentgotthárd vonatkozásában is, hogy nemcsak a visszatoloncolások ellen, hanem az ellen is álljanak ki a képviselő-testületek, hogy újra menekülttáborokat létesíthessenek ezekben a városokban, szülővárosomban, Körmenden és városomban, Szentgotthárdon.</seg>
+<seg xml:id="AC7_9556.6">Minden lehetséges eszközzel tiltakoztunk tavaly ősszel is a lépések ellen, de sajnos most azt kell látnunk, hogy még rosszabb lehet a helyzet, hiszen egyértelműen abba az irányba mutatnak a dolgok, hogy hosszabb ideig maradhatnak migránsok a két városban, Körmenden, a város területén belül, belügyminisztériumi területen, míg Szentgotthárdon pedig ugyan a város közigazgatási határán kívül, de nagyon közel Szentgotthárd városához, és tavaly is már ez komoly problémákat okozott.</seg>
+<seg xml:id="AC7_9556.7">Akkor is flashmobbal, tüntetésekkel tiltakoztunk ez ellen, és éppen Lázár János az, aki a saját választókerületében fellépett a nagyfai tábor bezárása érdekében. Most azt látjuk, az a félelmünk, hogy ide fogják áthelyezni a migránsokat, sőt meg is jelentek a felhívások a Vas Megyei Kormányhivatal részéről, ahol különböző munkaköröket hirdettek meg: szociális munkás, gondnok</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_9556.8">Úgyhogy kérném, tegye tisztába azt a kérdést, miniszter úr, hogy akkor a valóság hogyan is áll összhangban az önök által megfogalmazott szavakkal.</seg>
+<seg xml:id="AC7_9556.9">Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-03-07-urgent_question-AC7_9557" who="#MártonGyöngyösi" ana="#regular"><note>GYÖNGYÖSI MÁRTON (Jobbik):</note>
+<seg xml:id="AC7_9557.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Miniszter Úr! Az elmúlt évtizedek nemzetpolitikája arra az illúzióra épült, miszerint az európai uniós csatlakozás gyógyír a trianoni tragédiára és a határon túli magyarság évszázados sebeire. Ezt az illúziót táplálta a rendszerváltás óta mindegyik kormány, a Fidesz által alakított kormányok is sorozatban.</seg>
+<seg xml:id="AC7_9557.2">(14.10)</seg>
+<seg xml:id="AC7_9557.3">A magyar diplomácia lépései kimerültek abban, hogy egyrészről stratégiai partnerséget kínáltak azon környező országok kormányainak, amelyek a magyarságot elnyomják, másrészről pedig politikai és gazdasági klientúrákat építettek ki a határon túli magyarság közösségeiben, miközben a nemzeti identitás megélése óriási kihívást jelent minden egyes határon túli magyar közösségben, miközben a lassú asszimiláció és az elvándorlás között választhatnak a határon túli magyarok. Az Orbán-Fico-barátság és a migráció sem feledteti el azt, hogy közben a Felvidéken érvényben van egy kollektív bűnösséget kimondó Beneš-dekrétum, a szlovák államnyelvtörvény pedig tiltja az anyanyelv használatát a Felvidéken. Általánosságban pedig elmondható az, hogy a magyar jelképek ellen folyamatos offenzíva van, a restitúció blokkolása folyamatos, utca- és helységnévtáblák körül folyamatos hercehurca van, a magyar nyelvű oktatást pedig folyamatosan blokkolják a környező országok, mint ahogy a hivatali nyelvhasználatot is, miközben politikusok, újságírók folyamatosan magyarellenes kirohanásokat hangoztatnak. Románia a csúcs, vagy azt is lehet mondani, hogy a mélypont a magyarellenességben, bár tudjuk, hogy ott a magyarellenesség a nemzeti minimum, ahol Bogdan Diaconu olyan törvénytervezetet nyújtott be és fogadtatott el az ottani parlamenttel, amely a közoktatási hivatalokban tiltja a kisebbségi nyelv használatát</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_9557.4">Kérdezem tisztelt miniszter urat: mit szólnak? Milyen lépéseket tesznek a magyarokat ért megkülönböztetés ellen, jogsértések ellen? A magyar autonómia mellett mikor áll ki határozottan a magyar kormány? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-03-07-urgent_question-AC7_9558" who="#LajosKepli" ana="#regular"><note>KEPLI LAJOS (Jobbik):</note>
+<seg xml:id="AC7_9558.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! Az utóbbi hónapokban Siófok a Fidesznek köszönhetően folyamatosan negatív hírekkel kerül a média érdeklődésének középpontjába. Sorra derültek ki azok a korrupciógyanús ügyek, amelyek az előző városvezetéshez, az előző fideszes polgármesterhez köthetők, illetve önök nem képesek beletörődni a város polgármesteri székének elvesztésébe, és folyamatosan próbálják lejáratni a jelenlegi, törvényesen megválasztott polgármestert, akinek az a legnagyobb bűne, hogy legyőzte a Fideszt, és töretlenül nő a népszerűsége a városban. A siófokiak többsége pedig, úgy tűnik, mögötte áll.</seg>
+<seg xml:id="AC7_9558.2">A legújabb botránykavaró eset az volt, hogy az elmúlt héten indokolás nélkül leváltották Siófok város rendőrkapitányát, aki évek óta szolgált rendőrkapitányként a városban, és akinek tevékenységével kapcsolatban egyébként soha semmilyen negatív kritika nem merült fel, mind a megyei főkapitány pozitívan nyilatkozott korábban róla, mind pedig a képviselő-testület teljes egyhangúsággal fogadta el a város közbiztonsági jelentését. Egyébként jó kapcsolatot ápolt a város vezetésével, polgármester úrral is jól tudott együtt dolgozni.</seg>
+<seg xml:id="AC7_9558.3">Ami a legrosszabb - hiszen a Belügyminisztérium hatásköre, mondhatná államtitkár úr, hogy mikor és kit rak egy-egy város élére rendőrkapitányként -, hogy a sajtóból kellett a polgármester úrnak értesülnie arról, hogy le fogják cserélni a rendőrkapitányt. Általában azért illik egy polgármestert előzetesen legalább egy rövid levélben vagy szóban tájékoztatni arról, hogy ilyesmire készülődik a rendőrkapitányság, különösen akkor, amikor néhány hónap múlva megkezdődik a turistaszezon.</seg>
+<seg xml:id="AC7_9558.4">Tudjuk, hogy Siófok az egyik legforgalmasabb turistahely Magyarországon, ahol bizony nagy számú eset is előfordult a rendőrség berkein belül. Erre azért fel kell készülni hónapokkal előtte. Itt mindenféle egyeztetés az önkormányzat és a rendőrkapitányság között már lezajlott. Ezért sem érti a város vezetése, a polgármester úr, hogy miért történhetett meg minden előzetes figyelmeztetés nélkül ez a rendőrkapitány-csere. Erre várnánk valamiféle választ, indoklást államtitkár úrtól. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

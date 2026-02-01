@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2017-05-22" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2017-05-22 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2017-05-22 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="10" unit="speeches">10 beszéd</measure>
+        <measure xml:lang="en" quantity="10" unit="speeches">10 speeches</measure>
+        <measure xml:lang="hu" quantity="3417" unit="words">3417 szó</measure>
+        <measure xml:lang="en" quantity="3417" unit="words">3417 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2017-05-22">2017. 05. 22.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="10"/>
+          <tagUsage gi="seg" occurs="53"/>
+          <tagUsage gi="kinesic" occurs="10"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2017-05-22">2017-05-22</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2017-05-22-urgent_question-AC7_15622" who="#AnitaHeringes" ana="#regular"><note>HERINGES ANITA (MSZP):</note>
+<seg xml:id="AC7_15622.1">Nagyon szépen köszönöm a szót. Örülök, hogy a miniszter úr személyesen jelen van, így szemtől szembe fel tudom tenni kérdéseimet</seg>
+<seg xml:id="AC7_15622.2">(Dr. Seszták Miklós: Az úgy nehéz lesz!)</seg>
+<seg xml:id="AC7_15622.3">A miniszter úr az állami vagyon felügyeletéért és az energiapolitikáért felelős miniszter, így alá tartozik az összes állami cég, még az energetikai cégek is. Ha az ember közérdekűadat-igénylésre szánja rá magát, elkezdi kikérni az adatokat, és látni akarja, hogy mégis mire költik az állami cégek a pénzüket, akkor megdöbbentő számokat lát az elmúlt időszakban. Amióta a kormányváltás megtörtént, önöknek egy feladata van: kistafírungozni a haverokat, frissen létrejövő cégeknek milliárd forintokat adni médiavásárlásra, szponzorálásra, reklámtevékenységre, csak hogy jól járjanak.</seg>
+<seg xml:id="AC7_15622.4">Akkor nézzünk pár összeget, amitől tényleg az embernek, ahogy vidékiesen szokták mondani, a bicska kinyílik a zsebében! Ha csak azt nézzük, hogy az MVM Zrt. 2015-ben még csak 208 millió forintot költött reklámtevékenységre, 2016-ban pedig már 2 milliárd 696 millió forintot, amelyek baráti cégek zsebében landoltak, például Habony Árpád Modern Media Group Kft.-je zsebében, XT Media Kft., amelyik csak 2015. november végén jött létre, majd ’16-ban már halálra nyerte magát a reklámtevékenységben, a Ripost, a TV2, sorolhatná</seg>
+<seg xml:id="AC7_15622.5">(Dr. Rétvári Bence: TV2? Új cég?)</seg>
+<seg xml:id="AC7_15622.6">, csak olyan cégek kapnak támogatást, akik az önök baráti körében vannak.</seg>
+<seg xml:id="AC7_15622.7">És akkor csak nézzük tovább a számokat! Helyettes államtitkárokat fizetnek ki, akiket már leváltottak, Fidesz-pártelnököket fizettek ki, hogy tudjanak fesztiválokat szervezni, azt gondolom, ez felháborító. Ön az állami vagyonért felelős miniszter, nem azért, hogy az állami vagyont hazalapátolják a barátok. Éppen ezért kérdezem a miniszter urat: ez így rendben van-e, az állami vagyonnal így kell gazdálkodni? Egy csomó számom van még, nagyon szívesen szembesítem önöket ezekkel a számokkal hosszú távon is</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-05-22-urgent_question-AC7_15747" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_15747.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! A magyar kormány alaposan elbánt a neki még hinni tudó, külföldről hazatérő fiatalokkal. 2016 januárjában indította el a „Vállalkozz, fiatal, itthon!” programot, amivel 3 millió forintos vissza nem térítendő támogatást ígértek azoknak a fiataloknak, akik Budapesten vagy Pest megyében saját vállalkozást indítanak. A több mint egy év alatt eddig 117 fiatalt fogadtak be a programba, de akik bekerültek a programba, lehet, hogy örökre bánni fogják.</seg>
+<seg xml:id="AC7_15747.2">Eddig mindössze öt fő számára ítéltek meg támogatást, de közülük még senki sem kapta meg a vállalkozás beindításához szükséges összeget. Egy fillérhez sem jutottak hozzá. Ellenben, ha valaki létrehozott például egy kft.-t, annak a költségeit fizetnie kell. Nem először fordul elő, államtitkár úr, hogy a magyar állam a külföldről hazatérő fiatalok életét megnehezíti. Példaként említhetem, hogy hazatérő fiatalok családtámogatásoktól estek el, vagy nem tudták visszaíratni a gyerekeiket az iskolába vagy az óvodába.</seg>
+<seg xml:id="AC7_15747.3">A kormány tulajdonképpen csak kamu programok szintjén foglalkozik a fiatalok hazacsábításával és itthon tartásával. Óriási probléma ez, hiszen havonta több ezer fiatal megy el itthonról, és így garantáltan unokák nélküli ország leszünk. Nem ez az első program, amely befuccsol. Korábban az LMP rántotta le a leplet a „Gyere haza, fiatal!” programról, amely csupán 105 fiatalt hozott haza. Ez messze van attól, amit államtitkár úr említett.</seg>
+<seg xml:id="AC7_15747.4">Tisztelt Államtitkár Úr! Az LMP adatkérést adott be az NGM-hez. Részletesen akarjuk látni a program eddig megvalósult elemeit, és meg szeretnénk ismerni a késlekedés okát. Partner lesz-e a kormány a program kivizsgálásában? Mikor indulnak be a kifizetések? Lesz-e felelősségre vonás? - mert a fiatalokat becsapni a legnagyobb bűn. Köszönöm a figyelmet</seg>
+<kinesic type="applause"><desc>Taps az LMP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-05-22-urgent_question-AC7_15748" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_15748.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Ötven dekagramm lencse, két evőkanál kókuszzsír, három púpozott evőkanál zabliszt, egy darab füstölthúskocka, kávéskanál só - csapott -, két teáskanál mustár, babérlevél, fűszerpaprika és fokhagyma.</seg>
+<seg xml:id="AC7_15748.2">Ilyen és ehhez hasonló receptek kidolgozására adott megbízást múlt héten az MVM a CÖF-ne</seg>
+<seg xml:id="AC7_15748.3">(Dr. Bárándy Gergely: A CÖF főzni is tud?)</seg>
+<seg xml:id="AC7_15748.4">, és nem kevés pénzt kaptak hozzá, gyakorlatilag félmilliárd forintot kaptak azért, hogy ilyen és ehhez hasonló recepteket dolgozzanak ki. Remélem, nem követek el tiltott szemléltetést, ha így félve megmutato</seg>
+<seg xml:id="AC7_15748.5">(Felmutat egy nyomtatott lapot.)</seg>
+<seg xml:id="AC7_15748.6">, hogy ezt az internetről le lehet tölteni, és egy viszonylag egyszerű képességgel rendelkező háziasszony is meg tudja ezeket főzni, sőt akár maga is ki tud ilyeneket találni. Ezek azok az úgynevezett komplettált ételek. Mint megtudtam a receptek átvizsgálása után, nagyanyáink is komplettáltak, amikor főzeléket és pörköltet készítettek, csak éppen nem kaptak érte félmilliárd forintot az MVM-től.</seg>
+<seg xml:id="AC7_15748.7">Tisztelt Miniszter Úr! Egészen pontosan mi köze van az MVM-nek a komplettált ételekhez? Azt már meg se merem kérdezni, hogy a civilisztikához pontosan mi köze van, de ön, mivel a felügyelete alá tartozik ez a cég, bizonyára tudja. Ugyanis itt számomra a bizonyíték teljesen egyértelmű. Paks II. egyetlen értelme az, hogy az uniós pénzek elkopása után is legyen miből finanszírozni a kormány mögött álló oligarchákat. Önöknek már rég nem számít a kamat nagysága, nem számít az, hogy eladósodunk, nem számít semmi, a Fidesz a túlélésért küzd, és láthatóan az sem számít, hogy teljesen idióta magyarázatokat mondanak bele az egész magyar médiába, amikor megkérdezzük, hogy hoppá, hova tűnt félmilliárd forint közpénz. Az a rossz hírem van, hogy úgy tűnik, ez csak a kezdet, hiszen Mészáros Lőrinc, Andy Vajna, Habony Árpád és a többiek láthatóan sorba állnak azért, hogy ezeket a pénzeket megkaparintsák.</seg>
+<seg xml:id="AC7_15748.8">Tisztelt Miniszter Úr! Kérem, válaszoljon teljesen egyértelműen. Önök utasították-e az MVM-et arra, hogy a CÖF-nek ezt a félmilliárd forintot odaadják? Illetve pontosan szeretném tudni, hogy mi van a támogatási szerződésben.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-05-22-urgent_question-AC7_15749" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC7_15749.1">Tisztelt Elnök Úr! Tisztelt Ház! Rémisztő statisztikai adatok és előrejelzések láttak napvilágot azt illetően, hogy hétévnyi Fidesz-KDNP-s regnálás után további százezrek, több mint 300 ezren tervezik azt, hogy Magyarországról kivándorolnak hosszabb vagy rövidebb időre. Sajnos, jellemzővé vált a hosszabb időre történő kivándorlás és a visszatérés szándékának legalábbis a lebegtetése.</seg>
+<seg xml:id="AC7_15749.2">Adódik a kérdés, hogy ezen rémisztő tények fényében a kivándorlást serkentő tényezők közül hogyan kíván legalább egy-kettőt kezelni ez a kormányzat. Állandó vesszőparipám, az otthonteremtési problémák megoldása tekintetében, államtitkár úr, nyugodtan nevezhetjük az önök által beterjesztett anyagot a kilátástalanság költségvetésének, hiszen a CSOK tekintetében a felső középosztálytól felfelé a szerencsésebb társadalmi csoportokhoz tartozók számára újabb és újabb kedvezményeket nyújtanak, találnak ki, ugyanakkor a valódi szükséget szenvedők, a középosztály leszakadófélben lévő tagjai vagy esetleg a szegényebb emberek számára nem biztosítanak példának okáért egy bérlakásépítési programot.</seg>
+<seg xml:id="AC7_15749.3">Nem igaz az, amit a költségvetési vita során az államtitkár úr is hangoztatott, miszerint a magyar emberek annyira a saját ingatlantulajdonra vannak „ráállva”. A helyzet az, hogy annyira nincsen elérhető számú és mennyiségű, minőségű bérlakás, hogy a magyar emberek egész egyszerűen nem is rendelkeznek választási lehetőséggel; vagy jobb módúak, és akkor saját ingatlanra tesznek szert, vagy ha belátják, hogy 10-15 éven belül a mai Magyarországon ez egész egyszerűen nem jöhet létre, akkor kivándorolnak ebből az országból, máshol próbálnak szerencsét, máshol fizetnek adót.</seg>
+<seg xml:id="AC7_15749.4">Államtitkár Úr! Adódik tehát ez a teljesen magától értetődő kérdés - a Jobbik szakértői több száz milliárdnyi, homályos módon elköltött forrást találtak a költségvetésben -: mikor, milyen formában hajlandóak egy állami hátterű otthonteremtési és bérlakásépítési programot indítani, amely nemcsak a saját ingatlantulajdonra, nemcsak CSOK-ra, nemcsak gazdagok számára, bár tőlük sem sajnáljuk, de minden egyes magyar állampolgár számára valódi életlehetőségeket biztosít ebben az országban.</seg>
+<seg xml:id="AC7_15749.5">Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-05-22-urgent_question-AC7_15750" who="#GergelyFarkas" ana="#regular"><note>FARKAS GERGELY (Jobbik):</note>
+<seg xml:id="AC7_15750.1">Köszönöm a szót. Tisztelt Ház! Tisztelt Államtitkár Úr! Csak a mai napon már számtalan alkalommal beszéltünk az elvándorlás kérdéséről, ami egyáltalán nem probléma, sőt fontos, mert ezáltal is mutatja az ügy fontosságát, és mutatja azt is, hogy sajnálatos módon önökben ezt tudatosítani kell, hogy mekkora nagy problémával is állunk szemben.</seg>
+<seg xml:id="AC7_15750.2">Már csak azért is, mert itt néhány perce az ön államtitkártársa is úgy fogalmazott, hogy körülbelül annyi fiatal jön haza, mint amennyien elmennek. Úgy gondolom, hogy bárki, aki tapasztalatokkal rendelkezik az ismeretségi köréből vagy egyéb módon, az nem ezt tapasztalja, hanem azt, hogy sokkal többen mennek el, mint ahányan hazajönnek, és önök sem tudják ezt számokkal alátámasztani. De ön is, amikor legutoljára erről beszélgettünk, úgy fogalmazott, hogy azok, akik nagy számban gondolkoztak azon, hogy elmennek külföldre, nem váltották valóra abban a mértékben, mint esetlegesen egy felmérés kapcsán azt mutatták.</seg>
+<seg xml:id="AC7_15750.3">Nos, tisztelt államtitkár úr, a tények makacs dolgok. A helyzet ugyanis úgy fest, hogy nemhogy olyan arányban, hanem nagyobb arányban váltották be ezt az ígéretüket, ezt az elgondolásukat, és még inkább riasztó képet fest a KSH Népességtudományi Kutatóintézetének legújabb elemzése, amely azt vetíti előre, hogy akár 370 ezer ember is elhagyhatja ezt az országot, akiknek 48 százaléka mindenképpen menni akar, 52 százalékuk pedig már jelentkezett is valamilyen külföldi állásra.</seg>
+<seg xml:id="AC7_15750.4">Úgy gondolom, ez is mutatja, hogy milyen riasztó helyzettel is állunk szemben. Nemcsak arról van itt szó, hogy már az elmúlt években több százezer fiatal hagyta el az országot, nemcsak arról van szó, hogy a születésszám Magyarországon jóval alacsonyabb, mint a halálozások száma, tehát fogy a népesség, még további százezrek hagyhatják el Magyarországot.</seg>
+<seg xml:id="AC7_15750.5">A kérdésem az mindenekelőtt, hogy mikor látják be a probléma súlyosságát, és milyen hathatós lépéseket kívánnak tenni annak érdekében, hogy változzon a helyzet. És kérem, államtitkár úr, ne a múlttal foglalkozzon! Nagyon jól látjuk, hogy az kevés volt. A jövőbeli kimutatások, felmérések azt mutatjá</seg>
+<seg xml:id="AC7_15750.6">(sic!)</seg>
+<seg xml:id="AC7_15750.7">, hogy annak semmi érdemleges hatása nem volt, a fiatalok továbbra is el szeretnének menni. Milyen jövőbeli tervekkel rendelkeznek, amelyek képesek ezt megállítani? Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-05-22-urgent_question-AC7_15751" who="#GyörgySzilágyi" ana="#regular"><note>SZILÁGYI GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_15751.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Asszony! Demográfiai válságban vagyunk, a népesség folyamatosan csökken. Sajnos, az önök kormánya alatt is ez tapasztalható, hiszen a most megjelent adatok alapján a 2010 és ’15 közötti időszak sem volt ettől mentes. Jelen pillanatban a 23 budapesti kerület és a 175 vidéki járás közül 5 olyan járás van, ahol a születések száma meghaladja az elhalálozások számát. Úgy gondolom, ez nagyon rémisztő adat.</seg>
+<seg xml:id="AC7_15751.2">Ráadásul itt még nem is számít bele a népességfogyásba az a mérhetetlenül nagy kivándorlási hullám, ami sajnos fiatalok ezreit, tízezreit, százezreit viszi ki külföldre. Pont arról a korosztályról beszélünk, akik kimennek, azoknak a kétharmada 40 év alatti ember. Ma már egyes kimutatások szerint minden hatodik gyermek külföldön születik. Küzdeni kellene a népességfogyás ellen, és ennek a küzdelemnek nagyon sok lábon kellene állnia.</seg>
+<seg xml:id="AC7_15751.3">Az egyik ilyen láb, hogy sajnos van egy olyan probléma, hogy minden ötödik magyar családot érinti már a meddőség kérdése. Sajnos, vannak Magyarországon olyan magyar családok, akik szeretnének gyereket, szeretnék is vállalni ezeknek a gyerekeknek a felnevelését, de valamilyen okból kifolyólag nem lehet gyermekük. Számukra egyetlenegy lehetőség van, az IVF-program, az asszisztált reprodukció, magyarán: lombikbébiprogram, amelynek keretében gyermekeket hozhatnának a világra.</seg>
+<seg xml:id="AC7_15751.4">Több éve mindig benyújtjuk a költségvetéshez, hogy támogassuk ezeket a magyar családokat, hiszen egy-egy ilyen beültetésnél több százezer forint önrészt kellene fölmutatniuk, és nem mindenki tudja ezt előteremteni. Benyújtjuk a költségvetéshez a módosító javaslatainkat, és önök öt éven keresztül folyamatosan leszavazzák ezeket. Az idén is benyújtottuk, szeretnék egy 3 milliós keretet, ahol pályázni lehet. A kérdésem az, hogy most támogatják-e a Jobbik ezen javaslatát, és támogatják-e azokat a családokat, akik gyermekeket szeretnének ma Magyarországon</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-05-22-urgent_question-AC7_15753" who="#GergelyBárándy" ana="#regular"><note>DR. BÁRÁNDY GERGELY (MSZP):</note>
+<seg xml:id="AC7_15753.1">Köszönöm a szót, elnök úr. Tisztelt Legfőbb Ügyész Úr! 2015. szeptember 3-án a NAV szignalizált egy minősített iratot az EMMI-t vezető miniszternek, Balog Zoltán miniszter úrnak, ebből egyébként egy büntetőeljárás is kerekedett. A miniszter úr Farkas Anikótól, a kabinetfőnökétől értesült erről, akit a miniszter úr arra utasított, hogy Köpeczi-Bócz Tamás helyettes államtitkárnak - ugyanabban a minisztériumban - mutassa meg ezt az iratot. Az eljárás során mind a ketten vallomást tettek, méghozzá egymást kizáró vallomást, legfőbb ügyész úr, ugyanis a miniszter kabinetfőnöke azt állította, hogy megmutatta ezt az iratot, a helyettes államtitkár pedig azt mondta, hogy ő sosem látta ezt a papírt. Ha valaki ezt a dolgot tisztába tehette volna, akkor az Balog Zoltán miniszter; én azt gondolom, hogy indokolt lett volna meghallgatni őt ebben a büntetőeljárásban.</seg>
+<seg xml:id="AC7_15753.2">Ráadásul nagyon érdekes, tisztelt legfőbb ügyész úr, hogy ilyenkor szinte kivétel nélkül szembesítésre szokott sor kerülni az eljárásokban, és két ilyen ellentmondó vallomásnál, méghozzá két olyan szereplőjétől az ügynek, aki érdemi információval szolgált, meg se kísérelték a szembesítést és a szembesítés során feloldani ezt az ellentmondást.</seg>
+<seg xml:id="AC7_15753.3">(14.00)</seg>
+<seg xml:id="AC7_15753.4">Ehelyett mit csináltak önök? Ebben az ügyben megszüntették az eljárást, természetesen ezt is a Központi Nyomozó Főügyészség, a Fidesz ökle.</seg>
+<seg xml:id="AC7_15753.5">Nem értem, hogy miért kellett elvágni a miniszteri, illetve a minisztériumi szálat. Az ugye, azt gondolom, egyértelmű, tisztelt legfőbb ügyész úr, hogy a minisztériumban valaki kiírta a pályázatot, méghozzá úgy, ahogy a gyanúsítottak akarták. A gyanúsítottak pedig - és erre is vannak adatok a büntetőeljárásban - végig valamiféle Tamásról, gondolom, Köpeczi-Bócz Tamásról beszélnek, akivel egyeztetni kellett a pályázatokat.</seg>
+<seg xml:id="AC7_15753.6">Olyan nincs, hogy nincs felelőse a minisztériumban egy ilyen ügynek, mert</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_15753.7">pályázatot ott írják ki. Szeretném tehát megkérdezni, hogy miért szüntették meg az eljárást ahelyett, hogy eljártak volna ebben az ügyben, és a minisztert meghallgatták volna. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-05-22-urgent_question-AC7_15754" who="#LászlóSalacz" ana="#regular"><note>DR. SALACZ LÁSZLÓ (Fidesz):</note>
+<seg xml:id="AC7_15754.1">Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Miközben Európa egyik fele, így Magyarország is minden lehetséges eszközzel az illegális bevándorlást próbálja visszaszorítani, egyes civil szervezetek migrációt támogató videókkal, propagandafilmben bátorítják az embereket arra, hogy keljenek útra. Napjainkban napvilágot látott ugyanis egy migrációs témájú kisfilm, amely az Európai Unió keleti tagállamait igen negatívan mutatja be. Az Európaiak Határok Nélkül nevű civil szervezet ezt a migrációt bátorító videót többek között az Európai Bizottság, a francia kormány és a Fondation Hippocrène támogatásával készítette, és két nyelven is feltöltötték a legnagyobb videómegosztó portálra. A videó forgatókönyvét Philippe Cayla, a Soros György Nyílt Társadalom Alapítványa által is támogatott Aspen Institute nemzetközi szervezet oszlopos tagja jegyzi.</seg>
+<seg xml:id="AC7_15754.2">Ez a kisfilm része annak a teljes pályás letámadásnak, amelyet a migráció kapcsán Soros György Magyarország ellen folytat. A milliárdos nemcsak az Európai Parlament megvett képviselőit, hanem PR- és kommunikációs szakembereket is bevet a bevándorlással kapcsolatos céljai elérése érdekében. Ugyancsak elképesztő, hogy a videó elkészítését anyagilag támogatta az elvileg az összeurópai érdekeket képviselő Európai Bizottság.</seg>
+<seg xml:id="AC7_15754.3">Tisztelt Államtitkár Úr! A Magyarországot érő támadások és lejáratások hátterében migrációs politikánk áll. Az utóbbi idők eseményeinek tükrében a Soros György segédletével szervezett nemzetközi lejárató kampányok, a készülő Soros-jelentés után ugyan már meg sem lepődünk. Mégis felmerül a kérdés, meddig süllyedhetnek tovább ezek a migránspárti szervezetek. A lejárató kampány, amely hazánk ellen folyik, elfogadhatatlan, és kérjük a kormányt, hogy tegyen meg továbbra is mindent annak érdekében, hogy a bevándorláspolitikában eddig elért eredményeinket megóvjuk</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-05-22-urgent_question-AC7_15755" who="#ZoltánGőgös" ana="#regular"><note>GŐGÖS ZOLTÁN (MSZP):</note>
+<seg xml:id="AC7_15755.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Gondolom, egyeztetett a miniszterelnök úrral, és az ő álláspontját képviseli, mert ezt általában így illik.</seg>
+<seg xml:id="AC7_15755.2">Úgy gondolom, önmagában az is életszerűtlen, ha van olyan cégcsoport vagy vállalkozáscsoport, amelynek a tetején lévő ember óránként 10 milliót keres. Az is életszerűtlen, hogy valaki a homlokára csap, és felvásárolja a balatoni kempingeket üzemeltető céget, majd másnap megjelenik egy pályázati felhívás, hogy kempingfelújításra 5 milliárd forintot szán az állam</seg>
+<seg xml:id="AC7_15755.3">(Dr. Bárándy Gergely: Micsoda véletlen!)</seg>
+<seg xml:id="AC7_15755.4">Az is életszerűtlen, én úgy gondolom, és majd miniszter úr elmondja, hogy szerinte is az-e, hogy valaki kap kettő perc alatt egy hatalmas hitelt, megvesz egy hatvan éve működő újságot, majd rá egy hónapra bezárja. Természetesen ellenzéki újságról van szó. Szerintünk az is életszerűtlen, hogy elkezdik valamilyen szinten a Paksi Atomerőmű kivitelezését, ahol megjelenik egy hír, hogy Magyarországon kevés olyan vállalat van, amelyik ebbe majd érdemben be tud szállni, ezért ugyanez a gyerekkori barát, Mészáros Lőrinc véletlenül beszáll egy olyan cseh cégbe, amelynek fő tevékenysége atomerőművi berendezések gyártása. Én azt hiszem, az sem túl életszerű, hogy valaki felvásárolja egy nagyváros főterének az egyharmadát, csak azért, mert közeli barátja a miniszterelnöknek.</seg>
+<seg xml:id="AC7_15755.5">Miniszter úr, átgondolták azt végül is, hogy hogy lehet az, hogy a pályázati rendszerben valakik mindig előre tudnak mindent? Vagy előre tudnak gondolni olyanokat például, hogy akkor majd remek villamosítási program lesz - hogy akkor ne csak a barátról, hanem a vőről is érdeklődjek? Ezzel azért csak kellene valamit kezdeni, mert az embereknél ez előbb-utóbb nagyon-nagyon ki fogja verni a biztosítékot. Csak érdekelne a véleménye, mint gazdaságért felelős miniszternek, hogy életszerű-e az ilyen típusú óriási gazdagodás, még akkor is, ha valakinek a miniszterelnök az apósa vagy a legjobb barátja</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-05-22-urgent_question-AC7_15756" who="#PéterCsizi" ana="#regular"><note>CSIZI PÉTER (Fidesz):</note>
+<seg xml:id="AC7_15756.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Tegnap, azaz május 21-én volt a magyar honvédelem napja, ezért engedje meg, hogy ebből az alkalomból a Magyar Országgyűlésben az azonnali kérdések keretében kifejezzük elismerésünket a magyar katonák irányában, hiszen ők azok, akik az Európát sújtó újkori népvándorlás és terrorveszély közepette garantálják országunk biztonságát, őrzik a határainkat és ezzel együtt védik Európát is. Emellett a magyar haderő az utóbbi években már több alkalommal is bebizonyította rátermettségét, legyen szó szakmai feladatok ellátásáról vagy természeti katasztrófák elleni védelemről.</seg>
+<seg xml:id="AC7_15756.2">Amint azt a múlt heti költségvetési vitában is kifejeztem, napjainkban az egyik legfontosabb érték a biztonság, ezért a Fidesz elkötelezett annak érdekében, hogy katonáink erőfeszítését - legyen szó NATO-szerepvállalásról, nemzetközi misszióról vagy határvédelmi feladatok ellátásában nyújtott szerepükről - ne csak szavakban, hanem tettekben is elismerjük. Éppen ezért, amikor katonáink világszerte helytállnak és a migrációs nyomás közepette a határainkat is védik, fontos, hogy hosszú távú pályaképet tudjunk számukra felvázolni. Ennek érdekében a kormány ígéretének megfelelően töretlenül folyik az illetményemelés és a bérjellegű juttatások rendszerének fejlesztése is. Sőt, a kormány szándékát jól mutatja a 2018. évi költségvetési tervezés is, hiszen 73,6 milliárd forinttal bővül a honvédelem költségvetése, ami 21 százalékos emelést jelent majd.</seg>
+<seg xml:id="AC7_15756.3">Éppen ezért üdvözölve a kormány erőfeszítését és szándékát a Magyar Honvédség nagyarányú fejlesztésére, támogatjuk a tárca minél szélesebb körű fejlesztését, és köszönjük a magyar katonák munkáját, a magyar katonák elhivatottságát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2016-05-02" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2016-05-02 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2016-05-02 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="8" unit="speeches">8 beszéd</measure>
+        <measure xml:lang="en" quantity="8" unit="speeches">8 speeches</measure>
+        <measure xml:lang="hu" quantity="2736" unit="words">2736 szó</measure>
+        <measure xml:lang="en" quantity="2736" unit="words">2736 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2016-05-02">2016. 05. 02.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="8"/>
+          <tagUsage gi="seg" occurs="33"/>
+          <tagUsage gi="kinesic" occurs="10"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2016-05-02">2016-05-02</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2016-05-02-urgent_question-AC7_10381" who="#R.BenedekSallai" ana="#regular"><note>SALLAI R. BENEDEK (LMP):</note>
+<seg xml:id="AC7_10381.1">Gyakorlatilag arról van szó, hogy mint az valószínűleg a miniszter úr számára is ismert, 771 milliárd 580 millió forint az az összeg, amit agrártámogatásként 2015-ben a magyar állam kifizetett. Ennek 78,75 százaléka, vagyis több mint 607 milliárd forint uniós forrásból volt, és a maradékot adta hozzá a magyar önrész.</seg>
+<seg xml:id="AC7_10381.2">És nyilvánvalóan ennek a támogatásnak az alapvető célja az agrárium helyzetének a javítása, a vidék népességmegtartó erejének az erősítése és annak a lehetőségének a megteremtése, hogy az a négy magyarországi régió, amely az egy főre eső GDP tekintetében az európai uniós statisztikák alapján a végén kullog, valahogy fel tudjon zárkózni. És alapvetően ez a támogatás az, ami engem a leginkább érdekel, hiszen a miniszter úr jelentette be megközelítőleg egy évvel ezelőtt, bocsánat, lehet, hogy már másfél évvel ezelőtt, hogy a progresszív rendszer bevezetésével a nagyoktól szeretnének elvonni támogatásokat, és szeretnék azt, hogy a kicsik helyzete javuljon. Nos, ennek az eredményét ismerhettük meg a 2015. évre, amiből megtudtuk, hogy továbbra is az a helyzet, hogy 2015-ben a felső 10 százalék kapta meg a támogatások 76 százalékát, és a támogatások 12 százaléka fölött osztozott a pályázók 80 százaléka. És ez azt jelenti, hogy továbbra is nagyon-nagyon kevés pályázóhoz jut el nagyon-nagyon sok forrás.</seg>
+<seg xml:id="AC7_10381.3">(13.50)</seg>
+<seg xml:id="AC7_10381.4">Az önök átalakításának eredményeként Leisztinger Tamás vezeti most a listákat 4,8 milliárd forinttal, mint a legtöbb támogatást kapó. Ebből 1,2 milliárd az, ami tisztán területalapú támogatás. A második Csányi Sándor 4,4 milliárd forinttal, amiből több mint 1 milliárd az, ami tisztán területalapú. Ezt követően sorakozik Simicska és Nyerges vállalkozási érdekeltsége, a Bódi család, Mádl Istvánék családja, a Hódmezőgazda és Mészáros Lőrinc is.</seg>
+<seg xml:id="AC7_10381.5">A helyzet nyilván a politikai viszonyokra nagyon picit rámutat, hiszen az látható, hogy Simicska Lajos 30 százalékkal kevesebb, Mészáros Lőrinc viszont 65 százalékkal több támogatást kapott, mint az előző évben. Az a kérdésem, hogy ön szerint mennyire normális az, hogy Magyarországon az agrártámogatásokat milliárdosoknak adjuk. Mennyire normális az, hogy azok a források, amiket a vidék felzárkóztatására kell szánni, milliárdosokhoz jutnak, és nem pedig a kis- és közepes gazdálkodókhoz? Erre várnám válaszát. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az LMP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-02-urgent_question-AC7_10471" who="#JózsefAttilaMóring" ana="#regular"><note>MÓRING JÓZSEF ATTILA (KDNP):</note>
+<seg xml:id="AC7_10471.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A becslések szerint az elmúlt hat év alatt 2 milliárd amerikai dollárnak megfelelő eszmei értékben 10 millió kaptárnak megfeleltethető mézelő méh pusztult el világszerte. A tudósok először 2006-ban jelezték a nyilvánosság felé, hogy a rendelkezésre álló adatok szerint a világon a méhpopuláció mértékében folyamatos és jelentős csökkenés figyelhető meg. Az utóbbi évek során ez a csökkenés már drasztikus mértékűvé vált. 2010-re már globális problémává nőtte ki magát a méhek pusztulása.</seg>
+<seg xml:id="AC7_10471.2">A méhek jelenléte nemcsak a méztermelés miatt fontos a világban, de mi lesz az emberiség létfenntartásához szükséges élelmiszerlánccal, ha nem lesz, aki beporozza a növényeket? A tavalyi évben jelentős mézhamisítási botrány érte el Európát, amelynek következtében Magyarországon már jelentősen csökkent az importmézek aránya. Két héttel ezelőtt eredményes egyeztetés zajlott le a hazai mézpiac védelméért, amelyen részt vett az Országos Magyar Méhészeti Egyesület, a Magyar Mézkereskedők és Mézcsomagolók Egyesülete és mint szervező a Nemzeti Élelmiszerlánc-biztonsági Hivatal mellett a jogalkotói és hatósági oldal, azaz a Földművelésügyi Minisztérium és a Nemzeti Adó- és Vámhivatal is. Az ülésen szóba került az adatszolgáltatási kötelezettség kiterjesztése a tagállamokból érkező méztételekre, valamint az előállítással, forgalmazással kapcsolatos adatszolgáltatásokra és a nyomonkövethetőségre vonatkozó előírások módosítása. A résztvevők megfogalmazták észrevételeiket az Európai Unió mézvizsgálatokra irányuló monitoringprogramjával kapcsolatban is.</seg>
+<seg xml:id="AC7_10471.3">Tisztelt Államtitkár Úr! A jogalkotók, a hatóság és az ágazati szereplők közös célja a kiváló minőségű magyar méz hírnevének megóvása. Éppen ezért kérdezem államtitkár urat: milyen segítséget tud adni a kormányzat ezen cél eléréséhez, valamint a magyar méhpopuláció megóvásához? Várom államtitkár úr válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-02-urgent_question-AC7_10473" who="#R.BenedekSallai" ana="#regular"><note>SALLAI R. BENEDEK (LMP):</note>
+<seg xml:id="AC7_10473.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Az FM-ben talán figyelemmel kísérik a sajtóhíreket. Április 26-án délelőtt adott hírt a média arról képfelvétellel, hogy egy luxusétterem kávézójában Bitay Márton Örs, az állami földekért felelős államtitkár és Mészáros Lőrinc felcsúti nagyvállalkozó véletlen összefutott, a hírek szerint ott véletlenül kávéztak és elbeszélgettek a futballról. Így szóltak a hírek, és talán ennyiben is maradt volna a dolog, hogy megcsóváljuk a fejünket, ha ugyanannak a napnak a délutánján a Nemzeti Földalapkezelő Szervezet nem hoz ki egy döntést árverési hirdetmény részleges visszavonásáról. De kihozta ezt a döntést, 31 tételt vontak vissza az árverésről, és mit ad a Jóisten, ebből 11 tétel a Mészáros Lőrinc érdekeltségébe tartozó Búzakalász 66 Felcsúti Mezőgazdasági Kft.-hez tartozik, további három tétel pedig Mészáros Jánoshoz, a nagyvállalkozó testvéréhez.</seg>
+<seg xml:id="AC7_10473.2">Ha ez nem lenne elég, akkor megnézhetjük a többi tételt is, ugyanis másik 16 tétel viszont szorosan kapcsolódik a Mezőfalvai Mezőgazdasági Termelő és Szolgáltató Zrt.-hez, amely a Zászlós Tibor nevével fémjelzett, kormányhoz közel álló agrárkamarai tisztségviselőnek, a Kishantost tönkretevő vállalkozásnak az egyik zászlóshajó-vállalkozása. Nyilvánvalóan szembetűnő az a párhuzam, hogy délelőtt találkozik valaki egy nagyvállalkozó milliárdossal, délután pedig azokat a földeket, amiket a milliárdos már nem tud megvenni, mert, mint tudjuk, összes családtagja elérte a szerzési maximumot, a 300 hektáronkénti személyenkénti maximumot, ezért az állam megtartja azokat, hogy kedvező bérleti joggal továbbra is biztosítsa a nagyvállalkozónak.</seg>
+<seg xml:id="AC7_10473.3">Én a magam részéről mindig örülök, ha nem ad el valamit az állam, ezzel nem is lenne gond, viszont az a kérdés, hogy mégis milyen döntéshozási mechanizmus, milyen érvek szóltak amellett, hogy az árverések megkezdése előtt az utolsó pillanatban egy olyan lépést hozzanak, amivel újfent csak azt bizonyítják, hogy hogyan kötődnek önök a milliárdosokhoz, a nagybirtokosokhoz, és hogyan szolgálják azok érdekét a magyar kis- és közepes vállalkozókkal szemben. Ha erre tudna valamilyen értelmes magyarázatot adni államtitkár úr, azt megköszönném. Köszönöm szépen, elnök úr</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki oldalon.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-02-urgent_question-AC7_10474" who="#BélaDankó" ana="#regular"><note>DANKÓ BÉLA (Fidesz):</note>
+<seg xml:id="AC7_10474.1">Tisztelt Államtitkár Úr! Ellenzéki képviselőtársaim amikor hangosan firtatják, hogy egyáltalán lehetséges-e hazánk Alaptörvényben is rögzített GMO-mentességének megőrzése a világszinten tapasztalható politikai és gazdasági nyomás ellenére, akár megnyugtatónak is nevezhetném, hogy az ellenzéki frakciók a kormányzathoz hasonlóan fontosnak tartják hazánk GMO-mentességét, de meg kell jegyeznem, hogy képviselőtársaim politikai érdekből hajlamosak elfordítani tekintetüket a valóságtól, és ebben a témában is alulértékelik a kormány nemzetközi téren tett erőfeszítéseit.</seg>
+<seg xml:id="AC7_10474.2">Pedig tagadhatatlan, hogy Magyarország az egyik motorja az Unión belül a GMO-mentesség ügyének. A kormány igyekszik minél szorosabb szövetségre lépni a hasonló érdekeltségű tagállamokkal, így jó eséllyel szállunk síkra az érdekeink védelmében. Például óriási siker és jórészt a mi munkánk érdeme, hogy Brüsszel hozzájárult ahhoz, hogy tagállami hatáskörbe kerüljön a genetikailag módosított növényfajták tiltásának vagy engedélyezésének kérdése. Hazánkhoz hasonlóan több tagállam is élt a moratórium lehetőségével. Elindítottuk a Szövetség a GMO-mentes Európáért kezdeményezést, amelyhez több ország is csatlakozott. Mondhatjuk úgy, hogy ez a politika színtere, az elmélet - de hogyan néz ki a gyakorlat?</seg>
+<seg xml:id="AC7_10474.3">Kérdezem a tisztelt államtitkár urat: a kormány milyen ellenőrzési rendszerrel garantálja Magyarország GMO-mentességének fenntartását? Milyen mennyiségben szűrnek ki GMO-val való szennyezettséget a laborok? Milyen a kapcsolat a hatóságok és a piaci szereplők között? Egyszóval milyen hatékonysággal tudjuk ténylegesen őrizni a GMO-mentességünket</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban. - Dr. Schiffer András: Sehogy!</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-02-urgent_question-AC7_10478" who="#BertalanTóth" ana="#regular"><note>DR. TÓTH BERTALAN (MSZP):</note>
+<seg xml:id="AC7_10478.1">Köszönöm a szót, elnök úr. Tisztelt Alelnök Úr! Matolcsy György egy 2014-ben készült interjúban azt mondta: „Az MNB az alapítványi tőkét úgy bocsátotta a Pallas Athéné alapítványok rendelkezésére, hogy tett néhány kikötést. Az első és legfontosabb, hogy az alapítványi tőkét nem, csak annak hozamát lehet az alapítványi célokra felhasználni. Ez biztosítja, hogy még három, négy vagy öt évtized múlva is meglesz az alapítványi vagyon. A második kikötés: tartósan csak magyar állampapírban tarthatják az alapítványi tőkét, például aranyban, gyémántban vagy külföldi állampapírban nem. A harmadik: az MNB munkavállalói, ha alapítványi tisztségviselők, nem vehetnek fel tiszteletdíjat az alapítványtól.”</seg>
+<seg xml:id="AC7_10478.2">Ezzel összhangban az általam indított adatkiadási pereimben a Fővárosi Törvényszék és a Fővárosi Ítélőtábla is hangsúlyozta: „az MNB megőrizte a befolyását a Pallas Athéné alapítványok működése felett”. Ezzel szemben múlt héten az MNB úgy érvelt, hogy az alapítványok a jegybanktól és Matolcsy Györgytől függetlenül hozták meg a döntéseiket. Ma pedig kiderült, hogy ez nem igaz. Kiderült ugyanis, hogy a Matolcsy György jegybankelnök által alapított és vezetett Pallas Athéné Domus Animae Alapítvány esetében a befektetési döntéseket nem a kuratórium, hanem személyesen Matolcsy György és egy általa kinevezett kuratóriumi tag hozta</seg>
+<kinesic type="noise"><desc>Zaj, közbeszólások az MSZP padsoraiból. - Dr. Schiffer András közbeszólása. - Dr. Szakács László: Igaz ez?</desc></kinesic>
+<seg xml:id="AC7_10478.3">Így döntöttek az állampapír-vásárlásokról és a Matolcsy unokatestvérének bankjában történő lekötésekről. Tehát még egyszer: a jegybankelnök döntött arról, hogy a jegybank pénzéből létrehozott alapítványok állampapírt vásároljanak, és az MNB így finanszírozta a magyar költségvetést</seg>
+<seg xml:id="AC7_10478.4">(Dr. Józsa István: Felháborító!)</seg>
+<seg xml:id="AC7_10478.5">Tisztelt Alelnök Úr! Kérdezem én: meddig akarnak még hazudozni? Mikor állnak ki és ismerik el, hogy törvénysértő módon használták fel a közpénzeket, és törvénysértő módon finanszírozták a magyar költségvetést? Mikor állnak ki és ismerik el, hogy ebben a törvénysértésben összejátszottak a kormánnyal? Várom válaszát</seg>
+<kinesic type="applause"><desc>Közbekiáltás az MSZP padsoraiból: Gyalázat! - Taps az MSZP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-02-urgent_question-AC7_10480" who="#LászlóSzakács" ana="#regular"><note>DR. SZAKÁCS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_10480.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Miniszter Úr! Miniszter úr, a Zsolnay Manufaktúra elmúlt egyéves története eléggé kacifántos kálvária, hogy így mondjam. Nagyon sok minden megtörtént ott, viszont az a baj, hogy nagyon sok minden nem történt meg, hiszen a kormány mulasztásai, illetve a pécsi önkormányzat rossz döntései alapján eljutottunk egy olyan pontra, ahonnan - úgy gondolom - megnyugtató megoldás nagyon-nagyon nehezen lehet.</seg>
+<seg xml:id="AC7_10480.2">De vegyük szépen sorjában! Többször interpelláltunk itt a parlamentben is, és kértük önöket a szindikátusi szerződés alapján, amelynek a kormány is aláírója, hogy védjék meg a Zsolnay-gyárat, ne engedjék, hogy a Zsolnay védjegyét a többségi tulajdonos elvigye, kivigye az országból, levédje akár az egész Európai Unióra, akár Ázsiára és azzal ott kereskedjen. Nem tettek semmit. Azzal nyugtattak bennünket, nem lesz baj, higgyük el, jogászok hada dolgozik ezen az ügyön.</seg>
+<seg xml:id="AC7_10480.3">Kértük önöket, tegyenek azért is valamit, ha már a pécsi önkormányzat nem tesz semmit, hogy a szindikátusi szerződést a többségi tulajdonos tartsa be, a pénzbeli hozzájárulást vagy az apportot megfelelőképpen tudja a társaság rendelkezésére bocsátani. Ebben sem történt semmi, de kötbért sem kértek, pedig megszegte a szerződést. Ezzel együtt eljutottunk odáig, mi feljelentést tettünk, ellenzéki képviselők, és most eljutottunk odáig, hogy a múlt héten kiment a NAV, több mint 40 munkatársát a Zsolnaynak kihallgatta, meghallgatta, majd ezek után egy botrányos közgyűlésen Pécs megyei jogú város kisebbségi tulajdonos kizárását kezdeményezték a Zsolnay Manufaktúrából.</seg>
+<seg xml:id="AC7_10480.4">Vannak mindenfajta kérdések természetesen, de szeretném megkérdezni, hogy mik a kormány tervei. Igazak-e azok, amiket hallunk, hogy megvan már a vevő a Zsolnay-gyárra? Igazak-e azok a hírek, hogy kiköltözik a Zsolnay-gyár Pécsről, Pécs belvárosából kiköltözik a Déli Ipari Parkba</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC7_10480.5">Igaz-e, hogy Pécs el akarja adni a saját üzletrészét? Köszönöm szépen a figyelmet</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-02-urgent_question-AC7_10482" who="#DóraDúró" ana="#regular"><note>DÚRÓ DÓRA (Jobbik):</note>
+<seg xml:id="AC7_10482.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Ön március 22-én azt jelentette be, hogy megszűnik a KLIK, múlt héten Lázár János miniszter úr pedig azt mondta, hogy nem szűnik meg a KLIK. Most itt le is ülhetnék, és be is fejezhetném a kérdéseme</seg>
+<seg xml:id="AC7_10482.2">(Dr. Rétvári Bence: A legjobb az lenne!)</seg>
+<seg xml:id="AC7_10482.3">, és megkérdezném, hogy ki az, aki hazudik kettejük közül, de nem teszem. Úgy gondolom, hogy nagyon rossz irány az oktatásról az elmúlt hónapokban kialakult közéleti vitában, hogy politikai síkra terelték azt mind a kormány, mind pedig a tüntetők vezetői, ezért szeretnék öntől most egy hosszabb távon meghatározó kérdésre választ kapni. Ha a fenntartás kérdését az állam és az önkormányzatok viszonylatában vizsgáljuk meg, akkor az az alapvető kérdés, amit fel kell tennünk, hogy minden iskola állami fenntartásban tud-e jobban működni, mint önkormányzati fenntartásban. Nagyon megtisztelne államtitkár úr, ha válaszolna erre a kérdésre.</seg>
+<seg xml:id="AC7_10482.4">(13.40)</seg>
+<seg xml:id="AC7_10482.5">Ha önöknek az a válasza, hogy igen, minden iskola állami fenntartásban jobban működik, mint önkormányzati fenntartásban, akkor szerintem ez egy hibás válasz. Ha önöknek az a válasza erre, hogy vannak olyan iskolák, amelyek önkormányzati fenntartásban jobban tudnak működni, akkor pedig önöknek, a kormányzatnak az lenne a feladata, hogy megteremtse azt a lehetőséget, hogy az önkormányzatok ismételten fenntartóként megjelenjenek ebben a rendszerben. Nem ezt teszik, hanem még működtetőként is kivonják őket innen.</seg>
+<seg xml:id="AC7_10482.6">A tankönyvpiac esetében ugyanez a helyzet, tisztelt államtitkár úr: a tankönyvforgalom 85 százaléka - 85 százaléka! - állami kiadótól származik, államtitkár úr. Ön szerint csak 15 százalék az a tankönyvek esetében, amelyet a nem állami kiadók értékként létre tudnak hozni? Szerintem nem. Sokkal több értéket tudnak létrehozni. Elképzelhető, sőt biztos, hogy eltúlzott volt az a tankönyvpiaci liberalizáció, amit az SZDSZ-es oktatásirányítás vitt végbe, de önök pedig átestek a ló túloldalára, államtitkár úr: értékeket is kigyomláltak a tankönyvpiacról. Ezeket hajlandók-e visszahozni? Várom az érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik és az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-02-urgent_question-AC7_10483" who="#MártonGyöngyösi" ana="#regular"><note>GYÖNGYÖSI MÁRTON (Jobbik):</note>
+<seg xml:id="AC7_10483.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! A külpolitika és a nemzetpolitika tekintetében az elmúlt 25 év a gesztuspolitizálás jegyében telt és olyan naiv és időnként ostoba illúziók kergetésével, miszerint az európai uniós csatlakozás, Schengen automatikusan egyfajta gyógyírt fog jelenteni Trianon sebeire. A Jeszenszky Géza, Kovács László, Martonyi János nevével fémjelzett diplomácia ennek a jegyében telt, és sajnos Szijjártó Péter sem jelentett minőségi előrelépést e tekintetben, hiszen miután stratégiai partnerséget hirdetett Romániával, 2016 januárjában elfogadva Comănescu külügyminiszter meghívását, egy zárónyilatkozatban azt nyilatkozta, hogy a nehéz, alapvetően a nemzeti közösséghez kapcsolódó kérdések lekerülnek a kétoldalú kapcsolatok napirendjéről, és a hangsúlyt ezentúl a sikertörténetekre fogják helyezni.</seg>
+<seg xml:id="AC7_10483.2">Most az a helyzet, hogy én nem ismerek 1920. június 4-e óta túl sok magyar sikertörténetet ebben a relációban, az kizárólag a románok sajátja, és ez többek között a magyar diplomáciának is a szégyene. De ha megnézzük azt, hogy kikkel építi a külpolitikai stratégiáját a kormány, akkor megtalálunk olyan neveket, mint például Kóka János, aki diplomata-útlevéllel kíséri Orbán Viktor miniszterelnököt hivatalos útjaira, Kovács László pedig Németországban hivatalosan képviseli a magyar államot egy Fidesz-kormány idején Guido Westerwelle temetésén. Az a Kovács László, aki a „merjünk kicsik lenni” politikáját és diplomáciáját meghirdette Magyarországon, s aki 2002. december 1-jén Năstaséval koccintott a Kempinskiben; vagy az a Medgyessy Péter, akit Szijjártó Péter nemrégiben kitüntetett, aki ugyancsak ott volt azon az ominózus koccintáson, és aki a befolyással üzérkedést üzletszerűen végzi az Alstomnak például 600 ezer euróért, és a Gresham-palota ügyében is ő járt el. Nem tudom, hogy a Külügyminisztérium nem akar-e esetleg érmet veretni Gyurcsány Ferencnek.</seg>
+<seg xml:id="AC7_10483.3">Kikkel és milyen stratégiát épít a Külügyminisztérium</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

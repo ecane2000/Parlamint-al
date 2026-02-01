@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2017-11-06" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2017-11-06 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2017-11-06 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2946" unit="words">2946 szó</measure>
+        <measure xml:lang="en" quantity="2946" unit="words">2946 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2017-11-06">2017. 11. 06.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="43"/>
+          <tagUsage gi="kinesic" occurs="10"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2017-11-06">2017-11-06</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2017-11-06-urgent_question-AC7_17857" who="#GergelyBárándy" ana="#regular"><note>DR. BÁRÁNDY GERGELY (MSZP):</note>
+<seg xml:id="AC7_17857.1">Köszönöm a szót, elnök úr. Elnök úr, ön legutóbb meglehetősen gyáván viselkedett, ugyanis miután elmondta beszámolóját a parlamentben, kiviharzott az ülésteremből, még azt sem várta meg, hogy az első vezérszónok belekezdjen a beszédébe. Eszembe jutott Monty Python híres filmjéből - megjegyzem egyébként, hogy ez a műfaj, mármint az abszurd humor amúgy sem áll nagyon távol öntől -, szóval a Gyalog galoppból Sir Robin históriája, ahol a kobzos azt énekli: Sir Robin, a bátor elszaladt, a vész láttán, ahogy tudott, farkát behúzva elfutott. Na, de most legalább kettő plusz egy percre kénytelen személyesen végighallgatni a kérdést, és köteles személyesen megválaszolni. Pedig akkor is lett volna miről vitatkozni bőven.</seg>
+<seg xml:id="AC7_17857.2">Ön viszont ahelyett, hogy a jegybank ügyeiről beszélt volna, pozíciójával összeférhetetlen módon pártpolitizálni kezdett, politikai támadást intézett egy országgyűlési frakció ellen. Persze nem ez volt a legnagyobb probléma, bár a maga szerepfelfogását a legékesebben bizonyítja ez: azt, hogy ön nem egy független állami vezető, hanem egy vonalas pártember.</seg>
+<seg xml:id="AC7_17857.3">Az igazi probléma az, amit az MNB-ben művel. Az, hogy ön az intézmény vezetése helyett fideszes kifizetőhellyé tette a jegybankot és azok alapítványait, olyanná, ahonnan rokonai, haverjai és más fideszes pártemberek fáradságot nem ismerve talicskázzák ki azt a pénzt, amit a devizahiteleseken spóroltak meg. Nyilván az ilyen, de más jellegű felvetésekre sincs válasza, ezért futamodott meg, bátran a küzdőtéren hagyva helyettesét.</seg>
+<seg xml:id="AC7_17857.4">Ön azt mondta, hogy egy nyugati demokráciában példátlan az, hogy egy politikai párt bírálja a jegybankelnököt és a családját. Más szóval ön szerint nem az a példátlan, hogy egy jegybankelnök amellett, hogy beszámolója helyett pártpolitizál, a devizakárosultak megsegítése helyett az őket illető pénzből milliárdokért ingatlanokat, műtárgyakat meg perzsaszőnyeget vásárol, és rokonait stafírungozza ki a megtakarított pénzből, hanem az, hogy az ellenzék, akinek ez a törvényben meghatározott feladata, az Országgyűlésben ellenőrző jogkörében eljárva számonkérje ezt öntől. Szerintem meg ez példátlan egy európai demokráciában. Ez még nem fordult meg a fejében, elnök úr? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+<seg xml:id="AC7_17857.5">(13.30)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-11-06-urgent_question-AC7_18154" who="#AttilaMesterházy" ana="#regular"><note>MESTERHÁZY ATTILA (MSZP):</note>
+<seg xml:id="AC7_18154.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Képviselőtársaim! A kormány mindig egy hatalmas sikertörténetről beszél, amikor a letelepedési kötvényekről van szó itt a Házban, vagy bármilyen más megkeresés kapcsán, mégis az elmúlt napokban egy új stratégiát mutatott be itt a kormány, hiszen írásbeli kérdésekre nem válaszolnak. Eddig csak butaságokat beszéltek, vagy éppen kitértek a válaszadás elől, de mostanában visszautasítják a képviselői írásbeli kérdéseket. Nekem 12 kérdésemből nyolcat utasított vissza Tállai András képviselő úr kérésére a házelnök, ezért szeretném megkérdezni most Tállai Andrástól, hogy mondja már meg nekem, hogy miért nem érintenek kormányzati hatáskört a következő kérdések.</seg>
+<seg xml:id="AC7_18154.2">Az első kérdésem az volt, hogy a piaci kamatok 2014 decemberéig 2 százalék alá esését követően a kormány miért nem módosította a letelepedési államkötvények törvénybe foglalt 2 százalékos hozamszintjét. Ez szerintem érinti a kormányzati hatáskört, hiszen költségvetési kérdésről van szó.</seg>
+<seg xml:id="AC7_18154.3">A második, hogy melyek azok a nagy volumenű magyarországi befektetések, amelyek a kötvényprogramnak köszönhetően jöttek létre. Szerintem ez érinti a kormányzati hatáskört, hiszen magyarországi beruházásokról van szó - ez szintén a magyar gazdaságot, a nemzetgazdaságot és a költségvetést is érinti.</seg>
+<seg xml:id="AC7_18154.4">A harmadik, hogy más országokhoz hasonlóan Magyarország miért nem kötötte befektetéshez vagy ingatlanvásárláshoz a letelepedési kötvények vásárlásának lehetőségét - ez is kormányzati hatáskört érint.</seg>
+<seg xml:id="AC7_18154.5">Vagy szintén kérdezhetném azt is, hogy a kormány milyen módon követi nyomon a letelepedési kötvényt vásárlók gazdasági tevékenységét, vagy pedig azt, hogy mikor kívánják újraindítani a kötvények értékesítését, hiszen az ezt lehetővé tevő jogszabályi keretet nem szüntették meg.</seg>
+<seg xml:id="AC7_18154.6">(14.00)</seg>
+<seg xml:id="AC7_18154.7">Tehát ezek lettek volna azok a kérdések, amelyek mind-mind kormányzati hatáskört érintenek, önök mégsem akartak válaszolni. Miért bujkálnak, mitől félnek, miért nem válaszolnak a képviselői kérdésekre? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-11-06-urgent_question-AC7_18156" who="#LászlóFöldi" ana="#regular"><note>FÖLDI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC7_18156.1">Köszönöm a szót, elnök úr. Tisztelt Elnök Úr! Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Tavaly tavasszal azonnali kérdéssel fordultam a tárcához, hogy van-e lehetősége a kormánynak az országos jégeső-elhárító rendszer kiépítésére. Miniszter úr nevében akkor Czerván György államtitkár úr tájékoztatott arról, hogy mivel az agrárkárenyhítési és a mezőgazdasági biztosítási díjtámogatás mellett egyre nagyobb hangsúly helyeződik a kockázatmegelőzésre, a jégesőkárok megelőzése biztosíthatja az egyik legnagyobb hozzáadott értéket az agrárágazat és a társadalom számára.</seg>
+<seg xml:id="AC7_18156.2">Emiatt a Földművelésügyi Minisztérium kiemelt figyelmet fordít a jégeső-elhárítás országos rendszerré történő fejlesztésére. Az akkori tervek szerint az ország öt régióba történő beosztásával öt diszpécserközpont kialakítását tervezték. A Dél-Magyarországon működtetett talajgenerátorok integrálásával és az újonnan beszerzett eszközökkel létrejöhet a mintegy ezer talajgenerátorral működő országos rendszer. A becslések szerint ennek kialakítása egy-két éven belül megvalósítható, és ezáltal a termelői károk mintegy 40-70 százalékkal fognak csökkenni.</seg>
+<seg xml:id="AC7_18156.3">Tisztelt Államtitkár Úr! Az utóbbi idők szélsőséges időjárásának köszönhetően megnövekedett az esetenként hirtelen lezúduló csapadék mennyisége, illetve különösen nagy gondot okoz, amikor ez a csapadék jég formájában okoz pusztítást. Ezért hallottam nagy örömmel a híradásokból, hogy az országos jégkármegelőző rendszer 2018-ban elindulhat.</seg>
+<seg xml:id="AC7_18156.4">Ezzel kapcsolatban kérdezem tisztelt államtitkár urat: hogyan és milyen forrásból tervezik működtetni az országos jégkármegelőző rendszert? Hogyan és milyen mértékben segíti ez a termelőket? Várom államtitkár úr megtisztelő válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-11-06-urgent_question-AC7_18161" who="#JenőManninger" ana="#regular"><note>MANNINGER JENŐ (Fidesz):</note>
+<seg xml:id="AC7_18161.1">Tisztelt Államtitkár Úr! Tisztelt Ház! Ma már a nemzetközi köz- és szakvélemény is tudja és elismeri, hogy a 2010-es kormányváltás óta valamennyi gazdasági mutatónk jelentősen javult. Nem jelent kivételt ez alól a foglalkoztatási ráta és a minimálbér sem</seg>
+<kinesic type="noise"><desc>Zaj. - Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC7_18161.2">A baloldali kormányok elhibázott gazdaságpolitikáját jól mutatta, hogy míg kormányzásuk kezdetén 5,5 százalék volt a munkanélküliség Magyarországon, addig ezt a Medgyessy- és Gyurcsány-kormány 2008 őszére, még a gazdasági válság hatásainak megjelenése előtt, 7,7 százalékra emelte. A Fidesz a szocialisták katasztrofális kormányzása után hirdette meg 2010-ben azt az új gazdaságpolitikát, amely az ország talpra állítását és tíz év alatt egymillió új munkahely megteremtését tűzte ki célul. Akkor a bukott baloldal, de még a Jobbik is azt mondta, hogy ezt lehetetlen lesz megvalósítani. A fanyalgóknak nem lett igazuk.</seg>
+<seg xml:id="AC7_18161.3">A kormány és az emberek sikeres szövetségének és munkájának köszönhetően 2014 után is tovább tudtunk haladni a megkezdett úton, és ennek köszönhetően mostanra több mint 700 ezer új munkahely jöhetett létre. A foglalkoztatottak átlagos létszáma ugyanebben az időszakban 4 millió 450 ezer fölé emelkedett, ami a rendszerváltás óta nem látott magas szám.</seg>
+<seg xml:id="AC7_18161.4">A munkanélküliség is az európai átlagnál is alacsonyabb szintre csökkent. A munkavállalók, a munkáltatók és a kormány a versenyszféra és a kormány állandó konzultációs fórumán tavaly kötött megállapodása legfontosabb pontja a minimálbérek és a garantált bérminimum emeléséről szól.</seg>
+<seg xml:id="AC7_18161.5">Ezek után most már valóban az egyik legfontosabb kérdés a bérek emelése. Kérdezem ezért a államtitkár urat, hogyan halad ennek a megvalósítása. Köszönöm a válaszát</seg>
+<kinesic type="applause"><desc>Szórványos taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-11-06-urgent_question-AC7_18162" who="#IldikóBene" ana="#regular"><note>DR. BENE ILDIKÓ (Fidesz):</note>
+<seg xml:id="AC7_18162.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! 2010-ben azzal kellett szembesülnünk, hogy az egészségügyből több mint 400 milliárd forint kivonásra került, és több mint 5 ezer dolgozó hagyta el az egészségügyi pályát vagy vállalt munkát külföldön.</seg>
+<seg xml:id="AC7_18162.2">A Fidesz-KDNP elkötelezett mind a betegek, mind az egészségügyben dolgozók helyzetének javításában. A polgári kormány 2010 óta folyamatosan pótolja az egészségügytől a szocialisták és a liberálisok kormányzása idején elvett forrásokat. Fejlesztésre eddig több mint 500 milliárd forintot költöttünk. Engedjék meg, hogy itt jegyezzem meg, hogy ezen az 500 milliárdon felül most indul meg Budapest legnagyobb egészségügyi fejlesztése is. A fejlesztéseken túl radikálisan csökkentettük a kórházak adósságát, felére csökkentettük a várólistán lévők számát.</seg>
+<seg xml:id="AC7_18162.3">A Fidesz-KDNP mindig kiemelten kezelte és kezeli az egészségügyben dolgozók humánerőforrás-kérdését. Örömteli, hogy az elmúlt években az ország gazdasági teljesítőképessége lehetőséget teremtett arra, hogy javítsunk az egészségügyi dolgozók anyagi helyzetén. 2012-ben és 2013-ban két lépcsőben körülbelül 95 ezer egészségügyi dolgozó részesült béremelésben.</seg>
+<seg xml:id="AC7_18162.4">Az egészségügyi ágazati bérfejlesztéshez kapcsolódóan a két évben összesen 75,7 milliárd forint többletkifizetés történt az egészségügyi szolgáltatók számára. 2015. július 1-jétől megteremtettük a lehetőségét az egészségügyi dolgozók mozgóbér-befagyasztásának felengedésére, amivel biztosítottá vált a 2012. és 2013. évi béremelés mozgóbér-elemeinek alapbérhez történő igazítása. Szintén még a tavalyi, az egészségügyi dolgozók jövedelmi helyzetének további javítását célzó bértárgyalások eredményeképpen, a szakmai kamarákkal ágazati sztrájktárgyalás keretében folytatott egyeztetés eredményeképpen megállapodás született a bérfejlesztés ütemezésével és mértékével kapcsolatban.</seg>
+<seg xml:id="AC7_18162.5">Kérdezem államtitkár urat, hogyan változtak a bérek az egészségügyben 2010 óta, mennyivel keresnek többet az egészségügyi dolgozók ma, mint 2010-ben. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-11-06-urgent_question-AC7_18164" who="#LászlóGyörgyLukács" ana="#regular"><note>DR. LUKÁCS LÁSZLÓ GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_18164.1">Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Az elmúlt napokban pár olyan kérdés is felmerült, amit tisztázni kell az egészségügyi elektronikus szolgáltatási térrel kapcsolatosan. Ugye, ez az a rendszer, ami november 1-jén indult el, és amely reális működésével a Jobbik is egyetértett, hogy szükség van rá, hiszen egy XXI. századi egészségügynek egy elengedhetetlen kelléke az, hogy egy ilyen rendszer működjön és működőképes legyen. A probléma pont itt van, és a működőképességgel kapcsolatos, és hogy az emberek mennyire érzik ezt magukénak.</seg>
+<seg xml:id="AC7_18164.2">Az első kérdés, ami felmerül, és amit tisztázni kell, hogy fordított-e egyáltalán a kormány arra figyelmet, hogy az emberek és a szakma körében népszerűsítse ezt a modern és egyébként fontos kezdeményezést. Reklámozott-e egyébként a most körülbelül 75 milliárd forint mamut-, óriási összeget elköltő és propagandára elverő kormány az egészségügyi elektronikus szolgáltató térrel kapcsolatban bármit is? Jutott-e egy óriásplakát, jutott-e egy kiadvány, jutott-e bármilyen újság el a civilek, az egyszerű emberek, a betegek kezébe, illetve a szakmának hogy juttatják el ennek a rendszernek a működését, hogy miként fog menni? Mert úgy látjuk, hogy az emberek nem tudtak arról, hogy amikor ezt bevezetik, akkor bizony 30-40 perc várakozás lesz egy-egy patikában.</seg>
+<seg xml:id="AC7_18164.3">A második kérdés az, hogy mennyi ment el erre a projektre. Láttuk, hogy az első kanyarban elment 3,5 milliárd forint körüli, illetve 4 milliárd forint a másodikban, az elsőben a T-Systems fejlesztett egy olyan rendszert, amely nem volt működőképes, most pedig egy második nekifutásban ráültettek az egész rendszerre egy másik, úgy tűnik, megint működésképtelen, félkész, alig működő és egy pénzlenyúlással terhelt rendszert. Úgy tűnik, hogy önök nem törődtek azzal a felhasználói oldallal, ami a patikusokat, a háziorvosokat jelenti, illetve a betegeket jelenti.</seg>
+<seg xml:id="AC7_18164.4">Praktikusan merül fel például a kérdés, mit csinál az a 70 éves vagy 70 évnél idősebb háziorvos mindazzal a teherrel, amit most az egészségügyi elektronikus szolgáltató térben viselnie kell. Tájékozatták-e őket erről? Kioktatták-e őket erről? Így a kérdés mindenképpen aktuális, tisztelt államtitkár úr: van-e, lesz-e annak bármilyen szankciója, ha bebizonyosodik, hogy a rendszer nem működőképe</seg>
+<kinesic type="signal"><desc>Az elnök a csengője megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_18164.5">, tájékoztatták-e a nyilvánosság előtt a lakosságot a rendszerről, és kapnak-e kellő segítséget a háziorvosok és a betege</seg>
+<kinesic type="signal"><desc>Az elnök ismét csenget.</desc></kinesic>
+<seg xml:id="AC7_18164.6">a rendszer használatához? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-11-06-urgent_question-AC7_18166" who="#GyörgySzilágyi" ana="#regular"><note>SZILÁGYI GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_18166.1">Köszönöm szépen a szót. Tisztelt Képviselőtársaim! Úgy néz ki, hogy Orbán Viktor környezetében álomkarrierek alakulnak ki, úgy néz ki, hogy közvetlen környezete Orbán Viktornak zsenik sokaságából áll, és most nem Mészáros Lőrincről kívánok beszélni, aki egyszerű gázszerelőből lett gazdasági zseni, és keres ma már 11 millió forintot óránként, hanem egy másik gazdasági zseniről kérdezném önt: Tiborcz Istvánról, Orbán Viktor lányának a férjéről. Tiborcz István, Orbán Viktor veje, Orbán Ráhel férje a csúcsra ért, hiszen nem sokkal korábban még nem annyira gazdag ember, pár év alatt Magyarország egyik leggazdagabb embere lett, és pár napja az a hír, hogy vásárolt egy ingatlant, egy palotát Budapest egyik legdrágább részén, a XII. kerületben, Kútvölgyben, nagyjából 400 millió forintért, és akkor még azt mondják, ezt fel is kell újítani.</seg>
+<seg xml:id="AC7_18166.2">Tehát Orbán Ráhel mondataira, gondolom, még mindenki emlékszik, alig két évvel ezelőtt mondta: „A férjemmel önálló családunk van, saját lábunkon állunk, saját erőnkből boldogulunk, saját életünket éljük.”</seg>
+<seg xml:id="AC7_18166.3">Hány olyan magyar család van - teszem fel a kérdést -, ahol a szülők megtakarítása, mondjuk, 740 ezer forint, mint Orbán Viktornak a vagyonbevallása alapján, nem tudják segíteni a gyereket, és ez a gyerek pár év alatt minden segítség nélkül Magyarország leggazdagabb emberei közé tartozik, mert a saját lábára állt? Tiborcz István 2009-ben a cégei után még csak 8,4 millió forintot tudott bevételként elkönyvelni, 2010-ben, mikor már Orbán Viktor a miniszterelnök, akkor már 686 milliót, 2011-ben 2760 milliót és 2012-ben 3000 milliót tudott elkönyvelni. Uraim! Orbán Viktornak semmi köze nincs ehhez? Az a kérdés csak… - és benne van egy csomó bizniszben ez az ember, sorra jönnek azok a bizniszek, amikhez a neve kötődik, a kastélyvásárlásoktól a turizmuson keresztül a szállodavásárlásig.</seg>
+<seg xml:id="AC7_18166.4">Nagyon úgy néz ki, hogy Orbán Viktor a saját családjának a meggazdagodására használja fel a miniszterelnöki pozíciót. Jól van ez így, államtitkár úr</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-11-06-urgent_question-AC7_18169" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_18169.1">Köszönöm, elnök úr, a szót. Tisztelt Ház! Hadd kezdjem azzal a felszólalásomat, hogy reagálok röviden Rétvári Bence múlt heti szavaira az ápolási díj összegével kapcsolatban. Az államtitkár úr akkor azt mondta, hogy a kormány jelentősen megemelte az ápolási díjat, s a hét évvel ezelőtti 20 ezer forintról 50 ezerre növelte annak összegét. Kénytelen vagyok ezt a csúsztatást most helyre tenni.</seg>
+<seg xml:id="AC7_18169.2">2011-ben az ápolási díj alapösszege 29 500 forint volt - de nem 20 ezer, 29 500 -, ez 2017-ben a költségvetésben 31 ezer forint. Mind a kettő bruttó összeg, tehát sikerült bruttó 1500 forinttal emelni az összeget hét év alatt; 1500 forinttal. Igaz, hogy 2014-től bevezettek egy új kategóriát, és a kiemelt ápolási díj összege nettó 50 ezer forint, de ezt a közmunkabérnél is alacsonyabb összeget csak az ápolási díjban részt vevő 54 ezer embernek az ötöde kapja meg, ráadásul 2014 óta több mint egymilliárd forinttal csökkent az ápolási díjra fordított összeg, és közel 10 ezerrel kevesebben részesülnek ápolási díjban. Tehát önök nem többet, de egyre kevesebbet költenek az otthonápolásra.</seg>
+<seg xml:id="AC7_18169.3">Egy kormány által rendelt kutatás szerint az ápolók átlagos jövedelme havi 40 ezer forint. Az ápolási díjban részesülők kétharmada nélkülöz, felük anyagilag is súlyosan deprivált, háromnegyedük nő, vagyis az otthonápolás is egy jellemzően nők által végzett, meg nem fizetett munka. Az LMP szerint az ápolásra, gondozásra szoruló embertársaink emberhez méltó és állapotuknak megfelelő ellátását biztosítani kell, lehetőség szerint otthon. Azt javasoljuk, hogy a nevelőszülői foglalkoztatási jogviszonyhoz hasonlóan az ápolási munka is minősüljön teljes értékű munkaviszonynak, ezáltal biztosítotti jogviszonynak, és járjon érte legalább minimálbér. Támogatja-e a kormány ezt a javaslatot</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-11-06-urgent_question-AC7_18170" who="#MártaDemeter" ana="#regular"><note>DEMETER MÁRTA (LMP):</note>
+<seg xml:id="AC7_18170.1">Köszönöm, elnök úr. Tisztelt Államtitkár Úr! Magyarországon a családbarátnak beállított kormánypolitika ellenére kifejezetten hátrányos helyzetben vannak a fiatal családok, különösen az egyszülős családok. Félmillió gyermeket nevel ma egyedülálló szülő, és ha az eddigi tendencia folytatódik, akkor sajnos minden harmadik kiskorú gyermek egyszülős családban fog nevelkedni. Ha ezek a családok nem kapnak azonnali segítséget, a helyzetük tovább fog romlani.</seg>
+<seg xml:id="AC7_18170.2">Minden létező adat azt mutatja, hogy nagy a baj. Három egyszülős családból kettő szegénységben, nélkülözésben él. A kormány a családtámogatások magas arányát szokta hangoztatni, de azt már elhallgatja, hogy a támogatásokból milyen arányban részesülnek a rászoruló családok. Jelenleg a támogatási rendszer szinte egyáltalán nem vesz tudomást az egyedülálló szülők extraterheiről. Mindössze 1500 forinttal kapnak több családi pótlékot, ami 2008 óta nem nőtt, államtitkár úr! Hiába mondja a kormány, hogy rászorultsági alapon támogatja a családokat, ha úgy van meghúzva a jövedelemküszöb, hogy még minimálbér mellett sem számít a család rászorulónak.</seg>
+<seg xml:id="AC7_18170.3">Szerintünk olyan családpolitikára van szükség, amely figyelembe veszi a különböző élethelyzetben lévő családok speciális szükségleteit. Az egyszülős családok ma nagyon súlyos anyagi hátrányt szenvednek, ezért 20 ezer forintra emelnénk a családi pótlékot, a nagycsaládoknak járó kedvezményeket kiterjesztenénk, és felülvizsgálnánk a tartásdíjak rendszerét. Nem tartható tovább ugyanis az az állapot, hogy a tartásdíjak behajtásában eredménytelen állam alamizsnát ad a családoknak. Célzott munkaerőpiaci programot, támogatott bébiszitter-szolgáltatást fogunk indítani, és segíteni fogunk a lakhatási gondokon.</seg>
+<seg xml:id="AC7_18170.4">Kérdezem tehát államtitkár urat, miért nem támogatják ezeket a javaslatokat, miért nem visznek végbe ilyen intézkedéseket, és miért fordítanak hátat az egyszülős családoknak. Várom válaszát.</seg>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

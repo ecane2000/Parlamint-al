@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2019-02-18" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2019-02-18 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2019-02-18 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="7" unit="speeches">7 beszéd</measure>
+        <measure xml:lang="en" quantity="7" unit="speeches">7 speeches</measure>
+        <measure xml:lang="hu" quantity="2821" unit="words">2821 szó</measure>
+        <measure xml:lang="en" quantity="2821" unit="words">2821 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2019-02-18">2019. 02. 18.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="7"/>
+          <tagUsage gi="seg" occurs="33"/>
+          <tagUsage gi="kinesic" occurs="10"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2019-02-18">2019-02-18</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2019-02-18-interpellation-IC8_4509" who="#IstvánApáti" ana="#regular"><seg xml:id="IC8_4509.1">DR. APÁTI ISTVÁN független: Köszönöm szépen a szót, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Versegen 2019 januárjában a cigány kisebbséghez tartozó személyek súlyos bűncselekményt követtek el egy fiatalember sérelmére. Az ügy előzményéhez tartozik, hogy néhány nappal korábban, előzetes szóváltást követően a sértett öccsét ugyanezen népes család több tagja szintén bántalmazta. Ennek a bántalmazásnak a körülményeit szerette volna tisztázni a fiatalember, majd amikor távozott Versegen a Dózsa György utcából, akkor néhány perccel később az öccsétől kapott egy segélykérő telefonhívást, miszerint legalább tízen állnak a háza előtt, megöléssel, fejének levágásával fenyegetik. A fiatalember teljesen érthető módon visszafordult, és öccse segítségére sietett. Még ki sem szállt az autóból, máris repült egy kard az első szélvédő felé. Amikor aztán kiugrott a gépjárműből, akkor sokszoros túlerőben támadtak rá, földre vitték, ütötték, többször állba rúgták, az orrát eltörték, szidták, gyalázták, a gépjárművében jelentős kárt okoztak, és előkerült egy baseballütő és egy bozótvágó kés is. Utóbbi eszközt a fejébe vágták, ezzel újabb súlyos sérüléseket okoztak neki. És mindezek után állította a népes cigány család több tagja, hogy még ők az áldozatok, őket érte támadás, és az élet kioltására alkalmas eszközök valójában a sértetté voltak. Nos, tisztelt képviselőtársaim, túlzás nélkül kijelenthetjük, hogy kizárólag az isteni gondviselésen, a sértett fizikumán, szívósságán és lélekjelenlétén múlt, hogy nem vették el az életét. Csak ezeken a körülményeken múlt az, hogy nem következett be például egy Marian Cozmáéhoz hasonló tragédia.</seg>
+<seg xml:id="IC8_4509.2">Jelenleg a Gödöllői Rendőrkapitányság felfegyverkezve elkövetett csoportos garázdaság bűntettének megalapozott gyanúja miatt folytat büntetőeljárást mindössze három gyanúsítottal szemben, már a minősítésből is láthatjuk, hogy az élet kioltására alkalmas eszközök eleve az elkövetőknél voltak.</seg>
+<seg xml:id="IC8_4509.3">Tisztelt Államtitkár Úr! Ezzel a nagyon brutális bűncselekménnyel kapcsolatban számos kérdés felmerül. Hol tart az elkövetői kör teljes feltérképezése és beazonosítása, hiszen háromnál jóval több személy vett részt ennek a gyalázatos cselekménynek az elkövetésében? Felmerül az a kérdés is, hogy kellő alapossággal vizsgálja-e a hatóság az emberölés bűntettének kísérletét, amely egy jóval súlyosabb minősítés, és lényegesen súlyosabb következményeket vonna maga után.</seg>
+<seg xml:id="IC8_4509.4">Aztán felmerül az a kérdés is az egyszerű magyar átlagember szívéből, bizony nemcsak Kelet-Magyarországról, hanem a főváros közvetlen közelségéből is egyre inkább ez sajdul fel, hogy ha vajon fordítva, ellenkező előjellel történik mindez, és tíz magyar ember támad egy cigány emberre, akkor ugyanaz-e a minősítés, államtitkár úr. Akkor valamennyi magyar ember szabadlábon védekezne, vagy bevarrták volna őket előzetesbe? Akkor hogy állna a rasszista indíték, amely ez esetben talán fel sem merül? Mert az mindig csak egyoldalú, egyirányú lehet? És az is felmerül kérdésként, államtitkár úr: ha egy vezető fideszes politikus, egy dúsgazdag vállalkozó vagy egy felső rendőri vezető gyermeke lett volna az áldozat, akkor ugyanez lenne a minősítés? Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a függetlenek padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-02-18-interpellation-IC8_4533" who="#KristófSzatmáry" ana="#regular"><note>SZATMÁRY KRISTÓF (Fidesz):</note>
+<seg xml:id="IC8_4533.1">Köszönöm szépen, elnök úr. Tisztelt Ház! Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Bár azt gondolhatnánk, hogy az ellenzéki képviselők és benne a jobbikos képviselők valamifajta tiltakozásként vonultak ki a mai ülésről, de az is benne lehet, hogy nem akarták hallani, nem akartak szembesülni azzal az interpellációval, amely most hangozna el, és amely alapvetően az ő társukat érinti. Sajtóértesülések szerint folyik a nyomozás a milliárdos költségvetési csalásban érintett Staudt Gábor és társai ellen. Mint ismeretes, a lengyel állam kárára elkövetett mintegy 2,5 milliárd forintos kártételben már a magyar hatóságok is nyomoznak. Az ügy súlyosságát mi sem mutatja jobban, mint hogy tavaly decemberben a fővárosi főügyészhelyettes utasítására áttették a nyomozást a Nemzeti Adó- és Vámhivatalból a Budapesti Nyomozó Ügyészséghez.</seg>
+<seg xml:id="IC8_4533.2">Mint korábban kiderült, a Jobbik volt frakcióvezető-helyettese és több nagyvállalkozó érintett abban az ügyben, amelyben egyébként egykori főrendőrök nevei is szerepelnek. Velük szemben pedig, tudjuk, csak az ügyészségnek van hatásköre nyomozni. Amennyiben a bűncselekményt sikerül teljeskörűen felderíteni, úgy remélhetőleg felelősségre vonhatók lesznek azok a nagyvállalkozók is, akiket a feljelentő a vallomásában nevesített. Közülük jó néhányuknak, jó páruknak tudniuk kellett, hogy a lengyel állam kárára elkövetett áfacsaláshoz nyújtottak segítséget, persze nem ingyen, hanem extra haszon reményében. Ezen vállalkozók jelenleg is sokmilliós vagyonnal rendelkeznek a feljelentők szerint, így felelősségük megállapítása esetén talán esély lehet a kárigények érvényesítésére.</seg>
+<seg xml:id="IC8_4533.3">A hírek szerint a bűnszervezet tagjai között komoly bizalmi kapcsolat állt fenn. A vallomást tevő nyugalmazott ezredes ugyanis Staudt Gábor szűkebb tanácsadói bizalmi körébe tartozott, korábban részt vett és fel is szólalt a Jobbik szakmai konferenciáin. A másik, feljelentésben szereplő rendőrről pedig azt lehet tudni, már csak hogy néhány érdekességet szolgáltassak, hogy a rendőr fia egyébként, aki érintett a feljelentésben, 2014-ben az MSZP színeiben felkerült a baloldali ellenzéki összefogás választási listájára is. Micsoda összefonódás: az MSZP-Jobbik bűnkoalíciója!</seg>
+<seg xml:id="IC8_4533.4">(14.20)</seg>
+<seg xml:id="IC8_4533.5">A legfrissebb hírek arról szólnak, hogy megállapodott a lengyel-magyar nyomozócsoport létrehozásáról a két ország, mely az ügy végére remélhetőleg mihamarabb pontot tesz.</seg>
+<seg xml:id="IC8_4533.6">Tisztelt Államtitkár Úr! A nyomozás tehát egy újabb szakaszába lépett. Kérdezem, hogy a közös erővel fellép</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="IC8_4533.7">államközi nyomozócsoport mikor juthat eredményre az ügyben. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-02-18-interpellation-IC8_4534" who="#LászlóBöröcz" ana="#regular"><note>BÖRÖCZ LÁSZLÓ (Fidesz):</note>
+<seg xml:id="IC8_4534.1">Köszönöm szépen a szót, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Mint ismert, Czeglédy Csaba, a szombathelyi MSZP-DK-Együtt volt önkormányzati képviselője és társai ellen hosszas nyomozást követően vádat emelt a Csongrád Megyei Főügyészség különösen jelentős vagyoni hátrányt okozó költségvetési csalás bűntette, valamint hamis magánokirat felhasználásának vétsége miatt.A vádirat szerint a szocialista politikus mint a szombathelyi székhelyű Human Operator Zrt. igazgatóságának elnöke és tényleges ügyvezetője 2011-től egy olyan bűnszervezetet hozott létre, amelynek célja az volt, hogy csökkentsék a döntően diákmunkaerő-közvetítéssel foglalkozó részvénytársaság adófizetési kötelezettségét.</seg>
+<seg xml:id="IC8_4534.2">A közterhek megfizetésének elkerülése céljából Czeglédy Csaba iránymutatásai alapján létrehoztak egy olyan számlázási láncolatot, amelynek legalsó szintjén iskolaszövetkezetek, középső szintjén tényleges gazdasági tevékenységet nem, csak átszámlázást végző gazdasági társaságok álltak, míg a legfelső szintjén a Human Operator Zrt. állt. A bűnszervezet által folytatott módszer szerint az iskolaszövetkezetek az általános forgalmi adót, illetve személyi jövedelemadót vagy be sem vallották, vagy ha ennek eleget is tettek, akkor sem fizették be. A Gyurcsány Ferenchez köthető Altus Zrt. által finanszírozott politikus irányította cselekmények következtében az államot több mint 6 milliárd forint vagyoni hátrány érte.</seg>
+<seg xml:id="IC8_4534.3">Sajtóértesülések szerint a vádlottak közül kilencen saját bűnrészességük elismerése mellett Czeglédy Csaba terhére is vallomást tettek, amelyek alátámasztják a vádban leírtakat.</seg>
+<seg xml:id="IC8_4534.4">Azt sem szabad elfelejtenünk, hogy az áldozat szerepében tetszelgő Czeglédyt 2003-ban már egyszer jogerősen elítélték hasonló cselekményért, akkor az általa vezetett diákmunka-közvetítőnél olyan számlákra történt kifizetés, amelyek mögött nem volt teljesítés. Így a terhére rótt mostani bűncselekményt a vád szerint visszaesőként követte el. Az eljárás során Czeglédy saját magát védi börtönviselt ügyvédi irodáján keresztül.</seg>
+<seg xml:id="IC8_4534.5">Szeretném megjegyezni, hogy a balliberális politikus nemcsak az államot károsította meg, hanem a magyar társadalom legkiszolgáltatottabb csoportjaiba tartozó diákokat és nyugdíjasokat is, akiknek nem fizették ki a megérdemelt és jogszerűen járó bérüket. A baloldal által dédelgetett ügyvédhez kapcsolódó cégek helyett végül a magyar állam vállalta, hogy a károsult munkavállalókat kártalanítja.</seg>
+<seg xml:id="IC8_4534.6">Tisztelt Államtitkár Úr! A fentiekre tekintettel kérdezem államtitkár urat, hogy mikor derül fény a baloldali politikus és társai által elcsalt összegek sorsára. Köszönöm szépen. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-02-18-interpellation-IC8_4538" who="#ImreVejkey" ana="#regular"><note>DR. VEJKEY IMRE (KDNP):</note>
+<seg xml:id="IC8_4538.1">Tisztelt elnök úr, köszönöm a szót. Tisztelt Államtitkár Asszony! A 2010 előtti nyolc évben a családpolitika szempontjából a helyzet meglehetősen siralmas volt. Ennek köszönhetően 2010-re mélypontra került a családalapítási és gyermekvállalási kedv, magas volt a terhességmegszakítások száma, s európai összehasonlításban is rendkívül magas volt a halandóság, ami közbeavatkozás nélkül jelentősen zsugorodó magyarságot vetített elő. A 2010-ben megalakuló második Orbán-kormány ezt felismerve a családokat állította előtérbe. A családról mint értékhordozó és értékteremtő alapegységről Magyarország új Alaptörvénye rögzítette, idézem: „Magyarország védi a házasság intézményét mint férfi és nő között önkéntes elhatározás alapján létrejött életközösséget, valamint a családot mint a nemzet fennmaradásának alapját.” Ezen elvek mentén született meg az új családtámogatási rendszer, amelynek keretében bevezetésre került, illetve a későbbiekben kibővítésre kerül a családi adókedvezmény. További intézkedésként a kormány visszaállította a hároméves gyest, a gyed emelése mellett a diplomásgyedet is bevezette. A gyermeket vállaló és nevelő családok támogatására 2018-ban közel 2000 milliárdot fordított a kormány, ami a 2010-es évhez képest kétszer akkora összeg.</seg>
+<seg xml:id="IC8_4538.2">A kormány segíti a munka és a család összeegyeztetését. Erre szolgál a négy fő részből álló gyed extra, a munkahelyvédelmi akció kisgyermekes szülőkre vonatkozó intézkedései, a munkavállalók részmunkaidőben történő foglalkoztatásának lehetősége s a bölcsődei-óvodai férőhelyek jelentős növelése. A kormány az ingyenes bölcsődei és óvodai gyermekétkeztetés kiterjesztésével és az ingyenes iskolai tankönyvellátás bevezetésével több tízezer forintot hagy a gyermekes szülőknél. Bevezetésre került a lakásépítési támogatás, amelyet 2015. július 1-jétől felváltott a CSOK, amelyet azóta csaknem 95 ezer család vett igénybe 275 milliárd forint értékben.</seg>
+<seg xml:id="IC8_4538.3">A fenti intézkedések következtében 2010 óta jelentősen növekszik a házasságkötések száma, a termékenységi arányszám pedig 1,23-ról 1,50-re növekedett. Államtitkár Asszony! Nem elégedhetünk meg azonban ennyivel. A népesség reprodukciójához szükséges 2,1-es érték eléréséhez további intézkedések szükségesek, éppen ezért kérdezem államtitkár asszonyt, hogy milyen változásokat ho</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="IC8_4538.4">a 2019-es év a családok életében. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-2-18-urgent_question-AC8_4599" who="#LászlóSzászfalvi" ana="#regular"><note>SZÁSZFALVI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC8_4599.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tavaly ősszel fogadtuk el és indítottuk útjára a szociális támogatási rendszer egy új elemét, a gyermekek otthongondozási díjának rendszerét. Az új támogatási forma azokat segíti, akik önellátásra képtelen gyermekükről gondoskodnak. Ez összességében több mint 50 ezer családot érint és támogat ma Magyarországon. Fontos hangsúlyozni, hogy a Fidesz-KDNP-kormány azért indította el ezt az új támogatási formát, hogy a fogyatékossággal élők és az őket gondozó családtagok életét és életkörülményeit javítsa. Ez az új támogatás a legsúlyosabb állapotban lévő, önellátásra képtelen gyermekek szüleinek jár. Azt jelzi számukra, hogy a szülők áldozathozatalát nagyra értékelni és az anyagi támogatáson keresztül is elismerni erkölcsi kötelességünk. Rendkívül szomorúnak és felháborítónak tartom, hogy ellenzéki képviselőtársaink kicsinyes politikai érdekeiket az elesett emberek megsegítése elé helyezve nem támogatták a gyod bevezetését. Ez mindent elmond szavaik hitelességéről, pontosabban hiteltelenségéről.</seg>
+<seg xml:id="AC8_4599.2">Tisztelt Államtitkár Úr! Ahogy az elmúlt években, ebben az esetben is a Kereszténydemokrata Néppárt kiáll a hátrányos helyzetű vagy fogyatékossággal élő embertársaink mellett, továbbra is támogatja a szociális ellátórendszer erősítését, az anyagi támogatások növelését. Az ápolási díj várható további emelése, a gyermekek otthongondozási díjának létrehozása és a díjak folyamatos emelése is ebbe a komplex családpolitikai döntéskörbe tartozik. Ráadásul, mivel az állandó felügyelet, ápolás, gondozás legtöbbször a munkavégzés akadályát is jelenti, a megfelelő anyagi támogatás biztosítása létkérdés ezeknek a családoknak.</seg>
+<seg xml:id="AC8_4599.3">Ezek alapján kérdezem tisztelettel államtitkár urat, hogyan változott a hozzátartozó otthoni gondozása esetén folyósítható ápolási díj összege. Várom államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-2-18-urgent_question-AC8_4612" who="#SándorKovács" ana="#regular"><note>KOVÁCS SÁNDOR (Fidesz):</note>
+<seg xml:id="AC8_4612.1">Köszönöm szépen. Tisztelt Elnök Úr! Államtitkár Úr! Tisztelt Ház! Mikor kér már valaki bocsánatot a jobbikosok közül azért, ahogyan a nyugdíjasokkal bánnak? A Fidesz az a párt, ahol az idősekről nemcsak a kampányban, hanem az egész kormányzásunk alatt megbecsüléssel gondoskodunk. Ugyanis a Fidesz megbecsüli és tiszteli a magyar nyugdíjasokat, számít a tudásukra és tapasztalataikra, ezért határozott arról, hogy garantálja a nyugdíjak reálértékének megőrzését, kiszámíthatóságot és biztonságot teremt a magyar nyugdíjasoknak. A kormány csökkentette az alapvető élelmiszerek áfáját, bevezette a „Nők 40” programot, és csökkentette a rezsiköltségeket. A Jobbik nem szavazta meg, hogy a nők 40 év munkaviszony után nyugdíjba mehessenek, ezzel is cserben hagyta az időseket. A Jobbikról továbbá az is kiderült, hogy azért indította a hihetetlen cukiságkampányát, hogy így nyerje el az idősek szavazatait. A mi politikánk teljesen ellentétben áll a Jobbik médiatanácsadójának véleményével, aki egy kiszivárgott beszélgetésben far-hát kommandónak nevezett bizonyos nyugdíjasokat, akik a közösségi oldalakon politikai véleményt nyilvánítanak. A Magyar Nemzethez került, a tavalyi választás után készült felvételen Silhavy Máté, s a párt alelnöke, Z. Kárpát Dániel hallható. Bepillantást nyerhettünk abba, hogy a Jobbik hogyan gondolkodik valójában a nyugdíjasokról.</seg>
+<seg xml:id="AC8_4612.2">A kiszivárgott beszélgetésben az alábbiak hallhatók. „Mi ezeket úgy hívtuk a szakmában, hogy far-hát kommandó, ezek nagyrészt nyugdíjasok, otthon ülnek, és várják azt, hogy jöjjön valami. Bedobod nekik a tartalmat, megírod, hogy ’Jaj, a rohadék már megint mit mondott! Mondjátok meg ti is jól!’, és akkor odamennek és ráírogatnak. A troll az viszonylag kevés, ezek a tényleg élő hülye nyugdíjasok, akik ott ülnek, és egész nap azt várják, hogy mikor tud…” Erre Z. Kárpát Dániel, aki a beszélgetés alapján először hallhatta a kifejezést, megjegyezte, talán Silhavyra utalva, „ő a far-hát kommandó alezredese”. Mindebből jól látható, hogy a saját szavazóit is lenézi a jobbik.</seg>
+<seg xml:id="AC8_4612.3">(Az elnöki széket dr. Latorcai János, az Országgyűlés alelnöke foglalja el.)</seg>
+<seg xml:id="AC8_4612.4">A tavaly áprilisi országgyűlési választások után pár héttel lezajlott beszélgetésből egyértelműen kitűnik, hogy a Jobbik megveti, lenézi saját időskorú szavazóit, hiszen Silhavy pont azokat nevezi hülyének és hívja far-hát kommandósoknak, akiknek a pártot támogató véleményére a közösségi oldalakon számítanak. Ezek az emberek tiszteletet érdemelnek, nem pedig ilyen alpári stílusú megvetést és lealacsonyítást. Ez egyszerűen méltatlan. Tehát a Jobbik igazi arca: szélsőségesek és agresszívek. Képmutató és felháborító, amit a Jobbik művel. A Jobbik nem először bukott le azzal, hogy valójában mit gondol az idősekről: lenézi őket</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC8_4612.5">Vona Gábor korábban is azt írta… Köszönöm szépen.</seg>
+<seg xml:id="AC8_4612.6">Tehát, tisztelt államtitkár úr, kérem, mondja el, hogy a kormány milyen intézkedéseket tesz azoknak a nyugdíjasoknak az érdekében, akiket a Jobbik lenéz, akiknek a második világháború után és az ’56-os forradalom leverése után újjá kellett építeni az országot, ’89-ben a rendszerváltást követően pedig újra be kellett indítani a gazdaságot. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-2-18-urgent_question-AC8_4613" who="#SándorF.Kovács" ana="#regular"><note>F. KOVÁCS SÁNDOR (Fidesz):</note>
+<seg xml:id="AC8_4613.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! A közelmúltban, többéves alapos nyomozást követően vádat emelt a Csongrád Megyei Főügyészség Czeglédy Csaba MSZP, DK, Együtt által támogatott volt önkormányzati képviselő és társai ellen. A vádirat szerint a szocialisták ügyvédje 6,2 milliárd forinttal rövidítette meg a magyar költségvetést. Mindenki emlékszik még, hogy az államkassza mellett Czeglédy Csaba diákokat, nyugdíjasokat is megkárosított azzal, hogy az általuk elvégzett munka bérét cégei nem fizették ki. A szükséges összegek kifizetése máig nem történt meg a vállalkozások részéről, de a kormány gyors reagálásának köszönhetően megkezdődött a károsultak kártalanítása. Ráadásul tovább borzolta a kedélyeket, hogy nyilvánosságra kerültek azok a dokumentumok, amelyek szerint a Gyurcsány Ferenchez köthető Altus Zrt. több esetben finanszírozta Czeglédy Csaba tevékenységét.</seg>
+<seg xml:id="AC8_4613.2">Sajtóértesülések szerint a bűncselekményben részes személyek közül többen megtörték a hallgatást, az omertát, és vallomást tettek az ügyben. Vallomásukban elismerték bűnrészességüket, valamint terhelő információkat szolgáltattak Czeglédy Csabára nézve, amelyek megerősítették a vádiratban szereplő állításokat, így elképzelhető, hogy hiába védi magát saját börtönviselt ügyvédi irodáján keresztül a balliberális politikus. Czeglédy csalási ügyében nem szabad figyelmen kívül hagynunk, hogy egyszer már hasonló bűncselekmény elkövetése miatt 2003-ban jogerősen ítélték el a baloldal ügyvédjét, tehát az áldozati szerep igen erősen sántít.</seg>
+<seg xml:id="AC8_4613.3">Tisztelt Államtitkár Úr! Az elhangzottakra tekintettel kérdezem államtitkár urat, hogy lehet-e összefüggés a szocialista ügyvéd által elcsalt pénzek és a baloldali pártok finanszírozása között. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

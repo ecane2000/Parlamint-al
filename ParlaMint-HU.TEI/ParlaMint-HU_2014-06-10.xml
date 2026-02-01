@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2014-06-10" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2014-06-10 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2014-06-10 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="8" unit="speeches">8 beszéd</measure>
+        <measure xml:lang="en" quantity="8" unit="speeches">8 speeches</measure>
+        <measure xml:lang="hu" quantity="2710" unit="words">2710 szó</measure>
+        <measure xml:lang="en" quantity="2710" unit="words">2710 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2014-06-10">2014. 06. 10.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="8"/>
+          <tagUsage gi="seg" occurs="49"/>
+          <tagUsage gi="kinesic" occurs="14"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2014-06-10">2014-06-10</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2014-06-10-urgent_question-AC7_226" who="#ÁgnesKunhalmi" ana="#regular"><note>KUNHALMI ÁGNES (MSZP):</note>
+<seg xml:id="AC7_226.1">Elnök Úr! Köszönöm szépen a szót. Tisztelt Miniszter Úr! Lassan befejeződik az iskola, és a gyermeke</seg>
+<kinesic type="noise"><desc>Zaj. - Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC7_226.2">százezrei mennek vakációra. Sajnos hazánkban az a nagyon szomorú helyzet, hogy nem minden gyermeknek boldog a nyár. Ma Magyarországon több százezer gyermek nem jut megfelelő mennyiségű és minőségű táplálékhoz, ma hazánkban rengeteg kisgyermek egyszerűen éhezik.</seg>
+<seg xml:id="AC7_226.3">Világos mindannyiunk számára, hogy az a gyermek, aki nem jut megfelelő táplálékhoz, csökken a fejlődésének üteme, az alultápláltság kihatással van az egészségügyi állapotára, szellemi fejlődésére, ez később kihat az iskolai teljesítményre, az iskolában eltöltött sikereire. Ez a korgó gyomor állapota. Amiatt, hogy ma ezek a gyerekek nem jutnak megfelelő ételhez, óriási árat fognak fizetni szinte egész életük során. És ha továbbgondoljuk, a hűvös racionalitás világába evezve könnyen belátható, hogy az emberi szenvedés bizony gazdasági károkat is fog okozni hazánknak. A táplálék hiánya felnőttkorban olyan betegségekhez vezet, amelynek gyógyítása nagyon sokba fog kerülni mindannyiunknak, már ha lesz még bármilyen állami szolgáltatás, hiszen óriási mértékben zuhan az állam által biztosított szolgáltatások minősége hazánkban.</seg>
+<seg xml:id="AC7_226.4">Az adatok jól mutatják és tünetként visszaigazolják az önök tehetetlenségét ezen a területen. A gyermekekkel rendelkező családok majdnem felével fordult már elő az elmúlt egy évben Magyarországon, hogy nem tudták a szükséges élelmiszereket megvenni maguknak és szeretteiknek. Ma a gyerekek több mint egynegyede a szegénységi küszöb alatt él hazánkban. Ennél is rosszabb a helyzet, ha az UNICEF Magyar Bizottsága által végzett kutatás eredményeit nézzük, amely szerint a magyar gyerekek körében 2009-hez képest nőtt a jólétükben veszélyeztetettek aránya. Ez azt jelenti, hog</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC7_226.5">jelenleg minden második gyerek nélkülöz valamilyen szempontból Magyarországon.</seg>
+<seg xml:id="AC7_226.6">Végezetül azt kérdezem a miniszter úrtól, unos-untalan azt a kérdést kell feltennem, hogy önök minek és kinek kormányoznak, ha még az éhező gyermekek szájába sem tudnak ételt juttatni.</seg>
+<seg xml:id="AC7_226.7">Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-06-10-urgent_question-AC7_227" who="#LajosKorózs" ana="#regular"><note>KORÓZS LAJOS (MSZP):</note>
+<seg xml:id="AC7_227.1">Köszönöm szépen. Tisztelt Ház! Kedves Miniszter Úr! Mindenekelőtt szeretnék gratulálni kinevezéséhez. Remélem, 10 millió magyar ember boldogulását fogja elősegíteni áldásos tevékenysége</seg>
+<seg xml:id="AC7_227.2">(Novák Előd: Reméljük, többét!)</seg>
+<seg xml:id="AC7_227.3">Tényleg szívből gratulálok</seg>
+<kinesic type="noise"><desc>Lázár János: Tizenhárom! - Közbeszólások.</desc></kinesic>
+<seg xml:id="AC7_227.4">Miniszter Úr! A magyar kormány 10 millió ember boldogulására kap felhatalmazást</seg>
+<kinesic type="noise"><desc>Közbeszólások a kormánypártok padsoraiban. - Zaj. - Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC7_227.5">Kedves Barátaim! Két dolgot szeretnék előrebocsátani. Az egyik az, hogy kérdéssel fordulnék miniszter úrhoz: mit kíván tenni a szegénység és az egyenlőtlenség csökkentése érdekében? Ezt a kérdést azért bocsátom előre, mert a miniszteri meghallgatás nem alkalmas arra, hogy a képviselő akár viszonválaszt mondjon.</seg>
+<seg xml:id="AC7_227.6">Múlt héten jelent meg a Habitat Magyarország egy felmérése, amely szerint a lakhatási szegénységben 170 ezer olyan gyermek lakik, ahol nincs WC a lakásban; közel 200 ezer olyan gyermek, ahol nincs áram; 620 ezer gyermek, ahol penészes, dohos vagy beázott a lakás; 900 ezer lakásban fával és szénnel fűtenek, és kérem szépen, több mint 500 ezer végrehajtás zajlott az elmúlt évben közmű- és hiteltartozás miatt. Ez az elmúlt négy és fél évben évente 10 százalékkal emelkedett.</seg>
+<seg xml:id="AC7_227.7">Ezek a tények. Ezek a statisztikai adatok. Mi pontosan tudjuk, miniszter úr, hogy sem párttagkönyvvel, sem ráolvasással nem lehet a szegénységet csökkenteni. Nem lehet a szegénységet csökkenteni óhajokkal. Azért kap egy kormány és egy miniszter felhatalmazást négy évre, hogy minden egyes intézkedésével ezeket az embereket gyámolítsa.</seg>
+<seg xml:id="AC7_227.8">Nagyon szépen köszönöm a meghallgatást</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-06-10-urgent_question-AC7_228" who="#GáborIstvánHarangozó" ana="#regular"><note>HARANGOZÓ GÁBOR ISTVÁN (MSZP):</note>
+<seg xml:id="AC7_228.1">Köszönöm szépen, elnök úr. Tisztelt Országgyűlés! Tisztelt Miniszter Úr! A vidéket ma egyre növekvő munkanélküliség, növekvő kilátástalanság és reménytelenség jellemzi, ezért aki csak teheti, ma elmegy vidékről, és meg sem áll a városoknál, többnyire elhagyja az országot.</seg>
+<seg xml:id="AC7_228.2">Míg korábban volt egy jól szervezett struktúra, ami jövedelmet tudott biztosítani a falvakban élő embereknek, a falvakban élőknek a mezőgazdaság alapjain, addig mára a földek jelentős része sokszor családinak nevezett nagybirtokokban összpontosul, ahol sokszor iparszerű növénytermesztéssel foglalkoznak, ezer hektárt akár három emberrel meg lehet művelni, gyakorlatilag ők rendkívül jövedelmező módon tudják a tevékenységüket végezni, míg a falvakban a többi embernek egyszerűen nincs miből megélni. Nyilvánvalóan nincs ez így rendben, valamit lépni kell.</seg>
+<seg xml:id="AC7_228.3">Az Európai Unió két lehetőséget kínált fel, hogy legalább a jövedelempótló támogatásokat valahogy differenciálni lehessen, és ne azoknak adjuk a jövedelempótló támogatásokat, akik egyébként is nagy jövedelemre tesznek szert. Ezért felkínált egy lehetőséget arra, hogy átcsoportosítsuk a nagyobbaktól a kisebb gazdálkodók felé. Ezt választotta például Franciaország, ahol 52 hektárig megduplázzák a területalapú támogatást, így az valóban jövedelempótló támogatássá válik. Magyarország nem ezt választotta, hanem önök azt választották, hogy egy birtokhatár fölött, illetve támogatási nagyság felett, de történetesen 1200 és 1800 hektár felett egyszerűen elveszik a támogatást a gazdálkodóktól. Ezzel az a baj, ha ez az állattenyésztő telepeket is érinti, hogy ők ma 110 ezer embert foglalkoztatnak bejelentve, legálisan, ezért ez véleményünk szerint csak egyféleképpen képzelhető el, úgy, ha a foglalkoztatási költségeket le lehet vonni ebből a támogatásmegvonásból, így ezek a munkahelyek nem kerülnek veszélybe.</seg>
+<seg xml:id="AC7_228.4">(15.00)</seg>
+<seg xml:id="AC7_228.5">De emellett legalább ilyen fontos lenne az is, hogy akik ma nem foglalkoztatnak, őket is ösztönözzük, tehát a csak növénytermesztéssel foglalkozóknál is ösztönzőket kellene hozni arra, hogy több embert foglalkoztassanak, hiszen náluk van a tudá</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC7_228.6">, náluk van az a tőkeerő, amivel több munkahelyet lehetne teremteni.</seg>
+<seg xml:id="AC7_228.7">Ezért tisztelettel kérdezem, hogy hogyan kívánják megőrizni ennek a 110-120 ezer embernek a munkahelyét, illetve hogyan kívánják bővíteni ezeket. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-06-10-urgent_question-AC7_229" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_229.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Minden közösség életében az egyik legfontosabb feladat a közpénzek ellenőrzése. Magyarországon van egy erre kijelölt szervezet, a Kehi, a Kormányzati Ellenőrzési Hivatal, amely ezt a munkát ellátja, vagyis ellenőrzi, hogy ne lehessen a közösség érdekeivel ellentétes módon közpénzeket költeni.</seg>
+<seg xml:id="AC7_229.2">A Kehit ugye, a Miniszterelnökség ellenőrzi, és úgy próbálták meg a közösség érdekeit védelmezni az elmúlt hetekben, hogy különböző razziákat tartottak civil szervezeteknél, és ebbe belekavarták Magyarország legátláthatóbb finanszírozást folytató pártját is, a Lehet Más a Politikát.</seg>
+<seg xml:id="AC7_229.3">De most nem erről szeretnék beszélni, hanem egy kérdést szeretnék feltenni önnek azzal kapcsolatban, hogy hogyan lehetséges az, tisztelt miniszter úr, hogy míg a meghurcoltak ellen csak megalapozatlan vádaskodás áll az ön rendelkezésére és a Kehi rendelkezésére, addig van ott egy régebbi történet, ami viszont teljesen konkrét. Tehát míg a meghurcoló teljesen világos és egyértelmű módon sérteget jót, abban az esetben, amiben ugye, az történt... - méghozzá Magyarország Alaptörvényébe ütköző módon sértett normákat.</seg>
+<seg xml:id="AC7_229.4">(14.30)</seg>
+<seg xml:id="AC7_229.5">Arról van szó, hogy az a szervezet, amely a közpénzköltés felett kell hogy őrködjön, gyakorlatilag egy offshore cégtől bérelt irodát magának közpénzből, és ezzel gyakorlatilag több száz millió forinttal rövidítette meg a magyar államot és a magyar embereket.</seg>
+<seg xml:id="AC7_229.6">Ugyanis ha offshore cégről van szó, akkor nem átlátható a tulajdonosi háttér, tehát nem tudjuk, hogy ezek a pénzek hol végződtek. Hogy teljesen konkrét legyek, arról van szó, hogy eredetileg a Tátrai Miklós korábbi MNV-vezér anyósa, Monostori Lajosné által megkötött és 2012 decemberében lejárt szerződésről van szó. A Kehi gyakorlatilag vitte tovább ezt a szerződést, és egészen egyszerűen csak 2013 elején mondta fel. Tehát azok után, hogy pontosan tudta, hogy offshore helyeken landol ez a pénz, nem ott rögtön bontotta föl a szerződést, hanem még hagyta, hogy egy kicsit tovább fialjon ennek a cégnek.</seg>
+<seg xml:id="AC7_229.7">Ennek mi a magyarázata, és ez hogy fér össze azzal a mostani gyakorlattal, hogy a Kehi rögtön megjelent különböző helyeke</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_229.8">, és hadat üzent - teljesen megalapozatlanul - civil szervezetek ellen</seg>
+<kinesic type="applause"><desc>Taps az LMP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-06-10-urgent_question-AC7_230" who="#R.BenedekSallai" ana="#regular"><note>SALLAI R. BENEDEK (LMP):</note>
+<seg xml:id="AC7_230.1">Nagyon szépen köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Nagyon-nagyon nehéz úgy beszélni egy témáról, hogy ne ragadjunk le egy másiknál, és az ökológiai gazdálkodás kérdése pont egy ilyen téma. Nem Kishantos az, amiről beszélnünk kell, hiszen az mindössze egy jelkép arra, hogy az ökológiai gazdálkodás esélyei miként alakulnak Magyarországon jelenleg.</seg>
+<seg xml:id="AC7_230.2">Az ökológiai gazdálkodás fejlesztéséért című dokumentum, amelyet 2014 és 2020 közötti stratégiai tervként, nemzeti akciótervként fogadott el a Vidékfejlesztési Minisztérium idén, nagyon sok lehetőséget feltár abban az irányban, hogy miként lehet mindazokat a gondokat, amelyek ma felmerültek, részben kezelni. Felmerült, hogy milyen az iskolai élelmezés, hogyan jutnak gyerekek alapvető élelmiszerhez, felmerült a bűnözés, felmerült a szegénység kérdése. Mindezekben, úgy érzem, az okozatokat kezeljük azáltal, hogy alapvetően nem arra irányul, hogy miért nincs elég munkahely, miért nincs az embereknek elég munkájuk, és miért nincs elég foglalkoztató hatása a vidéki térségekben annak a mezőgazdaságnak, amely korábban évszázadokig megfelelő mennyiségű munkahelyet tudott teremteni a vidék népességének.</seg>
+<seg xml:id="AC7_230.3">Az ökológiai gazdálkodásban nagyon-nagyon sok foglalkoztató potenciál rejlik annak nagyon magas élőmunkaigényéből adódóan, és ennek megfelelően a magyar kormányzat 130 ezer hektárról 300 ezer hektárra kívánja növelni 2020-ra az ökológiai gazdálkodásban részesült területek arányát. Azt gondolom, hogy az akcióterv nagyon sok részével egyet lehet érteni, ez a mennyiség viszont nem kellően ambiciózus, sokkal gyorsabban el lehetne ezt érni.</seg>
+<seg xml:id="AC7_230.4">Arra lennék kíváncsi, tisztelt miniszter úr, hogy megvan-e az a stratégia, amely munkahelyteremtő szándékkal és munkahelyteremtő potenciállal teremti meg az akcióterv végrehajtásához szükséges feltételeket, és a tisztelt miniszter úr, illetve a tárcája tudja-e érdemi munkával segíteni azt, hogy ezek vidéki munkahelyként mielőbb létrejöjjenek</seg>
+<kinesic type="applause"><desc>Taps az LMP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-06-10-urgent_question-AC7_232" who="#ZoltánBalczó" ana="#regular"><note>BALCZÓ ZOLTÁN (Jobbik):</note>
+<seg xml:id="AC7_232.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! A 2010-es kormányalakításkor Orbán Viktor úgy fogalmazott, hogy az államadósság a legfőbb ellenség, és ellene küzdelmet hirdetett meg. Mivel most nem volt kormányprogramvita, nem tudjuk, hogy a jövőben akarnak-e ez ellen küzdeni, ezért néhány más megfogalmazásra kell hagyatkoznunk.</seg>
+<seg xml:id="AC7_232.2">Március 15-én mondta a miniszterelnök úr, hogy: "Megmutattuk, hogyan lehet felfeszíteni az adósságcsapda ajtaját." - nagyon talányos mondat. Május 10-én egy kicsit konkrétabban fogalmazott: "A megtett út sem volt könnyű, sem kényelmes, súlyos nehézségeken, túlerőben lévő ellenfeleken küzdöttük át magunkat, és itt első az államadósság, amin átküzdöttük magunkat."</seg>
+<seg xml:id="AC7_232.3">Nézzük a tényeket! 2010 áprilisában 19 323 milliárd forint volt az államadósság, 2014 áprilisában 5264 milliárd forinttal, 27,3 százalékkal több. A bűvszám, a GDP-hez mért adat 84,5 százalék. Lehet, hogy ingadozik, de önök a Széll Kálmán-tervben 67 százalékot vállaltak 2014-re. Vetítsük egy családra, ahogyan a rezsicsökkentést is: 1 millió 284 ezer forinttal növekedett az egy családra jutó államadósság. Mondhatjuk azt, hogy úgy érezzük, ezt nem kell visszafizetni, de emiatt kell 1200-1300 milliárd forint kamatot évente fizetni. Hozzuk közel ezt a számot: három 4-es metró tokkal-vonóval és másfél millió hektár szántóföld ára.</seg>
+<seg xml:id="AC7_232.4">Tehát az a kérdésem, hogy ezek szerint önök úgy tekintik, hogy megoldották az államadósság kérdését, felnyitották a csapdát, kinéztek, mélyebbre zuhantak, és azt mondták, itt van, elég volt, ez az, vagy pedig van tervük, mert akkor jó lenne, ha a magyar társadalom számára ezt elárulnák.</seg>
+<seg xml:id="AC7_232.5">Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-06-10-urgent_question-AC7_233" who="#GáborStaudt" ana="#regular"><note>DR. STAUDT GÁBOR (Jobbik):</note>
+<seg xml:id="AC7_233.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Miniszter Úr! Megalakult a harmadik Orbán-kormány, amelyben ön újra a belügyi tárca vezetője lett. Négy éve hangzott el az a klasszikussá vált ígérete, hogy két héten belül rend lesz az országban. Ehhez képest már lassan visszasírjuk a 2010-es állapotokat, hiszen úgy a hivatalos statisztikák, mint az emberek biztonságérzete folyamatosan továbbromlott az elmúlt négy évben.</seg>
+<seg xml:id="AC7_233.2">Eközben a kormány azt tartja eredménynek, hogy több száz új traffipaxot üzemeltek be, és gyakorlatilag pénzbehajtóként alkalmazzák a rendőrséget. Oda jut csak rendőr, ahol az anyagilag megéri, és előre betervezetten, kvótajelleggel lehet bírságolni az apróbb szabálytalanságokat elkövetőket.</seg>
+<seg xml:id="AC7_233.3">Különösen felháborítónak tartják az emberek belügyminiszter úr azon kijelentését, hogy a bűnügyi statisztikák romlása csak annyit jelent, hogy az emberek nagyobb bizalommal fordulnak a rendőrség felé, és bátrabban tesznek feljelentést. Vagyis önök szerint minél több az ismertté vált bűncselekmény az országban, annál jobban bíznak az emberek a rendőrségben. Pedig önök mindent megtettek, hogy a lehető leghatékonyabban kozmetikázzák a bűnügyi statisztikákat. A bűncselekményi értékhatárt 20 ezer forintról 50 ezer forintra növelték, így a legtöbb lopás csupán szabálysértésként kerül be a statisztikákba. Az 50 ezer forintos értékhatár elképesztően magas. A mai magyar valóság az, hogy használtértéken számítva a legtöbb honfitársunknak a gépjárművén kívül alig van olyan ingósága, amelynek az értéke meghaladja az 50 ezer forintot. Ráadásul napi gyakorlat, hogy a rendőrség tudatosan pont 50 ezer forint alatt határozza meg az ellopott ingóságok értékét, nehogy bűncselekményként kelljen kezelni az ügyet.</seg>
+<seg xml:id="AC7_233.4">Tisztelt Miniszter Úr! Az emberek valódi közbiztonságot szeretnének, és nem statisztikai csalásokat és állami pénzbehajtást végző rendőrséget. Kérdezem ezért, hogy mikor kezdik meg végre a közbiztonság megteremtését, és mikor néznek szembe őszintén a magyar társadalom legégetőbb problémájával. Mik a Belügyminisztérium tervei a következő négy évre? Ezekre várom az állampolgárokkal együtt belügyminiszter úr érdemi válaszát.</seg>
+<seg xml:id="AC7_233.5">Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-06-10-urgent_question-AC7_234" who="#ZsoltEgyed" ana="#regular"><note>EGYED ZSOLT (Jobbik):</note>
+<seg xml:id="AC7_234.1">Köszönöm a szót, tisztelt elnök úr. Tisztelt Belügyminiszter Úr! Borsod-Abaúj-Zemplén megye speciális helyzetben van még Kelet-Magyarország tekintetében is, akár a munkanélküliség, akár a bűnözés, akár az elvándorlás szempontjából vizsgáljuk. Ez alól nem kivétel a megyeszékhely, Miskolc sem, ahol a megye minden problémája leképeződik.</seg>
+<seg xml:id="AC7_234.2">Önök az ígéretükkel szemben nem tettek rendet sem két hét, sem négy év alatt. Önök a keleti régióról lemondtak, magukra hagyva az ott élő embereket a kilátástalanságban, a szegénységben és kiszolgáltatva őket a bűnözésnek. Miskolc fideszes városvezetése egy újabb megdöbbentő megoldási javaslattal állt elő: a társadalom legjobban kiilleszkedett rétegeit, akik jelentős része bűnözésből él, nemes egyszerűséggel ki kívánja rakni Miskolc város területéről. Kívánják tenni mindezt úgy, hogy minden családnak 2 millió forintot akarnak adni közpénzből azért, hogy elhagyják az önkormányzati ingatlant és Miskolc városát.</seg>
+<seg xml:id="AC7_234.3">Felvetődik itt több kérdés is, belügyminiszter úr. Exportáljuk a bűnözést vidékre? Mennyire erkölcsös milliókat ajándékozni bűnözőknek? Önök szerint ezek a családok hol fognak letelepedni? Önök szerint ez megoldás a problémára?</seg>
+<seg xml:id="AC7_234.4">Tisztelt Belügyminiszter Úr! Ez a döntés beláthatatlan következményekkel fog járni Borsod-Abaúj-Zemplén megye jövőjére tekintettel. Ez nem más, mint egy szépségtapasz, a probléma szőnyeg alá söprése. Önök szerint mi a véleményük erről az ózdiaknak, ormosbányaiaknak, szendrőieknek, akiknek számolniuk kell azzal, hogy ezek a családok náluk fognak letelepedni, tönkretéve a helyi közösségeket? Ugyanis ezeken a településeken tudnak ennyi pénzért ingatlant vásárolni. Önök szerint a vidéki emberek ezt megérdemlik? Önök szerint tisztességes ez a megoldás?</seg>
+<seg xml:id="AC7_234.5">Várnám belügyminiszter úr megnyugtató válaszát, ami minden Borsod-Abaúj-Zemplén megyei embert meg fog nyugtatni ebben a kérdésben. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

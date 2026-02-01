@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2020-11-23" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2020-11-23 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2020-11-23 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="17" unit="speeches">17 beszéd</measure>
+        <measure xml:lang="en" quantity="17" unit="speeches">17 speeches</measure>
+        <measure xml:lang="hu" quantity="5209" unit="words">5209 szó</measure>
+        <measure xml:lang="en" quantity="5209" unit="words">5209 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2020-11-23">2020. 11. 23.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="17"/>
+          <tagUsage gi="seg" occurs="61"/>
+          <tagUsage gi="kinesic" occurs="16"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2020-11-23">2020-11-23</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2020-11-23-urgent_question-AC8_13841" who="#AndreaVarga-Damm" ana="#regular"><note>DR. VARGA-DAMM ANDREA (független):</note>
+<seg xml:id="AC8_13841.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Képviselőtársaim! Tisztelt Miniszterelnök-helyettes Úr! Lassan úgy érzem magam, mintha egy katonai junta működtetné a közigazgatást: gépesített lövész a Színművészeti Egyetem új kancellárja, az országos kórház-főigazgató egy rendőr, aki azokat a kordonokat építette a Gyurcsány-kormány nevében 2006-ban a Kossuth téren, amit aztán 2007-ben Orbán Viktor a saját kezével bontott le. Katonákat küldtek tavasszal kórházakba, vállalatokhoz, mintha azzal jobb lehetett volna a járvány elleni védekezés, pedig csak láb alatt voltak, semmiféle szakértelmük nem volt hozzá. A jobb érzésűek bocsánatot kértek az ottani vezetőktől, a hitványak pedig elintézték, hogy a vezetőket kirúgják. Egy átlagos kórház-főigazgatói elvárás a pályázat kiírása szerint orvostudományi vagy egyéb egyetemi szintű végzettség, mesterképzési szakon szerzett egészségügyi menedzser végzettség, legalább ötéves vezetői gyakorlat, kórházban szerzett vezetői tapasztalat, orvosi szakvizsga megléte, válságmenedzselésben és annak területén szerzett tapasztalat. Ezek mind előnyök. De egy kórház csúcsszervéhez ez nem kell. Persze azért nem kell, mert ez egy álszervezet, és a vezetőknek csak jó zsíros állás kell.</seg>
+<seg xml:id="AC8_13841.2">Az rendben van, amikor a katonákat, rendőröket kijárási tilalom betartására vagy annak ellenőrzésére használják, vagy amikor szállításokban működnek közre, vagy például segédkeznek a tesztelésben, de polgári szervezeteket vezetni, azt gondolom, ez tényleg túlzás. Valódi szakembereket mellőznek, mert nem biztosak a politikai hűségükben, pedig egy valódi szakembert soha nem a politikai motiváció mozgatja, hanem egyszerűen az, hogy szereti a hivatását. A Kádár-rendszertől, amely az önök méltó elődje, igazán megtanulhatták volna, mert Kádár már a hetvenes években igyekezett azon, hogy ne a szövőnőket és a kubikusokat tegye vezetővé, mert azokkal nem nagyon sokra megy.</seg>
+<seg xml:id="AC8_13841.3">Ma már azt látjuk, hogy a mai vezetőknek ugyan van képesítése, mert papírokat gyűjtenek diploma formájában, de valódi tudás nincs mögötte. Kérdésem: miniszterelnök úr végre mikor fogja a valódi szakembereket alkalmazni, és miért mellőzi a kiválóakat? Köszönöm a figyelmüket</seg>
+<kinesic type="applause"><desc>Közbeszólás az ellenzék soraiból: Úgy van! Taps az ellenzéki padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-23-urgent_question-AC8_13862" who="#OlivioKocsis-Cake" ana="#regular"><note>KOCSIS-CAKE OLIVIO (Párbeszéd):</note>
+<seg xml:id="AC8_13862.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Miniszterelnök-helyettes Úr! A járvány miatt egyre nehezebb helyzetben vannak a magyar emberek, sokan veszítik el az állásukat, és még többen visznek haza kevesebb pénzt, miközben óriási nyomás van az egészségügyön. A Párbeszéd szerint ebben a helyzetben szolidaritásra és példamutatásra van szükség. Az ellenzéki vezetésű főváros már lépett is, komoly megtakarításokba kezdett. Az átalakítások nem az egyszerű dolgozókat érintik, hanem a vezető pozícióban lévőket, az igazgatókat, a politikai kinevezetteket, többek közt eggyel kevesebb helyettes lesz, hat céget vonnak össze, huszoneggyel kevesebb felügyelőbizottsági tagot fognak fenntartani. Ez igazi bürokráciacsökkentés. De sokkal több pénzt, sokkal több közpénzt lehetne spórolni, ha a kormány magán is spórolna. Önök szeretnek visszamutogatni a 2010 előtti időkre. 2009-ben a miniszterek, államtitkárok száma összesen 85 körül mozgott. Ez a szám mára majdnem eléri a 200 főt. A negyedik Orbán-kormányban soha nem látott számú államtitkár és biztos van. Van űrkutatási miniszteri biztos, van olyan fiatalokért felelős helyettes államtitkár, aki miatt törvényt kellett módosítani, hogy diploma és végzettség nélkül kinevezzék. Meglep, hogy egyébként Soros György elleni küzdelemért felelős államtitkáruk nincs. Na, nem adok ötleteket, mert a végén még megvalósítják.</seg>
+<seg xml:id="AC8_13862.2">Tisztelt Miniszterelnök-helyettes Úr! Gondolte már a kormány arra, hogy az emberek és az önkormányzatok helyett saját magán takarékoskodjon? Budapest példájához hasonlóan terveze a kormány saját magán spórolni, például kevesebb államtitkárral és biztossal? Várom válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-23-urgent_question-AC8_13863" who="#BenceTordai" ana="#regular"><note>TORDAI BENCE (Párbeszéd):</note>
+<seg xml:id="AC8_13863.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Múlt héten jött ki az Európai Bizottság jelentése az uniós tagállamok oktatási rendszereiről, és egészen lesújtó képet festett a magyar oktatásról. Címszavakban: drasztikusan romló tanulói teljesítmények, növekvő lemorzsolódás, a minőségi oktatáshoz való egyenlőtlen hozzáférés, aggasztó tanárhiány, növekvő szegregáció. Ezek a legfontosabb megállapításai ennek a kutatásnak. A helyzet az, hogy önök tíz éve vannak kormányon, és ezek az eredmények tíz éve folyamatosan romlanak. Néhány számot hadd emeljek ki!</seg>
+<seg xml:id="AC8_13863.2">(14.40)</seg>
+<seg xml:id="AC8_13863.3">A 15 évesek között az alulteljesítők aránya most már a legtöbb területen meghaladja az egynegyedet. Ez azt jelenti, hogy négyből egy magyar fiatal gyakorlatilag funkcionális analfabétaként jön ki az iskolából; azt jelenti, hogy a munkaerőpiacon nem fogja tudni megállni a helyét, legfeljebb betanított munkát fog tudni vállalni majd, közmunkát, vagy még inkább munkanélküli lesz.</seg>
+<seg xml:id="AC8_13863.4">Látjuk is már azoknak a fiataloknak az arányát a 16-18 évesek között, akik se nem tanulnak, se nem dolgoznak, megduplázódott az elmúlt években. Azt mutatja ez a jelentés, hogy a legnagyobb különbség az egyes iskolák között Magyarországon van teljesítményt illetően, a második legnagyobb különbség a jobb és rosszabb családi hátterű gyerekek között szintén Magyarországon van.</seg>
+<seg xml:id="AC8_13863.5">A felsőfokú oktatásban csak a hátrányos helyzetűek 1,4 százalékos arányban képviseltetik magukat, és a szegregáció egyre súlyosabban érvényesül az egyházi iskoláknál.</seg>
+<seg xml:id="AC8_13863.6">Folytathatnám a kiábrándító eredmények sorolását. Ezekben mind az a közös, hogy ez nem a gyerekek hibája, nem a tanárok hibája, hanem az önök oktatáspolitikájának a hibája. Tíz éve kormányoznak, úgyhogy remélem, hogy nem kezd el visszafelé mutogatni. A kérdésem csak az, hogy ez volt a cél, vagy ha nem ez volt a cél, akkor lemonde az, aki felelős ezekért az eredményekért. Köszönöm szépen.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-23-urgent_question-AC8_13872" who="#PéterUngár" ana="#regular"><note>UNGÁR PÉTER (LMP):</note>
+<seg xml:id="AC8_13872.1">Köszönöm szépen a szót. Tisztelt Államtitkár Úr! Tisztelt Országgyűlés! A nemzet egy emberként tisztelettel adózik az egészségügyi és szociális dolgozók teljesítménye előtt, ezt mondta Kásler miniszter úr a tegnapi napon, és ezzel szerintem mindannyian csak egyet tudunk érteni. Nagyon jó, hogy most már legalább verbálisan tisztelettel adóznak a szociális dolgozók előtt. Jobb lenne, hogyha ezt a verbális tiszteletet anyagi és egyéb tisztelet követné, ugyanis az a helyzet, hogy a miniszterelnök meg a miniszter Facebook-posztjaiból nem lehet a rezsit kifizetni, és nem lehet a gyermeknek iskolatáskát venni.A következő történt. Először is, kiadtak egy rendeletet, amiből mindenféle épeszű érveléssel megmagyarázhatatlan módon kimaradtak a szociális dolgozók az ingyenes utazásból, amit biztosítottak az egészségügyi dolgozóknak. Ezt az magyarázza, hogy az EMMI nem tud megírni egy rendeletet, ezt önök tudják is pontosan, hogy így van – így volt ez már korábban több esetben is , úgyhogy kérem, próbálja jelezni, hogy mi oka lehetett ennek.</seg>
+<seg xml:id="AC8_13872.2">A másik pedig, hogy a mai napig elmaradt az az összesen 45 milliárd forintba kerülő egyszeri 500 ezer forintos bérkiegészítés, amit helyesen megadtak az egészségügyi dolgozóknak, de nem adtak meg a szociális dolgozóknak. Miért hazudják azt, hogy nincs meg ez a 45 milliárd a költségvetésben, és miért nem adják meg ezt az egyszeri bérkiegészítést azoknak a szociális dolgozóknak, akiknek a 80 százaléka a garantált bérminimumot keresi, és akik jelenleg az egyik legaktívabb küzdelmet folytatják a koronavírus-válság ellen?</seg>
+<seg xml:id="AC8_13872.3">Ha önök politikát csinálnak idősotthoni fertőzésekből, akkor csináljanak politikát abból is, hogy kik dolgoznak az idősellátásban, a hajléktalanellátásban, a családsegítőknél, és adják meg az egyszeri 500 ezer forintos bérkiegészítést</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-23-urgent_question-AC8_13873" who="#AntalCsárdi" ana="#regular"><note>CSÁRDI ANTAL (LMP):</note>
+<seg xml:id="AC8_13873.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Államtitkár Úr! Parragh László, a Magyar Kereskedelmi és Iparkamara vezetője november 8-án azzal a javaslattal jött elő, hogy két évre fagyasszuk be vagy legalábbis függesszük föl az iparűzési adó fizetésének a kötelezettségét. Értelemszerűen mindenki várta, hogy a kormány egy egyértelmű reakciót ad majd erre a felvetésre, és nem is kellett sokat várni, miniszterelnök úr úgy fogalmazott a javaslat kapcsán, hogy meredek, de azért fel lehet rajta kaptatni.</seg>
+<seg xml:id="AC8_13873.2">Tisztelt Államtitkár Úr! Nem akarom húzni az időt. Kérek egy egyértelmű, mindenki számára jól értelmezhető választ arra vonatkozóan, hogy mi az álláspontjuk az iparűzési adó felfüggesztésével kapcsolatban. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-23-urgent_question-AC8_13874" who="#ZoltánVarga" ana="#regular"><note>VARGA ZOLTÁN (DK):</note>
+<seg xml:id="AC8_13874.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Államtitkár Úr! Ön alig tíz perce hazugsággal vádolta a baloldal politikusait, holott ha a pandémiás időszakban valaki ordas nagyot hazudott a magyar emberek szemébe itt, ebben a Házban, az nem más, mint nemzetünk fénylő csillaga, az önök törzsfőnöke, a miniszterelnök. Ő volt az, aki azt ígérte alig pár hónappal ezelőtt, hogy aki megbetegszik, azt megmentik. Jelezném: 3891 koronavírusban elhunyt beteget tartanak most nyilván, egy olyan nyilvántartás szerint, hozzá kell hogy tegyem, aminek pontosságában nagyon sok ember amúgy kételkedik. Az orvosok, ápolók és mentősök egyértelműen hősies munkát végeznek, mégsem tudják megakadályozni látható módon a tömeges fertőződést, nincs már elég szakember a betegekhez, és a fürkészek által összehordott sok százmilliárd forintos lélegeztetőgépek működtetéséhez sem. Több kórházban a váróban, székeken fekszenek a vírus által elgyötört, szenvedő emberek, de azt is látjuk a képeken különben – nem egy újsághír foglalkozik ezzel , hogy lázas betegen kinn, az utcán várakoznak covidos betegek tesztre várva. Nem végeznek elegendő, a kór terjedésének megakadályozásához szükséges tesztet. A kérdés az, hogy miért van az, hogy Szlovákia az év végéig kétszer is leteszteli az összes állampolgárt, és nálunk ez valahogy nem sikerül. Nehogy közelebb kerüljünk esetleg a valós számok megismeréséhez?</seg>
+<seg xml:id="AC8_13874.2">Emlékezzünk, tíz éve volt az önök kormányának arra, hogy javítson az egészségügy állapotán. Ehhez képest látjuk, hogy az egészségügy romokban, gyakorlatilag a tönk szélén áll.</seg>
+<seg xml:id="AC8_13874.3">És már nem csak a vírus elleni harc és védekezés elégtelen, amelybe magyarok halnak bele a maguk bűnei és hibái miatt. Ne feledjük, önök azt ígérték, hogy lesz elegendő influenzaoltás, és látjuk már ma, ez is hazugság lett. Műtétek maradnak el, aki pedig infarktust kap, esetleg sztrókot, annak már szinte esélye sem marad a túlélésre, hiszen osztályokat zártak be, vagy olyan leterheltek, hogy egyszerűen nincs lehetőség a gyógyításra, és a sürgősségi ellátás is romokban van.</seg>
+<seg xml:id="AC8_13874.4">Miért nem tesztelik le az országot? Miért hiánycikk az influenzaoltás? Hány honfitársunk elvesztésével számol a kormány a saját mulasztása miatt? Várom a megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Szórványos taps az ellenzék soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-23-urgent_question-AC8_13875" who="#LászlóSebián-Petrovszki" ana="#regular"><note>SEBIÁN-PETROVSZKI LÁSZLÓ (DK):</note>
+<seg xml:id="AC8_13875.1">Köszönöm szépen, elnök úr. Államtitkár Úr! Tíz napja ünnepeltük a szociális munka napját. Bár az önök, az elmúlt tíz év kormányzásának rendkívül sok olyan csoportja van, amelyik hátrányt szenvedett az elmúlt tíz évben, és kárvallottja az önök kormányzásának, de ezek között is a szociális gondozók az egyik leginkább nélkülözött, az egyik leginkább páriaként kezelt csoportja a társadalomnak az önök kormánya szerint. Ők azok, akik a szegények, elesettek, idősek, fogyatékkal élők, hátrányos helyzetű gyermekek életét próbálják jobbá tenni, ehhez képest mit kapnak cserébe a kormánytól? A szociális ágazatban dolgozóknak egy augusztusi kimutatásban az átlagkeresete mindössze 193 ezer forint volt, messze a legalacsonyabb volt az egyes nemzetgazdasági ágak átlagkeresetei között. Nem új keletű ez a történet, az elmúlt tíz évben folyamatosan ez történt: 2010-ben még 20 százalékkal csökkent az átlagkeresete az ezen a területen dolgozóknak, aztán 2011 és 2015 között folyamatosan, évről évre tovább csökkent, tehát mínuszról beszélünk, és csak 2018-ban sikerült elérni azt a szintet, ahol a világgazdasági válság idején, 2009-ben voltak; mindezt úgy, hogy közben a gazdasági növekedés megengedte volna azt, hogy őnekik ezt növeljük nagyobb mértékben. Teszem hozzá, ezek a KSH-nak az adatai, tehát nem én mondom ezt, hanem az önök által irányított Statisztikai Hivatal.</seg>
+<seg xml:id="AC8_13875.2">Közben a humánegészségügyi ellátásban dolgozók kaptak egy egyszeri bruttó 500 ezer forintos bérkiegészítést, de ez a szociális munkásokra nem volt igaz, és ők azok, akik csak most kerültek be abba a körbe, hogy a Covid-szűrést elkezdték a körükben.</seg>
+<seg xml:id="AC8_13875.3">Kérdezem azt, hogy mi a baja önöknek a szociális munkásokkal. Mikor fogja elérni az átlagkeresetük az</seg>
+<kinesic type="signal"><desc>Az elnök csengetéssel jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC8_13875.4">, hogy nem a legalacsonyabb lesz ebben az országban? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki sorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-23-urgent_question-AC8_13884" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC8_13884.1">Tisztelt Elnök Úr! Tisztelt Ház! Tisztán emlékszem 2016-ra, az egyik miniszterelnöki bejelentésre, melynek idején minden családot koccintásra hívott Orbán Viktor miniszterelnök úr annak alkalmából, hogy az IMF-től, illetve az EU-tól felvett hitel visszafizetése megtörtént, és hangos retorikával méltatták a saját teljesítményüket; miszerint a devizahiteleket, az összes hitel devizaállományát érdemben tudták csökkenteni.Ezzel szemben a napokban robbant a hír, miszerint Magyarország felvett mintegy 800-900 milliárdnyi devizaalapú hitelt 10-30 évre, és ezzel párhuzamosan, talán már a vétóra készülve, miután ezt a hitelfelvételt megtették, bejelentették azt, hogy meg fogják vétózni azt az európai költségvetést, amelynek alapján egy igen komoly támogatási volumen és egy ennél, az említettnél talán azért nem rosszabb feltételekkel rendelkező hitel is elérhető lett volna, példának okáért a magyar gazdaság újjáépítése, szinten tartása érdekében.</seg>
+<seg xml:id="AC8_13884.2">Amit ezzel párhuzamosan elmulasztott Magyarország Kormánya, az a magyar munkahelyvédelmi alap konstrukciójának megfelelően a kieső munkabérek legalább 80 százalékának a kipótlása.</seg>
+<seg xml:id="AC8_13884.3">Önök még a tavaszi időszakban is alig 15-20 százalék kipótlására voltak képesek. Most pedig kettő ágazat tekintetében, a munkavállalók sajnálatos módon elenyésző kisebbsége esetén tesznek lehetővé egy 50 százalékos megoldást.</seg>
+<seg xml:id="AC8_13884.4">Látszik tehát, hogy a munkanélküliek száma folyamatosan növekedni fog, mert válság van, és ez a kormány elhibázta, elrontotta a válságkezelést, eközben nemzetközi hitelekkel eladósítja az országot. Gondoljunk csak a Budapest-Belgrád megoldás mögött húzódó kínai, hosszú távú, 850 milliárdos nagyságrendű hitelre, és gondolhatunk egyéb keleti országokból származó óriási megahitelekre.</seg>
+<seg xml:id="AC8_13884.5">Egyértelmű tehát a kérdésem, államtitkár úr: koccintás helyett miért érik el azt, hogy Magyarországot újra nemzetközi hitelek fojtogassák, ráadásul sokkal több irányból, mint a korábbi évtizedekben? Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-23-urgent_question-AC8_13885" who="#GergelyKálló" ana="#regular"><note>KÁLLÓ GERGELY (Jobbik):</note>
+<seg xml:id="AC8_13885.1">Tisztelt Ház! Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Nem kétség, hosszú-hosszú hónapok óta Magyarország betegségben szenved, egy vírus csapott le nemcsak Magyarországra, hanem egész Európára. A vírus tünetei azonban nemcsak az embereken jelentkeznek, hanem bizony a gazdaság szereplőin is, mint például a nagyvállalatok szereplőin is. Ilyen tüneteket produkál, illetve a betegség tüneteit is produkálja Fejér megye egyik legnagyobb foglalkoztatója, a Dunai Vasmű. Mik voltak a tünetek? 1. Augusztus hónapban példátlan módon felmondták a dolgozókkal a kollektív szerződést. 2. Október hónapban a dolgozók két részletben kapták meg a havi fizetésüket. 3. November hónapban is ugyanez történt.</seg>
+<seg xml:id="AC8_13885.2">Hangzatos az, hogy a parlamentben itt hónapról hónapra, hétről hétre halljuk azt, hogy a kormány annyi munkahelyet fog teremteni, amennyit a vírus elpusztít. De azért megkérdezném: hogyan fogják tudni több mint nyolcezer családnak a megélhetését megteremteni, ha a Vasműben valami baj lesz? Eme három tünet láttán önök nem tettek semmit, nem szólaltak meg a kollektív szerződés kapcsán, pedig szóltunk, és kértük önöket. Nem szólaltak meg a fizetések kapcsán, pedig szóltunk, és kértük önöket.</seg>
+<seg xml:id="AC8_13885.3">Kooperatívak voltunk, a segítségünket ajánlottuk fel az önkormányzatból, hiszen az Alaptörvényben biztosított jogunknál fogva Dunaújváros polgármestere, Pintér Tamás felterjesztést küldött a kormányzatba, ahol pár pontban összefoglalta, hogy hogyan lehetne mégiscsak segíteni a beteg Vasműn, amin lehet segíteni, hisz a termelés folyamatos.</seg>
+<seg xml:id="AC8_13885.4">Önök egy pár soros levéllel visszautasították ezt a segítségnyújtást. De az a helyzet, hogy mást önök nem mondtak. Itt kérdezném tehát: hogyan terveznek segíteni Fejér megye és a térség egyik legnagyobb foglalkoztatóján? Várom a válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-23-urgent_question-AC8_13886" who="#ÁdámSteinmetz" ana="#regular"><note>DR. STEINMETZ ÁDÁM (Jobbik):</note>
+<seg xml:id="AC8_13886.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Nemrég adták át a kétsávosra bővített 67-es utat, amit a somogyi polgárok nevében is köszönök. A 67-es út felújítását azonban nem követte a 68-as út felújítása, annak ellenére nem, hogy erre már számos alkalommal kormányzati ígéretet kaptunk. És ennek következtében továbbra is a balesetveszélyes úton kell közlekedniük többek között a Kéthely, Marcali és Böhönye térségében élő embereknek is. A napi 11 ezer jármű forgalmát bonyolító főút katasztrofális állapotban van, az út burkolata nyomvályús, kátyús, széttöredezett. A 68-as út felújításával kapcsolatban Móring József Attila nemrég úgy fogalmazott: erről volt már döntés, kivitelezői szerződést is írtak alá, majd azt lefújták. És vannak olyan szférák, ahol ezt úgy tekintik, mintha már megépült volna; kipipálták, becsukták a dossziét, és visszarakták a polcra. Tisztelt Államtitkár Úr! Akkor most vegye le a polcról ezt a dossziét, és kérem, válaszoljon a következő kérdésekre. Milyen szférákról beszél Móring József Attila? Hogyan tekinthetik itt a minisztériumban megépültnek azt, ami nem épült meg? A korábbi ígéretek és döntések ellenére miért nem történt meg a 68-as út teljes körű felújítása? És ha már eddig ezt nem tették meg, hajlandóak 2001 (sic!)</seg>
+<seg xml:id="AC8_13886.2">folyamán felújítani a 68-as utat? Igen vagy nem? Várjuk megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-23-urgent_question-AC8_13887" who="#AttilaMesterházy" ana="#regular"><note>MESTERHÁZY ATTILA (MSZP):</note>
+<seg xml:id="AC8_13887.1">Köszönöm. Tisztelt Miniszterelnök-helyettes Úr! Az Európai Uniónak jelenleg a gyengeségei közé tartozik, hogy nehezen tud a saját maga által vallott értékeknek és elveknek érvényt szerezni. Egy országnak, amíg csak törekszik az Unió tagjává válásra, komoly feltételrendszernek kell eleget tenni a jogállamiság, a demokrácia, az emberi és kisebbségi jogok betartása terén. Tagként azonban már nincs ilyen szoros kontroll az országok felett. Ennek oka leginkább abban keresendő, hogy az Unió intézményei félnek beavatkozni egy-egy kormány belügyeibe. Az a meggyőződésem, hogy közös értékeink és elveink érvényre juttatását nem lehet mérlegelés tárgyává tenni. Fel kell tehát ruházni az Európai Uniót olyan eszközökkel, hogy tagjait folyamatosan az értékek képviseletére és az alapelvek betartására késztesse. Ellentmondás, ha elvárjuk az Uniótól, hogy vegye rá a normakövetésre a tagállamok kormányait, de vonakodunk attól, hogy ehhez a szuverenitásunkat esetleg csorbító felhatalmazást adjunk.</seg>
+<seg xml:id="AC8_13887.2">Mert az Uniónak ügyelnie kell arra, hogy értékeinek védelme ne csak papíron valósuljon meg, ezeket az értékeket az Unió tagjaként egyetlen tagállam se sérthesse meg. Meggyőződésem, az Európai Unió nem habozhat, amikor arról van szó, hogy egyes kormányok megsértik az Unió által vallott értékeket. Ki kell dolgozni azokat az eljárásokat, amelyeket ilyen esetben alkalmazni lehet, hogy egyetlen tagállam se bújhasson a be nem avatkozás nemzetközi jogi elve mögé.</seg>
+<seg xml:id="AC8_13887.3">Kérdezném a miniszterelnök-helyettes urat: mi erről a véleménye? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzék soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-23-urgent_question-AC8_13888" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC8_13888.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Urak! Tisztelt Képviselőtársaim! November 9-én jelentette be Orbán Viktor, hogy tesztelni fogják a szociális és az oktatási intézményben dolgozókat és az egészségügyi intézményben dolgozókat. Majd múlt hét csütörtökön Gulyás Gergely miniszter úr bejelentette, hogy 191 ezer dolgozót fognak tesztelni ezen a héten, egy hét leforgása alatt, majd pénteken az egyik államtitkár már 370 ezer dolgozóról beszélt. Ma pedig Orbán Viktor bejelentette, hogy 191 ezer, oktatási intézményben dolgozót tesztelnek, meg 47 ezer, szociális szférában dolgozónak készítik el a tesztjét. Már hónapok óta mondjuk, hogy az egyik legjobb megoldás az lenne, ha folyamatosan tesztelnék azokat a dolgozókat, akik a frontvonalban vannak. Nem értem most már tényleg, hogy hány embert fognak letesztelni, de nem ez a legérdekesebb.</seg>
+<seg xml:id="AC8_13888.2">Egész nyáron készülhettek volna arra, hogy előbb-utóbb ezt a lépést, bármennyire tiltakoznak, meg kell tenniük. Nem készültek fel. Majd a múlt héten kiderült, hogy még múlt héten kezdik el összeírni az önkormányzatoknál, hogy hány intézmény, hány szakember kell hozzá, és véglegesen hány embert akarnak letesztelni. Nem értem, hogy nem tudják, hogy amúgy hányan dolgoznak óvodában, bölcsődében, iskolában és a szociális ellátórendszerben, és hány ember kell ahhoz, hogy ezt a tesztelést egy hét alatt lebonyolítsák.</seg>
+<seg xml:id="AC8_13888.3">Majd eljutottak pénteken odáig, hogy már volt olyan önkormányzat, akitől segítséget kértek, azoktól az önkormányzatoktól, akiket önök egy éve folyamatosan büntetnek. Nem volt elég, a hétvégére eljutottunk odáig, hogy ha valamelyik háziorvos nem akart tesztelni úgy, hogy az eljárásrendben önök készítették az egészségügyi eljárásrendet a háziorvosokat védjük a tesztelésektől mert ha a háziorvosok kimennek tesztelni, nagy eséllyel el is kaphatják a vírust, és akkor ki lesz, aki ellátja a lakosságot , ehhez képest önök már a kormányhivatalon keresztül… Voltak, akik fenyegetőztek, hogy ha a háziorvosok nem tesztelnek, akkor milyen ejnye-bejnye lesz ebben az országban.</seg>
+<seg xml:id="AC8_13888.4">(14.20)</seg>
+<seg xml:id="AC8_13888.5">Egyrészt, államtitkár úr, hány embert tesztelnek ténylegesen akkor Magyarországon? És tényleg elég lesze az a 2000 fő meg azok a szociális dolgozók, akik ezeket a teszteket végrehajtják, hogy egy hét alatt ezt a tesztelést le tudják bonyolítani? Várom megtisztelő válaszát. Köszönöm, elnök úr</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-23-urgent_question-AC8_13889" who="#LászlóSzakács" ana="#regular"><note>DR. SZAKÁCS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC8_13889.1">Köszönöm a szót, elnök úr. Ezek után egyébként végtelenül örülök, hogy ilyen tisztességes címet adtam az azonnali kérdésemnek. A családok egészsége, anyagi, lakhatási biztonsága a legfontosabb. Én azt gondolom, hogy ebben egyetértünk. Mégis, önök leszavazták kettő olyan javaslatunkat, ami pontosan ezt segítette volna elő, hiszen itt arról van szó, hogy az egyikben arra tettünk javaslatot, hogy legyen egy szociális sáv azoknak, akik nem tudják kifizetni még a legminimálisabb létszükséglethez szükséges rezsijüket sem, és 1 köbméter víz, 30 kilowattóra áram, 15 köbméter gáz kerülhessen úgy a családokhoz, hogy ezért vagy ne kelljen fizetni, vagy jelképes összeget kelljen fizetni, hiszen most nagyon sokan vannak, akik elveszítik a munkájukat, nem tudják kifizetni a rezsijüket. Nagyon sokan vannak olyanok, akik otthonról dolgoznak, vagy éppen nemsokára, egy akár jogos intézkedés keretében, újra az otthonukba fogja őket parancsolni a kormány, hiszen valahogyan meg kell a vírust állítani, és akkor nem mehetnek sehova.</seg>
+<seg xml:id="AC8_13889.2">Viszont ha kikapcsolják a szolgáltatásokat, mert nem keresnek eleget, mert nem tudják kifizetni őket, vagy éppen már elveszítették a munkájukat, és lejárt az a 90 nap, amit önök adtak nekik, hogy újra munkát találjanak, miközben dühöng a járvány, akkor kikapcsolhatják a közszolgáltatásokat, a vízszolgáltatást, a gázszolgáltatást, a csatornaszolgáltatást, az elektromosáram-szolgáltatást. Államtitkár úr, ezek a XXI. században egészen biztosan nem úri ficsúrságok, hanem hozzátartoznak az élet alapvető szükségleteihez, és tartunk attól, hogy sokan kerülhetnek olyan méltatlan helyzetbe, hogy azért, mert elveszítették a munkájukat, azért, mert nem tudnak otthonról dolgozni, vagy egész egyszerűen mert az otthonukba kényszerülnek, mert mondjuk, otthon kell maradni az iskoláskorú gyerekükkel, ezért nem tudnak eleget keresni, de többet fognak fogyasztani, ezért kikapcsolhatják náluk az áramot. Miért szavazták le ezeket a javaslatokat, államtitkár úr? Köszönöm, elnök úr</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-23-urgent_question-AC8_13890" who="#MónikaDunai" ana="#regular"><note>DUNAI MÓNIKA (Fidesz):</note>
+<seg xml:id="AC8_13890.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! A napokban egy meglehetősen szövevényes, a Demszky-korszakra jellemző ügy látott napvilágot, mellyel kapcsolatban a baloldal nem meglepő módon mélyen hallgat. Nézzük, miről is van szó! Kérem, a dátumokat nagyon-nagyon figyeljék! A Fővárosi Önkormányzat közvetlen irányítása alatt álló BKV ez év áprilisában közbeszerzési eljárást írt ki használt autóbuszok bérlésére. A nyertes a CR-Facilities Vagyongazdálkodó Zrt. ajánlata lett, így velük kötöttek bérleti szerződést több mint 300 millió forint értékben. A pályázaton győztes társaság nevében az szerepel, hogy „vagyongazdálkodó”, így igen szokatlan választásnak számítanak, ha autóbuszok bérléséről van szó, hisz a társaságnak semmilyen referenciája sincs buszok bérbeadására, sőt leginkább semmiben sincs tapasztalata, hiszen idén május 11-én alapították, és pontosan 7 nappal az előtt, május 18-án jegyezte be a cégbíróság, hogy lejárt volna a BKV tenderének ajánlattételi határideje</seg>
+<seg xml:id="AC8_13890.2">(Dr. Varga-Damm Andrea: Akkor a Fidesztől tanultak!)</seg>
+<seg xml:id="AC8_13890.3">(13.50)</seg>
+<seg xml:id="AC8_13890.4">A véletlen egybeesések sorozatának azonban itt még nincs vége. A részvénytársaságot ugyanis három másik társaság alapította, melyek közül a CRATIS Ingatlanbefektető a többségi tulajdonos a jegyzett tőke alapján. A történet itt kezd még izgalmasabbá válni, hiszen a CRATIS Ingatlanbefektető tulajdonosa egy ciprusi székhelyű offshore cég, amelynek tisztségviselői között találni olyan személyeket is, akik kapcsolatba hozhatók a fővárosi önkormányzat vezetőivel. Ezzel pedig, tisztelt képviselőtársaim, a kör bezárult. Karácsony Gergelyék szépen csendben egy hozzájuk közel álló, szövevényes céghálóval elfedett offshore-gyanús cégnek játszottak ki 343 millió forintot.</seg>
+<seg xml:id="AC8_13890.5">Tisztelt Államtitkár Úr! Kérdezem az elhangzottak tekintetében, hogy hogyan nyerhetett egy frissen alapított offshore cég a BKV tenderén</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-23-urgent_question-AC8_13891" who="#BarnaPálZsigmond" ana="#regular"><note>DR. ZSIGMOND BARNA PÁL (Fidesz):</note>
+<seg xml:id="AC8_13891.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! Tisztelt Ház! A múlt héten Soros György úgy gondolta, hogy ismét hazug módon tájékoztatni kell a világot arról, hogy mi történik Magyarországon. Rövid angol nyelvű cikkében a szokásos rágalmak mellett parancsba adta, hogy fel kell lépni Magyarországgal és persze Lengyelországgal szemben. Az alaptalan rágalmak mellett most már a két év múlva esedékes magyarországi választásokkal kapcsolatban is tett megjegyzéseket, bátorítva a baloldali összefogást. A mellett a baloldal mellett tett hitet, amely egy világjárvány kellős közepén álhíreket gyárt, hazudik a kórházakról, a vakcináról, a tesztekről, az egészségügyben dolgozókról, és akadályozza a védekezést. Nem meglepő, hogy Soros újból színre lépett, hisz már eddig is több ország belügyeibe avatkozott be krízishelyzetek idején is, kéretlenül.A milliárdos a pénzügyi intézkedéseivel, mesterkedéseivel korábban bedöntötte a fontot, veszélybe sodorta a német márkát, és ezzel a német egyesítést is, és még sorolhatnám. Miért éppen Magyarországot akarná kihagyni? Miért itt ne akarna irányítani?</seg>
+<seg xml:id="AC8_13891.2">Úgy tűnik, hogy készül a választási Soros-lista; Gyurcsány Ferenc, a baloldal vezére írja, a megrendelő pedig Soros György. A DK-tól kezdve a Jobbikon, az MSZP-n, az LMP-n és a Momentumon át Karácsony Gergely pártjáig mindannyian fel fognak rá iratkozni. Kijelenthetjük, hogy küszöbön a magyar bevándorláspárti koalíció megalakulása. A baloldal azért akarja megbuktatni a magyar kormányt, mert a nemzeti kormány ellenzi a bevándorlást.</seg>
+<seg xml:id="AC8_13891.3">Tisztelettel kérdezem államtitkár urat: milyen támadások érik az illegális migráció elleni magyar intézkedéseket? Mekkora befolyása van Soros Györgynek az Európai Unión belül? És hogyan próbál meg nyomást gyakorolni Magyarországra? Köszönöm előre is válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-23-urgent_question-AC8_13895" who="#IstvánHollik" ana="#regular"><note>HOLLIK ISTVÁN (KDNP):</note>
+<seg xml:id="AC8_13895.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr</seg>
+<kinesic type="noise"><desc>Közbeszólások az MSZP padsoraiból, köztük: Keményen!</desc></kinesic>
+<seg xml:id="AC8_13895.2">Azt látjuk, hogy egész Európában felszállóágban van a járvány. Ezekben a nehéz időkben fontos, pontosabban fontos lenne, hogy mindenki kivegye a részét a védekezésbő</seg>
+<seg xml:id="AC8_13895.3">(Z. Kárpát Dániel: A bankok is például!)</seg>
+<seg xml:id="AC8_13895.4">, így egyébként az ellenzék is. Ehhez képest sajnos azt tapasztaljuk, hogy a baloldal, ahol lehet, eddig akadályozta a védekezést. Tavaly nem szavazták meg a koronavírus-törvényt, és folyamatosan támadták a védekezést, méltatlanul bírálva ezzel az egészségügyben dolgozók emberfeletti teljesítményét és áldozatos munkáját. A legtöbben viszont hazugságokat terjesztve pánikot keltettek, élükön azzal a kamuvideós Korózs Lajossal, aki a járvány első hullámában egy kamuvideót készített, hogy lejárassa az egészségügyet. Hazug állításait Szabó Timea visszhangként itt a parlamentben többször meg is ismételte. De ez nem volt elég. Korózs Lajos nemrég egy több sebből vérző halálozási statisztikát osztott meg az interneten, amely 2016-os adatokra hivatkozott és azt próbálta bizonygatni, hogy a leggyakoribb halálozási ok Magyarországon a koronavírus. Utóbb kiderült, hogy csakúgy, mint a videójában szereplő áltények, a posztjához felhasznált statisztikák is alapvető hazugságon alapultak.</seg>
+<seg xml:id="AC8_13895.5">A legszomorúbb az, hogy az esetnek mind a mai napig nincs következménye. A kamuvideós Korózs Lajos továbbra sem vállalja a felelősséget. Nem mondott le a Népjóléti bizottság vezetéséről, holott az első botránya után ez minimum elvárható lett volna tőle. Az is megdöbbentő, hogy a baloldal szerint teljesen rendben van, hogy kamuvideót, kamustatisztikákat gyárt a Népjóléti bizottság elnöke. Ahelyett, hogy a baloldal egy másik baloldali elnököt választana, lecserélve Korózs Lajost, megvédik, azaz falaznak neki egy ordas nagy hazugsághoz.</seg>
+<seg xml:id="AC8_13895.6">Államtitkár úr, az lenne a kérdésem, hogy a kormány partnernek tude tekinteni egy olyan bizottsági elnököt, aki kamuvideóval támadja a védekezést</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-23-urgent_question-AC8_13896" who="#LászlóFöldi" ana="#regular"><note>FÖLDI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC8_13896.1">Köszönöm a szót, elnök úr. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tisztelt Ház! Először köszönetet szeretnék mondani a szabályok betartásában együttműködő lakosságnak, a megfeszített ütemben dolgozó egészségügyi alkalmazottaknak és természetesen Magyarország Kormányának, amely meghozta azokat a komplex intézkedéseket, amelyek segítségével a vírus okozta válság káros következményeit mérsékelni tudjuk.A koronavírus-járvány elleni küzdelemben az emberek életének és egészségének a védelme mellett fontos a vállalkozások megvédése, az emberek munkahelyeinek megőrzése is. A járvány második hulláma idején is számos intézkedést hozott a kormány a vállalkozók, munkavállalók érdekében. A szálláshelyeket a kijárási korlátozások idején a kormány azzal segíti, hogy megtéríti az érintetteknek az előzetes foglalások alapján számított bevételkiesés 80 százalékát. Az éttermeknek és a szabadidős létesítményeknek erre a 30 napra az alkalmazottaik után nem kell járulékot fizetni, és az állam megtéríti a munkavállalók bérének a felét abban az esetben, ha megkapják a fizetésüket. Érdemes még megemlíteni a fuvarozókat érintő könnyítést, miszerint éppúgy, mint a koronavírus-járvány első szakaszában, a kormány felfüggesztette a hétvégi kamionstopot. A magyar vállalkozások így rugalmasabban szervezhetik fuvarozási feladataikat, gyorsabbá válhat az üzletek, raktárak, gyárak ellátása.</seg>
+<seg xml:id="AC8_13896.2">Tisztelt Államtitkár Úr! Kérdezem, hogy milyen további kormányzati intézkedések várhatók még, hogyan segíti a kormány a munkavállalókat és a vállalkozásokat a koronavírus-járvány második hulláma idején is. Tisztelettel várom az államtitkár úr válaszát.</seg>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

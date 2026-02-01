@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2018-10-08" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2018-10-08 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2018-10-08 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="8" unit="speeches">8 beszéd</measure>
+        <measure xml:lang="en" quantity="8" unit="speeches">8 speeches</measure>
+        <measure xml:lang="hu" quantity="2505" unit="words">2505 szó</measure>
+        <measure xml:lang="en" quantity="2505" unit="words">2505 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2018-10-08">2018. 10. 08.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="8"/>
+          <tagUsage gi="seg" occurs="44"/>
+          <tagUsage gi="kinesic" occurs="11"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2018-10-08">2018-10-08</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2018-10-8-urgent_question-AC8_1938" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC8_1938.1">Köszönöm, elnök úr. Tisztelt Miniszter Úr! Először is szeretném visszautasítani Rétvári Bencének azon állítását, hogy mi politikai hasznot akarunk abból húzni, hogy egy beteg elhalálozott és a családja gyászol</seg>
+<seg xml:id="AC8_1938.2">(Dr. Rétvári Bence: De! Ezt csináljátok!)</seg>
+<seg xml:id="AC8_1938.3">Maga a család keresett meg bennünket, hogy védjük az érdekeiket, államtitkár úr. A másik meg: önök elég kényesek és finnyásak lettek az elmúlt nyolc évben, amikor, emlékezzünk vissza, maga Lázár János 2007-ben hódmezővásárhelyi polgármesterként egy mentőben meghalt mindszenti lakos kapcsán az alábbiakat mondta: az egészségügyi reform első áldozata ez a férfi. Hát, akkor kérem önöket, hogy ne legyenek már ennyire kényesek és finnyásak, ha próbáljuk azoknak az embereknek az érdekeit védeni, akik megkeresnek bennünket!</seg>
+<seg xml:id="AC8_1938.4">Tisztelt Miniszter Úr! Az Alkotmánybíróság a 23/1990</seg>
+<seg xml:id="AC8_1938.5">(X. 31.)</seg>
+<seg xml:id="AC8_1938.6">Ab-határozatában állapította meg, hogy az emberi élet és az emberi méltóság elválaszthatatlan egységet alkot, és minden mást megelőző legnagyobb érték. Jelen ügyben ezért az egészségügyért felelős miniszter által vezetett minisztériumnak az emberi élet vonatkozásában fennálló intézményvédelmi kötelezettségére is figyelemmel kellett volna lennie, hiszen az egészségügyi ellátás területén annak legfelsőbb szintjén ő testesíti meg az államot, neki kell végső soron gondoskodnia az emberi élet egészségügyi ellátás körében történő megmentéséről, de legalábbis arról, hogy a cselekedetei ne indítsanak el olyan okozatossági láncolatot, amely egy ember halálához vezethet.</seg>
+<seg xml:id="AC8_1938.7">Miniszter úr, ami az elmúlt hetekben történt, azt gondolom, legalább rávilágíthatna arra, hogy mekkora nagy baj van az egészségügyben, amit ugye, önök már lassan kilencedik éve nem kezelnek. Mai hír, hogy a pécsi sürgősségi osztály vezetője is felállt, és nem hajlandó tovább elvégezni a munkáját.</seg>
+<seg xml:id="AC8_1938.8">Miniszter úr, meddig fog ez még menni így? Hány embernek kell még meghalnia, hogy valami történjen? Erre adjon, legyen szíves, választ! Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-10-8-urgent_question-AC8_1939" who="#LajosKorózs" ana="#regular"><note>KORÓZS LAJOS (MSZP):</note>
+<seg xml:id="AC8_1939.1">Köszönöm szépen. Tisztelt Ház! Kedves Képviselőtársaim! Itt és most ki kell mondani, hogy válsághelyzet van az egészségügyben, és ezt a válsághelyzetet az elmúlt héten a kormányzati intézkedések tovább mélyítették.Ismeretes önök előtt, hogy a múlt héten lemondott az államtitkár asszony, ugyanakkor, szinte időben ugyanakkor kineveztek egy helyettes államtitkárt, de a kormányzati káoszt mi sem jellemzi jobban, hogy az előző helyettes államtitkárt elfelejtették fölmenteni. Úgy neveztek ki egy helyettes államtitkári posztra valakit, hogy az elődjét nem mentették fel. Ezen túlmenően lemondott a Honvédkórház orvosigazgatója. Az is ismeretes képviselőtársaim előtt, hogy itt kettős irányítás volt eleddig, de éppen hogy a katonai vezetés irányába helyeződött át a súlypontja a kórház irányításának.</seg>
+<seg xml:id="AC8_1939.2">Ezen túlmenően pedig felmondott a pécsi egyetemi klinika sürgősségi osztályának vezetője a hét végén. Azt mondta, hogy eddig tartott, nem bírja tovább, ő ezt nem vállalja, ami ott zajlik. És kérem szépen, meg kell hogy említsem én is: miniszter úr, itt nem akar senki politikai tőkét kovácsolni ennek az embernek a halálából, de miniszter úr, nagyon halkan mondom csak, vagy nagyon halkan kérdezem: ennek a családnak a szemébe kell valakinek nézni. Ennek a feleségnek meg kell azt mondani, hogy az ő férjét azért nem mentették meg, mert a műtétet elvégzendő határidőt megelőzően az orvost felmentették az állásából.</seg>
+<seg xml:id="AC8_1939.3">Miniszter úr, nem az orvos mondott fel. Az orvost eltávolították a pozíciójából. Ennek a gyereknek majd a szemébe kell nézni valakinek, és azt kell mondani, hogy téves kormányzati intézkedések tömkelege vezetett oda, hogy az édesapádnak meg kellett halni</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC8_1939.4">Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-10-8-urgent_question-AC8_1940" who="#PéterUngár" ana="#regular"><note>UNGÁR PÉTER (LMP):</note>
+<seg xml:id="AC8_1940.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A kormány egy ügyre koncentráló, „együgyű” külpolitikáját az jelzi, hogy amikor Szijjártó Péter a legutóbbi alkalommal Szerbia EU-csatlakozásáról beszélt, csupán a migrációs útvonalat emelte ki, ugyanakkor mindannyian tudjuk, hogy Magyarország elsődleges prioritása ebben az ügyben nem a migráció, hanem a vajdasági, délvidéki magyarság képviselete lenne. Emlékezünk ebben a Házban arra, hogy 2005-ben, korábbi ígéreteik ellenére a Fidesz mindenféle követelés vagy mindenféle feltétel megfogalmazása nélkül engedte Románia EU-csatlakozását a balliberális oldallal együtt, pontosan tudjuk, hogy ennek az lett az eredménye, hogy ezt a történelmi lehetőséget elszalasztották, és a mai napig nem lett székely autonómia.</seg>
+<seg xml:id="AC8_1940.2">Az a helyzet, hogy ugyanezt a történelmi hibát, történelmi bűnt kívánja megismételni a kormány láthatóan, hiszen többszöri kérdésemre mind írásban, mind szóban nem tudtak konkrét feltételeket megfogalmazni, ami alapján eldöntenék azt, hogy engedjüke Szerbia EU-csatlakozását vagy nem. Szeretném jelezni, hogy a nemzeti érdekképviselet úgy néz ki, amikor Szlovénia egy kicsi partszakasz miatt több mint hét évig előszobáztatta Horvátországot az Európai Unió előtt. Önöknek is megvan ez a lehetőségük. Itt az idő keménynek lenni!</seg>
+<seg xml:id="AC8_1940.3">De az a helyzet, hogy tudnék pár ötletet mondani, hogy mit kéne követelni a szerb kormánytól: a valódi autonómián kívül azt, hogy a ’44 utáni atrocitásokat kivizsgálják; azt, hogy a nemzeti tanácsok jogköreit visszaállítsák; és azt, hogy a Vajdaság napján bekövetkezett árulás, ami ugye a Vajdaság napján kijelölt egy olyan nemzeti ünnepet, ami az elszakítással azonos, ezeket feloldják.</seg>
+<seg xml:id="AC8_1940.4">Az a helyzet, Martonyi János azt mondta egy hasonló kérdésre korábban, hogy nem lehet dobbal verebet fogni. Lehet, hogy dobbal nem lehet verebet fogni, de úgy látom, hogy önök ezt a verebet meg sem akarják fogni, nem érdekli önöket az, hogy erre most van itt a lehetőség. Most kell vétózni, most kell bátornak lenni, nem akkor, amikor az ENSZ elfogad egy semmi jelentőséggel nem bíró dokumentumot valami olyanról, aminek konkrét következménye a magyar emberek számára nincs!</seg>
+<seg xml:id="AC8_1940.5">Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-10-8-urgent_question-AC8_1942" who="#ImreLászló" ana="#regular"><note>DR. LÁSZLÓ IMRE (DK):</note>
+<seg xml:id="AC8_1942.1">Köszönöm, elnök úr. Tisztelt Miniszter Úr! Valamennyien tudjuk, hogy az információ hatalom. Természetesen azt is tudjuk, hogy az ezzel történő visszaélés egy egészen más kategóriába tartozik.</seg>
+<seg xml:id="AC8_1942.2">(14.10)</seg>
+<seg xml:id="AC8_1942.3">Olyan gond és probléma van nekünk ez nem probléma, sőt kötelezettség , hogy itt a hozzászólásunkban lehetőség szerint azokra az adatokra támaszkodjunk, amik a valóságnak megfelelnek, és nem minősíthetők úgy, hogy fake news vagy éppenséggel kitalált, megkérdőjelezhető adatok.</seg>
+<seg xml:id="AC8_1942.4">Sajnálatosan azt kell önnel közölnöm, hogy a KSH folyamatosan a 2016. évi adatokhoz teszi lehetővé a hozzáférést, ami természetesen nekünk nem teszi lehetővé azt, hogy 2018 végén, októberében valóban, számokra alapozottan, reálisan és hitelesen el tudjuk mondani azokat a gondokat és problémákat, amik a saját területünket érintik. Információk alapján önök most 6 milliárd forintot fognak áldozni arra, hogy a Sargentini-jelentéssel kapcsolatosan tájékoztassák az állampolgárokat. Ez az önök dolga. Én viszont azt szeretném, ha lehetővé tennék az országgyűlési képviselők számára, hogy 2018 végén 2017. évi adatokat a KSH-nál tanulmányozhassunk, felhasználhassuk, és ennek megfelelően fogalmazhassuk meg véleményünket.</seg>
+<seg xml:id="AC8_1942.5">Őszinte tisztelettel várom a válaszát. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-10-8-urgent_question-AC8_1943" who="#HajnalkaJuhász" ana="#regular"><note>JUHÁSZ HAJNALKA (KDNP):</note>
+<seg xml:id="AC8_1943.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Látjuk, hogy Magyarország és Ukrajna viszonyát árnyalttá teszi a kárpátaljai magyarok oktatási jogainak kérdésköre, helyzete, és az is látható, hogy az ukrán kormány különböző törvényalkotási eszközökkel igyekszik a kárpátaljai magyarok szerzett jogainak csorbítására és tendenciózus megfélemlítésére.Az ukrán oktatási törvény kapcsán a Velencei Bizottság ajánlásainak megvalósítása sem sikerül az ukrán kormánynak, hiszen érdemi párbeszéd nem indult el, valamint az ukrán oktatási törvény 2023-ra történő kitolásában sem történt előrelépés. Az elmúlt hétnek van két olyan aktuális eseménye, amit mindenképpen meg kell említenünk.</seg>
+<seg xml:id="AC8_1943.2">Az egyik, hogy az ukrán parlamentbe az úgynevezett nyelvtörvény benyújtása első olvasatban bekerült, és így egyértelműen látszik az ukrán jogalkotói szándék, aminek az a célja, hogy az ukrán nyelv kizárólagos uralmát biztosítsa a politikai, gazdasági, társadalmi és kulturális élet teljes területén, ezzel gyakorlatilag teljesen visszaszorítva a nemzeti kisebbségek nyelvhasználati jogát, ezen belül a magyar nyelv nyelvhasználati jogát.</seg>
+<seg xml:id="AC8_1943.3">A másik ilyen aktuális esemény volt, hogy a beregszászi konzulátuson titkosszolgálati akciót hajtottak végre, és kiutasították a beregszászi konzult. Erre természetesen egy arányos válasz a magyar kormány részéről megtörtént. Látjuk azt, hogy nyomás alá próbálják helyezni Magyarországot, hogy Ukrajnával ezt a kérdéskört, a kárpátaljai magyarok jogainak védelmét kétoldalú viszony keretében rendezze, és ne gátolja és blokkolja tovább Ukrajna NATO-csatlakozási szándékait. A KMKSZ ellen is két támadás történt, a második alkalommal az ungvári székhelyet érte robbantás.</seg>
+<seg xml:id="AC8_1943.4">(14.40)</seg>
+<seg xml:id="AC8_1943.5">Látható, hogy Kijev nem a konfliktusok megoldásában, hanem elmélyítésében érdekelt. Ezért kérdezem államtitkár urat, hogy mit kíván a magyar kormán</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC8_1943.6">tenni további lépésként a kárpátaljai magyarok jogainak megvédése érdekében.</seg>
+<seg xml:id="AC8_1943.7">Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-10-8-urgent_question-AC8_1946" who="#SándorF.Kovács" ana="#regular"><note>F. KOVÁCS SÁNDOR (Fidesz):</note>
+<seg xml:id="AC8_1946.1">Elnök Úr! Tisztelt Miniszter Úr! Az elmúlt évek során megszokhattuk, hogy sorra buknak ki a szocialisták tevékenységéhez fűződő csontvázak. Elég csak a négyesmetró-panamára, az EMIR informatikai rendszerrel kapcsolatos visszaélésekre vagy a sukorói telekmutyira gondolnunk. De nem szabad megfeledkeznünk a DK-MSZP ügyvédje, Czeglédy Csaba többmilliárdos vagyoni hátrányt okozó ügyéről sem. A balliberális botrányok tovább folytatódnak. A bíróság első fokon a Szegedi Közlekedési Kft. korábbi vezetőjét tíz hónap, címzetes főjegyzőjét nyolc hónap, Botka László alpolgármesterét hat hónap, míg kabinetfőnökét tíz hónap szabadságvesztésre ítélte. Az elítéltek büntetésének végrehajtását a bíróság egy évre felfüggesztette. A járásbíróság megállapította, hogy a vádlottak 2008 és 2012 között 307 ingyenes parkolóbérletet biztosítottak anélkül, hogy erre közgyűlési felhatalmazásuk vagy egyéb jogszabályi alapjuk lett volna. Hab a tortán, hogy olyan személyek is kaptak parkolási ingyenbérletet, akiknek semmi közük nem volt az önkormányzathoz.</seg>
+<seg xml:id="AC8_1946.2">A történetre tekintettel a címzetes főjegyzőnek, az alpolgármesternek, a kabinetfőnöknek azonnal és végérvényesen távoznia kell a szegedi közéletből. Megítélésünk szerint Botka Lászlónak azonnali hatállyal fel kell mentenie a munkavégzés alól az elítélt alpolgármesterét, címzetes főjegyzőjét és kabinetfőnökét. Fölmerül a kérdés, ha Botka László nem tudott közvetlen bizalmasainak törvénysértő cselekedeteiről, akkor alkalmas-e egy megyei jogú város vezetésére.</seg>
+<seg xml:id="AC8_1946.3">A fentiekre tekintettel kérdezem tisztelt miniszter urat, hogy meddig vezethetik még elítélt bűnözők Szeged városát</seg>
+<seg xml:id="AC8_1946.4">(Szilágyi György: Éljen az elszámoltatás! Ez a legnagyobb eredmény!)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2018-10-8-urgent_question-AC8_1947" who="#MártonGyöngyösi" ana="#regular"><note>GYÖNGYÖSI MÁRTON (Jobbik):</note>
+<seg xml:id="AC8_1947.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Az Orbán-kormány napirendjén három éve a bevándorlás és a migráció van. 2015 körül, amikor a migrációs hullám tetőzött, akkor a Jobbik megadott az Orbán-kormánynak minden segítséget ahhoz, hogy gyorsan és hatékonyan meg tudja védeni Magyarország déli határát. A mozgósításban, a határvédelemben, illetve a kerítés megépítésében a Jobbik támogatta az önök által előterjesztett javaslatokat, és abban is segítettünk, hogy az Európai Unióban elmagyarázzuk a mígrációellenes álláspontját Magyarországnak</seg>
+<kinesic type="noise"><desc>Közbeszólás a kormánypártok soraiból: Balczó!</desc></kinesic>
+<seg xml:id="AC8_1947.2">Orbán Viktor nagyon helyesen 2015 szeptemberében, illetve 2016 áprilisában is előterjesztett egy-egy akciótervet Brüsszelben, ami arról szólt, hogy Európa közösen meg tudja védeni a határait, ami többek között a Frontex megerősítéséről is szólt. Azt mondta maga a miniszterelnök úr is, hogy ha a tagállam nem elég ahhoz, hogy az általa vállalt kötelezettségeknek eleget tudjon tenni, akkor kérjen segítséget a Frontextől, amely beavatkozva segítséget nyújt a határok védelmében. Ennek megfelelően 2016-ban az Európai Unióban, a Miniszterek Tanácsában az önök kormányának a képviselője is támogatta és az Európai Parlamentben is a fideszes képviselők támogatták és megszavazták a Frontex megerősítését célzó javaslatokat.</seg>
+<seg xml:id="AC8_1947.3">Most, ahogy a migrációs hullám csökken és most, hogy az európai uniós tagállamok végre rájöttek arra, hogy az őáltaluk korábban képviselt bevándorláspárti politika helytelen, most önök hirtelen megfordultak a damaszkuszi úto</seg>
+<seg xml:id="AC8_1947.4">(Dr. Rétvári Bence: A Jobbik forgolódik.)</seg>
+<seg xml:id="AC8_1947.5">és elkezdtek egyfajta migrációpárti politikát folytatni. Folyamatosan elutasítják a Jobbiknak a határvédelemre irányuló javaslatait arra, hogy állítsuk vissza a határőrséget. Több mint 20 ezer migránst engedtek be letelepedési államkötvénnye</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC8_1947.6">, több mint 3 ezer oltalmazottnak adtak bebocsátást Magyarországra, és folyamatosan a Frontex ellen kampányolnak.</seg>
+<seg xml:id="AC8_1947.7">Milyen ajándékot és kitől fogadtak el, tisztelt államtitkár úr, azért, hogy migrációpárti álláspontra helyezkedjenek? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban. Közbeszólás a Jobbik soraiból: Ez az!</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-10-8-urgent_question-AC8_1949" who="#TamásPintér" ana="#regular"><note>PINTÉR TAMÁS (Jobbik):</note>
+<seg xml:id="AC8_1949.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Legfőbb Ügyész Úr! Nem kell ahhoz jogi diploma, hogy egyértelműen kijelenthessük, Orbán Viktor az európai vezetők között a legkorruptabb vezető. 2002 és 2010 között elhűlve figyeltük azt, amikor a baloldali kormányzatok nokiás dobozokon keresztül lopták szét az országot, viszont ami most folyik, azt gondolom, már mindennek a teteje. Hiszen önök már a látszatra sem adnak.Az elmúlt hetekben Magyarország miniszterelnökéről kiderült, hogy 17 milliárdos luxusrepülőgéppel utazgat világszerte, amelynek költségeit Garancsi István állja; az a Garancsi István, aki cégein keresztül több tíz milliárdos állami megrendelésekhez jut, tehát jelentősen függ az állam által kiírt pályázatoktól.</seg>
+<seg xml:id="AC8_1949.2">Tisztelt Legfőbb Ügyész Úr! Nem kell ahhoz jogi diploma, hogy lássuk azt, az ügy mögött milyen bűncselekmények vannak, vagy azoknak gyanúját. Az már egyértelmű, hogy Orbán Viktor megsértette az Országgyűlésről szóló törvényt, hiszen nem fogadhatott volna el ilyen nagy értékű szolgáltatást. Ugyanakkor felmerül a hivatali vesztegetés és a hivatali vesztegetés elfogadása bűntettének gyanúja is, ami sokkal súlyosabb az előzőeknél.</seg>
+<seg xml:id="AC8_1949.3">Ezért szeretném öntől kérni, legfőbb ügyész úr, válaszoljon röviden, egyszerűen, de legfőképpen őszintén a következő kérdéseimre. Ön szerint törvényes-e, hogy egy közbeszerzéseket sorra nyerő üzletember az ország miniszterelnökét repteti ide-oda? Amit Orbán Viktor, Magyarország miniszterelnök tett, úgy hívják, hivatali vesztegetés elfogadása. A Btk. ezt szabadságvesztéssel bünteti. Mégis hogyan várják el a magyar emberektől azt, hogy tartsák be a törvényt, ha még maga az ország miniszterelnöke is szemberöhögi azt, aki számonkéri őt? Számíthatok-e arra, hogy az ügyészség komolyan veszi majd a munkáját, és végre lefolytat egy tisztességes nyomozást a feljelentésem miatt?</seg>
+<seg xml:id="AC8_1949.4">Köszönöm szépen előre is remélhetőleg őszinte válaszát. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

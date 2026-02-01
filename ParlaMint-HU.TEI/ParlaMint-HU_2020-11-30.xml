@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2020-11-30" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2020-11-30 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2020-11-30 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="17" unit="speeches">17 beszéd</measure>
+        <measure xml:lang="en" quantity="17" unit="speeches">17 speeches</measure>
+        <measure xml:lang="hu" quantity="5452" unit="words">5452 szó</measure>
+        <measure xml:lang="en" quantity="5452" unit="words">5452 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2020-11-30">2020. 11. 30.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="17"/>
+          <tagUsage gi="seg" occurs="73"/>
+          <tagUsage gi="kinesic" occurs="16"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2020-11-30">2020-11-30</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2020-11-30-urgent_question-AC8_13989" who="#SándorSzékely" ana="#regular"><note>SZÉKELY SÁNDOR (független):</note>
+<seg xml:id="AC8_13989.1">Köszönöm szépen a szót, elnök úr. Államtitkár Úr! Tisztelt Ház! Ebben a Házban nemrégiben elfogadták az orvosokról és az egészségügyi szakdolgozókról és a kórházi dolgozókról szóló törvényt, amelyben bár vannak valóban előremutató dolgok is, de sajnos összességében ez a törvény azt eredményezi, hogy nagyon sok orvos és rengeteg-rengeteg szakápoló azt tervezi, hogy el fogja hagyni a pályát. Úgy tudom, hogy Pintér Sándor belügyminiszter úr az előkészületek során tanácsadójává fogadta az orvoskamara elnökét, Kincses Gyulát, noha a kamaráknak nem dolga javadalmazások ügyében eljárni a kormányok felé, ráadásul az egészségügyi szakszervezeteket majdnem teljesen kihagyták a tárgyalási folyamatokból.</seg>
+<seg xml:id="AC8_13989.2">A helyzet kuszaságát látva, és a nagyon rövid döntési időre tekintettel hiszen egy-két nap alatt nyomták át ezt a törvényt a Házon , én ehhez a törvényhez nem adtam a nevemet. Természetesen tisztában vagyok azzal, hogy egy képviselő számára milyen nehéz egy olyan törvény ellen szavazni, amiben béremelés is van, de azt gondolom, hogy ebben az esetben jobban tette volna a tisztelt Ház, ha nemmel szavaz, mert ezzel a törvénnyel mindenki veszíteni fog, beteg és orvos egyaránt.</seg>
+<seg xml:id="AC8_13989.3">Azt kockáztatjuk, hogy az állampolgárok a jövőben csak úgy jutnak normális gyógyításhoz, ha azt a piacon megfizetik, hiszen várhatóan rengeteg magyar orvos és rengeteg szakápoló fog magánpraxisba vonulni, külföldre menni vagy elhagyni a pályát.</seg>
+<seg xml:id="AC8_13989.4">Összességében tehát önök egy kamu fizetésemelés kommunikációjával hosszú távon fizetőssé teszik az egész magyar egészségügyet, rövid távon pedig a járványhelyzet kellős közepén veszélyeztetik az ország lakosságának az életét. Kérdezem tehát, hogy tervezike az orvosok és a szakdolgozók jogállására vonatkozó törvényt visszavonni, illetve, hogy mikor akarnak a magyar egészségügy és a magyar emberek egészségügyi ellátásának valódi problémáival foglalkozni. Köszönöm a válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-30-urgent_question-AC8_14034" who="#AnettBősz" ana="#regular"><note>BŐSZ ANETT (DK):</note>
+<seg xml:id="AC8_14034.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Tud úszni? Nem? És ha megfizetem? Hofi Géza poénjának minthogyha a fordítottját valósítaná meg a kormány a munkanélküliekkel szemben, amikor azt a háttérgondolatot vélem felfedezni az önök politikájában, hogy önök szerint a munkanélkülieket addig kell sanyargatni, ameddig teljesen elfogynak a tartalékaik, és ilyen módon majd akkor rábírhatjuk őket arra, hogy végre-valahára újra munkát találjanak. Én szeretném első körben megkérdezni államtitkár urat, hogy ha önök nem hiszik, hogy az emberek megfelelő társadalomszervezéssel rábírhatók az erkölcsös és a mind többek boldogulásához szükséges magatartásra, akkor miért lettek egyáltalán politikusok. Félmillió fő fölé emelkedett hazánkban a munka nélkül maradtak száma, és jelentős részük már mindenfajta munkanélküliségi ellátásból kiesett. A válság miatt megszűnt vagy lecsökkent keresetek pótlására alig tettek lépéseket, és Európa számos országában találunk olyan időleges megoldásokat, amelyek akár csak a válság idejére, de megnövelték, mondjuk, az álláskeresési járadéknak a hosszát vagy legalább az álláskeresési járadék mennyiségét.</seg>
+<seg xml:id="AC8_14034.2">Dunaújváros önkormányzata hiába kérte egyhangú szavazással a kormány közbenjárását a Dunaferr 4500 dolgozójának megsegítésére, elutasították őket, és azt látjuk, hogy a munkanélküliségi adatok ugyan az önök által nagyon szeretett Kurzarbeit-program miatt nem néznek ki annyira rosszul, ugyanakkor azt látjuk, hogy több százezer ember megélhetése, és akkor itt családokról beszélünk, több százezer ember megélhetése és az ő családjuk megélhetése került veszélybe.</seg>
+<seg xml:id="AC8_14034.3">Én azt gondolom, tisztelt államtitkár úr, hogy ezzel mindenféleképpen kezdeni kell valamit, és nem értem azt, amikor az ellenzék kéri önöket, hogy változtassanak a válságra való tekintettel, akkor önök miért kötik az ebet a karóhoz. Várom megtisztelő válaszát. Köszönöm, elnök úr</seg>
+<kinesic type="applause"><desc>Taps az LMP és a Jobbik padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-30-urgent_question-AC8_14036" who="#LászlóSebián-Petrovszki" ana="#regular"><note>SEBIÁN-PETROVSZKI LÁSZLÓ (DK):</note>
+<seg xml:id="AC8_14036.1">Köszönöm szépen, elnök úr. Tisztelt Ház! Államtitkár Úr! Egy kicsit a koncessziókról fogom én most önt kérdezni.Mi is az a koncesszió? A koncesszió az, amikor az állam átenged egy saját, kizárólagos jogot valaki másnak, ami egyébként egy jövedelmező tevékenység, és valaki más fogja ezt a tevékenységet elvégezni úgy, hogy az államnak jelentős haszna azért származik ebből.</seg>
+<seg xml:id="AC8_14036.2">Ilyen például tipikusan a pénznyerő automaták koncessziója, önök azonban magát a koncessziót tekintik pénznyerő automatának, ugyanis ezeket a koncessziókat az elmúlt években rendre az önökhöz, a NER-hez közel álló üzletemberek nyerték el, és sorozatban ők járnak jól, nem pedig az állam. Rendszeresen ezek a vállalkozók többször annyi bevételre tesznek szert, mint maga az állam.</seg>
+<seg xml:id="AC8_14036.3">Mondok példákat: ott van az Országos Dohányboltellátó Kft., amely a 2015-ös létrehozása óta kizárólagos beszállítója dohánytermékekkel az ország összes trafikjának tudják, ez az, amit önök államosítottak , no, ez alatt a négy év alatt 14 milliárd forintnyi osztalékot fizetett ki a tulajdonosainak, akik közel állnak az önök világához, a Fideszhez, mindösszesen 2 milliárdot csak az államnak koncessziós díjként.</seg>
+<seg xml:id="AC8_14036.4">(17.50)</seg>
+<seg xml:id="AC8_14036.5">Nyilvánvalóan hétszer annyira jobban érte meg nekik ez, mint az államnak, amely ezt a koncessziót kiadta nekik.</seg>
+<seg xml:id="AC8_14036.6">De mondhatnám a kaszinókat, kezdve ott, hogy az online bekötött pénztárgépek évekkel később kerültek csak terítékre, mint a legegyszerűbb kisboltok pénztárgépei kapcsán. Még mindig nem tudjuk, hogy ez rendben vane ott. Vagy a szerencsejáték-ipart tehermentesítették a közterhek alól már tavasszal, az első hullám idején, és most, amikor bezártak a színházak, mozik, vendéglők, akkor a kaszinók nyugodtan működhetnek még. Nyilvánvalóan a rulettkerék pörgése elriasztja a legelszántabb vírust is.</seg>
+<seg xml:id="AC8_14036.7">Kérdezem államtitkár urat, miért volt arra szükség, hogy ezek után egy Nemzeti Koncessziós Irodát is létrehozzanak a minisztériumban. Miért nem volt hajlandó erre a Pénzügyminisztérium? Miért önökhöz került ez a terület? Köszönöm.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-30-urgent_question-AC8_14038" who="#LászlóLórántKeresztes" ana="#regular"><note>DR. KERESZTES LÁSZLÓ LÓRÁNT (LMP):</note>
+<seg xml:id="AC8_14038.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Valóban, itt egy kifejezetten egy szakpolitikai kérdést szeretnék feltenni, ezért elfogadom, hogy államtitkár úr válaszol.Itt az iménti számháború után én azért szeretném kérdezni államtitkár urat, abban, gondolom, egyetértünk, hogy egy rendkívül mély társadalmi és gazdasági válságot él meg ma Magyarország, tehát ezt, gondolom, a kormány is látja és a kormány is elismeri. Látható, hogy sok ezer család került rendkívül nehéz helyzetbe. És egy ilyen krízis idején alapvető elvárás és jogos elvárás a magyar emberektől, hogy a kormány a legjobb tudása szerint tegye a dolgát, és minden rendelkezésre álló eszközt arra használjon, hogy hatékony legyen az egészségügyi védekezés, a gazdasági védekezés, és segíteni lehessen azokon, akik nehéz helyzetbe kerültek.</seg>
+<seg xml:id="AC8_14038.2">Mi azt látjuk, hogy önök cserben hagyták őket, hiszen megkéstek és elégtelenek az intézkedések, és ami külön egy óriási probléma, hogy még ebben a nehéz helyzetben, a válság idején sem engedik el a gigantikus beruházásokat, olyan gigantikus beruházásokat, amelyeknek a megtérülésére semmiféle garancia nincs. Helyette önök brutális megszorításokat kezdtek el érvényesíteni, és ezzel közvetlenül a magyar embereknek okoznak károkat.</seg>
+<seg xml:id="AC8_14038.3">Amikor önök rengeteg pénzt elvonnak az önkormányzatoktól, akkor az alapvető közszolgáltatásokat veszélyeztetik, mint a közösségi közlekedés, az ivóvízellátás, az óvodai, bölcsődei ellátás, tehát nem az önkormányzatokat, az embereket károsítják meg; a szakmaiatlan döntésekkel pedig konkrétan felélik a jövőt.</seg>
+<seg xml:id="AC8_14038.4">(17.00)</seg>
+<seg xml:id="AC8_14038.5">Egy ilyen ágazat a közlekedéspolitika, amely egyrészt a megszorítások, másrészt pedig a rossz szakmai döntések áldozata. Látható, hogy egy ilyen krízishelyzetben magukra hagyták az önkormányzatokat a helyi közösségi közlekedés finanszírozásában, hagyták továbbra is lepusztulni, leromlani a vidéki úthálózatot. Még mindig sokkal több út megy tönkre évente, mint amennyit önök felújítanak. Tíz éve szinte semmit nem tettek a vidéket ellátó vasúti mellékvonalak fejlesztéséért, amivel 34 vasúti mellékvonalat gyakorlatilag halálra ítéltek. És fenntartják az ezermilliárdos Budapest-Belgrád vasúti projektet, ami semmi másnak nem jó, mint a kínai nagyhatalmi érdekeknek, és Mészáros Lőrinc cégeinek 300 milliárdot hoz.</seg>
+<seg xml:id="AC8_14038.6">Államtitkár úr, elfogadjáke, hogy egy ilyen krízishelyzetben legalább ezt a beruházást le kell állítani, és ezt a közel ezermilliárd forintot a magyar emberek érdekében kell felhasználni? Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-30-urgent_question-AC8_14039" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC8_14039.1">Köszönöm a szót, elnök úr. Államtitkár úr, ön is bizonyára tudja, hogy a KSH legfrissebb adatai szerint egy év alatt 72 ezer nyugdíjas csúszott szegénysorba Magyarországon, az elmúlt tíz évben pedig több százezren. Önök nem mondanak igazat akkor, amikor azt állítják, hogy a nyugdíjasok helyzete javult 2010 óta. Nem, nem javult, ellenkezőleg, folyamatosan romlott. A GDP növekedésére önök nagyon büszkék, de azt tudjuk, hogy ebből egyetlenegy forint nem jutott a nyugdíjak emelkedésére. És a prémiumnyugdíjat ne említse, államtitkár úr, mert az nem növelte meg a nyugdíjakat, azt megkapták, de a nyugdíj összege maradt változatlan.</seg>
+<seg xml:id="AC8_14039.2">Jelenleg közel 70 ezer ember havi 50 ezer forintnál kevesebből él. Ha az összeg nagyságát érzékeltetném, talán annyi, mint amennyiből ön egy pár cipőt vásárolni tud. Ebben az évben, 2020-ban 600 ezer idős ember kap 100 ezer forint alatti összeget, miközben az élelmiszer ára drasztikusan megemelkedett, a gyümölcsöké egy év alatt több mint 30 százalékkal.</seg>
+<seg xml:id="AC8_14039.3">A járvány első hulláma alatt a családok a tartalékaikat felélték, aminek az a következménye, hogy nem nagyon tudják támogatni a szüleiket vagy a nagyszüleiket. Ez tragédia! Járvány van, az idős emberekre nagyon nehéz karácsony vár minden tekintetben. Államtitkár úr, ne játsszanak az idősek életével, megérdemlik a tisztes megélhetést.</seg>
+<seg xml:id="AC8_14039.4">Aki gyorsan segít, kétszer segít. Éppen ezért az LMP azt kéri a kormánytól, hogy a 13. havi nyugdíj részletét még most, karácsony előtt fizessék ki. Így egyetlenegy kérdésem van államtitkár úrhoz: a kormány megfontoljae és hajlandóe ezt a javaslatot befogadni</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-30-urgent_question-AC8_14041" who="#IstvánHiller" ana="#regular"><note>DR. HILLER ISTVÁN (MSZP):</note>
+<seg xml:id="AC8_14041.1">Tisztelt Elnök Úr! Képviselő Asszonyok és Képviselő Urak! Tisztelt Államtitkár Úr! A koronavírus-járvány tavasszal digitális munkarendbe kényszerítette a magyar oktatást, pedagógusainkat, gyermekeinket, diákjainkat. Senki által nem akart helyzet ez, mégis ez a kényszer szülte helyzet egyfajta lehetőség is, lehetőség arra, hogy áttekintsük, működike, és hogyan működik Magyarországon a digitális oktatás. Az a nagy nehezen meghozott döntés márciusban, hogy az iskolákat bezárják, ezután a döntés óta hetek, hónapok teltek el, aztán jött a nyári szünet már hogy a diákságnak , majd megkezdődött az új félév, az új tanév.</seg>
+<seg xml:id="AC8_14041.2">Azt szeretném kérdezni, államtitkár úr, hogy összegeztéke legalább már a tavaszi, az elmúlt tanév második félévének ilyen jellegű tapasztalatait, elvégeztéke azt a munkát, amely által világos képünk van arról, hogy hogyan működik Magyarországon a digitális oktatás. Egészen konkrétan azt kívánom tudni, hogy hányan, a diákok hány százaléka nem vett részt, nem tudott részt venni a digitális oktatásban, és ha megmondja ezt a számot, azt is megkérdezem, hogy miért. Azt akarom tudni, hogy a részt vettek közül hányan hullottak ki a digitális oktatásból annak egész folyománya alapján. Azt is tudni szeretném, hogy a központosított oktatásügy az ön megjegyzése, megítélése, az önök véleménye szerint mennyire látta el a feladatát, mennyire szolgálta ki a tanárokat, mennyire segítette a diákokat ez alatt az időszak alatt. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-30-urgent_question-AC8_14042" who="#ZsoltMolnár" ana="#regular"><note>DR. MOLNÁR ZSOLT (MSZP):</note>
+<seg xml:id="AC8_14042.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Valóban, a vírussal, a járvánnyal szemben az önkormányzatok állnak az élen a védekezésben, sokszor erőn felül is küzdenek önkéntes teszteléssel az önkormányzatok maguk szereztek be teszteket , a szociális háló megerősítésével, kis- és középvállalkozásoknak nyújtott segítséggel, eszközbeszerzéssel, és mi azt tapasztaljuk, hogy önök nem partnernek tekintik az önkormányzatokat, hanem inkább ellenfélnek. Az önök politikai kultúrájába az önkormányzatok autonómiája semmilyen módon nem illik bele, sarcolják az önkormányzatokat.Azt a kérdést kell feltenni, hogy hova vezet ez az út, és hova vezet az ingyenes parkolás kérdése, amely már tavasszal is megbukott, hiszen látható volt a közlekedési káosz, dugók, különböző olyan belvárosi jelenetek, amelyek a káoszt idézik, a légszennyezettség növekedése; azonban idén ősszel másodszor is nekifutottak ennek a tervüknek; még akkor is, ha a parkolóházak megnyitása némi innovációt jelent, maga a belvárosi parkolás ingyenessé tétele jóval több problémát okoz.</seg>
+<seg xml:id="AC8_14042.2">És azt az érvet használják hiszen Magyarország miniszterelnöke vagy a Miniszterelnökséget vezető államtitkár is azt mondta , hogy az egészség védelme, a tömegközlekedésben a kontaktok csökkentése, az emberi élet védelme, valamint az autóval rendelkezők számára kedvezmények adása mindenképpen előreviszi ezt az ügyet.</seg>
+<seg xml:id="AC8_14042.3">Azt kérdezem, hogy kívánjáke felülvizsgálni a tapasztalatok alapján. Meghallgatjáke a belvárosban közlekedőket, a futárokat, a mentősöket, a taxisokat vagy az arra közlekedőket, és kívánnake változtatni ezen a gyakorlaton, vagy pedig kitartanak a mellett a gondolkodásmód mellett, hogy egyrészt sarcolni kell az önkormányzatokat, másrészről az ingyenes parkolás az, ami előreviszi a járvánnyal szembeni védekezést? Köszönöm szépen a válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-30-urgent_question-AC8_14043" who="#ZitaGurmai" ana="#regular"><note>DR. GURMAI ZITA (MSZP):</note>
+<seg xml:id="AC8_14043.1">Köszönöm szépen. Tisztelt Ház! A Szerencsejáték Zrt. néhány éve játszótérépítési programot indított. „A játék összeköt” nevű kezdeményezésben olyan különleges játszótereket hoznak létre az ország különböző pontjain, ahol fogyatékos és nem fogyatékos gyerekek együtt tudnak játszani. Létrehozták a Nagykarácsony sorsjegyet, amelynek bevételéből ezt a programot finanszírozzák. Ez egy rendkívül nemes gondolat, jó kezdeményezés. Sajnos a megvalósításról már nem mondhatjuk el ugyanezt. Az állami cég által eddig épített 13 játszóteret ugyanis kizárólag fideszes vezetésű önkormányzatok kapták. Hogy a települések kiválasztása mi alapján történt, azt sajnos nem tudhatjuk, mert az állami tulajdonú Szerencsejáték Zrt. a döntések szempontjait nem hajlandó nyilvánosságra hozni. Nem véletlenül mondtam, hogy állami tulajdonú vállalatról van szó. Ha mindez egy magáncégnél történne, nem szólhatnánk egy szót sem, hiszen a tulajdonos arra fordítja a pénzét, amire akarja. Ebben az esetben azonban állami vállalatról van szó, amely nem teheti meg, hogy politikai elfogultság alapján dönt arról, hogy a kormánypárti településeken épít játszóteret, az ellenzéki vezetésű helyeken pedig nem.</seg>
+<seg xml:id="AC8_14043.2">Az önmagában is erősen kifogásolható, hogy egy állami cég több százezer gyereket büntet azért, mert a szüleik nem a Fideszre szavaztak. Ez nagyon rossz irány. Mert tegyük fel a kérdést: vajon mit szólna a Szerencsejáték Zrt., ha a játszótérépítési programban mellőzött ellenzéki településeken élő szülők pedig azt mondanák: nem vásárolnak több játékszelvényt egy ilyen fideszes állami vállalattól?</seg>
+<seg xml:id="AC8_14043.3">Tisztelt Államtitkár Úr! Remélem, ön is látja, hogy milyen veszélyes az effajta szelektálás. Éppen ezért kérdezem önt: milyen lépéseket kíván tenni azért, hogy a Szerencsejáték Zrt. működésére ne vetülhessen a politikai elfogultság árnyéka? Utasítja majd a miniszter asszony a Szerencsejáték Zrt.-t, hogy hozza nyilvánosságra az eddigi helyszínek kiválasztásának szempontjait? És kérem, a válaszában ne hivatkozzon arra, hogy ezeknek a szempontoknak semmi közük nincs ahhoz, hogy valamennyi település fideszes, mert ennek nagyjából annyi az esélye, mint egy lottóötösnek. Várom a válaszát</seg>
+<kinesic type="applause"><desc>Varga Zoltán tapsol.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-30-urgent_question-AC8_14044" who="#AnitaPotocskánéKőrösi" ana="#regular"><note>POTOCSKÁNÉ KŐRÖSI ANITA (Jobbik):</note>
+<seg xml:id="AC8_14044.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Egy dologban biztos nincsen közöttünk vita, hogy a magyar emberek biztonsága a legfontosabb, biztonság helyben, a településeken, amelynek a záloga egyébként az önkormányzatiság lenne. Azonban az elmúlt időszakban önök sorra olyan intézkedéseket hoznak, amivel nemhogy építenének, hanem rombolnak, és ezt már nemcsak az ellenzéki városvezetők mondják, hanem fideszes polgármesterek is felemelték ez ellen a hangjukat. A folyamatos jogkörelvonások, forrásmegvonások mind az önök kicsinyes bosszúja a tavalyi önkormányzati választáson elszenvedett vereségük okán. Miért nem látják a valóságot? Miért nem tanulnak Európától? A környező országokban ugyanis éppen hogy segítik az önkormányzatokat, és nem forrásokat vonnak el. Erre önök mit csinálnak? Iparűzési adó, gépjárműadó, és sorolhatnánk, hogy mi mindent tettek az önkormányzatok ellen, és hogyha ez nem lenne elég, akkor egyes fideszes polgármesterek még a rendkívüli jogrenddel is visszaélnek.</seg>
+<seg xml:id="AC8_14044.2">Nézzük, tavasszal mi történt! Komló fideszes városvezetése, a polgármester úr egy személyben elfogadta a város költségvetését. De ami most, ősszel történt, az egész egyszerűen felháborító és elképesztő! Amikor magyar családok azért küzdenek, hogy túléljék ezt a járványhelyzetet, Gyál fideszes polgármestere saját magának egy személyben 4,1 millió forintos jutalmat szavazott meg. Nem lett volna ennek jobb helye máshol, az önkormányzatnál</seg>
+<kinesic type="noise"><desc>Közbeszólás a kormánypártok soraiból: És a baloldali önkormányzatok? Az elnök megkocogtatja a csengőt.</desc></kinesic>
+<seg xml:id="AC8_14044.3">Nem lett volna ennek olyan helye, amivel az ottani embereket tudják segíteni?</seg>
+<seg xml:id="AC8_14044.4">Egész egyszerűen ki kell mondanunk, hogy önöknek nem a magyar emberek biztonsága az első, hanem a haverjaik, a barátaik és a strómanjaik anyagi biztonsága. Őszintén kérdezem az államtitkár urat: mikor mondják ki végre, hogy mi a valódi célja az önkormányzatok ellehetetlenítésének és kivéreztetésének? Mert ez, amit önök művelnek, egész egyszerűen felháborító és vérlázító! Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzék soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-30-urgent_question-AC8_14045" who="#CsabaGyüre" ana="#regular"><note>DR. GYÜRE CSABA (Jobbik):</note>
+<seg xml:id="AC8_14045.1">Köszönöm szépen a szót, elnök úr. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Képviselőtársaim! Éppen tíz éve annak, hogy a Fidesz-KDNP felszámolta Magyarországon a magánnyugdíjpénztáraka</seg>
+<seg xml:id="AC8_14045.2">(Dr. Rétvári Bence: Azt hittem, a demokráciát!)</seg>
+<seg xml:id="AC8_14045.3">, mindezt két hónap alatt vitte véghez, 2010 novemberében és decemberében. Még a 2010. év elején védendő értéknek nevezte a Fidesz a magánnyugdíjpénztárak intézményét, nyilván erről szólt a programja is, majd bő fél évvel a kormány megalakulása után teljesen megváltozott a vélemény: Orbán Viktor miniszterelnök úr nyilatkozta, hogy nincsen szükség a magánnyugdíjpénztárakra, Brüsszelben kijelentette, hogy Magyarországon a hárompilléresből kétpilléressé válik a nyugdíjrendszer. Három példa állt a kormány előtt, hogy mit valósítson meg ezzel kapcsolatban: a legdrasztikusabb Argentína példája volt, 2008-ban ott 100 százalékban államosították a magánnyugdíjkasszát; aztán a kettes volt a finomabb módszer, ösztönözni a tagokat az önkéntes visszalépésre az állami rendszerbe; a hármas pedig az, hogy állami alapba vinni a magánnyugdíjpénztárak pénzét, és ott külön számlán kezelni az egyes polgároknak a megtakarítását.</seg>
+<seg xml:id="AC8_14045.4">2010 őszén több mint hárommillió tagja volt Magyarországon a magánnyugdíjpénztáraknak</seg>
+<seg xml:id="AC8_14045.5">(Dr. Rétvári Bence: A kötelező magánnyudíjpénztáraknak!)</seg>
+<seg xml:id="AC8_14045.6">És hogy milyen nagy összegről van szó: 3000 milliárd forint, ez volt a tétje ennek. Ezt sikerült a 2010. október 25-ei törvény alapján tenni: járulékelvonás a magánnyugdíjpénztáraktól, majd megnyitották a visszalépés lehetőségét, de mivel ez nem vezetett eredményre, nem lett tömeges mértékű a visszalépés, ezért kilátásba helyezték, hogy aki december 31-éig nem lép vissza az állami rendszerbe, azt megfosztják az állami nyugdíj lehetőségétől.</seg>
+<seg xml:id="AC8_14045.7">Ennek eredményeként az érintettek 97 százaléka úgy döntött, hogy visszalép, ez alapján 3000 milliárd forint került vissza az állam kasszájába, és ezzel mind a mai napig nem számoltak el. Hol van a magánnyugdíjkassza vagyona? Hol a pénz, államtitkár úr? Köszönöm szépen.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-30-urgent_question-AC8_14046" who="#GergelyKálló" ana="#regular"><note>KÁLLÓ GERGELY (Jobbik):</note>
+<seg xml:id="AC8_14046.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Hadd kezdjek egy idézettel! A kormány pénteki ülésén fogja elfogadni az új nemzeti buszstratégiát, s ma abban állapodtunk meg, hogy ennek keretében lecseréljük azokat a buszjárműveket, amelyek ma az önök városának, Dunaújváros utcáin ismeretesek, és ha minden igaz, akkor sikerül ezeket elektromos buszokká átalakítanunk, illetve elektromos buszokra cserélni.2016 májusából idézek, Orbán Viktor jelentette be Galambos Dénes akkori országgyűlési képviselővel a „Modern városok” program keretein belül azt, hogy meg fogják újítani a dunaújvárosi buszközlekedést. Ezt a bejelentést egy máig hatályos kormányrendelet követte, az 1394/2016., ez VII. hó 21-én lett elfogadva, és, mondom, mind a mai napig hatályban van. Ennek a 4. pontját idézném:</seg>
+<seg xml:id="AC8_14046.2">A kormány egyetért a városi autóbusz-állomány cseréjének szükségességével, amely érdekében felhívja a nemzetgazdasági minisztert, hogy vizsgálja meg az autóbusz-állomány környezetbarát, korszerű elektromos hajtású buszokkal történő lecserélésének lehetőségét, továbbá a vizsgálat alapján, a nemzeti autóbuszgyártás cselekvési programjával összhangban tegyen javaslatot az autóbusz-állomány cseréjéhez, elektromos hajtású buszok beszerzéséhez szükséges intézkedésekre. Ezt tartalmazza a kormányrendelet.</seg>
+<seg xml:id="AC8_14046.3">Ember tervez, Isten végez. Tudom, hogy néhány ígéretet nem azért nem lehet betartani, mert hiányzik mögüle az akarat, hanem azért, mert a körülmények úgy hozzák. Az elektromos buszok kapcsán is felmerült, hogy nem biztos, hogy a városba be tudjuk tervezni a töltőállomásokat és biztosítani tudjuk a buszokhoz a feltételeket. De mégis kérdezném az államtitkár urat, hogy hogy áll a vizsgálat, hogy áll az elektromos vagy nem elektromos buszok beszerzése, amit a „Modern városok” programon keresztül ígértek nekünk. Köszönöm a válaszait</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-30-urgent_question-AC8_14047" who="#HajnalkaJuhász" ana="#regular"><note>JUHÁSZ HAJNALKA (KDNP):</note>
+<seg xml:id="AC8_14047.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! 2020 elején még nem sejtettük, hogy idén egy világjárvánnyal kell megküzdenünk, az orvosok, ápolók, egészségügyi dolgozók emberfeletti teljesítményére van és lesz szükségünk ahhoz, hogy minél több emberéletet megmentsünk a járványtól. Rendkívül fontos, hogy mindenki betartsa a kormány által hozott veszélyhelyzeti szabályokat, különösen a maszkviselést, illetve a távolságtartást, mert így tudjuk megvédeni a járványtól az idős embereket, akikre az eddigi adatok alapján nagyobb veszélyt jelent a vírus.</seg>
+<seg xml:id="AC8_14047.2">A koronavírus-járvány terjedése nem állt meg, és megnyugtató megoldást a járvány leküzdésében csak a biztonságos, szövődményektől mentes oltóanyag adhat. Szakemberek szerint mintegy tíz olyan vakcina van engedélyezés alatt világszerte, amerikai, kínai, orosz, izraeli vagy más országok gyógyszerkutató intézeteiéi, amely megfelelő védettséget nyújthat a vírus ellen. Úgy tudjuk, minden olyan országgal tárgyaltunk, ahol ígéretes a vakcinafejlesztés. Nem politikai, hanem egészségügyi kérdés, hogy ha valahol korábban készül el a vakcina, akkor Magyarország onnan is rendeljen. Ma a költségek nagysága és a beszerzésre fordított munka másodlagos, hiszen versenyt futunk az idővel. Most azon kell fáradoznunk, hogy a megfelelő egészségügyi ellátás mellett hazánk minél gyorsabban vakcinához jusson. A Pfizer arról tájékoztatta a magyar kormányt, hogy jól áll ugyan a harmadik engedélyezési fázissal, de első körben az Egyesült Államoknak szállít, és a szerződéses előleg felét inkább visszautalja.</seg>
+<seg xml:id="AC8_14047.3">Mindez azt igazolja, hogy Magyarország számára fontos, hogy minden lehetséges vakcinaforrást számításba vegyen. Kérdezem ezért államtitkár urat, hogy mennyi vakcinát sikerült lekötni a tárgyalások során, és hogy elegendő mennyiségű vakcina álle majd rendelkezésre a koronavírus elleni ingyenes védőoltáshoz. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-30-urgent_question-AC8_14048" who="#SándorBurány" ana="#regular"><note>BURÁNY SÁNDOR (Párbeszéd):</note>
+<seg xml:id="AC8_14048.1">Elnök Úr! Tisztelt Ház! Tisztelt Miniszter Úr! Teljesen világos, hogy ha egy munkavállalót a munkahelyén munkájának ellátása közben baleset éri, akkor ez egy munkahelyi balesetnek minősül, a munkavállaló ebben az esetben, ha nem az önhibájából következett be a baleset, minden szabályt betartott, nem a megszokott, szokásos 60 százalékos táppénzre jogosult, hanem magától értetődően 100 százalékos táppénz illeti meg.Mindnyájan tudjuk, hogy most számos olyan munkahely létezik az országban, ahol az ott dolgozók ki vannak téve a vírusveszélynek; a teljesség igénye nélkül elsősorban az orvosok, a mentősök, az ápolók, a szociális munkások, de a sort még folytathatnám. Elvileg egyébként, az orvosokra alkalmazva eredendően létezik egy olyan jogszabály, amely lehetővé tenné az ő esetükben is, hogy ha munkájuk, hivatásuk teljesítése közben elkapják a koronavírust, akkor őket is megillesse a 100 százalékos táppénz, azonban a jogszabály alkalmazása olyan bonyolult, hogy a vírus gyakorlatilag körbeérné az Egyenlítőt, megkerülvén a Földet, mielőtt a konkrét munkavállaló a pénzéhez jutna 100 százalékos táppénz formájában.</seg>
+<seg xml:id="AC8_14048.2">Első körben arra várom a választ miniszter úrtól, hogy várhatóe, hogy a kormány gyorsan olyan jogszabályt változtat saját hatáskörben, vagy ha kell, beterjeszti az Országgyűlés elé, hogy most vírushelyzet idején, a járvány kellős közepén, akik hivatásuk teljesítése közben kapják el a vírust, azokat 100 százalékos táppénz illesse meg. Első körben erre várom megtisztelő válaszát. Köszönöm szépen.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-30-urgent_question-AC8_14049" who="#BenceTordai" ana="#regular"><note>TORDAI BENCE (Párbeszéd):</note>
+<seg xml:id="AC8_14049.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Államtitkár Úr! Demeter Szilárd a napokban vérlázító, aljas, végtelenül gonosz cikket jelentetett meg: az emberiség talán legnagyobb bűntettét, a holokausztot, hatmillió embertársunk tervszerű, szisztematikus legyilkolását azonosította egy vitával, amely arról szól, hogy az Európai Unióban nem akarják hagyni, hogy Orbán Viktor és a Fidesz továbbra is lopjon.Ez egyértelműen arra utal, hogy a fideszes kulturkampf vezetője elvesztette nem csak az arányérzékét, nem csak az erkölcsi érzékét, de a józan eszét is. A holokauszt relativizálása náci beszéd. Demeter Szilárd cikke náci szöveg. Demeter Szilárd a Fidesz-kormány miniszteri biztosa, a Fidesz által kinevezett múzeumigazgató, a Fidesz-elnök által meghirdetett kulturkampf vezénylő tábornoka, a fideszes irodalmi erőközpont kiépítője. A hatalom kizárólagos birtokában lévő állampárt ökleként még ő próbál áldozati szerepben tetszelegni, és magát, magukat egyenesen a holokauszt áldozataihoz hasonlította. És akkor még nem beszéltünk arról, hogy mindezt a magyarság nevében tette, megsértve ezzel nemcsak a holokauszt emlékét, de minden magyar embert.</seg>
+<seg xml:id="AC8_14049.2">Államtitkár úr, Demeter Szilárd az önök kormányában, az ön minisztériumában miniszteri biztos, önök nevezték ki minden állami pozíciójára, tisztségére. Az önök felelőssége az is, hogy eltávolítsák a közéletből. Az önök felelőssége az, hogy meddig védik a védhetetlent, és mikor rúgják ki végre Demeter Szilárdot. Államtitkár úr, meddig képviselheti még Demeter Szilárd a Fidesz-kormányt? Várom válaszát</seg>
+<kinesic type="applause"><desc>Sebián-Petrovszki László tapsol.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-30-urgent_question-AC8_14050" who="#BenceRétvári" ana="#regular"><note>DR. RÉTVÁRI BENCE (KDNP):</note>
+<seg xml:id="AC8_14050.1">Köszönöm szépen a szót, elnök úr. Tisztelt Államtitkár Úr! Tisztelt Ház! Nagyon sokak számára egy rémisztő jövőkép az, amit Gyurcsány Ferenc a DK rendezvényein a DK 16 pontjaként még pár évvel ezelőtt felvázolt, nevezetesen, hogy felmondaná a vatikáni szerződést, és megszüntetné a hitéleti támogatást, egyetlen fillér hitéleti támogatást sem utalna az egyházaknak. Miről szól a vatikáni szerződés? A vatikáni szerződés nem egy misztikus, középkori dokumentum, hanem egy teljesen modern kori dokumentum, amely technikailag rendezi azt a kérdést, hogy az egyházi iskolák, az egyházi szociális intézmények, egészségügyi intézmények az egyenlő finanszírozás elve mentén működnek, magyarul, ha egy adófizető magyar állampolgár ugyanazt a közszolgáltatást nem egy önkormányzati vagy állami intézményben veszi igénybe, hanem a gyermekét egy katolikus, református, evangélikus iskolába íratja, vagy ha egyházi kórházban kezelteti magát vagy rokonát, vagy egyházi szociális intézményben gondozzák őt vagy valamelyik hozzátartozóját, akkor az állam ugyanazt a pénzt fizeti az egyházi intézménynek az adott közszolgáltatással arányosan, mint amit egy önkormányzati vagy állami intézménynek fizetne</seg>
+<seg xml:id="AC8_14050.2">(Nacsa Lőrinc: Úgy van!)</seg>
+<seg xml:id="AC8_14050.3">Erről szól a vatikáni szerződés, és erről szólnak azok a megállapodások, amelyeket a vatikáni szerződés mintájára a magyar állam a többi egyházzal, a református és az evangélikus egyházzal is megkötött. Ezt a vatikáni szerződést mondaná fel Gyurcsány Ferenc, magyarul, az egyenlő finanszírozás elvét mondaná fel; azt mondaná, hogy azok a gyerekek, akik egyházi iskolában tanulnak, azok másodrendűek, kevésbé értékesek, azok a betegek, azok a szociális gondozottak, akik egyházi intézményben vannak, kevésbé fontosak az állam számára.</seg>
+<seg xml:id="AC8_14050.4">A vatikáni szerződés első verzióját még Horn Gyula kötötte meg. Még Horn Gyula is szorosabb együttműködésre törekedett, komolyabb partnerségre törekedett az egyházakkal, mint Gyurcsány Ferenc, aki még az eredetileg Horn Gyula által megkötött, de azóta már módosított vatikáni szerződést felmondaná.</seg>
+<seg xml:id="AC8_14050.5">Tisztelt Államtitkár Úr! Hány magyar családot hozna nehezebb helyzetbe, hogyha az egyenlő finanszírozás elvét megszüntetné Gyurcsány Feren</seg>
+<kinesic type="signal"><desc>Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC8_14050.6">és az általa vezetett baloldal az egyházi oktatási és szociális intézményekben? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-30-urgent_question-AC8_14051" who="#ImrePesti" ana="#regular"><note>DR. PESTI IMRE (Fidesz):</note>
+<seg xml:id="AC8_14051.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Tisztán látszik, hogy a hazai baloldalnál a járványkezelés az alaptalan álhírek gyártásáról, hangulatkeltésről és újabban a szabályok megszegéséről szól. Elgondolkodtató az is, hogy ha a baloldal politikusai közül a kamuvideós Korózs Lajos a legalkalmasabb az egészségüggyel foglalkozó Népjóléti bizottság vezetésére, akkor a többiek mennyire lehetnek hitelesek. Jól szemlélteti a hozzáállásukat a járványkezeléshez, hogy a józsefvárosi MSZP a korlátozások ellenére éjszakai bulikat tart. Nem törődnek az óvintézkedésekkel, úgy gondolják, hogy rájuk nem vonatkoznak a szabályok. Továbbra is valótlanságokat terjesztenek. A hétvégén például azt állították, hogy krónikus beteg orvostanhallgatókat köteleznek az országos tesztelésben való részvételre. A DK persze megint hazudott, hiszen senkit sem köteleznek a kormányhivatalok arra, hogy részt vegyenek a teszteléseken. A hallgatók kreditjeit elismerik, valamint fizetést is kapnak munkájukért, a megfelelő védőruházat pedig mindenki számára biztosított. Ezúton is köszönjük egyébként innen, a parlamentből a tesztelés során elvégzett munkát.</seg>
+<seg xml:id="AC8_14051.2">A magyar emberek betartják a korlátozásokat, mindenki összefog ezekben a nehéz időkben. A baloldal nem így tesz. Szerintük most lehet bulit tartani, hazudozni, pánikot kelteni és újabban a vakcinát támadni.</seg>
+<seg xml:id="AC8_14051.3">Tudjuk, hogy a járvány ellen a leghatékonyabb megoldás majd a vakcina lesz. Mindannyian ezt várjuk. A magyar kormány azon dolgozik, hogy a lehető legtöbb forrásból a lehető legjobb minőségű és a legjobban elérhető vakcinát biztosítsa. Csak olyan vakcina lesz forgalomba hozható, amelyet a magyar hatóságok alaposan bevizsgálnak, és természetesen megfelel a nemzetközi standardoknak is</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC8_14051.4">Ennek ellenére Soros György, a baloldal barátja, beleszól, hogy mit vásároljunk.</seg>
+<seg xml:id="AC8_14051.5">Tisztelettel kérdezem államtitkár urat, hogy hogyan akadályozza a baloldal a védekezést, illetve az álhírek a vakcináró</seg>
+<kinesic type="signal"><desc>Az elnök ismét csenget.</desc></kinesic>
+<seg xml:id="AC8_14051.6">mennyire nehezítik a biztonságos vakcina elterjesztését. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-11-30-urgent_question-AC8_14052" who="#KristófSzatmáry" ana="#regular"><note>SZATMÁRY KRISTÓF (Fidesz):</note>
+<seg xml:id="AC8_14052.1">Köszönöm szépen, elnök úr. Tisztelt Ház! Képviselőtársaim! Sajnálom, hogy nem mindenki várja meg a fővárost érintő ügyeket</seg>
+<seg xml:id="AC8_14052.2">(Z. Kárpát Dániel: Én megvárom.)</seg>
+<seg xml:id="AC8_14052.3">Államtitkár úr, egy éve van Budapestnek balliberális vezetése. Átláthatóságot ígértek, de hát sajnos azt kaptuk budapestiek a Demszky-utódoktól, amit várni lehetett: szerencsétlenkedést a városvezetésben, és gyanús üzleti ügyeket.Itt van mindjárt a korrupciótól egyre bűzösebb BKV buszbérlésének az ügye. Mit is tudunk erről? A buszbérleti pályázatot egy olyan cég nyerte, amelyet hét nappal a tender beadása előtt alapítottak, a buszok bérbeadásában természetesen semmilyen referenciával nem rendelkezik, és mint kiderült, nem is tudja a buszokat időben leszállítani. Nevezzük nevén: egy kamucégről van szó; tisztára, mintha a Hagyó-féle idők régi újságcikkeit olvasnánk újra.</seg>
+<seg xml:id="AC8_14052.4">De ha az nem lenne elég gyanús, és mint a főváros fogalmazott, valójában minden a jogszabályoknak megfelelően történik, a cég tulajdonosi háttere gyorsan szertefoszlat minden kétségünket. A nyertes cég mögött ugyanis egy ciprusi offshore cég áll, melynek tulajdonosa nyilvánvalóan kötődik az egyik főpolgármester-helyetteshez. Úgy tűnik, Budapestre végérvényesen visszatért a Demszky-Hagyó-időszak, dohos és áporodott időszak szelleme.</seg>
+<seg xml:id="AC8_14052.5">Adva van egy offshore hátterű cég, néhány nappal a beadás előtt alapított cégpapírokkal, a fővárosi vezetéssel összehozható, összefüggésbe hozható, és persze soha nem foglalkozott azzal, amire pályázott, és hirtelen nyer.</seg>
+<seg xml:id="AC8_14052.6">(18.10)</seg>
+<seg xml:id="AC8_14052.7">Valójában létezhet ennyi véletlen? A budapestieknek erre természetesen nem kell válaszolnia, hiszen tudják a választ, Karácsony Gergelynek viszont válaszolnia kellene, és ki kéne állnia a nyilvánosság elé egy vizsgálat után, hogy mi is történt ebben a tenderben.</seg>
+<seg xml:id="AC8_14052.8">Kérdezem az államtitkár urat, hogyan kaphat százmilliókat egy offshore hátterű cég Budapesten. Várom megtisztelő válaszát.</seg>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2016-05-17" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2016-05-17 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2016-05-17 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="3030" unit="words">3030 szó</measure>
+        <measure xml:lang="en" quantity="3030" unit="words">3030 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2016-05-17">2016. 05. 17.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="40"/>
+          <tagUsage gi="kinesic" occurs="10"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2016-05-17">2016-05-17</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2016-05-17-urgent_question-AC7_10477" who="#GergelyBárándy" ana="#regular"><note>DR. BÁRÁNDY GERGELY (MSZP):</note>
+<seg xml:id="AC7_10477.1">Köszönöm szépen a szót, elnök úr. Tisztelt Jegybankelnök Úr! Gondolom, ismeri a klasszikus művet, aminek a címe úgy szól, hogy Rokonok; önökről is írhatták volna. Vagy másként kérdezem: mikor jár már le ennek a műnek a szavatossági ideje itt a közéletben?</seg>
+<seg xml:id="AC7_10477.2">Biztos emlékszik rá, tisztelt elnök úr, hogy először robbant az úgynevezett VS-botrány, amikor kiderült az, hogy az ön unokatestvérének, Szemerey Tamásnak az érdekeltségébe tartozó New Wave cég összesen több mint félmilliárd forintban részesült támogatásként a Magyar Nemzeti Bank alapítványaitól. Ugyancsak a New Wave-hez kötődő üzleti kör mintegy 630 millió forintnyi közpénzt kapott, szintén közvetve a Magyar Nemzeti Banktól az alapítványokon keresztül. De mehetünk egy kicsit távolabb, önnek van egy másik unokatestvére is, őt Szemerey Szabolcsnak hívják, ő se maradt ki a Magyar Nemzeti Bank pénzosztásából, ő 400 millió forintos MNB-hitelt kapott. És hogy már a családban maradjunk, a felesége, aki kecskeméti polgármester, nem személyesen kapta meg ezt a pénzt, hanem a város javára úgymond, a duális oktatási központ kialakítására fizetett ki az alapítvány mintegy 12 milliárd forintnyi közpénzt.</seg>
+<seg xml:id="AC7_10477.3">De ön saját magával sem volt szűkmarkú, elnök úr, hiszen az önről írt Sakk és póker című könyvre több mint 20 millió forintot adott át az alapítvány a Kairosz Kiadónak, illetve 2500 példányt vásárolt abból a kötetből, ami az ön Heti Válaszban megjelent írásait tartalmazza.</seg>
+<seg xml:id="AC7_10477.4">Egyébként lehetne még ezt a sort folytatni, hogy például a Szemerey Tamás érdekeltségi körében lévő kis bankokhoz mennyi pénz került, olyan bankokhoz, amelyek egyébként az ön fiát is hitelezik, vagy hogy került 3,5 milliárd forint Mészáros Lőrinchez</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_10477.5">Ön szerint ez rendben van, elnök úr? Nem kéne lemondania ezután? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-17-urgent_question-AC7_10693" who="#MátyásFirtl" ana="#regular"><note>FIRTL MÁTYÁS (KDNP):</note>
+<seg xml:id="AC7_10693.1">Tisztelt Államtitkár Úr! A legsikeresebb sportágaink között tartjuk számon a vizes sportokat, és mint tudjuk, jövőre, július második felében Budapest és Balatonfüred rendezi meg a FINA vizes világbajnokságát, amely egyfelől a sportág népszerűsítése miatt, másfelől az olimpiai pályázatunk megítélése miatt is rendkívül fontos.</seg>
+<seg xml:id="AC7_10693.2">Tisztelt Államtitkár Úr! A híradásokból halljuk, hogy a létesítmények fejlesztése jó ütemben halad, és remény van arra, hogy határidő előtt elkészülhessenek minden igényt kielégítően a helyszínek, amelyek várják a vizes sportágak magyar és külföldi versenyzőit. Itt hívnám fel a tisztelt képviselőtársaim figyelmét a balatoni helyszín fontosságára. Budapest mellett az egész balatoni régió profitálhat a rendezvényből, nemcsak az idelátogató szurkolókra kell itt gondolnunk, hanem arra a reklámértékre, amelyhez azáltal jut a tó, hogy a sport mellett megmutathatjuk természeti, kulturális és turisztikai értékeinket is. Budapesten pedig komoly városfejlesztést igényel a rendezvény megfelelő szintű megrendezése, az építési programokat hibátlanul kell megvalósítani, a versenyeket pedig profi módon lebonyolítani.</seg>
+<seg xml:id="AC7_10693.3">Nagyon fontos, hogy ezek a beruházások ne csak önmagukért, ne csak a versenyek helyszíneként, hanem később is jól hasznosulhassanak, hosszú távon profitálhasson belőle a sportot megismerő gyerek, sportszerető felnőtt és testi-szellemi frissességét megtartani vágyó idős ember is. Mivel ekkora nemzetközi esemény több százezer vendéget fog vonzani, számolnunk kell a turizmus megmérettetésével is, a szálláshelyek, a megfelelő kiegészítő programok biztosítása hosszú távon megtérülő beruházása lesz nemcsak a két városnak, hanem az egész országnak.</seg>
+<seg xml:id="AC7_10693.4">Mindezek alapján kérdezem államtitkár urat, milyen lépéseket tett eddig és tesz a kormány a jövőben e nagyszabású rendezvény sikeres lebonyolítása érdekében, milyen különleges fejlesztések, sajátos helyszínek és reklámelemek fokozhatják az esemény még nagyobb nemzetközi sikerét. Várom államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-17-urgent_question-AC7_10694" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_10694.1">Köszönöm, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Balog Zoltán miniszter nemrég úgy fogalmazott, idézem: sikeres volt a köznevelési kerekasztal működésének első időszaka. Kérdezzük azt, hogy milyen siker az, amikor a kormány nem tudja egy asztalhoz ültetni az oktatáspolitika alakításában érdekelt összes releváns szereplőt. Nem tudja, de nem is akarja. Kommunikációs és hatalmi trükkök százaival próbálja a háttérben megosztani a szereplőket, és leszerelni a tiltakozást, miközben persze azt mondja, hogy mindenkit vár a kerekasztalhoz.</seg>
+<seg xml:id="AC7_10694.2">Államtitkár úr, milyen siker az, amikor a kerekasztal feje fölött dőlnek el a fontos kérdések, sokszor a kerekasztal szereplőinek megkérdezése nélkül is? Csak egy példa: először a KLIK megszüntetéséről beszéltek, pont ön beszélt a KLIK megszüntetéséről, aztán 57 kis KLIK létrehozásáról, majd a totális államosítás modellje került szóba, végül pedig Balog Zoltán további tárgyalásokra hivatkozott a fenntartói modell megváltoztatásáról. Születik egy döntés, majd másnap egy teljesen új verziót jelentenek be. A jövő évi költségvetés tervezetében pedig továbbra is a KLIK szerepel. Milyen siker az, amikor a miniszter által bejelentett lépések legfeljebb is csak pótcselekvések, félmegoldások? Az iskolarendszer működtetéséből éves szinten hiányzó 200 milliárd forint visszapótlása helyett 77 milliárdot adtak vissza a KLIK-nek, amit kiegyensúlyozott feladatátvállaláshoz szükséges többletnek neveznek nem kevés eufemizmussal. Azt is elárulta Balog Zoltán, hogy a diákok terhei csökkentésének eszköze valamilyen minimumfeltétel előírása lesz, de nem beszéltek arról, hogy az életkori sajátosságokhoz és a XXI. század igényeinek megfelelően az új alaptantervre szükség lesz minél hamarabb. Ehelyett kivonják a közismereti tárgyakat a szakközépiskolákból.</seg>
+<seg xml:id="AC7_10694.3">Tisztelt Ház! Miről beszél a miniszter? Milyen sikerről beszél</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-17-urgent_question-AC7_10695" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_10695.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Egy nemrég megjelent kutatás egyértelműn azt bizonyította, hogy a magyar kormány a rendelkezésére álló uniós forrásokból rendkívül bőkezűen támogatja a külföldi tulajdonú multinacionális vállalatokat. Az egyik nagy nemzetközi könyvvizsgáló cég által készített tanulmány nyolc tagállamban vizsgálta meg a vállalkozásfejlesztési támogatások hatékonyságát. Az eredmények szerint a nyolc országban átlagosan a támogatások 21 százaléka jutott külföldi multicégeknek, míg Magyarországon ez az arány kiugróan magas, 66 százalék volt. Ez újabb bizonyítéka annak, hogy a kormány unortodoxnak mondott gazdaságpolitikája valójában semmiben sem különbözik az előző kormányokétól, az Orbán-kormány is csupán a külföldi multinacionális cégek összeszerelő üzemévé teszi Magyarországot.</seg>
+<seg xml:id="AC7_10695.2">Hazánk versenyképességét a minőségéhez képest olcsó munkaerőre alapozzák, és olyan üzleti környezetet hoztak létre, ami vonzóvá teszi az országot a külföldi multicégek számára. Ezért verték szét a munkavállalói jogokat, ezért tartják alacsonyan a munkavállalói béreket, ezért kötnek stratégiai megállapodásokat, és adnak azok keretében ötször-tízszer annyi támogatást a multicégeknek, mint a magyar kkv-nak, és ezért adják az uniós források nagy részét is a külföldi multicégeknek. Ennek fényében már érthető, miniszter úr, ön miért állította többször is azt, hogy Magyarország az Unió nettó befizetője. Önök nyilván pontosan ismerik az EU-s források felhasználásának adatait, így vélhetően régóta tudják, hogy a pénzek nagy részét a külföldi cégeknek adják a magyar kis- és nagyvállalatok helyett.</seg>
+<seg xml:id="AC7_10695.3">Tisztelt Miniszter Úr! Mit tesz azért a kormány, hogy a magyar vállalkozások ne szenvedjenek hátrányt Magyarországon a támogatásokért folytatott versenyben? Mikor látják már be végre, hogy a külföldi multicégek kiszolgálására alapuló gazdaságpolitika zsákutca, ami nem fogja Magyarországot kihúzni a válságból?</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-17-urgent_question-AC7_10697" who="#JánosPócs" ana="#regular"><note>PÓCS JÁNOS (Fidesz):</note>
+<seg xml:id="AC7_10697.1">Köszönöm szépen, elnök úr. Tisztelt Miniszter Úr! Tisztelt Ház! Lenyúlás, korrupció, mutyi, tolvajbanda, és még cifrázhatnánk az elmúlt hónapok, évek ellenzéki felszólalásainak idézeteit. Ha készítenénk egy összesítést, az utóbbi időben hányszor és kinek a szájából hangoznak el ezek a kifejezések, akkor minden bizonnyal Sallai Róbert Benedek képviselőtársunk előkelő helyen szerepelne. Persze tudjuk, senki nem fukarkodik a jelzőkkel vagy az akciókkal, amikor a kormány munkáját kell kritizálni, ez egy ilyen műfaj, már annak is örülhetünk, hogy az ominózus tavalyi trágya nem ide a bársonyszékek közé került Sallai Róbert Benedek képviselő úrnak a platójából</seg>
+<seg xml:id="AC7_10697.2">(Z. Kárpát Dániel: Lehet, hogy jobb helye lett volna.)</seg>
+<seg xml:id="AC7_10697.3">Tisztelt Miniszter Úr! De nézzük, hogy Jász-Nagykun-Szolnok megyében hogyan dolgozik az ellenzék! Ahogy tudjuk, korábban a Sallai képviselőtársunk által vezetett tiszántúli működő természetvédelmi egyesület közel 20 millió forint pályázati pénzt költött a túrkevei malom felújítására. Tisztelt Miniszter Úr! Ez a malom szakszerű állagmegóvási munkára lett volna rászorulva, ezzel szemben közel 20 millió forint elköltésre került, és a malom ezen a módon összedől</seg>
+<kinesic type="noise"><desc>Két képet mutat fel. - Közbeszólás a Jobbik soraiból: Tiltott szemléltető eszköz!</desc></kinesic>
+<seg xml:id="AC7_10697.4">; ahogy Sallai Róbert képviselőtársunk mondja, számára érthetetlen okból. Az egyesület és Sallai képviselőtársunk széttárja a kezét, mintha nem is ő lett volna a felújításért felelős.</seg>
+<seg xml:id="AC7_10697.5">Tisztelt Miniszter Úr! Adódik a kérdés: a pályázati pénz közpénz, felelős felhasználása mindannyiunk felelőssége. Tisztelt Miniszter Úr! Az összedőlt malomból hová lett a cement? Hová lett a mész? És hol van a beruházói és vagyonkezelői felelősség? Adódik a kérdés: vajon kinek a malmára forgott a túrkevei szélmalom? Továbbá kérdezem, tisztelt miniszter úr: amennyiben az LMP kerülne hatalomra, akkor úgy dőlne össze Magyarország vidékpolitikája, ahogy ez a szélmalom</seg>
+<kinesic type="applause"><desc>Közbeszólás a Jobbik soraiból: Fejjel lefelé tartod, fordítsd meg! - Heringes Anita: Rosszul tartod a képet! - Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-17-urgent_question-AC7_10698" who="#LászlóSzakács" ana="#regular"><note>DR. SZAKÁCS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_10698.1">Köszönöm a szót, elnök úr. Tisztelt Legfőbb Ügyész Úr! Nagy közérdeklődésre tart számot az, hogy a Quaestor-ügyben hogyan bukdácsol a vádhatóság, illetve a bíróság egymás érvhalmazain keresztül, hogy miért lehet vagy miért nem lehet megkezdeni ezt a büntetőeljárást. Van-e olyan vád, került-e olyan vád beterjesztésre a bíróság elé, amely alapján meg lehet kezdeni magát a büntetőeljárást?</seg>
+<seg xml:id="AC7_10698.2">(14.00)</seg>
+<seg xml:id="AC7_10698.3">Úgy gondolom, hogy ezen legalábbis nem segített ügyész úr sajnálatos halála az elmúlt héten, amiről többször hallottuk azt, hogy ez nem fogja semmilyen esetben sem, semmi esetre sem fogja ezt az ügyet hátráltatni, de valójában önök eddig mindenre azt mondták, hogy ezt az ügyet nem fogja hátráltatni, önök iszonyatos hatékonysággal, borzalmas gyorsasággal fel fogják deríteni ezt az ügyet, és eddig még minden csak hátráltatta ezt.</seg>
+<seg xml:id="AC7_10698.4">Úgy gondolom, hogy ügyész úr nagyon sajnálatos halála is hatással lesz majd erre, és én úgy gondolom, az is hatással lesz rá, hogy sikerül-e végre olyan vádiratot összeállítania majd az ügyészségnek, amely alapján meg tudja kezdeni a bíróság az ügy tárgyalását. Itt nagyon fontos, legfőbb ügyész úr, kiemelni, itt nem az önök véleménye a fontos, hogy az ügyészség szerint jó-e a vádirat, hanem hogy a bíróság szerint jó-e a vádirat. Tetszettek-e már dűlőre jutni, és mikorra fogja kitűzni a bíróság az első tárgyalás napját?</seg>
+<seg xml:id="AC7_10698.5">S még két konkrét kérdés: Ibolya Tibor fővárosi főügyész azt mondta, hogy volt 11 VIP-ügyfél, aki állampapírt tartott ebben a cégben, de készpénzt kapott vissza, méghozzá azért, mert féltek a botrány kirobbanásától. Kérdezem én, van-e köztük kormányzati szereplő, van-e köztük olyan kormányzati szereplő vagy annak bármelyik háttérintézménye vagy cége, amelyik így kaphatott vissza készpénzt. A következő kérdésem pedig az volna, Tarsoly Csaba azt mondta, hogy a Buda-Cash-helyzet miatt többmilliárdnyi betét tűnt el az utolsó napokban. Kik ők, mert egészen biztosan nem a kisbefektetők voltak. Kiterjed-e erre a nyomozás? Köszönöm szépen a figyelmet</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-17-urgent_question-AC7_10699" who="#LászlóTeleki" ana="#regular"><note>TELEKI LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_10699.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Miniszter Úr! Tisztelt Országgyűlés! Azért tettem fel ezt a kérdést éppen Lázár miniszter úrnak, mert tőle korrekt választ várok. Már másfél éve nap mint nap lehet botrányokról hallani az Országos Roma Önkormányzattal, illetve Farkas Flóriánnal kapcsolatban. A média a hétvégén és a mai nap is arról szólt, hogy egy zártkörű megbeszélésről Farkas Flórián hangfelvétele kiszivárgott, aki azt mondta, hogy „ha ezek nem jönnek, akkor ti már nem ültök itt, börtönben ülnétek”. Majd úgy folytatja, hogy „18 meg 20 millió forintokat vettetek fel”, hallható Farkas Flóriántól a felvételen.</seg>
+<seg xml:id="AC7_10699.2">Ez már a második ilyen felvétel, ami után azonban még mindig nincs semmiféle visszhang. Hol van az az 1,6 milliárd forint, amit az országos önkormányzaton követelnek? Mire költötték el azt? Hogyan tud hasznosulni a magyarországi romák esélyegyenlőségének a növelése tekintetében? Ezek lennének a kérdéseim.</seg>
+<seg xml:id="AC7_10699.3">De visszatérnék arra a néhány mondatra, amiket az imént elmondtam, és amiket a mai sajtóban is lehet olvasni: meddig tudják még védeni Farkas Flóriánt? Önök szerint bűnpártolás-e az, hogy ha Farkas Flórián tud valamit arról, hogy kik vettek fel olyan pénzt abból az 1,6 milliárdból vagy máshonnan, amelyek nem hasznosultak, ez bűnpártolásnak, hivatali visszaélésnek vagy minek nevezhető? Én az értékrendem szerint azt gondolom, hogy ha valaki miniszterelnöki megbízott, akkor az mindenképpen felel a közvagyonért. Innentől kezdve nem lehet kérdés, hogy ha tud olyan bűnesetről, amely adott esetben pénzekről szól, akkor önnek, a kormány bármely tagjának vagy a miniszterelnök úrnak kellett volna jeleznie, hogy itt valami történt, vagy a hatóságokat kellett volna értesíteni.</seg>
+<seg xml:id="AC7_10699.4">Ebből adódóan nekem természetesen további kérdéseim is lennének, mert az nem lehet, hogy a dolog itt álljon meg. Most egyébként nem mondhatja azt, amit egy sajtótájékoztatón mondott, hogy azért támadjuk Farkas Flóriánt, merthogy roma személy.</seg>
+<seg xml:id="AC7_10699.5">(14.30)</seg>
+<seg xml:id="AC7_10699.6">Nem, én nem ezért támadom. Azt kérdezem öntől, hogy egy ember fontos-e a kormánynak, vagy 800 ezer ember közbizalmát akarja visszaépíteni a kormány, vagy nem. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-17-urgent_question-AC7_10702" who="#ZoltánMagyar" ana="#regular"><note>MAGYAR ZOLTÁN (Jobbik):</note>
+<seg xml:id="AC7_10702.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Miniszter Úr! Nem először beszélünk erről a kérdéskörről, évtizedek óta jól működő gazdaságokat tettek tönkre a Hortobágyon. A kisemmizett gazdáknak és a sajtóvisszhangnak volt köszönhető, hogy végül is a Kormányzati Ellenőrzési Hivatal vizsgálatot rendelt el. Ezeknek a vizsgálatoknak az eredményét mi, politikusok megtekinthettük ugyan korábban is, de a nyilvánosságra egy per kapcsán csak most derült fény.</seg>
+<seg xml:id="AC7_10702.2">Ma már tehát nyilvános a Kehi-jelentés, pedig önök tíz évre titkosítani akarták, erre is egyébként érdemes lenne választ adni, hogy egy demokráciában itt Európa közepén 2015-ben miért kellett volna tíz évet várni arra, hogy megismerhessük azt, hogy a közvagyont, mindannyiunk földjeit milyen feltételek mellett adták bérbe. Jellemző és agyrém tehát, hogy ehhez is per kellett. Néhány pályázatot azért ott visszavontak, azonban például a balhét a Hortobágyi Nemzeti Park igazgatójával akarták elvitetni, ez is tipikus fideszes megoldás, nagyon jellemző önökre.</seg>
+<seg xml:id="AC7_10702.3">A Kehi egyébként összevetette a pályázatban megadott adatokat a különböző állami intézményekben meglévő adatokkal, például az MVH számaival, és ebből kiderült, hogy 1072 pályázatból 1040 a valóságtól eltérő adatokat tartalmazott, azaz 97 százalékukban hibákat fedeztek fel, közöttük komoly hibákat, amely a csalás gyanúját is felvetette. Abszurd, de például a pályázatok valóságtartalmát nem ellenőrzi az a nemzeti park, amely a saját földjeit annak idején bérbe adta. Ez is számunkra elfogadhatatlan.</seg>
+<seg xml:id="AC7_10702.4">Kik vesztettek ezeken a pályázatokon? Jellemzően azok az állattartók, azok a családi gazdálkodók, akiket egyébként a kommunikációjukban folyamatosan támogatásukról biztattak.</seg>
+<seg xml:id="AC7_10702.5">(13.40)</seg>
+<seg xml:id="AC7_10702.6">Ezek olyan adatok és olyan tények, miniszter úr, ami felveti azt, hogy bizony egy országos átfogó vizsgálatra lenne szükség még most is, hogy ezeket a földeket eladták, hiszen korábban olyan bérleti feltételek mellett adták ezeket bérbe, melyek ellenőrzését elmulasztották, így a csalásokat gyakorlatilag az állam fedezte. Ezekre várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-17-urgent_question-AC7_10703" who="#LajosKepli" ana="#regular"><note>KEPLI LAJOS (Jobbik):</note>
+<seg xml:id="AC7_10703.1">Köszönöm szépen a szót, elnök úr. Tisztelt Miniszter Úr! Április 1-jén jelentette be Szita Károly, Kaposvár város polgármestere, hogy a Százhalombattáról már egyszer kiutált gumihulladék-hasznosító létesítményt Kaposváron valósítják meg. Sajnos utóbb kiderült, hogy nem áprilisi tréfáról van szó, hiszen múlt hét pénteken megjelent az a kormányrendelet, amellyel önök kiemelt jelentőségű nemzetgazdasági üggyé nyilvánították ezt a beruházást, annak ellenére, hogy a bejelentés óta folyamatos a tiltakozás a helyi lakosság részéről, hiszen félnek attól, hogy milyen környezeti hatásai lesznek ennek a létesítménynek, félnek attól, hogy milyen politikai akarat kényszeríti Kaposvár város nyakára azt a beruházást, amit már egyszer Százhalombatta elutasított.</seg>
+<seg xml:id="AC7_10703.2">Nem sikerült hitelt érdemlően bizonyítani a beruházónak a mai napig sem, hogy nemzetgazdasági szempontból gazdaságilag megalapozott, megtérülő beruházásról van szó, és hogy nem rejt magában olyan biztonsági kockázatokat, amelyek a helyben élőkre, illetve a környéken élőkre veszélyt jelentenek. Mindezért egységesen lépett fel a helyi civil lakosság és a helyi ellenzéki politikai erők. Jól látszik, hogy egy politikai hátterű döntésről van szó, viszont nem értjük, hogy milyen okból lehet nemzetgazdaságilag kiemelt jelentőségűvé nyilvánított beruházás egy olyan beruházás, ami nagyszámú munkahelyet nem teremt, nagy nemzetgazdasági haszonnal nem kecsegtet, több településen már elutasították ilyen műnek a létesítését, és egyébként környezetvédelmi szempontból a gumiabroncs-hulladék újrahasznosításának sokkal környezetbarátabb módja is létezik.</seg>
+<seg xml:id="AC7_10703.3">Remélem, hogy az elmúlt percekben ön erről konzultált a környezetvédelemért felelős miniszter úrral, és érdemi választ fog tudni adni nekem mindarra, hogy miért lett nemzetgazdaságilag kiemelt beruházás, mind arra megnyugtató választ tud adni, hogy a helyi lakosság nincsen veszélyben, hiszen önök ezt a beruházást remélhetőleg nem is fogják megvalósítani, legalábbis, ha a helyi lakosságot megkérdezik, és ők véleményt nyilváníthatnak, akkor egészen biztosan nem lesz semmi ebből a beruházásból. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

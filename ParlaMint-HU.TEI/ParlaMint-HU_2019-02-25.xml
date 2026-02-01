@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2019-02-25" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2019-02-25 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2019-02-25 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2802" unit="words">2802 szó</measure>
+        <measure xml:lang="en" quantity="2802" unit="words">2802 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2019-02-25">2019. 02. 25.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="28"/>
+          <tagUsage gi="kinesic" occurs="10"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2019-02-25">2019-02-25</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2019-2-25-urgent_question-AC8_4756" who="#GergelyArató" ana="#regular"><note>ARATÓ GERGELY (DK):</note>
+<seg xml:id="AC8_4756.1">Tisztelt Ház! Tisztelt Államtitkár Úr! A kérdés lényege kimaradt a cím felolvasásából: avagy tényleg kell-e nyelvvizsga az egyetemi felvételihez? Ez a lényege, államtitkár úr, hiszen önök bejelentették azt, hogy 2020-tól csak az jelentkezhet a felsőoktatásba, akinek van nyelvvizsgája. A szakma képviselői és mi is itt ebben a Házban elmondtuk azt, hogy ennek a követelménynek csak akkor van értelme, ha színvonalas nyelvoktatás van a középiskolákban. Elmondtuk, hogy ezt csak egy olyan kormány tudná bevezetni, amelyik nem riogatni tud, hanem kormányozni is, így aztán képes szembenézni az oktatás problémáival. Elmondtuk azt, hogy ebben a formában, ahogy önök ezt be akarják vezetni, semmire sem jó ez az intézkedés, csak arra, hogy a magyar diákok jelentős része előtt bezárja a felsőoktatás kapuit.</seg>
+<seg xml:id="AC8_4756.2">Önök nem hallgattak a szakmára, nem hallgattak az ellenzéki észrevételekre, viszont csináltak egy felmérést, amiből kiderült, hogy ez az intézkedés ma a középiskolába járó gyerekeknek közel felét kirekesztené a felsőoktatásból. Tudjuk, hogy önöknek célja az ország elbutítása, önöknek célja az, hogy minél kevesebb diplomás diák legyen és diplomás ember legyen Magyarországon, de ez még ennek is egy különösen pofátlan módja, hiszen nyilvánvaló, hogy a nyelvvizsga követelménye nem a fideszes elitet, nem a magániskolákból jövő oligarchagyerekeket rekeszti ki a felsőoktatásból, hanem azokat a nehezebb sorból jövő diákokat, ahol nincs a szülőnek pénze magánnyelvoktatásra, nincs lehetőség arra, hogy egyéb úton pótolják azt, amire a közoktatás ma nem képes.</seg>
+<seg xml:id="AC8_4756.3">Tisztelt Államtitkár Úr! Ráadásul önök szórakoznak a felvételizőkkel, hiszen először, amikor a szakértőik belátták, hogy ostobaság, amit akarnak, akkor a kormánypárti sajtóba megíratták és kiszivárogtatták, hogy el fogják halasztani ezt az intézkedést, majd amikor már mindenki örült, akkor ezt visszavonták. Miért van erre szükség? Miért akarják kizárni a magyar diákokat a felsőoktatásból</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-2-25-urgent_question-AC8_4759" who="#LőrincNacsa" ana="#regular"><note>NACSA LŐRINC (KDNP):</note>
+<seg xml:id="AC8_4759.1">Köszönöm a szót. Elnök Úr! Tisztelt Országgyűlés! Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! 2010-ben Magyarországon bekövetkezett egy családbarát fordulat, hiszen a 2002 és 2010 közötti kormányok megszorításainak első számú célpontja a gyermeket nevelő családok voltak. Hiszen megszüntették először az egy- és kétgyermekesek családi adókedvezményét, elvették a 3 éves gyest, és megszüntették az otthonteremtési programokat is.A kormány 2010 óta számos intézkedést hozott a magyar családok védelme és támogatása érdekében. Ezek közül az egyik legfontosabb a családi otthonteremtési kedvezmény, azaz a CSOK bevezetése, amely már mintegy százezer család otthonteremtését segítette, ez közel 280 milliárd forintot is jelentett. A magyarok többsége minden kutatás szerint saját tulajdonú házban szeretne élni, ezért is bír kiemelt jelentőséggel az igénybe vevők magas száma és további várható növekedése.</seg>
+<seg xml:id="AC8_4759.2">A bevezetés óta jelentősen emelkedtek a kedvezményösszegek, hiszen bevezetésre került a nagycsaládosok 10 millió forintos támogatása új lakás vásárlásához vagy építéséhez, és ami nagyon fontos, egyszerűsödtek a jogosultsági feltételek is, tehát egy fontos bürokráciacsökkentés is történt időközben. 2018. december 1-jétől már a kétgyermekes családok is igényelhetik a 10 millió forintos kedvezményes kamattámogatású kölcsönt, a három- vagy többgyermekesek számára pedig 15 millió forintra nő a felvehető összeg.</seg>
+<seg xml:id="AC8_4759.3">Tisztelt Államtitkár Úr! A KDNP mindig is kiemelt figyelmet fordított a magyar családokra, ezért is tartjuk kulcsfontosságúnak a nemrég bejelentett hétpontos családvédelmi akciótervet. Az otthonteremtéssel kapcsolatban lényeges intézkedés a kamattámogatott lakáscélú kölcsön kiterjesztése a használt lakást vásárlókra is, illetve a jelzáloghitelekhez nyújtott támogatás bővítése.</seg>
+<seg xml:id="AC8_4759.4">Ezek alapján kérdezem tisztelettel államtitkár urat, mik az eddigi tapasztalatok a CSOK-ról, és milyen további intézkedésekkel segíti a kormány a családok otthonteremtését. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-2-25-urgent_question-AC8_4761" who="#LajosKorózs" ana="#regular"><note>KORÓZS LAJOS (MSZP):</note>
+<seg xml:id="AC8_4761.1">Köszönöm szépen. Tisztelt Ház! Tisztelt Képviselőtársaim! Az eset kapcsán az első szó a részvété. Részvétemet szeretném magam is kifejezni annak a családnak, aki 17 éves fiát veszítette el a múlt héten. Tudniillik a Nyugati téren egy 17 éves fiatalember a kedd délutáni órákban rosszul lett és összeesett. Mentőt hívtak hozzá 17 óra 4 perckor. Az információim szerint a kiértesített mentő Budán tartózkodott, és mintegy 11 perccel később kapta meg az információt arra nézvést, hogy neki a Nyugati térre kéne menni, tehát 17 óra 15 perckor. Ezt követően a fiatalember egyre rosszabbul volt. Nagyon sokan szerettek volna segíteni neki, és két fiatal tinédzser könyörögve ment be a Markó utcába, a mentőközpontba, hogy most már jöjjenek segíteni, mert ez a fiatalember meg fog halni. Információim szerint volt olyan szakember itt bent, a Markó utcában, aki a fiatalembert el tudta volna látni, de őt nem értesítették arról, hogy mintegy 200 méterre a mentőközponttól haldoklik egy fiatalember. Az első mentő 17 óra 29 perckor érkezett, majd 17 óra 32 perckor egy másik, ahol mentőorvos is tartózkodott. Tudomásom szerint a beavatkozás sikertelen volt, és később ez a fiatalember meghalt.Néhány dolgot rögzítenünk kell. Nem a gépkocsivezető a hibás, nem a mentőorvos, nem a mentőtiszt, nem a személyzet, hanem az irányítás</seg>
+<seg xml:id="AC8_4761.2">(Rig Lajos: De ki nevezte ki?)</seg>
+<seg xml:id="AC8_4761.3">A rendszer a hibás. Mi történt itt, államtitkár úr? Legyen olyan kedves, válaszoljon az ország nyilvánossága előtt! Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-2-25-urgent_question-AC8_4763" who="#GyörgySzilágyi" ana="#regular"><note>SZILÁGYI GYÖRGY (Jobbik):</note>
+<seg xml:id="AC8_4763.1">Köszönöm szépen a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Legfőbb Ügyész úr! Gondolom, értesült már arról, hogy a kormány kivette az Elios-projekt számláit az Unió felé benyújtott számlákból, és ezzel Magyarország 13 000 millió forint sorsáról mondott le vagy mondott le az Unió felé. De azért is értesülnie kellett, mert az Európai Parlament költségvetési ellenőrző bizottsága ez ügyben önt meg akarta hallgatni, de arra már nem volt bátor, hogy kimenjen és válaszoljon a bizottság kérdéseire. Hiszen komoly kérdések merültek volna fel ezen a meghallgatáson, mint ahogy komoly kérdések merülnek fel ezzel a 13 000 millió forinttal kapcsolatosan is, hiszen az OLAF, az Unió Csalás Elleni Hivatala már rég megállapította, hogy az Elios-projektből származó pénzeket nem fogják kifizetni. Hiszen ezzel a projekttel kapcsolatosan, ami közvilágítás-korszerűsítést finanszírozott volna uniós pénzből, és amely cég, az Elios cég Orbán Viktor vejének a cége, ez a cég az OLAF szerint szervezett csalást követett el, visszaélések voltak a pályáztatás és a kivitelezés során, túlszámlázás, személyi összefonódások és csak papíron létező minőség-ellenőrzés. Többször kifogásolta Magyarországon is több ember, ezzel kapcsolatosan is érkeztek az ügyészségre feljelentések, az ügyészség természetesen az OLAF-fal ellentétben mindent rendben talált, és megszüntették a nyomozásokat, ezzel 13 000 milliós kárt okoztak az országnak, ennyi pénzt vettek el a magyar emberektől az önök segédletével is. Ugye, az ügyészséggel kapcsolatban ebben az ügyben az is bebizonyosodott, hogy az ügyészség politikai szempontokat és valószínűleg kéréseket is figyelembe vesz a nyomozások során, Orbán Viktor környezete ellen, a Fidesz prominensei ellen nem nyomoznak kellő alapossággal. Legfőbb ügyészként önnek ebben komoly felelőssége van, ön nem végzi megfelelően a munkáját. Nem gondolja, hogy le kellene vonnia a megfelelő következtetéseket, és le kellene mondania a posztjáról</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-2-25-urgent_question-AC8_4764" who="#GyulaMolnár" ana="#regular"><note>MOLNÁR GYULA (MSZP):</note>
+<seg xml:id="AC8_4764.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! Tisztelt Ház! Általában egy hatalomnak, de különösen egy olyan hatalomnak, amelyik büszke arra, hogy mindent centralizál, mindent központosít és gyakorlatilag minden egyes döntésben saját maga képes a legapróbb ügyben is a probléma megoldását megtalálni, egy ilyen hatalom fokmérője az én felfogásom szerint az, hogy hogyan, miképpen képes a közszolgáltatásokban ezt a fajta centralizációt hatékonyan megvalósítani.Önök hoztak egy döntést, hogy magukhoz vonják ezt az ügyet, mert ezáltal jobb lesz, olcsóbb lesz és működőképesebb. Az a helyzet, hogy csak az elmúlt néhány hónapban, mióta parlamenti szünet van, újabb és újabb témák, újabb és újabb ügyek láttak napvilágot. Nagyon sok helyről kaptuk azt a jelzést, hogy még a karácsonyfát sem szállították el január végéig, február elejéig. Azt látjuk, hogy év végén egy kormányrendelettel újabb jelentős összegeket kapott ez a vállalat, majd aztán, amikor nyilvánosságra kerültek az adatai, leváltották a teljes vezérkart. Egy ombudsmani jelentést is olvashattunk, ahol az ombudsman elmondta azt, hogy nem jog, hanem kötelesség a számlát időben eljuttatni az állampolgárokhoz ennek a cégnek.</seg>
+<seg xml:id="AC8_4764.2">Tehát az a kérdés továbbra is, tisztelt államtitkár úr… Királyhegyi Pálnak tulajdonítják azt a dolgot, hogy Sztálinnak írt állítólag egy táviratot, amiben az szerepelt, hogy a rendszer nem vált be, tessék változtatni. Állítólag a távirat maga nem létezik valójában, de Királyhegyi Pált emiatt kitelepítették. Azért kérdezem, államtitkár úr, hogy a rendszer nem vált be, tessék lassan változtatni, és ha arról is tudna egypár szót szólni, hogy mire ment el 16 és 17 milliárd forint, amit év végén önök egy levélben úgy fogalmaztak, hogy hulladékgazdálkodási terv megvalósítására és ideiglenes kiadásokra költöttek el. Tehát még egyszer: kukaholding, hogyan tovább? Köszönöm szépen.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2019-2-25-urgent_question-AC8_4765" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC8_4765.1">Tisztelt Elnök Úr! Tisztelt Ház! Ebben a Házban mintegy kéttucatnyi alkalommal szorgalmaztam a CSOK szélesítését annak érdekében, hogy ne csak a felső középosztálytól felfelé tudjon kedvezményezni jellemzően ez a konstrukció, hanem a tipikus magyar élethelyzetekre is választ adjon. A tipikus magyar élethelyzet nem az, hogy új építésű palotákat, lakóparkokban lévő lakásokat emelnek vagy vesznek át magyar emberek, hanem adott esetben a használt lakás megszerzése, az otthon bővítése. Örülök, hogy ebbe az irányba elkezdődött egy közös gondolkodás, de három ponton, miniszter úr, meg kell hogy feddjem önöket, hiszen három ponton a CSOK konstrukcióját olyan szinten hiteltelenítik el, ami az egészet, az egész mögött álló szándékot megkérdőjelezi. Elsősorban el szeretném mondani, hogy használt ingatlanok esetében nemcsak a kedvezményes hitelt tartom fontosnak kiterjeszteni, hanem bizony a támogatás mértékét is elérhetővé kellene tenni adott esetben ugyanúgy, mint az új építésűek esetén, hiszen a tipikus magyar élethelyzet a lakásbérlés, tehát az albérleti piacon való valamikénti megmaradás az elképesztően durva, magas albérletárak mellett, illetve a használt ingatlan megvásárlása, adott esetben bővítése, egy tetőtér beépítése.</seg>
+<seg xml:id="AC8_4765.2">Másodsorban a miniszter úr véleményét kérdezem arról, hogy mennyiben tudja támogatni azt a felvetésemet, amelynek értelmében egy ésszerű összeghatár fölött már nem lehetne hozzáférni a CSOK-kedvezmény tömegéhez. Nyilván 200-300 millió forintos villák építését vagy bármilyen módon történő fejlesztését nem szeretném a magyar adófizetők pénzéből támogatni. Tipikus magyar élethelyzetekre szeretnénk megoldásokat nyújtani, ezek pedig nem azok.</seg>
+<seg xml:id="AC8_4765.3">Harmadsorban, miniszter úr, elhűlve láttam azt, hogy a bankok egy részének hatályos hirdetménye szerint bevándorolt jogállású személyek továbbra is igénybe vehetik a CSOK-ot. Kérem, indokolja meg számomra, milyen szakmai indoka van annak, hogy nem magyar állampolgárok igénybe vehetik ezt a konstrukciót. Ezt önmagában felháborítónak tartom, de a kormányzati kommunikáció tükrében egyenesen vérfagyasztó, és megkérdőjelezi az önök kommunikált szándékait. Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-2-25-urgent_question-AC8_4767" who="#SándorF.Kovács" ana="#regular"><note>F. KOVÁCS SÁNDOR (Fidesz):</note>
+<seg xml:id="AC8_4767.1">Igen, a kérdés valójában az, hogyan vélekednek a jobbikosok a nyugdíjasokról</seg>
+<kinesic type="noise"><desc>Nagy zaj, közbeszólások az ellenzéki padsorokból.</desc></kinesic>
+<seg xml:id="AC8_4767.2">A Fidesz megbecsüli, tiszteli a nyugdíjasokat, elismeri tudásukat, tapasztalatukat, és számít rájuk. Ezzel szemben a jobbikosok nem szavazták meg, hogy a nők 40 éves munkaviszony után nyugdíjba mehessenek</seg>
+<kinesic type="noise"><desc>Közbeszólás a Jobbik soraiból: De miért nem?</desc></kinesic>
+<seg xml:id="AC8_4767.3">Ezzel is cserbenhagyta az időseket.A Fidesz nem ért egyet a Jobbik médiatanácsadójának véleményével, aki egy kiszivárgott beszélgetésben far-hát kommandónak nevezett bizonyos nyugdíjasokat, azokat, akik a közösségi oldalaikon politikai véleményt nyilvánítanak</seg>
+<kinesic type="noise"><desc>Folyamatos közbeszólások a Jobbik soraiból.</desc></kinesic>
+<seg xml:id="AC8_4767.4">A felvételen Silhavy Máté, a párt alelnöke és Z. Kárpát Dániel hallható. A kiszivárgott beszélgetésből egyértelműen kitűnik, hogy a Jobbik megveti és lenézi időskorú szavazóit, hiszen a médiatanácsadó pont azokat nevezi hülyének, hívja far-hát kommandónak, akiknek a pártot támogató véleményére a közösségi oldalon számítanak is.</seg>
+<seg xml:id="AC8_4767.5">A felháborodás, a tiltakozás ellenére egyetlen olyan politikusa sem volt a pártnak, aki azt mondta volna, bocsánat, elnézést, mégsem úgy gondoltuk, rosszul fogalmaztunk. A Jobbik bukott elnöke sem akkor, sem azóta nem emelte fel a szavát ebben a kérdésben, nem kért bocsánatot az idősektől. A Jobbik tehát így gondolkodik a nyugdíjasokról, gúnyolódik, fejükre olvassa az öregedést, a remegő kezeket, a XX. század gyötrelmeit. És veszteségeiket is, és azt, ha véleményük van a világról.</seg>
+<seg xml:id="AC8_4767.6">Tisztelt Államtitkár Úr! A Jobbik így vélekedik a nyugdíjasokról. A kormány miben segít, és hogy vélekedik a nyugdíjasokról? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-2-25-urgent_question-AC8_4770" who="#PéterUngár" ana="#regular"><note>UNGÁR PÉTER (LMP):</note>
+<seg xml:id="AC8_4770.1">Köszönöm a szót. Tisztelt Államtitkár Úr! Az otthonápolás kapcsán rengeteg lemaradása van még mindig a kormánynak. Annak ellenére, hogy az egy pozitív előrelépés volt, amit tavaly tettek az ellenzéki képviselők és civil szervezetek nyomására, ez a probléma még nincs megoldva, az otthonápolók helyzete nem lett rendezve. Négy dolgot várnak el az érintettek a kormánytól, négy lépést kéne a kormánynak megtennie annak érdekében, hogy ez a helyzet rendezésre kerüljön. Az első, hogy az otthonápolási díj nőjön meg 100 ezer forintra azoknál az embereknél is, akik nem gyermeküket, hanem idős szülőjüket vagy egyéb rokonukat ápolják otthon. A második: azt a pontrendszert, amit a szakmai szervezetek és az érdekképviseletek elutasítottak és szakmaiatlannak tartottak, ami miatt több ezer, főleg autista gyermeket nevelő szülő még kieshet a gyodból, vonják vissza, szüntessék meg, legyen elég a diagnózis arra, hogy megítéljék ezt a 100 ezer forintot. A harmadik az, hogy a nagyszülői gyod intézményét vezessék be, hogy föl tudja venni a nagyszülő is azt az otthonápolási díjat, amivel így a szülő ki tud menni a munkaerőpiacra. A negyedik pedig az, hogy a nyugdíj mellett is lehessen igényelni a gyermekápolási díjat.</seg>
+<seg xml:id="AC8_4770.2">Jelenleg ma Magyarországon nem lehet akkor kereszténydemokráciáról beszélni, ha egy ember, aki demens, mondjuk, Alzheimer-kóros édesanyját ápolja, 55 ezer forintot kap. Ön válaszként el fog mondani egy 15 százalékos emelkedést. Mondja ki, hogy 55 ezer forintnak mennyi a 15 százaléka! Az a helyzet, hogy ha önök komolyan gondolják a családi értékeket, és komolyan gondolják azt, hogy kereszténydemokrata módon kormányoznak, akkor azok az emberek, akik a gondoskodó munkát végzik, megérdemlik azt, hogy legalább 100 ezer forintot kapjanak. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az LMP és a DK soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-2-25-urgent_question-AC8_4771" who="#BenceTordai" ana="#regular"><note>TORDAI BENCE (Párbeszéd):</note>
+<seg xml:id="AC8_4771.1">Köszönöm a szót, elnök úr. Tisztelt Polgártársak! Jávor Benedek, a Párbeszéd európai parlamenti képviselője és a zöldfrakció kezdeményezésére Polt Pétert meghívta az Európai Parlament költségvetési ellenőrző bizottsága. A bizottság az uniós források magyarországi elköltését ellenőrző másfél évvel ezelőtti magyarországi útjának folytatásaként hívta meg a legfőbb ügyészt, hogy megvitassanak vele egy sor olyan kérdést, ami már a tényfeltáró látogatás során is felmerült. Az Európai Ügyészséghez való csatlakozás kérdése, a szervezett bűnözés elleni fellépés vagy a nemzetközi együttműködések kérdése mellett a legfontosabb kérdésként az OLAF-jelentések magyarországi bizonyítékként való elfogadásának kérdése is napirendre került volna, ha a legfőbb ügyész úr méltóztatik elmenni Brüsszelbe.</seg>
+<seg xml:id="AC8_4771.2">(14.30)</seg>
+<seg xml:id="AC8_4771.3">De hát a legfőbb ügyész úr méltóztatott egy szánalmas magyarázkodás után kibújni a meghívás elől, így az EP bizottsága nem tehette fel a kérdéseit, most én felteszem ezeket a kérdéseket.</seg>
+<seg xml:id="AC8_4771.4">Tehát: vajon miért nem tudja elfogadni a fideszes ügyészség az OLAF, az Európai Csalás Elleni Hivatal által gyűjtött információkat, és miért jutnak a magyar hatóságok számos kényes fideszes ügyben sorozatosan más következtetésekre, mint az OLAF? Miért véli úgy számos ügyben a fideszes ügyészség, hogy az OLAF által gyűjtött bizonyítékok nem elfogadhatóak a magyar eljárásban? És végül, az Orbán Viktor vejének cége által elsíbolt 13 000 millióról való lemondással most már hivatalosan is elismeri-e a Fidesz-kormány, hogy az Elios-projektekre adott uniós támogatást egész egyszerűen ellopták? Várom a legfőbb ügyész válaszát.</seg>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

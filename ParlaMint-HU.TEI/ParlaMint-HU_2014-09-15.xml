@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2014-09-15" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2014-09-15 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2014-09-15 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="18" unit="speeches">18 beszéd</measure>
+        <measure xml:lang="en" quantity="18" unit="speeches">18 speeches</measure>
+        <measure xml:lang="hu" quantity="6599" unit="words">6599 szó</measure>
+        <measure xml:lang="en" quantity="6599" unit="words">6599 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2014-09-15">2014. 09. 15.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="18"/>
+          <tagUsage gi="seg" occurs="119"/>
+          <tagUsage gi="kinesic" occurs="24"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2014-09-15">2014-09-15</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2014-09-15-interpellation-IC7_1218" who="#GáborStaudt" ana="#regular"><note>DR. STAUDT GÁBOR (Jobbik):</note>
+<seg xml:id="IC7_1218.1">Köszönöm szépen, elnök úr. Sajnos látszik, hogy ennyire fontosak a budapestiek, hogy kétszeresen is át kellett adni a válaszadást.</seg>
+<seg xml:id="IC7_1218.2">Akkor, államtitkár úr, az elmúlt időszak eseményei egyértelművé tették, hogy a kormánynak nem kedves Budapest. Az állami és uniós forrásoktól való elzárás, a kórházak és iskolák államosítása mind olyan lépések, amelyek nem pozitív irányba befolyásolták a budapestiek életkörülményeit. Miközben önök célként tűzték ki az önkormányzati adósságállományok rendezését, Budapest számára már az is kegy, hogy engedélyeznek egy újabb hitelfelvételt a 3-as metró felújítására.</seg>
+<seg xml:id="IC7_1218.3">De a kormány nemcsak a budapestiekkel, hanem saját főpolgármesterével is állandó harcban áll. Ebben a háborúban Lázár János miniszter vezeti a kormány seregeit. A Miniszterelnökség az év elején magához vonta a középtávú budapesti uniós fejlesztéseket, aminek következtében a főváros százmilliárdos forrásoktól eshet el. Az indok, hogy túl gazdag Budapest, és az EU nem támogatja a további fejlesztéseket. Ha pedig ez nem tetszik a főpolgármesternek, menjen el, lobbizzon Brüsszelben. A budapesti állatkert viszont fellélegezhet, mert Lázár János kijelentette, hogy az állatkerti fejlesztéseket már csak Tarlós István miatt is támogatni fogja</seg>
+<kinesic type="noise"><desc>Zaj.</desc></kinesic>
+<seg xml:id="IC7_1218.4">Van egy budapesti nagyberuházásokért felelős kormánybiztos is Fürjes Balázs személyében, de nevével leginkább csak a kormány vagy a miniszterelnök személyes ambícióit szolgáló beruházásoknál találkozhatunk. Ilyen a Miniszterelnökségnek a budai Várba költözése, a stadionépítések vagy a Városliget államosított beépítése is. Fürjes Balázs szájából elhangzott viszont egy vitathatatlan igazság is a Népliget, így Budapest közbiztonságával kapcsolatosan. Idézem: "A Népliget Budapest legnagyobb zöldterülete, de nem merjük odaengedni még nappal sem a gyerekeinket, sőt mi sem merészkedünk be jelentős részére, mert leginkább büntetőjogi kategóriákkal írható le, ami ott történik." Ezeket a mondatokat sajnos a Tarlós István vezette főváros közbiztonsági tanúsítványának is tekinthetjük.</seg>
+<seg xml:id="IC7_1218.5">Tisztelt Államtitkár Úr! Lázár János azt mondta, a kormány támogatná a budapesti beruházásokat, de Brüsszel nem engedi. A fideszes főpolgármester szerint ez pont fordítva van: Brüsszel azt támogatja, amit a magyar kormány is támogat. Könnyen beláthatja, államtitkár úr, hogy itt a Fidesz háza táján valaki nem mond igazat.</seg>
+<seg xml:id="IC7_1218.6">Kérdezem ezért államtitkár urat, hogy ki a hunyó, Tarlós István vagy Lázár János. Várom megtisztelő és érdemi válaszát. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-09-15-interpellation-IC7_1221" who="#RózsaHoffmann" ana="#regular"><note>DR. HOFFMANN RÓZSA (KDNP):</note>
+<seg xml:id="IC7_1221.1">Tisztelt Ház! Tisztelt Államtitkár Úr! A köznevelés ügye ilyenkor szeptemberben, tanévkezdéskor mindig nagy közérdeklődésre tart számot, méltán, hiszen az emberek pontosan tudják, hogy amilyen a ma iskolája, olyan lesz az ország jövője. A tavalyelőtti és a tavalyi tanév igen sok újdonságot hozott, és állandó közbeszéd tárgya volt. Itt, az ország Házában is úgyszólván szünet nélkül elhangzottak szavak, mondatok, hol tárgyilagos hitelességgel, hol téves, gyakran unalomig ismételgetett hamis tartalommal.</seg>
+<seg xml:id="IC7_1221.2">Csak néhányat emelnék ki a legismertebb változtatások, újítások közül: kitüntetett szerepet kapott rendszerünkben a nevelés, bevezettük a mindennapos testnevelést, megindultak az erkölcstan- vagy hit- és erkölcstanórák, délután 4-5-ig nyitva tartanak az iskolák, megkezdődött a középiskolások közösségi munkája, az állam vette át az intézmények java részének fenntartását és üzemeltetését is sokszor, sokévi várakozásnak megfelelve hatályba lépett a pedagógus-életpálya igen jelentős pedagógusfizetés-emeléstől kísérve, életbe lépett az új Nemzeti alaptanterv és vele karöltve e tanévtől bekerültek az iskolákba az új generációs vagy kísérleti tankönyvek, az idén 61-féle és így tovább.</seg>
+<seg xml:id="IC7_1221.3">Ez utóbbiak közül jó néhányat magam is átnéztem. Bevallom, tetszenek. Színes, változatos képanyaguk, a gyerekekhez szóló nyelvezetük, a gondolkodtató, kreativitást ösztönző kérdéseik és feladataik, követhető szerkezetük első ránézésre jól kielégíti a korszerű pedagógiával szemben támasztott igényeket, nem beszélve arról, hogy milyen rendkívül rövid idő alatt állították elő őket. Dicséret illeti az intézetet és a népes alkotógárdát, és előre is üdvözöljük a korrekcióra vonatkozó szándékot.</seg>
+<seg xml:id="IC7_1221.4">Most viszont azzal szórakoznak egyesek, hogy óriási apparátussal hibavadászatot rendeznek, és állítják, hogy a kísérleti tankönyvek rossz minőségűek. A kákán is csomót keresés jegyében találnak is félresikerült mondatokat, egyet-kettőt több száz oldalon. Közben az is kiderült, hogy a kipécézett hibák korábbi, jóváhagyott tankönyvekben találhatók, legalábbis nagy részük.</seg>
+<seg xml:id="IC7_1221.5">(16.50)</seg>
+<seg xml:id="IC7_1221.6">Kérdezem ezért államtitkár urat, hogy folytatódnak-e az új tanévben is a megkezdett intézkedéseink. A NAT életbe lépésével megtörténik-e és mikor az érettségi reformja? Hogyan tervezik a kísérleti tankönyvek tesztelését és véglegesítését?</seg>
+<seg xml:id="IC7_1221.7">Tisztelettel várom a válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-09-15-interpellation-IC7_1222" who="#SándorBurány" ana="#regular"><note>BURÁNY SÁNDOR (MSZP):</note>
+<seg xml:id="IC7_1222.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Az elmúlt hetekben számos olyan hír jelent meg, amelyek a jegybank fényűző közpénz-felhasználási gyakorlatáról szóltak. Kiderült, hogy a Magyar Nemzeti Bank a teljes idei felsőoktatási keretösszeg több mint másfélszeresének megfelelő összeget, 200 milliárd forintot költene különböző alapítványok támogatására, 90 milliárd forintért épületvásárlási-épületfelújítási programba kezdett, 18 milliárd forintért megvásárolta az egyik legdrágább budapesti irodaházat, de nem sajnálja a milliárdokat saját önfényezésére sem, milliárdokat költ reklámcélokra.</seg>
+<seg xml:id="IC7_1222.2">Remélem, egyetért velem abban, hogy Matolcsy György jegybankelnöknek nem feladata a matolcsyzmus oktatásának finanszírozása. Remélem, abban is egyetérthetünk, miniszter úr, hogy a Magyar Nemzeti Bank nem ingatlanügynökség és nem feladata az ingatlanspekuláció.</seg>
+<seg xml:id="IC7_1222.3">Tisztelt Miniszter Úr! A pénzszórást sunyi módon azt követően gyorsították fel, hogy az MNB felügyelőbizottságának mandátuma lejárt, így az igazgatóság kikerült egy testületi kontroll alól.</seg>
+<seg xml:id="IC7_1222.4">Önnek mint az államháztartásért felelős miniszternek tudnia kellett arról, hogy az MNB a valós értéknél drágábban vásárolta meg az Eiffel Palace irodaházat. Tudnia kellett arról is, hogy az ügylet mögött offshore hátterű cégek is felbukkantak sajtóértesülések szerint.</seg>
+<seg xml:id="IC7_1222.5">Tisztelt Miniszter Úr! A jegybank és a kormány egymástól független működése nem jelentheti azt, hogy az illetékes miniszter behunyja a szemét, ha a jegybank jogszabályból nem levezethető módon, százmilliárdos nagyságrendben szórja a közpénzt. Ezért szükségesnek tartom, hogy tisztázza a közvélemény számára, hogyan értékeli a jegybank szokatlan mértékű és szokatlan módon történő költekezését. Mit szól ilyen példátlan pazarlás láttán? Egyáltalán mit tenne ön mint a tulajdonos képviselője? Tisztelettel várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-09-15-interpellation-IC7_1229" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="IC7_1229.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Az ukrajnai agressziót látva Orbán Viktor blöffjét nagyon nehéz komolyan venni. A miniszterelnök úr ugye azt mondta, hogy katonai értelemben héják, gazdaságilag viszont galambok leszünk. Csakhogy ez teljes mértékben megvalósíthatatlan. Sokkal inkább úgy tűnik, hogy Orbán Viktor kényszerpályán mozog. Magyarország katonai képességeiből ugyanis nagyjából egy verbális kardcsörgetésre futná, miközben gazdaságilag önök teljes mértékben függőségbe taszították hazánkat. Ugye, van egy szinte teljesen orosz importra alapozott olaj- és gázfelhasználásunk, önök ugye eldöntötték, hogy ide orosz hitelből kívánnak atomerőművi blokkokat építeni, ráadásul lesajnálják a megújuló energiaforrásokat, és teljes mértékben elmaradtak a hazai energetikai korszerűsítésekkel.</seg>
+<seg xml:id="IC7_1229.2">Gyakorlatilag önök olyan mértékben függőségbe taszították az országunkat, hogy teljesen kiszolgáltatottakká váltunk már most, és a jövőben is várhatóan teljesen bénultak leszünk az orosz birodalom árnyékában. Úgy is mondhatnám, hogy olyanok vagyunk, mint egy papírsárkány: amerre a szél fúj, arrafelé megyünk. Nagyjából így néz ki az az ország, amit önök külpolitikailag felépítettek. És ez egyértelműen az önök felelőssége. Egy kínos, kiszolgáltatott helyzetben vagyunk, és nagyon sajnálom, de azt kell hogy mondjam, hogy sok esetben már a nemzeti önbecsülésünket sérti az, amit önök külpolitikailag csinálnak.</seg>
+<seg xml:id="IC7_1229.3">Én emlékeztetni szeretném önt, miniszter úr, hogy amikor januárban az Orbán-Putyin-paktumot aláírták, akkor már pontosan látszott, hogy a putyini rendszer milyen irányba halad, amikor viszont a hitelmegállapodás megszületett, akkor már dörögtek a fegyverek. Önök egyszerűen becsukták a szemüket, és mentek tovább a putyini úton.</seg>
+<seg xml:id="IC7_1229.4">Most, amikor egyre nyilvánvalóbbá válik számunkra, hogy az orosz agresszió miatt meghirdetett uniós szankciók elzárják az orosz állami bankokat a nemzetközi forrásoktól, itt állunk egy olyan építkezés küszöbén, amit egy orosz állam tulajdonában álló banknak kellene megfinanszíroznia. Önök pedig, már megbocsásson, tisztelt miniszter úr, de mint valami elromlott kakukkos óra, folyamatosan azt ismételgetik, hogy a korlátozások nem érintik a paksi projektet. Tisztelt Miniszter Úr! Önök mégis mire alapozzák ezt a feltételezésüket? Számolniuk kell azzal, hogy az orosz banknak a szankciók miatt egyszerűen nem lesz pénze a beruházás kivitelezésére, vagy egy ideig lesz, utána pedig elfogy, mi meg itt maradunk egy félkész atomerőművel és egy rakat államadóssággal. Pontosan milyen stratégiája van a magyar kormánynak arra vonatkozóan, hogy ez a forgatókönyv nem fog bekövetkezni?</seg>
+<seg xml:id="IC7_1229.5">(A jegyzői székben dr. Szűcs Lajost Móring József Attila váltja fel.)</seg>
+<seg xml:id="IC7_1229.6">És egyáltalán milyen stratégiái vannak önöknek? Tehát világosan látszik, hogy most már nem vehetik készpénznek azt, hogy ez a finanszírozás meg fog történni. Végre folyik olyan kormányzati munka, amely arról szólna, hogy a megújuló energiaforrásokat helyzetbe kell hozni? Végre eldöntötték azt, hogy többfajta energiahordozónak lehetőséget adnak ebben az országban? Én szeretném önt emlékeztetni arra, hogy a megújulóké a jövő. Munkahelyeket adnak, és a szuverenitásunkat erősítik, a függőségünket viszont csökkentik. Én azt gondolom, hogy sokkal nagyobb bevetéssel kellene a megújulók felé fordulni az Orbán-kormánynak, és sokkal kevésbé kellene Putyin körül páváskodni</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-09-15-interpellation-IC7_1235" who="#LászlóGyörgyLukács" ana="#regular"><note>DR. LUKÁCS LÁSZLÓ GYÖRGY (Jobbik):</note>
+<seg xml:id="IC7_1235.1">Köszönöm szépen, elnök úr. Tisztelt Miniszter Úr! A nyári politikai uborkaszezonban sikerült azt a hírt elrejteni, ami az egészségügy további tönkretételének egyik biztos jele: a kormány szó nélkül engedi az egészségügyi ellátás többsebességessé válását, a várólistát átugró, pluszmunka keretében végzett műtéti beavatkozások jóváhagyásával. Nyáron értesülhettünk róla, befejezte tesztüzemét, és teljes egészében működésbe állt a Szegedi Tudományegyetem klinikáin az az ellátási forma, hogy az egyetem orvosainak önkéntes pluszmunkája keretében, térítési díj ellenében vásárolhatnak maguknak szolgáltatást, illetve műtétet a betegek.</seg>
+<seg xml:id="IC7_1235.2">A példa ragadós, hiszen az Uzsoki Utcai Kórház is az alábbi hirdetéssel szerez magának betegeket: "Nem akar fél évet várni csípőátültetésre? A világ egyik legjobb ortopédsebésze azonnal megoperálja. Luxuskörnyezetben gyógyulhat. Irányár: 1,4 millió forint." A baj az, hogy ez a rendszer nem a várólistán töltött idő csökkentése és nem a betegek érdekében jött létre, hanem az intézmények forrásszerzése érdekében. További baj, hogy ez megkettőzi az ellátórendszert az állami egészségügyben. Az ellátások ilyen megkettőződése - azaz aki fizet, gyorsabban előre jut, aki nem, az tovább dagasztja a vaskos várólistákat - egy eredményt szült: a kormány létrehozta a többsebességes, azaz a szegényekre és a gazdagokra osztható egészségügyi ellátást, mindezt állami intézményekben, állami eszközökkel, állami alkalmazottakkal.</seg>
+<seg xml:id="IC7_1235.3">Az ilyen szegény és gazdag felosztás nem szolgálja az esélyegyenlőséget, sőt a kórházakat a bevételszerzés miatt a várakoztatásban teszi érdekeltté. Tisztességtelen a kormány, amikor a biztosítottnak azt üzeni, hogy kétszeresét kell kifizetned, ha nem akarsz várni. Ezzel pedig felszámolja a szolidaritásra épülő egészségbiztosítási rendszert.</seg>
+<seg xml:id="IC7_1235.4">(16.40)</seg>
+<seg xml:id="IC7_1235.5">Így vezet a szabadidőben, a gazdagok egészségügyében végzett munka az orvos regenerálódásának kárára vagy a szegények egészségügyében a minőség romlására.</seg>
+<seg xml:id="IC7_1235.6">A fenti probléma jól mutatja, hogy a kormány továbbra is sajnálja azt a 8-10 milliárd forintot, amely az egészségügyi várólisták lerövidítésére szükséges lenne, és továbbra is sajnálja a valódi bérrendezésre és az orvosok itthon tartására az adófizetők és a biztosítottak pénzét. Gyakran úgy tűnik, a kormány nyűgnek érzi az egészségügyet, és az ilyen problémákra adott válaszok hiányában mutatkozik ez meg.</seg>
+<seg xml:id="IC7_1235.7">Tisztelt Miniszter Úr! Miért hozta létre a kormány a többsebességes szegény- és gazdagellátásra osztott egészségügyet? Mikor szán már pénzt a várólisták lerövidítésére és felszámolására? Végül és legfontosabbként: miért engedi a kormány, vagy inkább sanda politikai szándékból miért akarja felszámolni a korábbi szolidaritásalapú egészségbiztosítást, és belecsempészni a piaci modellt?</seg>
+<seg xml:id="IC7_1235.8">Várom megtisztelő válaszát. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-09-15-interpellation-IC7_1239" who="#ZsuzsannaSzelényi" ana="#regular"><note>SZELÉNYI ZSUZSANNA (független):</note>
+<seg xml:id="IC7_1239.1">Köszönöm szépen. Tisztelt Ház! Tisztelt Miniszter Úr! Önök fél évvel ezelőtt, kormányzásuk idején már nem először igazán rossz döntést hoztak. A paksi erőmű bővítéséről szóló hitelszerződés kormányzásuk egyik legnagyobb hatású döntése, amely messze túlmutat az önök politikai életútján. Ez a döntés generációkat taszít az Oroszországnak való kiszolgáltatottságba. Kiszolgáltat, mert mérhetetlenül drága, amely minden magyar családot legalább egymillió forint adósságba ver. Kiszolgáltat, mert tartósan függővé tesz az orosz energiaforrásoktól, pedig más források is állnak rendelkezésre ma már a világ számos tájáról. Kiszolgáltat, mert egy olyan elavult energiaforrás használatába öl százmilliárdokat, amelynél ma már sokkal olcsóbb és biztonságosabb energiaforrások is elérhetők Magyarország számára.</seg>
+<seg xml:id="IC7_1239.2">Amikor fél éve megállapodtak az oroszokkal, már jól ismertük a putyini hatalom antidemokratikus, elnyomó természetét. Az elmúlt fél évben azonban még nagyobbat fordult az orosz hatalmi gépezet. Oroszország a XXI. század első európai hódító háborúját indította el a szomszédos Ukrajnával szemben a Krímben és Kelet-Ukrajnában. Bármennyire is összetett a posztszovjet politikai helyzet, azt háborúval biztosan nem lehet megoldani. Az elmúlt ötven év Európájának nagy történelmi eredménye éppen az, hogy a háborús megoldások helyett a problémák tárgyalásos, békés rendezésének kultúráját építette fel. Az együttműködés kultúrája nekünk, magyaroknak, sok-sok háború áldozatának a biztonságot és a jövőt jelenti.</seg>
+<seg xml:id="IC7_1239.3">Oroszország új háborúja szenvedésekkel teli világot hoz el. Vlagyimir Putyin a háborújával brutálisan gázol át emberi jogokon, a népek önrendelkezési jogán és az európai civilizációs normákon. Olyan jogokon, amelyekért húsz évvel ezelőtt a Balkán esetében a Fidesz még maga is kiállt.</seg>
+<seg xml:id="IC7_1239.4">Az oroszok által gerjesztett kelet-ukrajnai háborúban már több mint kétezer ember halt meg. Az önök nyilatkozataiból is kiderült a mai napon is, hogy a NATO-kötelékekben való közös háború elleni fellépés a mai magyar kormánynak is fontos.</seg>
+<seg xml:id="IC7_1239.5">Miniszter Úr! Lehet egy darabig két kapura játszani, lehet lavírozni Európa és az oroszok között, de amikor háború van, amikor emberek halnak meg, akkor egy komoly vezetőnek képesnek kell lennie dönteni. Döntenie kell, hogy az agresszor Oroszország vagy nyugati szövetségeseink mellé állítják Magyarországot.</seg>
+<seg xml:id="IC7_1239.6">(17.00)</seg>
+<seg xml:id="IC7_1239.7">A történelem során Magyarország vezetői már túl sokszor álltak a rossz oldalra. Ne kövessék el elődeik hibáját! Nem dobhatják sutba a rendszerváltáskor kivívott szabadságunkat egy régi-ú</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="IC7_1239.8">kiszolgáltatottság kiépítésével.</seg>
+<seg xml:id="IC7_1239.9">A következő kérdéseink vannak. Az orosz agresszió hatására hajlandóak-e felülvizsgálni az orosz hitelszerződést Pakssal kapcsolatban? Hajlandóak-</seg>
+<seg xml:id="IC7_1239.10">(Az elnök ismét jelzi az időkeret leteltét.)</seg>
+<seg xml:id="IC7_1239.11">nyilvánosságra hozni az összes paksi dokumentumot?</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2014-09-15-interpellation-IC7_1248" who="#ÁgnesKunhalmi" ana="#regular"><note>KUNHALMI ÁGNES (MSZP):</note>
+<seg xml:id="IC7_1248.1">Nagyon szépen köszönöm, elnök úr. Tisztelt Miniszter Úr! A hírek szerint kormányzati döntés született arról, hogy az Európai Unió által elérhetővé tett fejlesztési források terhére nem valósulhat meg nagy infrastrukturális beruházás Budapesten.</seg>
+<seg xml:id="IC7_1248.2">A 3-as metró felújításának szükségességét ma már senki sem vitatja. Az elmúlt két évben, 2011 óta ötvenháromszor állt le a metró, túlnyomórészt műszaki okokból. A város főpolgármestere, Tarlós István az idén márciusban arról nyilatkozott, hogy a metró ma még nem életveszélyes, de akár azzá is válhat. Arról is beszélt a főpolgármester úr, hogy ha más megoldás nincs, le fogja állítani a 3-as metrót.</seg>
+<seg xml:id="IC7_1248.3">Azt hiszem, mindannyian tisztában vagyunk vele, hogy a napi 400 ezer utast szállító járművonal leállítása milyen problémákat okozna a közlekedésben, ezáltal a főváros és az egész ország gazdaságának. A 3-as metró működése elemi gazdasági érdeke Magyarországnak. Ehhez képest Budapest vezetése és az európai uniós fejlesztésekért felelős tárca között hónapok óta zajló nyilvános vitát hallunk, megoldást azonban nem. Hangoztak el vádak előkészítetlenségről, Facebookon üzentek egymásnak meghatározó politikai vezetők, brüsszeli lobbizásra és hát egyebekre szólították fel egymást. Azt hiszem, ez a nyilvános üzengetés meglehetősen méltatlan ahhoz a napi 400 ezer utashoz, akik nap mint nap használják a 3-as metrót. Ők többnyire az élet nehezebb oldalán vannak.</seg>
+<seg xml:id="IC7_1248.4">(16.30)</seg>
+<seg xml:id="IC7_1248.5">Tudom, hogy a nagy kormányzati autókból a föld alatt utazók élete nem nagyon látszódi</seg>
+<seg xml:id="IC7_1248.6">(Felzúdulás a kormánypártok soraiban.)</seg>
+<seg xml:id="IC7_1248.7">, de ez nem ok arra, hogy elfordítsák a fejüke</seg>
+<kinesic type="signal"><desc>Az elnök csenget.</desc></kinesic>
+<seg xml:id="IC7_1248.8">a 3-as metró utasaitól. A kormány eddig egyetlen dolgot tett a 3-as metró ügyében: hozzájárult Budapest hitelfelvételéhez</seg>
+<kinesic type="noise"><desc>Zaj. - Az elnök csenget. - Közbeszólásra:</desc></kinesic>
+<seg xml:id="IC7_1248.9">Köszönöm, miniszter úr.</seg>
+<seg xml:id="IC7_1248.10">Azaz nem az európai uniós források bevonásával, hanem Budapest eladósításával képzelik el a program megoldását. Közben azt mondják, brüsszeli szabályok akadályozzák uniós források felhasználását. A helyzet az, hogy ez egész egyszerűen nem igaz. Ugyanis nem a régiók fejlettségéhez kötődő támogatási alapok terhére kerülhetne elvégzésre a felújítás, hanem például az integrált közlekedésfejlesztési operatív program keretében.</seg>
+<seg xml:id="IC7_1248.11">Mindent egybevéve a kormánynak és a fővárosnak eddig és ezután is meglenne a lehetősége, hogy európai uniós források bevonásával nagyon gyorsan megkezdje az elkerülhetetlen felújítást. Ezért kérdezem tisztelt miniszter urat, hogy a kormány szándékozik-e bármilyen nagy budapesti infrastrukturális fejlesztés európai uniós finanszírozását lehetővé tenni. Számíthat-e arra az a napi 400 ezer utazó, aki a 3-as metrót használja, hogy önök felelősen gazdálkodnak európai polgáraink önökre bízott pénzével, és Budapest eladósodása helyett lehetővé teszik a 3-as metró mielőbbi felújítását?</seg>
+<seg xml:id="IC7_1248.12">Miniszter úr, köszönöm megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Szórványos taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-09-15-interpellation-IC7_436" who="#PéterCseresnyés" ana="#regular"><note>CSERESNYÉS PÉTER (Fidesz):</note>
+<seg xml:id="IC7_436.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! Továbbra is kiemelkedően alacsony Magyarországon az infláció, a pénzromlás megállt az utóbbi hónapokban. Ez azt is jelenti, hogy kiszámíthatóbbá váltak a hétköznapok a családok, a nyugdíjasok és a vállalkozók, tehát az emberek számára. 1968 óta nem volt olyan alacsony az infláció hazánkban, mint az elmúlt hónapokban. Megállt a drágulás a tavalyi árakhoz viszonyítva, sőt bizonyos esetekben még csökkentek is az árak, így például olcsóbb lett a liszt, a cukor, az étolaj vagy épp a kenyér ára és bizonyos hústermékek ára is. Ennek hatásaként a fizetések és a nyugdíjak is tartósan őrzik értéküket, hiszen kevesebbet kell fizetni az élelmiszerekért, a rezsiért, valamint a tartós fogyasztási cikkekért is. A tavalyi évben például 3,2 százalékkal nőtt a bérek reálértéke az alacsony inflációs környezetnek köszönhetően.</seg>
+<seg xml:id="IC7_436.2">Tisztelt Államtitkár Úr! Szeretnék mindenkit emlékeztetni, hogy a szocialista kormányok által elvesztegetett évtized során kétszeresére nőtt a villany, háromszorosára a gáz ára. Csupán 2007-ben több mint 24 százalékkal nőttek az átlagos háztartási energiaárak. Ezzel szemben a tavaly megkezdett rezsicsökkentés hatására a háztartási energiaárak csökkentek a legnagyobb mértékben, egy év alatt összesen 12,5 százalékponttal. Ráadásul az idei évben is tovább folytatódik a rezsicsökkentés. Áprilisban a gáz ára csökkent, a következő hetekben pedig az áram és a távfűtés ára fog mérséklődni. A rezsikiadásokon megspórolt pénzt a háztartások részben egyéb fogyasztási kiadásuk, részben megtakarításuk növelésére tudják fordítani, amely egyrészt serkenti a gazdaság növekedését, másrészt erősíti a hazai finanszírozási képességet.</seg>
+<seg xml:id="IC7_436.3">Ezekre tekintettel kérdezem tisztelt államtitkár urat, hogy mennyivel több pénz maradt a háztartásoknál a rezsicsökkentés eredményeképpen. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Szórványos taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-09-15-urgent_question-AC7_1277" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_1277.1">Köszönöm szépen a szót. Tisztelt Ház! Tavasszal és nyár elején az LMP számos alkalommal hívta már föl a figyelmet, hogy az előző tanévben gyászosra sikeredett a tankönyvterjesztés, a könyveiket későn megkapó és hosszabb időn át tankönyv nélkül maradt diákok száma rémisztő volt. Ezt több alkalommal és parlamenti államtitkár levelével támasztottuk alá.</seg>
+<seg xml:id="AC7_1277.2">Igyekezetünket, aggódásunkat nemcsak itt a parlamentben, hanem több területen kifejtettük, és bízunk benne, hogy egy kicsit talán ez is közrejátszott abban, hogy mostanra, azt kell mondjuk, a sok negatív előítélet után oda jutottunk, hogy gratulálnunk kell, valóban ez a mostani terjesztés... - Rétvári államtitkár úr szája fülig ér, ilyen dicséret egy kis párttól. De vajon dicséret-e az, amikor az, ami jár, tehát a tankönyvek eljutnak időben oda, ahova kell, a diákokhoz, és ez úgy történik, hogy közreműködik a rendőrség, közreműködnek a közmunkások, és lényegesen több forrást használnak föl erre, mint korábban? Hiszen nem feltétlenül csak a rendőrök és a közmunkások költségére gondolok itt, hanem arra is, hogy 20 százalékban lett megjelölve a tankönyvterjesztés haszonkulcsa. Korábban ez lényegesen alacsonyabb volt, és azt is a piac fizette, a tankönyvkiadók.</seg>
+<seg xml:id="AC7_1277.3">No de a tankönyvek minőségével jelentős probléma van. Ami itt elhangzott, amit a sajtóban lehet látni, ez csak a jéghegy csúcsa, ezek az úgynevezett bakik, ezek a sztereotip és sértő tartalmak. Sokkal nagyobb probléma van: strukturális, tartalmi és nyelvezeti. Nehezen érthető nyelvezetekről van szó, és összeollózásokról, húsz évvel ezelőtti tankönyvek szövege található meg, köszön vissza a jelenlegi könyvekben. Köszönöm.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2014-09-15-urgent_question-AC7_1278" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_1278.1">Tisztelt Államtitkár Úr! Az MNB felügyelőbizottsága, amelynek mandátuma májusban megszűnt, még tavasszal benyújtotta az Országgyűlésnek a jegybank múlt évi gazdálkodásáról szóló jelentését. A jelentés több kritikai megállapítást fogalmazott meg a jegybank nem alaptevékenységet finanszírozó szándékáról. Az MNB 140 milliárd forintot irányzott elő többek között műkincsek, festmények, épületek megvásárlására, felújításokra, oktatásra. Pedig akkor még híre sem volt annak a hihetetlen pénzszórásnak, amit azóta megtapasztaltunk; luxuskastély, offshore hátterű Eiffel-palota, más épületek megvásárlása, és 200 milliárd forint közpénz a jegybank alapítványainak.</seg>
+<seg xml:id="AC7_1278.2">A jegybank tette mindezt egy olyan időszakban, amikor az Országgyűlés még nem állította fel az MNB új felügyelőbizottságát. A jegybank a költekezést a nyilvánosság szinte teljes kizárásával, átláthatatlan módon igyekezett lebonyolítani. Sajnos az Országgyűlés, bár az LMP többször kezdeményezte, nem hajlandó napirendre venni a felügyelőbizottság jelentésének megtárgyalását.</seg>
+<seg xml:id="AC7_1278.3">Az egyik internetes portálnak adott nagyinterjújában arra a kérdésre, hogy ki ellenőrzi az MNB tevékenységét, Matolcsy úr a kormánnyal való egyeztetésre hivatkozott. Ezért szeretném megkérdezni önt a miniszter úr képviseletében, hogy valóban egyeztetett-e a kormánnyal a jegybank elnöke az elmúlt hónapokban az alaptevékenység finanszírozásába nem eső vásárlásokról és az alapítványainak juttatott 200 milliárd forint átadásáról. A másik kérdésem: mikor kerül az Országgyűlés elé az MNB új felügyelőbizottságának megválasztása</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-09-15-urgent_question-AC7_1281" who="#ZoltánMagyar" ana="#regular"><note>MAGYAR ZOLTÁN (Jobbik):</note>
+<seg xml:id="AC7_1281.1">Köszönöm a szót, elnök úr. Tisztelt Miniszterelnök Úr! Az a botránysorozat, ami a Földművelésügyi Minisztérium körül most már napról napra dagad, most már nem csak arról szól, hogy melyik narancsbáró nyúlja le éppen a támogatásmilliárdokat a hazai családi gazdálkodók elől. Nemcsak arról szól, hogy kinek osztogatják az állami földeket, hanem bizony a szaktárca minden szintjén megjelentek a problémák.</seg>
+<seg xml:id="AC7_1281.2">(17.40)</seg>
+<seg xml:id="AC7_1281.3">Emlékezhetünk, egy évvel ezelőtt itt derült ki, hogy a Mezőgazdasági és Vidékfejlesztési Hivatal közegében gyakorlatilag egy bűnszervezet működik, ami a területalapú támogatások lenyúlására specializálódott. De ugyanúgy hideg zuhanyként érte azt a 13 ezer érintett családi gazdálkodót a hír, hogy bizony az AKG-program szeptembertől nem folytatódik, azóta pedig semmilyen alternatívát nem nyújtottak, miközben már a sokadik határidő járt le.</seg>
+<seg xml:id="AC7_1281.4">Szintén érdekes történet, hogy néhány napja lemondott Palkovics Péter, az MVH elnöke; pletykák szerint azért, mert Brüsszel több száz milliárd forintot akár visszaigényelhet különböző európai uniós programok jogtalan felhasználása miatt, de az biztos, hogy jó néhány milliárd forintot érinteni fog. Ez viszont felveti azt a kérdést is, hogy mikor fogják elfogadni a Jobbiknak azt a javaslatát, hogy ilyen esetben, amikor egyértelműen a döntéshozón múlott az, hogy ennyi pénztől elesnek a hazaiak, a hazai érintettek, bizony akár a magánvagyonával is felelősségre lehetne vonatni ezeket a vezetőket.</seg>
+<seg xml:id="AC7_1281.5">Szintén friss hír, hogy az NFA-tól kidobták az összes ügyvédet, állítólag azért, mert Kishantost nem elég hatékonyan csinálták ki, Kishantos megsemmisítésében nem voltak elég professzionálisak. Ma már ott tartunk, hogy végrehajtást kért a NAV a Nemzeti Földalapkezelő Szervezet ellen, mivel 132 ezer forintos bírságot nem tudott befizetni az NFA. Sokáig lehetne ezeket a problémákat sorolni.</seg>
+<seg xml:id="AC7_1281.6">A legújabb talán, ami még említésre érdemes itt ebben a szűk időkeretben: az Európai Bizottság augusztus 30-ai rendeletét figyelmen kívül hagyva a kormány, most úgy tűnik, hogy bukják a hazai almatermelők azt a néhány milliárd forintot, ami megsegítette volna őket az orosz embargó miatt</seg>
+<kinesic type="signal"><desc>Az elnök csengetéssel jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_1281.7">Kérem, válaszoljon ezekre a felvetésekre, miniszterelnök úr</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-09-15-urgent_question-AC7_1287" who="#LászlóVarga" ana="#regular"><note>DR. VARGA LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_1287.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Az előbb Hoffmann Rózsának adott válaszában azt mondta, hogy nem talált botrányokat az új tanév kezdésekor. Hadd mondjak el önnek egyet, amely valószínűleg elkerülte a figyelmét, hiszen országos botrány lett a miskolci Kazinczy Ferenc Magyar-Angol Két Tanítási Nyelvű Általános Iskola igazgatóválasztásából.</seg>
+<seg xml:id="AC7_1287.2">A korábban meghirdetett pályázatot, azt az eljárást eredménytelennek nyilvánította a KLIK, majd egy olyan igazgatónőt nevezett ki az iskola élére, akinek a pályázatát senki sem támogatta, sem a tantestület, sem a nevelőtestület. Adódik a kérdés, hogy miért pont őt bízta meg a KLIK az intézmény vezetésével az új pályázat kiírásáig. Kérdezem ezt azért, mert szakmai indoka nemigen lehetett ennek a döntésnek, az teljesen irracionális, hiszen eddig az intézményt vezető szakembergárda, a pedagógusok a szülők által is elismerten vezették ezt az iskolát, elismert szakmai munkát végeztek. Egy olyan pedagógusnak adták át az irányítását ennek az iskolának, aki egy percig sem tanított az iskolában, az intézményt nem ismeri, és - még egyszer mondom - sem a szülők, sem a tantestület nem támogatja. Az már csak egy adalék, hogy egyébként nemrég átlépte a nyugdíjkorhatárt. Ezt megtudhatja egyébként bárki az iskola honlapjáról is.</seg>
+<seg xml:id="AC7_1287.3">A pedagógusok és a szülők értetlenül állnak a történtek előtt, a pedagógusokat megfélemlítették, ők nem mernek megszólalni ebben az ügyben. A szülők nyílt levelet írtak Balog Zoltán miniszter úrnak, aki most nem mert vagy nem akart válaszolni. Nem is válaszolt érdemben a szülőknek sem. Mécsesgyújtásos akciót szerveztek a múlt hétre a szülők, erre sem válaszolt senki</seg>
+<seg xml:id="AC7_1287.4">(Dr. Bárándy Gergely: Szégyen!)</seg>
+<seg xml:id="AC7_1287.5">Magam Földesi Norbert önkormányzati képviselővel közösen nyílt levélben fordultam a KLIK-hez, hogy magyarázzák el, mi indokolja ezt az eljárást. Nem tették. Így kénytelen vagyok most öntől kérdezni, hogy miért neveznek ki minden tiltakozás ellenére ilyen módon egy iskolaigazgatót</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_1287.6">(17.10)</seg>
+<seg xml:id="AC7_1287.7">Hogyan bízhatták meg mégis őt az intézmény vezetésével, ha nem volt megfelelő a pályázata</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC7_1287.8">Miért nem foglalkoznak a szülők és pedagógusok véleményével?</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2014-09-15-urgent_question-AC7_1288" who="#MátyásFirtl" ana="#regular"><note>FIRTL MÁTYÁS (KDNP):</note>
+<seg xml:id="AC7_1288.1">Tisztelt Elnök Úr! Tisztelt Miniszter Úr! L. Simon László, a Miniszterelnökség parlamenti államtitkára ismertette azt az elképzelést, hogy a térség, térségünk vonzerejének erősítése céljából egy szervezeti egységbe egyesíti a fertőrákosi püspöki palotát, a nagycenki Széchenyi-kastélyt, a soproni Esterházy-palotát és a fertődi Esterházy-kastélyt.</seg>
+<seg xml:id="AC7_1288.2">Az államtitkári bejelentésnek a Széchenyi-kastély és -örökség jövőbeli sorsát érintő része különösen is fontos. Azt a felismerést jelzi, hogy gyors és határozott lépésre van szükség a legnagyobb magyar örökségének méltó megjelenítésére egykori lakhelyén, Nagycenken.</seg>
+<seg xml:id="AC7_1288.3">Mi, Sopron vármegyeiek külön is büszkék vagyunk Széchenyi Istvánra; a reformkor vezéralakja, az egyik legnagyobb formátumú valaha élt politikus gyermekkorát, élete fontos, meghatározó alkotóéveit Cenken és Sopronban töltötte. Ezért is tartjuk kötelességünknek a nagycenki Széchenyi-emlékhely, a Széchenyi-kastély felújítását, a Széchenyi-örökség és -szellemiség rangjához méltó megjelenítését.</seg>
+<seg xml:id="AC7_1288.4">Jelenleg a Széchenyi-emlékhelyet hat, egymástól független fenntartó működteti. A Széchenyi-kastélyon az 1970-es évek eleji felújítás óta csak karbantartás történt, a kastély Széchenyi szellemiségéhez méltatlan állapotban van.</seg>
+<seg xml:id="AC7_1288.5">Gróf Széchenyi István egykori lakhelyének felújítása - akár együtt a környékbeli volt Széchenyi-kastélyokkal, -birtokokkal, -emlékhelyekkel való közös funkció kialakításával - mint támogatandó, nemes célt szolgálna az, hogy méltó nemzeti zarándokhelyként erősítse a nemzettudatot, a nemzetszeretetet az odalátogatókban.</seg>
+<seg xml:id="AC7_1288.6">Tisztelt Miniszter Úr! Az Esterházy-kastélyegyüttes fejlesztései mellett, amelyet nagyon köszönünk, megvalósulhat-e a Széchenyi-örökség rangjához méltó felújítása? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-09-15-urgent_question-AC7_1290" who="#GergelyBárándy" ana="#regular"><note>DR. BÁRÁNDY GERGELY (MSZP):</note>
+<seg xml:id="AC7_1290.1">Köszönöm szépen a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Kétharmados parlamenti többségével a Fidesz 2010 és '14 között leépítette a jogállamot, taglózó ütést mért a fékek és ellensúlyok rendszerére</seg>
+<kinesic type="noise"><desc>Zaj, felzúdulás, közbekiáltások a kormánypártok soraiban.</desc></kinesic>
+<seg xml:id="AC7_1290.2">Értem én, hogy nem tetszik önöknek</seg>
+<kinesic type="noise"><desc>Zaj.</desc></kinesic>
+<seg xml:id="AC7_1290.3">Most a kormánytól független civil szervezetekkel történő leszámoláson a sor. Erről szól a Norvég Civil Támogatási Alap körüli vita, illetve az innen származó kifizetések jogszerűségének megkérdőjelezése.</seg>
+<seg xml:id="AC7_1290.4">Nyilvánvaló, hogy önöket nem az érdekli, hogy történtek-e kisebb-nagyobb szabálytalanságok a norvég alapot kezelő alapítványoknál. Céljuk sokkal inkább a másként gondolkodók megfélemlítése és elhallgattatása. Szeptember 8-án a Kehi és az adóhatóság után a rendőrség is kiszolgálójává vált a gyalázatos politikai szándékoknak. A Készenléti Rendőrség példátlanul nagy erőkkel demonstratívan megszállta az Ökotárs Alapítvány irodájának otthont adó épületet. Sajtóbeszámolók szerint a rendőrség kivonulása egy többtagú fegyveres bűnbanda elfogásához indokolt mértékű volt.</seg>
+<seg xml:id="AC7_1290.5">Tisztelt Államtitkár Úr! Remélem, osztja azt az álláspontot, hogy néhány számítógép és irat átvizsgálása nem igényel demonstratív rendőri akciót. Megjegyzem, hogy ezen a véleményen volt az önök egyik helyettes államtitkára is, és a parlament kormánypárti egyik alelnöke. Ezért kérem tisztelt államtitkár urat, adjon magyarázatot arra, hogy a megfélemlítésen túl mi más magyarázata lehetett, lehet annak, hogy ilyen nyilvánvalóan aránytalan rendőri fellépés történt. Ha nincs más ésszerű magyarázat, kérem, nyilatkozzon: helyénvalónak tartja-e, hogy a rendőrség asszisztál a civil szervezetek elleni politikai támadáshoz.</seg>
+<seg xml:id="AC7_1290.6">Nem az tehát a kérdés, hogy a kiérkező rendőrök jogszerűen jártak-e el, s minthogy nem ez, kérem, válaszát se a szokásos sablonra húzza fel. A kérdés az, hogy ön szerint vajon összefér-e a jogállami normákkal, hogy vélhetően politikai utasításra egy békés civil szervezet székházát kommandósok hada rohanja le, s ezzel nem csupán az érintetteket félemlíti meg, hanem törekszik azokat is, akik a kormánnyal szemben fogalmaznak meg vagy fogalmaznának meg véleményt</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC7_1290.7">Mi volt ennek az akciónak az oka, államtitkár úr?</seg>
+<seg xml:id="AC7_1290.8">Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-09-15-urgent_question-AC7_1291" who="#NándorGúr" ana="#regular"><note>GÚR NÁNDOR (MSZP):</note>
+<seg xml:id="AC7_1291.1">Köszönöm szépen. Miniszter úr, ön is tudja nyilván, hogy 50 feletti ilyen stratégiai szövetség, ilyen megállapodás kötődött. Nem tudok mást mondani, csakis azt, ami a címben is megfogalmazódik, én úgy látom, úgy gondolom, hogy ez tényleg egy kormányzati marketingfogásként értelmezhető. Nagyon egyszerűen azért, mert ha belegondolunk ezeknek a megállapodásoknak a tartalmába, néhányat sikerült olvasnom is, akkor látható módon ez egy üres halmaz. Ez arról szól, hogy szándékunkat fejezzük ki arra, szándékunkat fejezzük ki amarra, és a másik oldalról is hasonlóan viseltetnek e tekintetben.</seg>
+<seg xml:id="AC7_1291.2">Nincsenek benne vállalások, nincsenek benne kötelezettségek, nincs benne semmi olyan, ami akár a munkaadói oldalról, akár a kormányoldalról elkötelezettséget jelentene. De a legfájóbb az, hogy nincs benne olyan, ami a stratégiai szövetségesek által foglalkoztatottak körének pozitív üzenetet jelentene. Mindegy, hogy ez a munkahelyük védelmét, mindegy, hogy ez a munkahelyen lévő munkavédelmi kérdések kiteljesedését vagy bármi mást, a bérüket érintené. Nincs benne semmi. Mi ez akkor, ha nem marketing? Mire jó ez valójában? Csakis arra, hogy egy olyan tükröt próbáljunk meg felállítani kormányoldalról, ami arról szól, hogy milyen jók is vagyunk. És közben tudjuk, az 5 fő feletti foglalkoztatói helyek tekintetében nem nő Magyarországon a foglalkoztatottak száma, csak belehazudják az éterbe azt, hogy a foglalkoztatás vonatkozásában pozitív előrelépések vannak.</seg>
+<seg xml:id="AC7_1291.3">(18.10)</seg>
+<seg xml:id="AC7_1291.4">Nem megyek a részletekbe, mindnyájan tudjuk, hogy a közfoglalkoztatás és a külföldre üldözöttek köre az, aki ezt életre hívja, és nem a kormány jóvoltából, a kormány gazdasági intézkedései jóvoltából születnek az új munkahelyek - hát még a bérekről ne is beszéljünk! Tehát nincs semmi, l'art pour l'art alapú ez a történet</seg>
+<kinesic type="signal"><desc>Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC7_1291.5">Köszönöm szépen, elnök úr.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2014-09-15-urgent_question-AC7_1292" who="#AntalRogán" ana="#regular"><note>ROGÁN ANTAL (Fidesz):</note>
+<seg xml:id="AC7_1292.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Képviselőtársaim! Az elmúlt két év alatt a második Orbán-kormány európai szinten is példátlan mértékben tudta csökkenteni a Gyurcsány-korszak idején többszörösére megemelt háztartási rezsiköltségeket. Összesen kilenc közszolgáltatás ára csökkent Magyarországon. Ezek közül a legfontosabbak: a lakossági gáz és a villamos energia ára három lépésben ugyan, de összességében több mint 25 százalékkal, tehát több mint a negyedével csökkent; a távhőszolgáltatás díja az újabb, október 1-jei csökkentéssel együtt 2012 decemberéhez képest 23 százalékkal lesz kevesebb, és ezenkívül 10 százalékkal csökkent az ivóvíz, a csatorna, a kéményseprés, a palackos gáz, a szippantottszennyvíz-szállítás és a hulladékszállítás díja is.</seg>
+<seg xml:id="AC7_1292.2">Fontos dolgok ezek, és ne felejtsük el, hogy az a célkitűzés vezérelt mindannyiunkat, hogy a rezsiköltségeket a keresetek arányához képest az emberek számára megfizethető mértékre szállítsuk le. Korábban, a Gyurcsány-kormány idején Európában a keresetek arányában a legmagasabb rezsiköltséget fizették a magyar háztartások egész Európában.</seg>
+<seg xml:id="AC7_1292.3">Tisztelt Miniszter Úr! Vannak azonban olyan területek, ahol speciális helyzetre való tekintettel a rezsicsökkentés minden eleme nem teljes egészében érvényesül. Választókerületem egyik ilyen társasháza a Honvéd utca és a Balaton utca sarkán található HM-tömbház, ahol a minisztérium biztosítja a fűtésszolgáltatást, ahol természetesen értem a minisztériumnak - aki nem tudott a kedvezményes gázárral mint intézményi nagyfogyasztó élni - a szempontját, de azt gondolom, a rezsicsökkentés viszont mindenkinek jár. Ezzel a problémával az önkormányzatok is szembesültek általuk működtetett fűtésrendszereknél, mégis áthidalták a problémát és csökkentették a fűtésköltségeket. Most már meg fog valósulni egy új beruházás, amivel ez a jövőben megoldódik.</seg>
+<seg xml:id="AC7_1292.4">Az elmúlt évekre, elmúlt másfél évre visszamenőleg kérdezném a miniszter urat, hogy visszamenőleg érvényesítik-e a fűtésszámlában a társasház lakói számára a 2013. január 1-je óta végrehajtott rezsicsökkentést.</seg>
+<seg xml:id="AC7_1292.5">Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2014-09-15-urgent_question-AC7_1293" who="#ErikBánki" ana="#regular"><note>BÁNKI ERIK (Fidesz):</note>
+<seg xml:id="AC7_1293.1">Köszönöm szépen. Tisztelt Elnök Úr! Államtitkár Úr! Tisztelt Képviselőtársaim! A turizmus idei adatai új rekordokat döngetnek. A belföldi vendégszám, a bruttó szállásdíjbevétel továbbra is tartja 10 százalék feletti növekedési tendenciáját, miközben az összes vendégszám 7,3 százalékkal, az eltöltött vendégéjszakák száma pedig 5,6 százalékkal emelkedett. Hazánk kereskedelmi szálláshelyei az év első hét hónapjában összesen 5 millió 250 ezer vendéget fogadtak, akik 13,4 millió vendégéjszakát eltöltve bruttó 101 milliárd forint szállásdíjat fizettek pihenésük során. Az egyik legfontosabb piaci teljesítményt kifejező mutató, a szállodai revpar, azaz egy szobára jutó bruttó szállásdíjbevétel 2014 első hét hónapjában is tartja 10 százalék körüli növekedési ütemét.</seg>
+<seg xml:id="AC7_1293.2">(Az elnöki széket Jakab István, az Országgyűlés alelnöke foglalja el.)</seg>
+<seg xml:id="AC7_1293.3">A nyár második hónapjában a tíz legjelentősebb küldő országaink közül a vendégéjszakák számai alapján 16 százalékkal az Egyesült Államok érte el a legmagasabb növekedést a tavalyi évhez képest, a szlovák piac is 13 százalékos, a lengyel piac pedig több mint 11 százalékos bővülést mutat. Jól látható az is, hogy a magyar családok is többet tudtak pihenésre fordítani július hónapban, mint egy évvel ezelőtt, és összesen kétmillió vendégéjszakát töltöttek el a hazai szálláshelyeken. Ráadásul a SZÉP-kártya egyre jelentősebb szerepet játszik a belföldi turizmus élénkítésében, idén január és július között a kereskedelmi szálláshelyek 9 milliárd 260 millió forint értékben fogadtak el SZÉP-kártyát, ami közel 19 százalékos növekedés a tavalyi évhez képest.</seg>
+<seg xml:id="AC7_1293.4">Tisztelt Államtitkár Úr! Az elmúlt hónapokban Magyarország komoly elismerést szerzett a nemzetközi turisztikai összehasonlításokban is. Egy felmérés szerint például a brit turisták számára 2014-ben Budapest volt a legkedvezőbb utazási célpont. Ezért kérdezem a tisztelt államtitkár úrtól, a rekordok, amelyeket a turizmus dönget, fenntartható fejlődést mutatnak-e, azaz a későbbiekben is számíthatunk-e hasonló adatokra. Köszönöm szépen a válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2014-09-15-urgent_question-AC7_395" who="#JánosVolner" ana="#regular"><note>VOLNER JÁNOS (Jobbik):</note>
+<seg xml:id="AC7_395.1">Köszönöm szépen. Tisztelt Miniszterelnök Úr! Azzal kapcsolatban kérdezném önt, hogy amikor a Fidesz a hatalom felé igyekezett, akkor azzal kampányolt, hogy majd csökkenteni fogja az állam adósságát, és aztán ezt a későbbiek folyamán Matolcsy György nemzetgazdasági miniszteri minőségben is többször megerősítette.</seg>
+<seg xml:id="AC7_395.2">Idézném önnek az adatokat, sajnos nem azt mutatják, hogy sikerült csökkenteni az államadósságot. 2010 első negyedévének a végén Magyarország államadóssága 82 százalékon volt, aztán jött az önök első Széll Kálmán-terve, második Széll Kálmán-terve. Ebben az az ambiciózus elképzelés volt megfogalmazva, hogy az államadósság csökkenni fog mostanra a GDP 65-70 százalékára. Ehhez képest, ha most megnézzük az időközben jegybankvezérré változott Matolcsy György által jegyzett magyar nemzeti banki kiadványokat, azt láthatjuk benne, hogy az államadósság 85 százalék fölött van, holott az elmúlt négy éven keresztül folyamatosan azt hallottuk a kormány különböző képviselőitől, hogy az államadósság csökken, az államadósság csökken. Abszolút mértékben is növekedést tapasztaltunk, és a GDP százalékában is. Ha 82 százalékról 85 százalékra nő az államadósság, az egy egyértelmű növekedés, nehéz lenne másnak hívni.</seg>
+<seg xml:id="AC7_395.3">Időközben a kormány úgynevezett kiigazító intézkedéseket léptetett hatályba, folyamatosan megszorításokkal sújtotta a magyar gazdaság szereplőit, egyes adónemek történelmi rekordszintet értek el Magyarországon és egyben az Európai Unióban, gondoljunk csak bele, hogy 27 százalékos áfa sehol nincs. Ezek elől a megszorító intézkedések elől pedig félmilliónál több magyar ember külföldre menekült gazdasági menekültként, és nem kalandvágyból, ahogy a miniszterelnök úrék megfogalmazták, hanem azért, mert nem volt más választásuk, hogy kinyögjék a megélhetési költségeiket.</seg>
+<seg xml:id="AC7_395.4">Akkor hogy is van az, hogy csökken az államadósság, amikor a számok pont az ellenkezőjét mutatják? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

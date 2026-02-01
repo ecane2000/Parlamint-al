@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2017-12-04" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2017-12-04 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2017-12-04 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2720" unit="words">2720 szó</measure>
+        <measure xml:lang="en" quantity="2720" unit="words">2720 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2017-12-04">2017. 12. 04.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="38"/>
+          <tagUsage gi="kinesic" occurs="7"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2017-12-04">2017-12-04</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2017-12-04-urgent_question-AC7_18690" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_18690.1">Köszönöm, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! A Fidesz-KDNP demokráciafelfogásába ma már nem fér bele az önkormányzatiság gondolata. Az elmúlt években fokozatosan üresítették ki az önkormányzatokat, vették el a jogokat, lehetőségeket, forrásokat és az intézményeket a településektől.</seg>
+<seg xml:id="AC7_18690.2">Az önkormányzatok mozgástere radikálisan szűkült. Az őket érintő oktatási, kulturális, egészségügyi ügyekbe most már alig szólhatnak bele. Az önkormányzatokat a központi hatalom akaratának helyi képviselőivé alacsonyították le. Ezt tették az oktatásban is: elvették a településektől az iskolákat. A helyi közösségeknek, települési vezetőknek, szülőknek, pedagógusoknak, diákoknak most már semmilyen befolyásuk nincsen arra, hogy mi folyik az ő iskolájukban. Az igazgatókat is felülről erőltetik rá a tantestületekre, akkor is, ha ők ellenkeznek az EMMI döntése ellen. Az egyetemek nem működhetnek szabadon, kancellárokat, konzisztóriumokat ültettek a nyakukba, és sorra bukkannak elő hasonló, ezt bizonyító tények is.</seg>
+<seg xml:id="AC7_18690.3">Tisztelt Ház! A Fidesz-KDNP saját magát meghazudtolva szembemegy a kereszténydemokrácia egyik legfontosabb alapelvével, a szubszidiaritással. Valódi kereszténydemokraták szerint minden döntést azon a legalacsonyabb szinten kell meghozni, ahol a megfelelő szakértelem rendelkezésre áll. Mi ezzel az elvvel messzemenőkig egyetértünk, ezért az LMP és az Új Kezdet programja kimondja, hogy a valóságos önrendelkezési jog jogi és anyagi eszközeit meg kell adni végre az önkormányzatoknak.</seg>
+<seg xml:id="AC7_18690.4">Milyen önkormányzatiság az, amit a Fidesz-KDNP csinál? Hogy lesz demokrácia intézmények nélkül? Az LMP és az Új Kezdet szerint sehogy. Ha a településeken, kerületekben élők nem szólhatnak bele abba, hogy mi folyik az intézményeikben, akkor ott nincs demokrácia. Államtitkár úr, hogy gondolják önök a demokráciát</seg>
+<kinesic type="applause"><desc>Taps az LMP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-12-04-urgent_question-AC7_18691" who="#ÁkosHadházy" ana="#regular"><note>DR. HADHÁZY ÁKOS (LMP):</note>
+<seg xml:id="AC7_18691.1">Köszönöm szépen. A kormány elég sok pénzből folytat egy olyan, konzultációnak nevezett, de valójában inkább manipulációs folyamatot, amelyiknek úgy tűnik, hogy az igazi célja a propaganda, úgy tűnik, senki nem gondolja komolyan, hogy megkérdezték volna az embereket, mert senki nem gondolja komolyan, hogy bizonyítsa azt, hogy hány ember küldte vissza a válaszadó íveket.</seg>
+<seg xml:id="AC7_18691.2">Én két hónappal ezelőtt kérdeztem a Miniszterelnökséget, hogy hogyan történik ez a folyamat. A Miniszterelnökség visszaírta, hogy a postán érkeznek a levelek, a NISZ Zrt.-nél átröntgenezik, kibontják, és aztán a Kopint-Datorgnál megszámolják ezeket az íveket, megmondják, hogy ki milyen válaszokat adott.</seg>
+<seg xml:id="AC7_18691.3">Én ezután mind a három cégnek írtam egy levelet, és kértem, hogy hadd tekintsem meg ezt a folyamatot, a postának is és a másik két cégnek is, majd miután azt mondák, hogy erre engedélyt kell kérnem a Miniszterelnökségtől, ezt megtettem, és egy hónapig nem történt semmi. Majd miután a parlamentben kértem azt, hogy szeretném ezt megtenni, akkor egészen extrém körülmények között megengedték, de csak két cégnél, a NISZ Zrt.-nél és a Kopint-Datorg telephelyén tekinthettem bele a folyamatba, a postán nem.</seg>
+<seg xml:id="AC7_18691.4">Ez azért fontos, mert a másik két telephelyen nem nagyon találtam, illetve zavarba ejtő dolgokat találtam, egyrészt a számok nem stimmeltek, másrészt nem tudtak mutatni olyan nyilvántartásokat, ahol láttam volna, hogy melyik napon hány ív érkezett vissza.</seg>
+<seg xml:id="AC7_18691.5">Ezután a Fidesz három nap múlva, szombaton azt mondta, hogy nyilvánosságra fogja hozni a postai nyilvántartásokat, tehát azt a részletes nyilvántartást, hogy melyik napon honnan mennyi érkezett be a 1848-as irányítószámra. Ezt azóta sem tette meg. Illetve én a következő hétfőn megkértem ismét a Miniszterelnökségtől, hogy szeretném ezt a folyamatot megtekintetni, szeretnék betekinteni, azóta még választ sem kapok. A szakmai kérdésem mint a postát fenntartó minisztériumhoz vagy a posta feletteséhez: miért nem engedik meg ennek a folyamatnak a megtekintését? Köszönöm szépen.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-12-04-urgent_question-AC7_18692" who="#LászlóSzászfalvi" ana="#regular"><note>SZÁSZFALVI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC7_18692.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A technológia fejlődése az utóbbi időben hihetetlen méreteket öltött, számos napi használati cikkünkről az elmúlt század végén még csak nem is álmodtunk. A fejlődés nem áll meg, a digitalizáció mindennapjaink részévé válik. A digitális készségek elsajátítása és növelése több kvalifikáltabb munkaerőt biztosít az országnak. Ez hozzájárulhat Magyarország versenyképességének növeléséhez már rövid távon is. Ez, az elmúlt évtizedek informatikai trendjeit ismerve, hosszú távon mindenképpen előnyünkre válik.</seg>
+<seg xml:id="AC7_18692.2">A Kereszténydemokrata Néppárt fontosnak tartja a XXI. századi megoldások alkalmazását minden szinten, így időről időre a kormányzat tájékoztatását kérjük a digitális fejlődéshez kapcsolódó projektek előrehaladásáról. Többek között a digitális készségek fejlesztése, az önkormányzatok informatikai rendszerének fejlesztése, az elektronikus személyi jövedelemadó és az elektronikus egészségügyi szolgáltatási tér bevezetése kapcsán is kérdeztük a kormányzatot, és az eredmények minden területen magukért beszélnek.</seg>
+<seg xml:id="AC7_18692.3">Tisztelt Államtitkár Úr! Természetesen arról sem feledkezhetünk meg, hogy a digitális világhoz való hozzáférést biztosítani szükséges a magyar emberek számára. A Fidesz-KDNP ennek érdekében az internetszolgáltatás forgalmi adóját 2017. január 1-től 18 százalékra, 2018. január 1-től pedig 5 százalékra csökkentette. Ezen túlmenően kiemelt célnak tekintjük, hogy minden újgenerációs fejlesztés élvonalában legyünk, ezáltal biztosítva Magyarország stabil növekedését és külső sebezhetőségünk csökkentését.</seg>
+<seg xml:id="AC7_18692.4">Éppen ezért kérdezem tisztelt államtitkár urat, mit tesz a kormány annak érdekében, hogy Magyarország versenyképes digitális gazdaság legyen itt, Európa szívében. Várom államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Dr. Rétvári Bence és dr. Tilki Attila tapsol.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-12-04-urgent_question-AC7_18693" who="#GáborIstvánHarangozó" ana="#regular"><note>HARANGOZÓ GÁBOR ISTVÁN (MSZP):</note>
+<seg xml:id="AC7_18693.1">Köszönöm szépen, elnök úr. Tisztelt Miniszter Úr! Tisztelt Ház! Az ősz folyamán a Balatont szerető emberek számára egy nagyon fontos előterjesztést hoztunk ide a Ház elé, amelynek a lényege az volt, hogy a Balaton-parti strandokat és kempingeket csak úgy lehessen fejleszteni, hogy azok az eredeti funkciójuknak megfelelő módon kerüljenek fejlesztésre, magyarul a strand strand maradjon, a kemping pedig kemping maradjon.</seg>
+<seg xml:id="AC7_18693.2">Tettük ezt azért, merthogy tavaly júliusban elfogadott a Ház egy törvénymódosítást, amelynek a lényege az volt, hogy kikerültek a Balaton-törvényből azok a biztosítékok, amelyek taxatíve felsorolták, hogy milyen korlátozásokat kell betartani annak érdekében, hogy a Balaton elsődleges funkciója, a rekreációs szolgáltatások, illetve a környezeti értékek megóvása fenntartható módon megmaradjanak. Ezek után rendkívül aggasztó folyamatok indultak el. Lehetett hallani róla, hogy Mészáros Lőrinc felvásárolta a Balaton-parton lévő kempingek nagy részét üzemeltető céget, illetve megkezdődtek kempingbezárások is, és az utóbbi időben pedig, ami már ép ésszel alig felfogható dolog: Siófok szimbólumát, az aranyparti szabadstrandot akarja egy befektető tönkretenni azáltal, hogy az aranyparti szakasz elé egy hatalmas jachtkikötőt akar építeni. Hiszen egy parton felvásárolt területre szépen felhúzta a társasüdülőket, és a társasüdülőkhöz úgy árulta a lakásokat, hogy ő jachtkikötőt is fog hozzá építeni.</seg>
+<seg xml:id="AC7_18693.3">Tisztelt Miniszter Úr! Ugye nem lehet senkinek az a szándéka, hogy a Balaton-partot elvegyük a magyar emberektől? Ez az aranyparti kikötő az, ami 47 percre van Budapesttől is vonattal, ahová a turisták 70 százaléka megy, akik kevés pénzből szeretnének nyaralni.</seg>
+<seg xml:id="AC7_18693.4">(13.50)</seg>
+<seg xml:id="AC7_18693.5">Nem lehet, ugye, miniszter úr, az, hogy mindenféle befektetői szándékokat akarnak kiszolgálni, és engedélyezik azt, hogy ez a jachtkikötő megépüljön, és elveszik ezáltal ezt a területet a strandolni vágyóktól? Miniszter úr, ugye megakadályozzák azt is, hogy a kempingek helyén újabb társasüdülők épüljenek? Köszönöm, elnök úr</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-12-04-urgent_question-AC7_18694" who="#JózsefKovács" ana="#regular"><note>DR. KOVÁCS JÓZSEF (Fidesz):</note>
+<seg xml:id="AC7_18694.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Tisztelt Ház! A Fidesz-KDNP politikája jól tükrözi, hogy elkötelezettek vagyunk mind a betegellátás színvonalának emelésében, mind az egészségügyi dolgozók munkakörülményeinek és anyagi megbecsülésének javításában is.</seg>
+<seg xml:id="AC7_18694.2">Sajnálatosan azt is el kell mondanunk, hogy a szocialisták a kormányzásuk alatt az egészségügyből kivontak 400 milliárd forintot. Azt is el kell mondani, hogy volt olyan időszak Magyarországon, amikor az összeomlás fenyegette magát a mentésellátást is. 2008 és 2010 között nem került sor új mentőautó megrendelésére, sőt gyakorlatilag érdemi előkészület sem történt erre vonatkozóan. Mindezeknek köszönhetően a mentőgépkocsipark elöregedett, a gépjárművek nagy része rossz állapotban volt, veszélybe sodorta a biztonságos működést.</seg>
+<seg xml:id="AC7_18694.3">2010-ben a fenti helyzettel kellett szembesülnünk, de a Fidesz-KDNP politikájának köszönhetően a rendszerváltás óta a legnagyobb fejlesztés, mintegy 500 milliárd forintos fejlesztés indulhatott el. Elmondhatjuk, hogy az elmúlt években minden idők egyik legnagyobb fejlesztése valósult meg az OMSZ-nál is, sor került új gépek, műszerek beszerzésére, mentésirányítás átszervezésére, új mentőállomások kiépítésére, új mentőautók vásárlására. A fenti intézkedéseknek köszönhetően a magyar mentőszolgálat végre egyre korszerűbb és méltóbb körülmények között láthatja el munkáját, és a fejlesztésekkel elérhető, hogy a mentők kiérkezéséig rövidebb legyen az idő.</seg>
+<seg xml:id="AC7_18694.4">A Fidesz-KDNP mindig kiemelten kezelte az egészségügyi dolgozók humánerőforrás-kérdését is. Az elmúlt öt évben az ország gazdasági teljesítőképességének figyelembevételével mindent megtettünk, hogy javítsuk az egészségügyi dolgozók, így a mentőszolgálatnál dolgozók bérét is.</seg>
+<seg xml:id="AC7_18694.5">Tisztelt Államtitkár Úr! Hogyan alakul a mentőszolgálat jövője?</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-12-04-urgent_question-AC7_18695" who="#AttilaTilki" ana="#regular"><note>DR. TILKI ATTILA (Fidesz):</note>
+<seg xml:id="AC7_18695.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! Felső-Szabolcs, Bereg és Szatmár 88 településének országgyűlési képviselőjeként ismerem a kistelepülések mindennapi gondjait, ezért tartom jó kezdeményezésnek azt, hogy a Fidesz-kormány immár ötödik éve téli tüzelőanyag-vásárláshoz nyújt támogatást, melyet ebben az évben közel négymilliárd forinttal támogatott a Belügyminisztérium. Ennek keretében az ötezer lélekszám alatti önkormányzatok közül 2255 település részesült támogatásban, így a polgármesterek tűzifa- vagy szénvásárlásra költhetik el a forrást a kistelepülések lakosai közül a rászorultak megsegítésére.</seg>
+<seg xml:id="AC7_18695.2">Egy másik támogatás a kötelező feladatok ellátásának fejlesztéséhez nyújt támogatást, melyet szintén a Belügyminisztérium támogatott. 1701 településen 1,9 milliárd forint értékben pályázhattak a kétezer lélekszám alatti települések.</seg>
+<seg xml:id="AC7_18695.3">(14.50)</seg>
+<seg xml:id="AC7_18695.4">Az önkormányzatok többek között járdaépítésre vagy csapadékvíz-elvezetésre, köztemető-felújításra, valamint önkormányzati épületek energetikai korszerűsítésére pályázhattak. A térségemben nagyon sok település ezzel a támogatással tudta kicserélni például az elhasználódott temetői halotthűtőjét. Öröm a sok-sok kistelepülés számára - melyek adottságaik miatt kevesebb adóbevételhez jutnak, így nehezebb a fejlesztéseik megvalósítása -, hogy a kormány ezzel a forrással az elmaradt, rég várt fejlesztések megvalósítására ad lehetőséget.</seg>
+<seg xml:id="AC7_18695.5">Tisztelt Államtitkár Úr! Folytatódni fog-e ez a kistelepülések számára nagyon fontos pályázat a következő évben? Segítünk-e továbbra is az aprófalvaknak és a kistelepüléseknek</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-12-04-urgent_question-AC7_18696" who="#TamásHarangozó" ana="#regular"><note>DR. HARANGOZÓ TAMÁS (MSZP):</note>
+<seg xml:id="AC7_18696.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! 2016-ban volt egy érvénytelen és eredménytelen országos népszavazás, amelynek már a kampányában elég nagy visszhangja volt, hogy több mint 15 milliárd forintot költött a kormány a kampányra. Csak egy gyors fejszámolás: ez körülbelül 15 éves támogatása az ellenzéki frakciókkal rendelkező ellenzéki pártoknak. Ez jó példa arra, hogy milyen korrekten ment ez a verseny. S akkor még benne sem voltak azok a buszreklámok, amikről most szó van. Az utolsó két hétben elözönlötték a buszokat a reklámok. Ennek jártam utána, s közel egy év alatt sikerült közel féltucatnyi perrel kikényszeríteni a kormányból, hogy mennyibe került, ki és milyen feltételekkel végezte ezt a tevékenységet.</seg>
+<seg xml:id="AC7_18696.2">Annál is inkább, mert azóta már lassan betiltott a Magyar Országgyűlés az ellenzék számára minden olyan eszközt, amivel a közterületeken megjelenhet, és még az is vita tárgyát képezi, hogy bűncselekmény-e kedvezményesen bármelyik pártnak bármilyen politikai hirdetést cégeknek végezni vagy nem.</seg>
+<seg xml:id="AC7_18696.3">No, ebből a szempontból egészen érdekes végeredményre jutottunk. Az egyik az, hogy a Rogán Antal-féle miniszterelnökségi szervezet egy offshore céget vett igénybe annak érdekében, hogy a migránskampányban kellően jól tudja hirdetni a kormány álláspontját, és az is kiderült, hogy ez a cég egy 100 százalék állami tulajdonú vállalatnál 50 százalékos kedvezményt kapott ezekre a hirdetésekre.</seg>
+<seg xml:id="AC7_18696.4">Azt szeretném kérdezni miniszter úrtól, hogy tudatában volt-e a magyar kormány ennek, szándékosan és tudatosan kötött-e szerződést offshore hátterű cégekkel állami feladat megbízására, méghozzá úgy, hogy egy minisztérium egy 100 százalék állami tulajdonú céggel kötött szerződését egy offshore cégre bízta. A másik: az 50 százalékos kedvezmény önök szerint rendben van-e? A legfontosabb kérdésem pedig, miniszter úr: a Miniszterelnökség mennyi pénzt fizetett az ODEX-nak ennek a tevékenységnek az elvégzésére? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-12-04-urgent_question-AC7_18699" who="#ZsoltEgyed" ana="#regular"><note>EGYED ZSOLT (Jobbik):</note>
+<seg xml:id="AC7_18699.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! 2017. november 29-én tárgyalta a Nyíregyházi Törvényszék a Fülöp kutya ügyeként elhíresült nagyon súlyos állatkínzásos esetet. Úgy gondolták az állatvédők, itt végre lesz egy példa statuálva olyan szempontból, hogy ilyen esetek többet ne történjenek meg. Sajnos nem ez történt, ugyanis az elkövetők nem jogerősen 4-4 hónap fogházbüntetést kaptak, amin az egész közvélemény felháborodott.</seg>
+<seg xml:id="AC7_18699.2">De menjünk tovább! Ismét az elmúlt hét termése: most szombaton, december 2-án, Kazincbarcikán egy üdülőházas övezetben egy láncra kötött kutyát nemes egyszerűséggel agyonvertek. Ezzel is tele van az internet, és gyakorlatilag semmi foganatja nincs. Nyilván a megfelelő lépést megtettem, mivel kiderül az elkövető személye, a feljelentést megtettem a rendőrségen. Kíváncsian várjuk, hogy ebben az ügyben mi fog történni.</seg>
+<seg xml:id="AC7_18699.3">Viszont amit szerettem volna elmondani, hogy mindezek az ügyek nem történtek volna meg eddig sem, és ezután sem történnének, ha önökben meg lett volna az a minimális jó szándék, hogy ha már maguknak nem jut eszükbe, elfogadják a Jobbik törvénymódosító javaslatait, amelyekben a Btk.-ban szigorítani szerettük volna az ilyen esetek elkövetőire kiszabható büntetést. Ez nem történt meg. Önök ezeket a javaslatainkat folyamatosan és konzekvensen elutasítják. Ebből két következtetést tudok sajnos mára levonni, így a ciklus végére: a Fidesz nyíltan odaáll az állatkínzók mellé, ezáltal számít a szavazatukra; a másik konzekvencia meg az, hogy a Fidesz kimondottan ellenségének tekinti a magyar állatvédő szervezeteket.</seg>
+<seg xml:id="AC7_18699.4">Tisztelt Államtitkár Úr! Úgy gondolom, és annyiszor felszólaltam már a parlamentben ebben az ügyben, hogy végre mondjanak már valami olyat, ami megnyugtató lehet mindenki számára, hiszen önök ebben az ügyben folyamatosan mellébeszélnek, folyamatosan terelik a valóságról a szót. Igazságot szeretnének az emberek, és hogy ilyen gyalázatos esetek a jövőben ne történhessenek. Köszönöm, és várom a válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-12-04-urgent_question-AC7_18700" who="#JánosVolner" ana="#regular"><note>VOLNER JÁNOS (Jobbik):</note>
+<seg xml:id="AC7_18700.1">Köszönöm szépen. Tisztelt Miniszter Úr! Nemrég meglepő nyilatkozatok láttak napvilágot különböző, a kormányfő személyéhez kötődő üzletemberektől, és ezek megjárták a sajtót. Az egyik ilyen volt az Orbán Viktor barátja, Demján Sándor által tett nyilatkozat. Ő arról beszélt nemrég a legnagyobb vállalkozói szervezet elnökeként, hogy mindenképpen javasolja az általa képviselt szervezet azt, hogy egy 350 ezer fős, a közigazgatást, a közszférát érintő leépítést hajtson végre takarékossági okokból a kormány, hiszen egy óriási koloncként jellemezte ezt a 350 ezer embert. Tőlük meg kell szabadulnia a magyar államnak. Kérdezem miniszter urat, hogy folynak-e erről az államreform keretében különböző egyeztetések, a háttérben különböző alkuk, szakmai egyeztetések, előkészítő folyamatok.</seg>
+<seg xml:id="AC7_18700.2">A másik kérdés pedig arra vonatkozik, hogy egy másik üzletember - ő is Orbán Viktor jó barátja, ismerjük jól, Garancsi Istvánnak hívják, a Videoton Futball Club tulajdonosa és még jó néhány egyéb nagyvállalaté - arról beszélt, hogy indonéz, pakisztáni, vietnami és egyéb állampolgárokat kell nagy számban behozni a magyar munkaerőpiacra. Paár Attilának hívják egyébként azt az úriembert, aki a Garancsi István tulajdonában lévő vállalkozás vezetőjeként többek között ilyeneket hozott szóba. Illetve nemrég egy másik vállalkozás, a Market vezetője is hasonlót tett sajtónyilatkozatként. A kérdésem: van-e arra irányuló szándék a kormány részéről, folyik-e bármilyen egyeztetés a háttérben arra vonatkozóan, hogy a következő ciklusban betelepítsenek ide különböző külföldi vendégmunkásokat nagy számban? A kérdést már csak a 20 ezer legális, letelepedési kötvénnyel érkezett migráns léte is indokolja. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

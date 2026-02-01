@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2016-02-22" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2016-02-22 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2016-02-22 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="10" unit="speeches">10 beszéd</measure>
+        <measure xml:lang="en" quantity="10" unit="speeches">10 speeches</measure>
+        <measure xml:lang="hu" quantity="3422" unit="words">3422 szó</measure>
+        <measure xml:lang="en" quantity="3422" unit="words">3422 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2016-02-22">2016. 02. 22.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="10"/>
+          <tagUsage gi="seg" occurs="51"/>
+          <tagUsage gi="kinesic" occurs="12"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2016-02-22">2016-02-22</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2016-02-22-urgent_question-AC7_9226" who="#MátyásFirtl" ana="#regular"><note>FIRTL MÁTYÁS (KDNP):</note>
+<seg xml:id="AC7_9226.1">Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A közelmúlt, különösen az elmúlt hónapok eseményei, a tömeges migráció okozta válsághelyzet, az embertelenül elkövetett párizsi terrortámadás újfent megerősítették azt az egyre inkább alaptétellé váló nézetet, mely szerint a biztonsági környezetünkben csak az biztos, hogy minden bizonytalan.</seg>
+<seg xml:id="AC7_9226.2">Ez sajnos nem jó hír számunkra, hiszen rendkívül nehéz feladat egy folyton változó, kiszámíthatatlan világban megfelelni az újabb és újabb kihívásoknak. Ráadásul olyan világban élünk, ahol a fenyegetések és a kihívások széles skálájával kell egyszerre megküzdenünk, azaz új típusú kihívásokkal kell szembenéznünk. Szükségünk van a Magyar Honvédség képességeire, tartalékaira, azok megújítására és kibővítésére.</seg>
+<seg xml:id="AC7_9226.3">Mindemellett, ahogy a miniszter úr is fogalmazott a januári értékelő és feladatszabó értekezletén, szükség van a társadalom támogatására, hogy közös értékeink és érdekeink mentén óvjuk és védjük hazánkat. Miniszter urat idézve: „Európában a biztonság lett a legfontosabb érték, és láttuk, tapasztaltuk, hogy a Magyar Honvédség kiválóan felkészített állománya az elmúlt időszakban bizonyította, képes a határok megvédésére, az emberek biztonságának garantálására. Látjuk a veszélyeket és a tendenciákat. A politikai és morális felelősség a miénk, kötelességünk tehát cselekedni.” Ezért is figyeltünk a miniszter úr korábbi nyilatkozataira, mert több ízben is megerősítette, hogy a jelen biztonsági kihívásai közepette fontos a Magyar Honvédség katonai és emberközpontú fejlesztése, illetve átszervezése, a rendelkezésre álló források ésszerű felhasználása. Szolnokon egy sajtótájékoztató keretében jelentette be, hogy megalakult a Magyar Honvédség 2. Különleges Rendeltetésű Ezrede.</seg>
+<seg xml:id="AC7_9226.4">Tisztelt Államtitkár Úr! Nemzetközi viszonylatban eddig is kimagasló eredményeket értek el a különleges alakulatok. Miért volt szükség azok összevonására? Illetve rendeltetése tekintetébe</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret lejártát.</desc></kinesic>
+<seg xml:id="AC7_9226.5">, a feladatait tekintve, hol helyezkedik el a Különleges Rendeltetésű Ezred a Magyar Honvédség keretében? Várom államtitkár úr megtisztelő válaszát. Köszönöm, elnök úr</seg>
+<kinesic type="applause"><desc>Taps a kormányzó pártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-02-22-urgent_question-AC7_9228" who="#AnitaHeringes" ana="#regular"><note>HERINGES ANITA (MSZP):</note>
+<seg xml:id="AC7_9228.1">Tisztelt Államtitkár Úr! Kicsit déjà vum van sajnos. A tavalyi évben ugyanezzel a problémával fordultam az ön miniszteréhez. Mivel Seszták Miklós a kormány energiapolitikáért és államivagyon-felügyeletért felelős tagja, így kimondhatjuk, hogy ő az MVM-cégcsoport és ezáltal a Paksi Atomerőmű gazdája a kormányban.</seg>
+<seg xml:id="AC7_9228.2">Sajnálom, hogy a miniszter úr nincs itt, így önnek most elmondom a problémánkat, és csak reménykedem abban, hogy nem úgy járunk, mint a tavalyi év elején: ezt a problémát meg tudjuk most itt oldani.</seg>
+<seg xml:id="AC7_9228.3">A tavalyi évben is már komoly problémát okozott, hogy nem kaphatta meg az Atomerőmű Sportegyesület és a Paksi Futballklub az MVM és a Paksi Atomerőmű támogatását, így több száz millió forint kiesést okozva ezzel a helyi sportnak. Ami évtizedekig elképzelhetetlen volt, hogy a Paksi Atomerőmű ne támogathassa a paksi sportot, most úgy tűnik, önöknél ez rendszerré válik.</seg>
+<seg xml:id="AC7_9228.4">Tudjuk jól, ezek a sporttámogatási döntések az önök kormányzása óta nem helyben születnek, hanem valahol Budapesten. A focistáink tavaly már lenyelték azt az óriási békát, hogy nemcsak a támogatást, de az MVM Paksi Atomerőmű nevet is elvették tőlük, amelyet egy évig a Dunaújváros használhatott, aki ki is esett az I. osztályból.</seg>
+<seg xml:id="AC7_9228.5">Államtitkár úr, miért hagyják minden év elején bizonytalanságban sportolóinkat? Gondolom, ha Kisvárdáról lenne szó, a miniszter úr mindent megtenne az ügy érdekében. Az olimpiai felkészülés évében megint csak dobálják majd egyik helyről a másikra, hogy honnan kaphatnak majd támogatást sportolóink, focistáink és a kosárlabda?</seg>
+<seg xml:id="AC7_9228.6">Az atomerőmű bővítését miniszterelnök úr az évszázad beruházásának nevezte. Önök büszkélkednek mindenhol, ahol csak tudnak, a paksiak precizitásával, szakmai felkészültségével, katonás, pontos munkavégzésével. Ezért a jó hírnévért, munkáért elvárhatják a paksiak és a sportolók, hogy önök is ilyen pontosan és precízen támogassák a paksi sportot.</seg>
+<seg xml:id="AC7_9228.7">Ezért kérdezem most államtitkár urat: a Paksi Futballklub és az ASE az ön minisztériuma által felügyelt MVM támogatására számítha</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_9228.8">2016-ban? Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-02-22-urgent_question-AC7_9231" who="#BertalanTóth" ana="#regular"><note>DR. TÓTH BERTALAN (MSZP):</note>
+<seg xml:id="AC7_9231.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Valószínűleg ön is egyetért azzal, hogy a Magyar Postának mint 75 százalékban állami tulajdonú gazdasági társaságnak a jogszabályokban meghatározott kötelezettségét maradéktalanul teljesítenie kell.</seg>
+<seg xml:id="AC7_9231.2">Megérkezett a parlament elé Németh Szilárd postatörvényt módosító javaslata, amelynek lényege az, hogy a Posta által megkötött szerződések - akár piaci, üzleti területen megkötött szerződések - ne legyenek közérdekű adatok, azokat ne lehessen megismerni.</seg>
+<seg xml:id="AC7_9231.3">(15.20)</seg>
+<seg xml:id="AC7_9231.4">Bár a gazdasági bizottsági ülésen Galambos képviselőtárs, aki csatlakozott az előterjesztéshez, még arról beszélt, hogy a csomagküldés miatt szükséges a közérdekű adatokat úgymond titkosítani, de kiderült, hogy nem erről van szó, hiszen ezek az adatok most is a Posta honlapján fellelhetők és elérhetők. Itt, a parlamenti vitában derült arra fény, hogy itt nemcsak a csomagküldésről van szó, hanem a Magyar Posta pénzügyi tevékenységéről. Bár itt nemcsak a Magyar Posta pénzügyi tevékenységét említhetjük, hiszen a Magyar Posta nem egyedül végzi ezt a tevékenységet, hanem az FHB-csoporttal közös, különböző módon közös vállalatokban, cégekben, tehát a magánérdek is megjelenik a Posta pénzügyi szolgáltatásainál. Ezért is gondolom én, hogy titkosítani kívánják ezeket az adatokat.</seg>
+<seg xml:id="AC7_9231.5">A vita során államtitkár úr tett egy kijelentést: a Postának ma ki kell adnia minden olyan információt, amely a versenypiaci működéshez köthető, hiszen a mai jogszabályok szerint ez kötelezettsége. Kérdezem államtitkár urat, hogy fenntartja-e ezt a kijelentését, tehát a Magyar Postának a mostani szabályok szerint ki kell-e adni ezeket a most még közérdekű adatokat. Várom válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2016-02-22-urgent_question-AC7_9233" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_9233.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Egy nagyon konkrét problémával fordulok önökhöz. Az új központosított illetményszámfejtési rendszer, a KIRA novemberi bevezetése óta gyakorlatilag egyetlen hónap nem telt el, hogy ne lett volna káosz az állami bérek kifizetése körül. Szeretném leszögezni, hogy az egészségügyben, oktatásban dolgozó több tízezer emberről van szó, akik késve vagy hiányosan kapják meg a fizetésüket. Ráadásul több hetet kellett várni a bérjegyzékre is, ami magyarázatot adhatott az eltérésre.</seg>
+<seg xml:id="AC7_9233.2">Szeretnék idézni is önnek egy dokumentumból, amelyből teljes mértékben kiderül az, hogy a KIRA felel azért, hogy ilyen helyzet alakulhatott ki. Idézem: „A mellékletben csatolt személyek fizetésielőleg-levonását, annak helyességét felülvizsgáltuk, és megállapítottuk, hogy feltehetőleg a program nem megfelelő működése miatt 43 fő esetében nem az elvárt eredménnyel történt a levonás a helyes rögzítés ellenére.”</seg>
+<seg xml:id="AC7_9233.3">Tehát egy szó mint száz, önök és egyébként a Magyar Államkincstár is végig hárították a felelősséget, mondván, hogy a rendszer jól vizsgázott, és ha voltak is úgynevezett átállási problémák, akkor nem ők, hanem az intézmények a felelősek. Hát nem, nem az intézmények a felelősek!</seg>
+<seg xml:id="AC7_9233.4">Csakhogy több hónappal a rendszer bevezetése után végre kimondhatjuk, hogy a KIRA a felelős és az, aki ezt rászabadította a rendszerre. Információim szerint egyébként a dolgozók le vannak tiltva arról, hogy nyilatkozzanak erről a kérdésről, de nyílt titok, hogy itt mi történt. Ráadásul most már aktuálisakká válnak lassan az adóbevallások, az első bevallási határidő II. hó 25-e lesz a szerződéses jogviszonyban dolgozó egyéni vállalkozóknál. Ott tartunk, hogy a szükséges jövedelemigazolások is késve érkeznek meg vagy éppen hibásak. Kérdés az, hogy így hogy fognak tudni ezek a dolgozók tisztességgel adózni, ha a rendszer hibája miatt még a jövedelemigazolásokat sem tudják ilyen időben és pontosan megkapni.</seg>
+<seg xml:id="AC7_9233.5">Tehát látom a káoszt, és mérhetetlenül fel vagyok háborodva azért, hogy az amúgy is szerény jövedelemért dolgozó embereket ráadásul arra kényszerítik, hogy késve, illetve hiányosan kapják meg a fizetésüket. Úgyhogy tisztázzuk le végre itt a parlamentben, hogy ki a felelős mindezért, hogyan kívánják a rendet helyreállítani, és hogyan tudják azt garantálni, hogy ezek az emberek tisztességgel fognak tudni adózni hó végén, illetve a jövő hónapban</seg>
+<kinesic type="applause"><desc>Taps az LMP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-02-22-urgent_question-AC7_9234" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_9234.1">Köszönöm, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Az elmúlt hónapban tapasztalhattuk azt, hogy a közoktatásban nagyon jelentős, földindulásszerű megmozdulás történt. Történt mindez azért állításunk szerint, mert az önök által 2011-ben alkotott köznevelési törvény olyan helyzetbe hozta a köznevelés teljes rendszerét, ami nem egy jó megoldás. Egy olyan irányba mozdította el az egész rendszert, aminek most bontakoztak ki igazán a következményei, most érezték ezt meg a közoktatás szereplői, úgymint a diákok, nyilván a diákok szülei, a pedagógusok, az intézményvezetők. Látják, hogy mindez a rendszer, amit önök felállítottak, nem működik.</seg>
+<seg xml:id="AC7_9234.2">Amikor ez az önök tudomására jutott, úgymond elkezdett mozogni ez a fedő a fazékon a nagy nyomás hatására, akkor mit tettek? Rendkívül rosszul reagáltak: mindent a politikai érdekeiknek próbáltak alárendelni, gyakorlatilag azzal, hogy a közoktatást és ezáltal az ország jövőjét is alárendelték a politikai hatalmi logika eszközeinek.</seg>
+<seg xml:id="AC7_9234.3">Ezzel magyarázható, hogy nemhogy nem állnak ki a pedagógusok mellett, de megpróbálják a közvéleményt, a teljes társadalmat ellenük hangolni, ahelyett, hogy érdemben foglalkoznának a valós problémával. Jó ideje megalakult már a köznevelési kerekasztal, nem történt valós lépés. Ehelyett sértegetik őket, és fegyvereket gyártanak a pedagógusok ellen.</seg>
+<seg xml:id="AC7_9234.4">Mi mással magyarázható mindaz, hogy olyan nyilatkozatokat tesznek különböző kormánypárti képviselők, mint amilyet például Pósán László, aki pofátlanságnak nevezte a pedagógusok követeléseit?</seg>
+<seg xml:id="AC7_9234.5">(15.40)</seg>
+<seg xml:id="AC7_9234.6">Mi mással magyarázható Lázár János miniszter azon vádja a pedagógusokkal szemben, hogy - idézem - „a gyerekekkel akarnak minket zsarolni?” Vagy mi mással magyarázható az, hogy más erőket, külföldi erőket sejtenek mögöttük, vagy pedig olyan kijelentéseket tesznek, amelyek a pedagógusok szájából nem is hangzottak el; hogy konkrétan 18 százalékos béremelést akarnak</seg>
+<kinesic type="signal"><desc>Az elnök csengetéssel jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_9234.7">Árulja el, államtitkár úr, honnét találták ezt a számot! Miért nem 17 vagy 19? Honnét jött ez a 18 százalék?</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2016-02-22-urgent_question-AC7_9235" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC7_9235.1">Tisztelt Elnök Úr! Tisztelt Ház! Az elmúlt hétvégén az EU-csúcs záródokumentuma kapcsán, ahogy Vona Gábor említette, a fél ország önkéntes etimológiai tanfolyamra vonult. A szakjogászok is vitáztak egymással igen sokat arról, hogy mégis mi volt az, amit támogatásra kézjegyükkel láttak el. Látjuk azt, hogy a záródokumentum, amit, még egyszer mondom, önök támogattak, ezer sebből vérzik, példának okáért a migránsok továbbküldése mechanizmusának a korlátozására lehet következtetni belőle; mindemellett új befogadóállomások létesítésére is, tehát egy olyan eljárásrendre, amelynek a lényege, hogy Nyugat-Európában ne torlódjanak fel nagyobb migránstömegek, azokat itt, az idézőjeles határsávban fogjuk meg.</seg>
+<seg xml:id="AC7_9235.2">Ennek a támogatása önmagában is visszás, ugyanakkor azt látjuk, hogy önök támogatták azt is, hogy az Unión belüli áthelyezési folyamatot teljeskörűen végre kell hajtani. A viták innen indultak, ugye. Az önök álláspontja szerint egy önkéntes kvótát támogattak, mások más érvekkel álltak elő. Mi, jobbikosok a feltételes módot használtuk, miszerint ebből következhet akár még az is, hogy egy kötelező kvóta irányába erősítik ezt a rendszert, hiszen az önkéntes kvóta egyértelműen a kötelező előszobája.</seg>
+<seg xml:id="AC7_9235.3">De az egyértelműen látszik, hogy ha Magyarország Kormánya a márciusi csúcson egyértelműen meg akarja akadályozni, hogy akár kötelező kvótára, akár más névre elkeresztelve hívatlan idegeneket telepítsenek be Magyarországra, akkor bizony lépni kell. Ehhez a Jobbik egy nagyon kemény és hathatós eszközt ajánl az önök figyelmébe, hiszen úgy érezzük, hogy kétmillió szimpatizánsuk, aláírójuk véleményét, akaratnyilvánítását arcul csapták.</seg>
+<seg xml:id="AC7_9235.4">(15.00)</seg>
+<seg xml:id="AC7_9235.5">Ennél van egy erősebb eszköz, amelynek érdekében egy alaptörvény-módosítást is benyújtunk. Tartsunk tehát országos népszavazást a kvóta tekintetében, amelynek lényege az lenne, hogy minden kvótaszerű megoldást utasítson el Magyarország népe, ha úgy gondolja. Ezzel a kőkemény felhatalmazással pedig induljanak el Brüsszelbe és végre csapjanak az asztalra! Kérdésünk adja magát: nyitottak-e erre a kiváló megoldásra</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-02-22-urgent_question-AC7_9236" who="#GyörgySzilágyi" ana="#regular"><note>SZILÁGYI GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_9236.1">Köszönöm szépen, elnök úr. Államtitkár úr az elmúlt években látott épp elég projektet, nyilván megfigyelte azokat a technikákat, ahogyan a közpénzt a valós verseny és a nyilvánosság teljes kizárásával úgymond kiemelik, azaz szép csendben magánzsebekbe vándoroltatják. Ehhez ugye elsősorban ki kell kerülni a közbeszerzési eljárásokat, nehogy véletlenül a baráti kezek elessenek a zsíros üzlettől. Az egyik ilyen módszer: az alapvető 8 millió forintos értékhatár alatt maradnak, de nem nagyon, hiszen ez felesleges veszteséget jelentene a kiválasztottaknak, így aztán igen gyakoriak a 7 millió 995 ezer forintos vagy éppen a 7 millió 900 ezer forintos szerződési összegek. Ha 8 millió alatt marad a szerződés, akkor azt a Közbeszerzési Értesítőben nem kell megjelentetni, és így homályban tartja a szennyest. Ebben az esetben az olyan cégeknél, amelyek más bevételre nem tesznek szert, az éves eredményből lehet következtetni, hogy a közpénzekre kötött szerződések állhatnak a háttérben.</seg>
+<seg xml:id="AC7_9236.2">Vegyünk egy példát! Nézzük, mondjuk, Riz Gábor fideszes képviselő úr cégét, aki nem tud belenyugodni az ózdi vereségükbe a Jobbikkal szemben, és folyamatosan nemtelen és aljas támadások sorozatával támadja a jobbikos polgármestert. Riz Gábor cége, az Okt-Form Bt. beszámolóiban érdekesen alakulnak a számok. Egyes években szinte nulla a cég eredménye, tehát megbízása nem is volt, míg máskor, például 2012-ben az említett 7 millió 900 ezer forint, 2014-ben pedig - ne feledjük, választási év volt, tehát minden forint számít - 7 millió 995 ezer forint eredménnyel zárt. Másképpen fogalmazva, az adófizetők pénzéből maximális hasznot hajtott magának. Véleményem szerint az ilyen gazdálkodás eleve felveti a tisztességtelenség, az etikátlanság, az erkölcstelenség, sőt mi több, a korrupció gyanúját. Várom tehát válaszát arra vonatkozóan, hogy Riz Gábor említett bevételei mögött pontosan milyen megbízások állnak, valamint arra is, hogy elfogadhatónak tartja-e a közpénzek védelmére hivatott árverseny ilyen módon történő kijátszását. Amennyiben valóban közpénzből hízik Riz Gábor cég</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC7_9236.3">, indokoltnak tartja-e az egyes kifizetések törvényességének teljes körű kivizsgálását? Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-02-22-urgent_question-AC7_9237" who="#LajosRig" ana="#regular"><note>RIG LAJOS (Jobbik):</note>
+<seg xml:id="AC7_9237.1">Köszönöm szépen a szót. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Itt képviselőtársam már felszólalt a rendszert érintő problémákkal kapcsolatban, amely 2015 novembere óta fennáll. Én most - tőlem szokatlan módon - nem béremelést jöttem kérni, hanem azt a bért szeretném kérni, ami megjár a dolgozóknak, és ők is ezt kérik már november óta.</seg>
+<seg xml:id="AC7_9237.2">Elfogadhatatlan az, hogy ha valaki az egészségügyben dolgozik, és még egyszer mondom, éhbérért, még ezt a keveset sem kapja meg az önök hibája miatt. Tehát az önök hibájából november óta működik egy olyan rendszer, ami alkalmatlan arra a feladatra, amit kitaláltak, utalásra. Tehát nulla, ebből megbukott. Vannak olyan dolgozók - és most csak a saját választókerületemről beszélek -, akik november óta normálisan megállapított bért nem kaptak, 70 ezer, 80 ezer, 28 ezer forintot kaptak havi illetménynek. Tehát ilyen hasraütésszerűen állapították meg.</seg>
+<seg xml:id="AC7_9237.3">Az Államkincstár a válaszban azt mondta, hogy bérpapírokkal lehet reklamálni az adott érintetteknek, de azt lehet tudni, hogy a bérutalás és a bérszámfejtés, a bérszalag megkapása között körülbelül másfél hét eltelik. Most már az Országos Mentőszolgálat tett egy olyan intézkedést, hogy már e-mailben elküldi a dolgozóknak, de azért mégiscsak nonszensz véleményem szerint az, hogy még a dolgozó reklamáljon azért a bérért, amiért ő megdolgozott. Ha már egyszer önök nem tudnak normális béremelést biztosítani az egészségügyben dolgozóknak, akkor viszont elvárható az, hogy a bért, amit megállapítottak nekik, azt megkapják, hiszen abból fizetik a rezsit, abból fizetik, hogyha van, a hitelüket, és abból etetik a gyermeküket, és tartják el a családjukat. Semmi mást nem kérnek egyelőre, csak azt, hogy ezt normálisan kapják meg. Mi erre a biztosíték, államtitkár úr</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-02-22-urgent_question-AC7_9239" who="#ZsoltBecsó" ana="#regular"><note>BECSÓ ZSOLT (Fidesz):</note>
+<seg xml:id="AC7_9239.1">Köszönöm a szót. Tisztelt Államtitkár Úr! Egy héttel ezelőtt interpellációt nyújtottam be: „El lehet odázni Salgótarján költségvetését?” címmel. A válaszadás időpontjában még nem volt a szocialista vezetésű Salgótarjánnak benyújtott költségvetése, azóta eltelt egy hét, és sajnos továbbra sincs benyújtott költségvetés. Magyarázat viszont van, miután az MSZP-s alpolgármester, aki egyben polgármesterjelölt is, két okot megfogalmazott. Megpróbálom szó szerint idézni.</seg>
+<seg xml:id="AC7_9239.2">Az első ok: „A parlament Költségvetési bizottsága hétfőn fogja tárgyalni azokat az általunk benyújtott napirendi pontokat, amelyek a mi költségvetésünket nagyban befolyásolhatják. Ezek még nem érkeztek meg.” Azóta megérkezett, és a Költségvetési bizottság nem támogatta.</seg>
+<seg xml:id="AC7_9239.3">A másik ok: „Másrészt én személy szerint azt gondolom, hogy Salgótarján megyei jogú városnak időközi választás miatt most nincs polgármestere. A polgármester-választásra pedig február 28-án kerül sor. És én azt szeretném, hogy a törvényesen megválasztott polgármester úr költségvetése lenne a 2016. évi költségvetés.”</seg>
+<seg xml:id="AC7_9239.4">És így folytatta a szocialista alpolgármester: „Ha március 15-ig feltöltődnek a város költségvetési számai, akkor Salgótarjánt hátrányos helyzet nem éri, ebből kifolyólag március 10-én van a következő tervezett közgyűlés, ahol a február 28-án megválasztott polgármester ezt a költségvetést be tudja nyújtani, és az illetékes iroda szereplőivel egyeztetve elégséges a hátralévő időszak, hogy március 10-ig az adathalmaz, ami szükségeltetik feltölteni, az megtörténjen.”</seg>
+<seg xml:id="AC7_9239.5">Összefoglalom, hogy mit is tudtunk meg: a parlament Költségvetési bizottsága tárgyal a költségvetést nagyban befolyásoló napirendet, továbbá Salgótarjánban időközi választás miatt nincs polgármester; törvényesen választják a polgármestert; fel kell tölteni a város számait; az illetékes iroda szereplőivel kell egyeztetni, és majd március 10-én lesz a következő közgyűlés. Ez félrebeszélés. A valós okok elhallgatásra kerültek.</seg>
+<seg xml:id="AC7_9239.6">Tisztelt Államtitkár Úr! Követett-e el törvénysértést a szocialista alpolgármester, és van-e takargatnivalójuk a szocialistáknak Salgótarjánban? Várom a válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-02-22-urgent_question-AC7_9240" who="#JánosPócs" ana="#regular"><note>PÓCS JÁNOS (Fidesz):</note>
+<seg xml:id="AC7_9240.1">Köszönöm szépen, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Ahogy azt már tudjuk, eddig mintegy kétmillió ember tiltakozott a kötelező betelepítés ellen, és jelentős a száma az olyan önkormányzatoknak is, ahol a menekültek kötelező jellegű befogadását elutasító határozatot hoztak. Vannak azonban kivételek: ők a múlt emberei, akik hűen követik a pártutasítást; volt, amikor Moszkvából, most pedig Brüsszelből.</seg>
+<seg xml:id="AC7_9240.2">Szeretnék néhány gondolatot idézni a jászberényi önkormányzat egyik képviselőjének, dr. Gedei Józsefnek a kötelező betelepítési kvóta elfogadását célzó indítványából. Arról a Gedei Józsefről van szó, aki hajdani szocialista országgyűlési képviselő és a város korábbi polgármestere volt. Idézet: „Jászberény lakói, a jászok bevándorlott és befogadott népcsoport leszármazói. A XIII. századi bevándorlást követően is érkeztek Jászberénybe, őket a népnyelv ma is gyüttmentnek hívja.” Az idézet folytatása: „A harmadik évezred hadviselési formái közé tartozik a terrorizmus, melynek nem oka a bevándorlás.” - mondja a képviselő. De nézzük tovább az idézet folytatását! „A bevándorlók egy részének magyarországi befogadása és integrálása történelmi, gazdasági és politikai, emberségi okokból kikerülhetetlen.” Az idézet folytatása: „Teljesíteni kell az ország EU-s tagságából származó, ráháruló kötelezettségeket, hűen a történelmi múlthoz.”</seg>
+<seg xml:id="AC7_9240.3">Tisztelt Államtitkár Úr! Ezen idézet nyomán kérdezem öntől, hogy a minisztérium rendelkezésére álló adatok fényében van-e ok-okozati összefüggés a jelenlegi migrációs folyamatok és a terrorizmus kockázatának érezhető emelkedése között</seg>
+<kinesic type="signal"><desc>Az elnök csengetéssel jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_9240.4">Jelent-e hazánk számára kockázatot az illegális bevándorlók telepítése? Köszönöm, elnök úr.</seg>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

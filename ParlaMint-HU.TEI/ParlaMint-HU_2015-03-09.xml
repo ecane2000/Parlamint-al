@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2015-03-09" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2015-03-09 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2015-03-09 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="3037" unit="words">3037 szó</measure>
+        <measure xml:lang="en" quantity="3037" unit="words">3037 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2015-03-09">2015. 03. 09.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="45"/>
+          <tagUsage gi="kinesic" occurs="19"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2015-03-09">2015-03-09</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2015-03-09-urgent_question-AC7_3728" who="#GáborIstvánHarangozó" ana="#regular"><note>HARANGOZÓ GÁBOR ISTVÁN (MSZP):</note>
+<seg xml:id="AC7_3728.1">Köszönöm, elnök úr. Tisztelt Alelnök Úr! 82 önkormányzat és több mint százezer család - többnyire kispénzű család és kispénzű önkormányzat - pénze tűnt el a DRB bankból, abból a bankból, ami egy évvel vagy másfél évvel ezelőtt még takarékszövetkezetként működött, megbízható, jó bankként ismerték Somogy megyében.</seg>
+<seg xml:id="AC7_3728.2">Az önök bábáskodása mellett, az önök engedélyével, az önök átvizsgálása után született meg ez a bank, és önök adták meg az engedélyt arra, hogy a takarékszövetkezetből ez a bank létrejöjjön. Egy olyan tulajdonosi háttérrel rendelkező bankot hoztak így létre, akikről önöknek tudniuk kellett, hiszen megvizsgálták: 2010. szeptember 17-én az önök jogelődje, Szász Károly írta alá azt a határozatot, amiben elmarasztalták a tulajdonosok a Buda-Cash működését, amiben nem kisebb szabálysértéseket írtak le, mint hogy a megbízások felvételénél jogszabályokat sértenek, a nyilvántartási rendszerben jogszabályokat sértenek, a kockázati fedezethez szükséges tőke a jogszabályoknak megfelelően nem áll rendelkezésre, az adatszolgáltatás nincs rendben, a dolgozók saját ügyleteinek nyilvántartását összemossák az ügyfelek ügyleteivel, nem felelnek meg a pénzmosás elleni törvény jogszabályi követelményeinek, kiszerveztek egy csomó mindent, ami nem felelt meg a jogszabályi követelményeknek, az informatikai rendszer sem felelt meg a jogszabályi követelményeknek, a házi és az ügyfélpénztár nem volt elkülönítve.</seg>
+<seg xml:id="AC7_3728.3">Ezek egyenként is külön-külön olyan dolgok, ami miatt akár föl lehetett volna függeszteni ennek a csoportnak a tevékenységét. Ezzel szemben nem felfüggesztésre kerültek, hanem egy határozatot hoztak, hogy negyedévente számoljanak be róla, hogy hogyan fogják helyrehozni ezeket a hiányosságokat.</seg>
+<seg xml:id="AC7_3728.4">Azt kérdezném meg, hogy mi történt ezekkel a negyedéves beszámolókkal. Önök tudtak-e róla, hogy mi folyik a bankban - hiszen asszisztáltak ezekhez a negyedéves beszámolókhoz -, vagy le se folytatták ezeket a negyedéves ellenőrzéseket? Kérem, válaszoljon</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-03-09-urgent_question-AC7_3729" who="#LászlóTeleki" ana="#regular"><note>TELEKI LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_3729.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Legfőbbügyész-helyettes Úr! Tisztelt Országgyűlés! A parlamentben több alkalommal ellenzéki képviselőcsoportok külön-külön is felszólaltak ebben az ügyben, hogy az Országos Roma Önkormányzatnak a pénzköltésével mi történt, illetve nemcsak a parlamenten belül, hanem a Parlament falain kívül is egyre élesebb vita alakul ki, hogy ebben a kérdésben legitim pénzköltés történt-e az Országos Roma Önkormányzatnál, avagy nem.</seg>
+<seg xml:id="AC7_3729.2">Többször felsoroltuk azokat a tételeket, amelyek a kedélyeket borzolták, többek között az irodabútor-vásárlás, ezenkívül a gépkocsibérlési összegek nagysága, amely az Opel típusú gépkocsiknál 500 ezer forint/hónap volt, illetve a számítógépes beszerzés összege is ugyanilyen irreális volt, amit a sajtóban is láthattunk. Az is feszegette a kérdést, hogy irodavásárlás vagy irodabérlés volt abból a forrásból, amit vásároltak Budán. Tehát mi rendre és sorra kérdeztük a kormánytól, hogy mi történt azokkal a forrásokkal, de nem kaptunk soha választ kellőképpen. Ezért gondoltuk azt, hogy mindenképpen fontos lenne a Magyar Szocialista Párt értékrendjéhez alkalmazkodni, hogy ebben a képben is tisztán lássunk, ami a költségvetést érintő tételeket jelenti.</seg>
+<seg xml:id="AC7_3729.3">Ezért tehát az a kérdésem a legfőbbügyész-helyettes úrhoz, hogy kívánnak-e ebben az ügyben vizsgálatot indítani, nyomozást indítani, mert ezzel nagyon sok mindent meg tudnának oldani, ha ezt a kérdést kellőképpen, kellő súllyal kívánnák nyomatékosan kezelni. Mi nem akarunk felelősöket kikiáltani. Egyetlenegy biztos: amennyiben nem indítanak vizsgálatot, az továbbra is feszült helyzetet fog okozni a társadalmi szervezetek között, további feszültséget fog okozni a társadalomban. Ebből adódóan meg kell vizsgálni, hogy ebben az ügyben valóban történt-e olyan kifizetés, olyan pénzköltés, amely nem szabályos.</seg>
+<seg xml:id="AC7_3729.4">Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-03-09-urgent_question-AC7_3730" who="#ZsoltLegény" ana="#regular"><note>DR. LEGÉNY ZSOLT (MSZP):</note>
+<seg xml:id="AC7_3730.1">Köszönöm, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Ahogyan házelnök úr említette, azonnali kérdésem címe, hogy „Hol a dohány?”. És valóban, jóllehet talán költői a kérdés, de hol a dohány? Azt ön is tudja, hogy a dohánytermesztők már most, március elején a palántázást el kellett volna hogy végezzék, és a dohánynak, a dohánypalántáknak a fóliákban lenne a helye, azonban nem ez a helyzet állt elő. A dohánytermesztőket Szabolcs-Szatmár-Bereg megyében - elég sokan vannak egyébként, az országban megtermelt dohánynak körülbelül a 80 százalékát állítják elő Szabolcsban -, nos, ezeket a dohánytermesztőket a kormány egy hintapolitika eredményeként bizonytalanságban hagyta. Az elmúlt hetekben több dohánytermesztővel is találkozva, személyesen és telefonon is beszélve, azzal szembesültünk, hogy nem tudják még mindig, hogy kapnak-e támogatást, úgynevezett kiegészítő támogatást a hazai dohánytermelők, a dohánytermesztők, hiszen azt nagyon jól tudjuk, hogy ugye, ez egy európai uniós támogatás volt, amely részükre fennállt, s ez az idei évtől már sajnos megszűnt.</seg>
+<seg xml:id="AC7_3730.2">Azt szeretnénk kérni, azt szeretnénk követelni a kormánytól, hogy ha nem európai uniós forrásból, akkor legalább magyar nemzeti forrásból támogassuk a dohánytermesztőket, hiszen azt hiszem, az sem nagy titok, és ön is a szakmában van - ha mondhatok ilyet -, hogy ez körülbelül csak Szabolcs-Szatmár-Bereg megyében, az ország egyik leghátrányosabb megyéjében mintegy 25 ezer embert érint. Mintegy 25 ezer embernek - 25 és 30 ezer közé teszik egyébként pontosan a számot - adnak munkát, nemcsak idénymunkát, nemcsak átmenetileg, hanem szinte egész évben azok a dohánytermesztők, akik ma bizonytalanságban vannak, és akik nem tudják, hogy kapnak-e támogatást most már erre az évre. Márpedig az idő nagyon szorít, hiszen ahogy említettem, már gyakorlatilag a munkálatokat el kellett volna hogy kezdjék. Természetesen ezeket a gazdákat, gazdálkodókat keresik azok az emberek, akik ott dolgoznak náluk, hogy mondják meg, hogy akkor kapnak-e munkát és fognak-e dohányt termelni. Márpedig ma ebben nem látnak tisztán.</seg>
+<seg xml:id="AC7_3730.3">Éppen ezért kérdezem államtitkár urat, hol a dohány, mi a helyzet a dohánytermelők támogatásával. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-03-09-urgent_question-AC7_3732" who="#LorántnéHegedűs" ana="#regular"><note>HEGEDŰS LORÁNTNÉ (Jobbik):</note>
+<seg xml:id="AC7_3732.1">Köszönöm szépen a szót, elnök úr. Tisztelt Államtitkár Úr! Tisztelt Ház! A Buda-Cash Brókerházhoz tartozó bankok csődje miatt 136 települési és nemzetiségi önkormányzat nem tud hozzájutni a pénzéhez, azaz mintegy 3-4 milliárd forint vesztesége van jelenleg ezen településeknek, önkormányzatoknak. Ők önhibájukon kívül kerültek ebbe a lehetetlen helyzetbe, csakúgy, mint a hozzájuk tartozó intézmények, amelyek oktatási, kulturális, közművelődési, településüzemeltetési, szociális, így például gyermekétkeztetési feladatokat látnának el.</seg>
+<seg xml:id="AC7_3732.2">Kérem, engedje meg, hogy néhány élethelyzetet röviden bemutassak, mivel is jár vidéken egyes pesti brókerek felelőtlensége, illetve, hozzáteszem, a felügyeleti rendszer gyengesége. Told községben egy közösségi kertprogram valósulhatott volna meg 20 új munkahelyet teremtve, ha az erre szánt pályázati keretet március 15-ig fel tudták volna használni. Sajnos, ez a projekt most veszni látszik. Nagybajom településen EU-s projektből finanszírozták volna a csatornaberuházást, amelynek önrészét a lakosság fedezte, azaz mintegy ezer háztartás vesztette el az általuk befizetett összegeket. De nemcsak önkormányzatok, hanem más közfeladatot ellátók, alapítványok is érintettek ebben az ügyben. Így például a berettyóújfalui Igazgyöngy Alapítvány által fenntartott iskola léte is megkérdőjeleződik.</seg>
+<seg xml:id="AC7_3732.3">Tudjuk, hogy a vonatkozó törvény szerint az OBA által nyújtott biztosítás nem terjed ki az önkormányzatok betéteire, így kizárólag állami segítségre számíthatnának. A károsult önkormányzatok hetek óta fennmaradásukért küzdenek, de a kormányzat csak a kárösszeg 6 százalékát fedező 245 millió forintot nyújt számukra. Csak Bodrogkeresztúr település többet veszített ezen a bankcsődön</seg>
+<kinesic type="noise"><desc>Közbeszólás a Jobbik padsoraiból: Szégyen!</desc></kinesic>
+<seg xml:id="AC7_3732.4">Államtitkár úr, arra válaszoljon, mikor kapják meg végre a teljes kártalanítást az önkormányzato</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_3732.5">, a közfeladatot ellátó szervezetek. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-03-09-urgent_question-AC7_3733" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_3733.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Ma valóban már többször elhangzott, hogy visszaélések és bűncselekmények tömege juttatta csődbe a Buda-Cash Brókerházat, de ugyanez elmondható a Töröcskei István 51 százalékos tulajdonában álló Széchenyi Bankról is, arról a Széchenyi Bankról, amelybe a csődje előtt nem sokkal állami milliárdokat pumpáltak.</seg>
+<seg xml:id="AC7_3733.2">A betétesek számára nyilván szerencse, hogy pénzintézetek csődje esetén az Országos Betétbiztosítási Alap egységesen 100 ezer euróig kártalanítja a betéteseket, bár ma már azt is hallottuk, hogy az OBA kiürült. De azt is látni kell, hogy a kártalanítás mértékénél is vannak kivételek – feltételezhetően, ha Fidesz közeliek az érintettek.</seg>
+<seg xml:id="AC7_3733.3">Míg a kormány múlt év decemberében extra gyorsasággal és szinte korlátozás nélkül kártalanította a fideszes kifizetőhelyül szolgáló Széchenyi Bank milliárdos ügyfeleit, addig a Buda-Cash kisbetétes, nonprofit és önkormányzati ügyfelei messze nem kapják meg azt a figyelmet és támogatást.</seg>
+<seg xml:id="AC7_3733.4">Miközben a Buda-Cash-botrányban érintett 67 önkormányzat kára meghaladja a 3 milliárd forintot, a miniszterelnök és Varga Mihály alig 245 millió forint rendkívüli támogatást ítélt meg a részükre. Azt üzenték nekik: a többire még várjanak. Ehhez képest a kormány a fideszes kifizetőhelyül szolgáló Széchenyi Bank milliárdos ügyfeleivel kivételt tett. Az adófizetők pénzéből, konkrétan a közszféra bérkompenzációs keretéből 6 milliárd forinttal soron kívül kártalanította a Széchenyi Bank azon gazdag ügyfeleit, akiknek a banknál elhelyezett pénze meghaladta az Országos Betétbiztosítási Alap által garantált összeget. Így a szerencsések - alig négy fő magánszemély - 30 millió forintos kárenyhítés helyett fejenként több százmillió forinthoz is juthattak.</seg>
+<seg xml:id="AC7_3733.5">Azt szeretném megtudni, kik azok a milliárdos magánszemélyek; szeretnénk megtudni, meddig kell várni a Buda-Cash-botrányban érintett önkormányzatok teljes kártalanítására; és hogy gondolkodik-e a kormány a Buda-Cash-botrányban érintett, közcélokat szolgál</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_3733.6">nonprofit szervezetek teljes kártalanításán. Köszönöm a figyelmet</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiban. - Dr. Szél Bernadett: Ki az a négy fő?</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-03-09-urgent_question-AC7_3734" who="#MártonGyöngyösi" ana="#regular"><note>GYÖNGYÖSI MÁRTON (Jobbik):</note>
+<seg xml:id="AC7_3734.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Miniszter Úr! Az Iszlám Állam elleni katonai fellépéssel kapcsolatosan a Jobbik álláspontja a kezdetektől fogva ismert. Elítéljük a keresztények és a békés muzulmánok elleni agressziót, de egészen addig, amíg nem látjuk az ISIS hátterét és a Nyugat szerepét, felelősségét az Iszlám Állam létrejöttével kapcsolatosan, addig semmiféle katonai fellépést nem tudunk támogatni. Kizárólag humanitárius segítségnyújtást tudunk támogatni ebben a kérdésben.</seg>
+<seg xml:id="AC7_3734.2">Tekintettel arra, hogy Magyarország meggyőződésünk szerint nem felkészült az esetleges és potenciális terrorveszély kezelésére és az ISIS agressziója által kiváltott bevándorlás és migráció kezelésére, addig ebben a kérdésben nem tudunk támogatást nyújtani a kormányzatnak.</seg>
+<seg xml:id="AC7_3734.3">A Jobbik álláspontjával ellentétesen a kormányzati kommunikáció tragikusra, követhetetlenre és elég kaotikusra sikeredett. Hiszen két héttel ezelőtt Szijjártó Péter miniszter úr még innen támogatólag szólalt fel az Iszlám Állam elleni hadviseléssel kapcsolatosan, egy hétre rá Rogán Antal frakcióvezető úr, a frakciókkal folytatott egyeztetés után, már elutasítólag nyilatkozott, majd pár nappal később, amikor az Amerikai Egyesült Államokból jött egyfajta ukáz, egyfajta utasítás, hogy Magyarország küldjön hadakat az Iszlám Állam ellen, akkor megint csak visszatáncolt a kormányzat, és most megint csak támogatólag lép fel. Immáron a kétharmad fontosságát és sürgősségét hangsúlyozza Orbán Viktor miniszterelnök úr is és Szijjártó Péter miniszter úr is; a pénteki nap folyamán ők már ezt szorgalmazták. Erre jött válaszképpen a Demokratikus Koalíció, az Együtt és a Liberálisok támogató válasza és természetesen az MSZP-é is.</seg>
+<seg xml:id="AC7_3734.4">Kérdésként merül az fel, hogy az USA nyomására összeáll-e az Orbán-Gyurcsány-koalíció, és milyen következtetéseket vonhatunk le ilyen esetben Magyarország szuverenitására vonatkozóan. Köszönöm szépen.</seg>
+<seg xml:id="AC7_3734.5">Várom válaszát</seg>
+<kinesic type="applause"><desc>Szórványos taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-03-09-urgent_question-AC7_3735" who="#DánielZ.Kárpát" ana="#regular"><kinesic type="noise"><desc>Z. KÁRPÁT DÁNIEL (Jobbik): Tisztelt Elnök Úr! Tisztelt Ház! A következő időszakban az úgynevezett banki elszámolások mentén visszatérő téma lesz az, hogy a devizahitel-károsultak vajon a megfelelő mértékű kártalanításra tettek-e szert. A helyzet az, hogy az eddig bejövő visszajelzések és a piaci várakozások alapján is kijelenthető, hogy nagyon sok hitelkárosult az őt ért kárt… - tehát amennyivel az indokoltnál többet fizetett, adott esetben alig csak a tizedét fogja visszakapni vagy jobb esetben is a negyedét-ötödét, de mégis elmondhatjuk azt, hogy hatalmas, indokolatlanul elvett összegek lettek jóváírva a bankok oldalán.</desc></kinesic>
+<seg xml:id="AC7_3735.1">A Jobbik első figyelmeztetése 2010. április 1-jére datálható, ami a felvételkori árfolyamon történő forintosítást illeti. Nézzük meg, mekkora volt az árfolyam akkor: 185 svájci frank körül mozgott az első figyelmeztetésünk pontján. Tehát, ha önök ekkor tetszettek volna lépni, akkor a forintosítási törvényben szereplő 256 forintos árfolyam helyett minden egyes magyar családnak, aki érintett ebben a hatalmas problémában, milliós nagyságrendű spórolást okozhattak volna. Szerény számításaink szerint egy átlagos hitelkárosult családnál csak a tőkét illetően mintegy 3 millió forintot meg lehetett volna spórolni. Tehát az önök teszetoszasága miatt ennyivel járt rosszabbul egy hitelkárosult család, mint ha 2010-ben, kormányra kerülve, a mi javaslatunknak megfelelően megfogták volna ezt a problémát. Ha kamattal együtt számoljuk, kamatokkal, akkor pedig átlagosan 3,3 millió forinttal járt rosszabbul önök miatt egy hitelkárosult család.</seg>
+<seg xml:id="AC7_3735.2">Ami miatt most nagyon fontos erről a kérdésről beszélnünk, és ami a kérdés lényegét illeti, hogy mégis mi lesz azokkal a teljes társadalmi csoportokkal, akik kimaradtak a rendezésből, mi lesz a 250 ezer autóhitelessel, mi lesz a 300 ezer szabad felhasználású hitel károsultjával, most már kimondhatjuk minden további nélkül. Tehát hogy képzelhető el az, hogy a kormányzat A- és B-listázik károsultak, adósok között, és mégis mire számíthatnak azok a kisemmizettek, akik felé semmilyen segítő kezet nem nyújtottak</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-03-09-urgent_question-AC7_3736" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_3736.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Az RTL Klub „Házon kívül” című műsora nemrég beszámolt egy ápolónő esetéről, aki megalázóan alacsony bérért, elképesztő leterheltség mellett dolgozik egy budapesti kórházban. A riportban az igazgató cáfolta az ápolónő szavait, azt állítva, hogy az ápolónők igenis megkapják minden egyes ledolgozott óráért a bérüket. Az igazság gyorsan kiderült a fizetési papírok és a túlóra-nyilvántartások összevetésével, természetesen az ápolónőnek volt igaza.</seg>
+<seg xml:id="AC7_3736.2">Az eset jól mutatja az egészségügyben uralkodó állapotokat. A koraszülöttekkel dolgozó ápolók havi 200 órás beosztásban dolgoznak, napi 12 órákat, nettó 143 ezer forintért. A 200 ledolgozott munkaóra egy részét ki sem fizetik nekik, hanem csúsztatják, pénz helyett szabadnapot adnak, amikor nincs annyi munka. De a szabadnap sem igazi pihenő, ekkor ugyanis telefonos ügyeletben kell lenniük, és szükség esetén egy órán belül rendelkezésre kell állniuk. A hihetetlen alacsony bérért óriási felelősséget vállalnak, 12 órás munkaidőben, állandó feszültségben és kimerültségben kell ellátniuk 10-12 újszülöttet az engedélyezett 6 helyett.</seg>
+<seg xml:id="AC7_3736.3">(14.20)</seg>
+<seg xml:id="AC7_3736.4">Óriási a hiány a szakképzett ápolókból, aki csak teheti, külföldre megy. Az ápolói munka megbecsültsége nem csak anyagi érdemekben alacsony, az ápolók által fizetés nélkül végzett munka létét sem ismerik el, ahogy ezt a riport is mutatta. A kormány évek óta tétlenül nézi az egészségügy szétesését, a szakképzett dolgozók kivándorlását, ami emberi katasztrófával fenyegető helyzet.</seg>
+<seg xml:id="AC7_3736.5">A kérdésem az államtitkár úrhoz: tisztában van-e azzal a kormány, hogy mennyi pénzzel tartozik az egészségügy a dolgozóknak? Mekkora összeget tesz ki országosan az a bértömeg, amit a kifizetetlen túlórákra kellene fordítani? Milyen lépéseket tesznek annak érdekében, hogy a dolgozók megkapják a jogos juttatásaikat? Várom államtitkár úr válaszát</seg>
+<kinesic type="applause"><desc>Dr. Szél Bernadett és Sallai R. Benedek tapsol.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-03-09-urgent_question-AC7_3739" who="#BenceTuzson" ana="#regular"><note>TUZSON BENCE (Fidesz):</note>
+<seg xml:id="AC7_3739.1">Tisztelt Országgyűlés! Ismét a Buda-Cash-ügyről, azt hiszem, bár sokan nevetnek ezen a kérdésen, de mégis arról van sz</seg>
+<kinesic type="noise"><desc>Közbeszólás az MSZP soraiból: Rajtad nevetünk, Bence!</desc></kinesic>
+<seg xml:id="AC7_3739.2">, hogy százmilliárd forin</seg>
+<kinesic type="noise"><desc>Dr. Szél Bernadett közbeszól.</desc></kinesic>
+<seg xml:id="AC7_3739.3">ment el ebben az ügybe</seg>
+<kinesic type="noise"><desc>Közbeszólás az MSZP soraiból: Hogy történhetett meg, Bence?</desc></kinesic>
+<seg xml:id="AC7_3739.4">, és azért nagyon sok olyan ember tartotta ezekben a bankokban a pénzét, akinek ez volt a megtakarítása. Szerencsére az Országos Betétbiztosítási Alap helytáll ezekért az összegekért, de mindig fontos, hogy mögé nézzünk az ügyekne</seg>
+<kinesic type="noise"><desc>Közbeszólás az MSZP soraiból: Így van!</desc></kinesic>
+<seg xml:id="AC7_3739.5">, és megnézzük, hogy milyen okok vezethettek oda, hogy ez a botrány bekövetkezzen.</seg>
+<seg xml:id="AC7_3739.6">Ne felejtsük el, hogy 2004-ben, a szocialisták kormányzása alatt volt egy jogszabály-módosítás, ami a kétéves ellenőrzési kötelezettséget megszüntette, és ezt követően pedig, 2009-ben egy ötéves ellenőrzési kötelezettséget vezettek be. Ezt követően pedig, 2010-ben volt egy ellenőrzés, egy olyan ellenőrzés, amely már az országgyűlési választások után kezdődött me</seg>
+<kinesic type="signal"><desc>Harangozó Gábor István: És szeptember végén zárult le! Ne hazudj! Ne hazudj, Bence! - Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC7_3739.7">, de még befejeződött - a helyszíni ellenőrzés - a Fidesz-kormány megalakulása előtt, méghozzá nem máskor, mint egy nappal a Fidesz-kormány megalakulása előtt. És ettől függetlenül a személyi összefonódások is igen érdekesek, hiszen a felügyelőbizottság elnöke a Bajnai-kormánynak a kormánybiztosa volt, aki felelt azért, hogy ez az eset egyáltalán előállhatott</seg>
+<kinesic type="noise"><desc>Harangozó Gábor István közbeszól.</desc></kinesic>
+<seg xml:id="AC7_3739.8">Kérdezzük tehát ennek alapján, hogy hogyan lehetséges az, hogy a 2010-es vizsgálat semmit nem tárt fe</seg>
+<seg xml:id="AC7_3739.9">(Harangozó Gábor István: Milyen semmit?)</seg>
+<seg xml:id="AC7_3739.10">, hogyan lehetséges az, hogy 2010-ben, éppen ebben az időszakban következhetett be vizsgálat, és hogyan lehetséges az, hogy a felügyelőbizottság elnöke nem tudott semmit, vagy ha tudott valamit, akkor tudott-e erről Bajnai Gordon, illetve mi az, amit tudhatott a felügyelőbizottság elnöke.</seg>
+<seg xml:id="AC7_3739.11">Százmilliárd forintról van szó, és a legfontosabb kérdés az, hogy hol van ez a pénz</seg>
+<kinesic type="noise"><desc>Közbeszólás az MSZP soraiból: Kérdezd meg! - Szilágyi György: Ez volt a politikai haszonszerzés, államtitkár úr!</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

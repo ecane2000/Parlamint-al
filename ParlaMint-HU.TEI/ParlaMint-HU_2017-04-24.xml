@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2017-04-24" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2017-04-24 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2017-04-24 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2795" unit="words">2795 szó</measure>
+        <measure xml:lang="en" quantity="2795" unit="words">2795 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2017-04-24">2017. 04. 24.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="35"/>
+          <tagUsage gi="kinesic" occurs="8"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2017-04-24">2017-04-24</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2017-04-24-urgent_question-AC7_15288" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_15288.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! 2016 novemberében zárta le az Európai Bizottság a magyar kormánnyal szemben a paksi beruházási tender elmaradása miatt indított jogsértési eljárást. Az uniós testület elfogadta a kormány álláspontját a technikai kizárólagosságról, vagyis arról, hogy csak a Roszatom képes a Paksi Atomerőműhöz illeszthető új reaktorokat szállítani.</seg>
+<seg xml:id="AC7_15288.2">(13.50)</seg>
+<seg xml:id="AC7_15288.3">Ugyanakkor máig nem derült ki, hogy melyek az objektív jogszabályi feltételei a technikai kizárólagosságnak, és az sem, hogy tényleg csak az orosz VVR-1200-as reaktor felel meg ezeknek a feltételeknek. Az elmúlt hónapokban mind a Paksi Atomerőmű, mind az Országos Atomenergia Hivatal írásba adta, nincsenek olyan biztonsági vagy műszaki előírások, amelyeket csak az orosz beszállító képes teljesíteni, és sem az erőmű, sem az OAH nem adott olyan szakértői véleményt, amely igazolná a technikai kizárólagosságot. Nem is adhattak, hiszen korábban mindketten nemzetközi tender kiírására készültek, tudva, hogy a bővítésre többféle technológia is megfelelő. Valaki tehát nem mond igazat. Vagy a kormány csapta be a Bizottságot, hiszen sem Pakstól, sem az OAH-tól nem kapott, mástól pedig nem kaphatott bizonyítékokat a Roszatom-reaktorok egyedüli alkalmazhatóságára, vagy pedig a Bizottság fordított hátat a valóságnak, amikor a technikai kizárólagosságra hivatkozva fogadta el, hogy az Orbán-kormány, az uniós versenyjogot megsértve, tender nélkül ítélte oda a magyar történelem legdrágább beruházását.</seg>
+<seg xml:id="AC7_15288.4">Kérem tehát miniszter urat, mondja el, hogy tulajdonképpen ki nem mondott ebben a kérdésben igazat: önök vagy pedig az Európai Bizottság.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-04-24-urgent_question-AC7_15289" who="#ÁkosHadházy" ana="#regular"><kinesic type="noise"><desc>DR. HADHÁZY ÁKOS (LMP): Köszönöm szépen. Hídról is beszélhettem volna. Mai hír, hogy Farkas Flórián ügyében… (Közbeszólás a Jobbik soraiból.</desc></kinesic>
+<seg xml:id="AC7_15289.1">Az is eljön előbb-utóbb, mert a költségvetési csalás helyett most már hivatali visszaélés és hűtlen kezelés miatt is elindul a folyamat. De nem ez a kérdés.</seg>
+<seg xml:id="AC7_15289.2">Itt, a parlamentben is szoktunk szinte órákat beszélni az európai uniós támogatások felhasználásáról. Lehet is erről sokat beszélni, de én azt gondolom, hogy a miniszter úr akkor tudna leginkább jól látni ebben az ügyben, és nem csak adatokat nézni, ha amikor megy haza, akkor Kisteleknél letér az autópályáról, elindul Kistelek felé, és az első napelemnél jobbra fordul. Találni fog egy olyan utat, amit senki nem ír ki, egy gyönyörű, európai uniós forrásból nagyon szépen megcsinált nyílegyenes út, nem vezet sehova. Nagyon vigyázzon, ha éjszaka mennek, akkor lassan menjenek, mert minden tábla és kijelzés nélkül egyik pillanatról a másikra elfogy és átmegy egy földes útba. Emellett pedig van egy logisztikai központ - ezt a Hunvestor Kft. csinálta -, ennek a logisztikai központnak eredetileg lerakták az alapkövét Kiskunfélegyházán, és azt mondták, hogy majd a vasúton érkező autókat oda lerakják, és onnan majd a kamionok szét fogják vinni az országba mindenhova az autókat.</seg>
+<seg xml:id="AC7_15289.3">Ehhez képest ez Kistelek mellett épült meg, egy kicsit odébb, a vasutat elfelejtették belőle, ehhez képest három konténer van, és egy egészen sík terület. Ezt a területet 500 millió forintért csinálták meg, illetve papíron egymilliárdért, csak 500 millió forintot fizetett ki nekik a magyar kormány. Azt hiszem, hogy ennél szebb hely nincsen, ahol láthatjuk, hogy hogy történnek az uniós gazdaságfejlesztés felhasználásai: egy út a semmibe, amíg tart az európai uniós támogatás, addig van, utána elfogy, és ott vagyunk a semmiben, illetve 500 millió forint három konténerért és egy lapos területért. A véleményét kérem erről a beruházásról.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-04-24-urgent_question-AC7_15290" who="#NándorGúr" ana="#regular"><note>GÚR NÁNDOR (MSZP):</note>
+<seg xml:id="AC7_15290.1">Köszönöm szépen. Önöknek tényleg csak az ember nem fontos, miniszter úr? 2011-ben egy munkatörvénykönyvi változást eszközöltek, emlékszik rá biztos: a délutános pótlékot megszüntették, az éjszakai pótlékot csökkentették. Most el akarják venni a pihenőidőt, növelik a baleseti kockázatot, idézőjelbe tett ingyenmunkára is késztetik az embereket, kizsákmányolják őket, évekig kell várni a megdolgozott pénzükért, hogy azokhoz hozzá is tudjanak jutni.</seg>
+<seg xml:id="AC7_15290.2">Munkaidőkeret: 2496 órát akarnak dolgoztatni ezekkel az emberekkel - nem két hónap, nem négy hónap időszakában, nem egy év, hanem három év viszonylatában. Egyeztetés nélkül teszik mindezt, szakszervezetekkel, VKF-fel, senkivel, semmilyen konföderációval, ágazattal nem egyeztettek, miközben agyon akarják hajszolni a munkavállalókat, ami - köztudott - nem a hosszú élet titka. Nem véletlen, hogy 600 ezer ember elhagyta ezt az országot. 6 napos munkahetet akarnak bevezetni náluk? A munkavállalók kizsigerelését akarják megtenni? Azt kell mondanom, hogy nem véletlen tiltakoznak a szakszervezetek, a MASZ elnökétől kezdve sokan mások is. A munkások meg várhatnak a megdolgozott bérükre, a pénzükre. Szégyen, hogy egyeztetés nélkül ide merték hozni a Parlament falai közé ezt a törvénytervezetet, és még nagyobb szégyen az, hogy belehazudták a szemünkbe, hogy persze voltak egyeztetések.</seg>
+<seg xml:id="AC7_15290.3">Önök azt az alapelvet nem teljesítik, ami arról szól, hogy a munka világában a rugalmasságnak és a biztonságnak is helye van. Csak a rugalmasság érdekli önöket, olyan érdekeket szolgálnak ki, amelyek adott esetben multinacionális cégek érdekei. Önök nem tehetnek mást, csak egyet: visszavonják ezt a törvénytervezetet haladéktalanul, és Varga Mihály 2015-ös ígéreteit veszik alapul, ami arról szól, hogy a munkatörvénykönyv generális áttekintését fogják megtenni. Eddig nem ezt tették, eddig lesöpörtek mindent, amit a szakszervezetek bevittek a VKF elé. Köszönöm szépen. Vonják vissza</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-04-24-urgent_question-AC7_15291" who="#LászlóSzakács" ana="#regular"><note>DR. SZAKÁCS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_15291.1">Köszönöm, elnök úr, természetesen elfogadom a miniszter urat a válaszadó személyének.</seg>
+<seg xml:id="AC7_15291.2">Tisztelt Miniszter Úr! 2013 óta léteznek letelepedési kötvények Magyarországon. Már maga a születés is egy furcsa dolog volt annak idején, hiszen Rogán Antal akkor még frakcióvezetőként egyéni képviselői indítványt terjesztett be a parlament elé, majd ezt elfogadva a parlament meg is bízta magát Rogán Antalt - visszatért a feladóhoz -, illetve az általa vezetett bizottságot arra, hogy válasszon ki olyan közreműködő szervezeteket a letelepedési kötvények kapcsán, amelyek segítenek majd eladni a magyar állampapírokat azoknak a magánszemélyeknek, akik szeretnének Magyarországon letelepedni; nyilvánvalóan egyébként mindannyian tudjuk, egyfajta schengeni megkönnyített beutazási engedélyt vásárolni maguknak, méghozzá nagyjában-egészében 300 ezer euróért.</seg>
+<seg xml:id="AC7_15291.3">Akkor még a megbízhatóság feltételei teljesen mások voltak itt a cégeknek, ezeknek a közvetítő cégeknek, ne felejtsük el, miniszter úr, amelyek a magyar állam nevében is járnak el és a magyar állammal szerződéses kötelezettségük van. Ezeknél a cégeknél még az nem volt semmifajta kritérium, hogy itt meg kellene ismerni a tulajdonosi hátteret. Itt offshore cégekről van szó nagyobbrészt, nem lehet tudni soha, hogy ki áll ezek mögött a cégek mögött. 6-7 ezer kötvényt értékesítettek körülbelül, a családokkal együtt olyan 17-18 ezer ember jött ide, ezt Pintér Sándor írta nekünk a válaszában, úgyhogy majdnem biztos vagyok benne, hogy jól számoltak.</seg>
+<seg xml:id="AC7_15291.4">Utána kampány is volt most, az elmúlt időszakban, hiszen ön is bejelentette októberben, hogy decemberben meg fog szűnni ez a fajta kötvény, a letelepedési kötvény, aztán kiderült, hogy csak megvizsgálni akarják, aztán majd márciusban fog megszűnni ez a kötvény, aztán most meg már április van, és még mindig lehet kapni. Úgyhogy nyilvánvalóan ez szezon végi kiárusításnak tűnik, de mégis azt szeretném megkérdezni, hogy miért kellett bevonni ezeket az offshore cégeket. Miért kellett ezt a konstrukciót létrehozni, és miért nem saját maguk adták el ezeket a papírokat?</seg>
+<seg xml:id="AC7_15291.5">Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-04-24-urgent_question-AC7_15292" who="#ZsoltLegény" ana="#regular"><note>DR. LEGÉNY ZSOLT (MSZP):</note>
+<seg xml:id="AC7_15292.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Sajnálatos módon az elmúlt napokban, hetekben Szabolcs-Szatmár-Bereg megye szinte egészét, de a keleti részét egészen biztosan több hullámban nagymértékben érte fagykár. Ez a fagykár sajnos nem új jelenség, az elmúlt években sokszor találkozhattak már ezzel a gazdák, de április 12-én, majd április 15-én mínusz 4-5 fokos fagyokkal szembesültek hajnalra a gazdák, és ez sajnos nagyon sok növény- és gyümölcskultúrában tett kárt. A gyümölcskultúrákban elsősorban a meggy és az alma érintett, de értelemszerűen a barack, a szilva és a dió is.</seg>
+<seg xml:id="AC7_15292.2">Sajnálatos módon, ahogy említettem, ez a fagykár nem az első volt az elmúlt években, a mostani különlegessége vagy újdonsága az, hogy az elmúlt napokban esett hideg havas eső ma reggel például Nyírbátor környékén ráfagyott mindenre, így nemcsak a gyümölcskultúrákban esett hatalmas kár, hanem minden más mezőgazdasági kultúrában is.</seg>
+<seg xml:id="AC7_15292.3">(14.30)</seg>
+<seg xml:id="AC7_15292.4">Ahogyan említettem, nem ez az első eset az elmúlt években. Tudom, hogy ebben az esetben a kormány mindig arra hivatkozik, hogy a kárenyhítési rendszerbe lépjenek be a gazdák, amikor beléptek, ebbe fizessenek be, és ebből tudják őket kártalanítani. Azonban, ahogyan említettem, nem az első eset volt, és az elmúlt évek alapján nem lehet árbevételt sem a gazdáknál így kiszámolni, hiszen többször nagymértékű kiesést szenvedtek el sajnos. Ezért tehát a kárenyhítési rendszer önmagában nem fogja tudni ezeknek az embereknek a problémáját megoldani. Nagyon sok emberi problémával, nagyon sok család sorsának rosszra fordulásával találkozunk. Többen jelezték már többször, több helyen, hogy bizony valamilyen külső és nagyon azonnali segítségre szorulnak.</seg>
+<seg xml:id="AC7_15292.5">Éppen ezért azt szeretném kérdezni, hogy a kormány milyen módon tud segíteni ezeknek a gazdáknak. Milyen módon tudja azokat a családokat segíteni, amelyek megélhetése veszélybe került ezáltal</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban. - Dr. Józsa István: Úgy van.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-04-24-urgent_question-AC7_15293" who="#LászlóSalacz" ana="#regular"><note>DR. SALACZ LÁSZLÓ (Fidesz):</note>
+<seg xml:id="AC7_15293.1">Tisztelt Államtitkár Úr! A gyalázatos 2004-es népszavazást követően 2010-ben jelentős fordulat következett be a magyar kormány nemzetstratégiai politikájában. Az újonnan megalakuló Országgyűlés egyik elsőként beterjesztett törvényjavaslata volt a külhoni magyarság állampolgársághoz jutási lehetőségének radikális megkönnyítése. Nem vitás, hogy az Orbán-kormány egészen másként tekint a külhoni magyarság egészére, mint a szocialista-szabaddemokrata kormányzat. Honfitársaink szülőföldjén történő boldogulása nemzetünk megmaradásának záloga is egyúttal. Fontosnak tartom ugyanakkor, hogy a trianoni döntés következtében elszakított honfitársaink ne csak jogi, kulturális értelemben érezzék magukat a magyar nemzet testéhez tartozónak. Történelmi jelentőségűnek tartom, hogy a kormány immáron gazdaságélénkítő támogatási programokat hirdetett, nemcsak a Vajdaságban és a Kárpátalján, hanem a Felvidéken is. Lényeges, hogy a támogatás csak gazdaságfejlesztésre, munkahelyteremtésre legyen felhasználható.</seg>
+<seg xml:id="AC7_15293.2">Alapvető érdekünk, hogy a mezőgazdaság, ipar és turizmus területén a Kárpát-medence együtt erősödhessen, hiszen közösen még nagyobb sikereket érhetünk el a világgazdaságban. Nem feledkezhetünk meg azonban arról sem, hogy a külhoni magyarságnak nyújtott, minden korábbinál jelentősebb gazdaságfejlesztési támogatás legfőbb célja, hogy a szülőföldjén tartsa a közösséget, helyben segítse elő a magyar családok megélhetését és boldogulását.</seg>
+<seg xml:id="AC7_15293.3">Mindezek alapján kérdezem: milyen gazdaságfejlesztési stratégia valósulhat meg a Kárpát-medencében? A Kárpát-medence együtt erősödhet-e igazán</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-04-24-urgent_question-AC7_15294" who="#KárolyPánczél" ana="#regular"><note>PÁNCZÉL KÁROLY (Fidesz):</note>
+<seg xml:id="AC7_15294.1">Köszönöm szépen, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Egy hosszú, másfél éves kampány ért véget tavaly november 8-án az Egyesült Államokban, amikor is Donald Trumpot megválasztották az államok 45. elnökévé. Nem mindenki tudja azonban elfogadni a választók döntését, és ahogy látjuk, illetve olvassuk az amerikai híreket, az lehet a benyomásunk, hogy a kampány még mindig tart.</seg>
+<seg xml:id="AC7_15294.2">Már az új elnök beiktatásának másnapján is nagyszabású Trump-ellenes tüntetésre került sor. A liberális média úgy reklámozta a demonstrációt, mint egy spontán, alulról jövő kezdeményezést, amit független civil szervezetek hívtak életre. A valóság azonban, mint kiderült, egészen más. Az amerikai médiakutató központ adatai szerint Soros György és az ő Nyílt Társadalom Alapítványa az elmúlt évtizedben nem kevesebb, mint 247 millió dollárral támogatta a tüntetés mögött álló szervezeteket. Az április 15-én tartott újabb demonstrációról is kiderült, hogy a mögötte álló nyolc szervezetből négyet a Nyílt Társadalom Alapítvány pénzel.</seg>
+<seg xml:id="AC7_15294.3">A Soros Györgyhöz köthető szervezetek nemcsak az Egyesült Államokban, de világszerte finanszíroznak politikai megmozdulásokat, és avatkoznak be szuverén államok belügyeibe úgy, hogy arra semmilyen választói felhatalmazásuk sincs. A múlt héten itt a parlamentben is szóba került, hogy a Soros-birodalom Macedóniában legkevesebb 5 millió dollárt költött 61 úgynevezett civil szervezetre, amelyek erőszakos tüntetéseket szerveztek a konzervatív kormány destabilizálása érdekében. Ezeken a tüntetéseken bevett gyakorlat volt, hogy festékkel töltött palackokkal dobáltak meg középületeket. Úgy látszik, ugyanezt a módszert igyekeznek hazánkban, Magyarországon is megvalósítani.</seg>
+<seg xml:id="AC7_15294.4">Tisztelt Államtitkár Úr! Ki fizeti a tüntetéseket szervező szervezeteket</seg>
+<kinesic type="applause"><desc>Taps a Fidesz soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-04-24-urgent_question-AC7_15295" who="#LajosRig" ana="#regular"><note>RIG LAJOS (Jobbik):</note>
+<seg xml:id="AC7_15295.1">Köszönöm szépen a szót. Tisztelt Államtitkár Úr! Most nem egészen az egészségügyről fogunk vitázni, vitatkozni önnel, ahogy eddig szoktuk, hanem egy érdekes, újfajta úri rendszer kialakulásáról, amit a választókerületemben tapasztaltam. Több lakó megkeresett, és a következő problémát vetette fel. Választókerületemben két szociális intézmény működik, az egyik a lesencetomaji, a másik a nyírlakpusztai intézmény, amely két nagy családé volt. A lesencetomaji a Nedeczky, a nyírlaki pedig a Tarányi család vadászbirtoka volt, ami az ötvenes évektől ilyen szociális és pszichiátriai intézményként működik. Az elmúlt időszakban több helyről hallottam, hogy a bentlakókat kiköltöztetik falvakba, és ez az ott lakókban aggodalmat keltett.</seg>
+<seg xml:id="AC7_15295.2">Az hozzátartozik a kérdéshez, hogy ez a támogatott lakhatási forma már működött az elmúlt rendszerben is, Tapolca is három fiatalt fogadott be, akik nagyon hasznos tagjai a társadalomnak és Tapolca városának. Örülünk is ennek, de felmerül még egy kérdés. Mi a szándék ezekkel a vadászkastélyokkal? Tudunk olyan urakról, akik most már nemcsak földbirtokokat birtokolnak, nemcsak hotelláncolatokat birtokolnak, nemcsak Balaton-parti ingatlanokat szereztek, hanem az uraság, uradalom mellé már kell egy vadászkastély is.</seg>
+<seg xml:id="AC7_15295.3">Felmerül bennünk a kérdés, hogy ha ezeket az intézményeket megszüntetik, amelyek nagyon szép környezetben biztosítják az ott élő ápoltak és gondozottak gyógyulását, akkor mi vele a cél. Egy újabb grófi réteget próbálnak teremteni ezáltal ott, ebben a választókerületben vagy másfajta választókerületben? Kérdezem, államtitkár úr, hogy mi ennek a haszna. Mert maga a támogatási lakhatás egy jó rendszer, de nincsen rá megfelelő személyzet, ugyanúgy, ahogy a lesencetomaji szociális otthonban sincsen, és nem lesz ezután sem. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-04-24-urgent_question-AC7_15296" who="#LajosKepli" ana="#regular"><note>KEPLI LAJOS (Jobbik):</note>
+<seg xml:id="AC7_15296.1">Köszönöm szépen, elnök úr. Közeleg a nyári strandszezon, és mit tesz ilyenkor az átlag magyar ember? Ha van pénze, leutazik a Balatonhoz, megveszi a strandbelépőt, eszik egy lángost, esetleg még egy sört is iszik hozzá, és utána hazautazik. Mit tesz ehhez képest a nemzet egyszeri gázszerelője? Mészáros Lőrinc nem aprózza el, fogja és megveszi magának az egész Balatont úgy, ahogy van, hiszen a szállodák, a Balaton-felvidéki szőlészetek és borászatok után most úgy tűnik, hogy a már Zuckerbergnél is tehetségesebb magyar gázszerelő a Balatonra vetette ki a szemét, és a Balatontouriston keresztül 100 hektárnyi Balaton-parti terület tulajdonjogát és üzemeltetését szerezte meg.</seg>
+<seg xml:id="AC7_15296.2">(14.10)</seg>
+<seg xml:id="AC7_15296.3">Annál is érdekesebb ez, mivel decemberben került napvilágra az a hír, hogy 5 milliárd forintot szán a kormány, egyébként nagyon helyesen, a Balaton-parti kempingek felújítására, és érdekes módon hirtelen átvándorolnak Mészáros Lőrinc tulajdonába ezek a kempingek.</seg>
+<seg xml:id="AC7_15296.4">Ugyanolyan érdekes, mint ahogy korábban az is kiderült, hogy mintegy 100 milliárd forintért építheti a dél-balatoni vasútvonalat a szintén Mészáros Lőrinc érdekeltségébe tartozó cég, vagy ahogy kiderült még sok más balatoni ingatlan esetében is, hogy valahogy Mészáros Lőrinc és érdekeltségei tulajdonába kerül.</seg>
+<seg xml:id="AC7_15296.5">Azt szeretném kérdezni, tisztelt miniszter úr, hogy nem tartják-e furcsának, illetve a kormánynak mi a véleménye arról, hogy egy szinte tisztán közbeszerzésekből milliárdossá vált, Orbán Viktor miniszterelnök jó barátjaként aposztrofált gázszerelő és polgármester egyszerre csak egy egész tavat szerez meg magának, szinte a Balaton környékének urává válik, és szinte saját és a miniszterelnök környezetének kerti tavává teszi a Balatont, és mit gondol a kormány arról, hogy lassan már az egész ország strómanján keresztül a miniszterelnök és családi körének tulajdonába kerül. Mi a véleménye miniszter úrnak erről a tényről, és kívánnak-e ez ügyben tenni valamit? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

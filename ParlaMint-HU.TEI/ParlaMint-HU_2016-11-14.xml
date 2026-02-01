@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2016-11-14" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2016-11-14 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2016-11-14 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="10" unit="speeches">10 beszéd</measure>
+        <measure xml:lang="en" quantity="10" unit="speeches">10 speeches</measure>
+        <measure xml:lang="hu" quantity="3315" unit="words">3315 szó</measure>
+        <measure xml:lang="en" quantity="3315" unit="words">3315 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2016-11-14">2016. 11. 14.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="10"/>
+          <tagUsage gi="seg" occurs="48"/>
+          <tagUsage gi="kinesic" occurs="9"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2016-11-14">2016-11-14</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2016-11-14-urgent_question-AC7_12744" who="#ErzsébetSchmuck" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_12744.1">Köszönöm a szót, elnök úr. Tisztelt Miniszterelnök Úr! Magyarországon számos szempontból rossz irányba megyünk. Rossz az irány, ha ránézünk a minisztériumi struktúrára, és azt látjuk, hogy az oktatásnak és az egészségügynek nincsen minisztériuma, de a propagandának van. Sajnos ez vállalhatatlan, mint ahogy vállalhatatlan a minisztereknek egy jelentős része is.</seg>
+<seg xml:id="AC7_12744.2">Na, most legutóbb, mikor Rogán Antal viselt dolgairól kérdeztük itt a magyar parlamentben, ön azt válaszolta, hogy a miniszter úrnak magáért kell helytállnia. A helyzet azonban mégis az, hogy a minisztereket a miniszterelnök nevezi ki ebben az országban. Tehát Rogán Antal addig marad miniszter, amíg Orbán Viktor miniszterelnök úr, azaz ön úgy akarja. Márpedig a legutóbbi kérdés óta a miniszter úr kettőször hazudott széles közvéleménynek. A második esetben ráadásul egy olyan ügybe is keveredett, ami nemcsak korrupciós, de nagyon komoly nemzetbiztonsági kockázatokat is rejt magában.</seg>
+<seg xml:id="AC7_12744.3">Emlékeztetném önöket arra, és tisztelt miniszterelnök úr, bizonyára ön is látta, amikor a miniszter úr bement egy tévéműsorba, a letelepedési kötvényekkel kapcsolatban háromszor hazudott egy adásban. Közölte, hogy ezért cserébe tartózkodási engedélyt kapnak, öt évre szól, lakást kell venni hozzá. Háromból három hamis, ugyanis gyakorlatilag határozatlan időre biztosít letelepedési jogot egy letelepedési kötvény az országban, lakást nem kell venni, tulajdonképpen elég egyszer Magyarországra eljönni. Háromból három tehát hazugság.</seg>
+<seg xml:id="AC7_12744.4">Néhány nappal később az index.hu-n jelent meg egy tényfeltáró cikk, amelyben Rogán Antal úr és Kertész Balázs úr régmúltra visszatekintő gazdasági és politikai kapcsolatait elemezték ki az újságírók, Rogán Antal úr ekkor letagadta, hogy személyes ismeretségben állna Kertész Balázs úrral. Most, azt hiszem, ott tartunk, hogy már kávézgattak, de mindenesetre itt sem mondott igazat a miniszter úr.</seg>
+<seg xml:id="AC7_12744.5">Viszont ennél is súlyosabb, hogy a cikkben Kertész Balázs irodája előtt három olyan üzletember beszélgetett, akik, azt gondolom, egy normális országban különböző állami intézményekben kellene hogy beszélgessenek; ugye, Grúzia volt miniszterelnökéről van szó, a letelepedési kötvényben érdekelt üzletemberről meg grúz bankárról, voltak ott százalékok, Eximbank, erőmű-beruházás, és hát ez egy olyan iroda, ahol többen előfordultak.</seg>
+<seg xml:id="AC7_12744.6">Miniszterelnök úrhoz három kérdésem van: egyrészt arra várnám a válaszát, hogy van-e vagy volt-e bármilyen olyan grúziai erőműépítés a tervben, amely a magyar államot vagy a magyar állami vállalatokat érinti. Másrészt pedig szeretném tudni, hogy mikor fogy el a bizalma végre Rogán Antallal kapcsolatban. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-14-urgent_question-AC7_12747" who="#JánosVolner" ana="#regular"><note>VOLNER JÁNOS (Jobbik):</note>
+<seg xml:id="AC7_12747.1">Tisztelt Miniszterelnök Úr! Én a dolgozó magyar emberek munkabérének emelését szeretném elérni, és ezzel kapcsolatban kívánok önhöz szólni. Fontos azt látni, hogy amikor miniszterelnök úr arra hivatkozik, hogy a minimálbért nagyarányban megemelte az Orbán-kormány 2010-hez képest, akkor gondolhatunk nyugodtan arra, hogy ennek a minimálbérnek csak a bruttó összege emelkedett meg ilyen nagy arányban, azonban az adóterhelése még nagyobb arányban emelkedett, mint ahogy a bruttó összege. Fontos azt is látni, miniszterelnök úr, hogy az összes OECD-tagország közül Magyarországon a legmagasabb a minimálbér adóterhelése, ebben vagyunk vezetők, még egyszer mondom, az összes OECD-tagország között.</seg>
+<seg xml:id="AC7_12747.2">Miniszterelnök úr, én örömmel láttam azt a sajtóban, amikor nyilatkozott különböző fórumokon arról, hogy a kormány el szeretné érni a minimálbér emelését. Természetesen én magam is egyetértek vele, azonban nagyon fontosnak tartom azt elmondani, hogy nem elég ezt az egyébként is agyonadóztatott minimálbért emelni, mert ezzel konzerváljuk azt az állapotot, hogy kimagasló lesz a legalacsonyabb keresetű emberek adóterhelése, hanem a minimálbérnél egy nagyarányú adó- és járulékcsökkentésre van szükség annak érdekében, hogy pont a legalacsonyabb keresetű embereken tudjunk segíteni, hogy ne szakadjanak le a társadalomtól, hogy ne vándoroljanak el százezer szám külföldre. Jelenleg ugyanis Magyarországon nem kis részben éppen ezeknek a dolgozói munkabéreket sújtó kimagasló adóknak a következtében ismert a dolgozói szegénység fogalma, ismert az, hogy az emberek hónapról hónapra úgy élnek, hogy a sárga csekkjeikkel küszködnek, nem tudják ezeket befizetni, és hiába dolgozik sokszor egy ember másodállásban, nem elég a munkabére arra, hogy megéljen ebből a fizetésből.</seg>
+<seg xml:id="AC7_12747.3">Tehát én azt kérem, miniszterelnök úr, öntől, hogy mind a minimálbér adóterhelését legyen kedves csökkenteni, mind pedig gondoskodjon akár nemzetközi fellépéssel a multik felé nyitott párbeszéddel arról, hogy elinduljon a magyar emberek bérfelzárkózása Nyugat-Európa felé. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-14-urgent_question-AC7_12794" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_12794.1">Köszönöm a szót, elnök úr. Tisztelt Miniszterelnök Úr! Ön múlt héten az Európai Újjáépítési és Fejlesztési Bank-konferencián azt mondta, hogy, idézem: „Itt, Magyarországon be kell látnunk, hogy lezárult egy gazdaságfejlődési korszak, amely arra épült, hogy a versenyképességünk elsősorban a munkaerő olcsóságából fakadt.”</seg>
+<seg xml:id="AC7_12794.2">Egyrészt gratulálni szeretnék ahhoz, hogy akkor ezzel hivatalosan is elismerte, hogy ugyanazt csinálta, mint a szocialisták korábban, másrészt pedig nézzük meg egy kicsit, hogy mit jelent mindez. Egyrészt ön elismerte, miniszterelnök úr, hogy ön és a kormánya teljesen tudatosan tartotta Magyarországon alacsonyan a béreket, másrészt pedig azt is beismerték, hogy bármit is mondanak a közpénzből finanszírozott kormánypropagandán, gyakorlatilag a béremelés, ami itt volt, Magyarországon, az édeskevés volt a magyar embereknek. Ez tulajdonképpen a kormány saját csődjének a beismerése volt.</seg>
+<seg xml:id="AC7_12794.3">Komoly fejlődésnek tekintem ezt ahhoz képest, hogy a múltkori találkozásunkkor ön még azt bizonygatta nekem, hogy csak a minimálbéren keresztül tudja a kormány befolyásolni a bérszínvonalat. Ez természetesen nincsen így, de ha a hat év mérlegét nézzük, akkor azt látjuk, hogy Magyarországon nagyon rosszak a bérek, a gazdaság versenyképessége nem nőtt, a munkaerő minősége az oktatás kivéreztetése miatt pedig nagyon rossz helyzetben van. Eközben az ön minisztere másnap bejelentett egy új csomagot, amellyel kapcsolatban feltételezem, hogy ön egyetért. Egyrészt továbbra is úgy tűnik, hogy önök ragaszkodnak az egykulcsos adóhoz, a munkáltatói járulékot fogják csökkenteni a jelek szerint, illetve a társasági adó felső kulcsát fogják csökkenteni. Ez egy olyan helyzet, szeretném leszögezni, ami alapvetően a munkáltatóknak lesz kedvező.</seg>
+<seg xml:id="AC7_12794.4">Tisztelt Miniszterelnök Úr! A kérdésem, ami arra irányul, hogy ki képviseli ebben az országban a munkavállalókat, az azért is fontos, mert nem fogják tudni hosszan fenntartani azt a nézetet, amely szerint ez a csomag igazából a magyar emberek hasznára lenne. Mi azt látjuk, hogy gyakorlatilag, aki minimálbér felett keres, nem fog sokat látni ebből a pénzből, merthogy alapvetően a munkáltatók fogják eldönteni, hogy ezt a járulékcsökkentést odaadják-e béremelésben a dolgozóknak, vagy nem adják oda.</seg>
+<seg xml:id="AC7_12794.5">Tisztelt Miniszterelnök Úr! Ez, amit önök most kitaláltak, egy újabb csomag, egy újabb lehetőség a munkáltatóknak. Mikor foglalkoznak végre a munkavállalókkal is?</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-14-urgent_question-AC7_12806" who="#LászlóVarga" ana="#regular"><note>DR. VARGA LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_12806.1">Köszönöm a szót, elnök úr. Tisztelt Miniszterelnök Úr! Tisztelt Képviselőtársaim! Több mint 4 millió ember él létminimum alatt ma Magyarországon, az önök hatékony válasza erre megvolt: a KSH ma már nem publikálja a létminimumadatokat.</seg>
+<seg xml:id="AC7_12806.2">Minden harmadik gyermek kénytelen nagyon komoly nélkülözések között felnőni ebben az országban, és Magyarországon a kisvállalkozók nagyon nagy része gondolja úgy, hogy az ő boldogulásuk kapcsán egyetlen szempont számít: az, hogy milyen típusú fideszes kapcsolataik vannak.</seg>
+<seg xml:id="AC7_12806.3">Az egészségügyben mára sajnos egyértelmű a helyzet: ahol az önök által üldözött Európai Unió forrásaiból nem sikerült még valamilyen felújítást elvégezni, ott nagyjából XIX. századi állapotok várják a magyar embereket, a várólisták nőnek, az orvosi és szakdolgozói hiány katasztrofális méreteket ölt.</seg>
+<seg xml:id="AC7_12806.4">Az oktatás problémáit ismerheti az egész ország, januártól nagyon komoly megmozdulások voltak, Miskolcon az utóbbi évek legnagyobb vidéki demonstrációja, és több tízezer ember a Kossuth téren. A megoldás egyértelmű volt az önök részéről: kifárasztás, látszattárgyalások, látszatintézkedések. Nem csoda, hogy több mint 500 ezer ember, majd’ 600 ezer ember elhagyta már Magyarországot az elmúlt évek politikájából is következően.</seg>
+<seg xml:id="AC7_12806.5">Mindeközben mit látunk? A társadalmat egyre jobban irritálja több, urizáló életet folytató miniszter és államtitkár, egyre több ilyen politikus veri ki a biztosítékot a magyar embereknél. Azt gondolom, ennek a mintapéldánya Rogán Antal miniszter, aki nem csoda, hogy nem látja a helikopterről a magyar valóságot, hiszen sokszor a saját nappalija méretét sem sikerül eltalálnia.</seg>
+<seg xml:id="AC7_12806.6">Két kérdés adódik ebből, miniszterelnök úr. Egyrészt mikor kíván rendet tenni a kormányában? Másrészt mikor kívánnak végre a magyar embereket érintő, valós problémákkal foglalkozni? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-14-urgent_question-AC7_12885" who="#GyörgySzilágyi" ana="#regular"><note>SZILÁGYI GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_12885.1">Köszönöm szépen. Akkor erősítsük Rogán Antalt! Tisztelt Miniszterelnök Úr! Amikor nyilatkozatok, újsághírek szólnak arról, hogy a magyar kormány minisztere, Rogán Antal azért tud olyan luxuséletet élni, amire nem telhetne neki a miniszteri fizetéséből, mert más, sötét ügyekből is vannak pluszbevételei, amikor azt mondják, hogy a vagyona már elérte a 11 milliárdot, és ezt meg is ünnepelte egy bulival, akkor én, lehet, hogy túl naivan, mindig azt mondom: á, ez biztos nem igaz, hiszen ha így lenne, akkor a független ügyészség - amit Polt Péter volt Fidesz-párttag vezet - és a független NAV - amit Tállai András, a Fidesz államtitkára vezet - biztosan kivizsgálná a Fidesz miniszterének ügyeit</seg>
+<seg xml:id="AC7_12885.2">(Derültség a Jobbik padsoraiban.)</seg>
+<seg xml:id="AC7_12885.3">De az elmúlt egy hónapban még az én jóindulatú hozzáállásommal sem tudok válaszolni arra, hogy a magyar kormány minisztere, Rogán Antal miért hazudhat folyamatosan, büntetlenül és minden következmény nélkül. Kezdődött a helikopterezéssel: amikor újságírók megkérdezték erről, akkor tagadta a helikopterezést, és perrel fenyegetett mindenkit, aki ezt állítja; majd amikor képeket mutattak neki a helikopterezésről, akkor elmenekült a nyilvánosság elől, és pár hétig nem szólalt meg.</seg>
+<seg xml:id="AC7_12885.4">Aztán egy másik esetben, amikor az Index tényfeltáró cikkéből kiderült, hogy Rogán Antal és Kertész Balázs valószínűleg szoros üzleti kapcsolatban állnak egymással - tudja, arról a Kertész Balázsról van szó, aki a K&amp;H Bank 28 milliárdos sikkasztási botrányának nyomozati anyagában egy feljegyzésben úgy szerepel, hogy - idézném: - ő intézi Rogán Antal csúszópénzekkel kapcsolatos ügyeit. Szóval, amikor erről kérdezik Rogánt, akkor a Miniszterelnöki Kabinetirodán keresztül mindent letagad és perrel fenyegetőzik, még azt is letagadja, hogy a barátja lenne Kertész.</seg>
+<seg xml:id="AC7_12885.5">Azt állították, csak annyira ismeri Rogán Kertészt, mint bármelyik másik képviselőt, tehát nem találkozgat vele. Aztán amikor előkerülnek bizonyítékok, videók, képek a kapcsolatukról, akkor elkezd emlékezni, és szintén a kabinetirodán keresztül azt mondja, hogy valóban, néha fel szokott ugrani régi ismerőséhez kávézgatni.</seg>
+<seg xml:id="AC7_12885.6">(14.00)</seg>
+<seg xml:id="AC7_12885.7">Miniszterelnök Úr! Miért tűri el a hazugságot a kormányában? Árulja el, miniszterelnök úr: az ön kormányában hányszor hazudhat a választók szemébe egy miniszter mindenféle következmény nélkül? Várom a megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-14-urgent_question-AC7_12888" who="#MátyásFirtl" ana="#regular"><note>FIRTL MÁTYÁS (KDNP):</note>
+<seg xml:id="AC7_12888.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tavaly az ukrán-orosz helyzet elmérgesedésekor számos kezdeményezés indult útjára, amelyek közös célja, hogy a kárpátaljai és ukrán humanitárius helyzeten javítson. A háború sújtotta kelet-ukrajnai területek viszontagságai hamar továbbgyűrűztek az ország nyugati részeibe is, ahol az ukrán, ruszin, orosz kisebbség mellett jelentős magyar kisebbség él. A családok mindennapi megélhetése nemcsak az általánosan alacsony bérek miatt forog veszélyben, hanem az egész országban tapasztalható infláció miatt is.</seg>
+<seg xml:id="AC7_12888.2">A tavalyi páratlan, hazai és más, határon túli magyarlakta területekről érkező összefogás valamelyest enyhíteni tudta a lakosság nélkülözését, és a segélyszállítmányok küldése azóta is rendszeres, de azt gondolom, hogy most a tél közeledtével kiemelkedően szükség van a keleti határainkon túl élő magyar és más nemzetiségű embertársaink megsegítésére.</seg>
+<seg xml:id="AC7_12888.3">A múlt héten 56 tonnányi, 5 kamionnyi segélyszállítmány indult útjára, melynek összeállításában a Karitatív Tanács tagjai, így a Katolikus Karitász, a Magyar Máltai Szeretetszolgálat, a Református Szeretetszolgálat, a Baptista Szeretetszolgálat vettek részt, de számos egyéb karitatív és civil szervezet, helyi közösség is közreműködött a segélyek összegyűjtésében.</seg>
+<seg xml:id="AC7_12888.4">Tisztelt Államtitkár Úr! Mindezek alapján kérdezem: milyen összefogás valósult meg Ukrajnában a Kárpátaljára eljuttatott segélyszállítmányok sikere érdekében, és milyen egyéb segítséget nyújt a kormányzat az érintett térségben élő rászorulóknak? Várom az államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-14-urgent_question-AC7_12890" who="#TamásHarangozó" ana="#regular"><note>DR. HARANGOZÓ TAMÁS (MSZP):</note>
+<seg xml:id="AC7_12890.1">Köszönöm a szót, elnök úr. Miniszterelnök úr, akármit is mond vagy gondol ön, Rogán Antal neve mára egyet jelent az urizálással, a folyamatos botrányokkal, korrupciógyanús ügyekkel, a hazudozással.</seg>
+<seg xml:id="AC7_12890.2">Elsőként érkezett a vagyonnyilatkozati botránya, majd a Luis Vuitton táska, aztán a belvárosi ingatlanpanama, aztán a Pasa parki lakóparki barátja, aki milliárdos megbízásokat kap a minisztériumától, majd kiderült, hogy feltalálóként is igen tehetséges ember; aztán vádolta őt Magyarország két legnagyobb alvilági figurája, nem is akármivel: Portik azzal, hogy 10 millió forintot szatyorban kellett vinni euróban, Vizoviczki jobbkeze pedig azzal, hogy 4 milliót alkalmanként. Most pedig a belvárosi triumvirátusról jelent meg egy komolyabb összefoglaló cikk - amint azt már idézték is - az Indexen grúz erőművekről, ingatlanmutyikról, amellyel kapcsolatban egy biztosan állítható, hogy már hazugságba keveredett a miniszter.</seg>
+<seg xml:id="AC7_12890.3">De politikailag szerintem önnek is és az ön pártjának is a legkínosabb és legvállalhatatlanabb akciója a miniszternek az volt, amin már képviselőtársai és párttársai is háborogtak, ez pedig a helikopteres ügy volt. A nemzet jövőjét évtizedekre meghatározó népszavazás napján sikerült a miniszter úrnak luxusautóval és helikopterrel egy vidéki celebesküvőről jönnie-mennie az országban, miközben párttársai pedig a szent ügyért harcoltak kinn a terepen. Aztán ez az ügy is elbukott.</seg>
+<seg xml:id="AC7_12890.4">Azt szeretném kérdezni én is miniszterelnök úrtól, hogy meddig védi még ezt a fiút. Minek kell még kiderülnie és minek kell még történnie, hogy elhatárolódjon Rogán Antaltól, és hogy leváltsa őt a miniszteri pozíciójáról? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-14-urgent_question-AC7_12891" who="#LajosKorózs" ana="#regular"><note>KORÓZS LAJOS (MSZP):</note>
+<seg xml:id="AC7_12891.1">Tisztelt Ház! Kedves Képviselőtársaim! Államtitkár Úr! A múlt héten két olyan dolog volt, ami borzolta a kedélyeket az idősek társadalmában. Az egyik: megjelent a Magyar Közlönyben az a kormányrendelet, amely a január 1-jei nyugdíjemelést kihirdeti, amit egyébként sejtettünk, hiszen a költségvetési törvény már ezt irányozta elő: 0,9 százalékkal fog emelkedni jövő januárban a nyugdíj mértéke. Ez gyakorlatilag azt jelenti, hogy átlagosan alig éri el az ezer forintot, hiszen ma az átlagnyugdíj mintegy 120 ezer forint. Csak azt szeretném megjegyezni, államtitkár úr, hogy a nyugdíjasok társadalmának közel kétharmada nem kapja meg az átlagnyugdíjat. Ez a 0,9 százalékos emelés a szülői nyugdíj esetében, a házastársi pótlék esetében vagy az árvaellátás esetében néhány száz forintot fog eredményezni. Azt gondolom, hogy az az egész technika elhibázott, amely kizárólag az inflációkövetést veszi alapul a nyugdíjak kiszámításánál.</seg>
+<seg xml:id="AC7_12891.2">A másik ilyen felháborító dolog volt a szolnoki polgármester elszólása vagy kiszólása azon a közgyűlési meghallgatáson, ahol idős asszonyokat, civilszervezeti vezetőket becsmérelt. Meg kell hogy jegyezzem, hogy ez - ugyan nem a nyugdíjemeléshez kapcsolódik - méltatlan a polgármesteri poszthoz, méltatlan egy közfunkcióhoz, és remélem, hogy mint az ottani Fidesz-frakció egyik oszlopos tagja felmentésre kerül a pozíciójából. Azt gondolom, hogy nem lehet becsmérelni idős embereket, nem lehet becsmérelni azokat az idős embereket, akik évtizedeken keresztül dolgoztak, járulékot és adót fizettek ebben az országban, és egy tisztességes nyugdíjemelést megszolgáltak évtizedeken keresztül.</seg>
+<seg xml:id="AC7_12891.3">Várom megtisztelő válaszát, ami arra kéne hogy irányuljon, hogy remélhetnek-e nagyobb nyugdíjemelést januárban, és megváltoztatják-e az emelés technikáját. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-14-urgent_question-AC7_12893" who="#AttilaPetneházy" ana="#regular"><note>PETNEHÁZY ATTILA (Fidesz):</note>
+<seg xml:id="AC7_12893.1">Köszönöm szépen a szót, elnök úr. Tisztelt Ház! Tisztelt Miniszter Úr! Hölgyeim és Uraim! 1920. június 4-én olyan döntés született, amely alapjaiban rengette meg a magyar nemzetet. Hiába telt el azóta több mint 90 év, a trianoni békeszerződés következményei azóta is éreztetik hatásukat. Tökéletes példa erre az erdélyi külhoni magyarok helyzete, akik számára mindennapos küzdelem megőrzése és emberfeletti munka</seg>
+<seg xml:id="AC7_12893.2">(Sic!)</seg>
+<seg xml:id="AC7_12893.3">Ma már bárkit és bármikor különösebb indoklás nélkül hurcolhat el a román korrupcióellenes ügyészség. Ahogy azt tette is Sepsiszentgyörgy és Csíkszereda polgármestereivel és alpolgármesterével, de a megaláztatásoknak itt még nincs vége, folytathatnánk a sort a székely szimbólumok használatáért kiszabott irreálisan nagy összegű bírságok megítélésével, a magyar nyelv használatát korlátozó törvénytervezetek elfogadásával, nem utolsósorban pedig a magyar magántulajdon államosításával. A DNA legutóbbi támadása pedig már a magyar gyerekek életének fontos színtere, a marosvásárhelyi római katolikus gimnázium ellen irányult. Eljárást indítottak az iskolaigazgató és a főtanfelügyelő ellen, akik az ügyészség véleménye szerint annak ellenére járultak hozzá a gimnázium működéséhez, hogy tudták, valójában a tanintézet nem kapta meg a működéshez szükséges engedélyeket. Mindezt annak fényében gondolják megalapozottnak, hogy az iskolák létrehozásáról döntő önkormányzat és tanfelügyelőség annak idején pozitívan bírálta el a kérést. Az ehhez hasonló intézkedések napról napra elszívják a külhoni magyarok életerejét és az élhető jövőbe vetett reményüket.</seg>
+<seg xml:id="AC7_12893.4">Tisztelt Miniszter Úr! Meddig tűrhetjük még a külhoni magyar közösségek elleni nyílt támadásokat? Mit tehetünk védelmük érdekében? Köszönöm szépen a szót</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-14-urgent_question-AC7_12894" who="#IldikóBene" ana="#regular"><note>DR. BENE ILDIKÓ (Fidesz):</note>
+<seg xml:id="AC7_12894.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! Az egészség az egyik legnagyobb értékünk, ezért minden segítséget meg kell adnunk ahhoz, hogy ezt megőrizzük. A kormány 2015 januárjában elfogadta az egészségpolitika legfontosabb irányait meghatározó Egészséges Magyarország 2014-2020 egészségügyi ágazati stratégiát. Ezen stratégia legfontosabb fejlesztési területei között van a népegészségügy.</seg>
+<seg xml:id="AC7_12894.2">Hazánkban, annak ellenére, hogy biztosított a 25-65 év közötti hölgyek rendszeresen szervezett méhnyakszűrése, évente mintegy 1000-1200 új méhnyakrákos megbetegedést regisztrálnak, és több mint 400-an halnak meg a betegség következtében. Ez rendkívül szomorú adat, mert a méhnyakrák megelőzhető, sőt, korai stádiumban szűrővizsgálattal nemcsak a rák, hanem a rákot megelőző állapot is könnyen kimutatható.</seg>
+<seg xml:id="AC7_12894.3">Epidemiológiai vizsgálatok pedig kimutatták, hogy a méhnyakrákos esetek 90 százalékában kimutatható a humán papillomavírussal való fertőzöttség. A rosszabb prognózisú méhnyakrák előfordulása azoknál a nőknél gyakori, akik ritkán vagy soha nem vesznek részt szűrővizsgálatokon, körülbelül háromszor nagyobb az esély a méhnyakrákbetegség kialakulására.</seg>
+<seg xml:id="AC7_12894.4">Hazánkban évente vastagbél- és végbélrák következtében több mint ötezren veszítik életüket, és tízezer új esetet diagnosztizálnak. Kiemelt fontosságúak tehát a szűréseket népszerűsítő programok. Rendkívüli jelentőségű, hogy növekedjen a szűrővizsgálatokon a részvételi arány, fontos, hogy a szűréseken való részvétel egészségkultúránk részévé váljon.</seg>
+<seg xml:id="AC7_12894.5">Tisztelt Államtitkár Úr! Évente több mint 30 ezren halnak meg valamilyen daganatos betegségben Magyarországon, és minden negyedik ember halálát rákos megbetegedés okozza. Az egészségügyi ellátórendszer megelőzés szemléletű fejlesztésén, a prevenciós szolgáltatások körének kiszélesítésén túl elengedhetetlen az egyén aktív részvétele egészségének megőrzése, a betegségek megelőzése terén, ennek fontosságára mindig érdemes és fel is kell hívni a figyelmet.</seg>
+<seg xml:id="AC7_12894.6">Kérdezem államtitkár urat, mit tesz a kormány a népegészségügyi szűrések terén, és milyen további tervek, programok vannak a szűrési aktivitás növelése tekintetében. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a Fidesz soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2017-05-08" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2017-05-08 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2017-05-08 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="3008" unit="words">3008 szó</measure>
+        <measure xml:lang="en" quantity="3008" unit="words">3008 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2017-05-08">2017. 05. 08.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="52"/>
+          <tagUsage gi="kinesic" occurs="10"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2017-05-08">2017-05-08</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2017-05-08-urgent_question-AC7_15104" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_15104.1">Köszönöm a szót, elnök úr. Tisztelt Miniszterelnök Úr! Önök azt ígérték, hogy egyetlenegy embert sem hagynak az útszélen. Járjuk az országot, találkozunk emberekkel, és azt látjuk, hogy nagyon sokan vannak ott; nagyon sokan vannak az útszélen, akiknek önök nem adják meg a tisztes megélhetés lehetőségét.</seg>
+<seg xml:id="AC7_15104.2">Az egyik múlt heti vidéki fórumon odajött hozzám egy 61 éves ember, és azt kérdezte tőlem: „Mondja, képviselő asszony, hogyan lehet ebből a 22 800 forintból megélni, amit kapok?” És mutatta azt a kis szelvényt, amin ez az összeg szerepelt. „Néhány éve elveszítettem a munkámat, nem kapok munkát, nem tudok hol dolgozni, nem tudok mit tenni. Múlt évig az édesapám tartott el, aki nyugdíjas. Az édesapám meghalt, és most gyakorlatilag nincs miből élnem.” Azt kérdezte tovább ez az ember: „Mondja meg, hogy miért szüntette meg a Fidesz, miért szüntette meg a kormány a korkedvezményes nyugdíjba vonulás lehetőségét?” Miért? - én is ezt kérdezem, és nagyon sokan kérdezik. Megígérték, hogy lesz helyette más, nem történt semmi, csak ígéret maradt.</seg>
+<seg xml:id="AC7_15104.3">S ott van a minimális öregségi nyugdíj, 28 500 forint. Tíz éve nem változott. Jövőre - törvényjavaslatot nyújtottam be, hogy a 28 500 forint 50 ezer forintra emeljék fel. Mit válaszoltak a kormánytöbbség képviselői a Népjóléti bizottságban? Azt válaszolták, hogy túl sok törvényben kell átvezetni, ezért nem lehetséges. Ebből mi következik? Hogy az öregségi nyugdíj soha nem fog változni, mert mindig sok törvényben kell átvezetni. Én azt a büntetést szabnám ki azoknak, akik így gondolkodnak, hogy legalább fél éven keresztül ebből a 28 500 forintból éljenek meg. Rögtön másképpen gondolkodnának!</seg>
+<seg xml:id="AC7_15104.4">S miniszterelnök úr, nem tudok elmenni szó nélkül amellett sem, hogy a kormány csak év végén akarja odaadni a nyugdíjasoknak az infláció miatti nyugdíjemelést, ami most járna</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_15104.5">Azt kérdezem, miniszterelnök úr, hogy miért nem tudnak a több évtizeden keresztül tisztes munkát végző embereknek normális megélhetési lehetőséget biztosítani</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-05-08-urgent_question-AC7_15105" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_15105.1">Köszönöm a szót, elnök úr. Tisztelt Miniszterelnök Úr! 2010 előtt a Fidesz 13 ügyben ígért elszámoltatást a Gyurcsány-Bajnai-kormány viselt dolgai miatt, e 13 ügy közül kettő Kocsis Istvánhoz kapcsolódik.</seg>
+<seg xml:id="AC7_15105.2">Utánanéztem, a Fidesz állítása szerint 80 millió forint jogtalan végkielégítést kapott az MVM-es korszakában, de a BKV-ban is megvolt a maga érdekes köre. Pont önök hoztak létre egy vizsgálóbizottságot annak érdekében, hogy felmérjék, hogy ott milyen károkat okozott ez az úriember. Jelenleg is eljárás alatt áll, a vád szerint az MVM elnök-vezérigazgatójaként tízmilliárdok tűntek el kamuszerződések révén az intézményből.</seg>
+<seg xml:id="AC7_15105.3">Azt gondoltuk volna páran ebben az országban, hogy lefőtt a kávé Kocsis Istvánnak, e helyett a kávé helyett ő pezsgőt kapott pont akkor, amikor az ön Paks-miniszterét, Süli János urat avatták és üzembe helyezték itt a Magyar Országgyűlésben, itt, a páholyban ült Kocsis István.</seg>
+<seg xml:id="AC7_15105.4">Tisztelt Miniszterelnök Úr! Ezek után kérdezem öntől, hogy egészen konkrétan milyen eredményt tudnak felmutatni Kocsis István elszámoltatásával kapcsolatban. Tizenhárom ígéretük volt, abból kettő ehhez az úrhoz kapcsolódott. Akkor hol tart a Fidesz elszámoltatása?</seg>
+<seg xml:id="AC7_15105.5">És akkor beszéljünk őszintén a dolgokról! Fog-e Kocsis István bármilyen kormányzati megbízást kapni, milyen megfontolásból ültették be a páholyba? Ha ön volt olyan bátor, és megmondta nekem az azonnali kérdésemre, hogy kinevezi a Paks-minisztert, mondja meg azt is nekem, hogy akkor Kocsis Istvánnal kapcsolatban milyen pozíciókat tervez létrehozni, milyen megbízásokat fog kapni ez az eredendően szocialistákhoz kötődő úgymond üzletember, szakember. A Fidesznél milyen jó szolgálatot fog tenni?</seg>
+<seg xml:id="AC7_15105.6">Azt is akarom tudni, tisztelt miniszterelnök úr - és szeretném, ha nagyon világos választ adna -, hogy járt-e önökkel Moszkvában Kocsis István bármilyen kormányzati ügy kapcsán 2010 óta. Kocsis István akár Pakssal kapcsolatban, akár más kérdésben utazott-e Moszkvába a Fidesz támogatására, a Fidesz segítségével? Köszönöm.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-05-08-urgent_question-AC7_15114" who="#NándorGúr" ana="#regular"><note>GÚR NÁNDOR (MSZP):</note>
+<seg xml:id="AC7_15114.1">Elnök úr, megjött a hang. Elnök Úr! Tisztelt Képviselőtársaim! Meggyőződésem szerint példátlan és gyalázatos az, amit a nemzeti konzultáció keretei között műveltek. Tudják, orosz szerverekre magyar emberek személyes adatai továbbíthatóak voltak. Személyes adatokkal való visszaélés, valamint netán a kémkedés bűntette gyanúja is felmerülhet e tekintetben.</seg>
+<seg xml:id="AC7_15114.2">Normális keretek között egy ilyen helyzetben a miniszterelnök lemond; nem sokat gondolkodik, lemond</seg>
+<seg xml:id="AC7_15114.3">(Moraj a kormányzó pártok padsoraiból.)</seg>
+<seg xml:id="AC7_15114.4">Tudom, ez Magyarország, itt a Fidesz nem így gondolkodik, itt a kormány nem így gondolkodik, csak a hatalom meg a pénz az, ami számít. Mondhatnánk erre példákat Pakstól az olimpián keresztül a letelepedési kötvényig, sok minden másra hivatkozva, de nem ezzel foglalkoznék, hanem magával a yandex.ru, az orosz kód kérdéskörével</seg>
+<seg xml:id="AC7_15114.5">A nemzeti konzultáció keretei között önök garanciát adtak arra, hogy harmadik félhez semmilyen személyes adat nem kerül ki. Ezzel szemben látjuk, hogy mi történt. Ennyit ér az önök szava. Az információk orosz kézre adásával megvalósulhat a személyes adatok jogtalan felhasználása, valamint adott esetben a választások manipulálásának előkészítése. Kinek a kedvére, kinek a hasznára történik mindez, kinek az ügyeit eltussolandó? És sok minden másfajta kérdés feltehető.</seg>
+<seg xml:id="AC7_15114.6">A magyarok, a magyar emberek adatai hogyan kerülhetnek ki beazonosítható formában külföldre? Ezek szenzitív, érzékeny adatok. Miért egy szövetségi rendszeren kívüli cég együttműködését, szolgáltatásait vették igénybe? 2011-ben maga ez a cég mondta, hogy titkosszolgálatokkal kapcsolatban is adatokat adott át.</seg>
+<seg xml:id="AC7_15114.7">Ki engedélyezte ennek a kódnak a használatát? Miniszterelnök úr, ön vagy épp valamelyik államtitkára, minisztere? Bárki is tette, ez abszolút helytelen, ez nem helyénvaló. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-05-08-urgent_question-AC7_15415" who="#GáborVona" ana="#regular"><note>VONA GÁBOR (Jobbik):</note>
+<seg xml:id="AC7_15415.1">Tisztelt Miniszterelnök Úr! Kezdjük először is a számokkal! Az önök kormányzásának elmúlt három évében közel 100 ezer magyar ember hagyta el az országot a KSH adatai szerint, miközben 105-en tértek vissza a programjuknak köszönhetően</seg>
+<seg xml:id="AC7_15415.2">(Dr. Rétvári Bence: Beismerő vallomás…)</seg>
+<seg xml:id="AC7_15415.3">A másik adat pedig: az elmúlt hat évükben, a kormányzásuk elmúlt hat évében 78 ezer magyar gyermek már külföldön született, elvándorolt magyar családokban. Miniszterelnök úr, ez már régen nem kalandvágy. Lehet, hogy az ön fiatalkorában Soros-ösztöndíjjal lehetett Nyugaton kalandozni, de ezek az emberek elmenekülnek ebből az országból, mert itt se bérük, se megélhetésük, se jövőjük. Ehelyett, ami itt vár rájuk, az eladósodás, illetve egy cinikus, korrupt kormány, amelyiket nem érdekli ezeknek az embereknek a problémája.</seg>
+<seg xml:id="AC7_15415.4">Miniszterelnök úr, önt nem érdekli ez a probléma, önt csak a pénz és a foci érdekl</seg>
+<seg xml:id="AC7_15415.5">(Derültség a Jobbik padsoraiból.)</seg>
+<seg xml:id="AC7_15415.6">, mert ha érdekelné ezeknek az embereknek a problémája, akkor látná azokat a családi tragédiákat, amik e mögött a folyamat mögött meghúzódnak, hogy szülők nem látják a gyermekeiket, nagyszülők nem látják az unokáikat.</seg>
+<seg xml:id="AC7_15415.7">(11.40)</seg>
+<seg xml:id="AC7_15415.8">Ha önt érdekelné ez a probléma, akkor látná azt, hogy ezeknek az embereknek az egész élete tönkre van téve. Önnek nem fontos ez a kérdés, ön azt üzeni ezeknek az embereknek, hogy nem vagytok fontosak, nem számítok rátok, nem vagytok ennek az országnak számottevő tartalékai.</seg>
+<seg xml:id="AC7_15415.9">Ha érdekelné önt ez a probléma, akkor már régen lehetővé tette volna és támogatta volna a Jobbik javaslatát, hogy akár levélben, akár elektronikusan adjunk lehetőséget arra, hogy ezek az emberek szavazzanak. De ön nem ezt üzente. Ön nem ezt üzente, miniszterelnök úr, pedig elektronikusan, mondom még egyszer, elektronikusan - XXI. század, jó reggelt! - már régen meg lehetett volna adni ezt a lehetőséget a számukra. Gyurcsány Ferenc annak idején azt üzente, miniszterelnök úr, hogy el lehet innen menni; ön meg azt üzeni nekik, hogy vissza se gyertek. Emlékszik még arra, hogy az Európai Unióval kapcsolatban azt mondta, az Unión kívül is van élet?</seg>
+<seg xml:id="AC7_15415.10">Amit most ön csinál, miniszterelnök úr, a mostani politikájával azt üzeni ezeknek az embereknek, hogy csak Magyarországon kívül van számotokra élet. Ezért meg szeretném kérdezni öntől, miniszterelnök úr: mikor hajlandó végre támogatni ezeknek az embereknek a gyakorlati szavazati lehetőségét akár levélben, akár elektronikusan? Mikor hajlandó végre kijönni a kastélyok félhomályából, és mikor hajlandó végre belátni, hogy a magyar emberek élete a stadionokon kívül is van, vagy mondhatnám úgy is, a stadionokon kívül is van élet? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-05-08-urgent_question-AC7_15416" who="#MártonGyöngyösi" ana="#regular"><note>GYÖNGYÖSI MÁRTON (Jobbik):</note>
+<seg xml:id="AC7_15416.1">Miniszterelnök Úr! Kezdjük a számokkal! 1990-ben, a rendszerváltás idején Magyarországon az átlagjövedelem 14 százalékkal volt magasabb, mint a létminimum; 2004-ben, az uniós csatlakozásunk idején, 28 százalékkal. Ma csupán 9 százalékkal haladja meg az átlagjövedelem a létminimum szintjét, vagyis 2004-hez képest harmadára csökkent a létminimum felett maradt kereset mértéke. Magyarországon az átlagkereset 20 százalékkal kevesebb, mint Szlovákiában, 28 százalékkal kevesebb, mint Csehországban, 72 százalékkal alacsonyabb, mint Ausztriában.</seg>
+<seg xml:id="AC7_15416.2">A Mercedes, az önök stratégiai partnere globálisan 2015-ben 83,8 milliárd eurót termelt bevételként, amiből 12,7 milliárd eurót fordított bérköltségre, vagyis a bevétel 15 százalékát. Ugyanez a cég Magyarországon a megtermelt 3,4 milliárd eurós bevételből alig több mint 70 millió eurót fordított bérköltségekre, vagyis a bevétel alig 2 százalékát. És ez sajnos a többi multi esetében sem több.</seg>
+<seg xml:id="AC7_15416.3">Miniszterelnök Úr! Harmadik alkalommal fordulok önhöz béruniós kezdeményezésünk ügyében, de úgy tűnik, ön még mindig nem érti ennek a kezdeményezésnek a lényegét. Most az önök által felügyelt KSH statisztikai adataival és az Eurostat adataival szeretném, próbálom újra fölhívni a figyelmét erre a kezdeményezésre. Önök kozmetikázott statisztikával és propagandával próbálják meg elhitetni az emberekkel, hogy az a valóság, amit ők észlelnek, már látnak a saját szemükkel, más. Önök teljesen hülyének nézik az embereket, és azt próbálják meg elhitetni, hogy az európai uniós csatlakozás óta nőttek a bérek és nőtt az életszínvonal, holott ez nem igaz. A multik, akikre önök a gazdaságpolitikájukat alapozzák, nem akarnak bérekre pénzt költeni.</seg>
+<seg xml:id="AC7_15416.4">Miniszterelnök Úr! Azt kérdezem öntől, hogy több pótcselekvés és álügyekben folytatott szabadságharcok helyett egy valódi sorskérdésben is végre hajlandóak-e Brüsszellel szembeszállni. Köszönöm a figyelmet</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-05-08-urgent_question-AC7_15498" who="#LászlóFöldi" ana="#regular"><note>FÖLDI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC7_15498.1">Köszönöm a szót, elnök úr. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Amikor 2010-ben a Fidesz és a KDNP átvette a kormányzást, 12 százalék körül volt a munkanélküliségi ráta. A kormány kezdeményezéseinek és a megindult gazdasági növekedésnek köszönhetően elértük, hogy mára a regisztrált álláskeresők aránya 4,5 százalék alá mérséklődött, a foglalkoztatottság pedig meghaladja a 68 százalékot.</seg>
+<seg xml:id="AC7_15498.2">A korábbi években a versenyszféra nem tudott kellő számú munkahelyet teremteni, ezért volt indokolt a közfoglalkoztatás növelése. Ebben az átmeneti rendszerben elsősorban azok juthatnak munkajövedelemhez, akik foglalkoztatáshelyettesítő támogatásban részesültek, hosszabb ideje nem volt lehetőségük munkaviszony létesítésére munkalehetőség hiányában, esetleg iskolai végzettségük miatt vagy azért, mert már kiestek a munkagyakorlatból. Leginkább a hátrányos helyzetű településeken élőknek vagy az alacsony iskolai végzettségűeknek, a szakképzettség nélküli álláskeresőknek nyújtott és nyújt ma is lehetőséget a közfoglalkoztatás rendszere. Ők azok, akik a települések szociális hálózatában, nevelési, kulturális intézményeiben kaptak lehetőséget. A rendszer fő célja, hogy az állam segély helyett munkával adjon megélhetést a rászorulóknak, majd pedig visszavezesse őket a munka világába.</seg>
+<seg xml:id="AC7_15498.3">A kormány ezzel párhuzamosan további munkaerőpiaci lépéseket tett: csökkentek a munkát terhelő adók, a munkahelyvédelmi akciótervnek és az aktivitást ösztönző intézkedéseknek, a munkahelyteremtő programoknak köszönhetően folyamatosan javult és javul ma is a foglalkoztatottság.</seg>
+<seg xml:id="AC7_15498.4">Tisztelt Államtitkár Úr! A versenyszféra munkaerőigénye miatt ma már kevesebb mint 210 ezren kapnak munkát a közfoglalkoztatásban. A kormány tervei szerint ez 2020-ra 150 ezer főre csökkenhet. Kérdezem az államtitkár urat: milyen eszközökkel támogatja a kormány a közfoglalkoztatottak visszavezetését a munkavállalói világba, a versenyszféra munkaerőigénye miatt változik-e a közfoglalkoztatás rendszere?</seg>
+<seg xml:id="AC7_15498.5">Várom az államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-05-08-urgent_question-AC7_15499" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC7_15499.1">Köszönöm, elnök úr. Tisztelt Miniszterelnök Úr! A száz leggazdagabb magyar összvagyona idén megközelítette a 3380 milliárd forintot, ez csaknem 600 milliárd forinttal haladja meg az egy évvel korábbit. A 21 százalékos gyarapodás jócskán felülmúlta a 2016-ban a KSH által mért 0,4 százalékos fogyasztói árindexet, azaz reálértéken csaknem 21 százalékkal nőtt a magyar gazdagok vagyona, míg az átlag magyar családoknak 10 millió forint alatti a vagyonuk, ami csak a lakást jelenti egyetlen vagyontárgyként.</seg>
+<seg xml:id="AC7_15499.2">Tehát az elmúlt években a gazdagok pofátlanul gazdagodtak, míg a magyarok milliói napról napra élnek. A listát megnézve, a vagyonok alakulását erőteljesen befolyásolja a politikai kapcsolat, és egyre jobban. Mesébe illő jó néhány, a Fideszhez szorosan köthető újgazdag ficsúr gyarapodása. Jól fut a szekér a TV2 tulajdonosának, a kaszinóbizniszben is utazó Andy Vajnának, igaz, ön azt mondta, hogy Magyarország szemben áll a kaszinókapitalizmussal, amikor valaki úgy gazdagodik meg, hogy másokat tönkretesz.</seg>
+<seg xml:id="AC7_15499.3">De senki nem tudja überelni, még a mesében sem, Mészáros Lőrinc felcsúti polgármestert. A miniszterelnök jó barátja, aki nagyon okos, nagyon sokat dolgozik, még a miniszterelnök helyett is, gyűjti neki a közpénzt, ami átalakul magánvagyonná. Vagyona egyetlen év alatt 20 milliárdról 120 milliárd forintra nőtt. Ezzel a lista 31. helyéről az 5. helyre ugrott előre. El tudja képzelni, miniszterelnök úr, hogy akkor is ilyen sikeres lenne Mészáros Lőrinc, ha nem a miniszterelnök barátja lenne? Mészáros azt mondta, hogy sikerében bizonyára szerepet játszik a Jóisten, a szerencse és Orbán Viktor személye.</seg>
+<seg xml:id="AC7_15499.4">Miniszterelnök Úr! Ez törvényes, vagy csak szimplán bűncselekmény? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-05-08-urgent_question-AC7_15515" who="#GyörgyBalla" ana="#regular"><note>BALLA GYÖRGY (Fidesz):</note>
+<seg xml:id="AC7_15515.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Képviselőtársaim! Ózd jobbikos polgármestere a hivatalában meztelenre vetkőzött, lefotózta magát, és megosztotta ezt a remek látványt az ország közvéleményével</seg>
+<kinesic type="noise"><desc>Zaj a Jobbik soraiban.</desc></kinesic>
+<seg xml:id="AC7_15515.2">Állítólag mindezt azért tette, mert egy jobbikos belharc következtében őt lehallgatják. Én nem tudom, nem értem, hogy miért egy meztelen fotóval akar Vona Gábornak üzenni, nem is értem, elég röhejes a dolo</seg>
+<seg xml:id="AC7_15515.3">(Derültség a kormánypárti oldalon.)</seg>
+<seg xml:id="AC7_15515.4">, de mindenesetre a párt elnöke belső vizsgálatot rendelt el.</seg>
+<seg xml:id="AC7_15515.5">De ez mind teljesen lényegtelen. A lényeg az, hogy mi van a hangfelvételen. Ez a hangfelvétel ugyanis kikerült, először az Indexhez, Simicska Lajos lapjához, aki miután meghallgatta a két és fél órás hangfelvételt, azt mondta, hogy ez a beszélgetés teljesen érdektelen. Csak sajnos eljutott máshova is, már a Jobbik szempontjából sajnos, mert kiderült, hogy ezen a beszélgetésen brutálisan cigányoznak, újságíró megvesztegetésére tesznek kísérletet, és egy igen erősen korrupciógyanús ügyet tárgyalnak végig. Tehát Simicska Lajos lapja szerint, ha a Jobbik cigányozik, újságírókat akar megvesztegetni vagy egy korrupciógyanús ügyet tárgyal tételesen, akkor az érdektelen.</seg>
+<seg xml:id="AC7_15515.6">Ebben az ügyben is, tisztelt képviselőtársaim, két cég adott be ajánlatot, az egyik több mint 10 százalékkal olcsóbban, mint a másik. A jobbikos polgármester erre azt tudta mondani, az életveszélyes lenne, ha az olcsóbb ajánlatot tevő nyerne. A jegyző azt mondta, hogy nyugodjon meg, mert ráállította az embereit az olcsóbb ajánlatot tevő cégre, hogy találjanak valamit a múltjában, ami miatt ki tudják zárni a pályázatból, és ezt követően a pályázatot a lényegesen drágább ajánlatot tevő cég nyerte el</seg>
+<seg xml:id="AC7_15515.7">A Jobbik antikorrupciós csomagjáról tehát kiderült, hogy az egy korrupciós csomag. Arra vagyok kíváncsi, hogy lesz-e következménye a Jobbik korrupciós ügyeinek</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-05-08-urgent_question-AC7_15516" who="#AttilaTilki" ana="#regular"><note>DR. TILKI ATTILA (Fidesz):</note>
+<seg xml:id="AC7_15516.1">Köszönöm. Tisztelt Ház! Tisztelt Államtitkár Úr! Sajtóértesülések szerint a szocialista vezetésű szegedi önkormányzat 2008-2012 között összesen több mint háromszáz, ingyenes parkolásra feljogosító bérletet osztott ki. Az ügyben készült vádirat szerint az ingyenes parkolást élvező személyek köréről Botka László szocialista polgármester által irányított vezetői értekezleten dönthettek.</seg>
+<seg xml:id="AC7_15516.2">2008-2012 között több mint háromszáz darab kombinált bérletet adtak ki ingyenesen, jogszabályi háttér és felhatalmazás nélkül. A városuknak, Szegednek mintegy 40 millió forintnyi vagyoni hátrányt okoztak ezzel. Mindez felveti a bűncselekmény gyanúját. Ingyen parkolhatott a városban Ujhelyi István szocialista EP-képviselő, a listán szerepel Botka László kabinetfőnöke és több más szocialista képviselő is. De tudomásom szerint olyan is van a listán, akinek jogosítványa sem volt.</seg>
+<seg xml:id="AC7_15516.3">A Szegedi Járási és Nyomozó Ügyészség nemrég emelt vádat hat személlyel szemben, akik a 2008-2012 között ingyenesen, jogellenesen juttatott parkolóbérletekkel okoztak vagyoni hátrányt Szeged Megyei Jogú Városnak, illetve a város tulajdonában álló parkolócégnek. A hűtlen kezelés miatt indult eljárásban mások mellett Solymos László MSZP-s alpolgármester, Mózes Ervin címzetes főjegyző és Kalmár Gábor, Botka László kabinetfőnöke ül a vádlottak padján.</seg>
+<seg xml:id="AC7_15516.4">Tisztelt Államtitkár Úr! Ön szerint elképzelhető-e, hogy Botka László nem tudott ezekről az akciókról, és hogy nem az ő utasítására adták ki az ingyen bérleteket</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

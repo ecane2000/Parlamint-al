@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2015-12-07" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2015-12-07 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2015-12-07 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2909" unit="words">2909 szó</measure>
+        <measure xml:lang="en" quantity="2909" unit="words">2909 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2015-12-07">2015. 12. 07.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="44"/>
+          <tagUsage gi="kinesic" occurs="12"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2015-12-07">2015-12-07</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2015-12-07-urgent_question-AC7_7498" who="#JánosVolner" ana="#regular"><note>VOLNER JÁNOS (Jobbik):</note>
+<seg xml:id="AC7_7498.1">Köszönöm szépen, elnök úr. Miniszterelnök Úr! Jobban örültünk volna, hogyha a Jobbik több képviselője, aki önnek címezte a kérdését, meg tudta volna a miniszterelnök urat szólítani, de örülök, hogy legalább nekem sikerült ez.</seg>
+<seg xml:id="AC7_7498.2">Miniszterelnök Úr! Fideszes barátaink, ismerőseink nekünk is vannak, többen közülük egyébként azóta már Jobbik-szavazók lettek</seg>
+<seg xml:id="AC7_7498.3">(Derültség a Jobbik padsoraiból. - Dr. Rétvári Bence: Hármat mondjál!)</seg>
+<seg xml:id="AC7_7498.4">De mégiscsak látni lehet egy olyan tendenciát, hogy azok az emberek, akik egyébként önt nagyon kedvelik, önt nagyon respektálják, őszintén tisztelik, elmondják azt, hogy igen, ők is olvassák rendszeresen azokat a médiát megjárt híreket, amikben az szerepel, hogy különböző fideszes politikusok, fideszes politikusok barátai, családtagjai vagy éppen gazdasági érdekeltségei folyamatosan valahogy abból gazdagodnak meg és abból válnak többszörös milliárdossá, hogy az állammal vagy az önkormányzatokkal rendkívül jó, rendkívül jövedelmező szerződéseket tudnak kötni. Amikor ezeket az embereket szembesítjük azzal, hogy kormányzati szinten zajlanak ezek a folyamatok, akkor rendszeresen azt mondják, hogy de nyilván a miniszterelnök úr ezekről a dolgokról nem tud, mert mindenhol van olyan, hogy a politikusok visszaélnek a hatalmukkal, a saját maguk vagy a barátaik zsebét tömik, de a miniszterelnök úr erről nem tud. Akkor, amikor a miniszterelnök urat itt nemrég Vona Gábor megkérdezte az Országgyűlésben, hogy azok az emberek, akik az ön közvetlen környezetében dolgoznak, és hasonló módon jutnak hozzá rendkívül nagy összeghez, milliárdosok - Garancsi Tibo</seg>
+<seg xml:id="AC7_7498.5">(sic!)</seg>
+<seg xml:id="AC7_7498.6">, Mészáros Lőrinc, Andy Vajn</seg>
+<seg xml:id="AC7_7498.7">(Derültség a kormányzó pártok padsoraiból.)</seg>
+<seg xml:id="AC7_7498.8">, és még folytathatnánk -, olyan emberek, akikkel ön rendszeresen találkozik, rendszeresen jó kapcsolatot ápol, vajon tűzbe tenné-e értük a kezét?</seg>
+<seg xml:id="AC7_7498.9">Illetve a miniszterelnök urat kérdezem most itt, a nyilvánosság előtt, hogy vajon ez, hogy folyamatosan az ön közvetlen környezetéből kerülnek ki ezek az emberek, a véletlen műve, vagy pedig van benne valami segítség is. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-12-07-urgent_question-AC7_7791" who="#R.BenedekSallai" ana="#regular"><note>SALLAI R. BENEDEK (LMP):</note>
+<seg xml:id="AC7_7791.1">Köszönöm a szót, elnök úr. Balla igazgató úr kérésének megfelelően igyekszem úgy beszélni, hogy ő is megértse. Ennek megfelelően a miniszterelnök urat tisztelettel kérdezném azzal kapcsolatban, hogy talán értesült róla, hogy többünknek vannak komoly aggályai a magyar termőföld értékesítésével kapcsolatban. Kíváncsi lennék néhány állítással kapcsolatos véleményére. Mondom az állításokat.</seg>
+<seg xml:id="AC7_7791.2">1. „Mondjuk el a kisgazdáknak, hogy emlékezzenek vissza, hogy ’97-ben csak 200 ezer aláírás összegyűjtésével egy népszavazási kezdeményezéssel tudtuk megakadályozni, hogy az akkori MSZP-SZDSZ-kormány külföldiek kezére adja a magyar termőföldet. Ez a veszély ma újra ott kopogtat a gazdák ajtaján.”</seg>
+<seg xml:id="AC7_7791.3">2. „Jóformán nincs olyan, aki ne értene egyet azzal, hogy szükségünk van a nemzeti vagyon, azon belül a magyar termőföld és vízkészlet alkotmányos védelmére. A magyarok minden eddiginél hangosabban, határozottabban megüzenték, hogy Magyarország nem eladó.”</seg>
+<seg xml:id="AC7_7791.4">3. „A magyar állam tulajdonában lévő termőföldek gyarapításának kérdése nemzeti érdek, amelyet a vidék lakosságáért és a termőföld megvédéséért megvalósítunk a földforgalmi törvényben. Ezért ragaszkodnunk kell a földforgalmi törvény szabályozása ezen rendelkezéseihez, hiszen ez lesz az eszköz, hogy bővítsük az állami vagyont, amivel fejlődést és gyarapodást hozhatunk a magyar vidéknek.”</seg>
+<seg xml:id="AC7_7791.5">4. S végül az utolsó: „Szeretném önöket megnyugtatni, hogy a magyar föld jövője nem függ a Brüsszelben esedékes döntéstől, ez csak és kizárólag tőlünk függ, és elmondhatom önöknek, hogy önök biztosak lehetnek abban, hogy amíg a Fidesz kormányon lesz és abban az én munkám ott lesz, addig Magyarországon külföldiek, akármit is döntenek Brüsszelben, itt soha termőföldet nem fognak vásárolni.”</seg>
+<seg xml:id="AC7_7791.6">Ezzel a négy állítással kapcsolatban kérdezném tisztelettel, hogy mi a miniszterelnök úr véleménye, esetleg egyetért-e ezekkel az állításokkal, vagy nem tud egyetérteni ezekkel. Várom tisztelettel ez ügyben a válaszát. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-12-07-urgent_question-AC7_8110" who="#ImreVejkey" ana="#regular"><note>DR. VEJKEY IMRE (KDNP):</note>
+<seg xml:id="AC7_8110.1">Tisztelt Elnök Úr! Köszönöm a szót. Tisztelt Miniszter Úr! Az elmúlt időszakban igen sok szó esett az árubemutatóval egybekötött termékértékesítésekről. Jellemzően ezeken az árubemutatókon az idősebb korosztály, a nyugdíjasok vesznek részt. Sajnálatos módon számos vállalkozás kifejezetten az ilyen kiszolgáltatott vásárlói kör megtévesztésére, megkárosítására rendezkedett be. A Fogyasztóvédelmi Hatóság 2013-2014. évi vizsgálati eredményei egyaránt azt mutatják, hogy az esetek több mint 60 százalékában történt valamiféle jogsértés. A vizsgálat alá vont bemutatók több mint 50 százalékában történt valamilyen tisztességtelennek minősülő kereskedelmi gyakorlat.</seg>
+<seg xml:id="AC7_8110.2">Az Országgyűlés 2015. december 1-jén elfogadta a KDNP országgyűlési képviselői által benyújtott törvényjavaslatot, amely szigorú keretek közé szorítja az ilyen tevékenységeket végző cégek működését. A rendelkezések azt célozzák, hogy a terméket értékesítő cégek ne tudjanak eltűnni, a fogyasztók el tudják őket érni a vásárlást követően is, és a vevők a gyakorlatban is élni tudjanak elállási jogukkal. A jövőben tilos lesz az árubemutatóval egybekötött termékértékesítés során pénzügyi szolgáltatást nyújtani. A gyakorlat ugyanis azt mutatta, hogy a fogyasztók általában nem rendelkeztek megfelelő anyagi erővel a termékbemutatókon kínált fogyasztási cikkek megvásárlásához, ezért a szervezők fogyasztási hiteleket is közvetítettek részükre.</seg>
+<seg xml:id="AC7_8110.3">A fentiekkel összefüggésben kérdezem tisztelt miniszter urat: mit vár a kormány a KDNP országgyűlési képviselői által benyújtott és elfogadott törvény szigorú rendelkezéseinek gyakorlatban történő alkalmazásától? Továbbá a Fogyasztóvédelmi Hatóság tervez-e vizsgálatot kifejezetten az árubemutatóval egybekötött termékértékesítések ellenőrzésére? Várom miniszter úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-12-07-urgent_question-AC7_8111" who="#JózsefAttilaMóring" ana="#regular"><note>MÓRING JÓZSEF ATTILA (KDNP):</note>
+<seg xml:id="AC7_8111.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Magyarországon a nyugdíj és egyéb időskori járulékok mértéke mintegy 3 millió ember életét befolyásolja hónapról hónapra. Az idősek erkölcsi és anyagi megbecsülése össztársadalmi érdek, lehetőségeik bővítése pedig kötelességünk is. Magyarország Alaptörvénye szerint a magyar állam - nagyon helyesen - külön védelemben részesíti az időseket, az ő anyagi ellátásuk tehát kiemelten fontos kérdés kell hogy legyen itt a parlamentben is. Azt gondolom, a kormány a mindenkori infláció feletti nyugdíjnöveléssel mindannyiunk jogos elvárásának tesz eleget.</seg>
+<seg xml:id="AC7_8111.2">Emlékeztetőül: 2014-ben a fogyasztói árak átlagosan 0,2 százalékkal csökkentek az előző évhez viszonyítva, 2015. januárban pedig 1,8 százalékos nyugdíjemelés valósult meg. Eredményként élhettük meg, hogy az idei évtől már a politikai rehabilitációs célú ellátások is a mindenkori nyugdíjemelés mértékével megegyezően emelkednek. Ha pedig visszatekintünk a 2010-2014 közötti időszakra, azt láthatjuk, hogy a második Orbán-kormány nyugdíjpolitikája eredményeként összességében több mint 6 százalékkal nőtt a nyugdíjak vásárlóértéke. Ezen időszak alatt vezettük be a nők számára a negyven év jogosultsági idő alapján igényelhető öregségi nyugdíjat, ami elismeri és értékeli a nők többszöri terhelését, kiemelt társadalmi szerepvállalását. A negyven év jogosultsági idő alapján megállapított nyugdíjban részesülők száma a 2011-es bevezetés óta 2015. október végéig meghaladta a 151 ezer főt.</seg>
+<seg xml:id="AC7_8111.3">Tisztelt Államtitkár Úr! A magyar kormány intézkedéseinek köszönhetően a 2008-as válságot követő nehéz időszakban is sikerült Magyarországon stabil keretek között tartanunk a GDP-arányos nyugdíjellátások mértékét. Az elmúlt időszak gazdasági eredményei és a rendkívül kedvező inflációs adatok tükrében pedig tisztelettel kérdezem államtitkár urat, az időskorúak mekkora nyugdíjemeléssel számolhatnak a jövő év elején, és ez mennyiben fogja megőrizni a nyugdíjak vásárlóértékét.</seg>
+<seg xml:id="AC7_8111.4">Tisztelettel várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-12-07-urgent_question-AC7_8112" who="#SándorKovács" ana="#regular"><note>KOVÁCS SÁNDOR (Fidesz):</note>
+<seg xml:id="AC7_8112.1">Köszönöm szépen, Tisztelt Elnök Úr</seg>
+<kinesic type="noise"><desc>Zaj. - Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC7_8112.2">Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! Mint ismert, a Fővárosi Ítélőtábla november 4-én pontot tett egy rendszerváltás korabeli ügyre, ugyanis a szétlopott KISZ-vagyonról megállapították, hogy a Magyar Úttörők Szövetségének ajándékozott Csillebérc nem volt ajándékozás, mert nem volt, aki ajándékozzon, hiszen két hónappal a KISZ megszűnése után a Demisznek álcázott új forma, amit már akkor Gyurcsány Ferenc és Varju László neve is fémjelzett, próbálta ezt jogutódként megtenni. A bíróság jogerősen megállapította, hogy nem volt. De érdekesség ebben az ügyben, hogy 2004-ben fel is függesztette a bíróság a pert, és csak 2011-ben indította újra. Úgyhogy nagyon furcsa.</seg>
+<seg xml:id="AC7_8112.3">Mindezek alapján azt gondolom, kérdéses, hogy Rácz, mondjuk úgy, főúttörő hogyan adhatta el unokatestvérének azt a 95 milliós vadászházat - amiről abban az időben 95 milliós értékbecslése volt - 14 millió forintért 50 százalékban egy olyan kft.-nek, amiben 50 százalékban az unokatestvére volt tulajdonos, a másik 50 százalékban egy azóta meghalt kínai, akinek a részéről érdekes módon Varju Lászlóné, Varju László felesége volt megbízva az ügyletek kezelésével és a borítékok átvételével egy ilyen ügyben.</seg>
+<seg xml:id="AC7_8112.4">Érdekes még, hogy a KISZ - nem létezően - az akkori állami OTP-től még hitelt is vett fel, és ez sem lett visszafizetve. Államtitkár úr, ez évente 170-200 millió forint bevételt hozott annak a cégnek, akik jogtalanul használták ezt az úttörőtábort</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC7_8112.5">Kérem, válaszoljon arra a kérdésre, hogy mennyit, hány bőrt húztak l</seg>
+<kinesic type="signal"><desc>Az elnök ismét csenget.</desc></kinesic>
+<seg xml:id="AC7_8112.6">, hogyan fosztották ki ezt az értékes vagyont. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-12-07-urgent_question-AC7_8113" who="#LászlóPósán" ana="#regular"><note>DR. PÓSÁN LÁSZLÓ (Fidesz):</note>
+<seg xml:id="AC7_8113.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! Ahogyan a társadalom minden rétege, úgy a hazai felsőoktatás is elszenvedte a balliberális kormányzás alatt a jövedelmek drasztikus értékvesztését, amelynek következtében tovább nőtt az elmaradás az európai diplomás-bérszínvonalhoz képest. A közoktatásban dolgozók után, az egészségügyben dolgozók után, a rendvédelmi dolgozók vagy éppen a szociális ágazatban dolgozók után most a kormány és a parlament úgy döntött, hogy a felsőoktatásban is végrehajt egyfajta béremelést. A garantált bérek három lépcsőben történő 15+5+5 százalékos számottevő emeléséről van szó.</seg>
+<seg xml:id="AC7_8113.2">Az emelés mértéke természetesen nem puszta elhatározás kérdése, hanem annak a függvénye, hogy a magyar gazdaság milyen mértékben képes növekedni, mert abba a csapdába a polgári kormány nem szeretne beleesni, amibe egykoron a szocialisták belevezették az országot, hogy hitelből finanszíroztak olyan kiadásokat, amelyeknek a hazai gazdaság nem tudott fedezetet biztosítani. Az örvendetesen javuló gazdasági körülmények, valamint a kancellári rendszer bevezetésével hatékonyabbá váló felsőoktatási gazdálkodás az elkövetkezendő három évre számításaink szerint tehát ezt a bizonyos 15+5+5 százalékos emelést teszi lehetővé.</seg>
+<seg xml:id="AC7_8113.3">A hosszú éveken át változatlan bérek miatt elkeseredett oktatók egy része azonban most mégsem üdvözli a béremelés tényét, hanem aláírást gyűjt, kevesli az emelés mértékét és igazságtalanságról beszél. Nehéz megmondani, hogy miért épp most jutottak egyes oktatók erre a gondolatra s miért nem a béreknek a szocialisták ideje alatt tapasztalható stagnálása idején; miért nem az egyetemek és főiskolák eladósodása idején, a PPP-konstrukciókban történő fejlesztésekre történő szerződések idején; miért nem akkor, amikor nyilvánosságra került, hogy a szocialisták kormányzása idején egyes rektorok fizetése akár a havi 5-6 milliót is elérte. Ennek a polgári kormány vetett gátat.</seg>
+<seg xml:id="AC7_8113.4">Tisztelt Államtitkár Úr</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_8113.5">A felsőoktatási béremeléssel kapcsolatban mennyiben tűnik jogosnak ez a fajta elégedetlenség, és mennyi ebből az aktuális hecckampány, amely az oktatói hálózathoz kapcsolható? Köszönöm szépen.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-12-07-urgent_question-AC7_8114" who="#AndrásSchiffer" ana="#regular"><note>DR. SCHIFFER ANDRÁS (LMP):</note>
+<seg xml:id="AC7_8114.1">Köszönöm a szót. Elnök Úr! Tisztelt Országgyűlés! Tisztelt Miniszterelnök Úr! Ebben az évben május 26-án egy azonnali kérdést intéztem önhöz az Elios-üggyel kapcsolatban, és felhívtam a figyelmét arra, hogy az LMP az ügyben azért is tett büntetőfeljelentést, merthogy ebben a LED-lámpás közbeszerzési buliban ugyanaz az érdekeltségi kör volt tetten érhető ajánlattevői oldalon, pályázó oldalon, mint aki ajánlatkérői oldalon is közreműködött. És azt is elmondtam önnek, hogy mi ennek az összeférhetetlenségnek a kiküszöbölésére is és arra is törvényjavaslatot terjesztünk elő, hogy az állami vezetők, polgármesterek, pályázati döntéshozók, bíráló személyek hozzátartozói ne pályázhassanak közpénzekre. Ön a válasza szerint a felvetéseinkkel teljes mértékben egyetértett, és azt mondta, hogy ezt a készülő új közbeszerzési törvényhez terjesszük be. Ezt meg is tettük, a javaslatainknak egy csekély része be is került egyébként az új közbeszerzési törvénybe, méghozzá annyi - nem vizsgálták az érdekeltségi köröket úgy, ahogy az LMP javasolta, három évre visszamenőleg, de annyi bekerült -, hogy az állami vezetők hozzátartozói a továbbiakban nem pályázhatnak közbeszerzésen. Ez a szabály élt talán másfél hónapot, amíg a múlt héten, meglehetősen sunyi trükkel, a lex Tállai kapcsán ezt a kört szűkítették a közös háztartásban élő hozzátartozókra.</seg>
+<seg xml:id="AC7_8114.2">Tisztelt Miniszterelnök Úr! Kezdeményezi-e azt, hogy a májusi ígéretének megfelelően egy szigorúbb összeférhetetlenség legyen a politikai vezetők, pályázati döntéshozók esetében? Miniszterelnök úr, én elhiszem önnek készséggel azt, hogy ön soha senkinek nem szólt le úgymond a saját rokona érdekében, de egy olyan országban élünk, ahol erre nincs is szükség. Az a helyzet, hogy egy olyan országban élünk, ahol legutóbb például, amikor Kisvárdán jártam, kiderült, hogy még a Mikulás is Seszták Miklós embere</seg>
+<seg xml:id="AC7_8114.3">(Dr. Rétvári Bence: Mert Miklós! - Általános derültség.)</seg>
+<seg xml:id="AC7_8114.4">Egy ilyen országban igenis szükség van szigorú összeférhetetlenségi szabályokra, tehát azt kérdezném, miniszterelnök úr támogatja-e az LMP-nek az eredeti javaslatát úgy, ahogy májusban megígérte. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiból.</desc></kinesic>
+<seg xml:id="AC7_8114.5">(14.10)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-12-07-urgent_question-AC7_8115" who="#AndrásSchiffer" ana="#regular"><note>DR. SCHIFFER ANDRÁS (LMP):</note>
+<seg xml:id="AC7_8115.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Legfőbbügyész-helyettes Úr! A büntetőeljárásról szóló törvény 176. § (2) bekezdése értelmében két éven túl a legfőbb ügyész jogosult a nyomozás meghosszabbítására. Én első alkalommal 2014. november 17-én érdeklődtem az úgynevezett NAV-botrány, illetve a trafikügy nyomozati állásáról, majd megismételtem a kérdésemet idén március 16-án. Ezt megelőzően Vágó Gábor akkori képviselőtársammal többször érdeklődtünk mind a trafikmutyi, mind pedig a NAV-botrány büntetőeljárási állásáról.</seg>
+<seg xml:id="AC7_8115.2">A helyzet viszont úgy áll, hogy én utolsó alkalommal is azt a választ kaptam, hogy minden a legnagyobb rendben halad, komoly tények merültek fel, nincs itt semmi látnivaló. Ehhez képest a helyzet úgy áll, hogy a trafikügyben 2013 júniusában indult meg a nyomozás, és csak egy évvel később, 2014 tavaszán jutottak el odáig, hogy egyáltalán meghallgassák azokat a trafikkárosultakat, akiknek a személyes adatai felmerültek illetéktelen helyen. Akkor is feltettem a kérdést, most is felteszem: megvizsgálták-e az akkori polgármester, jelenleg fideszes országgyűlési képviselő, Horváth István számítógépét? Kérdezem továbbá, igaz-e az a hír, hogy a között a 34 ügy között, amit az OLAF az előző évben átadott a magyar Legfőbb Ügyészségnek, van a trafikügyet és a NAV-botrányt érintő ügy is. A NAV-botrányban odáig eljutottunk, hogy Horváth Andrásnál hátkutatást tartottak még 2013 végén, viszont a mai napig homályba vész, hogy például nyomoznak-e egyáltalán a Kiemelt Ügyek Igazgatóságának megszüntetése, konkrét ügyleállítások dolgában.</seg>
+<seg xml:id="AC7_8115.3">Csak az előző azonnali kérdésem óta egy év telt el, a nyomozás megindulása óta pedig több mint két év. Döntött-e a legfőbb ügyész a nyomozás meghosszabbításáról, ha nem, miért nem, ha igen, mi akadályozza azt, hogy végre érdemi tényeket tudjon felmutatni a közvélemény számára is a Legfőbb Ügyészség? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-12-07-urgent_question-AC7_8120" who="#ZoltánLukács" ana="#regular"><note>LUKÁCS ZOLTÁN (MSZP):</note>
+<seg xml:id="AC7_8120.1">Köszönöm szépen, elnök úr. Tisztelt Miniszter Úr! Tisztelt Ház! Most már egy ideje borzolja a kedélyeket az országban az a példátlan eset, hogy közalkalmazottak százezrei nem jutottak idejében a munkabérükhöz. Azt gondolom, hogy az utóbbi évtizedekben erre nem nagyon volt példa, hogy egy kormány annyira el volt foglalva azzal, hogy kiépítse a lopásalapú kormányzást, hogy közben elfelejtették kifizetni a fizetéseket a közalkalmazottaknak. Százezrek várták idejében a fizetésüket az egészségügyben, a rendvédelemben, a hivatalokban, és nem kapták meg azt. Én azt gondolom, hogy ez példátlan, és ennek a felelőseit meg kell keresni.</seg>
+<seg xml:id="AC7_8120.2">Én azt kérdezem a miniszter úrtól, hogy kik azok, akik felelősek azért, hogy közalkalmazottak százezrei hiába várták a fizetésüket Magyarországon. Kinek a zsebébe folynak be a ki nem fizetett fizetések kamatai? A felelős kormánytagok vállalják-e ezért a felelősséget? Illetve a hozzá tartozó tárcáknál kiderítették-e már a felelősséget, és a felelősök felelősségre vonása vajon meddig késik? Azt is meg szeretném kérdezni, hogy akkor is ilyen sokáig késtek volna-e ezek a bérek, ha mondjuk, a felelős tárcák vezetőinek a saját vagyonukkal kellett volna helytállni ezekért az ügyekért.</seg>
+<seg xml:id="AC7_8120.3">Tisztelt Miniszter Úr! Ezek a családok nem állnak úgy, hogy akár egy vagy két hetet is ellegyenek a fizetésük nélkül. Ezek a családok ma Magyarországon sajnos az egyik fizetéstől a másikig élnek, és önök óriási zavart és nehézséget okoztak ezeknek a családoknak azzal, hogy képtelenek voltak arra az egyszerű feladatra, hogy időben kifizessék ezeknek a közalkalmazottaknak a fizetéseit. Azt kérem, hogy ezt azonnal pótolják, és azt is kérem, hogy a felelősöket állapítsák meg, és ők vállalják is a felelősséget ezért a hibáért. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

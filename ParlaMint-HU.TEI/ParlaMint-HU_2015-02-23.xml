@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2015-02-23" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2015-02-23 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2015-02-23 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="3077" unit="words">3077 szó</measure>
+        <measure xml:lang="en" quantity="3077" unit="words">3077 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2015-02-23">2015. 02. 23.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="37"/>
+          <tagUsage gi="kinesic" occurs="8"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2015-02-23">2015-02-23</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2015-02-23-urgent_question-AC7_2406" who="#ElődNovák" ana="#regular"><note>NOVÁK ELŐD (Jobbik):</note>
+<seg xml:id="AC7_2406.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Valóban, harmadszor kell feltennem ugyanezt a kérdést, miután az eddigi két válasza a mellébeszélés netovábbja volt. Még csak egy fél mondattal, érintőlegesen sem foglalkozott ennek a kérdésnek a megválaszolásával. Ezért kérem, hogy most szorítkozzon azon kérdésem megválaszolására, amit az elnök úrtól is hallhatott. Mi a véleménye most, a gazdagok kormányának érintett tagjaként a luxusmedence-adóról, amit még ellenzékben követelt Gyurcsány villája előtt?</seg>
+<seg xml:id="AC7_2406.2">Hadd emlékeztessem önt arra, hogy 2005-ben, valóban, Gyurcsány Ferenc Szemlőhegy utcai villája előtt is tiltakozott, és úgy fogalmazott, hogy „Magyarországnak ma olyan luxusbaloldali miniszterelnöke van, aki a közteherviselést magára nézve nem tekinti kötelezőnek. Milliárdosként nem hajlandó luxusadót fizetni luxususzodája után”. Ezért nyújtotta be azt a javaslatot, amelynek indoklásában felhozza, hogy „Magyarországon több millió ember él a létminimum környékén és mindeközben magánszemélyek több tíz milliós úszómedencékkel rendelkeznek saját ingatlanjaikban”. Így fogalmazott ön, és nem változott a társadalmi helyzet azóta, legfeljebb az ön helyzete változott, hiszen a gazdagok kormányának saját úszómedencével is érintett tagja lett.</seg>
+<seg xml:id="AC7_2406.3">Diszkréten távol maradt attól a szavazástól, amit az Országgyűlés plenáris ülése folytatott le, amikor az ön javaslatát én változatlanul benyújtottam, mert amit ön ellenzékben oly harcosan követelt, arról kormányon hajlamos megfeledkezni. Diszkréten távol maradt, azonban én kíváncsi vagyok az ön személyes álláspontjára: nem tartja-e erkölcsileg kötelezőnek, hogy most kormánytagként akár erre javaslatot tegyen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-02-23-urgent_question-AC7_3331" who="#LászlóFöldi" ana="#regular"><note>FÖLDI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC7_3331.1">Köszönöm a szót, elnök úr. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Ismét gondot jelent az Alföldön a belvíz, leginkább a Dél-Alföld és a Tisza mente szenved a mostani helyzettől, de a saját választókörzetemben, Cegléd, Abony, Nagykőrös környékén is érzékelhető, hogy van probléma. A Kötivizig területén öt település, köztük Cegléd és Újszilvás másodfokú készültséget tart fenn, Jászkarajenő pedig első fokozatban védekezik. Bár tapasztalható, hogy az utóbbi időben csökkent a belvízzel borított területek nagysága, az előrejelzések szerint márciusban az átlagosnál nagyobb mennyiségű csapadékra lehet számítani, ami újra megnehezíti a helyzetet.</seg>
+<seg xml:id="AC7_3331.2">A tavalyi év vége viszonylag csapadékos volt, a talaj sok helyen telített. Az alacsony hőmérséklet miatt a párolgás nem tud segíteni a kialakult helyzeten, a fölösleges víz csak elvezetés útján tud távozni a földekről. Ilyenkor lép működésbe az ország mintegy százezer kilométernél is nagyobb csatornahálózata. De ha igazán hatékonyan működne, ennyire talán nem is válhatna komollyá a helyzet. Tény, hogy a hálózat részben állami, részben önkormányzati, egy harmadik jelentős részben pedig magánfenntartásban van. Ráadásul a tulajdonviszonyok is vegyesek, ami megnehezíti a hálózat üzemeltetését, ám ilyenkor látszik, hogy a csatornák tisztítása, karbantartása nem szenvedhet hátrányt a tulajdonosi vagy fenntartói környezet kuszasága miatt.</seg>
+<seg xml:id="AC7_3331.3">Kérdezem ezért tehát tisztelt államtitkár urat, hogyan zajlik a belvíz elleni védekezés az Alföldön. Hány szakember dolgozik az elhárításban? Kézben tartható-e a helyzet? Vannak-e már becslések arra vonatkozóan, hogy mekkora károk keletkeztek a belvíz miatt? Számíthatnak-e kártalanításra a kárt szenvedett gazdák? Tisztelettel várom válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-02-23-urgent_question-AC7_3333" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC7_3333.1">Tisztelt Elnök Úr! Tisztelt Ház! A magáncsőd vagy családi csődvédelem intézménye mintegy 2009 óta képezi akár kampányviták tárgyát, akár jobbikos felvetések tárgyát. A KDNP a 2010-es kampány során már ígérgette azt, hogy valamilyen hasonló konstrukciót bevezet. A fő problémánk mégis az, hogy eltelt négy és fél év, és bár egyszer már eljutottak oda, hogy egy törvényjavaslatot összeácsoltak ebből az egészből, mégis bankszövetségi, devizás és egyéb ügyek mentén elálltak attól, hogy ezt a segítő formát bevezessék.</seg>
+<seg xml:id="AC7_3333.2">Négy és fél év elteltével végre az ígéretek szintjén és a sajtóban már megjelent, hogy valami hasonlót szeretne a kormányzat, ugyanakkor az elvesztegetett időt mi sem jelzi jobban, mint hogy évi 400 ezer ember vesz igénybe Európában hasonló segítő formát, tehát Magyarországon is igenis lenne ennek helye.</seg>
+<seg xml:id="AC7_3333.3">A fő kérdés az, hogy a KDNP által kitalált, kissé életszerűtlen, kirendelt csődbiztos intézményét mennyire gondolták önök komolyan, egy olyan csődbiztos intézményét, aki megmondja, hogy az idős családtag gyógykezelésére vagy a gyerek tanulására jut-e, költhet-e a család pénzt, vagy mozgathatja-e forrásait ez irányba.</seg>
+<seg xml:id="AC7_3333.4">A Jobbik ezzel szemben egy olyan emberközelibb konstrukciót dolgozott ki, melynek értelmében egy jogvégzett, ingyenesen kirendelt családsegítő segítene közvetíteni a hitelező pénzintézet felé akár hosszabb futamidő, de alacsonyabb törlesztőrészlet elérése érdekében, emellett közvetítene a munkaerőpiac felé is. Tehát látható, hogy mi, jobbikosok nem szólnánk bele abba, hogy a család mire költhesse az utolsó fillérjeit is, a KDNP ötlete ezzel szemben a sajtójelentések szerint egy kicsit zordabbnak tűnik, és kicsit keményebbnek.</seg>
+<seg xml:id="AC7_3333.5">Adódik tehát a kérdés, hogy mikor lesz ebből végre törvényjavaslat, és mi lesz azzal a több mint 130 ezer emberrel, akinek 90 napon túli, tehát már régen lejárt tartozása, úgynevezett bedőlt hitele van, hiszen a kormányzat már most a korlátozó intézkedéseit hangsúlyozza, és erős a félelem, erős a gyanú, hogy a legnehezebb sorban lévők, a leginkább elesettek megint csak nem számíthatnak segítségre. Ezek kapcsán várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-02-23-urgent_question-AC7_3337" who="#LászlóTeleki" ana="#regular"><note>TELEKI LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_3337.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Az elmúlt héten és ma is hallhattunk arról, többen kérdezték, hogy hol van a pénz, Farkas Flórián mit csinált azzal a több száz millió forinttal, amit az Országos Roma Önkormányzatban kapott. Én magam is megkérdezném, azért, mert nemcsak rengeteg írás és különböző bejegyzések kapcsán szóba került ez, hanem azért is, mert fontosnak tartom, hogy a közpénzek átláthatósága megtörténjen ilyen esetben is, ezért tehát azt gondolom, nemcsak Farkas Flóriánt érinti ez a kérdés, hanem a kormányt is.</seg>
+<seg xml:id="AC7_3337.2">Hallottam Rétvári Bence államtitkár úr válaszát több ízben is, nem nyugtatott meg a válasza, azért sem nyugtatott meg, mert nem válaszolt azokra a kérdésekre, amelyeket feltettek. Illetve én mindig azt mondtam, hogy ha a választások elején be kellett volna árazni azt az együttműködést, amit a Lungo Drom és a kormány tett, akkor lehetett volna látni azt, hogy monopolhelyzetet akartak romaügyben megoldani, és ez idáig meg is tudták tenni, mert nem volt a kormánynak, nem volt a Fidesznek más partnere, csak a Lungo Drom.</seg>
+<seg xml:id="AC7_3337.3">Én azt gondolom, hogy Magyarországon rengeteg olyan roma civil szervezet van - jogvédő szervezet, érdekvédelmi szervezet, egyesület -, akikkel együtt kellett volna dolgozniuk még ezen kívül, hogy ne monopolhelyzetet alakítson ki a kormány, de nem tette meg, ezért tehát nemcsak Farkas Flóriánnak van szerepe és felelőssége abban, hogy hogyan költötték el a pénzt, hanem a kormánynak is van felelőssége abban, hogy miért nem kérdez meg más embereket, miért nem szólít meg más civileket a Lungo Dromon kívül. Ezt várják el a civilek, a magyarországi roma civilek, hogy őket is szólítsák meg, és vonják be azokba a munkákba, amiket eddig nem tettek meg.</seg>
+<seg xml:id="AC7_3337.4">Többek közt én azt gondolom, hogy nemcsak a civilek, hanem mások is nagyon sok mindenben sérültek, és ezért azt gondolom, hogy a kormánynak kellene ezekre a kérdésekre olyan adekvát válaszokat adni, amellyel megnyugtatja akár a forrásügyekben, a pénzügyekben, akár pedig nyitottságban a magyarországi romákat, mert amúgy egyébként nem nagyon tudja őket megnyugtatni. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-02-23-urgent_question-AC7_3338" who="#ZoltánGőgös" ana="#regular"><note>GŐGÖS ZOLTÁN (MSZP):</note>
+<seg xml:id="AC7_3338.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Pintér Sándor belügyminiszter úr a múlt héten Veszprémben azt mondta, hogy a Belügyminisztérium működéséhez nagyon fontos a kétharmad megtartása. Akkor ezt a kijelentést nem értette senki, mert igazából egy polgári demokráciában nem szükséges semmiféle kétharmados többség egy minisztérium működéséhez. De azóta történtek olyan események, amelyek kezdik ennek az értelmét megvilágosítani.</seg>
+<seg xml:id="AC7_3338.2">Az elsőt mondom röviden: az V. kerületben a Nemzeti Nyomozó Iroda nyomozás nélkül azt mondta, hogy semmiféle korrupciós történet nincs, elutasította még a nyomozást is abban az ügyben, amit Juhász Péter helyi képviselő tett. Én azt gondolom, csak annyiból, amennyi a médiában ebből az ügyből napvilágot látott, ezt nem tehette volna meg a Nemzeti Nyomozó Iroda. Természetesen a képviselő úrnak ebbéli törekvéseit a továbbiakban is mi is támogatni fogjuk, hogy kiderüljön az igazság.</seg>
+<seg xml:id="AC7_3338.3">De ennél sokkal súlyosabb ügy volt az, amikor tegnap Veszprémben kiderült, hogy az egyik fideszes szavazóköri tagot elküldték haza, mert lajstromozta az embereket, majd a fideszes főhadiszállás környezetében működő újságírókat - öt perccel azután, hogy megjelent Kubatov Gábor, aki természetesen nem akart a rendelkezésükre állni semmilyen nyilatkozat formájában - a helyszínre érkező rendőrök, köztük a város rendőrkapitánya is igazoltatták úgy, hogy a videofelvételből világosan látszik, hogy pontosan tudták, hogy újságírókról van szó. Államtitkár úr, ez nem megengedhető! A hölgy, akit igazoltattak - többek között - 17 éve dolgozik a szakmában, azt mondta nekem, soha ilyennel nem találkozott. A fideszes rendezvényszervezők vagy helyszíni biztonsági emberek és maga Kubatov Gábor is pontosan tudta, hogy újságírókról van szó.</seg>
+<seg xml:id="AC7_3338.4">Milyen alapon avatkozik be egy városi rendőrkapitány ilyen szinten a politikába? Ezt várják el a kétharmados támogatásért? Sürgősen fejezzék be a rendőrség ilyen típusú átpolitizálását, és nem szeretném, ha még egyszer ilyen előfordulna! Inkább néznék meg azt, hogy azok a szabadcsapatok hogyan működtek tegnap is Veszprémben, meg hogyan gyűjtöttek az elmúlt években titkos információkat a legbizalmasabb személyes adatokról, többek között a választói szándékról!</seg>
+<seg xml:id="AC7_3338.5">Ezzel foglalkozzanak, államtitkár úr, ez lenne a feladatuk</seg>
+<kinesic type="applause"><desc>Közbeszólás az MSZP soraiban: Úgy van! - Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-02-23-urgent_question-AC7_3339" who="#IstvánTukacs" ana="#regular"><note>TUKACS ISTVÁN (MSZP):</note>
+<seg xml:id="AC7_3339.1">Elnök úr, köszönöm a szót. Tisztelt Államtitkár Úr! Van egy csodálatos játék, labdarúgásnak hívják. Ezt az egész világon szeretik. Nálunk leginkább a múltját szeretik. A jövőjét, amelyben csak ígéretek vannak, kevesebben szeretik, a jelenét megpróbálnák szeretni, ha nem lengené körül ezer és ezer furcsa ügy. A jelene egészen furcsa magyar változat mind a játék minőségét, mind a körülményeket tekintve.</seg>
+<seg xml:id="AC7_3339.2">Egy példán keresztül szeretném ezt megvilágítani, amelynek kulcsszereplője Seszták Miklós, a kormány minisztere és megyém egyik városa: Kisvárdának hívják. A miniszter úr és Kisvárda, hát ez ugyanaz, hiszen tudjuk a bulvársajtóból, nem beszélve Seszták úr viselt dolgairól, hogy Kisvárdához ezer szállal kötődik. Nos, ez a kötődés furcsa dolgokat eredményez. Ez a klub hirtelen rengeteg pénzt kap, rengeteg szponzora támad, 50 millióból felújítja a mostani stadionját. És mit ad Isten: 800 millió állami forintból új stadiont épít, harmadosztályút. Aki egy kicsit látott már magyar focit Magyarországon, az tudja, hogy ez a harmadosztályú szó mit jelent.</seg>
+<seg xml:id="AC7_3339.3">Tisztelt Miniszter Úr! Összkormányzati szempontból kérdezem önt: abban a megyében, ahol a szegénység, az egészség hiánya, a munkanélküliség, a fiatalok elvándorlása, a leszakadás az igazi probléma, 800 millió forint állami pénzből stadiont kell-e építeni, vagy nincs-e ennek helye más módon, jobban felhasználva? Példának okáért ott, ahol most az önkormányzatok pénzért kotorásznak a kasszában, mert hogy elvették a szociális segélyezés anyagi lehetőségét tőlük.</seg>
+<seg xml:id="AC7_3339.4">Tisztelt Miniszter Úr! Éreznek-e felelősséget abban, hogy ott az emberek nem tudnak stadiont enni? Mást ennének, de az meg nincs. Elnök úr, köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-02-23-urgent_question-AC7_3340" who="#GáborRiz" ana="#regular"><note>RIZ GÁBOR (Fidesz):</note>
+<seg xml:id="AC7_3340.1">Köszönöm, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Valóban, Magyarország 2014-es éve kiemelkedő. Kiemelkedő a gazdaság fejlődése szempontjából, hiszen Európában az egyik legimponálóbb GDP-növekedést Magyarország könyvelheti el. Az ilyen mértékű növekedéshez azonban nem elég egy ágazat fejlődése, hanem kellenek kiemelkedő ágazatok is, amelyek húzóágazatokként meghatározzák karakteresen az ország GDP-jének növekedési mutatóját.</seg>
+<seg xml:id="AC7_3340.2">Az egyik ilyen jelentős növekedést elérő terület a turizmus. A 2014. évi adatok alapján bátran kijelenthetjük, hogy hazánk az elmúlt évben kiemelkedőt teljesített ezen a területen is. Néhány számadattal alátámasztva: az már látható volt a tavalyi III. negyedéves adatokból is, hogy a mintegy 4,5 százalékos növekedésmutató szerint Magyarországon az idegenforgalom területenként és ágazatonként, belső ágazatonként is változóan, de egyértelműen fejlődött. A múlt héten a Központi Statisztikai Hivatal által közölt adatok pedig minden előzetes várakozást fölülmúltak. A legfontosabb számok a következők. Magyarországon 9,5 millió vendég 24 millió vendégéjszakát töltött el. A vendégek számában ez 7,2 százalékos, az általuk eltöltött éjszakák számában pedig 5,4 százalékos bővülést jelent. Fontos az is, hogy jelentős szegmenst képviselnek a vendégek között a külföldi vendégek, akik most már nemcsak Európából, hanem a tengerentúlról és Közel-Keletről is jelentős számban érkeznek. De ugyanígy a távol-keletiek is kiveszik a részüket a 11 százalékos növekedésből.</seg>
+<seg xml:id="AC7_3340.3">Ennél még örömtelibb, hogy a belföldi idegenforgalom növekedési volumene közel azonos a külföldivel. A magyar vendégek száma 10 százalékkal emelkedett 2014-ben, ami a tőlük származó szállásdíjak 15 százalékos bevételi növekedését eredményezte. Fontos azt is megjegyeznem, hogy Észak-Magyarországon ebből jelentős források és jelentős eredmények csapódtak le.</seg>
+<seg xml:id="AC7_3340.4">Tisztelt Államtitkár Úr! Úgy gondolom, hogy az eredmények után jogos a kérdés: melyek a magyar turizmus további fejlődésének lehetséges területei?</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-02-23-urgent_question-AC7_3341" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_3341.1">Köszönöm szépen a szót, elnök úr. Tisztelt Miniszter Úr! Tisztelt Államtitkár Urak! Tisztelt Ház! Én most a közigazgatásban dolgozó emberek érdekében szólalok fel, méghozzá azokért a köztisztviselőkért, akik az önkormányzatoktól átkerültek a kormányhivatalokba, és egy most futó salátatörvény miatt a fizetésük április 1-jétől brutálisan csökkenne.</seg>
+<seg xml:id="AC7_3341.2">Azt gondolom, és ebben talán többen egyetértünk ebben a Házban, hogy Magyarországon a magyar emberek több bércsökkenést nem viselnek el. Azt gondolom, hogy Magyarországon a dolgozói szegénységet csak csökkenteni lehet, nem pedig növelni. A kormány indoklása ezzel kapcsolatban ráadásul egészen elképesztő. Azt a kifejezést használták, hogy a bérfeszültséget kívánják csökkenteni, mert azoknak az embereknek, akik átkerültek a kormányhivatalokba, magasabb a bérük, mint akik ott dolgoznak, és ezért nem az ott dolgozó emberek bérét emelik meg, amit mondjuk, az LMP csinálna, hanem azokét csökkentik le, akik odakerültek. Önök így próbálják ezt a gordiuszi csomót átvágni.</seg>
+<seg xml:id="AC7_3341.3">Tisztelt Miniszter Úr! Önök a magyar embereket vágják át, ugyanis - még egyszer mondom - ebben az országban bércsökkentést nem szabad csinálni. Ráadásul egy olyan helyzet van, egy olyan csoportról van szó, akik nyolcadik éve egy befagyasztott illetményalap szerint dolgoznak. A közszolgálati életpályamodell bevezetése folyamatosan késik. Olyan emberekről beszélek, akiknek a fizetése egyik hónapról a másikra akár felére is csökkenhetne, bár előzetes számításaink szerint lennének olyanok is, a felsőfokú végzettségűek főleg, akiknek 40 százalékról 10 százalékra csökkenhet az illetménykiegészítése, mások meg elbukják a 20 százalékos bérkiegészítést. Teljesen világos, hogy itt egy újabb, magyar emberekből, dolgozókból álló csoport szenvedne el egy brutális bércsökkenést.</seg>
+<seg xml:id="AC7_3341.4">Tisztelt Miniszter Úr! Én értem, hogy önök a kormányban gazdagok. Azt is látom, hogy a Fidesz alapvetően a gazdag embereknek szeretne kedvezni. De önök most komolyan átléptek ezen a csoporton is</seg>
+<kinesic type="applause"><desc>Ikotity István tapsol.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-02-23-urgent_question-AC7_3342" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_3342.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Remélem, hogy karácsony óta már sikerült utánanézni annak, hogy mi fán terem az a MET, mert nem is olyan régen ön - mint a terület felelős minisztere - úgy csinált, mintha életében nem hallott volna a MET-ről, ami konkrétan például Magyarország legnagyobb gázüzemű áramtermelő erőművének a tulajdonosa. Úgyhogy túl azon, hogy ha ez így van, akkor ez meglehetősen ciki a kormányra nézve. Sajnálatos módon a mai napig a kormány nem beszél egyenesen a MET viselt dolgairól, holott világosan látszik, hogy a MET felemelkedése ebben az országban együtt jár az MVM hanyatlásával és mélyrepülésével.</seg>
+<seg xml:id="AC7_3342.2">Tudják, az MVM egy olyan állami cég, ami mindig is állam volt az államban, viszont arra mindig figyeltek a kormányok, hogy nyereséges maradjon. Most először veszteséges a 2000-es évek eleje óta. Ebben az évben már 50 milliárdot akartak beletolni adófizetői pénzből az MVM-be, végül most 18 milliárdnál tartanak a költségvetés szerint. De ez egyet jelent azzal, tisztelt uraim és hölgyeim, hogy ezt a céget a Fidesz-KDNP kicsontozta. Kérdés az, hogy miért. Miért van arra szükség, hogy két cég, melyek versenytársak, ráadásul ezer szálon össze is gabalyodnak egymással, miért van arra a Fidesz-KDNP-nek szüksége, hogy amelyik az állami, azt kicsontozza, és amelyik profitorientált, azt egész egyszerűen hagyja létezni, virulni, virágozni?</seg>
+<seg xml:id="AC7_3342.3">Nem arról van szó, miniszter úr, egész véletlenül, hogy Simicska Lajos távozásával új pénzeszsákok kellenek a Fidesznek? Erről szól a MET-sztori? Ezért mennek önök Orbán Viktorral Svájcba? A gyermekkóruson kívül még esetleg más dolgokat is intéztek Svájcban? Ráadásul világosan látszik az, hogy a két ág között hatalmas az átjárás. Gyakorlatilag menedzserek sora az MVM és a MET között egyszerűen közlekedik. Tisztelt Miniszter Úr! Mondom önnek Kóbor Györgyöt, Králik Gábort, Lehőcz Balázst. A karrierjüket elkezdik az egyik helyen, folytatják a másikon, és ez így megy tovább.</seg>
+<seg xml:id="AC7_3342.4">Tisztelt Miniszter Úr! Önök nem félnek attól, hogy esetleg az adófizetők által az adófizetők pénzét kezelő MVM cégtől ezek az emberek úgy mennek oda, hogy titkokat visznek magukkal és a MET-et, a profitorientált céget fogják segíteni</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_3342.5">Mennyivel károsítják meg önök az adófizetőket</seg>
+<kinesic type="applause"><desc>Taps az LMP padsoraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

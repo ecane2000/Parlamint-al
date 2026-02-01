@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2015-06-15" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2015-06-15 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2015-06-15 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="8" unit="speeches">8 beszéd</measure>
+        <measure xml:lang="en" quantity="8" unit="speeches">8 speeches</measure>
+        <measure xml:lang="hu" quantity="2731" unit="words">2731 szó</measure>
+        <measure xml:lang="en" quantity="2731" unit="words">2731 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2015-06-15">2015. 06. 15.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="8"/>
+          <tagUsage gi="seg" occurs="46"/>
+          <tagUsage gi="kinesic" occurs="9"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2015-06-15">2015-06-15</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2015-06-15-urgent_question-AC7_5215" who="#AndrásSchiffer" ana="#regular"><note>DR. SCHIFFER ANDRÁS (LMP):</note>
+<seg xml:id="AC7_5215.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Néhány hete jelent meg a hír, hogy az ön almamáterében, a PPKE-n kötelező tárgyként fognak tanulni a jövő évtől a holokausztról, ráadásul a tel-avivi egyetem két professzora dolgozza ki a tananyagot, tehát kötelezően fogják oktatni informatikusoknak, jogászoknak is. Kissé furcsán vette ki magát a dolog, hogy egy külföldi állam képviselője bábáskodott a bejelentésnél.</seg>
+<seg xml:id="AC7_5215.2">Tisztelt Országgyűlés! Néhány évvel ezelőtt Sólyom László államelnök úr a holokauszt-emléknapon a következőket mondta Kertész Imrére hivatkozva: „A törvénynek ez az abszolút megszegése, ami megesett, megerősíti a törvényt nemcsak ama nép számára, amely elszenvedte azt, hanem az egyetemes emberiség számára a tilalmat teszi abszolúttá. Auschwitz az egész emberiség számára érvényes példázattá válhatott, mert ebben a történetben a jó és a gonosz élesen kettéválik. Itt nincs helye igazolásnak, magyarázatnak, ha megkísérelnénk, kultúránk alapjait tagadnánk. Mi a későbbi generáció kötelessége? Fenntartani azt az erkölcsi rendet, amelyben Auschwitz és az általa jelképezett népirtás megismételhetetlen.”</seg>
+<seg xml:id="AC7_5215.3">Ezért gondoljuk mi is úgy, hogy helye van a holokausztoktatásnak a közoktatásban, helye van a pedagógusképzésben. Ezért is gondoljuk azt, hogy az érzékenyítésnek minden esetben a közoktatásban van helye, ezért szavaztuk meg a szocialisták idevágó javaslatát az auschwitzi látogatásokkal kapcsolatban vagy a Jobbik javaslatát a határon túli látogatásokkal kapcsolatban.</seg>
+<seg xml:id="AC7_5215.4">Az egyetem magyarázata, amit egy oktató jelentetett meg a napi.hu-n, ugyanakkor egészen elképesztő: az egyetemet ért úgymond antiszemitizmus-vádra hivatkozik. Azt gondolom, lehet, hogy a szándék jó, az eszköz viszont brutálisan helytelen, és ellentétes célt ér el. Azt gondolom, hogy a holokauszt példázatának a fenntartása nem önmagában az antiszemitizmus elleni küzdelem része, mint ahogy a holokauszt nem pusztán a zsidók ügye, mindannyiunk, az egész emberiség ügye, mindannyiunk, minden magyar ügye.</seg>
+<seg xml:id="AC7_5215.5">Annyit kérdeznék, tiszteletben tartva az egyetemi autonómiát, hogy puha akkreditációs jogosítványaival kapcsolatba</seg>
+<kinesic type="signal"><desc>Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC7_5215.6">tervez-e valamit a tárca, illetve külügyi vonatkozásokban tervez-e valamilyen lépést a kormány. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Szórványos taps az ellenzéki pártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-06-15-urgent_question-AC7_5217" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_5217.1">Köszönöm szépen. Tisztelt Államtitkár Úr! 2011-ben önök még éreztek valamit az emberek problémáiból, a társadalomban meglévő feszültségekből. Az LMP akkor messze egyetértett azzal a kezdeményezésükkel, hogy a jegybank elnökének a fizetését havi 8 millió forintról 2 millió forintra kell csökkenteni, és hogy törvényben maximálják az állami vezetők havi fizetését.</seg>
+<seg xml:id="AC7_5217.2">2012-ben, arra való hivatkozással, hogy vége a gazdasági válságnak és a jegybank független szervezet, az MNB-nél eltörölték a kétmilliós felső határt. Csakhogy az elmúlt években nőtt a szegénység Magyarországon, egyre többen élnek a létminimum alatt, a minimálbér 67 ezer forint, a közmunkabér a minimálbért se éri el, és végletesen szétszakadt a társadalom kevés gazdagra és sok millió szegényre.</seg>
+<seg xml:id="AC7_5217.3">Most kiderült, az MNB ügyvezető igazgatói, köztük Polt Péter legfőbb ügyész felesége havi 5 milliót kapnak</seg>
+<seg xml:id="AC7_5217.4">(Felzúdulás az MSZP soraiban.)</seg>
+<seg xml:id="AC7_5217.5">Naponta megkeresnek 225 ezer forintot. Mindez újabb durva példa arra, hogy a jegybank közpénzből urizál.</seg>
+<seg xml:id="AC7_5217.6">Azt kérdezem államtitkár úrtól, először: helyénvalónak találja-e a magyar viszonyok között, hogy a jegybank felső szintű vezetésének fizetése havi 5 millió forint legyen, miközben pedagógusok, szociális és egészségügyi szakemberek, közszolgáltatásban dolgozók, és még sorolhatnám tovább, éhbérért dolgoznak? Szándékában áll-e a kormánynak visszaállítani a fizetési plafont az MNB-nél? És azt szeretném még megkérdezni, hogy Polt Péter legfőbb ügyész feleségének most megduplázták a fizetését havi 5 millióra, mit gondol, vajon befolyásolja-e a legfőbb ügyészt ez a tény az olyan feljelentések elbírálásában, mint például, amit az LMP tett az MNB ellen hűtlen kezelés miatt.</seg>
+<seg xml:id="AC7_5217.7">Köszönöm a figyelmet</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiban. - Lukács Zoltán: Még a feltételezést is visszautasítjuk!</desc></kinesic>
+<seg xml:id="AC7_5217.8">(15.50)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-06-15-urgent_question-AC7_5220" who="#ZoltánLukács" ana="#regular"><note>LUKÁCS ZOLTÁN (MSZP):</note>
+<seg xml:id="AC7_5220.1">Köszönöm szépen. Tisztelt Hölgyeim és Uraim! Tisztelt Államtitkár Úr! Idestova hat hete borzolja a kedélyeket Magyarországon Gömöri Zsolt és az ő jó barátja, Deutsch Tamás ámokfutása, amit a Paralimpiai Bizottság élén végeztek. Idestova hat hete derült ki, hogy úgy éltek a paralimpiai sportolók pénzéből, mintha az az övék lett volna.</seg>
+<seg xml:id="AC7_5220.2">Idestova hat hete derült az ki, hogy Gömöri Zsolt, a Paralimpiai Bizottság vezetője a bizottság pénzéből egyenlítette ki a lakáshitelét, és ezt Deutsch Tamás, az önök európai parlamenti képviselője biztatására tette. Aztán az is kiderült, hogy mintegy kétmillió forintért nyaralt családjával együtt Gömöri úr a Kanári-szigeteken, a paralimpiai sportolók pénzéből. Aztán azt is kiderítették, hogy a Magyar Paralimpiai Bizottság támogatói pénzei után ő jutalékot vett fel. Folyik a nyomozás, és még a fene tudja, hogy mi fog kiderülni. De egy dolog biztosan kiderült: az derült ki, hogy Gömöri úr és Deutsch úr teljesen alkalmatlanok és teljesen méltatlanok arra a pozícióra, amit itt betöltenek. Azt senki nem gondolja, hogy Gömöri úr ezt magától csinálta. Azt mindenki tudja, hogy Deutsch Tamás oda politikai kinevezettként van delegálva, ő maga is elvállalta, hogy jó néhány ügyben ő maga biztatta Gömöri urat arra, hogy ezeket az ügyeket lépje meg.</seg>
+<seg xml:id="AC7_5220.3">Tisztelt Hölgyeim és Uraim! Vannak paralimpiai sportolók Magyarországon, akiknek a mindennapi megélhetés okoz gondot; olyanokkal is találkoztunk, akiknek a mindennapi betevő beszerzése okoz gondot, és utána azt halljuk, hogy Deutsch Tamás és Gömöri úr ezeknek az embereknek a pénzén költekezik, és ezeknek az embereknek a pénzén él jól.</seg>
+<seg xml:id="AC7_5220.4">Pénteken lesz ennek a bizottságnak a közgyűlése, de azt üzenjük Gömöri úrnak és Deutsch úrnak is innen, hogy ne várjanak péntekig, azonnali hatállyal mondjanak le, mert méltatlanná váltak. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból. - Szórványos taps az LMP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-06-15-urgent_question-AC7_5221" who="#TamásSneider" ana="#regular"><note>SNEIDER TAMÁS (Jobbik):</note>
+<seg xml:id="AC7_5221.1">Tisztelt Elnök Úr! Tisztelt Ház! Államtitkár Úr! Számos kedvezőtlen intézkedés sújtotta az elmúlt években azokat az embereket, akik a nyugdíj felé közelítenek. A Gyurcsány-Bajnai-kormányok idején 62-ről 65 évre emelték a nyugdíjkorhatárt, elvették a 13. havi nyugdíjat, ezzel 8 százalékkal csökkentve a nyugdíjak összegét.</seg>
+<seg xml:id="AC7_5221.2">Az Orbán-kormány ott folytatta, ahol Gyurcsányék abbahagyták. Megszűntek a szolgálati nyugdíjak, a magán-nyugdíjpénztári vagyon pedig eltűnt. 3000 milliárd forintnak veszett nyoma az államadósság feneketlen kútjában.</seg>
+<seg xml:id="AC7_5221.3">De az ámokfutás folytatódott. Önök a korkedvezményes nyugdíjrendszert is eltörölték, a már megszerzett jogokkal együtt. Azzal sem törődtek, hogy a korkedvezményes nyugdíjazás lehetőségének megszüntetése számos, bérből élő embert hozott hátrányos helyzetbe. A jogszabályi változás ugyanis érvénytelenítette azokat a kedvezményes éveket, amelyet az egészségkárosító munkakörben töltött idő után kaptak volna a munkavállalók.</seg>
+<seg xml:id="AC7_5221.4">A jelenlegi helyzet a következő. Vannak, akik elmehettek volna idén nyugdíjba az adott összegyűjtött éveknek köszönhetően, de az önök erőpolitikája miatt ezt nem tehették meg. Ennek következtében további négy-öt évet kell hogy dolgozzanak, sok esetben ugyanabban az egészségkárosító munkakörben. Orbán Viktor a kormány munkáját értékelő beszédében elmondta, hogy a jövőben már nem az erő politikáját fogják alkalmazni. Sokan szeretnénk már ezt látni.</seg>
+<seg xml:id="AC7_5221.5">Tisztelt Államtitkár Úr! Mi lesz a töredékévekkel? Mi lesz a befizetett extra járulékokkal? Mikor gondolják újra a korkedvezményes nyugdíjrendszer kialakítását, amelyre Czomba Sándor államtitkár úr már rég ígéretet tett? Nem gondolják, hogy elfogy a munkavállalók türelme?</seg>
+<seg xml:id="AC7_5221.6">Arra, hogy ez a pillanat hamarosan be fog következni, itt tartom a kezemben azt a közel 2500 aláírás</seg>
+<seg xml:id="AC7_5221.7">(Felmutatja.)</seg>
+<seg xml:id="AC7_5221.8">, amelyet vasutasok gyűjtöttek össze annak érdekében, hogy a korkedvezményes nyugdíjrendszert visszaállítsák vagy újra átgondolják.</seg>
+<seg xml:id="AC7_5221.9">Államtitkár úr, ezt a petíciót át is adnám önnek, hogyha megengedi</seg>
+<kinesic type="applause"><desc>Megtörténik. - Taps a Jobbik soraiban.</desc></kinesic>
+<seg xml:id="AC7_5221.10">(Az elnöki széket Jakab István, az Országgyűlés alelnöke foglalja el.)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-06-15-urgent_question-AC7_5222" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC7_5222.1">Köszönöm szépen, elnök úr. Tisztelt Miniszter Úr! Tisztelt Ház! Pártállástól függetlenül elítéljük azokat, akik ma gyerekeket használnak fel politikai célra, nevezhetnénk azt, hogy politikai pedofíliára. Ezzel a két szóval jellemezhető az az elszaporodó jelenség, amikor politikusok óvodásokat használnak biodíszletnek. Volt, amikor kormányablak-avatásra vagy éppen a járási hivatal átadására viszik őket előadást tartani, volt, amikor a politikusok mennek az óvodába, almát, majd születésnapjukat megünnepeltetn</seg>
+<seg xml:id="AC7_5222.2">(sic!)</seg>
+<seg xml:id="AC7_5222.3">, mesét olvasni vagy éppen, mondom még egyszer, idézem, a saját születésnapjukat megünnepeltetik az óvodásokkal. A szándékuk egyértelmű volt, hiszen a felsorolt rendezvényekről sokszor saját maguk a politikusok posztolnak Facebook-oldalukra fényképeket.</seg>
+<seg xml:id="AC7_5222.4">Kiderült az is, hogy a szaktárca elzárkózik, hogy ő tenne ebben az ügyben bármit is. Én a múlt héten interpellálni akartam a belügyminiszter urat, kiderült, hogy őrájuk sem tartozik ez az ügy, ezért szerettem volna ma megkérdezni a miniszterelnök urat, hogy akkor kire tartozik az, hogy ma gyerekeket használnak fel politikai célra, pedig a köznevelési törvény értelmében a pártpolitikai tevékenység azon idő alatt, amíg az intézmény a gyerekek felügyeletét ellátja, valóban mindenki számára tilos. Az intézet is hangsúlyozza elemzésében, hogy az óvodások pártpolitikai célokra való felhasználása semmilyen körülmények között nem engedhető meg, ehhez még a szülői hozzájárulás sem elérhető, nem adható.</seg>
+<seg xml:id="AC7_5222.5">Ezért kérdezem miniszter urat, hogy kire tartozik akkor ez a kérdés, ha folyamatosan politikusok élnek vissza a magyar családokkal és a magyar családok gyermekeivel. Ki védi meg az intézményben dolgozókat attól, hogy ezekben a helyzetekben ne kelljen az aktuális politikai vezetőknek megfelelniük? Ki fogja megvédeni a családokat, és ki védi meg a gyermekeinket? Erre várom válaszát, miniszter úr</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-06-15-urgent_question-AC7_5223" who="#DóraDúró" ana="#regular"><note>DÚRÓ DÓRA (Jobbik):K</note>
+<seg xml:id="AC7_5223.1">öszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A nyelvvizsga, illetve a nyelvtanulás kérdése sok embert, sok fiatalt érint, és rendkívül meghatározó a fiatalok jövőjére nézve, ugyanakkor Magyarország nemzetközi összehasonlításban is le van maradva e tekintetben. Ha megnézzük, hogy milyen szabályozások vonatkoznak erre a kérdéskörre, akkor azt találjuk, hogy a Nemzeti alaptanterv azt tartalmazza, hogy a 12. évfolyam végére nem éri el a középfokú nyelvvizsga szintjét az a tudás, amit a gyerekek az általános iskolában és a középiskolában megtanulnak. Kizárólag a két tannyelvű iskolákban van lehetőség arra, illetve előírás, hogy a középfokú nyelvvizsga szintjét a tantervben előírt óramennyiséggel el tudják érni a diákok.</seg>
+<seg xml:id="AC7_5223.2">A felsőoktatás részéről pedig az a jelzés, hogy 2020-tól, tehát öt tanév múlva felvételi követelménnyé fogják tenni azt, hogy középfokú nyelvvizsgával kerüljenek be az egyetemekre a diákok, illetve hallgatók. Tehát a NAT nem biztosítja a kellő feltételeket ahhoz, hogy a középfokú nyelvvizsgát megszerezzék a diákok, ám a felsőoktatás részéről elvárás, hogy így lépjenek be az egyetemek, főiskolák kapuin. Ha a jelenlegi helyzetet megnézzük, azt látjuk, hogy a felvételizők 65 százaléka az, aki rendelkezik nyelvvizsgával, tehát a maradék diák, felvételiző már ezen a rostán kiesne, ami nyilvánvalóan nem lehet célja az államtitkárságnak, illetve a minisztériumnak sem. De a diploma átvételének is gátja több tízezer fiatal esetében a nyelvvizsga hiánya, körülbelül 50 ezer emberről van szó, akik még a diplomaosztáskor sem rendelkeznek nyelvvizsgával, ezáltal nem is tudják átvenni a diplomájukat. A diplomamentő program, amit erre indítottak, államtitkár úr, rendkívül alacsony hatásfokú.</seg>
+<seg xml:id="AC7_5223.3">Kérdezem ezért, hogy változtatnak-e a NAT-on, növelik-e esetleg az óraszámokat, vagy miben látják a megoldást arra, hogy a közoktatásban biztosítsák azt a színvonalat, amely alapján a középfokú nyelvvizsgát elérik a 12. évfolyam végére a fiatalok. Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-06-15-urgent_question-AC7_5224" who="#ZsoltLegény" ana="#regular"><note>DR. LEGÉNY ZSOLT (MSZP):</note>
+<seg xml:id="AC7_5224.1">Köszönöm, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Próbáltam azt a - sajnos nem azt mondom, hogy találó, hanem szomorú - címet adni a felszólalásomnak, hogy a „A meggy az idén is befőtt?” kérdőjellel, hiszen tavaly azt tapasztalhatták meg a gazdák, hogy nem számíthatnak a kormányzatra és az agrárkormányzatra, a Fidesz-kormányra, merthogy a tavalyi év folyamán is rendkívül alacsony volt a meggy felvásárlási ára. Akkor azt az ígéretet kapták, mondjuk úgy, hogy 40 forintos kilónkénti támogatást kaphatnak, de akkor, ha a saját terméküket feldolgozzák.</seg>
+<seg xml:id="AC7_5224.2">Az a szomorú hírem van, hogy a meggytermelő gazdák között viszonylag csekély számú, mondhatni a nullához konvergál a feldolgozó kapacitással rendelkező gazdák száma, és éppen ezért, mivel a mostani évben is 60-70 forintos felvásárlási árról szólnak a jelentések, a mondások, éppen ezért szeretném kérdezni államtitkár úrtól, hogy vajon az idén mi lesz a helyzet a meggyel. Ha ez a 60-70 forintos ár lesz igaz a felvásárlási árra, akkor milyen segítségre számíthatnak a meggytermelő gazdák? Ha ugyanezt a konstrukciót akarják az idén is megvalósítani, amit tavaly, akkor az a szomorú hírem van, hogy ez nem a termelőknél, ez a feldolgozóknál fog lecsapódni.</seg>
+<seg xml:id="AC7_5224.3">Természetesen mi azt elfogadjuk, hogy a feldolgozókat is kell támogatni, tehát ez nem a feldolgozók ellen irányuló kérdés lenne, azonban a gazdák érdekében mindenképpen meg kell hogy kérdezzem azt tehát a szaktárcától, hogy mire számíthatnak az idén a meggytermelő gazdák. Azt, hogy a 60-70 forintos árat valahogyan feljebb fogják tudni srófolni, én nem tudom megítélni, de nagyon-nagyon kíváncsian várjuk azt, hogy ebben az esetben a szaktárca mivel tudja biztatni legalább a meggytermelő gazdákat. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-06-15-urgent_question-AC7_5226" who="#IstvánBoldog" ana="#regular"><note>BOLDOG ISTVÁN (Fidesz):</note>
+<seg xml:id="AC7_5226.1">Elnök Úr! Tisztelt Országgyűlés! Tisztelt Miniszter Úr! A Kulcsár-ügy után 2015-ben újabb szocialista pénzügyi csalássorozat rázta meg a magyar közvéleményt. A hatósági nyomozások alapján valószínűnek tűnik, hogy több brókercég esetében vélelmezhetően már az ezredforduló óta folyik, folytak visszaélések. Az egyik Bajnai Gordonhoz köthető brókercég 2009-ben sikeresen kijátszotta az akkor hiányosnak mondható ellenőrzési rendszert, és súlyos tízmilliárdokkal károsította meg a kisbetéteseket és az önkormányzatokat.</seg>
+<seg xml:id="AC7_5226.2">A kormány a gyors intézkedéseinek köszönhetően hatékonyan tudott közbeavatkozni az ügyben, a parlament olyan törvényt fogadott el, amelynek értelmében a brókerbotrányban érintett cégek cégcsoportjainak, a cégvezetőinek, tulajdonosainak, felügyelőbizottsági tagoknak és az érintett könyvvizsgálóknak is zárolni lehetett a teljes vagyonát, a zár alá vett vagyont pedig a károsultak kártalanítására kell felhasználni. Ugyanakkor annak érdekében, hogy a jövőben elkerülhetőek legyenek a hasonló pénzügyi visszaélések, fontos lett volna a felügyeleti szabályozás szigorítása, ezért egy olyan törvényt kezdeményeztünk, amely befektetési vállalkozások esetén is öt év helyett háromévenként történő átfogó felügyeleti vizsgálatot írt volna elő a hitelintézetekhez hasonlóan. A törvény szigorította volna a bírságolási szabályokat, a felügyelet nagyobb bírságokat is kiszabhatott volna, ami erősíti a bírságolás elrettentő erejét.</seg>
+<seg xml:id="AC7_5226.3">(15.20)</seg>
+<seg xml:id="AC7_5226.4">A legfontosabb rendelkezése a javaslatnak mégis az lett volna, hogy a piacfelügyeleti eljárás nemcsak észlelés, hanem már gyanú esetén is megindítható lenne, azzal lehet ugyanis a piaci visszaéléseket a lehető leggyorsabban és leghatékonyabban kiszűrni, ha a felügyelet időben közbe tud lépni, és a legkisebb gyanú esetén megindítja az eljárást. Ettől a lehetőségtől az ellenzék most megfosztotta a felügyeletet ellátó jegybankot, és így gyakorlatilag tettestársként hozzájárult a csalárd, jogszabályokra fittyet hányó brókerek tevékenységére.</seg>
+<seg xml:id="AC7_5226.5">A fentiek alapján felvetődik a gyanú, hogy az ellenzéki pártok, akár jobbról, akár balról jönnek, a brókerek barátai</seg>
+<seg xml:id="AC7_5226.6">(Bangóné Borbély Ildikó: A Fidesz. Csak a Fidesz.)</seg>
+<seg xml:id="AC7_5226.7">Kérdezem ezért miniszter urat, ön szerint miért hagyták magukra a betéteseket az ellenzéki pártok, és van-e rá mód, hogy ennek ellenére a betéteseket meg tudjuk védeni, és az ellenzéki pártok által okozott károkat enyhíteni tudjuk. Köszönöm a válaszát</seg>
+<kinesic type="noise"><desc>Bangóné Borbély Ildikó: Mi van a tarsolyban? - Közbeszólások, derültség az ellenzéki pártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

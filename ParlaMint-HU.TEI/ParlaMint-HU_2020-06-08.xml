@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2020-06-08" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2020-06-08 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2020-06-08 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="17" unit="speeches">17 beszéd</measure>
+        <measure xml:lang="en" quantity="17" unit="speeches">17 speeches</measure>
+        <measure xml:lang="hu" quantity="5298" unit="words">5298 szó</measure>
+        <measure xml:lang="en" quantity="5298" unit="words">5298 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2020-06-08">2020. 06. 08.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="17"/>
+          <tagUsage gi="seg" occurs="59"/>
+          <tagUsage gi="kinesic" occurs="18"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2020-06-08">2020-06-08</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2020-6-8-urgent_question-AC8_10903" who="#LászlóSzakács" ana="#regular"><note>DR. SZAKÁCS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC8_10903.1">Köszönöm a szót, tisztelt elnök úr. Tisztelt Képviselőtársaim! Tisztelt Miniszter Úr! Olvashattuk a hétvégén, parázs vita volt abban, hogy most az önkormányzatokat jobban vagy kevésbé jobban finanszírozza a kormány. Erre nagyon sokféle adatot tudunk természetesen mondani, de a legbeszédesebbek nyilvánvalóan a cselekedetek. Azt már láttuk, hogy önök hogyan nem hajlandók tudomásul venni az október 13-ai önkormányzati választásokat. Hiába mondta el a miniszterelnök, hogy ő együtt kíván működni az ellenzéki vezetésű városokkal, együtt kíván működni a fővárossal is, aztán látjuk, hogy az adóbevételeiket, a saját bevételeiket hogyan szívja el a központi kormányzat, majd azt is látjuk, hogyan lehetetleníti el ezeknek az önkormányzatoknak a működését. Itt a fővárosban például az egyik legnagyobb vita, hogy fel kelle újítani, és hogy mikor lehet felújítani a főváros egyik szimbólumát, lehetne mondani, nemzeti szimbólumot, Széchenyi lánchídját. Erről mindenki megállapodott, hogy fel kell újítani, de önök folyamatosan dobálják körbe ennek a költségét, nem utolsósorban a fővárostól évente vonnak el annyi pénzt az adók elvonásával, a helyi adók elvonásával, amiből ezt évente meg lehetne csinálni</seg>
+<seg xml:id="AC8_10903.2">(Mesterházy Attila: Szégyen!)</seg>
+<seg xml:id="AC8_10903.3">Ehhez képest ma Magyarországon kiemelt projekt az, hogy betonba öntsék a Ligetet, a Városligetet, kiemelt projekt az, hogy aranyárban vasútvonal épüljön Budapesttől Belgrádig, kiemelt projekt Paks, de az a híd, Széchenyi lánchídja, amelyik minden egyes Magyarországról készült fotón, képeslapon, bármin rajta van, amiről ráismernek Magyarországra, azon önök vitatkoznak a főpolgármesterrel, pedig minden mást sokkal könnyebben meg tudnak oldani.</seg>
+<seg xml:id="AC8_10903.4">Ezért azt kérdezem a miniszter úrtól, hogy mikor lesz ez kiemelt gazdasági cél</seg>
+<kinesic type="applause"><desc>Mesterházy Attila: Úgy van! Taps az ellenzéki padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-6-8-urgent_question-AC8_10904" who="#ZitaGurmai" ana="#regular"><note>DR. GURMAI ZITA (MSZP):</note>
+<seg xml:id="AC8_10904.1">Köszönöm szépen. Tisztelt Ház! A dolgozó embereknek van egy széles köre, akiket a kormány rendkívül hátrányos helyzetben tart. Ők a kölcsönzött munkavállalók, akik elképesztően kiszolgáltatottak. Az első fél évben nem kötelező számukra ugyanazt a bért megfizetni, mint az ugyanabban a munkakörben foglalkoztatott többi dolgozónak. Nem jár nekik kafetéria sem, folyamatos létbizonytalanságban élnek, a kollektív szerződés nem, vagy csak korlátozottan vonatkozik rájuk, szakszervezeti tagok sem lehetnek a cégnél, ahol dolgoznak. Rövidebb felmondási idő, alacsonyabb végkielégítés jár nekik, ezért könnyebb kirúgni őket. Mivel rendszerint csak rövid ideig alkalmazzák őket, hitelt sem kaphatnak. A köztük levő számos fiatal így nem tud első otthonhoz jutni. A kölcsönzött dolgozók létszáma tavaly már elérte a 150 ezret. Külön elkeserítő, hogy a munkaerő-kölcsönzésben érintett dolgozók csaknem fele, több mint 65 ezer munkavállaló nő. Családanyákat, feleségeket tartanak ilyen kiszolgáltatott helyzetben, sokszor a leghátrányosabb térségekben. Államtitkár úr, kérem, hogy változtassunk ezen! Szüntessük meg a kölcsönzött dolgozók jogfosztását! Nem tarthatnak létbizonytalanságban édesanyákat, apákat és az általuk eltartott gyermekeket.</seg>
+<seg xml:id="AC8_10904.2">Ezért kérdezem öntől, szándékoznake lépéseket tenni azért, hogy a kölcsönzött dolgozók is ugyanolyan jogokat kapjanak, mint a többi alkalmazott. Ön szerint mi indokolja a jelenlegi hátrányos megkülönböztetésüket? Milyen adatokkal rendelkeznek? Hány kölcsönzött munkavállalót érintett a koronavírus és köztük hányan nők? Várom megtisztelő válaszát, államtitkár úr</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-6-8-urgent_question-AC8_10905" who="#ZoltánVarga" ana="#regular"><note>VARGA ZOLTÁN (DK):</note>
+<seg xml:id="AC8_10905.1">Tisztelt Államtitkár Úr! Úgy gondolom, hogy van néhány alapvetés, amiben egyet tudunk érteni. Az egyik az, hogy ez a járvány sajnos még hosszú-hosszú hónapokig, talán évekig itt marad körülöttünk, a másik pedig az, hogy a járvány egyik nagy felismerése volt, a világon végigsöprő járvány egyik nagy felismerése volt az, hogy leginkább a zárt közösségekben, idősotthonokban és szociális intézményekben élők a veszélyeztetettek. Tudjuk ezt nagyon jól, hiszen sokszor beszéltünk itt mi is erről, hogy egyetlen bekerülő fertőzött több száz ott lakót is meg tud fertőzni, és ennek okán sajnos ezekben az intézményekben a legmagasabb a halálesetek száma is. Abban már nem biztos, hogy egyetértünk, de az idősotthonokban élők az önök számára, úgy tűnik, nem mások, mint statisztikai tényezők, olyanok, akiket a Covid-járvány idején is valójában magukra hagyott a kormány, akiket legkevésbé sem tekintenek érző és hús-vér embernek, olyanoknak, akiket meg kell becsülni és meg kell védeni, hiszen ők azok, akik ezt az országot örökül hagyták nekünk, és önök azok, akik ezt az országot most tégláról téglára hordják haza.</seg>
+<seg xml:id="AC8_10905.2">(16.00)</seg>
+<seg xml:id="AC8_10905.3">Az pedig számomra egyenesen megdöbbentő, hogy a kormánypártoknak egészen addig volt fontos az idősotthonokban élők sorsa, amíg a habonyi propagandamédia látványos vágóképeket tudott készíteni száguldó mentőautókról, a tiszti főorvosnőről, talpig védőruhába öltözött ápolókról vagy pedig kétségbeesett arcú idős, beteg emberekről. Viszont amikor arról van szó, hogy minden idős- és szociális otthonban biztosítani kell a folyamatos koronavírus-tesztelést, arra a kormány és a kormánypárt válasza cinikusan nem más, csak az, hogy nem szükséges még mindig szűrni az idősotthonokban élőket.</seg>
+<seg xml:id="AC8_10905.4">Államtitkár úr, hát eddig tartottak a szólamok? Hol vannak a naponta megénekelt, elvileg milliószámra létező tesztek? Mivel spórolnak? Miért spórolnak? Vége a propagandakampányuknak, és most odadobják, feláldozzák az idősotthonokban élőket néhány millió forintért, miközben a kormányfő veje és csókosai milliárdos kormányzati támogatásoktól híznak továbbra is? Mikor kezdik el végre folyamatosan szűrni az idős- és szociális otthonokban élőket? Köszönöm szépen, várom őszinte, beismerő válaszát</seg>
+<kinesic type="applause"><desc>Taps a DK soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-6-8-urgent_question-AC8_10906" who="#LajosKorózs" ana="#regular"><note>KORÓZS LAJOS (MSZP):</note>
+<seg xml:id="AC8_10906.1">Köszönöm szépen. Tisztelt Ház! Tisztelt Képviselőtársaim! Kásler Miklós miniszter úr a hétvégén bejelentette, hogy az egészségügy területén, igaz, nem mindenkinek, de mégis kiutalásra kerül az 500 ezer forintos elismerés. Ugyanakkor miniszter úr a következőket mondta: „A gyógytornászok és az idősotthoni dolgozók, illetve a házi segítségnyújtók azért maradtak ki, mert a munkáltatójuk egyben fenntartójuk is az illetékes egyház, vállalkozó, egyesület vagy éppen önkormányzat, sajnos így nem tartoznak bele abba a körbe, amely kifejezetten az egészségügyi dolgozókat öleli fel.”Ha megnézzük a statisztikákat, akkor, képviselőtársaim, a következőről van szó: mintegy 35 ezer olyan ember van, aki kiesik most ebből a rendszerből, és ők nem fognak kapni semmiféle anyagi elismerést. Ahogy említettem, a statisztikákat vizsgálva kiderül, hogy a bentlakásos idősotthonokban igenis van állami fenntartású intézmény, nagyon-nagyon sok ellátottal, majdnem annyi ellátott van állami fenntartású bentlakásos idősotthonban, mint önkormányzati fenntartású idősotthonban. Tehát hangsúlyozom, itt ezres nagyságrendről van szó.</seg>
+<seg xml:id="AC8_10906.2">Vitathatatlan, hogy a bentlakásos idősotthonokat vizsgálva itt már a legtöbb fenntartó egyházi intézmény, de tudjuk jól, hogy a kormány az elmúlt években ösztönözte is, hogy a települési önkormányzatok adják át az intézmény fenntartását egyházi szervezeteknek. Ha megnézzük viszont a tartós bentlakást nyújtó intézményeket kapaszkodjanak meg, képviselőtársaim! , az állam által fenntartott intézményekben mintegy 28 ezer ellátott van ezekben az intézményekben, és több mint 7 ezer dolgozó.</seg>
+<seg xml:id="AC8_10906.3">Éppen ezért kérdezem államtitkár urat, kapnake anyagi elismerést a szociális ágazatban dolgozók, ugyanúgy, mint az egészségügyben dolgozók. Várom megtisztelő válaszát. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-6-8-urgent_question-AC8_10907" who="#AnettBősz" ana="#regular"><note>BŐSZ ANETT (DK):</note>
+<seg xml:id="AC8_10907.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Miniszter Úr! A XXI. század globális folyamatai számos jó folyamatot teremtettek, azonban nagyon sok olyan folyamat is elindult, amelynek kárvallottja lett a társadalom, illetve a természet, az élővilág. Azt gondolom, közös felelősségünk az, hogy keressük a megoldásokat arra, hogy hogyan tudjuk harmonizálni a gazdasági növekedést, a fenntartható fejlődést, illetve a természet megőrzését. Azt is gondolom, hogy felkészülten kell várni olyan természeti katasztrófákat, amelyekről még nem tudjuk, hogy bekövetkeznek, de a génbankok jelentősen segíthetnek bennünket abban, hogy adott esetben egész fajokat, legyenek azok állatfajok, növényfajok, újra tudjunk telepíteni hazánkban. Szerintem ebben nincs köztünk vita.Az elmúlt időszak hazai folyamatai sajnos azt mutatják, hogy a jövőre való felkészülésünk mind a természet-, mind a környezetvédelem tekintetében elmaradt a nyugat-európai társak felkészültségétől, és én azt gondolom, hogy ez mind gazdasági, mind társadalmi értelemben következményekkel fog járni. Azonban előremutatónak tartom azt, hogy hazánknak létezik stratégiája a génmegőrzési intézmények támogatására. Rendkívül fontos lenne az, hogy a támogatás, illetve a stratégia mellett figyelmet fordítsanak arra, hogy a génbankok szomszédságában létesülő ipari parkok a lehető legkevesebb vagy ideális világban ne lehessenek hatással ezekre a génbankokra, és ne rombolják ezeket a természeti környezeteket, amelyekben léteznek.</seg>
+<seg xml:id="AC8_10907.2">(16.50)</seg>
+<seg xml:id="AC8_10907.3">Nagyon fontos az, hogy a piaci alapon teremtett új vállalkozások, illetve az új munkahelyek hazánk válságból való kilábalását segítik elő. Tehát ebben sincs köztünk vita. De ezt a két célt kellene harmonizálnunk, ezért tisztelettel kérdezem a miniszter urat, hogy milyen jövőt szán a kormány a Kertészeti Szaporítóanyag Nonprofit Kft. által fenntartott és üzemeltetett magyar gyümölcsfagénbankoknak. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az LMP, MSZP, DK soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-6-8-urgent_question-AC8_10908" who="#LászlóSebián-Petrovszki" ana="#regular"><note>SEBIÁN-PETROVSZKI LÁSZLÓ (DK):</note>
+<seg xml:id="AC8_10908.1">Köszönöm szépen, elnök úr. Államtitkár Úr! A járvány okozta gazdasági visszaesést a világ minden országában nagyvonalú kormányzati költségvetési intézkedésekkel igyekeznek enyhíteni. A kormányok a vállalkozások mellett elsősorban a szegényeket és az alacsony jövedelműeket támogatják, részint emberiességi okok miatt, részint meg józan gazdasági belátásból is, hiszen valószínűleg ők nem felhalmoznák az így kapott állami támogatást, hanem kénytelenek lennének azt elkölteni, fogyasztóként jelennének meg a belső piacon, és így keresletet teremtve beindítanák a gazdaság akadozó gépezetét. Önök viszont éppen őket, a legvédtelenebbeket hagyták, és a benyújtott jövő évi költségvetés szerint hagyják és jövőre is hagyni fogják magukra. Sorolom. Nem segítik a munkájukat elvesztőket, ugyanis Európa legfösvényebb álláskeresési támogatásáról, járadékáról van szó Magyarország esetében, sem az időtartamát, sem az összegét nem növelték itt a gazdasági válsághelyzet tekintetében, és nem fogják jövőre sem a költségvetési törvény szerint.</seg>
+<seg xml:id="AC8_10908.2">A munkanélkülieknek kínált közmunkáért 2010-ben még minimálbért fizettek, idén már annak alig a felét, és az arány jövőre tovább fog csökkenni. A nyugdíjak emelése sem idén, sem jövőre nem éri el az inflációt, és a jövő februárra ígért majdani egyheti plusznyugdíjból a nyugdíjas idén nyilván nem fog tudni ételt vásárolni.</seg>
+<seg xml:id="AC8_10908.3">A gyermekek felneveléséhez feltétel nélkül járó segítség, amit családi pótléknak hívunk, tíz éve változatlan összegű, tíz éve nem emelték, jövőre sem tervezik emelni, államtitkár úr. Ráadásul azok sem kaptak bármiféle segítséget, akiknek a bölcsődék, óvodák, iskolák bezárása miatt fizetés nélkül kellett otthon maradniuk a gyermekkel.</seg>
+<seg xml:id="AC8_10908.4">Végül a megváltozott munkaképességűek helyzetét sem rendezi a kormány, sem idén nem tette, sem a jövő évi költségvetésben nincsen számukra erre fenntartva pénz. Kérdezem tehát, hogy miért éppen tőlük tagadják meg a segítséget. Köszönöm szépen a válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-6-8-urgent_question-AC8_10911" who="#AnitaPotocskánéKőrösi" ana="#regular"><note>POTOCSKÁNÉ KŐRÖSI ANITA (Jobbik):</note>
+<seg xml:id="AC8_10911.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Alig egy hónap telt el azóta, hogy elfogadták a Balatoni Hajózási Zrt. nagy port kavart reorganizációs tervét, azonban most egy újabb fejlemény került a felszínre. Ugyanis ebben az előterjesztésben nem utaltak arra, hogy a felügyelőbizottság tárgyaltae ezt az előterjesztést, ezt a javaslatot. Ugyanis a Ptk. Harmadik könyv 27. §-ána</seg>
+<kinesic type="noise"><desc>1) bekezdése szerint ezeknek az előterjesztéseknek a felügyelőbizottságot meg kell járniuk, és az ottani álláspontot pedig a döntéshozó szerv elé kell terjeszteni. Az, hogy miért teszem fel ezt a kérdést, azért van, mert Szajcz Adrián, a felügyelőbizottság akkori tagja, amikor még ez a szavazás volt, a közösségi médiában a közvéleményt arról tájékoztatta, hogy ez a felügyelőbizottságon nem ment át. Két eset lehetséges. Vagy az történt, hogy Szajcz képviselő úr, a Somogy megyei közgyűlés alelnöke, egyébként Witzmann képviselőtársam korábbi személyi asszisztense rosszul emlékszik, és a felügyelőbizottság mégis tárgyalta ezt az előterjesztést, vagy a másik eset ami ennél sokkal rosszabb , hogy nem járt a felügyelőbizottságon ez a reorganizációs terv. Ebben az esetben teljes mértékben azt gondoljuk, hogy a reorganizációs terv nem felel meg a hatályos jogszabályoknak, annak elfogadása törvénybe ütköző volt.</desc></kinesic>
+<seg xml:id="AC8_10911.2">És egy különös egybeesésre hívnám fel a figyelmet: amikor a magyar állam belépett a Balatoni Hajózási Zrt. tulajdonosi körébe, akkor aláírtak egy szerződést, amelyben biztosították, hogy Siófok mint legnagyobb önkormányzat, amely tulajdonosi részesedéssel rendelkezik a cégben, egy főt az igazgatóságba, egy főt a felügyelőbizottságba delegál. Önök ezt nem engedték, kétszer is megtorpedózták.</seg>
+<seg xml:id="AC8_10911.3">Tisztelettel kérdezem tehát az államtitkár urat: mi az oka annak, hogy nem engedték Siófokot, hogy ezt a két helyet betöltse; továbbá mi történt a felügyelőbizottsági ülésen: valóban nem tárgyalták ezt az előterjesztést? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-6-8-urgent_question-AC8_10912" who="#ÁdámSteinmetz" ana="#regular"><note>DR. STEINMETZ ÁDÁM (Jobbik):</note>
+<seg xml:id="AC8_10912.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Itt van a nyár, és ahogy Somogyországban mondják, kijött a jó idő. Ahhoz, hogy a koronavírus-válságban a magyar gazdaságot talpra tudjuk állítani, kipihent és tettre kész emberekre van szükség. Ehhez pedig minimális feltétel, hogy amikor munka után hazaindulnak, vagy a Balatonra pihenni, ne kelljen órákon át gyűrődniük a gépjárműben. De ezt nem lesz könnyű elkerülni, mert a Magyar Közút adatai szerint hamarosan napi 90 ezer autós fogja használni az M7-est, és családok ezrei indulnak el a Balatonra gyakorlatilag enni egy jó lángost, élvezni a balatoni naplementét. És erre tessék, mit látunk? Már Martonvásár közelében kilométeres dugók, se előre, se hátra. Ugye ismerős? A hátsó ülésen a kisebbik gyerek ordít, a nagyobbik gyerek pedig percenként teszi fel a kérdést: mikor érünk oda?Tisztelt Államtitkár Úr! Évtizedek óta visszatérő probléma, hogy az M7-esen óriási dugók nehezítik meg az eljutást a Balatonra, illetőleg onnan vissza. Gyakorlatilag június elejétől augusztus végéig ez elmondható. A Budapest-Balatonlelle útvonalat nemritkán három óra alatt lehet megtenni, holott 130-cal haladva csupán egy óráig tartana az utazás, ha lehetne haladni de nem lehet.</seg>
+<seg xml:id="AC8_10912.2">Tisztelettel kérdezem ezért, hogy a közeli jövőben, a közeli hetekben milyen konkrét intézkedéseket tesznek az M7-esen kialakuló dugók megelőzése érdekében. Hajlandóake végre az M7-est háromsávosra bővíteni, az autópályát rendszeresen használó több százezer magyar család érdekében? Hajlandóak erre, államtitkár úr, igen vagy nem? Várjuk a válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-6-8-urgent_question-AC8_10913" who="#LászlóGyörgyLukács" ana="#regular"><note>DR. LUKÁCS LÁSZLÓ GYÖRGY (Jobbik):</note>
+<seg xml:id="AC8_10913.1">Köszönöm szépen. Tisztelt Államtitkár Úr! „Az Európai Unió meghatározó politikája a vidék fejlesztése, annak érdekében, hogy meggátolja a nagyvárosok túlterheltséget, és megfelelő színvonalú életminőséget nyújtson a vidéken élőknek. A vidék elnéptelenedése egyenlő az ország egészséges településszerkezetének megbomlásával. Az Unió felismerte, a magyar kormány nem. A magyar kormány csak rövid távú rombolásban tud gondolkodni, nem törődik azzal, hogy az esetleges pillanatnyi megtakarítás a jövőben mekkora károkat okoz.” Államtitkár úr, ön és a kormánya most is szembemegy Európával: míg Európa a közösségi közlekedést fejleszti, addig a kormány ezt rombolja. Ennek a rombolásnak körzetemben Karcag 20 ezer és Tiszafüred 12 ezer polgára az áldozata, illetve a falvak 12 ezer lakosát is érinti mindez. A két város között már 120 éve működik vasúti közlekedés, Berekfürdő, Tiszaszentimre, Kunmadaras, Tiszaszőlős és Tiszaörvény településeket is érintve. Ezt tervezi most megszüntetni, eltörölni a kormány. Teszi mindezt úgy, hogy az érintett önkormányzatokkal és a kistérségi társulással semmilyen érdemi párbeszédet, valódi egyeztetést nem folytatott. Semmi sem támasztja alá, hogy gazdaságosabb az érintett vasútvonalat buszjáratokkal felváltani. A meggondolatlan, politikai ízű döntés azt sem veszi figyelembe, hogy Karcag város súlyponti kórháza százezer ember ellátásáért felel.</seg>
+<seg xml:id="AC8_10913.2">Tisztelt Államtitkár Úr! Miért lehetetlenítik el a 120 éve működő vasútvonalunkat? Miért akarja megfosztani Karcag és Tiszafüred állampolgárait a vasút által biztosított oktatási és munkalehetőségektől? Hogyan legyen rugalmas és versenyképes a Nagykunság munkavállalója, ha ön röghöz köti őket, visszafejleszti a közösségi lehetőségeket? Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-6-8-urgent_question-AC8_10915" who="#MártaDemeter" ana="#regular"><note>DEMETER MÁRTA (LMP):</note>
+<seg xml:id="AC8_10915.1">Köszönöm szépen, elnök úr, a kedves szavakat is. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Ha az önök által naponta gyakorolt, mondhatjuk úgy, hogy szómágiának valóban hatása lenne a valóságra, akkor most ott tartanánk, hogy Európában a magyar kis- és közepes vállalkozások a leginkább jövedelmezők lennének és a legválságállóbbak. De sajnos nem így van. S ha elnézzük azokat a tízmilliárdos osztalékokat, amiket kivesznek cégekből, akkor megint nem a kis- és közepes vállalkozások örülhetnek, hanem ugyanaz a gazdasági kör, amelyet az önök politikája folyamatosan támogat. A járvány miatt kialakult gazdasági válsághelyzetben ez pedig nem ízlésbeli kérdés, államtitkár úr, hanem nagyon is a magyar emberek százezreit érinti, az ő megélhetésükről van szó. Világosan látszik, hogy önök nem változtattak, ugyanúgy nem a magyar kis- és közepes vállalkozások támogatását tűzték ki célul. Hogy ez mennyire így van: a Magyar Turisztikai Ügynökség most 150 milliárdot oszt szét az adófizetők pénzéből, és ebből a százszobásnál nagyobb szálláshelyek és ötcsillagos vidéki szállodák összesen 85 milliárd forint vissza nem térítendő támogatáshoz jutnak.</seg>
+<seg xml:id="AC8_10915.2">És nézzük meg, kik is vannak ebben a támogatotti körben! Azt tudjuk a kormánymédiából, hogy oligarchák Magyarországon márpedig nincsenek, úgyhogy innentől kezdve akkor nevezhetjük őket a NER nagykutyáinak. Így például a Mészáros Lőrinc érdekeltségébe tartozó 14 vidéki szálloda összesen közel 18 milliárd forintot kap, és ő az a jóember, aki áprilisban 850 alkalmazottat bocsátott el a szállodaláncától. Tehát a munkahelyteremtő kormány ennél megfelelőbb helyre talán nem is adhatná ezt a pénzt, ugye? De a Garancsi-Csányi-Hernádi trióhoz köthető CDHT Hotel Projekt Kft. is több mint 8 milliárd forint támogatást kap, mint ahogy például Tiborcz István volt üzlettársa csaknem 4 milliárd forintnyi adóforintot, illetve Szíjj Lászlónak, Mészáros Lőrinc üzlettársának a cége 8 milliárd forinthoz jut hozzá.</seg>
+<seg xml:id="AC8_10915.3">(16.10)</seg>
+<seg xml:id="AC8_10915.4">Tehát újra együtt a nagy csapat! Mi lenne, ha a miniszterelnök foglalkozna üzleti ügyekkel? ugye, azt állította, hogy nem foglalkozik. Viszont az a kérdésem, hogy miért a havero</seg>
+<kinesic type="signal"><desc>Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC8_10915.5">zsebeit tömik ki ezekkel a pénzekkel, és miért nem azoknak a magyaroknak a százezreit segítik, akik munka nélkül maradtak. Várom válaszát. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az ellenzék soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-6-8-urgent_question-AC8_10916" who="#PéterUngár" ana="#regular"><note>UNGÁR PÉTER (LMP):</note>
+<seg xml:id="AC8_10916.1">Köszönöm a szót. Tisztelt Miniszter Úr! Minisztertársa, Kásler Miklós azzal az indoklással mondta el, vagy úgy indokolta meg, hogy miért nem kapnak a szociális dolgozók egyszeri 500 ezer forintos bérkiegészítést az egészségügyi dolgozókhoz hasonlóan, hogy azért nem kapják meg ez egy idézet a bérkiegészítést, „mert az intézményeik önkormányzati, civil vagy egyházi fenntartásúak”. Az a helyzet, hogy a szociális ügyekért is felelős miniszter nem tudja azt, úgy látszik, hogy állami fenntartású idősotthonok is vannak. Tehát szeretném azzal kezdeni, hogy ha ilyen bakit követett volna el egy ellenzéki politikus városvezető, akkor már nem hallanánk semmi mást azon kívül, hogy Dömötör Csaba alkalmatlanozza folyamatosan.</seg>
+<seg xml:id="AC8_10916.2">Ez jelenleg a szociális ügyekért is felelős miniszter, egy olyan ember, aki nem tudja, hogy állami fenntartásban is vannak idősotthonok.</seg>
+<seg xml:id="AC8_10916.3">Az a helyzet, hogy látszik az önök politikáján az, hogy elfelejtették, hogy vannak állami fenntartásban idősotthonok, hiszen az elmúlt kilenc évben 0, azaz nulla darab új ágy jött létre idősotthonban állami fenntartásban.</seg>
+<seg xml:id="AC8_10916.4">De arra szeretném kérni, miniszter úr, hogy miután minisztertársa, aki ezért felel, nem tudta tényszerűen megindokolni, hogy miért nem kapnak 500 ezer forintos bérkiegészítést a szociális szektorban dolgozók, amikor az a két feltétel, ami az egészségügyi dolgozóknál is értelemszerűen indokolttá teszi ezt a bérkiegészítést, tehát hogy túlóráztak, illetve hogy járványveszélynek voltak kitéve, próbáljon meg egy épeszű érvet elmondani azért, hogy miért nem jár a szociális szektorban dolgozóknak, házi segítségnyújtásban, gyermekvédelemben dolgozónak, fogyatékos bentlakásos intézményben vagy idősotthonban dolgozóknak ez az egyszeri 500 ezer forintos bérkiegészítés!</seg>
+<seg xml:id="AC8_10916.5">Mondjon egy érvet, ne egy politikai panelt, ne valami mondatot arról, hogy miért támadnak három hónapja ebből pártpolitikai programot csinálva egy idősotthont! Ahelyett mondják el azt, hogy miért nem fizetik meg ezeket a mindennapi hősöket! Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzék soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-6-8-urgent_question-AC8_10918" who="#HajnalkaJuhász" ana="#regular"><note>JUHÁSZ HAJNALKA (KDNP):</note>
+<seg xml:id="AC8_10918.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Képviselőtársaim! Tisztelt Miniszter Úr! Az Európai Tanács 2014 októberében fogadta el a 2021-2030-as időszakra vonatkozó éghajlat- és energiapolitikai keretet, amellyel összhangban hazánk is kidolgozta, és 2018-ban elfogadásra került a nemzeti energiastratégia 2030 és a második nemzeti éghajlatváltozási stratégia. Ebben a dokumentumban az Országgyűlés kinyilvánította hazánk elkötelezettségét a klímavédelem mellett. A stratégiában foglalt célok végrehajtása érdekében hároméves időszakra vonatozó éghajlatváltozási cselekvési tervek készültek, melyek a mitigáció, a csökkentés, az adaptáció és a szemléletformálás hármas pillérén támaszkodva határozzák meg a főbb beavatkozási területeket. A második nemzeti éghajlatváltozási stratégiában a speciális célkitűzések között szerepel a dekarbonizáció, az alacsony szén-dioxid-kibocsátású gazdaságra való áttérés, az üvegházhatású gázok kibocsátásának csökkentése. A tavaly indult országfásítási program keretében az állami erdőgazdaságok saját területeiken több mint 550 hektár új erdőt telepítenek, amihez 2 millió facsemetét és csaknem 100 tonna makkot használtak fel. Az új erdők pedig egy évtized múlva évente mintegy 8 ezer tonna szén-dioxidot kötnek meg.</seg>
+<seg xml:id="AC8_10918.2">A Kereszténydemokrata Néppárt elkötelezett a klímavédelem ügyének támogatása mellett. Ez egy rendkívül üdvözlendő kezdeményezés. Szeretném megkérdezni miniszter urat, hogy mit tesz a kormány az egészségesebb települési környezet megteremtéséért és a klímaváltozás hatásainak enyhítése érdekében. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-6-8-urgent_question-AC8_10919" who="#IstvánSimicskó" ana="#regular"><note>DR. SIMICSKÓ ISTVÁN (KDNP):</note>
+<seg xml:id="AC8_10919.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! A Fidesz-KDNP-kormány a szociális gondoskodás területén is egy nagyon-nagyon szép, immár sokéves hagyománnyal rendelkező rendszert alakított ki, amikor is útjára indította az Erzsébet-táborokat. Úgy tűnik, a koronavírus-járvány elleni sikeres védekezésnek köszönhetően, idén is megrendezésre kerülnek az Erzsébet-táborok. Nyilván ennek a formáját, a biztonsági szabályokat mind-mind érdemes majd áttekintenünk. Szerintem példaértékű az, hogy a magyar kormány egy ilyen sikeres programot hajt végre. Tavaly mintegy 130 ezer gyermek vett részt az Erzsébet-táborokban, 2012 óta, az indulás óta pedig mintegy félmillió gyermek vett részt ezekben a táborokban a gyermekek nagy megelégedésére.</seg>
+<seg xml:id="AC8_10919.2">Azt hiszem, háromgyermekes édesapaként is nyugodtan mondhatom, Márai Sándort is idézve, hogy a gyermek a legnagyobb csoda, az életünk egyetlen értelme. Tehát az ilyen táborok, főleg amely még szociális alapon is történik, a kárpátaljai magyarságot is, a magyar gyermekeket, fiatalokat is összefogja, vannak, akik először látják a Balatont ennek köszönhetően, és nyilván az anyaországi gyermekek is itt tölthetik értelmesen és hasznosan a vakációjukat.</seg>
+<seg xml:id="AC8_10919.3">A kérdésem arra vonatkozna tekintettel arra, hogy a koronavírus-járvány okozta korlátozások feloldása fokozatos , hogy úgy értesültünk, hogy várhatóan az idén nem lesznek ottalvós táborok, hanem más módon szervezik meg a táborokat. Tekintettel arra, hogy mégiscsak gyermekeinkről van szó, fontos tudnunk, hogy milyen változások várhatóak, hogy az idei rendkívüli tavasz után nyugodtabb nyárnak nézhessünk elébe bízunk benne.</seg>
+<seg xml:id="AC8_10919.4">Tisztelettel kérdezem államtitkár urat, hogyan alukul a nyári táboroztatás az Erzsébet-táborokban. Válaszát előre is köszönöm</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-6-8-urgent_question-AC8_10920" who="#CsabaNagy" ana="#regular"><note>NAGY CSABA (Fidesz):</note>
+<seg xml:id="AC8_10920.1">Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Megpróbáltatásokkal teli hónapokat tudhatunk a hátunk mögött, amelyek mindnyájunktól óriási erőfeszítéseket igényeltek. Kiváló szakembereink közreműködésének és a magyar emberek fegyelmezettségének köszönhetően sikeresen lezártuk a védekezés első szakaszát. Azonban a járvány okozta gazdasági válság leküzdése érdekében nem mindegy, hogy milyen eszközökhöz nyúlunk. Míg a kormány a munkahelyek védelmét és a családok megélhetésének támogatását jelöli meg prioritásként, addig a baloldali vezetésű önkormányzatokban kirúgások, fizetéscsökkentések és megszorítások sora követi egymást. Ismerős ez mindannyiunknak, hiszen már a kormányzásuk idején is folyton megszorításokhoz nyúltak. A mostani járványban is embereket tettek az utcára, és csökkentették a fizetésüket.</seg>
+<seg xml:id="AC8_10920.2">Kérem, engedjék meg, hogy néhány szemléletes példát mondjak önöknek. A Niedermüller Péter vezette Erzsébetváros, miközben csökkentette a kerületi óvónők fizetését, több tízmilliós megbízásokat adott Gyurcsány Ferenc adócsalással vádolt ügyvédjének, Czeglédy Csabának. Ráadásul, miközben a kormány segíteni akarja a vállalkozásokat, ugyanez az önkormányzat utólag akarta megsarcolni a vendéglátósokat. Józsefvárosban Pikó András elvette az egészségügyi dolgozók, a rendőrök és a tűzoltók lakását. Hódmezővásárhelyen Márki-Zay Péter polgármesteri fizetését változatlanul hagyták, miközben más közalkalmazottakat kirúgtak, illetve csökkentették a fizetésüket. A jobbikos vezetés alatt álló Ózdon egészen augusztus 31-éig csökkentették az óvónők fizetését. Miskolcon a baloldal a fizikai dolgozók béréből vett el; szintén a baloldali irányítású Vác pedig több munkavállaló fizetését lenullázta.</seg>
+<seg xml:id="AC8_10920.3">Mindezek alapján úgy vélem, hogy a magyar emberek számára a magyar kormány programja jelent megoldást: bértámogatásokat ad; a munkavállalóknak adót, járulékot csökkent; támogatja a munkahelyek megtartását, új munkahelyeket teremt. Az elhangzottakra tekintettel kérdezem tisztelt államtitkár urat, hogy miként működnek közre a válságkezelésben az ellenzéki önkormányzatok</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-6-8-urgent_question-AC8_10921" who="#LászlóHorváth" ana="#regular"><note>HORVÁTH LÁSZLÓ (Fidesz):</note>
+<seg xml:id="AC8_10921.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Az elmúlt időszakban joggal és indokoltan sokkolták a közvéleményt azok a híradások, beszámolók, videofelvételek, amelyek közösségi oldalakon jelentek meg, és mind-mind az iskolai erőszakról szóltak, aminek áldozatai minden esetben védtelen, kiszolgáltatott tanárok és diákok voltak. Széles az elutasítottsága ennek a jelenségnek, olyan széles, mint amilyen széles az egyetértés abban, hogy az emberi méltósághoz minden tanárnak és minden diáknak joga van. Mint ahogy azt is támogatja a többség, hogy minden tanárnak és diáknak joga van biztonságban lennie az oktatási intézményben, joga van nyugodtan tanítani, és joga van a diáknak nyugodtan tanulni. Ezeket a jogokat az államnak biztosítania kell, és szükség esetén keményen és határozottan meg is kell védenie.</seg>
+<seg xml:id="AC8_10921.2">Az iskolában nincs és nem is lehet helye az erőszaknak, mert ahol erőszak van, ott sem tanítani, sem tanulni nem lehet. Abból az iskolából, ahol erőszak van, aki teheti, elmenekül, kihátrál, és előbb-utóbb az iskola fenntartása, léte kerül veszélybe. Erre a káros folyamatra mutatott rá szemléletesen Gyöngyöspata példája, ahol a helybeli gyerekek többsége ma már nem a saját iskolájába jár, nekik minden reggel más településre kell menni. Igazából ők és a családjaik fizetik meg az erőszak árát ott, azon a településen, ők az igazi vesztesek, meg az a település, amelyik egyébként elveszíti gyerekeinek többségét. A többség azt sem érti, hogy mindezek után miért van az, hogy azok kapnak milliókat bírósági ítélet következtében, akik erőszakosak voltak, vagy akik akár több száz vagy több ezer órán keresztül kerülték az iskolát.</seg>
+<seg xml:id="AC8_10921.3">Mit tesz a kormány az iskolai erőszak visszaszorítása, megszüntetése érdekében? Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-6-8-urgent_question-AC8_10924" who="#OlivioKocsis-Cake" ana="#regular"><note>KOCSIS-CAKE OLIVIO (Párbeszéd):</note>
+<seg xml:id="AC8_10924.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! A járvány után, két hónap bezártság után sokan a Balatonon terveznek pihenni, nyaralni, de az a kérdés, hogy milyen állapotok és főleg milyen árak fogadják majd őket ott. Egyre több önkormányzat emeli az árakat a strandokon, és szed a korábbi szabadstrandokon belépőt, mert a kormány a járványra hivatkozva elvonja a bevételeit. Fonyódon két olyan strand is van, amely tavaly még ingyenes volt, ráadásul szabadstrandi keretből tették rendbe, most belépőt szednek. Ez azért nagyon jó példa, mert a fideszes polgármester, Hidvégi József és most tessék figyelni! arra hivatkozva tette fizetőssé a strandot, hogy a kormány annyi pénzt szed el a járványhelyzetre hivatkozva, hogy muszáj ezt meglépni. Tisztelt Államtitkár Úr! Meddig nyomorgatják még az önkormányzatokat? Hogyan lesz így a Balaton mindenkié? Tisztelt államtitkár úr, egy négyfős családnak egy hét nyaralás utazással, szállással, étkezéssel és ezekkel a strandbelépőkkel alsó hangon 270-280 ezer forint, és akkor ebben még nincs benne egy hajótúra, semmi. A biztonsági távolságtartás miatt várhatóan gyorsan betelnek a szabadstrandok, ezért csak fizetős helyekre tudnak menni ezek az állampolgárok, hogyha fürödni akarnak.</seg>
+<seg xml:id="AC8_10924.2">A Párbeszéd azt javasolja, hogy ezen a nyáron annak érdekében, hogy minél többen hozzáférjenek a Balatonhoz támogatni, jutalmazni kell azokat az önkormányzatokat, amelyek szabadstrandot tartanak fenn, új szabadstrandot nyitnak vagy csökkentik a belépők árát. Tisztelt államtitkár úr, hajlandóe a kormány jutalmazni, kompenzálni azokat az önkormányzatokat, amelyek szabadstrandot nyitnak, tartanak fenn, a jegyárakat csökkentik annak érdekében, hogy a Balaton mindenkié legyen. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Párbeszéd és az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-6-8-urgent_question-AC8_10925" who="#BenceTordai" ana="#regular"><note>TORDAI BENCE (Párbeszéd):</note>
+<seg xml:id="AC8_10925.1">Köszönöm, elnök úr. Tisztelt Államtitkár Úr! Varga Mihállyal benyújtották a 2021-es költségvetési tervet, látjuk, hogy nincs benne pénz alapjövedelemre, tehát létbiztonságra; nincs benne pénz álláskeresési járadék bővítésére, de érdemi pénz nincs benne a munkahelyek megvédésére sem; nincs százszázalékos béremelésre pénz az egészségügyi dolgozók javára; de nincsen a szociális, a kulturális vagy az oktatási dolgozók béremelésére sem pénz benne. Nincs pénz klímavédelemre, nincs pénz zöldfordulatra. Nincs pénz, de van megszorítás, megszorítás a helyi közszolgáltatásokban, amelyet önök a helyi önkormányzatoktól való elvonások formájában valósítanak meg. Nagyon durva, négyszeresére emelt adó van az önkormányzatokon, és ezt az emberek fogják megszenvedni. Csak a gépjárműadó elvonása 34 milliárd forint.</seg>
+<seg xml:id="AC8_10925.2">(Dr. Szűcs Lajost a jegyzői székben</seg>
+<seg xml:id="AC8_10925.3">dr. Vinnai Győző váltja fel.)</seg>
+<seg xml:id="AC8_10925.4">Van viszont pénz egy csomó minden másra. Van pénz mindig Mészáros Lőrincnek, tehát Orbán Viktornak, és van pénz a Varga Mihály vezette Pénzügyminisztérium tervezetében a Varga Mihály vezette Pénzügyminisztérium új palotájára. 55 milliárd forintba kerül ez a palota, amely csak az elmúlt fél évben 7 milliárd forinttal drágult.</seg>
+<seg xml:id="AC8_10925.5">De mennyi 55 milliárd forint, annak a költsége, hogy az egyik székházból a másik székházba költözzenek a munkatársaik? Ez nagyjából 2-3 ezer lakásnak az ára, 10-15 ezer embernek a lakhatási válságát oldaná meg, körülbelül ennyi embert lakoltattak ki a tavalyi évben. 55 milliárd forint kétszer annyi egyébként, mint a Varga Mihály mint egyéni országgyűlési képviselő által állítólag képviselt II. kerület teljes büdzséje, amely egyébként nyolcadával fog csökkenni az áldásos pénzügyminiszteri tevékenység okán.</seg>
+<seg xml:id="AC8_10925.6">(Az elnöki széket Jakab István,</seg>
+<seg xml:id="AC8_10925.7">az Országgyűlés alelnöke foglalja el.)</seg>
+<seg xml:id="AC8_10925.8">Az a kérdésem, hogy Varga Mihály 55 milliárdos palotája még mindig a puritán kormányzás részee, vagy ez már egy új korszak kezdete. Kíváncsian várom a választ</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

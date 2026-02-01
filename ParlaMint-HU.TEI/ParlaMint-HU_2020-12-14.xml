@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2020-12-14" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2020-12-14 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2020-12-14 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="18" unit="speeches">18 beszéd</measure>
+        <measure xml:lang="en" quantity="18" unit="speeches">18 speeches</measure>
+        <measure xml:lang="hu" quantity="5830" unit="words">5830 szó</measure>
+        <measure xml:lang="en" quantity="5830" unit="words">5830 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2020-12-14">2020. 12. 14.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="18"/>
+          <tagUsage gi="seg" occurs="79"/>
+          <tagUsage gi="kinesic" occurs="22"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2020-12-14">2020-12-14</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2020-12-14-urgent_question-AC8_13871" who="#LászlóLórántKeresztes" ana="#regular"><note>DR. KERESZTES LÁSZLÓ LÓRÁNT (LMP):</note>
+<seg xml:id="AC8_13871.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Miniszterelnök Úr! A napirend előtti vitában elkezdtünk egy vitát egy fontos kérdésről, a migráció kérdéséről, én azt szeretném folytatni.Önök nemhogy hetek, hónapok, hanem már évek óta ezt a témát egyfajta kampánytémává silányították, erről beszélnek. Ön most majdnem minden nap küld a Facebookon egy üzenetet Soros Györgynek, a másik oldalról viszont azt mondták, hogy az elmúlt hetek és hónapok uniós vitáinak hátterében a kormány migrációs politikája állna, de ez nem igaz, ez valótlanság. Ugyanakkor tény, hogy a migráció, annak a kezelése egy sorskérdés Európa számára, és világos, hogy az illegális migrációt meg kell állítani, mint ahogy az is, hogy a bevándorláspolitikának nemzeti, tagállami hatáskörben kell maradni. Ez teljesen világos.</seg>
+<seg xml:id="AC8_13871.2">Ugyanakkor, miniszterelnök úr, nem kampányolni kéne a migráció kérdésével, hanem végre cselekedni kellene. Ha valóban fontos lenne a Fidesznek és a kormánynak a migráció elleni harc, és ahogy mondják, a keresztény Európa védelme, akkor miért hajtották végre azt a tömeges betelepítési programot, amivel közel 20 ezer embert, 20 ezer bevándorlót engedtek be az országba érdemi ellenőrzés nélkül a Rogán-féle letelepedési kötvényekkel, ezzel, mint megtudtuk, 30 milliárdos veszteséget okozva az országnak. Ha fontos ez önöknek, akkor miért mutatkoznak olyan keleti diktátorokkal, despotákkal, akik a keresztény Európa ellenségei? Mennyire hiteles a keresztény Európáért folytatott küzdelem, miniszterelnök úr, ha ön azzal az Erdoğan elnökkel barátkozik, aki nem olyan régen azzal zsarolta meg Európát, hogy több millió menekültet, több millió migránst átenged, és azt üzente az Európában élő török kisebbségeknek, hogy ne integrálódjanak, és aki egyfajta politikai fegyverként tekint ezekre a közösségekre?</seg>
+<seg xml:id="AC8_13871.3">A legfontosabb kérdés, miniszterelnök úr, hogy ha valóban fontos önöknek a migrációt kiváltó okok kezelése, akkor miért nem cselekednek a legfontosabb kiváltó okok, az éghajlatváltozás és a környezet pusztítása ellen, és ha már nem cselekednek, miért akadályozzák, hogy az Európai Unió szintjén hatékonyabban lehessen ezt a munkát elvégezni, tehát az éghajlatváltozás hatásainak kezelésén át a migrációt kiváltó legfontosabb okok kezelését. Köszönöm szépen előre is a válaszát</seg>
+<kinesic type="applause"><desc>Taps az LMP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-12-14-urgent_question-AC8_13881" who="#PéterJakab" ana="#regular"><note>JAKAB PÉTER (Jobbik):</note>
+<seg xml:id="AC8_13881.1">Köszönöm a szót, elnök úr. Miniszterelnök Úr! Finom volt a négymilliós krumpli? Merthogy drágának drága volt, az biztos! Nézze, mostanában az ember csak úgy kapkodja a fejét, annyi a botrány önök körül: vesztegetés, orgia, kábítószer, pedofília. De mindez semmi egy zsák krumplihoz képest, mert azért lássuk be, hogy akármilyen drogos partikra is járnak önök, azért az elmúlt harminc év legsúlyosabb büntetését mégiscsak én kaptam egy zsák krumpliért! Hiába, van, ami belefér az önök álkeresztény értékrendjébe, van, ami pedig nem</seg>
+<kinesic type="noise"><desc>Moraj és közbeszólások a kormánypártok soraiból.</desc></kinesic>
+<seg xml:id="AC8_13881.2">De ne is húzzuk tovább az időt, jöjjenek a kérdések!</seg>
+<seg xml:id="AC8_13881.3">Első körben, miniszterelnök úr, rögtön itt van önnek egy igazi kereszténydemokrata szöveges feladat. Figyeljen! Semjén Zsolt úr segít majd önnek</seg>
+<kinesic type="noise"><desc>Közbeszólás a kormánypártok soraiból: Gratulálok!</desc></kinesic>
+<seg xml:id="AC8_13881.4">Ha egy zsák krumpli 4,4 milliós büntetést ér, mert sérti az Országgyűlés tekintélyét, akkor mennyi büntetést ér egy zsáknyi drog, amit az ön EP-képviselője hoz egy brüsszeli orgiáról, megsértve ezzel Magyarország tekintélyét? Annyit segítek, hogy Szájer József ezért a mutatványért nem 4 milliós büntetést kapott, hanem 40 milliós prémiummal távozhat. Egészen elképesztő!</seg>
+<seg xml:id="AC8_13881.5">Aztán van itt egy ennél sokkal fontosabb kérdés, ugyanis a brüsszeli orgia szervezője azt állítja, hogy eddig összesen kilenc fideszes képviselő járt nála, vagyis eszerint kilenc fideszes képviselő lehet, aki zsarolható, és aki jó eséllyel az ország érdekeivel ellentétes döntéseket hozhat a munkája során. Tudnunk kell, hogy ki az a kilenc!</seg>
+<seg xml:id="AC8_13881.6">Kövér László például mondott már olyat, hogy ő szánalommal tekint a nőkre. Mi a helyzet a férfiakkal? Lehet, hogy ő az egyik</seg>
+<seg xml:id="AC8_13881.7">(Derültség a Jobbik soraiban.)</seg>
+<seg xml:id="AC8_13881.8">Vagy ön, miniszterelnök úr, ön járt már ilyen partin</seg>
+<seg xml:id="AC8_13881.9">(Felzúdulás a kormánypártok soraiban.)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-12-14-urgent_question-AC8_13883" who="#LászlóGyörgyLukács" ana="#regular"><note>DR. LUKÁCS LÁSZLÓ GYÖRGY (Jobbik):</note>
+<seg xml:id="AC8_13883.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Miniszter Úr! Engedje meg, hogy egy egyre növekvő aggodalomról beszéljek, ami a magyar embereket érdekli. Aggódnak az emberek amiatt, hogy ha úgy alakulnak a számok, ahogy most vannak, akkor bizony karanténkarácsony elé nézünk, de aggasztónak tekintik azt is, és emiatt valóban lehet okunk aggodalomra, hogy az elmúlt két hét adatai alapján, tehát 14 nap adatai alapján 100 ezer főre vetítve a kumulatív halálozások terén csak Szlovéniát és Bulgáriát tudjuk sajnos megelőzni, így továbbra is komoly veszélyben vannak a magyar emberek. Az Uniót, illetve itt az európai országokat nézve a harmadik legrosszabb adat a miénk. Aggódnak amiatt is az emberek, hogy miniszterelnök úr, Orbán Viktor hagyta, hogy ősszel a vírus diktálja a tempót, és úgy tűnik, ezért most fizetjük meg az árat, és az ország alig bírja ezt a tempót most már.</seg>
+<seg xml:id="AC8_13883.2">De talán a legnagyobb aggodalommal mégis arra vannak figyelemmel, és a legnagyobb aggodalommal az tölti el őket, hogy nem lehet tudni, mi az oka annak a többlethalálozásnak, ami november első hetében volt, ugyanis a KSH-adatokat nézve november első hetében, a 47. héten az elmúlt öt év legrosszabb halálozási adatai voltak, és sajnos nem jönnek ki a számok: ha a koronavírus-adatokat és a halálozási adatokat leszámoljuk belőle, még mindig marad egy olyan számottevő halálozás, körülbelül 500 főnek az egy hét alatt való elhalálozása, amiről nem lehet semmit tudni. Egyébként ez az adat a legrosszabb adat, az elmúlt időszakok átlagához képest, tehát az elmúlt időszakhoz, a 47. héthez képest 52 százalékos emelkedés volt.</seg>
+<seg xml:id="AC8_13883.3">Miniszter Úr! Én feltételezem, hogy ön pontosan tudja, hogy miért volt ez a többlethalálozás. Itt az ideje, és most van lehetősége, hogy elmondja, miben haltak meg Magyarországon több százan a 47. héten és az azt követő hetekben, ha nem koronavírusban, mert ezek olyan kiugró adatok és olyan aggodalomra okot adó adatok, amelyekre mindenképpen válaszolni kell. Úgy gondolom, ön tudja a választ, és most itt az ideje, hogy el is mondja ezt. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-12-14-urgent_question-AC8_14267" who="#JánosVolner" ana="#regular"><note>VOLNER JÁNOS (független):</note>
+<seg xml:id="AC8_14267.1">Köszönöm szépen, elnök úr. Tisztelt Miniszterelnök Úr! Nagyon sokan vannak itt, akik külföldi segítséggel szeretnének kormányra kerülni. Vegyük őket sorra! Itt vannak rögtön a kommunisták utódpártjai, két parlamenti frakcióval. A szélsőséges liberálisok még ugyan nincsenek itt, de már Brüsszelben lobbiznak azért, hogy Magyarország mindaddig ne kapjon uniós támogatásokat, amíg ők nem kerülnek kormányra.</seg>
+<seg xml:id="AC8_14267.2">(16.30)</seg>
+<seg xml:id="AC8_14267.3">Végül, de nem utolsósorban itt vannak a magyar közélet politikailag transzneműnek tekinthető képviselő</seg>
+<seg xml:id="AC8_14267.4">(Derültség a kormánypárti sorokban.)</seg>
+<seg xml:id="AC8_14267.5">, akik lassan azt sem tudják már, hogy fiúke vagy lányok, jobboldalinak mondják ugyan magukat, de Gyurcsány Ferenccel szeretnének választási szövetséget kötni</seg>
+<seg xml:id="AC8_14267.6">Miniszterelnök Úr! Nem tartjae ön abszurdnak azt, hogy a liberális politika térnyerését minden eszközzel segítő társadalmi szervezetek több külföldi támogatást kapnak, mint összesen a legtöbb állami támogatást kapó magyarországi párt? Nem tartja ön ezt abszurd kérdésnek?</seg>
+<seg xml:id="AC8_14267.7">A másik kérdés pedig az, hogy betiltjuke ezt a káros gyakorlatot, amelynek a felszámolásáért én személy szerint évek óta küzdök, és jelenleg is azt teszem megjegyzem, 2016-ban a Jobbik elnökhelyettese, Gyöngyösi Márton még a Soros-szervezetek felszámolására törekvő javaslatot nyújtott be az Országgyűlésnek, egy évvel később már Soros György embereivel szervezett Brüsszelben konferenciát, én azonban maradtam az eredeti álláspont mellett , betiltjuke a külföldi finanszírozását ezeknek a szervezeteknek, vagy így marad minden. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban. Moraj.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-12-14-urgent_question-AC8_14314" who="#KrisztinaHohn" ana="#regular"><note>HOHN KRISZTINA (LMP):</note>
+<seg xml:id="AC8_14314.1">Köszönöm szépen a szót. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! 2014-ben indult egy nemzeti köznevelési infrastruktúra-fejlesztési program, amelynek keretében tornatermek, tantermek, tanuszodák épültek Magyarország oktatási intézményei számára. A program 2015-ben a Nemzeti Fejlesztési Minisztérium hatáskörébe került, 78 projektből áll, aminek összértéke 38,7 milliárd forint. Az EMMI-től kapott adatokból pedig kiderül, hogy 2020 augusztusáig ebből 71 beruházás meg is valósult. December 9-én a Magyar Közlönyben olvastam egy rendeletet többet is, de ez az egyik, amely felkeltette az érdeklődésemet , ez pedig az, hogy a Gödöllői Premontrei Apátság több mint 3,3 milliárd forintot kap hitéleti és köznevelési célú beruházásra, ami mindenképpen pozitív, hiszen minden beruházás, amely egy településen megvalósul, és ettől a település fejlődik, mindenképpen jó. Ezzel szemben viszont van egy Hajós Alfréd Általános Iskola, amelynek 670 tanulója van, és épülete komoly statikai gondokkal küzd már nagyon régóta: 12 évvel ezelőtt tervben volt ennek a felújítása.</seg>
+<seg xml:id="AC8_14314.2">Az akkori tankerületi vezető, Eich László is nagyon fontosnak tartotta ezt a beruházást végrehajtani. Ez egyébként egy önkormányzat által felajánlott területen valósult volna meg, egy teljesen új épületet építettek volna. Kiemelt célként volt kezelve, de sajnos a vezetőt közben leváltották, és a tárgyalásokat újra kell kezdeni.</seg>
+<seg xml:id="AC8_14314.3">Az egyik kérdésem, hogy miért kell újrakezdeni a tárgyalásokat, ha leváltják a vezetőt a tankerületi vezetőről beszélünk, akit nem az önkormányzat választ , illetve, hogy állami fenntartású lett az iskola, természetesen az állam kötelezett ennek a fenntartására és felújítására. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-12-14-urgent_question-AC8_14316" who="#ÁgnesVadai" ana="#regular"><note>DR. VADAI ÁGNES (DK):</note>
+<seg xml:id="AC8_14316.1">Köszönöm a szót. Tisztelt Ház! Miniszterelnök Úr! „A konzervatív kormányzás nem más, mint szervezett képmutatás” ezt Benjamin Disraeli miniszterelnök mondta, és ő már csak tudta, hiszen konzervatív kormányt vezetett. Az önök szervezetten képmutató kormányzásának egyik kedvenc témakörében, a nemzeti szuverenitás ügyében szeretném önt kérdezni. A nemzeti szuverenitás egyik fontos eleme az, hogy az államok a döntéseiket mások iránymutatásaitól függetlenül tudják meghozni. Ebben talán egyetértünk. Ennek egyik előfeltétele az, hogy azok, akik a döntéseket meghozzák, ne legyenek zsarolhatók. Márpedig, miniszterelnök úr, az ön környezete tele volt és van zsarolható emberekkel.</seg>
+<seg xml:id="AC8_14316.2">Hadd mondjak példát! Kiss Szilárd, aki megbukott a nemzetbiztonsági ellenőrzésen, azok után is hosszú ideig dolgozott az agrártárcánál. Vagy itt van Zaid Naffa, aki a terrorizmusért körözött Gaith Pharaonnal tartott szívélyes kapcsolatot, no meg önnel is, akinek a testvére aztán az önök kormányának a nagykövete. Aztán nyáron kiderült, hogy az önök soraiban bizony pedofil bűnelkövetők is megbújnak. Önök az adófizetők pénzét arra használták, hogy titokban hazahozzanak egy pedofilt, a volt perui nagykövet Kaleta Gábort, akinek aztán a mocskos, gyerekellenes bűncselekményeit megpróbálták egy ország előtt eltitkolni. És akkor pár hete robbant a bomba, amikor kiderült, hogy a Fidesz egyik alapítója, a nemzeti-keresztény Alaptörvény szerzője, jobboldali családapa és férj, Szájer József titokban illegális, drogos, csoportos szexorgiákra jár, megszegve a Covid-19 miatti kijárási korlátozásokat.</seg>
+<seg xml:id="AC8_14316.3">(16.00)</seg>
+<seg xml:id="AC8_14316.4">Ezeket, miniszterelnök úr, úgy hívják, hogy nemzetbiztonsági kockázat, és ez az, ami veszélyezteti a magyar nemzeti szuverenitást. Érdeklődni szeretnék, miniszterelnök úr, hogy mi történik a magyar titkosszolgálatoknál, és hány zsarolható ember dolgozik az ön környezetében, hány ilyen személlyel barátkozik. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a DK padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-12-14-urgent_question-AC8_14317" who="#LászlóVarju" ana="#regular"><note>VARJU LÁSZLÓ (DK):</note>
+<seg xml:id="AC8_14317.1">Elnök Úr! Tisztelt Ház! Köszönöm szépen a szót. Néhány napja már tudja az ország és a Fidesz szavazói is, hogy milyen terheket cipelt az az ember, aki az önök Alaptörvényét összetákolta egy vonatutazás keretében; azt az Alaptörvényt, amelyet a Demokratikus Koalíció soha nem fogadott el legitimnek. Szájer József írta ezt a saját számítógépén, az a Szájer József, aki egy illegális, drogos csoportos szexorgiáról menekült drogokat rejtő hátizsákjával.</seg>
+<seg xml:id="AC8_14317.2">(16.50)</seg>
+<seg xml:id="AC8_14317.3">Képmutatásuk nyilvánvaló, államtitkár úr. Önök egészen másként élnek, mint amit hirdetnek, vagy amit rákényszerítenek az emberekre és elvárnak tőlük.</seg>
+<seg xml:id="AC8_14317.4">Államtitkár Úr! Bizonyára ön is tudja, hogy Magyarország többsége, a demokraták számára eddig is elutasított volt ez a pártállami Alaptörvény. Mivel nincs két Fidesz, ezzel a lebukással mindannyian hiteltelenné váltak most már többedszerre. Önök egy olyan ember által lejegyzett törvényben akarják megmondani, ki az apa és ki az anya, és hogy mit jelent a család és a kereszténység, aki mindennek az ellenkezőjeként élt és cselekedett. És mivel ő nem az első és nem is az utolsó várhatóan, így az önök érzése, az ön érzése nem lehet más, mint hogy soha többé nem beszélhetnek sem keresztény értékekről, sem család szentségéről, amelyet egy férfi és egy nő egysége alkot. Önök lebuktak, önök megbuktak, államtitkár úr. Vonják vissza a törvényük módosítgatását, semmi értelme, mert a következő demokrata kormány úgyis egy új alkotmányt ad majd a hazának.</seg>
+<seg xml:id="AC8_14317.5">Kérdezem önt, ugye, befejezik az Alaptörvény újabb gyalázatokkal történő kiegészítését, módosítgatását, tisztelt államtitkár úr. Köszönöm szépen. Várom válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-12-14-urgent_question-AC8_14318" who="#AnettBősz" ana="#regular"><note>BŐSZ ANETT (DK):</note>
+<seg xml:id="AC8_14318.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! „Nagyon rossz irányba tendál a járvány, gyorsvonatként rohanunk a vesztünkbe.” Ez a mondat október elején, a járvány második hullámáról rendezett online konferencián hangzott el Jakab Ferenc virológusprofesszortól. A tudóst Orbán Viktor miniszterelnök bízta meg a koronavírus-kutatási akciócsoport vezetésével, aligha tekinthető tehát a professzor úr a kormány kimondott politikai ellenségének. Haladéktalanul cselekednünk kell, mert sokkal többen fognak megbetegedni és kórházba kerülni Covid-fertőzés következtében tette hozzá akkor Jakab Ferenc. Orbán Balázs államtitkár úr ezt a kijelentést másnap riogatásnak nevezte. A napi megbetegedések száma akkoriban 1300 körül járt, de volt már azóta 7000 közelében is. A kórházakban mintegy 750 fertőzöttet ápoltak akkor, a naponta elhunyt honfitársaink száma pedig még nem érte el akkor a 20-at. Azóta a számok vészjóslóan emelkedtek, mostanában mindegyik adat többszörösét találjuk: a tegnapi adatok szerint 3470 fővel emelkedett az új aktív fertőzöttek száma, és 165 beteg hunyt el.</seg>
+<seg xml:id="AC8_14318.2">Jakab professzor ezzel egyidejűleg szigorítást, komolyabb járványügyi intézkedést sürgetett, értelmetlennek nevezte az intézménybe történő belépés előtti lázmérést. A kormány azóta több intézkedést is bevezetett, a kötelező maszkviselést a szabadtéri rendezvényeken, a kijárási tilalmat éjszakánként, üzletek korábbi zárását, az idősek vásárlási idősávját, ám a járvány terjedésére egyik intézkedés sem volt érdemi hatással.</seg>
+<seg xml:id="AC8_14318.3">Változatlanul keveset tesztelünk, a fertőzöttek leginkább elhagyatottnak és magányosnak érzik magukat, főleg akkor, amikor magas lázzal és tünetekkel várják odahaza a mentőt, hogy végre megérkezzen hozzájuk egy csapat, amely leteszteli őket.</seg>
+<seg xml:id="AC8_14318.4">Kérdezem önt tisztelettel, államtitkár úr: ha most lenne október eleje, hallgatnának erre a szakemberre? Várom válaszát</seg>
+<kinesic type="applause"><desc>Szórványos taps az ellenzék soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-12-14-urgent_question-AC8_14319" who="#ZitaGurmai" ana="#regular"><note>DR. GURMAI ZITA (MSZP):</note>
+<seg xml:id="AC8_14319.1">Köszönöm szépen. Tisztelt Elnök Úr! Képviselőtársaim! Miniszterelnök úr! Tavaly óta tudjuk, hogy ön konkrét válasz helyett szeret boldog karácsonyt kívánni. Kérdezem önt, most mit kíván a magyar családoknak, mert a karácsony nyugalmát épp a Fidesz tette tönkre, önök, akik érdemi intézkedések nélkül hagyják tombolni a járványt, pedig ha tömegesen tesztelték volna az embereket, kiderülhetett volna, hogy ki a beteg, és ki nem. S ha emellé még százszázalékos táppénzt is adnának a megbetegedett dolgozóknak, akkor a jövedelemkieséstől való félelmében senki sem utasítaná el a szűrést, mint ahogy tették azt például a pedagógusok, akiknek önök csak ígérték a teljes összegű táppénzt, de a valóságban nem adták meg nekik. Ha önök tömegesen tesztelték volna az embereket, és százszázalékos táppénzt adtak volna nekik, akkor most karácsony előtt mindenki tudná, hogy kinek kell otthon maradnia, és ki az, aki egészséges. De még nem késő, hogy az emberekben ne legyen ott a félelem, hogy a karácsonyi ajándékozásból pár hét múlva fájdalom és gyász lehet. Fogadjuk meg az MSZP javaslatát, és állítsanak fel több ezer koronavírus-tesztelő pontot az országban, ahol a lakosság ingyenesen és önkéntesen vizsgáltathatja meg magát! Ez nemcsak az emberek nyugalmát növelné, hanem a vírus terjedését is lassítaná. Van egy másik javaslatunk is, hogy azok a szülők, akik a koronavírus miatt elvesztették a munkahelyüket, kapjanak gyermekenként 50 ezer forintot, így talán kicsit boldogabb lehetne ez az ünnep.Miniszterelnök úr, ön az idei karácsonyból kispórolta a nyugalmat, mivel teljes felhatalmazást kapott, ezért ön a felelős. Ezért most kérdezem önt, miután a karácsonyt és a szilvesztert már jól elrontott</seg>
+<seg xml:id="AC8_14319.2">(Moraj a kormánypárti sorokból.)</seg>
+<seg xml:id="AC8_14319.3">, hogyan, milyen intézkedésekkel kívánja biztosítani az emberek nyugalmát az új esztendőben, mert önnek a boldog karácsonyt meg a boldog új évet nemcsak kívánnia kellene, hanem tenni is érte, ha képes erre. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-12-14-urgent_question-AC8_14320" who="#TamásHarangozó" ana="#regular"><note>DR. HARANGOZÓ TAMÁS (MSZP):</note>
+<seg xml:id="AC8_14320.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Miniszterelnök Úr! Sok aktuális kérdés van mostanában, de én nem kívánok foglalkozni sem a vétóval, sem a Brüsszelben történtekkel, azzal kívánok foglalkozni, ami a legaktuálisabb ma Magyarországon. A legaktuálisabb, mert több mint 7 ezer honfitársunkat vesztettük el az elmúlt időszakban, és ezeknek a döntő többségét az elmúlt néhány hétben; aktuális, mert 283 ezer honfitársunk van hivatalosan kimutatva, hogy elkapta a fertőzést, de mindannyian tudjuk, hogy ez inkább a millióhoz közelít a valóságban. Miniszterelnök úr, bár Gurmai képviselőtársam két vagy három nagyon konkrét kérdést tett föl önnek, ön profin, de mégis azt kell mondanom, hogy nem elfogadható módon ismét elkerülte, hogy mindegyikre választ adjon, ezért nagyon egyszerűen, mindenféle pártpolitikai maszlagot, egymás sárdobálását is mellőzve kérdezném miniszterelnök urat, mint aki a felelős a védekezésért, a rendelet szerint is: miért nem hajlandók megadni a 100 százalékos táppénzt legalább a veszélyhelyzet 90 napjára azoknak az embereknek, akik igazoltan koronavírus-fertőzöttek vagy közvetlen kontaktok, hogy ne kelljen a táppénz miatt egyébként azt az utat választaniuk, hogy betegen járnak dolgozni vagy csökken a fizetésük?</seg>
+<seg xml:id="AC8_14320.2">Kettő: miniszterelnök úr, hajlandó lennee ott van a 133 bátor ember ön körül, egy gombnyomásukba kerül azt a javaslatunkat most az egyszer itt advent időszakában megfogadni, hogy aki idén a koronavírus-járvány miatt elvesztette az állását és gyermekeket nevel, azokba a családokba most karácsony előtt még gyermekenként egyszeri 50 ezer forintot adjunk, hogy minimálisan méltósággal tudjanak ünnepelni. Várom válaszát, miniszterelnök úr</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-12-14-urgent_question-AC8_14321" who="#LászlóVarga" ana="#regular"><note>DR. VARGA LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC8_14321.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! A mai nap számos ellenzéki frakcióból elhangzottak, azt gondolom, konstruktív javaslatok a járvány társadalmi és gazdasági hatásának enyhítésére. Egy közös pont mindegyik javaslatban volt, az, hogy nem támogatja ezeket a javaslatokat a kormány, tulajdonképpen azt nézi, hogy honnan érkeztek, nem azt, hogy mit okoznának. Ilyen javaslat volt az, amit Szabó Sándor képviselőtársammal nyújtottunk be a Költségvetési bizottságba azonban a fideszes képviselők el sem jöttek , ez a javaslat az önkormányzati támogatás mértékét, az önkormányzatoknak a forrásait növelte volna, hiszen a gépjárműadót, a 40 százalékát helyben hagyta volna, és természetesen a tömegközlekedés támogatását is meghagyta volna a korábbiaknak megfelelően. Vannak azonban az élet egyéb területét is érintő javaslataink. Önök türelmet kérnek az emberektől, azt kérik mindenkitől, hogy változtassanak a szokásaikon, mert ez egy ilyen év. Én is azt kérem önöktől, hogy változtassanak a szokásaikon, jöjjenek ki a komfortzónából, és támogassanak javaslatokat, így például azokat is, amelyeket elmondtam az önkormányzatokat érintőleg.</seg>
+<seg xml:id="AC8_14321.2">De felvetnék még két javaslatot, amelyeket én abszolút támogathatónak érzek ebben az időszakban, még akkor is, hogyha az önök politikája eredendően ezzel ellentétes. Azt javaslom, emeljék meg az álláskeresési támogatás időtartamát kilenc hónapra, és annak minimumösszegét százezer forintra ezt az MSZP frakciója már tavasszal is javasolta. Egy ilyen helyzetben, ha ideiglenesen is, de ennek nagyon komoly szerepe lenne abban, hogy az emberek egzisztenciális biztonságban érezhessék magukat. És egy másik javaslatunk, amely egyébként a járvány terjedését is korlátozná, az pedig a százszázalékos táppénz. Gondoljon bele, hogy ha százszázalékos táppénzt kapnának az emberek, akkor nem félnének akár tesztet elvégeztetni vagy otthon maradni, nem tartanának attól, hogy a bérüknek csak a 60 százalékát kaphatják me</seg>
+<kinesic type="signal"><desc>Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC8_14321.3">a táppénz időtartama alatt.</seg>
+<seg xml:id="AC8_14321.4">Kérdezem, államtitkár úr, el tudnánake fogadni ilyen típus</seg>
+<seg xml:id="AC8_14321.5">ellenzéki javaslatokat. Köszönöm, elnök úr</seg>
+<kinesic type="applause"><desc>Taps a DK és a függetlenek soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-12-14-urgent_question-AC8_14322" who="#IstvánSimicskó" ana="#regular"><note>DR. SIMICSKÓ ISTVÁN (KDNP):</note>
+<seg xml:id="AC8_14322.1">Köszönöm szépen, elnök úr. Tisztelt Képviselőtársaim! A tavasszal indult pandémia sajnos világszerte szedi áldozatait, a magyar orvosok, ápolók, egészségügyi dolgozók emberfeletti teljesítményt, hősies helytállást mutatnak, és amíg a kormány mindent megtesz annak érdekében, hogy minél gyorsabban és minél biztonságosabb, szövődményektől mentes oltóanyagot tudjon beszerezni, eközben a baloldali vezetésű önkormányzatok mit is tesznek: megszorításokat alkalmaznak, adó- és díjemeléseket vezetnek be, drasztikus elvonásokat jelentenek be, egy sor baloldali vezetésű önkormányzatban teszik mindezt. Így tettek Budapesten, az V. kerületben, a VII. kerületben, a VIII. kerületben, a XI. kerületben, a XV. kerületben, Miskolcon, Egerben, Ózdon, Gyöngyösön, Vácott, Baján, és még hosszasan sorolhatnám, hogy a baloldali vezetésű önkormányzatok megszorításokat vezetnek be, illetve szándékukban áll ennek a bővítése. Egyértelmű, hogy a baloldali válságkezelés azt jelentette mindig is és most napjainkban meg különösen, hogy a veszteségeket a lakosságra, helyi vállalkozásokra akarják terhelni.</seg>
+<seg xml:id="AC8_14322.2">Szeretnék egy konkrét példát említeni, tisztelt képviselőtársaim, Újbuda DK-s polgármestere, László Imre, aki a közterek elnevezésének nagy polihisztora ugye, emlékszünk, hogy hitlerezett is annak idején , nyilván jó baloldali dogma gyakorlójaképpen alkalmazni kívánja a járvány kellős közepén azt az adóprést, amely a telekadó és az építményadó 30 százalékos megemelését jelenti példátlan, meg kell hogy mondjam.</seg>
+<seg xml:id="AC8_14322.3">És azt hiszem, hogy amikor látjuk, hogy a kormány hogyan menti meg a munkahelyeket, akkor természetesen azt is látjuk, hogy az elmúlt időszakban, miközben a kormány 800 ezer munkahelyet létesített, addig Újbudán is sikerült két munkahelyet létesíteni.</seg>
+<seg xml:id="AC8_14322.4">Ez pedig a kétfős alpolgármesteri széket négyre növelte, tehát kettő helyett négy alpolgármester van, és még jutott arra is, hogy Gyurcsány Ferenc ügyvédjét, Czeglédy Csabát is egy zsíros megbízási szerződéssel ajándékozza meg.</seg>
+<seg xml:id="AC8_14322.5">Tehát tisztelettel azt kérdezném, igenis gátat kell szabni ezeknek a baloldali önkormányzati vezetésű megszorító csomagoknak: mit tesz a kormány a baloldali megszorításokkal szemben, milyen további gazdaságvédelmi intézkedések várhatók a jövőben a kormány részéről? Köszönöm szépen előre is a válaszát, államtitkár úr</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-12-14-urgent_question-AC8_14323" who="#IstvánHollik" ana="#regular"><kinesic type="noise"><desc>HOLLIK ISTVÁN (KDNP): Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A koronavírus-járvány és az ellene zajló védekezés az élet minden területére kihatással van, így a budapesti tömegközlekedésre is. A járvány elleni védekezés itt, ebben az esetben azt jelenti, hogy sűríteni kell, pontosabban kéne a járatokat annak érdekében, hogy elkerülhetőek legyenek a tömegjelenetek a buszon. Ez elsőre nem sikerült a városvezetésnek, hiszen ritkítani kezdte a járatokat ahelyett, hogy az ellenkezőjét tette volna.</desc></kinesic>
+<seg xml:id="AC8_14323.1">A buszos közlekedésben ugyanakkor nem tudtak, ha akartak volna sem, járatokat sűríteni, mert kiderült, hogy ahhoz a BKV-nak nem volt elég busza. Ezért kiírtak buszbeszerzésre egy közbeszerzést, ami viszont egy csúnya buszmutyivá vált, hiszen a semmiből feltűnt egy bátor vállalkozó szellemű cég, és mint a mesékben, a semmiből ő lett a győztes. Miért mondom azt, hogy a semmiből? Mert kiderült, hogy a cég nem is létezett, mikor a közbeszerzést kiírták, alkalmazottja nem volt, és busza sem volt. De ha ez nem lenne elég, a cég offshore hátterű volt, ráadásul Tüttő Kata főpolgármester-helyettes asszony volt élettársának, Leisztinger Tamásnak volt az érdekeltsége. Ez nyilván csak véletlen lehet.</seg>
+<seg xml:id="AC8_14323.2">Az viszont már csak hab a tortán, hogy a cég hamis adatokkal adta be a pályázatát, kamu buszalvázszámokat feltüntetve benne. Ez már Karácsony Gergelynek is annyira kínos volt, hogy azt mondta, hogy nem kötnek szerződést ezzel a céggel. Ezzel az állítással csak egy gond volt, hogy hazugság, hiszen a szerződést már egy hónapja megkötötték.</seg>
+<seg xml:id="AC8_14323.3">(17.20)</seg>
+<seg xml:id="AC8_14323.4">De az egésznek mi a végeredménye? Az, hogy hónapok teltek el a tragikomédiába forduló buszmutyival, de a szükséges buszok még mindig sehol. Azt szeretném kérdezni, államtitkár úr, hogy ki ezért a felelős. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-12-14-urgent_question-AC8_14324" who="#BarnaPálZsigmond" ana="#regular"><note>DR. ZSIGMOND BARNA PÁL (Fidesz):</note>
+<seg xml:id="AC8_14324.1">Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tisztelt Ház! A hazai baloldal európai parlamenti képviselői az elmúlt években folyamatosan azon dolgoztak, hogy minél nehezebb helyzetbe hozzák Magyarországot. Brüsszelben sokszor azt is követelték, hogy az Unió vegye el a magyar embereknek járó uniós forrásokat, sőt azt is szorgalmazták, hogy büntetést is kiszabjanak hazánkra. Emlékszünk, sikertelenül próbálták megakadályozni azt, hogy a Bizottságban Magyarország kapja az egyik legbefolyásosabb tárcát, a bővítési tárcát, idén tavasszal pedig, amikor az ország a koronavírus első hullámával küzdött, azt hazudták mindenkinek, hogy a magyar parlament bezárt, és nem működik. Az elmúlt hetekben pedig minden korábbinál erőteljesebb támadást intéztek a magyar emberek ellen, de ezúttal is elbuktak. Magyarország győzött. Amióta csak kikerült az Európai Parlamentbe, a Magyarország elleni kampányoknak Gyurcsány Ferenc felesége, Dobrev Klára a vezéralakja. Az elmúlt hetekben a Facebookon indított lejárató kampányt Magyarország ellen, ahol álhírekkel támadja a járvány elleni védekezést, és azokat az egészségügyi dolgozókat is, akik hősiesen küzdenek a magyar emberek megmentése érdekében.</seg>
+<seg xml:id="AC8_14324.2">Tisztelt Ház! Érdekes megnézni, hogy honnan érkezik a pénz erre a Magyarország elleni kampányra. Kisebb részben persze a családi cégből, a DK-ból, nagyobb részben azonban egyenesen Brüsszelből. Igen, a facebookos hirdetéseket kétharmadrészben külföldről finanszírozzák.</seg>
+<seg xml:id="AC8_14324.3">Nem kevés pénzről van szó! Gyurcsányné a múlt héten átlagosan napi 1 millió forintot költött a hazugságkampányra. Lejárató kampányát, hirdetéseit a bevándorláspárti erők finanszírozzák. Nem ez az első alkalom, hogy Gyurcsány Ferenc és felesége szövetséget köt a Soros-hálózattal, és velük együtt támad saját hazájára. Dobrev Klára korábban azt is támadta, hogy az EU pénzt adjon Magyarországnak a határvédelemre, mert ő és a baloldal beengedné a bevándorlókat.</seg>
+<seg xml:id="AC8_14324.4">Tisztelt Államtitkár Úr! Sajnos nincs olyan nemzetközi támadás hazánk ellen, amely mögé a hazai baloldal ne állna be örömmel. Mit lehet tenni a baloldal Magyarország ellen folytatott rágalomkampány</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret lejártát.</desc></kinesic>
+<seg xml:id="AC8_14324.5">ellen? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-12-14-urgent_question-AC8_14330" who="#TiborNunkovics" ana="#regular"><note>NUNKOVICS TIBOR (Jobbik):</note>
+<seg xml:id="AC8_14330.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Ház! Tisztelt Államtitkár Úr! A kormányzat gyakran hangoztatja, hogy mennyit fordítanak válságkezelésre, és esküszöm, most nem szeretnék ilyen számháborúba belemenni, viszont nemrég egy felhívást tettem közzé a Facebook-oldalamon, amelyben vártam az emberektől, hogy osszák meg velem a tapasztalataikat, hogy ők mégis hogyan élik meg a válság és a járvány tükrében ezt a mostani, igen nehéz időszakot. Nyilván amellett, hogy rengetegen számoltak be arról, hogy elvesztették az állásukat, vagy éppen csökkentett munkaidőben tudnak csak dolgozni, nagyon sokan elmondták, hogy sajnos a szabadságuk egy jelentős része elveszett ebben az évben, nyilván önhibájukon kívül, hiszen tavasszal, vagy éppen most ősszel a járványhelyzet miatt a cégeknek kevesebb megrendelésük volt, és a szabadságokat, a fizetett szabadságok egy jelentős részét vagy volt, akinél majdnem a teljes részét már kivetették a munkavállalókkal. Éppen ezért én a múlt héten benyújtottam egy javaslatot, amelynek az lett volna a lényege, hogy december 24. és december 31. között azt a pár munkanapot, amely munkanap lenne, nyilvánítsuk államilag fizetett munkaszüneti nappá ebben az évben, a járványra való tekintettel, és azokban a szektorokban, ahol egyébként téli leállást terveznének. A javaslatban még azt is megfogalmaztuk, hogy igazából a kormányzat döntse el, hogy melyek ezek a szektorok, a kormányzat jelölje ki azokat a szektorokat, amelyekben ezt egyszeri alkalommal alkalmazni lehet.</seg>
+<seg xml:id="AC8_14330.2">Érzékeltetve a súlyát, tehát ha egy munkavállaló a decemberi átlagos 19-20 munkanap helyett csak 10-12 munkanapot fog ledolgozni, akkor jelentős fizetéscsökkenéssel számolhat majd januárban, ez a hatás pedig egyébként a nemzetgazdaság egészére begyűrűzhet, ha teszem azt, egymillió magyar munkavállaló csak feleannyit tud majd elkölteni januárban a boltokban</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC8_14330.3">Az kérdezem államtitkár úrtól, hogy támogatnae egy olyan javaslatot, illetve tervezneke olyan rendeletet, amely ezt a javaslatot hozná be. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-12-14-urgent_question-AC8_14331" who="#TimeaSzabó" ana="#regular"><note>SZABÓ TIMEA (Párbeszéd):</note>
+<seg xml:id="AC8_14331.1">Miniszterelnök úr, ha már sunnyogás. Szájer József két nappal az előtt, hogy kiderült volna, hogy egy drogos tömegszexpartin vett részt, ahonnan meztelenül egy ereszcsatornán menekült a rendőrök elől, azt nyilatkozta, hogy azért mondott le EP-mandátumáról, mert lelkileg elfáradt. Aztán kiderült, hogy hazudott Szájer József, az önök Alaptörvényének szerzője, mert egy drogos szexparti miatt mondott le. Persze, nem azért, mert megbánta, hogy így él, hanem azért, mert lebukott.</seg>
+<seg xml:id="AC8_14331.2">(16.10)</seg>
+<seg xml:id="AC8_14331.3">Ön azt nyilatkozta, és ezt most meg is ismételte, hogy „a mi politikai közösségünk értékrendjébe nem fér bele ez a viselkedés, amit Szájer József tett”.</seg>
+<seg xml:id="AC8_14331.4">Miniszterelnök úr, mondja meg nekünk azt őszintén, hogy tudotte ön arról, hogy Szájer József negyven éve nem a szerint az Alaptörvény szerint és azok szerint a keresztény-konzervatív értékek szerint él, amelyet ő szövegezett, vagy nem tudott. Tudott arról, hogy Szájer ilyen életmódot folytatott, vagy ez után a botrány után tudta meg, miniszterelnök úr? Köszönöm a válaszát</seg>
+<kinesic type="applause"><desc>Taps az ellenzék soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-12-14-urgent_question-AC8_14332" who="#OlivioKocsis-Cake" ana="#regular"><note>KOCSIS-CAKE OLIVIO (Párbeszéd):</note>
+<seg xml:id="AC8_14332.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Novák Katalin ma kirakott egy videót, ahol enyhén szólva nagyon szerencsétlenül fogalmaz a női egyenjogúsággal kapcsolatban. Sajnos a Fidesz-kormánytól nem állnak távol ezek a nőket lebecsmérlő kifejezések. Amikor Orbán Viktort kérdezték nem olyan rég egy női nagykövet kinevezéséről, akkor csak annyit mondott, hogy ő nőügyekkel nem foglalkozik. És sorolhatnám a hasonló, nőket lebecsülő fideszes kifejezéseket.Most pedig Novák Katalin tanácsot ad a nőknek arról, hogy mit ne tegyenek. Ahogy ő fogalmaz, például ne higgyék el, hogy legalább olyan beosztásban is akkora fizetéssel kell rendelkezniük, mint a férfiaknak.</seg>
+<seg xml:id="AC8_14332.2">Tisztelt Államtitkár Úr! Nem tudom, tudjae, hogy az Eurostat felmérése szerint Magyarországon a nőknek több mint 14 százalékkal kevesebb az órabére, mint a férfiaknak. Ilyen égbekiáltó igazságtalanságok mellett pont az ellenkezőjét kéne mondania egy családügyi miniszternek.</seg>
+<seg xml:id="AC8_14332.3">De ezzel az is a probléma, hogy aki hallgatja ezt a mondatot, egy fiatal, tehetséges nő hallgatja ezt a mondatot, akkor ez a mondat számára azt jelzi, hogy fogadja csak el, hogy hiába tehetséges, hiába dolgozik sokat, ha kevesebbet visz haza, mint egy férfi, azzal nincsen baj, mert ő egy nő, sőt, ez így teljesen rendben van, fogadja csak ezt el.</seg>
+<seg xml:id="AC8_14332.4">Tisztelt Államtitkár Úr! Ez a mondat sok százezer fiatal, tehetséges nő álmát teszi tönkre. Tisztelt Államtitkár Úr! Mit gondol a kormány erről a kijelentésről? Leveszike ezt a videót, korrigáljáke ezt a szerencsétlen kijelentést? És biztosítjae a kormány a nőket, hogy arra fog törekedni a jövőben, hogy a nők és a férfiak között ne legyen semmilyen megkülönböztetés? Várom válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-12-14-urgent_question-AC8_14336" who="#MátéKocsis" ana="#regular"><note>KOCSIS MÁTÉ (Fidesz):</note>
+<seg xml:id="AC8_14336.1">Köszönöm szépen a szót, tisztelt elnök úr. Kár, hogy Szabó képviselő asszony kiment, mert csupa-csupa olyan ügyről lesz szó, ami a pártbeli szövetségeseit érinti, ugyanis nincs megállás a lejtőn: a kispesti kokainbotrány, az áramlopás vagy a Karácsony-féle buszmutyi után itt van a cigicsempészet. Legény Zsoltot, aki az MSZP etikai bizottságát vezeti mi mást vezethetne egyébként</seg>
+<seg xml:id="AC8_14336.2">(Derültség a kormánypártok soraiban.)</seg>
+<seg xml:id="AC8_14336.3">, csütörtökön kapcsolták le a magyar-ukrán határon, tele volt az autója csomagtartója cigarettával, amiről azt mondta, hogy ő nem tudott róla, csak úgy ott volt. A határőröknek ráadásul azt mondta, azt hazudta, hogy a beregszászi konzulátus munkatársa tette ezt azért, hogy megússza a vámvizsgálatot.</seg>
+<seg xml:id="AC8_14336.4">Simon Gábor és a Bissau-Guinea-i útlevelek óta tudjuk, hogy a baloldaliak sajátos viszonyt ápolnak az útlevelekkel, de jó hír, hogy Lackner Csabától eltérően Legény Zsoltot legalább felismerték</seg>
+<seg xml:id="AC8_14336.5">Amikor 2014-ben Legény Zsolt elmondta a „Hol a dohány?” című parlamenti felszólalását, akkor nem tudtuk, hogy ilyen mértékben érintett az ügyben</seg>
+<kinesic type="applause"><desc>Derültség, taps a kormánypártok soraiban.</desc></kinesic>
+<seg xml:id="AC8_14336.6">A kérdés az, minekutána Gyurcsány Ferenc szándékainak megfelelően egyesült és amit aztán a saját szemünkkel is láthatunk összeborult a teljes baloldal, mégiscsak felmerül a kérdés, tisztelt államtitkár úr, hogy hány Legény Zsoltnak van még diplomata-útlevele, tesze bármit a Külügyminisztérium azért, hogy az ilyen Legény Zsoltoknál ne legyen diplomata-útlevél, és kívánjáke a diplomata-útlevelek kiadásának a rendjét felülvizsgálni. Nem zárom ki ugyanis, ismerve az előbb felsorolt ügyek sokaságát és a baloldali mechanizmusokat, hogy Legény Zsolt egyedül lenne ezzel a bűnnel, és nem zárom ki azt sem, hogy mások is élnek ezzel vissza. Várom az államtitkár úr válaszát. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

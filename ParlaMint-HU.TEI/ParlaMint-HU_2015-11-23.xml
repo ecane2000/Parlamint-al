@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2015-11-23" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2015-11-23 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2015-11-23 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="3092" unit="words">3092 szó</measure>
+        <measure xml:lang="en" quantity="3092" unit="words">3092 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2015-11-23">2015. 11. 23.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="50"/>
+          <tagUsage gi="kinesic" occurs="10"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2015-11-23">2015-11-23</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2015-11-23-urgent_question-AC7_7342" who="#LászlóKiss" ana="#regular"><note>KISS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_7342.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Régóta van vitája az MSZP-nek a kormánnyal abban, hogy annak a vízfejnek, amelyet önök létrehoztak a közoktatás irányítására, van-e értelme. Úgy látjuk, hogy nincs, és a tények is ezt bizonyítják.</seg>
+<seg xml:id="AC7_7342.2">Hatalmasra nőtt a KLIK adósságállománya, és ugyan ennek valamekkora részét valóban sikerült csökkenteni a nyáron, de azt lehet mondani, hogy a közoktatás működőképességét a mai napig veszélyezteti a KLIK milliárdos adóssága. Bármit is állítanak önök itt, tény az, hogy folyamatosan tartoznak több száz, több ezer pedagógusnak tankönyvfelelősi pótlékkal, érettségi pótlékkal tartoztak és tartoznak, költségtérítések visszafizetésével, illetve jubileumi jutalmak kifizetésével. Ezek a tartozások nemcsak nálunk, Óbudán, hanem az egész országban megvannak.</seg>
+<seg xml:id="AC7_7342.3">Továbbra is jelentős problémák vannak a most debütáló pedagógus-önértékelési rendszerrel is, amely ellen az iskolák jelentős része tiltakozik. Továbbra is fennállnak a problémák a hullámzó színvonalú, az új tanterv miatt, gyorsan elkészített tantervek alapján elkészített tankönyvekkel is, amelyek egy részét külön eljárásokban engedélyezték, majd a külön eljárások miatt, mondjuk úgy, nem teljesen egyenletes színvonalú tankönyvek elkészítése után ezeket nem váltották fel újabb, jobb, modernebb, nem pillanatok alatt elkészített tankönyvek.</seg>
+<seg xml:id="AC7_7342.4">Lehetne sorolni a problémákat. Lehetne beszélni arról is, hogy továbbra is megoldatlan a tartós tankönyvek helyzete. Továbbra is megoldatlan az, hogy a diákok e-tankönyvekből tanulhassanak. Megoldhatatlan továbbra is az, hogy a tartós tankönyvek engedélyeztetési eljárásában a munkafüzetek szerepet kapjanak. Válaszoljon, kérem, miniszter úr, hogy milyen megoldásaik vannak</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-11-23-urgent_question-AC7_7790" who="#ZoltánMagyar" ana="#regular"><kinesic type="noise"><desc>MAGYAR ZOLTÁN (Jobbik): Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Képviselőtársaim! Egy hete zajlanak azok az árverések, amelyeken a kormány eljátssza az utolsó nemzeti vagyont, mégpedig az állami tulajdonú termőföldet.</desc></kinesic>
+<seg xml:id="AC7_7790.1">Az ellenzék részéről sok mindent vártunk, hiszen jól tudtuk, hogy bizony nem céltalan ez az árverés. Bebizonyítottuk egyébként egy vitanap keretében, illetve több felszólalásban is, hogy itt olyan szándékok lehetnek a háttérben, hogy kormány közeli érdekeltségek, illetve az önök oligarchái jussanak nagy darab állami földekhez. De megmondom őszintén, arra még én sem számítottam, hogy még ezen is túlmennek, és olyan dokumentumok alapján próbálják meg az árveréseket véghezvinni, amelyek hamis adatokat tartalmaznak. A múlt héten robbant a hír, hogy több olyan földterület van, amelynek a kiírásakor teljesen más adatokat mutattak meg a pályázók számára, mint amit egyébként a földhivatali adatok tartalmaztak.</seg>
+<seg xml:id="AC7_7790.2">Nagyon kíváncsiak lennénk arra, hogy milyen szándékok állnak a háttérben, illetve hogy a kormány az eltelt néhány napban megtette-e a szükséges lépéseket.</seg>
+<seg xml:id="AC7_7790.3">(13.40)</seg>
+<seg xml:id="AC7_7790.4">Röviden azt követeljük, hogy minden ilyen pályázatot tüzetesen nézzenek át, hasonlítsák össze a tulajdoni lapon szereplő adatokkal. Az mégiscsak elképesztő, hogy úgy kínálnak akár 100-150 millió forintos értékű ingatlanokat is eladásra, hogy közben hazugságokat tartalmaz a kiírás. Kinek állhatott érdekében az, államtitkár úr, hogy húsz évvel később lejáró bérleteket mutogatnak, ilyen területeket kínálnak eladásra, mindeközben pedig jól látható módon olyan kormány közeli érdekcsoportok feszülnek rá ezekre az állami területekre, amelyeket szó szerint még a korábbi kommunikációjukban ki akartak zárni, és a helyben élő családi gazdálkodók megélhetését akarták ezen területekkel biztosítani?</seg>
+<seg xml:id="AC7_7790.5">Ehhez képest ma azt látjuk, hogy gyakorlatilag egy bandaháború szintjére züllesztették le az állami földeladást. A Jobbik természetesen a továbbiakban is abban érdekelt, hogy a helyben élő családi gazdálkodók műveljék ezeket a területeket, és elutasítjuk azt, hogy mindenféle adathamisításokkal próbáljanak meg trükközni, és így juttassák aztán a területeket a saját haverjaikhoz.</seg>
+<seg xml:id="AC7_7790.6">Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-11-23-urgent_question-AC7_7792" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC7_7792.1">Tisztelt Elnök Úr! Tisztelt Ház! A Jobbik - mint korábban jelezte - támogatja azt a fájdalomcsillapítónak is tekinthető lépést, ami a Fidesz aláírásgyűjtő-kampányát illeti migrációs témában, hiszen bár a nemzetközi térben ez nem kötelez igazából senkit semmire, ennek a legitimációs ereje sokkal korlátozottabb, mint a Jobbik javaslataié, mégis azt kell mondjuk, egy jó irányba mutató lépésről van szó, ahol felül kell emelkednünk az abszolút pártpolitikai érdekeken.</seg>
+<seg xml:id="AC7_7792.2">Ugyanakkor egy ennél egy fokozattal erősebb módszert is a kormányzat figyelmébe ajánlottunk, mégpedig egy olyan országos népszavazást, amelynek értelmében közvetlen módon - nemcsak, mondjuk, nemzeti konzultációs jelleggel, abszolút egy párttal szimpatizáló erőket, hanem minden választópolgárt megkérdezve - egy olyan legitimációs erőt lehetne behozni a magyar politikai erőtérbe, amely adott esetben nemcsak ezt, de a mindenkori magyar kormányt kötelezi arra, hogy bizony a magyar választópolgárok által kikövezett úton járjon, abban a mederben maradjon, amelyet a magyar választók egyértelmű akarata határolt körbe, hiszen álláspontom szerint 90 százalék fölötti lenne azok aránya, akik elutasítanák, hogy akár kvóta alapján, akár visszatoloncolások útján bármilyen idegen országból származók tömegeit telepítsék Magyarországra.</seg>
+<seg xml:id="AC7_7792.3">(14.10)</seg>
+<seg xml:id="AC7_7792.4">Annak érdekében, hogy egy ilyen országos népszavazást kezdeményezhessünk, bizonyos jogi aggályokat el kellett hogy mossunk. Ennek útja pedig csak és kizárólag egy alaptörvény-módosításon keresztül lehetséges.</seg>
+<seg xml:id="AC7_7792.5">Az is látható, hogy a Jobbik ezen alaptörvény-módosító kezdeményezését már jóval a párizsi események előtt benyújtotta. Megdöbbenéssel álltunk ugyanakkor az előtt, hogy a kormányzat és az Igazságügyi bizottság nem is vette ezt napirendjére.</seg>
+<seg xml:id="AC7_7792.6">Végül ez a mai napon megtörtént. A mai napon viszont ez a bizottság nem engedett teret a Jobbik kezdeményezésének, tehát nem akarta ez a bizottsági többség közvetlen módon, egy országos népszavazáson megkérdezni a magyar embereket arról a társadalmi és hosszú távon a társadalom szociokulturális mélyszöveteibe ható kérdésről, amely együttélésünk feltételeit hosszú távon befolyásolja.</seg>
+<seg xml:id="AC7_7792.7">Adódik tehát a kérdés: miér</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret lejártát.</desc></kinesic>
+<seg xml:id="AC7_7792.8">nem hajlandó a kormányzat közvetlen véleménynyilvánítást kérni a magyar választópolgároktól ezen ügyben</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-11-23-urgent_question-AC7_7794" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_7794.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! 2014-ben még azt mondták, hogy önök Brüsszellel mindent egyeztettek, és minden rendben van. Mára látjuk, hogy minden azért mégsem, sőt, ahogy telnek a napok, egyre többet látunk ebből. Az üzemanyag-szállításról szóló szerződést gyakorlatilag fel kellett bontani és újra kellett írni, önök teljesen meghátráltak, és mindent elfogadtak, amit az Európai Unió kért, például azt is, hogy most már a kiégett fűtőelemeket nem lehet visszavinni Oroszországba, hanem kérdés, hogy mi lesz velük, hacsak nem akarnak önök Magyarországból egy nukleáris temetőt csinálni.</seg>
+<seg xml:id="AC7_7794.2">Azóta két kötelezettségszegési eljárás indult meg, az egyiket már múlt héten nyilvánosságra hozták, hogy a közbeszerzési szabályok megkerülése miatt számíthatnak önök arra, hogy magyarázkodni kell, és utána ki tudja, mi lesz ennek a projektnek a sorsa. Ma pedig az vált nyilvánossá, hogy tiltott állami támogatás miatt is kötelezettségszegési eljárást indított az Európai Unió. A véleményem egyébként az, hogy még a környezeti információ titkosításával kapcsolatban is problémáik lesznek.</seg>
+<seg xml:id="AC7_7794.3">Nézzék, igazából tulajdonképpen semmi váratlan nem történt, a Lehet Más a Politika kezdettől fogva ellenezte a paksi bővítést, minden egyes fillért, amit az adófizetők pénzéből erre költenek, azt mi károsnak és rossznak tartunk. És most már látjuk, könnyen lehet, hogy a végeredmény az lesz, hogy röviden fogalmazzak, hogy vissza az egész, a projektet nem lehet megvalósítani.</seg>
+<seg xml:id="AC7_7794.4">És ez azt is jelenti, hogy pocsékba fog menni sok milliárd forint, amit már most költenek, mert azért én emlékeztetném önt arra, hogy 28 milliárd már most szerepel a költségvetésben, jövőre 113 milliárdot tettek be, az OAH kapacitásbővítésétől elkezdve rengeteg olyan járulékos költség van, amit az adófizető polgárok már most fizetnek ezzel a projekttel kapcsolatban.</seg>
+<seg xml:id="AC7_7794.5">A kérdésem az, hogy ezen felül, amit látunk, hogy benne van a költségvetésben, hozzányúltak-e már a hitelhez vagy sem. Azért kérdezem ezt öntől, miniszter úr, mert ahány kormányzati aktor, annyiféle ködös választ kapunk ezzel kapcsolatban, úgyhogy szeretném öntől megtudni azt, hogy a hitel, ami rendelkezésre áll, az még csak a jövő zenéje, hogy hozzányúljanak, vagy már lehívtak belőle valamit, vagy esetleg most zajlik éppen, hogy úgy fogalmazzak, épp most jön a hitel Magyarország irányába.</seg>
+<seg xml:id="AC7_7794.6">Kérem, adjon egy egzakt választ ezzel kapcsolatban</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-11-23-urgent_question-AC7_7795" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_7795.1">Köszönöm szépen. Tisztelt Miniszter Úr! Az LMP-nek megint igaza let</seg>
+<seg xml:id="AC7_7795.2">(Derültség a kormánypárti oldalon)</seg>
+<seg xml:id="AC7_7795.3">, de ennek egyáltalán nem tudunk örülni. Az Alkotmánybíróság ugyanis megsemmisítette a brókerbotrány károsultjainak megsegítését szabályozó törvényt. Mi már a törvény elfogadása után nemegyszer elmondtuk, hogy a törvény nemcsak rossz, nemcsak félmegoldás, de még alaptörvény-ellenes is.</seg>
+<seg xml:id="AC7_7795.4">A törvény elve hibás volt, hiszen a károsultak közül kiemelte a Quaestor-károsultakat, míg a többiekkel - Baumag, Buda-Cash, Hungária Zrt. károsultjai - nem foglalkozott, őket magukra hagyta, pedig ezek a csalások is több tízezer károsultat érintenek. A kormány célja, mint ahogy bebizonyosodott, nem a károsultak megsegítése volt, hanem saját politikai felelősségének csökkentése és a botrány elkerülése. A kormány egy percig sem törődött a megtakarításukat elvesztő családok tízezreivel, csak saját magát próbálta menteni, de még azt is ügyetlenül. Persze, ez akár érthető is, hiszen a Quaestor csődjében a kormány vastagon benne volt, elég csak a miniszterelnök jóindulatában még az utolsó percekben is reménykedő Tarsoly Csabára gondolni. Most ott tartunk, hogy a károsultak nem vagy csak részben kapták meg elvesztett pénzüket, Tarsoly Csaba pedig már otthon pihen házi őrizetben.</seg>
+<seg xml:id="AC7_7795.5">Az Alkotmánybíróság elmarasztaló döntése után ki kell emelnünk az új miniszter, Rogán Antal személyes politikai felelősségét is, hiszen ő vezette azt a csoportot, amely tavasszal beadta a most elbukott törvényjavaslatot. És nem feledkezhetünk meg az MNB felelősségéről sem, amely hónapokon keresztül nem vette észre a Quaestornál zajló súlyos szabálytalanságokat, csak amikor már dőlt a dominó. Miközben a brókerbotrány vesztesei kétségbeesetten futnak a pénzük után, aközben az MNB az elmúlt másfél évben több mint 300 milliárd forintot költött el felelőtlenül az alaptevékenységhez nem tartozó ügyekre. Most tehát ott tartunk, hogy a Baumag-, Hungária-, Buda-Cash-károsultak semmit sem láttak a pénzükből, a kormány pedig a Quaestor-károsultakat is becsapta.</seg>
+<seg xml:id="AC7_7795.6">Azt kérdezem öntől, a kormány mikor látja be végre, hogy az egész kármentés teljes kudarcot vallott, és mikor kezd hozzá a valódi kártalanításhoz megkülönböztetés nélkül. Köszönöm a figyelmet.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-11-23-urgent_question-AC7_7796" who="#IstvánHollik" ana="#regular"><note>HOLLIK ISTVÁN (KDNP):</note>
+<seg xml:id="AC7_7796.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! 2010 óta a kormány mindent megtett annak érdekében, hogy azok, akik gyermeket terveznek, úgy érezzék, hogy ebben az országban érdemes családot alapítani, és annak anyagi terheivel nem egyedül kell megbirkózniuk. Ugyanakkor mindannyian tudjuk, hogy a gyermekvállalás a csodálatos oldala mellett egy életre szóló anyagi elköteleződést is jelent, így a szülőknek az erről szóló döntésben nemcsak az érzelmi, hanem az anyagi szempontjai is megjelennek.</seg>
+<seg xml:id="AC7_7796.2">A kormány 2010-ben célul tűzte ki egy családbarát ország kialakítását és a gyermekvállalás anyagi terheinek a csökkentését. A gyed extra intézkedéscsomag kedvezményeivel, az első házasok kedvezményének és a családok otthonteremtési kedvezményének a bevezetésével, a családi adókedvezmény járulékokra történő kiterjesztésével, valamint annak a kétgyermekes családok esetében a jövő évtől történő fokozatos emelésével mára sikerült egy jelentős családbarát fordulatot végrehajtani. Ennek eredményeként lendületesen emelkedett a gyermekvállalási kedv. A termékenységi ráta a 2010-es 1,26-os szintről 2014-re 1,44-re emelkedett.</seg>
+<seg xml:id="AC7_7796.3">A nők, édesanyák számára a családi élet és a munkavállalás összeegyeztethetőségének lehetősége mind érzelmi, mind anyagi szempontból befolyásolja a gyermekvállalásról szóló döntést. Tisztelt Államtitkár Úr! A család és a munka összeegyeztetése terén hozott intézkedések megfelelően segítik a kisgyermekes édesanyákat a munkaerőpiacra történő visszailleszkedésben? Milyen eredményeket tud Magyarország felmutatni ezen a területen? Milyen erőfeszítéseket tett és készül tenni a jövőben a kormány annak érdekében, hogy Magyarország valóban családbarát országgá válhasson?</seg>
+<seg xml:id="AC7_7796.4">Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormányzó pártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-11-23-urgent_question-AC7_7798" who="#ZoltánGőgös" ana="#regular"><note>GŐGÖS ZOLTÁN (MSZP):</note>
+<seg xml:id="AC7_7798.1">Köszönöm, elnök úr, a szót. Tisztelt Képviselőtársaim! Tisztelt Miniszter Úr! Nem kellett volna elmondanom ezt a kérdést, ha tegnap eljön a demonstrációra, amire én külön is hívtam, hogy beszélgessünk ott az emberekkel, hogy mi lesz a jövője ennek a településnek; nem a cégnek, hanem a településnek. Ezért azt gondolom, akkor - ha tudjuk - beszéljük meg itt, hogy nagyjából hogyan képzelik azt a mintagazdaságot, ami majd a lovas kft. alapjain jön létre. Ebben terveznek-e olyan intézkedéseket, ami a mostani agrárkultúrát ott át tudja menteni?</seg>
+<seg xml:id="AC7_7798.2">Ugyanis az a baj, hogy az a szétlőtt terület, ami ott maradt, tehát ami maradt abból a nagyobb egységből, amin dolgoznak ők nagyon régóta, erre nem alkalmas, tehát nem alkalmas vetőmag-előállításra - mert ahhoz nagyon komoly izolációs távolságok kellenek -, véleményünk szerint nem alkalmas az állattartás érdemi fenntartására, márpedig a valós foglalkoztatást ez a két ágazat adja Mezőhegyesen, akár az aktívat, akár pedig az időszakost.</seg>
+<seg xml:id="AC7_7798.3">Egy kicsit olyan érzésem volt, amikor megláttam, hogy ez a mezőhegyesi történet elindult, mintha a Bazilikát azért akarnák elbontani, miniszter úr, hogy a címeres Esterházy-téglához valakik hozzáférjenek. Tehát én úgy gondolom, hogy ez a cég úgy volt jó, ahogy volt. Lehet azon vitatkozni, hogy kellett-e privatizálni vagy sem, ezt vissza is lehetne államosítani; ebben is partnerek lehetnénk, sőt én úgy tudom, a cég vezetése is.</seg>
+<seg xml:id="AC7_7798.4">De egy dolgot nem tehetnek meg, hogy úgy tesznek tönkre valamit, hogy az egyetlen érdemi foglalkoztató, illetve az a beruházó, aki lenne majd a másik, elmenjen ebből a városból.</seg>
+<seg xml:id="AC7_7798.5">Tehát én arra lennék kíváncsi alapvetően, hogy az a fajta mintagazdaság, ahol egyébként nemcsak ilyen mintagazdaság van, hanem olyan nagy élelmiszer-előállító is, amely tényleg a szántóföldtől az asztalig produkál, és nincs is baj azzal, hogy ez mintagazdaság lesz, de nagyon sok ilyen lehetne még, de nem ilyen irányba dolgoznak, hanem olyan irányba, hogy az állami földeket, ahelyett, hogy ilyen célra hasznosítanák, hogy a szántóföldektől az asztalig az állam felügyeljen valamit, most még el is adják. Hogy lesz ott mintagazdaság, miniszter úr, ebbe azért avasson már be minket, mert erre nagyon kíváncsiak a helyiek, hogy az négyszáz munkahely milyen módon és hogyan tartható meg egy ilyen következő társasági formában</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-11-23-urgent_question-AC7_7801" who="#DénesGalambos" ana="#regular"><note>DR. GALAMBOS DÉNES (Fidesz):</note>
+<seg xml:id="AC7_7801.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Jedlik Ányos, a 215 éve született feltaláló, természettudós, oktató a XIX. század kiemelkedő alakja volt, aki nemcsak lépést tartott az európai tudomány haladásával, hanem sok esetben - például az elektronika területén - meg is előzte azt.</seg>
+<seg xml:id="AC7_7801.2">Hasonló kísérletet tesz a magyar kormány is azáltal, hogy idén elfogadta a Jedlik Ányos-tervet és hozzá kapcsolódóan az 1487/2015</seg>
+<seg xml:id="AC7_7801.3">(VII. 21.)</seg>
+<seg xml:id="AC7_7801.4">kormányhatározatot, amely a tervhez tartozó jogalkotási feladatokkal összefüggésben felkéri a nemzetgazdasági minisztert, a nemzeti fejlesztési minisztert és a Magyar Energetikai és Közműszabályozási Hivatalt a további, elektromos autózást érintő fejlesztések, jogszabályi változtatások előkészítésére. Ez a döntés egyedülálló siker Közép-Európában, mivel az elsők között sikerült egy átfogó és koherens stratégiai dokumentumot készítenie Magyarországnak. A cél nem más, mint az e-mobilitás, az elektromos autózás feltételeinek megteremtése Magyarországon. Elsők között kívánunk belépni azon országok közé, amelyek kiemelten segítik elő az elektromobilitás térnyerését, legyen szó akár járműgyártásról, akár a kiszolgáló infrastruktúra fejlesztéséről. Ezeket a területeket mi is kiemelten kezeljük a dunaújvárosi térségben; a kezdő lépéseket meg is tettük. Már az első körben létesítendő 150 darab villámtöltőberendezés-helyszínek között ott tudunk lenni a töltőállomásunkkal, amelyet a Dunaújvárosi Főiskola által rendezett „tudomány hete” keretében 2015. november 11-én avatott fel Varga Mihály miniszter úr. Elmondható tehát, hogy ma már a vidéki Magyarország világa, Dunaújváros és térsége is megközelíthető az elektromos autók számára.</seg>
+<seg xml:id="AC7_7801.5">Kérdezem az államtitkár urat, hogy milyen további intézkedésekkel kívánják támogatni az e-mobilitás térnyerését. Várom a megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-11-23-urgent_question-AC7_7802" who="#JánosPócs" ana="#regular"><note>PÓCS JÁNOS (Fidesz):</note>
+<seg xml:id="AC7_7802.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Mint az köztudott, a múlt héten megkezdődtek a magyar gazdákat földtulajdonhoz segítő programok első árverései. Az árverésekre meghirdetett körülbelül 380 ezer hektár területű állami föld, mintegy 51 ezer birtoktest közül már több mint 15 ezer parcella közzétételre került. A program részletei megismerhetők a www.nfa.hu honlapon.</seg>
+<seg xml:id="AC7_7802.2">(14.30)</seg>
+<seg xml:id="AC7_7802.3">A program legfontosabb kritériumai továbbra is a kis- és családi gazdaságok és a helyi földművesek földszerzését támogatják. Mint tudjuk, a föld értékének megfelelő árképzés is biztosítva van, személyenként 300 hektárra lehet pályázni. Csak a helyben lakó gazdák pályázhatnak, nekik a licitáláshoz 10 százalék fölötti összeg szükséges. A licitek piaci ár plusz 10 százalék körül indulnak a nyilvános árveréseken. Mindezek jegyében egyértelmű, hogy az ellenzéki képviselőknek a mutyi fogására még csak lehetőség sincs</seg>
+<seg xml:id="AC7_7802.4">(Dr. Szakács László: Ez az, János!)</seg>
+<seg xml:id="AC7_7802.5">Ahogy látjuk, az ellenzéki képviselők által meghirdetett spontán ellenőrző testület sem talált semmilyen hibát vagy visszaélést.</seg>
+<seg xml:id="AC7_7802.6">Tisztelt Államtitkár Úr! Mindezekkel kapcsolatban tisztelettel kérdezem, igaz-e a hír, hogy visszaélésekre vannak próbálkozások. Igaz-e a hír, hogy például Ács Sándorné, a Kishantos vezéralakja külföldiek segítségével próbálkozik földhöz jutni? Továbbá tisztelettel kérdezem, hány földterület talált már gazdára, mekkorák ezek a területek, és mekkora bevétel folyt be a területek után. Mik az árverés tapasztalatai? Kell-e finomítani a lebonyolítás szabályain? Államtitkár úr, a sajtó mérsékelt érdeklődésről számol be. Meg tudja-e ezt a tárca erősíteni? Várható-e, hogy az árverések további szakaszában növekszik a gazdák érdeklődése? Várom államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2016-11-28" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2016-11-28 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2016-11-28 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2924" unit="words">2924 szó</measure>
+        <measure xml:lang="en" quantity="2924" unit="words">2924 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2016-11-28">2016. 11. 28.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="37"/>
+          <tagUsage gi="kinesic" occurs="11"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2016-11-28">2016-11-28</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2016-11-28-urgent_question-AC7_12805" who="#GergelyBárándy" ana="#regular"><note>DR. BÁRÁNDY GERGELY (MSZP):</note>
+<seg xml:id="AC7_12805.1">Köszönöm a szót. Először is, önhöz fordulok, ülésvezető elnök úr, hogy az eddigi rossz tapasztalataim miatt a kérdésem elhangzása után, kérem, hívja fel a figyelmét ön is a válaszadónak, hogy az országgyűlési törvény 42. § (2) bekezdése alapján köteles a kérdésem megválaszolni, azaz arra érdemi választ adni.</seg>
+<seg xml:id="AC7_12805.2">A válaszadónak pedig segítségképpen elmondom, hogy az értelmező szótár szerint a „megválaszol” ige jelentése a következő: kérdésre odaillő gondolatot közöl, szóban vagy írásban megadja a feltett kérdést kielégítő adatot, tényt vagy véleményt. Azaz nem elégséges a szájának mozgatásával értelmesnek tűnő mondatokat formálnia, hanem válaszának a kérdésekre adekvátnak kell lennie, másként jogsértést követ el.</seg>
+<seg xml:id="AC7_12805.3">Ilyen előzmények után kérdezem önt ismételten arról, hogy fizetett-e lakbért Patai Mihálynak, a UniCredit vezérigazgatójának azért, hogy a lakásában lakott, avagy más módon kompenzálta ezt a sok milliót érő kis baráti szívességet. Megjegyzem: több jelzést is kaptam lakosoktól arról, hogy az előző válaszában megjelölt balatonakarattyai címen, bár szép a ház, de senki nem lakik életvitelszerűen, főleg nem ön. Mielőtt a kérdést félreértené, elnök úr, mint a múltkor, jelzem, hogy az öreg ördöghöz is szívesebben mennék vendégségbe, mint önhöz, így az sem érdekel, hogy milyen címen lakik, megelégszem azzal, ha csak a kérdésemre válaszol.</seg>
+<seg xml:id="AC7_12805.4">Másrészt megkérdezem újra: nem tartja-e visszásnak, hogy a szeretőjét, akivel az ő saját bevallása szerint is összetartoznak, a jegybanki alapítványokból pénzeli? Hogy egy jógaoktatónak, még ha a szeretője is, 600 ezer forintot fizetnek közpénzből India-kutatásokr</seg>
+<seg xml:id="AC7_12805.5">(Korózs Lajos: Szégyen!)</seg>
+<seg xml:id="AC7_12805.6">, amikor egy ezzel foglalkozó tanszékvezető egyetemi tanár sem kap annyit ugyanezért? - az ő anyja pedig négy MNB-s alapítványnak könyvel havi több millió forintért. És mielőtt még elütné ezt azzal, hogy mindez magánügy, jelzem, elnök úr, hogy nem az - két okból sem.</seg>
+<seg xml:id="AC7_12805.7">Először is, én azt gondolom, kínos, ha egy konzervatív közszereplőről kiderül, hogy szeretője van, bár ez engem különösebben nem érdekelne</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_12805.8">Az azonban annál inkább, amikor haverokat, rokonokat, szeretőket, szeretők szüleit tartja el az MNB elnöke közpénzből. Várom tehát érdemi válaszát. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-28-urgent_question-AC7_12807" who="#LászlóSzakács" ana="#regular"><note>DR. SZAKÁCS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_12807.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Miniszter Úr! Én is leveleztem Matolcsy Györggyel, ahogyan azt ma már egyszer meg is hivatkozta a jegybankelnök úr. Nem 27-szer tettem föl ugyanazt a kérdést, hanem 27 különböző kérdést tettem föl, de a lényeg valójában az, amit én megkérdeztem tőle, pontosan azért, mert nem tisztázott, hogy az UniCredit Bank vezérigazgatójának lakásában lakott-e, nem lakott, fönnáll-e még ez az állapot, nem áll-e még fenn ez az állapot. Pontosan ezért kérdeztem tőle meg, hogy vajon lehetett-e ahhoz köze, hogy ők ilyen közelebbi kapcsolatban vannak egymással, a Bankszövetség elnökével, az UniCredit elnök-vezérigazgatójával, lehetett-e ennek ahhoz egy különösebb kapcsolata, hogy a magánnyugdíjpénztári vagyon államosításakor az összes külföldi vagyon eléggé furcsa körülmények között, már úgy értem, a külföldi értékpapírok eléggé furcsa körülmények között - nem nagyon stimmelnek a dátumok - csak mégis odakerültek az UniCredit Bankhoz kezelésre, méghozzá úgy, hogy az Állami Adósságkezelő Központ egy pályázatot hirdetett meg, meghívásos pályázatot, viszont csak egyetlenegy kereskedelmi bankot érhetett az a fantasztikus szerencse, hogy meghívták erre és ajánlatot tehetett az Állami Adósságkezelő Központnak, és lássunk csodát, ez nem volt más, mint az az UniCredit Bank, amelyiknek akkor az elnök-vezérigazgatója Patai Mihály volt.</seg>
+<seg xml:id="AC7_12807.2">Erre én azt a választ kaptam, hogy forduljak miniszter úrhoz, hiszen jegybankelnök úr a Nemzetgazdasági Minisztérium korábbi döntéseit nem kívánja a jegybankelnöki pozíciójából kommentálni. Én tudom, hogy ezt a helyzetet nem ön állította elő, miniszter úr, de mégis nekem nincs más lehetőségem, mint önt megkérdezni, hogy ön szerint az normális dolog-e, hogy egy jegybankelnök egy kereskedelmi bank vezérigazgatójának a lakásában lakhat - ha ez így van -; illetve hogyan kerülhetet</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_12807.3">a magánnyugdíjvagyon külföldi része ugyanahhoz a bankhoz, amelyik lakástulajdonnal rendelkezik, és Matolcsy György pedig lehet, hogy ott lakik. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-28-urgent_question-AC7_12988" who="#LászlóSzakács" ana="#regular"><note>DR. SZAKÁCS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_12988.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Elnök Úr! Vissza kell menjünk kicsit az időben, 2011. május 31-ig, akkor jelenik meg a Magyar Közlönyben a Nyugdíjreform és Adósságkezelő Alap működésének részletes szabályairól szóló rendelet. Ennek az irányító testülete még aznap le is ül és a tulajdonába került pénzügyi eszközök - tudja, az államosított magánnyugdíjvagyonból odakerült eszközök - kezelésére és értékesítésére, valamint egyéb kapcsolódó szolgáltatások nyújtására megállapodást köt az Állami Adósságkezelő Központtal. Ez volt 2011. május 31-én.</seg>
+<seg xml:id="AC7_12988.2">Egy kicsit már eső után köpönyeg, hiszen már előtte, május 10-én az Állami Adósságkezelő Központ kiírt egy meghívásos pályázatot. Igaz, azon csak egy bank indulhatott, mert egyet hívtak meg rá, tudja, az ön barátjáét, Patai Mihály UniCredit Bankját, aki 10-én megkapta ezt a pályázati felhívást, 13-án élt a pályázati felhívással és adott ajánlatot, és 18-án már nyert is. Holott a felhatalmazást arra, hogy az Állami Adósságkezelő Központ eljárjon, csak sokkal később, május 31-én kaphatták meg. Akkor volt erre jogszabályi felhatalmazás.</seg>
+<seg xml:id="AC7_12988.3">Elnök Úr! Hova volt ez a sietség? Miért kellett három héttel hamarabb dönteni több mint 511 milliárd forint sorsáról, ami egyébként a magyar emberek magánnyugdíj-megtakarítása volt, hogy az odakerülhessen az ön barátjának a bankjához, az UniCredit Bankhoz? Miért nem tartották be a szabályokat? Ön szerint ez a fajta eljárás kedvezően érinthette-e ezt a kereskedelmi bankot? Miért nem hívtak meg rá más bankokat is? Betartották-e a jogszabályokat? Köszönöm a figyelmet</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-28-urgent_question-AC7_13056" who="#R.BenedekSallai" ana="#regular"><note>SALLAI R. BENEDEK (LMP):</note>
+<seg xml:id="AC7_13056.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Miniszter Úr! Azt, hogy Magyarország jobban teljesít, ugye, nemcsak az itt körünkben helyet foglaló Matolcsy György jegybankelnök fizetéséből tudjuk, hanem abból is, hogy a kormány lehetőséget teremtett arra, hogy jó néhány más, hozzá hasonló és egyéb beosztásban lévő állami alkalmazott - többek között az állami erdőgazdaságok vezetői, a Szerencsejátéknál, a MÁV-nál - ilyen sok millió forintos fizetést vegyen fel. Ez ugye azt jelenti, hogy mondjuk, a jegybankelnök úr munkája körülbelül ötször annyit ér, mint itt bármelyik miniszteré, ha jól értem a méltányos megítélését a kormányzatnak. Viszont úgy látszik, hogy most már a fideszes polgármesterek is elkezdenek jól teljesíteni, ugyanis Nagykőrös esetében a képviselő-testület ismét úgy döntött, hogy Czifra Szabolcs és Körtvélyesi Attila urakat, a település polgármesterét és alpolgármesterét 4 millió forint jutalomban részesíti így az év végére. Ez nem egy egyedülálló dolog, korábban már polgármester úr felvett egy hathavi illetményt, ami 3 millió 150 ezer forint, illetve korábban egy másfél millió forintos jutalmat is. Tehát ezek szerint a településeknél is bevezetik ezt, hogy ilyen jó teljesítés legyen. Ez azért érdekes kérdés, mert közben ezzel párhuzamosan kijött Magyarországra egy új kutatás, ami ismét a Magyarországról való kivándorlási szándékot mutatja. Önök, kormánytagok már többször elsütötték ezt, hogy az összes többi országban is van kivándorlási szándék, és nem magyarországi specialitás ez, ehhez képest most az új kutatás európai szinten azt mutatja, hogy Németországban, Dániában, Hollandiában 10-15 százalék közötti a kivándorlási szándék, majd Spanyolország, Írország, Lengyelország, az Egyesült Királyság, Franciaország esetében 30 százalék alatti, és a legrosszabb eredményt jelen pillanatban is Magyarország 46 százalékos eredménnyel érte el. A 18-24 éves fiatalok 46 százaléka az, aki 2016-ban úgy döntene, hogy egy másik országban folytatja a jövőjét.</seg>
+<seg xml:id="AC7_13056.2">Hol van ez a jó teljesítmény? Hol van az az alap, ami alapján emeljük az állami alkalmazottak bérét? Hol van az a teljesítmény, ami jobbá teszi az országot? Erre várnék tisztelettel választ miniszter úrtól. Köszönöm szépen.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-28-urgent_question-AC7_13057" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_13057.1">Köszönöm szépen, elnök úr. Elfogadom. Tisztelt Államtitkár Úr! Három hete a kormány elismerte, hogy zsákutcába vezette az ország gazdaságát, múlt héten viszont az is kiderült, hogy a felismerésen túl rossz eszközöket választ. A kormány ugyanis durván csökkenti a nagy cégek nyereségadóját. Ez a hamisítatlan neoliberális lépés növeli a nagy cégek profitját, és növeli a szakadékot az egyszerű dolgozók és a kivételezett elit között. A gazdag cégek és tulajdonosaik alig adóznak, az egyszerű dolgozók és vállalkozók viszont jövedelmük felét, harmadát, kétharmadát. Ez a lépés mintegy 170 milliárd forint ajándékot ad a nagy cégeknek. Ez a lépés rontja a kisvállalkozások relatív helyzetét, növeli a multik erőfölényét. Rontja a költségvetés helyzetét is, pedig volna mit visszapótolni a korábbi évek megszorításai után. Rontja a lépés a magyar kis- és középvállalkozók helyzetét azért is, mert a minimálbér-emelés terhének nagy részét ők viselik, az adócsökkentés hasznát pedig mások.</seg>
+<seg xml:id="AC7_13057.2">Értelmetlen a csökkentés azért is, mert a magyar vállalkozóknak nem az a legnagyobb problémája, hogy a nyereségadó magas, 40 százalékának ugyanis nincs is nyeresége. Boldogan fizetnének magasabb adót is, ha meg tudnának élni. A gazdaságpolitika feladata lenne, hogy hozzásegítse ehhez őket. Ez a lépés egyedül néhány multicégnek és nagyvállalatnak hasznos, akiknek épp lejár az adókedvezménye, vagy akik más ország adófizetőit megkárosítva ide adóznának harmadannyit. Önök adóparadicsomot csinálnak az országból, de ez nem lesz jó. A lefelé tartó adóversenynek csak a multik lehetnek a nyertesei, akik kijátsszák egymás ellen az országokat.</seg>
+<seg xml:id="AC7_13057.3">Államtitkár úr, miért a nagy nemzetközi cégek érdekei mozgatják az adópolitikát? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-28-urgent_question-AC7_13059" who="#GyörgySzilágyi" ana="#regular"><note>SZILÁGYI GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_13059.1">Köszönöm szépen a szót, elnök úr. Tisztelt Ház! Tisztelt Miniszter Úr! A Quaestor-csődöt, gondolom, még nem felejtették el, hiszen több tízezer magyar családot tett tönkre ez a csőd. Ahogy múlik az idő, nemhogy tisztábban látnánk a Quaestor-ügyben, hanem egyre sötétebb dolgok derülnek ki.</seg>
+<seg xml:id="AC7_13059.2">Az előző héten újabb részletek derültek ki a Quaestor-üggyel kapcsolatban. Tarsoly Csaba nyilatkozott, és a Nemzeti 1 Televízió Felderítő című riportfilmjében is újabb részleteket ismerhettünk meg. Tarsoly Csaba nyilatkozatának két lényeges részére hívnám fel a figyelmet. Az egyik, hogy azt mondta, nagyban hozzájárult a Quaestor-csődhöz az, hogy Orbán Viktor a rádióban nyilatkozott, és ez a nyilatkozat akkor megmozdította a piacokat. Vajon igaza lehet-e Tarsoly Csabának? Azt kell mondanunk, hogy igen, hiszen ha a miniszterelnök megszólal bármilyen kérdésben, annak súlya van, annak hatása van a társadalomra, hatással van a gazdaságra és a piaci mozgásokra, és ezt tette. Emlékezzenek csak Kósa Lajosra, aki 2010-ben egy nyilatkozatával majdnem bedöntötte a forintot!</seg>
+<seg xml:id="AC7_13059.3">A másik, amit mondott Tarsoly Csaba, hogy a megfelelő helyről ígéretet kapott, hogy megmentik a Quaestort. Vajon mi lehet a megfelelő hely ma Magyarországon? Egyértelműen csak Orbán Viktor, hiszen Viktor vagy enged valamit, vagy nem, aszerint működik minden. Ehhez Tarsoly Csabának egy dolgot kellett tennie: el kellett mennie az MNB vezérigazgató-helyetteséhez, és feltárni az ügyet. Vajon mire volt ez jó, hogy utána nem mentették meg a Quaestort? Valószínűleg időhúzásra. Ez alatt a fideszes haverok, rokonok, a külügy cégei kivették a pénzt a Quaestorból.</seg>
+<seg xml:id="AC7_13059.4">Rendelkeztek-e bennfentes információval? - volt eddig a kérdés. Egyértelmű, hogy rendelkeztek, hiszen önök sokkal, jóval a csőd előtt már tudtak arról, hogy csődbe fog jutni a Quaestor, és idő volt arra, hogy szóljanak a barátoknak, a rokonoknak. Most már egyértelmű, hogy miért nem írták alá a nyilatkozatokat, hogy a Quaestorból nem vettek ki pénzt, hiszen van takargatnivalójuk.</seg>
+<seg xml:id="AC7_13059.5">Két kérdésem lenne. Nem érzik felelősnek magukat a Quaestor csődje miatt? És mikor adnak választ a kormány, egyes kormánytagok és a miniszterelnök Quaestor-csőddel kapcsolatos szerepével kapcsolatban? Erre várom válaszát. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-28-urgent_question-AC7_13060" who="#LajosRig" ana="#regular"><note>RIG LAJOS (Jobbik):</note>
+<seg xml:id="AC7_13060.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Államtitkár úr! Megspórolom a válaszadásában azt a számot, amit minden egyes válaszban elmond az 500 milliárdos egészségügyi fejlesztésről, amely a kórházak és egészségügyi intézmények területén megvalósult</seg>
+<seg xml:id="AC7_13060.2">(Dr. Rétvári Bence: Már megérte!)</seg>
+<seg xml:id="AC7_13060.3">Választókerületemben van két kórház, amely részesült ezekből a beruházásokból. Az egyik a tapolcai kórház, amely struktúraváltó kórház lett. Elvesztette két osztályát, a belgyógyászatot, illetve a sebészetet. Ez a két ellátási forma átkerült az ajkai kórház területére. Az ajkai kórház is egy energiahatékonysági beruházáson ment át, de a röntgendiagnosztika fejlesztése már nem valósult meg. Az elmúlt hónapokban a helyi Fideszhez köthető helyi televízió közösségi portálán megjelent egy olyan cikk, hogy „Elfogyott a pénz?”, és itt az ajkai kórház fertőzőosztályára gondoltak, amely különálló épületben volt, és valóban, oda nem jutott fejlesztési forrás. A cikk mellé 3-4 képet tettek oda, hogy milyen állapotban van az ajkai fertőző. Mondanám: vezetékek lógnak ki a falból, omlik a vakolat, életveszélyes és balesetveszélyes. A lépcső állapota lassan olyan, hogy járhatatlan, nemcsak lépcsőnek, de még járdának sem lehet igazán használni.</seg>
+<seg xml:id="AC7_13060.4">Azt is lehet tudni az ajkai kórházról, hogy 1972 és 1990 között dr. Mikola István itt dolgozott, az ajkai kórház belgyógyászatán és infektológiai osztályán. Volt kórházigazgató is. Kórházigazgatóként már próbált lobbizni az akkori fertőzőosztály felújításáért. Ez nemcsak az ajkai emberek fertőzőosztálya, hanem egy megyei fertőzőosztályról beszélünk. Önök hangsúlyozzák, hogy milyen fontos a higiéné egy ilyen osztályon. Kérdem én, egy ilyen elavult, régi épületben meg lehet tartani azokat a higiénés elvárásokat, az aszepszis és antiszepszis szabályait be lehet tartani? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-28-urgent_question-AC7_13062" who="#MónikaDunai" ana="#regular"><note>DUNAI MÓNIKA (Fidesz):</note>
+<seg xml:id="AC7_13062.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Urak! Tisztelt Országgyűlés! Örömteli, hogy az egyre erősödő magyar gazdaság lehetővé teszi, hogy az elmúlt években és az elkövetkező esztendőkben olyan mértékű béremelés valósulhatott meg és valósul meg, amire a rendszerváltás óta nem volt példa. Ezen béremelés egyik nyertesei a pedagógusok, akiknek a béremeléssel együtt a társadalmi megbecsültsége is hasonló mértékben nőtt.</seg>
+<seg xml:id="AC7_13062.2">(13.50)</seg>
+<seg xml:id="AC7_13062.3">A Fidesz és a KDNP a pedagógusok mellett mindig kiemelten kezelte és kezeli az egészségügyi dolgozók és egészségügyben dolgozók humánerőforrás-kérdését is. Az elmúlt öt évben az ország gazdasági teljesítőképességének figyelembevételével mindent megtettünk, hogy javítsunk az egészségügyi dolgozók helyzetén is. 2012-ben és 2013-ban már két lépcsőben körülbelül 95 ezer egészségügyi dolgozó részesült béremelésben, 2015 júliusától pedig megteremtettük a lehetőségét az egészségügyi dolgozók mozgóbér-befagyasztásának felengedésére. Ezzel a lépéssel biztosítottá vált a 2012-2013. évi béremelés mozgóbér-elemeinek alapbérhez való igazítása, amely 2016. január 1-jétől törvényi szinten került szabályozásra.</seg>
+<seg xml:id="AC7_13062.4">Tisztelt Államtitkár Úr! Kiemelt figyelmet fordítunk a kultúrára is. Mindenki számára elérhetővé szeretnénk tenni itt a fővárosban is, de minden egyes településen a kultúrához való hozzáférést, ezért megemeltük 1700 kistelepülés kulturális normatíváját, azonban a kulturális ágazatban dolgozók bérfejlesztésével mindeddig tartoztunk. Ezen változtatunk most. Jövőre csaknem 5,5 milliárd forintot szánunk a kultúra területén dolgozók bérrendezésére. Kérdezem tisztelt államtitkár urat, miben tudjuk segíten</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_13062.5">a kulturális szférában dolgozók anyagi megbecsülését. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban. - Dr. Józsa István tapsol.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-11-28-urgent_question-AC7_13064" who="#LászlóSzászfalvi" ana="#regular"><note>SZÁSZFALVI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC7_13064.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Igen tisztelt Miniszter Úr! A mintegy 650 ezer távhővel ellátott lakásban idén október 15-én elindult a hivatalos távfűtési szezon. Így újra aktuálissá vált az a kérdés, hogy Magyarország a korábbi évekhez hasonlóan megfelelően felkészült-e a tél kihívásaira.</seg>
+<seg xml:id="AC7_13064.2">A magyarországi földgáztárolók fontos biztonsági szerepet látnak el a hazai ellátási rendszerben, a kereslet és kínálat közötti szezonális egyenetlenség kiigazításában. A kulcskérdés minden ősz végén így az, hogy milyen intézkedések születtek és várhatóak a megfelelő földgázellátás biztonsága érdekében, elegendő-e a téli fogyasztás kiszolgálására a betárolt földgázmennyiség.</seg>
+<seg xml:id="AC7_13064.3">A biztonságos hazai ellátás záloga, hogy az időszakosan megugró fogyasztási szükségletek ellátásának a garantálására megfelelő időben és a szükséges mennyiséggel készüljenek fel az egyetemes szolgáltatók. Ahogyan azt a sajtóból megtudhattuk, a téli fűtési időszak kezdetén több mint 3 milliárd köbméter földgáz volt a hazai tárolókban.</seg>
+<seg xml:id="AC7_13064.4">Tisztelettel kérdezem tehát miniszter urat, hogy mire lesz elég ez a mennyiség, biztonságosan megoldható-e a lakosság ellátása, mire számíthatnak a magyar családok. Várom miniszter úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

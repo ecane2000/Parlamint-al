@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2015-06-01" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2015-06-01 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2015-06-01 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2802" unit="words">2802 szó</measure>
+        <measure xml:lang="en" quantity="2802" unit="words">2802 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2015-06-01">2015. 06. 01.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="39"/>
+          <tagUsage gi="kinesic" occurs="8"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2015-06-01">2015-06-01</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2015-06-01-urgent_question-AC7_5004" who="#ImreVejkey" ana="#regular"><note>DR. VEJKEY IMRE (KDNP):</note>
+<seg xml:id="AC7_5004.1">Tisztelt Elnök Úr! Köszönöm a szót. Tisztelt Államtitkár Úr! Számos kezdeményezés indult útjára az elmúlt hónapokban, amelyek közös célja, hogy a kárpátaljai és az ukrán humanitárius helyzeten javítsanak. A háború sújtotta kelet-ukrajnai területek viszontagságai hamar tovagyűrűztek az ország nyugati részeibe, ahol az ukrán-ruszin-orosz kisebbség mellett jelentős magyar kisebbség is él. A családok mindennapi megélhetése nemcsak az általánosan alacsony bérek miatt forog veszélyben, hanem az egész országban tapasztalható infláció miatt is.</seg>
+<seg xml:id="AC7_5004.2">Csak szemléltetés céljából mondom, hogy Kárpátalján az elmúlt időszakban a közüzemi díjak az azt megelőző időszak három-négyszeresére emelkedtek. A tél során tapasztalt páratlan hazai és más határon túli magyar lakta területekről érkező összefogás valamelyest enyhíteni tudta a lakosság nélkülözését, de azt gondolom, most a jó idő beálltával is szükség van a keleti határainkon élő magyar és más nemzetiségű embertársaink megsegítésére. Számos szervezet vett részt az eddig felajánlott segélyek összegyűjtésében, többek között a Magyar Katolikus Egyház és Karitász, a Református Szeretetszolgálat, a Máltai Szeretetszolgálat, de ezek mellett több civil szervezet, helyi közösség is. Itt szeretném megjegyezni, hogy a KDNP parlamenti frakciója külön is támogatta a rászoruló kárpátaljai magyar testvéreinket.</seg>
+<seg xml:id="AC7_5004.3">Mindezek alapján kérdezem a tisztelt államtitkár urat, milyen anyagi vagy tárgyi segítséget tud nyújtani hazánk a kárpátaljai magyarságnak és Ukrajnának. Várom az államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Dr. Józsa István tapsol.</desc></kinesic>
+<seg xml:id="AC7_5004.4">(14.10)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-06-01-urgent_question-AC7_5005" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_5005.1">Köszönöm szépen, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Közel egy éve tart a nagyszabású diákkísérlet az iskolákban. Az idei tanév végével a kormánynak le kell vonni a tapasztalatokat, korrigálni a hibákat, és erről tájékoztatnia kellene a közvéleményt.</seg>
+<seg xml:id="AC7_5005.2">A kormány döntése értelmében tavaly ugyanis szeptemberben 1501 iskolába jutottak el az új típusú kísérleti tankönyvek. A köznevelési intézményekben tehát egy nagyszabású diákkísérletbe kezdtek, mondhatni, százezer diákon tesztelik élesben az új tankönyveket. Az LMP már tavaly is mondta, hogy nagy felelőtlenség belekezdeni így egy kísérletbe. Kiderítettük ugyanis, hogy az új könyvek nem mentek át semmiféle szakmai engedélyeztetésen, az Oktatási Hivatal eljárását teljesen megkerülve kerülhettek ezek a könyvek az iskolákba. Azóta látjuk is, hogy ez mekkora problémát jelent, hiszen az iskolák visszajelzései alapján komoly probléma van ezekkel a kísérleti tankönyvekkel, és sajnos ez csak a probléma egyik fele, ugyanis a szűkített listára kerülő állami tankönyvek egy részénél sem jobb a helyzet. A kirívó hibák mellett az LMP néhány jogszabálysértő tartalomra is felhívta a figyelmüket, lépéseket tett. A fő probléma igazából az, hogy az új tankönyvek felépítése kusza, szerkezete zavaros, logikája sok esetben érthetetlen. Egyszerűen arról van szó, és ezt nem mi mondjuk, hanem a pedagógusok, ezekből a könyvekből pocsékul lehet tanítani, hemzsegnek a szakmai hiányosságoktól, pontatlanságoktól.</seg>
+<seg xml:id="AC7_5005.3">Hogyan reagál a kormány ezekre a hibákra? Hajlandók-e végre a valódi engedélyeztetési eljárásnak alávetni ezeket a kísérleti tankönyveket, vagy még mindig attól tartanak, hogy megbuknának ezen a szakmai kontrollon? Milyen könyvek kerülnek szeptemberben a diákok kezébe? Korrigálják-e a hibákat? Hogyan folytatódik ez a diákkísérlet? Várom államtitkár úr válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-06-01-urgent_question-AC7_5006" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_5006.1">Köszönöm, elnök úr. Tisztelt Ház! Tisztelt Miniszter Úr! A Lehet Más a Politika 100 milliós nagyságrendben tárt fel a pazarló, hűtlen kezelés és a korrupció gyanúját is felvető költekezéseket a „Híd a munka világába” programmal kapcsolatban. Elképesztő kiadásokra mutattunk rá az irodavásárlásoknál, a bútor- és számítógép-beszerzéseknél, a rezsiköltségeknél, az autóbérléseknél, a benzinköltség-elszámolásoknál, a munkatársak csapatépítésénél, tanulmányok írásánál, és sorolhatnám. Messze a józan elvárásokat meghaladó kiadásokról van szó. A projekt vezetője az Országos Roma Önkormányzat, amelynek a korábbi vezetője Farkas Flórián fideszes országgyűlési képviselő, frakcióvezető-helyettes, miniszterelnöki biztos, akinek a botrányos programhoz is köze van, hiszen ő a vezetője a projekt forrásait kezelő foglalkoztatási szövetkezetnek.</seg>
+<seg xml:id="AC7_5006.2">Amikor korábban számon kértük a kormányon a program kivizsgálását, lényegében alig történt valami. Az elmúlt hetekben azonban újabb fordulatot vett az ügy: az LMP feljelentése nyomán végül mégiscsak beindult a nyomozás, a NAV megszállta az ORÖ székházát, iratokat foglaltak le, már amiket egyáltalán a székházban találtak, hiszen addigra már nagyüzemben folyt az iratmegsemmisítés. A „Híd a munka világába” program botránya mellett több másik botrány is kirobbant az ORÖ háza táján, mindenféle Farkas Flóriánhoz köthető gazdasági elszámolási ügy.</seg>
+<seg xml:id="AC7_5006.3">Tisztelt Miniszter Úr! Önnek mint a Miniszterelnökséget vezető miniszternek, személyesen megvan-e a bizalma Farkas Flórián miniszterelnöki biztos irányában a történtek után? Töretlenül kiáll-e a kormány Farkas Flórián mellett? Teljes mértékben bíznak-e benne továbbra is? Maradhat-e miniszterelnöki biztos, maradhat-e a Fidesz frakcióvezető-helyettese, maradhat-e parlamenti képviselő? Tisztelettel várom miniszter úr válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-06-01-urgent_question-AC7_5008" who="#GergelyBárándy" ana="#regular"><kinesic type="noise"><desc>DR. BÁRÁNDY GERGELY (MSZP): Köszönöm szépen a szót, elnök úr. Tisztelt Legfőbbügyész-helyettes Úr! Tisztelt Professzor Úr! A befektetési vállalkozásokról és az árutőzsdei szolgáltatásokról szóló törvény egyértelműen elkülöníti az ügyfelek vagyonát a társaság vagyonától, éppen ezért soron kívül kiadhatóvá teszi a vagyont az ügyfeleknek. Igaz kell legyen ez a Buda-Cash-ügyben is. Nyilvánvaló azonban, hogy a Buda-Cash Brókerház Zrt.-nél történt bűncselekmények elkövetőinek majdani jogerős elítélését követően végrehajtandó vagyonelkobzás nem érinti, nem érintheti az ügyfelek vagyonát. Egész eddig azonban hónapok óta senki nem kapta vissza ezt a neki jogosan visszajáró vagyont.</desc></kinesic>
+<seg xml:id="AC7_5008.1">A Belügyminisztériumnak, konkrétan a belügyminiszter úrnak több esetben próbáltuk feltenni ugyanezt a kérdést, mint most önnek, legfőbbügyész-helyettes úr, ami nem a büntetőeljárás mikénti alakulására vonatkozik, csupán arra, hogy milyen jogszabályhely alapján nem adták ki eddig ezt a vagyont. Ugyanis a felszámoló az NNI eljárására hivatkozott. Mint mondottam volt, és mint a kérdés jellege és címe is jelzi, eddig nem kaptunk választ, ezért más címzettet kerestünk, a Legfőbb Ügyészséget, aki felügyeli a nyomozást, illetve a nyomozás törvényességét.</seg>
+<seg xml:id="AC7_5008.2">Az új hírek szerint, ez két-három nappal ezelőtt jelent meg, változni látszik a nyomozó hatóság gyakorlata ebben a témában. De kérem a legfőbbügyész-helyettes urat, hogy mondja meg, ha nem adható ki ez a vagyon, akkor miért nem, ha pedig kiadhatónak tartja, meg tudja-e erősíteni itt, a parlament nyilvánossága előtt azt, hogy törvény szerint ezek a vagyontárgyak visszajárnak az ügyfeleknek. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-06-01-urgent_question-AC7_5009" who="#AnitaHeringes" ana="#regular"><note>HERINGES ANITA (MSZP):</note>
+<seg xml:id="AC7_5009.1">Köszönöm szépen. Tisztelt Miniszter Úr! Május 14-én tartott kormányülés utáni sajtótájékoztatóján az alábbiak hangoztak el: három nemzetközi menedzsert, pénzügyi vezetőt, személyzeti vezetőt és vezérigazgatót keres a Paks I. transzparens és gazdaságosabb működtetéséhez. Bíznak benne, hogy a lépés a kormány és a költségvetés, valamint a nemzetközi közvélemény számára is elfogadható eredménnyel jár - hangoztatta.</seg>
+<seg xml:id="AC7_5009.2">Tisztelt Miniszter Úr! A Paksi Atomerőmű működésében mindig a biztonság az első. A transzparencia és átláthatóság az atomenergiában megkérdőjelezhetetlen. Ezt nem írhatja felül semmilyen gazdasági és politikai érdek. Az atomerőművet minden pillanatban a szakma felügyeli minden szinten. A NAÜ, a Nemzetközi Atomenergia-ügynökség igazgatója a következőket nyilatkozta: tapasztalataink szerint a Paksi Atomerőmű mostani üzemeltetői kompetens szakemberek, egy sor biztosíték van arra, hogy ez a menedzsment a legjobban végzi a feladatát, és őrzi, biztosítja a nukleáris biztonságot.</seg>
+<seg xml:id="AC7_5009.3">Miniszter úr, az ön bejelentésével, azaz, hogy május végével leváltja a most működő erőmű saját szakemberekből álló vezérkarát, és helyükre külföldi fejvadászcéggel nemzetközi menedzsereket kerestet, bizonytalanságot keltett az ott dolgozókban. Pedig Pakson az első kapavágás óta, jöhetett bármilyen kormány, az a szemlélet volt az alapja mindennek, hogy az emberek csinálhassák a munkájukat, és ne szóljon bele a politika. Most egy bizonytalan, rossz munkahelyi hangulat kezd kialakulni a dolgozók között. Paks vezetésében nem menedzsmentszemlélet kell, hanem szakértelem. A vezetőknek együtt kell élni az ott dolgozók gondjával, bajával, és még ahhoz is kell érteniük, hogy hogyan működnek a blokkok. Az sem baj, ha egy nyelvet fognak beszélni majd az ott dolgozó emberek.</seg>
+<seg xml:id="AC7_5009.4">Éppen ezért kérdezem: kik számára szeretné biztosítani a vezetők tervezett leváltásával az átláthatóságot? Mi alapján született ez a döntés? Önöknek az üzembiztonság vagy a gazdaságosabb működtetés a legfontosabb? Terveznek-e létszámcsökkentést Pakson? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-06-01-urgent_question-AC7_5010" who="#LászlóTeleki" ana="#regular"><note>TELEKI LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_5010.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Az elmúlt időszakban többször is lehetett hallani a Parlament falain belül is azt, hogy milyen nagy probléma ma Magyarországon a szegénység, és az elmúlt időszakban több olyan kutatás, felmérés is napvilágot látott, amely felhívja erre a kormány, de a társadalom figyelmét is, hogy ezzel a kérdéssel foglalkozni kell.</seg>
+<seg xml:id="AC7_5010.2">Az előző pár gondolatában kitért az ukrajnai helyzetre, ahol a gyermekszegénységet említette, én szeretném megemlíteni a magyarországi gyermekszegénységet is, hogy nagyon nagy a probléma, annak ellenére, hogy hallottam és láttam a költségvetésben azokat a számokat, amelyeket erre akarnak fordítani. De mégis azt gondolom, hogy az iskola bezárásával, amikor be fognak zárni két hét múlva az iskolák, akkor nagyon sok gyerek nem biztos, hogy eljut ahhoz a lehetőséghez, hogy meleg ételt kapjon legalább egyszer, nem beszélve a hétvégékről, amikor szombat-vasárnap nincsen semmi olyan intézmény, ami a gyerekeket ellátná. Kérdezném, hogy a hétvégi helyzetben mit tudnak kiajánlani a szülőknek, a gyermekeknek a gyermekéhezés visszaszorítása érdekében, hogy minél kevesebb gyermek vagy egyáltalán egyetlenegy gyermek se maradjon éhesen a hétvégék során.</seg>
+<seg xml:id="AC7_5010.3">De ugyanez igaz egyébként több olyan dolgozói szegénységet megélt emberre, akik hiába dolgoznak nap mint nap, viszont annyit tudnak csak megtakarítani - ha az megtakarítás -, amit a havi rezsijük jelent, és a havi megélhetésük alapjait tudja kiszolgálni, viszont nemhogy félretenni, de igazán a hónap végén már megélni se tudnak, azoknak a segélyezésével, az ellátásával mit terveznek, mert nagyon fontos az a kérdés is.</seg>
+<seg xml:id="AC7_5010.4">A harmadik kérdés pedig, azt gondolom, közel 120 ezer embert érint. Már többször elmondtam itt a falakon belül is, a romatelepek felszámolásáról éppen ma délelőtt a bizottság utasította el a kérésemet, ami arra irányult, hogy a költségvetésben jelenjen meg a telepek felszámolására egy összeg. Ez nem jelent meg. Csak szeretném jelezni, hogy közel 120 ezer ember, gyerek fog ott éhezni, mert nincs semmilyen ellátásuk. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-06-01-urgent_question-AC7_5011" who="#JánosPócs" ana="#regular"><note>PÓCS JÁNOS (Fidesz):</note>
+<seg xml:id="AC7_5011.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Államtitkár Úr! Tisztelt Képviselőtársaim! Tanulságos héten vagyunk túl a 2016-os költségvetés tárgyalását illetően. Az agrárvitanap ellenzéki szószólói nem rejtették véka alá, hogy számukra a közérdektől sokkal fontosabb az önérdek. Gőgös Zoltán képviselőtársunk a hortobágyi nagybirtokosok érdekeit védte könnyes tekintettel, válogatás nélkül mindenkit tegezve a tisztelt Házban. Vérzik a szíve Gőgös Zoltánnak, hiszen véget ért az a korszak, amikor barátja, Lajtos István a szocialista kormányzás idején a Hortobágyi Nemzeti Parkban 2200 hektár állami földre tette rá a kezét, hektáronként kevesebb mint 3 ezer forintért. Ez harmada volt az akkori piaci árnak. Ez éves szinten 370 millió, azaz napi több mint 1 millió forint állami támogatást jelentett a szocialista havernak. Mint köztudott, ez idő tájt volt Gőgös Zoltán a tárca államtitkára.</seg>
+<seg xml:id="AC7_5011.2">Kedves Képviselőtársaim! Szerencsére ez az idő már a múlté, de újak jöttek és egyre éhesebbek. Nemrég hallhattunk arról, hogy Sallai R. Benedek LMP-s képviselőtársunk a napokban úgy írt önmagáról a bejegyzésében, őt idézem: „nem egyszerű az új agrároligarchák élete”</seg>
+<seg xml:id="AC7_5011.3">(Derültség.)</seg>
+<seg xml:id="AC7_5011.4">További idézet Sallai R. Benedek bejegyzéséből: „Ha egy évben nem szankcionálna az a fránya MVH, akkor lenne esélyem, hogy további 3 misi felé toljam a területalapút.” Igen, újak jöttek és egyre éhesebbek.</seg>
+<seg xml:id="AC7_5011.5">Folytatva Sallai R. Benedek naplójából: „A feleségem most még jobban utálja a Fideszt, és le sem írom, hogy miket mondott Fazekasról.” És még mindig idézve az LMP-s agrárbárótól, mert a naplójában így is nevezi önmagát, némi álmodozásró</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC7_5011.6">is szó esik, amikor Csányi Sándort kollégájának nevezi, és utol kívánja őt érni</seg>
+<seg xml:id="AC7_5011.7">(Derültség. - Az elnök jelzi az idő leteltét.)</seg>
+<seg xml:id="AC7_5011.8">Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! Vajon valóban azért küldték őt a parlamentbe, hogy saját zsákmányszerzéséről álmodjon</seg>
+<seg xml:id="AC7_5011.9">(Az elnök jelzi az idő leteltét.)</seg>
+<seg xml:id="AC7_5011.10">Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! Az említett példák…</seg>
+<seg xml:id="AC7_5011.11">(A jegyzői székben dr. Szűcs Lajost Földi László váltja fel.)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-06-01-urgent_question-AC7_5013" who="#SebestyénVágó" ana="#regular"><note>VÁGÓ SEBESTYÉN (Jobbik):</note>
+<seg xml:id="AC7_5013.1">Köszönöm szépen a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Pénteken részt vettem a szociális ágazat dolgozóinak demonstrációján, ami az Alkotmány utcában ért véget, és az egyik szemem sírt, a másik nevetett. Az egyik szemem sírt azért, mert ennyi év után is még ott tartunk, hogy lehetetlen élethelyzetben vannak szociális pályán dolgozók az alacsony bérük miatt; lehetetlen helyzetben, egyik napról a másikra élve. A másik szemem nevetett, mert öröm volt látni, hogy ilyen összefogás van a szférán belül, sőt más szakmának, más ágazatoknak a képviselői, érdekvédelmi szervezetei is részt vettek a demonstráción, hogy ezzel fejezzék ki együttérzésüket a szakma dolgozóival kapcsolatban.</seg>
+<seg xml:id="AC7_5013.2">Megelőzném azt, amit államtitkár úr mondana, hogy felsorolná, hogy milyen eredmények vannak eddig, felsorolná azt, hogy július 1-jétől milyen változások várhatóak. Tisztában vannak a szféra dolgozói azzal, hogy mi történt eddig, mi várható, de nem elégedettek ezzel. Még ez alapján is több tízezer ember a létminimum alatt marad, ha július 1-jével ez a minimális, könyöradomány jellegű bérkompenzáció megtörténik.</seg>
+<seg xml:id="AC7_5013.3">Az életpályamodellt még sehol nem látjuk, a kanyarban sem, a 2016. évi költségvetés nem tartalmazza, a szférában dolgozók, érdekvédelmi szervezetek kiszámolták, hogy a költségvetésben a bérfejlesztésre 30 milliárd forintra lenne szükség ahhoz, hogy egy minimálisan elvárható, sőt azt mondanám, hogy az életben maradáshoz és normálisabb magyarországi, mert európainak nem mondható… - életet élhessenek azok, akik ezt a segítő, mindennapi küzdelemmel és lemondással járó hivatást választják. Ne kelljen olyan élethelyzetben lenniük, hogy a velük szemben ülő kliens jobb anyagi körülmények között van, mint ők, akiken segíteni kéne, azok jobb egzisztenciális állapotban vannak, mint a segítő szakma résztvevői.</seg>
+<seg xml:id="AC7_5013.4">Egyenes választ várok, nem kitérő válaszokat, nem felsorolást. Mikor lesz normálisan elfogadható életpályamodell? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-06-01-urgent_question-AC7_5014" who="#TamásSneider" ana="#regular"><note>SNEIDER TAMÁS (Jobbik):</note>
+<seg xml:id="AC7_5014.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Miniszter Úr! A Magyar Posta tulajdonában lévő, 594 főt foglalkoztató JNT Security nem nyitott a munkavállalókkal történő egyeztetésre, ami - nem győzöm eléggé hangsúlyozni - állami tulajdonú cég esetében különösen elfogadhatatlan.</seg>
+<seg xml:id="AC7_5014.2">Mert miről is lenne szó? A 2013-ban elfogadott mérleg szerinti eredménye alapján 1,3 milliárd forint profitot termelő Magyar Posta nem hajlandó megadni azokat a követeléseket a tulajdonában lévő cég munkavállalóinak, amelyeket saját munkatársainak biztosított. Pironkodás nélkül talán ki sem lehet mondani, a szakszervezet az alapbérek átlagos 5 százalékos növelését, valamint a béren kívül juttatások 22 ezer forint/fő/év összegű növelését szeretné elérni. Ez utóbbi havi szinten 1835 forintot jelent.</seg>
+<seg xml:id="AC7_5014.3">A munkavállalók hónapokon át eredménytelenül tárgyaltak a munkaadóval, ezért a kiszolgáltatott helyzetük javítása érdekében a törvények adta kereteken belül kilátásba helyezték a munkabeszüntetést. Megegyezés helyett a cégtől kirúgták a szakszervezeti ügyvivőt, majd a sztrájk alatt az egyeztetéseket is felfüggesztették. Megjegyzem, a szakszervezeti tisztségviselők szólás- és véleménynyilvánításához fűződő szabadságát Európa ezen részén két és fél évtizede nem ildomos korlátozni, pláne nem megtorolni. Bízom benne, hogy a miniszterelnök által meghirdetett elvek nem maradnak meg a szlogenek szintjén, és az erő helyett a figyelem politikáját fogják ezután követni.</seg>
+<seg xml:id="AC7_5014.4">Tisztelettel kérem a miniszter urat, hogy legyen tekintettel a munkavállalók családtagjaira is, szíveskedjen közreműködni abban, hogy mielőbb megegyezés szülessen a JNT Security és a sztrájkkészültségben lévő munkavállalók között. Várom válaszát, miniszter úr</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

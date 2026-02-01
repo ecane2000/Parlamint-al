@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2016-04-18" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2016-04-18 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2016-04-18 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="10" unit="speeches">10 beszéd</measure>
+        <measure xml:lang="en" quantity="10" unit="speeches">10 speeches</measure>
+        <measure xml:lang="hu" quantity="3232" unit="words">3232 szó</measure>
+        <measure xml:lang="en" quantity="3232" unit="words">3232 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2016-04-18">2016. 04. 18.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="10"/>
+          <tagUsage gi="seg" occurs="43"/>
+          <tagUsage gi="kinesic" occurs="12"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2016-04-18">2016-04-18</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2016-04-18-urgent_question-AC7_10165" who="#GergelyBárándy" ana="#regular"><note>DR. BÁRÁNDY GERGELY (MSZP):</note>
+<seg xml:id="AC7_10165.1">Köszönöm szépen a szót, elnök úr. Tisztelt Jegybankelnök Úr! Valóban ez a kérdés: ön rendelt-e magának ötmilliós fizetést?</seg>
+<seg xml:id="AC7_10165.2">De másként is feltehetem, ha erre azt válaszolja netán, hogy nem: egyetért-e ön azzal, hogy önnek 5 millió forintos fizetés jár? Ugyanis ha ma ön azt mondja itt a Házban, hogy ön szerint ez eltúlzott, és ön szerint ezt nem érdemli, vagy más miatt nem kéne, hogy ilyen fizetést kapjon, akkor biztos, hogy az országgyűlési képviselők többsége hajlandó lesz ezt visszamódosítani az eredeti állapotra.</seg>
+<seg xml:id="AC7_10165.3">Ön azt mondta, hogy Ausztriát szeretné Magyarország utolérni. Nos, egy dologban ez biztosan sikerült, és ez az ön fizetése. Amikor ön kormánytag volt, tisztelt elnök úr, akkor azt hirdették, hogy 2 millió forintnál magasabb állami fizetés pofátlanság, erkölcstelenség. Na, most ön egyetért még ezzel a véleményével? Ugyanis az ön fizetése több mint dupla ekkora lett. Most már nem tartja ezt pofátlannak, elnök úr?</seg>
+<seg xml:id="AC7_10165.4">Azt szeretném megkérdezni, hogy ön szerint indokolt-e az, hogy önnek az osztrák jegybank elnökéhez hasonló fizetése van, vagy egyáltalán hadd fogalmazzak úgy, hogy messze nem az EU-s átlag alatti fizetést kap jegybankelnökként, addig az egészségügyi dolgozók, vagy mondjuk, a szociális szférában dolgozók az utolsó helyen kullognak az Európai Unióban. Akkor, amikor ön 5 millió forintot keres, akkor ezeknek a dolgozóknak, mondjuk, az egészségügyben átlagosan a nettó bére nem éri el a 100 ezer forintot vagy a szociális szférában körülbelül 70-80 ezer forintot.</seg>
+<seg xml:id="AC7_10165.5">Szóval, azt kérdezném, tisztelt elnök úr, hogy amikor ez a helyzet a közszférában, amikor így keresnek, akkor valóban az-e az indokolt, hogy az ön fizetését emeljük meg nagyjából 3 millió forintról 5 millió forintra. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-04-18-urgent_question-AC7_10269" who="#LászlóSzászfalvi" ana="#regular"><note>SZÁSZFALVI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC7_10269.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A Magyar Országgyűlés 2012. július 6-án fogadta el az Erzsébet-programról szóló törvényt. A program megvalósulásával Magyarország Kormánya célul tűzte ki, hogy kedvezményes üdülési, pihenési lehetőséget biztosít a szociális üdülési rendszer keretében. Az elmúlt évek során a program a társadalmi szolidaritás és felelősségvállalás valódi, Európa-szerte is elismert, sikeres mintája lett, hiszen társadalmi összefogással, valamint költségvetési forrás bevonásával öt év alatt az elmúlt két és fél évtized legnagyobb üdülési és táborozási programja jöhetett létre hazánkban.</seg>
+<seg xml:id="AC7_10269.2">Az Erzsébet-program keretében eddig több mint 600 ezer ember, közülük több mint 300 ezer gyermek jutott üdülési, pihenési lehetőséghez. A program kiemelt figyelmet fordít a gyermekekre, a nagycsaládosokra, a fogyatékossággal élőkre és a nyugdíjasokra. Az Erzsébet-táborokban anyaországi és külhoni gyermekek számára egyaránt biztosított a tartalmas pihenés lehetősége, míg a napközi Erzsébet-táborok a szünidő tartalmas eltöltésére kínálnak megoldást.</seg>
+<seg xml:id="AC7_10269.3">Tisztelt Államtitkár Úr! Az eddig megvalósult programpontokat figyelve azt mondhatjuk, hogy egy rendkívül sikeres kezdeményezés az Erzsébet-program. Tisztelettel kérdezem ezért államtitkár urat, hogy milyen lehetőségeket kínál a program az idei esztendőben, és mire számíthatunk a jövőben az Erzsébet-programot illetően. Várom államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-04-18-urgent_question-AC7_10270" who="#MihályWitzmann" ana="#regular"><note>WITZMANN MIHÁLY (Fidesz):</note>
+<seg xml:id="AC7_10270.1">Köszönöm szépen a szót, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Mindannyiunk számára ismert és örömteli tény, hogy a magyar állam mintegy két héttel ezelőtt teljes mértékben visszafizette az Európai Bizottságtól még 2008-ban a Gyurcsány-kormány által felvett kölcsön utolsó, 1,5 milliárd eurós részletét. Ezzel a lépéssel Magyarország törlesztette a teljes, mintegy 14,3 milliárd eurónyi IMF-EU-hitelcsomagot, amely valóban komoly eredmény és egyértelműen sikertörténet minden magyar ember számára.</seg>
+<seg xml:id="AC7_10270.2">Ma már azt is jól tudjuk, hogy a 2008-as IMF-EU-hitelcsomag felvételéhez a megelőző évek hibás gazdaságpolitikai döntései vezettek. Miközben ezekben az években a többi kelet-közép-európai ország évi 6-8, sőt, akár 10 százalékos gazdasági növekedést ért el, Magyarország sajnos csődközeli állapotba került. Ezt a tényt támasztja alá az is, hogy míg a 2002-es kormányváltás idején az államadósság GDP-hez mért aránya 53 százalék volt, 2010-re ugyanez a mutató már 85 százalékot jelzett.</seg>
+<seg xml:id="AC7_10270.3">Arra is emlékezhetünk, hogy 2011-ben rendkívül kedvezőtlenül alakult az államadósság szerkezete, ugyanis annak 70 százaléka külföldiek kezében volt, a devizaadósság aránya pedig 50 százalékot tett ki. Ezzel szemben mára a devizaadósság aránya 35 százalékos szintre csökkent, a hazai finanszírozás jelentősen javult, az újonnan keletkező magyar lakossági megtakarításoknak pedig 50 százaléka állampapírban testesül meg. Az is jól látható, hogy az elmúlt évek gazdaságpolitikája pozitív változásokat eredményezett. 2013-ban a gazdaságban növekedési fordulat következett be, és 2010-től az államháztartásban is kedvező változások történtek. Ennek következtében 2013 nyarán az ország kikerült az Európai Unió úgynevezett túlzottdeficit-eljárása alól, és ugyanezen a nyáron az IMF-hitelt teljes egészében, a teljes hitelcsomagot az ország visszafizette.</seg>
+<seg xml:id="AC7_10270.4">Ezen a ponton szeretném kiemelni és megköszönni azt is, hogy az OECD által az elmúlt években elkészített, politikai motivációtól mentes elemzések és észrevételek jelentős iránymutatást és komoly szakmai segítséget nyújtottak a magyar gazdaságpolitika számára</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_10270.5">A fentiekre tekintettel tisztelettel kérdezem az államtitkár urat: számíthat-e Magyarország kedvezőbb hitelminősítői besorolásra az EU-IMF-hitelek visszafizetése következtében? Várom a megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-04-18-urgent_question-AC7_10272" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_10272.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Tisztelt Országgyűlés! Az elmúlt hét a Panamából kiinduló, de az egész világra kiterjedő offshore botrányról szólt, mára Moszkvától Londonig, Washingtontól Reykjavíkig milliók döbbenhettek rá arra, hogy saját politikai vezetőik miként rejtegették a saját vagyonukat az állampolgárok és az adófizetők elől, és miként kurtítják meg saját országuk költségvetését azzal, hogy nem vállalnak velük sorsközösséget, az adózás adóelkerülő formáit választják.</seg>
+<seg xml:id="AC7_10272.2">A Lehet Más a Politika évek óta kéri számon az Orbán-kormányon a nagyon kevés kézzelfogható ígérete közül az egyik legegyértelműbbet, az offshore lovagok kiseprűzését a közpénzek közeléből. Na most, mostanra az offshore-ozás nagyon közelre került a kormányhoz: ott vannak a régi oligarchák, most ott vannak az új oligarchák, Andy Vajna, az MNB, már mind bizonyultak érintettnek, most is itt ül velünk egy teremben egy fideszes képviselő, aki családilag érintett az offshore botrányban.</seg>
+<seg xml:id="AC7_10272.3">Egy biztos: a kormány a több száz milliárdos letelepedésikötvény-bizniszt úgy vezényli Rogán Antal segédletével, hogy gyakorlatilag továbbra is offshore cégeken keresztül megy az egész forgalom vagy jórészt az egész forgalom. Azt látjuk, hogy idén februárig 3500 letelepedési papírt adtak el világszerte. Na most, erről a 3500 letelepedési kötvényről mindössze a lényeget nem tudjuk: azt, hogy offshore cégeken keresztül kik gazdagodtak belőle, és pontosan kik azok, akik kihasználták a kormány által megnyitott lehetőséget.</seg>
+<seg xml:id="AC7_10272.4">És itt van egy nagyon súlyos kérdés. Önök, akik olyan kényesnek tűnnek a biztonsági kockázatokra, a mai napig nem tudtak épkézláb választ adni arra, hogy mégis milyen biztonsági kockázatot rejt magában az, hogy átláthatatlan cégek átláthatatlan vásárlókat juttattak letelepedési joghoz Magyarországon.</seg>
+<seg xml:id="AC7_10272.5">Tisztelt Államtitkár Úr! Milyen biztonsági ellenőrzésen esnek át azok, akik ilyen letelepedési kötvényhez jutnak</seg>
+<kinesic type="applause"><desc>Taps az LMP és a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-04-18-urgent_question-AC7_10273" who="#IstvánHiller" ana="#regular"><note>DR. HILLER ISTVÁN (MSZP):</note>
+<seg xml:id="AC7_10273.1">Tisztelt Elnök Úr! Képviselő Asszonyok és Képviselő Urak! Igen tisztelt Államtitkár Úr! Egy látszólag kevésbé előtérben lévő, de szakmailag nagyon is fontos ügyben kérdezem önt, illetve a minisztériumot. Arról van szó, hogy a magyar felsőoktatás területén a Magyar Akkreditációs Bizottság egy nagyon fontos testület és szervezet, nincsen olyan felsőoktatási szak, amelynek működése lehetséges lenne a Magyar Akkreditációs Bizottság belegyezésével, illetve beleegyezése nélkül. Nincs olyan tanszék, kar, intézet, intézmény, amelynek működéséhez ne lenne szükséges a Magyar Akkreditációs Bizottság véleménye.</seg>
+<seg xml:id="AC7_10273.2">Ennek az Akkreditációs Bizottságnak van egy felülvizsgálati bizottsága, értelemszerűen a jog szerint oda utalt kérdésekről kell hogy tekintélyes professzorok az elnök vezetésével állást foglaljanak. Az elnök egy, a magyar tudományos életben meghatározó személyiség, tekintélyes professzor, a Magyar Tudományos Akadémia tagja, aki február 3-án lemondott. Tette ezt azért, mert úgy látta, hogy ahogy a MAB, illetve a felülvizsgálati bizottság körül a dolgok mennek, történetesen, hogy szaktekintélyek döntését minden indoklás nélkül a minisztérium felülírja, az számára szakmailag a saját tekintélyét nézve is elfogadhatatlan. Ezért lemondott.</seg>
+<seg xml:id="AC7_10273.3">Így aztán a testület, minthogy azóta elnöke nincs, nem működik, következésképpen nem lehet hozzá fordulni, következésképpen egy sereg ügy áll a magyar felsőoktatásban; se előre, se hátra. Azt szeretném kérdezni, hogy mikor lesz ismét kinevezett tagja, elnöke a felülvizsgálati bizottságnak a Magyar Akkreditációs Bizottság esetében. Államtitkár úr, kérdezem</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-04-18-urgent_question-AC7_10274" who="#LajosKorózs" ana="#regular"><note>KORÓZS LAJOS (MSZP):</note>
+<seg xml:id="AC7_10274.1">Köszönöm a szót. Tisztelt Ház! Tisztelt Képviselőtársaim! Varga Mihály nemzetgazdasági miniszter a hétvégén, a szakmák éjszakáján jelentette be, hogy 0,9 százalékos nyugdíjemelésre számíthatnak jövőre az idős honfitársaink. Gondolom, azért éjszaka jelentette be, mert nappal leégett volna a képéről a bőr.</seg>
+<seg xml:id="AC7_10274.2">Nap mint nap látjuk a propagandában, hogy Magyarország jobban teljesít, és azt is látjuk, hogy a jobban teljesítés következtében immáron hatodik éve egy huncut fillérrel nem emelkedett az öregséginyugdíj-minimum mértéke, miközben a múlt évben két ilyen indítványt is tettünk, mind a kétszer a fideszes többség leszavazta a bizottságban is és a parlamentben is.</seg>
+<seg xml:id="AC7_10274.3">Azt mondja, hogy Magyarország jobban teljesít, ugyanakkor ebben a jobban teljesítő kiadványban éppen a minimálbér oldalán foglalkozik a nyugdíjakkal, de nem beszél arról, hogy ebben évben is csak 1,6 százalékos nyugdíjemelés volt, nem beszél arról, hogy kétszer leszavazták, ahogy említettem, az öregséginyugdíj-minimum 50 ezer forintra való emelését, és nem beszél arról, hogy közel 200 ezer embert már kiraktak teljes mértékben a nyugdíjrendszerből, és nem beszél arról, hogy nap mint nap nyomorgatják a rokkantakat, megalázva őket. Ha jobban teljesít Magyarország, mondja, államtitkár úr, miért van az, hogy több százezer idős honfitársunk még mindig nyomorog? Ha Magyarország jobban teljesít, mondja, államtitkár úr, miért van az, hogy több százezer idős ember nem tudja megfelelően fűteni a lakását; és miért van az, hogy az ételosztásokon több százan, sőt több ezren idős emberek állnak sorba egynapi meleg ételért? Megtisztelő válaszát várom. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+<seg xml:id="AC7_10274.4">(14.20)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2016-04-18-urgent_question-AC7_10279" who="#IstvánSzávay" ana="#regular"><note>SZÁVAY ISTVÁN (Jobbik):</note>
+<seg xml:id="AC7_10279.1">Köszönöm szépen a szót, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! „Ami másnak jár, az nekünk is jár” - hallottuk már rendkívül sok alkalommal Semjén Zsolt miniszterelnök-helyettes úrtól különböző nemzetpolitikai fórumokon és nyilatkozatokban, többek között a külhoni magyarok különféle autonómiáinak támogatása kapcsán. Mint ahogy azt is nagyon sokszor hallottuk már a miniszterelnök-helyettes úrtól, üdvözöltük is természetesen előző kijelentésével együtt, hogy a tömbben élő magyarságnak jár a területi autonómia, a szórványban élő magyarságnak pedig jár a kulturális autonómia. És azt is nagyon sokszor hallottuk már a miniszterelnök-helyettes úrtól, hogy a magyar kormánynak kötelessége a külhoni közösségek által megfogalmazott autonómia-, önrendelkezési törekvések támogatása. Tehát az elvek szintjén ez sokszor megjelenik a kormány részéről, azonban amikor van egy gyakorlati lehetőség, egy gyakorlati eset, akkor önök rendszerint némaságba burkolóznak.</seg>
+<seg xml:id="AC7_10279.2">Így történt ez a legutóbb is, amikor volt egy konkrét ügy, egy konkrét nemzeti ügy, amiben meg kellene szólalni, és Magyarországnak támogatásáról kellene biztosítania a formálódó kárpátaljai autonómiatörekvéseket. Április 5-én a Kárpátaljai Megyei Tanács egy beadványban fordult Ukrajna államfőjéhez, kormányfőjéhez, illetve a házelnökhöz, amelyben nagyobb önrendelkezést kérnek Kijevtől Kárpátalja számára, és emlékeztetnek az 1991-es népszavazás eredményére, aminek alapján a régió lakosságának 75 százaléka, döntő többsége állt ki az autonómia mellett, és egyébként ugyanekkor döntöttek egy magyar autonóm körzet létrehozásáról is. Ezek a döntések azóta sem váltak valóra.</seg>
+<seg xml:id="AC7_10279.3">Ennek a felújítását akarják ebben a beadványban, ami alapvető magyar érdek, úgy gondolom, a külügy mégsem szólalt meg ebben a kérdésben. De nem kommentálták azt sem, hogy Hennagyij Moszkal kárpátaljai kormányzó az akkori népszavazás eredményének megsemmisítését kérte most, ami egyébként azért is furcsa, mert az a népszavazás Ukrajna függetlenségéről is rendelkezett.</seg>
+<seg xml:id="AC7_10279.4">Mi a kormány valódi álláspontja? Támogatják önök a külhoni közösségek autonómiatörekvéseit vagy nem</seg>
+<kinesic type="signal"><desc>Az elnök csengetéssel jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_10279.5">Kinek van igaza? Kire hallgassunk a kormány álláspontja kapcsán? Semjén Zsoltra vagy a külügy némaságára?</seg>
+<seg xml:id="AC7_10279.6">Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-04-18-urgent_question-AC7_10280" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_10280.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Tisztelt Országgyűlés! Most sokat beszéltek előbb a kormány tisztelt képviselői és a KDNP-s képviselő úr a Balaton-parti üdültetésről. Kár, hogy azt nem tették hozzá, hogy ha a kormányuk így folytatja, akkor előbb-utóbb nem lesz ott Balaton, amelyben lehet majd üdültetni meg fürdetni bárkit is, vagy legalábbis nem olyan minőségben, ahogy a Balatont megismertük és szeretjük.</seg>
+<seg xml:id="AC7_10280.2">Ugyanis miközben 2012-ben a lellei partszakaszt sikerült tönkretenni egy jachtkikötő építése miatt bekövetkezett feliszaposodással, most nagyjából ugyanez történik Balatonmáriafürdő és Balatonfenyves térségében, ugyanilyen okból kifolyólag. Ott voltak az áramlástani szakértők, megmondták előre, hogy ha fél kilométer hosszú mólót beleépítenek a vízbe, akkor nem fog úgy áramlani a víz, ahogy kell, fel fog iszaposodni az egész, a strand gyakorlatilag, ott a Balatonnak a nyugati medencéje, úgy, ahogy van, tönkremehet. Máriafürdő a tó magas vízállása ellenére már most fuldoklik az iszapban, és a vízügynek láthatóan ötlete sincsen arra, hogy hogyan kezelje ezt a helyzetet. Sem a móló építése miatt kikotort, sem a strandról kiemelendő iszap szakszerű elhelyezése nincsen megoldva. Sokadik feljelentésemet írtam már meg ezzel kapcsolatban.</seg>
+<seg xml:id="AC7_10280.3">Az eset tanulsága teljesen egyértelmű, egyrészt olyan törvényeket kell csinálni, amik működnek, kettő, a törvényeket be kell tartani, három, érvényt kell szerezni az építési és a környezetvédelmi előírásoknak, és a szakértői véleményeket be kell építeni a döntéshozatalba, hogy ne kelljen ilyen helyzetbe kerülnie a Balatonnak most már sokadszorra. Azonban jelenleg ez a jogállami minimum egyáltalán nem érvényesül a Balatonnál, gyakorlatilag a befektetők lázálmai akadály nélkül mennek át a kormány alá rendelt, önállóságától teljesen megfosztott hatósági rendszeren, és a törvénysértő döntések nyomán az ügyletekből profitáló magántőke húzza a hasznot, a társadalom meg fizetheti a költségeket.</seg>
+<seg xml:id="AC7_10280.4">Tisztelt Államtitkár Úr! Kérem, számoljon be róla, hogy milyen konkrét lépéseket tesz az állami környezet- és természetvédelem azért, hogy a Balatonnál csak olyasmi épülhessen, ami összhangban van a hatályos jogszabályokkal, például a Balaton-törvénnyel és a fenntarthatóság szempontjaival. Illetve hogyan garantálja a tárca a törvénysértő módon épült, láthatóan kárt okozó építményeknek a mielőbbi eltüntetését a Balaton környékéről?</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2016-04-18-urgent_question-AC7_10281" who="#SebestyénVágó" ana="#regular"><note>VÁGÓ SEBESTYÉN (Jobbik):</note>
+<seg xml:id="AC7_10281.1">Köszönöm szépen a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Azonnali kérdésemmel én szeretném megkönnyíteni a dolgát, néhány dolgot szeretnék elmondani, amit ne említsen a válaszában, hanem a konkrét kérdésekre válaszoljon. Nem vagyunk kíváncsiak az adókedvezmény áldásos következményeire, nem vagyunk kíváncsiak a folyamatos pótlékolásra, hanem a konkrét válaszokra vagyunk kíváncsiak, én, a frakcióm is, nagyon sok ellenzéki képviselő, illetve maga az ágazat is.</seg>
+<seg xml:id="AC7_10281.2">Április 20-ára a szociális ágazati dolgozók sztrájkbizottsága sztrájkot hirdetett. Három követelést fogalmaztak meg. Az egyik a 20 százalékos béremelés, a másik az érdekegyeztető tárgyalások az ágazatot érintő kérdések hatálybalépése előtt, illetve a munkaközi szünetek legyenek része a munkaidőnek. Nem nagyok ezek a kérések, főleg, ha figyelembe vesszük, hogy eredeti követeléseikhez képest még visszalépést is tapasztalunk, ugyanis eredetileg azt szerették volna, hogy az egészségügyi bértáblához hasonló bértábla kerüljön bevezetésre a szociális ágazatban is, és ha figyelembe vesszük azt, hogy jelenleg 23 százalékkal keresnek átlagban többet az egészségügyi ágazatban, mint a szociális ágazatban, akkor úgy gondolom, hogy ők megtették az első lépést.</seg>
+<seg xml:id="AC7_10281.3">Önöké a következő lépés, a következő lépés, amit már olyan régóta ígérgetnek: a szociális életpályamodell bevezetését. Mondhatjuk azt, hogy nem kérnek sokat. Egyetlenegy dolgot kérnek, azt az egy dolgot kérik, hogy életben maradhassanak úgy, hogy nem kell pályát módosítaniuk, nem kell más ágazatban szerencsét próbálniuk, vagy nem kell külföldre menekülniük, akár végzettségtől függetlenül árufeltöltőnek vagy bármilyen más munkát végzőnek bármelyik nyugat-európai országba.</seg>
+<seg xml:id="AC7_10281.4">Nem kérnek nagyot: életben szeretnének maradni, dolgozni szeretnének, és fenn szeretnék tartani nagyszerű szaktudásukkal a szociális ellátórendszert. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-04-18-urgent_question-AC7_10282" who="#GyörgySzilágyi" ana="#regular"><note>SZILÁGYI GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_10282.1">Köszönöm szépen a szót. Tisztelt Államtitkár Úr! Egy héttel ezelőtt Orbán Viktor azzal válaszolt az offshore szervezeteket firtató azonnali kérdésemre, hogy önök 44 ezer céget vizsgáltak át tüzetesen. Azt már nem említette meg, hogy ezt a Jobbik kényszerítésére csinálták meg, és hogy ebből a 44 ezer cégből önök 260 olyan céget találtak, amely EU-forrásból támogatott átláthatatlan szervezetet, és ezt közzétették. Megdöbbentő azonban, hogy hiába történt meg az átvilágítás, hiába történt meg a közzététel, és hiába hivatkozik még most is a miniszterelnök úr erre a munkára mint a visszaélésekkel szembeni elkötelezettségének szimbólumára, ugyanis a Fidesz-frakciót, az egyes háttérintézmények vezetőit jottányit sem érdekli, hogy önök kiről mondták ki, hogy átláthatatlan, tehát velük törvényesen szerződni nem lehet.</seg>
+<seg xml:id="AC7_10282.2">Vegyünk egy példát ebből a 260-as listából! Szaktudás Kiadó Ház Kft., 2009. II. hó 16-tól mind a mai napig egy teljességgel ismeretlen tulajdonosi összetételű luxemburgi cég áll mögötte. Hogyan fordulhat elő, hogy ez a cég a vizsgálat és a közzététel ellenére dúskál a megrendelésekben? Hogy csak soroljam, az EMMI háttérintézménye, az Oktatáskutató és Fejlesztő Intézet több ízben hirdetmény nélküli eljárásban hívta meg ezt a céget és kötött vele szerződést. Türr István Képző és Kutató Intézet: 136 millió forintos munkába vonta bele. Agrárkamara: Győrffy Balázs képviselőtársunk elnökletével két szerződést kötött, ebből az egyik 238 millió forint. De sorolhatom, Debreceni Egyetem, Fertő-Hanság Nemzeti Park, Educatio. Az Educatio Társadalmi Szolgáltató Nonprofit Kft. 1 milliárd 630 millió forintos munkába és megrendelésbe vonta be ezt a Szaktudás Kiadó Ház Kft.-t 2014. október 15-én, tehát fél évvel azután, hogy önök offshore cégnek nyilvánították.</seg>
+<seg xml:id="AC7_10282.3">Kérdezem tehát: ez lenne az offshore lovagok elleni harc, amire a miniszterelnök úr annyira büszke? Várom tehát államtitkár úr véleményét, hogy miért fordulhatnak elő és hogyan fordulhatnak elő továbbra is tömkelegével az ilyen esetek, amikor önök offshore cégekne</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC7_10282.4">közpénzeket juttatnak, és ilyen arcátlanul. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

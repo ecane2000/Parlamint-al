@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2015-05-04" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2015-05-04 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2015-05-04 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2969" unit="words">2969 szó</measure>
+        <measure xml:lang="en" quantity="2969" unit="words">2969 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2015-05-04">2015. 05. 04.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="48"/>
+          <tagUsage gi="kinesic" occurs="9"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2015-05-04">2015-05-04</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2015-05-04-urgent_question-AC7_4609" who="#R.BenedekSallai" ana="#regular"><note>SALLAI R. BENEDEK (LMP):</note>
+<seg xml:id="AC7_4609.1">Köszönöm szépen, elnök úr. „Széles a Balaton vize, keskeny a híd rajta, / Nem zörög a nyárfalevél, ha a szél nem fújja.” Megérdemelnék, hogy büntessem önöket, hogy ezt énekben mondjam e</seg>
+<kinesic type="noise"><desc>Derültség. - Közbeszólás: Halljuk!</desc></kinesic>
+<seg xml:id="AC7_4609.2">, de ezt kihagytam.</seg>
+<seg xml:id="AC7_4609.3">Ez a széles Balaton-víz most elkezd egyre keskenyebb lenni, és elkezdünk emiatt sokan aggódni, de főleg helyiek, akik 18 évig sajnos nem vették észre azt, hogy mi készül, most viszont, amikor megjelentek ott a gépek hatalmas mennyiségű töltelékkel, hogy megcsinálják a mólókat, egyre többen figyelnek erre.</seg>
+<seg xml:id="AC7_4609.4">A Balatont mindenki ismeri, és képzeljenek el négy teljes focipályát, négy hektárt, ahogy bemegyünk a Balaton vizébe 500 méterre Balatonfenyvesnél, és elkezdünk egy Monacóban is párját ritkító méretű kikötőt megépíteni. Erről már fotók vannak az interneten, ahogy borogatják befelé a kőtörmeléket ezeknek a mólóknak a megépítéséhez, ami teljesen jogszerű engedélyek kapcsán zajlik, sőt közel 800 milliós EU-s támogatást is élvez ez a program.</seg>
+<seg xml:id="AC7_4609.5">Nyilvánvalóan a kérdés nem az számomra, hogy miért épül jogszerű engedélyek alapján, hanem az, hogy hogyan kaphatott engedélyt egy ilyen. Hogyan kaphatta meg az engedélyt egy európai uniós madárvédelmi irányelv és élőhelyvédelmi irányelv hatálya alá tartozó, Natura 2000-es területen lévő 4 hektárnyi területen egy ilyen fejlesztésre úgy, hogy a környezetvédelmi hatóságként eljáró nem tudom, micsoda - mert szakmai hatóságnak nem nevezem -mindössze azt mondja, hogy ennek nincsenek környezeti hatásai. Tehát 4 hektáron kikotorják a Balatont, ezt úgy teszik, hogy a hatóság előírja, hogy ívási időszakban nem lehet, majd az első időpontban meghosszabbítják ívási időszakra a teljes kotrási tevékenységet, és a hatóság azt mondja, hogy nincs ennek környezeti hatása.</seg>
+<seg xml:id="AC7_4609.6">Nagyon kíváncsi lennék, hogy milyen megfontolások alapján adta ki a hatóság az engedélyt, és mi alapján gondolta azt, hogy 65 ezer köbméter iszap kikotrása nemcsak környezetvédelmi feladattal és kockázattal nem jár, hanem gyakorlatilag nem is ró feladatot a társadalomra.</seg>
+<seg xml:id="AC7_4609.7">Szerintem ez nyilvánvalóan a környezetvédelmi intézményrendszer összeomlását jelenti, de örülnék, ha nem így lenne.</seg>
+<seg xml:id="AC7_4609.8">Ez ügyben várnám az államtitkár úr válaszát. Köszönöm szépen.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-05-04-urgent_question-AC7_4610" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_4610.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Öngondoskodás és munkahelyteremtés - ez a szlogenje annak a márciusban Békésben indult közfoglalkoztatási mintaprogramnak, amellyel kapcsolatban kérdezni szeretném önt, illetve a minisztert. Ebben a kezdeményezésben a tervek szerint közmunkások fognak háztáji gazdálkodásban sertést tenyészteni és növényt termeszteni. Azt is tudjuk még a kiírásból, hogy két évig állami forrásból fog a program működni közmunkában, és 2017 márciusától várják, hogy ez majd önfenntartóvá váljon.</seg>
+<seg xml:id="AC7_4610.2">Azt látni kell, tisztelt államtitkár úr, hogy 1 milliárd forint elköltéséről intézkednek önök, és ez a program Simonka Györgyhöz kötődik, ahhoz a Simonka Györgyhöz, akinek a dinnyekartelles ügyeiről sokan, sokat hallottunk ebben az országban. Én pluszban nála is jártam - ezt nem biztos, hogy tudja államtitkár úr -, merthogy ugyancsak sokan panaszkodtak a helyi Döbrögire.</seg>
+<seg xml:id="AC7_4610.3">Tisztelt Államtitkár Úr! Nekem elég erős kétségeim vannak afelől, hogy ez a program valóban arról fog szólni, hogy valódi és tartós megélhetést biztosítson a békési embereknek. Hiányolom a képzést, és hiányolom az előkészítését is a programnak. Azt láthatjuk, hogy a Fidesz helyi Döbrögiken keresztül képzeli el a vidékfejlesztést, úgy is néz ki ez az ország, de most ebben a programban a közmunkásoknak saját maguknak kell gondoskodniuk a sertés hizlalására alkalmas ólról, és én úgy látom, hogy szakmai segítségre nem igazán számíthatnak. Jelenleg még a jól felszerelt, nagyon hatékonyan működő sertéstartók is gondban vannak az alacsony átvételi árak miatt. Összességében azt szeretném öntől megtudni, mennyire adottak a feltételek ahhoz, hogy ez a mintaprogram sikeres legyen és hozza a várakozásokat.</seg>
+<seg xml:id="AC7_4610.4">A másik, amit ki szeretnék emelni, az, hogy a sertéstartás mellett - mit ad Isten - dinnyét fognak termeszteni ezek a közmunkások. Mondjuk, Simonka Györgyről tudjuk, hogy nagy dinnyeszakértő. Ezzel kapcsolatban azt nem értem egész pontosan, hogy a termékek értékesítésében és piacra juttatásában kik fognak segíteni a közmunkásoknak. Az önkormányzatok vajon? De hogyan? Nem esik szó a programban arról, hogy pontosan hogy fog zajlani a termékek értékesítése. Emlékezzünk a Hegedűs Zsuzsa-féle program tapasztalataira, ha egyszerűen állatot meg vetőmagot adunk az embereknek, abból nem lesz semmi.</seg>
+<seg xml:id="AC7_4610.5">Hogyan próbálják ezt a programot sikeresebben csinálni</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-05-04-urgent_question-AC7_4613" who="#LászlóGyörgyLukács" ana="#regular"><note>DR. LUKÁCS LÁSZLÓ GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_4613.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Miniszter Úr! Tisztelt Államtitkár Úr! Képviselőtársaim! Kétségtelenül kijelenthető, hogy az ápolás ügye a 24. óra után jár, az ápolók ügye és helyzete tarthatatlan. Ezt a kilátástalan helyzetet erősítette meg a Magyar Ápolási Egyesületnek a múlt héten tartott konferenciája, ahol elhangoztak azok a pontok, területek, amelyek a legkomolyabb diskurzust és a legkomolyabb kihívást tartalmazzák. Itt beazonosította a szakma grémiuma azt a három területet, így a munkabérek kérdését, a munkakörülmények kérdését és az utánpótlás kérdését, amelyre alapozva megállapítható: valóban a 24. óra után jár az egészségügyi dolgozók helyzete, így az ápolók helyzete is.</seg>
+<seg xml:id="AC7_4613.2">Elsődlegesen, ami a munkabéreket illeti, az már szinte köztudomású, hogy az ápolók túlnyomó többsége, 70 százaléka garantált bérminimumból él, és csak 10 százalékkal magasabb ez a bérük, mint a minimálbér. Munkakörülményeiket tekintve eszközhiánnyal küzdenek, stresszes, pszichésen, fizikálisan is megterhelő körülmények között dolgoznak, nem kellő biztonságú munkahelyeken, és ami az egyik legsajnálatosabb: egy új kutatás szerint ezáltal éppen az egészségügyi dolgozók az egyik legegészségtelenebb emberek, illetve dolgozók és a legkevésbé egészséges dolgozói a magyar társadalomnak.</seg>
+<seg xml:id="AC7_4613.3">Az utánpótlás ugyanilyen kihívást tartalmaz, ugyanis lassan az ápolók átlagéletkora eléri az 50 évet, tíz év múlva tízezer fő fog hiányozni a rendszerből.</seg>
+<seg xml:id="AC7_4613.4">A Jobbik úgy gondolja, őszintén kell beszélni ezekről a problémákról, kérdésekről, a kormány befogja a fülét, el akarja hallgatni a kérdéseket, nem akarja meglátni a feketében dolgozó ápolókat. Őszintén kell arról is beszélni, hogy a szűkös költségvetési mozgástérben milyen megoldást lehet találni ezekre a problémákra. A Jobbik szolidaritást vállal az ápolókkal, és hív mindenkit a május 12-én tartandó országos demonstrációra.</seg>
+<seg xml:id="AC7_4613.5">Kérdezzük ez alkalomból miniszter urat, államtitkár urat: miért nem kívánják meghallani a problémákat? Öt év Fidesz-kormányzás után miért tartunk még mindig itt? Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+<seg xml:id="AC7_4613.6">(13.40)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-05-04-urgent_question-AC7_4614" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC7_4614.1">Tisztelt Elnök Úr! Tisztelt Ház! Ebben az időszakban érkeznek majd meg azok az utolsó elszámoló levelek, amelyeket múlt héten kellett postára adniuk a hitelező pénzintézeteknek. Látható az, amire már több alkalommal figyelmeztettünk, hogy a kormányzat a hitelkárosultak számára 10-20 százalékos tehercsökkenést ígér, ezzel párhuzamosan, ezzel szemben azonban engedte a 2010 óta is tapasztalható mintegy 70 százaléknyi árfolyam-különbözetet a károsultak nyakába szakadni. Látható, hogy a lakáshitelesek jártak a legrosszabbul a számok szerint, de nagyon sok esetben, tömegesen fordult elő az, hogy a tartozás alaptőkéje bizony most, az úgynevezett elszámolás után több, mint amennyit annó felvettek, pedig több éve becsülettel törlesztenek az érintettek, akár milliókkal is magasabb ez az összeg.</seg>
+<seg xml:id="AC7_4614.2">Az egyik, 7-ére tüntetést szervező csoport vezetője tisztelt meg bennünket levelével, ahol a konkrét esetét is megosztja a szélesebb közvéleménnyel. Ennek értelmében a 13 millió 800 ezer forintos hitelösszeg felvétele után, kiszámolta, ha végig fizetné azt, amit a fideszes elszámolás után követel tőle a bankja, összesen 48 millió forintot törlesztene a futamidő végéig. A 13,8-ra, még egyszer mondom.</seg>
+<seg xml:id="AC7_4614.3">Konkrét tehát a kérdésem és egyértelmű. Ezen elszámolásnak, elszámoltatásnak nem nevezhető folyamatsor után a kormányzat mit kíván tenni, hogyan kívánja ezt a tarthatatlan helyzetet rendezni? Még konkrétabban: mi lesz az indokolatlanul lenyúlt milliók sorsa, mi lesz annak a pénznek a sorsa, ami ott maradt a bankok számláján jóváírva, de a valóságban nem az övék, hiszen az a károsultak pénze?</seg>
+<seg xml:id="AC7_4614.4">A kérdésem tehát konkrét, erre várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-05-04-urgent_question-AC7_4616" who="#ImreVas" ana="#regular"><note>DR. VAS IMRE (Fidesz):</note>
+<seg xml:id="AC7_4616.1">Köszönöm a szót. Tisztelt Államtitkár Úr! A Budapesti Vegyiművek ferencvárosi, Illatos úti telepén a gyár már jó ideje nem üzemel. Sajnálatos módon azonban a telephelyen maradt több mint 2 ezer tonna veszélyes hulladék. A sok évtized alatt felhalmozott hulladék rendkívül káros az élő környezetre, ezért a telep megtisztítása nem tűr halasztást.</seg>
+<seg xml:id="AC7_4616.2">Az eset rendkívül hatékony és összehangolt beavatkozást igényel az eljáró szervek részéről. Elsődleges feladat a veszélyes besorolású hulladék elszállítása és ártalmatlanítása. Ezt követheti az Illatos úti telep talajának megtisztítása a további káros anyagoktól, az azok által okozott környezeti kockázatok megszüntetése. A gyors eljárás azért is kiemelten fontos, mert a területen számottevően sérülhetett a talaj a káros anyagok szivárgása nyomán, azonban a hét és fél éve tartó felszámolás alatt ismereteim szerint a kirendelt felszámoló, illetve felszámolóbiztos nem tett semmit a károk elhárítása érdekében, annak ellenére, hogy a környezetvédelmi hatóságok többször kötelezték őt erre, és a felszámolás alatt álló céget bírsággal is sújtották - már az elmaradás miatt, tehát mert nem tett eleget a kötelezésnek.</seg>
+<seg xml:id="AC7_4616.3">Tisztelt Államtitkár Úr! A felszámolás alatt álló Budapesti Vegyiművek ferencvárosi telephelyének megtisztítása nem csupán a IX. kerületben és a környező kerületekben élők érdeke, hiszen mindenki számára fontos, hogy a hazai talaj, talajvíz és a kapcsolódó környezet ne szenvedjen maradandó károsodást. A veszélyes hulladék elszállítása múlt hét csütörtökön megkezdődött.</seg>
+<seg xml:id="AC7_4616.4">Kérdezem az államtitkár urat, milyen ütemben történik a telepről a veszélyes hulladék elszállítása, illetve a talaj megtisztítása. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-05-04-urgent_question-AC7_4618" who="#RolandMengyi" ana="#regular"><note>DR. MENGYI ROLAND (Fidesz):</note>
+<seg xml:id="AC7_4618.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Az emberi élet méltóságának egyik legfontosabb letéteményese a munka. Ahol munka van, minden van. Mostanában sokat beszélünk a szegénységről és arról, hogy hogyan lehetne segíteni, és közben nem felejtjük el, hogy a szegénység elleni leghatékonyabb ellenszer a munka és az ebből származó kereset. Nem a levegőbe beszélünk tehát akkor, amikor a munkaalapú társadalom felépítését tűzzük ki célul.</seg>
+<seg xml:id="AC7_4618.2">Biztató eredmény, hogy a foglalkoztatási ráta 2010 és 2014 között 6,8 százalékponttal, csak 2014-ben 3,7 százalékponttal 66,7 százalékra nőtt. Ugyanebben az időszakban az Európai Unió átlagában mindössze 0,6 százalékpontos javulás következett be. A foglalkoztatottak számának növekedésében nagy szerepe van a munkát terhelő adók csökkentésének, a munkahelyvédelmi akciótervnek, a kormány célzott foglalkoztatási programjainak, illetve a 2013-ban bekövetkezett növekedési fordulatnak.</seg>
+<seg xml:id="AC7_4618.3">Látszik tehát, hogy a munkaalapú társadalomért tett erőfeszítéseink nem hiábavalóak. De nem állhatunk meg itt. Ki kell használnunk azt a lehetőséget, hogy a 2014 és 2020 közötti uniós fejlesztési ciklusban az eddiginél több fejlesztési forráshoz jut Magyarország, amelynek 60 százalékát közvetlenül gazdaságfejlesztésre, azaz munkahelyteremtésre, a kis- és középvállalkozások fejlesztésére és iparfejlesztésre fordíthatjuk. A cél az, hogy a jelenlegi 7 százalékról 3 százalékra szorítsuk a munkanélküliségi rátát.</seg>
+<seg xml:id="AC7_4618.4">Tisztelt Államtitkár Úr! A 28 uniós tagállam közül Magyarország csökkentette a legnagyobb mértékben a munkanélküliséget az elmúlt évben. Az Európai Bizottság legfrissebb jelentése alapján pedig a magyarországi munkanélküliség a jelenlegi 7 százalékról a következő egy-másfél évben 6 százalék környékére csökkenhet.</seg>
+<seg xml:id="AC7_4618.5">Kérdezem a fentiekre tekintettel, mit tesz a kormány a teljes foglalkozatás elérése érdekében. Köszönöm válaszát</seg>
+<kinesic type="applause"><desc>Szórványos taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-05-04-urgent_question-AC7_4619" who="#RózsaHoffmann" ana="#regular"><note>DR. HOFFMANN RÓZSA (KDNP):</note>
+<seg xml:id="AC7_4619.1">Köszönöm szépen, elnök úr. Megszólalásomban először is tisztelegni szeretnék azon 18 év körüli fiatalok előtt, akik az elmúlt hétvégén ünnepélyes keretek között elbúcsúztak a középiskolájuktól, elballagtak, és ugyancsak szüleiktől és tanáraiktól, hiszen életük jelentős fordulópontjához érkeztek.</seg>
+<seg xml:id="AC7_4619.2">Úgy vélem, hogy kevesen vagyunk ebben a teremben vagy vannak ebben a teremben olyanok, akiknek gyermeke, unokája, ismerőse, rokona ma ne nagy izgalommal ment volna be a középiskolájába, hiszen megkezdődtek az érettségi vizsgák. Én magam is izgulok, egykori tanárként is meg jelenlegi volt tanárként is, akinek ismerősei, kis barátai érettségiznek, és tudom, hogy milyen jelentős esemény ez életükben.</seg>
+<seg xml:id="AC7_4619.3">Talán nem mindenki tudja, hogy a közoktatási, köznevelési rendszerünk egyik legrégibb intézményéről van szó, 1851 óta vannak érettségi vizsgák, és a bevezetésének időszakában bizony élénken tiltakoztak ellene a magyarok, aztán annyira szervesült az oktatási rendszerben, hogy már elképzelhetetlen enélkül a köznevelés rendszere.</seg>
+<seg xml:id="AC7_4619.4">Érdekes lenne a neveléstörténeti kuriózumokat megemlíteni. Én egyet emelek csak ki: éppen tíz éve annak, hogy felismerve azt a szükségszerűséget, hogy az érettségi egyfelől lezárja a középiskolai tanulmányokat, másrészt utat nyit a felsőoktatás felé, kettéválasztották bizonyos mértékig a két funkciót, és kétszintűvé tették az érettségi vizsgát.</seg>
+<seg xml:id="AC7_4619.5">Arról is érdemes megemlékezni, hogy botrányok sorozata kísérte az érettségi reformokat. Mostanában ilyenek nincsenek, hála istennek.</seg>
+<seg xml:id="AC7_4619.6">Kérdezem tisztelt államtitkár urat, hogy felkészültek-e megfelelőképpen az érettségi vizsgára, hányan fognak érettségi vizsgát tenni, és ami talán a legfontosabb, hogy hogyan halad az érettségi korábban megkezdett megújítása, egy újabb érettségi reform</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-05-04-urgent_question-AC7_4621" who="#TamásHarangozó" ana="#regular"><note>DR. HARANGOZÓ TAMÁS (MSZP):</note>
+<seg xml:id="AC7_4621.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Mint emlékezetes, Szijjártó Péter még az utolsó pillanatban is kimenekíthette az egyik külügyes cég vagyonát a bedőlt Quaestorból. Amit Szijjártó Péter megtehetett, az a Honvéd Egészségpénztárnak már nem sikerült, pedig azonnal intézkedtek, amint a médiából értesültek a Buda-Cash csődjéről.</seg>
+<seg xml:id="AC7_4621.2">A DRB banknál vezetett számlájukról azonnal továbbutalták az egészségpénztár ott elhelyezett mintegy 1,8 milliárd forintját. Ennek következtében ugyan az egészségpénztár egyenlege lenullázódott, azonban az átutalt pénz soha nem érkezett meg a másik számlára. A Magyar Nemzeti Bank magyarázata szerint az átutalás a már elrendelt korlátozások miatt nem teljesült, az egészségpénztár egyenlege visszaállt.</seg>
+<seg xml:id="AC7_4621.3">Ez első hallásra megnyugtatónak tűnhet, azonban a további kérdésekre adott válaszokból kiderült: az egészségpénztár pénzét eltüntette a Buda-Cash csődje, vagy ahogy önök szokták mondani: odalett. Az egészségpénztár legfeljebb a távoli jövőben, a felszámolási eljárás végén juthatna pénzéhez, ha lenne miből kifizetni.</seg>
+<seg xml:id="AC7_4621.4">A milliárdos nagyságrendű összeg hiányában a Honvéd Egészségpénztár működése megbénult. Ez több mint 27 ezer katona, rendvédelmi és nemzetbiztonsági dolgozó egészségpénztári befizetését érinti, aminek következtében műtétek maradhatnak el, emberek életét és egészségét veszélyeztetve. Ezek az emberek nem tőzsdéztek, hanem a kormány által is támogatott megtakarítási formát választották, és kifejezetten egészségük megőrzése érdekében tették félre pénzüket.</seg>
+<seg xml:id="AC7_4621.5">Önök a magas hozammal kecsegtető, kockázatos Quaestor-kötvényekbe befektetők kártalanítására külön törvényt alkottak. Eközben azonban tétlenül nézik, hogy a Belügyminisztérium és a Honvédelmi Minisztérium több tízezer munkavállalójának eltűnik az egészségmegőrzési céllal félretett megtakarítása.</seg>
+<seg xml:id="AC7_4621.6">Tisztelt Államtitkár Úr! Az MNB válaszából világosan kiderül, itt már csak jogalkotással, törvénymódosítással lehet a helyzetet kezelni, ezértkérdezem: kezdeményezi-e a Belügyminisztérium a Quaestor-törvény módosítását akként, hogy a kártalanítási alapból ehhez az 1,8 milliárd forinthoz ez a közel 27 ezer munkavállalójuk hozzájuthasson? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-05-04-urgent_question-AC7_4622" who="#LajosKorózs" ana="#regular"><note>KORÓZS LAJOS (MSZP):</note>
+<seg xml:id="AC7_4622.1">Tisztelt Államtitkár Úr! Babits Mihály szavaival kezdem: „Fekete országot álmodtam én, / Ahol minden fekete volt, / Minden fekete, de nem csak kívül: / Csontig, velőig fekete, / Fekete, / Fekete, fekete, fekete.”</seg>
+<seg xml:id="AC7_4622.2">Én úgy látom, hogy romokban van az egészségügy, bárhogy is igyekeznek színezni ezt a képet. Talán kevesen vannak ebben az országban, akik nem hallottak arról a Péterfy Sándor Utcai Kórházban dolgozó ápolónőről, aki hetekkel ezelőtt sírva mondta el egy tévériportban, hogy milyen körülmények között kénytelen dolgozni, a rendszeres túlmunka miatt alig van ideje a családjával foglalkozni, és a kórház még csak ki sem fizeti a túlóráit. Felettesei azt mondták, hogy nincs semmi gond a túlóra-elszámolásokkal, de az ápoló kollégái kiálltak állításai mellett. Nemrég pedig a Facebookon kezdeményezett demonstrációt az ápolók között, többen is fekete ruhában mentek dolgozni, így demonstrálva az egészségügy rossz helyzete ellen.</seg>
+<seg xml:id="AC7_4622.3">A hírek szerint a kezdeményező felettesei nem engedték meg, hogy fekete ruhában dolgozzon, ezért ő le is vetette azt, de elgondolkodott azon, hogy felmond, mert nem engedik demonstrálni. Ezzel együtt elindult a tiltakozási hullám, ennek része, hogy a közösségi portálokon egyre szaporodnak a feketeruhás akciót népszerűsítő csoportok, s mind több fotó kerül fel a különböző egészségügyi intézményekből. A képeken fekete pólót vagy gyászszalagot viselő szakdolgozók láthatók. A szolidaritást vállaló nővérek és mások megmozdulásai nem egy esetről szólnak, hanem az egészségügyben dolgozók tarthatatlan helyzetéről.</seg>
+<seg xml:id="AC7_4622.4">Éppen ezért, államtitkár úr, kérdezem, mikor rendezik már az ápolók bérezését, mikor biztosítják minden kórházban a túlórapénz kifizetését, mikor adják meg erre a kellő fedezetet. Kérdezem továbbá: minden érintett kórházi dolgozónak be kell-e perelnie a munkahelyét, ahogy az egriek tették, hogy megkapja a jogosan járó elmaradt juttatását, és mikor biztosítanak annyi forrást az egészségügy számára, hogy az ne csak levegőhöz jusson, hanem életben is tudjon maradni? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiból.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

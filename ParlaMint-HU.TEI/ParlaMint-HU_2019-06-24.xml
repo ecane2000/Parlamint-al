@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2019-06-24" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2019-06-24 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2019-06-24 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="17" unit="speeches">17 beszéd</measure>
+        <measure xml:lang="en" quantity="17" unit="speeches">17 speeches</measure>
+        <measure xml:lang="hu" quantity="6273" unit="words">6273 szó</measure>
+        <measure xml:lang="en" quantity="6273" unit="words">6273 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2019-06-24">2019. 06. 24.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="17"/>
+          <tagUsage gi="seg" occurs="103"/>
+          <tagUsage gi="kinesic" occurs="23"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2019-06-24">2019-06-24</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2019-06-24-interpellation-IC8_6469" who="#GergelyArató" ana="#regular"><note>ARATÓ GERGELY (DK):</note>
+<seg xml:id="IC8_6469.1">Tulajdonképpen a kérdésemre már meg is kaptam a választ azzal, hogy a miniszterelnök úr a propagandaminisztériumra szignálta ki a nyugdíjasok ügyét, ebből is látszik, hogy önöknek a nyugdíjasok és a fogyatékkal élők ügye csak választási szempontból fontos, egyébként szociális szempontból vagy éppen gazdasági szempontból nem. Az önök által benyújtott költségvetésben 2020-tól megszűnik az a lehetőség, hogy az Erzsébet-program keretében nyugdíjasok és fogyatékkal élők is nyaralhassana</seg>
+<kinesic type="noise"><desc>Közbeszólás a kormánypárti sorokból: Nem igaz! Dr. Rétvári Bence: Nem szűnik meg!</desc></kinesic>
+<seg xml:id="IC8_6469.2">, és innen kezdve, egyébként helyes módon, megmarad a gyermek- és ifjúsági táboroztatási funkciója, de ez a funkció elveszik az Erzsébet-programból.</seg>
+<seg xml:id="IC8_6469.3">Mondhatnánk azt, hogy csodálkozunk ezen, de nem így van, hiszen önök már számos módon kifejezésre juttatták azt, hogy mit gondolnak hazánk fogyatékkal élő, illetve idős, nyugdíjas polgárairól. Emlékezetes az, hogy elvették a rokkantnyugdíjakat számos fogyatékkal élő embertől, számos beteg embertársunktól, és annak ellenére sem hajlandóak visszaállítani jogosultságukat, és annak ellenére sem hajlandóak kárpótolni őket, hogy az Alkotmánybíróság mondta ki azt, hogy ez önöknek kötelessége lenne. Amikor az ellenzék ilyet javasol, akkor lesöprik a javaslatokat.</seg>
+<seg xml:id="IC8_6469.4">A nyugdíjasok jóindulatáért eddig látszólag legalább a választási időszakban próbáltak valamit tenni, ilyenkor mindig került egy kis Erzsébet-utalvány, hogy hátha evvel nyugdíjasszavazatokat lehet szerezni, mert olyan kiszolgáltatott helyzetben él a magyar nyugdíjasok jelentős része, hogy már néhány tízezer forintnyi többletjuttatásnak is örülnek.</seg>
+<seg xml:id="IC8_6469.5">Ezek után azt kell mondanom önöknek, hogy most teljesen világos, mi az önök politikája: nem számítanak választási időszakon kívül önöknek az idős emberek, a nyugdíjasok, a fogyatékkal élők, pedig sokuknak ez volt az egyetlen lehetősége arra, hogy eljusson valamifajta nyaralásra, hiszen a minimális nyugdíj összegét tíz éve nem emelték meg. Ma is vannak olyan nyugdíjasok, akik néhány tízezer forintból tengetik a napjaikat, számukra nyilvánvaló módon, ha a szociális alapú kedvezményes üdülés nem biztosított, akkor semmilyen módon nem nyílik mód arra, hogy eljussanak valamilyenfajta kikapcsolódásra, pihenésre.</seg>
+<seg xml:id="IC8_6469.6">Ennek alapján tehát kérdezem a miniszter urat, mikor akarják végre emberszámba venni azokat az embereket, akiktől lassan már nincs mit elvenni az önök politikája miatt. Miért akarják még jobban belelökni a szakadékba a nyugdíjasokat és a fogyatékkal élőket? Miért nem fontosak a kormánynak a nyugdíjasok? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a DK soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-06-24-interpellation-IC8_6546" who="#AntalCsárdi" ana="#regular"><kinesic type="noise"><desc>CSÁRDI ANTAL (LMP): Köszönöm szépen a szót. Tisztelt Ház! Tisztelt Miniszter Úr! Az Országgyűlés tavaly október végén fogadta el a 2018 és 2030 közötti időszakra szóló és 2050-ig kitekintést nyújtó második nemzeti éghajlatváltozási stratégiát, és egyben előírta, hogy a kormány a stratégia elfogadását követő hat hónapon belül dolgozzon ki éghajlatváltozási cselekvési tervet. Azóta nyolc hónap telt el, de a cselekvési terv tartalmát még mindig nem ismerjük, holott az intézkedések pénzügyi fedezetét be kellene építeni a 2020. évi költségvetési tervezetbe. Ott azonban ilyen jogcím nem létezik, csak elvétve van egy-egy sor, amelyből talán ilyen célra is jut majd pár morzsa. Tehát megint elszalasztunk egy évet? Ez már csak azért is aggályos volna, mert a nemzeti éghajlatváltozási stratégia 2015. évi első benyújtásától számítva három évig húzták-halasztották az időt, annak az Országgyűlés általi megvitatását. Pedig e nélkül az értelmetlen és felelőtlen huzavona nélkül az első hároméves cselekvési terv már meg is valósulhatott volna, és most már a következő hároméves terv elfogadásáról és végrehajtásáról beszélhetnénk. Tisztelt Ház! Azt gondolom, hogy különösen fontos ez a kérdés, mert idén februárban kormányhatározat született arról, hogy Palkovics miniszter úr koordinációjával a 2019. május 31-ei határidőre „Nemzeti fejlesztés 2030” címmel készüljön el a 2021 és 2027 közötti uniós támogatások felhasználására irányadó legmagasabb szintű nemzeti tervezési dokumentum tervezete. Hogy áll ennek a kidolgozása? És hogyan jelennek meg benne az éghajlatváltozási stratégia céljai? Hiszen bár a kormányhatározat melléklete 37 kidolgozandó tematikus tervet sorol fel, ezek között az éghajlatváltozás önálló, átfogó témaként egyáltalán nem szerepel. Csak erős jóindulattal tudjuk feltételezni, hogy a klímacélokat majd az egyes szektorális elemekbe integrálják, de itt újra visszajutunk a cselekvési tervhez, jobban mondva, annak hiányához, hiszen a nélkül a szükséges érdemi koordináció, felhatalmazás és forrás nélkül a tárcák se tudnak se tervezni, se a megvalósításon dolgozni. Pedig a klímaváltozás mára napjainknak a szerves része, elég, ha csak az utóbbi időszakban tapasztalt aszályra, majd rendkívüli csapadékmennyiségre gondolunk. És most még csak a nyár elején tartunk.</desc></kinesic>
+<seg xml:id="IC8_6546.1">Becslések szerint Magyarország világviszonylatban is a klímaváltozás vesztese lehet. Csak a GDP éves vesztesége meghaladhatja az évi 1,5-2 százalékot hosszú távon.</seg>
+<seg xml:id="IC8_6546.2">Mégis, akkor mire várnak? Várom megtisztelő válaszát. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-06-24-interpellation-IC8_6553" who="#GyörgySzilágyi" ana="#regular"><note>SZILÁGYI GYÖRGY (Jobbik):</note>
+<seg xml:id="IC8_6553.1">Köszönöm szépen a szót, elnök úr. Tisztelt Ház! A magyarországi járműgyártás gazdasági, foglalkoztatási szerepe és súlya elvitathatatlan a közúti járműgyártás területén. Ma ezen járműgyártók zömmel személygépkocsik gyártásával foglalkoznak, szinte kizárólag multinacionális cégek tulajdonában állnak, apró fogaskerékként dolgozva a nagy nemzetközi járműgyártás gépezetében. A járműgyártás azonban nemcsak személygépkocsi-gyártást jelent, hanem magában foglal olyan szegmenseket, mint a busz-, a troligyártás vagy a vasútijármű-gyártás, ideértve a speciális rendeltetésű vasúti járműveket: a HÉV-szerelvények, metrók, villamosok, fogaskerekű vasút, kisvasutak, és még sorolhatnánk, amely ágazatoknak korábban évszázados hagyománya volt Magyarországon. Örömteli volt hallani 2014-ben azt, amikor Tuzson Bence, a ma közszolgálatért felelős államtitkár bejelentette, hogy az állam többségi tulajdonrészt szerez a Dunakeszi Járműjavító Kft.-ben, aminek indoka, hogy a vasútijármű-gyártás nemzetstratégiai jelentőségű terület. A cég adásvételekor több vezető fideszes politikus is nyilatkozott az üggyel kapcsolatban, és egybehangzóan azt mondták, hogy az ügylet elsődleges célján, azaz a hazai vasútijármű-gyártás megerősítésén túl további cél az üzemben a munkahelyek megőrzése is.</seg>
+<seg xml:id="IC8_6553.2">Megdöbbenéssel olvastam mindezek tükrében az 1312/2019. számú kormányhatározatot, aminek értelmében a Dunakeszi Járműjavító Kft. magyar állam által és a MÁV által tulajdonolt üzletrészei eladásra kerülnek. A kormányhatározat rendelkezik arról, hogy a Dunakeszi Járműjavító Kft. a MÁV-val hatályban lévő szerződését köteles hatályban tartani, azonban a kormányhatározat nem rendelkezik a cég alkalmazottairól, azaz a meglévő munkahelyek megtartásáról. Az üzletrészekkel együtt a cég által használt ingatlanok is értékesítésre kerülnek, természetesen versenyeztetés nélkül.</seg>
+<seg xml:id="IC8_6553.3">Kérdezem tehát az államtitkár urat: miként érvényesíthető a nemzetstratégiai érdek egy államtól független tulajdonossal szemben? Ha érvényesíthető a nemzetstratégiai érdek egy államtól független tulajdonossal szemben, akkor miért kellett a korábbi tulajdonostól megvásárolni adóforintokért a céget 2014-ben? Hogyan tarthatók meg a munkahelyek és a munkavállalók, ha ez nem feltétele az értékesítésnek? Mi okozza azt a sietséget, hogy 2019. június 30. napjáig, azaz 32 nappal a kormányhatározat megjelenését követően már végre is akarják hajtani az értékesítést?</seg>
+<seg xml:id="IC8_6553.4">Várom válaszát, amiben kérem, hogy kimondottan a kérdéseimre válaszoljon, és ne másról beszéljen. Köszönöm szépen, hogy meghallgattak</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-06-24-interpellation-IC8_6556" who="#ZitaGurmai" ana="#regular"><note>DR. GURMAI ZITA (MSZP):</note>
+<seg xml:id="IC8_6556.1">Köszönöm szépen. Tisztelt Elnök Úr! Államtitkár Úr! Kedves Képviselőtársaim! Az Európa Tanács parlamenti közgyűlése e heti plenáris ülésén várhatóan elfogadja „A nők elleni erőszakról szóló isztambuli egyezmény: eredmények és kihívások” címet viselő jelentésemet.A jelentés kitér arra, hogy a nők elleni erőszak az emberi jogok megsértése mellett a nők és férfiak közötti mélyen gyökerező egyenlőtlenség megnyilvánulása. Az Európa Tanács 2014-ben hatályba lépett, a nőkkel szembeni erőszak megelőzéséről, leküzdéséről és a családon belüli erőszakról szóló egyezménye a legfejlettebb és legátfogóbb nemzetközi jogi eszköz ezen a területen. Az egyezményt az Európa Tanács 34 tagállama ratifikálta és 11 másik európai uniós tagállam is aláírta. A jelentés kiemeli az egyezmény pozitív hatását, hiszen az felhívja a figyelmet a nők elleni erőszakkal szembeni küzdelem szükségességére, és megköveteli, hogy a részes államok magas jogalkotási és politikai normákat vezessenek be.</seg>
+<seg xml:id="IC8_6556.2">Magyarország 2014. március 14-én ugyan aláírta az egyezményt, de az Országgyűlés több alkalommal is elutasította a ratifikálását szorgalmazó indítványok tárgysorozatba vételét. Völner Pál államtitkár úr, aki most válaszolni fog, egy írásbeli kérdésemre a következőt válaszolta: az isztambuli egyezmény tartalmát nagyon fontosnak tartjuk, ahhoz azonban, hogy valamely megállapodást magunkra nézve kötelezőnek ismerjünk el, fel kell mérni a belső környezetet, az egyezmény ratifikációja összkormányzati együttműködést tett szükségessé. Folyamatosan vizsgálni kell a ratifikációhoz szükséges jogalkotási és egyéb kormányzati intézkedések megtételének szükségességét, valamint fel kell mérni a szükséges költségvetési forrásokat.</seg>
+<seg xml:id="IC8_6556.3">Völner államtitkár úr válasza után néhány nappal Németh Szilárd alelnök úr sajnos azt nyilatkozta, hogy amíg Fidesz-többségű parlament van, addig az isztambuli egyezmény nem fog átmenni. Indoka szerint az egyezmény nem alkalmas a zaklatók kordában tartására, ráadásul egyenesen támadja a hagyományos családmodellt, és törvénybe próbálja iktatni a genderfilozófiát. Amint látszik, az isztambuli egyezmény ratifikálásával kapcsolatban számos tévhit és félremagyarázás látott napvilágot. Ezeket a szakmai szervezetek több alkalommal tételesen cáfolták.</seg>
+<seg xml:id="IC8_6556.4">Tekintettel a fentiekre, kérdezem államtitkár urat, hogy mi a kormány álláspontja ratifikálás ügyében. Államtitkár úr pozitív, támogató válaszát vagy Németh Szilárd elutasító válaszát kell alapul venni</seg>
+<seg xml:id="IC8_6556.5">(Németh Szilárd István: Ez utóbbit!)</seg>
+<seg xml:id="IC8_6556.6">Hogyan áll az államtitkár úr által kiemelt összkormányzati együttműködés, ami az egyezmény ratifikációjához szükséges? Hogy áll a szükséges költségvetési források felmérése?</seg>
+<seg xml:id="IC8_6556.7">Tisztelettel kérem a miniszterelnököt és a kormányt, hogy oszlassa el az egyezménnyel kapcsolatos tévhiteket, félremagyarázásokat. Most, hogy az egyezmény alkalmat ad a párbeszédre, szakmai egyeztetésre, fontolja meg annak benyújtását az Országgyűlésnek a ratifikációja céljából. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-06-24-interpellation-IC8_6558" who="#HajnalkaJuhász" ana="#regular"><note>JUHÁSZ HAJNALKA (KDNP):</note>
+<seg xml:id="IC8_6558.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Képviselőtársaim! 2010 előtt Magyarországon családpolitikáról nem nagyon lehetett beszélni. 2010-re mélypontra került a családalapítási és a gyermekvállalási kedv, ami beavatkozás nélkül jelentősen zsugorodó magyarságot vetített előre. A 2010-ben megalakuló Fidesz-KDNP-kormányzat a családokat állította előtérbe. Nem lehet elégszer hangsúlyozni, hogy Magyarország új Alaptörvénye a családról mint értékhordozó és értékteremtő alapegységről rögzítette, hogy Magyarország védi a házasság intézményét mint férfi és nő között önkéntes elhatározás alapján létrejött életközösséget, valamint a családot mint a nemzet fennmaradásának alapját. Ezen elvek mentén született meg az új családtámogatási rendszer, melynek keretében bevezetésre, illetve a későbbiekben kibővítésre került a családi adókedvezmény.</seg>
+<seg xml:id="IC8_6558.2">A kormány Magyarország teljesítőképességéhez mérten folyamatosan bővítette, bővíti a családtámogatási rendszert. Ennek keretében az év elején meghirdetett hétpontos családvédelmi akcióterv első négy eleme július 1-jétől életbe lép, úgymint a babaváró támogatás, a családi otthonteremtési kedvezményhez kapcsolódó kedvezményes hitel, a jelzáloghitelek egy részének elengedése és a nagycsaládosok autóvásárlási támogatása. A gyermeket vállaló és nevelő családok támogatására a 2020-as költségvetés tervezetében több mint 2000 milliárd forintot, pontosan 2227 milliárd 550 millió forintot tervez a kormányzat, ami 2010-hez képeset több mint kétszer akkora összeg.</seg>
+<seg xml:id="IC8_6558.3">A kormányzat tágabb értelemben is segíti a családokat, segíti a munka és a család összeegyeztetését. Erre szolgál a gyed extra. Ezenfelül a munkahelyvédelmi akció kisgyermekes szülőkre vonatkozó intézkedései, a munkavállalók részmunkaidőben történő foglalkoztatásának lehetősége és a bölcsődei, óvodai férőhelyek jelentős növelése is mind a családokat támogatja.</seg>
+<seg xml:id="IC8_6558.4">Tisztelt Államtitkár Asszony! A nehéz munkát folytatnunk kell, a magyarság fennmaradásához, a családok megvédéséhez további intézkedések szükségesek. Éppen ezért kérdezem, államtitkár asszony: milyen változásokat hoz a 2020. év a családok életében? Várom a megtisztelő választ</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-06-24-interpellation-IC8_6560" who="#OlivioKocsis-Cake" ana="#regular"><kinesic type="noise"><desc>KOCSIS-CAKE OLIVIO (Párbeszéd): Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! A Fidesz azt állítja, hogy a 2020-as büdzsé a családok költségvetése, 5 százalékról és 2200 milliárdról beszél, ami a családoknál marad. De ha a béreket nézzük, akkor a családok többségének mégse javul a helyzete, pedig Magyarország Kormányának az lenne a feladata, hogy a magyar családok többségét segítse, ne csak egy kisebbséget. A Fidesz azt is szajkózza, hogy Magyarország jobban teljesít. Már csak az a kérdés, hogy akkor az állami alkalmazott rendőrök, ápolók, tanárok fizetésén ez miért nem látszik. Egy mentős havi nettó 130 ezer forintot visz haza átlagban; egy háromgyermekes szakdolgozó nettó 226 ezret pótlékostul, napi akár 12-18 óra munka mellett. A KSH nem adja ki a létminimum-számításhoz szükséges adatokat, de a bértáblák még nyilvánosak, innen tudjuk ezeket.</desc></kinesic>
+<seg xml:id="IC8_6560.1">(15.00)</seg>
+<seg xml:id="IC8_6560.2">A tanároknál sem sokkal jobb a helyzet: egy húsz éve dolgozó egyetemi diplomás tanár fizetése bruttó 304 500 forint, vagyis egy tapasztalat, háromgyermekes pedagógus éppenhogy 200 ezer forintot visz haza. Egy kezdő rendőrjárőr 130 ezer forintos kezdő fizetéssel indul, de egy hétéves szakmai múlttal rendelkező beosztott tűzoltó havi keresete is csak 160 ezer forint. Ez a pénz három gyermek után járó adókedvezménnyel is elképesztően kevés. Ebből a fővárosban átlagban 40-70 ezer forintos rezsivel kell élni, legalább ennyit kell kifizetni, hogyha valaki egy lakáshitelt törleszt, és kétszer ennyibe kerül egy albérlet ára. És akkor ebben még nincs benne az étkezés költsége, a ruházkodás sem. A százezer közmunkásról nem is beszélek, se családi adókedvezményre, se kedvezményes hitelre nem jogosultak, nettó 54 ezer forintot visznek haza.</seg>
+<seg xml:id="IC8_6560.3">(Az elnöki széket Lezsák Sándor,</seg>
+<seg xml:id="IC8_6560.4">az Országgyűlés alelnöke foglalja el.)</seg>
+<seg xml:id="IC8_6560.5">Nyilvánvaló, hogy a legfontosabb feladatokat ellátó emberek és családjaik egyszerűen nem tudnak megélni hacsak halálra nem túlórázzák magukat, és ugye, addig sem a családjukkal vannak. De nincs ez másként a magánszektorban sem. Több mint 400 ezer ember van minimálbérre vagy garantált bérminimumra bejelentve, három gyerekkel is maximum 129 ezer forintot visznek haza. Két, minimálbért kereső szülőt miben segíti a költségvetés? Ebből hogyan tudnak hitelt felvenni erre a jövedelemre?</seg>
+<seg xml:id="IC8_6560.6">Tisztelt Államtitkár Úr! Hogyan segíti a családokat a jövő évi költségvetés? Hiszen az adócsökkentések csak a munkáltatókat érintik most, a béremelések idén pedig nettó 7 ezer forintot fognak hagyni a közalkalmazottaknál. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a Párbeszéd és a függetlenek soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-06-24-interpellation-IC8_6563" who="#IstvánBoldog" ana="#regular"><note>BOLDOG ISTVÁN (Fidesz):</note>
+<seg xml:id="IC8_6563.1">Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A kormány ahogy már megszokhattuk az idén is tavasszal nyújtotta be a jövő évi költségvetést, függetlenül attól, hogy idén májusban még egy választás is volt. Úgy gondolom, a kiszámíthatóság egy olyan érték, amit a piaci szereplők fontosnak tartanak, hiszen a költségvetés júliusi elfogadásával közel fél év áll mindenkinek a rendelkezésére, hogy felkészüljön a jövő évi változtatásokra. Sajnálatos módon a baloldal kilenc év után sem tanult semmit múltbéli hibáibó</seg>
+<seg xml:id="IC8_6563.2">(Dr. Vadai Ágnes: Baloldal! Kik?!)</seg>
+<seg xml:id="IC8_6563.3">, ugyanazt az adópolitikát akarják folytatni, amellyel már Medgyessy, Gyurcsány és Bajnai is sorozatban megbuktak</seg>
+<seg xml:id="IC8_6563.4">(Ungár Péter: Medgyessy?!)</seg>
+<seg xml:id="IC8_6563.5">Gyurcsány új pártja, a Demokratikus Koalíció még a 2018-as választási programjában is büszkén vállalta és tervezte az ingatlanadó bevezetését. Szomorú, hogy nem értették meg, hogy a magyar emberek nem kérnek az adóemelési javaslataikból, ahogy nem kérnek a 4 százalékos különadókból sem, hiszen emlékezzünk csak vissza: Gyurcsány idején mind a vállalatokat, mind az embereket úgynevezett különadóval sújtottá</seg>
+<seg xml:id="IC8_6563.6">(Arató Gergely: Azokat, akik sok százezer forintot kerestek!)</seg>
+<seg xml:id="IC8_6563.7">, azért, mert valaki a szakmájában jó volt, és jól keresett, extra adóval büntették</seg>
+<kinesic type="noise"><desc>Dr. Vadai Ágnes közbeszól.</desc></kinesic>
+<seg xml:id="IC8_6563.8">Így fordulhatott elő, hogy sokan 36 százalékos kulcs felett további 4 százalékos szja-adót fizettek.</seg>
+<seg xml:id="IC8_6563.9">A hozzá nem értés abszolút csúcsa az volt, amikor 2007. január 1-jén életbe léptettek egy új adónemet, az úgynevezett vállalkozások elvárt adóját, amelyet az Alkotmánybíróság még az év februárjában megsemmisített, és visszamenőleges hatállyal megszüntetett. Ezt még veszteséges működés esetén is be kellett volna fizetni a társaságoknak.</seg>
+<seg xml:id="IC8_6563.10">Ne legyen kétségünk, ismét megemelnék a társasági adót is, bevezetnék a többkulcsos adózást, amivel megint ellehetetlenítenék a középosztályt, ahogy tették már 2010 előtt</seg>
+<kinesic type="noise"><desc>Arató Gergely közbeszól.</desc></kinesic>
+<seg xml:id="IC8_6563.11">(15.10)</seg>
+<seg xml:id="IC8_6563.12">Úgy gondolom, a baloldal még mindig a megszorításokban és az osztogatásokban hisz és olyan adóemelésekben, amelyek megfojtják a gazdaságot.</seg>
+<seg xml:id="IC8_6563.13">A jó hír az, tisztelt képviselőtársaim, hogy az elmúlt évek adópolitikája a családokról és a fegyelmezett költségvetésről szól. Személyesen nagyon büszke vagyok arra, hogy Magyarországnak jövőre várhatóan mindössze 1 százalékos lesz a költségvetési hiánya, amire nagyon régen volt példa. A magyar gazdaság teljesítménye az elmúlt években igen sokat javult, és ez lehetőséget ad arra, hogy a gazdaság többletbevételéből a kormány olyan intézkedéseket valósítson meg, mint például a gazdasági akcióterv.</seg>
+<seg xml:id="IC8_6563.14">A fentiekre tekintettel kérdezem az államtitkár urat, miért nem működik a baloldal adóemelési gyakorlata, milyen káros következményei vannak</seg>
+<seg xml:id="IC8_6563.15">(Derültség az ellenzék soraiban.)</seg>
+<seg xml:id="IC8_6563.16">Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-06-24-interpellation-IC8_6564" who="#JánosBencsik" ana="#regular"><kinesic type="noise"><desc>BENCSIK JÁNOS (Jobbik): Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Képviselőtársaim! Nehezen találja az ember a szavakat az előző színvonalú felszólalás után, de mégis megpróbálom, mert nagyon nagy a baj Budapesten. Az elmúlt években elképesztő ütemű drágulás zajlott az ingatlanpiacon: 2017 és 2018 között a feladott hirdetések alapján 27 százalékkal nőttek a fővárosi lakásárak, a hét végén pedig megkaptuk a friss adatokat is, eszerint 2018 és 2019 között újabb 18 százalékos emelkedés volt, és bár a 2019-es adatokat még nem ismerjük, a növekvő trendek alapján bizony az idén is legalább két számjegyű drágulás várható.Vannak olyan kerületek, ahol brutális módon, több mint 30 százalékkal drágultak a lakásárak, ilyen például Csepel is. Tehát nemcsak a jobb módú polgártársaknak kell a zsebébe nyúlnia, hogyha saját lakáshoz akar jutni a fővárosban, hanem bizony mindenkinek.</desc></kinesic>
+<seg xml:id="IC8_6564.1">Erre persze lehet az a válasz, hogy akinek nincs pénze saját lakást venni, az költözzön albérletbe. Csak hát az a helyzet, tisztelt képviselőtársaim, hogy a fővárosi albérletárak is elszabadultak: egy átlagos lakáshoz ma havi 200 ezer forint alatt szinte lehetetlenség hozzájutni, de egy egyszobás garzonlakás ára is 125 ezer forintnál kezdődik, rezsi nélkül, teszem hozzá, és ehhez akkor vegyék hozzá azt, hogy egy kezdő óvodapedagógus óvónőnek a fizetése 160 ezer forint nettónál kezdődik.</seg>
+<seg xml:id="IC8_6564.2">A helyzetet súlyosbítja, hogy hiába telt el több mint tíz év, a devizahitel-válság kirobbanása óta ma is nagyon sok devizahitel-károsult nyögi havi rendszerességgel a bankoknak az extraprofitjait, és nekik annyi esélyük van saját lakáshoz vagy saját albérlethez jutni, minthogyha Mészáros Lőrinccel indulnának egy nyílt közbeszerzésen.</seg>
+<seg xml:id="IC8_6564.3">Akinek pedig sem saját lakásra, sem albérletre nem telik, azoknak ott marad az önkormányzati szociális bérlakásoknak a rendszere, amire lehet pályázni, csakhogy a kerületek többségében nincs elég bérlakás, és amik vannak, azok sem megfelelő színvonalúak. Itt pedig bezárul a kör: ha az embernek nincs sem saját lakása, sem albérlete, akkor semmilyen más opciója nincsen.</seg>
+<seg xml:id="IC8_6564.4">Kedves Képviselőtársaim! Egyetlenegy csoport van, amely, dacára az elmúlt évek elképesztő drágulásának, egyre nagyobb arányban vásárol magának Budapesten lakásokat, gondolom, kitalálják, hogy kikről van szó: ők a külföldiek. 2017-ben Budapest külső kerületeiben több mint 10 százalékkal nőtt, a kerületek 10 százalékában a lakásokat már ők vették meg, a belvárosban pedig ennél is drasztikusabb mértékű a drágulás: az V. kerületben 2017-ben minden harmadik ingatlan külföldiek kezébe került.</seg>
+<seg xml:id="IC8_6564.5">A megvásárolt ingatlanok jó részét ráadásul befektetési céllal vásárolják, amelynek a következményeként gombamód szaporodnak a legális és illegális hostelek, a rövid távú albérletek, ez pedig, mondanom sem kell, még jobban felveri az árakat, nem beszélve az ezzel járó zsúfoltságról, zajról és az éjszakai élet összes ezzel járó kellemetlenségéről.</seg>
+<seg xml:id="IC8_6564.6">(15.20)</seg>
+<seg xml:id="IC8_6564.7">Tisztelt Képviselőtársaim! Ki kell jelentenünk, hogy Budapesten lakhatási válság van, amely nem fog állami beavatkozás nélkül magától megoldódni.</seg>
+<seg xml:id="IC8_6564.8">Kérdezem a tisztelt államtitkár urat, hogy mikor fog a magyar kormány végre érdemi lépéseket tenni a lakhatási válság megoldására. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-6-24-urgent_question-AC8_6599" who="#LászlóLórántKeresztes" ana="#regular"><note>DR. KERESZTES LÁSZLÓ LÓRÁNT (LMP):</note>
+<seg xml:id="AC8_6599.1">Köszönöm. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Már nagyon sokszor elmondtuk itt a magyar Országgyűlésben, hogy a megítélésünk szerint minden érv megdőlt, amit a magyar kormány a paksi bővítés mellett sorakoztatott fel. Itt konkrétan egy kérdésre vagy egy érvre szeretnék utalni, hogy azt mondja a kormány, hogy az atomenergia kifejezetten biztonságos és kiszámítható. A mi megítélésünk szerint ugyanakkor az atomenergia használata súlyos kockázatokat rejt magában, és mi úgy gondoljuk, hogy a mi állításunkat, álláspontunkat támasztja alá az a rengeteg üzemzavar, probléma és meghibásodás, amit az elmúlt évtizedekben láttunk és látunk manapság is. A 2013. április 11-én történt esemény volt a legsúlyosabb ilyen üzemzavar ezt a csernobili katasztrófa után a legsúlyosabb atomerőművi esetként tartották nyilván , a Paksi Atomerőműben ekkor egy nemzetközi besorolás szerinti súlyos üzemzavarra került sor, amelynek során 30 fűtőelem-kazetta sérült meg. Szerencsére ilyen súlyos üzemzavarra azóta nem került sor, de sajnos még az üzemidő-hosszabbítás után is rendszeresek a meghibásodások és az előre nem látható események.</seg>
+<seg xml:id="AC8_6599.2">Néhányat említsünk meg! Néhány nappal ezelőtt, június 15-én történt, hogy a Paksi Atomerőmű második blokkjában egy előre nem látható jelentős teljesítménycsökkenés volt megfigyelhető. Ezt olvashattuk a sajtóban. Majd azt megelőzően néhány nappal egy úgynevezett üzemi eseményre került sor, melynek során egy olyan karbantartást kellett a harmadik blokkon végrehajtani, melynek során le kellett állítani ezt a teljes blokkot, és ezt követően az atomerőmű már csak 50 százalékos teljesítménnyel tudott működni. Aktualitást ad a kérdésemnek egy múlt pénteki megdöbbentő eset, amikor én ezeket a példákat soroltam, és Kósa Lajos képviselő úr azt találta mondani szó szerint, hogy: annyit bátorkodok mondani, hogy a Paks II. megépítésére többek között azért van szükség, mert a Paksi Atomerőmű már régen az eredetileg tervezett életkora fölött működik. Ezt mondta egy kormánypárti képviselő.</seg>
+<seg xml:id="AC8_6599.3">Ebből a válaszból az olvasható ki, hogy itt valamiféle összefüggést hoz a képviselő úr a meghibásodás és az üzemidő-hosszabbítás között, mintha nem lenne egyenértékű a jelenlegi helyzet, és a probléma az, hogy ezeknek a megnövelt üzemidejű blokkoknak 2032-36-os időszakig működniük kell.</seg>
+<seg xml:id="AC8_6599.4">A kérdésem, hogy hány ilyen üzemi esemény, meghibásodás történt 2013 óta, ezek mennyire voltak súlyosak. Ezek alapján mire alapozza a kormány, hogy az atomenergia használata kiszámítható és biztonságos</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC8_6599.5">Egyetérte miniszter úr, illetve államtitkár úr Kósa képviselő úr megnyilvánulásával, miszerint elfogadható érv, hogy lejárt az eredetileg tervezett üzemidő</seg>
+<kinesic type="signal"><desc>Az elnök ismét csenget.</desc></kinesic>
+<seg xml:id="AC8_6599.6">(16.00)</seg>
+<seg xml:id="AC8_6599.7">És valóban, vane bármiféle bocsánat, még az utolsó kérdést gyorsan föltenném érdemi különbség a biztonsági elvárások és a kiszámítható működés tekintetében, a megfogalmazott eljárás tekintetében…</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2019-6-24-urgent_question-AC8_6600" who="#ImreVejkey" ana="#regular"><note>DR. VEJKEY IMRE (KDNP):</note>
+<seg xml:id="AC8_6600.1">Tisztelt Államtitkár Úr! Néhány napja megkezdődött a nyári vakáció, amely mintegy másfél millió általános és középiskolába járó gyerek számára jelent rendkívüli örömöt. A 2010 óta létező, a Fidesz-KDNP-kormányzat által kidolgozott családtámogatási rendszer számos részből áll, amelynek egyik fontos eleme az ingyenes gyermekétkeztetés. A kormányzati erőfeszítéseknek köszönhetően immár negyedik éve nemcsak a nyári, hanem mind a négy iskolai szünetben biztosított a szünidei gyermekétkeztetés, így a rászoruló gyermekek szülei igényelhetik az ingyenes gyermekétkeztetés biztosítását.</seg>
+<seg xml:id="AC8_6600.2">A Kereszténydemokrata Néppárt kiáll minden olyan intézkedés mellett, amely a társadalmi együttélés legkisebb egységének, a családnak az erősítését és támogatását szolgálja. A 2020-as költségvetés a családok támogatásának a költségvetése, ami azt is jelenti, hogy a kormányzat az eddiginél is nagyobb figyelmet szentel a családoknak.</seg>
+<seg xml:id="AC8_6600.3">Tisztelt Államtitkár Úr! A komplex családtámogatási program minden érintett család helyzetét segíti, és megkönnyíti a gyermekvállalást. A családvédelmi akcióterv egyes intézkedései már júliustól, 2020-tól pedig már az összes intézkedés elérhető lesz.</seg>
+<seg xml:id="AC8_6600.4">A fentiek alapján kérdezem tisztelt államtitkár urat, hogyan segíti a családokat a kormány a szünidőben. Várom államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-6-24-urgent_question-AC8_6601" who="#ZsoltGréczy" ana="#regular"><note>GRÉCZY ZSOLT (DK):</note>
+<seg xml:id="AC8_6601.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Az Orbán-kormány és a fideszes képviselők folyamatosan döngetik a mellüket azzal, hogy milyen jól élnek a magyarok. Ez az öndicséret kiterjed arra is, hogy az idős embereknek is milyen remekül megy a soruk az Orbán-rezsim 9. évében. Volt már olyan képviselő, fideszes képviselő, aki átkiabált egy ilyen vitában, hogy már visszaadták a 13. havi nyugdíjat is, csak azt nem tette hozzá, hogy egy összegben és Mészáros Lőrincnek. De akkor nézzünk egy hiteles számot arra, hogy hogyan élnek ma a magyarok és hogyan élnek ma az idős emberek Magyarországon. Legyen a példa, mondjuk, a paprikás krumpli! Elküldte nekem egy magyar állampolgár a 2010-es közértszámláját. 2010. november 4-én egy kiló hagymáért 176 forintot fizetett, 2010. december 14-én egy kiló krumpliért pedig 140 forintot. Ha a paprikás krumplit csak egy kiló krumpliból és fél kiló hagymából készítettük volna, nem számítva zsiradékot, fűszereket só, paprika, bors, kömény , valamint az esetleg már említett belevalókat, ha mondjuk, hozzávágnánk egy kis virslit vagy kolbászt vagy valami ehhez hasonlókat, akkor ez 228 forintba került 2010-ben.</seg>
+<seg xml:id="AC8_6601.2">(15.50)</seg>
+<seg xml:id="AC8_6601.3">2019. június 13-án, az interneten lekérdezett árak szerint átlagot véve egy kiló krumpli 500 forintba kerül, egy kiló hagyma pedig 600 forintba kerül. Vagyis a fentiek szerint 650 forintba kerül egy nyugdíjasnak egy adag paprikás krumpli. Ez azt jelenti, hogy ha hozzáveszem, hogy a nyugdíj mintegy 30 százalékkal nőtt 2010 óta, akkor egy napi alapanyag ételhez ez 285 százalékos áremelést jelent. És akkor az az idős ember még nem evett gyümölcsöt, nem vett zöldséget, tehát mindazt, amire egyébként még szüksége lenne.</seg>
+<seg xml:id="AC8_6601.4">Tehát most ott tartunk, hogy így élnek a magyarok az Orbán-rezsim kilencedik évében</seg>
+<seg xml:id="AC8_6601.5">(Koncz Ferenc: Hazudsz! Kétszáznegyven!)</seg>
+<seg xml:id="AC8_6601.6">Azt kérdezem miniszter úrtól, mit kívánnak tenni az árak megfékezése érdekében.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2019-6-24-urgent_question-AC8_6603" who="#AttilaMesterházy" ana="#regular"><note>MESTERHÁZY ATTILA (MSZP):</note>
+<seg xml:id="AC8_6603.1">Nagyon szépen köszönöm. Tisztelt Elnök Úr! Tisztelt Ház! Először engedjék meg, hogy én is sok sikert kívánjak Kepli képviselőtársamnak, és megköszönjem itt a parlamentben a munkáját, illetőleg ahhoz is sok sikert kívánjak, hogy a megyénkben megnyerje azt a települést polgármesterként. Úgyhogy bízom benne, hogy sikeres lesz, és folytatni tudja a politikai, közéleti tevékenységét. Tisztelt Miniszter Úr! Azért érdekelne ez a kérdés, mert nagyon sok levelet kapunk fogorvosoktól, az ő érdekképviseleti szervezeteiktől. Ők azt mondják, hogy egyre nyílik az olló a fogorvosi és a háziorvosi praxis finanszírozása között, és körülbelül 300 betöltetlen fogorvosi, fogászati praxis van. Ez körülbelül azt jelenti, hogy közel egymillió embernek nincsen körzeti fogorvosa, ez a magyar költségvetésben az ő számításaik szerint mintegy 30 milliárdos tételt jelentene.</seg>
+<seg xml:id="AC8_6603.2">Ha a számukra biztosított, tehát a fogorvosi praxisok számára biztosított 900 ezer forintot, mondjuk, megdupláznánk, akkor nagyjából fedezné azokat a költségeket, amelyek nagyon szükségesek, és akkor talán elérnénk a háziorvosi praxis finanszírozását is, ami szintén hagy maga mögött kívánnivalót.</seg>
+<seg xml:id="AC8_6603.3">Tehát magyarul, azt kérdezném miniszter úrtól, hogy támogatni fogjae a többség azt az MSZP-s módosító indítványt, amely ezt a forrást biztosítaná a háziorvosok számára, vagy ha nem ezt a módosító indítványt, akkor láte arra lehetőséget, miniszter úr, hogy a közellátásban dolgozó fogorvosok finanszírozása is növekedjék, és legalább érje el azt a minimumszintet, ami ahhoz kell, hogy Magyarországon ennek az egymillió magyar állampolgárnak, a magyar családoknak mindenhol az országban, földrajzi vagy egyéb más nehézségtől függetlenül is legyen közfinanszírozott fogászati ellátása.</seg>
+<seg xml:id="AC8_6603.4">Köszönöm szépen, elnök úr, a lehetőséget</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-6-24-urgent_question-AC8_6604" who="#ZitaGurmai" ana="#regular"><note>DR. GURMAI ZITA (MSZP):</note>
+<seg xml:id="AC8_6604.1">Tisztelt Miniszter Úr! Elnök Úr! Kedves Képviselőtársaim! Múlt héten csütörtökön Magyarország Csehországgal és Lengyelországgal együtt megvétózta azt az uniós javaslatot, amely 2050-re karbonsemlegessé tette volna az Európai Unió tagországait. Ezzel a kormány nemcsak a környezetvédelem, hanem a jövőnk ellen is vétót emelt. A karbonkibocsátás ugyanis, amely az üvegházhatású gázok kibocsátásának összességét jelenti, egymagában felelős korunk legnagyobb problémáiért, így a globális felmelegedésért és a légszennyezésért. Előbbi, ha nem teszünk ellene, pár évtized múlva lakhatatlanná teszi a Földet, utóbbi már ma is több ezer magyar ember életét követeli évente. Fenyeget minket a globális felmelegedés, hiszen növeli a szélsőséges időjárási viszonyok számát, egyre gyakoribbá téve a már-már elviselhetetlen hőhullámokat, amelyek az idősek és a krónikus betegek körében növelik a halálozás esélyét. Rontja a talaj termőképességét, elsivatagosítja a környezetet, ezáltal éhínséget okozva, csökkenti a rendelkezésre álló víz mennyiségét, kiszárítja a tavainkat, folyóinkat, tönkreteszi a Duna vízgyűjtő területeit. Ez nemcsak Magyarország világhírű vízkincsének árt, de hosszú távon a Paksi Atomerőmű hűtését is igencsak megnehezíti.</seg>
+<seg xml:id="AC8_6604.2">Az egészséget nemcsak a globális felmelegedés, hanem a légszennyezettség is veszélyezteti. Évente Magyarországon 12 800 ember hal meg a légszennyezettség miatti betegségekben, mint hörghurut, asztma, tüdőrák. Köszönhető ez annak, hogy Magyarországon a légszennyezettség mértéke évente száz napon is átlépi az egészségügyi határértéket. Ez azt jelenti, hogy Magyarországon az év harmadában az egészségre káros levegőt lélegezzük be. Hazánk levegője ráadásul a szomszédos országokhoz képest is sokkal rosszabb. Ennek tudható be, hogy Magyarországon másfél-kétszer annyian halnak meg a légszennyezettség miatt, mint a szomszédos országokban.</seg>
+<seg xml:id="AC8_6604.3">Fentiekre tekintettel kérdezném, miért vétózták meg a klímacélt, és miért szavaztak a gyermekeink jövője ellen. Miért nem látják b</seg>
+<kinesic type="signal"><desc>Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC8_6604.4">, hogy ha nem tesznek azonnal valamit, akkor az emberi fajnak hosszú távon nincs jövője?</seg>
+<seg xml:id="AC8_6604.5">Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Közbeszólás az ellenzék soraiból: Úgy van! Taps az MSZP és az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-6-24-urgent_question-AC8_6606" who="#LajosKepli" ana="#regular"><note>DR. KEPLI LAJOS (Jobbik):</note>
+<seg xml:id="AC8_6606.1">Köszönöm szépen, elnök úr. Tisztelt Képviselőtársaim! Egyre nyomasztóbb és aggasztóbb hírek látnak napvilágot és egyre nagyobb gyakorisággal a médiában arról, hogy milyen változások következnek be az éghajlatunkban, és ez milyen következményekkel jár a Föld egyes pontjain. Mielőtt azt hinnénk, hogy ez csak távoli földrészeket fenyegető veszély, azt láthatjuk, hogy egyre közelebb kerülnek ezek a természeti katasztrófák, ezek a jelenségek hozzánk. Magyarországon is tapasztalható már olyan özönvízszerű esőzés, ami korábban nem volt látható vagy tapasztalható. Tapasztalható óriási aszály, és ezeknek a mértéke és a gyakorisága az, ami egyre inkább aggódással tölt el minket. Bizony nem 2050-ben kell már gondolkodnunk, hanem abban, hogy néhány éven belül, esetleg tíz éven belül már visszafordíthatatlanná válnak azok a folyamatok, amelyekért most még lehetne tenni.Meglehetősen aggasztó az, amikor ennek fényében olyan nyilatkozatokat hall a kormány részéről a magyar átlagember, hogy a gazdaság számára a német autóipar céljai fontosabbak, mint a klímacélok; vagy amikor azt látjuk, hogy európai uniós szinten megvétózzuk a 2050-es klímasemlegességi célokat, arra hivatkozva, hogy ez a lakosság rezsiköltségét megemelné, miközben a hivatkozás következő mondatában már ott van, hogy egyébként is 2030-ig 90 százalékban szén-dioxid-semleges lesz a magyar energetika vagy villamosenergia-termelés. Akkor hol itt az összeütközés, vagy milyen ellentmondás van itt, amit fel kellene oldani? Gyakorlatilag, ha azt látjuk, hogy milyen következményekkel jár az az éghajlatváltozás, amelyről a kormány jelen pillanatban nem akar tudomást venni és amellyel teljes egészében szembemegy jelen pillanatban, akkor igencsak aggódásra van okunk.</seg>
+<seg xml:id="AC8_6606.2">Kérdezem miniszter urat, hogy ön hogy fog a gyermeke, unokája, utóda szemébe nézni, hogy önök az a generáció és önök az a kormány, akik még tehetnének az ellen, hogy ez a klímaváltozás ne vagy ne így következzen be, ha nem teszik meg a megfelelő intézkedéseket. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az ellenzék soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-6-24-urgent_question-AC8_6607" who="#AnitaPotocskánéKőrösi" ana="#regular"><note>POTOCSKÁNÉ KŐRÖSI ANITA (Jobbik):</note>
+<seg xml:id="AC8_6607.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! A Balaton mindenkié, ez a legfontosabb kormányzati álláspont. Egy idézet Lázár Jánostól 2017. december 14-én a Kormányinfóról.</seg>
+<seg xml:id="AC8_6607.2">(16.20)</seg>
+<seg xml:id="AC8_6607.3">Azóta eltelt 557 nap, és most azt látjuk, hogy egy másfajta szél fújja azt a bizonyos vitorlát.</seg>
+<seg xml:id="AC8_6607.4">Tavaly év végén a Balaton-törvény módosítása ellen felemeltük a hangunkat. Akkor úgy módosították a Balaton-törvényt, hogy az önkormányzatok és az állam kiemelt fejlesztési területekké nyilváníthat. Mit látunk? Eltűnnek a kempingek, eltűnnek a szabadstrandok, eltűnnek a nádasok, miközben megjelennek apartmanházak, luxusvillák és különböző, NER-hez kapcsolódó szállodák.</seg>
+<seg xml:id="AC8_6607.5">Újabb keszthelyi strand, vízparti terület tűnik el, talán az utolsó méter ez az elmúlt napok egyik híre. Mit látunk? Vitorláskikötők, parti szállodák, kempingek. A kérdésem: így foglalta el a NER-elit Keszthelyen ezt a területet</seg>
+<seg xml:id="AC8_6607.6">(Mesterházy Attila: Szégyen!)</seg>
+<seg xml:id="AC8_6607.7">Ezt a területet foglalta el, ezt a szabadstrandot? Ez lesz az önök új nyári fővárosa? Mit tesznek? A Balaton mindenkié? Miért nem tesznek ezért?</seg>
+<seg xml:id="AC8_6607.8">Miért kellett a Balaton-törvénybe beletenni ezt a kiemelt területté nyilvánítást? És miért tették ezt 100 százalékos állami tulajdonú vállalat kezébe? Hogy ő dönthesse el, mik épülnek a Balaton-parton, és nem az, hogy az emberek, akik azért érkeznek a Balatonra, hogy pihenjenek, odaférjenek nemzeti kincsünkhöz, a Balatonhoz?! Erre várom a válaszát. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzék padsoraiban. Mesterházy Attila: Úgy van!</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-6-24-urgent_question-AC8_6609" who="#OlivioKocsis-Cake" ana="#regular"><note>KOCSIS-CAKE OLIVIO (Párbeszéd):</note>
+<seg xml:id="AC8_6609.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! A múlt héten a kormány megvétózta azt a javaslatot, ami 2050-re klímasemlegessé tette volna az Európai Uniót, csökkentette volna a légszennyezést és a klímaváltozást. Tehát miközben Magyarországon évente tízezer ember hal meg olyan betegségben, amely közvetlenül összefüggésbe hozható a szennyezett levegővel, miközben emberek tüntetnek az utcán, tudósok pedig arra figyelmeztetnek, hogy egyre kevesebb időnk van, miközben megszaporodtak a hőhullámok, fokozódik a hőség, nyolc nappal meghosszabbodott a nyári időszakban azon napok száma, amikor a hőmérséklet 25 Celsius-fok fölött van, ezen belül öt nappal lett több a hőségriadós napok száma, aközben sikerült ezt a javaslatot leszavazni. Elkeserítő, hogy pont azon a héten vétózták meg ezt a javaslatot, amikor az extrém időjárás miatt az országban utakat, sok ember házát, kertjét, pincéjét tette tönkre a hömpölygő esővíz. Ez nem tréfa, mert sajnos sok ilyen katasztrófa várható a jövőben, és azok, akiknek a tulajdona kárt szenved, nem fognak nevetni ezen.</seg>
+<seg xml:id="AC8_6609.2">Mielőtt azt mondanák, hogy Magyarország nem kitett a klímaváltozásnak, részletes kutatásokból kiderül, hogy az Alföld déli részét és a főváros környékét rendkívüli mértékben fogja majd érinteni a klímaváltozás, a hőhullámok elszaporodása, az árvizek, belvizek.</seg>
+<seg xml:id="AC8_6609.3">Az önök legfőbb szövetségese, a cseh miniszterelnök azt találta mondani: miért kéne 31 évvel korábban arról döntenünk, hogy mi fog történni 2050-ben? Ezt akár a Fidesz is mondhatta volna, ugyanis önök mindig csak négy évre előre hajlandóak gondolkodni, mindig csak a következő választásig.</seg>
+<seg xml:id="AC8_6609.4">Tisztelt Államtitkár Úr! Hajlandóake hosszú távon gondolkodni, gyermekeink, Magyarország jövőjéről gondolkodni, vagy csak a 2022-es választásokig? Várom megtisztelő válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2019-6-24-urgent_question-AC8_6610" who="#SándorF.Kovács" ana="#regular"><note>F. KOVÁCS SÁNDOR (Fidesz):</note>
+<seg xml:id="AC8_6610.1">Köszönöm szépen a szót, elnök úr. Tisztelt Államtitkár Úr! Hadházy Ákos politikai teljesítményét sokan ismerjük, hiszen tudjuk, hogy képes saját párttársairól titokban hangfelvételt készíteni, etikai bizottság elé citálja a saját párttársait, megpróbálja őket kizáratni, és ha saját párttársai, például Sallai Róbert Benedek jogos, kemény és néha kicsi túlzó kritikájával szemben találja magát, akkor csodálkozik.Emlékszünk az MTVA székházában az erőszakos, bohózatba, tragikomédiába nyúló viselkedésére, amikor lógott a korláton, akrobatikus mutatványokat mutatott be. De nem ez a legnagyobb probléma. Aláírásgyűjtésbe kezdett, amely aláírásgyűjtés igazából adatgyűjtés célját szolgálta, és homályos hátterű külföldi szervezetekhez kerültek a magyar állampolgárok kényes személyes adatai</seg>
+<seg xml:id="AC8_6610.2">(Bana Tibor: Tegyél feljelentést!)</seg>
+<seg xml:id="AC8_6610.3">Az a szerencse, hogy ki van zárva má</seg>
+<seg xml:id="AC8_6610.4">(Bana Tibor: Tedd meg a feljelentést akkor!)</seg>
+<seg xml:id="AC8_6610.5">Sallai Róbert Benedek képviselő úr az LMP-ből. Homályos cégekhez kerültek, amit az MSZP és a Momentum is támogatott.</seg>
+<seg xml:id="AC8_6610.6">Az ellenzéki képviselő mellébeszél, nem mondja meg, hogy miért nem készült ezzel a céggel szerződés, hol vannak ezek az adatok, milyen céllal bízta meg ezt a külföldi céget, s milyen takargatni való munkát bízott erre a cégre. Várjuk a válaszát arra, hogyan fordulhatott elő, hogy magyar állampolgárok kényes személyes adatait külföld</seg>
+<seg xml:id="AC8_6610.7">(Bana Tibor: Ti beszéltek a Kubatov-listával?)</seg>
+<seg xml:id="AC8_6610.8">, homályos hátterű céghez küldte el.</seg>
+<seg xml:id="AC8_6610.9">Tisztelt Államtitkár Úr! Az elhangzottakra tekintettel kérdezem, milyen eszközökkel biztosítható a magyar állampolgárok kényes és személyes adatainak biztonsága.</seg>
+<seg xml:id="AC8_6610.10">Köszönöm szépen a megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2018-12-03" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2018-12-03 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2018-12-03 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2845" unit="words">2845 szó</measure>
+        <measure xml:lang="en" quantity="2845" unit="words">2845 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2018-12-03">2018. 12. 03.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="33"/>
+          <tagUsage gi="kinesic" occurs="10"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2018-12-03">2018-12-03</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2018-12-3-urgent_question-AC8_3850" who="#GergelyArató" ana="#regular"><note>ARATÓ GERGELY (DK):</note>
+<seg xml:id="AC8_3850.1">Tisztelt Ház! Tisztelt Miniszter Úr! Mai nap lejárt az a határidő, amíg még mód lett volna a CEU-ról szóló nemzetközi szerződés megkötésére, és itt lehetett volna tartani ezt az egyetemet. Persze, önök mondhatják, hogy hogy jön a CEU ahhoz, hogy határidőket szabjon az ön kormányának, csak hát van két dolog, drága miniszter úr! Az egyik az, hogy a felelős egyetemnek tájékoztatni kell a hallgatóit arról, hogy hol kezdhetik meg a tanulmányaikat, másrészt meg persze felháborodhatnak azon, hogy hogy jön egy egyetem ahhoz, hogy az önök kormányának határidőket szabjon, de az a helyzet, hogy ilyen kormány, mint az önöké, abból tizenkettő egy tucat, egy nemzetközi hírű egyetemet létrehozni meg komoly teljesítmény, így aztán nincsenek egyenlő szinten. A CEU teljesítette azokat az egyébként abszurd és felesleges törvényi akadályokat, amelyeket elé állítottak, indított képzést, egy olyan képzést az Amerikai Egyesült Államokban, amelyet ugyanaz az akkreditációs testület akkreditált, amelyik mondjuk, a New York Egyetemet, a Cornert vagy a Columbiát, de önöknek ez nem jó. Hozzáteszem, a magyar akkreditációs testület is akkreditálta a CEU itthoni képzéseit. Más kérdés, hogy ez egy olyan akkreditációs testület, amelyiknek a nemzetközi minőségbiztosítási szervezetekben való tagságát már felfüggesztették, mivel függetlensége a kormány folyamatos beavatkozása miatt megkérdőjelezhető.</seg>
+<seg xml:id="AC8_3850.2">Ennek alapján tehát kérdezem miniszter urat, hogy mivel szakmai érv nincs arra, hogy elüldözzék a CEU-t, milyen politikai érvek vezették önöket, milyen politikai szándék volt az, amelynek keretében kirakták a CEU-t. És még egy dolgot szeretnék megkérdezni miniszter úrtól. A CEU volt az első, de önök szakokat tiltanak be, más egyetemeket privatizálnak. Ma a CEU, holnap ki? Ki van még az önök halállistáján? Csak hogy fel tudjunk rá készülni! Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a DK és az LMP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-12-3-urgent_question-AC8_3852" who="#AntalCsárdi" ana="#regular"><note>CSÁRDI ANTAL (LMP):</note>
+<seg xml:id="AC8_3852.1">Köszönöm szépen. A kérdés az, hogy kit választ a magyar kormány: a munkavállalókat vagy a multikat? Persze költői a kérdés, hiszen pontosan látjuk, gyakorlatilag ebben a pár hónapban, ami eltelt a ciklusból, gyakorlatilag most már minden ülésre jut egy-egy olyan döntés, ami tovább rombolja, rongálja a Magyarországon munkát vállalók helyzetét. De a kérdés továbbra is fennáll, hogy miközben látjuk, hogy a kormány végrehajtja és képviseli a magyar emberek helyett azt a neoliberális gazdaságpolitikát, ami egyébként kritikátlanul kiszolgálja a gazdasági érdekeket, addig a magyar munkavállalók sorsa továbbra is sanyarú. Szeretném elmondani, hogy nem az a baj, hogy gazdasági fejlesztést akarnak. Az a probléma, hogy ezt a munkavállalókkal akarják megfizettetni.</seg>
+<seg xml:id="AC8_3852.2">Érdemes végigmenni ezen a kérdésen. A 2012-es munka törvénykönyvében heti 72 órás munkavégzést tettek volna jogszerűvé ezt később persze az EU nyomására csökkentették 48-ra , teljes mértékben ellehetetlenítették a sztrájkot, a munkavállalói érdekképviselet legerősebb eszközét, de azt gondolom, beszélhetünk a kafetéria ellehetetlenítéséről is.</seg>
+<seg xml:id="AC8_3852.3">Úgyhogy marad a kérdés, tisztelt államtitkár úr: miért a multik profitját képviseli a magyar kormány a munkavállalókkal szemben? Valamint: mikor érti már meg végre a kormány, hogy csak megbecsült munkavállalókkal lehet sikeres Magyarország, és megbecsült munkavállalók nélkül Magyarország versenyképessége elképzelhetetlen? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az LMP, a DK és a Párbeszéd soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-12-3-urgent_question-AC8_3853" who="#BenceTordai" ana="#regular"><note>TORDAI BENCE (Párbeszéd):</note>
+<seg xml:id="AC8_3853.1">Köszönöm a szót, elnök úr. Államtitkár Úr! Három éve a Párbeszéd tárta fel a rakétabotrányt, azt, hogy a Magyar Honvédség egy teljes hadsereg felszerelésére alkalmas fegyverzetet adott el néhány millió forintért egy Pilisi Vadászbolt nevű kis kft.-nek. Mi kongattuk a vészharangot, megmondtuk, hogy ebből baj lesz, feljelentést tettünk, de a kormány nem csinált semmit. Azóta kiderült, hogy a fegyvereket a kft.-nél dolgozó két orosz fegyvercsempész egy milliárdos biznisz keretében mexikói drogbáróknak akarta eladni, hogy azok az amerikai hadsereg ellen vethessék be a magyar rakétákat, gépágyúkat és egyebeket. Az ügyletet az amerikai hatóságoknak köszönhetően sikerült megakadályozni, az orosz fegyverneppereket Magyarországon elfogták, de önök végül nem az Egyesült Államoknak, hanem Putyin Oroszországának adták ki őket, nemzetközi botrányt okozva.</seg>
+<seg xml:id="AC8_3853.2">Kérdéseim a Honvédelmi Minisztériumhoz: miért adnak el egyáltalán magáncégeknek éles vagy visszaélesíthető katonai fegyverzetet? Ha már mégis eladták, miért mindössze néhány millió forintért, amikor bebizonyosodott, hogy milliárdos értéket képviselnek? Miért adták el egy komolytalan, sőt gyanús kis kft.-nek? Miért hazudta azt a minisztérium 2015-16-ban, hogy minden a legnagyobb rendben van, hogy a fegyverek nem kerülhetnek rossz kezekbe? Indult-e a minisztériumban felelősségre vonás, volt-e belső vizsgálat az ügyben, vagy terveznek-e ilyet? Ha az orosz fegyvercsempészek az USA ellen követtek el bűncselekményt, az USA derítette fel az ügyet, és az USA kérte először a kiadatást, akkor miért Oroszországnak adták ki őket, hogyan értékeli ezt a döntést, amit nem önök hoztak meg, a Honvédelmi Minisztérium? Hogyan befolyásolja ez a botrány a legerősebb katonai szövetségesünkhöz, az Amerikai Egyesült Államokhoz fűződő viszonyunkat?</seg>
+<seg xml:id="AC8_3853.3">Kérem, hogy mind a hét kérdésre érdemben válaszoljon. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Párbeszéd soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-12-3-urgent_question-AC8_3854" who="#LőrincNacsa" ana="#regular"><note>NACSA LŐRINC (KDNP):</note>
+<seg xml:id="AC8_3854.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! A visegrádi együttműködés vagy a V4-ek Csehország, Lengyelország, Magyarország és Szlovákia regionális együttműködési kerete. Az együttműködés célja ezen közép-európai országok gazdasági, diplomáciai és politikai érdekeinek közös képviselete, esetleges lépéseinek összehangolása. A visegrádi egyezmény történelmi előzménye az a középkori megállapodás, amit 1335 novemberében a visegrádi királyi palotában Károly Róbert magyar király kezdeményezésére III. Kázmér lengyel és Luxemburgi János cseh király részvételével tartottak. Az uralkodók szoros együttműködésről állapodtak meg a politika és a kereskedelem területén már ekkor is. Ennek az együttműködésnek a felújítására került sor 1991. február 15-én. Ekkor írta alá a visegrádi nyilatkozatot Václav Havel, a Cseh Köztársaság köztársasági elnöke, Lech Wałęsa, a Lengyel Köztársaság elnöke és Antall József magyar miniszterelnök.</seg>
+<seg xml:id="AC8_3854.2">Tisztelt Államtitkár Úr! A XXI. század kihívásait a V4-ek együtt akarják legyőzni. Ezek közül talán legfontosabbak a keresztény kultúra védelme, a biztonságunkat illető kérdések, illetve a kereskedelmet, gazdaságot érintő és fellendítő infrastrukturális fejlesztések, amelyek lökést adhatnak a térség gazdasági intézkedéséne</seg>
+<seg xml:id="AC8_3854.3">(sic!)</seg>
+<seg xml:id="AC8_3854.4">és minden ember életét könnyebbé teszik. Ezért is örömteli a hír, miszerint a Budapest-Pozsony-Brünn-Varsó gyorsvasúti összeköttetés megteremtése a visegrádi négyek közös politikai akarata. A gyorsvasút megépítése, illetve gyorsforgalmi utak, autópályák üzembe állítása mind a személyi, mind a teherforgalom számára óriási könnyebbséget jelent, ami által jelentős időmegtakarítás érhető el, és a régió versenyképességét mindenképpen növelheti. A beruházás természetesen tanulmányok és tervezések megkezdésével kezdődik, de reméljük, hogy mihamarabb az első szerelvény is elindul és a gyorsforgalmi utakon járhatnak az autók.</seg>
+<seg xml:id="AC8_3854.5">Fentiek alapján kérdezem tisztelt államtitkár urat, milyen ütemben várható a V4-es gyorsvasút építése, és milyen egyéb gyorsforgalmi, V4-es infrastrukturális projektekre számíthatunk. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-12-3-urgent_question-AC8_3857" who="#LajosKorózs" ana="#regular"><note>KORÓZS LAJOS (MSZP):</note>
+<seg xml:id="AC8_3857.1">Igen, köszönöm szépen. Tisztelt Ház! Tisztelt Miniszter Úr! Napok óta arról szólnak a hírek, hogy Kásler miniszter úr megoldotta az egészségügy minden egyes problémáját, röpködnek a milliárdok, bár vannak olyan tételek, amelyeket 5 millió forintból meg lehet oldani, van, amit 10-ből. Arról persze nem szól a fáma, hogy mi van azzal a 600 milliárd forinttal, amelye</seg>
+<seg xml:id="AC8_3857.2">(Dr. Völner Pál: Kivettetek az egészségügyből!)</seg>
+<seg xml:id="AC8_3857.3">, amelyet az egészségügyből kispóroltak az elmúlt 8 évben, és arról sem szól ez a fám</seg>
+<seg xml:id="AC8_3857.4">(Dr. Rétvári Bence: 2010 előtt.)</seg>
+<seg xml:id="AC8_3857.5">, hogy mi történik azokkal az orvosokkal, akik nem kapnak nyugdíj mellett működési engedélyt, és hónapokat állnak sorba a minisztériumnál, mármint hogy a papírokkal természetesen. És közben az látszódott, hogy megemelték az államtitkárok fizetését, sőt a helyettes államtitkárok számát is, ma már állítólag 117-en vannak, aközben pedig az látszik, hogy a kórházak adósságállománya már-már a múlt évi nagyságrendet is meghaladja.</seg>
+<seg xml:id="AC8_3857.6">A híradások szerint több mint 50 milliárd forint az adósságállomány. Élen jár ebben a Péterfy Kórház és a Honvédkórház megjegyzem, ez év márciusában a Honvédkórháznak egyetlenegy fillér adóssága nem volt , de néhány megyei kórház is felzárkózott a tartozók sorába, a Jász-Nagykun-Szolnok Megyei Kórház, tudomásom szerint, de ugyanígy hatalmas adóssággal bír a Békés Megyei Kórház, de még olyan kicsi kórháznak is, mint a hatvani Albert Schweitzer Kórház, közel 1,2 milliárd forintos adóssága halmozódott fel tíz hónap alatt. Mindezekből adódóan kérdezem miniszter urat, hogy mire számíthatnak azok az orvosok, akik sorban állnak a működési engedélyükért, hogy munkát vállalhassanak nyugdíj mellett; és mire számíthatnak a kórházak az adósság rendezése kapcsán. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Párbeszéd és az MSZP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-12-3-urgent_question-AC8_3858" who="#KolomanBrenner" ana="#regular"><note>DR. BRENNER KOLOMAN (Jobbik):</note>
+<seg xml:id="AC8_3858.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Államtitkár Úr! Ahogy néhány perce kiderült, a CEU megy de mi jön helyette? Isten látja lelkemet, szívesen elvitatkoznék azon, mint olyan volt egyetemi vezető, akinek kilenc évig az volt a feladata, hogy többek között nemzetközi képzéseket akkreditáljon, hogy a CEU és a Közép-európai Egyetem milyen joggal adott ki két diplomát eddig? De azt gondolom, hogy különösen a mai nap fényében ez az ügy már régen nem erről szól. Ez a fajta szakmai vita, amit egyébként a Velencei Bizottság, az Európa Tanács szakértői testülete is állásfoglalásában leszögezett, miszerint maga a lex CEU megfelel a jogszabályoknak, de annak a bevezetési módja a külföldi egyetemeket Magyarországon hátrányosan sújtja, azt gondolom, mutatja azt, hogy milyen irányba fordult a harmadik kétharmados Orbán-rezsim, amely most az egyetemi világot és a kutatás szabadságát próbálja visszaszorítani és megszállni.</seg>
+<seg xml:id="AC8_3858.2">Ahogy Navracsics Tibor fideszes EU-biztos is nyilatkozta, a mai naptól, ha bármely magyar állampolgár Európában bemutatkozik, akkor az a kérdés várja, hogy milyen országból jöttél te, ahonnan egyetemeket üldöznek el. Jó-e ez így, tisztelt államtitkár úr?</seg>
+<seg xml:id="AC8_3858.3">A Jobbik mint nemzeti néppárt kiáll az olyan konzervatív és valóban polgári értékek mellett, mint az akadémiai szabadság és az egyetemek autonómiája. Ez ügyben a héten terjesztem az Európa Tanács kulturális, oktatási és médiabizottsága elé azt a jelentéstervezetet, amelynek a jelentéstevője én vagyok, amely pontosan erről a témáról szól: az akadémiai szabadságról és az egyetemek autonómiájáról. Érdekes kérdéseket kell majd hazám képviseletében és védelmében megválaszolnom. A magyar kormány nem nagyon segíti ezt a munkát, mint ahogy látjuk.</seg>
+<seg xml:id="AC8_3858.4">Mi nem ijedünk meg attól, ha valakinek más a véleménye, semmilyen formában nem támogatjuk a Soros György által képviselt nyitott társadalom ideáját, de egy igazi hazafi meg tudja győzni vitapartnereit arról, hogy mi a jó és mi a rossz</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC8_3858.5">Egyetemet elüldözni rossz. És mi jön helyette, tisztelt államtitkár úr</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-12-3-urgent_question-AC8_3859" who="#LajosKorózs" ana="#regular"><note>KORÓZS LAJOS (MSZP):</note>
+<seg xml:id="AC8_3859.1">Köszönöm szépen. Tisztelt Ház! Tisztelt Államtitkár Úr! Nyilván ön is jár vásárolni, ön is jár piacra, és láthatja, hogy milyen árak találhatók, főleg a zöldséges standoknál. Itt a mai nap folyamán többen is említették, de én magam is a kérdések órájában, amikor a 2,7 százalékos költségvetési infláció kapcsán említést tettem arról, hogy miért nem korrigálják az előrejelzésnek megfelelően a jövő évi nyugdíjemelést, akkor az a válasz érkezett, mert ez lett júliusban elfogadva már summázva mondom ezt a választ. Volt néhány nekifutása a kormánynak, és én ezt nem is vitatom el, például az 5 százalékra való áfacsökkentés a tojás esetében, de ugyanígy a csirkehús és a sertéshús esetében is. Ezeket, hangsúlyozom, nem vitatom el. Ugyanakkor az látszik, hogy nincs hatékony kormányzati intézkedés annak érdekében, hogy érvényt szerezzenek ezeknek az áfacsökkentéseknek, mert az látszott a piacon, hogy néhány hónap múlva visszakúsztak az árak azokra az árakra, amelyek az áfacsökkentést megelőzően voltak. Egy év távlatában a zöldségek árai 38 százalékot meghaladó mértékben emelkedtek, a burgonya több mint 36 százalékkal emelkedett. De meg kell említeni még ezen túlmenően néhány friss zöldséget.</seg>
+<seg xml:id="AC8_3859.2">(14.50)</seg>
+<seg xml:id="AC8_3859.3">Ahogy említettem ön bizonyára jár piacra , azt tapasztaltam az elmúlt két hétben, hogy az egri piacon a petrezselyemgyökér ára 1600-1700 forint volt. Nagy valószínűséggel Mezőkövesden is ilyen árakkal találkozik államtitkár úr.</seg>
+<seg xml:id="AC8_3859.4">Éppen ezért kérdezem, hogy mit tesznek annak érdekében, hogy az áfacsökkentés érvényesüljön az árakban is, és a kereskedők a csökkentett áron hozzák forgalomba a termékeiket. Köszönöm szépen, elnök úr. Várom a válaszát, államtitkár úr</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-12-3-urgent_question-AC8_3860" who="#LászlóBöröcz" ana="#regular"><note>BÖRÖCZ LÁSZLÓ (Fidesz):</note>
+<seg xml:id="AC8_3860.1">Köszönöm szépen a szót, elnök úr. Tisztelt Ház! Tisztelt Miniszter Úr! A szocialista kormányok alatt több alkalommal is masírozhattak antiszemita nézeteket valló szervezetek Magyarországon; elég, ha csak a Hősök terén vagy a Várban megtartott rendezvényekre gondolunk. Az akkori kormányok azonban csak szavakban kívántak fellépni a gyűlöletkeltéssel szemben, de a tetteik nem bizonyították hangzatos szólamaikat. Ne feledjük el, hogy a szélsőséges és antiszemita megnyilvánulásoktól sem mentes Jobbik is a katasztrofális szocialista kormányzás romjain jött létre. Elég, ha csak Gyöngyösi Márton listázási javaslatára gondolunk, vagy a frakció munkatársára, Kulcsár Gergelyre, aki beleköpött a holokauszt áldozatainak emléket állító Duna-parti cipőkbe. Szávay István a hangfelvételek alapján szintén szélsőséges antiszemita nézeteket vall, és ha a hangfelvétel nem kerül ki, akkor ma is a Jobbik frakcióvezető-helyetteseként tevékenykedhetne tovább. Az első Orbán-kormány volt az, amelyik április 16-át a holokauszt magyarországi áldozatainak emléknapjává nyilvánította. Továbbá az Orbán-kormány létrehozta a Terror Házát, amely bemutatja az antiszemita indíttatású nyilasmozgalom megrázó tetteit. 2012-ben a kormány támogatásával hozták létre az antiszemitizmus megfigyelésére a Tett és Védelem Alapítványt. Köves Slomó, az EMIH vezetője és az alapítvány egyik alapítója úgy nyilatkozott, hogy Magyarország jelentős mértékben járult hozzá az antiszemitizmus elleni küzdelemhez, és elismerését fejezte ki a kormányzat felé. 2017-ben a nyugat-európai országokkal ellentétben Magyarországon az alapítvány szerint egyetlen esetben sem került sor zsidók bántalmazására származásuk miatt. A kormány a közelmúltban döntött arról is, hogy közel 1 milliárd forintot különít el az európai antiszemitizmus elleni harcra.</seg>
+<seg xml:id="AC8_3860.2">Az elhangzottak tekintetében kérdezem tisztelt miniszter urat, hogy milyen eszközökkel lép fel a magyar kormány az antiszemitizmussal szemben</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-12-3-urgent_question-AC8_3861" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC8_3861.1">Tisztelt Elnök Úr! Tisztelt Ház! El szeretném mondani azt, hogy Magyarországon nagyon helyes demográfiai célokat megfogalmazni, nagyon helyes egy fordulatot tűzni ki célul, amelynek értelmében a magyarság vészes fogyatkozása lassul, aztán meg is állhat végül, bár nyilván ez egy több évtizedes folyamat része lehet. Ugyanakkor azt látjuk a legutóbb megjelent demográfiai portré alapján, hogy ezen célkitűzések kapcsán, ha nem is vallott totális kudarcot a kormány, de a termékenységi arányszám sem képes nőni másfél éve, az élveszületések száma pedig egyenesen csökken. Tehát, bár nem vagyunk ellendrukkerek, de a bizonyítvány sajnos nem túl fényes.Azt tapasztaljuk ugyanakkor, hogy a legnehezebb sorban élő magyar polgártársaink számára bizony a terhek növekedni látszanak, a lakhatási válság, lakhatási szegénység egyre szélesebb köröket érint. Hiszen a CSOK-kal jellemző módon a felső középosztálytól fölfelé tud és akar kedvezni a kormány, az alapvető élelmiszerek áfacsökkentése teljes körben és a szükséges mélységben nem történt meg és nem járt együtt árcsökkentéssel, hiszen a termékskála kevesebb, mint 10 százaléka tekintetében nyúltak csak hozzá ehhez a rendszerhez.</seg>
+<seg xml:id="AC8_3861.2">Ami a legfájóbb, a minimálbér adójóváírásának elvételével lényegében a legnehezebb helyzetbe hozták azokat a társadalmi csoportokat, akiktől egyébként a gyermekvállalási, ha nem is boomot, de legalábbis valamifajta fellendülést lehetne ebben a helyzetben várni. Hiszen a demográfiai portré legfrissebb kiadása bebizonyította, hogy a diplomások körében sajnálatos módon nem nőtt számottevő módon a szülési hajlandóság. És ha még hozzátesszük azt is, hogy a legnehezebb sorban élők három említett nehezítő faktora mellé felsorakozott a kafetéria megnyirbálása is és jellemző módon baráti, ismeretségi körbe történő átcsoportosítása ezen rendszernek, akkor elmondhatjuk, hogy ez a nagyon széles, több milliós társadalmi bázis olyan nehezítéseket és olyan elképesztő terheket kell elszenvedjen, amelyek a demográfiai és a nemzetgazdasági célok ellen is hatnak.</seg>
+<seg xml:id="AC8_3861.3">Adódik tehát a kérdés, mit szól a kormány az adójóváírás lehetséges visszavezetéséhez. Köszönöm a lehetőséget</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

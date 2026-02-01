@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2015-04-07" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2015-04-07 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2015-04-07 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2964" unit="words">2964 szó</measure>
+        <measure xml:lang="en" quantity="2964" unit="words">2964 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2015-04-07">2015. 04. 07.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="43"/>
+          <tagUsage gi="kinesic" occurs="12"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2015-04-07">2015-04-07</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2015-04-07-urgent_question-AC7_4265" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_4265.1">Köszönöm, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Még a második Orbán-kormány titkosította és tette elérhetetlenné a betegek és a nyilvánosság számára, hogy milyen kockázatoknak vannak kitéve az egészségügyi intézményekben. A nozokomiális fertőzések, tehát a kórházi ellátás során szerzett betegségek nemcsak komoly problémákat okoznak, de a 2005-ben regisztrált 733 esethez képest 2012-ben már 3263 esetet rögzítettek. Ez közel négy és félszeres emelkedést jelent tehát 2005 és ’12 között - nagy hirtelenjében mindjárt titkosítva is lettek ezek az adatok. Ezért nem tudhatjuk, hogy ma pontosan hány ilyen eset fordul elő, az előző Fidesz-kormányhoz hasonlóan a mostani Fidesz-kormány sem hozza nyilvánosságra ezeket a statisztikákat.</seg>
+<seg xml:id="AC7_4265.2">Önmagában már az is kétségbeejtő, hogy Semmelweis Ignác hazájában még a mai napig tartani kell a nem megfelelő vagy egyáltalán nem fertőtlenített kórházi környezettől. Az elkerülhető, kórházakban vagy az alapellátás során szerzett fertőzések súlyos kockázatokat jelentenek a betegeknek, ráadásul az egészségügyi intézményben kapott betegségek további terhelést jelentenek a már így is túlterhelt és adósságspirálban vergődő kórházaknak.</seg>
+<seg xml:id="AC7_4265.3">(13.40)</seg>
+<seg xml:id="AC7_4265.4">Magyarországon nem szabadna előfordulnia annak, hogy fertőtlenítőszerek beszerzésére se jusson pénz, vagy hogy ne használják azt a megfelelő módon. Azonban az végképp elfogadhatatlan, hogy a kormány ne gyűjtsön pontos adatokat a fertőzések mértékéről, vagy hogy ezeket ne hozza nyilvánosságra, ez ugyanis lehetetlenné teszi a probléma megoldását. Miért kerülik el az adatszolgáltatást egyes intézmények? Miért titkosították az adatokat, s miért nem hozták még mindig nyilvánosságra az elmúlt évek statisztikáit? Talán helyesnek tartják, hogy a betegek és a közvélemény nem ismeri a kockázatot, aminek kiteszik őket?</seg>
+<seg xml:id="AC7_4265.5">Úgy gondolom, hogy egy felelős kormánynak egyfelől mindent meg kellene tennie az ilyen fertőzések visszaszorításáért, másfelől egy ilyen vitathatatlanul fontos és komoly kérdésben minden körülmények között tájékoztatnia kellene a nyilvánosságot, de önök úgy döntenek, hogy inkább titkolóznak</seg>
+<kinesic type="applause"><desc>Szórványos taps az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-04-07-urgent_question-AC7_4266" who="#AndrásSchiffer" ana="#regular"><note>DR. SCHIFFER ANDRÁS (LMP):</note>
+<seg xml:id="AC7_4266.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! A Magyar Nemzeti Bankról szóló 2013. évi CXXXIX. törvény 4. § (7) bekezdése alapján az MNB többek között feltárja a pénzügyi közvetítőrendszer egészét fenyegető üzleti és gazdasági kockázatokat, elősegíti a rendszerszintű kockázatok kialakulásának megelőzését. Majd</seg>
+<seg xml:id="AC7_4266.2">(9) bekezdés c)</seg>
+<seg xml:id="AC7_4266.3">pontja alapján az egyes pénzügyi szervezeteket, illetve a pénzügyi szervezetek egyes szektorait fenyegető nemkívánatos üzleti és gazdasági kockázatok feltárása is a jegybank feladata, illetve a megelőző intézkedések alkalmazása.</seg>
+<seg xml:id="AC7_4266.4">Ennek fényében különösen érdekes választ kapnom a következő kérdésekre. Kapott-e a jegybank, annak vezetői - különös tekintettel a felügyelet vezetőire - bármilyen formális vagy informális tájékoztatást a Quaestor-csoport pénzügyi helyzetéről a kormányzat bármely szintjéről az elmúlt hónapokban? Egy gazdasági lap információi szerint Velkey Csabát, a felügyelet egyik régi munkatársát, aki a Quaestor-ügyön dolgozik, kényszerszabadságra küldték egy hete. Miért?</seg>
+<seg xml:id="AC7_4266.5">Azonkívül szeretnék választ kapni arra, hogy miért nem tűnt fel a jegybanknál: mégis miért fizet a Quaestor 9 százalékos kamatot, amikor a banki megtakarítási kamat 4 százalékos volt? Annak sem néztek utána, hogy mit tud a Quaestor, ami miatt több mint kétszer annyi kamatot tud fizetni. Kérdés továbbá az, hogy vizsgálta-e az MNB legalább az összevonás utáni engedélynél, 2014. november 20-án, hogy miből fogja visszafizetni a Quaestor Hrurira, az egész Quaestor-csoport a kölcsönt. Kérdés továbbá az, hogy az előző évek gyakorlatától eltérően nem 50, hanem 70 milliárdos kötvénykibocsátást engedélyezett a jegybank. Miért? Ez már csak azért is érdekes, mert hogy nem vehette észre a jegybank, hogy 150 milliárdnyi hamis kötvény van a piacon? Kérdés továbbá az is, hogy lehet 70 milliárdnyi kötvénykibocsátásra engedélyt adni egy 10 milliós törzstőkéjű cégnek?</seg>
+<seg xml:id="AC7_4266.6">Várom kíváncsian a válaszát. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Schmuck Erzsébet tapsol.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-04-07-urgent_question-AC7_4269" who="#MátyásFirtl" ana="#regular"><note>FIRTL MÁTYÁS (KDNP):</note>
+<seg xml:id="AC7_4269.1">Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! 1948. április 7-én az ENSZ szakosított intézményeként megkezdte működését az Egészségügyi Világszervezet, a WHO. Erre az eseményre emlékezünk az egészségügyi világnapon.</seg>
+<seg xml:id="AC7_4269.2">A világszervezet célja a nemzetközi egészségügyi munka irányítása, összehangolása. A WHO definíciója szerint az egészség annak foka, amennyire az egyének, a közösségek képesek önmaguk kiteljesítésére és szükségleteik kielégítésére, valamint megbirkózni a környezet kihívásaival, és megfelelő egyensúlyt alakítanak ki.</seg>
+<seg xml:id="AC7_4269.3">Az egészséget befolyásoló tényezők közül a leghangsúlyosabb elem az életmód. Ezt követik a genetikai tényezők, majd a környezeti hatások, az egészségügyi ellátás. A lakosság jó egészségének megőrzése, egészségi állapotának javítása, fejlesztése egyéni és társadalmi felelősség. Minden magyar állampolgárnak alapvető emberi joga az elérhető legkedvezőbb egészségi állapot. A jó egészség önmagában is jelentős egyéni és társadalmi érték, ugyanakkor egyéni és társadalmi erőforrás. A lakosság jó egészsége a fenntartható gazdasági növekedés záloga.</seg>
+<seg xml:id="AC7_4269.4">A WHO minden évben az egészségügy világnapján kiemel egy részterületet, ami kiemelten fontos az egészségügy területén. Ez idén az élelmiszer-biztonság. Mint tudjuk, az élelmiszer-ellátás szerteágazó és bonyolult folyamat, a termőföldtől az asztalig számos helyen veszélyforrással bír. A nem biztonságos élelmiszerek számos egészségügyi problémához vezethetnek. Az élelmiszer által közvetített megbetegedések döntő része az ételek helytelen, nem biztonságos módon történő előkészítésére vezethető vissza, az élelmiszer-előállító vállalkozásoknál, a magánháztartásokban egyaránt. Ezért a megbetegedéseket és számos más betegséget meg lehet előzni helyes neveléssel, megfelelő intézkedéssel. Mint ahogy a WHO is említi, az egészség nem csupán a betegség hiánya, hanem a teljes testi, lelki, szociális jólét állapota.</seg>
+<seg xml:id="AC7_4269.5">Mindezek alapján kérdezem államtitkár urat, mit tesz a kormány annak érdekében, hogy a jelen és a jövő nemzedéke ép testben ép lélekkel nézhessen szembe a rá váró kihívásokkal. Várom államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-04-07-urgent_question-AC7_4270" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC7_4270.1">Tisztelt Elnök Úr! Tisztelt Ház! A Jobbik nem véletlenül használja a tapolcai időközi választás előtt is a Quaestor-koalíció kifejezést igen gyakran. Nem alap nélküli vagdalkozásról van szó, amikor azt mondjuk, hogy a Quaestor-koalíció tagja az MSZP és a Fidesz is. Nagyon leegyszerűsítve mondhatnánk azt, hogy az MSZP tekintetében egy 17 milliárdos tulajdonképpeni kezességvállalás-szerűség történhetett az értesülések szerint; és nem túlzással mondhatjuk azt is, hogy a Fidesz-KDNP-kormányzat a négy és fél, öt éven keresztül tulajdonképpen rendezetlenül hagyta ezt a területet az ellenőrzés hiányosságainak meghagyásával, asszisztált ahhoz, hogy magyar emberek pénze közvetlenül vagy közvetett módon, de tőzsdére kerüljön, és játszadozzanak vele.</seg>
+<seg xml:id="AC7_4270.2">De ne egyszerűsítsük le a kérdést ennyire! Tegyük föl azokat a konkrét kérdéseket, amelyek bizony büntetőjogi felelősség megállapításához is elvezethetnek. Stratégiailag kiemelt gazdálkodó lett az ETO Park Kft., amiből közvetkezően lényegében csak meghívásos alapon értékesítheti azon vagyontárgyait, amelyekről a sajtó berkein belül is hallhattunk.</seg>
+<seg xml:id="AC7_4270.3">A 2013-as történet kapcsán fel kell tennünk azokat a konkrét kérdéseket, amelyekből kiderül, hogy miért nem terveztek terven felüli értékcsökkenést könyvvizsgálói szinten e vagyontárgyak tekintetében, és egyáltalán, az MFB tulajdonosaként az állam hogy a fenébe’ nem ellenőrizte ezt az egész rendszert, tehát hogyan fordulhatott elő, hogy az ETO Park könyv szerinti értékénél 21 milliárdról beszélünk, az MFB-hitel 18,7 milliárdjánál csődöt mondott a teljes ellenőrzési rendszer. A könyvvizsgálón túl az állam felelősségét is meg szeretnénk vizsgálni, hiszen az állam volt 2013-ban is az, akinek el kellett volna látni bizonyos ellenőrző, felügyeleti jogköröket. És elmondhatjuk azt, hogy ez a teljes kudarc odavezetett, hogy magyar emberek pénzének százmilliárdjaival játszadoztak itt vagy ott, így vagy úgy.</seg>
+<seg xml:id="AC7_4270.4">Nyilvánvaló, hogy ez a két konkrét kérdés konkrét és azonnali válaszért kiált. Ebben számítok érdemi közreműködésére. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-04-07-urgent_question-AC7_4271" who="#GergelyBárándy" ana="#regular"><note>DR. BÁRÁNDY GERGELY (MSZP):</note>
+<seg xml:id="AC7_4271.1">Köszönöm szépen a szót, elnök úr. Tisztelt Legfőbb Ügyész Úr! Múlt héten a fideszes brókerbotránnyal kapcsolatban feltett azonnali kérdésemre adott válaszában ön úgy fogalmazott: önnek mint jogásznak nagyon jól kell tudnia, hogy aki potenciális gyanúsított, az nem hallgatható ki előzőleg tanúként, ez mindenfajta emberi jognak ellentmond.</seg>
+<seg xml:id="AC7_4271.2">Akkor már nem volt lehetőségem reagálni e kijelentésre, hát most megteszem. Két probléma van ugyanis vele. Az egyik, hogyha akkor nem lett volna elég egyértelmű, bár szerintem az volt, én nem a Quaestor-vezér tanúkénti kihallgatását kértem számon az ügyészségen, hanem a gyanúsítottit. A másik probléma pedig az, hogy az ön által vezetett ügyészség éppen az ön által említett mindenféle emberi jogoknak ellentmondó gyakorlatot folytat, a politikai érintettségű, országosan ismert ügyekben éppúgy, mint az átlagos megítélésű ügyekben. Saját korábbi ügyvédi tapasztalatom alapján éppúgy állítom ezt, mint kollégáim visszajelzése alapján. Nem véletlen, hogy az ön e tárgyban tett kijelentése, amelyet a fővárosi főügyész egy, amúgy nehezen felejthető riportban, valamint a Legfőbb Ügyészség közleménye is megerősített, ekkora szakmai és közéleti vitát generált.</seg>
+<seg xml:id="AC7_4271.3">Külön pikantériája az ügynek, hogy önök, a Legfőbb Ügyészség néhány éve egy olyan, később egyébként alkotmányellenesnek nyilvánított törvényjavaslatot fogadtattak el az Országgyűléssel, hogy az őrizetbe vett gyanúsított az első 48 órában ne találkozhasson a védőjével, az első kihallgatást a védő jelenléte nélkül kelljen lefolytatni, a tanút segítő ügyvéd pedig ne is vehessen részt a tanú kihallgatásán. Szóval, az emberi jogok nyomozástaktikai okokból való megsértésének szándéka nem áll olyan nagyon távol önöktől.</seg>
+<seg xml:id="AC7_4271.4">Kérdezem tehát ezért legfőbb ügyész urat: tud-e arról, hogy az ügyészség, valamint az ügyészség által felügyelt egyéb nyomozó hatóságok bevett nyomozástaktikai módszerként alkalmazzák a potenciális gyanúsítottak tanúkénti kihallgatását? Valamint kérdezném azt is, hogy ha ezt ön nagyon helyesen az emberi jogokkal ellentétesnek tartja, kívánja-e kivizsgálni a gyakorlatot, és fellépni a tarthatatlan gyakorlattal szemben.</seg>
+<seg xml:id="AC7_4271.5">Nagyon szépen köszönöm</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-04-07-urgent_question-AC7_4272" who="#IstvánApáti" ana="#regular"><note>APÁTI ISTVÁN (Jobbik):</note>
+<seg xml:id="AC7_4272.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Immáron sokadszor kell megkérdeznem öntől, hogy a kormány miért nem akarja végrehajtani az alapvető élelmiszerek áfatartalmának 27 százalékról 5 százalékra történő csökkentését. Ugyanis gyakorlatilag bizonyított tény, hogy Magyarországon több mint 4 millió ember él a létminimum alatt, tehát szinte minden második magyar ember kevesebbet keres, kevesebb pénzből kénytelen megélni havi 87 510 forintnál. Úgy gondolom, ez szomorú, és amikor a folyamatos gazdasági sikerpropagandát lehet hallani a különböző közszolgálati csatornákon, akkor jó lenne ezeket a szomorú adatokat és tényeket is hozzátenni.</seg>
+<seg xml:id="AC7_4272.2">Ráadásul nyilvánvaló, hogy ezeknél a tömegeknél reális, belátható időn belül jövedelemnövelés, bevételnövelés nem vagy csak nagyon kis mértékben realizálható, éppen ezért kézenfekvő, hogy a kiadásaikat, a kiadási oldalát kellene csökkenteni a családokra rakódó terheknek. Az már egyébként csak hab a tortán, hogy önök a tűzifa áfatartalmának csökkentését is elmulasztották, amely ugyan most a fűtési szezon végével fél évre lekerül a napirendről, de fél év múlva új fűtési szezon kezdődik, és ezt a problémát sem voltak képesek megoldani, legfeljebb csak toldozták-foldozták.</seg>
+<seg xml:id="AC7_4272.3">Ami pedig az alapvető élelmiszerek áfatartalmának csökkentését illeti, az azért is egyre sürgetőbb kérdés, hiszen a közhiedelemmel ellentétben ez nemcsak az északi és a keleti megyéket érinti, tehát államtitkár úr, ez nemcsak Borsod, Szabolcs, Heves, Nógrád megye problémája, hanem Nyugat-Magyarország egyre több megyéjében is egyre több ember él a létminimum alatt.</seg>
+<seg xml:id="AC7_4272.4">(14.00)</seg>
+<seg xml:id="AC7_4272.5">Ez a tapolcai térségre is igaz. Én magam a tapolcai kampány során meglepődve tapasztaltam, hogy mennyire hasonlóak a tapolcai, a sümegi, az ajkai térség problémái az északi és a keleti térségben élő emberek problémájához. Tehát ha úgy tetszik, én is egy tévedésben voltam, egy tévedésben leledzettem, hiszen ugyanazok a problémák gyötrik az ott élő embereket is.</seg>
+<seg xml:id="AC7_4272.6">Éppen ezért megkérdezem öntől, hogy tekintettel arra, hogy a termékkör szűkebb vagy tágabb meghatározásától függően 70-200 milliárd forint közötti összegről van szó, nem látja-e kigazdálkodhatónak. Önöknek nem érnek meg ennyit a szegény emberek?</seg>
+<seg xml:id="AC7_4272.7">Ezért jogos a kérdés, hogy miért nem akarnak segíteni a szegényeknek, illetőleg mikor hajlandóak végre ezt a kérdést napirendre venni. Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-04-07-urgent_question-AC7_4274" who="#ZsoltLegény" ana="#regular"><note>DR. LEGÉNY ZSOLT (MSZP):</note>
+<seg xml:id="AC7_4274.1">Köszönöm a szót, elnök úr</seg>
+<kinesic type="noise"><desc>Zaj a Jobbik soraiban. - Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC7_4274.2">Tisztelt Ház! Tisztelt Legfőbb Ügyész Úr! A múlt héten az írott és az elektronikus sajtóban is megjelentek cikkek azzal kapcsolatosan, hogy az OLAF, az Európai Unió Csalás Elleni Hivatala eljárást indított Kovács Béla jelenlegi és Szegedi Csanád volt jobbikos európai parlamenti képviselők ellen, méghozzá azért, merthogy a gyanú szerint az alkalmazottakkal és látogatókkal kapcsolatos visszaélésekkel, csalással gyanúsítják őket. A tájékoztatásuk szerint Molnár Balázs, az Európai Parlament volt szerződéses tisztviselője feljelentést tett Kovács Béla és Szegedi Csanád ellen, merthogy a tisztviselőnek brüsszeli munkája alatt számos korrupciógyanús ügyre volt rálátása, amellyel kapcsolatban februárban már vallomást tett, és Lenhardt Balázs, aki a Jobbik volt országgyűlési képviselője, szintén feljelentést tett az ügyben, eredetileg csak Szegedi Csanád ellen. Az OLAF egyebek mellett arra gyanakszik, hogy a képviselők visszaéltek a gyakornokok, asszisztensek alkalmazására költhető havi keretükkel, és csak papíron foglalkoztatták a beosztottakat. a cikkek állítása szerint Kovács Béla így alkalmazta J. Sz. korábbi országgyűlési képviselői asszisztenst, Szegedi Csanád fantomalkalmazottja pedig Novák Előd országgyűlési képviselő, a Jobbik országgyűlési képviselője, jelenlegi alelnöke volt</seg>
+<kinesic type="noise"><desc>Zaj a Jobbik soraiban.</desc></kinesic>
+<seg xml:id="AC7_4274.3">A cikk szerint az okból is felmerült a gyanú, hogy a képviselők visszaéltek az általuk évente fogadható mintegy száz látogató fejpénzével, amelyet az ellátásukra vehetnek fel. Azok a látogatók, akik erdélyi és kárpátaljai diákok voltak, ezeket tehát olcsón szállásolták el, majd a tényleges költség és az igen színvonalas ellátást biztosító fejpénz közötti különbséget eltették.</seg>
+<seg xml:id="AC7_4274.4">Tisztelt Legfőbb Ügyész Úr! Azt szeretném kérdezni, hogy ezzel a politikusbűnözéssel kapcsolatosan a magyar nyomozó hatóságok, a bűnüldöző szervek indítottak-e eljárást; ha igen, mikor, ha nem, akkor pedig miért nem. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-04-07-urgent_question-AC7_4275" who="#BertalanTóth" ana="#regular"><note>DR. TÓTH BERTALAN (MSZP):</note>
+<seg xml:id="AC7_4275.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Önök 2010-ben nagy csinnadrattával harcot hirdettek az offshore hátterű cégekkel szemben. Választási győzelmüket követően ez a lendület alábbhagyott, sőt Rogán Antal 2011-ben egy törvénymódosítás során az önök szavazataival kivette a személyi jövedelemadó törvényből azt a rendelkezést, hogy az adóbevallásban fel kellett volna tüntetni az offshore-cégekből ki nem vett osztalék összegét, sőt 2010-ben ugyancsak eltöröltek egy adózási szabályt, ami arról szólt, hogy az offshore-okba utalandó összegek után 30 százalékos adót kell fizetni.</seg>
+<seg xml:id="AC7_4275.2">2011-ben ugyan hoztak egy törvényt a nemzeti vagyonról, amely kifejezetten tiltotta, hogy offshore hátterű cégekkel állami cégek vagy önkormányzatok szerződést kössenek - így derült fény arra, hogy a Közgép valós tulajdonosa Simicska Lajos -, azonban láthatjuk, hogy önök ezt a törvényt sem tartják, illetve tartatják be, hiszen Rogán Antal felügyelete alatt a letelepedési kötvényeket offshore hátterű cégek adják el, több tízmilliárd forint haszonra tesznek ezzel szert; láthattuk a MET Zrt.-nél, hogy közel százmilliárdot kerestek offshore hátterű cégek; de azt is láthatjuk, hogy a Quaestor maga is egy offshore tulajdonú cég, és sem a Külügyminisztériumot, sem az agrárminisztériumot, sőt az önkormányzatokat sem zavarta, hogy a nemzeti vagyonról szóló törvény tiltó rendelkezése ellenére ilyen rendelkezéseket kötöttek.</seg>
+<seg xml:id="AC7_4275.3">Szeretném megkérdezni államtitkár úrtól, hogy mi a véleménye az offshore-cégek és az állam kapcsolatáról. Terveznek-e vizsgálatot, felelősségre vonást, illetve az adójogszabályok módosításával terveznek-e adókivetést ezekre az offshore-utalásokra, offshore-cégekre, és egyszer s mindenkorra elveszik-e a fideszes vállalkozók kedvét attól, hogy offshore-cégekben tüntessenek el közpénzeket? Várom válaszát. Köszönöm szépe</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-04-07-urgent_question-AC7_4276" who="#PálVölner" ana="#regular"><note>DR. VÖLNER PÁL (Fidesz):</note>
+<seg xml:id="AC7_4276.1">Köszönöm szépen, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! A kiváló GDP-adatok, a folyamatosan javuló foglalkoztatottság és a csökkenő árak további létszámbővülést és reálkereset-emelkedést vetítenek előre, a pozitív folyamatok pedig kedvezően hatnak a lakosság jövedelmi helyzetére, és hozzájárulnak a belső fogyasztás növekedéséhez is. Mindemellett elég csak említést tenni a pedagógusok, rendvédelmi dolgozók vagy az egészségügyben tevékenykedők életpályamodelljéről, illetve a legkésőbb 2016. január 1-jén induló szociális életpályamodellről, amely több mint 70 ezer munkavállalót fog érinteni. Teszi mindezt úgy a kormány, hogy közben nem él a szocialista kormányok által jól bejáratott béremelési programmal, miszerint felvesznek egy gigantikus hitelcsomagot, majd szétosztják segélyként vagy egyszeri béremelésként, mint tették 2003-ban, s ezzel szétverik a nemzetgazdaságot.</seg>
+<seg xml:id="AC7_4276.2">A Fidesz-KDNP-kormány elkötelezett az életpályamodellek mellett, amelyek lépcsőzetesen emelik a gazdaság teljesítményéhez mérten az adott területen dolgozók bérét. Nem szabad megfeledkezni arról sem, hogy a bérek értéke két éve folyamatosan nő, 2014-ben már 4 százalékkal emelkedett, a foglalkoztatás rekordokat dönt, tavaly 210 ezerrel dolgoztak többen, mint egy éve, 2010 óta pedig 455 ezerrel dolgoznak többen, ráadásul a családi és járulékkedvezmények miatt 2014-ben 236 milliárd forint maradt a családoknál. A kormány megfékezte az áremeléseket lényegében, és összességükben nem nőttek az árak, amire a ’60-as évek óta nem volt példa.</seg>
+<seg xml:id="AC7_4276.3">Mindenki tudja, hogy az infláció a szegények rejtett adója, az alacsony inflációnak tehát a szegényebbek a legfőbb nyertesei</seg>
+<kinesic type="noise"><desc>Közbeszólások az MSZP soraiból.</desc></kinesic>
+<seg xml:id="AC7_4276.4">Kérem államtitkár úr válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

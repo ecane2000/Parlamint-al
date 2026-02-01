@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2019-03-25" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2019-03-25 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2019-03-25 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="10" unit="speeches">10 beszéd</measure>
+        <measure xml:lang="en" quantity="10" unit="speeches">10 speeches</measure>
+        <measure xml:lang="hu" quantity="2908" unit="words">2908 szó</measure>
+        <measure xml:lang="en" quantity="2908" unit="words">2908 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2019-03-25">2019. 03. 25.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="10"/>
+          <tagUsage gi="seg" occurs="43"/>
+          <tagUsage gi="kinesic" occurs="13"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2019-03-25">2019-03-25</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2019-3-25-urgent_question-AC8_5458" who="#AntalCsárdi" ana="#regular"><note>CSÁRDI ANTAL (LMP):</note>
+<seg xml:id="AC8_5458.1">Köszönöm szépen a szót. Tarlós István 2019. március 1-jén a Válasz Online hírportálon megjelent interjújában azt nyilatkozta a budapesti parkolási maffia megfékezésével összefüggésben, hogy „ez az egy olyan kérésem volt mindenesetre, amelyet miniszterelnök úr nem tudott teljesíteni” fogalmazott Tarlós István. Igaz-e vagy hazugság, amit Tarlós István főpolgármester úr állít? Valóban nemet mondott a magyar kormány a parkolási maffia megfékezésére? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-3-25-urgent_question-AC8_5459" who="#ZsoltGréczy" ana="#regular"><note>GRÉCZY ZSOLT (DK):</note>
+<seg xml:id="AC8_5459.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Az ellenzéki pártok, így a Demokratikus Koalíció is számos alkalommal tett feljelentést vezető fideszes politikusok vagy a fideszes leghűbb ügyész, vagy a fideszes jegybankelnök ellen, de a leghűbb ügyész, a korábbi fideszes képviselőjelölt Polt Péter ezeket rendszeresen visszautasította. Az orbáni vádhatóság működésére ugyanakkor az a jellemző, hogy arra tesz ajánlatot gyanúsítottaknak, vádlottaknak, hogy a nekik nem tetsző, rájuk veszélyt jelentő politikusokra próbáljanak terhelő vallomást kicsikarni, enyhébb elbírálást kilátásba helyezve. Az egyik legkirívóbb botrány az utóbbi időben a miniszterelnök, Orbán Viktor vejének bűnügye, amelyben az Unió csalásügyi hivatala lezárt nyomozási anyagot küldött át 13 milliárd forintos kárt megállapítva, egyúttal a bűnszervezetben elkövetett lopást megjelölve tényállásként. Ennek ellenére a Polt Péter vezette ügyészség nem tett semmit. A Churchill nyomán a DK által is meghirdetett európai egyesült államok egyik legfontosabb előnye, hogy csatlakozni fogunk az Európai Ügyészséghez, így nem lehet majd mentegetni a fideszes bűnözőket, a pénzünk ellopóit. Korrupciós ügyekben az európai vádhatóság ítéli majd el akár az Orbán család tagjait is.</seg>
+<seg xml:id="AC8_5459.2">Kérdezem tehát államtitkár urat: hány fideszes bűnözőt mentegetnek, hogy nem csatlakozik az Orbán-kormány az Európai Ügyészséghez? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a DK soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-3-25-urgent_question-AC8_5460" who="#GergelyArató" ana="#regular"><note>ARATÓ GERGELY (DK):</note>
+<seg xml:id="AC8_5460.1">Tisztelt Államtitkár Úr! Nagy örömmel láttam azt, hogy ön fölfedezte azt, hogy felelős kormányok és felelős politikai erők programot is készítenek, mégpedig részletes szakpolitikai programot, aminek az is nagy előnye, hogy ez számonkérhető. Tudom, hogy ez a Fideszben és a KDNP-ben újdonság és nem szokás, de azt tudom mondani, hogy kívánok önnek jó böngészést ezek között a programpontok között; már csak azért is, mert legalább észreveheti belőle azt, hogy akár a Gyurcsány-kormányok programjaiban, akár pedig a Demokratikus Koalíció programjában vagy programjaiban következetesen szerepel az a cél, hogy egyre több fiatal juthasson felsőfokú végzettséghez, egyre több fiatal tanulhasson. Mi most a helyzet? Hadd idézzek föl csak egy-két adatot! Az első adat talán ez a legdrámaibb a felsőoktatásba járó hallgatók, diákok aránya a Gyurcsány-kormány idején az össznépességhez képest több mint 4 százalék volt, ma már kevesebb mint 3 százalék. Tehát elvesznek a gyerekek a felsőoktatásból mit tesznek önök? Még inkább bezárják ezeket a kapukat. Kötelezően előírt nyelvvizsgával akarják nyelvoktatás nélkül kiszorítani a diákokat a felsőoktatásból. Magánegyetemet, fizetős egyetemet csinálnak a Corvinus Egyetemből. Brutális tandíjakat állapítanak meg, és még folytathatnám.</seg>
+<seg xml:id="AC8_5460.2">De hasonlóan szörnyű adatokat idézhetnék föl a PISA-vizsgálatból. Látható, hogy minden vizsgálatnál egyre rosszabb az eredmény, egyre gyengébbek a magyar diákok alapképességei. Vagy éppen idézhetném azt az adatot is, hogy Európában egyedül Magyarországon nem csökken, hanem növekszik a korai iskolaelhagyók aránya, azoknak a diákoknak az aránya, akik megfelelő iskolai végzettség nélkül kerülnek ki az iskolarendszerből.</seg>
+<seg xml:id="AC8_5460.3">Adódik tehát a kérdés: miért teszik tönkre az oktatást? Miért butítják le az oktatást? Miért nem akarják, hogy tanuljanak a magyar diákok</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-3-25-urgent_question-AC8_5461" who="#SándorBurány" ana="#regular"><note>BURÁNY SÁNDOR (Párbeszéd):</note>
+<seg xml:id="AC8_5461.1">Köszönöm szépen, elnök úr. Tisztelt Ház! Egy népszerű vallásos témájú könyv címe az, hogy „Mit keresett Isten a nappalimban”. Ennek alapján joggal tehetnénk fel egy nemrég napvilágot látott hír kapcsán azt a kérdést: na de mit keres Kásler miniszter úr a hálószobánkban.Történt ugyanis, hogy az EMMI egy sajtóhír szerint több mint 20 millió forinttal támogatott meg egy olyan tanfolyamot, amelyben a résztvevőket szándéknyilatkozatban kötelezték arra orvosi egészségügyi képzésről van szó , hogy nem támogatják a mesterséges megtermékenyítés semmilyen formáját, nem írnak fel, illetve nem állítanak be fogamzásgátló tablettákat, nem alkalmaznak, nem állítanak be fogamzásgátló eszközöket, nyilván óvszert sem. Nem végeznek művi terhességmegszakítást, illetve ilyenben nem működnek közre. Több mint 20 millió forintot pocsékolnak el erre a fajta képzésre, ami egyébként a szakmában erősen vitatott módszer népszerűsítését is megkívánja a résztvevőktől. Ennek részleteire most idő hiányában nem tudok kitérni.</seg>
+<seg xml:id="AC8_5461.2">Ugyanakkor őszintén érdekelne, hogy az állam több mint 20 millió forinttal egy ilyen elképesztő akcióban miért vesz részt. Miért támogatja az állam lényegében az összes családtervező módszer, eszköz kiiktatását, megszüntetve gyakorlatilag a családtervezést? Ennek keretében miért gondolja azt az állam és Kásler miniszter úr, hogy jó ötlet az óvszerhasználatot is tiltani, miközben az nem egyszerűen nem kívánt terhességet előz meg a mai világban, hanem halálos betegségeket és nemi betegségeket is hatástalanít használatával? Illetve mit ajánl az állam azoknak a családoknak, akik szeretnének, de valamilyen oknál fogva csak orvosi segítséggel tudnak gyermeket vállalni? Várom válaszát</seg>
+<kinesic type="applause"><desc>Kocsis-Cake Olivio tapsol.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-3-25-urgent_question-AC8_5462" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC8_5462.1">Köszönöm szépen, elnök úr, és külön örömöm számomra, hogy a miniszter úr fog válaszolni, hátha szakmaibb választ fogok kapni, mint államtitkár úrtól, ha már az imént személyeskedett, államtitkár úr</seg>
+<seg xml:id="AC8_5462.2">(Dr. Rétvári Bence: A képviselő asszony soha!)</seg>
+<seg xml:id="AC8_5462.3">Múlt héten Korózs képviselőtársam azzal kezdte a napirend előtti felszólalását, hogy az elmúlt negyedév egészségügyi problémáiról megjelent híreket olvasta fel. Akkor engedje meg, miniszter úr, hogy én az elmúlt egy hét híreiből olvassak fel néhányat!</seg>
+<seg xml:id="AC8_5462.4">Az első: „Szomorú valóság: vezető helyen Magyarország a főbb betegségek okozta korai halálozásokban a daganatos, szív- és érrendszeri halálozások tekintetében.”</seg>
+<seg xml:id="AC8_5462.5">A második hír: „Az uniós átlagnál kevesebb jut szociális juttatásokra Magyarországon, így az egészségügyi ellátásokra is.”</seg>
+<seg xml:id="AC8_5462.6">A harmadik hír: „Napi 44,2 millió forint adósságot termel a Honvédkórház. Januárról februárra 1,2 milliárd forinttal nőtt a Honvédkórház adósságállománya, ami így 2,2 milliárd forintot jelent február végén.”</seg>
+<seg xml:id="AC8_5462.7">A negyedik hír, hogy cáfoljam államtitkár urat abban, amit az iménti válaszában mondott nekem: „Tíz forintért sem kelnek el a praxisok Magyarországon.” ez egy 2019. januári hír. Egy dunántúli kisvárosban a háziorvos tíz forintért árulja a praxisát több mint egy éve, de így sem kell senkinek. A háziorvos 72 évet betöltött. Az orvosok korfája elriasztó, van olyan település, ahol az orvos 84 évesen praktizál, csak azért, mert ha otthagyná a praxisát, nem lenne orvos a településen.</seg>
+<seg xml:id="AC8_5462.8">Miniszter Úr! Évente 24 ezer beteg csak azért hal meg Magyarországon, ezt Kásler miniszter úr ismerte el, mert a megfelelő orvosi ellátást nem kapja meg; nem azért, mert a betegsége indokolja, hanem mert nem kapja meg az ellátást. Ez azt jelenti, hogy az önök idejében több mint 200 ezer beteg úgy halt meg, hogy megmenthető lehetett volna</seg>
+<kinesic type="signal"><desc>Az elnök csengetéssel jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC8_5462.9">Mikor fognak végre valamit kezdeni az egészségüggyel? Pozitívan kérdezem, miniszter úr, hogy mikor lesz az, amikor a szakma anyagát elfogadják, és beavatkoznak, hogy ne haljon meg ez a 24 ezer beteg évente. Várom válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2019-3-25-urgent_question-AC8_5464" who="#LászlóVarga" ana="#regular"><note>DR. VARGA LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC8_5464.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Az elmúlt percekben elhangzottakkal szemben egy igazán komoly, valódi és rengeteg embert érintő problémára szeretném a figyelmet újra felhívni: ez a légszennyezés kérdésköre, amely óriási egészségügyi kockázatot jelent szerte az országban, számtalan daganatos megbetegedésért felelős, és nagyon sok korai halálesetet is okoz.Ennek kapcsán kötelezettségszegési eljárás is indult hazánkkal szemben. Intézkedési tervet várnak ebben a tekintetben a kormánytól. Nyilván adódik a kérdés is, hogy mi a helyzet ezzel.</seg>
+<seg xml:id="AC8_5464.2">De újra és újra felhívom a figyelmet mindig, amikor szót kérek ebben a témában arra, hogy a Sajó völgye a legszennyezettebb ebből a szempontból; szűkebb pátriám. Én Miskolcon élek, ott is születtem, és mondok még néhány településnevet: Kazincbarcika, Sajószentpéter, Putnok, amelyek számtalanszor elhangzanak, amikor sajnos a legrosszabb adatokról hallunk abban az időszakban, amikor ez sokszor előfordul.</seg>
+<seg xml:id="AC8_5464.3">Most tavasz van, kevesebb ilyen hírt hallunk, de most kéne szerintem nagyon komoly lépéseket tenni annak érdekében, hogy végre, hosszú évek tétovázása után megoldódjon a probléma. Gyakorlatilag 2010 óta megálltak az épületenergetikai fejlesztések, nincsenek kazáncsereprogramok. A fűtés korszerűtlen volta az egyik legkomolyabb felelőse a szállópor-kibocsátásnak. Drága a tűzifa, elavult a személygépjármű-állomány egy része, és a közösségi közlekedésben sincsenek nagy, átfogó járműcsereprogramok. Miskolcon például a Búza téren elképesztő rosszak az adatok. Ott a Volán-társaságnak nyilván a járműveit kellene végre cserélni.</seg>
+<seg xml:id="AC8_5464.4">Van innovatív fejlesztés is, ami javaslat volt, a Miskolci Egyetem kutatói részéről egy szmogkéményfejlesztés, amely szintén nem kapta meg azt a figyelmet és azt a támogatást, amit érdemelt volna. Azt gondolom, van tehát feladat. A kérdés, hogy mit fog végre tenni a kormány a légszennyezés csökkentése érdekében</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC8_5464.5">Köszönöm, elnök úr</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-3-25-urgent_question-AC8_5465" who="#TamásCsányi" ana="#regular"><note>CSÁNYI TAMÁS (Jobbik):</note>
+<seg xml:id="AC8_5465.1">Tisztelt Elnök Úr! Tisztelt Ház! Ahogyan azt az utóbbi időkben megszokhattuk, önök a Jobbik lejáratására többéves ügyeket vesznek elő, médiájukban hol Jakab-hetet, hol Varga-Damm-napokat tartanak, majd aggódást mímelve kérdezik egymást itt a parlamentben, hogy ez hogyan lehetséges, mit lehet itt tenni. Tényleg, hogyan lehetséges az, ha már itt tartunk, hogy ezen ügyeknél sokkal égetőbb probléma elkerülte a figyelmüket? Jelesül Pócs János fideszes országgyűlési képviselő egy mostanában előkerült videóban egy cigány férfi elégetésére tesz kísérletet, sőt többek elégetésére is utal. Nagyon vártuk, hogy akár a Sneider Tamás ellen február 18-án hosszan felszólaló Farkas Félix vagy éppen Farkas Flórián megtöri a hallgatás bénító csendjét, és napirend előtt kéri ki egyébként teljesen jogosan ezt a rasszista indíttatású videót, az abban látottakat, elhangzottakat. Nem történt meg. Kérdezném tisztelettel: miért? Pócs János pedig nagy konkoly lehet önöknek, hiszen igazi bulvárpolitikusként hol Soros-feliratú disznóról posztol, kissé ittasan hölgyet inzultál szórakozóhelyen, és a nagy nemzeti kereszténység jegyében Jézus születésével viccelődik. Bizonyára önök a sort még tovább is tudnák folytatni, mi azonban ezt nem szeretnénk.</seg>
+<seg xml:id="AC8_5465.2">(14.10)</seg>
+<seg xml:id="AC8_5465.3">Mint ahogyan azt sem szeretnénk, hogy ilyen politikusok ássák alá a parlament, a Magyar Országgyűlés tekintélyét</seg>
+<seg xml:id="AC8_5465.4">(Közbekiáltások a Jobbik soraiból: Így van! Mondjon le!)</seg>
+<seg xml:id="AC8_5465.5">Ezért tisztelettel kérdezem, hogy meddig tűrik még meg soraik között Pócs Jánost. Meddig ütik el ezt a problémát Pócs-cselekvéssel? Meddig asszisztál a Fidesz ilyen képviselők tevékenységéhez? Önöknek minden belefér? Kérem, válaszoljon érdemben! Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki sorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-3-25-urgent_question-AC8_5466" who="#PéterJakab" ana="#regular"><note>JAKAB PÉTER (Jobbik):</note>
+<seg xml:id="AC8_5466.1">Köszönöm a szót. Tisztelt Ház! Tisztelt Miniszter Úr! Önök immár harmadik éve folyamatosan meghosszabbítják a tömeges bevándorlás okozta válsághelyzetet Magyarországon, és az elmúlt hetek-hónapok eseményei rávilágítottak arra is, hogy a válsághelyzet okozói valójában önök. 2018. december 30-án egy F. Hasszán nevezetű szír állampolgár fennakadt a hatóságok ellenőrzésén a Ferihegyi repülőtéren hamis okiratok miatt. Ezt az embert idegenrendészeti őrizetbe helyezték, és három hónapon keresztül egy nemzetközi eljárás keretében igen mélyrehatóan és szakszerűen vizsgálták meg ennek az embernek az előéletét, mire kiderült az, hogy ő valójában az Iszlám Állam terroristája, az egyik hóhér, aki húsz ember lefejezésében vett részt. Még egyszer mondom, három hónapig vizsgálták ezt az egy embert. Eközben önök az elmúlt három évben 86 ezer bevándorlót engedtek be az ország területére mindenféle különösebb nemzetbiztonsági átvilágítás nélkül. Még a kötvényeseket is csak néhány napig vizsgálgatták, ez pedig még a szakszolgálatok szerint is komolytalan volt.</seg>
+<seg xml:id="AC8_5466.2">El tudják önök képzelni, hogy a 86 ezer bevándorló között hány terrorista vagy minimum rossz szándékú személy érkezhetett Magyarország területére? Ha Hasszán kicsit tájékozottabb lett volna, akkor ő sem hamis okiratokat vásárol, hanem Rogán Antalnál bekopog és vásárol letelepedési kötvényeket, és akkor mind a mai napig szabadon kóricálhatna itt Magyarországon vagy éppen az Európai Unió területén</seg>
+<seg xml:id="AC8_5466.3">(Szilágyi György: Így van!)</seg>
+<seg xml:id="AC8_5466.4">Miniszter úr, vegyék észre, hogy a migrációval szemben nem konferenciákkal, nem plakátokkal meg ráolvasással kell küzdeni, főleg nem akkor, ha tízezerszámra engedik be Magyarországra a kötvényeseket vagy éppen a vendégmunkásokat. Tehát azt gondolom, hogy komoly fellépésre lenne szükség. Ma 86 ezer kérdőjel, 86 ezer nemzetbiztonsági kockázat mászkál Magyarországon, ezért nyújtott be a Jobbik egy határozati javaslatot arról, hogy komoly és felelősségteljes nemzetbiztonsági átvilágításnak vessük alá mind a 86 ezer bevándorlót, akiket önök beengedtek az ország területére. Szeretnénk tudni, hogy hány Hasszán van még közöttük. Támogatják, miniszter úr? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-3-25-urgent_question-AC8_5472" who="#LőrincNacsa" ana="#regular"><note>NACSA LŐRINC (KDNP):</note>
+<seg xml:id="AC8_5472.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! A 2002-2010 közötti balliberális kormányzatok megszorításainak célpontjában a gyermekes családok álltak. Elvettek az emberektől egyhavi fizetést; megszüntették az egy- és kétgyermekes családok adókedvezményét; megszüntették az otthonteremtési programoka</seg>
+<kinesic type="noise"><desc>Dr. Brenner Koloman közbeszól.</desc></kinesic>
+<seg xml:id="AC8_5472.2">; három évről két évre csökkentették a gyes időtartamát; bölcsőde-, óvoda-, iskolabezárásokkal és adóemelésekkel nehezítették a családok életét. Ennek a politikának volt vezetője Gyurcsány Ferenc.A 2010-ben bekövetkezett családbarát fordulat után bevezettük a családi adórendszert és annak kiterjesztését, a családi otthonteremtési programot, a gyed extrát; rezsicsökkentést hajtottunk végre; széles rétegben biztosítjuk az ingyenes gyermekétkeztetést és az ingyenes tankönyvet, és még sorolhatnám az intézkedéseket. Több mint duplájára emeltük a családokra költött költségvetési forrásokat, ezzel GDP-arányosan legelsők lettünk az Európai Unióban.</seg>
+<seg xml:id="AC8_5472.3">A Gyurcsány-párt a balliberális ellenzékkel karöltve ezeknél a szavazásoknál mindig a magyar családok ellen szavazott, és most sem akarják támogatni a családvédelmi akciótervet, ami újabb hatalmas könnyebbséget jelent majd a magyar családok százezreinek</seg>
+<seg xml:id="AC8_5472.4">(Gréczy Zsolt: Hitel….)</seg>
+<seg xml:id="AC8_5472.5">Most Gyurcsány Ferenc a magyar családoknak akar programot hirdetni, sorban a 28. programját 2004 óta. A programok magas száma ne tévesszen meg senkit, ezek vagy hazugságra alapultak, vagy óriási bukások lettek. Gyurcsány Ferenc családi vállalkozása, a Demokratikus Koalíció európai egyesült államokban gondolkodik. Ha ez megvalósulna, a magyar családok sok támogatástól elesnének, a források jelentős részét kellene a bevándorlókra költeni.</seg>
+<seg xml:id="AC8_5472.6">Gyurcsány Ferenc kormányon sem támogatta a magyar családokat, ellenzékben sem szavazott a gyermeket nevelők érdekében, de most mégis családpolitikai programmal házal. Ezért kérdezem, mennyire hiteles a DK családvédelmi programja, ha Gyurcsány Ferenc és felesége a háttérben a magyar emberek érdeke ellenében dolgozik, EP-képviselői pedig minden bevándorláspárti javaslatot megszavaztak. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormányzó pártok padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-3-25-urgent_question-AC8_5473" who="#GyulaBudai" ana="#regular"><note>DR. BUDAI GYULA (Fidesz):</note>
+<seg xml:id="AC8_5473.1">Köszönöm. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Az MSZP és a DK teli van korrupciós ügyekkel. Ez tény. Gondoljunk csak a 4-es metróval kapcsolatos visszaélésr</seg>
+<kinesic type="noise"><desc>Gréczy Zsolt: Most megint mehetsz a bíróságra! Közbeszólás a Jobbik soraiban: Majd pártkasszából kifizetik…</desc></kinesic>
+<seg xml:id="AC8_5473.2">, amely minden idők legnagyobb korrupciós ügye; vagy itt van például az EMIR informatikai rendszerrel kapcsolatos visszaélés, ahol a Gyurcsány család családi cége is érintett; itt van a sukorói telekcsere ügye; és ne feledkezzünk el az MSZP és a DK ügyvédjének, Czeglédy Csabának többmilliárdos kárt okozó költségvetési csalásáról. De ne feledjük el, hogy az ország déli részében is sok-sok olyan ügy bukkant föl, amely az MSZP-hez köthető, itt van például Botka László MSZP-s polgármesternek, alpolgármesterének és kabinetfőnökének az elítélése a VIP parkolójegyekkel kapcsolatos visszaélések miatt</seg>
+<seg xml:id="AC8_5473.3">(Gréczy Zsolt: Az emberi nem szégyene vagy! Nacsa Lőrinc: Hogy mondhatsz ilyet?)</seg>
+<seg xml:id="AC8_5473.4">Aztán itt van a Szeviép-ügy, ahol nem más, mint Botka László MSZP-s polgármester udvari beszállítójának vezetőit a bíróság több év börtönre ítélte, köztük a cég vezetője, Baranyi Sándor hat évet kapott.</seg>
+<seg xml:id="AC8_5473.5">A volt Szeviép-vezér elmondta, hogy 2010 előtt a balliberális kormányok alatt nagyberuházásoknál csak az lehetett fővállalkozó, akinek politikai kapcsolatai voltak, és pénzt csorgatott vissza. Azt is elmondta, hogy Ujhelyi István MSZP-s képviselő házát 30-40 millió forintért újították fel, ezért pedig Ujhelyi István arra tett ígéretet, hogy jelentős mértékű politikai támogatást is fog nyújtani a cégnek a megrendelésekhez. Ne felejtsük el, hogy Ujhelyi István az MSZP-Párbeszéd európai uniós listájának 2. helyezettje. Tehát tény, uraim és hölgyeim, hogy az MSZP teli van korrupciós botrányokkal.</seg>
+<seg xml:id="AC8_5473.6">Tisztelt államtitkár úr, kérdezem önt: milyen eszközökkel lehet fellépni az újabb, szocialistákhoz kötődő korrupciós ügyekkel szemben? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

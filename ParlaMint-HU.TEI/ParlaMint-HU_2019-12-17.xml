@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2019-12-17" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2019-12-17 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2019-12-17 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="16" unit="speeches">16 beszéd</measure>
+        <measure xml:lang="en" quantity="16" unit="speeches">16 speeches</measure>
+        <measure xml:lang="hu" quantity="6159" unit="words">6159 szó</measure>
+        <measure xml:lang="en" quantity="6159" unit="words">6159 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2019-12-17">2019. 12. 17.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="16"/>
+          <tagUsage gi="seg" occurs="95"/>
+          <tagUsage gi="kinesic" occurs="26"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2019-12-17">2019-12-17</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2019-12-17-interpellation-IC8_8303" who="#CsabaGyüre" ana="#regular"><note>DR. GYÜRE CSABA (Jobbik):</note>
+<seg xml:id="IC8_8303.1">Köszönöm szépen a szót, elnök úr. Tisztelt Elnök Úr! Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! 2019. november 18án volt szerencsém interpellálni dr. Varga Judit igazságügyi miniszter asszonyt abban a témában, hogy miért maradt el a kormányzat korábbi ígéreteivel szemben a bírák fizetésemelése. Interpellációm pár nappal később a parlamenten kívül hozott nem várt sikert, amikor is miniszter asszony sajtótájékoztatón bejelentette, hogy a bírák fizetésének rendezése három részletben sorra kerül, így 2020. január 1-jétől átlagosan 32 százalékos, 2021-ben és 2022-ben 12, illetve 13 százalékos illetményemelésben részesülnek a bírák. E sikeremen felbuzdulva fordulok tisztelettel most az államtitkár úrhoz a rendvédelmi dolgozók fizetésének rendezése érdekében.</seg>
+<seg xml:id="IC8_8303.2">Ezek az elhivatott egyenruhások ugyanis hiába várták a tényleges 50 százalékos béremelést, az az elmúlt években is rendre elmaradt. Míg egy kezdő járőr még mindig nettó 140 ezer forintot keres, ennek a duplája, triplája is megkereshető az építőiparban egyszerű segédmunkásként vagy egy étteremben akár pizzafutárként is. Ahogyan a bírák esetében a bírói függetlenség egyik lényeges összetevője a törvényben garantált, átlátható és tisztességes illetmény, úgy a rendőrök esetében a befolyástól mentes szolgálatellátás kulcsa az anyagi megbecsültség olyan szintű megteremtése, hogy ne kelljen a rendvédelmi dolgozóknak illegálisan másod-, harmadállást vállalnia önmaga és családja létfenntartása biztosítása érdekében.</seg>
+<seg xml:id="IC8_8303.3">Mivel a jelenlegi helyzet és ezt a leszerelési hullámból is egyértelműen érezni lehet mára már tarthatatlanná vált, kérdezem a tisztelt államtitkár urat: mikor várható, hogy a rendőri életpálya anyagi és erkölcsi lezüllesztésének végre megálljt parancsolnak? Mikor veszik végre észre, hogy a rendőrök illetményének rendezése nélkül az egész rendszer összeomolhat? Ez pedig egyformán rossz lesz mindenkinek, a rendőrtől kezdve a politikai döntéshozókon át az egyszerű állampolgárig.</seg>
+<seg xml:id="IC8_8303.4">Kérem az államtitkár urat, hogy vegyen példát az igazságügyi tárcáról. Tisztelettel várom, hogy pár napon belül, lehetőleg még ebben az évben mint az előző interpellációm elhangzása után a kormányzat lépjen, és sor kerüljön végre a rendőrök fizetésének a rendezésére, ahogyan a bírák esetében is sor került az elmúlt percekben. E kezdeményezésemre várom megtisztelő, érdemi válaszát. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+<seg xml:id="IC8_8303.5">(15.40)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-17-interpellation-IC8_8372" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="IC8_8372.1">Köszönöm szépen, elnök úr. Tisztelt Képviselőtársak! Tisztelt Államtitkár Úr! Számos szociális ellátás és családi támogatás összege nem emelkedett az önök kormányzása alatt. Folyton arról beszélnek, hogy Magyarország jobban teljesít, mégis ennek ellenére jövőre már 12. éve változatlan összegben utalják a családi pótlékot, a gyest, a gyetet. Lassan egy teljes generáció lesz, akik után gyermekéveik alatt végig ugyanakkora támogatást kaptak a szüleik, miközben legalább 30 százalékos pénzromás történt. És ne jöjjenek a családi adókedvezménnyel, mert még mindig több tízezer vagy még több gyermek után nem tudják ezt érvényesíteni a szülők, mert olyan alacsony a keresetük, vagy egyáltalán nincs is. Sőt, az egygyerekesek és a háromgyerekesek is lassan tíz éve ugyanolyan összegben kapják a kedvezményt, szóval, már ez is bőven elinflálódott. De nemcsak a havonta járó családi juttatások veszítettek a reálértékükből, hanem a gyermek születésekor utalt anyasági támogatás is. Ez az összeg, jól hallják, 64 125 forint. 2008-ban ugyanakkora összeggel támogatta az újszülötteket az állam, mint 2020-ban. Önök szerint ez normális? Sőt, az önök által államosított, de általunk bevezetett babakötvény utalási összegei sem változtak. Utoljára a szocialista kormány emelte a babakötvény összegét. Vajon mennyit fog érni ugyanaz a 42 500 forint, amely 2008-ban került lekötésre, és mennyit az, amely 2020-ban, ha majd 18 évesen hozzáférhet a nagykorúvá váló gyermek az addigi kamatozó összegekhez?</seg>
+<seg xml:id="IC8_8372.2">(15.50)</seg>
+<seg xml:id="IC8_8372.3">De nemcsak a fiatalokkal nem törődnek, hanem az idősekkel sem. A beteg, jellemzően idős embereknek járó közgyógyellátás keretösszege 14. éve változatlan, ahogyan a jövedelemhatárnál alkalmazott nyugdíjminimum is változatlan. Ezért, akinek az elmúlt években emelkedett a jövedelme, például a nyugdíja, az kiesik a jogosultak közül. Ez történt nemrégiben egy, a sajtóban is megjelent esetben meg több más esetben is.</seg>
+<seg xml:id="IC8_8372.4">Számos ellátás alapját vagy összegét meghatározza a nyugdíjminimum, tehát nem csak a legkisebb öregségi nyugdíj összegét, és ez az összeg 2008 óta 28 500 forint. Nemrégiben Gulyás Gergely kijelentette, hogy jövőre sem fog emelkedni ez az összeg, pontosabban úgy fogalmazott: nincs ilyen javaslat a kormány előtt, azért, mert igaz, hogy a kormány ilyet nem terjeszt be, de az ellenzéki javaslatokat folyamatosan lesöprik az asztalról.</seg>
+<seg xml:id="IC8_8372.5">Mindezek miatt kérdezem államtitkár urat: ön szerint nincs szükség a befagyasztott ellátások emelésére? És elfogadhatóe ön szerint, hogy ezek az ellátások akár 10 vagy 12 éve nem emelkedtek, és lényegében reálértéken 40-50 százalékos csökkenést produkáltak ezek az összegek úgy, hogy itt több millió gyermekről, több millió nyugdíjasról beszélünk. Ön szerint e</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret lejártát.</desc></kinesic>
+<seg xml:id="IC8_8372.6">elfogadható-e? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP és a Párbeszéd padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-17-interpellation-IC8_8477" who="#LőrincNacsa" ana="#regular"><note>FÖLDI LÁSZLÓ (KDNP):</note>
+<seg xml:id="IC8_8477.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Néhány nap múlva itt a karácsony. Az ünnepek előtti utolsó hétvégén várható hatalmas roham az áruházakban, a boltokban. Érdemes ezért szót szólni arról, mire figyeljenek fokozottabban a fogyasztók. Ebben az időszakban a fogyasztóvédelemre is nagyobb feladat hárul, hiszen a különféle lehetséges fogyasztóvédelmi problémák minimalizálása, illetve azok megelőzése, kiszűrése a fogyasztóvédelem kötelezettsége. A november közepén kezdődött és december végéig tartó karácsonyi ellenőrzések a fogyasztók anyagi és termékbiztonságát egyaránt érintik. A leggyakoribb árucikkek a karácsonyi fényfüzérek és egyéb világító dekorációs eszközök, amiket már az ünnepeket megelőző időszakban is használnak a vásárlók kinti és beltéri díszítésként egyaránt. Ezeket minden évben fokozottan ellenőrzi a Fogyasztóvédelmi Hatóság annak érdekében, hogy a biztonsági előírásoknak nem megfelelő termékek kikerüljenek a forgalomból. A fényfüzérek termékbiztonságát az üzletekben és a vámosokkal együttműködve a határokon is ellenőrzik. Karácsony környékén az internetes vásárlást is kiemelten figyeli a hatóság. Erre szükség is van, mivel a 2014-es 273 milliárd forintról 2018-ra 669 milliárd forintra bővült a webáruházak belföldi nettó forgalma. Az online kereskedelemnél egyebek közt vizsgálják azt is, hogy a webáruház megfelelő tájékoztatást adotte a fogyasztónak a szállítási határidőről és a jogi következmények nélküli elállási határidőről.</seg>
+<seg xml:id="IC8_8477.2">Tisztelt Miniszter Úr! A fogyasztóvédelem nemcsak a magyar családok részére nyújt segítséget, hanem a karácsonyi vásárokat jelentős számban felkereső külföldi vendégnek is biztonságot nyújt, hozzájárulva ezzel az országimázs növeléséhez. A Fogyasztóvédelmi Hatóság a karácsonyt megelőző időszakban fokozottabban ellenőrzi a vásárokat, üzleteket és az ajándékboltokat is. A fogyasztóvédelmi ellenőrzések során egyebek közt vizsgálják a megfelelő ártájékoztatást, az eladók hiteles mérőeszközöket használtak-e, illetve a vásárló kapotte blokkot a vásárláskor. Természetesen maga az ellenőrzés nem elég, az esetleges jogsértéseket, szabálytalanságokat figyelemfelhívásként a fogyasztókkal is tudatni kell.</seg>
+<seg xml:id="IC8_8477.3">Éppen ezért kérdezem tisztelt államtitkár urat: hogyan értékeli az eddigi fogyasztóvédelmi ellenőrzéseket? Milyen tendenciát tapasztaltak a fogyasztókat érintő jogsértések tekintetében? Milyen intézkedéseket foganatosítottak a hatóságok a fogyasztók védelme érdekében? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-17-interpellation-IC8_8479" who="#ZoltánMagyar" ana="#regular"><note>MAGYAR ZOLTÁN (Jobbik):</note>
+<seg xml:id="IC8_8479.1">Köszönöm szépen, elnök úr. 2015-16 során mintegy 200 ezer hektár, nemzeti tulajdonban lévő termőföldet értékesített a magyar állam. Ezzel a lépéssel jelentősen csökkentették az amúgy is alaposan megapadt nemzeti vagyont. Mi ezt a lépést már akkor rendkívül károsnak ítéltük meg, és nemcsak azért, mert totálisan szembement azzal, amit hatalomra kerülésük előtt ígértek, és nemcsak azért, mert ezzel az állam kezéből elvettek egy nagyon fontos szabályzó eszközt, ahol a vidéki életet pozitív értelemben befolyásoló tényezőket tudtak volna az aktuális kormányok elindítani, olyan programokat, melyek a vidéken maradást segíthették volna elő, és nemcsak azért, mert félelmeinknek megfelelően szó nem volt arról, hogy végeredményben majd családi gazdálkodók vagy éppen pályakezdő fiatalok fogják ezeket a termőföldeket megkapni, hanem bizony a legzsírosabb, legnagyobb falatokat az önök által, önökön keresztül megismert „narancsbárók” szerezték meg. Itt érdemes megemlíteni, hogy a legnagyobb területeket a mai napig egyébként Csányi és Mészáros birodalma bérli. Ők kapták tehát a legzsírosabb falatokat, amelyek még állami tulajdonban vannak, de ők bérelhették tovább. Ezt a kevés 150 ezer hektárt, amit meghagytak, tehát javarészt ilyen bárók bérlik. Egyébként, ami abszurd, a piaci ár feléért, harmadáért bérelhetik ezeket a területeket, ami, hogy érzékeljük, azt jelenti, hogy bizony egy jobb minőségű föld esetében ma már 70-100 ezer forintot elkérnek hektáronként évente bérleti díjként, és ők bizony ennek csak a felét, harmadát teljesítik.</seg>
+<seg xml:id="IC8_8479.2">Tovább súlyosbítja a helyzetet, hogy 50 éves bérleti szerződések is benn vannak még a rendszerben, melyeket tudom, hogy azzal fog védekezni, hogy nem önök kötöttek, hanem elődeik, ez igaz, de csak azokat nézték át, és azokat bírálták felül ezek közül, melyek nem az önök szűk elitjéhez tartoznak.</seg>
+<seg xml:id="IC8_8479.3">Tehát a probléma itt az, miniszter úr, hogy 5-8 milliárd forinttal adósítják meg évente a mi becslésünk szerint a magyar államot azzal, hogy ezen oligarchák ilyen kedvezményes áron bérelhetik tovább az állami földet, és bizony ez vastagon kimeríti véleményünk szerint a hűtlen kezelést. Így adódnak a kérdések, miniszter úr, hogy miért támogatják önök ezt a folyamatot a továbbiakban. Vagy adódik az a kérdés is, hogy az a 300 milliárd forint, ami a privatizációból folyt be, és amit egyébként a saját maguk által meghozott sarkalatos törvény szerint is kizárólag termőföldvásárlásra fordíthattak volna, vagy továbbmegyek, még az Alkotmánybíróság is ezt állítja, azt miért nem erre a célra költötték. Önök kiszivattyúzták a vidéki gazdaságból gyakorlatilag ezt a 300 milliárd forintot. Az állam miért a legtehetősebbeket támogatja egy ilyen kedvezményes bérleti díjjal, és a tisztességes szereplőknek miért okoz ezzel behozhatatlan versenyhátrányt, miniszter úr? Ez egész egyszerűen vállalhatatlan, várom ezzel kapcsolatos érdemi válaszát, és remélem, hogy a szimbolikus magyar gazda a karácsonyfa alá egy olyan választ tud mondani, amit el is lehet fogadni</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-17-interpellation-IC8_8531" who="#LászlóLórántKeresztes" ana="#regular"><note>DR. KERESZTES LÁSZLÓ LÓRÁNT (LMP):</note>
+<seg xml:id="IC8_8531.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Bízom benne, hogy ez a kérdés majd kevesebb indulatot vált ki. Itt nem pártpolitikai kérdésről, itt egy nagyon komoly zöldkörnyezeti ügyről van szó, ami Pécs városát érinti, de az államnak feladata van ebben a kérdésben. Gondolom, államtitkár úr válaszára számíthatok majd.Pécsett a Karolina-külfejtést érintően a bányászati munkálatok 2004-ben már befejeződtek. A bányászati tevékenység megszűnését követően a Pécsi Bányakapitányság 2009. december 31-ében határozta meg a rekultiváció eredeti határidejét. A rekultivációs munkák elvégzéséért részben a magyar állam, részben pedig a Pannon Hőerőmű Zrt. a felelős.</seg>
+<seg xml:id="IC8_8531.2">Mivel az érdemi munkavégzés helyett nagyon sokáig a határidők folyamatos tologatása volt megfigyelhető az érintett lakosság és a város részéről, ezért 2017-ben civil kezdeményezésre és lakossági nyomásra az akkori illetékes államtitkár, Aradszki András államtitkár úr tartott egy lakossági fórumot. Meghallgatva a helyiek panaszait, a város panaszait, illetve áttekintve a környék adottságait ígéretet tett, hogy a 2019-es költségvetésben megjelennek majd az állami munkák elvégzéséhez források. Ez gyakorlatilag meg is történt. 2,18 milliárd forint meg is jelent az idei évi költségvetésben, illetve még a jövő évi költségvetésben is szerepel 1,75 milliárd forint. 2018-ban elindult a munkavégzés, ám ez láthatóan messze-messze nem a szükséges mértékű, az állami szerepvállalás szerinti munka viszont még el se kezdődött.</seg>
+<seg xml:id="IC8_8531.3">Azt tudni kell, hogy ez a Karolina-külfejtés egy óriási, hatalmas tájseb, tehát egy körülbelül 1 kilométerszer 600 méteres hatalmas nagy kráter, ami közel 100 méter mély. Ez korábban földmozgásokat okozott, és egyéb más környezeti kockázatokat jelent most is, tehát akár a légszennyezettséget, akár a felszíni, felszín alatti vizek szennyeződését tekintve.</seg>
+<seg xml:id="IC8_8531.4">Konkrétan a kérdéseim államtitkár úrhoz: mi a magyarázata annak, hogy a rekultivációs munkálatok elvégzésének eredeti határideje 2009 volt, majd ezt követően folyamatos lett a határidők módosítása? Most már 2032-es befejezési határidőket is lehet hallani. Miként értékeli a kormány a területen a környezeti kockázatokat, tehát a közvetlen környezetre, illetve Pécsre vonatkoztatva a környezeti kockázatokat? Milyen adatokkal, milyen mérésekkel rendelkeznek az illetékesek?</seg>
+<seg xml:id="IC8_8531.5">Ha rendelkezésre áll a költségvetésben az erre elkülönített forrás, akkor miért nem kezdte meg az állam a maga részéről az érdemi munkavégzést? Illetve az állam mikor szándékozik a maga részéről a munkálatokat megkezdeni, és mi a hivatalos határidő, az állam számításai szerint mikor kezdődhet meg ennek a rendkívül fontos és sürgető munkának az elvégzése? Köszönöm előre is államtitkár úr válaszát</seg>
+<kinesic type="applause"><desc>Taps az LMP és a Párbeszéd padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-17-interpellation-IC8_8533" who="#GabriellaSelmeczi" ana="#regular"><kinesic type="noise"><desc>DR. SELMECZI GABRIELLA (Fidesz): Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! 1997-ben teljes politikai konszenzussal fogadta el az Országgyűlés a gyermekközpontok, valamint a gyermekvárosok nagy férőhelyszámú, korszerűtlen és eredetileg nem gyermekotthoni célokra épült ingatlanjainak kiváltását. A gyermekvédelmi törvényben rögzített cél a korszerű, szakmai elvárásoknak és céloknak megfelelő gyermekotthoni infrastruktúra kiépítése volt, a mai napon is ez. Számunkra fontos, hogy valamennyi gyermek, aki jelenleg még ilyen kiváltásra váró gyermekotthonban él, a jövőben megfelelő és színvonalas ellátáshoz juthasson. Az új környezet a jelenleginél modernebb és családiasabb légkört biztosítana a gyermekeknek, összhangban a gyermekvédelmi törvény alapelveivel. A kormányzat gyermekvédelmi fejlesztésének iránya egyértelmű: minden gyermeknek családban a legjobb felnőnie, ezért mi bővíteni és fejleszteni szeretnénk a nevelőszülői hálózatokat. Aki figyelemmel kísérte az elmúlt időszakban ezt a területet, az biztosan hallott a Befogadlak-programról, és azt is tudja, hogy 2020. január 1-jétől bevezetésre kerül a nevelőszülői gyed a két évnél fiatalabb gyermeket nevelők részére. Vannak olyan gyermekek, akik viszont valamilyen okból sajnos gyermekotthonban nevelkednek, ezeknek a gyermekeknek is kötelességünk biztosítani, hogy nagy, személytelen, korszerűtlen épületek helyett otthonra emlékeztető intézményekben nevelkedhessenek, ezért ezen intézmények kialakításánál fontos szempontunk, hogy kis létszámú és korszerű intézményeket hozzunk létre. Az ehhez szükséges fejlesztések jelenleg is zajlanak.</desc></kinesic>
+<seg xml:id="IC8_8533.1">Tisztelt Államtitkár Úr! Mindezek tükrében kérdezem öntől, hogy igaze bármi azokból az ellenzéki híresztelésekből, miszerint gyermekek maradhatnak ellátatlanul a fóti Károlyi István Gyermekközpont bezárása után. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-17-interpellation-IC8_8534" who="#BenceTordai" ana="#regular"><note>TORDAI BENCE (Párbeszéd):</note>
+<seg xml:id="IC8_8534.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Múlt szerdán a kormánypárti, kicsit hibás szavazógép megszavazta a társadalombiztosítás ellátásaira jogosultakról, valamint ezen ellátások fedezetéről szóló törvényt. Ez a törvény azt eredményezi, hogy rengeteg ember elesik az ingyenes egészségügyi ellátástól</seg>
+<seg xml:id="IC8_8534.2">(Németh Szilárd István: Hazudsz! Balla György: Nem igaz!)</seg>
+<seg xml:id="IC8_8534.3">Ez emberek sokaságának romló egészségi állapotát vagy idő előtti halálát okozhatja. Ezért vittünk tegnap a Párbeszéd aktivistáival egy koporsót Áder János hivataláho</seg>
+<kinesic type="noise"><desc>Közbeszólások a kormánypártok soraiban: Szégyen! Szégyelld magad!</desc></kinesic>
+<seg xml:id="IC8_8534.4">, arra kérve a köztársasági elnököt, hogy ne írja alá ezt a törvényt</seg>
+<kinesic type="noise"><desc>Közbeszólások a kormánypártok soraiban. Az elnök csenget.</desc></kinesic>
+<seg xml:id="IC8_8534.5">Ezt nemcsak az összes ellenzéki párt kéri így egységesen, hanem a Magyar Orvosi Kamara és a Magyar Szakszervezeti Szövetség is a járulékfizetők nevében.</seg>
+<seg xml:id="IC8_8534.6">Múltkor arról beszéltünk itt egy kérdés kapcsán, hogy legalább 110 ezer olyan álláskereső van, akiket, bár regisztrált álláskeresők, súlyosan érinthet a törvény, hiszen nem jár nekik már semmilyen ellátás, és így önmaguknak kell befizetniük az egészségügyi járulékot.</seg>
+<seg xml:id="IC8_8534.7">Összességében közel egymillió olyan ember van, aki ilyen vagy olyan okokból nem lenne jogosult a törvény szerint a mai napon az egészségügyi ellátás igénybevételére. 300 ezren maguknak fizetik ezt az ellátást, de 500 ezren már most piros lámpásak, mert valamilyen okból elmaradtak a befizetéssel, és van 400 ezer olyan polgártársunk, aki soha nem vehette igénybe eddig az egészségügyi ellátást, sőt 50 ezer olyan ember, aki azért nem jogosult, mert nincs állandó lakcíme, és itt nemcsak hajléktalanokat, hanem albérletben élőket is kell érteni, akiket a tulajdonos nem hagy bejelentkezni. Mindegy is, hogy hány embert érint, hogy néhány tízezret, százezret vagy több mint egymilliót, nem akarok számháborúba belemenni, ha egy emberélet elvész emiatt, már az is sok.</seg>
+<seg xml:id="IC8_8534.8">Hiába mondja azt a kormány, hogy a sürgősségi ellátás hozzáférhető marad, ha a tb-ből kirekesztettek csak ott léphetnek be a rendszerbe, akkor az összeomlás határán álló rendszer össze is fog omlani, és ez további emberéletekbe kerül majd. Ahogy az is emberéletekbe kerül, ha a nem sürgős, de szükséges beavatkozást nem tudják elvégeztetni, csak nem azonnal halnak meg, hanem lassan, vagy tartós egészségromlást szenvednek el. S ha már a kormány az embereket csak emberi erőforrásnak tekinti ahogy ez a minisztérium nevéből is kiderül , akkor legalább az emberi erőforrás minőségére tekintettel lehetnének.</seg>
+<seg xml:id="IC8_8534.9">A Magyar Orvosi Kamara is arra figyelmeztet, hogy nagy számban veszíthetik el a jogosultságukat az emberek. Az új törvény szerint az ő esetükben akár egy véletlen baleset vagy váratlan megbetegedés miatti egészségügyi ellátás is több millió forint ellátási díjat eredményezhet. Ez sokak számára megfizethetetlen kiadást vagy az egész család szociális helyzetének megrendülését okozhatja. Ezt aránytalan következménynek tartjuk egy alig több mint 23 ezer forintos fizetési kötelezettség elmaradása miatt.</seg>
+<seg xml:id="IC8_8534.10">Az a kérdés, hogy az orvosokat esküszegésre vagy törvényszegésre akarják kötelezni; az a kérdés, hogy önöknek tényleg csak 23 ezer forintot ér egy magyar ember élete</seg>
+<kinesic type="applause"><desc>Taps a Párbeszéd, az LMP és az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-17-urgent_question-AC8_8574" who="#LajosKorózs" ana="#regular"><note>KORÓZS LAJOS (MSZP):</note>
+<seg xml:id="AC8_8574.1">Köszönöm szépen. Tisztelt Ház! Tisztelt Államtitkár Úr! Tegnap látott napvilágot az a hír, hogy a Dél-pesti Kórházban hét sebész szakorvosból hatan benyújtották a felmondásukat. Tárgyalások folytak az intézmény vezetése és az orvosok között. A felajánlott béremelést az információim szerint az orvosok nem fogadták el, és mától töltik is a felmondási idejüket.Tudom, hogy a kórház délután-estefelé kiadott egy közleményt, melyben azt állították, hogy nincs itt ok aggodalomra, hiszen a kórházban 23 sebészorvos dolgozik. Csak hogy a kép teljes legyen, ebből kiderül, hogy tízen általános sebészorvosok, hatan szakorvosok, négyen rezidensek, ketten nyugdíj előtt állnak és nem is vállalnak semmiféle ügyeletet, és egy orvos éppen nyugdíj előtt áll, ő sem vállal ügyeletet</seg>
+<seg xml:id="AC8_8574.2">(Sic!)</seg>
+<seg xml:id="AC8_8574.3">Ha tovább boncolgatjuk ezeket a statisztikai adatokat, akkor kiderül, hogy ezek közül az orvosok közül többen a szakrendelőben dolgoznak, többen külső munkatársak, akik oda szerződéssel járnak be, és ahogy említettem, többen nyugdíjasok.</seg>
+<seg xml:id="AC8_8574.4">Éppen ezért kérdezem államtitkár urat, hogy mit kívánnak tenni annak érdekében, hogy megoldódjon ez a helyzet, hiszen ha mindenkit összeadunk, akkor kiderül, hogy tényleg hét olyan szakember, szakorvos áll rendelkezésre a kórházban, akik ügyeletet tudnak vezetni, és ebből hatan beadták a felmondásukat.</seg>
+<seg xml:id="AC8_8574.5">A másik kérdés pedig úgy hangzik, hogy mivel az ünnepek közeledtével az általános tapasztalat szerint megszaporodik a balesetet elszenvedő honfitársaink száma, az ő ellátásuk érdekében, hogy mindenki a lehető legjobb ellátást megkaphassa, mit kívánnak tenni az elkövetkezendő napokban. Köszönöm szépen. Várom a válaszát</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-17-urgent_question-AC8_8575" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC8_8575.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! Ne zárjam az évet MÁV nélkül! A kérdésem arra irányult, hogy hogyan lehet mínusz tizennyolcból azonnal plusz huszonötöt megvalósítani erre csak Magyarországon a Magyar Államvasutak képes. December 15-én hatályba lépett az új menetrend annak ellenére, hogy több ezer ember írta alá azt a petíciót, amelyben arra kérték a MÁV vezetőségét és a kormánynak a befolyásos tagjait, hogy ez a menetrend ne lépjen hatályba. Több ezer embernek a kérését nem teljesítették, és a legelső napon az új menetrenddel a Budapest-Szeged vonalon azonnal 25 perc késéssel közlekedett az egyik intercityvonat, a másik meg 11… Tudom, hogy az lesz a válasz, államtitkár úr, hogy eltört a sín, mint ahogy a Magyar Államvasutak is közölte, hogy ez okozta a problémát. Csak tudja, államtitkár úr, utasként az embernek már elege van abból, hogy ha esik a hó, akkor a hó miatt, ha süt a nap, akkor a nap miatt, ha fúj a szél, a szél miatt, ha nincs semmi, a semmi miatt késnek Magyarországon a vonatok.</seg>
+<seg xml:id="AC8_8575.2">És akkor hadd mondjam önnek, mai példa, hogy felülök az intercityvonatra Püspökladányban, jövök fel Budapestre, egyből késünk 15 percet, majd azért késik plusz még 5 percet 20 perc késés lett, amit senki nem tudott megmondani, mert a sínpár se tört el, se a szél nem fújt, semmi nem történt , mert az utasoknál el van szakadva a cérna. Felszáll az utas úgy Kőbánya-Kispesten, hogy nem szállhatna fel, és azért álltunk 5 percet, mert vitatkozott a jegyvizsgáló, ő is mondta az igazságát, és az utas is. Az utas azt mondta: elege van abból, hogy őt folyamatosan kioktatják arra, hogy be kell tartani a szabályokat, de a Magyar Államvasutak semmilyen szabályt nem tart be, és a kormány sem.</seg>
+<seg xml:id="AC8_8575.3">Arra várom a válaszát, hogy több ezer ember aláírta ezt a petíciót, és a miniszter úr is elismerte, hogy lehet, hogy nem lesz ez jó, és majd fél évig működik ez a menetrend, de akkor majd visszaállítják miért kell szívatni több ezer ember</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC8_8575.4">fél éven keresztül, amikor önök is tudják, hogy ez nem jó? Várom a megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az ellenzék soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-17-urgent_question-AC8_8576" who="#SándorBurány" ana="#regular"><note>BURÁNY SÁNDOR (Párbeszéd):</note>
+<seg xml:id="AC8_8576.1">Köszönöm a szót. Tisztelt Elnök Úr! A Magyar Nemzeti Bank legfrissebb prognózisa szerint az infláci</seg>
+<seg xml:id="AC8_8576.2">(Dr. Rétvári Bence: Nem ezt vártuk! Nem így kellene kezdeni!)</seg>
+<seg xml:id="AC8_8576.3">3,4 százalék lesz jövőre. Ráadásul, ha ehhez hozzávesszük, hogy a nyugdíjasokat érintő kosárban ennél nyilván magasabb infláció lesz, akkor azt kell mondanom, hog</seg>
+<seg xml:id="AC8_8576.4">(Dr. Rétvári Bence: Nem az inflációról vártuk a beszédet!)</seg>
+<seg xml:id="AC8_8576.5">valamit kell a nyugdíjak emelése érdekében tenni. Hiszen ha megnézzük, hogy a nyugdíjasok kosarában nagy súllyal szereplő élelmiszerek ár</seg>
+<seg xml:id="AC8_8576.6">(Nacsa Lőrinc: Bocsánatkéréssel kellene kezdeni!)</seg>
+<seg xml:id="AC8_8576.7">több mint 5 százalékkal nőtt, ezen belül a sertéshúsé közel 15 százalékkal, a cukoré mintegy 11 százalékkal, az idényáras élelmiszereké mint a burgonya, a friss zöldség, a gyümölcs pedig majdnem 9 százalékkal lett magasabb, akkor világosan látjuk, hogy az a 2,8 százalékos prognózis, amit az infláció terén a kormány beleírt a költségvetési törvénybe, az hibás.</seg>
+<seg xml:id="AC8_8576.8">Ennek következtében, miután tudjuk, hogy a nyugdíjemelés megegyezik százalékpontra a költségvetésbe betervezett inflációs mértékkel, már most látszik, hogy a nyugdíjemelés mértéke jövőre el fog maradni a tényleges inflációtól</seg>
+<seg xml:id="AC8_8576.9">(Nacsa Lőrinc: Jobb a bocsánatkérés!)</seg>
+<seg xml:id="AC8_8576.10">Ez azt jelenti… Ne óbégasson, képviselő úr</seg>
+<kinesic type="signal"><desc>Nacsa Lőrinc: Hol a bocsánatkérés? Dr. Rétvári Bence: Ez volt a bocsánatkérés, hogy ne óbégass? Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC8_8576.11">Ez azt jelenti, hogy a nyugdíjasok hiteleznek a költségvetésnek, ahelyett, hogy a költségvetés biztosítaná a nyugdíjasokat megillető nyugdíjemelést.</seg>
+<seg xml:id="AC8_8576.12">Ezért tisztelettel kérdezem miniszter úrtól, hogy mit szándékozik tenni a kormány annak érdekében, hogy a nyugdíjemelés ténylegesen elérje a tényleges infláció mértékét. Tisztelettel várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-17-urgent_question-AC8_8578" who="#AntalCsárdi" ana="#regular"><note>CSÁRDI ANTAL (LMP):</note>
+<seg xml:id="AC8_8578.1">Köszönöm szépen a szót. Tisztelt Ház! Tisztelt Miniszter Úr! Azt tapasztaljuk, hogy nagyon nagy zavar van az önök vezető gazdaságpolitikusai között. Matolcsy György jegybankelnök nemrég azt találta mondani, hogy az euró egy hibás projekt, amelyből kiutat kell találni. A jegybankelnök egészen addig merészkedett, hogy magának a közös pénznek a létjogosultságát kérdőjelezte meg, miközben mi az Európai Unió tagjaként kötelezettséget vállaltunk az euró bevezetésére. Az önök pénzügyminisztere ezzel egy időben úgy nyilatkozott, hogy a közös európai pénz az Unió legígéretesebb projektje, amelyet azonban még be kell fejezni. Világos tehát, hogy a magyar gazdaságpolitika két legbefolyásosabb személye tökéletesen ellentétesen gondolkodik, és ennek hangot is ad a sajtóban. Ez rettentően káros, hiszen a nagy nemzetközi figyelemnek örvendő euróbevezetés kérdése nem egy olyan dolog, amit a vezető politikusok saját személyes konfliktusuk során felhasználhatnak egymás ellen, különösen akkor, amikor a kormány miatt már egyébként is kedvezőtlen az ország megítélése</seg>
+<seg xml:id="AC8_8578.2">(Dr. Rétvári Bence: Az 5 százalékos GDP-növekedés, ugye?)</seg>
+<seg xml:id="AC8_8578.3">Ez a cicahar</seg>
+<seg xml:id="AC8_8578.4">(Dr. Rétvári Bence: Ez nem az LMP!)</seg>
+<seg xml:id="AC8_8578.5">, a médián keresztüli gyerekes üzengeté</seg>
+<seg xml:id="AC8_8578.6">nem érdeke Magyarországna</seg>
+<seg xml:id="AC8_8578.7">(Dr. Rétvári Bence: Az LMP-ről beszélj!)</seg>
+<seg xml:id="AC8_8578.8">, különösen akkor nem, tisztelt államtitkár ú</seg>
+<seg xml:id="AC8_8578.9">(Dr. Rétvári Bence: A miniszter úrhoz beszél, képviselő úr!)</seg>
+<seg xml:id="AC8_8578.10">, különösen akkor nem, amikor folyamatban van a 7. cikkely szerinti eljárás Magyarország ellen</seg>
+<seg xml:id="AC8_8578.11">(Dr. Rétvári Bence: Ti indítottátok! Tudjuk! Dr. Brenner Koloman: Nem Soros?)</seg>
+<seg xml:id="AC8_8578.12">Elnézést, elnök úr, kérhetek egy kis segítséget? A saját hangom nem hallom, államtitkár úr…</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-17-urgent_question-AC8_8579" who="#LászlóLórántKeresztes" ana="#regular"><note>DR. KERESZTES LÁSZLÓ LÓRÁNT (LMP):</note>
+<seg xml:id="AC8_8579.1">Köszönöm a lehetőséget. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Miniszter Úr! Én a legnagyobb magyarországi projekt kapcsán két nagyon egyszerű kérdést szeretnék önnek feltenni. Egy 4000 milliárdos projektről van szó, amit önök azzal az indokkal adtak oda pályázat nélkül az oroszoknak, hogy egyedül ők lesznek képesek ezt a feladatot elvégezni. Tudjuk azt, hogy azóta az oroszok nem voltak képesek a teljes tervdokumentációt leszállítani, a határidő csúszását önök is már elismerték. Emlékeim szerint a legutolsó ígéret az, hogy a jövő év nyarára majd elkészülnek a tervek, és elindulhat az engedélyezési eljárás. Az lenne az első kérdésem, miniszter úr, hogy ha ismét nem sikerül ezt a határidőt teljesíteni, tehát az oroszok továbbra sem képesek ezeket a terveket leszállítani, akkor elállnake végre ettől a fejlesztési projekttől. És ha ez a helyzet fennáll, akkor miniszter úron túl miniszterelnök úr is vállalni fogjae a személyes felelősséget ezért a súlyosan hibás döntésért?</seg>
+<seg xml:id="AC8_8579.2">Második kérdésem ennek kapcsán ezzel szoros összefüggésben van. Tudjuk azt, hogy önök úgy álltak neki ennek a gigaprojektnek, új atomerőműblokkok építésének, hogy sehol a világon nem megoldott a nagyaktivitású nukleáris hulladékok végleges elhelyezésének a kérdése, sem a technológia, sem a finanszírozás tekintetében nincs megoldás. Tudjuk azt, hogy eddig 10 milliárd forintot költöttek el úgy Pécs térségében a Bodai Agyagkő Formációnál az atomtemető lehetséges helyszínének a kutatására, hogy nem kérdezték meg az érintett lakosságot. Óriási tiltakozás bontakozott ki, sok ezren aláírtak már különböző tiltakozóíveket.</seg>
+<seg xml:id="AC8_8579.3">2015 áprilisában Orbán Viktor miniszterelnök úr személyesen Pécsett ígérte meg, hogy a pécsiek akarata, szándéka ellenére nem valósulhat meg ez a projekt. Azóta sem kérdezték meg a pécsieket, viszont egy héttel ezelőtt, december 10-én a pécsi közgyűlés egyhangú döntéssel, tehát a kormánypárti pécsi közgyűlési képviselők döntésével is kinyilvánította, hogy Pécs városa nem kér ebből a projektből. Kérdésem az, miniszter úr, hogy hajlandóe tudomásul venni a kormány Pécs város közgyűlésének a döntését, és hajlandóake lépéseket tenni annak érdekében, hogy a miniszterelnök úr ígérete ne váljék hazugsággá. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az LMP és a Párbeszéd padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-17-urgent_question-AC8_8581" who="#BalázsAnder" ana="#regular"><note>ANDER BALÁZS (Jobbik):</note>
+<seg xml:id="AC8_8581.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Már egy 1986-os, tehát özönvíz előtti amerikai tanulmány is azt írja, hogy egy átlagos médiafogyasztó gyermek, mire eléri a 12 éves kort, 244 ezer erőszakos cselekménnyel és mintegy 14 ezer hullával találkozik a képernyőn. Azóta felnőtt egy olyan generáció, amelyik már az előtt a laptopot vagy éppen tabletet vagy okostelefont nyomkodta, mielőtt szobatiszta lett volna, tehát a helyzet egészen biztosan romlott. Ugyan vitatkoznak azon, hogy vane valamiféle összefüggés aközött, hogy az iskolai erőszak terjed, de tény és való, hogy így van ez Magyarországon is, és a hazai diákoknak mintegy 51 százaléka bizony az iskolai agresszió valamilyen formájával találkozott, és egyharmaduk félve megy iskolába. A frusztrált, túlterhelt, agyonbürokratizált oktatási ökoszisztéma leképezi a társadalmat, azt a társadalmat, ahol bizony az értékek változtak és negatívan változtak, ahol a gyerekek sok esetben követik a rossz példát is, a média által vezérelt rossz példákat.</seg>
+<seg xml:id="AC8_8581.2">Az a helyzet, tisztelt képviselőtársaim, hogy nemcsak Malackát ölték meg a diáktársai a Legyek urában, hanem az élet is produkál nagyon véres, nagyon tragikus eseményeket. Emlékezhetünk arra, amikor K. Rajmund megölte, agyonverte osztálytársát, és ezért nevetséges ítéletet kapott, vagy éppen, amikor egy kaposvári elitgimnáziumba járó 10. osztályos diákok brutálisan meggyilkolták az osztálytársukat. Viszont az erőszaknak megjelent egy másik formája is, a tanárok ellen elkövetett erőszak. Ennek példája, amikor a pesterzsébeti szakképző iskolában egy megvadult páviánhordára emlékeztető csapat vegzálta a tanárt, és most Győrben, amikor egészen a gyilkossági kísérletig fajult a dolog, ahol leszúrta a diák a tanárnőt.</seg>
+<seg xml:id="AC8_8581.3">Én azt kérdezném miniszter úrtól, tesze a kormányzat valamit annak érdekében, hogy az erőszakot megfékezze a közoktatási intézményekben</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-17-urgent_question-AC8_8582" who="#TamásCsányi" ana="#regular"><note>CSÁNYI TAMÁS (Jobbik):</note>
+<seg xml:id="AC8_8582.1">Köszönöm szépen a szót. Elítélem hogy mondjak az előzőhöz csak egy mondatot</seg>
+<seg xml:id="AC8_8582.2">(Dr. Rétvári Bence: Mármint Burány Sándort ítéli el?)</seg>
+<seg xml:id="AC8_8582.3">Tisztelt Miniszter Úr! Valljuk meg, ez nem jött össze. Pedig hát önök mindent igyekeztek megtenni, de nagyon úgy tűnik, hogy ez nem volt mégsem elegendő. Pedig rendelkezésre állt a közel 93 milliárd forintból fönntartott MTVA, és ők tényleg azt mondanak, amit csak akarnak, mármint hogy önök. Kormányzati kommunikációra is idén közel 30 milliárd jutott, lévén választási év, de aggodalomra semmi ok, jövőre is lesz 24 milliárd. Úgyhogy nyugalom, propagandára számolatlanul van pénz, közben meg azt olvassuk, hogy szegények vagyunk. Nem mi mondjuk, rólunk mondják. De hát messziről jött ember mond, amit akar, nem igaz?</seg>
+<seg xml:id="AC8_8582.4">Csak hát az a baj, hogy a számok nem állnak úgy. Sőt, nagyon úgy állnak az Eurostat legfrissebb felmérése szerint, hogy már csak két vetélytársunk maradt az „Európa legszegényebb országa” egyáltalán nem megtisztelő címéért. A felmérésből az a sajnálatos tény derül ki, hogy egy átlag magyar állampolgár 102 ezer forintot költött tavaly egy hónapban, ez az Európai Unió átlagának pusztán 64 százaléka. Ennyit költenek még a horvátok, és ennél kevesebbet csak a lista utolsó helyén álló bolgárok költenek. Ennyi.</seg>
+<seg xml:id="AC8_8582.5">Elég kellemetlen ezt hallani. De kellemetlen az is, hogy a románok már évek óta előznek bennünket, és azt is tudjuk, hogy keleti szomszédunknál mind a pedagógusok, mind az orvosok többet keresnek a magyar kollégáknál. Hogyan lehet ez, miniszter úr? Ugyanezen forrás szerint a csehek pedig az átlag fölött költenek, és azt kell mondjuk, az elemzések úgy tartják, hogy a régióból leghamarabb ők érik el az uniós átlagot.</seg>
+<seg xml:id="AC8_8582.6">(17.20)</seg>
+<seg xml:id="AC8_8582.7">Mi nem ezt tűztük ki célul annak idején? Mi siklott ki, félre akkor? Önök kormányoznak kilenc éve, méghozzá teljhatalommal. Azt csinálhattak ebben az országban politikailag, gazdaságilag, amit csak akartak, de szemmel láthatóan önök megmaradta</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC8_8582.8">a dzsentri urizálásná</seg>
+<kinesic type="signal"><desc>Az elnök ismét csenget.</desc></kinesic>
+<seg xml:id="AC8_8582.9">, luxusutaknál, magánrepülőgépeknél, EU-s források csapolásánál.</seg>
+<note>CSÁNYI TAMÁS (Jobbik):</note>
+<seg xml:id="AC8_8582.10">Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-17-urgent_question-AC8_8584" who="#LőrincNacsa" ana="#regular"><note>NACSA LŐRINC (KDNP):</note>
+<seg xml:id="AC8_8584.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Az önkormányzati választási kampányban az ellenzék a budapesti egészségügy fejlesztésével és sok-sok ígérettel kampányolt, mint például a húszezer forintos fűtési támogatás a nyugdíjasoknak és a nagycsaládosoknak vagy az ingyen BKV bizonyos csoportoknak. Karácsony Gergely azt is mondta a kampányban, hogy a budapesti egészségügyi fejlesztések érdekében stadionstopot vezet be.Két hónappal a választások után azt látjuk, hogy az ígéretekből sunnyogás lett. Azt látjuk, hogy a stadionstop helyett pedig kórházstopot hirdettek, átláthatóságnak pedig se híre, se hamva. Jól látszik viszont, hogy két hónap alatt a hatalom- és pénzéhes balliberális politikusok egyszerű kifizetőhelyekké alakították az önkormányzatokat. A budapesti balliberális hatalomszerzés évi plusz egymilliárd forintjába kerül a budapestieknek</seg>
+<kinesic type="noise"><desc>Zaj, közbeszólások az ellenzéki padsorokból.</desc></kinesic>
+<seg xml:id="AC8_8584.2">Sorban térnek vissza a rossz emlékű Gyurcsány-kormány bukott káderei és a Demszky-korszak levitézlett emberei a hatalomba, és kapnak jól fizető pozíciókat. Persze, mindezt az átláthatóság jegyében. Draskovics Tibor, Havas Szófia, Atkári János, Katona Tamás, Kolber István, Gál J. Zoltán, Lakos Imre, Bodnár Zoltán, Magyar György vagy Vágó István csak pár név a sok közül. Szintén az átláthatóság jegyében a gyurcsányista bűnöző Czeglédy Csaba felel több kerület átvizsgálásáért.</seg>
+<seg xml:id="AC8_8584.3">Ezek után most a semmilyen egészségügyi végzettséggel nem rendelkező, szélsőségesen liberáli</seg>
+<kinesic type="noise"><desc>Derültség, zaj, közbekiáltások az ellenzéki padsorokból.</desc></kinesic>
+<seg xml:id="AC8_8584.4">SZDSZ-es Ungár Klárát nevezték ki az Újpesti Szakorvosi Rendelőintézet vezetőjévé, mert a roncskoalíciónak ennyire fontos az egészségügy</seg>
+<kinesic type="noise"><desc>Folyamatos zaj. Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC8_8584.5">Az egészségügy szerintünk fontos kérdés, az emberek érdekeit kell nézni, mert a Karácsony Gergely-féle zsarolgatás és az ígéretekből való kitáncolás nem a budapestiek érdeke.</seg>
+<seg xml:id="AC8_8584.6">Ezért kérdezem a tisztelt államtitkár urat, mit tud tenni a kormány Budapest fejlesztése érdekében, hogy ne a budapesti emberek szenvedjék el a balliberális elvbarátok hatalom- és pénzéhségét. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-12-17-urgent_question-AC8_8585" who="#MónikaDunai" ana="#regular"><note>DUNAI MÓNIKA (Fidesz):</note>
+<seg xml:id="AC8_8585.1">Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Egyértelműen kiderült számunkra, hogy a fővárosi vezetés kettős mércét alkalmaz. Míg az Újszínházat érintő állítólagos zaklatási ügyben felügyelőbizottsági vizsgálatot rendelt el, addig a Gothár-féle esetben engedékeny volt a jelenleg balliberális többségű Városháza. Szégyen, hogy Gyurcsány Ferenc, Karácsony Gergely és az egész baloldal mélyen hallgat a Gothár-féle szexuális zaklatási botrányról. Szégyen, hogy eltussolóknak falaznak. Ezért hazudoznak reggel, délben meg este az Országgyűlés által elfogadott, a színházak támogatásáról szóló törvényről is. A valóság az, hogy a főváros és minden más önkormányzat annyi színházat tart fenn, ahányat csak akar. Fővárosi színházat is csak a Fővárosi Közgyűlés tud bezárni. Magyarországon semmi nem sérti az alkotói szabadságot. Viszont az nem lehet, hogy az állam úgy támogassa a Katona József Színházat, hogy ne tudjon beleszólni: ott van zaklatási ügy vagy nincs zaklatási ügy?</seg>
+<seg xml:id="AC8_8585.2">Vagy hogy ne tudjon ellenőrzést végezni, és ne tudja megvédeni a színészeket a zaklatástól. A törvény átlátható működési modellt, kristálytiszta kiszámítható helyzetet és felelősségi viszonyokat teremt a színházak fenntartásában.</seg>
+<seg xml:id="AC8_8585.3">Tisztelt Képviselőtársaim! A szexuális zaklatásnak nincs és nem is lehet politikai színezete, azt egyöntetűen mindenkinek el kell ítélnie. Úgy gondolom, hogy a Gothár-ügynek kell hogy legyenek következményei</seg>
+<seg xml:id="AC8_8585.4">(Ungár Péter: Van, hiszen ki lett rúgva!)</seg>
+<seg xml:id="AC8_8585.5">Látszik, hogy az ellenzék számára a MeToo csak egy szelektív kommunikációs kampány.</seg>
+<seg xml:id="AC8_8585.6">Tisztelt Államtitkár Úr! Kérdezem, hogy az elhangzottak tükrében lesze bármilyen következménye annak, hogy a vezetők megpróbálták elhallgatni, eltussolni a zaklatási ügyet.</seg>
+<seg xml:id="AC8_8585.7">Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

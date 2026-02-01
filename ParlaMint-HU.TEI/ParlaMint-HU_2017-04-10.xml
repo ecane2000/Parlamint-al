@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2017-04-10" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2017-04-10 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2017-04-10 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="10" unit="speeches">10 beszéd</measure>
+        <measure xml:lang="en" quantity="10" unit="speeches">10 speeches</measure>
+        <measure xml:lang="hu" quantity="3350" unit="words">3350 szó</measure>
+        <measure xml:lang="en" quantity="3350" unit="words">3350 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2017-04-10">2017. 04. 10.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="10"/>
+          <tagUsage gi="seg" occurs="46"/>
+          <tagUsage gi="kinesic" occurs="14"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2017-04-10">2017-04-10</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2017-04-10-urgent_question-AC7_14482" who="#ÁkosHadházy" ana="#regular"><note>DR. HADHÁZY ÁKOS (LMP):</note>
+<seg xml:id="AC7_14482.1">Köszönöm szépen, elnök úr. Tisztelt Miniszterelnök Úr! Néhány hónapja kezdtünk el egy beszélgetést, de akkor nem válaszolt a kérdésemre. Hatvanpusztáról van szó, egy olyan majorságról, amelyet ön használ, az ön családja használ, Felcsút polgármestere pedig 15 millió forintot fizet ki évente bérleti díjként. Tehát ön használja, és Mészáros Lőrinc bérli; a semmire fizet valószínűleg 15 millió forintot, vagy legalábbis én azt kérdeztem a múltkor, hogy mire fizeti ki. Egy nagyon-nagyon fontos kérdés, de ön csak annyit válaszolt, hogy az a terület az édesapjáé, illetve az édesapja cégéé. Az van, hogy mindannyian igazat mondunk, tehát ön is igazat mond, és én is, ettől függetlenül nem áll össze ez a dolog, ugyanis az édesapja cégéé ez a terület, ön használja, azonban valamiért, valamire Mészáros Lőrinc fizet 15 millió forintot évente.</seg>
+<seg xml:id="AC7_14482.2">Ez a 15 millió forint nem tűnik olyan nagyon sok pénznek, de az ön miniszterelnöki fizetésével egyenlő. Mindenképpen jó lenne tudni, főleg azért, mert Mészáros Lőrinc néhány év alatt bekerült a leggazdagabb emberek közé Magyarországon, gyakorlatilag a vagyonát megezerszerezte, és amikor megkérdezték tőle, hogy ez minek köszönhető, akkor azt mondta, hogy a Jóistennek. Ezzel nem lenne baj, de azt is mondta, hogy önnek köszönhető. Akkor, ha ő viszont valamire fizet 15 millió forintot az ön családjának, amiért ő nem kap semmit, akkor ez egy nagyon-nagyon nagy probléma, mert lehet, hogy azért fizeti azt a 15 milliót 10 éven keresztül, tehát összesen 150 millió forintot, hogy ő ezeket a közbeszerzéseket, ezt a nagy szerencsét megéri.</seg>
+<seg xml:id="AC7_14482.3">Tehát az a kérdésem: mire fizet 15 millió forintot Mészáros Lőrinc az ön édesapja cégének? Ha ön használja azt a területet, mire fizeti ki ezt a pénzt? Köszönöm.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-04-10-urgent_question-AC7_14483" who="#ErzsébetSchmuck" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_14483.1">Köszönöm a szót, elnök úr. Tisztelt Miniszterelnök Úr! Rendre azt halljuk a Fidesztől, hogy önök a nép közvetlen felhatalmazásából vezetik le a döntéseiket, sokszor elmondják, hogy önök kettőször kétharmadot kaptak. Csakhogy van itt egy olyan beruházás ma Magyarországon, amelyre önök soha és semmilyen felhatalmazást sem kaptak, pedig egy jó évszázadra biztosan meghatározza a magyar emberek jövőjét.</seg>
+<seg xml:id="AC7_14483.2">Szeretném leszögezni, hogy ’14-ben nem erről döntöttek a magyar emberek. Ha erről döntöttünk volna, akkor nemhogy kormányon nem lennének, nemhogy kétharmaduk nem lenne, de kormányon sem lennének. Szeretném leszögezni, hogy a kormánynak lett volna lehetősége, sőt kötelessége is lett volna kikérni a magyar emberek véleményét a paksi bővítésről. A tisztességes az én álláspontom szerint, tisztelt miniszterelnök úr, az lett volna, ha már a szerződés előtt megteszik ezt, de még most sem késő.</seg>
+<seg xml:id="AC7_14483.3">Ezzel kapcsolatban szeretnék önnek föltenni négy kérdést. Tisztelt Miniszterelnök Úr! Elismeri-e ön, hogy Magyarország következő száz évének egyik legsúlyosabb döntése a paksi bővítés? Szeretném azt is tudni, hogy elismeri-e ön, hogy ilyen kérdésekben a magyar embereknek kell dönteniük</seg>
+<seg xml:id="AC7_14483.4">(Lázár János Orbán Viktorhoz szól.)</seg>
+<seg xml:id="AC7_14483.5">Tisztelt Miniszterelnök Úr! Ha Lázár úr esetleg abbahagyja a briefingelést, akkor tud rám figyelni. Egyetért-e ön azzal, amit a Nemzeti Választási Bizottság is állít, hogy túl bonyolult ez a kérdés ahhoz, hogy a magyar emberek dönthessenek róla? Merthogy a Nemzeti Választási Bizottság, tisztelt miniszterelnök úr, ezt állítja. És azt is szeretném megtudni öntől, miniszterelnök úr, hogy akkor is ragaszkodik-e ön a paksi bővítéshez, ha azt a magyar emberek egyértelműen ellenzik.</seg>
+<seg xml:id="AC7_14483.6">Vagyis a kérdésem az, hogy felkészült-e arra a Fidesz-KDNP, hogy szembemenjen a magyar emberek egyértelmű akaratával</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-04-10-urgent_question-AC7_14486" who="#MártonGyöngyösi" ana="#regular"><note>GYÖNGYÖSI MÁRTON (Jobbik):</note>
+<seg xml:id="AC7_14486.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Miniszterelnök Úr! Utoljára négy hete beszélgettünk itt a Jobbik Magyarországért Mozgalom által kezdeményezett béruniós kezdeményezésünkről, ahol világosan állást foglalt: elutasította ezt a kezdeményezést, és azzal vádolta meg a Jobbikot, hogy mi a bérpolitikát és az adópolitikát Brüsszelnek át akarjuk adni</seg>
+<seg xml:id="AC7_14486.2">(Németh Szilárd István: Ez így igaz! Mennyit kaptatok érte?)</seg>
+<seg xml:id="AC7_14486.3">Azóta látom, hogy önök egy nemzeti konzultációt is indítottak ebben a témában, ami meggyőződésem szerint, én itt személyes felelősséget is látok, lehet, hogy önnek nem sikerült felfognia azt, amiről mi itt beszéltünk a béruniós politikánk kapcsán, ugyanis itt van egy súlyos félreértés, amely lehet, hogy abból is táplálkozik, hogy önök nem értették meg, amit mi mondani akarunk. Szó sincs jogkörök átadásáról, szó sincs arról, hogy mi Brüsszelnek bármit át akarnánk adni. Arról van szó, hogy 8 közép-kelet-európai ország a Jobbik Magyarországért Mozgalom kezdeményezésére Brüsszelbe, az Európai Bizottsághoz el akarja juttatni azt a jogos igényünket, hogy a bérek és az életszínvonal tekintetében megtörténjen egyfajta felzárkózás, és mindent ennek a gazdaságpolitikának rendeljünk alá, a gazdaságpolitikánkat és a kohéziós politikánkat is az életszínvonalbeli változásoknak rendeljük alá azon a közös piacon, tisztelt miniszterelnök úr, amelyen Magyarországon tönkrement az ipar, a mezőgazdaság, a feldolgozóipar, többek között az ön kormányzásának köszönhetően is. Vagyis élünk azzal az uniós jogból fakadó lehetőségünkkel, hogy Brüsszelbe a közös tárgyalóasztalhoz elvigyük Közép-Kelet-Európának a közös problémáját, egy valódi sorskérdést; ön 27 éven keresztül, sem kormányon léve, sem ellenzékben ülve nem tette ezt meg, amit most a Jobbik Magyarországért Mozgalom ellenzékből meg akar tenni.</seg>
+<seg xml:id="AC7_14486.4">Továbbra is kérdezzük a miniszterelnök úrtól: élére áll-e ennek a kezdeményezésnek, segít-e nekünk abban, hogy valóba</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_14486.5">egy ön által egy első nemzeti érdekű fordulatot követően ebben a kérdésben változás álljon be? Támogatja-e ezt a kezdeményezés</seg>
+<kinesic type="signal"><desc>Az elnök ismét csenget.): igen vagy nem</desc></kinesic>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-04-10-urgent_question-AC7_14768" who="#GáborVona" ana="#regular"><note>VONA GÁBOR (Jobbik):</note>
+<seg xml:id="AC7_14768.1">Tisztelt Miniszterelnök Úr! Néhány héttel ezelőtt arra voltam kíváncsi, hogy van-e önben kellő bátorság annak a mondatnak a kimondására, hogy nem voltam ügynök, soha nem adtam sem írásban, sem szóban jelentést senkiről. Sajnos, ön ezt a mondatot nem merte kimondani, mellébeszélt, elég kínos pillanat volt ez itt mindannyiunk számára az Országgyűlésben, és ez a kérdés továbbra is itt lebeg a levegőben.</seg>
+<seg xml:id="AC7_14768.2">De van itt más kérdés, ami szintén aggodalomra ad okot, miniszterelnök úr, hiszen egy kormányfőt nemcsak a távoli múltjával, hanem a közelmúltjával és a jelenével is lehet zsarolni. Miközben a nemzetközi helyzet fokozódik, és ön is fokozza itt egy egyetem miatt, miközben migráció van, terrorizmus van, gazdasági válság van, hatalmas nemzetbiztonsági veszélyt jelentene Magyarországra, ha a kormányfőt zsarolni lehetne, mondjuk, a pénzügyei miatt. Egyfajta belpolitikai tragédiával érne fel, miniszterelnök úr, ha mondjuk, önről, a családtagjairól vagy a legszűkebb környezetéről kiderülne az, hogy külföldön eltitkolt pénzügyi vagy vagyoni ügyleteket folytattak.</seg>
+<seg xml:id="AC7_14768.3">Miniszterelnök úr, önnek egy éve van hátra, és ez az idő relatíve hosszú idő. Én arra szeretném önt kérni, hogy bennünket itt, az Országgyűlésben és ezen keresztül a magyar közvéleményt nyugtassa meg arról, hogy az elkövetkezendő egy évben, ami önnek még hátravan, nem derülhet ki sem önről, sem a családtagjairól, sem a legszűkebb környezetéről, hogy külföldön eltitkolt számlája volt vagy van, vagy külföldön offshore-vagyona volt vagy van, hogy külföldön eltitkolt vagyona volt vagy van, vagy külföldön bármilyen zavaros és illegális vagy eltitkolt pénzügyi ügyletbe keveredtek vagy keveredett.</seg>
+<seg xml:id="AC7_14768.4">Arra kérem, miniszterelnök úr, hogy tekintve ennek a kérdésnek a súlyosságát, az ezzel kapcsolatos nemzetbiztonsági aggályokat és félelmeket, ne próbálja meg megkerülni a választ, ne próbálja meg kikérni magának a kérdést, hanem kérem szépen, hogy szedje össze magát, az elmúlt azonnali kérdéseinkkel ellentétben, és igyekezzen válaszolni arra a kérdésre, amit én feltettem. Az azonnali kérdés arról szól, hogy én kérdezek és ön válaszol, és a kérdésem az, hogy önnek, a családtagjainak és a legszűkebb környezetének van-e külföldön eltitkolt pénzügye, vagyona vagy bármilyen zavaros pénzügyi művelete. Előre is köszönöm a válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-04-10-urgent_question-AC7_14968" who="#GergelyBárándy" ana="#regular"><note>DR. BÁRÁNDY GERGELY (MSZP):</note>
+<seg xml:id="AC7_14968.1">Köszönöm a szót, elnök úr. Tisztelt Miniszterelnök Úr! Az igazi nemzeti konzultáció tegnap megvolt: csaknem százezer ember követelte a CEU-törvény visszavonásá</seg>
+<kinesic type="noise"><desc>Közbeszólás a Fidesz soraiban: Mennyi?</desc></kinesic>
+<seg xml:id="AC7_14968.2">, csaknem százezer ember követelte a jogállam visszaállítását, és igen, az ön lemondását. Önök odáig jutottak a jogállam lebontásában, hogy szisztematikusan kezdik tönkretenni azokat az intézményeket, amelyek nem hajlandóak beállni a nemzeti együttműködés rendszerébe.</seg>
+<seg xml:id="AC7_14968.3">Az ország ellenségének kiáltanak ki egy magyar származású zsidó üzletembert. Volt már ilyen a történelemben, nem vezetett jóra</seg>
+<kinesic type="noise"><desc>Közbeszólások a kormánypártok soraiban.</desc></kinesic>
+<seg xml:id="AC7_14968.4">Önök visszahozták a történelem egyik legsötétebb módszerét, csak akkor embereket kényszerítettek arra, hogy megbélyegezzék magukat, most pedig szervezeteket kényszerít a Fidesz ugyanerre. Megjegyzem, nem igazán áll jól a sorosozás egy olyan kormánynak, amelynek az első emberei - közöttük ön is - Soros György támogatása nélkül nem jutottak volna el idáig. Ön elárulja Magyarországot, elárulja a saját hazáját, mert a jogállam és a demokratikus államrend lebontása, a civilek megbélyegzése és üldözése, a tanszabadság felszámolása, az bizony hazaárulás</seg>
+<seg xml:id="AC7_14968.5">Ön a saját hatalmon maradása érdekében idegengyűlöletet szít, az Európai Unió ellen hergel, kockáztatva ezzel Magyarország kizárását. Ön a hazánkat egy orosz diktátornak adja el, kilóra. Ön, miniszterelnök úr, egyre több magyar ember szemében egy ellenvéleményt nem tűrő diktátorrá vált, és nem csak baloldali és liberális emberek szemében, hiszen már a saját európai pártcsaládja is ön ellen tiltakozik.</seg>
+<seg xml:id="AC7_14968.6">Kérdezem ezért öntől, miniszterelnök úr: meghallotta-e az emberek véleményét, és visszavonja-e a CEU-törvényt, illetve a civiltörvényt? S kérdezem azt is, tisztelt miniszterelnök úr, merthogy ez a tüntetés nemcsak a CEU-ról szólt, hanem kormányellenes tüntetés is volt: nem érzi-e úgy, hogy elég kárt okozott már a saját hazájának, ezért le kellene mondania? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-04-10-urgent_question-AC7_14969" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC7_14969.1">Köszönöm a szót, elnök úr. A miniszterelnök ismét kitett magáért. Nem cáfolta, hogy júniusban visszahívják Szemerkényi Rékát, Magyarország washingtoni nagykövetét. A sajtó egyik munkatársának ezzel kapcsolatos kérdésére ön mosolyogva csak annyit mondott: „Nőügyekkel nem foglalkozom.” Mindebből az is világossá vált, hogy ön szerint ez nőügy, és a nőügyekkel való foglalkozás nem méltó egy ilyen kimagasló államférfihoz, mint ön.</seg>
+<seg xml:id="AC7_14969.2">De Lázár Jánosnak sikerült fokozni a helyzetet ezzel kapcsolatban a csütörtöki kormányinfón, az alábbiakat mondta egy kérdésre. Orbán Viktor azóta megváltoztatta az álláspontját. Az ország fele nő, ezért kell foglalkozni a nőügyekkel. Talán rájöttek arra, hogy a magyar nőknek van szavazati joga? Két dolgot mondanék önnek. Először is, bárkivel, bármelyik nővel szemben elfogadhatatlan az a stílus, amit ön és önök megengednek maguknak. Másodszor, két ország diplomáciai kapcsolata nem nő- vagy férfiügy. Ha ön nem veszi komolyan az ezzel kapcsolatos kérdéseket, az önt minősíti.</seg>
+<seg xml:id="AC7_14969.3">Tudja, miniszterelnök úr, emlékeztetnem kell önt egy beszédére, amit itt, a Parlament falai között mondott el 2014 májusában a miniszterelnöki eskütétele után. Régi tanítás: mi legyen az első teendője annak, aki megkezdi a kormányzást? Válasz: a szavak helyes használatának helyreállítása. Ha a szavak használata nem helyes, akkor a gondolatok értelme zavaros. Ha a gondolatok értelme zavaros, nem lehet szabatosan cselekedni. Ezért a kormányzásra vállalkozó első dolga az legyen, hogy a gondolatait szavakká, a szavait pedig tettekké tegye. Ne tűrje, hogy szavaiban rendetlenség legyen.</seg>
+<seg xml:id="AC7_14969.4">Minden ezen múlik, miniszterelnök úr. Miniszterelnök Úr! Felszólítom, hogy kérjen bocsánatot minden magyar nőtől, akit megsértett ezzel a mondatával is. Tud-e államférfiként viselkedni, miniszterelnök úr? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-04-10-urgent_question-AC7_14970" who="#LászlóSzakács" ana="#regular"><note>DR. SZAKÁCS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_14970.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Miniszterelnök Úr! Matolcsy György jegybankelnök innen a pulpitusról az expozéjában mondta el, hogy 2014 második felében és 2015 első felében Magyarországot egy NATO-szövetséges tagállam budapesti nagykövetségéről támadták meg, méghozzá katonai és titkosszolgálati forgatókönyvek alapján, ami a jegybankon keresztüli kormánybuktatást célozta meg.</seg>
+<seg xml:id="AC7_14970.2">Matolcsy Györgyöt kétszer is kérdeztük, itt a parlamentben is, hogy mi lehetett ezek mögött a szavak mögött, milyen tényeket ismert, hiszen az önök frakciója egyetlenegy alkalommal sem támogatta azt, hogy Matolcsy György eljöjjön bármelyik bizottsági ülésre, és ott elmondhassa ő saját maga a saját szavaival, hogy mit gondolt. Hát itt elmondta, de nem lettünk tőle okosabbak, mert először egy Magyar Narancs-cikkből idézett - nem hiszem egyébként, hogy ez lenne az, ami gondolatokat korbácsolt volna benne -, majd később azt mondta, hogy egy párttársam tudta csak azt, hogy itt az amerikaiakról van szó, az Amerikai Egyesült Államok nagykövetségéről, majd utána azt mondta, hogy Kósa Lajos tudta ezt valójában, és tőle idézett, majd legvégül, mert ennyiféle választ adott, azt mondta, hogy valójában már mindenki tudta, csak én nem, hogy itt az Amerikai Egyesült Államokról van szó.</seg>
+<seg xml:id="AC7_14970.3">Ennyiféle válasz nyilvánvalóan nem lehet igaz. Úgy gondolom, hogy a magyar pénzügyi rendszer stabilitása a magyar szuverenitásnak egy nagyon-nagyon fontos kérdése, és ha ezt támadás érte, akkor úgy gondolom, hogy mi nyugodtan tehetünk fel kérdéseket, és meg is ismerhetjük azokat az adatokat, amik ebből rendelkezésre állnak, le kell vonni belőlük a tanulságot, és természetesen javaslatokat is kell tennünk.</seg>
+<seg xml:id="AC7_14970.4">No de Matolcsy szavai a levegőben maradtak, ezért kérdezem miniszterelnök urat, bármi egyebet tud-e azon kívül elmondani erről, amit Matolcsy György is elmondott, igaz, hogy nagyon zavarosan. Veszélyben volt-e a magyar szuverenitásnak ez a nagyon fontos eleme? Köszönöm a figyelmet</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-04-10-urgent_question-AC7_14971" who="#IstvánHollik" ana="#regular"><note>HOLLIK ISTVÁN (KDNP):</note>
+<seg xml:id="AC7_14971.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! Itt az Országgyűlésben is többször ejtettünk már szót a strasbourgi bíróság legutóbbi, két bangladesi migráns ügyében hozott felháborító ítéletéről.</seg>
+<seg xml:id="AC7_14971.2">Most egy figyelemre méltó összefüggésre hívnám fel a figyelmét a strasbourgi bíróság és a bevándorláspárti szervezetek összefonódásának ügyében. Úgy tűnik ugyanis, hogy Soros György bevándorláspárti emberei a vonal mindkét végén ott vannak a migránsbizniszben.</seg>
+<seg xml:id="AC7_14971.3">Az egyik oldalon ott vannak a Soros-szervezetek, amelyek támogatják és működésükkel segítik a tömeges bevándorlást, sőt keresik azokat a migránsokat, akiket jogilag képviselni tudnak. A másik oldalon pedig a strasbourgi bíróságon ott ülnek Soros emberei, mint például Sajó András, a Soros-egyetem egyik alapítója, aki strasbourgi bíróként gondoskodik arról, hogy a bevándorláspárti álláspont mellé álljon a bíróság.</seg>
+<seg xml:id="AC7_14971.4">Az ítélettel kapcsolatban két, eddig nem ismert tényre szeretném felhívni a figyelmét. Egyrészt a strasbourgi bíróság túlnyomórészt olyan jelentésekre alapozta ezt a döntést, amelyek annak a Magyar Helsinki Bizottságnak a közreműködésével készültek, mely képviselte a perben a két bangladesi migránst. Úgy gondolom, hogy ez összeférhetetlen. Másrészt az ítéletben részt vevő Sajó András maga is tagja volt a Magyar Helsinki Bizottság tanácsadó testületének. Tehát közvetlen kapcsolat volt közte és a migránsokat ebben a perben képviselő szervezet között.</seg>
+<seg xml:id="AC7_14971.5">A fentiek alapján, államtitkár úr, két kérdésem lenne. Nem gondolja, hogy Sajó András közvetlen kapcsolata a Helsinki Bizottsággal olyan körülmény, amely felveti az összeférhetetlenség kérdését? Illetve: a strasbourgi bíróság összesen mennyi bírságot szabott ki Magyarországra azért, mert az betartja a szabályait? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-04-10-urgent_question-AC7_14973" who="#IstvánBoldog" ana="#regular"><note>BOLDOG ISTVÁN (Fidesz):</note>
+<seg xml:id="AC7_14973.1">Elnök Úr! Tisztelt Államtitkár Úr! Vona Gábor a tavaly januári évadnyitó beszédében jelentette be, hogy a Jobbik 2016-ban valódi nemzeti konzultációt szervez, amelynek kiemelt témája az egészségügy és az oktatás mellett a korrupció lesz. Vona a korrupció leglátványosabb jelei közé sorolta az áfacsalások vagy a trafikügy mellett a barátoknak, rokonoknak való kedvezést. Ahhoz, hogy mennyire kell komolynak és hitelesnek tekinteni a Jobbik ígéreteit, elég csak megnéznünk, hogy az elmúlt pár évben hogyan hozták helyzetbe saját rokonaikat, és hogyan juttatták akár feleségüket megrendeléshez a Jobbik frakciójának pártalapítványi pénzéből</seg>
+<kinesic type="noise"><desc>Zaj, moraj, közbeszólások a Jobbik soraiból.</desc></kinesic>
+<seg xml:id="AC7_14973.2">Vona Gábor pártelnök felesége, Vona-Szabó Krisztina például a Jobbik által finanszírozott „Barikád” hetilap szerkesztője kisebb-nagyobb megszakításokkal. Krisztina testvére, Szabó Judit egy ideig sógorának, Vona Gábornak a titkárságvezetője volt, majd Forrai Richárd asszisztense lett az Iránytű Intézetnél, amely szervezetbe szintén a Jobbikból folynak a pénzek. Személyi titkárként dolgozott a frakciónál Sneider Tamás felesége is; azonban a hitvesi foglalkoztatásban Volner János frakcióvezető sem marad el, feleségének 5 nap sem kellett, hogy cége megalapítása után elnyerjen egy tanácsadói szerződést a Jobbik-frakciótól. Volner Beatrix 2011-ben alapított vállalkozása szóbeli tanácsadásra szerződött a frakcióval havi félmillió forintért. Szabó Gábor Jobbik-pártigazgató annyiban jelent kivételt, hogy ő nem a feleségét, hanem édesapját juttatja bevételekhez. Szabó György 2012-ben például 610 ezer forintért készített tanulmányt a temetők aktuális kérdéséről. Z. Kárpát Dániel édesanyja és akkor 79 éves nagymamája cége kapott egymillió forintot a pártalapítványtól könyvkiadásra; míg Szávay István testvére, Szávay László 13-szor szerződött a Jobbik-frakcióval tanácsadásra, összesen kétmillió forint értékben.</seg>
+<seg xml:id="AC7_14973.3">A sort még hosszan lehetne folytatni. Az időkorlát miatt csak ennyit kérdezek: lehet-e gátat szabni a Jobbik urambátyám világának, államtitkár úr</seg>
+<kinesic type="applause"><desc>Zaj a Jobbik soraiban. - Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-04-10-urgent_question-AC7_14974" who="#PéterCsizi" ana="#regular"><note>CSIZI PÉTER (Fidesz):</note>
+<seg xml:id="AC7_14974.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! Elképzelni is nehéz, hogy milyen az, amikor egy kézzel írt számlán majdnem 2,5 milliárd forintos összeg szerepel. Mi, pécsiek nagyon jól emlékszünk erre a kézzel írt számlára, amivel nyolc évvel ezelőtt a 150 járműből álló pécsi buszparkot a pécsi közösségi közlekedést végző cég 2 milliárd 436 millió forintért bérelte vissza ugyanattól a cégtől, akinek közel hasonló összegért pár héttel azt megelőzően eladta</seg>
+<seg xml:id="AC7_14974.2">(Felmutatja a felnagyított bizonylatot. - Gőgös Zoltán az elnöknek: Demonstrál, elnök úr!)</seg>
+<seg xml:id="AC7_14974.3">Tisztelt Államtitkár Úr</seg>
+<seg xml:id="AC7_14974.4">(Gőgös Zoltán: Rossz a szemed, hogy ekkora papír kell?)</seg>
+<seg xml:id="AC7_14974.5">A cég úgy jutott a városi buszparkhoz, hogy közben egyébként nem történt pénzmozgás. Én nem vagyok jogvégzett ember, ezért a Zalaegerszegi Törvényszék jogerős ítéletére hagyatkozom, ami kimondta, hogy gyakorlatilag színlelt szerződés történt, egyszóval: lopás. Az ügylet egyébként kétmilliárdos adóterhet jelentett a pécsieknek, sőt mindezek mellett a teljes buszközlekedés majdnem összeomlásához vezetett. Az elmúlt években megnyertük az összes fontos pert, és az új városi szolgáltatóval, illetve fejlesztéseivel biztonságossá tudtuk tenni a napi szinten 56 ezer embernek szolgáltatást nyújtó buszközlekedést.</seg>
+<seg xml:id="AC7_14974.6">Most így időszerű a kérdés, időszerű a pécsiek kérdése, hogy vajon tudott-e minderről a Magyar Szocialista Párt által vezetett város. Azt az időszakot éljük, amikor egyébként Tasnádi Péter polgármester már kórházban volt, Tóth Bertalan volt a város első számú vezető alpolgármestere, így ezért teszem fel a kérdést államtitkár úrnak, hogy ön szerint tartozik-e egy város alpolgármestere jogi felelősséggel a kezelésében lévő eszközpark felelőtlen elherdálásáért</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

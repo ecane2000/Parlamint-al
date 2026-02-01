@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2020-03-16" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2020-03-16 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2020-03-16 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="10" unit="speeches">10 beszéd</measure>
+        <measure xml:lang="en" quantity="10" unit="speeches">10 speeches</measure>
+        <measure xml:lang="hu" quantity="3185" unit="words">3185 szó</measure>
+        <measure xml:lang="en" quantity="3185" unit="words">3185 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2020-03-16">2020. 03. 16.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="10"/>
+          <tagUsage gi="seg" occurs="23"/>
+          <tagUsage gi="kinesic" occurs="9"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2020-03-16">2020-03-16</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2020-3-16-urgent_question-AC8_9644" who="#ÁgnesKunhalmi" ana="#regular"><note>KUNHALMI ÁGNES (MSZP):</note>
+<seg xml:id="AC8_9644.1">Nagyon szépen köszönöm, elnök úr. Tisztelt Miniszter Úr! Két, az egyéni választókörzetemet, a XVIII. kerületet érintő kérdésben szeretnék kérdéseket feltenni önnek. A tegnapi napon kiderült, hogy XVIII. kerületi volt sajnos az a beteg, aki Magyarországon elsőként elhunyt regisztrált koronavírusos megbetegedettként, ilyen halálesetként regisztrálták. Kérdezem öntől, igaz-e, hogy a Jahn Ferenc Kórházban feküdt napokig tüdőgyulladással ez a beteg. Második kérdésem: miért nem végezték el korábban, miért csak szombat este végeztek koronavírustesztet ezen a betegen, miért késlekedtek ennyit? A harmadik kérdésem: mivel kiderült, hogy fertőzött volt, kiderítettéke már, hogy kikkel érintkezett, hányan vannak a kontaktszemélyek, mi van most azokkal az emberekkel, akikkel érintkezett, és hol vannak ezek a kontaktszemélyek pontosan? Akikkel érintkezett, orvosokkal, nővérekkel, tesztelike már őket, elvégeztéke már a koronavírustesztet? És végezetül ebben a témakörben azt szeretném öntől kérdezni, ha a 400 ezer ember ellátásáért felelős Dél-pesti Jahn Ferenc Kórház kiesik esetlegesen véletlenül az ellátásból, ami nagyon nagy baj lenne, akkor mely intézmény fogja átvenni sok százezer ember ellátását, XVIII. kerületinek is és dél-pesti embernek is.</seg>
+<seg xml:id="AC8_9644.2">A második terület a reptér. Azt szeretném kérdezni, hogy miért lehetséges az, hogy Európa legfertőzöttebb országaiból Franciaország, Németország, Svájc, Spanyolország zavartalanul, tegnap is 39 ilyen járat érkezett, ma 52 járat érkezik. Ellenőrzés és a legalapvetőbb vizsgálatok nélkül hagyhatják el az utasok a Liszt Ferenc repteret. Fel van készülve a Budapest Airport, ugyanis elmondásuk szerint 100 millió forint értékben rendelkeznek védőfelszerelésekkel, hőkamerákkal, testhőmérsékletet mérő eszközökkel, a szigorúbb ellenőrzések elvégzésére viszont elmondásuk szerint nem érkezett felkérés az operatív törzs részéről. Az operatív törzs erre miért nem adott utasítást a Budapest Airportnak? Az egyes járatok utasainak és személyzetének ellenőrzését a hatóságok rendelik el, erről a reptér saját hatáskörben nem dönthet. Miért késlekedik az operatív törzs ennek kiadásával? Köszönöm szépen a választ</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki sorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-3-16-urgent_question-AC8_9645" who="#TamásHarangozó" ana="#regular"><note>DR. HARANGOZÓ TAMÁS (MSZP):</note>
+<seg xml:id="AC8_9645.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Elsősorban az MSZP nevében is szeretnénk részvétet nyilvánítani az első elhunyt családjának. De éppen az ő esete is határozottan rámutat arra a mi megítélésünk szerint, hogy az a protokoll, amit ma a tesztekkel a kormánynak, illetve az egészségügynek végeznie kell, nem jó. Én nem tudom, milyen WHO-protokoll az, ami más egy miniszterre, mint egy egészségügyi dolgozóra, de most nem is azon van a hangsúly, hogy bármibe belekössünk. Egyszerűen józan paraszti ésszel, miniszter úr, a másik koronavírusos esetből is tudjuk, hogy kétszer lázasan elment a háziorvoshoz, majd hazaküldték. Harmadszorra mentővel vitték be a kórházba, és csak akkor tesztelték le. Ugye, mindannyian tudjuk, hogy a kettő között hány emberrel találkozhatott, és hány fölösleges fertőzést hajthatott végre akarata és szándéka ellenére? Ugye, tudjuk, hogy azóta hány orvost kellett tucatjával karanténba zárni most már Budapest több kórházában, mert kiderült, hogy napokon keresztül koronavírusos embereket légúti megbetegedéssel, lázasan kezeltek úgy, hogy nem tesztelték le a betegeket?Miniszter úr, engem nem érdekel, hogy mennyibe kerül egy teszt, senkit nem érdekel, tessék megoldani, tessék a protokollt megváltoztatni, vagy mondják azt, hogy nem tudják ezt a dolgot megoldani! Az, ami ma itt elhangzott, hogy több ezer tesztre van lehetőség, nagyon-nagyon kevés válasznak, tisztelt miniszter úr. Engem az érdekelne, hogy naponta hány ember tesztjét tudják ma a jelenlegi megoldással Magyarországon megvizsgálni. Ha ez az, amiről tudunk, ami maximum 100-200 között van, akkor milyen intézkedéseket kívánnak tenni, hogy ezt radikálisan megnöveljék, és tette valamit a kormány azzal kapcsolatban, hogy villámgyorsan be tudja vezetni azokat a gyorsteszteket, amelyek legalább az elkülönítés tekintetében előrelépést jelentenek? Utolsó kérdésem: a 24 óra letelt, Pintér úr tesztjével kapcsolatban mikor várhat a közvélemény valamilyen „igen” vagy „nem” választ? Várom válaszát. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-3-16-urgent_question-AC8_9646" who="#GergelyArató" ana="#regular"><note>ARATÓ GERGELY (DK):</note>
+<seg xml:id="AC8_9646.1">Köszönöm szépen, elnök úr. Tisztelt Ház! Számos olyan esettel találkozhattunk az elmúlt időszakban, amikor külföldről hazaérkező magyar állampolgárok, akik észlelték magukon a koronavírus-tüneteket, jelentkeztek a Szent László Kórházban, de elküldték őket, mert az az ország akkor még éppen nem szerepelt a kormánynak azon a listáján, ahonnan a betegeknek nem volt szabad jönniük. Volt olyan eset is, amikor például az iráni diák csoporttársai jelentkeztek vizsgálatra. Nem vizsgálták meg őket, majd egy nap múlva mentőautóval vitték be őket ugyanarra a vizsgálatra, és folytathatnám tovább. Talán a legsúlyosabb ezek közül az az eset, ami most a napokban történt, amikor a János Kórházban koronavírussal diagnosztizált beteg esetében sem végezték el először az orvosi személyzeten és az ápolónőkön a szükséges koronavírus-vizsgálatot, mondván, hogy még nem mutatják a tüneteket.</seg>
+<seg xml:id="AC8_9646.2">Természetesen értem, felfogtam, hogy ez a miatt a protokoll miatt van, amit önök kiadtak, de az a helyzet, hogy ahogy a járvány halad előre a világban, mindenütt korszerűsítik ezeket a protokollokat. A WHO kezdeti protokolljáról kiderült, hogy ez nem vált be. Azok az országok, amelyek követték ezt a protokollt, például Olaszország, ott rendkívül gyors volt a járvány terjedése; azok az országok, ahol nem követték a protokollt, hanem jóval szigorúbban, jóval szélesebb körben végezték el a teszteket, mint Dél-Korea, ott viszonylag gyorsan sikerült megfékezni a járványt, és sokkal kevesebb volt a halálesetek száma is.</seg>
+<seg xml:id="AC8_9646.3">Azért beszélek elsősorban az egészségügyi dolgozókról, mert mindannyian tudjuk, hogy az, hogy ők meddig tudják végezni a munkájukat, megbetegszenek-e, az nemcsak az ő személyes sorsuk szempontjából fontos, hanem az egész ellátórendszer biztonsága szempontjából is.</seg>
+<seg xml:id="AC8_9646.4">Ezért azt szeretném kérdezni, tudom, hogy megváltoztatták a protokollt, de ez a protokoll most már előírjae a betegekkel kapcsolatba került egészségügyi személyzet szűrését is. És ki vállalja a felelősséget azért, hogy egy hónapig nem végeztek el megfelelő mennyiségű tesztet? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a DK padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-3-16-urgent_question-AC8_9647" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC8_9647.1">Tisztelt Elnök Úr! Tisztelt Ház! Igyekszem megragadni a lehetőséget, hogy egyfajta kegyelmi pillanat irányába próbáljam eltolni a parlament munkáját, hiszen kritikus órákat élünk, és vallom, őszintén hiszem is, hogy olyan összpolitikai megoldásokra van szükségünk, amelyek mellett minden politikai közösség ki tud állni, és amelynek értelmében minden politikai közösség a saját szimpatizánsait arra tudja kapacitálni, hogy ezeket a közös nemzetmentő utakat kövessék. Éppen ezért hallgattam nagy érdeklődéssel azt, hogy a miniszterelnök úr mit válaszol azon honfitársaink helyzetét érintő kérdésre, akik a mai napon nem tudják, hogy az ő fizetésüket hogyan és milyen formában kapják meg, akik nem tudják azt, hogy szolgáltatóként vagy vállalkozóként bármiféle bevételre tarthatnake számot a következő hetekben, hónapokban. Gondolom, miniszter úrhoz, államtitkár urakhoz, képviselőtársaimhoz is érkeznek a vészjelzések. Nem állna tőlem távol békeidőben miniszterelnök úr azon gondolata, miszerint próbáljuk megőrizni az álláshelyeket, és ne arra rendezkedjünk be, hogy a magyar állam helytálljon minden tekintetben. Viszont, ha úgy tetszik, idézőjelben, „háborús” órákat élünk, amikor a legfontosabb az, hogy honfitársaink irányába biztonságot, a körülményekhez képest azért nyugalmat próbáljunk sugározni a tekintetben, hogy van, amin nem tudunk változtatni, és ez nem elvárás a kormány irányában sem. De amin tudunk, azt együttes erővel igenis tegyük meg. Ezért javasol a Jobbik egy magyar munkahelyvédelmi alapot, ahova a költségvetés befizetésével, illetve a legnagyobb gazdasági szereplőink, jelesül a multicégek arányos befizetéseivel 3-6 hónapos időtartamra helyt tudnánk állni mind a nehezen kigazdálkodható fizetéseket illetően, mind pedig azon vállalkozók is reménnyel fordulhatnának ide, akik vagy a saját bevételüket nem tudják kitermelni ebben a drámai helyzetben, vagy éppen a munkavállalóik munkabérét. Éppen ezért adódik a kérdés: a miniszter úr, államtitkár urak nyitottak ez irányban, hogy legalább ezt a biztonságot szavatolni tudjuk honfitársaink számára, ha már ennyire drámai, ennyire kritikus órákat élünk? Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+<seg xml:id="AC8_9647.2">(15.10)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-3-16-urgent_question-AC8_9648" who="#GergelyFarkas" ana="#regular"><kinesic type="noise"><desc>FARKAS GERGELY (Jobbik): Köszönöm a szót. Tisztelt Ház! Tisztelt Államtitkár Úr! A tegnapi napon az operatív törzs sajtótájékoztatóján bejelentették, hogy Kiskunhalason, választókerületem körzetében, központjában egy úgynevezett járványkórház fog épülni. A Jobbik részéről itt a kialakult koronavírusos helyzetre elmondtuk, hogy nemcsak a szakmai lépések megtétele, hanem a tájékoztatás is kiemelkedően fontos. Úgy érezzük, nemcsak mi, hanem a visszajelzések alapján több ezer kiskunhalasi és környékbeli ember is, hogy ebben az esetben sem a tegnapi napon, sem a ma délelőtti sajtótájékoztatón nem volt teljes körű a tájékoztatás, pedig nagyon jól tudjuk, hogy ilyen helyzetben minden óra, minden perc, ami bizonytalanságban tartja az embereket, növeli az aggodalmukat, a bizonytalanságukat. Ezért is nagyon fontos lenne néhány dolgot tisztázni, és ennek érdekében szeretnék én feltenni néhány kérdést, bízván abban, hogy megnyugtató választ fogunk ezekre kapni.Az első kérdés, hogy mi alapján választották ki a kiskunhalasi helyszínt. Tudom jól, hogy Bács-Kiskun megyében a halasi kórház van kijelölve járványügyi kórházként, de biztose az, hogy az ország szempontjából egy periférián lévő település a legjobb választás, nem lett volnae logikusabb Budapesten helyet találni neki, ami az ország központja, és a fertőzések nagy többsége is idekötődik; gondolom, közművesített terület azért van Budapesten is.</desc></kinesic>
+<seg xml:id="AC8_9648.1">Kérdés még, hogy honnan érkezik Kiskunhalasra az egészségügyi személyzet. Már csak azért is kérdés, mert ha valahonnan érkezik, az máshonnan hiányozni fog, ez tehát egy jogos kérdés. Kérdésként merül fel, hogy miként érinti a halasi kórház fertőzőosztályát ez a bejelentés. Több száz kórházban dolgozó és beteg, illetve az ő hozzátartozóik érdeklődnek, hogy kiköltözike az osztály, vagy maradnak a halasi kórházban. Ha maradnak, akkor mi alapján fognak megoszlani a kezelések, és mi garantálja a kórház fertőzésmentességét?</seg>
+<seg xml:id="AC8_9648.2">Kérdés még, hogy országos illetékességű lesze a kórház, vagy inkább csak a környező megyékből szállítanak majd ide betegeket, fertőzéssel gyanúsítottakat. És talán, ami a legjobban érinti a kiskunhalasiakat, hogy hogyan veszik elejét, hogy az ott dolgozók és a betegek által megnőjön az eddigi fertőzésmentes környéken a járvány veszélye. Milyen megnyugtató óvintézkedéseket tud mondani a kiskunhalasiak számára, amelyek garantálják, hogy az ott dolgozók ne terjesszék el az eddig fertőzésmentes településen és környékén a járványt? Várom megnyugtató válaszait</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-3-16-urgent_question-AC8_9649" who="#IstvánHollik" ana="#regular"><note>HOLLIK ISTVÁN (KDNP):</note>
+<seg xml:id="AC8_9649.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Államtitkár Úr! Sajnos a rendelkezésünkre álló statisztikák jól mutatják, hogy a koronavírus, ez a világszintű járvány leginkább az idősekre, azokra az emberekre, akiknek az immunrendszere legyengült, és a krónikus betegségben szenvedőkre a legveszélyesebb. Ezek a statisztikák azt is mutatják, hogy aki 65-70 év fölött van, ott a halálozási arány drasztikusan megnő. Éppen ezért azt kell mondanunk, hogy ezekben a vészterhes időkben az idős honfitársainkra kiemelt figyelmet kell fordítani, az ő megvédésük a legfontosabb feladat. Azt lehet mondani, hogy 10 millió magyarból 8 milliót ez a vírus nem veszélyeztet, mert átmegy rajta, viszont 2 millió idős embert nagyon veszélyeztet, ezért rájuk kell leginkább odafigyelni. Azt is tudomásul kell vennünk, hogy egy ilyen rendkívüli helyzetben nem elegendőek pusztán a kormányzati lépések, hanem minden egyes magyar állampolgárnak megvan a maga felelőssége, és erre fel kell hívni minden honfitársunk figyelmét. Idősebb rokonainkat, barátainkat aktív odafigyeléssel és a környezeti kitettségük csökkentésével kell segítenünk, és ezzel nagyban hozzájárulhatunk ahhoz, hogy az egészségüket meg tudjuk őrizni.</seg>
+<seg xml:id="AC8_9649.2">Azt szeretném kérni államtitkár úrtól, foglalja össze, hogy a járvány időszakában hogyan védjük meg az időseinket, illetve milyen intézkedésekkel védjük azokat a szolgálatot teljesítő egészségügyi alkalmazottakat, akik elmúltak 65 évesek, és talán a legnagyobb veszélynek ők vannak kitéve. Köszönöm szépen.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-3-16-urgent_question-AC8_9650" who="#PéterUngár" ana="#regular"><note>UNGÁR PÉTER (LMP):</note>
+<seg xml:id="AC8_9650.1">Köszönöm szépen a szót. Miniszter úr, egyetértésben azzal, hogy alapvetően nagyon nagy az egyéni felelősség a jelenlegi járványhelyzetben, és együtt kell működnie minden hatósági és kormányhatározattal szinte mindenkinek ahhoz, hogy ezt valamennyire meg tudjuk fékezni, fel kell készülni azokra az eshetőségekre, ha valakik ezt szántszándékkal nem teszik meg. Tudom, hogy nem lehet versenyt hirdetni az országok között, de ha vannak máshol jó praktikák, azt igenis át lehet venni. Ezért azt kérdezném először, hogy Izraelből át fogjuke venni azt a módszert, hogy akik hatósági házi karanténban vannak, ott a nemzetbiztonsági szakszolgálat háromszögeléssel és az elektronikai eszközök figyelésével ellenőrzi, hogy nem hagyja el ezt, illetve jelzőrendszert állít be arra az esetre, ha elhagyja a házi karantént egy ilyen esetben. Azt gondolom, az, hogy veszélyhelyzet van, ennek a különböző polgári jogi aggályait tudja kezelni.A másik konkrét kérdésem pedig azzal kapcsolatos, hogy nagyon sok önkormányzat jelezte, hogy rengeteg pluszköltséget kell vállalniuk értelemszerűen azért, mert felállt ez a helyzet. Hogy példát mondjak, van olyan önkormányzat, amely vállalta, hogy gyógyszerkiszállítást fog megszervezni a 65 év feletti krónikus beteg állampolgároknak. Illetve van olyan önkormányzat, a II. kerület például, amely azt mondta, hogy a vállalkozásokat terhelő adó, illetve a kommunális adó fizetési határidejét kitolja májusig.</seg>
+<seg xml:id="AC8_9650.2">Ezek értelemszerűen pluszköltségként jelennek meg az önkormányzatok büdzséjében. A miniszter úr pontosan tudja, milyen egy önkormányzati költségvetést megtervezni, és ez milyen. Ezért azt kérdezném, hogy számíthatnake ezek az önkormányzatok a kormány segítségére, amikor ezeket az értelemszerű pluszköltéseket meg kell tenniük. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az LMP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-3-16-urgent_question-AC8_9651" who="#GabriellaSelmeczi" ana="#regular"><note>DR. SELMECZI GABRIELLA (Fidesz):</note>
+<seg xml:id="AC8_9651.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Államtitkár Urak és Miniszter Úr! Tisztelt Képviselőtársaim! A legfrissebb adatok szerint 39-re nőtt hazánkban a diagnosztizált fertőzöttek száma, közöttük 9 iráni, 1 brit és 29 magyar állampolgár. Az új eseteknél is az országos tiszti főorvos által kiadott eljárásrendnek megfelelően haladéktalanul megkezdődik a járványügyi vizsgálat és a kontaktkutatás, amelyet a járványügyi hatóság a rendőrséggel együttműködve végez. A legtöbbet a koronavírus terjedése ellen azonban mi magunk, magánemberek tehetünk. Minden magyar embertől azt szeretnénk kérni, hogy segítse az egészségügyi és a rendvédelmi szervek munkáját azzal, hogy betartja az operatív törzs által meghozott javaslatokat, ajánlásokat, illetve betartja a veszélyhelyzetben elrendelt jogszabályi előírásokat. Az operatív törzs és a Nemzeti Népegészségügyi Központ által megfogalmazott előírások, ajánlások is azt a célt szolgálják, hogy saját magunkat és ezáltal közvetlen családtagjainkat, barátainkat, egyúttal az egész magyar társadalmat a lehető legjobban meg tudjuk védeni a koronavírus terjedése ellen.</seg>
+<seg xml:id="AC8_9651.2">Tegnap bekövetkezett az első haláleset Magyarországon is a koronavírus-járványban. Engedjék meg, hogy itt most a Fidesz-KDNP-frakció nevében is részvétemet és együttérzésemet fejezzem ki a hozzátartozóknak.</seg>
+<seg xml:id="AC8_9651.3">Tisztelt Államtitkár Úr! Azon túl, hogy megkérünk mindenkit és az időseket is, hogy tartsák be a javaslatokat és az ajánlásokat, szeretném megkérdezni mindezek tükrében, hogy milyen további intézkedésekkel fogjuk felvenni a harcot a koronavírus-járvány ellen. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-3-16-urgent_question-AC8_9653" who="#MónikaDunai" ana="#regular"><note>DUNAI MÓNIKA (Fidesz):</note>
+<seg xml:id="AC8_9653.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Sajnos kijelenthetjük, hogy nemcsak hazánk, hanem az egész világ minden idők egyik legnagyobb kihívása előtt áll, aminek még sajnos, láthatjuk, messze nem járunk a végén. Most, a világjárvány idején figyelemre, fegyelemre és összefogásra van szükség. Mindannyian tudjuk, hogy egy világjárvány egyik legalattomosabb jellemzője, hogy senki sem tudhatja a másikról, ki hordozza a vírust, hiszen az képes akár másfél-két hétig is tünetmentesen lappangani szervezetünkben. Így van ez azon egészségügyi szempontból fejletlenebb országokban is, ahonnan illegális bevándorlók százezrei érkeznek folyamatosan Európa irányába. Ott nemcsak az egészségügyi állapotok, de adott esetben a tájékoztatás és a szervezettség szintje is messze elmarad a magyartól és az európaitól. Mint tudjuk, ma Irán lehet a koronavírus-járvány egyik gócpontja, ahol tömegek fertőződnek meg, és sajnos magas a halálozások száma is. Ezen irányból már eddig is illegális migránsok százezrei érkeztek Európába vagy annak határára. Ki kell mondanunk, hogy magas egészségbiztonsági kockázatot is magában foglal az, ha Európa ezen veszélyekkel teli időszakban sem szab határt az illegális migrációnak.</seg>
+<seg xml:id="AC8_9653.2">Tisztelt Államtitkár Úr! Ezekben a nehéz időkben is mindent el kell kövessünk határaink védelme érdekében. Komolyan felmerül a kérdés, hogy vajon milyen járványügyi kockázatot jelent Európa számára az illegális migráció. Erről kérdezem önt, várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-3-16-urgent_question-AC8_9654" who="#BenceTordai" ana="#regular"><note>TORDAI BENCE (Párbeszéd):</note>
+<seg xml:id="AC8_9654.1">Köszönöm, elnök úr. Tisztelt Miniszter Úr! A koronavírus elleni sikeres védekezés egyik kulcsa a politikai vezetésbe vetett bizalom. De erre a bizalomra rá kell szolgálni, és ezt a bizalmat könnyű elherdálni. Mi próbáljuk ezt a bizalmat megőrizni, fenntartani, de nem könnyű.Nem könnyű, amikor rendszeresen tényellentétes állításokat tesznek, hogy finoman fogalmazzak, mint például Orbán Viktor péntek reggel, amikor azt mondta, hogy a tanárokat fizetés nélküli szabadságra kell elküldeni, ha nem lesz tanítás. Vagy nem könnyű ezt a bizalmat fenntartani, amikor őszinteség helyett arroganciával palástolt hazugságokat válaszolnak az újságíróknak, ahogy Kovács Zoltán tette azt vasárnap. Nem könnyű a bizalmat fenntartani akkor sem, amikor valótlanságokat hallunk az egészségügyi dolgozók számára elérhető védőeszközökről most is mintha lett volna erre példa -, és őszinteség helyett a Magyar Orvosi Kamarát támadja a minisztérium.</seg>
+<seg xml:id="AC8_9654.2">Nem könnyű a bizalmat fenntartani, amikor széles körű tesztelés helyett a Csernobil-effektust látjuk megvalósulni a gyakorlatban, amikor teljesen alkalmatlan mérések után az eredményeket kommentálva azt mondják, hogy nem jó, de nem tragikus. Kevés a mérés, ezért kevés a fertőzött. Tudjuk a modellekből, hogy egy halálesetre nagyjából nyolcszáz ténylegesen megfertőzött ember jut, ehhez képest hallunk ilyen harmincas számokat. Nem tesz jót a bizalomnak, amikor nem működő megoldásokat kommunikálnak nagyon magabiztosan, például a külföldről érkezők karanténba zárásának megvalósulásáról vagy az egészségügyi ellenőrzésről, a lázmérésről a határokon, ami állítólag mindenkire kiterjed, aztán kiderült, hogy közel sincs így.</seg>
+<seg xml:id="AC8_9654.3">A kérdésem miniszter úrhoz, hogy várhatunke változást a kormány kommunikációjában, és a továbbiakban rá foge szolgálni a veszélyhelyzetben nélkülözhetetlen bizalomra a kormány. Köszönöm szépen.</seg>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

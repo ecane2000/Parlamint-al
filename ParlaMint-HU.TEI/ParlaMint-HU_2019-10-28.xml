@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2019-10-28" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2019-10-28 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2019-10-28 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2797" unit="words">2797 szó</measure>
+        <measure xml:lang="en" quantity="2797" unit="words">2797 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2019-10-28">2019. 10. 28.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="31"/>
+          <tagUsage gi="kinesic" occurs="11"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2019-10-28">2019-10-28</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2019-10-28-urgent_question-AC8_7806" who="#ZoltánBalczó" ana="#regular"><note>BALCZÓ ZOLTÁN (Jobbik):</note>
+<seg xml:id="AC8_7806.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! A kormánypropagandában állandósult annak hirdetése, hogy a magyar gazdaság nagyszerűen teljesít. Orbán Viktor erről szólt a nyugdíjasoknak küldött levelében, a kampányban óriásplakátok hirdették, hogy Magyarországé az Európai Unió egyik legdinamikusabban fejlődő gazdasága, Matolcsy György pedig egyenesen 2030-ra azt vizionálja, hogy Ausztriát is meg fogjuk előzni. Miért kell ez a propaganda? Azért, mert az emberek többsége nem tapasztalja ennek a gazdasági növekedésnek az eredményét. Ezért van az, hogy a nyugdíjasok jelentős része számára a kilencezer forint rezsitámogatás is fontos, és a kampányban sorban állnak adott esetben a száraztésztáért és a krumpliért.</seg>
+<seg xml:id="AC8_7806.2">Tudom, a GDP, összevetve az EU-s átlaggal, növekszik, de azért vegyük figyelembe, hogy Magyarországon a GDP több mint 50 százalékát nemzetközi, döntően multinacionális cégek állítják elő, akik adójukat optimalizálják, a nyereséget pedig kiviszik. A gazdaságot nem önmagáért kell működtetni, hanem társadalmi célokért, például a jövedelmek növekedése miatt. Az éves nettó keresetek tekintetében Magyarországon 2018-ban EU-s viszonylatban csak Lettországot, Romániát és Bulgáriát előzzük meg, a visegrádi négyek sorában hátul kullogunk; Csehországban 30,5 százalékkal nagyobb a nettó jövedelem, az EU-átlag pedig csaknem háromszoros ennél. Ennek az oka az orbáni rendszer gazdaságpolitikája, a nemzetközi cégek kiszolgálása az olcsó munkaerővel, erre épül, ennek minden súlyos társadalmi következményével együtt, azzal nem törődve.</seg>
+<seg xml:id="AC8_7806.3">Kérdésem tehát, államtitkár úr: valóban úgy gondolják, hogy hiteles az az állításuk, hogy a magyar gazdaság nagyszerűen teljesít? Köszönöm. Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-10-28-urgent_question-AC8_7807" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC8_7807.1">Tisztelt Elnök Úr! Tisztelt Ház! Bár államtitkár úr a múlt héten barátkozni próbált velem, és tegező viszonyban a „Ne szakmaizzál, te!” kifejezéssel próbálta értésünkre juttatni azt, hogy szakmailag nem ért egyet velünk, államtitkár úr, mivel mi nem jóbarátok vagyunk, hanem ön egy államtitkár, én pedig egy képviselő vagyok, aki mögött szavazatok ezrei vanna</seg>
+<seg xml:id="AC8_7807.2">(Dr. Rétvári Bence: Államtitkár úr mögött meg tízezrek!)</seg>
+<seg xml:id="AC8_7807.3">, megpróbálom még egyszer a lehetetlent, és igyekszem szakmai választ kicsikarni egy nagyon egyszerű kérdésre. Azon egyszerű kérdésre, hogy miközben bérnövekményről beszél Magyarországon államtitkár úr is és minisztere és bár sajnálatos módon még ezzel is a régió tekintetében sereghajtók vagyunk, ha a vásárlóerőt vizsgáljuk , szeretném megjegyezni önnek, hogy a kafetériaelemek, tehát a kedvezményes adózású munkáltatói juttatási lehetőségek kivéreztetése, amit önök ezzel az évvel elkövettek, valóban vezet oda, hogy emberek bruttó bére növekszik, hiszen önök megszüntettek egy kafetériaelemet, mondjuk, az utazási bérletre vonatkozó támogatást, a mobilitási célú lakhatási támogatást, a diákhitel-támogatás kedvező adózását is megszüntették, ahogy a lakáscélú támogatásét is, amely lakásszerzéshez, -építéshez, -felújításhoz adott munkáltatói hozzájárulásnak számított. Ezek megszüntetésével a jobb érzésű munkaadók természetesen beépítették a dolgozó bruttó bérébe ezt a korábban kafetériaformában adott juttatást, de államtitkár úr, ezt eladni úgy, hogy a munkáltatók maguktól és szépen növelik azokat a béreket, amelyekből a magyar embereknek mindenféle lakhatási és létfenntartási költségeiket kellene ugyanúgy fedezniük, egyszerű statisztikai szemfényvesztés. Arra szólítom fel tehát önöket, és a kérdésem is erre irányul, hogy a kedvezményesen adózó kafetériaelemeket állítsák vissza, a lakáscélú támogatás, a diákhitel-támogatás, az utazási támogatási formák továbbra is úgy kellene hogy adózzanak, hogy kedvezményes módon tudja a munkáltató ezzel a munkavállalót ösztönözni egy olyan bérszínvonal mellett, amely Európában vásárlóerőt tekintve az egyik legalacsonyabb és régiós viszonylatban is kezd elmaradni. Önöknek kutya kötelességük lenne mindezeket a módosításokat visszavezetni, és azt vizsgálni az ellenzékkel együtt, hogy hogyan lehet segíteni tipikus élethelyzetben lévő tipikus magyar embereken, nem csak a felső középosztálytól fölfelé, tehát ahogy önök teszik. Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-10-28-urgent_question-AC8_7810" who="#AntalCsárdi" ana="#regular"><note>CSÁRDI ANTAL (LMP):</note>
+<seg xml:id="AC8_7810.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Miniszter Úr! Tisztelt Ház! A második világháború óta nem fordult elő, hogy a magyar kormány háborús bűnökhöz asszisztált volna, illetve nem fordult elő, hogy háborús bűnösöket támogatott volna.Tisztelt Ház! Tisztelt Miniszter Úr! Döbbenetes, amit a magyar kormány képvisel a magyar-kurd konfliktus kapcsán</seg>
+<seg xml:id="AC8_7810.2">(Dr. Rétvári Bence: Magyar-kurd?)</seg>
+<seg xml:id="AC8_7810.3">Egyértelműen lehet látni és bizonyított, hogy népirtást támogatnak, és amennyiben kétségeik vannak ezzel kapcsolatban, akkor javaslom, hogy egyébként a NATO-szövetségeseinknek azokat a vezetőit keressék meg, akik egyértelműen kimondták, hogy Hevrin Khalafnak az egészen szélsőséges kivégzése, megkínzása ebben a tekintetben kimerítette ezt a fogalmat. A Szíriai Jövő pártnak arról a főtitkáráról beszélünk, aki nem tett mást, mint az etnikai, vallási, kisebbségi csoportok közötti megbékélésért küzdött, és akit a török milícia tagjai végeztek ki, kínoztak meg és csonkítottak meg.</seg>
+<seg xml:id="AC8_7810.4">Nagy kérdés az, hogy mi a magyar nemzet álláspontja, és mi a magyar nemzet érdeke ebben a kérdésben, amikor önök lenyilatkozták, a magyar nemzet nevében támogatják azt a Törökországot, amely mindezt elkövette, elkövettette. Pontosan tudjuk, hogy egy ilyen háborús cselekménynek nincs más hatása, mint a migráció megugrása, és persze nem zárható ki, hogy ez az önök érdeke, hiszen a jelenlegi helyzetet nem tudják már kellőképpen belpolitikai célokra felhasználni. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-10-28-urgent_question-AC8_7811" who="#GergelyArató" ana="#regular"><note>ARATÓ GERGELY (DK):</note>
+<seg xml:id="AC8_7811.1">Tisztelt Miniszter Úr! Budapest utcáin újra fekete ruhás neonácik vonultak fel október 23-án, és keltettek félelmet a békés polgárokban. A büntető törvénykönyv 339. §-a ön jogász, ezt nálam sokkal jobban tudja szerint garázdaság vétségét követi el, ha valaki kirívóan közösségellenes magatartást tanúsí</seg>
+<seg xml:id="AC8_7811.2">(Dr. Rétvári Bence: A gárdisták szövetségese mondja mindezt.)</seg>
+<seg xml:id="AC8_7811.3">, és ezzel megbotránkoztat és riadalmat kelt, vagy a közrendet…, bocsánat, illetve ennek minősített esete, ha minderre csoportosan, köznyugalmat megzavarva, nyilvános rendezvényen kerül sor. A gyülekezési törvény 13. §-a alapján be kell tiltani a gyülekezést, ha a gyűlés a közbiztonságot vagy a közrendet közvetlenül, szükségtelen és aránytalan mértékben veszélyezteti. Azt gondolnánk, hogy ez a két jogszabály teljesen világos eligazítást nyújt abban a tekintetben, hogy az ilyenfajta egyenruhás, alakzatban történő, félelmet keltő masírozásnak nincsen helye Budapest utcáin</seg>
+<seg xml:id="AC8_7811.4">(Dr. Rétvári Bence: A Jobbik felé mondd!)</seg>
+<seg xml:id="AC8_7811.5">De úgy látszik, és hozzáteszem, hogy tavasszal ezt még a rendőrség is tudta, amikor pontosan ezekkel az indokokkal tiltotta meg Törökszentmiklóson a Mi Hazánk nevű, fideszes kamuszervezet felvonulását, de úgy látszik, most mást kíván a politikai érdek, mert most ebben az esetben a rendőrség nemhogy nem lépett föl, hanem egyenesen biztosította és kísérte ezt a menetet. És hogy legyen világos: nemcsak ártatlan vonulgatásról van szó, a feltevések és hírek szerint ugyanennek a csoportnak a tagjai megtámadtak egy szórakozóhelyet, amit megrongáltak.</seg>
+<seg xml:id="AC8_7811.6">(14.10)</seg>
+<seg xml:id="AC8_7811.7">Ugyanennek a csoportnak a tagjai megzavarták egy ellenzéki párt rendezvényét, és nem ennek a csoportnak a tagjai, hanem egy másik szélsőjobboldali személy pedig, aki a kormányzati sajtóban amúgy közkedvelt, megtámadta a Demokratikus Koalíció sajtótájékoztatóját, és megütötte az ott jelen lévő egyik önkormányzati képviselőnket.</seg>
+<seg xml:id="AC8_7811.8">Ezek után az európai polgárok teljesen joggal kérdezhetik, hogy milyen szakmai vagy politikai okok miatt tűrik önök a szélsőjobb randalírozásá</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC8_7811.9">Budapest utcáin. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a DK soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-10-28-urgent_question-AC8_7813" who="#HajnalkaJuhász" ana="#regular"><note>JUHÁSZ HAJNALKA (KDNP):</note>
+<seg xml:id="AC8_7813.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Az élet egyik legfontosabb alapfeltétele a víz. A Föld felszínének mintegy háromnegyed részét is víz borítja, ezért is nevezzük a Földet kék bolygónak. A földi víztömeg több mint 97 százaléka a világ óceánjaiban és tengereiben található sós víz. A Föld édesvízkészleteinek nagy részét képező felszíni édesvizek döntő része fagyott állapotban van jelen, bolygónk gleccsereiben, illetve állandó hó- és jégborította területein. Mindez azt jelenti, hogy az emberiségnek és élővilágunk azon részének, amelynek életben maradása a felszíni édesvizektől függ, bolygónk összes vízkészletének mindössze 0,02 százalékán kell megosztoznia. Jelenleg a Föld több mint 7,5 milliárd lakosából 2,3 milliárd már most sem jut elegendő vízhez, és az ENSZ-becslések szerint 50 év múlva 40 százalékkal többen, mintegy 10,5 milliárdan élnek majd a Földön, a vízkészlet azonban ezen idő alatt is folyamatosan csökken. Szakértők az államközi konfliktusokat tekintik az első számú globális kockázatnak, hatásukat tekintve azonban a vízügyi problémák jelentik a legnagyobb kockázatot már évek óta, ahogy az több felmérésből is felolvasható és kiolvasható.</seg>
+<seg xml:id="AC8_7813.2">Tisztelt Államtitkár Úr! Budapesten immár harmadszorra került megrendezésre a napokban a víz-világtalálkozó. A konferencia fő eseménye a kiemelt előadók részvételével zajló tematikus plenáris ülés volt, melynek szekciói a vízzel kapcsolatos kihívásokat, kiemelten a „sok víz, kevés víz, szennyezett víz” hármas okozta problémákat és azok szociális, gazdasági, környezeti és politikai következményeihez kapcsolódó kérdéseket vitatták meg. A víz-világtalálkozó a Budapest-felhívásban hangsúlyozza, hogy vízbiztos jövőt kell teremteni, új vízkultúrát építeni az innovatív technológiák segítségével és minden szektor szereplőjének az együttműködésével.</seg>
+<seg xml:id="AC8_7813.3">A záródokumentumokban meghatározottakra tekintettel kérdezem tisztelettel az államtitkár urat: az idei víz-világtalálkozó milyen eredményeket hozott a hazai, illetve a nemzetközi vízdiplomácia tekintetében, és az esemény hogyan járult hozzá a globális vízválság kezeléséhez? Köszönöm a megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-10-28-urgent_question-AC8_7814" who="#OlivioKocsis-Cake" ana="#regular"><note>KOCSIS-CAKE OLIVIO (Párbeszéd):</note>
+<seg xml:id="AC8_7814.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Miniszter Úr! A Pénzügyminisztérium Várba költözésének a költsége a tervezett 26 milliárdról most már majdnem a duplájára, 47,5 milliárdra rúghat. Összességében a kormányzati negyed kialakítása több mint 200 milliárdba fáj az adófizetőknek. Tehát miközben a kórházakba a betegek viszik a gyógyszereket, a különböző felszereléseket, miközben az állami dolgozók, pedagógusok, rendőrök, tűzoltók azért túlóráznak, hogy rendesen meg tudjanak élni, aközben a kormány a Várban urizál, Gundel-reggelit eszik. De ha a városüzemeltetésről beszélünk, akkor a 47 milliárd a tízszerese annak, amit mondjuk, Budapest egy évben fővárosi közparkok fenntartására költ. Az összes közparkunk ragyoghatna, csilloghatna. Ráadásul a Pénzügyminisztérium állományának mindössze a fele fog itt dolgozni, tehát nem szabadul föl más épület, s logisztikailag is problémás lesz egy kettészakított minisztérium. Az építkezés már most megnehezíti a Vár életét, az itt dolgozó ezer ember forgalma pedig nagy közlekedési kihívást fog jelenteni. Tehát amellett, hogy elég drága ez az urizálás, a Vár kulturális, turisztikai és közösségi funkciója mellé még kormányzati funkciót is kap, így állandó konfliktusokhoz fog vezetni ez a jövőben.</seg>
+<seg xml:id="AC8_7814.2">Kérdéseim tehát: mennyibe fog még az urizálás kerülni az adófizetőknek? Mit terveznek még a Várban építeni? És ahogy a miniszterelnök kijelentette, hogy a főváros vezetésének támogatása nélkül nem épülhet meg semmi, ugyanez az elv érvényese a kormányzati negyedre is, azaz a kormány egyeztetni foge a fővárossal, illetve az új I. kerületi polgármesterrel például a Pénzügyminisztérium odatelepítéséről is? Köszönöm a válaszát</seg>
+<kinesic type="applause"><desc>Taps a Párbeszéd és az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-10-28-urgent_question-AC8_7815" who="#LajosKorózs" ana="#regular"><note>KORÓZS LAJOS (MSZP):</note>
+<seg xml:id="AC8_7815.1">Köszönöm szépen. Tisztelt Ház! Tisztelt Képviselőtársaim! Önök előtt ismeretes, hogy a Legfőbb Ügyészség vádat emelt Simonka György képviselő ellen bűnszervezetben elkövetett, nagy összegű, nagy értékű költségvetési csalás ügyében. Ez az ügy, amelyet szeretnék most firtatni, ezer szállal kötődik Simonka Györgyhöz. A „Nők a családban, a munkahelyen” elnevezésű projekt révén Simonkáék EFOP-pénzeket hívtak le, szó szerint megegyező pályázatok révén. Minden egyes pályázat 200-200 millió forintról szólt, hat olyan pályázatot nyújtottak be, amelyek különböző településeken kerültek volna vagy kerültek megvalósításra. Igaz, hogy ezek a települések mind térszerkezetileg, mind demográfiai összetételében teljesen eltértek egymástól, ugyanakkor még az elütések a pályázatokban és a szóismétlések is megegyeznek. Minden egyes pályázatban 30 százaléknyian vannak azok, akik atipikus foglalkoztatásban vesznek részt, mindenütt 10 százalék a romák aránya, mindenhol ezeket a pénzeket projektmenedzselésre, HR-tanácsadókra és tréningekre költik, ha egyáltalán ezek a tréningek létrejöttek. Mindezek miatt kérdezem miniszter urat, tetteke büntető feljelentést, mert ma már a vak is látja, hogy Dél-Békésben futószalagon gyártották ezeket a pályázatokat, nyújtották be, és nyúlták le ezeket a pénzeket. Kérdezem még egyszer: tetteke büntető feljelentést? Mert ha véletlenül önök nem tettek volna, én a holnapi nap folyamán meg fogom tenni</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-10-28-urgent_question-AC8_7816" who="#TamásHarangozó" ana="#regular"><kinesic type="noise"><desc>DR. HARANGOZÓ TAMÁS (MSZP): Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Tisztelt Országgyűlés! A Vágóhíd utcai rendőrségi objektum lassan 30 éve közmegbecsülésnek örvend, és főleg a rendvédelmi szervek dolgozói között nagyon közismert intézmény, hiszen sport- és rekreációs lehetőségen túlmenően, a különböző szervezetek nyugdíjasklubjain át egyébként nagyon szép gesztusként minden évben a rendőrárvák műsora és az ő karácsonyi ajándékozásuk is ezen az objektumon zajlik. Legalább ennyire fontos, hogy a jogszabályban előírt éves fizikai felmérését, ha jól tudom, de javítson ki, államtitkár úr, a közel 15 ezer Budapesten és környékén állományban lévő rendőrnek is ezen az objektumon kell teljesítenie minden évben, amit törvény ír elő, annak részleteit pedig rendelet szabályoz. Most ehhez képest elég furcsán veszi ki magát az a hír, ami hozzám több helyről eljutott, államtitkár úr és miután semmilyen nyilvános információ ezzel kapcsolatban nem elérhető sem a Belügyminisztérium, sem a rendőrség honlapján, ezért önhöz fordulok , ami azt mondja, hogy ennek az objektumnak egy jó részét eladták vagy átadták másnak. Különböző pletykák jelentek meg arról a szervezeten belül, hogy ez az OTP ingatlanfejlesztésének a része lesz, vagy éppen a Fradi kérte el ezt a területet, de tény és való, amit a saját szememmel is láttam, mert ezek után elmentem, államtitkár úr, megnézni, hogy az atlétikai pálya ezen a területen belül teljesen fel van túrva, le van kerítve, és a továbbiakban nem használható legalábbis jelenleg ennek az objektumnak a részeként. Így egyébként nem tudják teljesíteni a kollégák azt sem, ami a törvényben elő van írva, hiszen az éves fizikai felmérés részeként azon a területen is kötelességük lenne bizonyos dolgokat teljesíteni.</desc></kinesic>
+<seg xml:id="AC8_7816.1">Kérdezem tehát államtitkár urat, igaz-e, hogy ez a terület el lett adva vagy más tulajdonába került. Ha igen, akkor kinek és miért? Ha nem, akkor pedig legyen kedves válaszolni, hogy mi az oka ennek a beavatkozásnak, és meddig fog ez tartani. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP és a DK soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-10-28-urgent_question-AC8_7817" who="#SándorKovács" ana="#regular"><note>KOVÁCS SÁNDOR (Fidesz):</note>
+<seg xml:id="AC8_7817.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Miniszter Úr! A mostani helyhatósági választások a kampányban a közbeszéd állapotát sajnos tovább süllyesztették. Sajnos nem mehetünk el amellett, hogy a Gyurcsány Ferenc által pénzelt ellenzéki összefogás egy olyan méltatlan jelöltet támogatott, mint Lackner Csaba, aki a nyilvánosságra került hangfelvételek alapján arról híresült el, hogy strómanok felhasználásával, jogtalan módon tett szert magáncélú anyagi haszonra.</seg>
+<seg xml:id="AC8_7817.2">(14.30)</seg>
+<seg xml:id="AC8_7817.3">Lackner Csaba a kikerült hangfelvételek alapján azzal dicsekedett, hogy kerületi képviselőként hogyan lehet évi minimum százmillió forint nettó árbevételre szert tenni törvénytelen úton. Szerinte, amelyik képviselő erre nem képes, az tehetségtelen s egyszerűen botor. A közzétett hanganyagból az is kiderül, hogy 200-250 millió forint nagyon gyorsan elkölthető, főleg azoknak az embereknek, akik hozzá vannak ehhez az életmódhoz szokva. S még ezek után az elhangzottak valódiságát egytől egyig tagadja a mai napig is. A kispesti polgármester, Gajda Péter és az MSZP országgyűlési képviselője, Kunhalmi Ágnes is egyenesen visszautasították a vádakat. Mindezek ellenére október 25-én a szocialisták elnöke a Facebook-oldalán csak annyit nyilatkozott, idézem: „Lejárt a határidő.” Ezzel ő maga is egyértelművé tette, hogy nem hajlandó egy lapon szerepelni Lackner Csabával.</seg>
+<seg xml:id="AC8_7817.4">Világossá kell tenni tehát mindenki számára, hogy Magyarországon senki sem idézheti elő a helyi közélet romlását, és ezzel együtt pedig nem akadályozhatja a helyi önkormányzatok működését következmények nélkül. Az elhangzottakra tekintettel kérdezem tisztelt miniszter urat, hogy milyen biztosítékai vannak a helyi önkormányzatok törvényes működésének.</seg>
+<seg xml:id="AC8_7817.5">Köszönöm megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

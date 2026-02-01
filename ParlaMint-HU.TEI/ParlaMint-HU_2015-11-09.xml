@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2015-11-09" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2015-11-09 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2015-11-09 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2733" unit="words">2733 szó</measure>
+        <measure xml:lang="en" quantity="2733" unit="words">2733 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2015-11-09">2015. 11. 09.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="37"/>
+          <tagUsage gi="kinesic" occurs="10"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2015-11-09">2015-11-09</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2015-11-09-urgent_question-AC7_6932" who="#TamásSneider" ana="#regular"><note>SNEIDER TAMÁS (Jobbik):</note>
+<seg xml:id="AC7_6932.1">Tisztelt Miniszterelnök Úr! Tisztelt Ház! Tisztelt Elnök Úr! Az MSZP pár évvel ezelőtt 62 évről 65 évre emelte fel a nyugdíjkorhatárt, majd 8 százalékkal csökkentette a nyugdíjak reálértékét, elvette a 13. havi nyugdíjat.</seg>
+<seg xml:id="AC7_6932.2">Joggal gondoltuk azt, hogy a Fidesz más politikát fog folytatni, viszont azt tapasztaltuk, hogy a korai nyugdíjaztatás intézményét gyakorlatilag megszüntette a Fidesz, majd elvette a 3000 milliárd forintos magán-nyugdíjbiztosítási vagyont, amely végül is nem került a nyugdíj felé igyekvők kezébe, nem lett egyéni számla, hiszen most lett épp kijelentve.</seg>
+<seg xml:id="AC7_6932.3">Nos, sorra olyan helyzet állt elő, amelyek megnehezítették azoknak az embereknek a jövőjét, lehetőségeit, akik ugyan még nem jutnak el az egyre emelkedő nyugdíjkorhatár idejéhez, viszont már nem tudnak dolgozni, mert fizikailag egyszerűen lehetetlen, hogy olyan munkát végezzenek, amelyet megkövetel tőlük, mondjuk, a mentőszolgálat, hogy a negyedik emeletről 150 kilós beteget hozzanak le hordágyon 65 éves emberek, vagy a tűzoltókra is ugyanezt lehetne mondani. De mondhatom a sofőröket és nagyon sok területet, ahol bizony a reakcióidő miatt 65 évesen már nem lehet úgy vezetni egy mozdonyt vagy egy buszt sok esetben, mint ahogy jóval korábban.</seg>
+<seg xml:id="AC7_6932.4">Mi vár, kérem szépen, most a nyugdíj felé igyekvőkre az utolsó években? Közmunka; közmunka, miniszterelnök úr. Az ön rendszere gyakorlatilag azt eredményezte jelen pillanatban, hogy az utolsó éveiket, 55-60 év környékén vagy még utána, amit a munka világában tölthetnének, vagy valamilyen más lehetőséget kihasználhatnának, azt közmunkásként kell letölteni. Ez a karrier vége, egy mentős, egy tűzoltó, egy sofőr vagy egy vegyész karrierjének a vége a közmunka.</seg>
+<seg xml:id="AC7_6932.5">Miniszterelnök úr, várom a válaszát, hog</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret lejártát.</desc></kinesic>
+<seg xml:id="AC7_6932.6">mikor lesz már valami érdemi változás, hogy ne ez legyen a férfiaknak a sorsa az elkövetkező években, évtizedekben</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-11-09-urgent_question-AC7_7334" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_7334.1">Köszönöm, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Nemrég arról lehetett olvasni, hogy több, 3 ezer fő fölötti lakosságszámú önkormányzat is visszakéri az iskolája működtetését, kiderült ugyanis, hogy amennyiben nem ők végzik ezt a feladatot, a Klebelsberg Intézményfenntartó Központ jóval nagyobb hozzájárulást kér tőlük, mint amennyibe az iskola működtetése korábban a településnek került. Így mégis jobban megéri saját maguknak üzemeltetni ezeket az intézményeket, ami persze az iskolafenntartás, -működtetés új rendszerében nem jelent többet, mint a rezsi fizetését, az épület karbantartását, a portás alkalmazását, a villanykörte cseréjét, tehát érdemi beleszólást az oktatásba sajnos egyáltalán nem, erre ugyanis nincs lehetőség. A pedagógiai munka, vagyis lényegében az iskolák fenntartása a KLIK, az állam feladata.</seg>
+<seg xml:id="AC7_7334.2">A központosított oktatási rendszer jellemzője, hogy minden fontos kérdés a Szalay utcában, a minisztériumi dolgozószobákban dől el. A nagyfokú centralizáció súlyos forráshiánnyal párosul, 2010-hez képest ma éves szinten 200 milliárd forint hiányzik az iskolarendszerből. A KLIK állandó fizetési problémákkal küzd, súlyos adósságokat görget maga előtt.</seg>
+<seg xml:id="AC7_7334.3">Ezzel a túlzott központosítással az LMP határozottan nem ért egyet. Nem értünk egyet a korábbi liberális rendszerrel sem, amikor pedig mindent az önkormányzatokra hárítottak. Mi egy olyan fenntartói modellt képzelünk el, ahol, amelyik önkormányzat szeretné és képes rá, a megfelelő forrásokkal együtt kaphassa vissza az iskoláját.</seg>
+<seg xml:id="AC7_7334.4">Tisztelt Államtitkár Úr! A sok egyéb működési probléma mellett most már az is kiderült, hogy valójában felárral dolgozik a KLIK, ha a működtetésről van szó. Mire megy el az önkormányzatok hozzájárulása, amennyiben nem ők működtetnek? Visszaforgatják-e az adott település iskoláira, avagy valóban felárral dolgozik a KLIK? Várom válaszát</seg>
+<kinesic type="applause"><desc>Sallai R. Benedek tapsol.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-11-09-urgent_question-AC7_7335" who="#R.BenedekSallai" ana="#regular"><note>SALLAI R. BENEDEK (LMP):</note>
+<seg xml:id="AC7_7335.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Talán nem kerülte el a figyelmét múlt héten, „Nem érdemes megvenni a Mezort földjeit” címmel megjelent egy cikk, amely egy mezortos közleményre utal, amely arról szól, hogy gyakorlatilag a Mezort Zrt.-nek olyan szerződése van a magyar állammal, amely ellehetetleníti annak a feltételeit, hogy a jelenlegi, talán 560 forintos aranykoronánkénti földhaszonbérleti díjjal megváltoztatásra kerülhessen. Ennek a feltételeit az első Orbán-kabinet határozta meg és adta el ezeket a földeket.</seg>
+<seg xml:id="AC7_7335.2">Mióta a pártunk itt van a parlamentben, több alkalommal próbáltuk kideríteni, hogy mi is van ezek mögött az állami gazdasági privatizációk mögött, milyen feltételekkel, hogyan adták oda ezeket. Nyilvánvalóan osztom Győrffy Balázs képviselőtársam aggályát, aki rendszeresen ilyenkor az orrom alá dörgöli, hogy nemcsak a piszkos tizenkettő létezik, hanem több más - más kormányok által - privatizált terület is. Ennek megfelelően megtudtuk, hogy ezeknek a zrt.-k földjeinek egy része kijelölésre került értékesítésre, egy másik része nem, de mindenképpen felmerül, hogy jóformán a hűtlen kezelés fogalmát valósítja meg az, aki az állami vagyonból 148 ezer hektárt messze piacon árak alatt odaad hosszú távú hasznosításra ötven évre, kikötve egy kétoldalú szerződésben azt, hogy még csak emelni sem lehet a díjat.</seg>
+<seg xml:id="AC7_7335.3">(14.20)</seg>
+<seg xml:id="AC7_7335.4">Nyilvánvalóan felmerül a kérdés, hogy kik ezért a felelősek. Megértem, hogy nemcsak az Orbán-kabinetet érinti ez a kérdés, hanem a korábbi MSZP-s kormányokat is - de lesz-e olyan helyzet, hogy a magyar társadalom tisztán láthat? Kívánják-e rendbe tenni a helyzetet? Mitől van az, hogy csak ilyen mezortos közleményekből tudhatjuk meg, hogy mit is rejtenek ezek a szerződések? Mire számíthatunk ebben a maffiaháborúban, mennyi csontváz kerül elő, és miket tud még meg a magyar társadalom az elmúlt 25 évéről? Erre várom államtitkár úr válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-11-09-urgent_question-AC7_7337" who="#GabriellaSelmeczi" ana="#regular"><note>DR. SELMECZI GABRIELLA (Fidesz):</note>
+<seg xml:id="AC7_7337.1">Köszönöm. Tisztelt Elnök Úr! Tisztelt Államtitkár Asszony! Kedves Képviselőtársaim! A népesedési folyamatok alakulása Magyarország és Európa jövője szempontjából is természetesen kiemelt jelentőséggel bír. Sokan Európát az üres bölcsők kontinensének tartják, mert szinte minden európai országban kevesebb gyermek születik annál, mint amennyi a népesség saját erőből történő fennmaradásához szükséges lenne.</seg>
+<seg xml:id="AC7_7337.2">Az elégtelen gyermekszám közép- és hosszú távon is veszélyezteti a nemzetgazdaságok működését. 2010-ben Magyarországon családpolitikai fordulat következett be, és fontos intézkedésekről döntöttünk. Így például a szocialisták által két évre csökkentett gyes időtartamát három évre emeltük vissza, és a szinte teljesen eltörölt családi adókedvezményt új, megerősített formában léptettük életbe 2011-ben. A kifejezetten alacsony jövedelmű családoknak pedig nagy segítséget jelent, hogy ha az adójukból nem tudják leírni az adókedvezményt, immáron a járulékokból is le tudják ezeket írni, sokkal több pénz maradhat így a szegényebb családoknál. Szintén jelentős változás a 2014. január 1-jén hatályba lépett gyed extra intézkedés is, ez alapján például a gyermekgondozási ellátások mellett korlátlanul lehet dolgozni, és mind a fizetését, mind pedig a gyedet is megkaphatja a szülő. A következes családbarát politikának már látszanak az első eredményei, hiszen 2014-ben már 3,2 százalékkal nőtt a születések száma, és négy éve folyamatosan nő a házasságkötések száma.</seg>
+<seg xml:id="AC7_7337.3">Tisztelt Államtitkár Asszony! Múlt héten Budapesten került megrendezésre a demográfiai fórum, amelyen 18 ország politikusai, civil képviselői, egyházi és tudományos vezetői vettek részt. Tisztelt Államtitkár Asszony! Kérem önt, hogy itt, a parlament plenáris ülésén tájékoztasson bennünket és a közvéleményt, hogy melyek voltak a fórum legfontosabb tapasztalatai. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-11-09-urgent_question-AC7_7338" who="#JenőManninger" ana="#regular"><note>MANNINGER JENŐ (Fidesz):</note>
+<seg xml:id="AC7_7338.1">Tisztelt Államtitkár Úr! Magyarország közlekedési infrastruktúra-fejlesztése több kihívásnak és társadalmi szempontnak kell megfeleljen. Úgy kell szolgálnia hazánk versenyképességének fokozását, hogy az országosan kiegyensúlyozott gazdasági és jóléti előrehaladással csökkentse a környezetre gyakorolt negatív hatásokat, javítsa a biztonsági szintet, érvényesítse a klímavédelmi szempontokat, elősegítse a foglalkoztatás bővülését, csökkentse a területi egyenlőtlenségeket. Az elmúlt években jelentős eredményeket ért el hazánk az autópályák bővítésében, gyorsforgalmi, illetve elkerülő utak építésében, felújításában. Kiemelt figyelmet kap a kerékpárhálózat fejlesztése is, 2010 óta több mint 500 kilométer kerékpárút készült el.</seg>
+<seg xml:id="AC7_7338.2">Ugyanakkor Magyarországon is fontos környezetpolitikai cél, hogy minél többen használják a vasutat. Az elmúlt években a vasúti társaság helyzete az átszervezéseknek és a kormányzati támogatásoknak is köszönhetően rendeződni látszik, megnyugtatóbban készülhetnek a következő évekre. Ugyanakkor a pályák állapota, a vasúti hálózat szintje még elmarad attól, hogy igazán versenyképes legyen.</seg>
+<seg xml:id="AC7_7338.3">Kérdezem államtitkár urat, hogy mit tesz a kormány a vasúthálózat fejlesztéséért. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-11-09-urgent_question-AC7_7339" who="#MátyásFirtl" ana="#regular"><note>FIRTL MÁTYÁS (KDNP):</note>
+<seg xml:id="AC7_7339.1">Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Július 1-jétől nyújthatták be a pályázataikat azok, akik az „Otthon melege” program mosógépcserét támogató alprogramjában kívántak részt venni. A programnak ez már az ötödik alprogramja, amit a korábbiakhoz hasonlóan komoly érdeklődés kísér, amit az is jól mutat, hogy a félmilliárd forintos pályázati keret négyszeresére érkezett igénylés.</seg>
+<seg xml:id="AC7_7339.2">A Nemzeti Fejlesztési Minisztérium a beérkező igényeknek megfelelően bővítette a programra szánt keretet, ezzel biztosítva, hogy minél többen részesülhessenek támogatásban. Ahogyan a program korábbi pontjai, úgy a mosógépcsere-program is azt a célt szolgálja, hogy a háztartások energiahatékonyságát növelje és ezzel egy időben csökkentse a kibocsátott szén-dioxid-mennyiséget. A mostani programot megelőző időszakban pályázni lehetett homlokzatszigetelésre, kazáncserére, hűtő- és fagyasztógépcserére, valamint társasház-felújításra. A korábbi évek programjai a mostani csereprogramhoz hasonlóan sokak érdeklődését váltotta ki, feltehetően azért is, mert a megvalósult projektek a kormány által bevezetett rezsicsökkentésen felül további megtakarításokat eredményeztek a családoknak. Ezek a megtakarítások segítik a családok életkörülményeinek javítását, és azt is mondhatnánk, hogy egyfajta zöldítést is véghezvisznek a családok energia-háztartásában.</seg>
+<seg xml:id="AC7_7339.3">Ezek alapján kérdezem tisztelt államtitkár urat, sikeresnek mondható-e az „Otthon melege” program mosógépcsere-alprogramja. Erre várom államtitkár úr válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-11-09-urgent_question-AC7_7341" who="#LászlóVarga" ana="#regular"><note>DR. VARGA LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_7341.1">Köszönöm a szót, elnök úr. Tisztelt Miniszterelnök Úr! Nemrégiben, mintegy fél éve Miskolcon járt, és több ígéretet tett a „Modern városok” program keretében. Néhány ilyen, ezzel kapcsolatos kérdésre térnék ki azonnali kérdésemben.</seg>
+<seg xml:id="AC7_7341.2">Először is, ön az M30-as meghosszabbítását ígérte, Kassa és Miskolc között autópálya-összeköttetést ígért. Erről azóta kevesebbet hallani, sajnos csak egy 1,7 kilométeres szakaszról írt ki közbeszerzést az illetékes hatóság, és csökkentett műszaki tartalomról is hallani olyan autóutaknál, amelyeken szintbeli kereszteződések is lehetnek. Ez nyilván nem lenne szerencsés egy olyan autóút, autópálya esetében, amely észak-déli összeköttetést is jelenthet - akár egy későbbi szlovák szakasszal - Lengyelország és Magyarország között. Adódik a kérdés, hogy megépülhet-e valóban az M30-as autópálya további szakasza, Kassa és Miskolc összeköttetése.</seg>
+<seg xml:id="AC7_7341.3">Ígért ezer hektár ipari parkot is, amelynek az előkészítése zajlik, de a sok beékelődött terület kapcsán ennek nagyon sok nehézsége van. Nekem lenne itt egy javaslatom: kérem, fontolja meg, a DAM területe mintegy 130 hektár, a mai napig részint parlagon hever, nagyon összetett a tulajdoni viszony. Azt szeretném mondani, hogy a barnamezős rehabilitáció ott hangsúlyos lenne, egy olyan tájsebet kéne megoldani Miskolcon, a DAM területén, Diósgyőrben, amely ugyanígy hasznosítható lenne a későbbiekben is, tehát nemcsak az ilyen beékelődött zöldmezős területek fejlesztésére van szükség, hanem igenis a diósgyőri korábbi kohászati terület fejlesztésére is.</seg>
+<seg xml:id="AC7_7341.4">(13.30)</seg>
+<seg xml:id="AC7_7341.5">Kitérnék, mivel van időm, még egy kérdésre, amely, azt gondolom, nagyon fontos, az intermodális csomópontok kérdésére. Ebben a tekintetben is azt gondolom, várják a miskolciak azokat a válaszokat, amelyek arról szólnak, hogy Y-híd; arról szólnak, hogy mikor lehet végre a Tiszai pályaudvar környékén egy olyan intermodáli</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret lejártát.</desc></kinesic>
+<seg xml:id="AC7_7341.6">csomópont, amelyet évek óta ígérnek. Köszönöm, elnök úr</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-11-09-urgent_question-AC7_7343" who="#BertalanTóth" ana="#regular"><note>DR. TÓTH BERTALAN (MSZP):</note>
+<seg xml:id="AC7_7343.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Bizonyára ismeri a bibliai Ézsau történetét. Ézsau volt az, aki elsőszülöttségével járó különleges jogairól lemondott Jákob javára, egy tál lencséért cserébe. És bizonyára ismeri most már az MVM Partner Zrt. offshore gázmutyijának részleteit is, amely sokban hasonlít az előző történethez. Ez az állami cég volt az ugyanis, amelyik az olcsó ausztriai gázimporttal kapcsolatos különleges jogairól és ezzel akár százmilliárd forintról mondott le a miniszterelnök kötélbarátságába tartozó egyik üzletember tulajdonában is lévő cég számára pár száz millió forintért cserébe.</seg>
+<seg xml:id="AC7_7343.2">Mindkét történet közös jellemzője, hogy minimális rövid távú haszonért cserébe lemondtak a hosszú távú nagy haszonról. Országgyűlési képviselőként feladatom és felelősségem felhívni a figyelmet arra, hogy az említett időszakban a közpénzekkel garázdálkodó MVM átlagosan 10 százalékkal magasabb áron segítette a magyar piacra a METI gázát, ezzel pedig mesterségesen magasan tartotta a gáz árát, és így a magyar vállalkozások versenyképességét rontotta, és a háztartásoktól, vállalkozóktól akár havi 3000 forintot vont el.</seg>
+<seg xml:id="AC7_7343.3">Tisztelt Miniszter Úr! Korábban itt, a Parlamentben azt mondta: „Ez a kormány egyetlenegy érdeket szolgál ki, a magyar választópolgárok érdekeit szolgálja ki minden egyes döntésével, azzal a döntésével is, ami a Magyar Villamos Műveknél születik.” Ma már biztosan láthatjuk, hogy ez nem így történt. Ebben kétségtelenül felelős a korábbi nemzeti fejlesztési miniszter, Németh Lászlóné és az MVM akkori menedzsmentje, Baji Csabától Horváth Péterig.</seg>
+<seg xml:id="AC7_7343.4">Tisztelt Miniszter Úr! Ha ön még mindig komolyan gondolja az előbb idézett mondatait, úgy miért bízta a kecskére a káposztát? Miért bízta meg azokat az embereket az állami közműszolgáltatási rendszer kialakításával, akik korábban is az állam érdekei helyett egy offshore hátterű magáncég érdekeit juttatták érvényre? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+<seg xml:id="AC7_7343.5">(14.00)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-11-09-urgent_question-AC7_7344" who="#DóraDúró" ana="#regular"><note>DÚRÓ DÓRA (Jobbik):</note>
+<seg xml:id="AC7_7344.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Miniszterelnök Úr! A nemzeti minimum programjáról szóló, a gyermekéhezés felszámolását célzó határozati javaslattal kapcsolatban Harrach Péter, a KDNP frakcióvezetője a múlt héten a következőt mondta: „Az a probléma, hogy rárepült az ellenzék a témára, erre a konkrét kezdeményezésre is, és amikor megjelent a bizottság előtt is ez az anyag, akkor ezt az ellenzéki képviselők terjesztették elő, és ez egy olyan helyzetet teremtett, amelyet nem lehet felvállalni. Hiszen ezzel, ennek támogatásával mi egy ellenzéki, baloldali kampányt támogattunk volna.” Kósa Lajos, a Fidesz frakcióvezetője még tovább ment, ő azt mondta, hogy ez a kezdeményezés átlátszó és primitív politikai kampány.</seg>
+<seg xml:id="AC7_7344.2">Tisztelt Miniszterelnök Úr! Ez az előterjesztés azt célozza, hogy Magyarországon az az 50 ezer gyermek, aki tartósan éhezik, ne legyen ebben a helyzetben. Semmi más célja nincsen ennek az előterjesztésnek. Ez egy civil kezdeményezés, amely Horgas Pétertől indult; én magam előtte őt nem ismertem, soha vele nem találkoztam, felvette velem a kapcsolatot, és kérte, hogy a Jobbikból én legyek az, aki támogatja ezt a kérdést. Ezért álltam mellé. És melléállt egyébként Csöbör Katalin fideszes képviselő asszony is. Nemcsak az aláírásával látta el ezt az előterjesztést, hanem részt vett azon a rendezvényen, amit a Budapest Sportarénában tartottak; az összes párt képviselője együtt feljött a színpadra, átvettük ezt a határozati javaslatot, később erről összpárti egyeztetés volt, ezt követően nyújtottuk be, sőt még Czibere államtitkár úrral is voltak egyeztetések a minisztériumban.</seg>
+<seg xml:id="AC7_7344.3">Miniszterelnök úr, úgy gondolom, hogy túl kellene lépni azon a XX. századi mentalitáson, amit Harrach Péter és Kósa Lajos ebben a kérdésben képviselnek, és nemzeti ügyekben félre kellene tenni a pártpolitikát, ahogyan azt a Jobbik például a migránskérdésben is megtette. A kérdésem, hogy a kormány támogatja-e azt, hogy ez az előterjesztés a Ház elé kerüljön, és ön szerint az a mentalitás, amit az ön képviselőtársai ebben a kérdésben tanúsítottak, a nemzeti érdekek előrejutását elősegíti-e. Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

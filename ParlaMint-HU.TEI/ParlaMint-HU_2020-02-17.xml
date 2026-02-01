@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2020-02-17" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2020-02-17 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2020-02-17 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="12" unit="speeches">12 beszéd</measure>
+        <measure xml:lang="en" quantity="12" unit="speeches">12 speeches</measure>
+        <measure xml:lang="hu" quantity="4327" unit="words">4327 szó</measure>
+        <measure xml:lang="en" quantity="4327" unit="words">4327 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2020-02-17">2020. 02. 17.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="12"/>
+          <tagUsage gi="seg" occurs="45"/>
+          <tagUsage gi="kinesic" occurs="13"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2020-02-17">2020-02-17</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2020-02-17-interpellation-IC8_9149" who="#AndrásAradszki" ana="#regular"><note>DR. ARADSZKI ANDRÁS (KDNP):</note>
+<seg xml:id="IC8_9149.1">Tisztelt Miniszter Úr! Az emberiség és a bolygónk megmentése érdekében nem lehet elégszer elmondani, hogy a klímaváltozás milyen súlyos következményekkel jár. Egy hosszan tartó folyamat közepén vagyunk, amely folyamatnak fontos eseménye volt a párizsi klímacsúcs, ahol történt egyfajta megegyezés annak érdekében, hogy miként csökkentsék a Földön a CO2-típusú gázok kibocsátását a különböző kibocsátó szektorok képviselői. Az országok vállalásokat tettek, és ezeket a vállalásokat egyezménnyel szentesítették. Fontosnak tartom kiemelni, hogy a klímaveszedelem, illetve a klímavészhelyzet egyik legfőbb okozója az energiatermelés. A Nemzetközi Energia Ügynökség tavaly novemberben közzétett, a világ energetikai kitekintéséről szóló 2019-es kiadványa jelezte és elmondta, hogy a párizsi forgatókönyv egyértelmű üzenete elérésének érdekében a globális klímavédelmi célokat úgy kell megfogalmazni, hogy az atomerőművek, a megújuló energiaforrások részarányát jelentősen növelni kell az energiatermelésben, csökkentve ezzel a jelentős szén-dioxid-kibocsátású, szenes alapú erőművek termelését.</seg>
+<seg xml:id="IC8_9149.2">A kormány e tekintetben elfogadta az energia- és klímapolitikai stratégia dokumentumait, amely 2030-ig a hazai villamosenergia-termelés 90 százalékát klímabaráttá kívánja tenni. Ennek nagyon fontos része a Paks I. erőmű működtetése és mellette a megkezdődött Paks II. atomerőmű beruházása és majdan termelésbe állítása. Azért is fontos, hogy erről beszéljünk, mert jelentősen hozzájárul az atomerőmű - a jelenlegi és a jövőbeni - ahhoz, hogy Magyarország ne csak teljesítse a klímavédelmi elképzeléseit, hanem jelentősen csökkentse a függőségét a határon túlról megvásárolt villamos energia tekintetében. December 5-én ugyanis a villamosenergia-fogyasztás újabb rendszerterhelési csúcsot ért el 7105 megawattos értékben, amelyből 2402 megawatt volt import.</seg>
+<seg xml:id="IC8_9149.3">Kérdezem a miniszter urat, hogy a Paksi Atomerőmű működése és az új beruházások milyen mértékben és milyen arányban járulnak hozzá a klímavédelmi célokhoz, és milyen mértékben segítik Magyarország függőségének megszüntetését a villamosenergia-ellátásában. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-02-17-interpellation-IC8_9157" who="#DóraDúró" ana="#regular"><note>DÚRÓ DÓRA (független):</note>
+<seg xml:id="IC8_9157.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Gulyás Gergely is elismerte, hogy, idézem: „Egyes megyékben úgy alakulnak ki teljesen cigány osztályok az iskolákban, hogy a nem cigány szülők elviszik onnan a gyermekeiket.” Eddig az idézet. Tehát nem én neveztem a magyarokat nem cigánynak, hanem Gulyás Gergely, ezt fontos már az elején nyomatékosítani. Mindezen ténymegállapítás ellenére azt is mondta, hogy a kormány, nem pénzbeni juttatás formájában ugyan, de teljesíti kártérítési kötelezettségét. Ezzel párhuzamosan azzal is büszkélkedik a kormányoldal több prominense, hogy megszüntették a szegregációt Gyöngyöspatán. Hogy is van ez akkor, államtitkár úr? A Mi Hazánk Mozgalom szerint a szegregációt nem megszüntetni, hanem törvényesíteni kellene, és akkor nem lenne lehetőség kártérítési perekre sem. Nem trükközni kellene tehát, hanem radikálisan megoldani a problémát az ország egész területén, nem csak Gyöngyöspatán, de úgy tűnik, hogy eddig már nem mernek elmenni. Pedig a probléma nem csak Gyöngyöspatán létezik és nem is teljesen új keletű. Elismerik tehát ugyan, hogy a magyar családok kényszerülnek arra országszerte, hogy más településre vagy egy távolabbi iskolába járassák a gyermekeiket - csak Gyöngyöspatán 86 ilyen gyermek él -, mert bizonyos iskolákban egyszerűen nem tudhatják őket biztonságban a szüleik. A vak is látja, hogy ezeknek a gyerekeknek igenis sérül a tanuláshoz való joga, és a családok többletterhet kénytelenek vállalni, azért, hogy a biztonságukat és a tanuláshoz való jogukat garantálni tudják, és ez ezekre a családokra anyagi terhet is ró. Ők nem érdemelnek kártérítést a kormány szerint? Miért nem vetik fel azt, hogy nekik is járna valami? Vagy önök szerint nem?</seg>
+<seg xml:id="IC8_9157.2">Az igazságosság akkor teljesül, ha kimondjuk, hogy a tisztességes, normákat betartó gyerekek jogainak érvényesítése az első, és nem nekik kell szedni a sátorfájukat, hanem azoknak, akik képtelenek a közösségbe beilleszkedni. A kormány miért nem mondja ezt ki</seg>
+<seg xml:id="IC8_9157.3">(Dr. Apáti István: Így van!)</seg>
+<seg xml:id="IC8_9157.4">Miért nem ennek szellemében cselekszenek? A Mi Hazánk szerint szakítani kell azzal a szemlélettel, ami harminc éve uralkodik az oktatásban, mérgezi ezeket a közösségeket, és azokat kell kiemelni a normál osztályokból, akik élhetetlenné teszik azokat. Ha ezt szegregációnak hívják, akkor felőlem nevezhetik szegregációnak. Bármilyen megbélyegzés ellenére valójában ez jelenti a megoldást.</seg>
+<seg xml:id="IC8_9157.5">Kérdezem mindezek miatt államtitkár urat, hogy hajlandóke végre a tisztességes családoknak fizetni a kártérítést, és radikálisan megváltoztatni a bűnözőket védő szemléletet, vagy továbbra is marad a felszín kapargatása. Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a függetlenek soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-02-17-interpellation-IC8_9161" who="#GyulaBudai" ana="#regular"><note>DR. BUDAI GYULA (Fidesz):</note>
+<seg xml:id="IC8_9161.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Ház! Az elmúlt években az emberek társadalmi igazságérzetét alaposan felkavaró bírói ítéletek születtek, amelyek nagy összegű pénzbeli kártalanítások fizetésére kötelezték a magyar államot, mégpedig olyan személyek részére, akik bűncselekményt követtek el, és ezért jogerős szabadságvesztés büntetésüket töltik. Ezek az elítéltek arra hivatkoztak, hogy a magyar állam nem biztosított emberhez méltó fogvatartási körülményeket számukra. Aggasztó és egyben felháborító, hogy az esetek túlnyomó többségében eljáró balliberális oldalhoz, valamint a Soros-szervezetekhez kötődő ügyvédek jelentős hasznot húznak az állam ellen indított perekből. Kimutatható, hogy az említett ügyvédeknél landolt a börtönkártalanításra kifizetett összegek közel 70 százaléka. A börtönbiznisz néven futó tízmilliárdos iparág egyértelműen visszaélés a joggal, károsítja az államot, és rontja az igazságszolgáltatásba vetett közbizalmat, valamint sérti az emberek igazságérzetét.</seg>
+<seg xml:id="IC8_9161.2">Elfogadhatatlan, hogy olyan gyilkosok, mint az olaszliszkai lincselők vagy a battonyai rém, több millióra perlik a magyar államot. Ezek a szervezetek a börtönökben nyíltan hirdetik a raboknak, hogy miként perelhetik be a magyar államot. Ezekhez a perekhez viszont busás sikerdíj zsebrevágása mellett asszisztálnak a Helsinki Bizottság és a TASZ ügyvédjei, és az országosan ismert, korábban az MSZP-Párbeszéd képviselőjelöltjeként ringbe szálló Magyar György.</seg>
+<seg xml:id="IC8_9161.3">Statisztikai adatokkal alátámasztható, hogy hazánkban a börtönkörülmények sokat javultak, az elmúlt években több lett a férőhely, és folyamatosan épülnek az új börtönök. Világossá kell tenni, hogy Magyarországon a jog eszközeivel nem a bűnözőket kell védeni, nem a bűnözőknek jár jutalom, hanem a bűnözőknek büntetés jár.</seg>
+<seg xml:id="IC8_9161.4">Tisztelt Államtitkár Úr! Ezért kérdezem önt, hogy miként kíván a kormány megálljt parancsolni a börtönbiznisznek. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormányzó pártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-02-17-interpellation-IC8_9162" who="#PéterÁgh" ana="#regular"><note>ÁGH PÉTER (Fidesz):</note>
+<seg xml:id="IC8_9162.1">Köszönöm a szót. Tisztelt Államtitkár Úr! Az elmúlt hetek, hónapok ismét rávilágítottak arra, hogy amikor a nagy ellenzéki összeborulás tagjai időről időre gúnyt űznek az egész Európát sújtó bevándorlási válságból, és feleslegesnek állítják be a kormány illegális migráció elleni küzdelmét, akkor folyamatosan mekkorát tévednek. A kormány már 2019 végén megkongatta a vészharangokat egy újabb, minden eddiginél erősebb migrációs hullám érkezését illetően. Nem kellett sok időnek eltelnie ahhoz, hogy a saját bőrünkön érezzük a helyzet komolyságát. Történt ugyanis, hogy a felbőszült illegális migránsok egy csoportja, közel 60-70 fő erőszakkal, agresszív kifejezéseket skandálva törte át a magyar államhatárt és próbált meg erőszakkal belépni a schengeni övezet területére. Komoly köszönettel tartozunk az éjszakai szolgálatot teljesítő fegyveres biztonsági szolgálat munkatársainak és a rendőrségnek, hogy ezen váratlanul érkező tömeg láttán sem vesztették el a lélekjelenlétüket, és egytől egyig el tudták fogni az illegális határsértőket.</seg>
+<seg xml:id="IC8_9162.2">Tisztelt Államtitkár Úr! Bátran kijelenthetjük, hogy több év távlatából is még mindig Magyarország Kormánya az egyetlen az Európai Unió kormányai közül, amely szemmel látható és érdemi lépéseket tesz az illegális migráció megfékezése érdekében. Ezt azonban ne csak úgy értsük, hogy teljeskörűen meg tudjuk védeni a déli határszakaszunkat, hanem úgy is, hogy mi, magyarok oda visszük a segítséget, ahol arra szükség van, és nem a bajt kívánjuk importálni Európába. Mindemellett pedig nem hagyhatjuk szó nélkül a határvadászok, a rendőrség és a Magyar Honvédség áldozatos munkáját sem, minek köszönhetően kiváló eredményességgel tudjuk elfogni az illegális határátlépést végrehajtó migránsokat.</seg>
+<seg xml:id="IC8_9162.3">Tisztelt Államtitkár Úr! A helyzet déli szomszédunknál, de kijelenthetjük, hogy az egész balkáni térségben egyáltalán nem megnyugtató. Belföldi és külföldi híradások sora számol be arról, hogy a 2015. évhez hasonlóan ismét milyen jelentős migránscsoportok torlódtak fel a déli határon vagy úton odafelé.</seg>
+<seg xml:id="IC8_9162.4">Fentiekre tekintettel kérdezem, hogy várhatóe déli határszakaszunk újabb ostrom alá vétele, és ha igen, akkor a rendőrség felkészülte egy esetleges támadásra. Várom a megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-2-17-urgent_question-AC8_9211" who="#AnettBősz" ana="#regular"><note>BŐSZ ANETT (DK):</note>
+<seg xml:id="AC8_9211.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! El kell mondani, hogy a bölcsődei ellátás nem pusztán a gyermekek biztonságát és a nappali ellátást hivatott biztosítani, hanem az édesanyák jogait és méltóságát abban a tekintetben, hogy vissza tudnake illeszkedni dinamikusan a bérmunkapiacra, illetve édesanyaként tudnake olyan életet élni, amit megálmodtak maguknak. Az Eurostat adatai szerint a bölcsődei férőhelyhiány miatt 88 ezer magyar ma nem tud visszatérni a bérmunkapiacra, és 70 ezer gyerek szorul ki az ellátásból. Több mint 2600 településen egyáltalán nincs bölcsődei ellátás. Ez a települések 80 százalékát jelenti. Teljes járásokat találunk, ahol a bölcsődék nem tudnak működni, és nincs hová elvinni a három év alatti gyermekeket. Magyarország tehát ezen a téren nem teljesít jól. A trendekből az is világosan látszik, hogy a férőhelyek számának növekedéséhez a családi, illetve a magánbölcsődék jelentősen hozzájárultak, dinamikusabban járultak hozzá a férőhelyek bővüléséhez, mint az állami férőhelyek, és valamiért nem látjuk azt a szándékot a kormány részéről, hogy támogatni tudná ezeket a fenntartói formákat.</seg>
+<seg xml:id="AC8_9211.2">Tudom azt a költségvetési vitákból, hogy a férőhelyteremtésre szánt összegek azért nem tudnak realizálódni, mert az építőipar kínálati oldala elégtelen. Tisztelettel kérdezem az államtitkár urat, hogy amennyiben ez így van, úgy miért nem csoportosítják át az eredetileg épületfejlesztésre szánt forrásokat arra, hogy a magán-, illetve egyéb fenntartó által üzemeltetett bölcsődéket jobban tudják támogatni. Mindössze 58 330 forintot jelent gyermekenként az az összeg, amelyet államtitkár úr egyébként nekem már egy írásbeli kérdésemre adott válaszában megjelölt. Ez messze elégtelen a fenntartásra. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a DK soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-2-17-urgent_question-AC8_9225" who="#TimeaSzabó" ana="#regular"><note>TORDAI BENCE (Párbeszéd):</note>
+<seg xml:id="AC8_9225.1">Köszönöm, elnök úr. Miniszter Úr! Az elmúlt hetekben az Orbán-kormány újabb és újabb merényleteket hajtott végre az oktatás, a tanárok, a szülők és legfőképpen a gyerekek ellen. A maguk friss Nemzeti alaptanterve nem a jövőre készíti fel a gyerekeket, nem egy sikeres és boldog élethez ad útravalót, hanem a XX. század legrosszabb hagyományait hozza vissza: készségfejlesztés helyett elavult tudások, a kritikai gondolkodás és az együttműködés kultúrája helyett alattvalói engedelmesség és kirekesztő gondolkodás</seg>
+<seg xml:id="AC8_9225.2">(Dr. Rétvári Bence: Ezt hol olvastad? - Nacsa Lőrinc: El kellett volna olvasni!)</seg>
+<seg xml:id="AC8_9225.3">Ezt kapják a magyar gyereke</seg>
+<seg xml:id="AC8_9225.4">(Dr. Rétvári Bence: Hol olvastad a Népszaván kívül?)</seg>
+<seg xml:id="AC8_9225.5">az orbáni állampárt oktatáspolitikájától.A maguk aljas kampánya a minőségi oktatástól elzárt gyöngyöspatai gyerekek ellen pedig nem megoldást és megbékélést hoz, hanem tovább szítja a feszültséget. Maguk nemcsak képtelenek és alkalmatlanok minden gyerek számára elérhető, jó minőségű oktatást biztosítani, de meg sem próbálják. Azt hiszik, hogy a csökkenő támogatottságukat majd Habony Árpád megfordítja egy jó erős cigányozós kampánnyal, amihez a Fidesz neonáci segéderőit is bevetik. Van a maguk számára egy rossz hírem: a magyar emberek egyre inkább átlátnak az ócska fideszes trükkökön. Dunaújváros tegnap megüzente: hiába delirál Orbán Viktor aranykorról, ha közben a jelöltje alig egyharmadnyi szavazatot kap. Meg kéne próbálni kormányozni, mert az uszítás nem működik. A pitiáner pártérdekeik miatt viszont a gyerekek sorsát meghatározó oktatási rendszert ütik szét.</seg>
+<seg xml:id="AC8_9225.6">Miniszter Úr! Hogy veszik maguknak a bátorságot ahhoz, hogy megrabolják a magyar gyerekek jövőjét? Hogy veszik a bátorságot ahhoz, hogy felülbíráljanak egy jogerős bírói döntést? Egy cigány embernek akkor sem lehet igaza Magyarországon, ha bebizonyosodott, hogy igaza van? Hogy veszik a bátorságot ahhoz, hogy gyerekeken a megítélt kártérítésért - kártérítésért! - munkát kérjenek számon? Hogyan tudtak ilyen mélyre süllyedni?</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-2-17-urgent_question-AC8_9232" who="#PéterUngár" ana="#regular"><kinesic type="noise"><desc>UNGÁR PÉTER (LMP): Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Miniszter Úr! A Fidesz mágikusan, hirtelen jövő és teljesen hiteltelen zöldfordulata előtt pár évvel L. Simon László képviselőtársunk a következőt mondta: ”Azért nem lehet nap- és szélerőművekre alapozni, mert áramra éjszaka is szükség van, és akkor is, amikor nem fúj a szél.” (Közbeszólás az ellenzéki padsorokból: Ez igaz.</desc></kinesic>
+<seg xml:id="AC8_9232.1">Ezt az MTA-szintű doktori disszertáció</seg>
+<seg xml:id="AC8_9232.2">(Derültség az ellenzéki padsorokban.)</seg>
+<seg xml:id="AC8_9232.3">azóta a kormány is revideálta, hiszen a napelem már bekerült az önök új zöldtervébe, mégis a szélenergiát a mai napig tiltják, amire választ nagyon nem tudnak adni.Természetesen az LMP-frakciónak tudomása van arról, hogy Magyarország a Kárpát-medencében helyezkedik el, és a Kárpát-medence földrajzi módon behatárolja, hogy a szélenergiát hol lehet használni, mégis a Nyugat-Dunántúlon, főleg a Kisalföldön igenis lenne lehetőség arra, hogy fejlesszük a szélenergia-kapacitást.</seg>
+<seg xml:id="AC8_9232.4">Az a helyzet, hogy annak az esti mesének az ellenére, amit önök zöldpolitikában előadnak, 2013 óta 12 százalékkal nőtt Magyarország üvegházhatásúgáz-kibocsátása. Ez egy úgynevezett tény, amiről lehet sok mindent gondolni, de attól még igaz. Ez azt mutatja, hogy a szélenergia és az elektromos áram előállításában beálló forradalom nélkül Magyarország nem fogja tudni a vállalt klímacélokat sem teljesíteni, pedig már azok is túl alacsonyak.</seg>
+<seg xml:id="AC8_9232.5">Azt kérdezem a miniszter úrtól, hogy 2011 óta miért nem épül szélerőmű. Miért tiltják azt, hogy akár valaki magántőkét befektetve szélerőművet tudjon Magyarországon építeni úgy, hogy közben az a MET-csoport, ami eufemisztikusan szólva nem a kormány legnagyobb ellensége, Szerbiában szélerőműveket épített egy olyan cégben, aminek amúgy jutott magyar adófizetői pénz? Miért van az, hogy önök betiltották ezt a zöldenergiát, és miért hazudnak arról, hogy most már önök magukat zöldpártnak identifikálják</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-2-17-urgent_question-AC8_9235" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC8_9235.1">Tisztelt Elnök Úr! Tisztelt Ház! Hogyha nagyságrendileg tíz évvel visszagondolunk a magyar történelemben, emlékezhetünk Orbán Viktor miniszterelnök úr részéről egy igen maradandó nyilatkozatra, melynek a lényege nagyjából annyi volt, hogy csak gyenge emberek akarhatnak gyenge forintot, illetve, ha bizonyos forintárfolyam fölé mozog az az árfolyam, amiről beszélünk, akkor a kormánynak alkalmatlansága okán le kell mondania, távoznia kell.A helyzet az, hogy ez egy olyan környezetben történt, amikor nagyjából 260-280 forintot kellett adni egy euróért. Jelen pillanatban napjainkban 340-ig is eltolódott ez az árfolyam. Most végre a Magyar Nemzeti Bank kissé, akár csak retorikailag, ha máshogy nem is, de beavatkozott, de akkor is azt láthatjuk, hogy egy egyszerű magyar állampolgár annyira ki van téve a rossz forintárfolyamnak, hogy egyszerűen nem tudja ezt a helyzetet elkerülni.</seg>
+<seg xml:id="AC8_9235.2">Értjük mi, látjuk azt, hogy a Fidesz-KDNP túl akarja kedvezményezni azokat a multicégeket, akiknek a tudatosan gyengén tartott forintárfolyam révén olcsóbb gyártósort telepíteni, olcsóbb kitermelni a magyarok megalázóan alacsony bérét, de azt is látjuk mindeközben, hogy a magyar emberek az importtermékek kényszerű megvásárlása során ennek a gyenge árfolyamnak a többletárát éves szinten több száz millió forintot kitevő módon fizetik meg. Hiszen én lennék a legboldogabb, ha egy egyszerű bevásárlóközpontban magyar termékekből mindent lehetne fedezni. De hát azért egy okostelefont csak nem lehet magyar előállítású módon megvásárolni, azért a ruhatermékek és ruházati cikkek jó túlnyomó többsége, döntő hányada szintén külföldi, importtermék, és most már a zöldségek, gyümölcsök megvásárlása is nagyon nehéz, ha az ember kizárólag magyar terméket szeretne a kosarába tenni.</seg>
+<seg xml:id="AC8_9235.3">A kérdésünk tehát egyértelmű, magától adódik: miért gyenge emberek önök, meddig tűrik meg ezt a kiszolgáltatott állapotot, illetve a kormányzat és a Magyar Nemzeti Bank tudatos forintgyengítő stratégiájának árát meddig fizettetik meg még a magyar állampolgárokkal? Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps az ellenzék soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-2-17-urgent_question-AC8_9236" who="#BalázsAnder" ana="#regular"><note>ANDER BALÁZS (Jobbik):</note>
+<seg xml:id="AC8_9236.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Az ülésszak kezdetén úgy illik, hogyha kiállítjuk az elmúlt fél év oktatáspolitikai bizonyítványát, hiszen a magyar jövő szempontjából az egyik legalapvetőbb nemzetstratégiai területről van szó. A XXI. század legfontosabb versenyképességi tényezője az emberi tudás és ennek a tudásnak az előállítása lesz. Nézzük, hogy megértettee a kormány az idők szavát, szóval, lássuk akkor azt az alternatív bizonyítványt, amit itt mi a Jobbik-frakcióból ki tudtunk állítani az önök számára. Nos, önök a tanítás mint értelmiségi hivatás tekintélyének megteremtése nevű tantárgyból megbuktak. Sok egyéb mellett itt elég lenne, mondjuk, arra utalnom, hogy önök egy tollvonással és egyeztetés nélkül elvették azoktól a szakközépiskolai tanároktól a közalkalmazotti státuszt, akiket adott esetben naponta aláznak meg és köpnek le bizonyos kiilleszkedett családokból való gyermekek.</seg>
+<seg xml:id="AC8_9236.2">Aztán önök elégtelenre teljesítettek „a szelekció felszámolása” című tárgyból is, hiszen az elit részére milliárdos állami támogatásból építenek olyan magániskolákat, ahol 3-4 millió forintos tandíjat kérnek az elit gyermekeitől, míg a köznépnek ott vannak a leromlott állapotú köziskolák, amelyek tanulói majd jók lesznek valahova a futószalagok mellé, vagy pedig valamelyik oligarcha luxusjachtjára szolgálatot tenni.</seg>
+<seg xml:id="AC8_9236.3">Aztán sajnos bukta lett az a tantárgy is, hogy „a gyerekeket nem tekintjük kísérleti nyúlnak”. Dehogynem, önök annak tekintik. A beiskolázási korhatár körüli anomáliák, a NAT-tal kapcsolatos problémák, a kudarcos szakképzési reformok folyamatos változtatása erről tanúskodnak.</seg>
+<seg xml:id="AC8_9236.4">Aztán a „normális országban nem tartják a tanárokat cselédbéren” nevű tantárgyból is jókora karó virít a félévi ellenőrzőjükben. Magyarázza meg a bizonyítványt, miniszter úr, ha tudja! Nehéz lesz. És várom rétvárizmusoktól mentes válaszát. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-2-17-urgent_question-AC8_9237" who="#TamásHarangozó" ana="#regular"><note>DR. HARANGOZÓ TAMÁS (MSZP):</note>
+<seg xml:id="AC8_9237.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Tavaly év végén először az Átlátszó blog hozta nyilvánosságra azt a hírt, miszerint a frissen beszerzett nem honvédségi repülőgépek, nem kormánygépek, az a két Airbus, illetve magán business jetnek is beillő Falcon új típusú repülőgépek az elmúlt egy év során megjárták Dubajt, Abu-Dzabit, Las Vegast, Máltát, Panamát, a Kanári-szigeteket, Thesszalonikit vagy éppen Párosz szigetét. Sokakban felmerült a gyanú, hogy esetleg ezek a nem kormányzati gépek - amelyekről teljesen egyértelmű, hogy azok, hiszen Orbán Viktor rendszeresen nyilvánosan repked ezekkel a gépekkel - talán nem a legtörvényesebben és a legtisztességesebben vannak üzemeltetve.Ezzel kapcsolatban írásbeli kérdéssel fordultam a miniszterhez, kérdezvén, hogy pontosan hol és mikor jártak a repülőgépek, ezek katonai, kormányzati vagy magánúton jártake ott, és hogy a költségeket pontosan mennyiért és kik állták. A miniszter úr válaszában akkor - engem egy picit ki is oktatva - azt mondta, hogy ezek nem nyilvános adatok, de mint a Honvédelmi bizottság tagja és C típusú átvilágítással rendelkező képviselő, a Honvédelmi Minisztériumban betekinthetek ezekbe az iratokba, keressem a Parlamenti Kapcsolatok Főosztályát. Meg is tettem, január 6-án megtettem ezt a kérésemet írásban, majd telefonon többször egyeztettünk, majd tizenvalahány időpontot adtam meg a minisztériumnak, ami számomra alkalmas, majd január 22-én egy teljesen abszurd választ kaptam a minisztériumtól írásban, miszerint tájékoztatnak arról, hogy jogom van képviselőként jogszabályban meghatározott módon tájékoztatáskérési lehetőséggel élni. Ez volt az elmúlt másfél hónap tevékenysége a minisztérium részéről.</seg>
+<seg xml:id="AC8_9237.2">Kérdezem tehát államtitkár urat, hogy szándékosan nem mutatják meg nekem ezeket a papírokat, vagy arra is alkalmatlanok, hogy másfél hónap alatt egy időpontot leegyeztessenek. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-2-17-urgent_question-AC8_9242" who="#LőrincNacsa" ana="#regular"><note>NACSA LŐRINC (KDNP):</note>
+<seg xml:id="AC8_9242.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! 2010 óta, a nemzeti kormányzás ideje alatt jelentősen nőtt az állami vagyon. Ezzel szemben 1994-98 között, majd 2002-2010 között a szocialista-liberális kormányok rablóprivatizációt folytattak, kiárusították, széthordták, elherdálták az állam, így a magyar emberek vagyonának jelentős részét. Az állami vagyon nagy százalékban magánvagyonná vált Gyurcsányék alatt. A nemzetstratégiailag kiemelt vállalatok több mint kétharmadát magánkézre játszották, az energiaszektort, a nagy állami cégeket, bankokat, közművállalatokat, állami ingatlanokat és földeket. Privatizáltak 190 céget az állami vagyonból, eladták a Budapest Airportot, a Postabankot, a Mol-részvényeket, az Antenna Hungáriát, a MÁV Cargót. A magyar légitársaságot, a Malévet a Gyurcsány-kormány 2007-ben az ő villája árának töredékéért, 200 millió forintért játszotta át egy orosz üzletembernek. A 10 000 milliárd forint értékű állami vagyon elherdálásával Gyurcsány Ferenc és elvbarátai meggazdagodtak, a magyar emberek pedig megszorításokat, brutális mértékű, európai szinten is legmagasabb rezsiköltségeket, legmagasabb adókat, devizahiteleket, munkanélküliséget és szemkilövetést kaptak cserébe. Mindeközben a rablóprivatizáció csúcsévének számító 2006-ban a privatizációs bevételek mellett is a költségvetési hiány 9,2 százalék lett, ami világviszonylatban is a második legrosszabb mutató volt akkor. A rablóprivatizációval milliárdossá vált Gyurcsány Ferenc, az ellenzék vezére kiárusította az országot, szétosztotta a magyar emberek közös vagyonát. Ezzel szemben a nemzeti kormány 2010 óta jelentősen növelte az állami vagyont. Kérdezem ezért tisztelettel államtitkár urat, hogy mennyivel nőtt az állami vagyon 2010 óta. Köszönöm megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-2-17-urgent_question-AC8_9243" who="#JánosBencsik" ana="#regular"><note>BENCSIK JÁNOS (Fidesz):</note>
+<seg xml:id="AC8_9243.1">Tisztelt Államtitkár Úr! Lakókörnyezetünk és a teremtett világ védelme mindannyiunk érdeke és felelőssége. Mindannyian tiszta vizet, minőségi élelmet, jó levegőt és elviselhetőbb klímát szeretnénk. Hogy miként alakul a közös jövőnk, azt napjaink döntései határozzák meg. A klímaváltozás ugyan egy természetes folyamat, de annak sebességét az emberi közösségek életmódja érdemben befolyásolja. A folyamat felgyorsult, melyhez alkalmazkodni kell. Ezért nem üres szavakra, hanem valódi cselekvésekre van szükség.</seg>
+<seg xml:id="AC8_9243.2">(16.30)</seg>
+<seg xml:id="AC8_9243.3">Magyarország az elmúlt évtizedekben már bizonyította elkötelezettségét, hiszen a világ azon 21 országa közé tartozik, ahol az elmúlt harminc évben úgy nőtt a gazdasági teljesítmény, hogy az üvegházhatású gázok kibocsátása egyharmadával, az energiafelhasználás pedig egyhatodával csökkent.</seg>
+<seg xml:id="AC8_9243.4">A kormány által elfogadott nemzeti energia- és klímavédelmi stratégia megalapozza Magyarország hosszú távú és átfogó, tiszta fejlődési stratégiáját. Mindez csak úgy lehetséges, hogy a kormány ebben is a magyar emberek érdekeit képviseli. Minden országnak az általa okozott kár mértékének figyelembevétele mellett kell kivennie részét a közös erőfeszítésekből. A klímaváltozás árát ne a magyar emberek fizessék meg, hanem a legnagyobb szennyező vállalatok és országok.</seg>
+<seg xml:id="AC8_9243.5">Végső soron szeretném felhívni a figyelmet arra, hogy támogatni kell minden olyan területet, amely környezetünk védelmét szolgálja, a környezetbarát energia használatát, az atomenergia-kapacitásaink megőrzését, a közösségi közlekedés fejlesztését, továbbá a természeti erőforrásaink megóvását.</seg>
+<seg xml:id="AC8_9243.6">Tisztelt Államtitkár Úr! Mindezekkel kapcsolatban kérdezem öntől, milyen konkrét intézkedéseket tesz a magyar kormány a klímavédelmi célok megvalósítása érdekében. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

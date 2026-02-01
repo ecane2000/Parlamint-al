@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2019-06-03" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2019-06-03 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2019-06-03 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2705" unit="words">2705 szó</measure>
+        <measure xml:lang="en" quantity="2705" unit="words">2705 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2019-06-03">2019. 06. 03.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="32"/>
+          <tagUsage gi="kinesic" occurs="10"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2019-06-03">2019-06-03</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2019-6-3-urgent_question-AC8_6310" who="#ZsoltGréczy" ana="#regular"><note>GRÉCZY ZSOLT (DK):</note>
+<seg xml:id="AC8_6310.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Természtesen nem csak a Magyar Tudományos Akadémiával van probléma. Csak egy mai hírre hívnám fel a figyelmet: egy kutató ma bejelentette, hogy távozik az országból, és magával viszi azt a többmilliárdos ösztöndíjprogramot, amit egyébként itt Magyarországon lehetett volna elkölteni és a magyar kiművelt emberfők tudását gyarapította volna, nem is beszélve Magyarország hírnevéről. És még mielőtt gyorsan belemelegedek a Széchényi Könyvtár történetébe, csak a közelmúltjába, szeretném jelezni, hogy el a kezekkel az ’56-os Intézettől. Legalább annyi tisztesség lett volna önökben, hogy ne a rendszerváltás 30. évfordulójára és Nagy Imre és mártírtársai újratemetésének 30. évfordulójára időzítették volna egy fontos tudományos műhely beszántását.</seg>
+<seg xml:id="AC8_6310.2">Ami pedig a Széchényi Könyvtárat illeti: a Széchényi Könyvtár jelenleg zárva van, úgy tudjuk, hogy ki sem nyit már a budai Várban. Ezúton szeretném tolmácsolni a szakértők, a könyvtárosok, levéltárosok, restaurátorok aggodalmát, hogy mi lesz azzal a felbecsülhetetlen értékkel, ami az Országos Széchényi Könyvtár birtokában van. Egyelőre a Magyarország területén kiadott összes könyv köteles példányait hivatásszerűen gyűjti ez az intézmény, és egy kicsit aggódunk kicsit nagyon , hogy mi lesz ezeknek a sorsa.</seg>
+<seg xml:id="AC8_6310.3">A kérdéseim tehát a következők: mikor költözik a könyvtár? Igaz-e, hogy a penészes, erre a feladatra több szempontból is alkalmatlan Kilián laktanyát szemelte ki a kormány? Mi a garancia arra, hogy ezek a nemzeti kincsek biztonságban költözhetnek át egy méltó környezetbe, amit az olvasók könnyen felkereshetnek? Kik végzik majd el a költöztetést? Hogyan fognak ebben részt venni a könyvtárosi, levéltárosi, restaurátori szakma képviselői? Igaz-e, hogy az új könyvtár informatikai rendszerének kivitelezésére Fidesz-közeli céget fognak kijelölni, ahogy ez egyébként több helyen már megjelent a sajtóban? Mi lesz a Várban hagyott termek sorsa, oda is beköltöznek-e Orbán emberei, és afféle fideszes reprezentációs célt fognak-e szolgálni? Várom a választ. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki padsorokból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-6-3-urgent_question-AC8_6312" who="#PéterUngár" ana="#regular"><note>UNGÁR PÉTER (LMP):</note>
+<seg xml:id="AC8_6312.1">Köszönöm szépen. A kormányzás alapvetően arról szól, hogy ki az, aki pénzt, ki az, aki prioritást jelent a magyar kormánynak, ki az, akinek forrásokat adnak, és ki az, akitől forrásokat vesznek el. Most lesz a költségvetés a következő hónapokban, abból nyilvánvalóan látszódni fog, hogy a kormány változtat-e azon a politikán, hogy nem gondoskodik a gondoskodókról. Itt gondolok azokra is, akik otthon gondoskodnak emberekről, 0-24 megfeszített munkában, illetve azokra is, akik intézményben.</seg>
+<seg xml:id="AC8_6312.2">(14.10)</seg>
+<seg xml:id="AC8_6312.3">Az intézménnyel kapcsolatban az első kérdésem az, hogy lezárultak-e a tárgyalások a szociális szektor érdekképviseletével, meg fogják-e emelni végre a szociális szektor drámai és megmagyarázhatatlan bérét, és végre megoldják-e azt Magyarországon, hogy egy szociális szektorban dolgozó gyógypedagógus ne 130 ezer forint nettót keressen havonta.</seg>
+<seg xml:id="AC8_6312.4">A második: mikor emelik meg végre az otthonápolási díjat azoknál az embereknél, akik nem gyermeküket, hanem vagy házastársukat, vagy szüleiket ápolják otthon? Mikor emelik meg ezt az összeget, amely jelenleg szintén megmagyarázhatatlanul 58 ezer forint? Arra kérem államtitkár urat ismételten, mint ahogy ezt már többször megtettük, hogy ne százalékban, hanem forintban mondja meg, hogy a korábbi emelések mennyit jelentenek, mennyit jelent 58 ezer forintnál egy 10 százalékos emelés.</seg>
+<seg xml:id="AC8_6312.5">A harmadik az, amiben, úgy látszik, önök egyetértenek az LMP-vel: fél éven keresztül mondtuk itt azt többen, mondtam én is, hogy a gyoddal kapcsolatosan, a gyermekápolással kapcsolatosan az autizmussal élő gyermekeknél, illetve más értelmi fogyatékossággal élő gyermekeknél olyan pontrendszert hoztak létre, amely nem veszi figyelembe az ő speciális élethelyzetüket. Nemrég azt olvashattuk az Autisták Országos Szövetségének közleményében, hogy mégis megváltoztatják ezt a pontrendszert.</seg>
+<seg xml:id="AC8_6312.6">Akkor ezek szerint, államtitkár úr, mondja ki a jegyzőkönyvben, hogy nem keltettem hisztériát fél évig, hanem amit mondtam, az emberek valódi életéből következett, és önök ezért változtatják meg ezt a pontrendszert! Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzék padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-6-3-urgent_question-AC8_6313" who="#MiklósSeszták" ana="#regular"><note>DR. SESZTÁK MIKLÓS (KDNP):</note>
+<seg xml:id="AC8_6313.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! A magyar kormány számára nem mindegy, mi történik a Kárpát-medencében, hisz egy felelős nemzeti kormány számára sarkalatos kérdés, hogy segíteni tudja az országhatárokon túl élő magyarok életét, megélhetését és szülőföldön maradását. A Pro Economica Alapítvány Erdélyben támogatási programot indított, mellyel a térség valaha volt legnagyobb, koncentrált mezőgazdasági fejlesztése jöhet létre. Minden esély megvan arra, hogy a következő két évben mintegy 300 millió eurónyi fejlesztés valósuljon meg a székelyföldi mezőgazdaságban. Ez a koncentrált mezőgazdasági fejlesztés megváltoztathatja a térség mezőgazdasági struktúráját.</seg>
+<seg xml:id="AC8_6313.2">Erdély mellett a Vajdaságban élő magyarságot is segíti az anyaország az ott meghirdetett gazdaságfejlesztési program második szakaszával. Az elmúlt hároméves gazdaságfejlesztő programszakasz csak a kezdet volt, hiszen miután bebizonyosodott annak sikeres volta, így tíz új pályázatot írt ki a magyar kormány a vajdasági gazdaságfejlesztő program második szakaszában. Egyebek mellett falusiház-vásárlásra, földvásárlásra, növénytermesztésre, állattenyésztésre és idegenforgalmi fejlesztésekre pályázhatnak a Vajdaságban élő magyarok. De Felvidéken is gazdaságfejlesztési program van folyamatban tízmilliárd forint értékben, 49 pályázat be is érkezett, így ez a program is sikeresnek minősíthető.</seg>
+<seg xml:id="AC8_6313.3">Tisztelt Államtitkár Úr! A Kereszténydemokrata Néppárt támogatja a kormány azon törekvését, hogy Erdélyben, Felvidéken és a Vajdaságban is támogatáshoz jussanak a magyar gazdák, kis- és közepes vállalkozások, és fejlődhessen az idegenforgalmi ágazat is, hisz mindannyiunk közös érdeke, hogy a támogatott ágazatokban dolgozók megélhetését megvédjük, és ezáltal megállítsuk a határon túl élő fiatalok elvándorlását.</seg>
+<seg xml:id="AC8_6313.4">A fentiek alapján kérdezem tisztelettel államtitkár urat: látszik-e az eredménye az elmúlt évek gazdaságfejlesztési programjainak? Milyen gazdáságélénkítő programot tervez a kormány a jövőben? Köszönöm válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-6-3-urgent_question-AC8_6314" who="#BenceTordai" ana="#regular"><note>TORDAI BENCE (Párbeszéd):</note>
+<seg xml:id="AC8_6314.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Miniszter Úr! Tegnap sok ezren tüntettek a Magyar Tudományos Akadémia mellett, a tudomány szabadsága mellett, a tudás szabadsága mellett és önök ellen, hiszen önök ezt lábbal akarják tiporni. Ez a jövőgyilkos, a magyar kutatókat külföldre üldöző és a magyar tudományosság érdekeit, szempontjait semmibe vevő magatartás az, amit mindenki a kutatói szférában, a magyar értelmiség krémjében világnézetre való tekintet nélkül elutasít. Ez nem egy szakmai vita, ez nem egy világnézeti vita, itt önök állnak szemben a magyar tudományossággal. Nem szeretem ezeket a nagy szavakat, nem szeretem a rákosizást, úgyhogy maradjunk a tényeknél, hogy mi történt ’45 után az Akadémiával, és mi történt 2010 után. ’45 után a földreformban elvették a földbirtokaikat, a pénz- és értékpapírvagyonukat felemésztette a pengő elértéktelenedése. 2010 után folyamatosan csökkent az állami támogatás, ’19-ben 28 milliárd forintot vontak el tőlük. 1948-ban államosították az Akadémia bérházait, most pedig azt tervezik, hogy ingyenes használatra át kell adnia az MTA-nak az ingatlanait az Eötvös Loránd kutatási hálózatnak, amelyet önök most hoznak létre. 1949-ben Rákosiék felállították a Magyar Tudományos Tanácsot, önök most létrehozzák a nemzeti tudománypolitikai tanácsot, hogy majd az eldöntse a támogatott kutatások irányát. És csak hogy az ’56-os Intézetre is kitérjek egy gondolattal: az ’56-os forradalmat szovjet tankokkal verték le, önök pedig az ’56-os Intézetet sztálini módszerekkel verik szét.</seg>
+<seg xml:id="AC8_6314.2">Ezek után adódik a kérdés, hogy miért vált Rákosi Mátyás legjobb tanítványaivá Orbán Viktor és Palkovics László</seg>
+<kinesic type="applause"><desc>Taps a Párbeszéd soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-6-3-urgent_question-AC8_6315" who="#ÁgnesKunhalmi" ana="#regular"><kinesic type="noise"><desc>KUNHALMI ÁGNES (MSZP): Köszönöm szépen. Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Az elmúlt napokban újabb állomásához érkezett az MTA kutatóintézetei átalakításának folyamata. Múlt kedden a kormány újabb törvénytervezetét megküldte az MTA-nak, és május 30-án délután a sajtó értesülései szerint le is zajlott a két intézmény közötti tárgyalás. Ennek eredménye jelenleg nem ismert. Annyit azonban tudunk, hogy a pénteken elkészített újabb változat a korábbival ellentétben már tartalmazza azt a rendelkezést, hogy a központi költségvetésben forrást kell biztosani a kutatóhelyek intézményfenntartási kiadásaira. A tegnapi tüntetés, amelyen magam is részt vettem, egyértelműen jelezte, hogy az alapvető kérdésekben továbbra sem született konszenzus. Most is úgy látszik, hogy a kormány nem mondott le a Magyar Tudományos Akadémia kutatóintézeteinek és kutatási központjainak az Akadémiáról történő leválasztásáról, egy új szervezeti formában az Eötvös Loránd kutatási hálózat létrehozásáról. Nem változott a kormány álláspontja abban a kérdésben sem, hogy e hálózatot egy 13 fős testület irányítaná, melybe hat főt az MTA, másik hatot pedig a kormány jelölne, és a testület tagjait és vezetőjét a miniszterelnök nevezné ki.</desc></kinesic>
+<seg xml:id="AC8_6315.1">Kérdezem államtitkár urat tisztelettel, mindezek alapján miért gondolja a kormány, hogy hatékonyabban biztosítja az állami felügyelet az alapkutatások eredményességét, mint a kutatóintézetek autonómiája. Kérdezem továbbá, hogy a csütörtöki tárgyalás, illetőleg a tegnapi tüntetés után nem kívánja-e a kormány megőrizni a jelenlegi helyzetet, felismerve, hogy a kutatóintézetek mostani működési módja jobban garantálja új tudományos eredmények megszületését. Végezetül, nem tart-e a kormány attól, hogy a csaknem egy éve tartó bizonytalanság és az átszervezés elutasítása számos kutatót véglegesen külföldi munkavállalásra, illetőleg a tudományos szféra elhagyására ösztönöz. Megtisztelő válaszát előre is köszönöm</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-6-3-urgent_question-AC8_6316" who="#ZitaGurmai" ana="#regular"><note>DR. GURMAI ZITA (MSZP):</note>
+<seg xml:id="AC8_6316.1">Köszönöm szépen. Tisztelt Elnök Úr! Államtitkár Úr! Képviselőtársaim! A pénzügyminiszter úr múlt héten jelentette be a 13+1 pontból álló gazdaságvédelmi akciótervét. A pontok között szerepel többek között a reklámadó kulcsának nulla százalékra történő csökkentése is. Az MSZP üdvözli az adó felfüggesztését. A kormányzat végre belátta, hogy hiba volt politikai céllal beavatkoznia a médiapiaci versenybe. Az MSZP támogatni is fogja a reklámadó felfüggesztését.A bejelentéssel kapcsolatosan nem mehetünk el amellett, hogy bár a kormány propagandája előszeretettel hangoztatja, hogy milyen családbarát a kabinet, ennek ellenére pont a családokat támogató intézkedések maradtak ki a bejelentett csomagból. Hiába támogatjuk ugyanis a legnagyobb jövedelmű családokat adókedvezményekkel, ha azt a családok többsége nem tudja kihasználni. Ezzel szemben a családi pótlék összege tíz éve nem emelkedik, pedig az minden családot érint. Ezzel szemben a családok áfaterhelése világrekordot jelent a maga 27 százalékával, pedig az minden családot érint.</seg>
+<seg xml:id="AC8_6316.2">Joggal merül fel a kérdés, hogy a kormányzat miért nem akarja beépíteni a nagy akciótervébe a gyermekvállaláshoz nélkülözhetetlen babaholmik, illetve női higiéniás termékek áfacsökkentését. Erre nem csupán az Európai Unióban, de a szomszédos országokban is van jó néhány példa. Legutóbb Szerbiában vezették be a babaholmi vásárlása után járó áfakedvezmény rendszerét, amelyet egészen a gyermek kétéves koráig lehet igénybe venni. Erre nálunk miért nem kerül sor? Joggal merül fel a kérdés, hogy mikor fog végre emelkedni a családi pótlék.</seg>
+<seg xml:id="AC8_6316.3">Tisztelt Államtitkár Úr! Óhatatlanul felvetődik a kérdés, hogy ha a kormány lát forrást a munkáltatók és a multik adócsökkentésére, akkor miért nincs már tíz éve pénz a családi pótlék emelésére és a babaholmik áfájának csökkentésére. Megtisztelő válaszát várom, államtitkár úr</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-6-3-urgent_question-AC8_6317" who="#LászlóBöröcz" ana="#regular"><note>BÖRÖCZ LÁSZLÓ (Fidesz):</note>
+<seg xml:id="AC8_6317.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Képviselőtársaim! Nagy felháborodást keltett országszerte, hogy május 7-én nem függesztette fel Czeglédy Csaba EP-képviselőjelölt mentelmi jogát a Nemzeti Választási Bizottság, az ellenzék által delegált tagok együttműködésének köszönhetően. Mint ismert, Czeglédy Csabával, az MSZP-DK ügyvédjével, volt önkormányzati képviselőjével szemben vádat emelt az ügyészség különösen jelentős vagyoni hátrányt okozó költségvetési csalás bűntette miatt. A vád szerint Czeglédy Csaba 6,2 milliárd forinttal rövidítette meg a magyar költségvetést. Fontos kiemelni, hogy Czeglédyt egyszer már hasonló bűncselekmények elkövetése miatt 2003-ban jogerősen elítélték, tehát az áldozati szerepben történő tetszelgése kicsit sántít. Mindezek ismeretében a DK mégis feltette saját listájára a bűnözői múlttal rendelkező, vádemelés alatt álló Czeglédyt. Kizárólag a törvények kijátszásának szándékára utal az is, hogy Czeglédy a lista utolsó helyén szerepelt, tehát reális esélye egyáltalán nem volt a mandátumszerzésre. Tisztelt Képviselőtársaim! 29 éven keresztül íratlan szabályként működött a közéletben az a helyes és elvárt gyakorlat, hogy a közvádas bűncselekményekkel megvádolt személyek esetében a jelölteket megillető mentelmi jog felfüggesztésre kerül. Ezt az erkölcsi minimumot közel három évtized után az ellenzéknek sikerült felrúgnia. Szégyen és gyalázat, hogy egy közpénzeket megcsapoló bűnöző mellett cinkosként sorakozik fel az egész ellenzék. Ezt nem lehet szó nélkül hagyni!</seg>
+<seg xml:id="AC8_6317.2">Az elhangzottakra tekintettel kérdezem tisztelettel államtitkár urat: hogyan lehet meggátolni, hogy az ellenzék útját állja az elkövetők felelősségre vonásának? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-6-3-urgent_question-AC8_6319" who="#KolomanBrenner" ana="#regular"><note>DR. BRENNER KOLOMAN (Jobbik):</note>
+<seg xml:id="AC8_6319.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Miniszter Úr! Tisztelt Ház! Mint az általam viselt kitűzőből is kiderü</seg>
+<seg xml:id="AC8_6319.2">(A szónok Széchenyi Istvánt ábrázoló kitűzőt visel.)</seg>
+<seg xml:id="AC8_6319.3">, én tegnap ott voltam azzal a több ezer, hazája és a magyar tudomány jövőjéért aggódó polgárral együtt azon a tüntetésen, amelyről az önök lakájmédiája aztán körülbelül annyit mondott, hogy külföldi megfizetett ügynökök csinálják a fesztivált igyekszem viszonylag pontosan fogalmazni. Én ebben a tömegben azonban kizárólag olyan emberekkel találkoztam, mint a volt fideszes oktatási miniszterrel, Pálinkás kollégával, volt két ELTE-s dékánhelyettes kollégámmal meg is jegyeztük némileg sanyarúan, hogy újra tarthatnánk oktatási bizottsági ülést, és még sorolhatnám azokat az embereket, akik tegnap felemelték a szavukat a fordított Széchenyikkel szemben. Hiszen én a soproni Széchenyi Gimnáziumban végeztem, és úgy emlékszem, hogy Nagycenken annak idején nem futballstadion és futballakadémia épült, hanem a gróf úr Pesten Tudományos Akadémiát alapított, amit önök most szégyenteljes módon szét akarnak verni.</seg>
+<seg xml:id="AC8_6319.4">Jelezném azt is, hogy rendkívül nagy a tét, hiszen a XXI. században egy elit nélküli ország… márpedig jó úton haladunk egy elit nélküli ország felé, hiszen mindenki menekül e közül az ötezer oktató és kutató közül már ebből az országból, ahol nem lehet tervezni, ahol nincs a tudományos kutatásnak jövője. Egy ilyen elit- és tudásellenes társadalmat képzelnek el önök Magyarország jövőjének, tisztelt miniszter úr? Vállalják ezt a felelősséget tényleg a nemzetközi partnerekkel szemben, és majd elmennek és elmondják, hogy a Max Planck Institut mintájára készül ez az átalakítás?</seg>
+<seg xml:id="AC8_6319.5">Meddig tarthat még ez a tudományellenes tragédia, és meddig teszik tényleg kockára hazánk és a magyar tudomány jövőjét? Tisztelettel várom a válaszát</seg>
+<kinesic type="applause"><desc>Taps az ellenzék soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2019-6-3-urgent_question-AC8_6320" who="#ÁdámSteinmetz" ana="#regular"><note>DR. STEINMETZ ÁDÁM (Jobbik):</note>
+<seg xml:id="AC8_6320.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Országszerte tapasztaljuk, hogy a bevándorlásellenes kormányunk tízezrével telepíti be a migránsmunkásokat, ukránokat, törököket, mongolokat. Több száz olyan településről tudunk, ahol olcsó keleti munkásokat dolgoztatnak azért, hogy ne kelljen a magyaroknak magasabb bért fizetni.</seg>
+<seg xml:id="AC8_6320.2">(14.30)</seg>
+<seg xml:id="AC8_6320.3">Miközben önök szó szerint úton-útfélen azt hirdetik, hogy Magyarország nem lesz bevándorlóország, Tiszaújvárosban 12 milliárd forinttal támogatják, hogy 3 ezer muszlimnak épüljön munkásszálló, máshol pedig laktanyákat alakítanak át erre a célra.</seg>
+<seg xml:id="AC8_6320.4">Marcaliban, a híres katonavárosban 18 éve áll üresen egy laktanya. Bár Móring József Attila képviselőtársam korábban azt ígérte idézem , ne migránsbázis, hanem honvédségi üzem legyen, tartunk tőle, hogy a kormánynak más célja van vele.</seg>
+<seg xml:id="AC8_6320.5">Tisztelettel kérdezem ezért az államtitkár urat: hogyan is lehetne a marcali laktanyából honvédségi üzem, amikor az nem is áll a honvédelmi tárca kezelésében? Mi célra kívánják akkor hasznosítani? Egyeztetett-e egyáltalán Móring József Attila a minisztériummal az ígéreteivel kapcsolatban? Mikor valósul meg az általa ígért 200-220 új munkahelyet teremtő honvédségi üzem?</seg>
+<seg xml:id="AC8_6320.6">Tisztelt Államtitkár Úr! Felhívom a figyelmét, hogy a kecskeméti, a kalocsai és a szentgotthárdi laktanyákból migránsmunkásszállót csináltak. Kérem, válaszában nyugtasson meg minket, hogy a marcali Petőfi Sándor laktanyából nem fognak. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

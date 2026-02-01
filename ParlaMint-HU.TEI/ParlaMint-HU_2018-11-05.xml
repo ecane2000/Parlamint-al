@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2018-11-05" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2018-11-05 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2018-11-05 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2983" unit="words">2983 szó</measure>
+        <measure xml:lang="en" quantity="2983" unit="words">2983 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2018-11-05">2018. 11. 05.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="33"/>
+          <tagUsage gi="kinesic" occurs="13"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2018-11-05">2018-11-05</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2018-11-5-urgent_question-AC8_2952" who="#LászlóGyörgyLukács" ana="#regular"><note>DR. LUKÁCS LÁSZLÓ GYÖRGY (Jobbik):</note>
+<seg xml:id="AC8_2952.1">Köszönöm szépen a szót, tisztelt elnök úr. Tisztelt Miniszter Úr! Isten hozta önt itt a Házban! Igen ritka vendége a Háznak, pedig lenne miről beszélgetni, ha az egészségügyről van szó, nemcsak azért, mert ön a területért felelős miniszter, hanem azért, mert egyben orvos is. Azt mindenki látja, hogy mióta ön a miniszter, gyakorlatilag krízisben van az egészségügy. Persze nem csak ön felelős ezért, hiszen ez már régebb óta húzódik, az Orbán-kormánynak gyakorlatilag ez egy különös ismertető jele lett, hogy az egészségügyben áll a bál, ha úgy tetszik. De mégis érdemes górcső alá venni, hogy mi is kötődik az ön nevéhez, és miniszter úr, ahogy így végiggondolom az egészet, valójában semmi pozitív, csak a negatívumokat lehet felsorolni. Mióta miniszteri székében ül, és eltelt most már 160 napnál is több, lényegében áll a krízis a sürgősségi ellátóhelyeken, a háziorvosi praxisok betöltetlenségét nem lehetett megakadályozni, a dolgozók ugyanolyan rosszul érzik magukat a munkahelyükön, és a betegek sem érzik magukat biztonságban, rémisztő kórházi fertőzési adatok látnak napvilágot.</seg>
+<seg xml:id="AC8_2952.2">(13.50)</seg>
+<seg xml:id="AC8_2952.3">Mondhatunk egy olyan ügyet is, például a szívsebész Székely Lászlónak az ügyét, ami az utóbbi időben, úgy gondolom, jól jellemezte és mintegy credója volt, összefoglalja az ön miniszterségének a munkáját.</seg>
+<seg xml:id="AC8_2952.4">Miniszter úr, öntől ennél lényegesen többet vártak az emberek, nemcsak azért, mert orvosként miniszter, hanem azért, mert az Orbán-kormány azt ígérte, hogy az egészségügyet is rendbe fogja tenni. Ön az elmúlt 160 napban megfagyott. Semmire nem sikerült rendesen reagálnia, nem sikerült a sürgősségi krízisekre, nem sikerült az egyenkénti, akár az ajkai kórházban vagy a Honvédkórházban meglévő krízisekre reagálnia, sőt egy olyan ügyet, egy olyan szimbolikus ügyet sikerült kreálnia Székely doktor úrnak az ügyéből, amely továbbra is mérgezi az egészségügynek a mindennapjait.</seg>
+<seg xml:id="AC8_2952.5">Tisztelt Miniszter Úr! Ideje, hogy őszintén válaszoljon, és ön is szembenézzen egy tükörrel, és bevallja, hogy mit is tett az elmúlt időszakban. Miniszter úr, ön miatt mondott le Nagy Anikó államtitkár asszony? Ön érez felelősséget amiat</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC8_2952.6">, hogy Székely László eltávolítása miatt betege</seg>
+<kinesic type="signal"><desc>Az elnök ismét csenget.</desc></kinesic>
+<seg xml:id="AC8_2952.7">maradnak ellátatlanul? Miniszter úr, bele tudna nézni a hozzátartozók szemébe őszintén és azt mondani, hogy a felelősségét nem érzi ebben? Várom a megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az ellenzék soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-11-5-urgent_question-AC8_3297" who="#AttilaMesterházy" ana="#regular"><note>MESTERHÁZY ATTILA (MSZP):</note>
+<seg xml:id="AC8_3297.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Alelnök Úr! Legutóbb, amikor egy kérdést fettem fel önnek a devizahitel kapcsán, akkor ön azt mondta, hogy ez a probléma már nem probléma Magyarországon majdnem szó szerint idézem az alelnök urat. Azóta én nagyon sok e-mailt kaptam, százas nagyságrendben kaptam e-maileket olyan magyar választópolgároktól, családoktól, akik nem így érzik ezt, ahogy ön ezt állította. Szerintük igenis komoly probléma még mindig Magyarországon a devizahitelezés csapdája, több százezer magyar család szenved ettől a csapdától, és nagyon sok e-mailben az szerepelt észrevételként, hogy a bankoktól nem kaptak megfelelő tájékoztatást az ügyfelek, ráadásul az akkori gazdasági környezet az árfolyamot tekintve 2008 előtti időszakról beszélek bizony stabil volt, tehát nem volt olyan kockázati tényező, amit egy egyszerű, nem közgazdász földi halandó magyar állampolgár a saját szemével megtapasztalhatott volna, hogy bizony milyen kockázatai vannak annak, ha egy árfolyam sokat ugrál, vagy adott esetben gyengül a forint árfolyama. Tehát magyarul, nem volt személyes tapasztalás, és azt mondták ezek az ügyfelek, akik velem kapcsolatba léptek, hogy bizony a bankoktól sem kaptak megfelelő tájékoztatást, hogy milyen kockázattal, milyen mértékű kockázattal járhat egy ilyen. Ez azért fontos, mert ha nem kaptak megfelelő tájékoztatást, akkor természetesen a felelősségük is kisebb ebben, vagy adott esetben nincs felelősségük ebben a kérdéskörben.</seg>
+<seg xml:id="AC8_3297.2">Ezért azt kérdezném az alelnök úrtól, hogy ön szerint a bankok minden tájékoztatási kötelezettségüknek eleget tettek-e ezen hitelszerződések megkötése során.</seg>
+<seg xml:id="AC8_3297.3">Köszönöm szépen, alelnök úr</seg>
+<kinesic type="applause"><desc>Taps az ellenzék soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-11-5-urgent_question-AC8_3298" who="#ÁgnesKunhalmi" ana="#regular"><kinesic type="noise"><desc>KUNHALMI ÁGNES (MSZP): Köszönöm szépen. Tisztelt Képviselőtársaim! Tisztelt Miniszter Úr! Idén áprilisban a kormány egy delegációt küldött New Yorkba: Palkovics László, Altusz Kristóf és az a Kumin Ferenc, a sors iróniájaként, aki a CEU-n végzett. Amikor ők megjárták ezt az utat, hazajöttek, és azt mondták, hogy minden rendben van, úgy néz ki, hogy egy megállapodástervezet elkészülhet, amelyet nagy valószínűséggel a kormány alá fog írni. Ezt Altusz Kristóf úr többször is nyilatkozta. Ez a megállapodástervezet megszületett New York állam és a magyar kormány között, a szövegezése megtörtént. Annak ellenére, hogy a CEU a feltételeket, amelyeket önök egyébként véleményem szerint egy koncepciós perben támasztottak feléjük, teljesítették, a Bard College-dzsal megkötötték a szerződést, elindult kétfajta képzés, most már épület is van, akármilyen anakronisztikus módon önök ezt egy kulipintyónak nevezik. Ezt a XXI. században, amikor egyébként online képzéseket szerte a világon bárki bárhol elvégezhet, még egy kicsit retrográdnak is tartom.Mindenesetre világossá tette azt Michael Ignatieff, hogy olyan bizonytalan az intézménynek most már a helyzete, hogy önök megmakacsolták magukat, hogy ha december 1-jéig nem írják alá a szerződést, akkor az Amerikában akkreditált képzéseiket el kell hogy vigyék Bécsbe, ami az egész országunknak és az egész tudományosságnak nagy vérveszteség lenne. Enyedi Zsolt rektorhelyettes úr is világossá tette azt, amit például Palkovics úr folyamatosan mond, hogy a CEU-t és a Közép-európai Egyetemet szét lehet választani: nem lehet ezt anélkül megtenni, hogy ez az intézmény rovására, kárára ne menjen.</desc></kinesic>
+<seg xml:id="AC8_3298.1">Kérdezni szeretném miniszter urat, hogy milyen alapon gondolják azt, hogy a Bard College-ban nem kezdődött el képzés, miközben a CEU vezetői állítják, és bizonyítható, hogy a képzés elkezdődött. Milyen alapon gondolják, hogy a CEU-t és a Közép-európai Egyetemet anélkül szét lehetne választani, hogy ez ne veszélyeztetné az intézmény létét? Miből gondolják azt, hogy ha az Oktatási Hivatalra fogják bízni egyébként a tárgyalást, akkor majd a nemzetközi és a hazai közvélemény nem fogja ezt politikai ügyként ugyanúgy kezelni tovább? Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-11-5-urgent_question-AC8_3301" who="#KrisztinaHohn" ana="#regular"><note>HOHN KRISZTINA (LMP):</note>
+<seg xml:id="AC8_3301.1">Köszönöm. Tisztelt Ház! Magyarországon óriási probléma a fiatalok elvándorlása, a családalapítás megnehezülése. Sajnos az elmúlt időszakban sem szociális, sem bérlakásépítési program nem volt, pedig egyre nagyobb szükség lenne ezekre a megoldásokra is. A CSOK csak egy bizonyos szűkebb rétegnek nyújt megoldást, és a családok eladósodásához is vezethet, amely mint az elmúlt időszak is mutatja nem biztonságos megoldás. A rendszerváltás után először és sajnos utoljára az 1998-2002 között működő Orbán-kormány hirdetett meg bérlakásépítési programot.</seg>
+<seg xml:id="AC8_3301.2">A KSH információi alapján 2017-ben 14 389 darab új lakás épült, de ez nem állami beruházásból, hanem magánerőből. A 2018-as féléves adatok ugyan stagnálást mutatnak, de ez valószínűleg a munkaerőhiány miatti fék eredménye. Ezzel párhuzamosan drasztikus árnövekedés következett be a piacon, a bérlakások építése viszont szinte megállt az országban, miközben ez adna lehetőséget a fiatalok életkezdéséhez. Javaslom, hogy 2019-re a kormány különítsen el egy erre megfelelő összeget a fiatalok bérlakásprogramjának támogatására, és térjen vissza a 18 évvel ezelőtt már bevált terveihez, ezzel ösztönözheti a fiatalok itthon maradási kedvét.</seg>
+<seg xml:id="AC8_3301.3">További probléma, hogy a közelmúltban elszabadultak az építőiparban a munkadíjak, sajnos komoly emelkedés tapasztalható, amely, úgy tűnik, nem állt még meg, így ma egy lakóingatlan átlagára kulcsrakész állapotban Budapesten átlagosan 700 ezer forint/négyzetméter, vidéken pedig 180 ezer forint/négyzetméter is lehet.</seg>
+<seg xml:id="AC8_3301.4">Egy jól működő bérlakásépítési program azonban a magyar építőipart pörgetné fel, de a magyar fiatalok számára is biztató jövőképet adna. Ezért kérdezem, hogy tervezi-e a kormány önkormányzati szociális bérlakások építésének finanszírozását a lakhatási válság feloldásának érdekében.</seg>
+<seg xml:id="AC8_3301.5">Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az LMP és a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-11-5-urgent_question-AC8_3302" who="#LorántnéHegedűs" ana="#regular"><note>DR. KEPLI LAJOS (Jobbik):</note>
+<seg xml:id="AC8_3302.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! A politikai kommunikáció nem a nyilvános és nyílt diskurzusról szól, hanem arról, hogy válogatott vagy kevésbé válogatott eszközökkel a kormány sulykolja az álláspontját. Ezt nem én mondom, hanem az önök egykori minisztere, egy korábbi fideszes miniszter, Balog Zoltán mondta, és ennek ékes példáját látjuk nap mint nap a parlamentben. És ennek ékes példája volt legutóbb a Hegedűs Lorántné képviselőtársam interpellációjára adott válasza is.Már akkor arra figyelmeztettük a kormányzatot, hogy a kukaholding inkompetens hozzáállásával veszélyezteti a hulladékszállítást országszerte, a teljes Magyarország területén. Ezzel kapcsolatban pedig két konkrét esetet is megemlítettünk, az egyik a Zöld Híd esete volt, a másik pedig a fővárosi közterület-fenntartóé. Az utóbbi esetében maga Tarlós István járt közbe miniszterelnök úrnál annak érdekében, hogy március elejével a közterület-fenntartó visszakapja azt a jogosultságát, hogy a járandóságot ő szedheti be, és addig is a központilag beszedett díjakból, ígéretet kapott arra, hogy megkapja azt a részt, amit eddig nem vagy csak jelentős késéssel kapott meg.</seg>
+<seg xml:id="AC8_3302.2">Nagyon örülünk annak, hogy Budapest esetében sikerült ezt rendezni, azonban Magyarország jóval több településből áll, és nagyon sok településen a mai napig is veszélyben van a szemétszállítás. Ezzel kapcsolatban felmerül néhány kérdés, hogy az ottani közszolgáltatók vajon mikor juthatnak a pénzükhöz. El tudják-e még holnap, jövő héten is vinni majd a lakossági hulladékot, szemetet a lakosságtól? Miért kell még mindig arra várni, hogy beismerjék, hogy ez a hulladékgazdálkodási rendszer, amit önök felállítottak, működésképtelen?</seg>
+<seg xml:id="AC8_3302.3">Nagyon érdekes persze az is, hogy miért pont a Zöld Hídtól vonták meg önök az engedélyt annak ellenére, hogy ha megkapta volna a járandóságát, ami neki jár, akkor a feladatát el tudta volna látni</seg>
+<seg xml:id="AC8_3302.4">(Dr. Rétvári Bence: Nem szállította el a szemetet, de megkapta a járandóságát.)</seg>
+<seg xml:id="AC8_3302.5">Vajon van-e ennek köze ahhoz, hogy a Zöld Híd volt az, amelyik a kezdetek óta bírálta a hulladékgazdálkodás rendszerét, a nemzeti kukaholding tevékenységét? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-11-5-urgent_question-AC8_3305" who="#AndrásAradszki" ana="#regular"><note>DR. ARADSZKI ANDRÁS (KDNP):</note>
+<seg xml:id="AC8_3305.1">Köszönöm a szót, elnök úr. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A Fidesz-KDNP-kormány, ahogy eddig is, idén is támogatja az önkormányzati fejlesztéseket, ezek között bölcsődei, óvodai, védőnői, orvosi, illetve sportintézmények, valamint belterületi utak, járdák felújítását. Az évenként kiírt fejlesztési célú pályázatnak három fő célja van: a kötelező feladatot ellátó intézmények fejlesztése, felújítása, sportlétesítmények fejlesztése, valamint a belterületi utak, járdák és hidak felújítása. Az így elnyert források felhasználására az önkormányzatoknak két évük van. Fontos itt megemlítenem, hogy 2010 óta jelentősen nőtt, majdnem megduplázódott ez az önkormányzati fejlesztések támogatására fordított keretösszeg, amivel támogatást kaptak a települések bölcsődei, óvodai, iskolai infrastrukturális fejlesztésekre, felújításokra. Ez az összeg tavaly már majdnem 7,5 milliárd forint volt. Idén például 3 milliárd forintból 99 településen kezdődhet el az önkormányzati tulajdonú óvodai és bölcsődei konyhák fejlesztése, ezzel segítve a gyermekétkeztetést is. 2015 óta a költségvetés nemcsak a működtetéshez, hanem infrastrukturális fejlesztésekhez is segítséget nyújt. Az elmúlt években közel 400 település részesült pályázati támogatásban az étkeztetési fejlesztésekhez.</seg>
+<seg xml:id="AC8_3305.2">Tisztelt Államtitkár Úr! A kormány és a Kereszténydemokrata Néppárt politikájának fontos eleme, hogy minél nagyobb mértékben járuljunk hozzá a családok élethelyzetének javításához. A közösen elért jó gazdasági teljesítményre alapozva még az eddigieknél is többet tudunk fordítani a családok életét segítő helyi intézményrendszer fejlesztésére, és amíg a Fidesz-KDNP-kormány irányítja Magyarországot, ez várhatóan a jövőben is így lesz.</seg>
+<seg xml:id="AC8_3305.3">Épp ezért kérdezem tisztelettel miniszter urat, az idei évben hogy alakul a települési önkormányzatok támogatása, milyen fejlesztéseket és milyen mértékben támogat a kormány. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-11-5-urgent_question-AC8_3306" who="#LászlóVarju" ana="#regular"><note>VARJU LÁSZLÓ (DK):</note>
+<seg xml:id="AC8_3306.1">Köszönöm szépen. Alcímként én azért úgy fogalmaznám, és államtitkár úr figyelmét erre fel is hívnám, hogy mikor számoltatják el a Fidesz betelepítési kötvénnyel üzérkedőit, és erre vonatkozóan egy elszámolást most már illene önöknek elkészíteni. A Költségvetési bizottságban most már sokadszorra kérjük és követeljük azt, hogy számoljanak el ezzel. Mind ez idáig nem voltak hajlandók önök erre, pedig most már hivatalosan lezárult a program. Az Államadósság Kezelő Központ azt állítja, hogy 3 milliárd forint nyereséget ért el ezen az állam, miközben a szakértői becslések alapján 28 500 ezer milliárd forint államadósságból összesen, amit önök egyébként ebből használtak, 30 milliárd forint veszteséget okozott az államnak ez a tevékenység. A Fidesz által egykor a jobboldal közös kormányfőjelöltjének javasolt Bod Péter Ákos szerint is semmi szükség nem volt egyébként erre a kötvénykibocsátásra, mert ennél sokkal olcsóbban megoldhatták volna mindezt. Ha azonban a magyar gazdaságnak nem is volt szüksége erre az üzletre, annál nagyobb szükség volt arra, hogy a kötvényeket forgalmazó átláthatatlan offshore cégek 150 milliárd forintos árbevételre tegyenek szert. Ez darabonként egyébként a 300 ezer eurós árbevételből mindenkinek 29 ezer euró bevételt jelentett, és mindez még csak ennek egyik része.</seg>
+<seg xml:id="AC8_3306.2">Éppen ezért kérdezem miniszter, illetve államtitkár urat: ön azért lett miniszter, a köz szolgája, hogy ilyen szemétségeket eltakarjon, és megmagyarázza ezeket, vagy hajlandó a miniszter úr a zárszámadási törvény keretében holnap a bizottsági ülés keretei között végre elszámolni ezzel a pénzzel, hogy mit tettek? Ha van bátorsága önöknek eljönni holnap oda, akkor jöjjenek, és tegyék ezt meg végre! Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a DK soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-11-5-urgent_question-AC8_3309" who="#PéterÁgh" ana="#regular"><note>ÁGH PÉTER (Fidesz):</note>
+<seg xml:id="AC8_3309.1">Tisztelt Államtitkár Úr! Több hét telt el azóta, hogy Demeter Márta, az LMP frakcióvezető-helyettese öncélú politikai haszonszerzés miatt durván átgázolt egy ENSZ-misszióban szolgáló magyar katona családjának személyiségi jogain</seg>
+<kinesic type="noise"><desc>Zaj az ellenzéki oldalon.</desc></kinesic>
+<seg xml:id="AC8_3309.2">Hazugságokat gyártott a miniszterelnök kiskorú lányáról, és ezzel együtt nem nyilvános katonai információkat is nyilvánosságra hozott. Tettével egyrészt tanúbizonyságot tett arról, hogy alkalmatlan felelős pozíció betöltésére a honvédelem és rendvédelem területén, másrészt azt a gyanút erősíti, hogy a nem nyilvános anyagokba történő folyamatos iratbetekintési és adatszolgáltatási kérései bizalmas vagy akár minősített információk kiszivárogtatására is alkalmasak lehetnek. Mint láthattuk, ha kell, átgázol bárkin és bármin, hogyha politikai karrierjének építéséről van szó. Ha kell, egy kétéves kislányt is felhasznál arra, hogy ismét hazudhasson a miniszterelnökről és családjáról.</seg>
+<seg xml:id="AC8_3309.3">Napnál világosabb, hogy képviselő asszony ezen tevékenységével nem hazánk és a magyar emberek biztonságát kívánja szolgálni, sokkal inkább nemzetbiztonsági kockázatot jelent és honvédelmi érdekeket is sért. A rendszerváltás utáni politikatörténet karrierépítés céljából elkövetett leggátlástalanabb és egyben példátlan esete viszont csak akkor zárulhat le megnyugtatóan, ha kiderül az igazság. Ennek érdekében a Fidesz feljelentést tett az ügyészségen, Kósa Lajos, a szakbizottság elnöke pedig kezdeményezte a képviselő asszony nemzetbiztonsági átvilágítását.</seg>
+<seg xml:id="AC8_3309.4">Tisztelt Államtitkár Úr! Ismerve a képviselő asszony hosszú ideje tartó vehemenciáját a nem nyilvános vagy minősített anyagok megismerése iránt, s látva ezen mostani esetet is, kimondottan veszélyes, hogy még mindig tagja, sőt alelnöke lehet a Honvédelmi és rendészeti bizottságnak. Minderre figyelemmel kérdezem, kérdezzük, hogy amíg nem zárul le a Demeter Mártával szemben indított nemzetbiztonsági eljárás és nyomozás, addig korlátozható-e érzékeny adatokhoz történő hozzáférése, mindannyiunk érdeke ugyanis, hogy még egyszer ilyen ne történhessen meg. Köszönöm a figyelmet</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2018-11-5-urgent_question-AC8_3310" who="#TimeaSzabó" ana="#regular"><note>SZABÓ TIMEA (Párbeszéd):</note>
+<seg xml:id="AC8_3310.1">Lelke rajta… Hát, akkor, miniszter úr! A Népszava birtokába jutott egy olyan tervezet, amely szerint a kormány behajtaná az egészségügyi ellátás árát azokon, akiknek nincs rendben a társadalombiztosítása. Eddig csak az elmaradt járulékokat kellett kifizetni, ezután viszont az orvosi ellátás teljes költségét kell majd megtéríteni, ami esetenként több százezer forintra is rúghat. A Nemzeti Egészségbiztosítási Alapkezelő adatai szerint jelenleg 400 ezer embernek nincs biztosítása, és minden huszadik beteg tajszámának ellenőrzésekor jelez be a rendszer valami hibát. Ha igaz a hír, akkor ez azt jelenti, hogy félmillió embernek akár több százezer forintos orvosi költséget is vissza kell majd fizetnie utólag. Tudjuk, hogy ez a probléma a leginkább kiszolgáltatottakat érinti, akiknek nem volt munkaviszonya, vagy éppen a munkaadója valamilyen okból egyszerűen nem fizette be utána a járulékot vagy most már adót. A tét nem kicsi, mert így egy átlagos esetben a kórházi ellátásért 195 ezer forintot fizet az egészségbiztosító, de például a szívinfarktus kezelése 375 ezer forinttól indul, egy daganatos beteg kemoterápiás kezelése pedig eléri a 700 ezer forintot is.</seg>
+<seg xml:id="AC8_3310.2">Kormányzati körökből azt is tudjuk, hogy Orbán Viktor és Kásler Miklós az egészségügy teljes privatizációjára készül, arra, hogy a magánintézményeket állami pénzből támogatják meg, miközben az állami kórházak teljesen kiüresednek, nem marad ott sem orvos, sem ápoló.</seg>
+<seg xml:id="AC8_3310.3">Tisztelt Miniszter Úr! Ha megkapta a füleseket Rétvári Bencétől és Kásler Miklóstól, akkor válaszoljon a következő kérdésre: valóban létezik-e egy ilyen jogszabálytervezet arról, hogy a társadalombiztosítással nem rendelkezőknek ki kell fizetniük a vizsgálatok, kezelések díját utólag? Hogyan képzeli el azt a kormány, hogy kifizetteti sok százezer akár nincstelennel vagy olyan emberrel, akik mondjuk, havonta 150-200 ezer forintot keresnek, akár a félmillió forintra rúgó kezelési költséget is? Miért megint a legkiszolgáltatottabbakba rúg bele a kormány? Várom megtisztelő válaszát. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Párbeszéd soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

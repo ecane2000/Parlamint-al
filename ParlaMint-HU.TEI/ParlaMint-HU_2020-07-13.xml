@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2020-07-13" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2020-07-13 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2020-07-13 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="18" unit="speeches">18 beszéd</measure>
+        <measure xml:lang="en" quantity="18" unit="speeches">18 speeches</measure>
+        <measure xml:lang="hu" quantity="5756" unit="words">5756 szó</measure>
+        <measure xml:lang="en" quantity="5756" unit="words">5756 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2020-07-13">2020. 07. 13.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="18"/>
+          <tagUsage gi="seg" occurs="75"/>
+          <tagUsage gi="kinesic" occurs="17"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2020-07-13">2020-07-13</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2020-7-13-urgent_question-AC8_11304" who="#AndreaVarga-Damm" ana="#regular"><note>DR. VARGA-DAMM ANDREA (független):</note>
+<seg xml:id="AC8_11304.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Képviselőtársaim! Hányasra osztályoznád a szüleidet, nagyszüleidet, testvéreidet, osztálytársaidat, tanáraidat, barátaidat? Milyen a kapcsolatod velük? Szeretnéle kistestvért? Dolgoznake a szüleid? Kikkel laksz együtt? Vane saját szobád? Kikkel laksz egy szobában? Ilyen kérdést tettek fel az Erzsébet-táborokban azoknak a gyermekeknek, akik azért kerültek oda, mert a szüleik nem tudják a drága táboroztatást kifizetni. Mindezt egy vakáció közepén tették, amikor a gyerekeknek kikapcsolódásra, felhőtlen időtöltésre van szükségük, és egy ilyen rendkívül nehéz tanév után vagyunk. A gyermekek ezt a nyarat a pihenésre és a feltöltődésre kell hogy fordítsák.</seg>
+<seg xml:id="AC8_11304.2">Nem azért szavaztam meg az Erzsébet-táborról szóló törvényt, hogy önök, akár a kormány, akár bármely szerve kihasználja a gyermekeket, akiknek szülei így tudják csak biztosítani, hogy a gyerekek táborba menjenek. Ráadásul a Kopp Mária nevével fémjelzett kutatóintézet az, amely állítólag a kérdéssort összeállította, és az Erzsébet-tábort üzemeltető szervezettel megszervezte ezeknek az íveknek a kitöltését. Kopp Mária egy nagy tekintélyű csodálatos szakember volt, aki soha nem engedte volna, hogy ilyen típusú kérdőívet egy vakáció alatti táborban töltessenek ki a gyerekekkel.</seg>
+<seg xml:id="AC8_11304.3">A gyerekekről, aki valaha beszélgetett gyermekkel, a családjáról, tudnia kell, hogy a gyermekek rendkívül bezárkózók, rendkívüli módon megzavarja őket, hogy ha valaki a családjukról, a szeretteikről kérdezi őket, mert nem akarják őket még véletlenül sem esetleg elárulni. Az, aki ilyen kérdőívet összeállít, és egy vakáció alatt akár csak egy gyerekkel kitölteti, az valóban nem a gyermekek mellett van. Az Erzsébet a Kárpát-medencei Gyermekekért Alapítvány működteti az Erzsébet-táborokat, ily módon ez mindenképpen a kormány tevékenysége egyik része, hiszen a honlapjukon is azt írják, hogy Magyarország Kormányának támogatásával szervezik ezeket a táborokat.</seg>
+<seg xml:id="AC8_11304.4">A kérdésem, miniszter úr, legyen szíves elmondani, hogy valóse ez, ami történt, és azt, hogy a kormánynak vane ehhez bármi köze, illetőleg ha igen, leállítják-e. Köszönöm szépen.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-7-13-urgent_question-AC8_11305" who="#LászlóLórántKeresztes" ana="#regular"><note>DR. KERESZTES LÁSZLÓ LÓRÁNT (LMP):</note>
+<seg xml:id="AC8_11305.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Miniszter Úr! A koronavírus-járvány után elindult gazdasági válság már most rendkívül mély, óriási károkat okozott, de a pontos kifutását még nem tudjuk megbecsülni sem, hogy milyen mélységű lesz ez a válság. Azt a következtetést mindenképpen levonhatjuk, hogy az egész Európai Uniót, az európai térséget rendkívül kiszolgáltatott állapotban érte ez a helyzet, hasonlóképpen Magyarországot is. És így megfogalmazhatjuk azt a nagyon fontos tanulságot, vagy talán a legfontosabb tanulságot, hogy nem mehetünk tovább olyan logika szerint, mint a válság előtt, tehát alapvető változásokra van szükség, önellátó, válságálló gazdaságot kell építenünk alapvetően Magyarországon, nemzeti szinten és az Európai Unióban is.</seg>
+<seg xml:id="AC8_11305.2">Azt is elmondhatjuk az uniós csatlakozás tapasztalatai kapcsán, hogy ha megnézzük ennek a mérlegét, akkor nagyon sokakban lehet jogos a csalódás az elmúlt időszakban. Láthatjuk, a bérkülönbségek óriásiak, a területi különbségeket sem sikerült orvosolni, csökkenteni, még jelenleg is négy magyar régió van az Unió húsz legszegényebb térsége között, ezen sem sikerült változtatni. Ennek következménye ez a rendkívül súlyos elvándorlás, aminek következményeként ma már minden hatodik anyaországi, magyar gyermek külföldön születik. Tehát világos változásra van szükség, egy válságálló gazdaságot kell felépíteni. Ehhez képest önök a mai rendkívüli ülés apropójául szolgáló határozati javaslatban is láthatóan belesimulnak a politikai döntéshozó elitbe, és egy olyan javaslatot kívánnak elfogadni, ami gyakorlatilag ezt a struktúrát bebetonozza. Ennek áraként önök eladósítják a magyar fiatalokat.</seg>
+<seg xml:id="AC8_11305.3">És ha azt is tekintetbe vesszük, hogy a paksi projekt, illetve a Budapest-Belgrád projekt óriási hiteleit is egyszerre kell majd törleszteni, akkor el tudjuk mondani, hogy gyakorlatilag adósságcsapdába taszítanak egy egész magyar generációt. Ezzel együtt növelik Magyarország és az egész Unió kitettségét a globális pénzpiacoktól, növelik a külső adósságállományt, és gyakorlatilag mindig határozottan állást foglalnak az európai egyesült államok víziójáról, mi nem támogatjuk az európai egyesült államok vízióját, önök mégis tesznek egy hatalmas lépést azzal, hogy az adózási szuverenitás egy részét feladnák.</seg>
+<seg xml:id="AC8_11305.4">Miniszter úr, a kérdésem az, hogy miért taszítják adósságcsapdába a magyar fiatalokat, és amikor cselekedni kell, világosan láthat</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC8_11305.5">, hogy cselekedni kell az Unió alapvető reformja érdekében, miért mulasztják el ezt a cselekvést. Köszönöm szépen előre is a válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-7-13-urgent_question-AC8_11306" who="#AntalCsárdi" ana="#regular"><note>CSÁRDI ANTAL (LMP):</note>
+<seg xml:id="AC8_11306.1">Tisztelt elnök úr, köszönöm a szót. Tisztelt Ház! Tisztelt Államtitkár Úr! A kormány jövőre szigorít a kisadózók tételes adójának a rendszerén, fel kívánnak lépni azon cégek ellen, amelyek munkaviszony helyett kisadózói státuszba kényszerítik az alkalmazottaikat. Ez önmagában egy helyes lépés, de teszik mindezt úgy, hogy gyakorlatilag egy fűnyíróelven keresztül ellehetetlenítik a kisadózói körbe tartozó vállalkozások, jellemzően kis- és mikrovállalkozások túlnyomó részét. Azt gondolom, hogy ez nincs így rendjén, hiszen ne legyen kétségünk afelől, hogy a kataszigorítás több tízezer kisvállalkozó mindennapi megélhetését lehetetleníti el.</seg>
+<seg xml:id="AC8_11306.2">Mint ismert, a jövőben 40 százalékos adóval sújtják a katások árbevételének azt a részét, ami egy megrendelőtől hárommillió forint fölötti részre vonatkozik. Úgy csinálnak, mintha ez a hárommilliós értékhatár valami hihetetlen luxust jelentene, de ez nincs így. Pontosan tudjuk, hogy ez a havi 250 ezer forint bruttó alig több mint a fele a magyar átlagkeresetnek, amit az önök KSH-ja mutatott ki oly sokszor.</seg>
+<seg xml:id="AC8_11306.3">Egy egyszerű matematikai számítással kiszámolható, hogy a hárommillió forintos értékhatár és az átlagbér közötti összegre vonatkoztatva 60 ezer forintot vonnak el a kisvállalkozóktól. Mindezt teszik akkor, amikor a gazdaság olyan helyzetben van, hogy bizony a vállalkozásoknak az életébe kerülhet, és örülnek, ha egy darab olyan vállalkozás van, akitől megrendelést kapnak.</seg>
+<seg xml:id="AC8_11306.4">Ezért kérdezem tisztelt államtitkár urat, hogy miért büntetik még mindig a kisvállalkozásokat, és mit kívánnak tenni annak érdekében, hogy a kisvállalkozások végre ne a vesztes oldalon álljanak egy kormányzati döntést követően.</seg>
+<seg xml:id="AC8_11306.5">Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-7-13-urgent_question-AC8_11309" who="#TamásHarangozó" ana="#regular"><note>DR. HARANGOZÓ TAMÁS (MSZP):</note>
+<seg xml:id="AC8_11309.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Miniszter Úr! Nagyon szomorú tragédia volt Vértesszőlősön, a múlt hét előtti szombaton történt az esemény, életveszélyes sérülésekkel szállították kórházba azt a siklóernyőst, aki miután sértetlenül landolt egy magas fa tetején, később a segítségére érkező Mi-8-as honvédségi mentőhelikopter rotorszele miatt 15-20 méteres magasságból lezuhant, teljesen összetörte magát, azóta is életveszélyes sérülésekkel kórházban ápolják. E miatt az esemény miatt egyébként a helyszínen jelen lévő mentőtiszt is sérüléseket szenvedett.Itt teljesen egyértelmű, hogy maga a mentés okozta a tragédiát. Sokan állítják, hogy ilyen esetben a Magyar Barlangi Mentőszolgálat az, amelyik képes és alkalmas ezt a mentést elvégezni, és miután három és fél évvel ezelőtt is hasonló tragédia volt honvédségi helikopter mentése közben, azt nagyjából mindenki bizton állítja, hogy tudható volt, hogy egy ilyen nagy teljesítményű rotorral ellátott helikopter problémát fog okozni, és ezt a helyszínen is többen jelezték.</seg>
+<seg xml:id="AC8_11309.2">Sajtóhírek szerint is korábban az Országos Mentőszolgálattal volt szerződése a Magyar Barlangi Mentőszolgálatnak, ám a jelenlegi miniszterelnöki főtanácsadó, Bakondi György akkori utasítására állítólag ezt letiltották, és csak közvetlenül a katasztrófavédelem hívhatja helyszínre ezt a speciális egységet.</seg>
+<seg xml:id="AC8_11309.3">Tisztelt Miniszter Úr! Azt gondolom, hogy a konkrét esetet természetesen ki kell vizsgálni, ha jól tudom, az ügyészség ebben teszi a dolgát, de itt a parlamentben arról kell beszéljünk, hogy az eset körülményeit a kormány kivizsgáltae, azokat az anomáliákat, szakmai problémákat megvizsgáltáke, ami idáig vezetett, nem az egyéni és egyedi döntéseket, hanem a rendszerszerű döntéseket. Mire jutottak, és milyen garanciát tudnak abban adni, hogy ilyen többet ne fordulhasson elő? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-7-13-urgent_question-AC8_11310" who="#AttilaMesterházy" ana="#regular"><note>MESTERHÁZY ATTILA (MSZP):</note>
+<seg xml:id="AC8_11310.1">Nagyon szépen köszönöm. Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Képviselőtársaim! Az elmúlt napokban volt egy ügy, amely nagyon felkavarta a magyar társadalmat, ez egy pedofil diplomata ügye, amely eset bekövetkezte után, a csend és a sunnyogás után végre hallani olyan fideszes megszólalókat, amelyek talán a helyes irányba tudják terelni ennek az ügynek a kezelését. Azt mindenféleképpen hiányoltuk, hogy most nem állt ki Rogán Antal, hogy egy kis videót forgasson rögtön az ítélet után, vagy éppen frakcióvezető-helyettes társa, aki azt mondta, hogy a társadalom igazságérzetét a gyöngyöspatai döntés annyira borzolja és bántja, hogy ott törvénymódosításra van szükség, hanem napokat kellett várni arra, hogy egyáltalán valamilyen reakció szülessen. Felvetődik ilyenkor az a kérdés, hogy vajon hogyan juthattunk el idáig, hiszen egy olyan diplomatáról, egy olyan nagykövetről beszélünk, aki kiemelt feladatot látott el a magyar állam nevében, hiszen hazánkat képviselte külföldön.</seg>
+<seg xml:id="AC8_11310.2">(15.40)</seg>
+<seg xml:id="AC8_11310.3">Egy olyan köztisztviselőről van szó, aki átment többször a nemzetbiztonsági átvilágításon. Olyan diplomatáról, olyan nagykövetről beszélünk, akinek a védelme, ellenőrzése akár a kiberbűnözéssel vagy a zsarolásokkal szembeni védelem szempontjából bizony az Információs Hivatalnak lenne a dolga, mégis azt láttuk, azt tapasztaltuk, hogy sem az Alkotmányvédelmi Hivatal, sem az Információs Hivatal nem volt képes feltárni azt, hogy egy nagykövet majdnem 20 ezer képet tárol, birtokol pedofilként gyermekekről, egy olyan hálózat tagjaként, ahol azért meg volt határozva, hogy vagy fizetni kell, vagy magának is részt kell vennie a feltöltésekben, vagy ajánlania kell ezt az oldalt valakinek, különben nem vehetett volna részt ebben a bűnszervezetben. Tehát egy ilyen személynek a cselekedetei kapcsán, aki ezáltal világosan zsarolhatóvá válik, hogyhogy nem sikerült egyetlenegy magyar szervnek sem feltárnia ezt a problémát az évek során?</seg>
+<seg xml:id="AC8_11310.4">Köszönöm a türelmet, elnök úr</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-7-13-urgent_question-AC8_11311" who="#LászlóSzakács" ana="#regular"><note>DR. SZAKÁCS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC8_11311.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Ma is hallhattuk, a vírust a határainkon meg kell állítani, illetve a miniszterelnököt is hallhattuk, aki azt mondta, hogy a legnagyobb probléma a vírusválság második szakaszában a behordás, pontosan a turisztikai szezon kellős közepén. Miközben azon gondolkozott persze mindenki, hogy hogyan lehet ennek megfelelően gátat szabni, aközben hallhattuk tegnap, hogy Gulyás miniszter úr elmondta, hogy besorolták, a kormány besorolta az országokat, van piros, van narancs vagy sárga jelű, illetve van zöld jelű ország is a környezetünkben, ahonnan a beutazásnak bizonyos feltételeit teljesíteni kell, vagy éppen a piros jelű országokból nem lehet beutazni az országba.Valójában a kérdéseim arra vonatkoznának, és ebben biztos, hogy a külügyi tárca tud nekem segíteni, hogy mi alapján sorolták be ezeket az országokat. Horvátország belekerült abba a zöld zónába, ahol nyugodtan lehet ki-be járni, holott ott rengeteg magyar fordul meg, rengetegen mennek és természetesen jönnek is haza, nyilvánvalóan sokkal nagyobb a veszélye annak, hogy valaki esetleg vírust hoz haza, valaki esetleg megfertőződik Horvátországban, mint ha mondjuk, Afrikából vagy Ázsiából jönne haza, hiszen ők jóval kevesebben vannak.</seg>
+<seg xml:id="AC8_11311.2">Azt látjuk, hogy Ukrajna tekintetében a ki- és beutazásnak feltételei vannak, de minden feltétel nélkül jöhetnek ide az ukrán vendégmunkások egyébként a magyarok helyett dolgozni, nyilvánvalóan jóval olcsóbban, de ők jöhetnek ide. Arról szólnak a sajtóhírek, hogy akik idejöttek, azok rögtön karanténba is kerültek Gyöngyösön éppen 88-an a tegnapelőtti napon.</seg>
+<seg xml:id="AC8_11311.3">Tehát a kérdésem az, államtitkár úr, hogy mi alapján sikerült ezeket az osztályokat, mi alapján sikerült ezeket a színkódokat besorolni. Köszönöm a figyelmet</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-7-13-urgent_question-AC8_11314" who="#LászlóGyörgyLukács" ana="#regular"><note>DR. LUKÁCS LÁSZLÓ GYÖRGY (Jobbik):</note>
+<seg xml:id="AC8_11314.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! A tegnapi napon tett Gulyás miniszter úr bejelentést azzal kapcsolatosan, hogy milyen szigorítások várhatók az ország határain. Mindannyiunk számára fontos, hogy Magyarországon az emberek a lehető legnagyobb biztonságban legyenek, és nyilvánvaló, hogy mindenki számára érthető, melyek a piros, melyek a sárga, illetve zöld kóddal jelzett országok. Bár itt azért tennék egy kitérőt, hogy az M1 Híradójában, illetve az M1 Facebook-oldalán Törökországot még mindig sikerült a zöld kategóriába sorolni. Nyilván meg lehet kérdezni cinikusan, hogy a 90 milliárdot mire költik, mert látjuk, hogy sem térképészetet, sem pedig a Közlöny értelmezését nem sikerült belőle megvalósítani. De ami igazán fontos, tisztelt államtitkár úr, és ami ezekkel kapcsolatosan fontos, az a tesztelések kérdése. A tesztelések kérdésénél nagyjából világosan látszik, önök azt várják el, ahhoz, hogy a sárga, illetve piros kategóriából jövő magyar állampolgárok, akik hazatérnek, kikerüljenek a karanténból, teszteket végeztessenek el. Ezzel kapcsolatosan nyilvánvalóan felmerül az első kérdés: a tesztet milyen módon, illetve hol tudják kezdeményezni? A második kérdés: vane erre kapacitása a jelenlegi rendszernek, például a háziorvosi rendszernek vagy a mentőknek, akiknek tudomásunk szerint eddig kellett végezni, vagy egyébként a kórházak fognak ilyen tesztet végezni?</seg>
+<seg xml:id="AC8_11314.2">A tesztekkel kapcsolatosan: ha a kórházakról van szó, akkor, tisztelt államtitkár úr, vane olyan tiszti főorvosi körlevél, amely tiltja a kórházakban az úgynevezett PCR-tesztek elvégzését, azaz a vírus jelenlétének azonosításához szükséges tesztelést, hiszen úgy tudjuk, hogy van. Jó lenne, ha önök eloszlatnák ezt a kételyt, mert ha ez igaz, akkor ez azt jelenti, hogy a Magyarországra visszatérő magyar állampolgároknak pont az egyik legfontosabb helyen nagyjából tilos a teszteltetés, és nem fogják tudni intézni a saját dolgaikat.</seg>
+<seg xml:id="AC8_11314.3">Tehát amit tisztázni kell: vane ilyen tiltás? Ha van, akkor ettől mikor állnak el? Hol kell a teszteket végeztetni? Vane erre kapacitása jelenleg az egészségügyi rendszernek? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-7-13-urgent_question-AC8_11315" who="#ZoltánMagyar" ana="#regular"><kinesic type="noise"><desc>MAGYAR ZOLTÁN (Jobbik): Köszönöm a szót, elnök úr. Tisztelt Ház! Képviselőtársaim! Gondolom, államtitkár úr már unja, de ismét a szőlő- és bortermelés helyzetéről lesz szó. Abból gondolom, hogy unja, mert Steinmetz Ádám képviselőtársammal rendszeresen felvetjük az ebben az ágazatban dolgozók problémáit, az ebből élő családok helyzetét. Sajnos kénytelen vagyok megint felszólalni ebben a kérdésben. S ha ön unja, akkor képzelje el, hogy mennyire unhatja és mennyire lehet elkeseredett az a magyar bogyótermesztő, aki most már sokadik éve gyakorlatilag a teljes éves munkája után még csak az önköltségre sem elegendő bevételre számíthat a megtermelt szőlő után. Idén is nekiálltak a zöldszüretnek, ezekben a napokban zajlik ez a folyamat. Aki esetleg nem dolgozik ezen a területen vagy nincs ilyen ismerőse, annak összefoglalnám: a zöldszüret arról szól, hogy a magyar állam európai uniós forrásokon keresztül azt finanszírozza, hogy az éretlen fürtöket a gazdálkodók metsszék a tőke alá.</desc></kinesic>
+<seg xml:id="AC8_11315.1">(15.20)</seg>
+<seg xml:id="AC8_11315.2">Ugyanis önök szerint ez egyfajta belpiaci intézkedés. Ezt azért mondom, mert az Államkincstár honlapján, ahol lehet erre a zöldszüretre regisztrálni, ott ez alatt a fül alatt található. Tehát, amíg a termelők azt várnák el, hogy tisztességes árat kapjanak a megtermelt szőlő után, hogy mondjuk, szövetkezeti formában végre szerte a magyar vidéken legyenek olyan feldolgozóüzemek, amelyek valóban a családok kezén vannak, e helyett a valódi belpiaci intézkedés helyett csak arra tudnak támaszkodni ezek a családok, hogy gyakorlatilag értelmetlenül dolgozzák végig az évet.</seg>
+<seg xml:id="AC8_11315.3">Kérdezem tehát, hogy tíz év alatt miért nem sikerült kialakítani egy olyan rendszert, ahol meg lehet élni az egész éves munkából egy magyar gazdálkodónak. És a zöldszüret logikáját ki fogja követni? Tavaly azt mondták, hogy ez az egyetlenegy kivételes év, erre idén újra meghirdették. Hogyan tovább? Jövőre már a meggyre is ez lesz, vagy később majd a gabonákra is zöldszüretet fognak hirdetni? Vagy mi a tervük a magyar vidékkel, államtitkár úr, mert ebből a logikából ez következik.</seg>
+<seg xml:id="AC8_11315.4">Nagyon szépen kérem, hogy olyan érdemi válasz érkezzen, ami meg tudja nyugtatni az érintett termelőket. Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-7-13-urgent_question-AC8_11316" who="#ÁdámSteinmetz" ana="#regular"><note>DR. STEINMETZ ÁDÁM (Jobbik):</note>
+<seg xml:id="AC8_11316.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! A somogyi emberek képviseletében fogok most önnek kérdéseket feltenni egy szakmai alapú diskurzus reményében.Nagy öröm számunkra, hogy hazánk 2023-ban MotoGP-versenyt rendezhet ehhez persze pályát is kell építeni. Annak idején Sávoly község határában elkezdődött egy ilyen pálya építése még Talmácsi Gábor világbajnokunk szerepvállalásával, amikor is a pálya 4 kilométer hosszú alapjába 4 ezer tonna kő bedolgozásával mintegy 10 milliárd forint értékben valósult meg beruházás, aztán jött a gazdasági válság, és az építkezés félbemaradt. Én pedig az elmúlt hónapokban többször is hangoztattam pénzügyi és turisztikai okokra hivatkozva, hogy ha MotoGP, akkor Sávoly, ezt a pályát kell ugyanis befejezni, ez a pálya jelentene a térségünknek egyértelműen fejlődést és az itt élő embereknek reményt arra, hogy egy picit előrébb tudjanak lépni.</seg>
+<seg xml:id="AC8_11316.2">Megdöbbentő azonban, hogy a somogyi fideszes képviselők ezt nem látják be, sőt Móring József Attila még arra is vetemedett, hogy valótlanságokkal kampányoljon a sávolyi pálya befejezése ellen. Hát, ez döbbenet! Pedig Marcali, Hévíz, Zalakaros, a balatoni turizmus-vendéglátás mind-mind tudna profitálni az M7-es és a sármelléki repülőtér közelében megrendezendő versenyekből.</seg>
+<seg xml:id="AC8_11316.3">Tisztelettel kérem az államtitkár urat, magyarázza meg az embereknek, hogy a MotoGP-pálya helyszínének kijelölésekor milyen szakmai alapokon hozták meg a döntést. Bízhatunke abban, hogy 2023-ban állami, kormányzati segítséggel befejezik a sávolyi Balatonring-építkezést? Bízhatunk benne, államtitkár úr? Igen vagy nem? Várjuk megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-7-13-urgent_question-AC8_11317" who="#JózsefAttilaMóring" ana="#regular"><note>MÓRING JÓZSEF ATTILA (KDNP):</note>
+<seg xml:id="AC8_11317.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Miniszter Úr! A Fidesz-KDNP-kormány kiemelten fontosnak tartja a párbeszédet az állampolgárokkal, ezért a 2010-es kormányváltás óta rendszeresen él a konzultáció lehetőségével, amikor fontos kérdésekben két választás között is kikéri az emberek véleményét. Eddig nyolc alkalommal tette meg ezt a kormány nemzeti konzultációk formájában, ezek az Alaptörvényről, szociális, majd gazdasági kérdésekről, a megélhetési bevándorlásról és a terrorizmusról, a magyar internet jövőjéről, a tagállami és uniós jogkörökkel kapcsolatos vitákról, a bevándorlással kapcsolatos nemzetközi tervekről és a családok védelméről szóltak. Rendre milliós, sokszor többmilliós mennyiségben kapott választ a kormány, melyeket döntései során figyelembe vett.</seg>
+<seg xml:id="AC8_11317.2">A mostani nemzeti konzultáció a koronavírusról és a gazdaság újraindításáról indult. A kérdőívek kézbesítése már megkezdődött, a következő hetekben pedig várhatóan ismét sok százezren élnek a konzultáció adta lehetőséggel, azzal, hogy kifejezik véleményüket, és irányt szabnak a kormány egyes intézkedéseinek.</seg>
+<seg xml:id="AC8_11317.3">Tisztelt Miniszter Úr! A nemzeti konzultációs ív kitöltésével a magyar polgárok közös jövőnket alapvetően meghatározó kérdésekben nyilváníthatnak most is véleményt. Ezek: a járvány elleni védekezés további konkrét lépései, a védekezés költségeinek kérdése, a munkahelyi védőprogramok jövője, a magyar vállalkozások támogatása vagy migrációs kérdések, és az Európai Unió gazdaságának jövője, ehhez kapcsolódva a második Soros-terv az európai örökkötvényekről.</seg>
+<seg xml:id="AC8_11317.4">Ma Magyarországon a járvány ellen komoly összefogás jött létre, ennek a továbbiakban is fenn kell maradnia. Sajnos ebben az összefogásban a baloldali politikusok továbbra sem partnerek, ahogy a veszélyhelyzet idején, most is kizárólag saját hasznukat keresik. Az ellenzék nem első alkalommal támadja a nemzeti konzultáció intézményét, viszont ilyen súlyos időkben ez sokszorosan felelőtlen magatartás. Azok, akik állandóan demokráciára, annak hiányára hivatkoznak, most a postaládákból lopkodják ki az íveket.</seg>
+<seg xml:id="AC8_11317.5">Kérdezem tisztelt miniszter urat: miért fontos mindannyiunk számára, és hol tart a legújabb, a koronavírus kezeléséről és a gazdaság talpra állításáról szóló nemzeti konzultáció? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-7-13-urgent_question-AC8_11318" who="#LászlóFöldi" ana="#regular"><note>FÖLDI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC8_11318.1">Köszönöm a szót, elnök úr. Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Államtitkár Úr! Az elmúlt néhány hónap erősen megviselte a magyarságot, Magyarországot, nemcsak az embereket, hanem a gazdaságot is. Azt is nagyon jól tudjuk, hogy a kormány több lényeges döntést hozott, amelyek hatékonyan járulhatnak hozzá a koronavírus-járvány gazdasági hatásainak ellensúlyozásához. Az Agrárminisztérium is több olyan programot, illetve pályázati csomagot készített a gazdák számára, amelyeknek célja a gazdaság fellendítése és a munkahelyek védelme a mezőgazdasági ágazatban. A mezőgazdaság és az élelmiszeripar szereplőinek 25 milliárd forintos válságkezelő, vissza nem térítendő támogatási programot készített elő az agrártárca. Az elsődleges cél az élelmiszer-ellátás biztonságának fenntartása, a termelési kapacitás megerősítése és a mintegy 140 ezer munkahely védelme. A forgóeszköz-finanszírozást segítő Agrár Széchenyi Kártya Plusz konstrukcióban pedig már mintegy 3 ezer gazdálkodó igényelt kedvezményes hitelt több mint 54 milliárd forint értékben.</seg>
+<seg xml:id="AC8_11318.2">Tisztelt Államtitkár Úr! A KDNP teljes mértékben támogatja az Agrárminisztérium által a magyar gazdák és a magyar vállalkozások számára létrehozott támogatási konstrukciókat, hiszen a magyar agráriumot a koronavírusból adódó nehézségeken kívül éppen a fagykárok és a márciusi-áprilisi szárazság is megtépázta.</seg>
+<seg xml:id="AC8_11318.3">Most zajlik a betakarítás, elkezdődött a repce, a búza, őszi árpa betakarítása, és tudjuk, hogy az aszály több mint 300 ezer hektárt sújtott ebben az ágazatban.</seg>
+<seg xml:id="AC8_11318.4">A fentiek alapján kérdezem tisztelt államtitkár urat, hogyan támogatja a kormány a mezőgazdasági vállalkozókat, milyen újabb dolgokra lehet majd számítani az agráriumban, és hogy látja, államtitkár úr, a szántóföldi növények, a gabona betakarítása milyen eredményt fog hozni a nyár végére.</seg>
+<seg xml:id="AC8_11318.5">Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-7-13-urgent_question-AC8_11319" who="#BenceTordai" ana="#regular"><note>TORDAI BENCE (Párbeszéd):</note>
+<seg xml:id="AC8_11319.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Mohón csillogott Orbán Viktor szeme, amikor megtudta, hogy rászakad az uniós pénzeső, a 2022-ig, a választás évéig elkölthető 5000 milliárd forint. Ez a pénz háromszor annyi, mint amennyit Magyarország egy évben beruházásokra, fejlesztésekre fordít. Tudjuk, Orbán Viktor jelmondata a „Fogd a pénzt és fuss!”, csak mielőtt felmarkolják a pénzt, maguk még idehoznak az Országgyűlés elé egy zsarolólevelet a többi uniós tagállamnak címezve. Azt üzenik, ha nem hagyjátok nyugodtan lopni a Fideszt, Orbán Viktor majd megvétózza az egész uniós gazdasági mentőcsomagot. Önök ebben a papírban azt írják, szó szerint idézem: „A Következő Nemzedék EU-eszköz sikerességének kulcsa a tagállamok egymás közötti, illetve az uniós intézmények irányában tanúsított együttműködése és bizalma.” Igaz, de az együttműködés és a bizalom alapja a jogállam, ez a garancia. A jogállam pedig azt jelenti, hogy nem lehet lopni következmények nélkül, sőt nem lehet törvényeket hozni, hogy nyugodtan lophassana</seg>
+<seg xml:id="AC8_11319.2">(Németh Szilárd István: Ezért váltottak le benneteket 2010-ben!)</seg>
+<seg xml:id="AC8_11319.3">, nem lehet Polt Pétert rakni az ügyészség élére, és így tovább.Önök azt írják, idézem megint csak: „A források politikai és ideológiai feltételekhez kötése jogállamiság címszó alatt elfogadhatatlan.” Drága fideszes kollégák, az nem ideológia, hogy hagyni kell nyugodtan lopni a Fideszt</seg>
+<seg xml:id="AC8_11319.4">(Dr. Völner Pál: Bizonyítsd!)</seg>
+<seg xml:id="AC8_11319.5">Maguk sokszor keresztényként hivatkoznak önmagukra. Ahogy én olvasom a Bibliát, a tízparancsolatból a 7. az, hogy ne lopj. Tehát, önök éppen ezt csinálnák, ellopnák a magyar dolgozóktól, kisvállalkozóktól, a nyugdíjasoktól, a magyar gyerekektől azt a rengeteg pénzt, amit az Unió nekik szán, ami az ő jogos jussuk. Ebből a pénzből lehetne egy igazságos és zöld Magyarországot építeni.</seg>
+<seg xml:id="AC8_11319.6">Miniszter úr, jól értjük akkor az önök javaslatát, azt mondják, hogy ha nem tudja a Fidesz ellopni ezt a pénzt, akkor inkább ne is adják oda Magyarországnak?</seg>
+<seg xml:id="AC8_11319.7">Kíváncsian várom a válaszát</seg>
+<kinesic type="applause"><desc>Dr. Völner Pál: Bizonyítsd! Kocsis-Cake Olivio tapsol.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-7-13-urgent_question-AC8_11320" who="#OlivioKocsis-Cake" ana="#regular"><note>KOCSIS-CAKE OLIVIO (Párbeszéd):</note>
+<seg xml:id="AC8_11320.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Abban talán egyetérthetünk, hogy a Balaton mindenkié, de az utóbbi években azt látjuk, hogy ez egyre kevesbé van így, lassan egy törölközőt nem tudunk úgy leteríteni, hogy az ne Mészáros Lőrincnek és üzleti körének hozzon hasznot. Azt is láthatjuk, hogy Magyarországnak nemcsak magyar tengere van már, hanem lassan saját vadnyugata van a Balatonnál, hiszen a hatalom embereinek szinte bármit lehet, a magyar embereknek meg szinte lassan semmit. A földből nőnek ki a luxusvillák olyan helyeken, ahol nem szabadna. Például természetvédelmi területeket dózerolnak le. Ennek eklatáns példája látható Tihanyban. A forgatókönyv minden esetben ugyanaz: kijátsszák a meglévő jogszabályokat. Luxusvillák, melyek hivatalosan mezőgazdasági épületek lakófunkcióval, amiben a kertműveléshez szükséges eszközöket tárolják. Vagy medencék, melyek hivatalosan kerti tavak, vagy esővíztározók, miközben pont ezen a helyen az építési szabályzat kifejezetten tiltja az olyan medencék építését, melyek célja a fürdőzés. Így lesz az esővíztározó egy feszített víztükrű luxusmedence.</seg>
+<seg xml:id="AC8_11320.2">Tisztelt Államtitkár Úr! Általában az történik, hogy kiszabnak egy csekély bírságot, de ezeket egyszerűen bekalkulálják a több száz milliós villák árába. A Párbeszéd megtette, ami tőle tellett, a szükséges intézkedéseket. Írtunk levelet a kormányhivatalnak, a nemzeti parknak. Az a kérdésem, hogy a kormány mit tesz annak érdekében, hogy megállítsa ezeket a káros folyamatokat.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-7-13-urgent_question-AC8_11321" who="#CsabaNagy" ana="#regular"><note>NAGY CSABA (Fidesz):</note>
+<seg xml:id="AC8_11321.1">Köszönöm, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Nehéz időszakot hagytunk a hátunk mögött, de a kellő időben meghozott döntéseknek, a szakembereink felkészültségének és az állampolgárok fegyelmezettségének köszönhetően a járvány elleni védekezés első szakaszán sikeresen túljutottunk. A koronavírus elleni védekezés újabb szakaszára való felkészülés érdekében a kormány úgy döntött, hogy párbeszédet kezdeményez az emberekkel. A nemzeti konzultáció bevált eszköz arra, hogy a magyarok elmondják véleményüket az ország sorsát érintő legfontosabb kérdésekben. Az viszont egyenesen felháborító, hogy a baloldal folytatva korábbi alantas gyakorlatát hevesen támadja a konzultációt.</seg>
+<seg xml:id="AC8_11321.2">Most éppen a postaládákból lopkodják ki a kérdőíveket, megsemmisítik azokat, de még attól sem riadnak vissza, hogy a frissen érkezett küldeményeket azonnal összegyűjtsék. Próbálják meghiúsítani a kormány és a társadalom közötti párbeszéd kialakulását, sértő módon akadályozzák a magyarokat a szabad véleménynyilvánításukban. Igencsak visszás, hogy pont a jogállamiság mellett képmutató módon naponta lándzsát törő baloldal akarja bojkottálni a demokratikus párbeszéd létrejöttét.</seg>
+<seg xml:id="AC8_11321.3">A DK veresegyházi akciója pedig szó szerint gyomorforgató, ugyanis a konzultációs ívek jogi felhatalmazás nélküli gyűjtése, valamint a rajtuk lévő nevek kivágása súlyosan sérti a személyiségi adatok védelmét. Ez a gyakorlat sajnos nem egyedülálló. Egy videó tanúsága szerint Mezőtúron is jobbára a borítékokat, az azon lévő adatokat gyűjtik.</seg>
+<seg xml:id="AC8_11321.4">Mi, kormánypárti képviselők felszólítjuk a baloldalt, hogy maradjon a törvényesség talaján, s ha már nem szeretne részt venni a koronavírusról szóló párbeszédben, akkor legalább ne akadályozza annak lefolyását.</seg>
+<seg xml:id="AC8_11321.5">Az elhangzottakra tekintettel kérdezem tisztelt államtitkár urat, felmerüle a jogsértés gyanúja a baloldal viselkedésénél</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-7-13-urgent_question-AC8_11322" who="#ImrePesti" ana="#regular"><note>DR. PESTI IMRE (Fidesz):</note>
+<seg xml:id="AC8_11322.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Képviselőtársak! Nemrégiben a szocialisták közösségi oldalán napvilágot látott egy videó, amelyben Korózs Lajos szocialista képviselő egy általa mentősnek nevezett nővel beszélgetett. A videóban szereplő asszony, Németh Athina abszurd dolgokat mondott. Többek között azt állította, hogy a tíz, általa ellátott beteg közül kilenc meghalt, aztán később kiderült, hogy soha nem dolgozott sem az Országos Mentőszolgálatnál, sem más betegszállító cégnél. Az ügy óriási közfelháborodást keltett. Többször és nyomatékosan kértük a baloldalt, hogy fejezze be az álhírek gyártását. A rendőrség hivatalból nyomozást indított a baloldali kamu videó ügyében. Ennek ellenére a múlt héten egy újabb fantáziadús kamu videó látott napvilágot, amelyben Németh Károly egy általa forgalmazott csodamasináról azt terjesztette, hogy nyolc perc alatt kimutatja a koronavírust. Már szinte meg sem lepődtünk azon, hogy Németh Károly a baloldali kamu videóban szereplő főhős álmentős Németh Athina testvére. Károly állítása szerint már felkereste a hazai szaktekintélyeket, akik egytől egyig el voltak ájulva, és szorgalmazták, hogy minél előbb tárgyaljanak a kormánnyal erről a csodamasináról. Ennek ellenére a kormány mégis a korszerűtlen gépeket vásárolta meg.</seg>
+<seg xml:id="AC8_11322.2">Miközben a férfi korrupciót sejtetett, az első esethez hasonlóan itt is hamar kiderült: egy szó sem igaz az egészből, egy újabb baloldali kreálmányról van szó.</seg>
+<seg xml:id="AC8_11322.3">(16.10)</seg>
+<seg xml:id="AC8_11322.4">A testvérpár durva hazugságai mögött politikai indítékok, érdekek húzódhattak meg. A baloldal célja továbbra is az, hogy alaptalan álhírekkel az embereket szándékosan félrevezesse, és aláássa az egészségügybe vetett közbizalmat.</seg>
+<seg xml:id="AC8_11322.5">Mindezek tükrében kérdezem tisztelettel államtitkár úrtól, milyen kockázatai vannak és milyen károkat okozhat az álhírek terjesztése éppen a koronavírus-járvány elleni sikeres védekezésben. Köszönöm. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-7-13-urgent_question-AC8_11323" who="#MiklósSimon" ana="#regular"><note>DR. SIMON MIKLÓS (Fidesz):</note>
+<seg xml:id="AC8_11323.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Képviselőtársaim! Államtitkár Úr! Magyarországon a járványügyi korlátozások enyhítését követően is folyamatosan csökken az aktív koronavírus-fertőzöttek száma, a járvány azonban nem ért véget. A környező országokban a megbetegedések számának emelkedése tapasztalható. Szerbiában országszerte járványgócok alakultak ki, a kórházak lassan megtelnek, és a kormány újra kijárási korlátozásokat kénytelen bevezetni. Romániában néhány napja rekordot döntött az újonnan regisztrált koronavírusos megbetegedések napi száma. A hatóságok nehezen veszik rá a lakosságot a járványvédelmi intézkedések betartására. Ukrajnában hasonló szomorú rekordok születtek. Ausztriában néhány hete szintén emelkedésnek indult az új esetek száma, amire a kormány iskolabezárásokkal reagált. Az osztrák külügyminisztérium közlése szerint több fertőzés nyugat-balkáni utazásokra volt visszavezethető. Sajnos tény, hogy Horvátországban, Bosznia-Hercegovinában és még a korábban rendkívül sikeresen védekező Szlovéniában is növekedett a fertőzésszám.</seg>
+<seg xml:id="AC8_11323.2">(16.40)</seg>
+<seg xml:id="AC8_11323.3">Nem lehet figyelmen kívül hagyni azt a tényt, hogy több esetben olyan országokban kezd kritikussá válni a járványügyi helyzet, ahonnan hazánk irányába illegális migrációs nyomás tapasztalható. A nyár kezdete óta sajnos ismét a 2016-os szintre emelkedett az illegális határátlépési kísérletek száma.</seg>
+<seg xml:id="AC8_11323.4">Tisztelettel kérdezem az államtitkár urat: milyen veszélyt hordoz magában a déli szomszédainknál súlyosbodó járványhelyze</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC8_11323.5">és a növekedő migrációs nyomás? Lehete a két folyamatnak együttes hatása?</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-7-13-urgent_question-AC8_11325" who="#LászlóVarju" ana="#regular"><note>VARJU LÁSZLÓ (DK):</note>
+<seg xml:id="AC8_11325.1">Elnök úr, köszönöm szépen a szót. Az újpesti Árpád úti kórház ügyében viszont nincs mire várni, hiszen önöknek azt nem kellett felépíteni, mert azt megtették a Károlyi grófok, nem kellett felújítani sem, mert a felújítást egyébként megtették a Gyurcsány- és Bajnai-kormányok. Önöknek viszont az volt az első lépése, némi hezitálás után, hogy végül is bezárták ezt a kórházat, Újpest utoljára felújított kórházát. Csaknem 200 ezer újpesti, illetve a szomszéd kerületben lévő, XV. kerületi, inkább a térségben lévő lakos egészségügyi ellátását, de elsősorban a sürgősségi osztályhoz kapcsolódó feladatok ellátását itt el lehetett volna végezni, de ezt átutalták önök a XIII. kerületbe, a Honvéd Kórházba, ahol amúgy is ápolóhiánnyal küzdenek.</seg>
+<seg xml:id="AC8_11325.2">Nyolc év arra sem volt elegendő, hogy döntsenek és az indokokat megadják, hogy mi történt itt. Volt különböző ötlet, hogy mi történjen ezzel az épülettel, miközben az újpesti polgárok számtalan alkalommal tiltakozással, felszólalással, itt a parlamentben, önkormányzati jelzéssel többször jelezték, sokszor jelezték, hogy márpedig kórházra, az egészségügyi ellátás megfelelő szolgáltatására van szükség.</seg>
+<seg xml:id="AC8_11325.3">Év végén önök szavukat adták arra, hogy az önkormányzat beleegyezése nélkül nem fog történni semmi. Történt valami veszélyelhárításra vonatkozó építkezési beavatkozó munka, de itt a társminisztérium államtitkára utalt arra, hogy a tervezést megkezdték, de ez most már fél évvel ezelőtt történt.</seg>
+<seg xml:id="AC8_11325.4">Az említett felszólalások után újra kérdezem tehát az államtitkár urat: mikor kaphatják vissza végre az újpestiek a kórházukat, hogy megfelelő egészségügyi szolgáltatásokat vehessenek igénybe a közvetlen közelükben elérhető módon? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az ellenzék soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-7-13-urgent_question-AC8_11326" who="#AnettBősz" ana="#regular"><note>BŐSZ ANETT (DK):</note>
+<seg xml:id="AC8_11326.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Érden egy autista gyermek édesanyja gyűjtésbe kezdett annak érdekében, hogy negyven autista gyermeket tudjon táboroztatni. Ő úgy mérte fel a képességeiket, illetve az adományozók képességeit, hogy ezt a célt el tudják érni. Ez a látszólag pozitív eset azonban egy nagyon szomorú történet következménye, mert ezeknek az autista gyermekeknek a szülei azt tapasztalták, hogy bár alanyi jogon jelentkezhetnek a gyerekek az Erzsébet-táborokba, az ő gyerekeiket mégsem engedték oda a többi gyermek közé.Elméletileg nem okozhatna problémát ezeknek az autista gyermekeknek az Erzsébet-tábori részvétele, mert ők alapvetően integráltan oktatható gyermekek, tehát a normál iskolai oktatási rendszerben vesznek részt, de én azt gondolom, hogy azért is szomorú, amivel ők találkoztak, merthogy az Erzsébet-táborok kínálata egyébként rendkívül széles és szép: sporttevékenység, művészeti tevékenység, bűnmegelőzés, számos olyan lehetőség van, ahol egyébként ép gyermekek is úgy tudnak fejlődni, ami a javukra válik. És én azt gondolom, hogy az enyhe fogyatékossággal vagy spektrumzavarral rendelkező gyermekek esetén ez kifejezetten segítené őket abban, hogy a számos társadalmi kudarc, amivel ők egyébként szembesülnek akár az iskolában, akár a későbbi életük során, egy kicsit vissza tudjon szorulni.</seg>
+<seg xml:id="AC8_11326.2">Én nagyon bízom abban, államtitkár úr, hogy az, ami az ő esetükben megtörtént, az nem valamifajta rendszerhiba, hiszen ha alapvetésnek fogadjuk el, hogy az enyhe fogyatékossággal élő vagy a spektrumzavarral élő gyermekek nem vehetnek részt az Erzsébet-táborban, akkor ezzel számukra egy olyan lehetőség vész el, amivel az ő integrációjuk vész el gyakorlatilag.</seg>
+<seg xml:id="AC8_11326.3">Éppen ezért tisztelettel kérdezem államtitkár urat, hogy vane lehetőség arra, hogy autista gyermekek részt vegyenek az Erzsébet-táborokban. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiból.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

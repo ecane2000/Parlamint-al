@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2017-02-27" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2017-02-27 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2017-02-27 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2770" unit="words">2770 szó</measure>
+        <measure xml:lang="en" quantity="2770" unit="words">2770 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2017-02-27">2017. 02. 27.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="33"/>
+          <tagUsage gi="kinesic" occurs="10"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2017-02-27">2017-02-27</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2017-02-27-urgent_question-AC7_14071" who="#ÁkosHadházy" ana="#regular"><note>DR. HADHÁZY ÁKOS (LMP):</note>
+<seg xml:id="AC7_14071.1">Köszönöm szépen, elfogadom, különösen azért, mert részben Hódmezővásárhely a téma. Hódmezővásárhely számomra egy nagyon kedves város, ott kereszteltek meg az újtemplomban, és a nagyszüleim ott laktak, és minden nyarat ott töltöttem gyerekkoromban. Ezért is fáj, hogy amikor odalátogattam, akkor láttam, hogy az elsők között volt, amely elsötétedett, a LED-izzóknak köszönhetően.</seg>
+<seg xml:id="AC7_14071.2">Az is fájt, hogy úgy írták ki a közbeszerzéseket - megnéztem, hogy hogyan történik a közbeszerzések kiírása -, hogy gyakorlatilag nem kellett referencia, úgy bízták rá a teljes közvilágítás-cserét egy cégre, hogy előtte nem kértek referenciát. Akár egy állatorvosi cég is indulhatott volna ott, Szabó Lajos is indulhatott volna vagy az ő utóda is.</seg>
+<seg xml:id="AC7_14071.3">Ellenben viszont a többi városban, például Szekszárdon is már úgy lehetett csak indulni egy ilyen közbeszerzésen, hogy előtte az ember egyetlenegy városban 3-4 ezer lámpatestet felszerelt, és én azt gondolom, hogy ez nem véletlen. Tehát az, hogy Hódmezővásárhelyen bárki indulhatott volna, utána pedig az összes többi városban csak akkor, ha már 3-4 ezer lámpát felszerelt, ez nem véletlen, hanem ez egy nagyon komoly típusa a közbeszerzések megbuherálásának, amikor olyan referenciákat kérünk, amire csak egyetlenegy cég alkalmas. Különösen súlyos itt, hogy a miniszterelnök akkor még leendő vejének a cégéről van szó, és különösen súlyos ez azért, mert tudjuk, hogy Szekszárdon ezzel a céggel egyébként már jóval előtte beszéltek.</seg>
+<seg xml:id="AC7_14071.4">A kérdésem az, hogy ön szerint is véletlen-e ez a jelenség, illetve a másik kérdésem az, hogy az OLAF ebben az ügyben indított-e vizsgálatot, és ezt a vizsgálatot lezárta-e, ha lezárta, milyen eredménnyel, és kaptak-e önök erről valamilyen értesítést. Köszönöm.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-02-27-urgent_question-AC7_14079" who="#AnitaHeringes" ana="#regular"><kinesic type="noise"><desc>HERINGES ANITA (MSZP): Köszönöm a szót. Immár hat éve, hogy feljelentést tettünk a kecskeméti önkormányzati cég, a KSE Kft.-ben zajló fiktív számlázásos ügyben. Zombor Gábor polgármesterségének idején a cégből összesen 452 millió forintot utaltak ki fiktív számlákon keresztül, és további több mint 335 millió forint a beszállítói ki nem fizetett követelés. Ennek ellenére a nyomozása látványosan vontatottan haladt, amit mi itt a parlamentben többször számon is kértünk. Csak idén februárban jutott el az ügy az első bírósági tárgyalásig. Akár azt is hihetnénk, hogy ha lassan is, de a bűnüldöző hatóság kivételesen a kormánypártokhoz közel álló személyeket is utoléri. Azonban ez csak illúzió volt. A tárgyaláson ismertetett vádiratban ugyanis nem az az érdekes, ami benne van, hanem ami kimaradt belőle. Az évekig tartó nyomozás ellenére nem sikerült felgöngyölíteni, hogy fiktív számlákkal az önkormányzattól kapott támogatások hogy tűnhettek el. Holott a dokumentumokkal alátámasztva bemutattuk, miként éltek vissza egy 54 millió forintos önkormányzati támogatási szerződéssel. Az önkormányzat pedig befogadta a nyilvánvalóan szabálytalan felhasználásról árulkodó fiktív számlákat.</desc></kinesic>
+<seg xml:id="AC7_14079.1">Emiatt költségvetési csalás és számviteli fegyelem megsértésének gyanújával tettünk feljelentést 2016 januárjában. Akkor az ügyészség annyit válaszolt, hogy a már folyamatban lévő eljárásban vizsgálják ezt az ügyet. A nyomozás azóta lezárult, a vádemelés megtörtént, a vádiratban még sincs nyoma ennek a kecskeméti városvezetésig érő szálnak.</seg>
+<seg xml:id="AC7_14079.2">Legfőbb Ügyész Úr! Ön szerint ez puszta hanyagság, vagy inkább ahhoz van köze, hogy a támogatási szerződést Zombor Gábor, egykori polgármester jegyzi? Miként lehetséges, hogy az ön irányítása alá tartozó ügyészségek ügyeket tussolnak el? Ez ön szerint a feljelentések elintézésének normális módja? Vagy hajlandó-e intézkedést tenni a feljelentésben ismertetett ügyben érdemi kivizsgálás érdekében? Ugyanúgy félnek Zombor Gábortól, mint Voldemorttól? Neki nem merik leírni a nevét, Voldemortét meg nem merik kimondani? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-02-27-urgent_question-AC7_14189" who="#RózsaHoffmann" ana="#regular"><note>DR. HOFFMANN RÓZSA (KDNP):</note>
+<seg xml:id="AC7_14189.1">Tisztelt Államtitkár Úr! A szociális területen dolgozók bérfejlesztéséről és életpályájáról szeretném önt kérdezni. Képviselőtársaim nevében is felelősséggel mondhatom, hogy a rászorulók támogatása, a gyermekek, az idősek, a betegek, az elesettek, az otthontalanok vagy ápolásra szoruló embertársaink megsegítése mindannyiunk személyes ügye. Kiemelt felelősségünk ebben a segítségnyújtásban a velük foglalkozó szakembergárda, tehát a szociális szféra dolgozóinak megbecsülése.</seg>
+<seg xml:id="AC7_14189.2">Ezért az a célunk, hogy az ágazatban dolgozók az erkölcsi mellett megfelelő anyagi elismerésben részesülhessenek, így a Fidesz-KDNP-kormányzat elindította ennek a több mint 90 ezer szociális dolgozónak a bérfelzárkóztatását. Ők azok, akik mintegy 800 ezer embernek segítenek nap mint nap karitatív, állami, önkormányzati, egyházi, szociális intézményrendszerben vagy önkéntesként.</seg>
+<seg xml:id="AC7_14189.3">(14.10)</seg>
+<seg xml:id="AC7_14189.4">Az elmúlt három évben már megkezdtük a bérfelzárkóztatást, 2014-től évi 12 milliárd forintos bérpótlékkeretet állapított meg számukra a kormány, amit 2015-ben és 2016-ban további 8-8 milliárd forinttal toldott meg, így összességében is mintegy 60 milliárd forinttal több pénz állt rendelkezésre a bérek emelésére.</seg>
+<seg xml:id="AC7_14189.5">Tisztelt Államtitkár Úr! Az ország gazdasági megerősödésével végre lehetőségünk nyílt az általános béremelésre, ami a szociális ágazatban dolgozókat is segítette. Az ellátás biztonságához, ahhoz, hogy őket a szektorban a jövőben is meg tudjuk tartani, folyamatos támogatásra van szükségük. Éppen ezért kérdezem, hogy milyen mértékben emelkedik és kiket érint a szociális területen dolgozók béremelése, valamint hol tart a szociális életpálya-koncepció kidolgozása, milyen egyeztetéseket folytat a kormányzat ebben a kérdésben. Tisztelettel várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-02-27-urgent_question-AC7_14192" who="#R.BenedekSallai" ana="#regular"><note>SALLAI R. BENEDEK (LMP):</note>
+<seg xml:id="AC7_14192.1">Köszönöm a szót, elnök úr. Nagy István államtitkár úrral már cseréltünk eszmét arról, hogy a Fidesz birtokpolitikája hogyan szolgálja az élelmiszer-biztonság csökkenését Magyarországon. Most konkrétan arra szeretnék rákérdezni, hogy talán az FM-ben is hallottak az elmúlt két hétnek az egyik ilyen élelmiszer-biztonsági botrányáról, hogy kiderült, hogy az Európai Unió nyugat-európai országaiban ugyanazon termékek, ugyanazon gyártók élelmiszer-minősége magasabb élelmiszeripari elvárásoknak felel meg, mint Magyarországon, illetve Kelet-Európában.</seg>
+<seg xml:id="AC7_14192.2">Ez a botrány rámutatott arra, hogy Magyarországon gyakorlatilag az élelmiszer-biztonság védelmével kapcsolatos hatósági lánc - hiába vannak időszakos ellenőrzések, hiába igyekszik, nem múlt el nyomtalanul a leépítés háttere - nem tudja ellátni azt a feladatát, hogy megvédje a magyar állampolgárokat, a magyar társadalmat a gyengébb minőségű, rosszabb élelmiszertől. Nyilván az vezetett ide, hogy a Fidesz nagyjából Csányi Sándoron és Mészáros Lőrincen kívül nem nagyon látja a magyar élelmiszeripar fellendülésének lehetőségét, és ezért továbbra is ki vagyunk téve annak, hogy élelmiszerüzleteinkben túlnyomó többségében külföldről beérkező, gyengébb, silányabb minőségű élelmiszerek találhatóak.</seg>
+<seg xml:id="AC7_14192.3">Az a kérdésem, hogy így hét év kormányzás után mégis önök szerint kinek a felelőssége ez. Hiszen a magyar polcokon nincs más, mint amit önök megengednek, hogy odakerüljön. Semmi nem más nem kerül a polcokra, mint amihez önök hozzájárulnak.</seg>
+<seg xml:id="AC7_14192.4">Az a kérdésem, hogy elismerik-e, hogy önök alkalmatlanok arra, hogy a magyar állampolgárokat és a magyar társadalmat megvédjék élelmiszer-biztonsági tekintetben az egészségtelenebb élelmiszerektől.</seg>
+<seg xml:id="AC7_14192.5">Az a kérdésem, elismerik-e, hogy a Fidesz-KDNP és a földművelésügyi tárca alapvetően inkompetens abban, hogy megvédje a magyar társadalom egészségét és az élelmiszer-biztonságot Magyarországon.</seg>
+<seg xml:id="AC7_14192.6">És tisztelettel kérdezem, ha nem veszik zokon, hogy államtitkár úr elismeri-e azt, hogy Fazekas Sándor totálisan alkalmatlan arra, hogy Magyarországon a földművelés ügyét és az élelmiszer-biztonság ügyét egyáltalán képviselje a magyar kormányban. Erre várnám megtisztelő válaszait. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az LMP és a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-02-27-urgent_question-AC7_14193" who="#BertalanTóth" ana="#regular"><kinesic type="noise"><desc>DR. TÓTH BERTALAN (MSZP): Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Amikor két éve kiderült, hogy a Fideszhez ezer szálon kötődő Buda-Cash Brókerházban ellopták az ügyfelek pénzét, akkor a botrány magával rántotta a DRB-bankcsoportot is. A bank felszámolása folyamatban van, viszont vannak emberek, akik még futnak a pénzük után. Ilyen helyzetben van körülbelül száz pécsi, baranyai család is, akik lakáshitelt vettek föl a DRB-banktól, a bank megszűnése előtt visszafizették a kölcsönt, ám bent ragadt az a tisztességtelenül felszámított kamat és költség, ami visszajárt volna nekik. Családonként legfeljebb néhány millió forintról van szó, ez a százmilliárdos Buda-Cash-botrányhoz képest elenyésző összeg, de egyes családoknak nagyon fontos és komolyan érinti őket. Ez tehát a probléma, amit szabályozással meg lehetne oldani, ahogy külön törvényt hoztak az átvert devizahitelesek megsegítésére is.</desc></kinesic>
+<seg xml:id="AC7_14193.1">Tisztelt Államtitkár Úr! Önök nem mondhatják, hogy ez az ügy meglepi önöket, hiszen a családok közvetlenül is jelezték a problémát nemcsak önöknél, hanem nagyon sok szervezetnél, más minisztériumnál, de jeleztem én is, sőt megoldási javaslatot is tettem. Varga Mihály miniszter úr azonban lesöpörte az asztalról ezt a megoldási javaslatot, és arra sem volt hajlandó, hogy velem személyesen konzultáljon erről az ügyről.</seg>
+<seg xml:id="AC7_14193.2">Miért hagyják az út szélén ezeket a családokat? Miért nem akarnak segíteni nekik, hiszen - ahogy mondtam - egy közel százmillió forintos tételről van szó. Ahogy a többi hitelest vagy akár beszorult károsultat megsegítették több milliárd forinttal - például a Honvéd biztosítási pénztáraknál is ezt megtették -, nem értem, hogy ezt a közel száz pécsi és baranyai családot miért nem tudják segíteni. Tisztelettel várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-02-27-urgent_question-AC7_14198" who="#MártonGyöngyösi" ana="#regular"><note>GYÖNGYÖSI MÁRTON (Jobbik):</note>
+<seg xml:id="AC7_14198.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Miniszter Úr! A Fidesz megalakulása óta büszke az antikommunista múltjára, ebben valószínűleg fontos szerepe volt Orbán Viktor 1989-ben, Nagy Imre újratemetésén elmondott bátor és karakán beszédének is.</seg>
+<seg xml:id="AC7_14198.2">Ma reggel mi is könnybe lábadó szemekkel, párás tekintetekkel hallgattuk a KDNP-s képviselőtársainak felszólalását a kommunizmus áldozatainak emléknapja alkalmából. Ehhez képest igencsak furcsa az, hogy 2017. január 20-án, Vlagyimir Putyin Magyarországra látogatásának idején a Fidesz Esztergomban az egykori Szent Anna temetőben a Béke Angyala emlékművet avatta fel, ami többek között a Vörös Hadseregnek állít emléket.</seg>
+<seg xml:id="AC7_14198.3">A Jobbik megalakulása óta fontosnak tartja az orosz kapcsolatokat. Amikor a Fidesz még Oroszországot szidta, körülbelül tíz évvel ezelőtt, akkor mi már mondtuk, hogy a jövőbe tekintve kell kereskedelmi és gazdasági lehetőségeket keresni és létesíteni. Három éve mondjuk azt, hogy károsak azok a gazdasági és kereskedelmi szankciók, amelyeket az Európai Unió vetett ki Oroszországgal szemben, és amit Magyarország is szentesít az aláírásával. De a történelemhamisítást és a Vörös Hadsereg dicsőítését, béke angyalaként való bemutatását nem tudjuk elfogadni, még akkor sem, ha a szocialisták kezdeményeznék, hát még egy nemzeti párttól vagy magát nemzetinek és antikommunistának beállító párttól. Már megint micsoda megfelelési kényszer és szolgalelkűség ez, miniszter úr, amit önöktől láthatunk?! A Fidesz-KDNP-nél az antikommunizmus is csak egy politikai termék? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-02-27-urgent_question-AC7_14199" who="#IstvánSzávay" ana="#regular"><note>SZÁVAY ISTVÁN (Jobbik):</note>
+<seg xml:id="AC7_14199.1">Köszönöm szépen a szót, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Klaus Iohannis román államfő február közepén fogadta Bukarestben az Európai Unió brexit-főtárgyalóját, hogy biztosítékokat kérjen tőle a Nagy-Britanniában dolgozó több százezer román jogai kapcsán, hogy azok nem fognak majd sérülni a brexitet követően. Úgy tűnik tehát, hogy a keleti szomszédaink nemcsak a gazdasági, hanem a nemzeti érdekérvényesítésben is bőven Magyarország előtt járnak, nemcsak a korrupció elleni harcban haladnak hazánk előtt, hanem abban is, hogy sokkal inkább odafigyelnek a külföldön dolgozó románok érdekeire, mint ahogy azt a magyar kormány a külföldre menekült, külföldre üldözött magyarok kapcsán teszi.</seg>
+<seg xml:id="AC7_14199.2">Kérdés, államtitkár úr, hogy a magyar kormány mit tett eddig ebben a kérdésben. Milyen lépéseket tett a magyar kormány annak érdekében, hogy az Egyesült Királyságban dolgozó több százezer magyar jogai ne sérüljenek? Vajmi keveset hallottunk eddig önöktől, még a szavak szintjén sem, nemhogy konkrétumok elhangzottak volna, pedig egyébként bőven van a kormánynak ezen a téren a számláján, bőven van mit törleszteniük ezzel kapcsolatban. Egy új magyar exodus indult meg az önök hatalomra jutását követően. 2011-től kezdve gyorsult meg a Magyarországról történő kivándorlás, a nyugat-európai országokba való kitelepülés munkavállalási céllal. Fiatalok és idősek egyaránt mennek, de többségében persze fiatalok és jól képzettek, tehát kiáramlanak Magyarországról a dolgozni tudó és akaró fiatalok tömegei. Csak az Angliában élő magyarok számát több százezerre, csak a Londonban és környékén élő magyarok számát körülbelül százezerre becsülik. Az összes felmérés azt mutatja, hogy a brexit nem vette el a kint dolgozók kedvét.</seg>
+<seg xml:id="AC7_14199.3">A kérdés az, hogy a külföldieket, a külföldi munkavállalókat majd milyen korlátozások fogják ezt követően érni. Kérdés, hogy Magyarországnak van-e szándéka arra, hogy ez ügyben valamit tegyen, vagy hagyjuk, hogy elszáguldjon a történelem mellettünk. Milyen lépéseket tettek? Milyen lépéseket kívánnak ennek érdekében tenni? Államtitkár úr, kíváncsian várom a válaszát. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-02-27-urgent_question-AC7_14203" who="#AlpárGyopáros" ana="#regular"><note>GYOPÁROS ALPÁR (Fidesz):</note>
+<seg xml:id="AC7_14203.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Nyolc hónap telt el az Egyesült Királyság Európai Unióból való kilépéséről szóló népszavazás, vagyis a brexitreferendum óta. Bármilyen hosszú volt ez a házasság az Egyesült Királyság és az Európai Unió között, az elválás mégis megtörtént, és ha azt a felet nézzük, aki a szakítást kezdeményezte, akkor megállapíthatjuk, hogy Nagy-Britannia köszöni szépen, jól van. Érte nem kell aggódnunk, biztos lábakon áll, és ami a legfontosabb, hogy tudja, hogy mit akar.</seg>
+<seg xml:id="AC7_14203.2">Brüsszel viszont már előtte sem volt valami rózsás helyzetben, és a szakítás még jobban megviselte. Kudarcot vallott, de ahelyett, hogy ezt beismerné és önvizsgálatot tartana, a sértődöttet játssza. Elég itt az Európai Bizottság elnökének fenyegetésére utalni, miszerint a britek nagyon is borsos árat fognak fizetni a kilépésért.</seg>
+<seg xml:id="AC7_14203.3">Bár az Unió vezetőinek minden eszközük megvolt ahhoz, hogy egyben tartsák a közösséget, ebben a feladatban felsültek. A brexitről szóló népszavazás előtt bármilyen baj előkerült, a brüsszeli bürokraták válasza az volt, hogy erre a kérdésre, ami most itt van előttünk - hangsúlyozom, mindegy, hogy éppen milyen kérdésről volt szó -, erre csak a még szorosabb európai együttműködés lehet a megoldás. Ez a megközelítés a migrációs válság ügyében teljesen nyilvánvalóan megbukott.</seg>
+<seg xml:id="AC7_14203.4">A brit referendum akár kijózanítólag is hathatott volna. A brüsszeli politikai és szellemi elit egy jelentős része azonban továbbra is álomvilágban él, ahol a politikai cselekvést ideológiák és utópiák vezérlik, nem pedig a valóság. Az embereknek ebből lett elegük, azért döntöttek a kilépés mellett, mert az Unió vezetői szemmel láthatóan alkalmatlanok arra, hogy ellássák a feladatukat.</seg>
+<seg xml:id="AC7_14203.5">Tisztelt Miniszter Úr! Ön hogy látja, tanult-e bármit az Európai Bizottság a brexitből</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-02-27-urgent_question-AC7_14205" who="#JánosPócs" ana="#regular"><note>PÓCS JÁNOS (Fidesz):</note>
+<seg xml:id="AC7_14205.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! Az ülésszak kezdetén a Mezőgazdasági bizottság egy állatvédelemmel kapcsolatos javaslatot tárgyalt, amelyet a Jobbik egyik képviselője nyújtott be. Kiemelném a javaslat egyik intézkedéstervezetét. A Jobbik képviselőcsoportja azt szeretné, hogy Magyarországon minden kutyatulajdonos számára legyen kötelező kedvencének ivartalanítása, és ettől csak illeték megfizetése esetén lehessen eltekinteni. Mindezt azzal magyarázzák, hogy a nem ivartalanított kutyák számára szenvedést okoz, hogy nem akkor párosodnak, amikor akarnak. Továbbá szerintük a hazai kutyatartó-társadalom többsége nem elég érett arra, hogy felelősen viselkedjen a kutyák szaporodásának tekintetében.</seg>
+<seg xml:id="AC7_14205.2">Tisztelt Államtitkár Úr! Jobbikos régi logika sejlik fel a javaslatban: minden kutyatartó bűnös. A Jobbik egyszerű megoldást talál a problémára, ők újra kasztrálnának. Ismerős ez az észjárás, de még abból az időből, amikor a pártelnök úr még nem lopta el a párt lelkét, vagy hogy úgy fogalmazzak, még nem kasztrálta a pártot. Nekem úgy tűnik, hogy ez a semlegesítő beavatkozás nem volt teljesen sikeres. A Jobbik kollektív tudatalattijában még ott van a régi logika, még mindig ott van a hajlam a radikális megoldásokra. Nem olyan egyszerű kiölni azt a bizonyos lelket.</seg>
+<seg xml:id="AC7_14205.3">Tisztelt Államtitkár Úr! Milyen megoldás lehet jobb a Jobbik-féle javaslatnál? Milyen intézkedésekkel igyekszik a kormány segíteni az állattartók tudatosságának növelését? Milyen támogatások állnak rendelkezésre az állatvédelem területén működő intézmények és szervezetek támogatására? Mennyire fontos a magyar emberek számára az állatok védelme? Továbbá kérdezem tisztelettel: népszerűek-e az állatvédelemmel foglalkozó civil szervezetek a személyi jövedelemadó 1 százalékának felajánlása tekintetében? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a Fidesz soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

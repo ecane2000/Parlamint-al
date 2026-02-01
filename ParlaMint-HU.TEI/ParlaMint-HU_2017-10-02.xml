@@ -1,0 +1,989 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2017-10-02" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2017-10-02 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2017-10-02 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="21" unit="speeches">21 beszéd</measure>
+        <measure xml:lang="en" quantity="21" unit="speeches">21 speeches</measure>
+        <measure xml:lang="hu" quantity="7500" unit="words">7500 szó</measure>
+        <measure xml:lang="en" quantity="7500" unit="words">7500 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2017-10-02">2017. 10. 02.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="21"/>
+          <tagUsage gi="seg" occurs="832"/>
+          <tagUsage gi="kinesic" occurs="27"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2017-10-02">2017-10-02</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2017-10-02-interpellation-IC7_17330" who="#ErikBánki" ana="#regular"><seg xml:id="IC7_17330.1">BÁNKI</seg>
+<note>ERIK (Fidesz):</note>
+<seg xml:id="IC7_17330.2">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt</seg>
+<seg xml:id="IC7_17330.3">Államtitkár Úr! A családok életminőségét legnagyobb mértékben az</seg>
+<seg xml:id="IC7_17330.4">határozza meg, hogy a szülőknek van-e munkájuk, és ha van munkájuk,</seg>
+<seg xml:id="IC7_17330.5">mennyi bért kapnak azért fizetségül. Ezért a legfontosabb gazdasági</seg>
+<seg xml:id="IC7_17330.6">mutatók közé tartozik a munkanélküliség szintjének mérése és az az adat,</seg>
+<seg xml:id="IC7_17330.7">amely meghatározza, hogy hány ember dolgozik Magyarországon. Mint</seg>
+<seg xml:id="IC7_17330.8">sok más negatív mutató, a munkanélküliségi ráta is a legmélyebb</seg>
+<seg xml:id="IC7_17330.9">szinten, 11 százalékon állt a 2010-es kormányváltás idején. A</seg>
+<seg xml:id="IC7_17330.10">szocialisták szeretik ezt az emelkedést, mármint a munkanélküliségi ráta</seg>
+<seg xml:id="IC7_17330.11">emelkedését úgy beállítani, hogy ez a 2008-as gazdasági válságnak</seg>
+<seg xml:id="IC7_17330.12">köszönhető, de ez nem úgy van, hiszen már korábban, a</seg>
+<seg xml:id="IC7_17330.13">Medgyessy-Gyurcsány-korszak idején jelentős növekedésnek indult és 7,7</seg>
+<seg xml:id="IC7_17330.14">százalékon állt akkor, amikor maga a gazdasági válság elérte</seg>
+<seg xml:id="IC7_17330.15">Magyarországot. 2002 második negyedévében ugyanez a munkanélküliségi</seg>
+<seg xml:id="IC7_17330.16">ráta még csupán 5,5 százalék volt. A</seg>
+<seg xml:id="IC7_17330.17">Fidesz a kormányváltást követően egymillió új munkahelyet ígért</seg>
+<seg xml:id="IC7_17330.18">Magyarországon tíz év alatt. Emlékezhetnek tisztelt képviselőtársaim</seg>
+<seg xml:id="IC7_17330.19">arra, hogy amikor ez a bejelentés a miniszterelnök úr részéről</seg>
+<seg xml:id="IC7_17330.20">elhangzott, az ellenzéki padsorokban hangos nevetés, felhördülés volt</seg>
+<seg xml:id="IC7_17330.21">tapasztalható, hiszen nem vették komolyan azt, hogy Magyarországon</seg>
+<seg xml:id="IC7_17330.22">valóban lehet tíz év alatt egymillió új munkahelyet teremteni.  (15.30) Nos,</seg>
+<seg xml:id="IC7_17330.23">azóta eltelt hét év, és időarányosan jelenthetjük Magyarország</seg>
+<seg xml:id="IC7_17330.24">választóinak, hogy jól állunk, hiszen több mint 700 ezer új munkahely</seg>
+<seg xml:id="IC7_17330.25">keletkezett Magyarországon, azaz az ígért egymillió munkahelyből 700</seg>
+<seg xml:id="IC7_17330.26">ezret teljesített a kormány hét év alatt</seg>
+<seg xml:id="IC7_17330.27">(Korózs Lajos: 700 ezer közmunkás!)</seg>
+<seg xml:id="IC7_17330.28">Azt gondolom, hogy ez a teljesítmény önmagáért beszél, még akkor is, ha a szocialisták, mint sok mindent mást, ezt is vitatják</seg>
+<kinesic type="signal"><desc>Az elnök csenget.</desc></kinesic>
+<seg xml:id="IC7_17330.29">Nem</seg>
+<seg xml:id="IC7_17330.30">baj, képviselőtársaim, önök már bemutatták, hogy Magyarországot hogy</seg>
+<seg xml:id="IC7_17330.31">lehet eladósítani, bemutatták azt, hogy Magyarországot hogy lehet</seg>
+<seg xml:id="IC7_17330.32">tönkretenni, bemutatták azt, hogy magyar dolgozóktól és magyar</seg>
+<seg xml:id="IC7_17330.33">nyugdíjasoktól hogy lehet bért és nyugdíjat elvenni, tehát egyáltalán</seg>
+<seg xml:id="IC7_17330.34">nem csodálkozom azon, hogy egy ilyen fontos kérdésen semmi mást nem</seg>
+<seg xml:id="IC7_17330.35">tudnak, csak nevetni és mulatni.Nos, térjünk vissza a tényekre</seg>
+<kinesic type="noise"><desc>Korózs Lajos: Meghamisítják a statisztikai adatokat! - Zaj. - Közbeszólásra: Így van!</desc></kinesic>
+<kinesic type="noise"><desc>Zaj, az elnök csenget.</desc></kinesic>
+<seg xml:id="IC7_17330.36">Elnök úr, szeretném elmondani az interpellációmat, még ha ez Korózs Lajosnak nem is tetszik</seg>
+<seg xml:id="IC7_17330.37">(Korózs Lajos: Tetszik nekem, beszélj!)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-interpellation-IC7_17559" who="#GergelyGaal" ana="#regular"><seg xml:id="IC7_17559.1">GAAL</seg>
+<note>GERGELY (KDNP):</note>
+<seg xml:id="IC7_17559.2">Tisztelt Államtitkár Úr! Tisztelt Elnök Úr!</seg>
+<seg xml:id="IC7_17559.3">Magyarország kormánya az elmúlt időszakban bebizonyította, hogy amint</seg>
+<seg xml:id="IC7_17559.4">lehetősége nyílik rá, támogatja a családok megélhetését, a fiatalok, a</seg>
+<seg xml:id="IC7_17559.5">pályakezdők lehetőségeinek javítását, és csökkenti az idősek terheit. A</seg>
+<seg xml:id="IC7_17559.6">magyar gazdaság teljesítménye ma nem kis mértékben a kormány</seg>
+<seg xml:id="IC7_17559.7">politikájának köszönhetően képes a költségvetés számára kiszámítható,</seg>
+<seg xml:id="IC7_17559.8">biztos hátteret nyújtani, ezáltal mindannyiunk részére hosszú távú</seg>
+<seg xml:id="IC7_17559.9">biztonságot adni. A baloldali</seg>
+<seg xml:id="IC7_17559.10">kormányokkal ellentétben a Fidesz-KDNP mindig a családok helyzetének</seg>
+<seg xml:id="IC7_17559.11">javítását helyezte munkája középpontjába, ennek megfelelően 2010 óta</seg>
+<seg xml:id="IC7_17559.12">kétszeresére emelkedett a családtámogatások összege: az akkori</seg>
+<seg xml:id="IC7_17559.13">960 milliárd forint 2018-ban már megközelíti a 2000 milliárd</seg>
+<seg xml:id="IC7_17559.14">forintot. Ennek a rendszernek az egyik fontos eleme a 2001-ben</seg>
+<seg xml:id="IC7_17559.15">létrehozott és azóta is megbízhatóan működő hallgatóihitel-rendszer. A</seg>
+<seg xml:id="IC7_17559.16">diákhitel létrehozásával az első Orbán-kormány célja az volt, hogy</seg>
+<seg xml:id="IC7_17559.17">minden fiatal számára esélyt teremtsen a felsőoktatásban való</seg>
+<seg xml:id="IC7_17559.18">részvételre, függetlenül az ő vagy családja anyagi teherviselési</seg>
+<seg xml:id="IC7_17559.19">képességeitől.Tisztelt</seg>
+<seg xml:id="IC7_17559.20">Államtitkár Úr! Az eddig is kedvezményes hitelkonstrukció a kormány</seg>
+<seg xml:id="IC7_17559.21">további döntéseivel még inkább családbarát lesz, ha szabad így mondanom,</seg>
+<seg xml:id="IC7_17559.22">hiszen jövő január 1-jétől az igénybevevőknél az első gyermek</seg>
+<seg xml:id="IC7_17559.23">születésekor felfüggesztik a diákhitel-tartozás törlesztését, a második</seg>
+<seg xml:id="IC7_17559.24">gyermek esetében elengedik a tartozás felét, a harmadiknál pedig a</seg>
+<seg xml:id="IC7_17559.25">teljes diákhitel-tartozást. Emellett nagy öröm számunkra, hogy most</seg>
+<seg xml:id="IC7_17559.26">októbertől kamatmentes lesz a Diákhitel 2., a Diákhitel 1.</seg>
+<seg xml:id="IC7_17559.27">esetében felvehető maximális összeg pedig jövőre havi 70 ezer</seg>
+<seg xml:id="IC7_17559.28">forintra emelkedik. Ezzel folytatódik a Kereszténydemokrata Néppárt</seg>
+<seg xml:id="IC7_17559.29">számára is kiemelten fontos családtámogatási rendszer további</seg>
+<seg xml:id="IC7_17559.30">fejlesztése, ahol a gazdasági növekedés és a munkahelyteremtés mellett</seg>
+<seg xml:id="IC7_17559.31">mindent megteszünk, hogy a demográfiai mutatóink is javuljanak. Emellett</seg>
+<seg xml:id="IC7_17559.32">a fenti intézkedésekkel azt üzenjük a fiataloknak, hogy részt kívánunk</seg>
+<seg xml:id="IC7_17559.33">vállalni az erőfeszítéseikből, ami az ország jövőbeni sikerének is a</seg>
+<seg xml:id="IC7_17559.34">záloga.Éppen ezért kérdezem</seg>
+<seg xml:id="IC7_17559.35">tisztelettel az államtitkár urat, hogyan ítéli meg a diákhitel</seg>
+<seg xml:id="IC7_17559.36">rendszerének eredményeit. Milyen tapasztalatokat szerezhettünk az elmúlt</seg>
+<seg xml:id="IC7_17559.37">16 év alatt? Hogyan változik a Diákhitel 1. és a Diákhitel 2.</seg>
+<seg xml:id="IC7_17559.38">feltételrendszere, és ezzel hogyan segíthetjük a diákok és a családok</seg>
+<seg xml:id="IC7_17559.39">helyzetét? Várom az államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-interpellation-IC7_17573" who="#JánosBencsik" ana="#regular"><seg xml:id="IC7_17573.1">BENCSIK</seg>
+<note>JÁNOS (Fidesz):</note>
+<seg xml:id="IC7_17573.2">Tisztelt Államtitkár Úr! A Tatai-medence települései az</seg>
+<seg xml:id="IC7_17573.3">idei esztendőben emlékeznek meg a szénbányászat 120 évvel ezelőtti</seg>
+<seg xml:id="IC7_17573.4">kezdeteiről, továbbá a nagy múltú szakma kultúra-, gazdaság- és</seg>
+<seg xml:id="IC7_17573.5">társadalomformáló szerepéről. Ugyanakkor arról sem szabad</seg>
+<seg xml:id="IC7_17573.6">megfeledkezni, hogy az erőltetett iparosításnak negatív hatásai is</seg>
+<seg xml:id="IC7_17573.7">voltak. A kitermelendő szénkészlet jelentős része a karsztvízszint</seg>
+<seg xml:id="IC7_17573.8">alatt helyezkedett el, így annak felszínre hozatalához a vízszint</seg>
+<seg xml:id="IC7_17573.9">süllyesztésére volt szükség. Az erőltetett vízkitermelés következtében</seg>
+<seg xml:id="IC7_17573.10">elapadtak Tata forrásai. A forráskürtőket eltömedékelték, az</seg>
+<seg xml:id="IC7_17573.11">évszázadokon át vizes rétként és kaszálóként használt földeket építési</seg>
+<seg xml:id="IC7_17573.12">területté nyilvánították, majd beépítették.A</seg>
+<seg xml:id="IC7_17573.13">bányászati tevékenység megszűntével megkezdődött a felszín alatti</seg>
+<seg xml:id="IC7_17573.14">karsztvíztározók visszatöltődése. Mostanra helyreállt az eredeti</seg>
+<seg xml:id="IC7_17573.15">nyugalmi vízszint, és egytől egyig újjáéledtek a tatai források. Az</seg>
+<seg xml:id="IC7_17573.16">időközben beépített területeken jelenleg 8 ezer tatai él,</seg>
+<seg xml:id="IC7_17573.17">8 ezer tatai számára jelentenek napi gondot az egyre intenzívebbé</seg>
+<seg xml:id="IC7_17573.18">váló források által előállított veszélyhelyzetek. A városban olyan</seg>
+<seg xml:id="IC7_17573.19">lakóépület is található, amelynek alagsorában egy percenként 500 liter</seg>
+<seg xml:id="IC7_17573.20">vízhozamú forrás éledt újjá. A felszínre bukó források következtében</seg>
+<seg xml:id="IC7_17573.21">útbeszakadásokkal, a közművek használhatatlanná válásával, továbbá a</seg>
+<seg xml:id="IC7_17573.22">napi 30 ezer köbméternyi karsztvíz elvezetésének</seg>
+<seg xml:id="IC7_17573.23">megoldatlanságával szembesülnek az érintett lakók.Tata</seg>
+<seg xml:id="IC7_17573.24">város önkormányzata évekkel ezelőtt önerőből kezdte meg a</seg>
+<seg xml:id="IC7_17573.25">veszélyforrások feltérképezését. A problémahalmaz kezelése jócskán</seg>
+<seg xml:id="IC7_17573.26">meghaladja a helyi közösség teherbíró képességét, ezért másfél évvel</seg>
+<seg xml:id="IC7_17573.27">ezelőtt a Belügyminisztérium segítő közreműködését kértük.</seg>
+<seg xml:id="IC7_17573.28">Kezdeményezésünkre létrejött egy operatív munkacsoport, és néhány héttel</seg>
+<seg xml:id="IC7_17573.29">ezelőtt egyedi kormányzati döntés is született a legégetőbb</seg>
+<seg xml:id="IC7_17573.30">beavatkozások központi költségvetésből történő finanszírozásáról.Tisztelt</seg>
+<seg xml:id="IC7_17573.31">Államtitkár Úr! Közben a várost keresztülszelő négysávos állami közút</seg>
+<seg xml:id="IC7_17573.32">is beszakadt, mivel az út alatt egy aktív forráskürtő helyezkedik el. Az</seg>
+<seg xml:id="IC7_17573.33">első intervenciós csomagban nem került nevesítésre az érintett</seg>
+<seg xml:id="IC7_17573.34">útszakasz, ezért a város lakóival együtt kérdezem, van-e remény arra,</seg>
+<seg xml:id="IC7_17573.35">hogy belátható időn belül megszüntetésre kerül az utat érintő</seg>
+<seg xml:id="IC7_17573.36">tarthatatlan állapot.Továbbá</seg>
+<seg xml:id="IC7_17573.37">kérdezem, hogy a kormány tervezi-e átfogó intézkedési terv</seg>
+<seg xml:id="IC7_17573.38">kidolgozását a közép-dunántúli újraéledő források által okozott</seg>
+<seg xml:id="IC7_17573.39">veszélyhelyzetek felszámolására. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-interpellation-IC7_17576" who="#R.BenedekSallai" ana="#regular"><seg xml:id="IC7_17576.1">SALLAI</seg>
+<note>R. BENEDEK (LMP):</note>
+<seg xml:id="IC7_17576.2">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr!</seg>
+<seg xml:id="IC7_17576.3">Köszönöm szépen, hogy eljött hozzánk, hogy választ adjon erre. Talán a</seg>
+<seg xml:id="IC7_17576.4">kérdésről rémlik önnek, hogy miniszterelnök úr korábban ilyen indián</seg>
+<seg xml:id="IC7_17576.5">viccekkel jött vagy hasonlatokkal, amikor még nem székelyekkel, és ő</seg>
+<seg xml:id="IC7_17576.6">emlegette mindig ezt a döglött lovat, és habár nagyon sok fontos</seg>
+<seg xml:id="IC7_17576.7">dologról beszélhetnénk ma itt a parlamentben nekünk továbbra is</seg>
+<seg xml:id="IC7_17576.8">Magyarország energetikai jövőképe egy nagyon fontos kérdés. Nyilvánvalóan</seg>
+<seg xml:id="IC7_17576.9">az a kérdés, hogy mikor száll le a Fidesz-KDNP erről a döglött lóról,</seg>
+<seg xml:id="IC7_17576.10">amire ráült, mert most már látszódik, hogy ennek a döglött lónak</seg>
+<seg xml:id="IC7_17576.11">nagyjából szaga is van, hiszen az energiapolitikáról nemcsak mi mondjuk,</seg>
+<seg xml:id="IC7_17576.12">és nemcsak a zöldek állítják azt, hogy fenntarthatatlan, hanem nagyon</seg>
+<seg xml:id="IC7_17576.13">sokan olyan szakemberek is, akikre korábban hivatkoztak. Gyakorlatilag most már a támogatók közü</seg>
+<kinesic type="noise"><desc>Németh Szilárd István közbeszól.</desc></kinesic>
+<seg xml:id="IC7_17576.14">egyre inkább az látszódik, hogy csak az támogatja, akit konkrétan</seg>
+<seg xml:id="IC7_17576.15">megfizetnek. Tehát aki kap valamilyen tisztséget a minisztériumban, kap</seg>
+<seg xml:id="IC7_17576.16">valamilyen tisztséget kormánybiztosként, az most már melléáll,</seg>
+<seg xml:id="IC7_17576.17">ugyanakkor meg nagyon sokan, akik szakembernek tekinthetőek, nem. Arra</seg>
+<seg xml:id="IC7_17576.18">lennék kíváncsi, hogy miniszter úrnak mi a véleménye arról például,</seg>
+<seg xml:id="IC7_17576.19">hogy Mártha Imre, az atomerőművet tulajdonló MVM volt vezérigazgatója</seg>
+<seg xml:id="IC7_17576.20">szerint a két új blokk legalább 30 százalékkal drágább lesz a</seg>
+<seg xml:id="IC7_17576.21">tervezettnél, és a Paks II.-ben termelt áram pedig minimum 50</seg>
+<seg xml:id="IC7_17576.22">százalékkal fog többe kerülni az akkori piaci áraknál, mire elkészül.</seg>
+<seg xml:id="IC7_17576.23">Vagyis megállapította Mártha Imre, hogy gazdaságilag indokolatlan, soha</seg>
+<seg xml:id="IC7_17576.24">meg nem térülő beruházásról van szó. Gondolom, miniszter úr Mártha urat</seg>
+<seg xml:id="IC7_17576.25">ismeri személyesen, kíváncsi vagyok, hogy mi a véleménye erről. Ugyanúgy</seg>
+<seg xml:id="IC7_17576.26">érdeklődök, hogy Ősz János, a Budapesti Műszaki és Gazdaságtudományi</seg>
+<seg xml:id="IC7_17576.27">Egyetem Energetikai Gépek és Rendszerek Tanszékének oktatója - akinek</seg>
+<seg xml:id="IC7_17576.28">szintén, azt lehet mondani, szakterülete ez, hiszen atomerőművi</seg>
+<seg xml:id="IC7_17576.29">energiatermelés tárgyban oktat - több interjúban is szóvá tette, hogy a</seg>
+<seg xml:id="IC7_17576.30">kormány versenyeztetés nélkül egy olyan reaktortípust rendelt meg</seg>
+<seg xml:id="IC7_17576.31">Paksra, amelynek az alaprekonstrukciója elavult, a megrendelt,</seg>
+<seg xml:id="IC7_17576.32">felújított kísérleti változata pedig súlyos hiányosságokat mutat.</seg>
+<seg xml:id="IC7_17576.33">Gondolom, hogy miniszter úr is tudja, hogy az eddigi két</seg>
+<seg xml:id="IC7_17576.34">referencia-erőműnél típushibák, szabálytalanságok, az orosz biztonsági</seg>
+<seg xml:id="IC7_17576.35">és műszaki kultúra gyengeségei jelentkeztek sorozatosan. A</seg>
+<seg xml:id="IC7_17576.36">legutóbb - bár az lehet, hogy már nem releváns az önök számára - Illés</seg>
+<seg xml:id="IC7_17576.37">Zoltán, korábbi politikusuk, államtitkáruk is megszólalt, aki azt</seg>
+<seg xml:id="IC7_17576.38">mondta, hogy a teljes paksi fejlesztés elhagyása lenne indokolt. Azt</seg>
+<seg xml:id="IC7_17576.39">hiszem, ő sem nevezhető baloldali politikusnak. Nyilvánvalóan</seg>
+<seg xml:id="IC7_17576.40">az a kérdés, hogy ez a beruházás, ami, egyre inkább látszódik, hogy</seg>
+<seg xml:id="IC7_17576.41">magyar fideszes építőbarátoknak, miniszterelnök rokonságába tartozó</seg>
+<seg xml:id="IC7_17576.42">családoknak, orosz oligarcháknak és orosz üzletembereknek hoz pusztán</seg>
+<seg xml:id="IC7_17576.43">pozitívumot, és egyre több magyar szakember szólal meg, hogy ez nem lesz</seg>
+<seg xml:id="IC7_17576.44">jó: mikor lesz indokolt, hogy ezt elhagyják? Tehát</seg>
+<seg xml:id="IC7_17576.45">az a kérdésem tisztelettel, hogy erről a döglött lóról mikor szállnak</seg>
+<seg xml:id="IC7_17576.46">le, mikor veszik végre észre, hogy Magyarország hosszú távú energetikai</seg>
+<seg xml:id="IC7_17576.47">érdeke egyértelműen az, hogy XXI. századi megoldásokat találjunk ezekre a</seg>
+<seg xml:id="IC7_17576.48">kihívásokra, és ne pedig egy korszerűtlen, rossz és drága technológiát</seg>
+<seg xml:id="IC7_17576.49">fejlesszünk. Várom tisztelettel a miniszter úr válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-interpellation-IC7_17577" who="#R.BenedekSallai" ana="#regular"><seg xml:id="IC7_17577.1">SALLAI</seg>
+<note>R. BENEDEK (LMP):</note>
+<seg xml:id="IC7_17577.2">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés!</seg>
+<seg xml:id="IC7_17577.3">Tisztelt Államtitkár Úr! Örülök neki, hogy ismét szakembert kaptam, és</seg>
+<seg xml:id="IC7_17577.4">nem a papagájkommandót kell hallgatnom, ennek megfelelően lenne</seg>
+<seg xml:id="IC7_17577.5">kérdésem. Bizonyára látta a leadott interpellációmban,</seg>
+<seg xml:id="IC7_17577.6">nagyon szíven ütött, hogy a Fenntartható fejlődés bizottságának</seg>
+<seg xml:id="IC7_17577.7">kormánypárti többsége nem támogatta azt az országgyűlési határozati</seg>
+<seg xml:id="IC7_17577.8">javaslatot, amely teljesen jó szándékúan próbálta volna Magyarország</seg>
+<seg xml:id="IC7_17577.9">kormányának azon törekvéseit megerősíteni, amelyek Magyarország</seg>
+<seg xml:id="IC7_17577.10">GMO-mentességével kapcsolatban megvalósulhatnak, ugyanakkor szomorúan</seg>
+<seg xml:id="IC7_17577.11">látjuk, hogy az ezzel kapcsolatos lehetőségekkel sorra nem él a kormány. (15.20) Felmerül</seg>
+<seg xml:id="IC7_17577.12">a kérdés, hogy például a szabadkereskedelmi megállapodások kapcsán,</seg>
+<seg xml:id="IC7_17577.13">amelyek komoly veszélyt jelentenek hazánk GMO-mentességére, miért nem</seg>
+<seg xml:id="IC7_17577.14">lép valamit a Fidesz, és mitől van az, hogy a Fidesz képviselői támogatják</seg>
+<seg xml:id="IC7_17577.15">ezt. Belgium az Európai Bírósághoz fordult annak érdekében, hogy a</seg>
+<seg xml:id="IC7_17577.16">szabadkereskedelmi megállapodás ilyen jellegű veszélyeit valamilyen</seg>
+<seg xml:id="IC7_17577.17">szinten csökkentse. Miért nem tette ezt a magyar kormány? Miért nem</seg>
+<seg xml:id="IC7_17577.18">történtek ez irányba lépések?Ugyanúgy</seg>
+<seg xml:id="IC7_17577.19">aggályos az, hogy a GMO-lobbi szó szerint dollármilliárdokat költ évek</seg>
+<seg xml:id="IC7_17577.20">óta azokra a kutatásokra, amelyek a saját prekoncepciójukat erősítik,</seg>
+<seg xml:id="IC7_17577.21">miszerint hogy milyen jó a társadalomnak és a világnak, miközben a magyar kormány megszüntetett nagyjából minden olyan jellegű finanszírozást, amely a legalapvetőbb kutatásokat biztosítaná azzal kapcsolatban, hogy cáfolni tudjuk ezeket az egyoldalú híreket. Magyarországon elképesztő források mentek el a K+F forrásokból teljesen más irányba, és miközben az intézményrendszer kapacitáshiányos, nincs már kutatói háttér, amely mindezt alá tudná támasztani.Ugyanakkor szintén felmerül, hogy a kormánynak lehetősége lenne arra, hogy kezdeményezzen az Európai Unióban olyanokat, mint máshol, amerre járunk, hiszen Magyarországon a vetőmag egy stratégiai terület, a világ elismert vetőmagtermelői közé tartozunk, és addig Magyarországon</seg>
+<seg xml:id="IC7_17577.22">GMO-mentességről nem beszélhetünk, ameddig a vetőmagok is az</seg>
+<seg xml:id="IC7_17577.23">egyszerű áruk közé tartoznak, és az áru szabad áramlása folytán</seg>
+<seg xml:id="IC7_17577.24">megjelenhetnek Magyarországon. Ameddig Schengen így van, addig Magyarországon</seg>
+<seg xml:id="IC7_17577.25">lesz GMO-s vetőanyag, azt hiszem, ezt mindketten tudjuk. Nyilvánvalóan</seg>
+<seg xml:id="IC7_17577.26">nagyon fontos lenne, hogy a kormány kezelje a hazai vetőmagfajtákat</seg>
+<seg xml:id="IC7_17577.27">mint a nemzeti örökség részét, és ehhez biztosítsa, hogy Magyarországon</seg>
+<seg xml:id="IC7_17577.28">csak bizonyítottan GMO-szennyezettségtől mentes vetőanyagok</seg>
+<seg xml:id="IC7_17577.29">kerülhessenek forgalomba. Ehhez képest a Fajtaoltalmi Nonprofit Kft.</seg>
+<seg xml:id="IC7_17577.30">ténykedése nagyjából a Syngenta, a Monsanto és a BASF érdekeit képviseli</seg>
+<seg xml:id="IC7_17577.31">Magyarországon, ahelyett, hogy a magyar fajták megőrzésével foglalkoznánk. Éppen</seg>
+<seg xml:id="IC7_17577.32">ezért lenne fontos, hogy a GMO-mentes címkézéshez biztosítani lehessen a</seg>
+<seg xml:id="IC7_17577.33">teljes termékpályamodellben a GMO-mentességet. És legalább ilyen</seg>
+<seg xml:id="IC7_17577.34">fontos, hiszen mint tudjuk, minden évben vannak szennyeződések, hogy a</seg>
+<seg xml:id="IC7_17577.35">GM-fajtatulajdonosoknak legyen előírva egy kártérítési alap az</seg>
+<seg xml:id="IC7_17577.36">esetleges szennyezések okozta károk megelőzésére. Tisztelettel kérdezem</seg>
+<seg xml:id="IC7_17577.37">az államtitkár urat, hogy milyen érvekkel tudja cáfolni azt a húsz szakmai pontot, amit leadtunk országgyűlési</seg>
+<seg xml:id="IC7_17577.38">határozati javaslatban, milyen érvekkel tudja alátámasztani, hogy arra</seg>
+<seg xml:id="IC7_17577.39">nincs szükség. Milyen érvekkel tudja cáfolni, hogy a kormányzattól nem</seg>
+<seg xml:id="IC7_17577.40">látjuk azokat a törekvéseket, amelyekkel lehetne biztosítani a</seg>
+<seg xml:id="IC7_17577.41">GMO-mentességet Magyarországon? Tisztelettel erre várom a válaszát.</seg>
+<seg xml:id="IC7_17577.42">Köszönöm a szót.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-interpellation-IC7_17579" who="#NándorGúr" ana="#regular"><seg xml:id="IC7_17579.1">GÚR</seg>
+<note>NÁNDOR (MSZP):</note>
+<seg xml:id="IC7_17579.2">Köszönöm szépen, elnök úr. A munkaerőpiacon óriásiak a</seg>
+<seg xml:id="IC7_17579.3">szakadékok, ettől nagyobb csak a csúsztatásnak a mértéke. Ezt halljuk</seg>
+<seg xml:id="IC7_17579.4">nap nap után a Parlament falai között. Látható, hogy Magyarországon a</seg>
+<seg xml:id="IC7_17579.5">magyar megyék viszonyrendszerében milyen különbségek vannak, míg</seg>
+<seg xml:id="IC7_17579.6">nyugaton a csúsztatott statisztikák szerint is 2-3 százalékos</seg>
+<seg xml:id="IC7_17579.7">munkanélküliség van, addig keleten ez 7-9 százalékos mértéket ölt.</seg>
+<seg xml:id="IC7_17579.8">Mondom, csúsztatott, mert az a néhány százezer fős többlet, amiről önök</seg>
+<seg xml:id="IC7_17579.9">beszélnek, az arról szól, hogy külföldön dolgoznak az emberek, és a</seg>
+<seg xml:id="IC7_17579.10">magyar statisztikában tartják őket nyilván; vagy 200 ezer embert a</seg>
+<seg xml:id="IC7_17579.11">közfoglalkoztatásba vittek be. Az pedig, tudjuk, nem a versenyszféra,</seg>
+<seg xml:id="IC7_17579.12">mint amit önök ígértek 2010-et megelőzően. De</seg>
+<seg xml:id="IC7_17579.13">csúsztatás van a nettó bérek vonatkozásában is. Gondoljanak csak bele,</seg>
+<seg xml:id="IC7_17579.14">hogy hat éven keresztül meglopták a minimálbéres embereket! Kevesebb</seg>
+<seg xml:id="IC7_17579.15">vásárlóerő-értékű pénzt kaptak a kezükbe, mint 2010-ben. Most ott</seg>
+<seg xml:id="IC7_17579.16">vagyunk, hogy ezt a cechet kiegyenlítették, de csak az ellopott</seg>
+<seg xml:id="IC7_17579.17">pénzekért álltak helyt jelen időszakban, és persze olyan járulék- és</seg>
+<seg xml:id="IC7_17579.18">adóterheket vetettek ki, ami a 2010-es havival szemben, amit a</seg>
+<seg xml:id="IC7_17579.19">munkaadók, munkavállalók megfizettek, 32 ezer forinttal szemben ma 73</seg>
+<seg xml:id="IC7_17579.20">ezer forint. Ha hagyták volna, hogy ezek ne adó vagy járulék formájában</seg>
+<seg xml:id="IC7_17579.21">növekedjenek, hanem béresüljenek, akkor ma 100 ezer forint feletti nettó</seg>
+<seg xml:id="IC7_17579.22">bérek lennének a minimálbér színterén. De a nettó bérek vonatkozásában</seg>
+<seg xml:id="IC7_17579.23">az az ellentmondásosság is fennáll, hogy míg Szabolcs-Szatmár-Bereg</seg>
+<seg xml:id="IC7_17579.24">megyében példaként 130 ezer forint környékén van a nettó átlagbér, addig</seg>
+<seg xml:id="IC7_17579.25">Budapesten ez 240 ezer. Nem a budapesti a sok, nem, hogy világos</seg>
+<seg xml:id="IC7_17579.26">legyen; az a Szabolcs-Szatmár-Bereg megyei nettó, az a félelmetesen</seg>
+<seg xml:id="IC7_17579.27">kevés. 110 ezer forint egyébként a különbség.De</seg>
+<seg xml:id="IC7_17579.28">Zalában, Borsodban, Nógrádban és Békésben is nettó 150 ezernél</seg>
+<seg xml:id="IC7_17579.29">kevesebbet keresnek az emberek, akik dolgoznak, akik a mindennapokat</seg>
+<seg xml:id="IC7_17579.30">megizzadják. De ha az utolsó öt-hét esztendőt nézzük, akkor is az</seg>
+<seg xml:id="IC7_17579.31">tárulkozik elénk, hogy a visegrádi 4-ek szintjén, a szlovákok, a csehek</seg>
+<seg xml:id="IC7_17579.32">vagy a lengyelek viszonylatában is a magyar bérek nem nőnek, hanem</seg>
+<seg xml:id="IC7_17579.33">csökkennek. Elmaradunk tőlük. Kevesebbet keresnek a magyar emberek,</seg>
+<seg xml:id="IC7_17579.34">mindegy, hogy mit nézünk, mindegy, hogy minimálbért vagy átlagkeresetet</seg>
+<seg xml:id="IC7_17579.35">nézünk. És közben önök elhibázott stratégia kapcsán alacsony</seg>
+<seg xml:id="IC7_17579.36">hozzáadott-értékű befektetések sokaságát teremtették meg alacsony</seg>
+<seg xml:id="IC7_17579.37">fizetésekkel, aminek a következménye a még alacsonyabb nyugdíj. Na, hát</seg>
+<seg xml:id="IC7_17579.38">ezt hozzák önök az emberek számára. Miért,</seg>
+<seg xml:id="IC7_17579.39">miért nem léptek a tekintetben, hogy azok a hatalmas munkanélküliségi</seg>
+<seg xml:id="IC7_17579.40">különbségek szűküljenek; hogy azok a hatalmas bérbeli különbségek</seg>
+<seg xml:id="IC7_17579.41">szűküljenek az ország keretei között; hogy kelet és nyugat</seg>
+<seg xml:id="IC7_17579.42">bérviszonyrendszerében Magyarországon ne legyen ilyen nagy különbség? És</seg>
+<seg xml:id="IC7_17579.43">miért nem lépnek azért, hogy a tisztes megélhetés alapját biztosító</seg>
+<seg xml:id="IC7_17579.44">pénzt mindenki kézbe tudja venni a tisztes munkavégzését követően? Elnök</seg>
+<seg xml:id="IC7_17579.45">úr, köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-interpellation-IC7_17580" who="#ErzsébetSchmuck" ana="#regular"><seg xml:id="IC7_17580.1">DR.</seg>
+<note>HADHÁZY ÁKOS (LMP):</note>
+<seg xml:id="IC7_17580.2">Köszönöm szépen. Tisztelt Elnök Úr! Szerencse, hogy</seg>
+<seg xml:id="IC7_17580.3">van jegyzőkönyvezés, nagyon örülök, hogy jegyzőkönyvben lesz, amikor az</seg>
+<seg xml:id="IC7_17580.4">államtitkár azt mondja, hogy a magyar egészségügy nagyon jól működik.</seg>
+<seg xml:id="IC7_17580.5">Biztos, hogy működik, a Kútvölgyi kórházban biztos, hogy működik, amit</seg>
+<seg xml:id="IC7_17580.6">ön lát belőle, az biztos, hogy működik, de higgye el, hogy nem működik</seg>
+<seg xml:id="IC7_17580.7">az egészségügy. Valószínűleg a kormánypárti képviselő kollégák is azt</seg>
+<seg xml:id="IC7_17580.8">gondolják, hogy nagyon jól működik, azért óbégattak itt az előző</seg>
+<seg xml:id="IC7_17580.9">hozzászólás alatt. Nem működik. A hozzánk eljuttatott panaszok alapján a</seg>
+<seg xml:id="IC7_17580.10">társadalombiztosítás intézményeinek szétverése nemcsak veszélyezteti a</seg>
+<seg xml:id="IC7_17580.11">biztonságos betegellátást, hanem konkrét esetben nem jutott a beteg a</seg>
+<seg xml:id="IC7_17580.12">gyógyszeréhez. Levélírónk egy Orencia nevű készítményt nem kapott meg</seg>
+<seg xml:id="IC7_17580.13">hónapok óta. Az állapot</seg>
+<kinesic type="noise"><desc>Zaj. - Az elnök csenget.</desc></kinesic>
+<seg xml:id="IC7_17580.14">komoly romlását is okozhatja, bármilyen jól szórakozik is ezen a</seg>
+<seg xml:id="IC7_17580.15">kormánypárt és bármilyen jót nevet ezen Vancsura képviselő úr is</seg>
+<seg xml:id="IC7_17580.16">(Derültség és moraj a kormánypárti padsorokból.)</seg>
+<seg xml:id="IC7_17580.17">A</seg>
+<seg xml:id="IC7_17580.18">gyógyszerek hiányának nem az az oka, hogy beszerezhetetlen lenne, nem</seg>
+<seg xml:id="IC7_17580.19">szerepelnek azon a listán, amely a külső okok miatt nem elérhető</seg>
+<seg xml:id="IC7_17580.20">szereket tartalmazza. Másról van szó; a tételes elszámolású drágább,</seg>
+<seg xml:id="IC7_17580.21">újabb, speciálisabb gyógyszerekre vonatkozó kvóták nem kerültek időben</seg>
+<seg xml:id="IC7_17580.22">kiosztásra a kórházak között. Ez egy olyan kvóta, ez is egy kvóta, egy</seg>
+<seg xml:id="IC7_17580.23">életveszélyes kvóta, amely meghatározza, hogy egy adott kórház az adott</seg>
+<seg xml:id="IC7_17580.24">gyógyszerből mennyit tud kiadni adott időszakban. Egészen elképesztő, a</seg>
+<seg xml:id="IC7_17580.25">korábbi időszakban egy évre előre tudtak ezzel a kvótával számolni a</seg>
+<seg xml:id="IC7_17580.26">kórházak, manapság jobb esetben ez már csak egy hónap, de előfordul,</seg>
+<seg xml:id="IC7_17580.27">hogy nem tudják ezt sem tartani, és egy hónapra előre sem tudják, hogy</seg>
+<seg xml:id="IC7_17580.28">mennyit kapnak ezekből a kvótákból. A kórházak egy hónapra előre</seg>
+<seg xml:id="IC7_17580.29">tervezhetnének, de egyrészt egyszerűen fogalmuk sincs, hogy mit hoz majd</seg>
+<seg xml:id="IC7_17580.30">a jövő, vagy inkább a minisztérium bürokráciájának kénye-kedve.A</seg>
+<seg xml:id="IC7_17580.31">tételes elszámolású gyógyszerekkel járó bürokratikus terhet egyébként</seg>
+<seg xml:id="IC7_17580.32">is úgy megnövelték, hogy ki nem fizetett túlórát jelent ez a</seg>
+<seg xml:id="IC7_17580.33">dolgozóknak. Így kevesebb idejük jut az igazi munkára, ami természetesen</seg>
+<seg xml:id="IC7_17580.34">megint csak a betegeket sújtja. Nem tudják a kórházak, hogy mikor lesz</seg>
+<seg xml:id="IC7_17580.35">kvótájuk és mikor lesz végre belőle gyógyszer, és mivel nincs önálló</seg>
+<seg xml:id="IC7_17580.36">egészségügyi minisztérium, se független háttérintézmények, a</seg>
+<seg xml:id="IC7_17580.37">beszerzések, az áralkuk, a szerződéskötések, a kvóták kiosztása késik,</seg>
+<seg xml:id="IC7_17580.38">papírok keringenek a mamutminisztériumban ahelyett, hogy pedig a</seg>
+<seg xml:id="IC7_17580.39">gyógyszerek kerülnének kiosztásra. A gyógyszerkeret szeptemberben</seg>
+<seg xml:id="IC7_17580.40">elfogyott, három hónappal az év vége előtt 42 milliárdnyi hiány látszik,</seg>
+<seg xml:id="IC7_17580.41">és kérdés, hogy vajon önök ezért kezdtek-e most hirtelen spórolásba, és</seg>
+<seg xml:id="IC7_17580.42">ezért áldoznak-e fel beteg embereket vagy beteg emberek gyógyulását. Önök</seg>
+<seg xml:id="IC7_17580.43">naponta kiabálnak menekültkvótáról, ehelyett a nyomorúságos, kaotikus</seg>
+<seg xml:id="IC7_17580.44">gyógyszerkvótákról kellene önöknek beszélniük. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-interpellation-IC7_17582" who="#IldikóBangónéBorbély" ana="#regular"><seg xml:id="IC7_17582.1">BANGÓNÉ</seg>
+<note>BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="IC7_17582.2">Köszönöm, elnök úr. Tisztelt Államtitkár Úr! Az</seg>
+<seg xml:id="IC7_17582.3">öregségi nyugdíj legkisebb összege jelenleg 28 500 forint, ez az</seg>
+<seg xml:id="IC7_17582.4">összeg 2008 óta változatlan. Ez azt jelenti, hogy mindig ez az, aminél</seg>
+<seg xml:id="IC7_17582.5">alacsonyabb teljes jogú ellátást nem lehet valakinek megállapítani,</seg>
+<seg xml:id="IC7_17582.6">kilencedik éve, államtitkár úr. Arról nem is beszélve, hogy ehhez mennyi</seg>
+<seg xml:id="IC7_17582.7">más szociális ellátás van hozzárendelve, amelyek emelése ettől</seg>
+<seg xml:id="IC7_17582.8">függetlenül szükséges. Most</seg>
+<seg xml:id="IC7_17582.9">kifejezetten az alacsony összegű nyugdíjakról kívánok beszélni. Hiába</seg>
+<seg xml:id="IC7_17582.10">emelkedik ugyanis törvény szerint évente a már megállapított nyugdíjak</seg>
+<seg xml:id="IC7_17582.11">értéke, még mindig rengetegen vannak, akik alig néhány tízezer forintos</seg>
+<seg xml:id="IC7_17582.12">ellátásból élnek. A hivatalos statisztikák szerint a különféle</seg>
+<seg xml:id="IC7_17582.13">ellátásban részesülők közül több mint 300 ezren vannak, akiknek a</seg>
+<seg xml:id="IC7_17582.14">nyugdíja vagy nyugdíjszerű ellátása - rokkantsági ellátás például - nem</seg>
+<seg xml:id="IC7_17582.15">éri el az 50 ezer forintot sem, miközben a KSH által ugyan már nem</seg>
+<seg xml:id="IC7_17582.16">közölt, de a szakértők által kiszámolt létminimumérték a</seg>
+<seg xml:id="IC7_17582.17">nyugdíjaskorúakra vonatkozóan 79 757 forint havonta. Ha ezt az</seg>
+<seg xml:id="IC7_17582.18">összeget nézzük, akkor 2017 januárjában több mint 1 millió olyan</seg>
+<seg xml:id="IC7_17582.19">nyugellátást folyósítanak Magyarországon, ami ez alatt a szint alatt</seg>
+<seg xml:id="IC7_17582.20">van. Több mint 1 millió nyugdíjas kap kevesebbet, mint 79 ezer</seg>
+<seg xml:id="IC7_17582.21">forint. Eközben a</seg>
+<seg xml:id="IC7_17582.22">járulékplafon 2013-as eltörlésével egyre többen kapnak több százezer</seg>
+<seg xml:id="IC7_17582.23">forintos, illetve már néhány milliós nyugellátást is. Minél több</seg>
+<seg xml:id="IC7_17582.24">plafonmentes év lesz, annál nagyobb súlyuk lesz az új</seg>
+<seg xml:id="IC7_17582.25">nyugdíjkiszámításban. A jól fizető állásokban dolgozók a jövedelmük után</seg>
+<seg xml:id="IC7_17582.26">extra magas nyugdíjat fognak kapni. Ahogyan az egykulcsos adó is nekik</seg>
+<seg xml:id="IC7_17582.27">kedvez, a nyugdíjrendszerben is ők kapnak lehetőséget. Emiatt egyre több</seg>
+<seg xml:id="IC7_17582.28">magas és egyre több alacsony nyugdíj lesz, és ez már alááshatja a</seg>
+<seg xml:id="IC7_17582.29">nyugdíjrendszer egyébként is kényes egyensúlyát, államtitkár úr. Államtitkár</seg>
+<seg xml:id="IC7_17582.30">Úr! Az időskori létbiztonság megteremtése a társadalom közös érdeke.</seg>
+<seg xml:id="IC7_17582.31">Mindezek miatt nem nézhetjük tétlenül, hogy a kormány nem tesz semmit a</seg>
+<seg xml:id="IC7_17582.32">legalacsonyabb nyugdíjban részesülők ellátásának növeléséért. Mindezek</seg>
+<seg xml:id="IC7_17582.33">miatt kérdezem, államtitkár úr - és nagyon szeretném, ha nem arról</seg>
+<seg xml:id="IC7_17582.34">szólna a négy perc, hogy elmúlttizenhat-évezik, mert az elmúlt nyolc év</seg>
+<seg xml:id="IC7_17582.35">már önökre vonatkozik, és nem 20 másodpercet adna arra, hogy válaszol a</seg>
+<seg xml:id="IC7_17582.36">kérdésekre -: miért nem emelték az elmúlt nyolc évben egy forinttal sem a</seg>
+<seg xml:id="IC7_17582.37">nyugdíjminimumot? Hova lett az erre szánt pénz? Miért engedik, hogy</seg>
+<seg xml:id="IC7_17582.38">egyeseknek milliós nyugdíja lehessen, amikor mások ellátása alig néhány</seg>
+<seg xml:id="IC7_17582.39">tízezer forint? Miért nem törődnek azzal, hogy közel egymillió</seg>
+<seg xml:id="IC7_17582.40">nyugdíjasnak van átlag alatti nyugdíja? És még egyszer megkérdezném,</seg>
+<seg xml:id="IC7_17582.41">amit Tóbiás József is: hová lett a pénz, amit a 200 ezer</seg>
+<seg xml:id="IC7_17582.42">rokkantnyugdíjason megspóroltak, államtitkár úr? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-interpellation-IC7_17585" who="#BalázsAnder" ana="#regular"><seg xml:id="IC7_17585.1">ANDER</seg>
+<note>BALÁZS (Jobbik):</note>
+<seg xml:id="IC7_17585.2">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim!</seg>
+<seg xml:id="IC7_17585.3">Hogy a Fidesz és a kormány miként vélekedik a &#8222;tiszteletet az éveknek,</seg>
+<seg xml:id="IC7_17585.4">megbecsülést az időseknek&#8221; szépen hangzó ideájáról a gyakorlatban, arról</seg>
+<seg xml:id="IC7_17585.5">lesújtó képet kaphattunk majd&#8217; egy évvel ezelőtt, a Jobbik javaslatára</seg>
+<seg xml:id="IC7_17585.6">kezdeményezett vitanapon, ahol a 40 év munkaviszony után a férfiak</seg>
+<seg xml:id="IC7_17585.7">számára is biztosítandó nyugdíjazás mellett érveltünk. Világosan</seg>
+<seg xml:id="IC7_17585.8">kiderült, hogy a munkába belefáradt, dolgozó magyar férfiak, akik az</seg>
+<seg xml:id="IC7_17585.9">OECD felmérései szerint éves szinten egyharmaddal több órát dolgoznak,</seg>
+<seg xml:id="IC7_17585.10">mint német társaik, csak kizsigerelendő munkaerőállatok, halálukig</seg>
+<seg xml:id="IC7_17585.11">dolgoztatott igavonók a hatalom jelenlegi birtokosai számára, akiket,</seg>
+<seg xml:id="IC7_17585.12">mint a társadalom más csoportjait is, simán ott hagynak az út szélén,</seg>
+<seg xml:id="IC7_17585.13">vagy éppen lerugdalnak a Taigetoszról, ha már nem képesek több bőrt</seg>
+<seg xml:id="IC7_17585.14">lenyúzni róluk. Miről is beszélek? Magyarországon a férfiak várható</seg>
+<seg xml:id="IC7_17585.15">élettartama hat évvel elmarad az uniós átlagtól, csak 72 év. Az</seg>
+<seg xml:id="IC7_17585.16">egészségromlás üteme pedig megdöbbentően rossz, hiszen a 60 évnél</seg>
+<seg xml:id="IC7_17585.17">idősebbek körében csaknem 50 százalékos a megváltozott munkaképességűek</seg>
+<seg xml:id="IC7_17585.18">aránya. A férfiak egyharmada pedig meg sem éli a nyugdíjat.Márpedig</seg>
+<seg xml:id="IC7_17585.19">a magyar férfiak is szeretnének egészségesen, a családjukkal,</seg>
+<seg xml:id="IC7_17585.20">unokáikkal töltött boldog nyugdíjas éveket, mert fontos, hogy egy</seg>
+<seg xml:id="IC7_17585.21">ledolgozott élet után az ember tudjon pihenni, élvezhesse a nyugdíjas</seg>
+<seg xml:id="IC7_17585.22">éveket. Érthetetlen, hogy a szavakban a szépkorúak barátjának mutatkozó</seg>
+<seg xml:id="IC7_17585.23">kormány miért utasítja el a társadalom háromnegyedes többsége által</seg>
+<seg xml:id="IC7_17585.24">támogatott elképzelést. Önökkel szemben a Jobbik továbbra is</seg>
+<seg xml:id="IC7_17585.25">határozottan kitart azon javaslata mellett, hogy a férfiak, a nőkhöz</seg>
+<seg xml:id="IC7_17585.26">hasonlóan, 40 év munkaviszony után nyugdíjba vonulhassanak.A</seg>
+<seg xml:id="IC7_17585.27">szociális hozzájárulási adóvá alakított nyugdíjjárulék összege nőtt,</seg>
+<seg xml:id="IC7_17585.28">igaz ugyan, hogy nem kellene például cigányintegráció és egyéb címszó</seg>
+<seg xml:id="IC7_17585.29">alatt lenyúlni, ellopni, tehát lenne mód a teljes felfutás esetén évente</seg>
+<seg xml:id="IC7_17585.30">160 milliárd forintba kerülő nyugdíjprogramot finanszírozni. Nem</seg>
+<seg xml:id="IC7_17585.31">feszítené szét a költségvetést, és ennek az összegnek a jó része a</seg>
+<seg xml:id="IC7_17585.32">magyar piacon hasznosulna, nem helikopter meg tengerparti villa lenne</seg>
+<seg xml:id="IC7_17585.33">belőle.Azzal ne intézzék el a</seg>
+<seg xml:id="IC7_17585.34">kérdést, hogy a magyarok jelentős része nyugdíj után is dolgozna, tehát</seg>
+<seg xml:id="IC7_17585.35">nem indokolt a 40 év utáni tisztességes visszavonulás felvetése, mert</seg>
+<seg xml:id="IC7_17585.36">emögött az a gyalázat áll, hogy az átlagnyugdíj szégyenletesen alacsony.</seg>
+<seg xml:id="IC7_17585.37">Nálunk a nyugdíjakra a GDP-arányos EU-átlag 13 százalékával szemben</seg>
+<seg xml:id="IC7_17585.38">csak 9 százalékot fordítanak. Nem csoda, hogy 1 millió honfitársunk</seg>
+<seg xml:id="IC7_17585.39">kevesebb, mint 79 ezer forintot kap havonta. A munkavállalók zöme</seg>
+<seg xml:id="IC7_17585.40">félretenni nem tud, de sokan nem is remélik, hogy megérik a</seg>
+<seg xml:id="IC7_17585.41">nyugdíjkorhatárt.Mindezen</seg>
+<seg xml:id="IC7_17585.42">változtatni persze csak a nemzetgazdaság tortájának növelésével és</seg>
+<seg xml:id="IC7_17585.43">béruniós kezdeményezésünk támogatásával lehetne. Mindezekre tekintettel</seg>
+<seg xml:id="IC7_17585.44">várom államtitkár úr megtisztelő válaszát arra a kérdésre, hogy miért</seg>
+<seg xml:id="IC7_17585.45">nem biztosítják a férfiak számára is, hogy 40 év munkaviszony után</seg>
+<seg xml:id="IC7_17585.46">nyugdíjba mehessenek, ne pedig munkából a temetőbe. Köszönöm a</seg>
+<seg xml:id="IC7_17585.47">figyelmet</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-interpellation-IC7_17586" who="#SebestyénVágó" ana="#regular"><seg xml:id="IC7_17586.1">VÁGÓ</seg>
+<note>SEBESTYÉN (Jobbik):</note>
+<seg xml:id="IC7_17586.2">Köszönöm szépen a szót, elnök úr. Először is,</seg>
+<seg xml:id="IC7_17586.3">engedjék meg, hogy szeretettel köszöntsem a Jobbik nyugdíjas tagozatának</seg>
+<seg xml:id="IC7_17586.4">karzaton helyet foglaló tagjait az idősek napja alkalmából</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból. - Szórványos taps a kormánypárti padsorokból.</desc></kinesic>
+<seg xml:id="IC7_17586.5">Tisztelt</seg>
+<seg xml:id="IC7_17586.6">Államtitkár Úr! Az előző ciklusok kormányainak, vagyis az önök által</seg>
+<seg xml:id="IC7_17586.7">olyan sokat emlegetett elmúlt nyolc év és az azóta elmúlt hét év</seg>
+<seg xml:id="IC7_17586.8">áldatlan intézkedéseinek következtében fiatalok százezrei menekültek</seg>
+<seg xml:id="IC7_17586.9">külföldre. Ennek egyik következménye az, hogy a családon belüli</seg>
+<seg xml:id="IC7_17586.10">gondoskodás híján egyre több idős ember szorul rá arra, hogy az</seg>
+<seg xml:id="IC7_17586.11">idősellátás valamelyik formáját igénybe vegye. Sajnos ez az, ami nem</seg>
+<seg xml:id="IC7_17586.12">annyira egyszerű dolog ma Magyarországon. Az utóbbi években a bekerülés</seg>
+<seg xml:id="IC7_17586.13">feltételei is nagyon erősen megváltoztak, nem beszélve a férőhelyhiány</seg>
+<seg xml:id="IC7_17586.14">miatti hosszú várólistákról. Megállapítható, hogy a rendszer nem</seg>
+<seg xml:id="IC7_17586.15">alkalmazkodott a körülmények miatti megváltozott igényekhez.Az</seg>
+<seg xml:id="IC7_17586.16">már egy másik kérdés, hogy a jelenlegi szakemberhiányos állapotban</seg>
+<seg xml:id="IC7_17586.17">lenne-e lehetőség a férőhelyszámok bővítésére. Az ellátórendszerben</seg>
+<seg xml:id="IC7_17586.18">folyamatosan betöltetlen státuszokkal találkozhatunk, ami sokszor magát a</seg>
+<seg xml:id="IC7_17586.19">szolgáltatást sodorja veszélybe. Persze ezen nem is csodálkozhatunk,</seg>
+<seg xml:id="IC7_17586.20">ugyanis ma Magyarországon a legrosszabbul kereső ágazat pont a szociális</seg>
+<seg xml:id="IC7_17586.21">szféra, főleg, ha figyelembe vesszük azt is, hogy pont az idősgondozás</seg>
+<seg xml:id="IC7_17586.22">az az ágazat, aminek a végzettségi előírásai hasonlóak az egészségügyi</seg>
+<seg xml:id="IC7_17586.23">ellátáshoz, ahol bár szintén alulfizetettek a dolgozók, mégis 20-25</seg>
+<seg xml:id="IC7_17586.24">százalékkal többet keresnek, mint a segítő szakmában dolgozó</seg>
+<seg xml:id="IC7_17586.25">munkatársaik. Nem beszélve arról, hogy mind mentálisan, mind fizikailag</seg>
+<seg xml:id="IC7_17586.26">egy nagyon megterhelő állásról, munkáról beszélünk. Ilyen körülmények</seg>
+<seg xml:id="IC7_17586.27">között szinte borítékolható, szinte egyértelmű a pályaelhagyás. Azokra a</seg>
+<seg xml:id="IC7_17586.28">kérdésekre már nem is térek ki, amelyek az ellátás színvonalával</seg>
+<seg xml:id="IC7_17586.29">kapcsolatosak.A fenti körülmények,</seg>
+<seg xml:id="IC7_17586.30">illetve a jogszabályi háttér miatt az intézményeknek - még ha igény is</seg>
+<seg xml:id="IC7_17586.31">lenne rá -, illetve a dolgozók túlterheltségének csökkentése, valamint a</seg>
+<seg xml:id="IC7_17586.32">gondozottak biztonságos és teljes ellátása érdekében, ugyanúgy, mint az</seg>
+<seg xml:id="IC7_17586.33">alapellátásban, a szakellátásban is szükség lenne magasabb szükségletű,</seg>
+<seg xml:id="IC7_17586.34">demensrészlegek kialakítására. De ez csak egy példa volt a közül a</seg>
+<seg xml:id="IC7_17586.35">számtalan példa közül, amit említhetnék akár az ellátás színvonalával,</seg>
+<seg xml:id="IC7_17586.36">akár az ellátás körülményeivel kapcsolatosan, amiért, itt el kell</seg>
+<seg xml:id="IC7_17586.37">mondanom azt, hogy nem a benne dolgozók a felelősek, hanem azok, akik</seg>
+<seg xml:id="IC7_17586.38">ellátják, illetve azok, akik fenntartják ezeket az intézményeket. Tisztelt</seg>
+<seg xml:id="IC7_17586.39">Államtitkár Úr! Ha lehet, a szokásos panelválaszoktól, kérem, tekintsen</seg>
+<seg xml:id="IC7_17586.40">el, amelyek a minimálbér-emelésről, az adócsökkentésről, a pótlékokról</seg>
+<seg xml:id="IC7_17586.41">szólnak, egy konkrét kérdésre adjon választ: bevezetik-e végre a</seg>
+<seg xml:id="IC7_17586.42">szociális életpályamodellt? A megváltozott körülményekhez alakítják,</seg>
+<seg xml:id="IC7_17586.43">vagyis könnyítik-e a bekerülés feltételeit az idősellátásban? Illetve</seg>
+<seg xml:id="IC7_17586.44">hajlandók-e a férőhelyszám-bővítésre, hogy a végtelen hosszú várólisták</seg>
+<seg xml:id="IC7_17586.45">megszűnjenek, és a rászoruló idős embereknek legyen lehetőségük, legyen</seg>
+<seg xml:id="IC7_17586.46">reményük arra, hogy bekerülhessenek ezekbe az intézményekbe?Várom érdemi válaszait. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-interpellation-IC7_17587" who="#LászlóGyörgyLukács" ana="#regular"><seg xml:id="IC7_17587.1">DR.</seg>
+<note>LUKÁCS LÁSZLÓ GYÖRGY (Jobbik):</note>
+<seg xml:id="IC7_17587.2">Köszönöm szépen a szót. Tisztelt Elnök</seg>
+<seg xml:id="IC7_17587.3">Úr! Tisztelt Államtitkár Úr! Engedje meg, hogy pár példán keresztül</seg>
+<seg xml:id="IC7_17587.4">bemutassam önöknek, hogy miként is bánik a magyar egészségügy az önök</seg>
+<seg xml:id="IC7_17587.5">vezénylése alatt a nyugdíjaskorú betegekkel. Először</seg>
+<seg xml:id="IC7_17587.6">is talán fontos azt tisztázni, hol is tart a magyar egészségügy, mi a</seg>
+<seg xml:id="IC7_17587.7">helyzet hazánkban, a rendelőinkben, a kórházainkban, és mi a helyzet a</seg>
+<seg xml:id="IC7_17587.8">magyarok egészségügyi mutatóinak a területén. Egyébként</seg>
+<seg xml:id="IC7_17587.9">Európa egyik legrosszabb egészségügyi állapotával sajnos a magyarok</seg>
+<seg xml:id="IC7_17587.10">szégyenkezhetnek, és ezen belül is kiemelten rossz helyen vannak a 60 év</seg>
+<seg xml:id="IC7_17587.11">felettiek. A társadalomban a nyugdíjas- vagy ahhoz közelítő korúak</seg>
+<seg xml:id="IC7_17587.12">között a legmagasabb a szív-, érrendszeri, cukor- és más krónikus,</seg>
+<seg xml:id="IC7_17587.13">tartós megbetegedések aránya. A 60 év felettiek 10 százalékának két</seg>
+<seg xml:id="IC7_17587.14">krónikus betegsége van, 3 százaléka pedig három vagy annál több krónikus</seg>
+<seg xml:id="IC7_17587.15">betegséggel küzd. Nem csoda tehát, hogy éves szinten a legtöbbet, 16</seg>
+<seg xml:id="IC7_17587.16">milliárd forintot csak egy szűk korosztály, a 65-69 év közötti</seg>
+<seg xml:id="IC7_17587.17">korosztály költi a gyógyszerekre. Mindezt úgy, hogy hazánkban - eltérően</seg>
+<seg xml:id="IC7_17587.18">az uniós átlagtól és az uniós szokástól - a lakosoknak kell a többletet</seg>
+<seg xml:id="IC7_17587.19">fizetni, azaz a magyar gyógyszerkiadásokban a lakosok állják a</seg>
+<seg xml:id="IC7_17587.20">gyógyszerkiadások többi hányadát, míg az európai uniós országokban</seg>
+<seg xml:id="IC7_17587.21">legalább kétharmadát ennek az állam állja. Ha</seg>
+<seg xml:id="IC7_17587.22">pedig azt az adatot nézzük, hogy itthon a 70 év feletti férfiak 72</seg>
+<seg xml:id="IC7_17587.23">százaléka, míg a nők 85 százaléka rendszeres gyógyszerfogyasztó,</seg>
+<seg xml:id="IC7_17587.24">látható, mekkora a teher a magyar időseken, és még szomorúbb képet fest</seg>
+<seg xml:id="IC7_17587.25">az állami támogatásoknak az alacsony volta. De</seg>
+<seg xml:id="IC7_17587.26">hozhatunk még egy olyan példát is, hogy miként gondoskodik az állam a</seg>
+<seg xml:id="IC7_17587.27">beteg nyugdíjasokról, ami például különösen a daganatos idős betegeknél</seg>
+<seg xml:id="IC7_17587.28">futótűzként járta be az elmúlt időszakban a médiát, és ez pedig nem más</seg>
+<seg xml:id="IC7_17587.29">volt, mint a kormány azon döntése, hogy bizonyos rákbetegségek</seg>
+<seg xml:id="IC7_17587.30">gyógyításánál a támogatott szereket már 75 évnél idősebb személyek</seg>
+<seg xml:id="IC7_17587.31">számára nem alkalmazzák. Azaz ezekről a 75 évnél idősebb rákbetegekről</seg>
+<seg xml:id="IC7_17587.32">gyakorlatilag lemond az állam, mert a legmodernebb terápiáktól zárja el</seg>
+<seg xml:id="IC7_17587.33">őket. Erről nem lehet mást mondani, mint azt, hogy egy mintapéldája az</seg>
+<seg xml:id="IC7_17587.34">idősek és a fiatalok közötti, illetve az időseken belüli válogatásnak.</seg>
+<seg xml:id="IC7_17587.35">Önök olyan egészségügyet teremtettek, amelynek világos üzenete: minél</seg>
+<seg xml:id="IC7_17587.36">idősebb vagy, annál kevesebb jogod van az élethez és a gyógyuláshoz -</seg>
+<seg xml:id="IC7_17587.37">ezt üzeni a kormány az idős betegeknek. De</seg>
+<seg xml:id="IC7_17587.38">sorolhatnánk azokat az elmaradt intézkedéseket, mint az Alzheimer-kór</seg>
+<seg xml:id="IC7_17587.39">kezelése komplex rendszerének kidolgozása, de sosem hallhattuk Balog</seg>
+<seg xml:id="IC7_17587.40">Zoltánt például az időseknek a betegségből való lábadozáshoz való</seg>
+<seg xml:id="IC7_17587.41">jogának a kiteljesítéséről beszélni, de nem hallottuk például azt sem,</seg>
+<seg xml:id="IC7_17587.42">hogy a kormánynak milyen hosszú távú elképzelése van, hogy az</seg>
+<seg xml:id="IC7_17587.43">egészségügyet idősbaráttá tegye. De lehetne még</seg>
+<seg xml:id="IC7_17587.44">tucatjával felhozni, hogy mit mulasztott el a kormány az elmúlt hét</seg>
+<seg xml:id="IC7_17587.45">évben, és mit kellene még cselekedni, de álljanak a mulasztások helyett a</seg>
+<seg xml:id="IC7_17587.46">kérdések. Miért hagyta magára a kormány a magyar nyugdíjasokat a</seg>
+<seg xml:id="IC7_17587.47">gyógyszereik megvásárlásánál?  (15.50) Miért</seg>
+<seg xml:id="IC7_17587.48">engedi, hogy a magyar nyugdíjasok kapják a legkevesebb állami</seg>
+<seg xml:id="IC7_17587.49">támogatást a gyógyszerek megvásárlásánál? Miért nem fordítottak</seg>
+<seg xml:id="IC7_17587.50">figyelmet egy idősbarát egészségügy kialakítására? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-interpellation-IC7_17589" who="#JózsefTóbiás" ana="#regular"><seg xml:id="IC7_17589.1">TÓBIÁS</seg>
+<note>JÓZSEF (MSZP):</note>
+<seg xml:id="IC7_17589.2">Köszönöm a szót. Tisztelt Ház! Tisztelt</seg>
+<seg xml:id="IC7_17589.3">Képviselőtársaim! Szokatlan forma ez a Házban, hogy az interpellációra a</seg>
+<seg xml:id="IC7_17589.4">válaszok ugyanúgy előre meg vannak írva, sőt az egypercesek, a</seg>
+<seg xml:id="IC7_17589.5">kérdések meg az azonnali kérdések is.Úgyhogy</seg>
+<seg xml:id="IC7_17589.6">szeretnék formabontó lenni és megelőlegezem a válaszadónak, hogy majd</seg>
+<seg xml:id="IC7_17589.7">elmondhatja, hogy nem ez van ide leírva, de nagyon nincs már kedvem a</seg>
+<seg xml:id="IC7_17589.8">mantrákat elmondani és meghallgatni azt, amit már évek óta tudunk.</seg>
+<seg xml:id="IC7_17589.9">Sokkal egyszerűbb kérdés van: az a kérdés, hogy mire tetszettek</seg>
+<seg xml:id="IC7_17589.10">elkölteni az elmúlt nyolc év rokkantnyugdíjasokra szánt pénzét? Miért</seg>
+<seg xml:id="IC7_17589.11">tetszettek az egészségbiztosításba átvezetni őket és megszüntetni a</seg>
+<seg xml:id="IC7_17589.12">szerzett jogaikat? Miért tetszettek emberteleneknek lenni? Miért</seg>
+<seg xml:id="IC7_17589.13">tetszettek azt csinálni, hogy kisvasútra, stadionra meg</seg>
+<seg xml:id="IC7_17589.14">luxusberuházásokra van pénz, de azokkal az emberekkel, akik</seg>
+<seg xml:id="IC7_17589.15">önhibájukból egészségkárosodásban szenvedtek - és korhatár előtti</seg>
+<seg xml:id="IC7_17589.16">nyugdíjasokról beszélek -, mi van ma? Csak ez az egy kérdés van. Önök</seg>
+<seg xml:id="IC7_17589.17">elmondták 2010-ben, hogy nemcsak a nyugdíjak értékét kívánják</seg>
+<seg xml:id="IC7_17589.18">megőrizni, hanem szeretnének szociális biztonságot is nyújtani minden</seg>
+<seg xml:id="IC7_17589.19">nyugdíjasnak, köztük a rokkantnyugdíjasoknak is. 200 ezer embert viszont</seg>
+<seg xml:id="IC7_17589.20">eltereltek 2012-től felülvizsgálatra, és olyan komplex vizsgálati</seg>
+<seg xml:id="IC7_17589.21">szempontokat igyekeztek önök kialakítani, amelyek kapcsán nemhogy</seg>
+<seg xml:id="IC7_17589.22">segítséget kaptak volna, hanem egyenesen még rosszabb állapotba kerültek</seg>
+<seg xml:id="IC7_17589.23">és kikerültek az ellátásból. Ma táppénzszerű ellátásban vannak a</seg>
+<seg xml:id="IC7_17589.24">rokkantnyugdíjasok. Államtitkár</seg>
+<seg xml:id="IC7_17589.25">Úr! Én értem: most fel fogja olvasni, hogy: mi mindent tettünk az</seg>
+<seg xml:id="IC7_17589.26">elmúlt nyolc évben, mármint lassan már 16 évben. Semmi baj nincs vele -</seg>
+<seg xml:id="IC7_17589.27">tegye, ez az ön lelke ügye. De azt egyszer s mindenkorra el kellene</seg>
+<seg xml:id="IC7_17589.28">már végre mondaniuk, hogy az a 200 ezer ember ma Magyarországon mit</seg>
+<seg xml:id="IC7_17589.29">várhat; várhatja-e az önök által korrigált, jövőre megígért</seg>
+<seg xml:id="IC7_17589.30">rokkantnyugdíjas-programot, amely úgy hangzik, hogy: a rokkantrendszer</seg>
+<seg xml:id="IC7_17589.31">átalakításának kudarcát elismerjük, és ezáltal egy komplex programot</seg>
+<seg xml:id="IC7_17589.32">indítunk el a választás évében</seg>
+<kinesic type="noise"><desc>Dr. Rétvári Bence közbeszól.</desc></kinesic>
+<seg xml:id="IC7_17589.33">Államtitkár</seg>
+<seg xml:id="IC7_17589.34">Úr! A 22 800 forint áll szemben a 27 ezerrel - miről beszél?! Arra</seg>
+<seg xml:id="IC7_17589.35">adjon választ, hogy ami elment a költségvetésből másra, az miért nem</seg>
+<seg xml:id="IC7_17589.36">fordítódik a rokkantnyugdíjasokra! Semmi más kérdésem nincs. Köszönöm</seg>
+<seg xml:id="IC7_17589.37">szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-interpellation-IC7_17591" who="#IstvánTukacs" ana="#regular"><seg xml:id="IC7_17591.1">TUKACS</seg>
+<note>ISTVÁN (MSZP):</note>
+<seg xml:id="IC7_17591.2">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr!</seg>
+<seg xml:id="IC7_17591.3">Tisztelt Ház! A kormány részéről világszínvonalúnak tartott</seg>
+<seg xml:id="IC7_17591.4">egészségügyről a következő hírek láttak napvilágot az elmúlt időszakban:</seg>
+<seg xml:id="IC7_17591.5">patkány pottyan a gyógyítók közé egy műtőben; egy sürgősségi</seg>
+<seg xml:id="IC7_17591.6">betegellátó osztály nem lát el vérző nőt, mondván, hogy nem tartozik az</seg>
+<seg xml:id="IC7_17591.7">ellátási körzetükhöz; nyitottszívműtétest szállítgatnak, mert nem áll</seg>
+<seg xml:id="IC7_17591.8">megfelelő diagnosztikai eszköz rendelkezésre, és sorolhatnám tovább. Nem</seg>
+<seg xml:id="IC7_17591.9">említem már a makói új kórházi műtő beszakadó plafonját és az abból</seg>
+<seg xml:id="IC7_17591.10">potyogó döglött galambokat, nem említem a kórházi illemhelyen elhunytat,</seg>
+<seg xml:id="IC7_17591.11">akit csak egy nap vagy másfél nap múlva vesznek észre az éppen ott</seg>
+<seg xml:id="IC7_17591.12">dolgozók.A baj nagy, hiszen</seg>
+<seg xml:id="IC7_17591.13">az elmúlt időszakban világosan látszott, hogy nem csökken azok száma,</seg>
+<seg xml:id="IC7_17591.14">akik az egészségügyben külföldön képzelik el a pályájukat. A gyógyítók</seg>
+<seg xml:id="IC7_17591.15">túlterheltek, kevesen vannak, akár az orvosok, akár a szakdolgozók, és</seg>
+<seg xml:id="IC7_17591.16">megjegyzem, idejük tetemes részét töltik el adminisztrációval; a XXI.</seg>
+<seg xml:id="IC7_17591.17">században papíralapú adminisztrációval.Változatlanul</seg>
+<seg xml:id="IC7_17591.18">léteznek a területi ellátási különbségek. Nem csökkennek a váró- és</seg>
+<seg xml:id="IC7_17591.19">előjegyzési listák, és a legfrissebb hírek szerint gyakran 210 napot</seg>
+<seg xml:id="IC7_17591.20">kell várni egy szakorvosi vizsgálatra. Az egyetemen tanulók zömében</seg>
+<seg xml:id="IC7_17591.21">külföldre akarnak menni, ez nem valami szívderítő tény. Az pedig, hogy</seg>
+<seg xml:id="IC7_17591.22">az egészségügy kiadásainak mintegy egyharmada magánzsebekből származik</seg>
+<seg xml:id="IC7_17591.23">legálisan vagy kevésbé legálisan, az döbbenetes. Döbbenetes különösen</seg>
+<seg xml:id="IC7_17591.24">annak a fényében, hogy megyénk fideszes potentátjai egy magánklinika</seg>
+<seg xml:id="IC7_17591.25">megnyitásán parádéznak, miközben ők üvöltötték a leghangosabban azt az</seg>
+<seg xml:id="IC7_17591.26">elmúlt években, hogy az egészségügy nem üzlet. Tisztelt</seg>
+<seg xml:id="IC7_17591.27">Államtitkár Úr! A kérdésem arra vonatkozna, hogy miért menekülnek az</seg>
+<seg xml:id="IC7_17591.28">érdemi viták elől, és miért nem óhajtanak a szakmával vagy más pártokkal</seg>
+<seg xml:id="IC7_17591.29">szóba állni az egészségügy kérdésében. (15.40) Többször</seg>
+<seg xml:id="IC7_17591.30">hangsúlyozták már önök is, mi is ezt valljuk, hogy az egészség hosszú</seg>
+<seg xml:id="IC7_17591.31">távú ügy, nemzeti ügy. Ezért tehát meg kellene ragadniuk minden</seg>
+<seg xml:id="IC7_17591.32">alkalmat, hogy eszmét cserélhessünk arról, hogy hogyan lehet hosszú távú</seg>
+<seg xml:id="IC7_17591.33">programot kidolgozni. Az elmúlt időszakban szervezetek és pártok egy 9</seg>
+<seg xml:id="IC7_17591.34">pontos nemzeti minimumot fogadtak el az egészségügy ügyében, sokan</seg>
+<seg xml:id="IC7_17591.35">tárgyaltak ebben, egyvalaki hiányzott: a kormány vagy a Fidesz. Ezért</seg>
+<seg xml:id="IC7_17591.36">tehát nem tudok másra gondolni, mint arra, hogy önök menekülnek az</seg>
+<seg xml:id="IC7_17591.37">érdemi viták elől. Az államtitkár úr ötpontos programjából nem tudom,</seg>
+<seg xml:id="IC7_17591.38">mennyi él, ha másfél igen, akkor talán sokat mondok, de úgy látszik,</seg>
+<seg xml:id="IC7_17591.39">hogy programalkotásban, érdemi vitában sem szakmával, sem pártokkal, sem</seg>
+<seg xml:id="IC7_17591.40">mással nem hajlandók szóba állni. A kérdésem arra vonatkozik,</seg>
+<seg xml:id="IC7_17591.41">államtitkár úr, hogy miért. Köszönöm a szót, elnök úr</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-urgent_question-AC7_17627" who="#IstvánHollik" ana="#regular"><seg xml:id="AC7_17627.1">HOLLIK</seg>
+<note>ISTVÁN (KDNP):</note>
+<seg xml:id="AC7_17627.2">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár</seg>
+<seg xml:id="AC7_17627.3">Asszony! Magyarnak lenni mindig jó érzés, de idén több okunk is volt</seg>
+<seg xml:id="AC7_17627.4">arra, hogy kifejezetten büszkék lehessünk. Elég, ha csak arra gondolunk,</seg>
+<seg xml:id="AC7_17627.5">hogy két olyan fontos sporteseményt rendezett Magyarország, amely</seg>
+<seg xml:id="AC7_17627.6">öregbítette országunk jó hírét.</seg>
+<seg xml:id="AC7_17627.7">Az</seg>
+<seg xml:id="AC7_17627.8">egyik az Európai Ifjúsági Olimpiai Fesztivál volt, aminek Győr adott</seg>
+<seg xml:id="AC7_17627.9">otthont, illetve a valaha hazánkban rendezett legnagyobb és legrangosabb</seg>
+<seg xml:id="AC7_17627.10">sporteseményre is idén került sor, a vizes vb-re</seg>
+<seg xml:id="AC7_17627.11">(Szilágyi György: A masters vb…)</seg>
+<seg xml:id="AC7_17627.12">Ez</seg>
+<seg xml:id="AC7_17627.13">megadta nekünk a lehetőséget, hogy itthon szurkoljunk legjobbjainknak,</seg>
+<seg xml:id="AC7_17627.14">Hosszú Katinkának, Cseh Lászlónak vagy éppen a legújabb felfedezett</seg>
+<seg xml:id="AC7_17627.15">sztárúszónak, Milák Kristófnak is. És különösen kiemelkedő eredmény az,</seg>
+<seg xml:id="AC7_17627.16">hogy kilencedik helyen zártunk az éremtáblázaton, hogy tudjuk, hogy</seg>
+<seg xml:id="AC7_17627.17">például az úszósportban rendkívül nagy a nemzetközi verseny.</seg>
+<seg xml:id="AC7_17627.18">Annak</seg>
+<seg xml:id="AC7_17627.19">érdekében, hogy a jövő Hosszú Katinkái is fel tudjanak nőni, és hasonló</seg>
+<seg xml:id="AC7_17627.20">szép eredményeket tudjanak produkálni, fenntartva ezzel Magyarország</seg>
+<seg xml:id="AC7_17627.21">sportnagyhatalmi státuszát, rengeteget kell tennünk. Éppen ezért a KDNP</seg>
+<seg xml:id="AC7_17627.22">frakciója támogatja a kormány sportpolitikáját, támogatja azt, hogy a</seg>
+<seg xml:id="AC7_17627.23">kormányzat kiemelt ágazatként kezeli a sport ügyét. Tudjuk, hogy a</seg>
+<seg xml:id="AC7_17627.24">sikerért áldozatot is kell hoznunk. Nem csak a sikerek fényében kell</seg>
+<seg xml:id="AC7_17627.25">tündökölni a politikának, mint a szocialista-szabad demokrata kormányok</seg>
+<seg xml:id="AC7_17627.26">idején. Az nem működik, hogy az eredményekre büszkék vagyunk, de közben</seg>
+<seg xml:id="AC7_17627.27">demagóg módon ócsároljuk a kormány sportlétesítmény-fejlesztési</seg>
+<seg xml:id="AC7_17627.28">programjait. Tettekre van tehát szükség a szép eredményekhez.</seg>
+<seg xml:id="AC7_17627.29">Éppen</seg>
+<seg xml:id="AC7_17627.30">ezért tisztelettel kérdezem államtitkár asszonyt, milyen eszközökkel</seg>
+<seg xml:id="AC7_17627.31">segíti a kormány az utánpótlás-nevelést a sport területén. Köszönöm</seg>
+<seg xml:id="AC7_17627.32">szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban. - Szilágyi György: Volt egy masters vb is! Nem értesz hozzá!</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-urgent_question-AC7_17628" who="#MártaDemeter" ana="#regular"><seg xml:id="AC7_17628.1">DEMETER</seg>
+<note>MÁRTA (LMP):</note>
+<seg xml:id="AC7_17628.2">Köszönöm szépen, elnök úr. Államtitkár Úr! 2016 közepén</seg>
+<seg xml:id="AC7_17628.3">önök átszervezték a kéményseprőipari szolgáltatást. A kormányzat ebbe</seg>
+<seg xml:id="AC7_17628.4">bele sem szólhatott volna, de mégis alaptörvény-ellenesen a lakossági</seg>
+<seg xml:id="AC7_17628.5">szolgáltatás, vagyis a feladat 90 százalékát a katasztrófavédelemhez</seg>
+<seg xml:id="AC7_17628.6">telepítették. Ingyenes lett a szolgáltatás, de innentől a</seg>
+<seg xml:id="AC7_17628.7">katasztrófavédelem emberei szabtak meg mindent, akik nem értenek ehhez,</seg>
+<seg xml:id="AC7_17628.8">és sok helyen innentől nem is volt kéményellenőrzés.</seg>
+<seg xml:id="AC7_17628.9">A</seg>
+<seg xml:id="AC7_17628.10">tűzoltói segélykérések száma a szén-monoxid-riasztás miatt ezért</seg>
+<seg xml:id="AC7_17628.11">négyszerese lett, és az utóbbi egy évben megduplázódott a halálesetek</seg>
+<seg xml:id="AC7_17628.12">száma, legutóbb két gyermek halt meg szén-monoxid-mérgezésben. Most,</seg>
+<seg xml:id="AC7_17628.13">hogy ne önökön és a katasztrófavédelmen száradjon az a felelősség, hogy</seg>
+<seg xml:id="AC7_17628.14">nem dolgoznak, inkább eltörlik a családi házak esetében a kötelező</seg>
+<seg xml:id="AC7_17628.15">kéményseprést. Azért, mert önök nem tudnak egy feladatot ellátni, inkább</seg>
+<seg xml:id="AC7_17628.16">eltörlik magát a feladatot.</seg>
+<seg xml:id="AC7_17628.17">Államtitkár Úr! Rengetegen</seg>
+<seg xml:id="AC7_17628.18">fűtenek fával vagy hulladékkal. Ők még nagyobb veszélyben vannak</seg>
+<seg xml:id="AC7_17628.19">innentől kezdve. Tényleg az emberekre bíznák azt, hogy megítéljék, mikor</seg>
+<seg xml:id="AC7_17628.20">kell a kéményt karbantartani? Államtitkár úr, egész településeken fog</seg>
+<seg xml:id="AC7_17628.21">megszűnni a kéményseprés. Jön a fűtési szezon, emberek fognak meghalni.</seg>
+<seg xml:id="AC7_17628.22">A</seg>
+<seg xml:id="AC7_17628.23">kérdéseim: mit tesznek azért, hogy ne haljon meg több ember a maguk</seg>
+<seg xml:id="AC7_17628.24">felelőtlen döntései miatt? Kérdésem, hogy egyeztetnek-e végre a</seg>
+<seg xml:id="AC7_17628.25">szakmával, illetve, hogy visszavonják-e a mostani és az egy évvel</seg>
+<seg xml:id="AC7_17628.26">ezelőtti, emberéleteket követelő módosításokat. Tudja, államtitkár úr,</seg>
+<seg xml:id="AC7_17628.27">azokat, akik áldozatul estek ezeknek a borzasztó döntéseknek, már nem</seg>
+<seg xml:id="AC7_17628.28">tudják visszahozni, viszont most még megelőzhetik ezeknek a</seg>
+<seg xml:id="AC7_17628.29">módosításoknak a visszavonásával, hogy még többen haljanak meg a</seg>
+<seg xml:id="AC7_17628.30">felelőtlen döntések miatt.</seg>
+<seg xml:id="AC7_17628.31">Tehát így néz ki önöknél a rezsicsökkentés? Emberéletekbe kerül? Köszönöm, elnök úr</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-urgent_question-AC7_17629" who="#IstvánIkotity" ana="#regular"><seg xml:id="AC7_17629.1">IKOTITY</seg>
+<note>ISTVÁN (LMP):</note>
+<seg xml:id="AC7_17629.2">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Itt</seg>
+<seg xml:id="AC7_17629.3">az ideje, hogy a kormány szembenézzen azzal, hogy mi maradt a vizes vb</seg>
+<seg xml:id="AC7_17629.4">után. Ott van két uszoda, az egyik a Tüskecsarnok komplexumban, a</seg>
+<seg xml:id="AC7_17629.5">másik a Dagály, Duna Aréna néven ismert, amit nem használhatnak a</seg>
+<seg xml:id="AC7_17629.6">budapestiek. Ott van a letarolt Duna-part. Ott van a szinkronúszás</seg>
+<seg xml:id="AC7_17629.7">helyszínén, a Városligeti-tó, a csónakázótó helyén egy rom, ami</seg>
+<seg xml:id="AC7_17629.8">továbbra sem került eltakarításra. És ne feledkezzünk meg a</seg>
+<seg xml:id="AC7_17629.9">margitszigeti Kaszinó épületéről, 1,2 milliárd forintból sikerült úgy</seg>
+<seg xml:id="AC7_17629.10">elkészíteni, hogy a vizes vb idejére el sem készült, pedig funkciója</seg>
+<seg xml:id="AC7_17629.11">lett volna. Ennek kapcsán nyomozás is indult. Lázár János az esettel</seg>
+<seg xml:id="AC7_17629.12">kapcsolatban azt mondta, hogy esetleges felelősségre vonásról is szó</seg>
+<seg xml:id="AC7_17629.13">lehet. A jelentős késés ellenére nem hívták le a többmilliós kötbért. A</seg>
+<seg xml:id="AC7_17629.14">kormánynak, úgy látszik, nincsen erre szüksége. Vajon miért?</seg>
+<seg xml:id="AC7_17629.15">Miközben</seg>
+<seg xml:id="AC7_17629.16">a budapestiek vesztettek a beruházásokkal járó természetrombolás</seg>
+<seg xml:id="AC7_17629.17">miatt, a vizes vb költségei az egekbe szaladtak. Emlékezzen csak</seg>
+<seg xml:id="AC7_17629.18">államtitkár úr a 2013-as kormányhatározatra, ami még 14 milliárdos</seg>
+<seg xml:id="AC7_17629.19">összegről beszélt, és ennek a tízszeresére, 140 milliárdra vagy még</seg>
+<seg xml:id="AC7_17629.20">ennél is többre növekedtek a költségek. És még nem beszéltünk arról,</seg>
+<seg xml:id="AC7_17629.21">hogy milyen nem várt kiadások lesznek akár a romok eltakarítására,</seg>
+<seg xml:id="AC7_17629.22">területrendezésekre. Ennek költségeit az emberek állják, mi álljuk drága</seg>
+<seg xml:id="AC7_17629.23">adóforintokból.</seg>
+<seg xml:id="AC7_17629.24">Tisztelt</seg>
+<seg xml:id="AC7_17629.25">Államtitkár Úr! Normális-e ön szerint, hogy az eredeti tervekhez képest</seg>
+<seg xml:id="AC7_17629.26">tízszeresére duzzadt a vizes vb költségvetése? Normálisnak tartja-e,</seg>
+<seg xml:id="AC7_17629.27">hogy méregdrága sportkomplexumok épüljenek, amelyeket az emberek nem</seg>
+<seg xml:id="AC7_17629.28">tudnak használni? Számon fog-e kérni bárkit is az értelmetlen</seg>
+<seg xml:id="AC7_17629.29">megvalósításért? Elfogadhatónak tartja-e azt, hogy a magyar állam</seg>
+<seg xml:id="AC7_17629.30">zokszó nélkül a tízszeresét kifizeti a projekt eredeti</seg>
+<seg xml:id="AC7_17629.31">költségvetésének</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC7_17629.32">S végül normális-e, hogy az irreális drágulásnak nincsenek szakmai és</seg>
+<seg xml:id="AC7_17629.33">politikai felelősei? Ki fizeti meg ennek az árát, államtitkár úr?</seg>
+<seg xml:id="AC7_17629.34">Várom válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-urgent_question-AC7_17636" who="#NándorGúr" ana="#regular"><note>GÚR NÁNDOR (MSZP):</note>
+<seg xml:id="AC7_17636.1">Köszönöm szépen, elnök úr. 2010 decemberére biztos</seg>
+<seg xml:id="AC7_17636.2">emlékszik, államtitkár úr. 2010 decembere az, amikor a Fidesz a</seg>
+<seg xml:id="AC7_17636.3">szavazataival eldöntötte gyakorlatilag, hogy 2022-t követően</seg>
+<seg xml:id="AC7_17636.4">Magyarországon 65 éves kor az, ami után el lehet menni nyugdíjba. Biztos</seg>
+<seg xml:id="AC7_17636.5">emlékszik rá, volt egy népi kezdeményezés, amely ellenében önök</seg>
+<seg xml:id="AC7_17636.6">szavaztak.</seg>
+<seg xml:id="AC7_17636.7">Ezzel</seg>
+<seg xml:id="AC7_17636.8">párhuzamosan 2011-ben egy új munkatörvénykönyvet szültek, azt nem</seg>
+<seg xml:id="AC7_17636.9">mondhatnám, hogy a munkavállalók javát szolgáló munkatörvénykönyvet, de</seg>
+<seg xml:id="AC7_17636.10">azt igen, hogy sokkal inkább a kárukra. 2012-től ez érvényesült is,</seg>
+<seg xml:id="AC7_17636.11">gyakorlatilag minden rugalmasságot, ami létezett, sárba tapostak,</seg>
+<seg xml:id="AC7_17636.12">gyakorlatilag semmi lehetőséget nem adtak az embereknek, akik adott</seg>
+<seg xml:id="AC7_17636.13">esetben a nyugdíjkorhatárt megelőzően néhány esztendővel</seg>
+<seg xml:id="AC7_17636.14">ellehetetlenültek. 40 év szolgálati idő vagy éppen jogosultsági idő</seg>
+<seg xml:id="AC7_17636.15">kevés a férfiak esetében ahhoz, hogy korhatár előtt nyugdíjba tudjanak</seg>
+<seg xml:id="AC7_17636.16">menni. Nem, önöknek ez nem fontos, ez nem kivitelezendő. Ha valaki 62-63</seg>
+<seg xml:id="AC7_17636.17">évesen, mondjuk, 40 évvel a háta mögött kikerül a munkaerőpiacról, oly</seg>
+<seg xml:id="AC7_17636.18">sok esélye nincs visszakerülni. Mehet közmunkába, vagy elmehet éppen</seg>
+<seg xml:id="AC7_17636.19">nyesre, nyugdíj előtti segélyre, 44 ezer forintért.</seg>
+<seg xml:id="AC7_17636.20">(16.20)</seg>
+<seg xml:id="AC7_17636.21">Korhatáremelés</seg>
+<seg xml:id="AC7_17636.22">és a rugalmasság megszüntetése, likvidálása, ez együtt nem tekinthető</seg>
+<seg xml:id="AC7_17636.23">normális dolognak, önök mégis ezt tették, normálatlan intézkedéseket</seg>
+<seg xml:id="AC7_17636.24">szültek, ellentmondásos, normálatlan intézkedéseket. A rugalmas</seg>
+<seg xml:id="AC7_17636.25">nyugdíjba vonulás lehetősége gyakorlatilag az ellehetetlenülés</seg>
+<seg xml:id="AC7_17636.26">kikerülését hordozza magában. Aki képes vagy igény van rá, mármint hogy</seg>
+<seg xml:id="AC7_17636.27">dolgozzon akár a 65 éves kort követően, ott pedig az aktivitás növelését</seg>
+<seg xml:id="AC7_17636.28">kell megtenni. Önök ezt is fékezték.</seg>
+<seg xml:id="AC7_17636.29">Nézzék,</seg>
+<seg xml:id="AC7_17636.30">egy mondat: önök a megélhetés minimumát nem biztosítják az emberek</seg>
+<seg xml:id="AC7_17636.31">számára. Önök azt veszik el tőlük, ami nekik a legfontosabb: a</seg>
+<seg xml:id="AC7_17636.32">biztonságot. Elnök úr, köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-urgent_question-AC7_17637" who="#IstvánHiller" ana="#regular"><note>DR. HILLER ISTVÁN ISTVÁN (MSZP):</note>
+<seg xml:id="AC7_17637.1">Tisztelt Elnök Úr! Képviselő Asszonyok és</seg>
+<seg xml:id="AC7_17637.2">Képviselő Urak! Tisztelt Államtitkár Úr! Választókerületemhez tartozik</seg>
+<seg xml:id="AC7_17637.3">Wekerletelep a XIX. kerületben. Igazi lokálpatrióta emberek lakják,</seg>
+<seg xml:id="AC7_17637.4">lakóhelyüket óvó, környezettudatos emberek. Az elmúlt időszakban nagy</seg>
+<seg xml:id="AC7_17637.5">felzúdulást váltott ki közöttük az új Duna-hídhoz kapcsolódó úthálózat,</seg>
+<seg xml:id="AC7_17637.6">illetve annak terve. Arról van szó, hogy egy új Duna-hidat terveznek,</seg>
+<seg xml:id="AC7_17637.7">hagyományosan ez a Galvani híd megújításának, illetve megépítésének új</seg>
+<seg xml:id="AC7_17637.8">lehetősége. Ehhez az kapcsolódott, hogy egy bejelentés nyomán a</seg>
+<seg xml:id="AC7_17637.9">ferencvárosi területen lévő, a Határ úttal szomszédos, másik oldalán a</seg>
+<seg xml:id="AC7_17637.10">wekerletelepieket érintő kiserdő ügyében elég rémületes felszólalások</seg>
+<seg xml:id="AC7_17637.11">történtek. Tisztelt Államtitkár Úr! Idézek egy mondatot: „Bizonyos</seg>
+<seg xml:id="AC7_17637.12">szempontból elfogadható a lakossági aggály,” - már ez is olyan fura -</seg>
+<seg xml:id="AC7_17637.13">„amely a kiserdőn keresztül vezetett nyomvonallal szemben fogalmazódik</seg>
+<seg xml:id="AC7_17637.14">meg. Ugyanakkor szakértői szempontokkal alátámasztható, hogy a kiserdő</seg>
+<seg xml:id="AC7_17637.15">igénybevétele nem jelent olyan mértékű környezeti érdeksérelmet, mint a</seg>
+<seg xml:id="AC7_17637.16">jelenlegi, súlyosan jogellenes környezeti állapot fenntartása.”</seg>
+<seg xml:id="AC7_17637.17">Ebben</seg>
+<seg xml:id="AC7_17637.18">a kérdésben az elmúlt napokban, hetekben több budapesti polgármester,</seg>
+<seg xml:id="AC7_17637.19">főpolgármester úr is megnyilatkozott, de a kormány, illetve a kormány</seg>
+<seg xml:id="AC7_17637.20">képviselője nem. Azt kérem a minisztériumtól, annak képviseletében</seg>
+<seg xml:id="AC7_17637.21">államtitkár úrtól, hogy legyen szíves elmondani nekem, itt mi a helyzet:</seg>
+<seg xml:id="AC7_17637.22">veszélyben van-e a kiserdő, hogyan tervezik ennek a hídnak az</seg>
+<seg xml:id="AC7_17637.23">úthálózatát, és a környezetszennyezés kérdése hogy áll? Nekem sokkal</seg>
+<seg xml:id="AC7_17637.24">fontosabbak az ott lakók, az emberek, mint bármilyen nyomvonal.</seg>
+<seg xml:id="AC7_17637.25">Tisztelettel kérdem államtitkár urat, mi erről a véleménye. Köszönöm</seg>
+<seg xml:id="AC7_17637.26">szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-urgent_question-AC7_17638" who="#GyulaBudai" ana="#regular"><seg xml:id="AC7_17638.1">BUDAI</seg>
+<note>GYULA (Fidesz):</note>
+<seg xml:id="AC7_17638.2">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt</seg>
+<seg xml:id="AC7_17638.3">Államtitkár Úr! Köszönöm szépen a védelmet, elnök úr, de úgy gondolom,</seg>
+<seg xml:id="AC7_17638.4">hogy még meg tudom magamat védeni néhány hőbörgő képviselőtársamtól a</seg>
+<seg xml:id="AC7_17638.5">jobbikos padsorokban.</seg>
+<seg xml:id="AC7_17638.6">Minden idők</seg>
+<seg xml:id="AC7_17638.7">legnagyobb korrupciós botrányában, a négyesmetró- beruházásban több száz</seg>
+<seg xml:id="AC7_17638.8">milliárd forint tűnt el, és most már teljesen egyértelművé vált, akár a</seg>
+<seg xml:id="AC7_17638.9">nyilvánosságra került adatok, akár az OLAF-jelentés alapján, hogy</seg>
+<seg xml:id="AC7_17638.10">ezeknek a pénzeknek a jelentős része szocialista és szabad demokrata</seg>
+<seg xml:id="AC7_17638.11">kormányok képviselőihez került</seg>
+<kinesic type="noise"><desc>Szilágyi György folyamatos közbeszólásai.</desc></kinesic>
+<seg xml:id="AC7_17638.12">Ezek</seg>
+<seg xml:id="AC7_17638.13">között vannak olyan képviselők, akik jelenleg is aktívan politizálnak,</seg>
+<seg xml:id="AC7_17638.14">illetve szeretnének a balliberális oldal meghatározó alakjai lenni, akár</seg>
+<seg xml:id="AC7_17638.15">Gyurcsány Ferenc, Bajnai Gordon, Medgyessy Péter, Demszky Gábor,</seg>
+<seg xml:id="AC7_17638.16">Horváth Csaba, Gy. Németh Erzsébet vagy Hagyó Miklós</seg>
+<seg xml:id="AC7_17638.17">(Szilágyi György: Elszámoltatási biztos…)</seg>
+<seg xml:id="AC7_17638.18">Tehát,</seg>
+<seg xml:id="AC7_17638.19">mint ahogy mondtam, közel 166 milliárd forint tűnt el a</seg>
+<seg xml:id="AC7_17638.20">metróberuházásból, ez a metróberuházás mintegy egyharmada, és ezek a</seg>
+<seg xml:id="AC7_17638.21">jelentések, amelyek ezt támasztják alá, egyértelműen a szocialista és</seg>
+<seg xml:id="AC7_17638.22">szabad demokrata kormányok felelősségét határozzák meg. Tehát</seg>
+<seg xml:id="AC7_17638.23">mindenképpen meg kell találni a pénzt, illetve el kell számoltatni</seg>
+<seg xml:id="AC7_17638.24">azokat a személyeket, akik felelősek ebben, akik ellopták, illetve</seg>
+<seg xml:id="AC7_17638.25">elcsalták a metróberuházásból származó összeget, ugyanis ne felejtsük</seg>
+<seg xml:id="AC7_17638.26">el, hogy az Európai Unió közel 59 milliárd forint visszafizetésére</seg>
+<seg xml:id="AC7_17638.27">kötelezte Magyarországot a beruházás kapcsán.</seg>
+<seg xml:id="AC7_17638.28">Ugyanakkor</seg>
+<seg xml:id="AC7_17638.29">továbbra is egyértelmű, hogy az MSZP továbbra is falaz azoknak a</seg>
+<seg xml:id="AC7_17638.30">személyeknek, akik érintettek ebben az ügyben. Nem véletlen, hogy sem a</seg>
+<seg xml:id="AC7_17638.31">parlament gazdasági vizsgálóbizottsága, sem pedig a fővárosi</seg>
+<seg xml:id="AC7_17638.32">vizsgálóbizottság előtt egyetlen szocialista politikus nem jelent meg,</seg>
+<seg xml:id="AC7_17638.33">kivéve Medgyessy Pétert, de ő nem tagja a Szocialista Pártnak; sem</seg>
+<seg xml:id="AC7_17638.34">Gyurcsány Ferenc, sem Hagyó Miklós, sem Demszky Gábor nem vállalta a</seg>
+<seg xml:id="AC7_17638.35">felelősséget, hogy megjelenjen a bizottság előtt.</seg>
+<seg xml:id="AC7_17638.36">Kérdezem</seg>
+<seg xml:id="AC7_17638.37">az államtitkár urat, hogy ebben az ügyben mi az álláspontja. Mikor</seg>
+<seg xml:id="AC7_17638.38">derül ki végre az igazság, és mikor kapunk konkrét választ arra, hogy</seg>
+<seg xml:id="AC7_17638.39">hov</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret lejártát.</desc></kinesic>
+<seg xml:id="AC7_17638.40">tűntek ezek a pénzek? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormányzó pártok padsoraiban. - Szilágyi György: A volt elszámoltatási biztos kérdezi…</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-urgent_question-AC7_17640" who="#LorántnéHegedűs" ana="#regular"><seg xml:id="AC7_17640.1">HEGEDŰS</seg>
+<note>LORÁNTNÉ (Jobbik):</note>
+<seg xml:id="AC7_17640.2">Köszönöm szépen a szót. Tisztelt Államtitkár Úr! A</seg>
+<seg xml:id="AC7_17640.3">kormánytöbbség 2013 júliusától úgy módosította a nyugdíjtörvényt, hogy</seg>
+<seg xml:id="AC7_17640.4">azóta a nyugdíjas közszolgák egyidejűleg nem kaphatják meg a nyugdíjukat</seg>
+<seg xml:id="AC7_17640.5">és a bérüket is. Az akkori fideszes indokolás az volt, hogy az ország</seg>
+<seg xml:id="AC7_17640.6">gazdasági helyzete követeli meg ezt a durva megszorító intézkedést. De</seg>
+<seg xml:id="AC7_17640.7">ez már akkor sem volt igaz! Az érintett személyek száma, nagyjából 4</seg>
+<seg xml:id="AC7_17640.8">ezer fő eltörpül a nyugdíjasok 2 millió feletti létszámához képest, a</seg>
+<seg xml:id="AC7_17640.9">nyugdíjuk elvételével elért megtakarítás pedig - összesen 10 milliárdról</seg>
+<seg xml:id="AC7_17640.10">beszélünk, azaz a nyugdíjkassza kevesebb, mint 3 ezrelékéről -</seg>
+<seg xml:id="AC7_17640.11">érzékelhető módon nem járulhatott hozzá az államadósság csökkentéséhez.</seg>
+<seg xml:id="AC7_17640.12">Ugyanakkor</seg>
+<seg xml:id="AC7_17640.13">az intézkedés társadalmi költségének számbavételekor már jóval nagyobb</seg>
+<seg xml:id="AC7_17640.14">károkról beszélhetünk. Mára már nyilvánvalóvá vált, hogy Magyarország</seg>
+<seg xml:id="AC7_17640.15">égető munkaerőhiányát a dolgozni kívánó nyugdíjasok nélkül nem lehet</seg>
+<seg xml:id="AC7_17640.16">megoldani. Az egészségügyben dolgozó szakemberek esetén ezt már</seg>
+<seg xml:id="AC7_17640.17">érzékelte a kormányzat is, és kénytelen volt engedni, hiszen orvos és</seg>
+<seg xml:id="AC7_17640.18">nővér nélkül maradhattak volna a kórházak. De ugyanígy szükség lenne</seg>
+<seg xml:id="AC7_17640.19">egyéb közszolgálati területen is a munkaképes, nagy szakértelemmel és</seg>
+<seg xml:id="AC7_17640.20">tapasztalattal rendelkező nyugdíjasok visszafoglalkoztatására.</seg>
+<seg xml:id="AC7_17640.21">Azok</seg>
+<seg xml:id="AC7_17640.22">a 2013-as körülmények, amelyek hivatkozási alapot szolgáltathattak a</seg>
+<seg xml:id="AC7_17640.23">drasztikus nyugdíjkorlátozások bevezetésének, mára már nincsenek meg.</seg>
+<seg xml:id="AC7_17640.24">Így például nem áll Magyarország túlzottdeficit-eljárás alatt.</seg>
+<seg xml:id="AC7_17640.25">Ugyanakkor ha folytatódik a fiatal és középkorú szakképzett magyarok</seg>
+<seg xml:id="AC7_17640.26">külföldre áramlása, akkor a nyugdíjasok munkájára továbbra is és egyre</seg>
+<seg xml:id="AC7_17640.27">fokozódó mértékben szükség lesz Magyarországon.</seg>
+<seg xml:id="AC7_17640.28">Tisztelt</seg>
+<seg xml:id="AC7_17640.29">Államtitkár Úr! Mikor látják már be, hogy óriási hibát követtek el,</seg>
+<seg xml:id="AC7_17640.30">amikor kizárták a nyugdíjasokat a közszférából? Mikor törlik el a</seg>
+<seg xml:id="AC7_17640.31">nyugdíjasokat sújtó megszorító intézkedéseket? Köszönöm és várom érdemi</seg>
+<seg xml:id="AC7_17640.32">válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-02-urgent_question-AC7_17641" who="#TamásPintér" ana="#regular"><note>PINTÉR TAMÁS (Jobbik):</note>
+<seg xml:id="AC7_17641.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt</seg>
+<seg xml:id="AC7_17641.2">Államtitkár Úr! A korkedvezményes nyugdíjak kérdése majd’ félmillió</seg>
+<seg xml:id="AC7_17641.3">embert érint ma Magyarországon, 460 ezren megfáradtak,</seg>
+<seg xml:id="AC7_17641.4">megbetegedtek a munkában, már nem alkalmasak a kemény fizikai munkára</seg>
+<seg xml:id="AC7_17641.5">nyolcórás beosztásban. Ennek a majd’ félmillió dolgozónak legalább</seg>
+<seg xml:id="AC7_17641.6">80-90 százaléka fizikai munkás, jelentős részük pedig a</seg>
+<seg xml:id="AC7_17641.7">nehéziparban dolgozik.</seg>
+<seg xml:id="AC7_17641.8">Egy személyes példát szeretnék</seg>
+<seg xml:id="AC7_17641.9">hozni szülővárosomból, Dunaújvárosból. Egy vezető tűzoltó mondta el</seg>
+<seg xml:id="AC7_17641.10">nekem, hogy milyen megalázó körülményekkel kell szembenéznie egy olyan</seg>
+<seg xml:id="AC7_17641.11">lánglovagnak, aki az emberek szolgálatára tette fel életét. Évtizedes</seg>
+<seg xml:id="AC7_17641.12">munkavégzés után, amibe beleöregedett az a szegény tűzoltó, portásként</seg>
+<seg xml:id="AC7_17641.13">kell tengetnie nyugdíjáig hátralévő éveit, már nem tud olyan fürgén a</seg>
+<seg xml:id="AC7_17641.14">létrára fel-, leszaladni tömlővel a vállán. És hogy miért történt ez?</seg>
+<seg xml:id="AC7_17641.15">Mert már nem tud élni a korkedvezmény adta nyugdíj lehetőségével, amire</seg>
+<seg xml:id="AC7_17641.16">pedig ő számított.</seg>
+<seg xml:id="AC7_17641.17">De a Vasműben is ugyanez a helyzet.</seg>
+<seg xml:id="AC7_17641.18">Egy ott dolgozó munkás mesélte el nekem, hogy a nehéz fizikai munka</seg>
+<seg xml:id="AC7_17641.19">bizony egész egészségére komoly hatással volt, és mire eléri a</seg>
+<seg xml:id="AC7_17641.20">nyugdíjkorhatárt, egészségügyileg teljesen tönkre fog menni, nem</seg>
+<seg xml:id="AC7_17641.21">élvezheti úgy a nyugdíjaséveket, mint ahogy számított rá,</seg>
+<seg xml:id="AC7_17641.22">korkedvezményes nyugdíjjal nem tud élni, mert elvették azt tőle.</seg>
+<seg xml:id="AC7_17641.23">De</seg>
+<seg xml:id="AC7_17641.24">sajnos önök a jövő generációjára sem gondolnak, hiszen nem hajlandóak</seg>
+<seg xml:id="AC7_17641.25">foglalkozni az ő bérükkel sem, az ő nyugdíjukkal sem, hiszen a mostani</seg>
+<seg xml:id="AC7_17641.26">fiatalok, gyermekek, unokák, ha a bérunióra számíthatnának, kiszámítható</seg>
+<seg xml:id="AC7_17641.27">lenne a nyugdíjuk, hiszen magasabb bérek esetén magasabb nyugdíj is</seg>
+<seg xml:id="AC7_17641.28">járhatna.</seg>
+<seg xml:id="AC7_17641.29">Szeretném tehát</seg>
+<seg xml:id="AC7_17641.30">tisztelettel kérdezni, hajlandók-e figyelembe venni megannyi dolgozó</seg>
+<seg xml:id="AC7_17641.31">panaszát. Miért nem állnak még mindig a dolgozói igények mellé a</seg>
+<seg xml:id="AC7_17641.32">multikkal szemben? Illetve terveznek-e valamilyen formában legalább</seg>
+<seg xml:id="AC7_17641.33">tárgyalni a korkedvezményes nyugdíjak visszavezetéséről, vagy majd ez is</seg>
+<seg xml:id="AC7_17641.34">az új Jobbik-kormányra vár 2018 után? Köszönöm szépen a szót</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2016-05-30" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2016-05-30 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2016-05-30 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2813" unit="words">2813 szó</measure>
+        <measure xml:lang="en" quantity="2813" unit="words">2813 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2016-05-30">2016. 05. 30.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="37"/>
+          <tagUsage gi="kinesic" occurs="10"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2016-05-30">2016-05-30</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2016-05-30-urgent_question-AC7_10892" who="#ZoltánGőgös" ana="#regular"><note>GŐGÖS ZOLTÁN (MSZP):</note>
+<seg xml:id="AC7_10892.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Csütörtökön ismét egy ellenőrző körutat tettem a Hortobágyon. Most már május vége van, tehát rengeteg birkát és szarvasmarhát kellett volna hogy találjak. Ehelyett olyan legelőket találtam több mint 400 hektár mértékben, amelyek nagyjából három éve, mióta a pályázati bírálat történt, nem találkoztak állattal, nem találkoztak legelő állatokkal.</seg>
+<seg xml:id="AC7_10892.2">A berettyóújfalui, váncsodi, mezőpeterdi és kőrösszegapáti gazdáknak jogos az a felvetése, hogy miközben több ezres olyan állatállomány van, ami nagyon-nagyon kevés legelővel rendelkezik, meddig lehet ezt hagyni, meddig lehet tűrni, hogy pályázati nyertesek semmibe veszik a pályázatban foglalt vállalásaikat. Meddig lehet azt tűrni, hogy ez most már olyan szintre megy, hogy igazából természetkárosítással is felér, hiszen ezek a területek egyértelműen legeltetéses állattartásra vannak kijelölve. A Kehi-vizsgálatot múltkor államtitkár úrnak mutattam, oda is adtam, abban világosan le van írva, hogy ezek az állattartók a pályázatkor sem rendelkeztek állatokkal, de azóta már réges-régen letelt az az időszak is, ameddig ezt biztosítaniuk kellett volna.</seg>
+<seg xml:id="AC7_10892.3">A másik ilyen probléma, ami borzolja a kedélyeket a földbérletek kapcsán, az pedig Mezőhegyes. Érkezett egy módosító javaslat Lázár miniszter úr törvényjavaslatához, ami szerint a mezőhegyesi Fidesz-elnök postás, aki nagyjából 300 ezer forintot kockáztatott a bérbevételnél, ami 55 hektár, most 8,2 millió forint kártérítést kapna. Én nem gondolom, hogy ez normális. Jó is, hogy itt van miniszter úr, legalább ő is végiggondolja ezt, hogy milyen alapon adnak valaki olyanoknak ekkora volumenű kártalanítást, akik egyébként még birtokba sem léptek, majd csak januárban lépnének birtokba. Nekik ott semmilyen káruk azon kívül, ami bánatpénzt és letéti díjat befizettek, eddig még nem keletkezett, ha keletkezett is, maximum a kamatköltségek. Mi indokolja ezt a több tízszeres kártalanítást? Erre is szeretnék választ kapni államtitkár úrtól. Köszönöm szépen a figyelmet</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-30-urgent_question-AC7_10893" who="#IstvánApáti" ana="#regular"><note>APÁTI ISTVÁN (Jobbik):</note>
+<seg xml:id="AC7_10893.1">Köszönöm, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! A közbiztonság témakörén belül különleges és kiemelt terület a drogfogyasztással és a drogkereskedelemmel összefüggő témakör, témakörök halmaza. Szomorú adatokkal találkozunk, és a teljesség igénye nélkül engedjék meg, hogy néhányat itt megosszak a teljes nyilvánossággal.</seg>
+<seg xml:id="AC7_10893.2">2009 és 2013 között Magyarországon 118, az Európai Unió tagállamaiban összesen 268 új vegyület, új vegyi összetételű kábítószer jelent meg a piacon. 2014-re az injekciót is használó kábítószer-fogyasztóknak több mint 60 százaléka hepatitis C vírussal fertőzött, három év alatt ez a szám megduplázódott.</seg>
+<seg xml:id="AC7_10893.3">A legnagyobb probléma az, hogy egyre alacsonyabb életkorban kezdődik a drogfogyasztás, nagyon sokan már a 14. életévük betöltése előtt drogfogyasztóvá válnak, ugyanakkor az is látható az adatokból, hogy a 2006-os 20 százalékról 2010-re 30 százalékra nőtt a 14 és 17 év közötti azon fiatalok aránya, akik ebben az életkorban már legalább egyszer kipróbálták valamelyik kábítószert, a 17 éves fiúk közel 40 százaléka már túl van az első droggal kapcsolatos élményén. Ily módon Magyarország a közepes drogérintettségű, drogfertőzöttségű országok közé tartozik, jelentős mértékben terjed a szintetikus cannabis és egyéb szintetikus drogok aránya, egyre nő ezeknek a piaca, egyre több a fogyasztó, hiszen a jó minőségű szeszes italhoz képest jóval olcsóbban meg lehet vásárolni, és rendkívül könnyű hozzájutni, nagyon könnyű beszerezni.</seg>
+<seg xml:id="AC7_10893.4">2011 óta emiatt a kábítószerrel összefüggő halálozások száma is aggasztó mértékben növekszik, és terjed a drog a börtönökben: 2010-ben 76 ilyen esetet tártak fel, ugyanakkor 2015-ben már az év első négy hónapjában elérték ezt a számot.</seg>
+<seg xml:id="AC7_10893.5">Kérdezem tehát, hogy mitől ilyen elégedettek a drogfogyasztás, a drogkereskedele</seg>
+<kinesic type="signal"><desc>Az elnök csengetéssel jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_10893.6">, a drogcsempészet visszaszorítása kapcsán. Milyen intézkedéseket terveznek a probléma valódi megoldása érdekében? Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-30-urgent_question-AC7_10894" who="#GergelyBárándy" ana="#regular"><note>DR. BÁRÁNDY GERGELY (MSZP):</note>
+<seg xml:id="AC7_10894.1">Köszönöm szépen a szót, elnök úr. Tisztelt Legfőbbügyész-helyettes Úr! Az Alkotmánybíróság döntése után egyértelműen tudhatjuk azt, hogy a Magyar Nemzeti Bank alapítványainak pénze közpénz. Kezdjük azzal, hogy az is meglehetősen bűncselekménygyanús, hogy az MNB több mint 260 milliárd forintot ellenszolgáltatás nélkül átadott alapítványoknak. Csak szeretném emlékeztetni legfőbbügyész-helyettes urat, hogy az MNB és az MNB alapítványai nem ugyanazok. Ahogy az ügyészség töretlen gyakorlata is mutatja, ha valaki, mondjuk, a saját tulajdonában álló kft.-ből elviszi a pénzt, az attól még lehet bűncselekmény. Tehát ez egy rossz hivatkozás, amit eddig hallottunk.</seg>
+<seg xml:id="AC7_10894.2">De lépjünk túl ezen! Az alapítványok az MNB feladatkörébe nem tartozó dolgokra fizettek ki közpénzt. Ez is tényként leszögezhető. Így például tiltott monetáris finanszírozást végeztek az alapítványok. Rokonoknak, haveroknak juttattak MNB-s pénzeket az alapítványokon keresztül, könyveket adtak ki és fordíttattak le. Márpedig ezek nem tartoznak törvény szerint az MNB feladatkörébe. Az MNB pedig csak olyan dolgokat finanszírozhat, ami a feladatkörébe tartozik.</seg>
+<seg xml:id="AC7_10894.3">És végül, ami a legsúlyosabb, Lentner Csabától, az egyik alapítvány kurátorától tudhatjuk azt, hogy az alapítványoknak valójában nem más a céljuk, mint a Fidesz hatalmon tartása, valamint Matolcsy György meglehetősen furcsa, kicsit ficamodott közgazdasági elméletének erőszakos elterjesztése és a régi elméletek kiszorítása. Ha jól tudom, legfőbbügyész-helyettes úr, ez sem tartozik a Magyar Nemzeti Bank által ellátható feladatkörökbe.</seg>
+<seg xml:id="AC7_10894.4">Ha közpénzt törvénysértően használnak fel, és abból vagyoni hátrány vagy kár keletkezik, akkor, ugye, bűncselekmény valósul meg. Hogy erről ki döntött és ki tudott, az is egyértelmű: Matolcsy György mint jegybankelnök, illetve mint alapítványi elnök. Ezért azt kérdezem legfőbbügyész-helyettes úrtól, miért nem nyomoznak már ebben az ügyben. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-30-urgent_question-AC7_10895" who="#LajosRig" ana="#regular"><note>RIG LAJOS (Jobbik):</note>
+<seg xml:id="AC7_10895.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Képviselőtársaim! Szóbeli kérdésben is… - a krónikus ágyak kiszervezése és az egészségügyi rendszerből való úgynevezett átrepítése a szociális rendszerbe, ez egy óriási aggodalmat váltott ki mind az egészségügyi dolgozókban, mind a betegekben s mindazokban az emberekben, akik majd a későbbiekben ezt igénybe fogják venni. Nagyon sok az olyan megválaszolatlan kérdés, amire szóbeli választ, sem írásbeli választ nem kaptam, hogy melyek azok a lépések, amelyeket a kormány az elmúlt időszakban megtervezett. Így például a finanszírozási rendszer, illetve amit már államtitkár úrnak is mondtam, ami a legnagyobb gondot okozza, ha területi ellátási kapacitást kap ez az új szociális ellátórendszer, akkor valószínűleg egyéb településekről, falvakból felvehetnek idős, ápolásra szoruló betegeket, és azok a betegek, akik jelenleg az aktív ágyon fekszenek és már kikerülnek ebből a rendszerből, valószínűleg helyhiány miatt nem fognak bejutni az új szakápolási otthonokba. Kérdésem a következő: ezen elgondolkodott-e a kormány?</seg>
+<seg xml:id="AC7_10895.2">A másik, ami nagy aggodalomra ad okot: a krónikus ágyakon nagy részben olyan betegek fekszenek valóban, akik csak ápolásra szorulnak, viszont van olyan komplex ellátási rendszer és komplex ellátási rendszert igénylő betegség, ami lehetetlenné teszi azt, hogy jelen pillanatban krónikus ágyról egy szakápolási otthonba tegyük át ezeket a betegeket, hiszen nekik még 24 órás orvosi felügyeletre van szükségük. Tehát ha visszafordítom a kérdést, ez az új ellátási rendszer nem oldja meg az ő problémáikat, egyetlenegy megoldás marad: az aktív ágyakat fogják ugyanúgy terhelni ezek a betegek.</seg>
+<seg xml:id="AC7_10895.3">Kérdezem én államtitkár urat, hogy ezekkel a betegekkel mi lesz, akik komplex ellátást igényelnek, egyrészt ápolást, illetve szakorvosi felügyeletet</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-30-urgent_question-AC7_10897" who="#AnitaHeringes" ana="#regular"><note>HERINGES ANITA (MSZP):</note>
+<seg xml:id="AC7_10897.1">Tisztelt Államtitkár Úr! Múlt héten tartotta az MVM évértékelőjét, melyen Csiba Péter elmondta, hogy kiemelkedően eredményes évet zártak, és ehhez a cégcsoportsikerhez a Paksi Atomerőmű működése nagyban hozzájárult. Szóval, szerénytelenség nélkül kijelenthetjük, hogy a Paksi Atomerőmű dolgozói és a paksi lakosság támogatása nélkül nem itt tartana ma az MVM. De az éremnek mindig két oldala van, nemcsak a pontos, precíz munkát kell elvárni a helyiektől, de visszaélni sem lehet és nem is illik, a paksiak mindig csendben, a legjobb tudásuk szerint teljesítenek. Nem is tudnának máshogy.</seg>
+<seg xml:id="AC7_10897.2">Éppen ezért most ismét itt állok, és arra szeretném felhívni a figyelmét, hogy önök a mai napig sem oldották meg a Paksi Atomerőmű támogatáspolitikájának problémáit. Évtizedekig ezzel nem volt gond, csak mióta 2014-ben újra kormányra kerültek. A mai napig nem kaptunk hosszú távra megnyugtató választ arra, hogy hogyan kívánják megoldani a paksi sporttámogatásra, alapítványi támogatásokra, térségfejlesztési támogatásokra és tájékoztatásra szánt pénzt.</seg>
+<seg xml:id="AC7_10897.3">Csak egy példa: többszöri felszólalásom, egyeztetés, kérdés után múlt héten bejelentették, hogy az ASE mentőövet kap: Seszták miniszter úr engedélyezi az eddigi elmaradások kifizetését. Az a baj, hogy ettől nem nyugodtak meg maradéktalanul a kedélyek otthon, hiszen sok kárt okozott a késlekedés a sportegyesületeknek, nem tudtak időben elkezdeni szerződni a következő évadra.</seg>
+<seg xml:id="AC7_10897.4">Az a pletyka járja most a városban, hogy június 30-a után várhat végleges megoldást város és a környező települések, a sajtóorgánumok. Éppen ezért kérdezem: június 30-a után mire számíthatunk? Lesz hosszú távú megoldás? Paks és környéke megérdemli, hogy ne váljanak a politikai focimeccsük labdájává, amit ide-oda rugdosnak. Ugye, nem történhet meg, hogy a politikai játszmák eszköze lesz Paks, és majd ha eldől, hogy kihez tartozik véglegesen, a Miniszterelnökséghez vagy önökhöz, majd akkor kegyet gyakorolnak és a támogatási rendszert rendbe hozzák? A paksiak elvárják, hogy ugyanolyan tisztelettel álljanak feléjük, mint ahogy ők is állnak a munkájuk felé</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-30-urgent_question-AC7_10898" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_10898.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Lázár miniszter úr a múlt héten jelentette be, hogy jövőre 787 milliárd forintot fordítanak a közszféra dolgozóinak béremelésére, ez pedig mintegy egymillió embert érint. A miniszter úr szerint a közszférában régóta elmaradt béremelést pótolni kell, eldöntött béremelésekről beszélt a miniszter úr, ezért feltehetőleg egy már megszületett kormánydöntésről van szó.</seg>
+<seg xml:id="AC7_10898.2">(14.20)</seg>
+<seg xml:id="AC7_10898.3">A bejelentés és különösen annak volumene elképesztő nagyságú, ekkora béremelésre a kormány által benyújtott 2017. évi költségvetés jelenleg ismert számai, de a gazdaság gyengülő teljesítménye alapján sincs lehetőség. Maga a miniszter úr mondta a korábbi évértékelő beszédében, hogy „csak olyan béremelést támogatok, amely mögött a magyar gazdaság növekvő teljesítménye áll”. A magyar gazdaság növekvő teljesítményéről annyit, hogy a GDP első negyedéves 0,9 százalékos növekedésénél csak a görög volt kedvezőtlenebb az Unióban. Ezért a várható gazdasági növekedés 2016-ban szinte biztosan a várt 2,5 százalék alatt marad. A gazdaságkutatók jelenleg 2 százalékos vagy annál kisebb növekedést prognosztizálnak.</seg>
+<seg xml:id="AC7_10898.4">Az LMP régóta képviseli, hogy a magyar gazdaság addig nem tud kilábalni a válságból, amíg a kormány a magyar munkaerő alacsony árára alapozza az ország versenyképességét. Valóban jelentős béremelésre van szükség, de ehhez meg kell teremteni a feltételeket. Az LMP a pánikszerű, átgondolatlan bejelentések helyett a felelős béremelést támogatja, a minimálbér létminimum szintjére emelését többkulcsos adóval, és a közszféra átfogó bérrendezését. A 2017. évi költségvetési módosító javaslatunkban az ágazati béremelésre szánt pénzek megduplázását javasoltuk első lépésben.</seg>
+<seg xml:id="AC7_10898.5">Tisztelt Államtitkár Úr! A Lázár miniszter úr által bejelentett 787 milliárdos emelésnek hol vannak a konkrét forrásai a költségvetésben? És azt kérdezem még, ez vajon azt is jelenti-e, hogy az eddigi gazdaságpolitika kudarcát elismerik</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-30-urgent_question-AC7_10899" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_10899.1">Köszönöm szépen a szót, elnök úr. Tisztelt Államtitkár Úr! Tisztelt Ház! A nazokomiális fertőzésekről szeretném kérdezni önt. Ezek a kórházon belüli fertőzések, azt jelenti, hogy aki bekerült a kórházba, még mentes volt tőle, és ott kapta el.</seg>
+<seg xml:id="AC7_10899.2">Tudott ez, hogy Magyarországon sajnos ebben a számban rosszul állunk, tehát magas a kórházon belüli fertőzések aránya, és sok esetben bizony emberek halálához is vezetnek ezek a fertőzések. Ennek oka többek között az is, hogy a fertőtlenítőszerek, amit használnak a kórházban, lényegesen kisebb mennyiségben állnak rendelkezésre, mint másutt. Összehasonlításképpen, nyugat-európai számot nézve: egyharmadát használjuk azoknak a fertőtlenítőszereknek mennyiségben, amit ott használnak.</seg>
+<seg xml:id="AC7_10899.3">Az elmúlt néhány hétben a szomszédos Romániában komoly botrányok voltak ennek kapcsán, és ebből is látszik az, hogy egy rendszerszintű hibára sok esetben csak évekkel később derül fény. És ilyen rendszerszintű hiba az, amikor egy kórházba már eleve úgy jut el a fertőtlenítőszer, hogy nem a megfelelő arányban, nem felel meg a szabályoknak, a sztenderdeknek, hígabb annál, mint ami szabályos lenne. Ez még mind nem garancia arra természetesen, hogy amikor a kórházba kerül, akkor hányszor fogják azt még hígítani, és hogy használják-e megfelelőképpen.</seg>
+<seg xml:id="AC7_10899.4">Mivel a nazokomiális fertőzések számát minden forrásból titkolják az elmúlt években, csak általános adatokhoz lehet hozzáférni, mit tesznek annak érdekében, hogy megelőzzék ezt? Nem konkrétan, bár a kérdésem arra vonatkozott, hogy a lakosság megnyugtatásáért mit tesznek, nem az a kérdésem, hogy mit írnak ki a televíziókban vagy az óriásplakátokon, hanem mit tesznek annak érdekében, hogy visszaszorítsák ezeket a fertőzéseket. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-30-urgent_question-AC7_10900" who="#GáborVarga" ana="#regular"><note>VARGA GÁBOR (Fidesz):</note>
+<seg xml:id="AC7_10900.1">Köszönöm a szót, elnök úr. Tisztelt Miniszter Úr! Éppen a múlt héten volt a tisztelt Ház előtt annak a törvényjavaslatnak az általános vitája, amely rendezni kívánja a nagy múltú Mezőhegyesi Ménesbirtok helyzetét. Az 1785-ben alapított ménesbirtok nemcsak hazánk, hanem Európa legrégebbi állami birtoka volt, amely 220 éven át a nemzeti vagyon elválaszthatatlan részeként létezett. A Medgyessy-Gyurcsány-kormány privatizáló ámokfutása azonban Mezőhegyest sem kímélte, ezt is magánkézre játszották, és az állami vagyont elherdálták.</seg>
+<seg xml:id="AC7_10900.2">Tudjuk, hogy nem egyedi eset ez, hiszen 2002 és 2010 között a maffia módjára működő privatizációkkal tönkretették, leépítették vagy külföldi kézre juttattak több stratégiai fontosságú állami vagyont és hazai tulajdont az agráriumban, a feldolgozóiparban és az energetikai szektorban.</seg>
+<seg xml:id="AC7_10900.3">Tisztelt Miniszter Úr! A jelenlegi kormány célja, hogy hazánk a hagyományait őrző, természeti szépségekben igen gazdag ménesbirtokot állami szerepvállalással, a hagyományokhoz igazodó fejlesztésekkel a térség kiemelkedő mintagazdaságává és mezőgazdasági képzési, turisztikai szereplőjévé tegye. A terület jelentős agrár-kultúrtörténeti helyszín, amely a természetbeli adottságokon kívül épületeivel, berendezésével, a gazdaságban fellelhető hagyományos eszközeivel megőrzendő érték az utókor számára. A mintagazdaságban megvalósuló fejlesztések szolgálnák a honos lófajták fenntartásával történő lótenyésztést, a honos és más haszonállatok tenyésztését, emellett növénytermesztéssel, gépesítéssel, öntözési technológiákkal, erdő- és vadgazdálkodással foglalkoznak majd. A mintagazdaság a mezőgazdasági kutatások, a szakképzés, a felnőttképzés és az egyetemi képzések egyik legszínvonalasabb helyszíne lehet.</seg>
+<seg xml:id="AC7_10900.4">Tisztelt Miniszter Úr! Az elhangzottakkal kapcsolatban kérdezem: lóvá tesznek minket a szocialisták? Vajon miben mesterkednek megint? Most milyen érdekeket szolgálnak? Miért tiltakoznak kézzel-lábbal a Mezőhegyesi Ménesbirtok fejlesztése ellen? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-05-30-urgent_question-AC7_10901" who="#ImreVejkey" ana="#regular"><note>DR. VEJKEY IMRE (KDNP):</note>
+<seg xml:id="AC7_10901.1">Tisztelt Elnök Úr! Köszönöm a szót. Tisztelt Államtitkár Úr! Mi, kereszténydemokraták, hisszük és valljuk, hogy társadalmunk egyik legfontosabb értéke, jövőnk záloga nem más, mint a gyermek. Ezért álláspontunk szerint minden eszközzel arra kell törekednünk, hogy biztosítsuk számukra az egészséges életmódhoz való feltételeket, hogy egészséges nemzedékek nőjenek fel, egészséges fizikummal és szellemiséggel.</seg>
+<seg xml:id="AC7_10901.2">Amikor 2010-ben átvettük a kormányzást, megismertük a népegészségügyi helyzetre vonatkozó adatokat, szembesülnünk kellett azzal a ténnyel, hogy sereghajtók vagyunk a sportolási szokásokat illetően az Európai Unióban. Magyarországon a népesség mindössze 5 százaléka sportolt rendszeresen. A tanköteles korú fiataloknak mintegy 75 százaléka pedig kizárólag a testnevelési órák keretében végzett bármilyen sportjellegű testmozgást, amely önmagában az akkori óraszámban nem volt alkalmas a korosztály egészséges mozgásigényének biztosítására.</seg>
+<seg xml:id="AC7_10901.3">Ezért is döntöttünk úgy, hogy felmenő rendszerben bevezetjük a mindennapos testnevelést. A nemzeti köznevelési infrastruktúra-fejlesztési program keretében megvalósítandó egyes tanterem-, tornaterem- és tanuszoda-beruházások teljes egészében központi költségvetési forrásból valósultak meg, amellyel gyermekeinket az egészséges életmód és az aktív sportolás útjára próbáltuk irányítani.</seg>
+<seg xml:id="AC7_10901.4">Tisztelt Államtitkár Úr! Mindezek alapján kérdezem önt, a nemzeti köznevelési infrastruktúra-fejlesztési program első ütemében milyen fejlesztések várhatóak milyen megvalósulási határidővel. Várható-e, hogy a fejlesztési program első ütemét további fejlesztések is követik majd? Várom államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

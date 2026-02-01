@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2016-03-21" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2016-03-21 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2016-03-21 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="3065" unit="words">3065 szó</measure>
+        <measure xml:lang="en" quantity="3065" unit="words">3065 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2016-03-21">2016. 03. 21.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="38"/>
+          <tagUsage gi="kinesic" occurs="9"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2016-03-21">2016-03-21</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2016-03-21-urgent_question-AC7_9554" who="#ElődNovák" ana="#regular"><note>NOVÁK ELŐD (Jobbik):</note>
+<seg xml:id="AC7_9554.1">Tisztelt Miniszterelnök Úr! Ha legalább álruhában néha kimerészkedne a választók közé, és közvetlenül beszélgetésbe merne elegyedni velü</seg>
+<seg xml:id="AC7_9554.2">(Moraj a kormánypártok padsoraiból.)</seg>
+<seg xml:id="AC7_9554.3">, akkor megtudhatná, hogy a közvélekedés szerint Orbán Viktor nem a kétkezi dolgozók, hanem a kétkarú rabló, Andrew G. Vajna barátja, ugyanis neki nyújtanak az állami tulajdonú és kormányzati irányítású bankok több milliárd forintnyi hitelt, miután a kaszinómutyiból származó milliárdjaival nem elégszik meg.</seg>
+<seg xml:id="AC7_9554.4">A TV2 megvásárlásához ráadásul az elvileg a külkereskedelmi tevékenység ösztönzésére létrehozott Eximbank nyújtott 6,7 milliárd forintos hitelt Vajna 2012-ben alapított, azóta nulla forint árbevételre szert tevő cégének, miközben az emberek elhagyják az országot, mert például tőkehiány miatt nem tudják ötleteiket megvalósítani. Finoman szólva, nem életszerű Lázár Jánosnak az a magyarázata, miszerint olyan feltételekkel kapott hitelt Vajna, mint bármilyen más földi halandó. Hiszen az ön oligarchája azért nem a piaci alapon működő kereskedelmi bankokhoz fordult, mert a kiváló állami kapcsolatait kihasználva nyilván kedvező kamatozású hiteleket tudott szerezni.</seg>
+<seg xml:id="AC7_9554.5">Ezért közérdekűadat-igényléssel fordultam a kormányfő közeli oligarchák kifizetőhelyévé vált Eximbankhoz, hogy hozzák nyilvánosságra a hitelszerződés részleteit, különös tekintettel a kamatlábakra, azonban banktitokra hivatkozva a vezérigazgató úr elutasította ezt a közérdekűadat-igénylést. Különösen felháborító, hogy ennek a hitelnek semmi köze a bank eredeti feladatköréhez, ennek ellenére nem láthatunk tisztán. Sőt, a szintén állami tulajdonú és kormányzati irányítású MKB is kölcsönt biztosított a kereskedelmi csatorna megvásárlásához, de ennek részleteinél is banktitokra hivatkozott az állami tulajdonú bank. Ezért szeretnénk a nyilvánossághoz az ön segítségét kérni. És tudjuk jól, hogy a kizárólagos kaszinóztatásból Andrew G. Vajnának, vagy mivel ott a haza, ahol a haszon, ma már a hírek szerint Vajna András Györgynek hívják, nos, neki 2014-ben 3 milliárd forint nyeresége származott, 2015-ben még több, ám a jelek szerint ezzel sem elégszik meg.</seg>
+<seg xml:id="AC7_9554.6">Ezek után láthatunk-e tisztán, miniszterelnök úr, milyen kedvezményes kamatozású hiteleket kapnak az ön oligarchái</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-03-21-urgent_question-AC7_9718" who="#LászlóSzászfalvi" ana="#regular"><note>SZÁSZFALVI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC7_9718.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Napjainkban a modern kori népvándorlás köti le szinte minden figyelmünket, de eközben sem szabad megfeledkeznünk a Kárpátalján élő mintegy 150 ezres magyarságról, és ezért is fordulok önhöz kérdésemmel.</seg>
+<seg xml:id="AC7_9718.2">Mi, kereszténydemokraták a határon túli magyarságért érzett felelősségünk mellett a szórványmagyarság gazdasági-társadalmi és lelki egységéért is minden tőlünk telhetőt meg kell hogy tegyünk, így nagy örömmel értesültünk, hogy napjainkban megtartotta első kihelyezett ülését Kárpátalján a Karitatív Tanács. Fontos ez azért, mert a kárpátaljai magyarság az anyaország hathatós támogatásának is köszönhetően tudta átvészelni eddig azt a háborút, amely emberéleteket és rendkívüli nélkülözést követel ebben az egyébként sem túl gazdag régióban.</seg>
+<seg xml:id="AC7_9718.3">Tisztelt Államtitkár Úr! Amellett, hogy Ukrajnában párját ritkítja az a támogatás, amelyet az Európai Unió keleti partnerség programja keretében a Külügyminisztérium nyújt a magyar oktatás és művelődés területén, a kormány idén jelentős mértékben megnöveli a kárpátaljai történelmi egyházaknak nyújtott, a helyi magyarság megmaradását, hitéletét és közösségként való megerősítését szolgáló támogatások összegét. Kárpátalján különösen fontos az egyházi karitatív és civil szervezetek munkája, hiszen így a segítség közvetlenül is eljut a nélkülöző családokhoz.</seg>
+<seg xml:id="AC7_9718.4">Tisztelt Államtitkár Úr! Látva és tapasztalva azt a hatalmas munkát, amelyet a történelmi egyházak Kárpátalján kifejtenek, tisztelettel kérdezem államtitkár urat, hogy milyen konkrét intézkedésekre számíthatunk, és mekkora anyagi támogatást kapnak a nehéz sorsú kárpátaljai családok. Milyen esetleges további tervei vannak a kormánynak, esetleg hogyan tudnánk közösen összefogva további segítséget nyújtani számukra? Tisztelettel várom az államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-03-21-urgent_question-AC7_9721" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_9721.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Elfogadom az ön személyét, bár jobban szerettem volna az eredetileg megcímzett politikussal beszélni, ugyanis egy olyan jelenségről van szó, ami már nem tűrhet halasztást, hogy megállítsuk; egy olyan jelenségről van szó, ami a kisemberek bőrére megy; egy olyan jelenségről van szó, ami az egyik leggusztustalanabb, amit a Fidesz-kormányzás ideje alatt Magyarországnak meg kellett tapasztalni.</seg>
+<seg xml:id="AC7_9721.2">Arról van szó, hogy ebben az országban a közmunkaprogram nagyrészt arról szól - és egyre inkább arról szól -, hogy embereket kirugdostak a rendes állásukból, és közmunkásként vagy őket, vagy másokat visszafoglalkoztatnak. Ezt önök egyébként feketén fehéren be is ismerték, van egy jelentés a kezemben arról, hogy találtak ilyen embereket szép számmal, akikkel ez megtörtént; ezt önök adták ki a kezük közül. Csakhogy márciusban az Országos Közszolgálati Érdekegyeztető Tanács tartott egy ülést, részletes adatokat kért ki a kormányzattól, amiket azonban nem kapott meg. Az ülésen is elhangzott, hogy a közmunka a valóságban visszafelé működik, nem arról van szó, hogy visszavezeti az embereket a munkaerőpiacra, hanem arról van szó, hogy gyakorlatilag közszolgálati állásokat váltanak ki ezzel. Esküköteles vagy szakképzettséget igénylő munkakörben dolgozókat cserélnek le olyan emberekre, akik olcsóbban végzik ezt a munkát, kényszerből, mert más lehetőségük nincsen, de nincsen hozzá szakképzettségük.</seg>
+<seg xml:id="AC7_9721.3">Az a legborzasztóbb, hogy ezt a teljesen jogellenes gyakorlatot a magyar kormányzat teljesen nyíltan támogatja. Évről évre nő a közmunkások aránya a közszféra dolgozói között, tavaly ez 20 százalékot ért el, vagyis mondjuk ki, úgy működik a rendszer, hogy minden ötödik állami foglalkoztatott közmunkás. A szakszervezetek szerint pedig 45 ezer olyan közmunkás lehet, aki korábban közszolgálati jogviszonnyal rendelkezett. Próbáltam utánajárni a BM-ben - akik ezt az egész programot elvileg működtetik -, hogy adjanak számot erről a jelenségről, szomorúan mondom, hogy egy darab információ nincsen erről, gyakorlatilag a közmunkaprogramok ellenőrzését ellátó tárca erre vonatkozó adatokat nem szerepeltet a jelentésében.</seg>
+<seg xml:id="AC7_9721.4">Tisztelettel kérdezem, hogy önöknek mi a stratégiája. A kormányzatnak mi a stratégiája a helyzet rendezésére?</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2016-03-21-urgent_question-AC7_9722" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_9722.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Alig néhány héttel ezelőtt a miniszterelnök évértékelőjében úgy fogalmazott, hogy a kormány rendbe tette az egészségügyet. Nehéz eldönteni, hogy mi az aggasztóbb: ha a kormányfő valóban így gondolja, vagy az, ha szándékosan ennyire elferdíti a tényeket. A tények ugyanis egészen mást mutatnak.</seg>
+<seg xml:id="AC7_9722.2">A kórházakban se rendes fertőtlenítés, se gyógyszer, se elég orvos nincs, és főképp nincs elég nővér, mentő és asszisztens sincs. Az ígéreteket persze már mindannyian jól ismerjük, de a valóságban sajnos továbbra sem történik semmi, ahogy az elmúlt öt év alatt sem igazán történt ezen a területen. Az új szuperkórházról is inkább csak beszélnek, és milliárdokat költenek az előkészítésére, de ennél tovább nem jutottak, miközben számos kórházban még most is olyan érzése lehet az embernek, mintha néhány évtizedet visszament volna az időben, ahova ugyanis nem jutott uniós forrás, ott a kormány nem költött semmit a fejlesztésekre.</seg>
+<seg xml:id="AC7_9722.3">Erre a helyzetre nem egy szuperkórház a megoldás, hanem az lenne, ha az összes kórházban felszámolnák az áldatlan állapotokat, és garantálttá válna, hogy el tudják látni a betegeket, ha már egyszer odairányították őket, jelenleg ugyanis ez sincs biztosítva. Ugyanúgy nincs biztosítva, hogy ha egy mentő már kiérkezik a beteghez, akkor az a beteg még időben ellátást kapjon. Budapesten az esetek közel felében a mentőknek vesztegelniük kell, mire a kórházak át tudják tőlük venni a beteget, és ez már nemcsak a munkaerőhiányról, az alulfinanszírozottságról szól, hanem a szervezésben is komoly hibák vannak.</seg>
+<seg xml:id="AC7_9722.4">Ezért tudni szeretném, hogyan kívánnak tenni azért, hogy csökkenjen a vesztegléssel töltött idő, ami évente csak Budapesten 1 696 210 perc. Mit fognak tenni, hogy ne kelljen fél napokat váróban tölteni egy műtét után, mire hazaviszik a beteget? Mit fognak tenni a betegszállítók, hogy minden beteget be tudjanak vinni a kórházb</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_9722.5">, ne csak azokat, akikre éppen jutott idejük? Mit tesznek azért, hogy ha utcán lesz rosszul valaki, az bejusson a kórházba? Várom a válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2016-03-21-urgent_question-AC7_9723" who="#GáborVona" ana="#regular"><note>VONA GÁBOR (Jobbik):</note>
+<seg xml:id="AC7_9723.1">Tisztelt Elnök Úr! Tisztelt Miniszterelnök Úr! Az elmúlt időszakban két alkalommal is tettem önnek egy lovagias ajánlatot két vizsgálóbizottság felállítására. Az egyik vizsgálóbizottság megvizsgálta volna az önök által gyanított orosz támogatást a Jobbik esetében, a másik vizsgálóbizottság pedig az ön személyes környezetének a meggazdagodását vizsgálta volna ki. Ön ahelyett, hogy akármelyik esetben érdemi választ adott volna erre a felvetésre, mindkétszer indulatosan, vádaskodva, vagdalkozva reagált. Először azt mondta, hogy mi a bűnözők pártja vagyunk, a Jobbik bűnözőkkel van tel</seg>
+<kinesic type="noise"><desc>Közbeszólás a Fidesz soraiból: Úgy van!</desc></kinesic>
+<seg xml:id="AC7_9723.2">, másodsorban pedig azt mondta - akkor már személyeskedésig jutott miniszterelnök úr -, hogy engem csak a pénz érdekel, és hogy az én libidómat csak a pénz mozgatja meg.</seg>
+<seg xml:id="AC7_9723.3">Miniszterelnök úr - ezt mondta -, két dolgot tennék hozzá. Ezek az érzelmi kirohanások önt általában nem szokták jellemezni. Az, hogy mégis ilyen vagdalkozásba kezdett, szerintem azt bizonyítja, hogy kényes, kényelmetlen, fájdalmas pontra tapintottam rá, amikor az ön környezetével kapcsolatban tettem fel kérdést.</seg>
+<seg xml:id="AC7_9723.4">A másik, miniszterelnök úr, amit szintén szeretnék hozzátenni, hogy amit ön állít velem, a pártommal kapcsolatban, az valójában önre és az ön pártjára igaz. A Fidesz van tele bűnözőkkel, a Fidesz a bűnözők pártja, és miniszterelnök úr, ön az, akinek a libidóját a pénz mozgatja. Nézzen magába, miniszterelnök úr, itt valójában nem történik más, mint a válaszaiban folyamatosan a saját démonait vetíti ki ránk.</seg>
+<seg xml:id="AC7_9723.5">Én ezért újra azt kérem öntől nagy tisztelettel, miniszterelnök úr, hogy legyen önben bátorság, ezt a két vizsgálóbizottságot állítsuk fel. Ha önnek esetleg vannak egyéb megválaszolatlan kérdései, amikben viszont szokott kérdezni engem, akkor azokra is állítsunk fel vizsgálóbizottságot, vizsgáljuk meg a Jobbik bűnözőit esetleg, ha ön ilyeneket lát, vizsgáljuk meg az én személyes vagyoni helyzetemet is, miniszterelnök úr, ha erre ön kíváncsi. Egyébként a családom és az én vagyoni helyzetem nyilvános, ezt szeretném önnek elmondani, de vizsgáljuk meg, ha ön erre kíváncsi. De arra kérem, miniszterelnök úr, hogy legyen önben bátorság arra is, hogy a személyes környezetének a meggazdagodásával kapcsolatban is ez a vizsgálóbizottság végre felállhasson. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-03-21-urgent_question-AC7_9726" who="#TamásHarangozó" ana="#regular"><note>DR. HARANGOZÓ TAMÁS (MSZP):</note>
+<seg xml:id="AC7_9726.1">Köszönöm a szót, elnök úr. Miniszter úr, ön a kormányhivatalokat irányító kormánytagként felelős az önkormányzatok törvényességi ellenőrzéséért. A fideszes önkormányzatok botrányait látva bőven akadna dolga miniszter úrnak, de rendszerint mégsem történik semmi. Az egyik legkirívóbb példa a kecskeméti önkormányzat, amelynek cégéből, a kecskeméti KSE Kft.-ből 450 millió forintot lapátoltak ki fiktív számlákat felhasználva. Az azóta felszámolás alatt álló cég, rengeteg kecskeméti vállalkozást megkárosítva, további 335 millió forint adósságot hagyott maga után. Az okozott kár így megközelíti a 800 millió forintot.</seg>
+<seg xml:id="AC7_9726.2">A hatóságoknak négy év kellett ahhoz - némi parlamenti noszogatással -, hogy befejezzék az egyébként nem túl bonyolult ügy nyomozását, és megtörténjen a vádemelés.</seg>
+<seg xml:id="AC7_9726.3">(13.30)</seg>
+<seg xml:id="AC7_9726.4">De legyünk megértőek, a hatóságoknak nehéz és időigényes feladat volt úgy alakítani az eljárást, hogy végül a fideszes önkormányzati vezetők érintetlenek maradjanak ebben az eljárásban.</seg>
+<seg xml:id="AC7_9726.5">Lázár úr, ugye ön sem gondolja azt, hogy az akkori alpolgármesternek, Szemereyné Pataki Klaudiának semmi felelőssége nincsen az általa felügyelt cég botrányáért? Mit gondol arról az önkormányzati vezetőről, akinek a felügyelete alatt működő cégből 450 millió forintot egyszerűen ki lehet lopni? Ugye, miniszter úr sem gondolja, hogy el lehet menni szó nélkül amellett, hogy Zombor Gábor, aki akkor polgármester volt, 2011-ben 54 millió forint önkormányzati támogatásban részesítette ezt a kft.-t, majd az önkormányzat elszámolás gyanánt szó nélkül elfogadta a céltól eltérő felhasználásról szóló fiktív számlákat? A legarcpirítóbb azonban, hogy Fejér Zoltán, a KSE Kft. korábbi ügyvezetője, akivel szemben már a vádemelés is megtörtént, a kecskeméti önkormányzat egyik iskolájának továbbra is vezető beosztott munkatársa és dolgozója.</seg>
+<seg xml:id="AC7_9726.6">Miniszter úr, mi folyik a Fidesz vezette önkormányzatoknál? Felelős miniszterként, a Fidesz felelős vezető politikusaként nem érzi-e úgy, hogy valamit tenni kéne ezekben az ügyekben? Köszönöm szépen, hogy meghallgattak</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-03-21-urgent_question-AC7_9727" who="#IstvánTukacs" ana="#regular"><note>TUKACS ISTVÁN (MSZP):</note>
+<seg xml:id="AC7_9727.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! Mint államtitkár úr bizonyára emlékszik rá, és persze, hogy emlékszik, nemrégiben arról kérdeztem, hogy ki adott arra parancsot, hogy szolgálatban lévő rendőr arról érdeklődjön, hogy a pedagógusok akarnak-e menni tüntetni. Történt mindez szűkebb pátriámban, Szabolcs-Szatmár-Bereg megyében. Akkor az államtitkár úr válasza az volt, hogy senki nem adott ilyen parancsot. Ugyanakkor az időközben írásban is beérkezett válasza azt tartalmazta, hogy mert az ügyben a nyilvánosságban is voltak hírek, ezért vizsgálatot rendel el a megyei rendőr-főkapitányságon.</seg>
+<seg xml:id="AC7_9727.2">Tisztelt Államtitkár Úr! Azt én jelzem, hogy nemcsak a hírek voltak a nyilvánosságban, hanem a szereplők megerősítették azt, amit beszélek, és ezt bizony az egyik tantestületi értekezlet jegyzőkönyve is tartalmazza. Ezért tehát úgy gondolom, hogy az eltelt idő alkalmat ad arra, államtitkár úr, hogy rákérdezzek: lezajlott-e a vizsgálat, és mit állapított meg? Mi az eredménye annak a vizsgálatnak, amely sajnos nem azt sejtette, mint amiről ön az imént beszélt a rendőrség dolgában? Merthogy a bűnüldözés a feladata - és persze az is, hogy ne korlátozza senkinek a jogait; mindenki élhessen a gyülekezés, a szólás szabadságának alapvető jogával, akár pedagógusok, akár mások. Ezek a megyénkben történő esetek, amelyeket időközben újfent megerősítettek a szereplők, nem hordoznak jó üzenetet. Már csak azért sem, mert úgy gondolom, hogy minél kisebb a hely, annál jobban ismerik egymást az emberek, ezért mindenki tudja mindenkiről, hogy mit tesz, mikor akar élni a jogaival, és hogy miért. Államtitkár úr, tehát kérdezném: mi lett a vizsgálatnak az eredménye? Köszönöm a lehetőséget, köszönöm a szót, elnök úr</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-03-21-urgent_question-AC7_9730" who="#KristófSzatmáry" ana="#regular"><note>SZATMÁRY KRISTÓF (Fidesz):</note>
+<seg xml:id="AC7_9730.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! A Magyar Szocialista Párt nemrégiben egy úgynevezett korrupciós vagy átláthatósági munkacsoport létrehozását jelentette be. Mi erre leginkább azt a magyarázatot látjuk evidensnek, hogy saját korrupciós ügyei miatt kíván önvizsgálatot tartani, és itt elsősorban nem azokra a sajtó előtti nagy nyilvánosságot kapott ügyekre gondolok, amelyek Simon Gábor vagy a fővárosi MSZP-alelnök ellen megtett szükséges intézkedésekről szólnak, ahol is, ugye, hűtlen kezelésben találták a bíróság előtt bűnösnek, vagy Juhász Ferenc ügyére vagy államtitkárának ügyére, vagy nem is arra, hogy az MSZP egyik aktív parlamenti képviselőjével szemben vesztegetés miatt folyik bírósági eljárás. Viszont van egy konkrét ügy, amit ide szeretnék hozni. Ennek a konkrét ügynek a központjában az MSZP egyik ambiciózus politikusa, Czeglédy Csaba áll, aki 1997-2000 között a Rébusz Iskolaszövetkezet igazgatóságának elnöke volt, de gazdasági bűncselekmények elkövetése miatt egy év négy hónap felfüggesztett szabadságvesztést kapott jogerősen. Ennek ellenére - nem meglepő módon - a szombathelyi MSZP-DK-Együtt közös frakcióvezetője lehet a mai napig, de sajnos a múlt kísért, hiszen friss sajtóhírek szerint az ügyészség vádat emelt a jelenleg kényszertörlés alatt álló Kopernikusz Iskolaszövetkezet vezetői ellen. Ennek két egykori vezetőjét a Csongrád Megyei Ügyészség 2015. június végén kelt vádiratában 550 millió forint költségvetési károkozással vádolja. Az ügy szálai - nem meglepő módon - Szombathelyre és Czeglédy Csabához vezetnek. Szombathelyi ugyanis az a Humán Operátor Zrt., amely a Kopernikusz Iskolaszövetkezetnek is diákmunkát adott egyébként az elmúlt időszakban, és érdekes módon a Kopernikusz Iskolaszövetkezet bodajki székhelyére egyébként még féltucatnyi iskolaszövetkezet került bejegyzésre. A kérdés az, hogy a Humán Operátor Zrt. igazgatótanácsának elnöke és képviseletére jogosult tagja, Czeglédy Csaba milyen szerepet játszik ebben az ügyben. Köszönöm szépen. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2016-03-21-urgent_question-AC7_9731" who="#SándorFont" ana="#regular"><note>FONT SÁNDOR (Fidesz):</note>
+<seg xml:id="AC7_9731.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! A múlt heti EU-csúcson minden tagállam számára egyértelművé vált, hogy csak a Törökországgal való együttműködés esetén van esély a menekültválság megoldására. Úgy tűnik, elérhetővé válik az illegális bevándorlás megfékezése és a schengeni szabályok betartása. Azokat a józan javaslatokat, amelyeket a magyar kormány már hónapok óta hangsúlyoz, úgy látszik, végre mindenki megértette.</seg>
+<seg xml:id="AC7_9731.2">Vagyis majdnem mindenki. A Törökországgal történő megállapodás következményeit ma még nem látjuk pontosan, de a magyar kormány szilárdan kitart amellett, hogy Magyarország állampolgárainak beleegyezése nélkül hazánk területére nem történhet betelepítés. Nem úgy az ellenzék. Mind országos, mind pedig helyi szinten folyamatos támadások érik a magyar emberek érdekeinek védelmében tett kormányzati intézkedéseket.</seg>
+<seg xml:id="AC7_9731.3">Választókörzetemben, Kalocsán mintegy 3500-an tiltakoztak aláírásukkal a kötelező betelepítési kvóta ellen. Ennek hatására az egyik helyi fideszes önkormányzati képviselő olyan határozati javaslatot terjesztett a képviselő-testület elé, amellyel a város kijelenti, hogy nem támogatják a kötelező betelepítési kvótát és annak minden negatív következményét, ami a várost érintheti.</seg>
+<seg xml:id="AC7_9731.4">Hogy mi volt a baloldali önkormányzati képviselők reakciója erre a józan és a lakosság kérését figyelembe vevő ajánlatra? Elutasítják, hogy a képviselő-testület pártpolitikai célú határozatokat hozzon. Szerencsére a független polgármester és a független képviselők többségével a határozati javaslat mégiscsak megszületett, de úgy látszik, a baloldalon nem értik, hogy a kormány valós veszélyek elleni valós lépéseket tesz, és ebben mindenki támogatására szüksége van.</seg>
+<seg xml:id="AC7_9731.5">Tisztelt Államtitkár Úr! Kérdezem ezért, milyen lépéseket tesz a kormány a magyar emberek biztonságának megőrzése érdekében. Milyen intézkedések szükségesek ahhoz, hogy az újraerősödő migránsáradatot megfékezzük? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

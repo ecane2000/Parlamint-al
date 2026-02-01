@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2017-10-24" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2017-10-24 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2017-10-24 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="2921" unit="words">2921 szó</measure>
+        <measure xml:lang="en" quantity="2921" unit="words">2921 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2017-10-24">2017. 10. 24.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="35"/>
+          <tagUsage gi="kinesic" occurs="8"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2017-10-24">2017-10-24</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2017-10-24-urgent_question-AC7_17958" who="#JózsefAttilaMóring" ana="#regular"><note>MÓRING JÓZSEF ATTILA (KDNP):</note>
+<seg xml:id="AC7_17958.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tisztelt Országgyűlés! A KDNP-frakció többször kérdezte már a kormányzatot a kerékpáros fejlesztésekkel kapcsolatban. A kormányzat válaszaiban egy 2020-ig terjedő országos bringaúthálózat elkészítését tűzte ki célul, és hogy ez nem csak egy üres ígéret, arra jó példa a legújabb bejelentés, amely szerint az egyik leginkább hiányzó szakasz, a Budapesttől Balatonig tartó bringaút 2019 nyarára elkészül. Persze nem lehetünk elégedettek, szükség van további kerékpárutak kiépítésére, illetve a meglévő hálózat fejlesztésére és felújítására is. Kiemelendő ezek közül a Budapest-Balaton kerékpárúthoz szorosan kapcsolódó Balaton-kör felújítása is, amellyel véleményem szerint egy olyan komplex útvonal jön létre, amely sok amatőr kerékpáros számára kiemelt útvonal lehet. Természetesen fontos az is, hogy az útvonal ne csak öncélú legyen, hanem a nemzetközi kerékpáros vérkeringésbe bekapcsolódhasson, így a KDNP-frakció bízik benne, hogy ez ehhez kapcsolódó fejlesztések is mihamarabb megtörténnek.</seg>
+<seg xml:id="AC7_17958.2">Tisztelt Államtitkár Úr! Két dologról azonban nem feledkezhetünk meg. Jó dolog a kerékpárút, azonban önmagában nem elég. Fontos, hogy az út mellett olyan kiegészítő infrastruktúra, például kerékpáros-pihenő, információs pont, esetleg szervizpont épüljön, ahogy ez már Budapesten több helyen bevált, amely a gyerekes családok számára is lehetővé teszi a hosszabb távú bringázást. A későbbi útfejlesztések érdekében pedig fontos a kerékpáros-forgalom mérése, illetve a kerékpárosok preferenciájának ismerete.</seg>
+<seg xml:id="AC7_17958.3">Éppen ezért kérdezem tisztelt államtitkár urat, mik a kerékpáros fejlesztési prioritások az elkövetkezendő években. Mekkora összeget tervez fordítni a kormány kerékpárút-hálózat fejlesztésére 2020-ig? Várom államtitkár úr megtisztelő válaszát. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-24-urgent_question-AC7_17960" who="#ImreVas" ana="#regular"><note>DR. VAS IMRE (Fidesz):</note>
+<seg xml:id="AC7_17960.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Hosszú ideje már annak, hogy az első migrációs hullám felütötte a fejét Magyarország déli határán, azaz a schengeni övezet külső határvidékén. Nemcsak az ott élők, de az egész ország megtapasztalhatta, hogy milyen komoly veszélyt jelentenek ránk a kontroll és ellenőrzés nélkül beáramló embertömegek. A földjeinket letarolták, mondhatni, útközben learatták, koszt, piszkot és fertőzésveszélyes környezetet hagytak maguk után, amerre csak jártak. Nem volt ez másként a városainkban sem, hiszen emlékezzünk csak a debreceni zavargásokra vagy a Keleti pályaudvar előtti embereket félelemben tartó sátortáborra vagy éppen a Budapestről az osztrák határig tartó vonulásukra.</seg>
+<seg xml:id="AC7_17960.2">Határozott véleményem, hogy ilyet egy ország nem engedhet meg magának, ezért hazánk nagyon helyesen haladéktalanul megkezdte Európa és Magyarország határainak megvédését, azaz a déli biztonsági határzár felépítését. Ki kell álljunk az érdekeink mellett, és mi kell döntsünk arról, hogy kivel kívánunk együtt élni és kivel nem. A leghatározottabban kell fellépni az illegális migráció ellen még akkor is, ha egy erős ellenfél, maga Soros György és a Soros-terv áll a túloldalon.</seg>
+<seg xml:id="AC7_17960.3">Mára bátran elmondhatjuk, hogy a kormány megvédte a magyar embereket, és mindent elkövet azért, hogy megvédje Európa népeit is. A határzár sikeres és eredményes, hiszen korszerű technikáknak köszönhetően sikerült megfékezni a déli határszakaszra nehezedő migrációs nyomást.</seg>
+<seg xml:id="AC7_17960.4">Tisztelt Államtitkár Úr! Felmerül azonban a kérdés, hogy ha itthon ilyen sikereket tudunk elérni, akkor tovább tudjuk-e adni a tapasztalatainkat más országok számára is. Tudjuk-e segíteni nemzetközi szinten az illegális migráció által ideáramlott embertömegek hatékony megfékezését?</seg>
+<seg xml:id="AC7_17960.5">Köszönöm, hogy meghallgattak</seg>
+<kinesic type="applause"><desc>Szilágyi György: Kocsis Máté válaszol! - Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-24-urgent_question-AC7_17961" who="#LászlóPósán" ana="#regular"><note>DR. PÓSÁN LÁSZLÓ (Fidesz):</note>
+<seg xml:id="AC7_17961.1">Köszönöm szépen. A Fidesz-KDNP kormányzása óta a gyerekek érdekeit tartja szem előtt akkor, amikor a köznevelési célokat meghatározzuk, a működési feltételeket kialakítjuk, és a legfontosabbnak természetesen azt tartjuk, hogy versenyképes tudásra tegyenek szert a gyerekek, ennek érdekében pedig fontos, hogy akik a gyerekeket tanítják, nevelik, azok erkölcsileg és anyagilag is megbecsültek legyenek. Emlékezhetünk, hogy ez nem így volt a szocialisták kormányzása idején. De 2010 után igen jelentős forrásvisszapótlásra került sor az ágazatban. 2010-hez képest több mint 500 milliárd forinttal költünk többet az oktatási rendszerre, az iskolákra, és 2013 óta jelentős mértékben növeljük a pedagógusok illetményét, bérét is.</seg>
+<seg xml:id="AC7_17961.2">Ettől függetlenül vagy ennek ellenére az ellenzéki pártok oldaláról mindig mantraszerűen újra és újra minden évben megfogalmazzák azt, hogy nincs fedezete a pedagógusok bérének emelésére. Legutóbb, alig félórával, órával ezelőtt Dúró Dóra képviselő asszony mondta ezt. Én elhiszem, hogy a költségvetési törvényben nehéz kiigazodni, lehet, hogy nem is mindenkinek sikerül, éppen ezért már csak azok számára is - nem is annyira az ellenzéki képviselők megnyugtatására, mert ők úgysem fogják elhinni, de azok számára -, akik kíváncsiak erre és nézik a parlamenti közvetítéseket, kérdezem államtitkár urat, hogy valóban megvan-e ennek a fedezete. A költségvetési törvény mindenesetre e tekintetben megnyugtató. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-24-urgent_question-AC7_17962" who="#DóraDúró" ana="#regular"><note>DÚRÓ DÓRA (Jobbik):</note>
+<seg xml:id="AC7_17962.1">Köszönöm a szót. Mélyen tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A Klebelsberg Központ tájékoztatása alapján hetente 1300 pedagógusstátusznyi tanórát kell helyettesítéssel megtartaniuk a tanároknak. Mindez azt jelenti, hogy nagyságrendileg 30 ezer olyan tanóra van, amit nem tud az adott szakos pedagógus megtartani, és ez rendkívül komoly és nagy szám.</seg>
+<seg xml:id="AC7_17962.2">Mindezek ellenére a kormány vagy hazudik, vagy bagatellizálni próbálja a problémát, arról beszélnek, hogy kizárólag helyi szintű a pedagógushiány Magyarországon, holott persze, helyi szintű, csak mindenhol helyi szintű, gyakorlatilag nem tudunk olyan megyét mondani - beleértve a fővárost is egyébként -, ahol ne lenne pedagógushiány. Van olyan járás, ahol hét tárgyhoz keresnek tanárt, tisztelt államtitkár úr, és az önök korábbi ígéreteivel ellentétben a tankerületi rendszer sem tudja megoldani ezt a problémát.</seg>
+<seg xml:id="AC7_17962.3">Mindezen nem kell csodálkozni, hiszen az elmúlt hét évben önök úgy hajtották végre az oktatáspolitikában a változásokat, hogy a szakma végig tiltakozott ellene. A pedagóguséletpálya-modell kapcsán is számos ilyen eset történt, például az anyagi megbecsülés hiánya is jellemzi sajnos az életpályamodellt, 2018 januárjában ugyanis az a helyzet fog fennállni, hogy egy kezdő, főiskolát végzett pedagógus bruttó bére mindössze 2200 forinttal lesz magasabb, mint a garantált bérminimum Magyarországon. Ha önök csak ennyire becsülik meg a pedagógusokat, ha ennyire tartják az ő munkájukat értékesnek, akkor nem fog megoldódni a pedagógushiány, tisztelt államtitkár úr.</seg>
+<seg xml:id="AC7_17962.4">Amit idén szeptemberben csináltak, hogy a pedagógusok differenciált béremelését úgy tették lehetővé, hogy egymás kárára kaphatnak nagyobb elismerést, az meg egészen arcátlan dolog volt, államtitkár úr, mindenki tiltakozott ellene, az összes szakmai szervezet, önök mégis azt mondták, úgy állították be, mintha ez az ő kérésük lett volna. Államtitkár úr, vegyék már észre, hogy probléma van a közoktatásban</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-24-urgent_question-AC7_17963" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC7_17963.1">Tisztelt Elnök Úr! Tisztelt Ház! A múlt héten került sor a Jobbik által összehívott devizahiteles kerekasztal újabb fordulójára, amelynek sajátossága, hogy a parlamenti pártok mellett meghívjuk a kormány, a Bankszövetség képviselőit és természetesen elsősorban azokat a civil szerveződéseket, akik létező megoldási javaslatokkal rendelkeznek, akik érdemben el tudják önöknek és nekünk is mondani, hogy a való életben hogyan lehetne megoldani ezt az elképesztően régóta göngyölített problémakört.</seg>
+<seg xml:id="AC7_17963.2">A helyzet az, hogy a kormányzat megint nem tette tiszteletét ezen az eseményen, megint nem mert szembenézni a károsultakkal. Éppen ezért adódik a kérdés, jelen pillanatban, amikor ’56 hőseit ünnepeltük a tegnapi nap folyamán, miniszter úr elfogadhatónak tartja-e azt, hogy éppen ezen a héten akarnak, fognak kilakoltatni egy ’56-os hőst és családtagjait - ideértve egyébként a velük egy háztartásban élő kisgyermeket is - olyan módon, hogy bár a végrehajtói rendszer túlkapásai, elképesztő visszaélései közismertek - ennek példája volt a korábbiakban egy 5 milliós tartozásból eredő 33 millió forintos követelés -, mégis ezzel szemben sem a kormányzat, sem a felügyeleti szervek érdemi védőernyőt nem nyújtanak, hiszen csak részmegoldásokra tudták ragadtatni magukat. Végtörlesztést biztosítottak a szerencsésebb helyzetben lévőknek, Nemzeti Eszközkezelőt kezelnek megoldásként, ahol elveszik az emberektől az ingatlanjuk tulajdonjogát, de látható, hogy nem tudták érdemben csökkenteni azt a több mint 140 ezres létszámot, akik esetében az elmaradás akkora, hogy a kilakoltatás réme napi szintű veszélyt, napi szintű fenyegetettséget jelent, és ezen embereken a számonkért tartozás jellemző módon indokolatlan. A devizahiteles kerekasztalnál ennek szakmai háttere, indokai kifejtésre kerültek.</seg>
+<seg xml:id="AC7_17963.3">Adódik a kérdés: hajlandó-e a kormány legalább a kilakoltatási moratóriumot meghirdetni a választásokig, ha már nem ismerkedett meg a problémával, és saját ígéreteinek megfelelően, igazából azt kell hogy mondjam, nem segített ezeken az embereken, mert bár azt mondta, hogy senkit nem hagy az út szélén, mégsem tett semmit érdemben értük</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-24-urgent_question-AC7_17964" who="#IstvánIkotity" ana="#regular"><note>IKOTITY ISTVÁN (LMP):</note>
+<seg xml:id="AC7_17964.1">Köszönöm, elnök úr. Tisztelt Ház! Tisztelt Miniszter Úr! Egy olyan helyzetet kell bemutassak önnek, ami, gondolom, nem teljesen idegen, hiszen az ön minisztériumához is kapcsolódnak oktatási intézmények. Képzeljen el egy oktatási intézményt, ami nemzetiségi fenntartásban van 2014 szeptembere óta. Ezen intézmény kapcsán számos megkeresés érkezett különböző volt dolgozóktól, tanulóktól, hogy az intézmény egy fantomintézmény, nem működik, aláírat íveket, és aztán nem történik ott semmiféle képzés.</seg>
+<seg xml:id="AC7_17964.2">Számos adatkérést, egészen pontosan most már hatot, benyújtottam a fenntartónak, illetve az intézménynek, nem kaptam rá választ. Ezek után, illetve közben is több alkalommal személyesen meglátogattam az intézményt, az Oktatási Hivatal által az interneten is bejegyzett telephelyein. Ezek közül egy XI. kerületi, egy X. kerületi büntetés-végrehajtási intézet és még kettő vidéki büntetés-végrehajtási intézet, ahol oktatási tevékenységet végez, illetve van egy központja. Nem találtam semmiféle arra utaló jelet, hogy itt oktatási tevékenység folyna, se diákot, se pedagógust nem találtam itt; olyannyira, hogy a legutóbbi alkalommal, amikor a képzés helyszínén jártam, már a tábla is le volt véve. Ott továbbirányítottak engem a III. kerületi Miklós téri központjukba, hogy egyesek szerint oda költözött az oktatás. Ott sem volt senki. Egy rutin választ kaptam a helyszínen, hogy elmentek egy gyakorlatra Gödre, az ottani iskolába. A gödi iskolának utánakérdeztem, semmiféle szerződésben nincsenek.</seg>
+<seg xml:id="AC7_17964.3">És amikor arra próbáltam kérdést feltenni, hogy mégis hány tanuló az, aki kiment aznap Gödre, nem voltak hajlandóak válaszolni, illetve elejtették azt, hogy talán húszan. Nagyon komoly normatívát felvevő intézmény, ami nem működik; lehet, hogy önök rendben látják a gazdálkodását, lehet, hogy a törvényességnek is megfelel, de valójában ott nem folyik semmiféle oktatás. Szemlátomást minden ezt támasztja alá. Én ezt szóvá tettem már itt, a Parlament falai között is, és arra kérem most a miniszter úr válaszát, hogy mi a teendő ilyen esetben, miniszter úr, ha ezeket tapasztaljuk. Kérem, válaszoljon: ön mint a kormány tagja, mit tenne ebben az ügyben</seg>
+<kinesic type="applause"><desc>Taps az LMP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-24-urgent_question-AC7_17965" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_17965.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Önök úgy jelentették be a nyugdíjkorrekciót és a nyugdíjprémiumot, illetve hogy decemberben 10 ezer forintos Erzsébet-utalvány lesz, mintha hatalmas kegyet gyakorolnának a nyugdíjasok felé. Nyilván a kis pénzre szükségük van a nyugdíjasoknak, de ennél többet érdemelnének.</seg>
+<seg xml:id="AC7_17965.2">Nézzük meg, mi a baj! Először is önök januárban alultervezték a nyugdíjemelést. Először 0,9 százalékról beszéltek, majd januárban 1,6 százalékra emelték, nem tudni, hogy miért, mert a Magyar Nemzeti Bank ekkor 2,4 százalékos inflációt jelzett előre, vagyis önök a nyugdíjasok pénzét az elmúlt 10 hónapban kamat nélkül, ingyen használták. Ráadásul probléma még ehhez kapcsolódóan, hogy az egy nyugdíjasra eső átlagosan 10 ezer forintból a kisnyugdíjasoknak mindössze 5-6 ezer forint jut, ami nagyon kevés, főleg ha a nyugdíjas inflációs kosarat nézzük.</seg>
+<seg xml:id="AC7_17965.3">Nézzük a nyugdíjprémium kérdését! Mint ismert, ezt a Bajnai-kormány vezette be, de eddig egyetlenegyszer sem kaptak a nyugdíjasok nyugdíjprémiumot, holott a gazdasági növekedés hasznából az elmúlt években nekik is részesülniük kellett volna.</seg>
+<seg xml:id="AC7_17965.4">(14.20)</seg>
+<seg xml:id="AC7_17965.5">A kérdés az, hogy az elmúlt hét évben a kormánynak miért nem jutott eszébe, hogy a Bajnai-féle szabályokon változtasson, hogy ne csak 3,5 százalékos GDP-növekedés fölött kaphassanak a nyugdíjasok nyugdíjprémiumot.</seg>
+<seg xml:id="AC7_17965.6">S itt van a harmadik, az Erzsébet-utalvány. Tavaly már jeleztük, hogy nem utalvány formájában kellene ezt a 10 ezer forintot odaadni, hanem pénzben. Most itt lenne a lehetőség, hogy a nyugdíjkorrekcióval és a nyugdíjprémiummal együtt utalják. De gondoljuk, hogy nem a józan megfontolás számít, hanem az, hogy a sajátjaik jól járjanak. Ismertté vált, hogy az Erzsébet-utalványt forgalmazó zrt. több mint 2 milliárd extrabevételre számíthat a kormány karácsonyi ajándékának köszönhetően. Ráadásul önök hatalmas összeget költenek a postázásra. Tudjuk, hogy tavaly még Ausztráliába is küldtek utalványt.</seg>
+<seg xml:id="AC7_17965.7">A kérdés az, hogy rendben van-e ez így, államtitkár úr.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-24-urgent_question-AC7_17967" who="#LászlóSzakács" ana="#regular"><note>DR. SZAKÁCS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_17967.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! Az államháztartás rendjéről szóló törvény szerint a magyar állam, az önkormányzatok és bárki, aki közpénzzel gazdálkodik, nem köthet semmifajta szerződést olyan céggel, amelynek nem tisztázott vagy a tulajdonosi háttere, vagy a tevékenysége nem tisztázott, és erre megvannak a megfelelő szervek, amelyek fel tudják deríteni, hogy akár a tulajdonosi háttér, akár a működés tekintetében milyen olyan tényezők vannak, amelyek alapján nem lehet szerződést kötni velük.</seg>
+<seg xml:id="AC7_17967.2">Ez így szerepel az államháztartás rendjéről szóló törvényben egészen addig, amíg majd önök el nem fogadják azt a módosítását, amit most egy salátatörvényben elbújtatnak, hogy márpedig lesznek ez alól kivételek, méghozzá a külképviseleti olyan intézmények, mint például a nagykövetségek, a konzulátusok, amelyek nem Magyarországon teljesítenek szolgálatot, és nem Magyarországon látják el a feladatukat. Számukra egy általános felmentést adnának, és ezzel teret nyitnának afelé - a Gazdasági bizottságban is ezt tárgyaltuk -, hogy olyan cégekkel is kössenek szerződést, amelyeknek nem tudjuk, hogy kik vannak a tulajdonosi hátterében, vagy nem tudjuk, mi a tevékenységük, vajon pénzmosással foglalkoznak-e, esetleg a terrorizmus finanszírozásával foglalkoznak-e.</seg>
+<seg xml:id="AC7_17967.3">Amikor mi egy módosítót nyújtottunk be, hogy maradjon ez úgy, ahogyan most van, akkor az önök államtitkára, Bocskai államtitkár úr a Külügyminisztériumból azt mondta, hogy megpróbálták betartani az államháztartás rendjéről szóló törvényt, kísérletet tettek rá - így fogalmazott ő -, de nem sikerült, ezért inkább nem szorgalmasabban dolgoznak, hanem a törvényt akarják módosítani.</seg>
+<seg xml:id="AC7_17967.4">Igazából az lenne a kérdésem az államtitkár úr felé, mivel önök is fenntartanak egy külképviseleti szervet, a brüsszeli Állandó Képviseletet, hogy ott sikerül-e önöknek betartani ezt a törvényt, vagy önök szerint is inkább ezen puhítani kellene, és az offshore-okkal is lehetne szerződést kötni. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-24-urgent_question-AC7_17968" who="#TamásHarangozó" ana="#regular"><note>DR. HARANGOZÓ TAMÁS (MSZP):</note>
+<seg xml:id="AC7_17968.1">Nézzük meg, mire jutunk! A téma fontos, sajnos muszáj megkérdeznem. Köszönöm szépen, elnök úr. Először is döbbentem veszem tudomásul, hogy a miniszterelnöknek annyira nem fontos a magyar katonáink sorsa és élete, hogy a földművelésügyi minisztert jelöli ki a válaszadó személyének. Nyilvánvalóan ezzel a Magyar Országgyűlés tekintélyét is kijelöli. Másrészt egyébként a honvédelmi minisztertől is szégyenteljesnek tartom, hogy nem jön be ide a parlamentbe válaszolni erre a fontos kérdésre.</seg>
+<seg xml:id="AC7_17968.2">Ugyanis a magyar kormány felkérésére a Magyar Országgyűlés több mint kétharmados többséggel küldte katonáinkat Irakba, méghozzá az iraki központi kormány felkérésére, az észak-iraki Kurdisztán pesmerga hadseregének kiképzésére, az Iszlám Állam elleni harc érdekében. Azóta Moszul városát ezek az erők elfoglalták, és a legutóbbi híreket talán önök is tudják: ez a két fél, az egyik fél, akitől a felkérést kértük, a másik fél, akinek a katonáit képezzük, egymás ellen fordultak az elmúlt időszakban. Az észak-iraki Kurdisztánban népszavazást tartottak a tartomány függetlenségéről, és 98 százalékos arányban az igenek győztek. Ezek után nem is kellett sokat várni a reakcióra: múlt héten fegyveres konfliktussá fajult a kérdés.</seg>
+<seg xml:id="AC7_17968.3">Nagyon nagy kérdés innentől kezdve, tisztelt Országgyűlés, hogy mi fog történni a magyar katonákkal, akik két tűz közé szorulhatnak. Azok a katonák lövik egymást, akiknek a felkérésére ott vagyunk, és akiket képzünk, és jó lenne tudni, hogy a magyar kormány erre a helyzetre felkészült-e. Látnak-e kockázatot abban, akár a közeljövőben, akár a távolabbi jövőben, hogy a magyar katonák ilyen szempontból megoldhatatlan helyzet elé állítódnak? Tervezi-e a kormány a magyar csapatok kivonását ebben az esetben a térségből? Egyáltalán van-e bármilyen készülés, van-e bármilyen válaszuk arra a helyzetre, hogyha a magyar katonák két tűz közé szorulnak abban az országban, ahová egyébként a központi kormány felkérésére mentünk ki segítséget nyújtani iraki területeken? Várom a válaszát, miniszter úr</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+<seg xml:id="AC7_17968.4">(14.00)</seg>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

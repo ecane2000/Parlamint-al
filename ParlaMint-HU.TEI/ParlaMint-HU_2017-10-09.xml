@@ -1,0 +1,457 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2017-10-09" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2017-10-09 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2017-10-09 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="9" unit="speeches">9 beszéd</measure>
+        <measure xml:lang="en" quantity="9" unit="speeches">9 speeches</measure>
+        <measure xml:lang="hu" quantity="3268" unit="words">3268 szó</measure>
+        <measure xml:lang="en" quantity="3268" unit="words">3268 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2017-10-09">2017. 10. 09.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="9"/>
+          <tagUsage gi="seg" occurs="323"/>
+          <tagUsage gi="kinesic" occurs="15"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2017-10-09">2017-10-09</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2017-10-09-urgent_question-AC7_17378" who="#LászlóSzakács" ana="#regular"><seg xml:id="AC7_17378.1">DR.</seg>
+<note>SZAKÁCS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_17378.2">Köszönöm a szót, elnök úr. Tisztelt</seg>
+<seg xml:id="AC7_17378.3">Miniszterelnök Úr! Tisztelt Képviselőtársaim! Más adta volna alapvetően</seg>
+<seg xml:id="AC7_17378.4">az aktualitását ennek a kérdésnek, hiszen akkor arról lett volna szó,</seg>
+<seg xml:id="AC7_17378.5">hogy önök miatt nem lehetett parlamenti üléseket tartani se tavaly</seg>
+<seg xml:id="AC7_17378.6">nyáron, se idén nyáron, most már bizottsági ülésekre sem jönnek el, és</seg>
+<seg xml:id="AC7_17378.7">ezért ugye határozatképtelenek a bizottsági ülések, de mire</seg>
+<seg xml:id="AC7_17378.8">miniszterelnök úr ideért, addigra új aktualitása van ennek a kérdésnek,</seg>
+<seg xml:id="AC7_17378.9">hogy ténylegesen ez-e a demokrácia. Hiszen utána Pécsen önök szintet</seg>
+<seg xml:id="AC7_17378.10">ugrottak a demokrácia lebontásában.</seg>
+<seg xml:id="AC7_17378.11">Összefoglalván:</seg>
+<seg xml:id="AC7_17378.12">Pécsen van egy polgármester, aki elveszítette a kormányzati</seg>
+<seg xml:id="AC7_17378.13">politikusok, mint ahogy a kormánynak a jóindulatát, és nincsen már meg</seg>
+<seg xml:id="AC7_17378.14">az a kegyelmi állapot, ami korábban volt, hogy önök mindig kisegítették a</seg>
+<seg xml:id="AC7_17378.15">pécsi városvezetőt. Kegyvesztett lesz Páva Zsolt, szembefordultak vele</seg>
+<seg xml:id="AC7_17378.16">az országgyűlési képviselők, Csizi Péter, Hoppál Péter képviselők</seg>
+<seg xml:id="AC7_17378.17">megalakították a pécsi városi fideszes pártbizottságot egy csődben lévő</seg>
+<seg xml:id="AC7_17378.18">városban. Azóta persze én megkérdeztem minden államtitkárt, minden</seg>
+<seg xml:id="AC7_17378.19">minisztert, hogy mit gondolnak erről, mi az ő demokráciafelfogásuk, vagy</seg>
+<seg xml:id="AC7_17378.20">éppen a törvények mit mondanak arról, hogy egy polgármestert így le</seg>
+<seg xml:id="AC7_17378.21">lehet-e cserélni azért, mert nincsen benne bizalom. Igazából mindenki</seg>
+<seg xml:id="AC7_17378.22">menekült ez elől a kérdés elől, mint valami ragályos betegség elől,</seg>
+<seg xml:id="AC7_17378.23">ilyen szemlesütős válaszokat kaptam, amik igazából próbálták csak</seg>
+<seg xml:id="AC7_17378.24">kikerülni vagy éppen szétkenni ezt a kérdést.</seg>
+<seg xml:id="AC7_17378.25">Ezért - persze</seg>
+<seg xml:id="AC7_17378.26">két ok miatt is - miniszterelnök úrhoz kell hogy forduljak.</seg>
+<seg xml:id="AC7_17378.27">Először is az az ok, hogy nem kaptam egy egyenes választ sem az ön</seg>
+<seg xml:id="AC7_17378.28">kormányából, igazából a megszólaló három kormányzati szereplő háromfélét</seg>
+<seg xml:id="AC7_17378.29">mondott, még arra is, hogy szét akarják-e hordani a pécsi vagyont vagy</seg>
+<seg xml:id="AC7_17378.30">nem, erre sem tudtak egy egyenes mondatot mondani. A másik pedig az,</seg>
+<seg xml:id="AC7_17378.31">hogy: miniszterelnök úr, ön, aki korábban lánglelkű ifjú politikusként</seg>
+<seg xml:id="AC7_17378.32">küzdött ’89-90-ben, ezért a demokráciáért küzdött, hogy pártbizottság</seg>
+<seg xml:id="AC7_17378.33">alakuljon egy megyei jogú városban? Ez volna a kérdésem, miniszterelnök</seg>
+<seg xml:id="AC7_17378.34">úr. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-09-urgent_question-AC7_17381" who="#GergelyBárándy" ana="#regular"><seg xml:id="AC7_17381.1">DR.</seg>
+<note>BÁRÁNDY GERGELY (MSZP):</note>
+<seg xml:id="AC7_17381.2">Köszönöm a szót, elnök úr. Utoljára májusban</seg>
+<seg xml:id="AC7_17381.3">volt módunk szót váltani egymással a viselt dolgairól itt a</seg>
+<seg xml:id="AC7_17381.4">parlamentben. Azóta a következő botrányos események történtek ön körül.</seg>
+<seg xml:id="AC7_17381.5">Unokatestvérei megvették a pécsi sörgyárat, és azonnal kaptak is jó</seg>
+<seg xml:id="AC7_17381.6">megrendelést, a vizes vb hivatalos szállítói lettek.</seg>
+<seg xml:id="AC7_17381.7">A</seg>
+<seg xml:id="AC7_17381.8">kastélyok iránti anakronisztikus vonzódásuk jegyében unokatestvérének</seg>
+<seg xml:id="AC7_17381.9">bankja biztosított hitelt ahhoz, hogy Farkas Flórián volt sofőrjének</seg>
+<seg xml:id="AC7_17381.10">cége megvegyen egy kastélyt a XII. kerületben. De unokatestvére szépen</seg>
+<seg xml:id="AC7_17381.11">segíti az ön fiát is a piacszerzésben. A bútorgyár után nyáron</seg>
+<seg xml:id="AC7_17381.12">éppen az Origo hírportált szerezte meg. Még hogy nincs köze a</seg>
+<seg xml:id="AC7_17381.13">családjának az Origóhoz, elnök úr?!</seg>
+<seg xml:id="AC7_17381.14">Hogy</seg>
+<seg xml:id="AC7_17381.15">rentábilis legyen a fia üzlete, másfél milliárd forintot vert el az MNB</seg>
+<seg xml:id="AC7_17381.16">reklámkampányra, amelynek a jelentős része épp az ön fiának a cégénél</seg>
+<seg xml:id="AC7_17381.17">landolt. De persze az ifjú tehetségeket támogatni kell, ezért Matolcsy</seg>
+<seg xml:id="AC7_17381.18">Ádám bútorgyára közel félmilliárd forintnyi uniós támogatást is elnyert.</seg>
+<seg xml:id="AC7_17381.19">Biztosan az ifjú tehetségek támogatásának jegyében juttat az MNB havi</seg>
+<seg xml:id="AC7_17381.20">300 ezres ösztöndíjat Hidvéghi Balázsnak, a Fidesz kommunikációs</seg>
+<seg xml:id="AC7_17381.21">igazgatójának és feleségének is.</seg>
+<seg xml:id="AC7_17381.22">Na és a hitelek!</seg>
+<seg xml:id="AC7_17381.23">Biztosan szüksége volt kedvezményes MNB-s VIP-hitelre a Magyar Nemzeti</seg>
+<seg xml:id="AC7_17381.24">Bank alelnökének is, mert csak 9 millió forintot visz haza havonta, na</seg>
+<seg xml:id="AC7_17381.25">meg az ön akkori barátnőjének, ma már feleségének egy luxuslakás</seg>
+<seg xml:id="AC7_17381.26">megvásárlására. És hát a tapasztalatszerzés is fontos, tudjuk, elnök úr,</seg>
+<seg xml:id="AC7_17381.27">ezért az MNB dolgozói három hónap alatt négyszer utaztak Jamaicába. A</seg>
+<seg xml:id="AC7_17381.28">kemény munka után persze pihenni is kell, ezért biztosít az MNB 190</seg>
+<seg xml:id="AC7_17381.29">millió forintot sporttámogatásként az alkalmazottainak, és ha már</seg>
+<seg xml:id="AC7_17381.30">sportolnak, kell nekik a chartergép is, amivel kiutazhatnak a</seg>
+<seg xml:id="AC7_17381.31">háziversenyeikre. A méltó munkakörülmények megteremtése céljából</seg>
+<seg xml:id="AC7_17381.32">alapítványi pénzből több mint 23 millióért vettek gyapjúszőnyeget és 70</seg>
+<seg xml:id="AC7_17381.33">millióért egy hatdarabos bútorkollekciót.</seg>
+<seg xml:id="AC7_17381.34">Sajnos,</seg>
+<seg xml:id="AC7_17381.35">annyi botránya van, elnök úr, hogy két percbe még csak vázlatszerűen</seg>
+<seg xml:id="AC7_17381.36">sem fér bele, úgyhogy a legközelebbi találkozásunkkor majd folytatom, de</seg>
+<seg xml:id="AC7_17381.37">most kérdezem, elnök úr, hogy ön szerint mindez így rendben van?</seg>
+<seg xml:id="AC7_17381.38">Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-09-urgent_question-AC7_17386" who="#MártonGyöngyösi" ana="#regular"><seg xml:id="AC7_17386.1">GYÖNGYÖSI</seg>
+<note>MÁRTON (Jobbik):</note>
+<seg xml:id="AC7_17386.2">Köszönöm a szót, elnök úr. Tisztelt Miniszterelnök Úr!</seg>
+<seg xml:id="AC7_17386.3">Az elmúlt hónapban több olyan adat látott napvilágot, ami finoman</seg>
+<seg xml:id="AC7_17386.4">szólva sem támasztja alá a kormányzatnak a gazdasági sikerpropagandáját.</seg>
+<seg xml:id="AC7_17386.5">Az Eurofound olyan jelentést készített a társadalmi mobilitásról, ami</seg>
+<seg xml:id="AC7_17386.6">azt vizsgálja, hogy egy embernek ma Magyarországon mennyi esélye van</seg>
+<seg xml:id="AC7_17386.7">arra, hogy a képességei szerint lépjen föl a társadalmi ranglétrán.</seg>
+<seg xml:id="AC7_17386.8">Magyarország Európában az utolsó helyen áll, ami azt mutatja, hogy</seg>
+<seg xml:id="AC7_17386.9">Magyarország egy igazságtalan társadalom, amely szinte kasztrendszerre</seg>
+<seg xml:id="AC7_17386.10">épül.</seg>
+<seg xml:id="AC7_17386.11">Miközben a kormányzat arról beszél, hogy</seg>
+<seg xml:id="AC7_17386.12">Magyarország Európa startupközpontja lesz, addig az Európai Bizottságnak</seg>
+<seg xml:id="AC7_17386.13">a rangsorában, innovációs rangsorában Magyarországnak az utolsó helyek</seg>
+<seg xml:id="AC7_17386.14">egyikét sikerült elcsípnie, miközben kiderült, hogy 2016-ban 30</seg>
+<seg xml:id="AC7_17386.15">százalékkal kevesebbet költünk kutatásra és fejlesztésre. A</seg>
+<seg xml:id="AC7_17386.16">Világgazdasági Fórumnak a versenyképességi listáján Magyarország</seg>
+<seg xml:id="AC7_17386.17">folyamatosan csúszik lefelé; három tényezőt említenek meg: a korrupciót,</seg>
+<seg xml:id="AC7_17386.18">a képzetlen munkaerőt és az elhibázott adó- és járulékpolitikát.</seg>
+<seg xml:id="AC7_17386.19">Nemrégiben</seg>
+<seg xml:id="AC7_17386.20">egy tanulmány látott napvilágot, tisztelt miniszterelnök úr, amely a</seg>
+<seg xml:id="AC7_17386.21">magyar átlagbéreket vizsgálja a német átlagbérek viszonylatában, és ez</seg>
+<seg xml:id="AC7_17386.22">azt mutatja, hogy 2010-15 között, tehát a második és a harmadik</seg>
+<seg xml:id="AC7_17386.23">Orbán-kormány idején Magyarország a bruttó átlagbérek tekintetében a</seg>
+<seg xml:id="AC7_17386.24">német átlagbérekhez képest az egyharmadáról az egynegyedére csúszott</seg>
+<seg xml:id="AC7_17386.25">vissza.</seg>
+<seg xml:id="AC7_17386.26">Tisztelt Miniszterelnök Úr! Meggyőződésünk,</seg>
+<seg xml:id="AC7_17386.27">hogy a megoldás a bérunió. Nem Brüsszeltől várjuk a bérek</seg>
+<seg xml:id="AC7_17386.28">meghatározását, hanem Brüsszeltől csak a cél kitűzését várjuk, a</seg>
+<seg xml:id="AC7_17386.29">kohéziós politika módosítását, a hatékonyabb és célirányosabb</seg>
+<seg xml:id="AC7_17386.30">kritériumrendszer meghatározását. Öntől pedig azt várjuk, tisztelt</seg>
+<seg xml:id="AC7_17386.31">miniszterelnök úr, hogy új gazdaságpolitikát adjon ennek az országnak a</seg>
+<seg xml:id="AC7_17386.32">hazai vállalkozások érdekében, a versenyképesebb kkv-k érdekében, a</seg>
+<seg xml:id="AC7_17386.33">korrupció felszámolását, új adó- és járulékpolitikát, új oktatási</seg>
+<seg xml:id="AC7_17386.34">rendszert.</seg>
+<seg xml:id="AC7_17386.35">Tisztelt Miniszterelnök Úr! Az ön választói is támogatják ezt a kezdeményezést</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_17386.36">Jó lenne, ha ön is leírna egy utolsó hajtűkanyart életében, és támogatná azt, amit az ö</seg>
+<kinesic type="signal"><desc>Az elnök ismét csenget.</desc></kinesic>
+<seg xml:id="AC7_17386.37">választói is támogatnak. Köszönöm.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-09-urgent_question-AC7_17390" who="#BernadettSzél" ana="#regular"><note>DR. SZÉL BERNADETT (LMP):</note>
+<seg xml:id="AC7_17390.1">Köszönöm a szót, elnök úr. Uraim, beszéljünk a lényegről</seg>
+<seg xml:id="AC7_17390.2">(Moraj, derültség a kormánypártok soraiban.)</seg>
+<seg xml:id="AC7_17390.3">Tisztelt</seg>
+<seg xml:id="AC7_17390.4">Miniszterelnök Úr! Ön folyamatosan háborúsdit játszik, de szeretném, ha</seg>
+<seg xml:id="AC7_17390.5">tudná, hogy ebben az országban az igazi harcot nem ön vívja, hanem a</seg>
+<seg xml:id="AC7_17390.6">magyar emberek. Mert a magyar emberek többségének nagyon kemény az élet</seg>
+<seg xml:id="AC7_17390.7">most Magyarországo</seg>
+<seg xml:id="AC7_17390.8">(Lázár János: Ezt te biztos tudod!)</seg>
+<seg xml:id="AC7_17390.9">, és keményen küzdenek.</seg>
+<seg xml:id="AC7_17390.10">Ön</seg>
+<seg xml:id="AC7_17390.11">nem érzi a bőrén, és önök sem érzik a bőrükön, de ezek az emberek</seg>
+<seg xml:id="AC7_17390.12">kemény harcot vívnak a gyerekeikért, a családjukért, a munkájukért, a</seg>
+<seg xml:id="AC7_17390.13">megélhetésükért és sokszor az egészségükért is.</seg>
+<seg xml:id="AC7_17390.14">És</seg>
+<seg xml:id="AC7_17390.15">ezek az emberek nem várhatnak segítséget öntől, Orbán úr, Magyarország</seg>
+<seg xml:id="AC7_17390.16">miniszterelnökétől, mert ön láthatóan nem a mindennapi magyar embereknek</seg>
+<seg xml:id="AC7_17390.17">a mindennapi problémájára fókuszál. Önök valamiféle sátáni</seg>
+<seg xml:id="AC7_17390.18">Soros-tervről beszélnek, de ez nem az, amit a magyar emberek várnak egy</seg>
+<seg xml:id="AC7_17390.19">felelős kormánytól. A magyar emberek azt a tervet várják, amivel ők ki</seg>
+<seg xml:id="AC7_17390.20">tudnak mászni a gödörből, amivel az országot ki tudjuk hozni a gödörből,</seg>
+<seg xml:id="AC7_17390.21">és amivel végre be tudunk lépni a XXI. századba. És én úgy látom,</seg>
+<seg xml:id="AC7_17390.22">miniszterelnök úr, hogy önnek ilyen terve nincs. Mert mik a valódi</seg>
+<seg xml:id="AC7_17390.23">problémák ebben az országban? Én azt látom, hogy a közoktatásból</seg>
+<seg xml:id="AC7_17390.24">menekülnek a családok. Azt látom, hogy ebben az országban bérválság van.</seg>
+<seg xml:id="AC7_17390.25">Azt látom, hogy a magyar emberek nem tudnak megélni a bérükből,</seg>
+<seg xml:id="AC7_17390.26">munkaerő-hiányos a gazdaság, és azt látom, hogy tönkrement az</seg>
+<seg xml:id="AC7_17390.27">egészségügy.</seg>
+<seg xml:id="AC7_17390.28">Mit tud Magyarország mostani</seg>
+<seg xml:id="AC7_17390.29">miniszterelnöke arra a kérdésre válaszolni, hogy a kormányzása alatt</seg>
+<seg xml:id="AC7_17390.30">duplájára nőtt a kórházi fertőzések száma? Mit tud ön, miniszterelnök</seg>
+<seg xml:id="AC7_17390.31">úr, arra mondani, hogy Magyarországon a kórházakban az egyszer</seg>
+<seg xml:id="AC7_17390.32">használatos eszközöket folyamatosan újrahasznosítják, annyira nincs</seg>
+<seg xml:id="AC7_17390.33">pénzük? Hogy gombásodnak a falak, és patkányok esnek le a mennyezetből?</seg>
+<seg xml:id="AC7_17390.34">Ezek a valódi problémák, miniszterelnök úr! Ez érdekel minket, nem a</seg>
+<seg xml:id="AC7_17390.35">Soros-terv és nem a verőlegényeinek a kelekótya nyilatkozatai.</seg>
+<seg xml:id="AC7_17390.36">Ön,</seg>
+<seg xml:id="AC7_17390.37">tisztelt miniszterelnök úr, Magyarországon felelős a magyar embereknek a</seg>
+<seg xml:id="AC7_17390.38">biztonságáért. Hogy tud ön elszámolni a választópolgárok felé a</seg>
+<seg xml:id="AC7_17390.39">tönkretett egészségüggyel?</seg>
+<kinesic type="applause"><desc>Taps az LMP és a független képviselők soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-09-urgent_question-AC7_17391" who="#ÁkosHadházy" ana="#regular"><seg xml:id="AC7_17391.1">DR.</seg>
+<note>HADHÁZY ÁKOS (LMP):</note>
+<seg xml:id="AC7_17391.2">Köszönöm szépen, elnök úr. Tisztelt Miniszterelnök</seg>
+<seg xml:id="AC7_17391.3">Úr! Örültem, amikor egy számot mondott. Azt mondta, hogy</seg>
+<seg xml:id="AC7_17391.4">500 milliárd forint fejlesztést csináltak az egészségügyben. Ezzel</seg>
+<seg xml:id="AC7_17391.5">nem az a baj, hogy az Európai Unió adta ezt a pénzt, hanem az, hogy</seg>
+<seg xml:id="AC7_17391.6">nagyjából a felét ennek ellopták. Egy ilyen konkrét példát szeretnék</seg>
+<seg xml:id="AC7_17391.7">mutatni, amit nem én állítok, hanem az önök egyik szervezete vagy az</seg>
+<seg xml:id="AC7_17391.8">állam egyik szervezete, a Közbeszerzési Döntőbizottság.</seg>
+<seg xml:id="AC7_17391.9">Lélegeztető</seg>
+<seg xml:id="AC7_17391.10">gépeket szerettek volna venni, az Állami Egészségügyi Ellátó Központ ki</seg>
+<seg xml:id="AC7_17391.11">is írt egy közbeszerzést, kaptak négy ajánlatot. Abból három ajánlat</seg>
+<seg xml:id="AC7_17391.12">körülbelül 1,7 milliárd forint volt, és az egyik ajánlat, amit</seg>
+<seg xml:id="AC7_17391.13">azért egy nem komolytalan cég adott, a GE - a General Electric</seg>
+<seg xml:id="AC7_17391.14">cég csúcskategóriás lélegeztető gépeiről van szó -, mit ad isten, majd’</seg>
+<seg xml:id="AC7_17391.15">800 millió forinttal olcsóbb volt, 900 millió forint körüli</seg>
+<seg xml:id="AC7_17391.16">összegről szólt, tehát majdnem feleannyiért adta volna ezeket a</seg>
+<seg xml:id="AC7_17391.17">készülékeket.</seg>
+<seg xml:id="AC7_17391.18">Erre az</seg>
+<seg xml:id="AC7_17391.19">Állami Egészségügyi Ellátó Központ gyorsan beleírt a kritériumok közé</seg>
+<seg xml:id="AC7_17391.20">egy apróságot, egy olyan apróságot, ami orvosilag abszolút nem indokolt,</seg>
+<seg xml:id="AC7_17391.21">sőt még akár káros is lehet, ha a gépek tudják ezt a paramétert. Ezt</seg>
+<seg xml:id="AC7_17391.22">gyorsan beleírta, kizárták a General Electric lélegeztető gépeit, és azt</seg>
+<seg xml:id="AC7_17391.23">mondta az állam, hogy neki nem kell fele áron a lélegeztető, jó lesz</seg>
+<seg xml:id="AC7_17391.24">neki dupla áron. Körülbelül így 800 millió forint ugrott volna az</seg>
+<seg xml:id="AC7_17391.25">egészségügyből. A GE beadott egy jogorvoslati kérelmet, és az</seg>
+<seg xml:id="AC7_17391.26">állami szerv - ez állami szerv, tehát nem Hadházy Ákos mondja</seg>
+<seg xml:id="AC7_17391.27">meg az LMP - mondja, hogy ez szabálytalan volt, és a</seg>
+<seg xml:id="AC7_17391.28">Közbeszerzési Döntőbizottság meg is semmisítette ezt a tendert.</seg>
+<seg xml:id="AC7_17391.29">Ami az érdekes, és ami a kérdésem, az az, hogy amikor erről az önnek most éppen tanácsokat adó miniszter urat kérdezté</seg>
+<seg xml:id="AC7_17391.30">(Lázár János: Nem szorul segítségre… Hallgass már el!)</seg>
+<seg xml:id="AC7_17391.31">,</seg>
+<seg xml:id="AC7_17391.32">ő azt mondta, hogy aki ezt csinálta, annak le kell vágni a kezét vagy</seg>
+<seg xml:id="AC7_17391.33">valamijét le kell vágni. Ne tegezzen engem, miniszter úr</seg>
+<kinesic type="noise"><desc>Nagy zaj. - Lázár János: Elnézést! Hallgasson el!</desc></kinesic>
+<seg xml:id="AC7_17391.34">Az államtitkár úr viszont azt mondta, hogy itt minden rendben volt, és</seg>
+<seg xml:id="AC7_17391.35">meg is támadták, jogilag megtámadták. Kinek van igaza? Az a kérdés, hogy</seg>
+<seg xml:id="AC7_17391.36">a miniszter úrnak van igaza vagy pedig az államtitkár úrnak van igaza.</seg>
+<seg xml:id="AC7_17391.37">Helyes volt-e itt az eljárás vagy nem volt helyes</seg>
+<kinesic type="applause"><desc>Taps az LMP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-09-urgent_question-AC7_17715" who="#LászlóSzászfalvi" ana="#regular"><seg xml:id="AC7_17715.1">SZÁSZFALVI</seg>
+<note>LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC7_17715.2">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt</seg>
+<seg xml:id="AC7_17715.3">Államtitkár Úr! Az egészségügyei ellátórendszer fejlesztése a</seg>
+<seg xml:id="AC7_17715.4">szolgáltatást igénybe vevők és a benne dolgozók igényeire figyelemmel a</seg>
+<seg xml:id="AC7_17715.5">kormány elektronikus egészségügyi szolgáltatási tér kiépítését és</seg>
+<seg xml:id="AC7_17715.6">bevezetését határozta meg, és azt a célt tűzte ki, hogy a szolgáltató a</seg>
+<seg xml:id="AC7_17715.7">közfinanszírozott egészségügyi ellátásoknál 2017. november 1-jétől, a</seg>
+<seg xml:id="AC7_17715.8">nem közfinanszírozott egészségügyi ellátásoknál pedig jövőre elérhetővé</seg>
+<seg xml:id="AC7_17715.9">teszi ezt a rendszert.</seg>
+<seg xml:id="AC7_17715.10">(14.10)</seg>
+<seg xml:id="AC7_17715.11">Ezért</seg>
+<seg xml:id="AC7_17715.12">európai uniós támogatásból, az Állami Egészségügyi Ellátó Központ</seg>
+<seg xml:id="AC7_17715.13">vezette konzorcium felügyeletével épült ki az a biztonságos informatikai</seg>
+<seg xml:id="AC7_17715.14">rendszer, amelyben az egészségügyi szolgáltatók összekapcsolásával a</seg>
+<seg xml:id="AC7_17715.15">nekik létrehozott egységes kommunikációs tér jön létre. Ehhez</seg>
+<seg xml:id="AC7_17715.16">7,2 milliárd forintos informatikai fejlesztést kellett végrehajtani</seg>
+<seg xml:id="AC7_17715.17">191 közfinanszírozott egészségügyi intézményben, ami 10 ezer</seg>
+<seg xml:id="AC7_17715.18">informatikai eszköz rendelkezésre bocsátását jelentette. Az idei évben</seg>
+<seg xml:id="AC7_17715.19">már megkezdődhetett a szolgáltatási tér próbaüzeme, amivel a betegadatok</seg>
+<seg xml:id="AC7_17715.20">elérhetővé válnak az ellátó intézmények, a háziorvosok, a</seg>
+<seg xml:id="AC7_17715.21">gyógyszerészek és a mentőszolgálat számára.</seg>
+<seg xml:id="AC7_17715.22">Tisztelt</seg>
+<seg xml:id="AC7_17715.23">Államtitkár Úr! Kereszténydemokrata képviselőként az egészségügyi</seg>
+<seg xml:id="AC7_17715.24">ellátórendszer fejlesztését kiemelt fontosságúnak tartom. A betegek</seg>
+<seg xml:id="AC7_17715.25">adatkezelési jogát is szem előtt tartó új rendszerben a beteggel</seg>
+<seg xml:id="AC7_17715.26">kapcsolatos minden fontos információ azonnal az orvos rendelkezésére</seg>
+<seg xml:id="AC7_17715.27">állhat, aki így reményeink szerint pontosabb diagnózist állíthat</seg>
+<seg xml:id="AC7_17715.28">fel. A kezelés is személyre szabottabb, gyorsabb és</seg>
+<seg xml:id="AC7_17715.29">hatékonyabb lehet, elkerülhetővé válhatnak az ismételt, felesleges</seg>
+<seg xml:id="AC7_17715.30">vizsgálatok, ami a beteg kényelmén és a gyorsabb gyógyuláson túl</seg>
+<seg xml:id="AC7_17715.31">költséghatékonyabb működést tehet lehetővé.</seg>
+<seg xml:id="AC7_17715.32">tisztelettel kérdezem az államtitkár urat, mik a próbaidőszak eddigi</seg>
+<seg xml:id="AC7_17715.33">tapasztalatai, a látottak alapján mennyiben segíti az új rendszer az</seg>
+<seg xml:id="AC7_17715.34">egészségügy egészének működését. Várom az államtitkár úr megtisztelő</seg>
+<seg xml:id="AC7_17715.35">válaszát. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-09-urgent_question-AC7_17718" who="#GáborVona" ana="#regular"><seg xml:id="AC7_17718.1">VONA</seg>
+<note>GÁBOR (Jobbik):</note>
+<seg xml:id="AC7_17718.2">Tisztelt Miniszterelnök Úr! Van egy jó és van egy rossz</seg>
+<seg xml:id="AC7_17718.3">hírem. A rossz hírem az, hogy ön láthatóan nem szereti, ha én kérdezem</seg>
+<seg xml:id="AC7_17718.4">önt. Ilyenkor válogatott otrombaságokkal szokott válaszolni, de az a</seg>
+<seg xml:id="AC7_17718.5">helyzet, hogy kérdezni fogom. A jó hír viszont az, hogy már csak 2018</seg>
+<seg xml:id="AC7_17718.6">áprilisáig, hiszen onnantól kezdve ön nem lesz többé Magyarország</seg>
+<seg xml:id="AC7_17718.7">miniszterelnöke, ilyen minőségben nem fogom önt kérdezni</seg>
+<seg xml:id="AC7_17718.8">(Felzúdulás a kormánypártok soraiban.)</seg>
+<seg xml:id="AC7_17718.9">Egészen más jellegű, más típusú kérdésekre kell majd akkor önnek, miniszterelnök úr, számítania.</seg>
+<seg xml:id="AC7_17718.10">De</seg>
+<seg xml:id="AC7_17718.11">térjünk a lényegre: önről, miniszterelnök úr, köztudomású, hogy</seg>
+<seg xml:id="AC7_17718.12">nagyon-nagyon szereti a sportot nézni, és én ebből kifolyólag kérdezem,</seg>
+<seg xml:id="AC7_17718.13">hogy sportszerűnek tartja-e azt, amilyen módon ebbe a kampányba az ön</seg>
+<seg xml:id="AC7_17718.14">pártja jelen pillanatban belefordul. Sportszerűnek tartja-e azt, hogy az</seg>
+<seg xml:id="AC7_17718.15">ön emberei folyamatosan rongálják más pártok plakátjait? Sportszerűnek</seg>
+<seg xml:id="AC7_17718.16">tartja-e azt, miniszterelnök úr, hogy az egyedüli állva maradt</seg>
+<seg xml:id="AC7_17718.17">kormányváltó erő, ellenzéki erő, a Jobbik elhallgattatására ön</seg>
+<seg xml:id="AC7_17718.18">megpróbálja törvénytelen eszközökkel felhasználni az Állami</seg>
+<seg xml:id="AC7_17718.19">Számvevőszéket, a kormányhivatalokat, a rendőrséget, az ügyészséget,</seg>
+<seg xml:id="AC7_17718.20">lényegében mindent? Sportszerűnek tartja-e miniszterelnök úr, hogy ön</seg>
+<seg xml:id="AC7_17718.21">annyira fél tőlem és a pártomtó</seg>
+<seg xml:id="AC7_17718.22">(Felzúdulás a kormánypárti oldalon.)</seg>
+<seg xml:id="AC7_17718.23">,</seg>
+<seg xml:id="AC7_17718.24">hogy paparazzókat, hackereket és médiahiénákat küld ránk? És végül</seg>
+<seg xml:id="AC7_17718.25">sportszerűnek tartja-e azt, miniszterelnök úr, hogy önben annyira</seg>
+<seg xml:id="AC7_17718.26">elfogyott a bátorság a Jobbikkal kapcsolatban, hogy nem mer kiállni egy</seg>
+<seg xml:id="AC7_17718.27">nyilvános vitára, hanem inkább megpróbálja a Jobbik betiltását elérni?</seg>
+<seg xml:id="AC7_17718.28">És,</seg>
+<seg xml:id="AC7_17718.29">miniszterelnök úr, kérem szépen önt, könyörgök, hogy ne jöjjön nekem</seg>
+<seg xml:id="AC7_17718.30">Soros Györggyel, meg ne jöjjön nekem Simicska Lajossal! Már</seg>
+<seg xml:id="AC7_17718.31">számtalanszor elmondtam önnek, hogy sem én, sem az ország többsége nem</seg>
+<seg xml:id="AC7_17718.32">vagyunk kíváncsiak az ön rögeszméjére. Sem én, sem az ország többsége</seg>
+<seg xml:id="AC7_17718.33">nem kíváncsi az ön személyes háborúira. A kérdés az, miniszterelnök úr,</seg>
+<seg xml:id="AC7_17718.34">hogy tud-e még ön sportszerűen küzdeni. Vannak-e még önnek érvei? Vagy</seg>
+<seg xml:id="AC7_17718.35">önnek már csak az iszapbirkózás és a dagonya maradt? És az a kérdésem,</seg>
+<seg xml:id="AC7_17718.36">miniszterelnök úr, hogy lesz-e még ön valaha demokrata, vagy 2018</seg>
+<seg xml:id="AC7_17718.37">áprilisában egy kiégett despotaként fog távozni Magyarország éléről? Ez a</seg>
+<seg xml:id="AC7_17718.38">kérdés</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-09-urgent_question-AC7_17720" who="#GyörgyBalla" ana="#regular"><seg xml:id="AC7_17720.1">BALLA</seg>
+<note>GYÖRGY (Fidesz):</note>
+<seg xml:id="AC7_17720.2">Köszönöm szépen a szót, elnök úr. Tisztelt</seg>
+<seg xml:id="AC7_17720.3">Képviselőtársaim! Tisztelt Államtitkár Úr! Nem volt olyan régen, úgyhogy</seg>
+<seg xml:id="AC7_17720.4">mindannyian emlékezhetünk rá, hogy a Jobbik az első plakátakciója</seg>
+<seg xml:id="AC7_17720.5">kapcsán mi mindent hazudozott összevissza.</seg>
+<seg xml:id="AC7_17720.6">Három állításuk vol</seg>
+<kinesic type="noise"><desc>Közbeszólás a Jobbik soraiból: Tőlünk kérdezed?):</desc></kinesic>
+<seg xml:id="AC7_17720.7">néhány száz plakátot béreltek Simicska Lajostól, piaci áron tették, és</seg>
+<seg xml:id="AC7_17720.8">mindezt hitelből finanszírozták. Aztán kiderült, hogy nem néhány száz,</seg>
+<seg xml:id="AC7_17720.9">hanem kétezer, nem piaci áron, hanem annak az egytizedéért</seg>
+<seg xml:id="AC7_17720.10">(Dúró Dóra: Nem igaz!)</seg>
+<seg xml:id="AC7_17720.11">A</seg>
+<seg xml:id="AC7_17720.12">hitelfelvétel tényét nem vitatjuk. Nyilvánvaló, hogy ez az akció</seg>
+<seg xml:id="AC7_17720.13">egyszerre meríti ki a tiltott pártfinanszírozást és az adócsalást</seg>
+<kinesic type="noise"><desc>Közbeszólások a Jobbik soraiból.</desc></kinesic>
+<seg xml:id="AC7_17720.14">Ez is megér egy misét, de most ne ezt vizsgáljuk! Nézzük meg ennek függvényében, mi a helyzet a legújabb akcióval</seg>
+<kinesic type="noise"><desc>Közbeszólás a Jobbik soraiból: Na! Mesélj!</desc></kinesic>
+<seg xml:id="AC7_17720.15">Klasszikust</seg>
+<seg xml:id="AC7_17720.16">szeretnék idézni, a Jobbik egyik prominensét: „Ezek a falragaszok mind a</seg>
+<seg xml:id="AC7_17720.17">Jobbik által megvásárolt hirdetőeszközökre lettek kihelyezve. A</seg>
+<seg xml:id="AC7_17720.18">finanszírozást egyelőre hitel felvétele nélkül, saját erőből, a</seg>
+<seg xml:id="AC7_17720.19">részünkre biztosított állami támogatásból oldjuk meg. A konkrét összeg</seg>
+<seg xml:id="AC7_17720.20">üzleti titok részét képezi.”</seg>
+<seg xml:id="AC7_17720.21">Tisztelt</seg>
+<seg xml:id="AC7_17720.22">Képviselőtársaim! Néhány hónappal ezelőtt a mélyen áron alul vásárolt</seg>
+<seg xml:id="AC7_17720.23">plakáthelyeket a Jobbik hitelből tudta megvásárolni.</seg>
+<seg xml:id="AC7_17720.24">(13.50)</seg>
+<seg xml:id="AC7_17720.25">Ez azt jelenti, hogy egy fityingjük nincs. Eltelik néhány hónap, és a plakáthelyeket piaci áron saját forrásból vásárolják meg.</seg>
+<seg xml:id="AC7_17720.26">Tisztelt</seg>
+<seg xml:id="AC7_17720.27">Képviselőtársaim! Nem olyan bonyolult: ha egy plakát bérleti díja</seg>
+<seg xml:id="AC7_17720.28">havonta 40 ezer forint, akkor egy tízéves hozamot elvárva ez azt</seg>
+<seg xml:id="AC7_17720.29">jelenti, hogy az 1100 plakáthely, amely az önök tulajdonába került, 5</seg>
+<seg xml:id="AC7_17720.30">milliárd 280 millió forintot ér</seg>
+<kinesic type="noise"><desc>Közbeszólások a Jobbik soraiból: Zseni vagy! - Matektagozatra járt!</desc></kinesic>
+<seg xml:id="AC7_17720.31">Ennyi a piaci ára. Az a kérdés, hogy néhány hónap alatt honnan akasztott le a Jobbik 5 milliárd 280 millió forintot</seg>
+<seg xml:id="AC7_17720.32">(Dúró Dóra: Nagyon kíváncsi vagy, igaz?)</seg>
+<seg xml:id="AC7_17720.33">Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-10-09-urgent_question-AC7_17721" who="#JánosPócs" ana="#regular"><note>PÓCS JÁNOS (Fidesz):</note>
+<seg xml:id="AC7_17721.1">Köszönöm a szót. Tisztelt Ház! Tisztelt Államtitkár Úr!</seg>
+<seg xml:id="AC7_17721.2">Annak ellenére, hogy Vona elnök úr ellopta vagy inkább eladta a Jobbik</seg>
+<seg xml:id="AC7_17721.3">lelkét, a cuki púder alatt még mindig megvan a párt régi arca, az igazi</seg>
+<seg xml:id="AC7_17721.4">arc. Ez az arc azonban most nem a korábbi hagyományos szélsőjobbos</seg>
+<seg xml:id="AC7_17721.5">ellenségképre tekint, hanem a nyugdíjasokra. Azt követően, hogy Vona</seg>
+<seg xml:id="AC7_17721.6">elnök úr elfogadhatatlan véleményt nyilvánított a nyugdíjasokról, a párt</seg>
+<seg xml:id="AC7_17721.7">hívei sorra öntötték az olajat a tűzre. Odáig fajult a dolog, hogy a</seg>
+<seg xml:id="AC7_17721.8">Jobbik már a halottak emlékét is gyalázza.</seg>
+<seg xml:id="AC7_17721.9">Nemrég</seg>
+<seg xml:id="AC7_17721.10">jelent meg a Jobbik-pártsajtóban egy videó, amelyen egy idős néni</seg>
+<seg xml:id="AC7_17721.11">fakadt dalra egy idősnapi rendezvényen. A felvételhez cikk is készült,</seg>
+<seg xml:id="AC7_17721.12">amelyben a nénin élcelődtek. Jászladányon közszeretetnek örvendett az az</seg>
+<seg xml:id="AC7_17721.13">idős hölgy, aki akkor, 2014-ben halálos betegen énekelt. Nemcsak ő, de</seg>
+<seg xml:id="AC7_17721.14">mindenki tudta, hogy soha többé nem fog énekelni a közönség előtt, nem</seg>
+<seg xml:id="AC7_17721.15">fog már többet szerepelni. Sajnos, még abban az évben elhunyt. Isten</seg>
+<seg xml:id="AC7_17721.16">nyugosztalja! A cikkhez írt trágár kommentekből kiderült, hogy</seg>
+<seg xml:id="AC7_17721.17">mindenki tisztában volt azzal, hogy a felvétel régi, sőt azzal is, hogy</seg>
+<seg xml:id="AC7_17721.18">a rajta szereplő hölgy már nem él. A Jobbik pártmédiája</seg>
+<seg xml:id="AC7_17721.19">mégsem riadt vissza attól, hogy a felvételt lejáratásra használja,</seg>
+<seg xml:id="AC7_17721.20">kigúnyolva ezzel egy idős asszony politikai hitvallását, meggyalázva</seg>
+<seg xml:id="AC7_17721.21">ezzel az ő emlékét.</seg>
+<seg xml:id="AC7_17721.22">De</seg>
+<seg xml:id="AC7_17721.23">ez nem csak a jobbikos közönség hangja. A Jobbik jászsági</seg>
+<seg xml:id="AC7_17721.24">vezetője a mocskolódó kommenteket összességében viccesnek találta, és</seg>
+<seg xml:id="AC7_17721.25">lájkolta a bejegyzést. Ráadásul Volner János frakcióvezető úr ahelyett,</seg>
+<seg xml:id="AC7_17721.26">hogy töröltette volna, tovább terjesztette a videót, pedig akkor már a</seg>
+<seg xml:id="AC7_17721.27">kívülállók számára is világos volt, hogy egy halott ember emlékét</seg>
+<seg xml:id="AC7_17721.28">gyalázza, ahogy Volner frakcióvezető úr is ezt tette a</seg>
+<seg xml:id="AC7_17721.29">kommentjében.</seg>
+<seg xml:id="AC7_17721.30">Államtitkár</seg>
+<seg xml:id="AC7_17721.31">Úr! Miért kerülhettek a nyugdíjasok a jobbikosok céltáblájára, és</seg>
+<seg xml:id="AC7_17721.32">hogyan áll ki értük a kormány? Várom tisztelettel a válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

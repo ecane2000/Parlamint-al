@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2015-10-26" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2015-10-26 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2015-10-26 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="10" unit="speeches">10 beszéd</measure>
+        <measure xml:lang="en" quantity="10" unit="speeches">10 speeches</measure>
+        <measure xml:lang="hu" quantity="2978" unit="words">2978 szó</measure>
+        <measure xml:lang="en" quantity="2978" unit="words">2978 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2015-10-26">2015. 10. 26.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="10"/>
+          <tagUsage gi="seg" occurs="46"/>
+          <tagUsage gi="kinesic" occurs="12"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2015-10-26">2015-10-26</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2015-10-26-urgent_question-AC7_6921" who="#R.BenedekSallai" ana="#regular"><note>SALLAI R. BENEDEK (LMP):</note>
+<seg xml:id="AC7_6921.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Azt hiszem, hogy a mai nap folyamán még sokat fogunk tudni beszélgetni a termőföld-privatizációról és arról, hogy ez mennyire bölcs dolog vagy nem bölcs dolog, meg az, hogy fideszes oligarchákhoz kerül vagy nem oda kerül; emiatt teljes mértékben ettől most elvonatkoztatnék, és csakis a hitelkonstrukció kérdéseire szerettem volna még múlt héten feltenni ezt a kérdést.</seg>
+<seg xml:id="AC7_6921.2">Ugyanis önök a kommunikációjukban elejétől kezdve arról beszélgetnek, hogy a családi és kisgazdaságok megerősítése ennek az értékesítésnek a célja, és így a hitelkonstrukciónak is a célja. Ugyanakkor látható az, hogy ha megközelítőleg sikerül 370-380 ezer hektárnyi földet elkótyavetyélni, akkor az nagyságrendileg 350-400 milliárdos forrásigényt támaszt a magyar gazdálkodókkal szemben. Ezzel szemben a bankkonstrukcióban, ha jól látom, 150 milliárdos hitelkeret áll rendelkezésre.</seg>
+<seg xml:id="AC7_6921.3">Az a tiszteletteljes kérdésem elsőként is: ezek szerint önök szerint nagyjából 200 milliárd az, ami a magyar gazdálkodók párnájába be van varrva, ezek a kis- és családi gazdálkodók, akik otthon tartják ezt a különbözetet, amiből a vásárlást biztosítani kell? Tehát mindenképpen szemet szúr ez a viszonylag nagy különbség.</seg>
+<seg xml:id="AC7_6921.4">Szintén szemet szúr az, hogy milyen gazdálkodók lehetnek azok, és milyen kis családi gazdálkodók, akiknek egy főre 300 milliós hitelkeretet biztosít a konstrukció, tehát akár 300 millióig lehet elmenni a hitellel. Nyilvánvalóan itt megint felmerül az, hogy mennyire kicsik és mennyire családok azok, akik ezt a 300 milliós keretet ki tudják használni.</seg>
+<seg xml:id="AC7_6921.5">Illetve nyilvánvalóan még utolsó kérdésként felmerül a hitelkonstrukció kapcsán az, hogy önök azt mondták, hogy nem a bérlők helyzetbe hozása a cél, ehhez képest 10 százalék önerő lesz a hitelhez, akik jelenleg bérlők, és 20 százalék, tehát dupla annyi önerőt igényelnek azok, akik jelenleg nem rendelkeznek bérleti joggal. Ez hogyan szolgálja a társadalom széles körű érdekeit, hiszen, ha igaza van önnek, és valóban 7500 az, aki jelenleg bérleti joggal rendelkezik, akkor is több mint százezer gazdálkodóval szemben ez egy viszonylag elenyészően kicsi szám. Köszönöm szépen, elnök úr.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-10-26-urgent_question-AC7_6922" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_6922.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Amikor a kormány legutóbb támogatást adott kkv-k számára munkahelyteremtési célra, akkor 1610 új munkahely kialakításához összesen 3 milliárd forintot, vagyis munkahelyenként 1,8 millió forintot biztosított. Ehhez képest most a Volkswagen-csoporthoz tartozó Audinak 380 munkahely létrehozására 6 milliárd forintot juttatott az Orbán-kormány, vagyis a kkv-knak adott támogatás majd’ tízszeresét kapta. A kormány eközben ragaszkodik ahhoz az elvtelen állásponthoz, hogy neki a Volkswagen-csalással kapcsolatban semmilyen teendője nincs, nem indít vizsgálatot, nem kér kártérítést, nem szab ki büntetést.</seg>
+<seg xml:id="AC7_6922.2">A tétlenség különösen annak fényében érthetetlen, hogy a több mint ezer gépjárműből álló kormányzati autóparkot szinte kizárólag az említett gyártó dízelüzemű autói alkotják. Eközben az autók az ígértnél lényegesen több környezetszennyezést bocsátanak a levegőbe, halálesetek és megbetegedések sokaságához hozzájárulva. Ráadásul a kormány az Audit és a más multikat nemcsak beruházási támogatásokkal, hanem óriási adókedvezményekkel is támogatja. Az Audi például 2012-ben 98,6 milliárdos nyeresége után 1,2 milliárd forint adót fizetett, vagyis az adóhányad alig haladta meg az 1,2 százalékot. Ugyanakkor egy magyar kkv számára az adóhányad legalább 10 százalék.</seg>
+<seg xml:id="AC7_6922.3">Ezért a következőket kérdezem: összhangban van-e az említett támogatás a magyar gazdaság és a magyar emberek egészsége megóvásának valódi érdekeivel, az autóipartól való függés enyhítésével? Mikor kapják meg végre a magyar kkv-k is ugyanazt a támogatást az Orbán-kormánytól, mint amit az egyes multik kapnak? Köszönöm.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-10-26-urgent_question-AC7_6926" who="#AttilaGelencsér" ana="#regular"><note>GELENCSÉR ATTILA (Fidesz):</note>
+<seg xml:id="AC7_6926.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! A fogyasztói árak átlagosan 0,2 százalékos csökkenése következtében a reálbérek növekedése az év első nyolc hónapjában ismét meghaladta a nettó bérnövekedést. Így nemzetgazdasági szinten a közfoglalkoztatás hatásának beszámításával 3,9 százalékkal, anélkül 4 százalékkal növekedtek ez idő alatt a reálkeresetek. Ezzel 32 hónapja töretlenül emelkednek a reálbérek Magyarországon.</seg>
+<seg xml:id="AC7_6926.2">Nemzetgazdasági szinten a bruttó kereset 243 100, a családi adókedvezmény nélkül számított nettó kereset 159 300 forint volt január és augusztus között, ami a változatlan adórendszer következtében egyaránt 3,7 százalékos emelkedést jelent éves alapon. A kiváló GDP-adatok, a folyamatosan javuló foglalkoztatottság és a csökkenő árak további létszámbővülést és reálkereset-emelkedést vetítenek előre.</seg>
+<seg xml:id="AC7_6926.3">(13.40)</seg>
+<seg xml:id="AC7_6926.4">A pozitív folyamatok pedig kedvezően hatnak a lakosság jövedelmi helyzetére, és hozzájárulnak a belső fogyasztás növekedéséhez is. A kormány megfékezte az áremelkedéseket, lényegében és összességükben nem nőttek az árak, amire a hatvanas évek óta nem volt példa. Mindenki tudja, hogy az infláció a szegények adója, rejtett adója, az alacsony inflációnak tehát a szegényebbek a legfőbb nyertesei.</seg>
+<seg xml:id="AC7_6926.5">Tisztelt Államtitkár Úr! Közös célunk, hogy minél több pénz maradjon a magyar családoknál, nőjenek a háztartások megtakarításai, és lehetőségük nyíljon a korábban elhalasztott vásárlások pótlására. Az alacsony inflációnak is köszönhetően a bérek többet érnek, mint egy esztendővel ezelőtt. Kérdezem államtitkár urat, hogy a példás gazdasági teljesítményünknek köszönhetően van-e kilátásban további reálbér-növekedés</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC7_6926.6">Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a Fidesz soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-10-26-urgent_question-AC7_6927" who="#ImreHorváth" ana="#regular"><note>HORVÁTH IMRE (MSZP):</note>
+<seg xml:id="AC7_6927.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Az utóbbi időben Újpest polgárait két negatív esemény foglalkoztatja. Az egyik a Károlyi Kórház bezárása, amiről már államtitkár úrral itt szót váltottunk, a másik az önkormányzat Quaestor-kötvényügye. Államtitkár urat a másodikkal kapcsolatban szeretném kérdezni azért, mert ebben a kérdésben közpénzről, közvagyonról van szó, és joggal érdekli Újpest állampolgárait, hogy hová tűnt a pénzük.</seg>
+<seg xml:id="AC7_6927.2">Tudomásom szerint az újpesti polgárok pénze a Quaestor közreműködésével kétmilliárd forint összegű, névre szóló államkötvény formájában került a Quaestor Zrt.-hez. A letét nem az azt kezelő szervezet vagyona, az visszajár az újpestieknek, de ez idáig nem kapták meg. Érdekességképpen mondanám el, hogy elgondolkoztató az a tény, hogy addig, amíg Százhalombatta, illetve Fót önkormányzata a sajtó nyilvánosságát kérte, feljelentést is tett, addig az újpesti önkormányzat vezetése nem élt ezzel a lehetőséggel.</seg>
+<seg xml:id="AC7_6927.3">Kérdezem államtitkár urat: jogszerűen várja-e el az önkormányzat, hogy a letétből visszakapja a pénzét, és ennek mikor kellett volna vagy mikor kellene megtörténnie? Lesz-e felelős ez ügy bekövetkezéséért; felelős-e ezen ügyben a Magyar Nemzeti Bank, netán felelős-e Újpest önkormányzati vezetése? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+<seg xml:id="AC7_6927.4">(13.20)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2015-10-26-urgent_question-AC7_6928" who="#SzilárdIstvánNémeth" ana="#regular"><note>NÉMETH SZILÁRD ISTVÁN (Fidesz):</note>
+<seg xml:id="AC7_6928.1">Köszönöm szépen, természetesen elfogadom, elnök úr.</seg>
+<seg xml:id="AC7_6928.2">Tisztelt Államtitkár Úr! Tisztelt Országgyűlés! Európa nagy bajban van, a migrációs válság képes arra, hogy kormányokat, országokat és az egész európai kontinenst is destabilizálja. Erős és egyértelmű válaszra van szükség, egy világos menetrendre és akciótervre az egész Európai Unió számára - mondta Orbán Viktor Spanyolországban, a Néppárt kongresszusán. Nos, Magyarország megadta ezt az erős, előre tervezett, menetrendszerű választ, ez pedig nem más, mint a déli országrész, a déli határ lezárása volt. Ennek megvan egyébként a maga pozitív következménye. Azok a számok, amelyek ma itt fekszenek, a legfrissebb jelentések előttünk, világossá teszik mindenki számára, hogy míg a teljes határzár előtti egy hétben több mint 45 ezer migráns érkezett Magyarország területére a zöldhatáron - ez a szám egyébként több mint a 2014. évi illegális bevándorlók teljes száma -, addig az elmúlt héten összesen 227 főt, tehát naponta maximum 30 embert tartóztattak föl és utasítottak ki az országból. És ráadásul a legfrissebb határzár tekintetében gyakorlatilag senki nem jött át most már napok óta a horvát-magyar határszakaszon.</seg>
+<seg xml:id="AC7_6928.3">Nos, a siker egyértelmű. Talán annyit elvárhattunk volna a hazai baloldaltól is, hogy ezt elismerik, hogy sikerült megállítani azt, amit Európában senkinek sem. Ennek ellenére mindenféle ábrándokkal, gyurcsányi téveszmékkel, lakáskiutalással próbálnak továbbra is migránsok melletti politikát folytatni.</seg>
+<seg xml:id="AC7_6928.4">Szeretném megkérdezni államtitkár urat, hogy miben látja ennek a lényegét, és tényleg elismerhető-e a határzár életbe léptetése következtében kialakult siker, európai szinten egyedülálló siker. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Szórványos taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-10-26-urgent_question-AC7_6929" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC7_6929.1">Köszönöm szépen, elnök úr. Tisztelt Államtitkár Úr! A keményen dolgozó kisember pártján a Fidesz - hangoztatták egy darabig. Ilyen keményen dolgozó kisember Mészáros Lőrinc, Felcsút polgármestere, vállalkozó is. De ne feledkezzünk meg Simicska Lajosról, Gattyán Györgyről, Andy Vajnáról, Orbán Ráhelről és férjéről, Giró-Szász Andrásról, Habony Árpádról és többek között Rogán Antalról sem. Csak néhány név azok közül, akik annak köszönhetik vagyonukat, mert keményen dolgoznak.</seg>
+<seg xml:id="AC7_6929.2">Kedvezményesen nem adunk senkinek semmit. Nem lesz mutyi, mondta a Népszabadságnak Fazekas Sándor. A földművelésügyi miniszter szerint a gázszerelő Mészáros Lőrinc, aki további földekhez juthat, földműves, mert benne van a földművesek jegyzékében - volt a válasza. Mészáros Lőrinc és vállalkozásai lehetnek a kormány földértékesítési programjának legnagyobb nyertesei. Az előző ciklusban még csak bérbe kapta, most már örökbe kapná azokat a Fejér megyei állami földeket Mészáros Lőrinc, amelyeket a helyi gazdák lába alól húzott ki a Fidesz-kormány.</seg>
+<seg xml:id="AC7_6929.3">Mai sajtóhírek szerint Felcsút fideszes polgármesterének cége közel 1 milliárd forint értékű földvagyonhoz jutna hozzá. Véletlen lenne, hogy Orbán Viktor bizalmasa az Orbán-kormány 2010-es hatalomra lépése után egyszerű gázszerelőből néhány év alatt az ország egyik leggazdagabb emberévé vált? Az állam összesen mintegy 640 hektárnyi olyan területet értékesítene Fejér megyében, amelyet jelenleg Mészáros Lőrincék használnak. Ebből több mint 240 hektárra elővásárlási joguk is lesz, vagyis hiába licitálna bárki rájuk.</seg>
+<seg xml:id="AC7_6929.4">Mindezek miatt kérdezem államtitkár urat: meddig megy még a parasztvakítás? Önök szerint tényleg a családi gazdaságok közé tartozik a majd’ 1 milliárd forint értékű földterület, amely Mészáros Lőrinc tulajdonába kerülhet</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az idő leteltét.</desc></kinesic>
+<seg xml:id="AC7_6929.5">Új földesurakhoz majd jobbágyok is tartoznak? Kik lesznek ezek, államtitkár úr?</seg>
+<seg xml:id="AC7_6929.6">Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-10-26-urgent_question-AC7_6930" who="#AnitaHeringes" ana="#regular"><note>HERINGES ANITA (MSZP):</note>
+<seg xml:id="AC7_6930.1">Most a belsőnyíri tanyavilágból hozok egy problémát ide a parlament elé, s kérem államtitkár urat és a minisztériumot, hogy próbálják megoldani az ott élő emberek problémáját. Bizonyára az ön minisztériuma is tudja, hogy amióta megépült a kecskeméti elkerülő út, a mellette lévő belsőnyíri tanyavilágból szinte lehetetlen eljutni a városba. A nemzeti hatóságok nem bírják megoldani, hogy az útról balra is lehessen kanyarodni, ráadásul nemcsak autóval lehetetlen erre a közlekedés, hanem kerékpárral, gyalog és tömegközlekedéssel is. Busszal azért lehetetlen, mert egyszerűen nincs buszmegálló a közelben, kerékpáron pedig azért, mert egyszerűen nincs kerékpárút. Ha valaki újságot szeretne ide rendelni, a postás nem tudja kihozni ide az újságot, sőt még fát is nehéz ide rendelni, mert nehéz elmagyarázni a szállítónak, hogy lehet eljutni ide szabályosan. A múltkor még az is megesett, hogy a mentőt is több tíz percig kellett navigálniuk a helyieknek, miután el tudták magyarázni, hol tud úgy kanyarodni, hogy ne okozzon balesetet.</seg>
+<seg xml:id="AC7_6930.2">Mindezekre való tekintettel kérdezem: ugye, nem hagyják cserben a helyi lakosokat, s egy 13 milliárdos fejlesztés mellett nem veszik el az ott élő emberek élete? Mit tesznek azért és mikor, hogy a belsőnyíriek problémája mielőbb megoldódjon? Mikor készül el végre a Kecskemétet és Lajosmizsét összekötő kerékpárút? Miért állít valótlanságokat a NIF Zrt. a kerékpárúttal kapcsolatban, és miért állítja ez a cég, hogy a kerékpárút igénye fel sem merült a helyiekben? Mindenki tudja, hogy nagyon régóta küzdenek érte. A Magyar Közút Nonprofit Zrt. miért állította le a szervizút építését, és ezt mikor kezdik el újra, hiszen ez szükséges ahhoz, hogy az itt élő emberek ne legyenek elzárva a várostól? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-10-26-urgent_question-AC7_6931" who="#LászlóFöldi" ana="#regular"><note>FÖLDI LÁSZLÓ (KDNP):</note>
+<seg xml:id="AC7_6931.1">Köszönöm a szót, elnök úr. Tisztelt Elnök Úr! Tisztelt Államtitkár Asszony! Amikor 2011-ben az Országgyűlés döntött a sporttörvény átfogó felülvizsgálatáról, a módosítással megteremtette az állami támogatások programfinanszírozási alapokon nyugvó bevezetését a sporttámogatások rendszerében. Erre alapozva került sor 2013-ban 16, úgynevezett kiemelt sportág hosszú távú fejlődést biztosító finanszírozására.</seg>
+<seg xml:id="AC7_6931.2">(14.00)</seg>
+<seg xml:id="AC7_6931.3">A kiemelt sportágak kiválasztása a Magyar Olimpiai Bizottság szakmai javaslata alapján a sportágak eredményességére és tradicionális magyar sikersportági jellegére tekintettel történt. Hosszú-hosszú évek szocialista kormányzási gyakorlatát sikerült azzal megváltoztatnunk, hogy nem ad hoc jelleggel kapnak bizonyos sportágak többnyire kijárásos alapon vagy éppen politikai kapcsolatok révén jelentős mértékű állami támogatást, hanem a sportági szakszövetségek kizárólag magas színvonalú, hosszú távú sportágfejlesztési koncepció elkészítését követően juthatnak hozzá az állami forrásokhoz, a forrás felhasználását pedig a minisztérium sportért felelős államtitkársága szigorú kontroll alatt tartja.</seg>
+<seg xml:id="AC7_6931.4">A KDNP-frakció szívügyének tekinti a sportot, mert hisszük és valljuk, hogy a sportot mint eszközt használva egy egészségesebb társadalmat tudunk felépíteni. Hisszük és valljuk, hogy minden egyes forint, amit a sportba fektetünk, a nemzet jövőjének építését, gyermekeink egészségének, testi-lelki egyensúlyának megteremtését jelenti.</seg>
+<seg xml:id="AC7_6931.5">Tisztelt Államtitkár Asszony! Lassan eltelik két év a 16 kiemelt sportág életében. Tisztelettel kérdezem, hogy milyen tapasztalata van a kormánynak a fejlesztési koncepciók megvalósítása kapcsán. Kimutathatók-e számszerűsítve az eredmények? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-10-26-urgent_question-AC7_6933" who="#LorántnéHegedűs" ana="#regular"><note>HEGEDŰS LORÁNTNÉ (Jobbik):</note>
+<seg xml:id="AC7_6933.1">Köszönöm szépen. Tisztelt Miniszter Úr! Tény, hogy Kovács Béla támogatta a Jobbikot. Ez egy mindenki számára elérhető, nyilvános adat. No, ezt csak azért kívántam elöljáróban leszögezni, hogy megspórolhassak önnek egy kötelező kommunikációs kört, és hogy érdemben tudjunk szót váltani.</seg>
+<seg xml:id="AC7_6933.2">Ugyanakkor tény az is, hogy milyen módon részesíti előnyben Andy Vajnát a kormányzat, mennyi adókedvezményt kap. Tény, hogy kizárólag az ő pénztárgépei nincsenek bekötve az adóhatósághoz. Tény az is, hogy kaszinóinak ismeretlen nagyságú nyereségét az utolsó fillérig adóparadicsomokba menekíti; és igen, tény az is, hogy Andy Vajnának egyébként nem erőssége az adómorál. Ezért is volt kisebb - kisebb?, 6,5 millió dolláros - kellemetlensége az amerikai adóhatóságnál. Ez is egy mindenki számára elérhető, nyilvános adat.</seg>
+<seg xml:id="AC7_6933.3">Ezek után már csak az vetődik fel a korán kelő, keményen dolgozó kisemberben, akinek az adóforintjait játssza el a Fidesz: miért éri meg a kormányzatnak ennek a szégyenteljes, becsületüket besározó helyzetnek a fenntartása? És ugyan mennyit fizethet vissza a Fidesz pártkasszájába ez az ügyeletes kis kedvenc?</seg>
+<seg xml:id="AC7_6933.4">Ön, illetve együttesen a magyar kormán</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_6933.5">felelősek hazánk jó hírnevéért, és ezen keresztül 10 millió ember méltóságáért. Kérdezem: mit kíván tenni a kormányzat annak érdekében, hogy ez a súlyos, korrupciós vád elháruljon Magyarországról; avagy milyen érzés közpénzből fizetni a zsoldoskosztot?</seg>
+<seg xml:id="AC7_6933.6">Köszönöm szépen, hogy meghallgattak</seg>
+<kinesic type="applause"><desc>Taps a Jobbik padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2015-10-26-urgent_question-AC7_6934" who="#GyörgySzilágyi" ana="#regular"><note>SZILÁGYI GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_6934.1">Köszönöm szépen a szót, elnök úr. Tisztelt Ház! A migránshelyzet megmutatta a gondolkodásbeli lényeges különbséget a XX. és a XXI. századi pártok között. A Jobbik kérte önöket, hogy a migránsok által okozott krízishelyzet ne váljon, nem válhat a politikai csatározások, politikai érdekek színterévé. Éppen ezért a Jobbik konstruktívan támogatta a kormányt a krízis kezelésében, nem néztük, hogy ez politikailag visz vagy hoz a Jobbiknak, kizárólag az ország érdeke volt fontos számunkra.</seg>
+<seg xml:id="AC7_6934.2">Mint tudjuk, az MSZP nem az ország érdekét nézte ebben a kérdésben, és most kiderült, hogy a Fidesz sem különb az MSZP-nél, a Fidesz sem tud szakítani a XX. századi pártok gondolkodásmódjával. Mint tudják, kitüntetéseket adtak azoknak a településeknek, amelyek valóban helytálltak ebben a krízishelyzetben. Itt a polgármesterek kapták a kitüntetést, de egyértelmű, hogy a vezetőkön keresztül azok a közösségek kapták, amelyek ebben a nehéz helyzetben helytálltak. Innen én is gratulálok ezen érdekközösségeknek.</seg>
+<seg xml:id="AC7_6934.3">Az viszont már elég furcsa, hogy Ásotthalom polgármestere és ezzel Ásotthalom közössége nem kapott önöktől elismerést. Miért, amikor hihetetlen nagy nyomás nehezedett a településre és az ott élők erőn felül helytálltak? Vajon miért? Lehet, hogy azért, mert annak idején az önkormányzati választásokon százszázalékos támogatottsággal jobbikos polgármestert választottak? Vagy esetleg azért, mert ők már 2014-ben szóltak, hogy gond lesz a migrációval? Akkor, amikor önök még azt mondták a Jobbik felvetéseire, amit az MSZP, hogy nincs itt semmi gond, ne riogassuk az embereket. Vagy azért, mert a belügyminiszter szégyellte magát, hogy nem segített, amikor azt kérték tőle, hogy segítsen egy terepjáróval a mezőőrség hatékonyabb munkájában? Nem ez történt. Van abban valami elgondolkodtató, hogy önök így utólag is ilyen lelketlen, pökhendi módon viselkednek. Önök nem Toroczkai Lászlót nem tüntették ki, hanem mindazon honfitársunkat leckéztetik, akit a polgármesterük képvisel. Higgyék el nekem, hogy ez így nem lesz jó!</seg>
+<seg xml:id="AC7_6934.4">Sokszor megpróbálták megalázni ezeket az embereket, de nem fogják tudni őket megalázni</seg>
+<kinesic type="signal"><desc>Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC7_6934.5">Kérdezem, hogy mikor változik ez a láthatóan értelmetlen és pitiáner viselkedés az önök részéről</seg>
+<kinesic type="applause"><desc>Dr. Józsa István: A XXII. században! - Taps a Jobbik padsoraiból.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

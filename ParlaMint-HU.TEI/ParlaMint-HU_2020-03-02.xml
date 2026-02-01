@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2020-03-02" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2020-03-02 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2020-03-02 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="10" unit="speeches">10 beszéd</measure>
+        <measure xml:lang="en" quantity="10" unit="speeches">10 speeches</measure>
+        <measure xml:lang="hu" quantity="3572" unit="words">3572 szó</measure>
+        <measure xml:lang="en" quantity="3572" unit="words">3572 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2020-03-02">2020. 03. 02.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="10"/>
+          <tagUsage gi="seg" occurs="60"/>
+          <tagUsage gi="kinesic" occurs="15"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2020-03-02">2020-03-02</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2020-3-2-urgent_question-AC8_8580" who="#PéterJakab" ana="#regular"><note>JAKAB PÉTER (Jobbik):</note>
+<seg xml:id="AC8_8580.1">Köszönöm a szót. Tisztelt Miniszterelnök Úr! Múlt hónapban meghallgattam az ön évértékelőjét. Esküszöm, mintha a vagyonnyilatkozatát olvastam volna: papíron stimmelt, épp csak a valósághoz nem volt sok köze. Miniszterelnök úr, ön most már rendszeresen, akár itt a parlamentben is egy olyan országról beszél, ahol soha nem volt még ilyen jó az élet, soha nem dolgoztak még ennyien, soha nem kerestek még ilyen jól, soha nem volt még ilyen kevés a szegény ember, soha nem szárnyalt még így a gazdaság.</seg>
+<seg xml:id="AC8_8580.2">(13.50)</seg>
+<seg xml:id="AC8_8580.3">Hát, lényegében még egy tisztasági festés kell a kórházakban, és minden rendben lesz.</seg>
+<seg xml:id="AC8_8580.4">Miniszterelnök Úr! Ezt az országot úgy hívják, hogy Svájc. Ön viszont Magyarország miniszterelnöke. Tudja, ez az a hely, ahol az Európai Unió második legszegényebb nemzete él, és amelynek a kormánya a második legkorruptabb. Ez az a hely, ahol a férfiak többsége még az előtt meghal, mielőtt nyugdíjba mehetne. Ez az a hely, ahol 600 ezer nyugdíjas él kevesebb, mint 100 ezer forintból. Ez az a hely, ahol, ha valaki gyermeket vállal, annak jó eséllyel a szegénységet is vállalnia kell, mert ebben az országban a gyermekes családoknak közel a fele a létminimum alatt él</seg>
+<seg xml:id="AC8_8580.5">(Dr. Rétvári Bence: Ez nem igaz!)</seg>
+<seg xml:id="AC8_8580.6">Miniszterelnök úr, én tudom, több vezető fideszes politikus elismerte már, hogy ön elvesztette a kapcsolatot a valósággal, nyilván ezért is menekül méregdrága nemzeti konzultációkba. Csak tudja, nem ez a megoldás! Nem konzultálgatni kell, nem levelezgetni kell, hanem ki kell menni az emberek közé, ki kell menni a nép közé, már ha van hozzá bátorsága! A sas néha szálljon már le a magasból, hogy lássa, hogyan élnek azok, akiket verébnek néz! Akiket ön hülyének néz akkor, amikor minden egyes problémára annyi a válasza, hogy Soros!</seg>
+<seg xml:id="AC8_8580.7">Miniszterelnök úr, menjen ki a nép közé, nézze meg, hogyan élnek az emberek abban az országban, ahol nincsen minőségi munka, se minőségi bér! Ahol a falvakban nincs iskola, se háziorvos, se rendőr, se postás, busz is csak naponta kétszer, ahol a közmunkán túl nincs B terv. Miniszterelnök úr, ha esetleg erről az országról is mondana néhány gondolatot, azt megköszönnénk.</seg>
+<seg xml:id="AC8_8580.8">Parancsoljon, öné a szó</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-3-2-urgent_question-AC8_9210" who="#GergelyArató" ana="#regular"><note>ARATÓ GERGELY (DK):</note>
+<seg xml:id="AC8_9210.1">Már csak azért sem fogok személyeskedni, mert engem az ön személye nem nagyon érdekel</seg>
+<seg xml:id="AC8_9210.2">(Derültség az ellenzéki, felzúdulás a kormánypárti padsorokban.)</seg>
+<seg xml:id="AC8_9210.3">Érdekel viszont a politikája, és érdekel az, hogy mit tesz a hazánkkal, evvel az országgal.Tisztelt Miniszterelnök Úr! Ön nem válaszolt Jakab Péter kérdésére, amikor azt kérdezte, hogy hogyan fog megbirkózni a magyar egészségügy a koronavírus-járvánnyal akkor, amikor 2-3 ezer forintos jutalmakat fizetnek a mentőszolgálatnál; akkor, amikor sok milliárd forintos adóssága van a kórházaknak az elégtelen finanszírozás miatt; és akkor, amikor 971 orvos hiányzik a kórházakból, 459 a járóbeteg-ellátásból, és összességében tízezer egészségügyi dolgozó hiányzik ma Magyarországon.</seg>
+<seg xml:id="AC8_9210.4">És nem válaszolt Harangozó képviselő úrnak sem, aki azt kérdezte, hogy miért rekeszti ki a szegény sorsú diákokat az oktatási rendszerből. A 17 éves tankötelezettséggel, a tankötelezettség leszállításáva</seg>
+<seg xml:id="AC8_9210.5">(Dr. Rétvári Bence: Ti tandíjat vezettetek be.)</seg>
+<seg xml:id="AC8_9210.6">; azzal, hogy olyan tandíjakat vezettek be az egyetemeke</seg>
+<seg xml:id="AC8_9210.7">(Dr. Rétvári Bence: Ti vezettétek be.)</seg>
+<seg xml:id="AC8_9210.8">csak másképp hívják, Rétvári államtitkár úr, de az attól még tandíj , ami egy átlagos magyar családnak megfizethetetlen; azzal, hogy folyamatosan szűkíteni akarják az érettségit adó férőhelyeket a közoktatásban; azzal, hogy tönkreteszik a szakképzés rendszerét; azzal, hogy kiszervezik most már a közszféra alól és a közoktatásból az egész szakképzési rendszert; és azzal, hogy olyan családtámogatási rendszert vezettek be, ami nem jut el a legszegényebb szülőkhöz, a legszegényebb családokhoz. Nem válaszolt arra a kérdésre, hogy mit kínál ez az ország ma a szegény sorsú fiataloknak, szegény sorsú családoknak a közmunkán vagy a kivándorláson kívül.</seg>
+<seg xml:id="AC8_9210.9">Miniszterelnök úr, vállalja a felelősséget azért, hogy ilyen helyzetben van az oktatás és az egészségügy</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-3-2-urgent_question-AC8_9231" who="#LászlóLórántKeresztes" ana="#regular"><note>DR. KERESZTES LÁSZLÓ LÓRÁNT (LMP):</note>
+<seg xml:id="AC8_9231.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Miniszterelnök Úr! Ön az imént Harangozó képviselő úr kérdésére azt válaszolta, hogy ma a fiataloknak jobb esélye van, mint 2010 előtt. Nos, az a helyzet, miniszterelnök úr, hogy az ön tízéves kormányzása alatt több százezer ember volt kénytelen kényszerűségből elhagyni az országot. Önök annyi esélyt adtak a fiataloknak, hogy mára minden hatodik anyaországi magyar gyermek már külföldön születik.Miniszterelnök úr, én Pécs városában élek, tíz év alatt az ön kormányzása alatt Pécs városából 15 ezren mentek el kényszerűségből, ennyivel csökkent a város lakossága, jórészt a kényszerű elvándorlás miatt. Miniszterelnök úr, válaszoljon: milyen esélyt adott ön a magyar fiataloknak, milyen esélyt adott ön a pécsieknek?</seg>
+<seg xml:id="AC8_9231.2">No, de igyekszem önnek egy olyan kérdést föltenni, amire talán az ígéretének megfelelően érdemi választ is tudok adni</seg>
+<seg xml:id="AC8_9231.3">(Sic!)</seg>
+<seg xml:id="AC8_9231.4">Az teljesen világos, hogy az atomenergia felhasználása és a paksi projekt kapcsán mi önökkel soha nem fogunk egyetérteni. Nekünk nagyon erőteljes meggyőződésünk, hogy az atomenergia nem zöld, nem olcsó, és semmiképpen nem tekinthető biztonságosnak. Önök hoztak egy rendkívül súlyos politikai döntést most már sok évvel ezelőtt, és ez a döntés generációkat adósított el Magyarországon, miniszterelnök úr.</seg>
+<seg xml:id="AC8_9231.5">(14.10)</seg>
+<seg xml:id="AC8_9231.6">Önök úgy hozták meg ezt a döntést, hogy minden érv e mellett a döntés mellett azóta már hazugságnak vagy tévedésnek bizonyult. A projekt döglődik, mondhatjuk. A paksi projekt rengeteg, most már nem is lehet számolni, hány éves csúszásban van.</seg>
+<seg xml:id="AC8_9231.7">Vane jelen pillanatban fogalma a kormánynak, hogy mennyibe fog kerülni ez a gigaprojekt a magyar adófizetőknek? Például milyen műszaki tartalommal fog megvalósulni? Szükség lesze hűtőtornyokra s a többi? Elismerie, miniszterelnök úr, hogy ez a nagyon sok éves csúszás azért történt meg, mert azok az oroszok, akiket önök pályázat nélkül juttattak a projekthez, egyszerűen nem tudták időben elkészíteni a teljes tervezési dokumentációt, ezért el sem indulhatott még az engedélyezési eljárás?</seg>
+<seg xml:id="AC8_9231.8">És, miniszterelnök úr, talán a legfontosabb kérdésem, hogy mikor jön el az a pont a projekt kapcsán, amikor önök azt mondják, hogy a magyar emberek és a magyar gazdaság, a magyar társadalom érdekében önök visszalépnek ettől a projekttől. És ha ez megtörténik, és elismerik, hogy rossz döntést hoztak, miniszterelnök úr személyesen vállaljae a felelősséget ezekért a tragikusan rossz döntésekért? Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-3-2-urgent_question-AC8_9234" who="#TamásHarangozó" ana="#regular"><note>DR. HARANGOZÓ TAMÁS (MSZP):</note>
+<seg xml:id="AC8_9234.1">Köszönöm a szót. Miniszterelnök úr, ön rendszeresen és most is az azonnali kérdések órájában az önhöz feltett kérdések kapcsán mindig azért panaszkodik, hogy személyeskedésre használják a képviselők ezt a kérdést</seg>
+<seg xml:id="AC8_9234.2">(Dr. Völner Pál: Tény.)</seg>
+<seg xml:id="AC8_9234.3">Az a rossz hírem van, miniszterelnök úr, hogy az elmúlt tíz évben ön az, aki egyetlenegy kérdésre épkézláb, normális választ még nem adott, ellenben mindig, ahogy gondolom, majd most is, a kérdezőt, az ő személyét támadja, és személyeskedik. Így volt ez Jakab Péterrel is, ahelyet</seg>
+<seg xml:id="AC8_9234.4">(Felzúdulás a kormánypárti oldalon. Dr. Rétvári Bence: Szépen megvéditek egymást!)</seg>
+<seg xml:id="AC8_9234.5">, ahelyett, hogy arra az egyszerű kérdésre válaszolt volna, amit föltett, ahelyett megint papírból valamilyen lejárató szöveget nyomott most éppen a Jobbikkal szemben. Megpróbálok hasonló kérdést feltenni, egy kicsit nem személyeskedőre személyesebbre venni, hátha úgy miniszterelnök úr jobban elgondolkodik rajta. Ön ’89-ben, akkor még fiatal politikusként, ha jól emlékszem, a 168 Órának adott egy interjút. Abban az interjúban ön elmondta, hogy egy faluszéli vályogházból indította életét, és ott nőtt föl</seg>
+<kinesic type="noise"><desc>Dr. Brenner Koloman közbeszól.</desc></kinesic>
+<seg xml:id="AC8_9234.6">Azt is elmondta, hogy olyan világban élt, ahol egyébként utána ön gimnazista, majd egyetemista lehetett, aztán később ennek az országnak a miniszterelnöke.</seg>
+<seg xml:id="AC8_9234.7">Miniszterelnök úr, ön szerint kérem, egy picit figyeljen rám, köszönöm; semmi vicces nem lesz abban, amit kérdezek , ön szerint egy olyan országot épített az elmúlt tíz évben, ahol egy faluszéli vályogházból bárki el tud menni egyetemre, és akár, h</seg>
+<seg xml:id="AC8_9234.8">(Dr. Rétvári Bence: Igen!)</seg>
+<seg xml:id="AC8_9234.9">tehetséges, miniszterelnök tud lenni? Ön így értékeli, miniszterelnök úr? Ön szerint, többek közt az ön szavai által is elindított, jelenleg egyébként szinte a zsidótörvények időszakát idéz</seg>
+<kinesic type="signal"><desc>Felzúdulás a kormánypártok soraiból. Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC8_9234.10">hangulatkelté</seg>
+<seg xml:id="AC8_9234.11">(Nacsa Lőrinc: Szégyelld magad!)</seg>
+<seg xml:id="AC8_9234.12">, ami ebben az országban zajlik a cigánysággal szemben, az egy ilyen ország építésére irányuló tevékenység, miniszterelnök úr? Ön ezt komolyan gondolja? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az ellenzék soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-3-2-urgent_question-AC8_9333" who="#TamásMellár" ana="#regular"><note>DR. MELLÁR TAMÁS (Párbeszéd):</note>
+<seg xml:id="AC8_9333.1">Köszönöm szépen, elnök úr. Tisztelt Miniszterelnök Úr! Én egy falusi parasztgyerek vagyok, szegény családból származom, és a ’60-70-es években nőttem föl a kádári rendszerben. A családunk nem volt kommunista, sőt igen kommunistaellenesek voltunk, hiszen kulákok voltunk a régi-régi időkben</seg>
+<kinesic type="noise"><desc>Zaj, közbeszólások a Fidesz padsoraiban.</desc></kinesic>
+<seg xml:id="AC8_9333.2">Ehhez képest azonban mégis diplomát tudtam szerezni, mégis egyetemi tanár tudtam lenni abban a rendszerben. A rendszerváltozás után végig tudtam követni azt, hogy kik jönnek az egyetemre. Sajnálatos módon azt lehetett látni, hogy egyetemi hallgatók azok lettek túlnyomó többségben, akik értelmiségi, elit családokból jöttek, és a szegény paraszti családokból nem igazán tudtak fölzárkózni. Tehát ez lenne a dolognak az első része.</seg>
+<seg xml:id="AC8_9333.3">A kérdésemre rátérve: nagy örömmel hallgattam önt, amikor az évértékelő beszédében arról beszélt, hogy a legsikeresebb tíz esztendő volt a mostani az elmúlt száz évben. Örömömben elkezdtem nézni a statisztikai adatokat, és sajnálatos módon azt láttam, hogy sem a demográfiai számok, sem az oktatás, az egészségügy, a szociális ellátás területén nem történt lényeges javulás, sőt. A gazdaság területén, amely a legsikeresebb ágazat, ott valóban vannak pozitív eredmények, de ha megnézzük, az 1996 és 2006 közötti tíz évben nagyobb volt a gazdasági növekedés, és nagyobb volt az egy keresőre jutó reálkereset is; abban az időszakban egyébként, amikor az adósság-GDP-hányados szintén csökkent.</seg>
+<seg xml:id="AC8_9333.4">Azt szeretném tehát öntől kérdezni, hogy mire alapozta ezt a megállapítását. Csak nem arra, hogy 2010 után az országgyűlési képviselők vagyona hatszorosára növekedett, amelyben nyilván oroszlánrészt képviseltek a fideszes képviselők?</seg>
+<seg xml:id="AC8_9333.5">Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Párbeszéd és a DK padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-3-2-urgent_question-AC8_9407" who="#AnettBősz" ana="#regular"><note>BŐSZ ANETT (DK):</note>
+<seg xml:id="AC8_9407.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Előrebocsátom, hogy tisztában vagyok azzal, hogy az árstabilitás őre a nemzeti bank, nem pedig a mindenkori magyar kormány. Ezzel együtt a Pénzügyminisztériumnak is kötelessége foglalkozni ezzel, különösen azért, mert a forintromlás, illetve az infláció együttes hatásának eredője, hogy romlik a reálbérek értéke. Hétéves csúcson az infláció, történelmi mélyponton a forint. Ez a két tényező pedig külön-külön és együttesen is rendkívül rossz hatással van a magyar fogyasztókra. Az elmúlt 12 hónapban az élelmiszerárak inflációja magasabb volt, mint az átlagos infláció, a bevásárlási árindex mára elérte a 7,6 százalékot. Ez közel kétszeres drágulási ütemet jelent összehasonlítva az átlagos fogyasztói árnövekedéssel.</seg>
+<seg xml:id="AC8_9407.2">(14.50)</seg>
+<seg xml:id="AC8_9407.3">A feldolgozott tejtermékek mindegyike magasabb árnövekedési ütemet produkált, még az élelmiszerek átlagos inflációjánál is. A feldolgozott hústermékek, a lakásbérleti díjak, a friss hazai, valamint a déligyümölcsök mind 10 százalék fölötti árnövekedés</seg>
+<kinesic type="noise"><desc>Folyamatos zaj. Az elnök csenget.</desc></kinesic>
+<seg xml:id="AC8_9407.4">tudnak maguk mögött az elmúlt egy évben.</seg>
+<seg xml:id="AC8_9407.5">Az alapvető fogyasztói jószágkosár ilyen mértékű árnövekedése miatt tömegek érzékelik, hogy ugyanabból a pénzből, amiből egy évvel ezelőtt egy kiló sertéshúst tudtak vásárolni, ma alig 80 dekát. A kenyér és a pékáru esetén ugyanabból a pénzből, amiből egy éve még egy kilót tudtak vásárolni, ma 85-90 dekát tudnak megvenni. Az importtermékek árát jelentősen növelte a történelmi mélypontra süllyedt forint, és igen nyugtalanító a tény, hogy elemzők szerint az árfolyam az euróval szemben 350 forint fölé is emelkedhet hamarosan.</seg>
+<seg xml:id="AC8_9407.6">Tisztelettel kérdezem az államtitkár urat, milyen tervei vannak a kormánynak a magas infláció és a gyenge forint hatásainak kivédésére. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a DK és az LMP padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-3-2-urgent_question-AC8_9429" who="#IldikóBangónéBorbély" ana="#regular"><note>BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):</note>
+<seg xml:id="AC8_9429.1">Köszönöm szépen, elnök úr, de hát nem volt más választása elnök úrnak a házszabály szerint, mint hogy megadja nekem a szót</seg>
+<seg xml:id="AC8_9429.2">(Moraj és derültség a kormánypárti padsorokban.)</seg>
+<seg xml:id="AC8_9429.3">Ma Magyarországon sokféle válságról beszélhetünk, de az egyik, ami a fiatalokat, a mai fiatalokat érinti, az a lakhatás problémája. Ma Magyarországon több mint 1,7 millió 18 év alatti gyermek él. Ha megnézik a statisztikai adatokat, akkor azt látjuk, közel 900 ezerre tehető azoknak a fiataloknak a száma, akik már több mint 18 évesek, de még mindig a szüleikkel élnek. Hogy egy kicsit pontosabban mondjam önöknek, a 19-25 év közötti korosztály esetében 528 ezer fiatalról, a 26-30 éves korosztályban 226 ezer fiatalról, a 31-35 éves korú fiatalok körében 131 ezer fiatalról beszélünk, akik még a mai napig kénytelenek a szüleikkel élni. Ha megnézzük a szerepeket, akkor azt látjuk, hogy a fiúk körében 10-15 százalékkal magasabb azoknak az aránya, akik a szüleikkel élnek, mint a lányok esetében. Nagyon sokszor azt mondják, hogy ez az a tendencia, amikor arról beszélünk, hogy kényelmi okokból élnek a fiatalok ilyen sokáig otthon. De ha megnézzük a számokat, akkor látjuk, hogy ez nem igaz.</seg>
+<seg xml:id="AC8_9429.4">Ma az első lakáshoz jutás az egyik legnagyobb problémát okozza a fiataloknak. Ma azt mondja a kormány, hogy házasodjál, szüljél három gyermeket, és akkor majd fogsz kapni támogatást. Na de az első gyereknek is meg kellene, tisztelt képviselő urak, születni, és ezt kérdezem, államtitkár úr, hogy a kommunikáción kívül mi az a hatékonyság, amivel tudnák növelni azt, hogy a fiatalok minél hamarabb lakáshoz juthassanak. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-3-2-urgent_question-AC8_9430" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC8_9430.1">Tisztelt Miniszterelnök Úr! Úgy érzem, talán kissé érzékenyen reagált azokra a témafelvetésekre, amelyek ellenzéki képviselőktől származtak. Nem válaszolt érdemben arra, hogy a magyar egészségügyön belül miért halnak meg indokolatlanul tízezrével emberek olyan bajokban, amelyek megelőzhetők vagy orvosolhatók lennének. Nem válaszolt a szakképzés tönkretételét célzó kérdésre sem. S a kivándorolt fiatalok tekintetében, úgy érzem, vállalhatatlan kijelentést tett, hiszen Közép-Európa viszonylatában Magyarországot tartani a legkedvezőbb helynek ilyen szempontból, legalábbis problémás a jövőre nézve. De leginkább az a fájó, miniszterelnök úr, hogy ön két alkalommal is arra a kijelentésre ragadtatta magát, hogy megtámadják a mostani kormányt azok, akik bármifajta kritikai véleményüknek adnak hangot. És ne haragudjon, Mellár professzort gyűlöletbeszéddel vádolni legalábbis érdekes a magyar parlamentben</seg>
+<seg xml:id="AC8_9430.2">(Derültség a kormánypárti oldalon.)</seg>
+<seg xml:id="AC8_9430.3">De szeretnék korrekt lenni, miniszterelnök úr csak figyeljen rám, kérem , és átevezni egy olyan területre, ahol talán otthonosabban érzi magát, és talán tudunk bizonyos közös pontokat találni, ez pedig a migráció területe. Nem kívánok inkorrekt lenni, és nem a letelepedési kötvények korrupt üzletágát hozom ide, amin a magyar költségvetés tízmilliárdokat vesztett, sőt nem is az önök által százezrével ideimportált idegen munkások kérdéskörét hozom ide, hiszen ez önmagában egy külön vitát érdemelne.</seg>
+<seg xml:id="AC8_9430.4">Ugyanakkor azt látom, miniszterelnök úr, és vélelmezem, hogy megegyezhetünk ebben, hogy Magyarországot újabb migrációs hullám fenyegeti. Nem vagyunk meggyőződve arról, hogy a határainkon amúgy kiválóan teljesítő katonák és rendőrök önmagukban meg tudják oldani ezt a feladatot. Volt Magyarországnak egy határőrsége, külön szakmai speciális igényeknek megfelelő módon. A kérdésem tehát egyértelmű: partnere a kormányzat abban, hogy újra legyen határőrség Magyarországon, amely hatékonyan tudja megvédeni a jövőben is a magyar határt? A Jobbik volt az egyetlen párt, amely a kétharmadot biztosította önöknek annak érdekében, hogy a honvédség most ott lehessen. Most a Jobbik az a párt, amely a még hatékonyabb megoldást javasolja, az önálló határőrség felállítását annak érdekében, hogy a biztonságunk valóban szavatolható legyen</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-3-2-urgent_question-AC8_9431" who="#LőrincNacsa" ana="#regular"><note>NACSA LŐRINC (KDNP):</note>
+<seg xml:id="AC8_9431.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! Mindannyian aggódó figyelemmel kísérjük a törökországi helyzetet, melynek következtében azonnal migránsok tízezrei indultak meg Európa felé a balkáni útvonalon. A helyzet nagyon súlyos, ugyanis Törökország területén közel négymillió migráns tartózkodik. A hétvégén többször is könnygázt vetett be a görög rendőrség a görög-török határnál, ahol több száz migráns kövekkel dobálta meg őket, hogy kikényszerítsék a határ megnyitását jelentették a helyszínen tartózkodó hírügynökségek. Az ENSZ jelentése szerint 80 ezren már meg is indultak; szombat estére mintegy 13 ezer ember torlódott össze a határon abban a reményben, hogy uniós területre léphetnek. A török-görög határon tehát már a hétvégén krízishelyzet alakult ki, mostanra többen már Észak-Macedóniában járnak, és hamarosan elérhetik a szerb határt is. Ebben a súlyos migrációs válsághelyzetben ismét felértékelődött a magyar fizikai, jogi és élőerős határzár szerepe, mint az egyetlen biztonságos határvédelem Európában a szárazföldi migrációs útvonalon. Miközben a magyar kormány és a Fidesz-KDNP-s parlamenti többség mindent megtesz a magyar határ és a magyar emberek védelme érdekében, öt éve mást sem hallunk az ellenzéktől, mint hogy nincs is migráció, a határzárra pedig nincs is szükség. Emlékezzünk, Kunhalmi Ágnes azt mondta, hogy a bevándorlás egy álprobléma, nem létezik. Karácsony Gergely azt követelte, hogy semmiképpen se kerüljön sor a határ menti kerítés megépítésére. Botka László miniszterelnök-jelölti programjának része volt, hogy „azon leszünk, hogy a kerítés minél gyorsabban lebontható legyen”. Niedermüller Péter, aki a magyar emberek millióit rémisztő képződménynek tartja, azt hangsúlyoztatta, hogy „lebontanám a kerítést, jöjjenek csak a menekültek”. Az anarchista frakció tagja, Tordai Bence pedig azt mondta: „Ezerszer elmondtuk: a déli határon épített kerítés értelmetlen, embertelen és pazarlóan drága.” Mindezek alapján látszik, ha az ellenzéken múlna, ma nem lenne határvédelem Magyarországon, és a migránsok tömegei, amelyek Törökország felől elindultak, védelem nélkül érnék el Magyarországot, és átvonulnának, csakúgy, mint 2015-ben. Ezért kérdezem államtitkár urat: mit tesz a kormány Magyarország biztonságáért?</seg>
+<seg xml:id="AC8_9431.2">Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-3-2-urgent_question-AC8_9434" who="#AttilaBarcza" ana="#regular"><kinesic type="noise"><desc>BARCZA ATTILA (Fidesz): Tisztelt Államtitkár Úr! A mögöttünk hagyott esztendőkben az emberek társadalmi igazságérzetét alaposan felkavaró bírósági ítéletek születtek, melyek milliós nagyságrendű kártalanítások fizetésére kötelezik a magyar államot olyan személyek részére, akik valamely kirívóan súlyos, galád tettük következtében jogerős szabadságvesztés-büntetésüket töltik, mindezt arra alapozva, hogy nem süt be kellően a nap a zárkájuk ablakán. Gyomorforgató, hogy az ügyek túlnyomó többségében eljáró, a balliberális oldalhoz, valamint a Soros Alapítvány kifizetési listáján szereplő szervezetekhez kötődő ügyvédek jelentős hasznot húznak az állam ellen indított perekből. Tényszerű adatokkal is alátámasztható, hogy az említett ügyvédek zsebében landolt a börtönkártalanításokra kifizetett összegek több mint 60 százaléka. A börtönbiznisz néven futó 10 milliárdos iparágnak köszönhetően már több mint 12 ezer ilyen kártalanítási per zajlott le, melyek eredményeként olyan bűnözők, mint az olaszliszkai lincselő vagy a battonyai rém milliós összegekhez jutottak. Ezekhez a perekhez pedig a busás sikerdíj megkaparintása érdekében szívesen nyújtanak segítséget a Helsinki Bizottság és a TASZ ügyvédei, illetve a korábban szociálliberális képviselőjelöltként is harcba szálló Magyar György.</desc></kinesic>
+<seg xml:id="AC8_9434.1">Nincs új a nap alatt, tisztelt képviselőtársaim, hiszen a börtönökben agitáló provokátorok célja továbbra is a demokratikus úton megválasztott, legitim nemzeti kormány eltávolítása és annak helyére saját bábjaik ültetése. Statisztikailag bizonyítható, hogy hazánkban a börtönkörülmények sokat javultak az elmúlt években, több lett a férőhely, és folyamatosan épülnek az új börtönök. A magyar emberek megálljt kívánnak parancsolni a joggal való visszaélésnek. Támogatandó a magyar kormány álláspontja, miszerint a társadalom konszenzusos békéjét figyelembe véve a tisztesség és a józan erkölcs oldalára kíván állni. Mindenki számára érthetővé kell tenni, hogy Magyarországon a bűnözőknek nem jutalom, hanem büntetés jár.</seg>
+<seg xml:id="AC8_9434.2">A fentiekre tekintettel kérdezem tisztelt államtitkár urat, hogy milyen eszközökkel állítható helyre a társadalom általános igazságérzete</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

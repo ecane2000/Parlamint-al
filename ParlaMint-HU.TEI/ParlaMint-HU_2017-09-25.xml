@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2017-09-25" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2017-09-25 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2017-09-25 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="8" unit="speeches">8 beszéd</measure>
+        <measure xml:lang="en" quantity="8" unit="speeches">8 speeches</measure>
+        <measure xml:lang="hu" quantity="2696" unit="words">2696 szó</measure>
+        <measure xml:lang="en" quantity="2696" unit="words">2696 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2017-09-25">2017. 09. 25.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="8"/>
+          <tagUsage gi="seg" occurs="35"/>
+          <tagUsage gi="kinesic" occurs="7"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2017-09-25">2017-09-25</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2017-09-25-urgent_question-AC7_17495" who="#KristófSzatmáry" ana="#regular"><note>SZATMÁRY KRISTÓF (Fidesz):</note>
+<seg xml:id="AC7_17495.1">Köszönöm szépen, elnök úr. Tisztelt Ház! Tisztelt Államtitkár Úr! A magyar közvélemény előtt folyik lényegében most már hetek, hónapok óta egy baloldali bűnügyi teleregény, hetente újabb és újabb részletekkel, Czeglédy Csaba főszereplésével, az MSZP és a DK statisztálásával.</seg>
+<seg xml:id="AC7_17495.2">Mit lehet tudni erről a bűnügyi teleregényről eddig? Az már eddig is köztudott volt, hogy Czeglédy Csabát 2005-ben jogerősen csalásért pénzbüntetésre ítélték, de ez nem zavarta sem az MSZP-t, sem a DK-t abban, hogy közös jelöltként szombathelyi képviselővé nevezzék, illetve nem zavarta sem Gyurcsány Ferencet, sem Botka Lászlót, hogy házi jogászként őt alkalmazza.</seg>
+<seg xml:id="AC7_17495.3">Az újabb fordulat, nem tanulva a korábbi esetekből, az, hogy 2013 és 2016 között úgy foglalkoztatott diákokat az általa vezetett szervezet, hogy nem fizette meg a járulékokat, mintegy 3 milliárd forintos kárt okozva ezzel a költségvetésnek. Az ügy pikantériája talán még csak annyi, hogy itt nem egyszerűen egy adócsalásról van szó, hanem talán minősített esetként több ezer diákmunkás bérét sem fizette ki az ifjú szocialista képviselő. Mindenki vérmérséklete szerint ítélje meg azt, hogy mindemellett havi bruttó 2,5 millió forint fizetést tett zsebre ezen idő alatt.</seg>
+<seg xml:id="AC7_17495.4">Az újabb rész a héten jelent meg, miszerint egyes információk a sajtóban is arról szólnak, hogy Kész Zoltán veszprémi baloldali képviselő is belekeveredett az ügybe, ugyanis Veszprém megyéből két gyanúsított, két cég is érintett az ügyben, és sajtóhírek szerint Czeglédy Csaba 2015-ben személyesen irányította Kész Zoltán kampányát. Az biztos, hogy 13 ember előzetesben, kérdés az, hogy hány baloldali politikust érhet még el ez a bűnügyi szál. Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-09-25-urgent_question-AC7_17497" who="#GyörgySzilágyi" ana="#regular"><note>SZILÁGYI GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_17497.1">Köszönöm szépen a szót, elnök úr. Tisztelt Képviselőtársaim! Talán emlékeznek még a tündérmesék, a népmesék világára gyermekkorukból, ahol általában az volt a visszatérő elem, hogy az egyszerű szegény fiú elindul szerencsét próbálni, találkozik a királlyal, jó szolgálatokat tesz neki, majd utána megkapja a megfelelő jutalmát.</seg>
+<seg xml:id="AC7_17497.2">Hát, hogy vannak-e ma is ilyen népmesék, ilyen tündérmesék a mai magyar kormányban, a Fideszben: igen, vannak, például ilyen Farkas Flórián. Az egyszerű büntetett szegény fiú elindul, megpróbál szerencsét próbálni, találkozik a nagy emberrel, aki esetünkben nem király, csak egyszerűen keresztapa, egy gengszter kormánynak a keresztapája, jó szolgálatokat tesz neki, szállítja az olcsó szavazatokat, a megvásárolható szavazatokat, és ezért azt csinál, amit akar, nyugodtan lophat a közpénzből, nyugodtan elveheti azt a pénzt, ami valamennyiünk pénze.</seg>
+<seg xml:id="AC7_17497.3">Gondolom, emlékeznek még rá, hogy 2016 márciusában az EMMI bejelentette, hogy az ÖRO (sic!)</seg>
+<seg xml:id="AC7_17497.4">felzárkóztatási projektje miatt gyanúbejelentést tesz, szabálytalanságokra hivatkozva, és visszaköveteli az 1,6 milliárd forintos támogatást, amit egyszerűen eltüntettek. Arra gondoltunk, hogy innentől Farkas Flórián miniszterelnöki megbízottnak befellegzett, számítottunk rá, hogy esetleg a parlamentből is visszahívják, de nem ez történt, hiszen önök 2017. május végén megújították a választási együttműködést, Kövér László aláírta Farkas Flóriánnal együtt, és azt mondta, hogy milyen szép az élet. Majd jött 2017. szeptember, amikor kiderült, hogy Farkas Flórián sofőrje több száz millió forintért egy állami árverésen vett egy budai ingatlant, hogy stílusosak legyünk a tündérmesékhez, egy XII. kerületi tündérhegyi ingatlant 509 millió forintért vásárolt meg Farkas Flórián volt sofőrje.</seg>
+<seg xml:id="AC7_17497.5">Kérdezem én: nem lehet, hogy ez a pénz abból az 1,6 milliárdból származott? Önöket nem érdekli, hogy ez a pénz vajon honnan volt Farkas Flórián sofőrjének? Hiszen csak önöknél és a mesékben vannak ilyen nagy vagyont felhalmozó emberek, aki gázszerelő lehet vagy sofőr lehet. Kérdezem, hogy hol tart ennek a bizonyos 1,6 milliárd forintos összegnek a behajtása, és milyen eszközökkel tudnák önök biztosítani, hogy ez a pénz visszakerüljön az államháztartásba. Várom a válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-09-25-urgent_question-AC7_17498" who="#LászlóGyörgyLukács" ana="#regular"><note>DR. LUKÁCS LÁSZLÓ GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_17498.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Miniszter Úr! Talán abban egyetérthetünk, vitán felül áll, hogy meglehetősen korán kezdődött a meglehetősen hideg ősz ebben az időszakban, ebben az évben. Ennek egyik jele elsősorban az volt, hogy amikor jöttek a nagy esők, akkor a legendavásárló Puskás csapatánál a világítás a fűtött focipályán elszállt. Sokan egyébként azon aggódtak a nézők közül, hogy talán Mészáros Lőrincre bízták a villanyszámla befizetését. De hasonló jel volt például a címerbotrányba keveredett Újpestnél is nem is olyan régen, hogy a pályán nem volt világítás. Pedig ezek a pályák minden jóval rendelkeznek, legfőképp az egyik tulajdonságuk, hogy van bennük fűtés a hideg napokra.</seg>
+<seg xml:id="AC7_17498.2">Nos, a hirtelen jött hideg idővel a fűtés még aktuálisabb lett egy helyen, méghozzá a magyar egészségügyben. A Szent János Kórházban került elő az az ügy, hogy megpróbálták beindítani az ez évi fűtési szezon korai kezdetén a kazánt, és rájöttek, hogy nem működik, ami jól mutatja, hogy egyébként egy felújításra váró, pénzt igénylő intézmény milyen helyzetben tud lenni, milyen helyzetben vannak általában a budapesti és a magyarországi kórházak is.</seg>
+<seg xml:id="AC7_17498.3">Ez csak azért fordulhat elő, és különösen a Szent János Kórházban azért fordulhatott elő, mert önök halálra ítélték ezt a kórházat az „Egészséges Budapest” programban. Önök halálra ítéltek minden olyan ellátóhelyet, amelynek felújításra, amelynek pénzre lenne szüksége. Lényegében ez mutatja, és benne van, mint cseppben a tenger, az önök egészségügyi politikája, az önök egészségügyi ténykedése, nemcsak nemzetközi összehasonlításban, hanem a környező országok összehasonlításában is. A kormány rendkívül alultervez, és mindig alulkölt az egészségügyben, minden kormányzati tervezésnél azzal állunk szemben, hogy önök keveset terveznek be.</seg>
+<seg xml:id="AC7_17498.4">Miniszter úr, ön ott szokott ülni az EMMI-t vezető miniszter mellett, és nézi azt a vergődést, amit ő folytat, amikor pénzekről van szó. Így hát most biztosan tud valami választ adni, hátha Rétvári államtitkár úr segít is önnek ebben, hogy miért tervezik rendszerint alul ezt a költségvetést, miért nem szánnak elég pénzt az egészségügyre, hogy miért a pénzszórásra és nem az értelmes pénzköltésre költik azt, amit a magyar adófizetők megtermelnek. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-09-25-urgent_question-AC7_17499" who="#ÁkosHadházy" ana="#regular"><note>DR. HADHÁZY ÁKOS (LMP):</note>
+<seg xml:id="AC7_17499.1">Köszönöm szépen. Amikor a címet adtuk a kérdésnek, akkor még nem is gondoltam, hogy a mai napon valahogy ennyire színvonaltalan lesz a kormányoldal válaszadó gárdája. Ma már beszéltünk Farkas Flóriánról, és szerintem a mélypont az volt, amikor a miniszter Farkas Flórián ügyében az útdíjról kezdett el beszélni, tehát valahogy Farkas Flóriántól eljutott az útdíjig. Márpedig Farkas Flórián ügye is a legelesettebb, legkiszolgáltatottabb embereket, embercsoportokat érinti, és sajnos ilyen ügy volt, ennél még sötétebb ügy volt az a koraszülötteket érintő ügy, amikor egy miniszter feleségének az alapítványa kétszer annyi pénzt kapott teljesen ugyanarra a feladatra, mint két másik alapítvány. Amikor megnéztük, hogy ezt hogyan költötték el, akkor elképesztő összegeket találtunk: az 1,2 milliárd forintból 50 millió forintot költöttek, óránként 50 ezer forintot például tanulmányírásra vagy jogi tanácsadásra, a koraszülöttek ürügyén 50 millió forintot adtak, vagy pedig havonta 800-900 ezer forintot terveztek be mentorházak bérlésére.</seg>
+<seg xml:id="AC7_17499.2">A kérdésem lényege, és ez egy nagyon-nagyon fontos kérdés, mert rendszerszintű kérdést érint, nem tudom, fogok-e rá választ kapni, a kérdés az, hogy ez az alapítvány úgy kellett volna, hogy beadja a pályázatát, hogy ezeket az összegeket, ezeket az elképesztő összegeket előzetes árajánlatkéréssel támasztja alá. A kiírás szerint, tehát amit önök kiírtak, lehetett pályázni, bármelyik alapítvány pályázhatott volna, de nem hasraütésszerűen lehetett volna összegeket bemondani, hanem előzetes árajánlatkérést kellett volna tenni. Ezt megtette a pécsi alapítvány, megtette a debreceni alapítvány, de nem tette meg a szegedi alapítvány. Teljesen szabálytalanul kapták ezt a pénzt.</seg>
+<seg xml:id="AC7_17499.3">Van-e ebben önöknek terve, hogy ebben szabálytalansági eljárást indítanak, illetve ön szerint hogy történhetett meg ennek a formailag teljesen alkalmatlan pályázatnak a támogatása? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az LMP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-09-25-urgent_question-AC7_17503" who="#LászlóSzakács" ana="#regular"><note>DR. SZAKÁCS LÁSZLÓ (MSZP):</note>
+<seg xml:id="AC7_17503.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! Azt gondolom, hogy államtitkár úr előtt is ismert, idén augusztus 31-én gyámság alá helyezték a pécsi polgármestert, egy pécsi fideszes pártbizottság az, ami azóta a város ügyeiben eljár, őhelyette döntéseket előkészít, döntéseket is hoz</seg>
+<seg xml:id="AC7_17503.2">(Font Sándor: A régi szép időkre emlékezel!)</seg>
+<seg xml:id="AC7_17503.3">A polgármester végül is nagy nehezen, azt hiszem, hogy harmadjára találta el, hogy mennyi Pécs város ki nem fizetett számlája. Először 5 milliárdot mondott, később bevallotta, hogy ez 7,5 milliárd forint körüli pénz lehet, és utána Orbán Viktor pedig eljött Pécsre - hogy összefoglaljam az eseményeket -, és azt mondta, hogy hozzák helyre azok a hibát, akik elrontották a dolgokat.</seg>
+<seg xml:id="AC7_17503.4">Hát, látjuk, hogy nem tudják, de a kormány elengedte a pécsiek kezét, és ahogyan látjuk, csak úgy hajlandóak segíteni a 145 ezer pécsin, ha ezért valamit kapnak, tehát jól jár a kormány is, meg jól járnak a kormányhoz közeli emberek is. Nagyon azt látjuk, hogy a csőd szélére sodortak egy várost, és a város ugyan elkezdett haldokolni, hiszen látjuk, hogy elveszítette a hallgatókat, elveszíti a lakosságát, de önök nem várják meg a végórákat, szépen széthordják már a családi ezüstöt.</seg>
+<seg xml:id="AC7_17503.5">Sajtóhírekben azt lehet olvasni, hogy a pécs-pogányi repteret meg fogja vásárolni az állam, majd rögtön bérbe is adja egyébként a Roszatomnak. Igaz-e ez, államtitkár úr? Miért nem hagyják azt, hogy a pécsi önkormányzat, miért nem hagyják azt, hogy ez a cég, amelyik a pécsieké, az szedje be a bérleti díjat? Igaz-e, hogy ezek után a kormány, a segítségért cserébe, hogy kihúzza a pécsieket a pénzügyi csávából, ezért rá akarja tenni a kezét a közműszolgáltató cégekre, a Tettye Forrásházra, amelyik ivóvizet szolgáltat, vagy éppen a hőszolgáltatóra? Igaz-e, hogy el akarják vinni Pécs frekventált helyein lévő ingatlanjainkat azért, hogy később azt majd önök hasznosítsák? Ezek a kérdéseim</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-09-25-urgent_question-AC7_17504" who="#MátyásFirtl" ana="#regular"><note>FIRTL MÁTYÁS (KDNP):</note>
+<seg xml:id="AC7_17504.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! A katasztrófavédelem a tűzoltóság és a polgári védelem összevonásával alakult meg Magyarországon 2000. január 1-jén, az első Fidesz-kormány idején. Fő feladata a katasztrófák hatósági megelőzése, a bekövetkező polgári veszélyhelyzetekben a mentés végrehajtása, a védekezés megszervezése, irányítása, a káros következmények felszámolása és a helyreállítás, az újjáépítés megvalósítása.</seg>
+<seg xml:id="AC7_17504.2">A 2010-es kormányváltást követően a kormányzat visszaállította a Belügyminisztériumot, s ide visszahelyezett minden rendvédelmi szervet, köztük a tűzoltóságokat is. 2012. január 1-jén a katasztrófavédelemnél teljes egészében megtörtént az integráció. Ennek eredményeként létrejöttek a hivatásos tűzoltó-parancsnokságok, amelyek a katasztrófavédelem helyi szerveiként működnek.</seg>
+<seg xml:id="AC7_17504.3">A Fidesz-KDNP-kormány hét éve, a 2010-es megalakulásakor Magyarország biztonságának növelését ígérte. A katasztrófavédelem dolgozóinak munkakörülményei a hétköznapokon sem hétköznapiak, ahogy a belügyminiszter úr fogalmaz, akkor kell szolgálni, amikor árvíz van, amikor tűzeset van, amikor vészhelyzet van. Ehhez elengedhetetlen a katasztrófavédők munkájának megbecsülése, egy vonzó, az elvégzett munkát és az állandó veszélyhelyzetet honoráló életpályamodell kialakítása, valamint a katasztrófavédelem infrastrukturális eszközeinek megújítása, illetve folyamatos fejlesztése.</seg>
+<seg xml:id="AC7_17504.4">Tisztelt Államtitkár Úr! Különösen örömteli éppen ezért, hogy a múlt héten újabb hazai gyártású tűzoltóautókat vehetett birtokba a katasztrófavédelem. Az idén elkészülő 54 járműből most 25 kerül átadásra, amelyek az ország egész területén remélhetőleg számos éven keresztül fognak segítséget nyújtani a szükséghelyzetben. Természetesen a fejlesztés nem állhat meg, ezért kérdezem tisztelt miniszter urat, hogy milyen segítséget nyújtanak ezek a tűzoltójárművek a katasztrófavédelemnek, milyen további járműparkfejlesztések várhatóak?</seg>
+<seg xml:id="AC7_17504.5">Összességében: hogyan segíti a kormány a katasztrófavédelem feladatának ellátását? Várom államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-09-25-urgent_question-AC7_17505" who="#NándorGúr" ana="#regular"><note>GÚR NÁNDOR (MSZP):</note>
+<seg xml:id="AC7_17505.1">Köszönöm szépen, elnök úr. Államtitkár Úr! Már odáig jutottunk Magyarországon, hogy most már az önök saját bevallása szerint is 32 ezer emberrel több hal meg, mint amennyinek meg kellene halnia. Kutatási eredmények támasztják mindezt alá; ismeri ön is.</seg>
+<seg xml:id="AC7_17505.2">De ha nem az egészségügyet, hanem az oktatás rendszerét nézzük, akkor odáig jutunk, hogy a tudáshoz való hozzáférés lehetősége elnehezült ebben az országban, mindegy, hogy alapfokú oktatási intézményekről vagy más intézményekről beszélünk. Emlékszik biztosan, van olyan hely, ahol fideszes volt képviselő lett az iskolaigazgató – XIII. kerület, csak azért, hogy tudja azonosítani -, hiába az önkormányzat, hiába a tantestület, hiába a szülők másfajta vélekedése. De van olyan, ahol osztályfőnöknek sem tartották alkalmasnak az érintettet, mégis iskolaigazgató lett belőle. S van olyan, ahol politikai okokból váltottak le embereket, illetve neveztek ki embereket.</seg>
+<seg xml:id="AC7_17505.3">Én mondok önnek egy negyediket: Kazincbarcika. A kazincbarcikai Pollack Mihály Általános Iskola tekintetében a pedagógusok, a közalkalmazottak köre egyértelműen két pályázó közül az egyik mellé helyezte a voksát olyan 70 százalékos mértékben. A lényeg, hogy a közalkalmazotti pedagógusvélemények meghallgatását követően az önkormányzat megerősítette az egyik jelölt mellett saját voksának a leadását. Egyébként a fideszes képviselő előtte azt mondta, hogy ő is azt fogja támogatni, akit az intézmény keretei közötti dolgozók támogatnak.</seg>
+<seg xml:id="AC7_17505.4">Demeter Zoltán azt követően, miután a képviselő-testülettel és a polgármesterrel kötött egy ilyen egyezséget, amikor a közalkalmazotti kör a véleményét megfogalmazta, hallgatásba burkolózott, és nem teljesítette azt, amit előtte mondott. Az EMMI meg mit tett? Kinevezte a másikat. Kinevezte azt, aki Barcikán a Fidesz frakcióvezetője</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+<seg xml:id="AC7_17505.5">(14.40)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-09-25-urgent_question-AC7_17507" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_17507.1">Tisztelt Alelnök Úr! A nyár elején nyújtotta be az MNB jegybank felügyelőbizottsága az éves jelentését a Nemzeti Bank 2016. júniustól 2017. májusig szóló tevékenységéről. Ebben a jelentésben szerepel, hogy a forint árfolyamának csökkenéséből következő devizaállomány-átértékelésekből a Magyar Nemzeti Bank 2013-2015 között 889 milliárd forint nyereséget realizált. A jelentésben az is benne van, hogy a nyereségből fedezték az elképesztő mértékű kastély-, villa- és más ingatlanvásárlásokat az MNB és az alapítványai számára.</seg>
+<seg xml:id="AC7_17507.2">Hogy a realizált nyereség fennmaradó részével mi történt, azt nem tudjuk, és azt sem, hogy mit terveznek vele, csak sejtjük. Az óriási mértékű közpénzszórás, urizálás folytatódik, és mint ahogy hallottuk ma: milliókat költ az MNB munkatársainak a külföldi utazásaira, az MNB külföldi irodákat nyit, szakmailag teljesen indokolatlanul, csak hogy jól fizető állásokat kínálhasson a Fidesz-közelieknek. Ezekre az irodákra eddig 1,2 milliárd forintot költöttek el. Az MNB által támogatott doktori iskolákban 300 ezer forintos ösztöndíjat fizetnek olyan MNB-s tisztviselőknek is, akiknek milliós a fizetésük; miközben egy egyetemi docens 10-15 év munka után is csak körülbelül 200 ezer nettó forintot kap.</seg>
+<seg xml:id="AC7_17507.3">Az LMP szerint - mint már korábban többször elmondtuk - a jegybanknak meg kell szüntetni az alapítványait, és a felszabaduló összeget be kell fizetnie az államkasszába az éves nyereség 80 százalékával együtt, mert ez a magyar adófizetők pénze, és nem a Matolcsy család vagyona. Az összegből segíteni lehetne például a devizahiteleseken, akiktől az MNB nyerészkedése több mint 130 milliárd forintot vett el, és akiket még a kilakoltatás és a reménytelenség vezet.</seg>
+<seg xml:id="AC7_17507.4">Mindezek után azt kérdezem: belátják-e végre, hogy a forintárfolyamon realizált nyereség nem az MNB szűk elitjét, hanem a magyar társadalom egészét illeti meg?</seg>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

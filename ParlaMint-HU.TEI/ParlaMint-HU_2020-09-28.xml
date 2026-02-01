@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2020-09-28" xml:lang="hu" ana="#parla.sitting #covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2020-09-28 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2020-09-28 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 8. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 8</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="8">8. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="18" unit="speeches">18 beszéd</measure>
+        <measure xml:lang="en" quantity="18" unit="speeches">18 speeches</measure>
+        <measure xml:lang="hu" quantity="5593" unit="words">5593 szó</measure>
+        <measure xml:lang="en" quantity="5593" unit="words">5593 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2020-09-28">2020. 09. 28.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="18"/>
+          <tagUsage gi="seg" occurs="65"/>
+          <tagUsage gi="kinesic" occurs="17"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2020-09-28">2020-09-28</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2020-9-28-urgent_question-AC8_12995" who="#AndreaVarga-Damm" ana="#regular"><note>DR. VARGA-DAMM ANDREA (független):</note>
+<seg xml:id="AC8_12995.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Képviselőtársaim! Remélem, Gulyás Gergely miniszter úr választ is fog adni érdemben, nem úgy, mint ahogy Rétvári Bence államtitkár úr szokta.Magyarország 15 825 darab lélegeztetőgépet vásárolt 2020 tavaszán 300 milliárd forintért. Hétről hétre röpködtek a számok itt a parlamentben arról, hogy miket vásároltak. Gyakran úgy éreztük magunkat, hogy nem is a parlamentben, hanem nagyotmondó versenyen vagyunk. Merthogy az Országgyűlés egy komoly intézmény, ahol minden kérdésről szakmailag felkészülten, az adott témát teljeskörűen feltárva és bemutatva lehet csak beszélni.</seg>
+<seg xml:id="AC8_12995.2">(13.10)</seg>
+<seg xml:id="AC8_12995.3">Ehhez képest a lélegeztetőgép-ügy a kormányzat képviselői részéről messze volt a szakmaiságtól és a felkészültségtől. Ezért van az, hogy ugyan vettek ilyen nagyszámú eszközt iszonyú drágán, de már pánik van az egészségügyben, ha 35 lélegeztetőgépre szoruló covidos embert kell ápolni. Miért is? Azért, mert minden egyes ilyen eszközhöz kell orvosi oxigén, sűrített levegő vezetékhálózaton, alapos mérnöki tervezés, gyógyszeradagoló pumpa, betegőrző monitor, speciális támogató gyógyszerek, szakorvosok, szakápolók speciális tudása, a gépekhez pedig kompatibilis csatlakozórendszer. Minden egyes típusú géphez más szaktanfolyamot kell elvégezni a személyzetnek azért, hogy biztonságosan tudják ellátni. A 15 825 lélegeztetőgéphez kell 7900 intenzív terápiás szakápoló, 3100 intenzív terápiás szakorvos, és kellenek azok a műszaki feltételek, amelyekről az előbb beszéltem. Attól függően, hogy a betegek milyen súlyos állapotúak, a lélegeztetőgép mellé 2 ágyanként egy intenzív terápiás szakápoló, és 5-10 ágyanként egy, inkább két szakorvos kell.</seg>
+<seg xml:id="AC8_12995.4">Az az én nagy kérdésem a tisztelt kormány képviselőjéhez, hogy ehhez a lélegeztetőgéphez hol vannak a szakemberek. Volt egyáltalán egyetlen ember a kormányzati rendszerben, akinek eszébe jutott volna a döntések meghozatalakor, hogy ezek az eszközök a feltételrendszer kialakítása nélkül semmi mások, csak tárgyak? Várom a választ</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki oldalon.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-28-urgent_question-AC8_13025" who="#SándorBurány" ana="#regular"><note>BURÁNY SÁNDOR (Párbeszéd):</note>
+<seg xml:id="AC8_13025.1">Köszönöm, elnök úr, a szót. Tisztelt Miniszter Úr! Már hosszú hónapok óta a járvány különböző hatásairól beszélünk és vitatkozunk itt az Országgyűlésben, és ez így is van rendjén, hiszen mi sem lehet ennél most fontosabb.A mai felszólalásomban a járvány gazdasági vonatkozásaival szeretnék elsősorban foglalkozni. Az Orbán-kormány hónapokig büszke volt arra, hogy Európában a magyar gazdaság a legerősebbek közé tartozik, valóságos tündérmeséről, magyar gazdasági csodáról van szó. Ehhez képest mintegy hideg zuhanyként érte még a pesszimista elemzőket is a magyar gazdaság második negyedévi adata. Ebből világosan kiderült, hogy az előző negydévhez képest több mint 14 százalékkal esett vissza a magyar gazdaság. Ilyen súlyos visszaesést nem produkált még egyetlen negyedévben sem, még a 2008-2009-es gazdasági világválság idején sem, és bizony ez a mélyrepülés Európa egyik legrosszabb adata, alig van olyan ország az Unióban, amelyik ennél nagyobb gazdasági visszaesést szenvedett volna el.</seg>
+<seg xml:id="AC8_13025.2">Ha ezzel párhuzamosan, de nem véletlenül megnézzük, hogy hogyan alakult a forint árfolyama ugyanebben az időszakban, akkor azt látjuk, hogy a forint a legsebezhetőbb és a leggyengébb régiós valuta. Az euróhoz képest egyetlen más régiós valuta sem veszített annyit az értékéből, mint a magyar forint. Ha eközben megnézzük az árakat, mert ugye, a Magyar Nemzeti Bank és Matolcsy György azt mondja, hogy nem árfolyamcélja van a Magyar Nemzeti Banknak, hanem az infláció a legfontosabb célja, akkor pedig azt látjuk, hogy a magyar inflációs adat Európa legrosszabb inflációs adata.</seg>
+<seg xml:id="AC8_13025.3">Összegezve tehát, lélegeztetőgépen van a forint, mélyrepülésben van a gazdaság, az árak viszont az egekben vannak. Azt kérdezem miniszter úrtól, hogy vane erre nézve a kormánynak valami kilábalási politikája. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a Párbeszéd és az MSZP soraiból.</desc></kinesic>
+<seg xml:id="AC8_13025.4">(12.50)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-28-urgent_question-AC8_13026" who="#OlivioKocsis-Cake" ana="#regular"><note>KOCSIS-CAKE OLIVIO (Párbeszéd):</note>
+<seg xml:id="AC8_13026.1">Köszönöm a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Tisztelt Államtitkár Úr! A tesztelési protokollal kapcsolatban vannak kérdéseim. A kormány azt állítja, hogy ez ügyben kezdetektől fogva a világszervezet ajánlásait követi, de sajnos a teszteléssel kapcsolatban ez nem valósul meg, hiszen a világszervezet ajánlása az, hogy akkor megfelelő a tesztelési stratégia, ha az elvégzett tesztek kevesebb mint 5 százaléka pozitív, és Magyarországon már jó pár napja nem teljesül ez, 10 százalék körül van ez az arány. Ez azt jelenti, ez valószínűleg azt jelenti, hogy kevés tesztet végzünk. Kérdés az, hogy miért nem tesztelünk többet. Még mielőtt államtitkár úr azt a primitív szöveget nyomná, hogy én most az egészségügyi dolgozókat támadom meg kritizálom, nem őket támadom, a kormányt se akarom támadni, de kritizálom ezt a tesztelési protokollt.Az biztos, hogy az emberek tesztelni akarnak, mert dolgozni akarnak, mert meg akarják látogatni a családtagjaikat, nem akarnak másokat megfertőzni, ezért is lenne fontos az önkéntes, ingyenes tesztelés, amit már többször fölvetettünk. Tehát egyre inkább úgy tűnik, hogy azért végzünk kevés tesztet, mert nincs elég kapacitás, ezért is lett, ha jól tudom, fölállítva a 17 új ambuláns mintavételi pont, mert a mentősök már nem bírták a tesztek elvégzését. De úgy tűnik, hogy ez is kevés, ezért a kérdésem az, államtitkár úr, hogy kívánjáke bővíteni a tesztelési kapacitást, ha kívánják bővíteni, akkor hogyan. Köszönöm válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-28-urgent_question-AC8_13076" who="#MártaDemeter" ana="#regular"><note>DEMETER MÁRTA (LMP):</note>
+<seg xml:id="AC8_13076.1">Köszönöm. Tisztelt Elnök Úr! Képviselőtársaim! Államtitkár Úr! Az önök totálisan elhibázott gazdaságpolitikájával az elmúlt tíz évben teljes mértékben kiszolgáltatottá tették Magyarországot a multinacionális tőkének. Voltaképpen két pilléren nyugszik ez a politika: az autóipar kizárólagosságán és a magyar munkavállalók bérének tudatos alacsonyan tartásán. Csak szemléltetésképpen: önöknek annyira fontos a multinacionális tőke mindenáron való kiszolgálása, hogy például az Audi az elmúlt tíz évében a NER-nek 1800 milliárdnyi osztalékot vitt ki az országból, a tulajdonosok ennyi pénzhez jutottak. Tehát az önök politikája csak arról szól, hogy a magyar adófizetők pénzéből a multinacionális cégek tulajdonosait támogatják. A magyar gazdaságot ma kirívó egyensúlytalanság jellemzi, a kormányzati támogatások egyértelműen a multinacionális tőke és a NER nagykutyái felé irányulnak, miközben a hazai kis- és közepes vállalkozásoknak be kell érniük mindössze propagandaszöveggel. Önök nem egyszerűen magukra hagyták a magyar munkavállalókat, hanem elárulták őket. Önöknek semmi nem drága, hogy elnyerjék a multinacionális nagytőke jóindulatát, ennek során az sem számít, hogy a dolgozói szegénység sajnos tartóssá lett Magyarországon.</seg>
+<seg xml:id="AC8_13076.2">Itt van egy újabb ötlet, erre szeretném felhívni a figyelmet, ugyanis egy friss kormányhatározat a Nemzeti Foglalkoztatási Alap képzési alaprészéből nyújtott képzési támogatások rendszerének beruházásösztönzési célú képzési támogatási rendszerré történő átalakításáról szól. Ezt gyorsan lefordítom, ugyanis nagyon kacifántos dolog. Lefordítva: éppen úgy alakítják át a szakképzési rendszert, hogy lényegében olcsó munkaerő-kibocsátási üzemmódra állítják, tehát a multik számára képzik a magyar embereket. A kormányhatározat persze magas hozzáadott értékű munkahelyekről beszél, de az összeszerelő üzemek mióta számítanak magas hozzáadott értékű munkahelynek? Inkább a szokásos pénzkiszerelő akcióról lehet szó.</seg>
+<seg xml:id="AC8_13076.3">Ezért államtitkár urat arról kérdezem: miért akarják már a magyar szakképzési rendszert is teljesen a multinacionális nagytőke szolgálatába állítani? Köszönöm</seg>
+<kinesic type="applause"><desc>Taps az ellenzéki pártok padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-28-urgent_question-AC8_13077" who="#PéterUngár" ana="#regular"><note>UNGÁR PÉTER (LMP):</note>
+<seg xml:id="AC8_13077.1">Köszönöm a szót. Tisztelt Államtitkár Úr! Tisztelt Országgyűlés! Magyarországon az egyik legnagyobb probléma a jelenlegi gazdasági rendszerrel az, hogy nem fizetjük meg azt a gondoskodó munkát, amely megalapozza az elsődleges munkaerőpiacon való részvételt, tehát nem fizetünk eleget azoknak az embereknek, akik akár otthon, akár intézményben végeznek egy olyan munkát, ami nélkül nem tudnának pénzt keresni mások. Az a helyzet, hogy a kormányzat egyik legjobb döntése volt, hogy a gyodot, a gyermekek otthongondozási díját bevezette, és a minimálbér szintjére emelte az otthonápolási díjat, ugyanakkor közel sem rendeződött ezzel az otthonápolók helyzete. A Lépjünk, hogy Léphessenek! Közhasznú Egyesület és társszervezetek nyílt levéllel fordultak az összes országgyűlési képviselőhöz és a kormányzathoz. Ha jól tudom, ezt a nyílt levelet államtitkár úrnak átadták. Ebben azt mondják, hogy mivel rengeteg olyan nyugdíjas szülő, hozzátartozó ápol embert, akik a nyugdíj miatt nem tudják megkapni a gyodot, hogyha az egy bizonyos összegen felül van, ez egy rettentő igazságtalanságot jelent, hiszen ez azt jelenti, hogy vannak emberek, akik 0-24 órában munkát végeznek, és nem részesülnek kellő számú juttatásban.</seg>
+<seg xml:id="AC8_13077.2">Emellett el kell mondanom, hogy a Fidesz-kormányban valamiért nem kívánnak azon változtatni, és nem lehet egyszerűen megérteni, hogy miért történik ez, hogy az idősgondozók, tehát akik nem a gyermeküket gondozzák otthon, ők 38 vagy 58 ezer forintot kapnak a mai napig, az az 5-10-15 százalékos emelés, amit válaszként el fog mondani, és már álmomban is tudom, 5, 7, illetve 8 ezer forintot jelent konkrétan.</seg>
+<seg xml:id="AC8_13077.3">Tehát az lenne a kérdésem, hogy amellett, hogy az érintett szervezetek módosítását a nyugdíjjal kapcsolatban mikor fogják figyelembe venni, mikor vezetik be végre a minimálbért a nem gyermeküket otthon gondozók részére is. Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps az LMP, a DK és a Párbeszéd soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-28-urgent_question-AC8_13078" who="#GergelyArató" ana="#regular"><note>ARATÓ GERGELY (DK):</note>
+<seg xml:id="AC8_13078.1">Tisztelt Ház! Az utóbbi időben nagy érdeklődéssel figyelhetjük, ahogy sorra kiderül, hogy az ön külügyminiszter kollégája fontos feladatai ellátása közben annyira elfoglalt, hogy nem egyszerűen autóval, ne adj’ isten, tömegközlekedéssel jár, mint az egyszerű földi halandók, hanem helikopterrel repked időnként még ebédelni is, meg borkóstolóra. Azt is tapasztalhattuk, hogy időnként annyira elfoglalt az uniós partnerek sértegetésében, hogy még a munkából haza is helikopterrel utazik, ezért valószínűleg sok ingázó irigyli őt az agglomerációban. De ez a fajta magaslati perspektíva nemcsak rá jellemző, hanem a miniszterelnökre is, aki, úgy tűnik, hogy a focimeccsekre menő magángépek ablakából nem látja a magyar valóságot, hiszen egyébként nem mondana olyasmiket, hogy a kabinet intézkedéseinek hatására ma már többen dolgoznak, mint januárban.</seg>
+<seg xml:id="AC8_13078.2">Hogy egy másik klasszikust idézzek, még magasról nézvést megvolna az ország, de hát a földközeli valóság nagyon más. A Matolcsy-féle jegybank elemzése szerint gondolom, őket még önök sem tartják liberális fészeknek a bértámogatási program kifutása, valamint a járvány elhúzódása miatt a munkanélküliségi ráta várhatóan 5,2-6,3 százalékig emelkedik. Más, a kormánytól független felmérések szerint már ma is az emberek 15 százaléka vesztette el az állását, a munkáját.</seg>
+<seg xml:id="AC8_13078.3">Azt is tudjuk, hogy a munkanélkülieknek több mint a fele, 170 ezer álláskereső már semmilyen pénzügyi ellátást sem kap, s akik kapnak valamit, azoknak is csak a fele részesül álláskeresési támogatásban, a többieknek csak szociális juttatások jutnak.</seg>
+<seg xml:id="AC8_13078.4">Mit tesz tehát a kormány? Semmit. Még azt a szerény munkahelyvédelmi támogatást is megszüntették, ami mostanáig járt a vállalkozásoknak. Nyakunkban van a járvány második hulláma, amely az egészségügy mellett a munkahelyeinket is fenyegeti.</seg>
+<seg xml:id="AC8_13078.5">Mikor száll ki a kormány végre a helikopterekből és a repülőgépekből? Mikor foglalkozik végre az ország érdemi problémáival? Mikor tesz valamit a munkanélküliség ellen</seg>
+<kinesic type="applause"><desc>Taps a DK padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-28-urgent_question-AC8_13079" who="#LászlóVarju" ana="#regular"><note>VARJU LÁSZLÓ (DK):</note>
+<seg xml:id="AC8_13079.1">Elnök Úr! Köszönöm szépen a szót. Tisztelt Alelnök Úr! Most, hogy a forint megközelítette az áprilisi történelmi mélypontját, amikor 369 forintba került egy euró, hadd idézzek önnek Orbán Viktortól azokból az időkből, amikor a mostani miniszterelnök még egy kicsit jobban a szívén érezte a magyarok sorsát. Éppen ezért hallgassa meg, hogy mit mondott ő akkor: „A gyengébb forint egyértelműen ellentétes az emberek érdekeivel; a gyengébb forint gyengébb államot jelent, és gyenge forintot csak gyenge emberek akarhatnak.”</seg>
+<seg xml:id="AC8_13079.2">(13.30)</seg>
+<seg xml:id="AC8_13079.3">Folytatom az idézetet: „A forint gyengítésével tulajdonképpen ellopják a pénzt az emberek zsebéből, mivel a bérből, fizetésből és egyéb járulékokból élők gyengébb forint esetén kevesebb árut tudnak megvásárolni a boltban, a nyugdíjasok juttatása is kevesebbet ér.” Így aggódott Orbán Viktor a forintért 2004-ben a Hír TV-n. Tudja, hogy akkor mennyibe került egy euró, tisztelt alelnök úr? 262 forintba. Orbán Viktor szerint a 262 forintos euróárfolyam maga a gyenge forint beteljesülése.</seg>
+<seg xml:id="AC8_13079.4">Tisztelt Ház! Hát, hogyan lett ebből a mai napra egészen pontosan 363,98 forint, és hogyan lehet az, hogy az az ember, aki a 262 forintos euróárfolyamon annyira aggódott, most mit tesz annak érdekében, hogy a több mint száz forinttal drágább helyzetben hogyan védi meg a magyarokat? Adódik a kérdés, hogy ha ez gyenge forint volt akkor, akkor ezt most minek hívja, tisztelt alelnök úr. Szívesen venném a magyarázatukat. De hát a Gyurcsány-kormány idején, amikor jóval erősebb volt a forint, önöknek…</seg>
+<seg xml:id="AC8_13079.5">A magyaroknak ma egy válsággal kell megküzdeniük, és éppen ezért akadályozza őket az, hogy ez a küzdelmük eredményes legyen, amit önök tesznek</seg>
+<seg xml:id="AC8_13079.6">(Sic!)</seg>
+<seg xml:id="AC8_13079.7">Miért hagyták magukra az embereket? Miért engedték el a forint kezét végül? Milyen mély a nyúl ürege? Meddig fog még gyengülni a magyar forinteszköz? Köszönöm szépen</seg>
+<kinesic type="applause"><desc>Taps a DK és az LMP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-28-urgent_question-AC8_13080" who="#AnettBősz" ana="#regular"><note>BŐSZ ANETT (DK):</note>
+<seg xml:id="AC8_13080.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! A munkanélküliség és az infláció közti rövid távú gazdasági összefüggésekről én most nem kívánok önöknek kiselőadást tartani, ön is és én is tisztában vagyunk azzal, hogy ha külső gazdasági hatások miatt kínálati sokk éri a gazdaságot, akkor harmonizálni kell két célt: az árak féken tartását és a foglalkoztatottság megőrzését.</seg>
+<seg xml:id="AC8_13080.2">A rövid távú gazdasági hatások jelentős kihívások elé állítanak valamennyi gazdaságstratégiai tervezőt. Ebben a helyzetben könnyű hibázni, ez pedig meglátásom szerint hazánkban meg is történt. A koronavírus okozta gazdasági, társadalmi válság kiszámíthatatlan. A krízis a kínálati és a keresleti oldalon is meglepetéseket okoz mindnyájunknak, de az nem megengedhető, hogy a gazdasági következmények örvényként húzzák le hazánkat. A gondunk kettős: a munkanélküliségi rátát, ha megnézzük, akkor hazánknál csak Görögországban esett vissza jobban a foglalkoztatottság az Európai Unióban, emellett két hónapja zsinórban Európa-bajnokok vagyunk az árszínvonal átlagos növekedésében.</seg>
+<seg xml:id="AC8_13080.3">Az Unióban 0,4 százalékos az átlagos inflációs ráta, idehaza megközelíti ennek tízszeresét. A szezonális élelmiszerek ára több mint 20 százalékkal emelkedett, amivel szintúgy az Eurostat-listák élén végeztünk. A problémákat tovább erősíti, hogy az előző év azonos időszakában 12 százalékkal kevesebbet kellett fizetnünk egy euróért, mint most. A sertéskarajért például tavaly nyárhoz képest több mint 19 százalékkal fizetünk ma többet. Ugyanabból a pénzből tehát, amiből tavaly még öt szeletet lehetett venni, ma már csak négyet.</seg>
+<seg xml:id="AC8_13080.4">Tisztelettel kérdezem önt, főként, hogy sok családfenntartó vesztette el munkáját idehaza: hogyan pótolja az öttagú család azt az egy szelet húst? Várom megtisztelő válaszát.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-28-urgent_question-AC8_13081" who="#AndrásAradszki" ana="#regular"><note>DR. ARADSZKI ANDRÁS (KDNP):</note>
+<seg xml:id="AC8_13081.1">Tisztelt Államtitkár Úr! Tisztelt Ház! Több mint fél éve már, hogy a világon, Magyarországon is új időszámítás szerint élünk, hiszen sajnos az elmúlt hónapok átalakították mindannyiunk életét. Ma a világjárvány elleni küzdelemben az élet megóvása az elsődleges feladatunk, a Fidesz-KDNP-kormány pedig minden döntésével ezt igyekszik elérni.Fontos, hogy az életek védelme mellett a gazdasági folyamatok és a családok életét is támogassuk. A kormány ebben a fél évben a járványügyi és gazdaságvédelmi intézkedésekre kiemelkedő mértékű összegeket fordított. Márciusban, tehát a törvény hazai megjelenését követően szinte azonnal hitelmoratóriumot hirdetett meg, és a hitelek törlesztésének felfüggesztését jelentette be az év végéig. Ez pedig sok millió magyar honfitársunk életében hozott könnyebbséget, a hitelidő kitolása vállalható kompromisszumot jelentett. Ez azt jelentette, hogy a hitel visszafizetésének időtartama meghosszabbodik, de a törlesztőrészletek mértéke a jövőben nem változhat meg. Ezzel a lehetőséggel 2000 milliárd forint maradt a bankok ügyfeleinél, az adósoknál ezekben a nehéz hónapokban, ami az álláshelyek megőrzését és a fogyasztás bővülését is szolgálta.</seg>
+<seg xml:id="AC8_13081.2">(Az elnöki széket dr. Latorcai János,</seg>
+<seg xml:id="AC8_13081.3">az Országgyűlés alelnöke foglalja el.)</seg>
+<seg xml:id="AC8_13081.4">Tisztelt Miniszter Úr! Alig egy hete a kormány a hitelmoratórium meghosszabbítása mellett döntött. Ez vonatkozik az egyes társadalmi csoportokra és talán a legnehezebb, legsebezhetőbb személyekre, így a családok számára, valamint a gyermekeket nevelő szülők, nyugdíjasok, álláskeresők, közfoglalkoztatottak élhetnek ezzel a lehetőséggel. Ezért kérdezem tisztelt miniszter urat, illetve államtitkár urat, várhatóan mekkora összegben és hányan veszik igénybe idén a hitelmoratórium lehetőségét. Várhatóan mekkora összeg marad a családoknál jövőre a hitelmoratórium kiterjesztésével? Várom megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-28-urgent_question-AC8_13082" who="#HajnalkaJuhász" ana="#regular"><note>JUHÁSZ HAJNALKA (KDNP):</note>
+<seg xml:id="AC8_13082.1">Köszönöm a szót, elnök úr. Tisztelt Ház! Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Amikor a Fidesz-KDNP-kormány 2010-ben átvette a kormányzást, akkor elkötelezte magát a munkaalapú társadalom mellett a munkahelyek megőrzése érdekében és az új munkahelyek megteremtése érdekében. Az elmúlt tíz év azt bizonyítja, hogy a magyar kormány megteremtette annak a hátterét különböző munkahely-támogatásokkal és beruházásösztönző programokkal, hogy aki magyar emberként dolgozni akar, az tud dolgozni.2020 azonban megrázta az egész világot, a koronavírus-járvány következtében gazdasági ágazatok roppantak meg, és a magyar kormány elkötelezetten kiállt annak érdekében, hogy egyetlen magyar sem marad magára, és nemcsak hogy megőrizzük a munkahelyeket, hanem annyi új munkahelyet teremtünk, amennyi a vírus következtében megszűnt. És ez nemcsak egy gyakorlati, hanem egy sokkal mélyebb üzenetet is hordoz, mégpedig azt, hogy elkötelezett a magyar kormány a beruházások ösztönzése érdekében, hiszen mindannyian tudjuk, és természetesen várjuk azt a pillanatot, amikor a koronavírus-járványnak vége lesz, de abban a pillanatban a világgazdaságban egy nagyon éles és kemény harc indul a kapacitások újraelosztása érdekében, és fontos, hogy a világ csúcstechnológiájával rendelkező vállalatok bízzanak a magyar kormányban, bízzanak Magyarországban. Ezért nagyon fontos a működőképesség, a munkahelyek megőrzése és az új munkahelyek megteremtése.</seg>
+<seg xml:id="AC8_13082.2">Szeretném államtitkár urat megkérdezni, hogy mit tesz a magyar kormány a munkahelyek bővítése érdekében.</seg>
+<seg xml:id="AC8_13082.3">(14.00)</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-28-urgent_question-AC8_13083" who="#TamásHarangozó" ana="#regular"><note>DR. HARANGOZÓ TAMÁS (MSZP):</note>
+<seg xml:id="AC8_13083.1">Köszönöm a szót, elnök úr. Mielőtt rátérnék a témára, azért azt hadd jegyezzem meg miniszter úr előző válaszával kapcsolatban, hogy nem lennék most Orbán Viktor helyében, ahol ön védi meg így. Szóval, tisztelt képviselőtársaim, az RTL Híradó az elmúlt héten számolt be képekkel is arról, hogy milyen állapotok vannak a Kiskunhalasi Semmelweis Kórházban, „Omladozó vakolat, pókhálós kórtermek fogadják Kiskunhalason a betegeket” címmel, és miután illusztráció is volt a híradás alatt, amit az ott bent betegeskedő betegek juttattak el a tévéhez, azt gondolom, hogy ezt megkérdőjelezni dőreség lenne. Mindazonáltal kérdezném miniszter urat, hogy pont Kiskunhalason, ahol ez egy járványkórház, és ahol a tavaszi időszakban több milliárd vagy több tíz milliárd forintért, senki nem tudja, ezt is titkolja jelenleg a kormány, éppen egy új járványkórházat építettek a város szélén, mintegy néhány kilométerre ettől a kórháztól, miért kell a betegeket ilyen körülmények között úgymond gyógyítani. Miniszter úr, azóta hozzánk is érkezett jelzés, volt olyan beteg, aki a műtétje másnapján inkább hazament, mert nő létére azt mondta, hogy nem kívánja azokat a körülményeket végigélvezni úgymond, ami ott a kórházban jelenleg van.</seg>
+<seg xml:id="AC8_13083.2">Azt szeretném kérdezni miniszter úrtól, hogy egyrészt tudjae ön, illetve tudjae a kormány, hogy valójában a nem covidos részlegen az embereket milyen körülmények között úgymond gyógyítják, vagy gyógyításra nem alkalmas körülmények között próbálják gyógyítani ebben a kórházban. Ha igen, akkor mit kívánnak tenni, hogy ezt azonnal megszüntessék? És, miniszter úr, mondja meg nekem meg az egész országnak, legyen kedves, ha onnan néhány kilométerre egy nullkilométeres, tök üres, betegeket nem fogadó járványügyi kórházat építenek, minden orvosi felszereléssel, amiről naponta, mint a vízállásjelentés, számolnak be, mint büszkeségről, akkor miért kell az embereket ilyen körülmények között a kórház központjában, a kórházban tartani. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-28-urgent_question-AC8_13084" who="#SándorSzabó" ana="#regular"><note>SZABÓ SÁNDOR (MSZP):</note>
+<seg xml:id="AC8_13084.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Az ez évi költségvetés még tartalmazza azt a több mint 2 milliárd forintot, amit a települési önkormányzatok a helyi közösségi közlekedés támogatására fordíthatnak, Budapest város kivételével. Nem ilyen rózsás a helyzet a következő év tekintetében, hiszen ez az összeg már a 2021-es költségvetésben nem szerepel, ami, azt gondolom, hogy beláthatatlan következményekkel fog járni a települések szolgáltatási ellátásában. Ezt az összeget egyébként a települések pályázat útján az önök szaktárcájától igényelhették meg, és én biztos vagyok benne, hogy mind a 23 megyei jogú város, mind az érintett 48 település közel 1 millió embert érintve idén is megpályázta volna már, hogyha egyébként ez a pályázat kiírásra került volna. Ez nem történt meg. A tavalyi évben ilyenkor már a döntés is megszületett, és a települési önkormányzatok számláján volt a pénz.</seg>
+<seg xml:id="AC8_13084.2">Választókerületem egyébként, Szeged városa a tavalyi évben 328 millió forint támogatást kapott, amelynek elmaradása komoly érvágás lenne a település számára, de nemcsak Szegednek, hanem mint mondtam, az érintett további 70 településnek, hiszen a járványhelyzet miatt a települési önkormányzatok jelentős bevételkiesést szenvedtek, és az önök kormánya is jelentős pénzügyi elvonásokkal sújtotta a településeket.</seg>
+<seg xml:id="AC8_13084.3">Nyugtasson meg, államtitkár úr, nem arról van szó, hogy folytatódik az önkormányzatok további pénzügyi ellehetetlenítése, a pénzügyi forrásainak elvonása, és egyáltalán, nem is akarják már odaadni ezt a 2 milliárd forintot a települési önkormányzatoknak. Mindezek miatt kérdezem akkor államtitkár urat, hogy mikor kerül sor a helyi közlekedés támogatására szolgáló pályázat kiírására. Mikor jutnak hozzá a települések a központi költségvetésben szereplő pénzügyi forráshoz? És ugye, nem fogja azt mondani remélem a válaszában, hogy egyébként ebben az évben már nem is kapják meg a települések ezt a pénzt? Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP és a Párbeszéd padsoraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-28-urgent_question-AC8_13086" who="#LászlóGyörgyLukács" ana="#regular"><note>DR. LUKÁCS LÁSZLÓ GYÖRGY (Jobbik):</note>
+<seg xml:id="AC8_13086.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Miniszter Úr! Hazánk belső és külső védelme létfontosságú a mai világban. Ezért a biztonságért tart fenn az állam, így hazánk is hadsereget, rendőrséget, titkosszolgálatokat. Ha minden jól működik, ezek a szervek képesek a fenyegető veszélyt elhárítani. De vajon miként dolgozhatnak ezek a szervek például Miskolcon?</seg>
+<seg xml:id="AC8_13086.2">(12.20)</seg>
+<seg xml:id="AC8_13086.3">A kérdés azért merült fel, mert augusztusban állami ünnepség keretében Demeter Ervin, az egykori titokminiszter egy álomról, az ő álmáról, majd a valóra vált jövőről beszélt, amelyben a román Securitate szeretné eltávolítani őt beosztásából, és helyére saját emberét ültetni. A jegyzőkönyv érdekében és elnézést kérve a stílusért, de idézni csak pontosan szabad Demeter Ervin mondatait idézem. Demeter Ervin azt mondta: „Álmomban a fejemhez kaptam, és a szar, szemét szekusok alliteráló kifejezés pattant ki belőle. Ekkor a másik oldalamra fordulás miatt vagy egy szúnyog zizegése miatt, már nem tudom pontosan, de felébredtem. Az álom eltávolodott, de a rossz érzés megmaradt. Vajon csak egy rossz álom volt, vagy jövőbeli történés előérzete?” Demeternek egyébként helyes volt az előérzete, ugyanis ahhoz, hogy pozíciójából eltávolítsák, nem is kellett sokat várnia. Lényegében szeptember 10-én a korábbi önkormányzati választáson vesztes, fideszes polgármesterjelöltet nevezték ki a Borsod-Abaúj-Zemplén Megyei Kormányhivatal élére, leváltva őt.</seg>
+<seg xml:id="AC8_13086.4">Tehát a Fidesz volt titokminisztere néhány nappal azelőtt, hogy leváltották a megyei kormányhivatal éléről, arról beszélt: megálmodta, hogy a Securitate kitúrja posztjáról. Érdemes komolyan venni Demeter Ervin kijelentéseit, egyrészről azért, mert egy gyakorlott exminiszterről van szó, másrészről, mert a miskolciaknak joguk van tudni, hogy a román titkosszolgálat jogelődje beférkőzötte a helyi közéletbe, és joguk van, hogy megtudják, miként befolyásolja azt. Felmerül tehát a kérdés, tisztelt miniszter úr: Demeter beszéde kapcsán és gyors leváltása alapján beépülhetette a miskolci Fideszbe a román titkosszolgálat? Várom őszinte válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-28-urgent_question-AC8_13087" who="#DánielZ.Kárpát" ana="#regular"><note>Z. KÁRPÁT DÁNIEL (Jobbik):</note>
+<seg xml:id="AC8_13087.1">Tisztelt Elnök Úr! Tisztelt Ház! Magyarország jelenlegi miniszterelnökét szeretném idézni: „Gyenge forintot csak gyenge emberek akarhatnak.” Kérdezem én, hogy mennyire gyenge az a kormány, amelynek regnálása alatt 2010 óta, de legyünk jóindulatúak, bő 15 év alatt a forint harmadával értéktelenedett el az euróhoz képest, és ebből kifolyólag egy brutális különadót zúdít ez a kormány az emberek nyakába, hiszen minden egyes létező importterméken keresztül indokolatlanul fizetteti meg az összes magyar vásárlópolgárral, aki a bankkártyáját vagy a készpénzét használja, annak a gyenge forintnak az árát, amely egyedül azoknak jó, akik Orbán Viktor kormányának a parancsokat adják. Egyedül az exportáló multiknak jó a gyenge forint, lényegében senki másnak, és annak a sok közületnek, amelyek jellemzően adózatlanul szállítják ki a profitot ebből az országból, miközben magyar emberek a luxuscikknek már egyáltalán nem számító okostelefontól kezdve az alapvető élelmiszerekig folyamatosan ezermilliárdos nagyságrendű indokolatlan kiadásra vannak kényszerítve, pusztán azért, mert vagy minden behozott áruféleség ára magasabb a gyenge forint miatt, ha azt euróban vagy más valutában vásárolják meg, vagy éppen azért, mert a hazai előállítású áruféleségekhez is külföldi eszközt, alapanyagot, vegyszert, permetezőgépet vagy éppen markolót kell használni. Mindennek indokolatlanul megy fel tehát brutálisan az ára, és Magyarország Kormánya béna kacsaként tötymörög ebben a kérdésben. Nem azt akarom mondani, hogy kizárólag önöket teszem felelőssé egy forint/euró árfolyamért, hiszen tudjuk, hogy ezek sok összetevős folyamatok, de azt el szeretném mondani, hogy ugyanebben az időszakban a cseh korona 20 százalékkal erősödött, a lengyel złoty 10 százalékkal erősödött, Magyarország forintja pedig értékének a harmadát veszítette el.</seg>
+<seg xml:id="AC8_13087.2">Kérdezem tehát miniszter urat: valóban ennyire gyenge emberek önök</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-28-urgent_question-AC8_13088" who="#ÁdámSteinmetz" ana="#regular"><note>DR. STEINMETZ ÁDÁM (Jobbik):</note>
+<seg xml:id="AC8_13088.1">Köszönöm a szót, elnök úr. Tisztelt Országgyűlés! Igen tisztelt Miniszterhelyettes Úr! Magyarország Kormánya júliusban döntött arról, hogy MotoGP-pályát építtet Hajdúnánáson. A pálya helyszínének kijelölése során bizonyára számos szempontot mérlegeltek, de vajon felmerülteke természetvédelmi és mezőgazdasági szempontok is? Igen vagy nem?Nagy István agrárminiszter úr felhívtae a kollégái figyelmét arra, hogy az építkezés során több száz futballpályányi termőföldet kell véglegesen kivonni a művelés alól? Igen vagy nem?</seg>
+<seg xml:id="AC8_13088.2">Tudtake önök arról, hogy korábban Sávolyon 195 hektáron valósult meg a MotoGP-pálya nyomvonalának kialakítása 4 ezer tonna kő bedolgozásával? Ezen a területen soha többé nem lehet már mezőgazdálkodni. És most ugyanez a sors vár a hajdúnánási földekre is, melyek jelentős része egyébként védett, Natura 2000-besorolású.</seg>
+<seg xml:id="AC8_13088.3">Miközben minden egyes hektár szántóföld termelésből kivonása átlagos kukoricaterméssel számolva évi 400 ezer forint bevételkiesést jelent a gazdáknak, tisztelettel kérdezem ezért miniszterhelyettes urat mint a hazai agrárium és környezetvédelem második számú vezetőjét, MotoGP-pálya építésére ön szerint a mezőgazdasági művelésre alkalmatlanná vált sávolyi terület vagy a Hajdúnánás határában fekvő több száz hektárnyi termőföld leaszfaltozása jelent észszerű megoldást. Tisztelettel várjuk válaszát</seg>
+<kinesic type="applause"><desc>Z. Kárpát Dániel: Nehéz kérdés! Taps a Jobbik soraiból.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-28-urgent_question-AC8_13090" who="#GáborRiz" ana="#regular"><note>RIZ GÁBOR (Fidesz):</note>
+<seg xml:id="AC8_13090.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Ház! Tisztelt Miniszter Úr! Ahogyan az előbbiekben elhangzott, a pártcsaládunk számára örömteli tegnapi választási eredmények születtek, melyhez hasonlóan fontosnak ítéljük meg, hogy október 11-én Tiszaújvárosban is hasonló eredményt tudjunk elérni. A tragikus hirtelenséggel, szomorú körülmények között eltávozott Koncz Ferenc képviselőtársunk emberbarát, energikus munkáját valakinek folytatnia kell, méghozzá hasonló lelkesedéssel, odaadással, empátiával. A Gyurcsány Ferenc által gründolt baloldal jelöltjéről nagyon súlyos dolgok derültek ki. Kezdődött mindez a judapestező és tetűcsúszdások jelzőkkel ellátott antiszemita megnyilvánulásokkal, az ezekhez hasonló cigányellenes kirohanásokkal, majd mindez folytatódott a homályos cégügyekkel, megfélemlített, kisemmizett dolgozókkal és fegyverrel való fenyegetéssel. Megbotránkoztató azonban, hogy annál a baloldalnál állt be a pálfordulat, akik naponta kígyót-békát kiabálva temetik a demokráciát és a jogállamiságot, álszent módon mégis egy olyan jelöltet támogatnak, aki nyíltan antiszemita hangnemet üt meg.</seg>
+<seg xml:id="AC8_13090.2">A Fidesz-KDNP számos kérdést szegezett a baloldal jelöltjének, ám ő érdemben egyikre sem válaszolt, csak perek sokaságát helyezte kilátásba. Viszont most új helyzet állt elő: sajtóhírek alapján több irat is igazolja, hogy Bíró visszatartotta alkalmazottai bérét. Bérgarancia-biztos kijelöléséről írna</seg>
+<kinesic type="noise"><desc>Közbeszólások a Jobbik soraiból.</desc></kinesic>
+<seg xml:id="AC8_13090.3">, és több hivatalos dokumentumra is hivatkoznak, amelyek rögzítik az elmaradt bérek összegét. Vajon hány embert nem fizetett ki? Vajon hány család megélhetése került veszélybe? Álságos, hogy pont az a Bíró László beszél munkahelyekről, tisztességes bérkifizetésekről, aki a hírek szerint ahelyett, hogy saját dolgozóit kifizette volna, az 50 millió forintos munkahelyvédő támogatással kitömött cégét strómanok kezére játszotta át. Elég a lapításból, a sunyításbó</seg>
+<seg xml:id="AC8_13090.4">, valljon színt a baloldal jelöltje!</seg>
+<seg xml:id="AC8_13090.5">Az elhangzottak alapján kérem a miniszter urat, mondja meg nekem, hogyan biztosítható az állampolgárok elemi joga a bérhez, fizetéshez, illetve az emberi méltóságukhoz</seg>
+<kinesic type="applause"><desc>Tállai András tapsol.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-28-urgent_question-AC8_13091" who="#LászlóBöröcz" ana="#regular"><note>BÖRÖCZ LÁSZLÓ (Fidesz):</note>
+<seg xml:id="AC8_13091.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Tisztelt Képviselőtársaim! Már bő egy éve nem akad ember az országban, aki ne ismerné Lackner Csaba nevét. Igen, ő az a kispesti szocialista politikus, akinek az anyagi helyzete szokatlan egy átlagos önkormányzati képviselőhöz képest: százmilliós ingatlan, luxusórák, százezres bulik havonta, valamint ventilátor előtt lóbált fehér poros zacskók. A botrány azonban nem csitul, most egy szemtanú állt elő, aki igazolni tudja a kispesti baloldal alvilági üzelmeinek létezését. A helyi baloldal sofőrje nyíltan beszélt a sajtónak a Lackner-Kránitz-Gajda háromszögben folyó korrupciós ügyekről. A sofőr számtalan alkalommal részt vett a Lackner-féle bulikon, amelyeknek része volt a kábítószer-fogyasztás és a visszaosztási pénzeket érintő elszámolások, sőt gyakran vendégül láttak az összejöveteleiken konzumlányokat is. Aggasztó, hogy ezek a dolgok Gajda Péter MSZP-s polgármester tudtával és részvételével történtek, de még ennél is felháborítóbb, hogy azóta sincs semmilyen következménye a történteknek, hisz a Krinyóként ismert Kránitz Krisztián mind a mai napig a kispesti vagyonkezelő élén áll, pedig Lackner mondja azt, hogy mindenki tudja, mennyit rakott zsebre. De ugyanúgy kérdőre lehetne vonni a polgármestert is amiatt, hogy miért nem mondatja le Lacknert a mandátumáról. Vajon sakkban tartjae valamivel?</seg>
+<seg xml:id="AC8_13091.2">Idézném a sajtónak nyilatkozó sofőr szavait, amelyek mindent elmondanak arról a visszataszító helyzetről, ahogy a kispesti elöljárók visszaélnek a választók bizalmával: „Felháborító, ami Kispesten folyt, ahogy bántak az emberekkel, ahogy viszonyultak az emberi sorsokhoz, és az is, ahogy a botrány kipattanása után tagadtak.” Ráadásul megerősíti, hogy a hangfelvételek nem manipuláltak, az ott elhangzottak hűen tükrözik a valóságot. A baloldalon is feltűnően nagy a hallgatás, Gyurcsány, Karácsony, az MSZP és a többi kis párt is félrené</seg>
+<kinesic type="signal"><desc>Az elnök csengetéssel jelzi az időkeret leteltét.</desc></kinesic>
+<seg xml:id="AC8_13091.3">, következmények pedig nincsenek.</seg>
+<seg xml:id="AC8_13091.4">Tisztelettel kérdezném államtitkár urat az elhangzottakra tekintettel, hogy miként biztosítható a helyi közélet tisztasága. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2020-9-28-urgent_question-AC8_13092" who="#MónikaBartos" ana="#regular"><note>BARTOS MÓNIKA (Fidesz):</note>
+<seg xml:id="AC8_13092.1">Köszönöm szépen a szót, elnök úr. Tisztelt Elnök Úr! Államtitkár Úr! Képviselőtársaim! Az Európai Bizottság múlt hét szerdán mutatta be azt az új javaslatát, amely a migrációs és menedékjogi témát tárgyalja, és Ursula von der Leyen bizottsági elnök asszony szerint sikerült megtalálni azt az egyensúlyt, amely a felelősségvállalás és a szolidaritás között teremt kapcsolatot. Ez a javaslat az elnök asszony véleménye szerint figyelembe veszi a tagállamok sajátosságait, földrajzi elhelyezkedését, kapacitásait, orientációit és azt a tényt is, hogy változik a migrációs nyomás a határainkon időről időre. Úgy gondolják, és a Bizottság is úgy gondolja, hogy megtalálták azt a megfelelő megoldást, amely a problémát orvosolja. Ugyanakkor, ha a szétosztást nem is hangsúlyozzák, mégis azt igen, hogy át kell venniük illegális migránsokat a tagországoknak. Magyarország 2015 óta ugyanazt az álláspontot képviseli, három fő pillérre helyezzük a hangsúlyt: a határvédelemre, az embercsempészek elleni küzdelemre és a helybe küldött segítségre a szükséget szenvedő emberek számára.</seg>
+<seg xml:id="AC8_13092.2">(14.20)</seg>
+<seg xml:id="AC8_13092.3">Ugyanakkor a bizottsági elnök, Ursula von der Leyen azt mondja, hogy nem az a kérdés, hogy a tagállamoknak kelle kezelniük a migrációt, hanem hogy milyen módon kezelik azt.</seg>
+<seg xml:id="AC8_13092.4">De ha innen nézzük, mégis kvótaszagú ez a javaslat, és elbizonytalanodik az ember, hogy vajon a szavakkal történő játékról vane szó, vagy valóban sikerült olyan megoldást találni, amely valós megoldást, valós előrelépést jelent a probléma kezelésében, és ezt szeretném megkérdezni államtitkár úrtól</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>

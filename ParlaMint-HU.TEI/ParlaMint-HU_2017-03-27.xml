@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU_2017-03-27" xml:lang="hu" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="hu" type="main">A Magyar Országgyűlés Korpusza ParlaMint-HU 2017-03-27 [ParlaMint]</title>
+        <title xml:lang="en" type="main">Hungarian parliamentary corpus ParlaMint-HU 2017-03-27 [ParlaMint]</title>
+        <title xml:lang="hu" type="sub">A Magyar Országgyűlés ülései, 7. ciklus</title>
+        <title xml:lang="en" type="sub">Minutes of the National Assembly of Hungary, Term 7</title>
+        <meeting ana="#parla.term" corresp="#OGY" n="7">7. ciklus</meeting>
+        <respStmt>
+          <persName>Miklós Sebők</persName>
+          <persName>Orsolya Ring</persName>
+          <resp xml:lang="hu">Parla-CLARIN TEI XML korpusz létrehozása</resp>
+          <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="hu">Társadalomtudományi Kutatóközpont, Eötvös Loránd Kutatási Hálózat</orgName>
+          <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure xml:lang="hu" quantity="8" unit="speeches">8 beszéd</measure>
+        <measure xml:lang="en" quantity="8" unit="speeches">8 speeches</measure>
+        <measure xml:lang="hu" quantity="2453" unit="words">2453 szó</measure>
+        <measure xml:lang="en" quantity="2453" unit="words">2453 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="hu">CLARIN Kutatási Infrastuktúra</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="hu">
+            Ez a munka az alábbi licence alapján használható
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+          <p xml:lang="en">
+            This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+          </p>
+        </availability>
+        <date when="2021-03-31">2021. 03. 31.</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="hu" type="main">A Magyar Országgyűlés ülései</title>
+          <title xml:lang="en" type="main">Minutes of the National Assembly of Hungary</title>
+          <idno type="URI">https://https://www.parlament.hu/ </idno>
+          <date when="2017-03-27">2017. 03. 27.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="u" occurs="8"/>
+          <tagUsage gi="seg" occurs="29"/>
+          <tagUsage gi="kinesic" occurs="7"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kossuth Lajos tér 1-3.</name>
+          <name type="city">Budapest</name>
+          <name type="country" key="HU">Magyarország</name>
+          <date ana="#parla.sitting" when="2017-03-27">2017-03-27</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="hu" ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-HU_2017-03-27-urgent_question-AC7_14625" who="#MátyásFirtl" ana="#regular"><note>FIRTL MÁTYÁS (KDNP):</note>
+<seg xml:id="AC7_14625.1">Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! Március 22-e volt a víz világnapja. A Föld víztömegének 82 százaléka a világ óceánjaiban és tengereiben található sós víz. A Föld édesvízkészletének aranytartalékát a felszín alatti vizek jelentik. Ennek nagyságát a vízkutatással foglalkozó tudósok a földi víztömeg 16 százalékára becsülik meg, míg a maradék 2 százalékot bolygónk felszíni édesvizei és a légkör és az élőlények víztartalma teszik ki. Bár a bolygónk felszínének kétharmadát víz borítja, ennek kevesebb mint 3 százaléka édesvíz. Felszíni vizeink döntő részre ráadásul fagyott állapotban van jelen bolygónk gleccsereiben, illetve állandó hó és jég borította területein. Mindez azt jelenti, hogy az emberiség, élővilágunk azon része, amelynek életben maradása a felszíni édesvizektől függ, bolygónk összes vízkészletének mindössze 0,1 százalékán kell hogy megosztozzon.</seg>
+<seg xml:id="AC7_14625.2">Szakértők az államközi konfliktusokat tekintik az első számú globális kockázatnak, hatásukat tekintve azonban a vízügyi problémák jelentik a legnagyobb kockázatot már évek óta, ez több felmérésből is kiolvasható. A vízügyi válság kockázata megelőz számos egyéb kockázatot, mint fertőző betegségek terjedése, tömegpusztító fegyverek, illetve államok közötti konfliktusok.</seg>
+<seg xml:id="AC7_14625.3">Tisztelt Államtitkár Úr! A víz világnapja kapcsán a Lengyel Köztársaság környezetvédelmi minisztere, Jan Szyszko úr meghívására a visegrádi négyek, valamint Bulgária és Románia vízügyért felelős miniszterei ’17. március 22-én Varsóban közösen vettek részt a víz világnapja rendezvényein és a „2017 a Visztula éve” elnevezésű ünnepi konferencián.</seg>
+<seg xml:id="AC7_14625.4">Éppen ezért kérdezem tisztelt államtitkár urat, mit tesz a kormány országos és nemzetközi szinten annak érdekében, hogy a vízkészleteket érő növekvő terheléseket és a klímaváltozás hatásaiból eredő kihívásokat kezelje, mit tesz a kormány a fenntartható vízgazdálkodás biztosítása érdekében. Várom államtitkár úr megtisztelő válaszát</seg>
+<kinesic type="applause"><desc>Taps a kormánypártok soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-03-27-urgent_question-AC7_14626" who="#ZoltánGőgös" ana="#regular"><note>GŐGÖS ZOLTÁN (MSZP):</note>
+<seg xml:id="AC7_14626.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Tisztelt Államtitkár Úr! Kétségtelen, hogy veszélyforrást jelenthetnek azok az akár illegálisan készített kutak, amelyek nem megfelelő körülmények között készülnek, és ezzel kapcsolatban születtek is jogszabályok, amelyek legalább olyan szinten bejelentéskötelezettséget írnának elő, hogy erről a hatóságoknak tudniuk kell. Ezzel nincs baj.</seg>
+<seg xml:id="AC7_14626.2">Azzal van baj, hogy ennek a végrehajtási rendeletnek olyan tartalma van, ami a gyakorlatban kivitelezhetetlen. Ez a végrehajtási rendelet leírja, hogy állapotrajzot kell készíttetni a falusi ásott kútról. Tervezővel vagy kútfúróval olyan hozamtáblát kell kitölteni, a vízhozamról olyan kapacitásokat kell felmérni, ami képtelenség, államtitkár úr. Ez több százezer olyan falusi helyet érint, ahol évszázadok óta vannak ásott kutak. Én úgy gondolom, hogy teljesen fölösleges az a fajta szigorúság, ami ennek a fennmaradását ilyen módon engedélyezi. Én azt gondolom, hogy minden településen bőven elegendő lenne annyi, hogy mindenki jelentse be, hogy van neki ilyen, aki használ egyáltalán ilyet, mert ennek nagy része el is van tömedékelve, hiszen amikor ezek készültek, még a településeken nem volt víz vagy nem volt csatorna; egy része már nyilván meg sincs; arról se szól az írás, hogy mi lesz azokkal, ahol még valami nyomai vannak, de különösebben már nem funkcionál. És egy bizonyos kockázatelemzés segítségével a hatóságoknak meg el kell tudni dönteni, hogy ezek közül melyik olyan, amit érdemes megvizsgálni vagy ellenőrizni.</seg>
+<seg xml:id="AC7_14626.3">Szerintem ennél nagyobb szigorúság ebben a dologban nem kell. Kétségtelen tény, hogy néhányan visszaélnek ezzel az úgymond lazább lehetőséggel, és például hallottam már olyat is, hogy szennyvizet engednek régi ásott kutakba, de nem ez a tipikus. Én úgy gondolom, hogy azokat a személyeket, akik kis kapacitással, saját célra vételeznek ezekből általában öntözővizet, nem kellene alávetnünk ilyen szigorú ellenőrzési eljárásnak. Ezen el kell gondolkodni, államtitkár úr, ugyanis a végrehajtási rendelet végrehajthatatlan, még egyszer mondom</seg>
+<kinesic type="applause"><desc>Taps az MSZP soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-03-27-urgent_question-AC7_14627" who="#AnitaHeringes" ana="#regular"><note>HERINGES ANITA (MSZP):</note>
+<seg xml:id="AC7_14627.1">Köszönöm. Tisztelt Államtitkár Úr! Egyre nagyobb a feszültség az MVM-cégcsoport dolgozóiban, így nálunk, Pakson az atomerőmű dolgozóiban is. Hiszen önök azt ígérték, hogy 3 év alatt 30 százalékos béremelésre számíthatnak az itt dolgozók.</seg>
+<seg xml:id="AC7_14627.2">Sokan hittek ezekben a szavakban, és most úgy érzik, hogy át lettek verve, amikor hittek az ígérgetéseknek. Úgy érzik, hogy úgy jártak, mint a legkisebb fiú a mesében, hogy járni jár, csak nem jut. Március 24-én bejelentették, hogy a legtöbb állami vállalatnál megszületett a bérmegállapodás, csak valahogy megint nálunk, Pakson nem.</seg>
+<seg xml:id="AC7_14627.3">Nézzük akkor az önök nyilatkozatait sorrendben! 2016. február 27.: Rogán Antal 40 százalékos béremelést ígért. November 4. kormányinfó: Lázár János 30-40 százalékos reálbéremelést ígért. November 24.: Orbán Viktor aláírta a megállapodást, amelyben elkötelezi a társaságokat a béremelésre. Pont államtitkár úr 2017. január 18-án írt egy levelet az állami cégek vezetői részére, amelyben felszólította őket, hogy folytassák le a tárgyalásokat, hogy megszülethessenek a helyi bérmegállapodások. Ehhez képest hidegzuhanyként érte a Paksi Atomerőmű dolgozóit, hogy amikor ők 3 év alatt csak 6 százalékos emelési ajánlatot kapnak, majd március 17-én 17 százalékos emelési ajánlatot kapnak, csak valahogy nem látják, hogy ez hol van a 30 százalékhoz képest.</seg>
+<seg xml:id="AC7_14627.4">A Paksi Atomerőmű dolgozóitól mindenki elvárja a pontos, precíz és kiegyensúlyozott munkavégzést. Akkor szerintem valahol ők is elvárhatják a kormányuktól a minimumot, hogy amit a sajtóban megígértek, azt tartsák be.</seg>
+<seg xml:id="AC7_14627.5">A Paksi Atomerőmű dolgozói a tavalyi évben 91,38 százalékos teljesítménykihasználási rekordot tettek le az asztalra. Mindezt biztonsági és műszaki adatok legpontosabbja mellett. Azt gondolom, hogy ha ők fegyelmezetten dolgoznak, akkor nekik egy feladat van, hogy a kormány megadja, amit ígért a sajtóban, a 30 százalékos béremelést. Várom válaszát</seg>
+<kinesic type="applause"><desc>Taps az MSZP padsoraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-03-27-urgent_question-AC7_14629" who="#RichárdHörcsik" ana="#regular"><note>DR. HÖRCSIK RICHÁRD (Fidesz):</note>
+<seg xml:id="AC7_14629.1">Köszönöm a szót. Tisztelt Miniszter Úr! Az Európai Unió elődjét, az Európai Gazdasági Közösséget létrehozó római szerződés tegnapelőtt volt 60 éves. Mit is ünneplünk a 60. évforduló kapcsán? Nos, mindenekelőtt azt hiszem, képviselőtársaim, hogy az Unió az európai történelem legsikeresebb békeprojektje, tudniillik a gallok és a germánok közötti ellenségeskedésről, ami végigkísérte évszázadokon keresztül a kontinens háborúit, már kétezer évvel ezelőtt Julius Caesar is beszámolt. Az elmúlt 60 év azonban ezt a két népet olyan közel hozta egymáshoz, hogy már csak közösen tudják elképzelni a jövőt, kivéve a futballt.</seg>
+<seg xml:id="AC7_14629.2">Az Unió területén soha nem volt háború, és a béke és a prosperitás jövőképét kínálja például a nyugat-balkáni tagjelöltek számára. Ezért is olyan veszélyesek azok a nyilatkozatok, amelyek szerint a bővítést bizonyos időre fel kellene függeszteni. Másodszor, az Unió egy rendkívül sikeres gazdasági vállalkozás is, hiszen szabadon utazhatunk és szabadon vállalhatunk munkát. Azonban a belső határok szabad átjárhatósága csak addig működik, amíg a külső határokat megvédjük. Ma már ezt szinte mindenki elismeri, nem kis részben köszönhetően Magyarországnak.</seg>
+<seg xml:id="AC7_14629.3">Tisztelt Miniszter Úr! Az Egyesült Királyság kilépési szándéka egy hatalmas vitát generált az Unió jövőjéről, amelynek alaphangját az Európai Bizottság elnöke adta meg, aki öt forgatókönyvet vázolt fel. A fő baj ezzel az, tisztelt képviselőtársaim, hogy a Bizottság elnökének nem ez volna a dolga. Az Unió a tagállamok közös akaratán és az azt megjelenítő szerződésen alapul, és a szerződés ebben a tekintetben egyértelműen fogalmaz. Az Unió általános politikai irányainak és prioritásainak meghatározása az Európai Tanács feladata</seg>
+<kinesic type="applause"><desc>Taps a kormánypárti padsorokban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-03-27-urgent_question-AC7_14631" who="#GyörgySzilágyi" ana="#regular"><note>SZILÁGYI GYÖRGY (Jobbik):</note>
+<seg xml:id="AC7_14631.1">Köszönöm szépen a szót, elnök úr. Tisztelt Ház! Tisztelt Miniszter Úr! „Működik a gyakorlat, állami pénzekhez hozzá lehet jutni kapcsolatok révén.” - állapította meg ezt a tényt Szijjártó Péter 2003-ban, amikor is kirobbant a Kiss Elemér-botrány, amikor is kirobbant az az ügy, amelynek hatására Kiss Elemér lemondott a miniszteri pozíciójáról, hiszen a cége, az az ügyvédi iroda, amely az ő cége volt, állami megrendeléseket kapott. Úgy néz ki, hogy a Fidesz mindenben túltesz az MSZP-n, hiszen most kirobbant a Trócsányi László-botrány, ahol az igazságügyi miniszter jelen pillanatban olyan megrendeléseket kap, amelyben nemcsak hogy állami megrendelésekről beszélünk, hanem az állammal szemben lép fel az ő ügyvédi irodája.</seg>
+<seg xml:id="AC7_14631.2">Tehát Trócsányi László ma Magyarország minisztere, a kormány tagja, az állam képviselője, akinek az lenne a feladata, hogy szolgálja a magyar nemzetet, a magyar emberek érdekében tevékenykedjen, és az ő cége, az ő vállalkozása abban érdekelt, hogy az állam számára, a nemzet számára, az emberek számára kedvezőtlen, hátrányos eredményt érjen el, közpénzszázmilliókat juttasson az állammal szemben álló, az állammal pereskedő cégeknek; az igazságügyi miniszter cégével nagyobb az esélyük megnyerni ezeket a pereket ezeknek a cégeknek, ez egyértelmű. Ez súlyosan etikátlan, morálisan vállalhatatlan ez a szerep, hiszen gondoljunk csak arra, hogy két helyről vesz fel pénzt, egyszer az államtól kap fizetést azért, mert miniszter, a másik oldalon meg majd fölveszi a cégéből azt az osztalékot, amivel nyereségre tettek szert, hogy az állammal szemben pereskedtek.</seg>
+<seg xml:id="AC7_14631.3">Szolgálni az államot és a velük szemben állókat egyszerre nem lehet. Régen ezt árulásnak hívták. Persze az önök erkölcsiségében azt mondják, hogy ügyes, élelmes, okos stratégia, hiszen a Fidesznél a piszkos pénz és a biznisz számít csak, ezt már tapasztaltuk a letelepedési kötvényeknél. Ez a mentalitás vállalhatatlan. Trócsányi László tudtommal még nem mondott le. A kérdésem az, hogy mikor mondatják le a minisztert, ha már magától nem adja be a lemondását. Várom megtisztelő válaszát. Köszönöm</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+        <u xml:id="ParlaMint-HU_2017-03-27-urgent_question-AC7_14632" who="#ErzsébetSchmuck" ana="#regular"><note>SCHMUCK ERZSÉBET (LMP):</note>
+<seg xml:id="AC7_14632.1">Köszönöm a szót. Tisztelt Miniszter Úr! Húsz évvel ezelőtt indult el az utolsó, kiégett fűtőelemeket tartalmazó vasúti szállítmány Magyarországról Oroszország felé, és ez azt jelenti, hogy ezt követően Magyarországon kell elhelyezni a nagy aktivitású hulladékot.</seg>
+<seg xml:id="AC7_14632.2">(13.50)</seg>
+<seg xml:id="AC7_14632.3">Így azóta a magyar-orosz nukleáris együttműködés arra korlátozódik, hogy az Oroszországból importált fűtőanyagból Magyarországon áramot termelünk, a feldolgozhatatlan nukleáris szemetet pedig az atomerőmű területén halmozzuk fel. A nagy aktivitású atomerőmű-hulladék kezelése máig megoldatlan, és önöknek sincs jobb ötlete, mint hogy az atomszemetet különböző lerakatokban gyűjti Paks I., illetve a tervek szerint Paks II. területén, ráhagyva a veszélyt és problémát a következő generációkra.</seg>
+<seg xml:id="AC7_14632.4">A majdani végleges tárolót a Baranya megyei Boda területén tervezik felépíteni, de egyrészt a közeli Pécs lakosságával erről nem egyeztettek, másrészt a Nukleáris Alap forrásai az Állami Számvevőszék szerint nem lesznek elegendők a költségekre, harmadrészt pedig az ÁSZ azt is megállapította, hogy a Nukleáris Alap nem egy elkülönített kassza, hanem csupán egy jövőbeni állami kötelezettségvállalás, ami további költségvetési kiadásokat tesz majd szükségessé a tároló építése idején.</seg>
+<seg xml:id="AC7_14632.5">Mindezek miatt kérdezem: miként fogja mentesíteni a kormány a következő generációkat az atomerőművi energiatermelés hulladékkezelési költségeitől?</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-03-27-urgent_question-AC7_14633" who="#ÁkosHadházy" ana="#regular"><note>DR. HADHÁZY ÁKOS (LMP):</note>
+<seg xml:id="AC7_14633.1">Köszönöm szépen. Tisztelt Elnök Úr! Tisztelt Államtitkár Úr! Megtudtuk azt, hogy 2010 óta 78 ezer kisbaba született külföldön. A magyar kisbabák 15 százaléka külföldön születik. Ennél még ijesztőbb az a demográfiai adat, hogy az évszázad közepére körülbelül 7 millió ember lesz Magyarországon, az évszázad végére pedig 4,5 millió ember.</seg>
+<seg xml:id="AC7_14633.2">Nem erről, csak ennek kapcsán szeretnék kérdezni. Előfordult már, hogy önök észrevettek valódi problémákat. Ennek az szokott lenni az eredménye, hogy kitalálnak rá egy jó kis európai uniós programot. Egy ilyen európai uniós programról szeretném kérdezni a véleményét, annak néhány költéséről, tehát nem a demográfiai kérdésekről, hanem erről a három költésről.</seg>
+<seg xml:id="AC7_14633.3">A Család-, Ifjúság- és Népesedéspolitikai Intézet, az Emberi Erőforrások Minisztériumának egy már megszüntetett, beszántott intézete 10 milliárd forintot költött el elvileg ezeknek a kérdéseknek vagy problémáknak a megoldására. Három költésről kérdezném a véleményét. Az egyikben 20 millió forintot adtak egy műkörömépítéssel foglalkozó kft.-nek arra, hogy a programba jelentkező szakembereket előminősítse. Aztán adtak egy rendezvényszervező cégnek - rendezvényszervezés van beírva a cégnek, mással nem is foglalkozik; de valószínűleg ezzel sem foglalkozik, mert egy olyan helyszínre van bejelentve, ahol 1500 másik cég is van egy belvárosi ingatlanban - irattári számmal való ellátásra 20 millió forintot, hogy a projektek dokumentumaira egy pecsétet, egy irattári számot ráhelyezzen. Egy vásárhelyi ingatlanforgalmazó cégnek pedig az iratok monitorozásának a monitorozására adtak hasonló összeget.</seg>
+<seg xml:id="AC7_14633.4">Az a kérdésem, hogy ezzel ön egyetért-e, illetve hogy vizsgálják-e ezeket a költéseket. Köszönöm.</seg>
+</u>
+        <u xml:id="ParlaMint-HU_2017-03-27-urgent_question-AC7_14634" who="#MártonGyöngyösi" ana="#regular"><kinesic type="noise"><desc>GYÖNGYÖSI MÁRTON (Jobbik): Köszönöm a szót, elnök úr. Tisztelt Államtitkár Úr! 2013 júniusa óta, amikor is beindult a letelepedésiállamkötvény-program, több mint 15 ezer külföldi jutott hozzá letelepedési engedélyhez. Kezdetben ez két lépcsőben zajlott, első körben tartózkodási engedélyt kaptak ezek az emberek, majd fél évvel később jutottak csak hozzá a letelepedési joghoz, a letelepedési engedélyhez, amely schengeni övezeten belüli szabad mozgást biztosított, illetve örök életre szólt.</desc></kinesic>
+<seg xml:id="AC7_14634.1">Maga a Belügyminisztérium kérte azt, hogy két lépcsőben történjen meg a letelepedési engedélyhez jutás, ugyanis önöknek kizárólag húsz nap állt rendelkezésre ahhoz, hogy elbírálják azt, hogy nemzetbiztonsági kockázat fennáll-e ezeknek az embereknek az esetében. Önök kérték azt, hogy két lépcsőben történjék meg, ne húsz nap alatt kelljen elbírálni, hanem legalább fél évük legyen arra, hogy a nemzetbiztonsági kockázat fennálltát meg tudják állapítani. Majd jött 2016 júliusa, amikor már magasra hágott az elégedetlenség ezzel a letelepedésiállamkötvény-biznisszel kapcsolatosan, és hirtelen fel kellett pörgetni Rogán Antal bizniszét, éppen ezért bevezették azt, hogy egy körben, egy lépcsőben letelepedési engedélyhez juthatnak a külföldiek. Így történhetett meg az, hogy nemcsak egy lépcsőben biztosították a letelepedési jogot, hanem kiterjesztették a családegyesítésre jogosultak körét is.</seg>
+<seg xml:id="AC7_14634.2">Most, március 31-én önök egy kormányrendeletben felfüggesztették a letelepedési államkötvények kiterjesztését, azonban nem tudom, miért nem magát a törvényt vonták vissza, magát a törvényt nem függesztették fel, tisztelt államtitkár úr. Erre vonatkozna a kérdésem, illetve arra, hogy tudják-e azt, hogy a letelepedésiállamkötvény-biznisznek köszönhetően hány külföldi titkosszolgálat hány ügynöke és hány terrorszervezet hány terroristája jutott be Magyarországra, illetve az Európai Unió területére önöknek köszönhetően. Várom érdemi válaszát</seg>
+<kinesic type="applause"><desc>Taps a Jobbik soraiban.</desc></kinesic>
+</u>
+      </div>
+    </body>
+  </text>
+</TEI>
