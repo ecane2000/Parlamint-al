@@ -11,12 +11,16 @@ def text_match(element, text):
     return text.lower() in element.inner_text().lower()
 
 def run(limit=None):
+    print("Initializing Playwright...", flush=True)
     with sync_playwright() as p:
+        print("Launching browser...", flush=True)
         browser = p.chromium.launch(headless=True)
+        print("Browser launched.", flush=True)
+        
         context = browser.new_context(accept_downloads=True)
         page = context.new_page()
 
-        print("Navigating to https://www.parlament.al/procesverbale ...")
+        print("Navigating to https://www.parlament.al/procesverbale ...", flush=True)
         page.goto("https://www.parlament.al/procesverbale", timeout=60000)
         
         # Wait for the "Struktura" dropdown or similar to load
@@ -43,7 +47,7 @@ def run(limit=None):
         page_num = 1
         
         while True:
-            print(f"Processing page {page_num}...")
+            print(f"Processing page {page_num}...", flush=True)
             
             # Get all download buttons
             # Selector from subagent: .dynamic-button.view-act inside .act-card-wrapper

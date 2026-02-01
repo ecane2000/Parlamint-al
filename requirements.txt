@@ -7,3 +7,4 @@ regex>=2024.5.15
 # stanza==1.8.2    # optional; comment out if you’re not using it
 # transformers==4.44.2  # REMOVE for Py 3.13 unless you switch Python
 # this was skipped too:  torch>=2.1.0
+playwright==1.49.1
