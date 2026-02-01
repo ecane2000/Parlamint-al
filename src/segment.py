@@ -55,16 +55,18 @@ def _reinsert_breaks_before_cues(body: str) -> str:
     
     # Regex to find a cue. match mid-line or start-of-line.
     # We want to detect: [start_of_line_or_space]Name Surname[dash]
-    # Note: The original regex was looking for spaces before the check.
-    # We will look for the pattern anywhere in the line, but we must be careful not to match inside normal text incorrectly.
-    # The safest bet for "glued" text is arguably what the user wants, but the crucial fix is ensuring 
-    # that even if it's at the start of the line, we force a break if the previous line wasn't blank.
     
-    # Let's simplify: regex to find the cue.
     cue_pattern = re.compile(
         rf"(^|[^\n])\s*(?P<cue>[A-ZÇË][{ALPHA_CLASS}’'\.\-]*\s+[A-ZÇË][{ALPHA_CLASS}’'\.\-]*\s*[{DASH_CLASS}])\s+"
     )
     
+    # Validation pattern: The preceding text must end with [.?!] followed by optional spaces.
+    valid_split_end_re = re.compile(r'[.?!]\s*$')
+
+    # To handle cross-line checks (start of line case), we need to track the "previous valid line content"
+    # accumulated so far in 'out'. However, 'out' contains strings.
+    # We can peek at out[-1] if exists.
+
     for l in lines:
         stripped = l.strip()
         if not stripped:
@@ -75,48 +77,67 @@ def _reinsert_breaks_before_cues(body: str) -> str:
              out.append(l)
              continue
              
-        # Check if the line *starts* with a speaker cue
-        # We use a slightly stricter check for start-of-line to avoid false positives in middle of valid sentences
-        # assuming names are Capitalized.
-        
-        # We reuse the logic: search for the cue pattern.
-        # But we iterate to find all occurrences? 
-        # Actually, usually there's at most one split needed per line (rarely multiple speakers in one line?).
-        # Let's handle the simple case: if we find a cue, we make sure it starts a new paragraph.
-        
+        # Search for cue pattern
         match = cue_pattern.search(l)
         if match:
             # We found something looking like a cue
-            # split_at is where the detected Name starts.
-            # match.start(2) corresponds to group 'cue' start? 
-            # No, ensure group indices.
-            # (?P<cue>...) is group 2 if (^|[^\n]) is group 1.
-            
-            # The regex matches: (prefix char)(space)(Name... -)
             start_idx = match.start('cue')
             
-            # If the cue is at the very start of the line (start_idx == 0), 
-            # match.group(1) would be empty string matched by ^.
-            
-            # If start_idx > 0, we have prefix text.
             prefix = l[:start_idx].strip()
             rest = l[start_idx:].strip()
             
-            # If there is prefix text, append it, then a blank line.
+            # DECISION LOGIC:
+            should_split = False
+            
             if prefix:
-                out.append(prefix)
-                out.append("")
-                out.append(rest)
+                # Case 1: Mid-line split.
+                # Check if prefix ends with valid punctuation.
+                if valid_split_end_re.search(prefix):
+                    should_split = True
             else:
-                # It was at start of line. match.group(1) matched start of string or previous char?
-                # If match found at start, we just ensure a blank line before it.
-                # However, since we are building a list of lines, 'out' might already have content.
-                # We essentially just append "" then the line.
-                # But we don't want double blank lines if one existed.
-                # The split_paragraphs logic handles multiple blank lines fine (ignores them).
-                # So it is safe to always prepend a blank line before a speaker line.
-                out.append("")
-                out.append(rest)
+                # Case 2: Start-of-line split.
+                # Check if the PREVIOUS line in 'out' ends with valid punctuation.
+                # We need to find the last non-empty line in 'out' to check.
+                # If 'out' is empty, it's the start of body -> split is fine/irrelevant (no previous text to merge with).
+                # But usually "body" follows header, so splitting at very start is OK.
+                
+                # Find last non-empty line
+                prev_text = ""
+                for prev_line in reversed(out):
+                    if prev_line.strip():
+                        prev_text = prev_line
+                        break
+                
+                if not prev_text:
+                    # No previous text, so essentially a start of block. can treat as split or just new para.
+                    # We will force a break just to be consistent with "speaker starts new para".
+                    should_split = True
+                else:
+                    if valid_split_end_re.search(prev_text):
+                        should_split = True
+
+            if should_split:
+                if prefix:
+                    out.append(prefix)
+                    out.append("")
+                    out.append(rest)
+                else:
+                    out.append("")
+                    out.append(rest)
+            else:
+                # MERGE / NO SPLIT
+                # If it was mid-line (prefix exists), we just keep the line as is.
+                # If it was start-of-line, we just append the line (it remains a separate line in the list, 
+                # but no blank line is inserted, so split_paragraphs won't see it as a new paragraph 
+                # unless there was already a blank line before it in 'lines', which we handled at start of loop?)
+                
+                # Careful: 'lines' iteration doesn't include the blank lines if we used splitlines() on meaningful text? 
+                # actually normalize_newlines(body).splitlines() preserves blank lines as empty strings.
+                # And we handle `if not stripped: out.append(l); continue` at top.
+                # So if we are here, 'l' is not empty.
+                
+                out.append(l)
+
         else:
             out.append(l)
             
