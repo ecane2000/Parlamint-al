@@ -47,3 +47,45 @@ def split_paragraphs(text: str):
 
 def ensure_dir(p: Path):
     p.mkdir(parents=True, exist_ok=True)
+
+# Regex for line ending with punctuation [.?!] followed by optional spaces
+RE_VALID_PUNCT_END = re.compile(r"[.?!]\s*$")
+
+def reconstruct_broken_lines(text: str) -> str:
+    """
+    Merge lines that do NOT end with valid punctuation (. ! ?).
+    This heals broken sentences split across lines.
+    
+    Logic:
+      - Split into lines.
+      - Iterate:
+        - If current buffer (accumulated line) ends with punctuation, flush it (newline).
+        - Else, append next line with a space (merge).
+    """
+    lines = normalize_newlines(text).splitlines()
+    if not lines:
+        return ""
+    
+    out = []
+    buffer = lines[0]
+    
+    for i in range(1, len(lines)):
+        next_line = lines[i]
+        
+        # If the current buffer ends with valid punctuation, it is a complete line/sentence.
+        # We can flush it.
+        if RE_VALID_PUNCT_END.search(buffer):
+            out.append(buffer)
+            buffer = next_line
+        else:
+            # It's a broken line (or header/text that shouldn't split).
+            # Merge with next line.
+            # Handle spacing: avoiding double spaces if one ends with space?
+            # User wants standard merge. space is safer.
+            buffer = buffer.strip() + " " + next_line.strip()
+            
+    # Flush the last buffer
+    if buffer:
+        out.append(buffer)
+        
+    return "\n".join(out)

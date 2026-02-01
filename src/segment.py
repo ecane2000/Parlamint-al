@@ -13,7 +13,7 @@ Rules:
 """
 import re
 from typing import Dict, List
-from .utils import split_paragraphs, normalize_newlines
+from .utils import split_paragraphs, normalize_newlines, reconstruct_broken_lines
 
 # Accept letters, digits, underscore, periods, hyphens, straight/curly apostrophes, and Latin-1 ranges
 ALPHA_CLASS = r"\wÀ-ÖØ-öø-ÿÇËçë"
@@ -156,6 +156,8 @@ def segment_by_speakers(clean_txt: str) -> Dict:
       }
     """
     header_txt, body_txt = _split_header_body(clean_txt)
+    # Reconstruct broken lines (heal split sentences) before processing speaker cues
+    body_txt = reconstruct_broken_lines(body_txt)
     body_txt = _reinsert_breaks_before_cues(body_txt)
 
     paras = split_paragraphs(body_txt)
