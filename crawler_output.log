@@ -1,0 +1,114 @@
+Crawling up to 10 PDFs from https://www.parlament.al/procesverbale
+Starting crawler (limit=10, headless=True)...
+Navigating to https://www.parlament.al/procesverbale...
+Waiting for content to load...
+Finding download buttons...
+Found 82 document cards
+Error processing card 0: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 1: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 2: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 3: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 4: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 5: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 6: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 7: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 8: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 9: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 10: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 11: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 12: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 13: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 14: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 15: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 16: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 17: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 18: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 19: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 20: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 21: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 22: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 23: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 24: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 25: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
+Error processing card 26: Timeout 5000ms exceeded.
+=========================== logs ===========================
+"networkidle" event fired
+============================================================
