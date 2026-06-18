@@ -1,13 +1,9 @@
-<<<<<<< HEAD
-# Parlamint-al
-=======
 # ParlaMint‑AL Pilot Stack (Python)
 
 End‑to‑end pipeline for a tiny Albanian Parliament corpus:
 - Crawl given PDF URLs
 - Extract text
 - Create ParlaMint‑compatible TEI (plain) + optional .ana (UD token/lemma/pos/deprel)
-- (Optional) Hook for NER using transformers
 
 ## Quick start
 ```bash
@@ -17,9 +13,9 @@ python -c "import stanza; stanza.download('sq')"
 
 # Fetch PDFs into ./inbox and build TEI (plain + .ana samples)
 make crawl
-make build-ana    # or: python -m parlamint_al.pipeline --out out --with-ana
+make build-ana    # or: python -m src.pipeline --out out --with-ana
 ```
-Outputs go to `out/TEI/plain` and (if enabled) `out/TEI/ana`.
->>>>>>> dd8156e0 (Initial commit: ParlaMint-AL pilot stack)
 
-end
+> Note: this project requires `pdfminer.six` for PDF extraction. Do not install the legacy `pdfminer` package, as it conflicts with the current dependency.
+
+Outputs go to `out/TEI/plain` and (if enabled) `out/TEI/ana`.

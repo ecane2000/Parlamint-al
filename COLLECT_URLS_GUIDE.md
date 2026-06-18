@@ -29,7 +29,13 @@ Since some blob storage URLs expire quickly, here's how to manually collect fres
 
 5. **Run the pipeline**:
    ```bash
+   source .venv/bin/activate
    python -m src.pipeline --out out
+   ```
+
+   Or, without activating the venv:
+   ```bash
+   .venv/bin/python -m src.pipeline --out out
    ```
 
 ## Current Working URLs

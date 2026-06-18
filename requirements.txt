@@ -1,5 +1,6 @@
+# Use pdfminer.six for PDF text extraction; do not install the legacy pdfminer package.
 requests==2.32.3
-pdfminer.six==20231228
+pdfminer.six==20260107
 lxml==5.3.0
 ufal.udpipe==1.4.0.1
 conllu==6.0.0
