@@ -1,0 +1,7 @@
+org_id,org_type,name_short,name_full,orientation,parent_org_id,country
+AL_ORG_Kuvendi,parliament,Kuvendi,Kuvendi i Shqipërisë,,,AL
+AL_ORG_PS,politicalParty,PS,Partia Socialiste e Shqipërisë,centre-left,,AL
+AL_ORG_PD,politicalParty,PD,Partia Demokratike e Shqipërisë,centre-right,,AL
+AL_ORG_PL,politicalParty,PL,Partia e Lirisë,centre-left,,AL
+AL_ORG_AN,parliamentaryGroup,AN,Grupi Parlamentar Aleanca për Ndryshim,centre-right,,AL
+AL_ORG_Qeveria,government,Qeveria,Qeveria e Republikës së Shqipërisë,,,AL

@@ -1,159 +1,250 @@
 # -*- coding: utf-8 -*-
 """
-TEI day-file writer (plain variant), aligned with ParlaMint-HU style.
-
-- tei_root(title, when_iso, license_url) builds the header skeleton
-- write_plain_day(session, speakers_idx, out_path, license_url, eventTypeAna)
-  writes <text>/<body>/<div>/<u>/<seg> with HU-like structure
+TEI Component Encoding layer for ParlaMint-AL:
+Transforms segmented sitting objects and metadata into standard ParlaMint TEI component files.
 """
-from xml.etree import ElementTree as ET
+from __future__ import annotations
+import re
 from pathlib import Path
-from typing import Dict, Optional
-from .utils import squash_ws
+from typing import Dict, List, Optional
+import xml.etree.ElementTree as ET
+
+from .config import PARLIAMENT_NAME, CITY, LICENSE_URL, COUNTRY_CODE, LANGUAGE_CODE
+from .metadata import DocumentMetadata
+from .resolve_speakers import SpeakerResolution
+from .segment import SittingBlock, SpeechBlock, split_into_paragraphs
+from .utils import safe_xml_text, squash_ws
 
 TEI_NS = "http://www.tei-c.org/ns/1.0"
 XML_NS = "http://www.w3.org/XML/1998/namespace"
-NS = {"tei": TEI_NS, "xml": XML_NS}
+
 ET.register_namespace("", TEI_NS)
 ET.register_namespace("xml", XML_NS)
 
-def q(tag: str) -> str:
-    return f"{{{TEI_NS}}}{tag}"
+
+def qname(local: str) -> str:
+    """Build a namespaced TEI tag."""
+    return f"{{{TEI_NS}}}{local}"
+
 
 def xml_attr(local: str) -> str:
     """Build a namespaced xml:* attribute name."""
     return f"{{{XML_NS}}}{local}"
 
-def tei_root(title: str, when_iso: str, license_url: str) -> ET.Element:
-    root = ET.Element(q("TEI"))
-    teiHeader = ET.SubElement(root, q("teiHeader"))
+
+def make_tei_root(meta: DocumentMetadata) -> ET.Element:
+    """Build the base TEI element for a component day file."""
+    return ET.Element(
+        qname("TEI"),
+        {
+            xml_attr("id"): meta.doc_id,
+            xml_attr("lang"): meta.language or LANGUAGE_CODE,
+            "ana": "#parla.sitting #reference",
+        },
+    )
+
+
+def build_tei_header(meta: DocumentMetadata) -> ET.Element:
+    """
+    Build a standard ParlaMint teiHeader for a single parliamentary day/sitting.
+    """
+    teiHeader = ET.Element(qname("teiHeader"))
 
     # fileDesc
-    fileDesc = ET.SubElement(teiHeader, q("fileDesc"))
-    titleStmt = ET.SubElement(fileDesc, q("titleStmt"))
-    ET.SubElement(titleStmt, q("title"), {"type": "main"}).text = title
+    fileDesc = ET.SubElement(teiHeader, qname("fileDesc"))
+    titleStmt = ET.SubElement(fileDesc, qname("titleStmt"))
 
-    publicationStmt = ET.SubElement(fileDesc, q("publicationStmt"))
-    ET.SubElement(publicationStmt, q("publisher")).text = "Kuvendi i Shqipërisë; CLARIN ERIC"
-    ET.SubElement(publicationStmt, q("pubPlace")).text = "Tiranë"
-    avail = ET.SubElement(publicationStmt, q("availability"), {"status": "free"})
-    ET.SubElement(avail, q("licence"), {"target": license_url}).text = "CC BY 4.0"
-    if when_iso:
-        ET.SubElement(publicationStmt, q("date"), {"when": when_iso}).text = when_iso
+    title_sq = meta.title_sq or f"{PARLIAMENT_NAME}, procesverbal, {meta.date}"
+    title_en = meta.title_en or f"Parliament of Albania, minutes, {meta.date}"
 
-    sourceDesc = ET.SubElement(fileDesc, q("sourceDesc"))
-    bibl = ET.SubElement(sourceDesc, q("bibl"))
-    ET.SubElement(bibl, q("title")).text = "Procesverbal i Kuvendit të Shqipërisë"
-    ET.SubElement(bibl, q("idno"), {"type": "URL"}).text = "https://www.kuvendi.gov.al/"
-    if when_iso:
-        ET.SubElement(bibl, q("date"), {"when": when_iso}).text = when_iso
+    ET.SubElement(titleStmt, qname("title"), {"type": "main", xml_attr("lang"): "sq"}).text = safe_xml_text(title_sq)
+    ET.SubElement(titleStmt, qname("title"), {"type": "main", xml_attr("lang"): "en"}).text = safe_xml_text(title_en)
 
-    # encodingDesc (taxonomy etc.)
-    encodingDesc = ET.SubElement(teiHeader, q("encodingDesc"))
-    projectDesc = ET.SubElement(encodingDesc, q("projectDesc"))
-    ET.SubElement(projectDesc, q("p")).text = (
+    meeting_el = ET.SubElement(titleStmt, qname("meeting"))
+    if meta.meeting_type:
+        meeting_el.set("ana", f"#{meta.meeting_type}")
+    if meta.date:
+        ET.SubElement(meeting_el, qname("date"), {"when": meta.date}).text = meta.date
+    if meta.chair_name:
+        chair_text = meta.chair_name
+        if meta.chair_role:
+            chair_text += f" – {meta.chair_role}"
+        ET.SubElement(meeting_el, qname("chair")).text = safe_xml_text(chair_text)
+
+    # publicationStmt
+    publicationStmt = ET.SubElement(fileDesc, qname("publicationStmt"))
+    ET.SubElement(publicationStmt, qname("publisher")).text = f"{PARLIAMENT_NAME}; CLARIN ERIC"
+    ET.SubElement(publicationStmt, qname("pubPlace")).text = CITY
+    avail = ET.SubElement(publicationStmt, qname("availability"), {"status": "free"})
+    ET.SubElement(avail, qname("licence"), {"target": LICENSE_URL}).text = "CC BY 4.0"
+    if meta.date:
+        ET.SubElement(publicationStmt, qname("date"), {"when": meta.date}).text = meta.date
+
+    # sourceDesc
+    sourceDesc = ET.SubElement(fileDesc, qname("sourceDesc"))
+    bibl = ET.SubElement(sourceDesc, qname("bibl"))
+    ET.SubElement(bibl, qname("title")).text = "Procesverbal i Kuvendit të Shqipërisë"
+    if meta.source_url:
+        ET.SubElement(bibl, qname("idno"), {"type": "URL"}).text = meta.source_url
+    if meta.date:
+        ET.SubElement(bibl, qname("date"), {"when": meta.date}).text = meta.date
+
+    # encodingDesc
+    encodingDesc = ET.SubElement(teiHeader, qname("encodingDesc"))
+    projectDesc = ET.SubElement(encodingDesc, qname("projectDesc"))
+    ET.SubElement(projectDesc, qname("p")).text = (
         "ParlaMint-AL: korpus i krahasueshëm i seancave parlamentare, i përputhshëm me ParlaMint v5."
     )
-    classDecl = ET.SubElement(encodingDesc, q("classDecl"))
-    tax = ET.SubElement(classDecl, q("taxonomy"), {"xml:id": "parla-taxonomy"})
-    # roles
-    cat_roles = ET.SubElement(tax, q("category"), {"xml:id": "parla.roles", "n": "Speaker roles"})
-    cr1 = ET.SubElement(cat_roles, q("category"), {"xml:id": "parla.speaker"})
-    ET.SubElement(cr1, q("catDesc")).text = "Folës"
-    cr2 = ET.SubElement(cat_roles, q("category"), {"xml:id": "parla.chair"})
-    ET.SubElement(cr2, q("catDesc")).text = "Kryetar/Moderues"
-    # events
-    cat_events = ET.SubElement(tax, q("category"), {"xml:id": "parla.events", "n": "Event types"})
-    ce1 = ET.SubElement(cat_events, q("category"), {"xml:id": "parla.sitting"})
-    ET.SubElement(ce1, q("catDesc")).text = "Seancë/mbledhje"
-    ce2 = ET.SubElement(cat_events, q("category"), {"xml:id": "parla.committee"})
-    ET.SubElement(ce2, q("catDesc")).text = "Komision"
 
     # profileDesc
-    profileDesc = ET.SubElement(teiHeader, q("profileDesc"))
-    settingDesc = ET.SubElement(profileDesc, q("settingDesc"))
-    setting = ET.SubElement(settingDesc, q("setting"))
-    ET.SubElement(setting, q("name")).text = "Kuvendi i Shqipërisë"
-    if when_iso:
-        ET.SubElement(setting, q("date"), {"when": when_iso}).text = when_iso
-    ET.SubElement(setting, q("placeName")).text = "Tiranë, AL"
-    ET.SubElement(profileDesc, q("p")).text = "Pjesëmarrësit referohen te listPerson/listOrg në nivel korpusi."
+    profileDesc = ET.SubElement(teiHeader, qname("profileDesc"))
+    settingDesc = ET.SubElement(profileDesc, qname("settingDesc"))
+    setting = ET.SubElement(settingDesc, qname("setting"))
+    ET.SubElement(setting, qname("name"), {"type": "place"}).text = PARLIAMENT_NAME
+    ET.SubElement(setting, qname("name"), {"type": "city"}).text = CITY
+    ET.SubElement(setting, qname("name"), {"type": "country", "key": meta.country_code or COUNTRY_CODE}).text = "Albania"
+    if meta.date:
+        ET.SubElement(setting, qname("date"), {"when": meta.date}).text = meta.date
+
+    langUsage = ET.SubElement(profileDesc, qname("langUsage"))
+    ET.SubElement(langUsage, qname("language"), {"ident": "sq", xml_attr("lang"): "sq"}).text = "shqip"
+    ET.SubElement(langUsage, qname("language"), {"ident": "en", xml_attr("lang"): "en"}).text = "English"
 
     # revisionDesc
-    revisionDesc = ET.SubElement(teiHeader, q("revisionDesc"))
-    ET.SubElement(revisionDesc, q("change"), {"when": when_iso or ""}).text = "Konvertimi fillestar në TEI (ParlaMint-AL)."
+    revisionDesc = ET.SubElement(teiHeader, qname("revisionDesc"))
+    ET.SubElement(revisionDesc, qname("change"), {"when": meta.date or ""}).text = (
+        "Initial conversion to ParlaMint TEI XML."
+    )
 
-    return root
+    return teiHeader
+
+
+def build_text_block_from_segments(
+    meta: DocumentMetadata,
+    sitting: SittingBlock,
+    resolutions: Optional[Dict[str, SpeakerResolution]] = None,
+) -> ET.Element:
+    """
+    Build the <text>/<body>/<div> block containing speech turns (<u>) and segments (<seg>).
+    """
+    text_el = ET.Element(qname("text"), {xml_attr("lang"): meta.language or LANGUAGE_CODE})
+    body = ET.SubElement(text_el, qname("body"))
+    div = ET.SubElement(body, qname("div"), {"type": "debateSection"})
+
+    seg_global_idx = 1
+    for sp_idx, speech in enumerate(sitting.speeches, start=1):
+        res = (resolutions or {}).get(speech.speech_id)
+        person_id = res.person_id if res and res.person_id else "AL_PERS_Unknown"
+        who_ref = f"#{person_id}" if not person_id.startswith("#") else person_id
+
+        u_attrs = {
+            xml_attr("id"): f"{meta.doc_id}.u{sp_idx}",
+            "who": who_ref,
+            "ana": "#parla.speaker",
+        }
+        u_el = ET.SubElement(div, qname("u"), u_attrs)
+
+        for p_text in speech.paragraphs:
+            clean_p = squash_ws(safe_xml_text(p_text)).strip()
+            if not clean_p:
+                continue
+
+            # Check if paragraph is an editorial note or interruption
+            if clean_p.startswith("(") and clean_p.endswith(")"):
+                note_el = ET.SubElement(u_el, qname("note"), {"type": "comment"})
+                note_el.text = clean_p
+            else:
+                seg_attrs = {xml_attr("id"): f"{meta.doc_id}.seg{seg_global_idx}"}
+                seg_global_idx += 1
+                seg_el = ET.SubElement(u_el, qname("seg"), seg_attrs)
+                seg_el.text = clean_p
+
+    return text_el
+
+
+def build_text_block_from_plain_text(meta: DocumentMetadata, body_text: str) -> ET.Element:
+    """Fallback: convert raw plain text with anonymous single utterance."""
+    text_el = ET.Element(qname("text"), {xml_attr("lang"): meta.language or LANGUAGE_CODE})
+    body = ET.SubElement(text_el, qname("body"))
+    div = ET.SubElement(body, qname("div"), {"type": "debateSection"})
+    u = ET.SubElement(div, qname("u"), {xml_attr("id"): f"{meta.doc_id}.u1", "who": "#AL_PERS_Unknown"})
+
+    paras = split_into_paragraphs(body_text)
+    for i, p in enumerate(paras, start=1):
+        seg = ET.SubElement(u, qname("seg"), {xml_attr("id"): f"{meta.doc_id}.seg{i}"})
+        seg.text = squash_ws(safe_xml_text(p))
+
+    return text_el
+
+
+def segmented_to_tei(
+    sitting: SittingBlock,
+    meta: DocumentMetadata,
+    out_path: Path | str,
+    resolutions: Optional[Dict[str, SpeakerResolution]] = None,
+) -> None:
+    """Write a complete segmented sitting to a ParlaMint TEI XML file."""
+    root = make_tei_root(meta)
+    root.append(build_tei_header(meta))
+    root.append(build_text_block_from_segments(meta, sitting, resolutions))
+
+    p = Path(out_path)
+    p.parent.mkdir(parents=True, exist_ok=True)
+    ET.ElementTree(root).write(p, encoding="utf-8", xml_declaration=True)
+
+
+def txt_to_tei(txt_path: Path | str, meta: DocumentMetadata, out_path: Path | str) -> None:
+    """Convert a plain text file directly to TEI."""
+    text = Path(txt_path).read_text(encoding="utf-8", errors="ignore")
+    root = make_tei_root(meta)
+    root.append(build_tei_header(meta))
+    root.append(build_text_block_from_plain_text(meta, text))
+
+    p = Path(out_path)
+    p.parent.mkdir(parents=True, exist_ok=True)
+    ET.ElementTree(root).write(p, encoding="utf-8", xml_declaration=True)
+
 
 def write_plain_day(
     session: dict,
     speakers_idx: Dict[str, str],
     out_path: str,
-    license_url: str,
-    eventTypeAna: Optional[str] = None,
+    license_url: str = LICENSE_URL,
+    eventTypeAna: Optional[str] = "#parla.sitting",
 ) -> None:
     """
-    session = {
-      "title": str,
-      "date": "YYYY-MM-DD",
-      "time": "HH:MM" (optional),
-      "eventType": "lines between KUVENDI and PROCESVERBAL",
-      "chair_name": str,
-      "chair_role": str,
-      "utterances": [{"who_name": "...", "paragraphs": ["...", ...]}, ...]
-    }
+    Backward-compatibility function matching earlier prototype signature.
     """
-    title = session.get("title") or f"Kuvendi i Shqipërisë, Procesverbal, {session.get('date','')}"
-    root = tei_root(title, session.get("date", ""), license_url)
+    date = session.get("date") or "2025-01-01"
+    doc_id = f"ParlaMint-AL_{date.replace('/', '-')}"
+    meta = DocumentMetadata(
+        doc_id=doc_id,
+        date=date,
+        title_sq=session.get("title"),
+        title_en=f"Parliament of Albania, minutes, {date}",
+        chair_name=session.get("chair_name"),
+        chair_role=session.get("chair_role"),
+    )
 
-    # meeting block in titleStmt (HU style)
-    teiHeader = root.find(q("teiHeader"))
-    titleStmt = teiHeader.find(f".//{q('titleStmt')}")
-    meeting = ET.SubElement(titleStmt, q("meeting"))
-    if session.get("eventType"):
-        for line in session["eventType"].splitlines():
-            line = line.strip()
-            if line:
-                ET.SubElement(meeting, q("p")).text = line
-    if session.get("date"):
-        ET.SubElement(meeting, q("date"), {"when": session["date"]}).text = session["date"]
-    if session.get("time"):
-        ET.SubElement(meeting, q("time")).text = session["time"]
-    if session.get("chair_name"):
-        chair_text = session["chair_name"]
-        if session.get("chair_role"):
-            chair_text += f" — {session['chair_role']}"
-        ET.SubElement(meeting, q("chair")).text = chair_text
-    if eventTypeAna:
-        meeting.set("ana", eventTypeAna)
-
-    # text/body/div/utterances
-    text = ET.SubElement(root, q("text"), {xml_attr("lang"): "sq"})
-    body = ET.SubElement(text, q("body"))
-    div_attrs = {"type": "debateSection"}
-    if eventTypeAna:
-        div_attrs["ana"] = eventTypeAna
-    div = ET.SubElement(body, q("div"), div_attrs)
-
-    date_key = (session.get("date") or "0000-00-00").replace("-", "")
-    for i, u in enumerate(session.get("utterances", []), 1):
-        who_name = (u.get("who_name") or "").strip()
-        pid = speakers_idx.get(who_name.lower())
-        who_ref = f"#{pid}" if pid else "#pAL_UNKNOWN"
-        u_el = ET.SubElement(
-            div,
-            q("u"),
-            {
-                xml_attr("id"): f"uAL_{date_key}_{i:04d}",
-                "who": who_ref,
-                "ana": "#parla.speaker",
-            },
+    speeches = []
+    resolutions: Dict[str, SpeakerResolution] = {}
+    for i, u in enumerate(session.get("utterances", []), start=1):
+        sp_id = f"{doc_id}.u{i}"
+        raw_name = u.get("who_name") or "UNKNOWN"
+        speeches.append(
+            SpeechBlock(
+                speech_id=sp_id,
+                raw_speaker_label=raw_name,
+                paragraphs=u.get("paragraphs", []),
+            )
         )
-        for seg in u.get("paragraphs", []):
-            seg_el = ET.SubElement(u_el, q("seg"))
-            seg_el.text = squash_ws(seg)
+        pid = speakers_idx.get(raw_name.lower()) or "AL_PERS_Unknown"
+        resolutions[sp_id] = SpeakerResolution(
+            raw_label=raw_name,
+            normalized_label=raw_name.lower(),
+            person_id=pid,
+            confidence="exact" if pid != "AL_PERS_Unknown" else "unresolved",
+        )
 
-    # write file
-    out = Path(out_path)
-    out.parent.mkdir(parents=True, exist_ok=True)
-    ET.ElementTree(root).write(out, encoding="utf-8", xml_declaration=True)
+    sitting = SittingBlock(doc_id=doc_id, date=date, speeches=speeches)
+    segmented_to_tei(sitting, meta, out_path, resolutions)

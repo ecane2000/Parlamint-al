@@ -1,186 +1,190 @@
 # -*- coding: utf-8 -*-
 """
-Speaker segmentation with paragraph-aware cues.
-
-Rules:
-- Start segmentation only *after* the line that begins with "HAPET MBLEDHJA".
-- A speaker-cue line looks like:
-    <Name Surname> <dash> <space> <text>
-  where Name and Surname both start with a capital (including Ç, Ë),
-  and dash can be hyphen-minus, en dash, or em dash.
-- If a cue was glued mid-line (cleaning merged paragraphs), we try to
-  reinsert a paragraph break right before that cue so it matches.
+Document segmentation layer for ParlaMint-AL:
+Segments cleaned sitting transcripts into sitting blocks, speech turns, and paragraphs.
+Produces structured intermediate dataclasses (SittingBlock, SpeechBlock) rather than XML directly.
 """
+from __future__ import annotations
 import re
-from typing import Dict, List
-from .utils import split_paragraphs, normalize_newlines, reconstruct_broken_lines
+from dataclasses import dataclass, field
+from typing import List, Optional, Dict
 
-# Accept letters, digits, underscore, periods, hyphens, straight/curly apostrophes, and Latin-1 ranges
+from .utils import (
+    split_paragraphs,
+    normalize_newlines,
+    reconstruct_broken_lines,
+    squash_ws,
+)
+
 ALPHA_CLASS = r"\wÀ-ÖØ-öø-ÿÇËçë"
-DASH_CLASS  = r"–—-"
+DASH_CLASS = r"–—-"
 
-# Full speaker cue at start of paragraph
-SPEAKER_RE = re.compile(
-    rf"^\s*(?P<name>[A-ZÇË][{ALPHA_CLASS}’'\.\-]*\s+[A-ZÇË][{ALPHA_CLASS}’'\.\-]*)\s*[{DASH_CLASS}]\s*(?P<rest>.+)$",
+# Regex matching a speaker cue at start of line/paragraph:
+# e.g., "Niko Peleshi – Mirëdita...", "8 Taulant Balla – ...", "Z. Taulant Balla – ..."
+SPEAKER_CUE_RE = re.compile(
+    rf"^\s*(?:\d+\s+)?(?P<label>(?:(?:Z\.|Znj\.|Deputeti|Deputetja|Ministri|Ministrja|Kryetari|Kryetarja)\s+)?[A-ZÇË][{ALPHA_CLASS}’'\.\-]*\s+[A-ZÇË][{ALPHA_CLASS}’'\.\-]*)\s*[{DASH_CLASS}]\s*(?P<rest>.*)$",
     flags=re.UNICODE | re.DOTALL,
 )
 
-def _split_header_body(txt: str) -> (str, str):
-    """
-    Return (header_text, body_text) by splitting at 'HAPET MBLEDHJA'.
-    If the marker is missing, treat entire text as body.
-    """
+
+@dataclass
+class SpeechBlock:
+    """Represents a single speech/utterance turn in a sitting."""
+    speech_id: str
+    raw_speaker_label: Optional[str]
+    speech_type: Optional[str] = "speech"
+    paragraphs: List[str] = field(default_factory=list)
+
+
+@dataclass
+class SittingBlock:
+    """Represents a full parliamentary sitting with header and speech turns."""
+    doc_id: str
+    date: str
+    title: Optional[str] = None
+    speeches: List[SpeechBlock] = field(default_factory=list)
+    header_text: Optional[str] = None
+    chair_name: Optional[str] = None
+    chair_role: Optional[str] = None
+    agenda_text: Optional[str] = None
+
+
+def split_into_paragraphs(text: str) -> List[str]:
+    """Split text on blank lines, trimming excess whitespace."""
+    return split_paragraphs(text)
+
+
+def is_speaker_line(line: str) -> bool:
+    """Check if a line matches the speaker cue pattern."""
+    return bool(SPEAKER_CUE_RE.match(line.strip()))
+
+
+def normalize_speaker_label(label: str) -> str:
+    """Clean and normalize a raw speaker label."""
+    return squash_ws(label).strip()
+
+
+def merge_broken_speech_lines(lines: List[str]) -> List[str]:
+    """Merge wrapped lines that do not terminate with standard sentence punctuation."""
+    return reconstruct_broken_lines("\n".join(lines)).splitlines()
+
+
+def _split_header_body(txt: str) -> tuple[str, str]:
+    """Split text into (header_text, body_text) at 'HAPET MBLEDHJA'."""
     lines = normalize_newlines(txt).splitlines()
     i_open = None
     for i, l in enumerate(lines):
-        if l.strip().startswith("HAPET MBLEDHJA"):
+        if l.strip().upper().startswith("HAPET MBLEDHJA"):
             i_open = i
             break
     if i_open is None:
-        # No marker found: no header, whole text is body
         return "", normalize_newlines(txt)
     header = "\n".join(lines[:i_open])
-    # Preserve the rest as a single string to keep blank lines intact initially
-    body   = "\n".join(lines[i_open + 1 :])
+    body = "\n".join(lines[i_open + 1 :])
     return header, body
 
-def _reinsert_breaks_before_cues(body: str) -> str:
-    """
-    Ensure every speaker cue is preceded by a blank line, so it becomes its own paragraph.
-    This handles cues glued mid-line AND cues that are just on a new line without a blank line before them.
-    """
-    out: List[str] = []
-    # We'll process line by line.
-    lines = normalize_newlines(body).splitlines()
-    
-    # Regex to find a cue. match mid-line or start-of-line.
-    # We want to detect: [start_of_line_or_space]Name Surname[dash]
-    
-    cue_pattern = re.compile(
-        rf"(^|[^\n])\s*(?P<cue>[A-ZÇË][{ALPHA_CLASS}’'\.\-]*\s+[A-ZÇË][{ALPHA_CLASS}’'\.\-]*\s*[{DASH_CLASS}])\s+"
-    )
-    
-    # Validation pattern: The preceding text must end with [.?!] followed by optional spaces.
-    valid_split_end_re = re.compile(r'[.?!]\s*$')
 
-    # To handle cross-line checks (start of line case), we need to track the "previous valid line content"
-    # accumulated so far in 'out'. However, 'out' contains strings.
-    # We can peek at out[-1] if exists.
+LINE_CUE_RE = re.compile(
+    rf"^\s*(?:\d+\s+)?(?:(?:Z\.|Znj\.|Deputeti|Deputetja|Ministri|Ministrja|Kryetari|Kryetarja)\s+)?[A-ZÇË][{ALPHA_CLASS}’'\.\-]*\s+[A-ZÇË][{ALPHA_CLASS}’'\.\-]*\s*[{DASH_CLASS}]",
+    flags=re.UNICODE,
+)
+
+
+def _reinsert_breaks_before_cues(body: str) -> str:
+    """Ensure every speaker cue is preceded by a blank line so it forms a new paragraph."""
+    out: List[str] = []
+    lines = normalize_newlines(body).splitlines()
 
     for l in lines:
         stripped = l.strip()
         if not stripped:
+            out.append("")
+            continue
+
+        if stripped.upper().startswith("HAPET MBLEDHJA"):
             out.append(l)
             continue
-            
-        if stripped.startswith("HAPET MBLEDHJA"):
-             out.append(l)
-             continue
-             
-        # Search for cue pattern
-        match = cue_pattern.search(l)
-        if match:
-            # We found something looking like a cue
-            start_idx = match.start('cue')
-            
-            prefix = l[:start_idx].strip()
-            rest = l[start_idx:].strip()
-            
-            # DECISION LOGIC:
-            should_split = False
-            
-            if prefix:
-                # Case 1: Mid-line split.
-                # Check if prefix ends with valid punctuation.
-                if valid_split_end_re.search(prefix):
-                    should_split = True
-            else:
-                # Case 2: Start-of-line split.
-                # Check if the PREVIOUS line in 'out' ends with valid punctuation.
-                # We need to find the last non-empty line in 'out' to check.
-                # If 'out' is empty, it's the start of body -> split is fine/irrelevant (no previous text to merge with).
-                # But usually "body" follows header, so splitting at very start is OK.
-                
-                # Find last non-empty line
-                prev_text = ""
-                for prev_line in reversed(out):
-                    if prev_line.strip():
-                        prev_text = prev_line
-                        break
-                
-                if not prev_text:
-                    # No previous text, so essentially a start of block. can treat as split or just new para.
-                    # We will force a break just to be consistent with "speaker starts new para".
-                    should_split = True
-                else:
-                    if valid_split_end_re.search(prev_text):
-                        should_split = True
 
-            if should_split:
-                if prefix:
-                    out.append(prefix)
-                    out.append("")
-                    out.append(rest)
-                else:
-                    out.append("")
-                    out.append(rest)
-            else:
-                # MERGE / NO SPLIT
-                # If it was mid-line (prefix exists), we just keep the line as is.
-                # If it was start-of-line, we just append the line (it remains a separate line in the list, 
-                # but no blank line is inserted, so split_paragraphs won't see it as a new paragraph 
-                # unless there was already a blank line before it in 'lines', which we handled at start of loop?)
-                
-                # Careful: 'lines' iteration doesn't include the blank lines if we used splitlines() on meaningful text? 
-                # actually normalize_newlines(body).splitlines() preserves blank lines as empty strings.
-                # And we handle `if not stripped: out.append(l); continue` at top.
-                # So if we are here, 'l' is not empty.
-                
-                out.append(l)
-
+        if LINE_CUE_RE.match(stripped):
+            # Check if previous item in out was already empty
+            if out and out[-1] != "":
+                out.append("")
+            out.append(stripped)
         else:
             out.append(l)
-            
+
     return "\n".join(out)
 
-def segment_by_speakers(clean_txt: str) -> Dict:
+
+def segment_document(text: str, doc_id: str, date: str, title: str | None = None) -> SittingBlock:
     """
-    Input: a cleaned TXT (paragraphs preserved).
-    Output:
-      {
-        "header_text": "<text before HAPET MBLEDHJA>",
-        "utterances": [
-           {"who_name": "...", "paragraphs": ["...", "..."]},
-           ...
-        ]
-      }
+    Parse a cleaned transcript text into a SittingBlock containing SpeechBlocks.
     """
-    header_txt, body_txt = _split_header_body(clean_txt)
-    # Reconstruct broken lines (heal split sentences) before processing speaker cues
+    header_txt, body_txt = _split_header_body(text)
     body_txt = reconstruct_broken_lines(body_txt)
     body_txt = _reinsert_breaks_before_cues(body_txt)
 
-    paras = split_paragraphs(body_txt)
-    utterances = []
-    current = None
+    paras = split_into_paragraphs(body_txt)
+    speeches: List[SpeechBlock] = []
+    current_speech: Optional[SpeechBlock] = None
+    speech_counter = 1
 
     for para in paras:
-        m = SPEAKER_RE.match(para)
+        m = SPEAKER_CUE_RE.match(para)
         if m:
-            # flush previous
-            if current:
-                utterances.append(current)
-            who = m.group("name").strip()
+            if current_speech and current_speech.paragraphs:
+                speeches.append(current_speech)
+
+            raw_label = normalize_speaker_label(m.group("label"))
             rest = m.group("rest").strip()
-            current = {"who_name": who, "paragraphs": [rest] if rest else []}
+            speech_id = f"{doc_id}.u{speech_counter:04d}"
+            speech_counter += 1
+
+            current_speech = SpeechBlock(
+                speech_id=speech_id,
+                raw_speaker_label=raw_label,
+                speech_type="speech",
+                paragraphs=[rest] if rest else [],
+            )
         else:
-            if current:
-                current["paragraphs"].append(para)
+            if current_speech is not None:
+                current_speech.paragraphs.append(para.strip())
             else:
-                # text before first speaker inside the body: ignore
-                pass
+                # Text before the first speaker in body
+                speech_id = f"{doc_id}.u{speech_counter:04d}"
+                speech_counter += 1
+                current_speech = SpeechBlock(
+                    speech_id=speech_id,
+                    raw_speaker_label=None,
+                    speech_type="narrative",
+                    paragraphs=[para.strip()],
+                )
 
-    if current:
-        utterances.append(current)
+    if current_speech and current_speech.paragraphs:
+        speeches.append(current_speech)
 
-    return {"header_text": header_txt, "utterances": utterances}
+    return SittingBlock(
+        doc_id=doc_id,
+        date=date,
+        title=title,
+        speeches=speeches,
+        header_text=header_txt,
+    )
+
+
+def segment_by_speakers(clean_txt: str) -> Dict:
+    """
+    Backward-compatibility helper: returns dict with header_text and utterances list.
+    """
+    block = segment_document(clean_txt, doc_id="temp_doc", date="")
+    utterances = [
+        {
+            "who_name": s.raw_speaker_label or "UNKNOWN",
+            "paragraphs": s.paragraphs,
+        }
+        for s in block.speeches
+    ]
+    return {
+        "header_text": block.header_text or "",
+        "utterances": utterances,
+    }
