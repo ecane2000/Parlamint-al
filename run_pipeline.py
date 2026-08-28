@@ -57,7 +57,7 @@ def main():
     if args.crawl:
         cmd_args.append("--crawl")
     if args.clean:
-        cmd_args.extend(["--clean_from", "inbox/raw"])
+        cmd_args.append("--clean")
     if args.with_ana:
         cmd_args.append("--with_ana")
 

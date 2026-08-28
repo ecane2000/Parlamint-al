@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-End-to-End Orchestration Pipeline for ParlaMint-AL:
+End-to-End Orchestration Pipeline for ParlaMint-AL conforming to ParlaMint 5.0:
 Coordinates source acquisition, cleaning, segmentation, metadata building,
-TEI encoding, root corpus generation, and linguistic annotation.
+taxonomies generation, TEI encoding, root corpus generation, and linguistic annotation.
 
 Stages:
   --stage tei    : Clean text -> Segment -> Resolve speakers -> out/TEI/plain/*.xml
-  --stage lists  : metadata/*.csv -> out/TEI/ParlaMint-AL-listPerson.xml & listOrg.xml
+  --stage lists  : metadata/*.csv -> out/TEI/ParlaMint-AL-listPerson.xml & listOrg.xml & taxonomies
   --stage root   : Generate/refresh out/TEI/ParlaMint-AL.xml master corpus file
   --stage ana    : Annotate out/TEI/plain/*.xml -> out/TEI/ana/*.ana.xml & ParlaMint-AL.ana.xml
-  --stage all    : Run tei -> lists -> root -> (optional) ana
+  --stage all    : Run lists -> tei -> root -> (optional) ana
 """
 from __future__ import annotations
 import argparse
@@ -29,6 +29,8 @@ from .config import (
     PERSONS_CSV,
     AFFILIATIONS_CSV,
     ORGS_CSV,
+    PATH_INBOX_RAW,
+    PATH_INBOX_CLEANED,
     PDF_URLS,
     COUNTRY_CODE,
     LANGUAGE_CODE,
@@ -55,9 +57,10 @@ from .person_org_metadata import (
     write_listPerson,
     write_listOrg,
 )
+from .taxonomies import write_all_taxonomies
 from .resolve_speakers import resolve_speeches, write_unresolved_report
 from .tei import segmented_to_tei
-from .build_root import write_parlamint_root, build_parlamint_ana_root
+from .build_root import write_root_corpus_file
 from .update_root_includes import update_parlamint_root, update_parlamint_ana_root
 
 
@@ -131,7 +134,12 @@ def convert_inbox_to_tei(
         sitting = segment_document(text, doc_id=meta.doc_id, date=meta.date)
 
         # Resolve speakers
-        resolutions = resolve_speeches(sitting.speeches, date=meta.date, persons=persons)
+        resolutions = resolve_speeches(
+            sitting.speeches,
+            date=meta.date,
+            persons=persons,
+            sitting_chair_name=meta.chair_name or sitting.chair_name,
+        )
         unresolved_all.update(resolutions)
 
         # Write plain TEI component file
@@ -156,6 +164,7 @@ def build_lists(
     Load persons, affiliations, and orgs from metadata/ and write:
     - out_root/ParlaMint-AL-listPerson.xml
     - out_root/ParlaMint-AL-listOrg.xml
+    - Shared ParlaMint 5.0 taxonomies
     """
     meta_path = Path(metadata_dir)
     out_dir = Path(out_root)
@@ -183,8 +192,12 @@ def build_lists(
     write_listPerson(persons.values(), list_person_path)
     write_listOrg(orgs.values(), list_org_path)
 
+    # Write shared taxonomies
+    written_tax = write_all_taxonomies(out_dir)
+
     print(f"[OK] Wrote listPerson ({len(persons)} entries) -> {list_person_path}")
     print(f"[OK] Wrote listOrg    ({len(orgs)} entries) -> {list_org_path}")
+    print(f"[OK] Wrote {len(written_tax)} shared taxonomies -> {out_dir}")
 
     return list_person_path, list_org_path
 
@@ -218,111 +231,109 @@ def annotate_tei(
     ensure_dir(ana_dir)
 
     print(f"[*] Running linguistic annotation with annotator='{annotator}'...")
-    if annotator == "stanza":
-        try:
-            from .annotate_stanza import annotate_corpus_stanza
-            annotate_corpus_stanza(plain_dir, ana_dir, lang=LANGUAGE_CODE)
-        except Exception as e:
-            print(f"[ERROR] Stanza annotation failed: {e}")
-            raise
-    elif annotator == "udpipe":
-        try:
-            from .annotate_udpipe import annotate_corpus_udpipe
-            annotate_corpus_udpipe(plain_dir, ana_dir)
-        except Exception as e:
-            print(f"[ERROR] UDPipe annotation failed: {e}")
-            raise
+    plain_files = sorted(plain_dir.glob("*.xml"))
+    if not plain_files:
+        print(f"[WARN] No plain TEI files found in {plain_dir} to annotate.")
+        return
+
+    if annotator == "udpipe":
+        from .annotate_udpipe import annotate_component_udpipe
+        for pf in plain_files:
+            out_ana_file = ana_dir / f"{pf.stem}.ana.xml"
+            annotate_component_udpipe(pf, out_ana_file)
+            print(f"[OK] UDPipe annotated: {pf.name} -> {out_ana_file.name}")
     else:
-        raise ValueError(f"Unknown annotator '{annotator}'. Choose 'stanza' or 'udpipe'.")
+        from .annotate_stanza import annotate_component_stanza
+        for pf in plain_files:
+            out_ana_file = ana_dir / f"{pf.stem}.ana.xml"
+            annotate_component_stanza(pf, out_ana_file)
+            print(f"[OK] Stanza annotated: {pf.name} -> {out_ana_file.name}")
 
-    # Update .ana root corpus file
-    ana_root_xml = out_dir / f"ParlaMint-{COUNTRY_CODE}.ana.xml"
-    update_parlamint_ana_root(ana_root_xml, ana_dir, href_prefix="ana/")
-    print(f"[OK] Master TEI.ana root refreshed -> {ana_root_xml}")
+    ana_root = out_dir / f"ParlaMint-{COUNTRY_CODE}.ana.xml"
+    update_parlamint_ana_root(ana_root, ana_dir, href_prefix="ana/")
+    print(f"[OK] Master annotated TEI root refreshed -> {ana_root}")
 
 
-def build_arg_parser() -> argparse.ArgumentParser:
-    ap = argparse.ArgumentParser(
-        description="ParlaMint-AL End-to-End Parliamentary Corpus Pipeline",
+def run_pipeline(
+    stage: str = "all",
+    inbox_dir: Path | str = CLEANED_DIR,
+    out_dir: Path | str = OUT_TEI_DIR,
+    metadata_dir: Path | str = METADATA_DIR,
+    crawl_first: bool = False,
+    clean_first: bool = False,
+    annotator: str = "stanza",
+    with_ana: bool = False,
+) -> None:
+    """Run the pipeline end-to-end or execute a single stage."""
+    inbox_p = Path(inbox_dir)
+    out_p = Path(out_dir)
+    meta_p = Path(metadata_dir)
+
+    # Optional pre-processing
+    if crawl_first:
+        print(f"[*] Stage: Crawling and downloading PDFs to {RAW_DIR}...")
+        crawl_to_txt()
+
+    if clean_first:
+        print(f"[*] Stage: Cleaning raw text files from {PATH_INBOX_RAW} -> {inbox_p}...")
+        clean_folder(PATH_INBOX_RAW, inbox_p)
+
+    print(f"[*] Executing pipeline stage: '{stage}'")
+
+    if stage in ("lists", "all"):
+        if stage == "all":
+            print("[*] --- Step 1/3: Building listPerson, listOrg XML & Taxonomies ---")
+        build_lists(metadata_dir=meta_p, out_root=out_p)
+
+    if stage in ("tei", "all"):
+        if stage == "all":
+            print("[*] --- Step 2/3: Generating component TEI plain files ---")
+        convert_inbox_to_tei(inbox_root=inbox_p, out_root=out_p, metadata_dir=meta_p)
+
+    if stage in ("root", "all"):
+        if stage == "all":
+            print("[*] --- Step 3/3: Building master ParlaMint-AL.xml root ---")
+        build_roots(out_root=out_p)
+
+    if stage == "ana" or (stage == "all" and with_ana):
+        if stage == "all":
+            print("[*] --- Step 4/4: Performing linguistic annotation (.ana) ---")
+        annotate_tei(out_root=out_p, annotator=annotator)
+
+    print("\n[SUCCESS] Pipeline stage completed successfully.")
+
+
+def main(argv: Optional[List[str]] = None):
+    parser = argparse.ArgumentParser(
+        description="ParlaMint-AL Parliamentary Pipeline CLI",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
-    ap.add_argument(
+    parser.add_argument(
         "--stage",
         choices=["tei", "lists", "root", "ana", "all"],
         default="all",
-        help="Stage to execute: tei (component files), lists (listPerson/listOrg), root (corpus master), ana (NLP), all (everything)",
+        help="Pipeline stage to execute",
     )
-    ap.add_argument("--crawl", action="store_true", help="Crawl source URLs/PDFs into inbox/raw before running stages")
-    ap.add_argument("--urls", type=str, default=None, help="Path to urls.txt or file containing seed URLs")
-    ap.add_argument("--clean_from", type=str, default=None, help="Clean raw TXT from specified folder (e.g. inbox/raw) into inbox")
-    ap.add_argument("--inbox", type=str, default=CLEANED_DIR, help="Path to cleaned input transcripts directory")
-    ap.add_argument("--out", type=str, default=OUT_TEI_DIR, help="Output root directory for TEI files")
-    ap.add_argument("--metadata_dir", type=str, default=METADATA_DIR, help="Directory containing metadata CSV files")
-    ap.add_argument("--annotator", choices=["stanza", "udpipe"], default="stanza", help="Annotator tool for stage 'ana'")
-    ap.add_argument("--with_ana", action="store_true", help="Include .ana linguistic annotation when running --stage all")
+    parser.add_argument("--crawl", action="store_true", help="Crawl PDFs before running stages")
+    parser.add_argument("--clean", action="store_true", help="Clean raw transcripts before running stages")
+    parser.add_argument("--inbox", type=str, default=CLEANED_DIR, help="Directory containing cleaned transcripts")
+    parser.add_argument("--out", type=str, default=OUT_TEI_DIR, help="Output directory for TEI XML files")
+    parser.add_argument("--metadata_dir", type=str, default=METADATA_DIR, help="Directory containing metadata CSV files")
+    parser.add_argument("--annotator", choices=["stanza", "udpipe"], default="stanza", help="Annotator for stage 'ana'")
+    parser.add_argument("--with_ana", action="store_true", help="Include .ana linguistic annotation when running stage all")
 
-    return ap
+    args = parser.parse_args(argv)
 
-
-def main(argv: Optional[List[str]] = None) -> None:
-    args = build_arg_parser().parse_args(argv)
-
-    inbox_dir = PROJECT_ROOT / args.inbox
-    out_dir = PROJECT_ROOT / args.out
-    meta_dir = PROJECT_ROOT / args.metadata_dir
-
-    # 0. Optional crawl step
-    if args.crawl:
-        print("[*] Stage: Crawling source documents...")
-        if args.urls:
-            from .crawl import _load_urls_from_file
-            urls = _load_urls_from_file(Path(args.urls))
-        else:
-            urls = PDF_URLS
-        crawl_urls(urls, pdf_out=PROJECT_ROOT / "pdfs", txt_out=PROJECT_ROOT / RAW_DIR)
-
-    # 1. Optional text cleaning step
-    if args.clean_from:
-        src_raw = PROJECT_ROOT / args.clean_from
-        print(f"[*] Stage: Cleaning raw text files from {src_raw} -> {inbox_dir}...")
-        clean_folder(src_raw, inbox_dir)
-
-    # 2. Stage Execution
-    stage = args.stage
-    print(f"[*] Executing pipeline stage: '{stage}'")
-
-    if stage == "tei":
-        convert_inbox_to_tei(inbox_dir, out_dir, metadata_dir=meta_dir)
-
-    elif stage == "lists":
-        build_lists(metadata_dir=meta_dir, out_root=out_dir)
-
-    elif stage == "root":
-        build_roots(out_root=out_dir)
-
-    elif stage == "ana":
-        annotate_tei(out_root=out_dir, annotator=args.annotator)
-
-    elif stage == "all":
-        # Run in standard dependency order:
-        # 1. lists (metadata)
-        # 2. tei (component files with resolved speakers)
-        # 3. root (master corpus file with includes)
-        # 4. optional ana (linguistic annotation)
-        print("[*] --- Step 1/3: Building listPerson and listOrg XML ---")
-        build_lists(metadata_dir=meta_dir, out_root=out_dir)
-
-        print("[*] --- Step 2/3: Generating component TEI plain files ---")
-        convert_inbox_to_tei(inbox_dir, out_dir, metadata_dir=meta_dir)
-
-        print("[*] --- Step 3/3: Building master ParlaMint-AL.xml root ---")
-        build_roots(out_root=out_dir)
-
-        if args.with_ana:
-            print("[*] --- Step 4/4: Generating .ana linguistic annotations ---")
-            annotate_tei(out_root=out_dir, annotator=args.annotator)
-
-    print("\n[SUCCESS] Pipeline stage completed successfully.")
+    run_pipeline(
+        stage=args.stage,
+        inbox_dir=args.inbox,
+        out_dir=args.out,
+        metadata_dir=args.metadata_dir,
+        crawl_first=args.crawl,
+        clean_first=args.clean,
+        annotator=args.annotator,
+        with_ana=args.with_ana,
+    )
 
 
 if __name__ == "__main__":

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Speaker resolution and disambiguation layer for ParlaMint-AL:
+Speaker resolution and disambiguation layer for ParlaMint-AL conforming to ParlaMint 5.0:
 Maps raw speaker cues in parliamentary transcripts to stable person IDs (AL_PERS_...)
-and determines date-sensitive roles and organisation affiliations.
+and determines date-sensitive roles (#chair, #regular, #guest) and organisation affiliations.
 """
 from __future__ import annotations
 import csv
@@ -21,15 +21,25 @@ TITLES_RE = re.compile(
     flags=re.I | re.UNICODE,
 )
 
+# Common aliases and OCR typographical corrections
+SPEAKER_ALIASES: Dict[str, str] = {
+    "gent strazimri": "gent strazimiri",
+    "ulsi mnja": "ulsi manja",
+    "bardh spahiu": "bardh spahia",
+    "erinda ballanca": "erinda balanca",
+    "agron shehaj": "agron shehaj",
+    "agron shahaj": "agron shehaj",
+}
+
 
 @dataclass
 class SpeakerResolution:
     """Outcome of resolving a raw speaker string."""
     raw_label: str
     normalized_label: str
-    person_id: Optional[str]
+    person_id: Optional[str]  # None if genuinely unknown (no @who attribute emitted)
     confidence: str  # "exact", "alias", "fuzzy", "heuristic", "unresolved"
-    role: Optional[str] = None
+    role: str = "#regular"  # "#chair", "#regular", or "#guest"
     org_id: Optional[str] = None
     notes: Optional[str] = None
 
@@ -48,9 +58,10 @@ def strip_titles(label: str) -> str:
 
 
 def normalize_person_name(label: str) -> str:
-    """Strip titles and normalize whitespace for consistent speaker matching."""
+    """Strip titles, apply alias corrections, and normalize whitespace."""
     cleaned = strip_titles(label)
-    return normalize_name(cleaned)
+    norm = normalize_name(cleaned)
+    return SPEAKER_ALIASES.get(norm, norm)
 
 
 def _build_name_index(persons: Dict[str, PersonMetadata]) -> tuple[Dict[str, str], Dict[str, List[str]]]:
@@ -73,6 +84,10 @@ def _build_name_index(persons: Dict[str, PersonMetadata]) -> tuple[Dict[str, str
         if r_norm:
             full_map[r_norm] = pid
 
+        # Direct person_id match
+        p_base = normalize_name(pid.replace("AL_PERS_", "").replace("pAL_", ""))
+        full_map[p_base] = pid
+
         # Surname only index
         s_norm = normalize_name(p.surname)
         if s_norm:
@@ -83,13 +98,14 @@ def _build_name_index(persons: Dict[str, PersonMetadata]) -> tuple[Dict[str, str
 
 def match_speaker_label(label: str, persons: Dict[str, PersonMetadata]) -> SpeakerResolution:
     """Match a raw speaker label against the known persons registry."""
-    if not label or label.upper() in ("UNKNOWN", "NONE"):
+    if not label or label.upper() in ("UNKNOWN", "NONE", "E PANJOHUR", "I PANJOHUR"):
         return SpeakerResolution(
             raw_label=label or "",
             normalized_label="",
             person_id=None,
             confidence="unresolved",
-            notes="Empty or unknown label",
+            role="#regular",
+            notes="Unknown speaker without identification (no @who emitted)",
         )
 
     norm = normalize_person_name(label)
@@ -103,19 +119,10 @@ def match_speaker_label(label: str, persons: Dict[str, PersonMetadata]) -> Speak
             normalized_label=norm,
             person_id=pid,
             confidence="exact",
+            role="#regular",
         )
 
-    # 2. Match by direct person_id match
-    for pid in persons:
-        if norm == normalize_name(pid.replace("AL_PERS_", "").replace("pAL_", "")):
-            return SpeakerResolution(
-                raw_label=label,
-                normalized_label=norm,
-                person_id=pid,
-                confidence="exact",
-            )
-
-    # 3. Match on surname if unique
+    # 2. Match on surname if unique
     if norm in surname_map:
         candidates = surname_map[norm]
         if len(candidates) == 1:
@@ -124,16 +131,18 @@ def match_speaker_label(label: str, persons: Dict[str, PersonMetadata]) -> Speak
                 normalized_label=norm,
                 person_id=candidates[0],
                 confidence="alias",
+                role="#regular",
                 notes=f"Single candidate matching surname '{norm}'",
             )
 
-    # 4. Fallback: mint a new person_id
+    # 3. Mint a canonical person_id if name appears to be a valid person
     minted_id = mint_person_id(strip_titles(label))
     return SpeakerResolution(
         raw_label=label,
         normalized_label=norm,
         person_id=minted_id,
         confidence="heuristic",
+        role="#regular",
         notes="Heuristically minted ID (not in persons.csv)",
     )
 
@@ -142,21 +151,34 @@ def resolve_speaker_for_date(
     label: str,
     date: str,
     persons: Dict[str, PersonMetadata],
+    sitting_chair_name: Optional[str] = None,
 ) -> SpeakerResolution:
     """
-    Resolve a speaker label and determine date-sensitive role & org affiliation.
+    Resolve a speaker label and determine date-sensitive role (#chair, #regular, #guest) & org affiliation.
     """
     res = match_speaker_label(label, persons)
-    if not res.person_id or res.person_id not in persons or not date:
+    if not res.person_id:
+        return res
+
+    # Determine if speaker is the sitting / meeting chair
+    if sitting_chair_name:
+        norm_chair = normalize_person_name(sitting_chair_name)
+        if res.normalized_label == norm_chair or (res.person_id and norm_chair in res.person_id.lower()):
+            res.role = "#chair"
+
+    if res.person_id not in persons:
         return res
 
     pers = persons[res.person_id]
     for aff in pers.affiliations:
         # Check if date is within affiliation range
-        from_ok = (not aff.from_date) or (date >= aff.from_date)
-        to_ok = (not aff.to_date) or (date <= aff.to_date)
+        from_ok = (not aff.from_date) or (not date) or (date >= aff.from_date)
+        to_ok = (not aff.to_date) or (not date) or (date <= aff.to_date)
         if from_ok and to_ok:
-            res.role = aff.role
+            if aff.role and aff.role in ("chairperson", "head", "chair"):
+                res.role = "#chair"
+            elif aff.role and aff.role in ("minister", "guest"):
+                res.role = "#guest"
             res.org_id = aff.org_id
             break
 
@@ -167,6 +189,7 @@ def resolve_speeches(
     speeches: List[SpeechBlock],
     date: str,
     persons: Dict[str, PersonMetadata],
+    sitting_chair_name: Optional[str] = None,
 ) -> Dict[str, SpeakerResolution]:
     """
     Resolve all speech turns in a sitting to speaker resolutions.
@@ -175,14 +198,20 @@ def resolve_speeches(
     resolutions: Dict[str, SpeakerResolution] = {}
     for sp in speeches:
         if sp.raw_speaker_label:
-            res = resolve_speaker_for_date(sp.raw_speaker_label, date, persons)
+            res = resolve_speaker_for_date(
+                sp.raw_speaker_label,
+                date=date,
+                persons=persons,
+                sitting_chair_name=sitting_chair_name,
+            )
         else:
             res = SpeakerResolution(
                 raw_label="",
                 normalized_label="",
                 person_id=None,
                 confidence="unresolved",
-                notes="Narrative or chair transition without speaker cue",
+                role="#regular",
+                notes="Narrative or chair transition without explicit speaker cue",
             )
         resolutions[sp.speech_id] = res
 
@@ -197,16 +226,17 @@ def write_unresolved_report(resolutions: Dict[str, SpeakerResolution], out_path:
     with p.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
             f,
-            fieldnames=["speech_id", "raw_label", "normalized_label", "person_id", "confidence", "notes"],
+            fieldnames=["speech_id", "raw_label", "normalized_label", "person_id", "role", "confidence", "notes"],
         )
         writer.writeheader()
         for speech_id, res in resolutions.items():
-            if res.confidence in ("unresolved", "heuristic"):
+            if res.confidence in ("unresolved", "heuristic") or not res.person_id:
                 writer.writerow({
                     "speech_id": speech_id,
                     "raw_label": res.raw_label,
                     "normalized_label": res.normalized_label,
                     "person_id": res.person_id or "",
+                    "role": res.role,
                     "confidence": res.confidence,
                     "notes": res.notes or "",
                 })

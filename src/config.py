@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Configuration and project settings for ParlaMint-AL.
-Owns all paths, constants, licence info, and model paths.
+Owns all paths, constants, licence info, and model paths conforming to ParlaMint 5.0.
 Contains no business logic.
 """
 from pathlib import Path
@@ -10,12 +10,18 @@ import json
 # Project root directory
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
+# ParlaMint Release Baseline
+PARLAMINT_VERSION = "5.0"
+CORPUS_RELEASE_DATE = "2026-08-28"
+HANDLE_URL = "http://hdl.handle.net/11356/2004"
+LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/"
+
 # Corpus / Project Identifiers
 PARLIAMENT_NAME = "Kuvendi i Shqipërisë"
+PARLIAMENT_NAME_EN = "Parliament of Albania"
 COUNTRY_CODE = "AL"
 LANGUAGE_CODE = "sq"
 CITY = "Tiranë"
-LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/"
 
 # Directory Defaults
 INBOX_DIR = "inbox"

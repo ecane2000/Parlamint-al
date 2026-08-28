@@ -1,8 +1,8 @@
-speech_id,raw_label,normalized_label,person_id,confidence,notes
-ParlaMint-AL_2025-12-04.u0001,,,,unresolved,Narrative or chair transition without speaker cue
-ParlaMint-AL_2025-12-04.u0052,Rruga Qukës,rruga qukës,AL_PERS_RrugaQukës,heuristic,Heuristically minted ID (not in persons.csv)
-ParlaMint-AL_2025-12-04.u0160,Sipas INSTAT,sipas instat,AL_PERS_SipasINSTAT,heuristic,Heuristically minted ID (not in persons.csv)
-ParlaMint-AL_2025-12-04.u0224,Segmenti Durrës,segmenti durrës,AL_PERS_SegmentiDurrës,heuristic,Heuristically minted ID (not in persons.csv)
-ParlaMint-AL_2025-12-04.u0290,Megjithëse KESH,megjithëse kesh,AL_PERS_MegjithëseKESH,heuristic,Heuristically minted ID (not in persons.csv)
-ParlaMint-AL_2025-12-04.u0292,Pse KESH,pse kesh,AL_PERS_PseKESH,heuristic,Heuristically minted ID (not in persons.csv)
-ParlaMint-AL_2025-12-04.u0297,Sofjan Jaupaj,sofjan jaupaj,AL_PERS_SofjanJaupaj,heuristic,Heuristically minted ID (not in persons.csv)
+speech_id,raw_label,normalized_label,person_id,role,confidence,notes
+ParlaMint-AL_2025-12-04.u1,,,,#regular,unresolved,Narrative or chair transition without explicit speaker cue
+ParlaMint-AL_2025-12-04.u52,Rruga Qukës,rruga qukës,AL_PERS_RrugaQukës,#regular,heuristic,Heuristically minted ID (not in persons.csv)
+ParlaMint-AL_2025-12-04.u160,Sipas INSTAT,sipas instat,AL_PERS_SipasINSTAT,#regular,heuristic,Heuristically minted ID (not in persons.csv)
+ParlaMint-AL_2025-12-04.u224,Segmenti Durrës,segmenti durrës,AL_PERS_SegmentiDurrës,#regular,heuristic,Heuristically minted ID (not in persons.csv)
+ParlaMint-AL_2025-12-04.u290,Megjithëse KESH,megjithëse kesh,AL_PERS_MegjithëseKESH,#regular,heuristic,Heuristically minted ID (not in persons.csv)
+ParlaMint-AL_2025-12-04.u292,Pse KESH,pse kesh,AL_PERS_PseKESH,#regular,heuristic,Heuristically minted ID (not in persons.csv)
+ParlaMint-AL_2025-12-04.u297,Sofjan Jaupaj,sofjan jaupaj,AL_PERS_SofjanJaupaj,#regular,heuristic,Heuristically minted ID (not in persons.csv)

@@ -62,6 +62,16 @@ def normalise_text(text: str, preserve_paragraphs: bool = False) -> str:
 normalize_text = normalise_text
 
 
+def count_words(text: str) -> int:
+    """Count lexical words in text."""
+    if not text:
+        return 0
+    # Split on whitespace after removing XML tags if present
+    clean = re.sub(r"<[^>]+>", " ", text)
+    tokens = [t for t in re.split(r"\s+", clean) if t.strip()]
+    return len(tokens)
+
+
 def safe_xml_text(text: str) -> str:
     """Remove control characters that are invalid in XML 1.0."""
     if not text:
