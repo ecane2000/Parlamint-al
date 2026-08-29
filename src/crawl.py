@@ -106,13 +106,29 @@ def crawl_urls(
     return out_paths
 
 
+def fetch_fresh_pdf_urls(limit: int = 10, output_file: Path | str | None = None) -> List[str]:
+    """Fetch fresh PDF URLs from the parliament portal/API and save to pdf_urls.json."""
+    from .crawl_pdfs import crawl_pdf_urls, save_urls, OUTPUT_FILE
+    urls = crawl_pdf_urls(limit=limit)
+    if urls:
+        target_file = Path(output_file) if output_file else PROJECT_ROOT / OUTPUT_FILE
+        save_urls(urls, target_file)
+    return urls
+
+
 def crawl_to_txt(
     inbox_root: Path | str | None = None,
     urls: list[str] | None = None,
     do_clean: bool = True,
+    limit: int | None = 10,
 ) -> list[Path]:
     """Top-level crawl function to populate raw text files."""
-    target_urls = urls if urls is not None else PDF_URLS
+    if urls is None:
+        fresh_urls = fetch_fresh_pdf_urls(limit=limit or 10)
+        target_urls = fresh_urls if fresh_urls else PDF_URLS
+    else:
+        target_urls = urls
+
     raw_dir = Path(inbox_root) / "raw" if inbox_root else PROJECT_ROOT / RAW_DIR
     pdf_dir = PROJECT_ROOT / "pdfs"
     return crawl_urls(target_urls, pdf_out=pdf_dir, txt_out=raw_dir)
@@ -130,7 +146,8 @@ def _load_urls_from_file(path: Path) -> List[str]:
 
 def build_arg_parser() -> argparse.ArgumentParser:
     ap = argparse.ArgumentParser(description="Crawl Parliament PDFs and extract raw TXT into inbox/raw")
-    ap.add_argument("--urls", default=None, help="Path to urls.txt (one URL per line)")
+    ap.add_argument("--urls", default=None, help="Path to urls.txt or pdf_urls.json (one URL per line or JSON array)")
+    ap.add_argument("--limit", type=int, default=10, help="Maximum number of fresh PDFs to crawl")
     ap.add_argument("--pdf_out", default="pdfs", help="Directory for downloaded PDFs")
     ap.add_argument("--txt_out", default=RAW_DIR, help="Directory for raw extracted TXT (default: inbox/raw)")
     return ap
@@ -139,9 +156,15 @@ def build_arg_parser() -> argparse.ArgumentParser:
 def main():
     args = build_arg_parser().parse_args()
     if args.urls:
-        urls = _load_urls_from_file(Path(args.urls))
+        u_path = Path(args.urls)
+        if u_path.suffix == ".json":
+            import json
+            with open(u_path, "r", encoding="utf-8") as f:
+                urls = json.load(f)
+        else:
+            urls = _load_urls_from_file(u_path)
     else:
-        urls = PDF_URLS
+        urls = fetch_fresh_pdf_urls(limit=args.limit) or PDF_URLS
     crawl_urls(urls, pdf_out=args.pdf_out, txt_out=args.txt_out)
 
 

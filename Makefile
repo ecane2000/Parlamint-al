@@ -1,22 +1,20 @@
-.PHONY: all crawl build build-ana clean
+.PHONY: all crawl crawl-fresh build build-ana clean
 
-OUT?=out
+OUT?=out/TEI
 
 all: build
 
 crawl:
-	python -m src.crawl --out inbox
+	python3 run_pipeline.py --crawl --limit 10
+
+crawl-fresh:
+	python3 run_pipeline.py --crawl --limit 10
 
 build:
-	python -m src.pipeline --out $(OUT)
+	python3 run_pipeline.py --out $(OUT)
 
 build-ana:
-	python -m src.pipeline --out $(OUT) --with-ana
+	python3 run_pipeline.py --out $(OUT) --with_ana
 
 clean:
-	rm -rf inbox $(OUT)
-
-# Process existing files
-python3 run_pipeline.py
-# Crawl fresh PDFs + process
-python3 run_pipeline.py --crawl --limit 10
+	rm -rf inbox/cleaned $(OUT)

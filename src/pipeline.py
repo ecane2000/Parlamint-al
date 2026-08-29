@@ -263,6 +263,7 @@ def run_pipeline(
     clean_first: bool = False,
     annotator: str = "stanza",
     with_ana: bool = False,
+    limit: Optional[int] = 10,
 ) -> None:
     """Run the pipeline end-to-end or execute a single stage."""
     inbox_p = Path(inbox_dir)
@@ -271,10 +272,12 @@ def run_pipeline(
 
     # Optional pre-processing
     if crawl_first:
-        print(f"[*] Stage: Crawling and downloading PDFs to {RAW_DIR}...")
-        crawl_to_txt()
+        print(f"[*] Stage: Crawling and downloading fresh PDFs (limit={limit or 10}) to {RAW_DIR}...")
+        crawl_to_txt(limit=limit or 10)
+        print(f"[*] Stage: Cleaning raw text files from {PATH_INBOX_RAW} -> {inbox_p}...")
+        clean_folder(PATH_INBOX_RAW, inbox_p)
 
-    if clean_first:
+    elif clean_first:
         print(f"[*] Stage: Cleaning raw text files from {PATH_INBOX_RAW} -> {inbox_p}...")
         clean_folder(PATH_INBOX_RAW, inbox_p)
 
@@ -315,6 +318,7 @@ def main(argv: Optional[List[str]] = None):
         help="Pipeline stage to execute",
     )
     parser.add_argument("--crawl", action="store_true", help="Crawl PDFs before running stages")
+    parser.add_argument("--limit", type=int, default=10, help="Maximum number of fresh PDFs to crawl")
     parser.add_argument("--clean", action="store_true", help="Clean raw transcripts before running stages")
     parser.add_argument("--inbox", type=str, default=CLEANED_DIR, help="Directory containing cleaned transcripts")
     parser.add_argument("--out", type=str, default=OUT_TEI_DIR, help="Output directory for TEI XML files")
@@ -333,6 +337,7 @@ def main(argv: Optional[List[str]] = None):
         clean_first=args.clean,
         annotator=args.annotator,
         with_ana=args.with_ana,
+        limit=args.limit,
     )
 
 

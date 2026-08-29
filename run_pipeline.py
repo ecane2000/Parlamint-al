@@ -10,7 +10,7 @@ Usage:
     python3 run_pipeline.py --stage tei              # Process cleaned TXT -> component TEI files
     python3 run_pipeline.py --stage root             # Generate master ParlaMint-AL.xml root
     python3 run_pipeline.py --stage ana              # Run linguistic annotation (.ana)
-    python3 run_pipeline.py --crawl                  # Download new PDFs first, then process
+    python3 run_pipeline.py --crawl --limit 10       # Download 10 fresh PDFs first, then process
     python3 run_pipeline.py --clean                  # Clean raw_txt into inbox/cleaned first
 """
 from __future__ import annotations
@@ -37,7 +37,8 @@ def main():
         default="all",
         help="Pipeline stage to execute",
     )
-    parser.add_argument("--crawl", action="store_true", help="Crawl and download PDFs before processing")
+    parser.add_argument("--crawl", action="store_true", help="Crawl and download fresh PDFs before processing")
+    parser.add_argument("--limit", type=int, default=10, help="Maximum number of fresh PDFs to crawl when --crawl is enabled")
     parser.add_argument("--clean", action="store_true", help="Clean raw text from inbox/raw before building TEI")
     parser.add_argument("--inbox", type=str, default="inbox/cleaned", help="Input directory of cleaned transcripts")
     parser.add_argument("--out", type=str, default="out/TEI", help="Output directory for TEI XML files")
@@ -56,6 +57,9 @@ def main():
     ]
     if args.crawl:
         cmd_args.append("--crawl")
+        cmd_args.extend(["--limit", str(args.limit)])
+    elif args.limit is not None:
+        cmd_args.extend(["--limit", str(args.limit)])
     if args.clean:
         cmd_args.append("--clean")
     if args.with_ana:
@@ -68,7 +72,7 @@ def main():
     print(f"  Inbox        : {args.inbox}")
     print(f"  Output       : {args.out}")
     print(f"  Metadata     : {args.metadata_dir}")
-    print(f"  Crawl        : {args.crawl}")
+    print(f"  Crawl        : {args.crawl}" + (f" (limit={args.limit})" if args.crawl else ""))
     print(f"  Clean        : {args.clean}")
     print(f"{'='*65}\n")
 
