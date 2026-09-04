@@ -161,10 +161,17 @@ def resolve_speaker_for_date(
         return res
 
     # Determine if speaker is the sitting / meeting chair
+    is_session_chair = False
     if sitting_chair_name:
         norm_chair = normalize_person_name(sitting_chair_name)
-        if res.normalized_label == norm_chair or (res.person_id and norm_chair in res.person_id.lower()):
+        if norm_chair and (
+            res.normalized_label == norm_chair
+            or norm_chair in res.normalized_label
+            or res.normalized_label in norm_chair
+            or (res.person_id and norm_chair in res.person_id.lower())
+        ):
             res.role = "#chair"
+            is_session_chair = True
 
     if res.person_id not in persons:
         return res
@@ -175,14 +182,16 @@ def resolve_speaker_for_date(
         from_ok = (not aff.from_date) or (not date) or (date >= aff.from_date)
         to_ok = (not aff.to_date) or (not date) or (date <= aff.to_date)
         if from_ok and to_ok:
-            if aff.role and aff.role in ("chairperson", "head", "chair"):
-                res.role = "#chair"
-            elif aff.role and aff.role in ("minister", "guest"):
-                res.role = "#guest"
-            res.org_id = aff.org_id
-            break
+            if not is_session_chair:
+                if aff.role and aff.role in ("minister", "guest"):
+                    res.role = "#guest"
+                else:
+                    res.role = "#regular"
+            if not res.org_id:
+                res.org_id = aff.org_id
 
     return res
+
 
 
 def resolve_speeches(

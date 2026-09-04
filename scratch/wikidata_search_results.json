@@ -1,0 +1,2522 @@
+[
+  {
+    "person_id": "AL_PERS_OltaAlia",
+    "name": "Olta Alia",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_MimozaArbi",
+    "name": "Mimoza Arbi",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_ErindaBalanca",
+    "name": "Erinda Balanca",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_TaulantBalla",
+    "name": "Taulant Balla",
+    "matches": [
+      {
+        "id": "Q13046645",
+        "title": "Q13046645",
+        "pageid": 14567410,
+        "concepturi": "http://www.wikidata.org/entity/Q13046645",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q13046645",
+        "display": {
+          "label": {
+            "value": "Taulant Balla",
+            "language": "en"
+          },
+          "description": {
+            "value": "politician",
+            "language": "en"
+          }
+        },
+        "label": "Taulant Balla",
+        "description": "politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Taulant Balla"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_ErindaBallanca",
+    "name": "Erinda Ballanca",
+    "matches": [
+      {
+        "id": "Q61977890",
+        "title": "Q61977890",
+        "pageid": 61806580,
+        "concepturi": "http://www.wikidata.org/entity/Q61977890",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q61977890",
+        "display": {
+          "label": {
+            "value": "Erinda Ballanca",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian lawyer",
+            "language": "en"
+          }
+        },
+        "label": "Erinda Ballanca",
+        "description": "Albanian lawyer",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Erinda Ballanca"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_KlevisBalliu",
+    "name": "Klevis Balliu",
+    "matches": [
+      {
+        "id": "Q31969483",
+        "title": "Q31969483",
+        "pageid": 33449145,
+        "concepturi": "http://www.wikidata.org/entity/Q31969483",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q31969483",
+        "display": {
+          "label": {
+            "value": "Klevis Balliu",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Klevis Balliu",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Klevis Balliu"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_GretaBardeli",
+    "name": "Greta Bardeli",
+    "matches": [
+      {
+        "id": "Q116218648",
+        "title": "Q116218648",
+        "pageid": 110969491,
+        "concepturi": "http://www.wikidata.org/entity/Q116218648",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q116218648",
+        "display": {
+          "label": {
+            "value": "Greta Bardeli",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian lawyer and politician",
+            "language": "en"
+          }
+        },
+        "label": "Greta Bardeli",
+        "description": "Albanian lawyer and politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Greta Bardeli"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_GazmentBardhi",
+    "name": "Gazment Bardhi",
+    "matches": [
+      {
+        "id": "Q47485981",
+        "title": "Q47485981",
+        "pageid": 48529563,
+        "concepturi": "http://www.wikidata.org/entity/Q47485981",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q47485981",
+        "display": {
+          "label": {
+            "value": "Gazment Bardhi",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician (1986-)",
+            "language": "en"
+          }
+        },
+        "label": "Gazment Bardhi",
+        "description": "Albanian politician (1986-)",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Gazment Bardhi"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_SaliBerisha",
+    "name": "Sali Berisha",
+    "matches": [
+      {
+        "id": "Q57625",
+        "title": "Q57625",
+        "pageid": 60445,
+        "concepturi": "http://www.wikidata.org/entity/Q57625",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q57625",
+        "display": {
+          "label": {
+            "value": "Sali Berisha",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Sali Berisha",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Sali Berisha"
+        }
+      },
+      {
+        "id": "Q17942721",
+        "title": "Q17942721",
+        "pageid": 19487497,
+        "concepturi": "http://www.wikidata.org/entity/Q17942721",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q17942721",
+        "display": {
+          "label": {
+            "value": "Sali Berisha afirma que Albania aprobará una ley que permitirá el matrimonio homosexual",
+            "language": "ga"
+          },
+          "description": {
+            "value": "Wikinews article",
+            "language": "en"
+          }
+        },
+        "label": "Sali Berisha afirma que Albania aprobará una ley que permitirá el matrimonio homosexual",
+        "description": "Wikinews article",
+        "match": {
+          "type": "label",
+          "language": "ga",
+          "text": "Sali Berisha afirma que Albania aprobará una ley que permitirá el matrimonio homosexual"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_ArditBido",
+    "name": "Ardit Bido",
+    "matches": [
+      {
+        "id": "Q31666504",
+        "title": "Q31666504",
+        "pageid": 33168709,
+        "concepturi": "http://www.wikidata.org/entity/Q31666504",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q31666504",
+        "display": {
+          "label": {
+            "value": "Ardit Bido",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian academic and politician",
+            "language": "en"
+          }
+        },
+        "label": "Ardit Bido",
+        "description": "Albanian academic and politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Ardit Bido"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_TediBlushi",
+    "name": "Tedi Blushi",
+    "matches": [
+      {
+        "id": "Q116237899",
+        "title": "Q116237899",
+        "pageid": 110990317,
+        "concepturi": "http://www.wikidata.org/entity/Q116237899",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q116237899",
+        "display": {
+          "label": {
+            "value": "Tedi Blushi",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician and journalist",
+            "language": "en"
+          }
+        },
+        "label": "Tedi Blushi",
+        "description": "Albanian politician and journalist",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Tedi Blushi"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_EnnoBozdo",
+    "name": "Enno Bozdo",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_LuçianoBoçi",
+    "name": "Luçiano Boçi",
+    "matches": [
+      {
+        "id": "Q6706730",
+        "title": "Q6706730",
+        "pageid": 6543379,
+        "concepturi": "http://www.wikidata.org/entity/Q6706730",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q6706730",
+        "display": {
+          "label": {
+            "value": "Luçiano Boçi",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Luçiano Boçi",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Luçiano Boçi"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_ErionBraçe",
+    "name": "Erion Braçe",
+    "matches": [
+      {
+        "id": "Q13038669",
+        "title": "Q13038669",
+        "pageid": 14553477,
+        "concepturi": "http://www.wikidata.org/entity/Q13038669",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q13038669",
+        "display": {
+          "label": {
+            "value": "Erion Braçe",
+            "language": "en"
+          },
+          "description": {
+            "value": "politician",
+            "language": "en"
+          }
+        },
+        "label": "Erion Braçe",
+        "description": "politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Erion Braçe"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_EtlevaBudini",
+    "name": "Etleva Budini",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_HysenBuzali",
+    "name": "Hysen Buzali",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_AulonaBylykbashi",
+    "name": "Aulona Bylykbashi",
+    "matches": [
+      {
+        "id": "Q136905275",
+        "title": "Q136905275",
+        "pageid": 130582798,
+        "concepturi": "http://www.wikidata.org/entity/Q136905275",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q136905275",
+        "display": {
+          "label": {
+            "value": "Aulona Bylykbashi",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician (1985-)",
+            "language": "en"
+          }
+        },
+        "label": "Aulona Bylykbashi",
+        "description": "Albanian politician (1985-)",
+        "match": {
+          "type": "label",
+          "language": "mul",
+          "text": "Aulona Bylykbashi"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_OerdBylykbashi",
+    "name": "Oerd Bylykbashi",
+    "matches": [
+      {
+        "id": "Q20577429",
+        "title": "Q20577429",
+        "pageid": 22325022,
+        "concepturi": "http://www.wikidata.org/entity/Q20577429",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q20577429",
+        "display": {
+          "label": {
+            "value": "Oerd Bylykbashi",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian lawyer and politician",
+            "language": "en"
+          }
+        },
+        "label": "Oerd Bylykbashi",
+        "description": "Albanian lawyer and politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Oerd Bylykbashi"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_IgliCara",
+    "name": "Igli Cara",
+    "matches": [
+      {
+        "id": "Q5992076",
+        "title": "Q5992076",
+        "pageid": 5770447,
+        "concepturi": "http://www.wikidata.org/entity/Q5992076",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q5992076",
+        "display": {
+          "label": {
+            "value": "Igli Cara",
+            "language": "en"
+          },
+          "description": {
+            "value": "politician",
+            "language": "en"
+          }
+        },
+        "label": "Igli Cara",
+        "description": "politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Igli Cara"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_BesnikDeda",
+    "name": "Besnik Deda",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_AlisaDemollari",
+    "name": "Alisa Demollari",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_AnilaDenaj",
+    "name": "Anila Denaj",
+    "matches": [
+      {
+        "id": "Q97241319",
+        "title": "Q97241319",
+        "pageid": 95681619,
+        "concepturi": "http://www.wikidata.org/entity/Q97241319",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q97241319",
+        "display": {
+          "label": {
+            "value": "Anila Denaj",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Anila Denaj",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Anila Denaj"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_BesnikDervishi",
+    "name": "Besnik Dervishi",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_AntonetaDhima",
+    "name": "Antoneta Dhima",
+    "matches": [
+      {
+        "id": "Q31880138",
+        "title": "Q31880138",
+        "pageid": 33364172,
+        "concepturi": "http://www.wikidata.org/entity/Q31880138",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q31880138",
+        "display": {
+          "label": {
+            "value": "Antoneta Dhima",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Antoneta Dhima",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Antoneta Dhima"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_PiroDhima",
+    "name": "Piro Dhima",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_VangjelDule",
+    "name": "Vangjel Dule",
+    "matches": [
+      {
+        "id": "Q1727869",
+        "title": "Q1727869",
+        "pageid": 1660910,
+        "concepturi": "http://www.wikidata.org/entity/Q1727869",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q1727869",
+        "display": {
+          "label": {
+            "value": "Vanghel Dule",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician of Greek descent",
+            "language": "en"
+          }
+        },
+        "label": "Vanghel Dule",
+        "description": "Albanian politician of Greek descent",
+        "match": {
+          "type": "alias",
+          "language": "en",
+          "text": "Vangjel Dule"
+        },
+        "aliases": [
+          "Vangjel Dule"
+        ]
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_AniDyrmishi",
+    "name": "Ani Dyrmishi",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_MilvaEkonomi",
+    "name": "Milva Ekonomi",
+    "matches": [
+      {
+        "id": "Q25570422",
+        "title": "Q25570422",
+        "pageid": 27523073,
+        "concepturi": "http://www.wikidata.org/entity/Q25570422",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q25570422",
+        "display": {
+          "label": {
+            "value": "Milva Ekonomi",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician (1962-)",
+            "language": "en"
+          }
+        },
+        "label": "Milva Ekonomi",
+        "description": "Albanian politician (1962-)",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Milva Ekonomi"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_ErmalElezi",
+    "name": "Ermal Elezi",
+    "matches": [
+      {
+        "id": "Q115559237",
+        "title": "Q115559237",
+        "pageid": 110126118,
+        "concepturi": "http://www.wikidata.org/entity/Q115559237",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q115559237",
+        "display": {
+          "label": {
+            "value": "Ermal Elezi",
+            "language": "en"
+          }
+        },
+        "label": "Ermal Elezi",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Ermal Elezi"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_RobertGajda",
+    "name": "Robert Gajda",
+    "matches": [
+      {
+        "id": "Q7386477",
+        "title": "Q7386477",
+        "pageid": 7295640,
+        "concepturi": "http://www.wikidata.org/entity/Q7386477",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q7386477",
+        "display": {
+          "label": {
+            "value": "Róbert Gajda",
+            "language": "en"
+          },
+          "description": {
+            "value": "Hungarian politician",
+            "language": "en"
+          }
+        },
+        "label": "Róbert Gajda",
+        "description": "Hungarian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Robert Gajda"
+        },
+        "aliases": [
+          "Robert Gajda"
+        ]
+      },
+      {
+        "id": "Q9310798",
+        "title": "Q9310798",
+        "pageid": 9415863,
+        "concepturi": "http://www.wikidata.org/entity/Q9310798",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q9310798",
+        "display": {
+          "label": {
+            "value": "Robert Gajda",
+            "language": "en"
+          },
+          "description": {
+            "value": "Polish composer",
+            "language": "en"
+          }
+        },
+        "label": "Robert Gajda",
+        "description": "Polish composer",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Robert Gajda"
+        }
+      },
+      {
+        "id": "Q125169708",
+        "title": "Q125169708",
+        "pageid": 119325039,
+        "concepturi": "http://www.wikidata.org/entity/Q125169708",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q125169708",
+        "display": {
+          "label": {
+            "value": "Robert Gajda",
+            "language": "en"
+          },
+          "description": {
+            "value": "Law expert",
+            "language": "en"
+          }
+        },
+        "label": "Robert Gajda",
+        "description": "Law expert",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Robert Gajda"
+        }
+      },
+      {
+        "id": "Q100759341",
+        "title": "Q100759341",
+        "pageid": 98318766,
+        "concepturi": "http://www.wikidata.org/entity/Q100759341",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q100759341",
+        "display": {
+          "label": {
+            "value": "Robert Gajda",
+            "language": "en"
+          },
+          "description": {
+            "value": "researcher (ORCID 0000-0001-7957-918X)",
+            "language": "en"
+          }
+        },
+        "label": "Robert Gajda",
+        "description": "researcher (ORCID 0000-0001-7957-918X)",
+        "match": {
+          "type": "label",
+          "language": "mul",
+          "text": "Robert Gajda"
+        }
+      },
+      {
+        "id": "Q92988129",
+        "title": "Q92988129",
+        "pageid": 92138322,
+        "concepturi": "http://www.wikidata.org/entity/Q92988129",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q92988129",
+        "display": {
+          "label": {
+            "value": "Robert Gajda",
+            "language": "en"
+          },
+          "description": {
+            "value": "researcher (ORCID 0000-0002-8305-8130)",
+            "language": "en"
+          }
+        },
+        "label": "Robert Gajda",
+        "description": "researcher (ORCID 0000-0002-8305-8130)",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "Robert Gajda"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_AgronGjekmarkaj",
+    "name": "Agron Gjekmarkaj",
+    "matches": [
+      {
+        "id": "Q123847867",
+        "title": "Q123847867",
+        "pageid": 118037039,
+        "concepturi": "http://www.wikidata.org/entity/Q123847867",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q123847867",
+        "display": {
+          "label": {
+            "value": "Agron Gjekmarkaj",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician, lecturer and political analyst",
+            "language": "en"
+          }
+        },
+        "label": "Agron Gjekmarkaj",
+        "description": "Albanian politician, lecturer and political analyst",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Agron Gjekmarkaj"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_GjinGjoni",
+    "name": "Gjin Gjoni",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_IldaGjuzi",
+    "name": "Ilda Gjuzi",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_ToniGogu",
+    "name": "Toni Gogu",
+    "matches": [
+      {
+        "id": "Q136351034",
+        "title": "Q136351034",
+        "pageid": 130041052,
+        "concepturi": "http://www.wikidata.org/entity/Q136351034",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q136351034",
+        "display": {
+          "label": {
+            "value": "Toni Gogu",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian lawyer and politician",
+            "language": "en"
+          }
+        },
+        "label": "Toni Gogu",
+        "description": "Albanian lawyer and politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Toni Gogu"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_BlendiGonxhja",
+    "name": "Blendi Gonxhja",
+    "matches": [
+      {
+        "id": "Q124972664",
+        "title": "Q124972664",
+        "pageid": 119147778,
+        "concepturi": "http://www.wikidata.org/entity/Q124972664",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q124972664",
+        "display": {
+          "label": {
+            "value": "Blendi Gonxhja",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Blendi Gonxhja",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Blendi Gonxhja"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_ArdianaHala",
+    "name": "Ardiana Hala",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_SaimirHasalla",
+    "name": "Saimir Hasalla",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_IgliHasani",
+    "name": "Igli Hasani",
+    "matches": [
+      {
+        "id": "Q99626474",
+        "title": "Q99626474",
+        "pageid": 97538309,
+        "concepturi": "http://www.wikidata.org/entity/Q99626474",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q99626474",
+        "display": {
+          "label": {
+            "value": "Igli Hasani",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian male politician",
+            "language": "en"
+          }
+        },
+        "label": "Igli Hasani",
+        "description": "Albanian male politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Igli Hasani"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_EdmondHaxhinasto",
+    "name": "Edmond Haxhinasto",
+    "matches": [
+      {
+        "id": "Q58180",
+        "title": "Q58180",
+        "pageid": 60998,
+        "concepturi": "http://www.wikidata.org/entity/Q58180",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q58180",
+        "display": {
+          "label": {
+            "value": "Edmond Haxhinasto",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Edmond Haxhinasto",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Edmond Haxhinasto"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_AsfloralHaxhiu",
+    "name": "Asfloral Haxhiu",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_BlendiHimçi",
+    "name": "Blendi Himçi",
+    "matches": [
+      {
+        "id": "Q116165130",
+        "title": "Q116165130",
+        "pageid": 110874708,
+        "concepturi": "http://www.wikidata.org/entity/Q116165130",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q116165130",
+        "display": {
+          "label": {
+            "value": "Blendi Himçi",
+            "language": "en"
+          }
+        },
+        "label": "Blendi Himçi",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Blendi Himçi"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_EldaHoti",
+    "name": "Elda Hoti",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_KlitiHoti",
+    "name": "Kliti Hoti",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_ErvinHoxha",
+    "name": "Ervin Hoxha",
+    "matches": [
+      {
+        "id": "Q131418640",
+        "title": "Q131418640",
+        "pageid": 125328919,
+        "concepturi": "http://www.wikidata.org/entity/Q131418640",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q131418640",
+        "display": {
+          "label": {
+            "value": "Ervin Hoxha",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician (born 1978)",
+            "language": "en"
+          }
+        },
+        "label": "Ervin Hoxha",
+        "description": "Albanian politician (born 1978)",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Ervin Hoxha"
+        }
+      },
+      {
+        "id": "Q115545826",
+        "title": "Q115545826",
+        "pageid": 110114078,
+        "concepturi": "http://www.wikidata.org/entity/Q115545826",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q115545826",
+        "display": {
+          "label": {
+            "value": "Ervin Hoxhaj",
+            "language": "en"
+          }
+        },
+        "label": "Ervin Hoxhaj",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Ervin Hoxhaj"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_ElonaHoxhaj",
+    "name": "Elona Hoxhaj",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_DelinaIbrahimaj",
+    "name": "Delina Ibrahimaj",
+    "matches": [
+      {
+        "id": "Q108698181",
+        "title": "Q108698181",
+        "pageid": 103925182,
+        "concepturi": "http://www.wikidata.org/entity/Q108698181",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q108698181",
+        "display": {
+          "label": {
+            "value": "Delina Ibrahimaj",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Delina Ibrahimaj",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Delina Ibrahimaj"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_ErjonaIsmaili",
+    "name": "Erjona Ismaili",
+    "matches": [
+      {
+        "id": "Q139088605",
+        "title": "Q139088605",
+        "pageid": 132552755,
+        "concepturi": "http://www.wikidata.org/entity/Q139088605",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q139088605",
+        "display": {
+          "label": {
+            "value": "Erjona Ismaili",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Erjona Ismaili",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Erjona Ismaili"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_EraldKapri",
+    "name": "Erald Kapri",
+    "matches": [
+      {
+        "id": "Q116218754",
+        "title": "Q116218754",
+        "pageid": 110969597,
+        "concepturi": "http://www.wikidata.org/entity/Q116218754",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q116218754",
+        "display": {
+          "label": {
+            "value": "Erald Kapri",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician (born 1987)",
+            "language": "en"
+          }
+        },
+        "label": "Erald Kapri",
+        "description": "Albanian politician (born 1987)",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Erald Kapri"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_IviKaso",
+    "name": "Ivi Kaso",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_OlsiKomici",
+    "name": "Olsi Komici",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_HatixheKonomi",
+    "name": "Hatixhe Konomi",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_EltonKorreshi",
+    "name": "Elton Korreshi",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_RominaKuko",
+    "name": "Romina Kuko",
+    "matches": [
+      {
+        "id": "Q110854436",
+        "title": "Q110854436",
+        "pageid": 105878075,
+        "concepturi": "http://www.wikidata.org/entity/Q110854436",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q110854436",
+        "display": {
+          "label": {
+            "value": "Romina Kuko",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Romina Kuko",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Romina Kuko"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_RamionKurti",
+    "name": "Ramion Kurti",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_EvisKushi",
+    "name": "Evis Kushi",
+    "matches": [
+      {
+        "id": "Q31880612",
+        "title": "Q31880612",
+        "pageid": 33364626,
+        "concepturi": "http://www.wikidata.org/entity/Q31880612",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q31880612",
+        "display": {
+          "label": {
+            "value": "Evis Kushi",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Evis Kushi",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Evis Kushi"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_BelindKëlliçi",
+    "name": "Belind Këlliçi",
+    "matches": [
+      {
+        "id": "Q81919278",
+        "title": "Q81919278",
+        "pageid": 81277412,
+        "concepturi": "http://www.wikidata.org/entity/Q81919278",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q81919278",
+        "display": {
+          "label": {
+            "value": "Belind Këlliçi",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Belind Këlliçi",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Belind Këlliçi"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_BesfortLamallari",
+    "name": "Besfort Lamallari",
+    "matches": [
+      {
+        "id": "Q115969761",
+        "title": "Q115969761",
+        "pageid": 110659217,
+        "concepturi": "http://www.wikidata.org/entity/Q115969761",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q115969761",
+        "display": {
+          "label": {
+            "value": "Besfort Lamallari",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician (born 1987)",
+            "language": "en"
+          }
+        },
+        "label": "Besfort Lamallari",
+        "description": "Albanian politician (born 1987)",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Besfort Lamallari"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_BujarLeskaj",
+    "name": "Bujar Leskaj",
+    "matches": [
+      {
+        "id": "Q13037805",
+        "title": "Q13037805",
+        "pageid": 14552064,
+        "concepturi": "http://www.wikidata.org/entity/Q13037805",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q13037805",
+        "display": {
+          "label": {
+            "value": "Bujar Leskaj",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian economist",
+            "language": "en"
+          }
+        },
+        "label": "Bujar Leskaj",
+        "description": "Albanian economist",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Bujar Leskaj"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_IrisLuarasi",
+    "name": "Iris Luarasi",
+    "matches": [
+      {
+        "id": "Q124211770",
+        "title": "Q124211770",
+        "pageid": 118384027,
+        "concepturi": "http://www.wikidata.org/entity/Q124211770",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q124211770",
+        "display": {
+          "label": {
+            "value": "Iris Luarasi",
+            "language": "en"
+          }
+        },
+        "label": "Iris Luarasi",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Iris Luarasi"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_LefterijeLuzi",
+    "name": "Lefterije Luzi",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_ErionMalaj",
+    "name": "Erion Malaj",
+    "matches": [
+      {
+        "id": "Q97241598",
+        "title": "Q97241598",
+        "pageid": 95681897,
+        "concepturi": "http://www.wikidata.org/entity/Q97241598",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q97241598",
+        "display": {
+          "label": {
+            "value": "Erion Malaj",
+            "language": "sq"
+          }
+        },
+        "label": "Erion Malaj",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Erion Malaj"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_PetritMalaj",
+    "name": "Petrit Malaj",
+    "matches": [
+      {
+        "id": "Q11815992",
+        "title": "Q11815992",
+        "pageid": 12952546,
+        "concepturi": "http://www.wikidata.org/entity/Q11815992",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q11815992",
+        "display": {
+          "label": {
+            "value": "Petrit Malaj",
+            "language": "en"
+          },
+          "description": {
+            "value": "actor",
+            "language": "en"
+          }
+        },
+        "label": "Petrit Malaj",
+        "description": "actor",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Petrit Malaj"
+        }
+      },
+      {
+        "id": "Q135095772",
+        "title": "Q135095772",
+        "pageid": 128911658,
+        "concepturi": "http://www.wikidata.org/entity/Q135095772",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q135095772",
+        "display": {
+          "label": {
+            "value": "Petrit Malaj",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Petrit Malaj",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "mul",
+          "text": "Petrit Malaj"
+        }
+      },
+      {
+        "id": "Q135099301",
+        "title": "Q135099301",
+        "pageid": 128914096,
+        "concepturi": "http://www.wikidata.org/entity/Q135099301",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q135099301",
+        "display": {
+          "label": {
+            "value": "Petrit Malaj",
+            "language": "en"
+          }
+        },
+        "label": "Petrit Malaj",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Petrit Malaj (politikan)"
+        },
+        "aliases": [
+          "Petrit Malaj (politikan)"
+        ]
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_UlsiManja",
+    "name": "Ulsi Manja",
+    "matches": [
+      {
+        "id": "Q31970269",
+        "title": "Q31970269",
+        "pageid": 33449911,
+        "concepturi": "http://www.wikidata.org/entity/Q31970269",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q31970269",
+        "display": {
+          "label": {
+            "value": "Ulsi Manja",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician (born 1973)",
+            "language": "en"
+          }
+        },
+        "label": "Ulsi Manja",
+        "description": "Albanian politician (born 1973)",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Ulsi Manja"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_FatmirMediu",
+    "name": "Fatmir Mediu",
+    "matches": [
+      {
+        "id": "Q983272",
+        "title": "Q983272",
+        "pageid": 932948,
+        "concepturi": "http://www.wikidata.org/entity/Q983272",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q983272",
+        "display": {
+          "label": {
+            "value": "Fatmir Mediu",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Fatmir Mediu",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Fatmir Mediu"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_ErindaMeli",
+    "name": "Erinda Meli",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_PjerinaMema",
+    "name": "Pjerina Mema",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_SaraMila",
+    "name": "Sara Mila",
+    "matches": [
+      {
+        "id": "Q53672462",
+        "title": "Q53672462",
+        "pageid": 54171359,
+        "concepturi": "http://www.wikidata.org/entity/Q53672462",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q53672462",
+        "display": {
+          "label": {
+            "value": "Sara Milazzo",
+            "language": "en"
+          },
+          "description": {
+            "value": "Finnish musician",
+            "language": "en"
+          }
+        },
+        "label": "Sara Milazzo",
+        "description": "Finnish musician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Sara Milazzo"
+        }
+      },
+      {
+        "id": "Q135366222",
+        "title": "Q135366222",
+        "pageid": 129100200,
+        "concepturi": "http://www.wikidata.org/entity/Q135366222",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q135366222",
+        "display": {
+          "label": {
+            "value": "Sara Milanovic",
+            "language": "en"
+          },
+          "description": {
+            "value": "Bosnia and Herzegovina basketball player (born 2000)",
+            "language": "en"
+          }
+        },
+        "label": "Sara Milanovic",
+        "description": "Bosnia and Herzegovina basketball player (born 2000)",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "Sara Milanovic"
+        }
+      },
+      {
+        "id": "Q119700471",
+        "title": "Q119700471",
+        "pageid": 114179160,
+        "concepturi": "http://www.wikidata.org/entity/Q119700471",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q119700471",
+        "display": {
+          "label": {
+            "value": "Sarah Milamon",
+            "language": "en"
+          }
+        },
+        "label": "Sarah Milamon",
+        "match": {
+          "type": "label",
+          "language": "oc",
+          "text": "Sara Milamon"
+        },
+        "aliases": [
+          "Sara Milamon"
+        ]
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_ErjoMile",
+    "name": "Erjo Mile",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_BoraMuzhaqi",
+    "name": "Bora Muzhaqi",
+    "matches": [
+      {
+        "id": "Q109524653",
+        "title": "Q109524653",
+        "pageid": 104666966,
+        "concepturi": "http://www.wikidata.org/entity/Q109524653",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q109524653",
+        "display": {
+          "label": {
+            "value": "Bora Muzhaqi",
+            "language": "en"
+          },
+          "description": {
+            "value": "politician in Albania",
+            "language": "en"
+          }
+        },
+        "label": "Bora Muzhaqi",
+        "description": "politician in Albania",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Bora Muzhaqi"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_RediMuçi",
+    "name": "Redi Muçi",
+    "matches": [
+      {
+        "id": "Q134530339",
+        "title": "Q134530339",
+        "pageid": 128367062,
+        "concepturi": "http://www.wikidata.org/entity/Q134530339",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q134530339",
+        "display": {
+          "label": {
+            "value": "Redi Muci",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Redi Muci",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Redi Muçi"
+        },
+        "aliases": [
+          "Redi Muçi"
+        ]
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_XhelalMziu",
+    "name": "Xhelal Mziu",
+    "matches": [
+      {
+        "id": "Q61079810",
+        "title": "Q61079810",
+        "pageid": 60932411,
+        "concepturi": "http://www.wikidata.org/entity/Q61079810",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q61079810",
+        "display": {
+          "label": {
+            "value": "Xhelal Mziu",
+            "language": "en"
+          }
+        },
+        "label": "Xhelal Mziu",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Xhelal Mziu"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_BledjonNallbati",
+    "name": "Bledjon Nallbati",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_FadilNasufi",
+    "name": "Fadil Nasufi",
+    "matches": [
+      {
+        "id": "Q31880557",
+        "title": "Q31880557",
+        "pageid": 33364573,
+        "concepturi": "http://www.wikidata.org/entity/Q31880557",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q31880557",
+        "display": {
+          "label": {
+            "value": "Fadil Nasufi",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Fadil Nasufi",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Fadil Nasufi"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_ArianNdoja",
+    "name": "Arian Ndoja",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_BlertaNerguti",
+    "name": "Blerta Nerguti",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_FlamurNoka",
+    "name": "Flamur Noka",
+    "matches": [
+      {
+        "id": "Q5457338",
+        "title": "Q5457338",
+        "pageid": 5218685,
+        "concepturi": "http://www.wikidata.org/entity/Q5457338",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q5457338",
+        "display": {
+          "label": {
+            "value": "Flamur Noka",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Flamur Noka",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Flamur Noka"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_NikoPeleshi",
+    "name": "Niko Peleshi",
+    "matches": [
+      {
+        "id": "Q13043483",
+        "title": "Q13043483",
+        "pageid": 14561889,
+        "concepturi": "http://www.wikidata.org/entity/Q13043483",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q13043483",
+        "display": {
+          "label": {
+            "value": "Niko Peleshi",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Niko Peleshi",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Niko Peleshi"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_AhmetPrençi",
+    "name": "Ahmet Prençi",
+    "matches": [
+      {
+        "id": "Q116165756",
+        "title": "Q116165756",
+        "pageid": 110875332,
+        "concepturi": "http://www.wikidata.org/entity/Q116165756",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q116165756",
+        "display": {
+          "label": {
+            "value": "Ahmet Prençi",
+            "language": "en"
+          }
+        },
+        "label": "Ahmet Prençi",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Ahmet Prençi"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_MeritaQato",
+    "name": "Merita Qato",
+    "matches": [
+      {
+        "id": "Q115554186",
+        "title": "Q115554186",
+        "pageid": 110121396,
+        "concepturi": "http://www.wikidata.org/entity/Q115554186",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q115554186",
+        "display": {
+          "label": {
+            "value": "Merita Qato",
+            "language": "en"
+          }
+        },
+        "label": "Merita Qato",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Merita Qato"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_EvisSala",
+    "name": "Evis Sala",
+    "matches": [
+      {
+        "id": "Q89724459",
+        "title": "Q89724459",
+        "pageid": 88935837,
+        "concepturi": "http://www.wikidata.org/entity/Q89724459",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q89724459",
+        "display": {
+          "label": {
+            "value": "Evis Sala",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian-British radiologist and politician",
+            "language": "en"
+          }
+        },
+        "label": "Evis Sala",
+        "description": "Albanian-British radiologist and politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Evis Sala"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_AgronShahaj",
+    "name": "Agron Shahaj",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_AgronShehaj",
+    "name": "Agron Shehaj",
+    "matches": [
+      {
+        "id": "Q32025369",
+        "title": "Q32025369",
+        "pageid": 33501216,
+        "concepturi": "http://www.wikidata.org/entity/Q32025369",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q32025369",
+        "display": {
+          "label": {
+            "value": "Agron Shehaj",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Agron Shehaj",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Agron Shehaj"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_TritanShehu",
+    "name": "Tritan Shehu",
+    "matches": [
+      {
+        "id": "Q7844256",
+        "title": "Q7844256",
+        "pageid": 7778758,
+        "concepturi": "http://www.wikidata.org/entity/Q7844256",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q7844256",
+        "display": {
+          "label": {
+            "value": "Tritan Shehu",
+            "language": "en"
+          },
+          "description": {
+            "value": "Member of the Assembly of the Republic of Albania",
+            "language": "en"
+          }
+        },
+        "label": "Tritan Shehu",
+        "description": "Member of the Assembly of the Republic of Albania",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Tritan Shehu"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_VilmaShurdha",
+    "name": "Vilma Shurdha",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_VullnetSinaj",
+    "name": "Vullnet Sinaj",
+    "matches": [
+      {
+        "id": "Q32025745",
+        "title": "Q32025745",
+        "pageid": 33501590,
+        "concepturi": "http://www.wikidata.org/entity/Q32025745",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q32025745",
+        "display": {
+          "label": {
+            "value": "Vullnet Sinaj",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Vullnet Sinaj",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Vullnet Sinaj"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_ZamiraSinaj",
+    "name": "Zamira Sinaj",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_BardhSpahia",
+    "name": "Bardh Spahia",
+    "matches": [
+      {
+        "id": "Q31969902",
+        "title": "Q31969902",
+        "pageid": 33449547,
+        "concepturi": "http://www.wikidata.org/entity/Q31969902",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q31969902",
+        "display": {
+          "label": {
+            "value": "Bardh Spahia",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Bardh Spahia",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Bardh Spahia"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_BardhSpahiu",
+    "name": "Bardh Spahiu",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_KlodianaSpahiu",
+    "name": "Klodiana Spahiu",
+    "matches": [
+      {
+        "id": "Q31965321",
+        "title": "Q31965321",
+        "pageid": 33445081,
+        "concepturi": "http://www.wikidata.org/entity/Q31965321",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q31965321",
+        "display": {
+          "label": {
+            "value": "Klodiana Spahiu",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Klodiana Spahiu",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Klodiana Spahiu"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_BesaSpaho",
+    "name": "Besa Spaho",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_GentStrazimiri",
+    "name": "Gent Strazimiri",
+    "matches": [
+      {
+        "id": "Q10953116",
+        "title": "Q10953116",
+        "pageid": 12224088,
+        "concepturi": "http://www.wikidata.org/entity/Q10953116",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q10953116",
+        "display": {
+          "label": {
+            "value": "Gent Strazimiri",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Gent Strazimiri",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Gent Strazimiri"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_JoridaTabaku",
+    "name": "Jorida Tabaku",
+    "matches": [
+      {
+        "id": "Q16218853",
+        "title": "Q16218853",
+        "pageid": 17845210,
+        "concepturi": "http://www.wikidata.org/entity/Q16218853",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q16218853",
+        "display": {
+          "label": {
+            "value": "Jorida Tabaku",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Jorida Tabaku",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Jorida Tabaku"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_JozefinaTopalli",
+    "name": "Jozefina Topalli",
+    "matches": [
+      {
+        "id": "Q462441",
+        "title": "Q462441",
+        "pageid": 436176,
+        "concepturi": "http://www.wikidata.org/entity/Q462441",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q462441",
+        "display": {
+          "label": {
+            "value": "Jozefina Topalli",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Jozefina Topalli",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Jozefina Topalli"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_BesaVelaj",
+    "name": "Besa Velaj",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_FatmirXhafaj",
+    "name": "Fatmir Xhafaj",
+    "matches": [
+      {
+        "id": "Q16354928",
+        "title": "Q16354928",
+        "pageid": 17983237,
+        "concepturi": "http://www.wikidata.org/entity/Q16354928",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q16354928",
+        "display": {
+          "label": {
+            "value": "Fatmir Xhafaj",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Fatmir Xhafaj",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Fatmir Xhafaj"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_OltaXhaçka",
+    "name": "Olta Xhaçka",
+    "matches": [
+      {
+        "id": "Q13043722",
+        "title": "Q13043722",
+        "pageid": 14562282,
+        "concepturi": "http://www.wikidata.org/entity/Q13043722",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q13043722",
+        "display": {
+          "label": {
+            "value": "Olta Xhaçka",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Olta Xhaçka",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Olta Xhaçka"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_KiduinaZaka",
+    "name": "Kiduina Zaka",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_FatbardhZenelaj",
+    "name": "Fatbardh Zenelaj",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_InaZhupa",
+    "name": "Ina Zhupa",
+    "matches": [
+      {
+        "id": "Q29233997",
+        "title": "Q29233997",
+        "pageid": 30888851,
+        "concepturi": "http://www.wikidata.org/entity/Q29233997",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q29233997",
+        "display": {
+          "label": {
+            "value": "Ina Zhupa",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Ina Zhupa",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Ina Zhupa"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_IsufÇelaj",
+    "name": "Isuf Çelaj",
+    "matches": [
+      {
+        "id": "Q31969563",
+        "title": "Q31969563",
+        "pageid": 33449223,
+        "concepturi": "http://www.wikidata.org/entity/Q31969563",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q31969563",
+        "display": {
+          "label": {
+            "value": "Isuf Celaj",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Isuf Celaj",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Isuf Celaj"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_BlediÇomo",
+    "name": "Bledi Çomo",
+    "matches": []
+  },
+  {
+    "person_id": "AL_PERS_BledarÇuçi",
+    "name": "Bledar Çuçi",
+    "matches": [
+      {
+        "id": "Q31967316",
+        "title": "Q31967316",
+        "pageid": 33446987,
+        "concepturi": "http://www.wikidata.org/entity/Q31967316",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q31967316",
+        "display": {
+          "label": {
+            "value": "Bledar Çuçi",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian deputy",
+            "language": "en"
+          }
+        },
+        "label": "Bledar Çuçi",
+        "description": "Albanian deputy",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Bledar Çuçi"
+        }
+      },
+      {
+        "id": "Q16350979",
+        "title": "Q16350979",
+        "pageid": 17978952,
+        "concepturi": "http://www.wikidata.org/entity/Q16350979",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q16350979",
+        "display": {
+          "label": {
+            "value": "Bledi Çuçi",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Bledi Çuçi",
+        "description": "Albanian politician",
+        "match": {
+          "type": "alias",
+          "language": "en",
+          "text": "Bledar Çuçi"
+        },
+        "aliases": [
+          "Bledar Çuçi"
+        ]
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_LinditaNikolla",
+    "name": "Lindita Nikolla",
+    "matches": [
+      {
+        "id": "Q15193651",
+        "title": "Q15193651",
+        "pageid": 16844347,
+        "concepturi": "http://www.wikidata.org/entity/Q15193651",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q15193651",
+        "display": {
+          "label": {
+            "value": "Lindita Nikolla",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Lindita Nikolla",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Lindita Nikolla"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "AL_PERS_KlotildaBushka",
+    "name": "Klotilda Bushka",
+    "matches": [
+      {
+        "id": "Q31965785",
+        "title": "Q31965785",
+        "pageid": 33445490,
+        "concepturi": "http://www.wikidata.org/entity/Q31965785",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q31965785",
+        "display": {
+          "label": {
+            "value": "Klotilda Bushka",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Klotilda Bushka",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Klotilda Bushka"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "NikollaLindita",
+    "name": "Lindita Nikolla",
+    "matches": [
+      {
+        "id": "Q15193651",
+        "title": "Q15193651",
+        "pageid": 16844347,
+        "concepturi": "http://www.wikidata.org/entity/Q15193651",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q15193651",
+        "display": {
+          "label": {
+            "value": "Lindita Nikolla",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Lindita Nikolla",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Lindita Nikolla"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "BushkaKlotilda",
+    "name": "Klotilda Bushka",
+    "matches": [
+      {
+        "id": "Q31965785",
+        "title": "Q31965785",
+        "pageid": 33445490,
+        "concepturi": "http://www.wikidata.org/entity/Q31965785",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q31965785",
+        "display": {
+          "label": {
+            "value": "Klotilda Bushka",
+            "language": "en"
+          },
+          "description": {
+            "value": "Albanian politician",
+            "language": "en"
+          }
+        },
+        "label": "Klotilda Bushka",
+        "description": "Albanian politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Klotilda Bushka"
+        }
+      }
+    ]
+  },
+  {
+    "person_id": "BallaTaulant",
+    "name": "Taulant Balla",
+    "matches": [
+      {
+        "id": "Q13046645",
+        "title": "Q13046645",
+        "pageid": 14567410,
+        "concepturi": "http://www.wikidata.org/entity/Q13046645",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q13046645",
+        "display": {
+          "label": {
+            "value": "Taulant Balla",
+            "language": "en"
+          },
+          "description": {
+            "value": "politician",
+            "language": "en"
+          }
+        },
+        "label": "Taulant Balla",
+        "description": "politician",
+        "match": {
+          "type": "label",
+          "language": "sq",
+          "text": "Taulant Balla"
+        }
+      }
+    ]
+  }
+]

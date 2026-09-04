@@ -123,17 +123,44 @@ def extract_header_block(txt: str) -> dict:
             time = m_time.group(1)
         date = guess_date_from_url(date_line)
 
-    # Chair extraction ("Drejton mbledhjen:")
+    # Chair extraction ("Drejton mbledhjen:", "Seancën e drejton", "Drejton seancën")
     chair_name, chair_role = "", ""
     for idx, l in enumerate(lines[:60]):
-        if l.lower().startswith("drejton mbledhjen"):
-            for k in range(idx + 1, min(idx + 5, len(lines))):
+        low_l = l.lower()
+        if any(cue in low_l for cue in ("drejton mbledhjen", "seancën e drejton", "seancen e drejton", "drejton seancën", "drejton seancen")):
+            # Check if name is on the same line after colon
+            if ":" in l:
+                after_colon = l.split(":", 1)[1].strip()
+                if after_colon:
+                    parts = re.split(r"\s*[–—-]\s*", after_colon, maxsplit=1)
+                    chair_name = parts[0].strip()
+                    chair_role = parts[1].strip() if len(parts) > 1 else ""
+                    if chair_name:
+                        break
+
+            # Search subsequent lines
+            for k in range(idx + 1, min(idx + 6, len(lines))):
                 if lines[k]:
-                    parts = re.split(r"\s*[–—-]\s*", lines[k], maxsplit=1)
+                    line_k = lines[k].strip()
+                    if line_k.startswith("(") and line_k.endswith(")"):
+                        continue
+                    if line_k.upper() in (
+                        "KRYETARI I KUVENDIT", "KRYETARJA E KUVENDIT", "KRYETAR I KUVENDIT",
+                        "KRYETAR", "KRYETARJA", "NËNKRYETAR", "NËNKRYETARJA", "NËNKRYETARI I KUVENDIT",
+                    ):
+                        chair_role = line_k
+                        for m_idx in range(k + 1, min(k + 4, len(lines))):
+                            cand = lines[m_idx].strip()
+                            if cand and not (cand.startswith("(") and cand.endswith(")")):
+                                chair_name = cand
+                                break
+                        break
+                    parts = re.split(r"\s*[–—-]\s*", line_k, maxsplit=1)
                     chair_name = parts[0].strip()
                     chair_role = parts[1].strip() if len(parts) > 1 else ""
                     break
-            break
+            if chair_name:
+                break
 
     # Agenda extraction (between "Rendi i ditës:" and "Marrin pjesë:" or "HAPET MBLEDHJA")
     agenda_text = ""

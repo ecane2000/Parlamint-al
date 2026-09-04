@@ -176,6 +176,7 @@ def build_root_corpus_tei(
     classDecl = ET.SubElement(encodingDesc, q("classDecl"))
     for tax_file in (
         "ParlaMint-taxonomy-speaker_types.xml",
+        "ParlaMint-taxonomy-parla.roles.xml",
         "ParlaMint-taxonomy-subcorpus.xml",
         "ParlaMint-taxonomy-parla.legislature.xml",
         "ParlaMint-taxonomy-politicalOrientation.xml",

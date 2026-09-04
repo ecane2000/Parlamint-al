@@ -1,9 +1,17 @@
 org_id,org_type,name_short,name_full,orientation,parent_org_id,country
 AL_ORG_Kuvendi,parliament,Kuvendi,Kuvendi i Shqipërisë,,,AL
-AL_ORG_CLAP,committee,CLAP,Komisioni për Çështjet Ligjore dhe Administratën Publike,,AL_ORG_Kuvendi,AL
+parliament.AL,parliament,Kuvendi,Kuvendi i Shqipërisë,,,AL
+AL_ORG_CLAP,committee,CLAP,Komisioni për Çështjet Ligjore, Administratën Publike dhe të Drejtat e Njeriut,,AL_ORG_Kuvendi,AL
+committee.Ligjet,committee,Ligjet,Komisioni për Çështjet Ligjore, Administratën Publike dhe të Drejtat e Njeriut,,parliament.AL,AL
 AL_ORG_KKIE,committee,KKIE,Komisioni për Çështjet e Sigurisë Kombëtare,,AL_ORG_Kuvendi,AL
 AL_ORG_PS,politicalParty,PS,Partia Socialiste e Shqipërisë,centre-left,,AL
+party.PS,politicalParty,PS,Partia Socialiste e Shqipërisë,centre-left,,AL
+group.PS,parliamentaryGroup,GP PS,Grupi Parlamentar i Partisë Socialiste,centre-left,AL_ORG_Kuvendi,AL
 AL_ORG_PD,politicalParty,PD,Partia Demokratike e Shqipërisë,centre-right,,AL
+party.PD,politicalParty,PD,Partia Demokratike e Shqipërisë,centre-right,,AL
+group.PD,parliamentaryGroup,GP PD,Grupi Parlamentar i Partisë Demokratike,centre-right,AL_ORG_Kuvendi,AL
 AL_ORG_PL,politicalParty,PL,Partia e Lirisë,centre-left,,AL
+party.PL,politicalParty,PL,Partia e Lirisë,centre-left,,AL
+group.PL,parliamentaryGroup,GP PL,Grupi Parlamentar i Partisë së Lirisë,centre-left,AL_ORG_Kuvendi,AL
 AL_ORG_AN,parliamentaryGroup,AN,Grupi Parlamentar Aleanca për Ndryshim,centre-right,,AL
 AL_ORG_Qeveria,government,Qeveria,Qeveria e Republikës së Shqipërisë,,,AL

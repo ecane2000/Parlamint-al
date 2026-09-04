@@ -1,15 +1,41 @@
-person_id,org_id,role,from_date,to_date
-AL_PERS_NikoPeleshi,AL_ORG_PS,member,2013-09-09,
-AL_PERS_NikoPeleshi,AL_ORG_Kuvendi,chairperson,2025-09-01,
-AL_PERS_UlsiManja,AL_ORG_PS,member,2013-09-09,
-AL_PERS_UlsiManja,AL_ORG_CLAP,chairperson,2021-09-09,
-AL_PERS_AgronGjekmarkaj,AL_ORG_PD,member,2021-09-09,
-AL_PERS_AgronGjekmarkaj,AL_ORG_Kuvendi,deputyChairperson,2021-09-09,
-AL_PERS_KlodianaSpahiu,AL_ORG_PS,member,2013-09-09,
-AL_PERS_KlodianaSpahiu,AL_ORG_Kuvendi,deputyChairperson,2021-09-09,
-AL_PERS_TaulantBalla,AL_ORG_PS,groupLeader,2017-09-09,
-AL_PERS_ToniGogu,AL_ORG_Qeveria,minister,2024-01-01,
-AL_PERS_FatmirMediu,AL_ORG_AN,groupLeader,2021-09-09,
-AL_PERS_TediBlushi,AL_ORG_PL,groupLeader,2025-01-01,
-AL_PERS_BelindKëlliçi,AL_ORG_PD,deputyLeader,2021-09-09,
-AL_PERS_GentStrazimiri,AL_ORG_PD,member,2009-09-09,
+person_id,org_id,role,from_date,to_date,role_name_sq,role_name_en
+NikollaLindita,parliament.AL,head,2021-09-10,2024-07-30,Kryetare e Kuvendit,Speaker of the Parliament
+NikollaLindita,parliament.AL,member,2021-09-10,,,
+NikollaLindita,party.PS,member,2021-09-10,,,
+BallaTaulant,group.PS,head,2017-09-09,2023-07-20,Kryetar i Grupit Parlamentar,Chair of Parliamentary Group
+BallaTaulant,group.PS,member,,,,
+BallaTaulant,parliament.AL,member,,,,
+BushkaKlotilda,committee.Ligjet,head,2021-09-20,,"Kryetare e Komisionit për Çështjet Ligjore, Administratën Publike dhe të Drejtat e Njeriut","Chair of the Committee on Legal Affairs, Public Administration and Human Rights"
+BushkaKlotilda,committee.Ligjet,member,,,,
+BushkaKlotilda,parliament.AL,member,,,,
+AL_PERS_NikoPeleshi,AL_ORG_Kuvendi,head,2024-09-01,,Kryetar i Kuvendit,Speaker of the Parliament
+AL_PERS_NikoPeleshi,AL_ORG_Kuvendi,member,2013-09-09,,,
+AL_PERS_NikoPeleshi,AL_ORG_PS,member,2013-09-09,,,
+AL_PERS_UlsiManja,AL_ORG_CLAP,head,2017-09-09,2021-09-09,"Kryetar i Komisionit për Çështjet Ligjore, Administratën Publike dhe të Drejtat e Njeriut","Chair of the Committee on Legal Affairs, Public Administration and Human Rights"
+AL_PERS_UlsiManja,AL_ORG_CLAP,member,2017-09-09,,,
+AL_PERS_UlsiManja,AL_ORG_Kuvendi,member,2013-09-09,,,
+AL_PERS_UlsiManja,AL_ORG_PS,member,2013-09-09,,,
+AL_PERS_AgronGjekmarkaj,AL_ORG_Kuvendi,deputyHead,2021-09-09,,Nënkryetar i Kuvendit,Deputy Speaker of the Parliament
+AL_PERS_AgronGjekmarkaj,AL_ORG_Kuvendi,member,2021-09-09,,,
+AL_PERS_AgronGjekmarkaj,AL_ORG_PD,member,2021-09-09,,,
+AL_PERS_KlodianaSpahiu,AL_ORG_Kuvendi,deputyHead,2021-09-09,,Nënkryetare e Kuvendit,Deputy Speaker of the Parliament
+AL_PERS_KlodianaSpahiu,AL_ORG_Kuvendi,member,2013-09-09,,,
+AL_PERS_KlodianaSpahiu,AL_ORG_PS,member,2013-09-09,,,
+AL_PERS_TaulantBalla,AL_ORG_PS,head,2017-09-09,2023-07-20,Kryetar i Grupit Parlamentar,Chair of Parliamentary Group
+AL_PERS_TaulantBalla,AL_ORG_PS,member,2005-09-09,,,
+AL_PERS_TaulantBalla,AL_ORG_Kuvendi,member,2005-09-09,,,
+AL_PERS_ToniGogu,AL_ORG_Qeveria,minister,2024-01-01,,Ministër i Shtetit për Marrëdhëniet me Parlamentin,Minister of State for Relations with Parliament
+AL_PERS_ToniGogu,AL_ORG_Qeveria,member,2024-01-01,,,
+AL_PERS_ToniGogu,AL_ORG_Kuvendi,member,2021-09-09,,,
+AL_PERS_ToniGogu,AL_ORG_PS,member,2021-09-09,,,
+AL_PERS_FatmirMediu,AL_ORG_AN,head,2021-09-09,,Kryetar i Grupit Parlamentar,Chair of Parliamentary Group
+AL_PERS_FatmirMediu,AL_ORG_AN,member,2021-09-09,,,
+AL_PERS_FatmirMediu,AL_ORG_Kuvendi,member,2001-09-09,,,
+AL_PERS_TediBlushi,AL_ORG_PL,head,2025-01-01,,Kryetar i Grupit Parlamentar,Chair of Parliamentary Group
+AL_PERS_TediBlushi,AL_ORG_PL,member,2025-01-01,,,
+AL_PERS_TediBlushi,AL_ORG_Kuvendi,member,2025-01-01,,,
+AL_PERS_BelindKëlliçi,AL_ORG_PD,deputyHead,2021-09-09,,Nënkryetar i Grupit Parlamentar,Deputy Chair of Parliamentary Group
+AL_PERS_BelindKëlliçi,AL_ORG_PD,member,2021-09-09,,,
+AL_PERS_BelindKëlliçi,AL_ORG_Kuvendi,member,2021-09-09,,,
+AL_PERS_GentStrazimiri,AL_ORG_PD,member,2009-09-09,,,
+AL_PERS_GentStrazimiri,AL_ORG_Kuvendi,member,2009-09-09,,,

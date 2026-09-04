@@ -1,0 +1,870 @@
+[
+  {
+    "person_id": "AL_PERS_OltaAlia",
+    "forename": "Olta",
+    "surname": "Alia",
+    "full_name": "Olta Alia",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_MimozaArbi",
+    "forename": "Mimoza",
+    "surname": "Arbi",
+    "full_name": "Mimoza Arbi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_ErindaBalanca",
+    "forename": "Erinda",
+    "surname": "Balanca",
+    "full_name": "Erinda Balanca",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_TaulantBalla",
+    "forename": "Taulant",
+    "surname": "Balla",
+    "full_name": "Taulant Balla",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_ErindaBallanca",
+    "forename": "Erinda",
+    "surname": "Ballanca",
+    "full_name": "Erinda Ballanca",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_KlevisBalliu",
+    "forename": "Klevis",
+    "surname": "Balliu",
+    "full_name": "Klevis Balliu",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_GretaBardeli",
+    "forename": "Greta",
+    "surname": "Bardeli",
+    "full_name": "Greta Bardeli",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_GazmentBardhi",
+    "forename": "Gazment",
+    "surname": "Bardhi",
+    "full_name": "Gazment Bardhi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_SaliBerisha",
+    "forename": "Sali",
+    "surname": "Berisha",
+    "full_name": "Sali Berisha",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_ArditBido",
+    "forename": "Ardit",
+    "surname": "Bido",
+    "full_name": "Ardit Bido",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_TediBlushi",
+    "forename": "Tedi",
+    "surname": "Blushi",
+    "full_name": "Tedi Blushi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_EnnoBozdo",
+    "forename": "Enno",
+    "surname": "Bozdo",
+    "full_name": "Enno Bozdo",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_LuçianoBoçi",
+    "forename": "Luçiano",
+    "surname": "Boçi",
+    "full_name": "Luçiano Boçi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_ErionBraçe",
+    "forename": "Erion",
+    "surname": "Braçe",
+    "full_name": "Erion Braçe",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_EtlevaBudini",
+    "forename": "Etleva",
+    "surname": "Budini",
+    "full_name": "Etleva Budini",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_HysenBuzali",
+    "forename": "Hysen",
+    "surname": "Buzali",
+    "full_name": "Hysen Buzali",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_AulonaBylykbashi",
+    "forename": "Aulona",
+    "surname": "Bylykbashi",
+    "full_name": "Aulona Bylykbashi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_OerdBylykbashi",
+    "forename": "Oerd",
+    "surname": "Bylykbashi",
+    "full_name": "Oerd Bylykbashi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_IgliCara",
+    "forename": "Igli",
+    "surname": "Cara",
+    "full_name": "Igli Cara",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_BesnikDeda",
+    "forename": "Besnik",
+    "surname": "Deda",
+    "full_name": "Besnik Deda",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_AlisaDemollari",
+    "forename": "Alisa",
+    "surname": "Demollari",
+    "full_name": "Alisa Demollari",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_AnilaDenaj",
+    "forename": "Anila",
+    "surname": "Denaj",
+    "full_name": "Anila Denaj",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_BesnikDervishi",
+    "forename": "Besnik",
+    "surname": "Dervishi",
+    "full_name": "Besnik Dervishi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_AntonetaDhima",
+    "forename": "Antoneta",
+    "surname": "Dhima",
+    "full_name": "Antoneta Dhima",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_PiroDhima",
+    "forename": "Piro",
+    "surname": "Dhima",
+    "full_name": "Piro Dhima",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_VangjelDule",
+    "forename": "Vangjel",
+    "surname": "Dule",
+    "full_name": "Vangjel Dule",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_AniDyrmishi",
+    "forename": "Ani",
+    "surname": "Dyrmishi",
+    "full_name": "Ani Dyrmishi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_MilvaEkonomi",
+    "forename": "Milva",
+    "surname": "Ekonomi",
+    "full_name": "Milva Ekonomi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_ErmalElezi",
+    "forename": "Ermal",
+    "surname": "Elezi",
+    "full_name": "Ermal Elezi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_RobertGajda",
+    "forename": "Robert",
+    "surname": "Gajda",
+    "full_name": "Robert Gajda",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_AgronGjekmarkaj",
+    "forename": "Agron",
+    "surname": "Gjekmarkaj",
+    "full_name": "Agron Gjekmarkaj",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_GjinGjoni",
+    "forename": "Gjin",
+    "surname": "Gjoni",
+    "full_name": "Gjin Gjoni",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_IldaGjuzi",
+    "forename": "Ilda",
+    "surname": "Gjuzi",
+    "full_name": "Ilda Gjuzi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_ToniGogu",
+    "forename": "Toni",
+    "surname": "Gogu",
+    "full_name": "Toni Gogu",
+    "wikidata_id": "Q136351034",
+    "source": "wikidata.sq"
+  },
+  {
+    "person_id": "AL_PERS_BlendiGonxhja",
+    "forename": "Blendi",
+    "surname": "Gonxhja",
+    "full_name": "Blendi Gonxhja",
+    "wikidata_id": "Q124972664",
+    "source": "sq.wikipedia"
+  },
+  {
+    "person_id": "AL_PERS_ArdianaHala",
+    "forename": "Ardiana",
+    "surname": "Hala",
+    "full_name": "Ardiana Hala",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_SaimirHasalla",
+    "forename": "Saimir",
+    "surname": "Hasalla",
+    "full_name": "Saimir Hasalla",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_IgliHasani",
+    "forename": "Igli",
+    "surname": "Hasani",
+    "full_name": "Igli Hasani",
+    "wikidata_id": "Q99626474",
+    "source": "wikidata.sq",
+    "sex": "M",
+    "birth_date": "1976-00-00",
+    "sq_wiki": null,
+    "en_wiki": null,
+    "desc_en": "Albanian male politician",
+    "desc_sq": "diplomat shqiptar"
+  },
+  {
+    "person_id": "AL_PERS_EdmondHaxhinasto",
+    "forename": "Edmond",
+    "surname": "Haxhinasto",
+    "full_name": "Edmond Haxhinasto",
+    "wikidata_id": "Q58180",
+    "source": "wikidata.sq"
+  },
+  {
+    "person_id": "AL_PERS_AsfloralHaxhiu",
+    "forename": "Asfloral",
+    "surname": "Haxhiu",
+    "full_name": "Asfloral Haxhiu",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_BlendiHimçi",
+    "forename": "Blendi",
+    "surname": "Himçi",
+    "full_name": "Blendi Himçi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_EldaHoti",
+    "forename": "Elda",
+    "surname": "Hoti",
+    "full_name": "Elda Hoti",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_KlitiHoti",
+    "forename": "Kliti",
+    "surname": "Hoti",
+    "full_name": "Kliti Hoti",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_ErvinHoxha",
+    "forename": "Ervin",
+    "surname": "Hoxha",
+    "full_name": "Ervin Hoxha",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_ElonaHoxhaj",
+    "forename": "Elona",
+    "surname": "Hoxhaj",
+    "full_name": "Elona Hoxhaj",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_DelinaIbrahimaj",
+    "forename": "Delina",
+    "surname": "Ibrahimaj",
+    "full_name": "Delina Ibrahimaj",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_ErjonaIsmaili",
+    "forename": "Erjona",
+    "surname": "Ismaili",
+    "full_name": "Erjona Ismaili",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_EraldKapri",
+    "forename": "Erald",
+    "surname": "Kapri",
+    "full_name": "Erald Kapri",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_IviKaso",
+    "forename": "Ivi",
+    "surname": "Kaso",
+    "full_name": "Ivi Kaso",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_OlsiKomici",
+    "forename": "Olsi",
+    "surname": "Komici",
+    "full_name": "Olsi Komici",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_HatixheKonomi",
+    "forename": "Hatixhe",
+    "surname": "Konomi",
+    "full_name": "Hatixhe Konomi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_EltonKorreshi",
+    "forename": "Elton",
+    "surname": "Korreshi",
+    "full_name": "Elton Korreshi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_RominaKuko",
+    "forename": "Romina",
+    "surname": "Kuko",
+    "full_name": "Romina Kuko",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_RamionKurti",
+    "forename": "Ramion",
+    "surname": "Kurti",
+    "full_name": "Ramion Kurti",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_EvisKushi",
+    "forename": "Evis",
+    "surname": "Kushi",
+    "full_name": "Evis Kushi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_BelindKëlliçi",
+    "forename": "Belind",
+    "surname": "Këlliçi",
+    "full_name": "Belind Këlliçi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_BesfortLamallari",
+    "forename": "Besfort",
+    "surname": "Lamallari",
+    "full_name": "Besfort Lamallari",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_BujarLeskaj",
+    "forename": "Bujar",
+    "surname": "Leskaj",
+    "full_name": "Bujar Leskaj",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_IrisLuarasi",
+    "forename": "Iris",
+    "surname": "Luarasi",
+    "full_name": "Iris Luarasi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_LefterijeLuzi",
+    "forename": "Lefterije",
+    "surname": "Luzi",
+    "full_name": "Lefterije Luzi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_ErionMalaj",
+    "forename": "Erion",
+    "surname": "Malaj",
+    "full_name": "Erion Malaj",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_PetritMalaj",
+    "forename": "Petrit",
+    "surname": "Malaj",
+    "full_name": "Petrit Malaj",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_UlsiManja",
+    "forename": "Ulsi",
+    "surname": "Manja",
+    "full_name": "Ulsi Manja",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_FatmirMediu",
+    "forename": "Fatmir",
+    "surname": "Mediu",
+    "full_name": "Fatmir Mediu",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_ErindaMeli",
+    "forename": "Erinda",
+    "surname": "Meli",
+    "full_name": "Erinda Meli",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_PjerinaMema",
+    "forename": "Pjerina",
+    "surname": "Mema",
+    "full_name": "Pjerina Mema",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_SaraMila",
+    "forename": "Sara",
+    "surname": "Mila",
+    "full_name": "Sara Mila",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_ErjoMile",
+    "forename": "Erjo",
+    "surname": "Mile",
+    "full_name": "Erjo Mile",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_BoraMuzhaqi",
+    "forename": "Bora",
+    "surname": "Muzhaqi",
+    "full_name": "Bora Muzhaqi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_RediMuçi",
+    "forename": "Redi",
+    "surname": "Muçi",
+    "full_name": "Redi Muçi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_XhelalMziu",
+    "forename": "Xhelal",
+    "surname": "Mziu",
+    "full_name": "Xhelal Mziu",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_BledjonNallbati",
+    "forename": "Bledjon",
+    "surname": "Nallbati",
+    "full_name": "Bledjon Nallbati",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_FadilNasufi",
+    "forename": "Fadil",
+    "surname": "Nasufi",
+    "full_name": "Fadil Nasufi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_ArianNdoja",
+    "forename": "Arian",
+    "surname": "Ndoja",
+    "full_name": "Arian Ndoja",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_BlertaNerguti",
+    "forename": "Blerta",
+    "surname": "Nerguti",
+    "full_name": "Blerta Nerguti",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_FlamurNoka",
+    "forename": "Flamur",
+    "surname": "Noka",
+    "full_name": "Flamur Noka",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_NikoPeleshi",
+    "forename": "Niko",
+    "surname": "Peleshi",
+    "full_name": "Niko Peleshi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_AhmetPrençi",
+    "forename": "Ahmet",
+    "surname": "Prençi",
+    "full_name": "Ahmet Prençi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_MeritaQato",
+    "forename": "Merita",
+    "surname": "Qato",
+    "full_name": "Merita Qato",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_EvisSala",
+    "forename": "Evis",
+    "surname": "Sala",
+    "full_name": "Evis Sala",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_AgronShahaj",
+    "forename": "Agron",
+    "surname": "Shahaj",
+    "full_name": "Agron Shahaj",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_AgronShehaj",
+    "forename": "Agron",
+    "surname": "Shehaj",
+    "full_name": "Agron Shehaj",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_TritanShehu",
+    "forename": "Tritan",
+    "surname": "Shehu",
+    "full_name": "Tritan Shehu",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_VilmaShurdha",
+    "forename": "Vilma",
+    "surname": "Shurdha",
+    "full_name": "Vilma Shurdha",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_VullnetSinaj",
+    "forename": "Vullnet",
+    "surname": "Sinaj",
+    "full_name": "Vullnet Sinaj",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_ZamiraSinaj",
+    "forename": "Zamira",
+    "surname": "Sinaj",
+    "full_name": "Zamira Sinaj",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_BardhSpahia",
+    "forename": "Bardh",
+    "surname": "Spahia",
+    "full_name": "Bardh Spahia",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_BardhSpahiu",
+    "forename": "Bardh",
+    "surname": "Spahiu",
+    "full_name": "Bardh Spahiu",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_KlodianaSpahiu",
+    "forename": "Klodiana",
+    "surname": "Spahiu",
+    "full_name": "Klodiana Spahiu",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_BesaSpaho",
+    "forename": "Besa",
+    "surname": "Spaho",
+    "full_name": "Besa Spaho",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_GentStrazimiri",
+    "forename": "Gent",
+    "surname": "Strazimiri",
+    "full_name": "Gent Strazimiri",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_JoridaTabaku",
+    "forename": "Jorida",
+    "surname": "Tabaku",
+    "full_name": "Jorida Tabaku",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_JozefinaTopalli",
+    "forename": "Jozefina",
+    "surname": "Topalli",
+    "full_name": "Jozefina Topalli",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_BesaVelaj",
+    "forename": "Besa",
+    "surname": "Velaj",
+    "full_name": "Besa Velaj",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_FatmirXhafaj",
+    "forename": "Fatmir",
+    "surname": "Xhafaj",
+    "full_name": "Fatmir Xhafaj",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_OltaXhaçka",
+    "forename": "Olta",
+    "surname": "Xhaçka",
+    "full_name": "Olta Xhaçka",
+    "wikidata_id": "Q13043722",
+    "source": "wikidata.sq"
+  },
+  {
+    "person_id": "AL_PERS_KiduinaZaka",
+    "forename": "Kiduina",
+    "surname": "Zaka",
+    "full_name": "Kiduina Zaka",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_FatbardhZenelaj",
+    "forename": "Fatbardh",
+    "surname": "Zenelaj",
+    "full_name": "Fatbardh Zenelaj",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_InaZhupa",
+    "forename": "Ina",
+    "surname": "Zhupa",
+    "full_name": "Ina Zhupa",
+    "wikidata_id": "Q29233997",
+    "source": "en.wikipedia",
+    "sex": "F",
+    "birth_date": "1987-06-20",
+    "sq_wiki": null,
+    "en_wiki": null,
+    "desc_en": "Albanian politician",
+    "desc_sq": "politikane shqiptare"
+  },
+  {
+    "person_id": "AL_PERS_IsufÇelaj",
+    "forename": "Isuf",
+    "surname": "Çelaj",
+    "full_name": "Isuf Çelaj",
+    "wikidata_id": "Q31969563",
+    "source": "wikidata.en"
+  },
+  {
+    "person_id": "AL_PERS_BlediÇomo",
+    "forename": "Bledi",
+    "surname": "Çomo",
+    "full_name": "Bledi Çomo",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_BledarÇuçi",
+    "forename": "Bledar",
+    "surname": "Çuçi",
+    "full_name": "Bledar Çuçi",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_LinditaNikolla",
+    "forename": "Lindita",
+    "surname": "Nikolla",
+    "full_name": "Lindita Nikolla",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "AL_PERS_KlotildaBushka",
+    "forename": "Klotilda",
+    "surname": "Bushka",
+    "full_name": "Klotilda Bushka",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "NikollaLindita",
+    "forename": "Lindita",
+    "surname": "Nikolla",
+    "full_name": "Lindita Nikolla",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "BushkaKlotilda",
+    "forename": "Klotilda",
+    "surname": "Bushka",
+    "full_name": "Klotilda Bushka",
+    "wikidata_id": null,
+    "source": null
+  },
+  {
+    "person_id": "BallaTaulant",
+    "forename": "Taulant",
+    "surname": "Balla",
+    "full_name": "Taulant Balla",
+    "wikidata_id": null,
+    "source": null
+  }
+]

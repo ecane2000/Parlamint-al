@@ -140,6 +140,58 @@ def build_ches_taxonomy() -> ET.Element:
     return tax
 
 
+def build_parla_roles_taxonomy() -> ET.Element:
+    """Build ParlaMint-taxonomy-parla.roles.xml (#head, #deputyHead, #member, #minister, #guest)."""
+    tax = make_taxonomy_root(
+        "parla.roles",
+        "Rolet në organizata",
+        "Organizational and affiliation roles",
+        "Taksonomia e roleve dhe funksioneve të anëtarëve në institucione parlamentare, grupe dhe komisione",
+        "Taxonomy of roles and functions held by persons in parliamentary bodies, groups, and committees",
+    )
+    add_category(
+        tax,
+        "head",
+        "Kryetar / Drejtues",
+        "Head / Chair / Leader",
+        "Kryetari i Kuvendit, kryetari i komisionit të përhershëm, kryetari i grupit parlamentar ose drejtuesi i partisë",
+        "Speaker of the Parliament, chair of a parliamentary standing committee, chair of a parliamentary group, or head of a political party",
+    )
+    add_category(
+        tax,
+        "deputyHead",
+        "Nënkryetar / Zëvendësdrejtues",
+        "Deputy Head / Vice Chair",
+        "Nënkryetari i Kuvendit, komisionit ose zëvendësdrejtuesi i grupit parlamentar",
+        "Deputy speaker of parliament, vice chair of committee, or deputy leader of parliamentary group",
+    )
+    add_category(
+        tax,
+        "member",
+        "Anëtar / Deputet",
+        "Member / MP",
+        "Anëtar i Kuvendit (deputet me mandat), anëtar i partisë politike, grupit parlamentar ose komisionit",
+        "Member of Parliament (MP with full mandate), member of political party, parliamentary group, or committee",
+    )
+    add_category(
+        tax,
+        "minister",
+        "Ministër / Anëtar i qeverisë",
+        "Minister / Government member",
+        "Anëtar i kabinetit qeveritar ose ministër",
+        "Cabinet member or government minister",
+    )
+    add_category(
+        tax,
+        "guest",
+        "I ftuar / Ekspert",
+        "Guest / Invited expert",
+        "Folës ose ekspert i ftuar jashtë Kuvendit",
+        "Invited guest speaker, expert, or non-parliamentary participant",
+    )
+    return tax
+
+
 def write_all_taxonomies(out_dir: Path | str) -> list[Path]:
     """Write all ParlaMint 5.0 shared taxonomies to out_dir."""
     p = Path(out_dir)
@@ -147,6 +199,7 @@ def write_all_taxonomies(out_dir: Path | str) -> list[Path]:
     
     taxonomies = [
         ("ParlaMint-taxonomy-speaker_types.xml", build_speaker_types_taxonomy()),
+        ("ParlaMint-taxonomy-parla.roles.xml", build_parla_roles_taxonomy()),
         ("ParlaMint-taxonomy-subcorpus.xml", build_subcorpus_taxonomy()),
         ("ParlaMint-taxonomy-parla.legislature.xml", build_legislature_taxonomy()),
         ("ParlaMint-taxonomy-politicalOrientation.xml", build_political_orientation_taxonomy()),
@@ -160,3 +213,4 @@ def write_all_taxonomies(out_dir: Path | str) -> list[Path]:
         written_paths.append(target)
         
     return written_paths
+
