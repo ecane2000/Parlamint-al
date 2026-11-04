@@ -277,7 +277,7 @@ def run_pipeline(
         print(f"[*] Stage: Cleaning raw text files from {PATH_INBOX_RAW} -> {inbox_p}...")
         clean_folder(PATH_INBOX_RAW, inbox_p)
 
-    elif clean_first:
+    elif clean_first or (stage in ("tei", "all") and PATH_INBOX_RAW.exists() and any(PATH_INBOX_RAW.glob("*.txt"))):
         print(f"[*] Stage: Cleaning raw text files from {PATH_INBOX_RAW} -> {inbox_p}...")
         clean_folder(PATH_INBOX_RAW, inbox_p)
 

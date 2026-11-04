@@ -16,9 +16,11 @@ from urllib.parse import unquote
 
 import requests
 from pdfminer.high_level import extract_text
+from pdfminer.layout import LAParams
 
 from .config import RAW_DIR, PDF_URLS, PROJECT_ROOT
 from .utils import ensure_dir, write_text, filename_stem_from_url
+from .extract import pdf_to_text as extract_pdf_to_text
 
 
 def _sanitize_filename_from_url(url: str) -> str:
@@ -45,8 +47,9 @@ def download_file(url: str, out_path: Path) -> Path:
 def pdf_bytes_to_text(pdf_bytes: bytes) -> str:
     """Extract plain text from in-memory PDF bytes."""
     try:
+        laparams = LAParams(line_margin=1.5, char_margin=2.0, word_margin=0.1)
         with io.BytesIO(pdf_bytes) as stream:
-            txt = extract_text(stream)
+            txt = extract_text(stream, laparams=laparams)
             return txt or ""
     except Exception as e:
         print(f"[WARN] Failed extracting text from PDF stream: {e}")
@@ -54,13 +57,8 @@ def pdf_bytes_to_text(pdf_bytes: bytes) -> str:
 
 
 def pdf_to_text(pdf_path: Path) -> str:
-    """Extract plain text from a local PDF file."""
-    try:
-        txt = extract_text(str(pdf_path))
-        return txt or ""
-    except Exception as e:
-        print(f"[WARN] Failed extracting text from {pdf_path}: {e}")
-        return ""
+    """Extract plain text from a local PDF file (with tuned layout parameters and OCR fallback)."""
+    return extract_pdf_to_text(pdf_path)
 
 
 def download_pdf(url: str, out_dir: Path) -> Path:

@@ -11,7 +11,60 @@ from urllib.parse import unquote
 UNICODE_DASHES = r"[–—-]"
 SPACE_DASH_SPACE = re.compile(rf"\s*{UNICODE_DASHES}\s*")
 BLANK_PARA_RE = re.compile(r"\n\s*\n", flags=re.UNICODE)
-RE_VALID_PUNCT_END = re.compile(r"[.?!:;»\"]\s*$")
+RE_VALID_PUNCT_END = re.compile(r"[.?!…][”\"»'\)\]]*\s*$")
+
+# Abbreviations that end with a period but do NOT end a sentence
+RE_ABBREV_END = re.compile(
+    r"(?:\b(?:nr|dt|datë|z|znj|prof|dr|akad|sh\.a|sh\.p\.k|p\.sh|fq|neni|kap|pika)\."
+    r"|\b[A-ZÇË]\.)\s*$",
+    flags=re.IGNORECASE | re.UNICODE,
+)
+
+# Standalone numbered list item like "1." or "19."
+RE_STANDALONE_LIST_NUM = re.compile(r"^\d+\.$")
+
+# Speaker cue at start of line
+_LOWER = r"a-zçëà-öø-ÿ"
+_NAME_WORD = rf"(?!(?:Megjithëse|Ndërkohë|Përveç|Sipas|Rruga|Segmenti|Korridori|Pse|Kur|Nëse|Sepse|Prandaj|Gjithashtu)\b)[A-ZÇË][{_LOWER}’'\-]+"
+RE_SPEAKER_LINE_START = re.compile(
+    rf"^\s*(?:\d+\s+)?(?:(?:Z\.|Znj\.|Deputeti|Deputetja|Ministri|Ministrja|Kryetari|Kryetarja)\s+)?"
+    rf"{_NAME_WORD}(?:\s+{_NAME_WORD}){{1,2}}(?:\s+[–—-]\s+|\s*[–—]\s+)",
+    flags=re.UNICODE,
+)
+RE_NAME_PART = re.compile(
+    rf"^(?:\d+\s+)?(?:(?:Z\.|Znj\.|Deputeti|Deputetja|Ministri|Ministrja|Kryetari|Kryetarja)\s+)?"
+    rf"{_NAME_WORD}(?:\s+{_NAME_WORD})?$",
+    flags=re.UNICODE,
+)
+RE_SINGLE_NAME_WORD = re.compile(rf"^{_NAME_WORD}$", flags=re.UNICODE)
+RE_DASH_REST = re.compile(r"^[–—-]\s+\S", flags=re.UNICODE)
+
+# Structural / header markers that must stay on their own line
+RE_STRUCTURAL_LINE = re.compile(
+    r"^(?:REPUBLIKA E SHQIPËRISË|KUVENDI|PROCESVERBAL|HAPET\s+MBLEDHJA.*|MBYLLET\s+MBLEDHJA.*|"
+    r"(?:Drejton\s+mbledhjen|Seancën\s+e\s+drejton|Drejton\s+seancën|Rendi\s+i\s+ditës|Marrin\s+pjesë|Mungojnë)\s*:.*)$",
+    flags=re.UNICODE,
+)
+
+# Proper nouns, titles, institutions, organizations, places, and months in Albanian parliamentary text
+RE_PROPER_NOUN_START = re.compile(
+    r"^(?:Shqipëri\w*|Kosov\w*|Tiran\w*|Durrës\w*|Vlor\w*|Shkod\w*|Elbasan\w*|Korç\w*|Fier\w*|"
+    r"Berat\w*|Lezh\w*|Kukës\w*|Dibër\w*|Dibr\w*|Gjirokast\w*|rop\w*|Europ\w*|Evrop\w*|Ballkan\w*|"
+    r"Kuvend\w*|Komision\w*|Këshill\w*|Qeveri\w*|Ministr\w*|Bashki\w*|Gjykat\w*|Prokurori\w*|"
+    r"Agjenci\w*|Autoritet\w*|Institut\w*|Institucion\w*|Bank\w*|Fond\w*|Ent\w*|Drejtori\w*|Zyr\w*|"
+    r"Shërbim\w*|Komunitet\w*|Republik\w*|Shtet\w*|Parti\w*|Grup\w*|Aleanc\w*|Lëvizj\w*|Bashkim\w*|"
+    r"Organizat\w*|Komitet\w*|Konferenc\w*|Konvent\w*|Kushtetut\w*|Ligj\w*|Projektligj\w*|Neni\b|"
+    r"Vendim\w*|Rregullor\w*|Strategji\w*|Program\w*|Marrëveshj\w*|Traktat\w*|Kod\w*|Buxhet\w*|"
+    r"Raport\w*|Rezol\w*|Deklarat\w*|Seanc\w*|Legjislatur\w*|"
+    r"Zot\w*|Zonj\w*|Z\.|Znj\.|Deputet\w*|Kryetar\w*|Nënkryetar\w*|Kryeminist\w*|President\w*|"
+    r"Avokat\w*|Komisioner\w*|Drejtues\w*|Sekretar\w*|Relator\w*|Guvernator\w*| Kontroll\w*|"
+    r"SPAK\w*|BKH\w*|KLSH\w*|KLP\w*|KLGJ\w*|KQZ\w*|KESH\w*|OSHEE\w*|OST\w*|AKSHI\w*|AZHBR\w*|"
+    r"RTSH\w*|AMA\w*|AKEP\w*|ERE\w*|ERRU\w*|INSTAT\w*|FSSH\w*|ISSH\w*| NATO\w*|OSBE\w*|BE\b|BE-\w*|"
+    r"OKB\w*|KiE\w*|BERZH\w*|FMN\w*|BB\b|SHBA\w*|USAID\w*|OLAF\w*|IPARD\w*|CEFTA\w*|UNESCO\w*|GDPR\w*|"
+    r"Janar\w*|Shkurt\w*|Mars\w*|Prill\w*|Maj\w*|Qershor\w*|Korrik\w*|Gusht\w*|Shtator\w*|Tetor\w*|Nëntor\w*|Dhjetor\w*|"
+    r"[A-ZÇË]{2,}\b)",
+    flags=re.UNICODE,
+)
 
 
 def ensure_dir(path: Path | str) -> Path:
@@ -155,38 +208,204 @@ def split_paragraphs(text: str) -> list[str]:
     return [p.strip() for p in parts if p.strip()]
 
 
+def _join_wrapped_lines(prev: str, nxt: str) -> str:
+    """
+    Join two lines that belong to the same sentence, healing hyphenated words
+    split across a line wrap (e.g. 'Administrativo-\\nTerritoriale' -> 'Administrativo-Territoriale',
+    'SMSI-\\nja' -> 'SMSI-ja', '2014-\\ns' -> '2014-s') while keeping space after list bullets ('1- ').
+    """
+    prev_s = prev.rstrip()
+    nxt_s = nxt.lstrip()
+    if not prev_s:
+        return nxt_s
+    if not nxt_s:
+        return prev_s
+
+    # If prev ends with a word-attached hyphen (and is not a standalone list bullet like "1-")
+    if (
+        re.search(r"[\wÇËçë%”\"»]-$", prev_s, flags=re.UNICODE)
+        and not re.match(r"^\d+-$", prev_s)
+        and re.match(r"^[A-Za-zÇËçë0-9]", nxt_s, flags=re.UNICODE)
+    ):
+        return prev_s + nxt_s
+
+    # If nxt starts with punctuation like ',', '.', ';', ':', '!', '?', ')'
+    if nxt_s[0] in ",.;:!?)]”»":
+        return prev_s + nxt_s
+
+    return prev_s + " " + nxt_s
+
+
+def _ends_with_sentence_punct(line: str, next_line: str = "") -> bool:
+    """
+    Return True if `line` ends with genuine sentence-ending punctuation ('.', '?', '!', '…').
+    Returns False if:
+    - `line` does not end with '.', '?', '!', '…' (plus optional closing quotes/parens)
+    - `line` is a standalone list number like '1.' or '19.'
+    - `line` ends with a known abbreviation ('nr.', 'dt.', 'z.', 'znj.', 'sh.a.', etc.)
+    - `line` ends with '.' and `next_line` starts with a lowercase letter
+    """
+    s = line.strip()
+    if not s:
+        return False
+    if not RE_VALID_PUNCT_END.search(s):
+        return False
+    if RE_STANDALONE_LIST_NUM.match(s):
+        return False
+    if RE_ABBREV_END.search(s):
+        return False
+    # If it ends with a period and the next line begins with a lowercase letter, it's an abbreviation/mid-sentence dot
+    if s.endswith(".") and next_line and re.match(r"^[a-zçë]", next_line.strip()):
+        return False
+    return True
+
+
+def _should_merge_incomplete_line(buffer: str, next_line: str) -> bool:
+    """
+    Determine whether `buffer` (which does NOT end with sentence-ending punctuation)
+    should be merged with `next_line`.
+    Merges when `next_line` starts with:
+    - a lowercase letter
+    - a digit, quote, parenthesis, dash, or punctuation
+    - a capital letter that is a person, organization, institution, place, or other proper noun
+      (or any continuation word when `buffer` does not end with ':' or ';' or a short salutation ',')
+    """
+    nxt = next_line.strip()
+    if not nxt:
+        return False
+
+    # Never merge if next_line is a speaker cue or structural marker
+    if RE_SPEAKER_LINE_START.match(nxt) or RE_STRUCTURAL_LINE.match(nxt):
+        return False
+
+    # Never merge if next_line is a standalone stage direction in parentheses and buffer ends with punctuation
+    if nxt.startswith("(") and nxt.endswith(")") and buffer.rstrip().endswith((":", ";")):
+        return False
+
+    first_ch = nxt[0]
+    # 1. Next line begins with a lowercase letter -> always merge
+    if first_ch.islower() or first_ch in "çë":
+        return True
+
+    # 2. Next line begins with a digit, quote, or punctuation -> merge unless buffer ends with ':' before a numbered item
+    if not (first_ch.isupper() or first_ch in "ÇË"):
+        if buffer.rstrip().endswith(":") and re.match(r"^\d+[\.\)\-]\s", nxt):
+            return False
+        return True
+
+    # 3. Next line begins with a capital letter:
+    # Check if it matches known proper nouns (persons, orgs, institutions, places, titles)
+    if RE_PROPER_NOUN_START.match(nxt):
+        return True
+
+    # Check if next_line starts with a capitalized person name (e.g., Firstname Lastname or Capitalized proper noun)
+    # In PDF line wraps, any line that does NOT end with sentence punctuation ('.', '?', '!')
+    # and does NOT end with ':' or ';' (introducing a list) or a short salutation comma
+    # is broken mid-sentence across the PDF margin and must be merged.
+    buf_r = buffer.rstrip()
+    if buf_r.endswith((":", ";")):
+        return False
+    if buf_r.endswith(",") and len(buf_r) < 45 and any(
+        w in buf_r.lower() for w in ("nderuar", "kolegë", "kryetar", "zoti", "zonja", "faleminderit", "mirëdita")
+    ):
+        return False
+
+    return True
+
+
 def reconstruct_broken_lines(text: str) -> str:
     """
-    Merge lines that do not end with terminal punctuation (. ! ? : ; » ").
-    Heals sentences broken across line wraps while preserving valid lines.
+    Merge lines that do not end with sentence-end punctuation (. ! ?).
+    Heals sentences fragmented across PDF line wraps (including across blank lines
+    inserted by pdfminer between every visual line) while preserving speaker turns,
+    structural headers, and complete paragraphs.
     """
-    lines = normalize_newlines(text).splitlines()
-    if not lines:
+    raw_lines = normalize_newlines(text).splitlines()
+    if not raw_lines:
         return ""
 
-    out: list[str] = []
-    buffer = lines[0].strip()
+    # Step 1: Filter out empty lines and join wrapped speaker cues
+    # (e.g. "Niko\nPeleshi\n–\nFaleminderit..." -> "Niko Peleshi – Faleminderit...")
+    non_empty = [ln.strip() for ln in raw_lines if ln.strip()]
+    if not non_empty:
+        return ""
 
-    for i in range(1, len(lines)):
-        next_line = lines[i].strip()
-        if not next_line:
-            if buffer:
-                out.append(buffer)
-                buffer = ""
-            out.append("")
+    pre_merged: list[str] = []
+    idx = 0
+    n = len(non_empty)
+    while idx < n:
+        cur = non_empty[idx]
+        # Pattern A: Line i is "Firstname" (or "Z. Firstname"), Line i+1 is "Lastname", Line i+2 starts with "–"
+        if (
+            idx + 2 < n
+            and RE_NAME_PART.match(cur)
+            and RE_SINGLE_NAME_WORD.match(non_empty[idx + 1])
+            and RE_DASH_REST.match(non_empty[idx + 2])
+        ):
+            pre_merged.append(f"{cur} {non_empty[idx + 1]} {non_empty[idx + 2]}")
+            idx += 3
             continue
+        # Pattern B: Line i is "Firstname Lastname", Line i+1 starts with "–"
+        if (
+            idx + 1 < n
+            and RE_NAME_PART.match(cur)
+            and " " in cur
+            and RE_DASH_REST.match(non_empty[idx + 1])
+        ):
+            pre_merged.append(f"{cur} {non_empty[idx + 1]}")
+            idx += 2
+            continue
+        # Pattern C: Line i is "Firstname Lastname –" (ends with dash) and Line i+1 is the start of speech
+        if (
+            idx + 1 < n
+            and re.match(
+                rf"^(?:\d+\s+)?(?:(?:Z\.|Znj\.|Deputeti|Deputetja|Ministri|Ministrja|Kryetari|Kryetarja)\s+)?"
+                rf"{_NAME_WORD}\s+{_NAME_WORD}\s*[–—-]$",
+                cur,
+                flags=re.UNICODE,
+            )
+        ):
+            pre_merged.append(f"{cur} {non_empty[idx + 1]}")
+            idx += 2
+            continue
+
+        pre_merged.append(cur)
+        idx += 1
+
+    # Step 2: Merge fragmented sentences across line breaks
+    out: list[str] = []
+    buffer = pre_merged[0]
+
+    for i in range(1, len(pre_merged)):
+        next_line = pre_merged[i]
 
         if not buffer:
             buffer = next_line
             continue
 
-        if RE_VALID_PUNCT_END.search(buffer):
+        # If buffer is a structural header line (e.g. HAPET MBLEDHJA, PROCESVERBAL), flush it
+        if RE_STRUCTURAL_LINE.match(buffer) and not buffer.lower().startswith("rendi i ditës"):
             out.append(buffer)
             buffer = next_line
+            continue
+
+        # If next_line is a speaker cue or structural marker, never merge into buffer
+        if RE_SPEAKER_LINE_START.match(next_line) or RE_STRUCTURAL_LINE.match(next_line):
+            out.append(buffer)
+            buffer = next_line
+            continue
+
+        # Check if buffer ends with sentence-end punctuation ('.', '?', '!', '…')
+        if _ends_with_sentence_punct(buffer, next_line):
+            out.append(buffer)
+            buffer = next_line
+        elif _should_merge_incomplete_line(buffer, next_line):
+            buffer = _join_wrapped_lines(buffer, next_line)
         else:
-            buffer = buffer + " " + next_line
+            out.append(buffer)
+            buffer = next_line
 
     if buffer:
         out.append(buffer)
 
-    return "\n".join(out)
+    return "\n\n".join(out)

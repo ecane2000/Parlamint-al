@@ -17,16 +17,18 @@ from .utils import (
 )
 
 ALPHA_CLASS = r"\wÀ-ÖØ-öø-ÿÇËçë"
+LOWER_CLASS = r"a-zçëà-öø-ÿ"
 DASH_CLASS = r"–—-"
+NAME_TOKEN = rf"(?!(?:Megjithëse|Ndërkohë|Përveç|Sipas|Rruga|Segmenti|Korridori|Pse|Kur|Nëse|Sepse|Prandaj|Gjithashtu)\b)[A-ZÇË][{LOWER_CLASS}’'\-]+"
 
 # Speaker cue pattern: e.g. "Niko Peleshi – Mirëdita...", "8 Taulant Balla – ...", "Z. Taulant Balla – ..."
 SPEAKER_CUE_RE = re.compile(
-    rf"^\s*(?:\d+\s+)?(?P<label>(?:(?:Z\.|Znj\.|Deputeti|Deputetja|Ministri|Ministrja|Kryetari|Kryetarja)\s+)?[A-ZÇË][{ALPHA_CLASS}’'\.\-]*\s+[A-ZÇË][{ALPHA_CLASS}’'\.\-]*)\s*[{DASH_CLASS}]\s*(?P<rest>.*)$",
+    rf"^\s*(?:\d+\s+)?(?P<label>(?:(?:Z\.|Znj\.|Deputeti|Deputetja|Ministri|Ministrja|Kryetari|Kryetarja)\s+)?{NAME_TOKEN}\s+{NAME_TOKEN})(?:\s+[{DASH_CLASS}]\s+|\s*[–—]\s+)(?P<rest>.*)$",
     flags=re.UNICODE | re.DOTALL,
 )
 
 LINE_CUE_RE = re.compile(
-    rf"^\s*(?:\d+\s+)?(?:(?:Z\.|Znj\.|Deputeti|Deputetja|Ministri|Ministrja|Kryetari|Kryetarja)\s+)?[A-ZÇË][{ALPHA_CLASS}’'\.\-]*\s+[A-ZÇË][{ALPHA_CLASS}’'\.\-]*\s*[{DASH_CLASS}]",
+    rf"^\s*(?:\d+\s+)?(?:(?:Z\.|Znj\.|Deputeti|Deputetja|Ministri|Ministrja|Kryetari|Kryetarja)\s+)?{NAME_TOKEN}\s+{NAME_TOKEN}(?:\s+[{DASH_CLASS}]\s+|\s*[–—]\s+)",
     flags=re.UNICODE,
 )
 
@@ -76,50 +78,82 @@ class SittingBlock:
     agenda_text: Optional[str] = None
 
 
+def _classify_stage_direction(inner_text: str) -> Optional[DiscourseItem]:
+    """
+    Check if parenthetical text is a genuine parliamentary stage direction
+    (vocal, kinesic, or procedural note) rather than a spoken parenthetical/acronym.
+    """
+    inner = inner_text.strip()
+    low = inner.lower()
+    if any(k in low for k in ("pa mikrofon", "ndërhyrje", "ndërhyre", "interruption", "flet nga salla", "jashtë mikrofonit")):
+        return DiscourseItem(kind="vocal", type_attr="interruption", text=inner)
+    if any(k in low for k in ("duartrokitje", "applause")):
+        return DiscourseItem(kind="kinesic", type_attr="applause", text=inner)
+    if any(k in low for k in ("të qeshura", "ilaritet", "laughter")):
+        return DiscourseItem(kind="vocal", type_attr="laughter", text=inner)
+    if any(
+        k in low
+        for k in (
+            "bie gongu",
+            "debat në sallë",
+            "zhurmë në sallë",
+            "pas pushimit",
+            "shkëputje e shkurtër",
+            "minutë heshtje",
+            "drejtimin e seancës",
+            "lexon rendin",
+            "seanca filloi",
+            "seanca u mbyll",
+            "mbledhja u hap",
+            "mbledhja u mbyll",
+            "mungesë incizimi",
+            "largohet nga salla",
+            "kthehet në sallë",
+            "vijon",
+        )
+    ):
+        return DiscourseItem(kind="note", type_attr="comment", text=inner)
+    return None
+
+
 def parse_discourse_text(raw_para: str) -> List[DiscourseItem]:
     """
     Parse a paragraph into speech segments and embedded events (vocal, kinesic, notes).
     e.g. "Teksti para (Ndërhyrje pa mikrofon.) Teksti pas" -> [seg, vocal, seg]
+    Normal spoken parentheticals like "(BERZH)" or "(GDPR)" remain inside the <seg>.
     """
     cleaned = squash_ws(raw_para).strip()
     if not cleaned:
         return []
 
-    # Check if the entire paragraph is a parenthetical event
-    if cleaned.startswith("(") and cleaned.endswith(")"):
-        inner = cleaned[1:-1].strip()
-        low = inner.lower()
-        if "pa mikrofon" in low or "ndërhyrje" in low or "interruption" in low:
-            return [DiscourseItem(kind="vocal", type_attr="interruption", text=inner)]
-        elif "duartrokitje" in low or "applause" in low:
-            return [DiscourseItem(kind="kinesic", type_attr="applause", text=inner)]
-        elif "të qeshura" in low or "laughter" in low:
-            return [DiscourseItem(kind="vocal", type_attr="laughter", text=inner)]
-        else:
-            return [DiscourseItem(kind="note", type_attr="comment", text=inner)]
+    if cleaned.upper().startswith("MBYLLET MBLEDHJA") or cleaned.upper().startswith("HAPET MBLEDHJA"):
+        return [DiscourseItem(kind="note", type_attr="comment", text=cleaned)]
 
-    # Inline event extraction
+    # Check if the entire paragraph is a parenthetical event
+    if cleaned.startswith("(") and cleaned.endswith(")") and "(" not in cleaned[1:-1]:
+        inner = cleaned[1:-1].strip()
+        classified = _classify_stage_direction(inner)
+        if classified:
+            return [classified]
+        return [DiscourseItem(kind="note", type_attr="comment", text=inner)]
+
+    # Inline event extraction: only split <seg> on genuine stage directions
     event_pattern = re.compile(r"\(([^)]+)\)")
     items: List[DiscourseItem] = []
     last_end = 0
 
     for m in event_pattern.finditer(cleaned):
+        event_text = m.group(1).strip()
+        classified = _classify_stage_direction(event_text)
+        if classified is None:
+            continue
+
         start, end = m.span()
         prefix = cleaned[last_end:start].strip()
         if prefix:
             items.append(DiscourseItem(kind="seg", text=prefix))
 
-        event_text = m.group(1).strip()
-        low = event_text.lower()
-        if "pa mikrofon" in low or "ndërhyrje" in low or "interruption" in low:
-            items.append(DiscourseItem(kind="vocal", type_attr="interruption", text=event_text))
-        elif "duartrokitje" in low or "applause" in low:
-            items.append(DiscourseItem(kind="kinesic", type_attr="applause", text=event_text))
-        elif "të qeshura" in low or "laughter" in low:
-            items.append(DiscourseItem(kind="vocal", type_attr="laughter", text=event_text))
-        else:
-            items.append(DiscourseItem(kind="note", type_attr="comment", text=event_text))
-
+        items.append(classified)
         last_end = end
 
     rest = cleaned[last_end:].strip()
@@ -149,19 +183,59 @@ def merge_broken_speech_lines(lines: List[str]) -> List[str]:
     return reconstruct_broken_lines("\n".join(lines)).splitlines()
 
 
+def _strip_closing_signatures(lines: List[str]) -> List[str]:
+    """
+    Strip closing signature blocks at the end of transcripts (after MBYLLET MBLEDHJA
+    or '(Seanca u mbyll në orën ...)').
+    """
+    cut_idx = None
+    for i in range(max(0, len(lines) - 25), len(lines)):
+        s = lines[i].strip()
+        up = s.upper()
+        if up.startswith("MBYLLET MBLEDHJA"):
+            cut_idx = i + 1
+            break
+        if "seanca u mbyll në orën" in s.lower() or "mbledhja u mbyll në orën" in s.lower():
+            cut_idx = i + 1
+            break
+    if cut_idx is not None:
+        return lines[:cut_idx]
+    return lines
+
+
 def _split_header_body(txt: str) -> tuple[str, str]:
-    """Split text into (header_text, body_text) at 'HAPET MBLEDHJA'."""
-    lines = normalize_newlines(txt).splitlines()
+    """
+    Split text into (header_text, body_text) at 'HAPET MBLEDHJA' or at the first
+    speaker cue following 'Rendi i ditës:' (for plenary sessions).
+    Also strips trailing signature lines after session closing.
+    """
+    lines = _strip_closing_signatures(normalize_newlines(txt).splitlines())
     i_open = None
     for i, l in enumerate(lines):
         if l.strip().upper().startswith("HAPET MBLEDHJA"):
             i_open = i
             break
-    if i_open is None:
-        return "", normalize_newlines(txt)
-    header = "\n".join(lines[:i_open])
-    body = "\n".join(lines[i_open + 1 :])
-    return header, body
+
+    if i_open is not None:
+        header = "\n".join(lines[:i_open])
+        body = "\n".join(lines[i_open + 1 :])
+        return header, body
+
+    # Fallback for plenary transcripts without 'HAPET MBLEDHJA':
+    # Find 'Rendi i ditës:' and split at the first speaker cue after it
+    i_rendi = None
+    for i, l in enumerate(lines[:100]):
+        if l.strip().lower().startswith("rendi i ditës"):
+            i_rendi = i
+            break
+    search_start = (i_rendi + 1) if i_rendi is not None else 0
+    for i in range(search_start, len(lines)):
+        if LINE_CUE_RE.match(lines[i].strip()):
+            header = "\n".join(lines[:i])
+            body = "\n".join(lines[i:])
+            return header, body
+
+    return "", "\n".join(lines)
 
 
 def _reinsert_breaks_before_cues(body: str) -> str:
