@@ -16,7 +16,7 @@ BASE_URL = "https://www.parlament.al/procesverbale"
 API_URL = "https://kuvendiapi.azurewebsites.net/api/dokumentet"
 
 
-def crawl_pdf_urls_api(limit: int = 10, structure: Optional[str] = None) -> List[str]:
+def crawl_pdf_urls_api(limit: int = 100, structure: Optional[str] = None) -> List[str]:
     """
     Fetch PDF URLs directly from the official Kuvendi backend REST API.
     
@@ -63,7 +63,7 @@ def crawl_pdf_urls_api(limit: int = 10, structure: Optional[str] = None) -> List
         return []
 
 
-def crawl_pdf_urls_playwright(limit: int = 10, headless: bool = True, timeout: int = 30000) -> List[str]:
+def crawl_pdf_urls_playwright(limit: int = 100, headless: bool = True, timeout: int = 30000) -> List[str]:
     """Fallback crawler using Playwright headless browser."""
     try:
         from playwright.sync_api import sync_playwright
@@ -116,7 +116,7 @@ def crawl_pdf_urls_playwright(limit: int = 10, headless: bool = True, timeout: i
     return collected_urls
 
 
-def crawl_pdf_urls(limit: int = 10, headless: bool = True, timeout: int = 30000, structure: Optional[str] = None) -> List[str]:
+def crawl_pdf_urls(limit: int = 100, headless: bool = True, timeout: int = 30000, structure: Optional[str] = None) -> List[str]:
     """
     Crawl the parliament website/API to collect PDF URLs.
     
@@ -149,7 +149,7 @@ def save_urls(urls: List[str], output_file: Path = OUTPUT_FILE) -> None:
 
 def main():
     parser = argparse.ArgumentParser(description="Crawl parliament PDFs and save URLs")
-    parser.add_argument("--limit", type=int, default=10, help="Maximum number of PDFs to collect")
+    parser.add_argument("--limit", type=int, default=100, help="Maximum number of PDFs to collect")
     parser.add_argument("--headless", action="store_true", default=True, help="Run in headless mode")
     parser.add_argument("--no-headless", dest="headless", action="store_false", help="Run with visible browser")
     parser.add_argument("--output", type=str, default=str(OUTPUT_FILE), help="Output JSON file")

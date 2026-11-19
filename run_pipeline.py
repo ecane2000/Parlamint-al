@@ -38,7 +38,7 @@ def main():
         help="Pipeline stage to execute",
     )
     parser.add_argument("--crawl", action="store_true", help="Crawl and download fresh PDFs before processing")
-    parser.add_argument("--limit", type=int, default=10, help="Maximum number of fresh PDFs to crawl when --crawl is enabled")
+    parser.add_argument("--limit", type=int, default=100, help="Maximum number of fresh PDFs to crawl when --crawl is enabled")
     parser.add_argument("--clean", action="store_true", help="Clean raw text from inbox/raw before building TEI")
     parser.add_argument("--inbox", type=str, default="inbox/cleaned", help="Input directory of cleaned transcripts")
     parser.add_argument("--out", type=str, default="out/TEI", help="Output directory for TEI XML files")

@@ -104,7 +104,7 @@ def crawl_urls(
     return out_paths
 
 
-def fetch_fresh_pdf_urls(limit: int = 10, output_file: Path | str | None = None) -> List[str]:
+def fetch_fresh_pdf_urls(limit: int = 100, output_file: Path | str | None = None) -> List[str]:
     """Fetch fresh PDF URLs from the parliament portal/API and save to pdf_urls.json."""
     from .crawl_pdfs import crawl_pdf_urls, save_urls, OUTPUT_FILE
     urls = crawl_pdf_urls(limit=limit)
@@ -118,11 +118,11 @@ def crawl_to_txt(
     inbox_root: Path | str | None = None,
     urls: list[str] | None = None,
     do_clean: bool = True,
-    limit: int | None = 10,
+    limit: int | None = 100,
 ) -> list[Path]:
     """Top-level crawl function to populate raw text files."""
     if urls is None:
-        fresh_urls = fetch_fresh_pdf_urls(limit=limit or 10)
+        fresh_urls = fetch_fresh_pdf_urls(limit=limit or 100)
         target_urls = fresh_urls if fresh_urls else PDF_URLS
     else:
         target_urls = urls
@@ -145,7 +145,7 @@ def _load_urls_from_file(path: Path) -> List[str]:
 def build_arg_parser() -> argparse.ArgumentParser:
     ap = argparse.ArgumentParser(description="Crawl Parliament PDFs and extract raw TXT into inbox/raw")
     ap.add_argument("--urls", default=None, help="Path to urls.txt or pdf_urls.json (one URL per line or JSON array)")
-    ap.add_argument("--limit", type=int, default=10, help="Maximum number of fresh PDFs to crawl")
+    ap.add_argument("--limit", type=int, default=100, help="Maximum number of fresh PDFs to crawl")
     ap.add_argument("--pdf_out", default="pdfs", help="Directory for downloaded PDFs")
     ap.add_argument("--txt_out", default=RAW_DIR, help="Directory for raw extracted TXT (default: inbox/raw)")
     return ap
