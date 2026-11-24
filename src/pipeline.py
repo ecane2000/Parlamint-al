@@ -5,10 +5,10 @@ Coordinates source acquisition, cleaning, segmentation, metadata building,
 taxonomies generation, TEI encoding, root corpus generation, and linguistic annotation.
 
 Stages:
-  --stage tei    : Clean text -> Segment -> Resolve speakers -> out/TEI/plain/*.xml
+  --stage tei    : Clean text -> Segment -> Resolve speakers -> out/TEI/plain/YYYY/*.xml
   --stage lists  : metadata/*.csv -> out/TEI/ParlaMint-AL-listPerson.xml & listOrg.xml & taxonomies
   --stage root   : Generate/refresh out/TEI/ParlaMint-AL.xml master corpus file
-  --stage ana    : Annotate out/TEI/plain/*.xml -> out/TEI/ana/*.ana.xml & ParlaMint-AL.ana.xml
+  --stage ana    : Annotate out/TEI/plain/YYYY/*.xml -> out/TEI/ana/YYYY/*.ana.xml & ParlaMint-AL.ana.xml
   --stage all    : Run lists -> tei -> root -> (optional) ana
 """
 from __future__ import annotations
@@ -84,7 +84,7 @@ def convert_inbox_to_tei(
     """
     Stage 'tei':
     Read cleaned transcripts in inbox_root, segment into sitting and speech turns,
-    resolve speaker entities against persons.csv, and serialize to out_root/plain/*.xml.
+    resolve speaker entities against persons.csv, and serialize to out_root/plain/YYYY/*.xml.
     """
     inbox_path = Path(inbox_root)
     out_plain = Path(out_root) / "plain" if not str(out_root).endswith("plain") else Path(out_root)
@@ -143,7 +143,12 @@ def convert_inbox_to_tei(
         unresolved_all.update(resolutions)
 
         # Write plain TEI component file
-        out_file = out_plain / f"{meta.doc_id}.xml"
+        year = meta.date[:4]
+        if len(year) != 4 or not year.isdigit():
+            raise ValueError(f"Invalid document date for TEI output: {meta.date!r}")
+        year_dir = out_plain / year
+        ensure_dir(year_dir)
+        out_file = year_dir / f"{meta.doc_id}.xml"
         segmented_to_tei(sitting, meta, out_file, resolutions=resolutions)
         generated_files.append(out_file)
         print(f"[OK] TEI component: {txt_file.name} -> {out_file.relative_to(PROJECT_ROOT) if out_file.is_relative_to(PROJECT_ROOT) else out_file}")
@@ -222,7 +227,7 @@ def annotate_tei(
 ) -> None:
     """
     Stage 'ana':
-    Linguistically annotate plain TEI files into out_root/ana/*.ana.xml
+    Linguistically annotate plain TEI files into out_root/ana/YYYY/*.ana.xml
     and update out_root/ParlaMint-AL.ana.xml.
     """
     out_dir = Path(out_root)
@@ -231,7 +236,7 @@ def annotate_tei(
     ensure_dir(ana_dir)
 
     print(f"[*] Running linguistic annotation with annotator='{annotator}'...")
-    plain_files = sorted(plain_dir.glob("*.xml"))
+    plain_files = sorted(plain_dir.rglob("*.xml"))
     if not plain_files:
         print(f"[WARN] No plain TEI files found in {plain_dir} to annotate.")
         return
@@ -239,13 +244,13 @@ def annotate_tei(
     if annotator == "udpipe":
         from .annotate_udpipe import annotate_component_udpipe
         for pf in plain_files:
-            out_ana_file = ana_dir / f"{pf.stem}.ana.xml"
+            out_ana_file = ana_dir / pf.relative_to(plain_dir).parent / f"{pf.stem}.ana.xml"
             annotate_component_udpipe(pf, out_ana_file)
             print(f"[OK] UDPipe annotated: {pf.name} -> {out_ana_file.name}")
     else:
         from .annotate_stanza import annotate_component_stanza
         for pf in plain_files:
-            out_ana_file = ana_dir / f"{pf.stem}.ana.xml"
+            out_ana_file = ana_dir / pf.relative_to(plain_dir).parent / f"{pf.stem}.ana.xml"
             annotate_component_stanza(pf, out_ana_file)
             print(f"[OK] Stanza annotated: {pf.name} -> {out_ana_file.name}")
 

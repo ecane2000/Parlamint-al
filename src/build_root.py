@@ -21,6 +21,7 @@ from .config import (
     LANGUAGE_CODE,
     CITY,
 )
+from .tei import _indent_xml
 
 TEI_NS = "http://www.tei-c.org/ns/1.0"
 XI_NS = "http://www.w3.org/2001/XInclude"
@@ -245,5 +246,6 @@ def write_root_corpus_file(
         total_words=total_words,
     )
 
+    _indent_xml(root)
     ET.ElementTree(root).write(out_p, encoding="utf-8", xml_declaration=True)
     return out_p

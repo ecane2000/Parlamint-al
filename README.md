@@ -18,4 +18,4 @@ make build-ana    # or: python -m src.pipeline --out out --with-ana
 
 > Note: this project requires `pdfminer.six` for PDF extraction. Do not install the legacy `pdfminer` package, as it conflicts with the current dependency.
 
-Outputs go to `out/TEI/plain` and (if enabled) `out/TEI/ana`.
+Outputs go to `out/TEI/plain/YYYY` and (if enabled) `out/TEI/ana/YYYY`, grouped by year and referenced from their master corpus files. Plain TEI XML files are written with two-space indentation for readability.

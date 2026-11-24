@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Stanza linguistic annotation layer for ParlaMint-AL:
-Transforms plain TEI files (out/TEI/plain/*.xml) into linguistically annotated
-TEI.ana files (out/TEI/ana/*.ana.xml) with tokenized and morphosyntactically tagged
+Transforms plain TEI files (out/TEI/plain/YYYY/*.xml) into linguistically annotated
+TEI.ana files (out/TEI/ana/YYYY/*.ana.xml) with tokenized and morphosyntactically tagged
 <s>, <w>, and <pc> elements using Stanza.
 """
 from __future__ import annotations
@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Iterable
 import xml.etree.ElementTree as ET
 
-from .tei import qname, TEI_NS, XML_NS
+from .tei import _indent_xml, qname, TEI_NS, XML_NS
 
 try:
     import stanza
@@ -20,7 +20,7 @@ except ImportError:
 
 def iter_plain_tei_files(plain_dir: Path | str) -> Iterable[Path]:
     """Iterate over plain TEI component files."""
-    return sorted(Path(plain_dir).glob("*.xml"))
+    return sorted(Path(plain_dir).rglob("*.xml"))
 
 
 def stanza_pipeline(lang: str = "sq"):
@@ -95,6 +95,7 @@ def annotate_file_stanza(src: Path | str, dst: Path | str, nlp) -> None:
 
     dst_path = Path(dst)
     dst_path.parent.mkdir(parents=True, exist_ok=True)
+    _indent_xml(root)
     tree.write(dst_path, encoding="utf-8", xml_declaration=True)
 
 
@@ -111,7 +112,7 @@ def annotate_corpus_stanza(
 
     for src in iter_plain_tei_files(plain_p):
         target_name = src.stem + ".ana.xml"
-        dst = ana_p / target_name
+        dst = ana_p / src.relative_to(plain_p).parent / target_name
         annotate_file_stanza(src, dst, nlp)
         print(f"[OK] Stanza annotated: {src.name} -> {target_name}")
 

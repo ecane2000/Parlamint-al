@@ -32,7 +32,7 @@ def find_components_by_year(components_dir: Path | str) -> Dict[str, List[Path]]
     if not p.exists():
         return grouped
 
-    for xml_file in sorted(p.glob("*.xml")):
+    for xml_file in sorted(p.rglob("*.xml")):
         m = re.search(r"(\d{4})-\d{2}-\d{2}", xml_file.name)
         year = m.group(1) if m else "misc"
         grouped.setdefault(year, []).append(xml_file)
@@ -51,7 +51,7 @@ def update_parlamint_root(
 
     component_files = []
     if c_dir.exists():
-        for comp in sorted(c_dir.glob("*.xml")):
+        for comp in sorted(c_dir.rglob("*.xml")):
             if "listPerson" in comp.name or "listOrg" in comp.name or "taxonomy" in comp.name or comp.name.startswith("ParlaMint-AL.xml"):
                 continue
             component_files.append(comp)
@@ -74,7 +74,7 @@ def update_parlamint_ana_root(
 
     component_files = []
     if c_dir.exists():
-        for comp in sorted(c_dir.glob("*.ana.xml")):
+        for comp in sorted(c_dir.rglob("*.ana.xml")):
             component_files.append(comp)
 
     write_root_corpus_file(

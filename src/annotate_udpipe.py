@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 UDPipe linguistic annotation layer for ParlaMint-AL:
-Transforms plain TEI files (out/TEI/plain/*.xml) into linguistically annotated
-TEI.ana files (out/TEI/ana/*.ana.xml) using UDPipe.
+Transforms plain TEI files (out/TEI/plain/YYYY/*.xml) into linguistically annotated
+TEI.ana files (out/TEI/ana/YYYY/*.ana.xml) using UDPipe.
 """
 from __future__ import annotations
 from pathlib import Path
@@ -10,7 +10,7 @@ from typing import Dict, List, Optional
 import xml.etree.ElementTree as ET
 
 from .config import UDPIPE_MODEL_PATH
-from .tei import qname, TEI_NS, XML_NS
+from .tei import _indent_xml, qname, TEI_NS, XML_NS
 
 try:
     from ufal.udpipe import Model, Pipeline, ProcessingError
@@ -138,6 +138,7 @@ def annotate_file_udpipe(src: Path | str, dst: Path | str, pipeline) -> None:
 
     dst_path = Path(dst)
     dst_path.parent.mkdir(parents=True, exist_ok=True)
+    _indent_xml(root)
     tree.write(dst_path, encoding="utf-8", xml_declaration=True)
 
 
@@ -154,9 +155,9 @@ def annotate_corpus_udpipe(
     ana_p = Path(ana_dir)
     ana_p.mkdir(parents=True, exist_ok=True)
 
-    for src in sorted(plain_p.glob("*.xml")):
+    for src in sorted(plain_p.rglob("*.xml")):
         target_name = src.stem + ".ana.xml"
-        dst = ana_p / target_name
+        dst = ana_p / src.relative_to(plain_p).parent / target_name
         annotate_file_udpipe(src, dst, pipeline)
         print(f"[OK] UDPipe annotated: {src.name} -> {target_name}")
 

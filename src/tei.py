@@ -42,6 +42,25 @@ def xml_attr(local: str) -> str:
     return f"{{{XML_NS}}}{local}"
 
 
+def _indent_xml(element: ET.Element, level: int = 0) -> None:
+    children = list(element)
+    if not children:
+        return
+
+    for child in children:
+        _indent_xml(child, level + 1)
+
+    if (element.text and element.text.strip()) or any(
+        child.tail and child.tail.strip() for child in children
+    ):
+        return
+
+    element.text = "\n" + "  " * (level + 1)
+    for child in children[:-1]:
+        child.tail = "\n" + "  " * (level + 1)
+    children[-1].tail = "\n" + "  " * level
+
+
 def make_tei_root(meta: DocumentMetadata) -> ET.Element:
     """Build the root TEI element for a component day file with required attributes."""
     ana_type = "#parla.committee.standing #reference" if meta.meeting_type == "parla.committee" else "#parla.sitting #reference"
@@ -69,9 +88,21 @@ def build_tei_header(
     # fileDesc
     fileDesc = ET.SubElement(teiHeader, qname("fileDesc"))
     titleStmt = ET.SubElement(fileDesc, qname("titleStmt"))
+    corpus_id = f"ParlaMint-{meta.country_code}"
+    title_sq = (
+        f"Korpusi parlamentar shqiptar {corpus_id}, "
+        f"{meta.date} [ParlaMint SAMPLE]"
+    )
+
+    title_en = (
+        f"Albanian parliamentary corpus {corpus_id}, "
+        f"{meta.date} [ParlaMint SAMPLE]"
+    )
 
     title_sq = meta.title_sq or f"{PARLIAMENT_NAME}, procesverbal, {meta.date}"
     title_en = meta.title_en or f"{PARLIAMENT_NAME_EN}, minutes, {meta.date}"
+
+
 
     ET.SubElement(titleStmt, qname("title"), {"type": "main", xml_attr("lang"): "sq"}).text = safe_xml_text(title_sq)
     ET.SubElement(titleStmt, qname("title"), {"type": "main", xml_attr("lang"): "en"}).text = safe_xml_text(title_en)
@@ -297,6 +328,7 @@ def segmented_to_tei(
 
     p = Path(out_path)
     p.parent.mkdir(parents=True, exist_ok=True)
+    _indent_xml(root)
     ET.ElementTree(root).write(p, encoding="utf-8", xml_declaration=True)
 
 
