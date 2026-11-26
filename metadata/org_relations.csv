@@ -1,0 +1,17 @@
+relation_id,relation_type,active_org_id,passive_org_id,mutual_org_ids,from_date,to_date,requires_mandate,is_party_entailing,rule_version,source_id,source_locator,review_status,reliability
+REL_GIP_PS_XI,GroupInParliament,AL_ORG_GP_PS,AL_ORG_Kuvendi,,2021-09-10,,true,true,M1-v1.0,SRC_KUV_GRUPET,Rregullorja e Kuvendit & Grupi Parlamentar PS roster,confirmed,Verified
+REL_GIP_PD_XI,GroupInParliament,AL_ORG_GP_PD,AL_ORG_Kuvendi,,2021-09-10,,true,true,M1-v1.0,SRC_KUV_GRUPET,Rregullorja e Kuvendit & Grupi Parlamentar PD roster,confirmed,Verified
+REL_GIP_PL_XI,GroupInParliament,AL_ORG_GP_PL,AL_ORG_Kuvendi,,2021-09-10,,true,true,M1-v1.0,SRC_KUV_GRUPET,Rregullorja e Kuvendit & Grupi Parlamentar PL roster,confirmed,Verified
+REL_GIP_AN_XI,GroupInParliament,AL_ORG_GP_AN,AL_ORG_Kuvendi,,2021-09-10,,true,false,M1-v1.0,SRC_KUV_GRUPET,Rregullorja e Kuvendit & Grupi Parlamentar Aleanca për Ndryshim (mixed group),confirmed,Verified
+REL_GPE_PS_XI,GroupPartyEntailment,AL_ORG_GP_PS,AL_ORG_PS,,2021-09-10,,true,true,M2-v1.0,SRC_KUV_GRUPET,Single-party parliamentary group entailment rule for GP PS -> PS,confirmed,Verified
+REL_GPE_PD_XI,GroupPartyEntailment,AL_ORG_GP_PD,AL_ORG_PD,,2021-09-10,,true,true,M2-v1.0,SRC_KUV_GRUPET,Single-party parliamentary group entailment rule for GP PD -> PD,confirmed,Verified
+REL_GPE_PL_XI,GroupPartyEntailment,AL_ORG_GP_PL,AL_ORG_PL,,2021-09-10,,true,true,M2-v1.0,SRC_KUV_GRUPET,Single-party parliamentary group entailment rule for GP PL -> PL,confirmed,Verified
+REL_REP_GP_PS,representing,AL_ORG_GP_PS,AL_ORG_PS,,2021-09-10,,false,false,,SRC_KUV_GRUPET,https://www.parlament.al/struktura/grupet-parlamentare,confirmed,Verified
+REL_REP_GP_PD,representing,AL_ORG_GP_PD,AL_ORG_PD,,2021-09-10,,false,false,,SRC_KUV_GRUPET,https://www.parlament.al/struktura/grupet-parlamentare,confirmed,Verified
+REL_REP_GP_PL,representing,AL_ORG_GP_PL,AL_ORG_PL,,2021-09-10,,false,false,,SRC_KUV_GRUPET,https://www.parlament.al/struktura/grupet-parlamentare,confirmed,Verified
+REL_REP_GP_AN_PR,representing,AL_ORG_GP_AN,AL_ORG_PR,,2021-09-10,,false,false,,SRC_KUV_GRUPET,Multi-party representation in GP Aleanca për Ndryshim,confirmed,Verified
+REL_REP_GP_AN_PAA,representing,AL_ORG_GP_AN,AL_ORG_PAA,,2021-09-10,,false,false,,SRC_KUV_GRUPET,Multi-party representation in GP Aleanca për Ndryshim,confirmed,Verified
+REL_REP_GP_AN_PBDNJ,representing,AL_ORG_GP_AN,AL_ORG_PBDNJ,,2021-09-10,,false,false,,SRC_KUV_GRUPET,Multi-party representation in GP Aleanca për Ndryshim,confirmed,Verified
+REL_COALITION_XI,coalition,,,AL_ORG_Qeveria AL_ORG_GP_PS AL_ORG_PS,2021-09-10,,false,false,,SRC_DEKRET_2025_09_15,Parliamentary majority and Council of Ministers confidence vote,confirmed,Verified
+REL_OPPOSITION_XI,opposition,AL_ORG_GP_PD AL_ORG_GP_PL AL_ORG_GP_AN AL_ORG_PD AL_ORG_PL AL_ORG_PR AL_ORG_PBDNJ AL_ORG_PAA AL_ORG_MUNDESIA AL_ORG_BASHKE,AL_ORG_Qeveria,,2021-09-10,,false,false,,SRC_KUV_GRUPET,Declared parliamentary opposition groups and parties in Kuvendi,confirmed,Verified
+REL_ELCOAL_PD_AMSH_2025,electoralCoalition,AL_ORG_PD AL_ORG_PL AL_ORG_PR AL_ORG_PAA AL_ORG_PBDNJ AL_ORG_PDIU,AL_ORG_KOAL_PD_AMSH,,2025-03-01,2025-05-11,false,false,,SRC_KQZ_2025,KQZ 2025 Registered Electoral Coalitions,confirmed,Verified

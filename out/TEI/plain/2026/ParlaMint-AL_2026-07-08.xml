@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-07-08" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-07-08" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-07-08</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-07-08</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Nismat Qytetare, Bashkëpunimin dhe Mbikëqyrjen Institucionale, 2026-07-08</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Civic Initiatives, Cooperation and Institutional Oversight, 2026-07-08</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KNQBMI" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -118,7 +118,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg29">Zoti Guvernator, fjala është për ju, 10 minuta, siç e thamë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg30">Ju lutem, fokusohuni te zbatimi i rekomandimeve të vitit të kaluar, nëse keni një koment apo objeksion lidhur me rekomandimet e parashtruara për vitin 2026.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u4" ana="#regular" who="#AL_PERS_GentSejko">
+        <u xml:id="ParlaMint-AL_2026-07-08.u4" ana="#guest" who="#AL_PERS_GentSejko">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg31">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg32">I nderuar zoti kryetar,</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg33">Të nderuar deputetë, anëtarë të komisionit,</seg>
@@ -184,7 +184,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg87">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg88">Zoti Guvernator, mund të përgjigjeni për të dyja pyetjet, nga një minutë për secilën, ju lutem!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u8" ana="#regular" who="#AL_PERS_GentSejko">
+        <u xml:id="ParlaMint-AL_2026-07-08.u8" ana="#guest" who="#AL_PERS_GentSejko">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg89">Faleminderit, kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg90">Atëherë, zoti Elezi, lidhur me forcimin e lekut, forcimi i lekut ka vijuar. Në fakt, forcimi i lekut është reflektim i përmirësimeve strukturore në bilancin e jashtëm të ekonomisë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg91">Unë e përmenda edhe në fjalën time, praktikisht edhe gjatë vitit 2025 ka vijuar me rritje të konsiderueshme, me shifra të konfirmuara, të ardhurat nga turizmi, të ardhurat nga remitancat dhe nga investimet e huaja, kryesisht edhe nga investimet në pasuri të patundshme, kanë sjellë disa miliarda. Unë mund t’jua them shifrat, për efekt kohe nuk po i them, por praktikisht, për sa kohë kemi një regjim të lirë të kursit të këmbimit dhe ekonomia ka një rritje prej 3,8% në vit, rritja e cila vjen nga këto hyrje, nga këto flukse valutore, natyrisht që edhe kursi i këmbimit do të vijë në vlerësim.</seg>
@@ -226,7 +226,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg119">Një pyetje shkurt, vetëm për aspektin procedural ndoshta të programit që Banka e Shqipërisë ka prezantuar gjatë vitit 2025 bashkë me qeverinë shqiptare, për financimin e ndërmarrjeve të vogla dhe të mesme nëpërmjet një garancie sovrane. Nga të dhënat tuaja rezulton që rreth 8,6% është faktikisht norma e disbursimit të këtij fondi. Cila mund të jetë arsyeja për këtë normë të ulët disbursimi: mungesa e kërkesës nga biznesi, kriteret e vendosura nga bankat tregtare, procedurat e garancisë sovrane apo vetë mënyra se si është dizajnuar skema?</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg120">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u13" ana="#regular" who="#AL_PERS_GentSejko">
+        <u xml:id="ParlaMint-AL_2026-07-08.u13" ana="#guest" who="#AL_PERS_GentSejko">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg121">Faleminderit, zonja Gjuzi!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg122">Atëherë, ne kemi miratuar programin për mbështetjen e bizneseve të vogla dhe të mesme në fund të vitit 2024, në fakt, ka filluar puna që herët, që në vitin 2023 për këtë program, dhe është miratuar në fund të vitit 2024. Sigurisht, programi, duke qenë në fazat e para, ka pasur disa përcaktime dhe disa kritere. Bankat kanë dashur kohën e tyre për t’u përshtatur me tregun dhe me këtë program.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg123">Për sa kohë që ne kemi vënë kufizime për financimin me likuiditet të bankave, në mënyrë që të frenojmë rritjen e normave të interesit, t’i kemi më të ulëta se tregu, pra ne financojmë me 0,5 likuiditet dhe bankat nuk mund të japin më shumë se 2%, nëse ka mbulim maksimal me garancinë sovrane, dhe jo mbi 3,5% në rastin e kundërt, sigurisht që kanë një spread të kufizuar dhe në këtë spread bankat nuk kanë qenë të prirura maksimalisht për të financuar dhe mbështetur këtë lloj biznesesh. Për këtë arsye ne kemi bërë ndryshime gjatë vitit 2025 në program, kemi miratuar në Këshillin Mbikëqyrës të Bankës së Shqipërisë ndryshimet, për t’u dhënë më shumë hapësirë, fleksibilitet dhe mbështetje bankave, tregut dhe biznesit lidhur me këtë kreditim.</seg>
@@ -252,7 +252,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg137">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg138">Zoti Guvernator, përgjigjet tuaja për këto dy pyetje, ju lutem!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u17" ana="#regular" who="#AL_PERS_GentSejko">
+        <u xml:id="ParlaMint-AL_2026-07-08.u17" ana="#guest" who="#AL_PERS_GentSejko">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg139">Faleminderit, zoti Çomo!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg140">Faleminderit, kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg141">Atëherë, lidhur me procesin e integrimit të bankës, natyrisht, ne jemi të përfshirë në dy kapituj direkt dhe në tre të tjerë indirekt. Praktikisht, ne po ndryshojmë të gjithë kuadrin tonë ligjor: ligjin për Bankën e Shqipërisë, ligjin për bankat në Republikën e Shqipërisë, ndërkohë po rishikojmë dhe po ndryshojmë ligjin për shërbimet e pagesave përsëri, për ta përshtatur, kemi paraqitur një draft të ri të ligjit për Agjencinë e Sigurimit të Depozitave, pra e kemi përfunduar, dhe ligjin për ndërhyrjen e jashtëzakonshme. Pra, janë 5 ligje bazë, themelore, që ne, si Bankë e Shqipërisë, i kemi rishikuar, kanë përfunduar draftet dhe janë për t’u paraqitur për miratimin në Parlament këtë vit, përtej akteve normative nënligjore, të cilat janë miratuar edhe më parë. Pas këtyre ligjeve ne do të vazhdojmë të miratojmë aktet ligjore. Po punojmë, është një punë shumë intensive, po punojmë edhe në fundjavë, madje kemi punuar edhe gjatë kësaj fundjave për të miratuar draftin, sepse afatet janë shumë të ngushta, duam t’i shohim me shumë kujdes, pasi miratimi i një ligji ka efekte shumë të rëndësishme.</seg>
@@ -280,7 +280,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg161">Ndjesë, se ndoshta nuk i formulova mirë, ngaqë po më shikonte zonja Ekonomi! Ndoshta unë s’jam shumë i mirë në fushën financiare, nuk jam i mirë në këtë anë, gjithsesi, si jurist besoj se bëra një përpjekje të kujdesshme.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg162">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u19" ana="#regular" who="#AL_PERS_GentSejko">
+        <u xml:id="ParlaMint-AL_2026-07-08.u19" ana="#guest" who="#AL_PERS_GentSejko">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg163">Faleminderit, kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg164">Në fakt, jo për kompliment, por ju i formuluat shumë mirë, ekzaktësisht, pasi këto janë shqetësimet dhe problematikat që përballet shoqëria dhe biznesi.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg165">Po e nis nga fundi, patjetër, bankat dhe sistemi financiar marrin në konsideratë kriteret e rrezikut, pasi është në interesin e tyre të kenë performancë të mirë të kthimit të kredive.</seg>
@@ -292,7 +292,7 @@
         <u xml:id="ParlaMint-AL_2026-07-08.u20" ana="#chair" who="#AL_PERS_FatmirXhafaj">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg170">Më fal, sepse do të bëj një ndërhyrje! Ne jemi shteti i së drejtës, që nënkupton jo vetëm zbatimin e ligjit, por edhe respektimin e të drejtave të njeriut.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u21" ana="#regular" who="#AL_PERS_GentSejko">
+        <u xml:id="ParlaMint-AL_2026-07-08.u21" ana="#guest" who="#AL_PERS_GentSejko">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg171">Patjetër, por, pikërisht, në këtë kontekst, ne për zbatimin dhe respektimin e të drejtave të njeriut jemi përpjekur që të kemi një edukim financiar sa më të plotë dhe një mbrojtje sa më të fortë të konsumatorëve.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg172">Sikurse e thashë, janë dy anë: të drejtat e njeriut për t’u zhvilluar, për të jetuar më mirë, për të përfituar materialisht dhe për të rritur mirëqenien e tyre nëpërmjet mbështetjes me kredi, pasi puna me bankat, me kreditimin (ka edhe studime të institucioneve ndërkombëtare, si: të Bankës Botërore, të Fondit Monetar), zbut pabarazinë, përfiton, por duhet të jetë në mënyrë të studiuar, të menaxhuar. Pra, sikurse ju e thatë, të mos merret borxh i pamundur për t’u shlyer, por të merret borxh brenda kritereve, brenda mundësive për t’u shlyer.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg173">Kjo është një punë që ne, si institucion, rolin tonë përpiqemi ta luajmë maksimalisht.</seg>
@@ -341,7 +341,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg210">Ju uroj një ditë të mbarë dhe punë të mbarë!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg211">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u25" ana="#regular" who="#AL_PERS_GentSejko">
+        <u xml:id="ParlaMint-AL_2026-07-08.u25" ana="#guest" who="#AL_PERS_GentSejko">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg212">Kryetar, faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg213">Faleminderit, kolegë, e vlerësoj shumë!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg214">REPUBLIKA E SHQIPËRISË</seg>
@@ -361,22 +361,22 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg226">Ivi Kaso, Evis Kushi, Belind Këlliçi dhe Elda Hoti.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg227">Të ftuar:</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u27" ana="#regular" who="#AL_PERS_ArbenShehu">
+        <u xml:id="ParlaMint-AL_2026-07-08.u27" ana="#guest" who="#AL_PERS_ArbenShehu">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg228">kryetar i Kontrollit të Lartë të Shtetit</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u28" ana="#regular" who="#AL_PERS_ArdianMyslymaj">
+        <u xml:id="ParlaMint-AL_2026-07-08.u28" ana="#guest" who="#AL_PERS_ArdianMyslymaj">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg229">këshilltar në Kontrollin e Lartë të Shtetit</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u29" ana="#regular" who="#AL_PERS_JoniadaGocaj">
+        <u xml:id="ParlaMint-AL_2026-07-08.u29" ana="#guest" who="#AL_PERS_JoniadaGocaj">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg230">drejtoreshë e Departamentit të Sigurimit të Cilësisë dhe Zbatimit të Standardeve në Kontrollin e Lartë të Shtetit</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u30" ana="#regular" who="#AL_PERS_JoanaTroqe">
+        <u xml:id="ParlaMint-AL_2026-07-08.u30" ana="#guest" who="#AL_PERS_JoanaTroqe">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg231">drejtoreshë e Departamentit të Auditimit të Buxhetit të Shtetit në Kontrollin e Lartë të Shtetit</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u31" ana="#regular" who="#AL_PERS_ErmiraHoxha">
+        <u xml:id="ParlaMint-AL_2026-07-08.u31" ana="#guest" who="#AL_PERS_ErmiraHoxha">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg232">drejtoreshë e Departamentit të Burimeve Njerëzore dhe Zhvillimit Profesional në Kontrollin e Lartë të Shtetit</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u32" ana="#regular" who="#AL_PERS_AgronHalili">
+        <u xml:id="ParlaMint-AL_2026-07-08.u32" ana="#guest" who="#AL_PERS_AgronHalili">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg233">drejtor i Departamentit të Vetëqeverisjes Vendore dhe Pronës Publike në Kontrollin e Lartë të Shtetit</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-08.u33" ana="#chair" who="#AL_PERS_FatmirXhafaj">
@@ -408,7 +408,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg255">Faleminderit, zoti Elezi, për prezantimin dhe koncizitetin, në mënyrë të veçantë, që është karakteristika juaj!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg256">Tani është radha për kryetarin e Kontrollit të Lartë të Shtetit, 10 minuta, me fokus zbatimi i rekomandimeve të Kuvendit dhe efektin që ato kanë krijuar në vlerësimin tuaj.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u36" ana="#regular" who="#AL_PERS_ArbenShehu">
+        <u xml:id="ParlaMint-AL_2026-07-08.u36" ana="#guest" who="#AL_PERS_ArbenShehu">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg257">I nderuar zoti kryetar i komisionit, Të nderuar deputetë, Në vijim të shqyrtimit të raportit “Për zbatimin e rekomandimeve të rezolutës së Kuvendit”, po ndalem në disa nga masat kryesore që Kontrolli i Lartë i Shtetit ka ndërmarrë për zbatimin e tyre.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg258">Gjatë vitit 2025 veprimtaria e institucionit është orientuar drejt forcimit të kontrollit mbi përdorimin e fondeve publike dhe administrimin e pasurive shtetërore, në përputhje me parimin e ekonomicitetit, eficiencës dhe efektivitetit.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg259">Krahas realizimit të veprimtarisë audituese, një vëmendje e veçantë i është kushtuar edhe zbatimit të rekomandimeve të Kuvendit, si një instrument i rëndësishëm për përmirësimin e vazhdueshëm të veprimtarisë së institucionit.</seg>
@@ -479,7 +479,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg309">Faleminderit, zoti Elezi!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg310">Zoti Shehu.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u40" ana="#regular" who="#AL_PERS_ArbenShehu">
+        <u xml:id="ParlaMint-AL_2026-07-08.u40" ana="#guest" who="#AL_PERS_ArbenShehu">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg311">Faleminderit, zoti kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg312">Faleminderit për pyetjen zoti Elezi!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg313">Mua nuk më lejohet të bëj vlerësime për pyetjet, por më vjen mirë që është një pyetje me karakter thelbësor dhe është shumë e studiuar. Unë dua t’ju them se fokusi i auditimeve duhet të rritet në drejtim të performancës, për shkak të disa arsyeve, për të cilat ne jemi plotësisht të qartë.</seg>
@@ -502,7 +502,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg321">Faleminderit, zoti Elezi!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg322">Përgjigjja për pyetjen e dytë që nuk i dhatë në fillim.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u44" ana="#regular" who="#AL_PERS_ArbenShehu">
+        <u xml:id="ParlaMint-AL_2026-07-08.u44" ana="#guest" who="#AL_PERS_ArbenShehu">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg323">Institucioni i Kontrollit të Lartë të Shtetit e ka shprehur vullnetin e tij edhe në Gjykatën Kushtetuese në lidhje me këtë çështje, i cili ka qenë konstant, pra qëndrimi i institucionit ka qenë konstant në lidhje me auditimin e njësive të qeverisjes vendore për çdo vit.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg324">Jemi në kushtet që, duke iu referuar rregullimit ligjor dhe konfirmimit nga vendim i Gjykatës Kushtetuese, ne t’i zbatojmë me kujdes këto detyrime dhe të kryejmë ato procese auditimi për të cilat jemi të detyruar, të ngarkuar, t’i kryejmë.</seg>
         </u>
@@ -524,7 +524,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg335">Faleminderit, zoti Gjoni!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg336">Zoti kryetar, përgjigjet tuaja, nga një minutë secila, ju lutem!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u48" ana="#regular" who="#AL_PERS_ArbenShehu">
+        <u xml:id="ParlaMint-AL_2026-07-08.u48" ana="#guest" who="#AL_PERS_ArbenShehu">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg337">Faleminderit, zoti kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg338">Faleminderit, zoti deputet, për pyetjet!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg339">Në radhë të parë, është e rëndësishme që procesi i auditimit të konkludohet me një pranim rekomandimesh, të dhëna në përfundim të procesit, të dhëna mbi bazën e konstatimeve dhe analizave të mbështetura në këto konstatime.</seg>
@@ -541,7 +541,7 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u50" ana="#regular" who="#AL_PERS_ArbenShehu">
+        <u xml:id="ParlaMint-AL_2026-07-08.u50" ana="#guest" who="#AL_PERS_ArbenShehu">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg347">Në lidhje me problematikat në fushën e shëndetësisë, pa dashur që t’ju marr kohë, rekomandimet tona i kemi shprehur mbi bazën e proceseve të auditimit, më pas i kemi drejtuar tek institucionet përgjegjëse, tek institucionet supreme të tyre, ia kemi bërë prezentë në kohë reale edhe Kuvendit të Shqipërisë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg348">Faleminderit!</seg>
         </u>
@@ -581,7 +581,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg374">Këto janë disa pyetje që kisha edhe unë, për ta mbyllur përfundimisht diskutimin.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg375">Përgjigjet tuaja, ju lutem!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u54" ana="#regular" who="#AL_PERS_ArbenShehu">
+        <u xml:id="ParlaMint-AL_2026-07-08.u54" ana="#guest" who="#AL_PERS_ArbenShehu">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg376">Faleminderit, zoti kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg377">Në lidhje me pyetjen për mbushjen e platformës së Kuvendit me rekomandime nga institucioni i Kontrollit të Lartë të Shtetit, në radhë të parë, siç e thatë qartë, platforma e Kuvendit vetë ka pasur njëlloj problematike. Kështu që, para se ne të veprojmë, duhet të kemi terrenin ku t’i shkarkojmë këto të dhëna.</seg>
         </u>
@@ -589,13 +589,13 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg378">A mund të të ndërpres? Kërkoj mirëkuptim.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg379">A mund të vendosim, pa e zgjatur shumë, që Shërbimi i Monitorimit me drejtorinë tuaj përgjegjëse të takohen gjatë kësaj jave ose javën që vjen dhe ta sqarojnë këtë gjë përfundimisht?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u56" ana="#regular" who="#AL_PERS_ArbenShehu">
+        <u xml:id="ParlaMint-AL_2026-07-08.u56" ana="#guest" who="#AL_PERS_ArbenShehu">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg380">Ne jemi të detyruar të zbatojmë çdolloj kërkese nga ana juaj.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-08.u57" ana="#chair" who="#AL_PERS_FatmirXhafaj">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg381">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u58" ana="#regular" who="#AL_PERS_ArbenShehu">
+        <u xml:id="ParlaMint-AL_2026-07-08.u58" ana="#guest" who="#AL_PERS_ArbenShehu">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg382">Duke pasur parasysh këtë mangësi, si dhe detyrimin për t’ia vënë në dispozicion Kuvendit, ne të gjitha këto në kohë reale i kemi vendosur në formë shkresore, dokumentare. Pra, këto janë të administruara në Kuvendin e Republikës së Shqipërisë në kohë reale.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg383">Në lidhje me pyetjen nëse ka sjellë ndryshim KLSH-ja me punën e vet në institucione, duke iu referuar pasqyrimit që mund të japë në institucionet që auditohen, unë e thashë, puna e institucionit nuk matet se sa reflektohen auditimet, sepse unë e parashtrova që pranimi i rekomandimeve është në nivel maksimal, të lartë; ndërsa zbatimi është në atë nivel që ju e keni të qartë. Por, kjo ngelet në vullnetin e institucioneve dhe personave të përgjegjës, të cilët janë të ngarkuar me zbatimin e rekomandimeve, është detyrim i institucioneve që monitorojnë, janë supreme, punën e këtyre institucioneve, që ne kemi pasur në proces auditimi, për t’i monitoruar se sa janë zbatuar këto rekomandime apo edhe rekomandimet e tjera, të dhëna jo vetëm nga institucioni, por edhe nga institucionet supreme, për të parë performancën e punës së tyre.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg384">Nuk është përgjegjësi e institucionit të Kontrollit të Lartë të Shtetit për t’i detyruar për zbatimin, përmirësimin apo rritjen e performancës së punës së institucioneve të tjera; nuk është ky detyrimi ynë. Ne detyrimin tonë e kemi të përcaktuar qartësisht në ligj dhe kemi atë lloj rezultati në pranimin e rekomandimeve, të cilin jua kemi paraqitur.</seg>
@@ -612,7 +612,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg393">Prandaj është krijuar platforma, por kjo është edhe arsyeja që ne do të organizojmë në vijim disa tryeza, që të shohim dialogun ndërinstitucional, në mënyrë që edhe ju të shprehni pikëpamjen tuaj, edhe institucionet e tjera, gjithashtu, sepse të gjithë ne jemi nënpunës të shtetit, jemi instrumente të njëjtit shtet dhe punojmë për të njëjtat politika publike, për të njëjtin qëllim që ka shteti shqiptar.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg394">Po, patjetër.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u60" ana="#regular" who="#AL_PERS_ArbenShehu">
+        <u xml:id="ParlaMint-AL_2026-07-08.u60" ana="#guest" who="#AL_PERS_ArbenShehu">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg395">Ndjesë!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg396">Situata e rekomandimeve të dhëna nga ana juaj drejt institucionit të Kontrollit të Lartë të Shtetit ka efekt detyrues, kurse rekomandimet e dhëna nga Kontrolli i Lartë i Shtetit në drejtim të institucioneve që janë auditues nuk janë urdhëruese, janë në planin e një rekomandimi, i cili vlen për t’u ekzekutuar, për t’u zbatuar, aq më tepër në momentin kur pranohet.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg397">Unë mendoj se (dhe këtë do të kërkoj nga ana juaj) duhet të rritet vëmendja për zbatimin e rekomandimeve, ashtu siç duhet të rritet vëmendja (siç e thatë edhe ju) për nivelin e komunikimit ndërinstitucional. Ne në momente të veçanta kemi vështirësi, duke iu referuar edhe pamundësisë për t’i ekzekutuar, edhe pamundësisë për të pasur vullnetin pozitiv institucional në disa raste, të cilat ju i keni të qarta. Prandaj, do t’ju kërkonim të ishit pak më të vëmendshëm në këtë drejtim, në funksion jo vetëm të vëmendjes së punës së institucionit, por të vëmendjes së punës institucionale, qëllimit të përbashkët dhe rezultatit, të cilin ne e kemi të përbashkët: interesin ndaj shtetit dhe ndaj qytetarëve.</seg>
@@ -645,13 +645,13 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg420">Ivi Kaso, Evis Kushi, Belind Këlliçi dhe Elda Hoti.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg421">Të ftuar:</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u63" ana="#regular" who="#AL_PERS_EvgjeniBashari">
+        <u xml:id="ParlaMint-AL_2026-07-08.u63" ana="#guest" who="#AL_PERS_EvgjeniBashari">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg422">inspektore e Përgjithshme e Inspektoratit të Lartë të Deklarimit dhe Kontrollit të Pasurive dhe Konfliktit të Interesave</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u64" ana="#regular" who="#AL_PERS_ArbërBasholli">
+        <u xml:id="ParlaMint-AL_2026-07-08.u64" ana="#guest" who="#AL_PERS_ArbërBasholli">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg423">sekretar i Përgjithshëm në Inspektoratit të Lartë të Deklarimit dhe Kontrollit të Pasurive dhe Konfliktit të Interesave</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u65" ana="#regular" who="#AL_PERS_AdelaTagani">
+        <u xml:id="ParlaMint-AL_2026-07-08.u65" ana="#guest" who="#AL_PERS_AdelaTagani">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg424">inspektore në Inspektoratit të Lartë të Deklarimit dhe Kontrollit të Pasurive dhe Konfliktit të Interesave</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-08.u66" ana="#chair" who="#AL_PERS_FatmirXhafaj">
@@ -687,7 +687,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg450">Faleminderit, zoti Elezi.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg451">Zonja Bashari, tani është radha juaj, 10 minuta, për të bërë një vlerësim lidhur me zbatimin e rekomandimeve të vitit 2025 dhe objeksionet e mundshme për 10 rekomandimet që do të jenë për vitin 2026.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u69" ana="#regular" who="#AL_PERS_EvgjeniBashari">
+        <u xml:id="ParlaMint-AL_2026-07-08.u69" ana="#guest" who="#AL_PERS_EvgjeniBashari">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg452">Faleminderit, zoti kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg453">Të nderuara zonja dhe zotërinj deputetë, anëtarë të komisionit, Në përmbushje të kompetencave ligjore, kam kënaqësinë t'ju parashtroj në mënyrë të përmbledhur ecurinë e zbatimit të projektrezolutës “Për vlerësimin e veprimtarisë së Inspektoratit të Lartë të Deklarimit dhe Kontrollit të Pasurive dhe Konfliktit të Interesave”, ku Kuvendi i Shqipërisë ka parashtruar rekomandimet për t'u përmbushur nga institucioni përgjatë vitit 2025.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg454">Rekomandimet e Kuvendit janë vlerësuar me prioritet nga Inspektorati i Lartë, duke marrë masat për t'i përfshirë në procesin e veprimtarisë institucionale, me qëllim rishikimin e procedurave të brendshme për të përmirësuar më tej zbatimin e instrumenteve të ngarkuara për parandalimin e korrupsionit dhe rritjen e integritetit në funksionet publike.</seg>
@@ -720,7 +720,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg477">Sigurisht që duhet ta kishit adresuar dhe, nëse kemi ndonjë objeksion për rekomandimet, mund ta prezantoni.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u71" ana="#regular" who="#AL_PERS_EvgjeniBashari">
+        <u xml:id="ParlaMint-AL_2026-07-08.u71" ana="#guest" who="#AL_PERS_EvgjeniBashari">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg478">Në lidhje me projektrezolutën që na është vënë në dispozicion, i kemi vlerësuar dhe i kemi shqyrtuar të gjitha rekomandimet e parashtruara në të dhe nuk kemi objeksione për vetë faktin se këto rekomandime përputhen edhe me prioritetet dhe angazhimet që vetë institucioni ka për vitin 2026, të parashtruara edhe në raportin vjetor.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg479">Për sa i përket çështjes së ligjit të ri “Për sinjalizimin dhe mbrojtjen e sinjalizuesve”, ka qenë një proces goxha sfidues për ta sjellë ligjin në përputhje me kërkesat e direktivës, por, falë punës së organizuar nga ministria përgjegjëse dhe ekspertiza e institucionit, si dhe ekspertizës së marrë nga ekspertë të Bashkimit Evropian dhe të Këshillit të Evropës, ligji tashmë është miratuar nga Kuvendi dhe ka hyrë në fuqi.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg480">Me hyrjen në fuqi të ligjit, paralelisht Inspektorati i Lartë ka paraqitur edhe kërkesë pranë Kuvendit të Republikës së Shqipërisë për të rishikuar strukturën e brendshme institucionale, duke parashikuar që të krijohet një drejtori e dedikuar për sinjalizimin, e cila do të ketë dy sektorë përgjegjës: sektorin përgjegjës për monitorimin e njësive si në sektorin privat, ashtu dhe në atë publik, dhe sektorin e hetimit administrativ të sinjalizimit.</seg>
@@ -735,13 +735,13 @@
         <u xml:id="ParlaMint-AL_2026-07-08.u73" ana="#regular" who="#AL_PERS_ErmalElezi">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg486">Unë mendoj se, duke qenë se është bërë puna nga institucioni, duke përcjellë shkresën, ne t'u propozojmë të gjitha komisioneve përkatëse, që kanë një rol, që të përmbushim edhe ngritjen e njësisë së kërkuar, si detyrim për të zbatuar një ligj që ka rëndësi dhe hyn te pjesa e integrimit evropian. Sa është numri i stafit që keni kërkuar për këtë çështje?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u74" ana="#regular" who="#AL_PERS_EvgjeniBashari">
+        <u xml:id="ParlaMint-AL_2026-07-08.u74" ana="#guest" who="#AL_PERS_EvgjeniBashari">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg487">Është menduar një drejtori e përgjithshme me dy sektorë, diku te shtatë persona.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-08.u75" ana="#chair" who="#AL_PERS_FatmirXhafaj">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg488">Mund të shtojmë edhe një pikë në rezolutë, pika 11, në mos gaboj, që Kuvendi ta zgjidhë në bashkëpunim me ILDKPKI-në të paktën në fillim të sesionit që vjen. Kjo është edhe kërkesë e rekomandimeve të BE-së, në mos gaboj.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u76" ana="#regular" who="#AL_PERS_EvgjeniBashari">
+        <u xml:id="ParlaMint-AL_2026-07-08.u76" ana="#guest" who="#AL_PERS_EvgjeniBashari">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg489">Patjetër, BE-ja, përveçse ka kërkuar që të përafrohet legjislacioni, kërkon edhe zbatimin efektiv të tij, dhe zbatimi efektiv lidhet me kapacitetet institucionale.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-08.u77" ana="#chair" who="#AL_PERS_FatmirXhafaj">
@@ -750,7 +750,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg492">Kam unë një pyetje, që në këndvështrimin tim besoj se është thelbësore për të ardhmen e institucionit tuaj, por edhe për procesin e integrimit.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg493">Në progresraportin e fundit të BE-së dhe në raportin e IBAR-it ka disa gjetje dhe rekomandime specifike për ILDKPI-në, dhe moszbatimi ose zbatimi i vonuar në kohë i tyre mund të krijojë probleme. Pyetja që kam unë është: sa jeni gati ju, në mënyrë që në raportin e ardhshëm të kemi mundësi të marrim një vlerësim shumë më pozitiv nga BE-ja, e cila nuk është e interesuar, siç thatë ju, me të drejtë, që është miratuar një ligj i caktuar apo se funksionojnë institucionet, sepse ne shpeshherë e konceptojmë që miratojmë ligjin, krijojmë institucionet dhe e quajmë punën të përmbyllur; jo, nuk është ky qëllimi, qëllimi është që institucionet të jenë efektive, të jenë të pavarura, të jenë rezultative, që ligjet të zbatohen, të zbatohen mirë, drejt dhe në interes të qytetarëve? Në këtë kontekst, si e shihni ju? Cila është prognoza që keni ju? Cila është mbështetja që kërkoni ju nga Kuvendi, nga komisioni përgjegjës, sigurisht, por edhe nga ky komision, që ka në fokus edhe mbikëqyrjen parlamentare?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u78" ana="#regular" who="#AL_PERS_EvgjeniBashari">
+        <u xml:id="ParlaMint-AL_2026-07-08.u78" ana="#guest" who="#AL_PERS_EvgjeniBashari">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg494">Faleminderit, zoti kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg495">Çështja e integrimit në Bashkimin Evropian, sidomos çështjet e parashtruara në piketat e ndërmjetme janë marrë dhe janë vlerësuar me shumë prioritet nga institucioni, për vetë rëndësinë që ka i gjithë procesi, sepse ne jemi të ndërgjegjshëm që, nëse një masë nuk plotësohet nga institucioni, kjo pengon pastaj të gjithë procesin e integrimit. Ndaj, patjetër, institucioni do të jetë tërësisht i angazhuar të marrë të gjitha masat për të adresuar rekomandimet dhe gjetjet që ka bërë Komisioni Evropian.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg496">Ne i kemi identifikuar, i kemi kategorizuar, jemi në bashkëpunim të ngushtë me njësitë përgjegjëse të negociatorëve, Ministrinë e Drejtësisë dhe Ministrinë e Shtetit për Antikorrupsionin, por, gjithashtu, dhe me vetë ekspertët e delegacionit të Bashkimit Evropian në Shqipëri, të cilët e mbështesin institucionin me një projekt të dedikuar, që është “EU4GG”, i cili në mënyrë konstante ka punuar me institucionin për të parë se si do t’i adresojmë këto gjetje.</seg>
@@ -796,16 +796,16 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg530">Ivi Kaso, Evis Kushi, Belind Këlliçi dhe Elda Hoti.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg531">Të ftuar:</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u82" ana="#regular" who="#AL_PERS_GentianSala">
+        <u xml:id="ParlaMint-AL_2026-07-08.u82" ana="#guest" who="#AL_PERS_GentianSala">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg532">kryetar i Autoritetit të Komunikimeve Elektronike dhe Postare</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u83" ana="#regular" who="#AL_PERS_ElkedaDomi">
+        <u xml:id="ParlaMint-AL_2026-07-08.u83" ana="#guest" who="#AL_PERS_ElkedaDomi">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg533">drejtoreshë e Drejtorisë së Administrimit dhe Menaxhimit të Burimeve të Fundme në Autoritetin e Komunikimeve Elektronike dhe Postare</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u84" ana="#regular" who="#AL_PERS_GazmirMani">
+        <u xml:id="ParlaMint-AL_2026-07-08.u84" ana="#guest" who="#AL_PERS_GazmirMani">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg534">drejtor i Drejtorisë Rregullatore dhe Mbikëqyrjes së Tregut në Autoritetin e Komunikimeve Elektronike dhe Postare</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u85" ana="#regular" who="#AL_PERS_AltinPetre">
+        <u xml:id="ParlaMint-AL_2026-07-08.u85" ana="#guest" who="#AL_PERS_AltinPetre">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg535">këshilltar i kryetarit të Autoritetit të Komunikimeve Elektronike dhe Postare</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-08.u86" ana="#chair" who="#AL_PERS_FatmirXhafaj">
@@ -858,7 +858,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg578">Faleminderit, zonja Gjuzi!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg579">Zoti Sala, fjala për ju, 10 minuta, ju lutem!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u89" ana="#regular" who="#AL_PERS_GentianSala">
+        <u xml:id="ParlaMint-AL_2026-07-08.u89" ana="#guest" who="#AL_PERS_GentianSala">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg580">Shumë faleminderit, kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg581">Shumë faleminderit, relatore, zonja Gjuzi!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg582">Të nderuar deputetë,</seg>
@@ -904,7 +904,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg616">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg617">Pyetje?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u93" ana="#regular" who="#AL_PERS_GentianSala">
+        <u xml:id="ParlaMint-AL_2026-07-08.u93" ana="#guest" who="#AL_PERS_GentianSala">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg618">A mund të bëj një koment për këtë rekomandim?</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg619">Patjetër, është shumë i nevojshëm bashkëpunimi dhe memorandumi. Në momentin që flasim ne kemi sjellë 3 nene për t’i ndryshuar në ligjin tonë, të cilët jo vetëm që na ndihmojnë kundër piraterisë, por edhe ndërhyrjen më të shpejtë të AKEP-it tek operatorët ISP, pasi nuk mund të vazhdojë ky bashkëpunim me operatorët në formë shkresore, por duhet të kthehet në një formë më të shpejtë komunikimi elektronik dhe me afate të përcaktuara qartë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg620">Kemi marrë modelin më të mirë të ligjit italian, i cili i detyron operatorët që brenda 30 minutave nga marrja e njoftimit të ndërhyjnë në rastet kur janë ndërhyrje që kërkojnë efekt të shpejtë, pasi nuk mund të vazhdojë lufta ndaj piraterisë, ndërhyrje në rastet kur konstatohet nga policia apo prokuroria për dhunim të të miturve apo ndërhyrje të tjera në një fushën kaq të gjerë digjitale në formë shkresore.</seg>
@@ -921,7 +921,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg627">Faleminderit, zoti Elezi!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg628">Zoti Sala, përgjigjet tuaja.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u96" ana="#regular" who="#AL_PERS_GentianSala">
+        <u xml:id="ParlaMint-AL_2026-07-08.u96" ana="#guest" who="#AL_PERS_GentianSala">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg629">Mbrojtja e konsumatorit tek AKEP-i ka qenë pika më e dobët, kjo ka ndodhur me vite, nuk është gjë e re. Pra, ka qenë një procedurë rutinë: vinin ankesa, komunikohej me operatorin, pa bërë një analizë vjetore se çfarë tipologjie ankesash janë dhe pa parë se si është zgjidhur. Pra, ti vërtet ke detyrimin që të merresh me çdo ankesë, por, në radhë të parë, duhet të merresh me ato shkelje që konsiderohen thelbësore në raport me konsumatorin, po ashtu edhe në lidhje me mënyrën si bëhet kontrata, sepse bëjnë një kontratë 15 faqesh, që edhe juristi më i mirë duhet të harxhojë 15 orë ta shikojë. Të gjitha këto probleme do të reflektohen te rregullorja e re.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg630">Sot që erdhëm këtu te zyrat tona ishin dy operatorë të mëdhenj, ku paraqitën problematikat e tyre në këtë kuadër. Nuk mund të jap shumë detaje për rregulloren, sepse është në fazën më intensive dhe nuk është se jam në përditshmëri. Por, në lidhje me detyrën që ne kemi për planet tarifore, për praktika që lidhen me vlefshmërinë e kartave, për kreditimet, që janë një pjesë shumë e madhe e ankesave, ne sot kemi rezultat. Pra, në fillim të verës operatorët kanë hedhur në treg paketa më të ulëta për klientët me të ardhura më të ulëta, për personat me aftësi të kufizuara, për të moshuarit mbi 62 vjeç kanë rritur njësitë e internetit nga 50 megabite në 500 megabite, kjo vetëm me komunikimin që ne kemi bërë me ta, pra ka qenë komunikimin zyrtar, me mbledhje, me protokoll të mbajtur nga ana jonë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg631">Është tjetër gjë ndjekja që po bën Autoriteti i Konkurrencës për këtë çështje, për të cilën ne, të them të drejtën, nuk jemi fort të kënaqur me bashkëpunimin. Pra, është tjetër punë me institucionet, me të cilat ne komunikojmë me shkresa, pra u çojmë shkresa dhe dokumente. Ne kemi kërkuar të bëhen takime teknike, që nuk janë bërë.</seg>
@@ -957,7 +957,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg655">Faleminderit, zoti Mile!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg656">Urdhëroni!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u100" ana="#regular" who="#AL_PERS_ElkedaDomi">
+        <u xml:id="ParlaMint-AL_2026-07-08.u100" ana="#guest" who="#AL_PERS_ElkedaDomi">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg657">Në lidhje me pyetjen për mbulimin, sikurse e referoi edhe kryetari, përveç shërbimeve 5G, territori i Shqipërisë është mbuluar edhe me shërbime 4G. Në qoftë se bazohemi te kushtet e autorizimit individual, që kanë operatorët, ato kanë detyrimin që të mbulojnë 50% të popullsisë brenda vitit 2027, ndërkohë që e kanë avancuar dhe mbulojnë mbi 50% të territorit me shërbim 5G. Të mos harrojmë që kemi edhe shërbime të tjera 4G, që mbulojnë 97% të popullsisë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg658">Ka problematika, siç është rasti i aksit rrugor Fier-Levan, por ndërkohë kemi edhe akse të tjera apo zona të tjera ku nuk ka mbulim dhe ne jemi në komunikim të vazhdueshëm me operatorët, për të kuptuar se cilat janë problematikat dhe si t’u japim zgjidhje. Një ndër problematikat janë lejet e vonuara nga ASHT-ja, që zgjasin mbi 3 vjet, ka problematika me pronësinë, pra sot e kanë një stacion antene këtu, pastaj të nesërmen i thotë pronari: do ta heqësh këtë antenë dhe do ta çosh në një vend tjetër, por që ai ta vendosë diku tjetër duhet sërish të marrë leje, të aplikojë nëpër bashki apo në institucione të tjera. Ne kemi vendosur kontakte me institucionet e tjera dhe po i japim shtysë, në mënyrë që të mbulojmë akset kryesore, siç është edhe aksi i ri i Qafë Plloçës, që pas tunelit nuk ka mbulim, por ka edhe zona të tjera, ku ne kemi informacion, ku lejet vonojnë goxha nga institucionet publike.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg659">Çështja e mbulimit është gjithmonë në ndjekje nga Autoriteti, sepse ndryshon edhe topologjia e infrastrukturës, ndërtesa të reja, pallate të reja në zonat urbane, pra operatorët janë non stop duke hequr një stacion dhe duke vendosur një stacion dhe ne i ndjekim në mënyrë...</seg>
@@ -966,17 +966,17 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg660">Kështu që, kjo është një edhe nga pikat e rezolutës, e cila vazhdon të mbikëqyret, pra thuhet e zbatuar, por është në proces ndjekjeje dhe monitorimi të vazhdueshëm nga AKEP-i.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u101" ana="#regular" who="#AL_PERS_GentianSala">
+        <u xml:id="ParlaMint-AL_2026-07-08.u101" ana="#guest" who="#AL_PERS_GentianSala">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg661">Në lidhje me zonën Fier-Levan, do ta shikojmë dhe do t’ju japim përgjigje zyrtare.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg662">Unë personalisht po ju them se në lidhje me mbulimin e zonave, celularët tanë janë të hapur për çdo ankesë, vetëm na shkruani, për shembull, siç kemi pasur komunikim për zonën e Thethit. Me një fjalë, ne nuk e kemi problem burokracinë apo që një deputet apo një punonjës i zyrës suaj të na marrë në telefon e të na thotë se kemi ankesë. Pra, jemi shumë praktikë. Ne jemi të hapur që të shkojmë e ta shohim konkretisht dhe ta zgjidhim, sepse vend i vogël është.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg663">Në lidhje me pyetjen për ofertat e operatorëve, jemi në kushtet e duopolit. Unë edhe në raportimin e parë që kisha si kryetar i AKEP-it, i mbetem të njëjtit qëndrim: është pothuajse e pamundur të pretendosh nga dy operatorë që të mos tentojnë të avancojnë në kufijtë e lejimit të kalimit në koordinim për të krijuar treg monopol. Nuk dua ta marr si të vërtetë. Jemi në fazën e hetimit nga Autoriteti i Konkurrencës. Ne, si AKEP, kemi çuar një dokumentacion jashtë mase të bollshëm me ofertat, me praktikat, me të gjithë materialet. Kur ky raport të dalë do të shikojmë se çfarë gjetjesh do të bëhen dhe të reagojmë, sepse nuk e cilësoj dot unë punën e ngarkuar për një institucion tjetër.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg664">Në lidhje me atë që na përket ne, për tipologji specifike ofertash për personat me aftësi të kufizuar, personat në nevojë, personat me të ardhura të ulëta, pensionistët e të tjerë, jemi në bashkëpunim dhe, të them të drejtën, operatorët janë përgjigjur. Sot që flasim kemi oferta konkrete, duhet të monitorohen siç dalin vit për vit. Në rekomandimin, mos gaboj, e 2026-ës kishim edhe një pikë, që të bëhej një krahasimore me...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u102" ana="#regular" who="#AL_PERS_GazmirMani">
+        <u xml:id="ParlaMint-AL_2026-07-08.u102" ana="#guest" who="#AL_PERS_GazmirMani">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg665">Për të plotësuar këtë që sapo tha kryetari, por edhe për t’iu përgjigjur shqetësimit tuaj në lidhje me njoftimin e planeve të reja tarifore, që paraqesin dhe ndryshim çmimi, dua t’ju them se, duke u zhvilluar teknologjia paralelisht zhvillohet edhe konsumi i njësive të internetit dhe shpejtësia e konsumit të këtyre njësive, dhe operatorët, për t’iu përshtatur këtij niveli konsumi, që, për hir të vërtetës, ky është zëri në plane tarifore që ka rritjen më të lartë, vijnë herë pas here me plane, që përmbajnë shërbim interneti 4G dhe 5G, që përmbajnë njësi më të larta.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg666">Gjatë këtyre njoftimeve prezantojnë paketa me përmbajtje interneti më të larta, por edhe me çmime të rishikuara. Patjetër, ka edhe paketa minimale, që fillojnë nga 600 lekë, të cilat fillojnë gradualisht për kategori të ndryshme, për kategori prepaid ose kategori postpaid, por duke u rritur tarifat, rriten edhe njësitë e internetit që këto shporta mbajnë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u103" ana="#regular" who="#AL_PERS_GentianSala">
+        <u xml:id="ParlaMint-AL_2026-07-08.u103" ana="#guest" who="#AL_PERS_GentianSala">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg667">Në lidhje me ISP-të, që qytetarët nuk marrin shërbim në zonat rurale, unë mendoj që duhet zona konkrete që të dimë se si të veprojmë, sepse s’mund ta them që të gjitha zonat rurale kanë problem me cilësinë e internetit që ofrohet nga ISP-të, nuk besoj se në çdo zonë rurale të jetë e njëjta problematikë. Kemi mbi 250 operatorë, shumë janë në një zonë, shumë nuk janë, operatorët kombëtarë janë pothuajse në të gjitha zonat e mëdha. Mendoj që të ngelemi në komunikim dhe të na jepet një zonë konkrete.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg668">Në lidhje me formalizimin e zonave për operatorët, nuk kemi ndonjë ankesë, të paktën për dy muajt e fundit. Megjithatë, brenda muajit do të krijohet grupi midis tatimeve, AMA-s, AKEP-it vetëm për çështjen e piraterisë, dhe ky patjetër është fokus pune. Kështu që, do ta ndjekim dhe do t’ju raportojmë. Por që ne të kemi ankesë, që vjen për një operator të paligjshëm dhe të mos veprojmë, tek AKEP-i nuk ndodh, të mos jepet përgjigje.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg669">Faleminderit, kryetar!</seg>
@@ -1006,17 +1006,17 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg687">A ka një rol AKEP-i këtu apo kush mund ta ketë, që të mund ta parandalojmë sa të mundemi? Vota kjo është, ne nuk jemi më të fuqishëm se Franca, se Gjermania, por aq sa kemi dhe të paktën atë që të bëjnë ato të mund ta bëjmë edhe ne. Fëmijët njësoj janë, gjermanë, shqiptarë, por neve na dhimbsen këta shqiptarët.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg688">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u107" ana="#regular" who="#AL_PERS_GentianSala">
+        <u xml:id="ParlaMint-AL_2026-07-08.u107" ana="#guest" who="#AL_PERS_GentianSala">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg689">Ne lidhje me numrin 112 do të flasë Elkeda.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u108" ana="#regular" who="#AL_PERS_ElkedaDomi">
+        <u xml:id="ParlaMint-AL_2026-07-08.u108" ana="#guest" who="#AL_PERS_ElkedaDomi">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg690">Për sa i takon implementimit të numrit 112, ju informoj që implementimi i këtij numri është vendosur te baza ligjore e komunikimeve elektronike prej shumë vitesh, pra jo vetëm në ligjin e fundit, por ka qenë edhe më përpara. Në këtë ligj kërkohet si detyrim nga operatorët e telefonisë fikse dhe mobile që ta implementojnë këtë numër pa pagesë. Operatorët po e implementojnë këtë gjë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg691">Ndërkohë, struktura që ngre zgjidhjen teknike për implementimin e këtij numri është Ministria e Brendshme. Gjatë vitit 2025 ka pasur një grup ndërinstitucional pune, i ngritur nga Ministria e Mbrojtjes, ka qenë Agjencia e Kërkimit dhe Shpëtimit, pra kanë qenë disa institucione ku ka pasur përfaqësues edhe nga AKEP-i. Janë hedhur disa propozime për zgjidhje teknike që, përveç numrit 112, të ngrihet një sistem që të implementojë edhe 119-ën, edhe numrat e zjarrfikësit apo numrat e shëndetësisë. Ka pasur goxha problematika midis urgjencës dhe institucioneve të tjera dhe nuk ka arritur akoma në një dakordësi ky grup pune për zbatimin, le të themi, sipas rekomandimeve të Bashkimit Evropian jo vetëm të 112-se, por edhe numrave të tjerë të emergjencës.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-08.u109" ana="#chair" who="#AL_PERS_FatmirXhafaj">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg692">Pra, rolin kryesor këtu e ka Ministria e Mbrojtjes. A mund ta vëmë këtë si rekomandim dhe të kemi mundësi ta monitorojmë?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u110" ana="#regular" who="#AL_PERS_ElkedaDomi">
+        <u xml:id="ParlaMint-AL_2026-07-08.u110" ana="#guest" who="#AL_PERS_ElkedaDomi">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg693">Në fakt, detyrimi i AKEP-it është përmbushur në bazë të asaj çfarë thuhet në ligj.</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -1026,7 +1026,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg694">E ke me bajpas.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg695">Ndoshta zonja Gjuzi mund ta shohë këtë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u112" ana="#regular" who="#AL_PERS_GentianSala">
+        <u xml:id="ParlaMint-AL_2026-07-08.u112" ana="#guest" who="#AL_PERS_GentianSala">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg696">Patjetër, javën në vijim mund të bëjmë një informacion të shkurtër, të cilin do t’ua drejtojmë institucioneve për emergjencën, që të zgjidhet procesi, siç ata e dinë vetë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg697">Por, për mua më shumë është një ngërç midis ministrive dhe institucioneve përkatëse sesa çështje teknike, nuk është problem zgjidhja teknike.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg698">Në lidhje me mungesën e sinjalit dhe rastit konkret të zonës së Lungomares, ndjesë...</seg>
@@ -1039,10 +1039,10 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg700">Unë di të them që Vlora është zonë jashtë mase e vështirë, një arsye, për shembull, është që nuk marrin leje nga bashkia operatorët për zonë të caktuara.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u113" ana="#regular" who="#AL_PERS_ElkedaDomi">
+        <u xml:id="ParlaMint-AL_2026-07-08.u113" ana="#guest" who="#AL_PERS_ElkedaDomi">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg701">Aktualisht, “Vodafone” ka kërkuar të instalojë 3 stacione në Vlorë dhe nuk i ka dhënë leje bashkia. Jua thashë, problematikat janë të ndryshme, ne nuk mund të themi: i dhashë licencën dhe mbaroi.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u114" ana="#regular" who="#AL_PERS_GentianSala">
+        <u xml:id="ParlaMint-AL_2026-07-08.u114" ana="#guest" who="#AL_PERS_GentianSala">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg702">Çohen banorët e një zone në Vlorë për të hequr sinjalin, operatori thotë: në rregull, po shkoj te zona tjetër dhe pret lejen për zonën tjetër, ose shkon një pikë tjetër dhe pika tjetër nuk mbulon dot gjithë zonën. Pra, Vlora është zonë shumë e vështirë, nuk ka lidhje me njerëz, ndoshta as me territorin, por me institucionet; është konkret rasti i bashkisë. Megjithatë, e kemi shumë prioritet.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg703">Por me garanci mund t’ju them që operatorët të kenë bashkëpunim me njëri-tjetrin për mbulimin me sinjal në lidhje me pikat, kjo është zero, flas për operatorët mobile.</seg>
           <vocal type="interruption">
@@ -1075,12 +1075,12 @@
           <seg xml:id="ParlaMint-AL_2026-07-08.seg713">Ne premtojmë që do të bëjmë një material për të dyja komisionet ku raportojmë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg714">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u115" ana="#regular" who="#AL_PERS_AltinPetre">
+        <u xml:id="ParlaMint-AL_2026-07-08.u115" ana="#guest" who="#AL_PERS_AltinPetre">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg715">Kur them teknikisht, nuk mund të vëmë një sistem kompjuterik, i cili e zgjidh teknikisht problemin, pra ne apo cilido institucion të raportojë postimin e gabuar dhe ai ta heqë. Këtë nuk e bëjmë dot, sepse një sistem i tillë do të ishte në gjendje të shkelte edhe privatësinë e të gjitha komunikimeve, dhe kjo nuk është e mundur të realizohet teknikisht.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg716">Evropa e ka zgjidhur me komunikim nëpërmjet DSA-së, me komunikim me vetë platformat, pra janë ata që duhet të reagojnë në momentin që ne i vëmë në dijeni të situatës.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg717">Gjithashtu duhet edhe fushata e informimit te vetë prindërit, për të përdorur mekanizma ekzistues për mbrojtjen në pajisjet e fëmijëve.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-08.u116" ana="#regular" who="#AL_PERS_GentianSala">
+        <u xml:id="ParlaMint-AL_2026-07-08.u116" ana="#guest" who="#AL_PERS_GentianSala">
           <seg xml:id="ParlaMint-AL_2026-07-08.seg718">Në qoftë se ligji del, vetë platformat kryesore mobile kanë detyrim që kur ai bën regjistrimin të dijë çfarë moshe ka, çfarë aplikacioni ka e të tjera. Greqia që kanë nxjerrë aplikacioneve të veçanta. Altini e merr strikt, si një teknikë që është shumë e vështirë të ndërhyhet tek e tek, por jo e pamundur që problemi të zgjidhet. Edhe Australia që e ka bërë, ka hyrë te muaji i gjashtë i zbatimit, nuk e ka bërë 100%, por ka efekt të jashtëzakonshëm, sepse ka mijëra numra që kanë ikur ose që nuk kanë më platforma sociale.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-08.seg719">Në qoftë se një qytetari, një prindi i bën fushatë informimi dhe i thua që kjo sjell këtë dëm, unë nuk besoj se është njësoj, është tjetër t’i thuash: mos ia lër fëmijës sepse e dëmton dhe tjetër t’i thuash është e paligjshme.</seg>
         </u>

@@ -1,0 +1,553 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-04-21-1" xml:lang="sq" ana="#parla.committee.standing #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Burimet Natyrore, Infrastrukturën dhe Zhvillimin e Qëndrueshëm, 2026-04-21</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Natural Resources, Infrastructure and Sustainable Development, 2026-04-21</title>
+        <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
+        <meeting corresp="#AL_ORG_KBNIZHQ" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
+        <respStmt>
+          <resp xml:lang="sq">Përgatitur nga</resp>
+          <resp xml:lang="en">Prepared by</resp>
+          <name>ParlaMint-AL</name>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="sq">CLARIN ERIC</orgName>
+          <orgName xml:lang="en">CLARIN ERIC</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>5.0</edition>
+      </editionStmt>
+      <extent>
+        <measure unit="speeches" quantity="93" xml:lang="sq">93 fjalime</measure>
+        <measure unit="speeches" quantity="93" xml:lang="en">93 speeches</measure>
+        <measure unit="words" quantity="5808" xml:lang="sq">5808 fjalë</measure>
+        <measure unit="words" quantity="5808" xml:lang="en">5808 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Kuvendi i Shqipërisë; CLARIN ERIC</publisher>
+        <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2004</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="sq">Ky punim publikohet nën licencën Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+          <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+        </availability>
+        <date when="2026-08-28">2026-08-28</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="sq">Procesverbal i Kuvendit të Shqipërisë</title>
+          <idno type="URI">https://kuvendiwebfiles.blob.core.windows.net/webfiles/202610061106198229Procesverbal datë 21.04.2026%2Cora 10%3B00.pdf</idno>
+          <date when="2026-04-21">2026-04-21</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="sq">ParlaMint-AL: korpus i krahasueshëm i seancave parlamentare, i përputhshëm me ParlaMint v5.</p>
+        <p xml:lang="en">ParlaMint-AL: comparable parliamentary corpus of Albania, conforming to ParlaMint v5.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1" />
+          <tagUsage gi="body" occurs="1" />
+          <tagUsage gi="div" occurs="1" />
+          <tagUsage gi="note" occurs="1" />
+          <tagUsage gi="u" occurs="93" />
+          <tagUsage gi="seg" occurs="279" />
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kuvendi i Shqipërisë</name>
+          <name type="city">Tiranë</name>
+          <name type="country" key="AL">Albania</name>
+          <date when="2026-04-21">2026-04-21</date>
+        </setting>
+      </settingDesc>
+      <langUsage>
+        <language ident="sq" xml:lang="sq">shqip</language>
+        <language ident="en" xml:lang="en">English</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-08-28">: Initial conversion to ParlaMint 5.0 TEI XML.<name>ParlaMint-AL</name></change>
+    </revisionDesc>
+  </teiHeader>
+  <text ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u1" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg1">Përshëndetje, të nderuar kolegë!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg2">Në rendin e ditës së mbledhjes së sotme të komisionit kemi projektligjin “Për lirinë e vendosjes dhe ofrimit të shërbimeve në Republikën e Shqipërisë”. Kjo është një nismë e ardhur nga kolegia, zonja Denaj. E njëjta nismë ka ardhur edhe nga Këshilli i Ministrave.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg3">Para se të vijojmë me shqyrtimin në mënyrë të plotë të të dyja nismave, unë do të doja që t’i propozoja komisionit që t’i bashkonim të dyja nismat në një, duke qenë se kanë të njëjtën frymë dhe të njëjtën tematikë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg4">Kështu që, së pari, do të doja të votonim nëse jemi dakord për bashkimin e këtyre nismave në një dhe shqyrtimin e tyre si një të tërë. Kush është dakord për bashkimin e nismave? Kundër? Abstenim?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg5">Atëherë, miratohet bashkimi i nismave, duke marrë parasysh nismën e koleges deputete, Anila Denaj.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg6">Nga Ministria e Ekonomisë dhe Inovacionit kemi të ftuar: zonjën Olta Manjani, zëvendësministre për Ekonominë dhe Inovacionin; zonjën Mejvis Bajollari, drejtoreshë në Drejtorinë e Përgjithshme të Politikave të Nxitjes së Biznesit dhe Çështjeve të Tregtisë; zonjën Anxhela Bushati nga Drejtoria e Politikave të Nxitjes së Biznesit; zotin Enea Beqiri, këshilltar në Ministrinë e Ekonomisë dhe Inovacionit, si dhe zonjën Alba Rexha, këshilltare në Ministrinë e Ekonomisë dhe Inovacionit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg7">E nderuar zonja Denaj, fillojmë me prezantimin e nismës.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u2" ana="#regular" who="#AL_PERS_AnilaDenaj">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg8">Shumë faleminderit!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg9">Të nderuar kolegë,</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg10">Kjo është një nismë, e cila është depozituar në fund të vitit të kaluar, në frymën e një pune të bërë gjatë viteve të fundit, si pjesë e një ekipi që ka bashkërenduar një veprimtari teknike brenda Ministrisë së Ekonomisë për lehtësimin e shërbimeve në rajon, për të shkuar më pas në ofrimin e shërbimeve në Bashkimin Evropian. Unë dua ta falënderoj edhe Ministrinë e Ekonomisë, e cila e bashkërendoi nismën time në të gjitha hallkat me të gjitha proceset që kërkon procesi i integrimit dhe solli një nismë më të plotë, sepse është ministria përgjegjëse për të nxjerrë aktet nënligjore dhe për ta vënë në zbatim këtë nismë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg11">Ndërkohë, në frymë të ligjit, dua të bëj një parashtrim, më pas, me lejen tuaj, dua t’ia kaloj fjalën zonjës Manjani për detajet teknike. Kjo është një nismë, e cila është vërtet një përafrim ligjor për ofrimin e shërbimeve në Shqipëri, sikundër edhe ofrimin e këtyre shërbimeve në Bashkimin Evropian, por, mbi të gjitha, është një risi në mbështetje të biznesit në Shqipëri, qoftë ai me kapital shqiptar, biznes i madh apo i vogël, me kapital shtetëror, për të marrë një vlerë të shtuar të shërbimeve si nga vendet në rajon, edhe në Bashkimin Evropian.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg12">Shumë nga kushtet dhe parakushtet që ofrohen në këtë ligj, njësojnë praktikat më të mira profesionale të ofrimit të shërbimit dhe heqin shumë barriera, duke filluar me barrierat burokratike, duke i lehtësuar këto barriera që nga licencimi, autorizimi, njëkohësisht, edhe elemente të caktuara që lidhen me diskriminimin, në veçanti pjesë të procesit të ofrimit të shërbimit ndërkufitar, që e bën këtë proces edhe më të lehtë për bizneset kur kërkojnë shërbime nga vende të tjera, por edhe kur ofertues të shërbimit, me autorësi shqiptare, duan ta ofrojnë këtë shërbim në vendet e rajonit dhe më gjerë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg13">Është një përafrim i plotë. Sigurisht, koha në dispozicion për ministrinë për të bërë aktet nënligjore është një kohë që do t’i duhet edhe biznesit për t’u adoptuar.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg14">Dua të vendos në fokus nevojën që të gjithë këtë bashkërendim do ta bëjmë në mënyrë të plotë me një sistem, i cili këmben informacion në kohë reale me të gjitha vendet e Bashkimit Evropian dhe ku cilësia e ofrimit të shërbimit vjen në kohë reale si informacion për të gjithë ofertuesit, të cilët, për arsye të ndryshme, qoftë në vendin tonë apo në vende të tjera, mund të kenë pasur cenim të Kodit të Etikës.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg15">Këto informacione janë të qarta në këtë sistem dhe nuk lejojnë që këto ofertime të ndodhin jashtë rregullave të lojës që ka përcaktuar dhe përvetësohen në kohë Bashkimi Evropian.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg16">Megjithatë, me lejen tuaj, unë do të kërkoja që, meqenëse nisma u bashkua dhe është një përmirësim në vijim nga Ministria e Ekonomisë, t’ia jap fjalën zëvendësministres, më pas të gjithë së bashku të kemi mundësi të japim përgjigje.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg17">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u3" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg18">Faleminderit, zonja Manjani!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u4" ana="#guest" who="#AL_PERS_OltaManjani">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg19">I nderuar nënkryetar,</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg20">Të nderuar deputetë, Zonja Denaj, faleminderit për parashtrimin!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg21">Do t’ju jap vetëm disa detaje teknike në lidhje me projektligjin “Për lirinë e vendosjes dhe ofrimit të shërbimeve në Republikën e Shqipërisë”, i cili përbën një hap kyç në procesin e përafrimit të legjislacionit shqiptar me acquis-në e Bashkimit Evropian, në kuadër të negociatave për kapitullin 3, që është pjesë e grupkapitullit 2. Ai është hartuar në përputhje me direktivën nr.123 të Bashkimit Evropian, të Komisionit Evropian të vitit 2006 “Për shërbimet në tregun e brendshëm” dhe synon që të krijojë një kuadër ligjor modern, transparent dhe konkurrues për sektorin e shërbimeve, që është edhe shtylla kryesore e ekonomisë shqiptare, duke përbërë rreth 50% të prodhimit të brendshëm bruto. Në të njëjtën kohë, është një kapitull shumë i rëndësishëm, pasi në bazë të tij është një ndër themelet e ngritjes së vetë Bashkimit Evropian, që lidhet me lirinë e ofrimit të shërbimeve, kurse tri të tjerat janë: liria e lëvizjes së mallrave, kapitalit dhe e lëvizjes së punëtorëve.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg22">Pse është i nevojshëm ky ligj, por edhe ndryshimet që e shoqërojnë atë?! Zbatimi i ligjit ekzistues ka pasur disa problematika dhe disa boshllëqe, të cilat janë plotësuar nëpërmjet bashkërendimit të nismës së deputetes Denaj, konsolidimit dhe plotësimit të saj nga ministria përgjegjëse dhe lidhen kryesisht me mungesën e mbulimit të plotë të shërbimeve ndërkufitare, procedurat administrative, që në disa raste kanë qenë të fragmentuara apo të paplota; mungesën e bazës së plotë ligjore për bashkëpunimin administrativ me Bashkimin Evropian, i cili në kuptim të këtij ligji ka vendosur edhe struktura, siç është ajo e IMI-t, që është sistemi apo platforma që do të bëjë ndërlidhjen dhe regjistrimin e të gjithë ofruesve të shërbimeve qoftë në Republikën e Shqipërisë apo në vendet e Bashkimit Evropian, si dhe kërkesat për licencim, të cilat me ligjin aktual nuk kanë pasur një test të qartë proporcionaliteti. Pra, në përgjithësi, sjell lehtësim të procedurave administrative dhe të elementeve, që unë përmenda.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg23">Ky projektligj i adreson këto sfida dhe vendos standarde të krahasueshme me vendet e Bashkimit Evropian.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg24">Disa nga risitë që sjell ky ligj, të grupuara në 7 elemente kryesore, janë, si vijon: liria e vendosjes si rregull dhe autorizimi si një përjashtim nga rregulli. Pra, ligji vendos një ndryshim themelor në filozofinë rregullatore të tij. Aktivitetet e shërbimeve nuk do t’i nënshtrohen autorizimit, përveç rasteve kur janë të justifikueshme, kur janë jodiskriminuese dhe proporcionale, duke i hapur rrugën një derregulimi real dhe eliminimin e lejeve të panevojshme.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg25">Grupi i dytë i përmirësimeve që sjell ligji, lidhen me ofrimin e shërbimeve ndërkufitare, duke na sjellë edhe një hap më pranë Bashkimit Evropian, ku për herë të parë lejohet ofrimi i përkohshëm i shërbimeve nga operatorë të Bashkimit Evropian, pa detyrimin për regjistrim në Shqipëri dhe vendoset parimi i reciprocitetit për operatorët shqiptarë, të cilët do të mund të ofrojnë shërbime në vendet e Bashkimit Evropian pas anëtarësimit në Union. Pra, ky është një hap konkret drejt integrimit të sektorit të shërbimeve në tregun e Bashkimit Evropian.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg26">Heqja e barrierave diskriminuese është një tjetër element dhe risi që sjell ligji, pasi projektligji qartësisht ndalon praktika të tilla, si kërkesat për shtetësi shqiptare, për ofrimin e shërbimeve apo kërkesa për një vendbanim në Shqipëri; kufizime për operim në më shumë se një vend apo teste ekonomike të pajustifikuara, pra të gjitha barriera, të cilat mund t’i pengonin bizneset shqiptare apo edhe të huaja që të ofronin shërbime ndërkufitare. Kjo garanton trajtim të barabartë, por edhe konkurrencë të ndershme.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg27">Thjeshtimi dhe digjitalizimi nëpërmjet pikës së vetme të kontaktit është një tjetër risi që sjell ligji në kontekstin e harmonizimit të tij me acquis-në të BE-së, ku do të ndërtohet një platformë, e cila do të funksionojë në të njëjtën kohë edhe në formën e një regjistri për gjithë ofruesit e shërbimeve qoftë të bizneseve apo individëve shqiptarë apo edhe të atyre në vendet e Bashkimit Evropian. Kjo platformë do të jetë një platformë e integruar në “e-Albania” dhe të gjitha procedurat administrative do të aksesohen në një platformë, pra në një portal të vetëm hyrës, që nënkupton jo vetëm më pak kontakt fizik, por edhe një thjeshtim të dokumentacionit dhe të procedurave të tjera, duke reduktuar barrën administrative, në të njëjtën kohë duke rritur edhe transparencën në ofrimin e shërbimeve. Përveç transparencës, përafrimi me ligjin e Bashkimit Evropian, ofron edhe një siguri juridike më të lartë për të gjithë ofruesit e shërbimeve, pasi autoritetet detyrohen që të ofrojnë informacion të qartë, të përditësuar në format elektronik në dy gjuhë, në shqip dhe në anglisht, duke rritur besimin e investitorëve dhe parashikueshmërinë e tregut për planet që ofruesit e bizneseve do të duhet të bëjnë edhe në terma afatmesëm apo afatgjatë. Gjithashtu, ofron një mbrojtje më të fortë për përfituesit e shërbimeve. Pra, nëse deri tani folëm për ofruesit e shërbimeve, biznese apo individë fizikë, është shumë e rëndësishme që, nëpërmjet lehtësirave që ofron ky ligj, të kuptohet që edhe konsumatorët e këtyre shërbimeve do të jenë përfitues, pasi ligji garanton ndalim të diskriminimit sipas shtetësisë apo vendbanimit për ofruesit e bizneseve, duke bërë që edhe konsumatorët të marrin një gamë më të gjerë dhe të diversifikuar të shërbimeve nga shumë operatorë, tarifa të barabarta, detyrime të qarta informimi për ofruesit, duke ndikuar në rritjen e cilësisë dhe në besueshmërinë në ofrimin e këtyre shërbimeve.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg28">Së fundi, por jo për nga rëndësia, është edhe bashkëpunimi administrativ me Komisionin Evropian, me vendet e Bashkimit Evropian, përmes platformës së përbashkët IMI, ku do të kenë akses ofruesit e shërbimeve nga të gjitha vendet anëtare të Bashkimit Evropian, duke përfshirë edhe Shqipërinë kur do të jetë vend anëtar, nëpërmjet ofrimit të një baze ligjore të parashikuar në ligj për mënyrën se si do të shkëmbehet informacioni, për mënyrën se si do të ruhet informacioni, për monitorimin e operatorëve dhe në përgjithësi për rritjen e transparencës në lidhje me shkeljet apo standardet profesionale. Pra, në këtë mënyrë forcohet integriteti i tregut dhe mbrojtja e konsumatorit në të gjitha hallkat.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg29">Pra, në thelb, risitë kryesore që sjell ky ligj, lidhen me uljen e barrës administrative, me rritjen e konkurrencës dhe të cilësisë në ofrimin e shërbimeve, me modernizimin e administratës, për shkak të ngritjes dhe përdorimit të platformave të përbashkëta me Bashkimin Evropian. Patjetër që të gjitha këto elemente ndihmojnë në përgatitjen e ekonomisë shqiptare dhe të operatorëve shqiptarë për të aksesuar një treg të përbashkët, siç është tregu i Bashkimit Evropian me mbi 400 milionë banorë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg30">Suksesi i kësaj reforme sigurisht që do të matet në praktikë në momentin që do të hyjë në zbatim dhe ne do të jemi anëtarë të Bashkimit Evropian, duke ofruar më pak burokraci, procedura më të shpejta, patjetër edhe një klimë më të mirë biznesi.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg31">Nuk është një ligj që synon vetëm harmonizimin me legjislacionin e Bashkimit Evropian, por është realisht një transformim real i mënyrës se si do të funksionojë tregu i shërbimeve dhe impakti pozitiv që do të ketë në zhvillimin e mëtejshëm ekonomik të vendit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg32">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u5" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg33">Faleminderit, zonja Manjani!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg34">Ne si komision përgjegjës kemi relator zotin Klevis Jahaj.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg35">Ju lutem!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u6" ana="#regular" who="#AL_PERS_KlevisJahaj">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg36">Përshëndetje!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg37">Faleminderit për prezantimin qoftë koleges Denaj, por edhe zëvendësministres Manjani!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg38">Në cilësinë e relatorit, më lejoni të theksoj se projektligji është në përputhje me nenet 78 dhe 83 të Kushtetutës dhe me parashikimet e neneve 49 dhe 59 të Marrëveshjes së Stabilizim-Asociimit dhe detyrimet që rrjedhin prej tyre për përafrimin e legjislacionit shqiptar në fushën e të drejtës së vendosjes dhe lirinë e ofrimit të shërbimeve me acquis-në e BE-së në këtë fushë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg39">Projektligji i propozuar krijon një kuadër të qëndrueshëm ligjor për të gjithë procesin e rishikimit të legjislacionit sektorial, me qëllim përafrimin e tij me acquis-në e BE-së për të drejtën e vendosjes dhe lëvizjen e lirë të shërbimeve.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg40">Ky projektligj ka qëllim krijimin e një kuadri tërësisht të ri ligjor për ushtrimin e lirisë së vendosjes dhe lirisë së ofrimit të shërbimeve ndërkufitare, në përputhje të plotë me direktivën 2006/123 të Këshillit të Evropës. Projektligji ofron një rregullim horizontal që do të mundësojë harmonizimin e mëtejshëm të legjislacionit sektorial, me qëllim garantimin e ofrimit të shërbimeve cilësore, transparente dhe konkurruese, në interes të përfituesve të shërbimeve dhe në funksion të zhvillimit të tregut të brendshëm.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg41">Objektivat që synohen nëpërmjet këtij projektligji, janë pa diskutim përmirësimi i dispozitave ekzistuese ligjore në lidhje me të drejtën e vendosjes dhe mbrojtjen e përfituesve të shërbimeve; krijimi i kuadrit rregullator për nxitjen dhe mundësimin e ofrimit të shërbimeve ndërkufitare nëpërmjet Shqipërisë dhe vendeve anëtare të BE-së; rritja e eficiencës në shkëmbimin e informacionit nëpërmjet autoriteteve rregullatore, nëpërmjet ndërveprimeve në sistemin e informacionit të tregut të brendshëm IMI, me qëllim uljen e barrës burokratike dhe lehtësimin e mbikëqyrjes dhe zbatimit më të mirë të shërbimeve ndërkufitare. Ky projektligj është i domosdoshëm, pasi synon ta përafrojë legjislacionin sektorial dhe mundëson unifikimin e kërkesave në ofrimin e shërbimeve në kuadër të procesit të integrimit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg42">Ndryshimet ligjore të propozuara do të mbështesin realizimin e masës strategjike të përshkruar edhe në projektligj, duke siguruar që harmonizimi i plotë i ligjit të shërbimeve me direktivën 2006/123 të arrihet brenda afatit të parashikuar.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg43">Projektligji përbën një hap të rëndësishëm në procesin e përafrimit të legjislacionit shqiptar me acquis-në e Bashkimit Evropian në fushën e tregut të brendshëm të shërbimeve, duke synuar krijimin e një kuadri ligjor të harmonizuar që garanton lirinë e vendosjes dhe lirinë e ofrimit të shërbimeve ndërkufitare. Në thelb, ai reflekton parimet themelore të së drejtës së Bashkimit Evropian, si mosdiskriminimi, proporcionaliteti dhe transparenca, duke synuar eliminimin e barrierave ligjore dhe administrative, të cilat kufizojnë aksesin në treg dhe zhvillimin e aktiviteteve ekonomike në sektorin e shërbimeve.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg44">Institucioni përgjegjës për zbatimin, koordinimin dhe monitorimin do të jetë Ministria e Ekonomisë dhe Inovacionit, sigurisht, për risitë që do të sjellë në tërësi projektligji, veçanërisht në kuadër të implementimit në nivel vertikal për përshtatjen e parashikimeve me aktet nënligjore përkatëse për sa i takon legjislacionit sektorial.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg45">Të përfshira në proces janë ministritë e linjës, institucionet e ndërvarura, si dhe institucionet e qeverisjes vendore, sipas fushave dhe sektorëve të tyre të veprimit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg46">Ky projektligj nuk ka efekte financiare të menjëhershme në buxhetin e shtetit. Aktet e parashikuara për ndryshim janë evidentuar në raportin screening dhe kostot buxhetore do të evidentohen me përcaktimin e programit të punës për rishikimin e tyre.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg47">Ndikimi buxhetor i vetë projektligjit do të evidentohet me hyrjen në fuqi të dispozitave të tij pas anëtarësimit në Bashkimin Evropian.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg48">Zbatimi i këtij ligji pritet të sjellë harmonizim të plotën të kuadrit shqiptar për shërbimet me standardet e Bashkimit Evropian deri në fund të vitit 2026, në përputhje me objektivat që janë përcaktuar.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg49">Për këtë arsye, vlerësoj se është një nismë shumë e rëndësishme, qoftë edhe nga kolegia deputete, por edhe nga ministria, të cilën duhet ta votojmë të gjithë së bashku.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg50">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u7" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg51">Faleminderit, zoti Jahaj!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg52">A ka ndonjë pyetje për nismën? Nuk ka.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg53">Fillojmë me diskutimet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg54">Atëherë, zoti Himçi, ju lutem.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u8" ana="#regular" who="#AL_PERS_BlendiHimçi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg55">Faleminderit, zoti Klosi!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg56">Sot ne jemi përpara një propozimi të koleges sonë të komisionit, zonjës Denaj, sigurisht, është edhe një nismë e Këshillit të Ministrave po në këtë lloj këndvështrimi dhe po në këtë lloj qasjeje. Me jemi përpara përafrimit me një direktivë të Bashkimit Evropian dhe në parim jemi dakord për sa i përket pjesës së përafrimit të legjislacionit, për sa kohë aspirojmë integrimin në Bashkimin Evropian, aq më tepër që jemi edhe në kuadër të çeljes së të gjithë kapitujve për integrimin, dhe kjo direktivë, në mos gaboj, i përket kapitullit 3 për integrimin.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg57">Nga ana tjetër, për aq sa kemi parë në relacionin e paraqitur në këtë draftligj, sigurisht që shikojmë disa problematika. Për shembull, vërtet kemi përafrim të legjislacionit, por nuk kemi një analizë të tregut, të problematikave që hasim sot, por e kemi marrë besoj vetëm në aspektin deklarativ. Kjo për mua sjell edhe konceptin e një pasigurie qoftë juridike, qoftë edhe të konkretizimit të këtij draftligji.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg58">E dyta, mungon një analizë e detajuar e ndikimit ekonomik dhe social. Ky draftligj nuk paraqet në mënyrë substanciale dhe konkrete të dhëna të kostove dhe të përfitimeve.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg59">Një moment tjetër, që doja të vija në dukje, është edhe roli i Ministrisë së Ekonomisë dhe Inovacionit, ku shikohet si aktori kryesor, qoftë në pjesën e koordinimit, qoftë në pjesën e zbatimit apo edhe të monitorimit të këtij ligji. Ky rol centralizues për ne ngre pikëpyetje për kapacitetet reale administrative dhe teknike të kësaj ministrie me mënyrën se si të realizohet. Sigurisht, në një moment ju thoni se këto do të kryhen nëpërmjet “e-Albania”-s. Por ajo që ne shikojmë, është që, edhe duke u realizuar nëpërmjet “e-Albania”-s, përsëri ngrihen problematika në pjesën e fushës ndërsektoriale, ku kapacitetet janë të ndryshme. Në këtë këndvështrim, kjo sjell një pasiguri juridike.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg60">Një moment i fundit që doja të diskutoja, është edhe pjesa e procesit të konsultimit publik.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg61">Sigurisht, nga njëra anë thuhet që ka pasur konsultime të gjera publike, nga ana tjetër ne nuk kemi evidentuar asnjë sugjerim, vërejtje, konstatim, që janë mbajtur nga këto diskutime publike dhe më pas se çfarë është integruar apo është përfshirë këtë draftligj nga sugjerimet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg62">Këto janë qëndrimet tona si opozitë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg63">Ju faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u9" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg64">Faleminderit, zoti Himçi!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg65">A ka ndonjë diskutim?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg66">Po, zonja Manjani, ju lutem.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u10" ana="#guest" who="#AL_PERS_OltaManjani">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg67">Faleminderit, zoti deputet, për gjitha çështjet që ngritët!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg68">Unë po i marr sipas radhës.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg69">Në lidhje me analizën e tregut, në fakt, është një pyetje që na u bë me të drejtë edhe në komisionet e tjera parlamentare, ku sqarova që izolimi i efekteve apo kostove financiare, për shkak të përafrimit vetëm të një ligji të vetëm, është shumë i vështirë për t'u bërë, pasi kuptohet që në këtë periudhë po bëjmë rishikimin dhe përafrimin e një pakete më të gjerë ligjore, në kuadër të 33 kapitujve të acqius, ku pjesa më e madhe e tyre, veçanërisht kapitujt që janë të përfshirë në grupkapitujt 2 dhe 3, “Tregu i brendshëm” dhe “Konkurrenca”, lidhen kryesisht me zhvillimin e sektorit privat dhe me çështje, të cilat prekin bizneset shqiptare. Qeveria shqiptare, ministria konkretisht, ka komisionuar një studim, që po kryhet në kuadër të asistencës teknike që ne përfitojmë nga Komisioni Evropian, nga projekti i GIZ-it, ku është kërkuar që të bëhet një analizë e mirëfilltë në lidhje me kostot, me të cilat do të përballen bizneset për shkak të përafrimit, jo vetëm në kontekstin e ligjit nr. 66 për shërbimet, por të gjithë legjislacionit që prek bizneset, duke filluar me analizën e investimeve në infrastrukturë që duhet të bëjnë ata; investimet në kapitalin njerëzor apo në infrastrukturën e burimeve njerëzore. Aktualisht një studim pak më i detajuar, që prek këtë grup kapitull, sipas rezultateve paraprake, tregon që përfitueshmëria e përkthyer në të ardhura më të larta të gjeneruara për të gjithë ofruesit e shërbimeve varion nga 0,2% deri nga 0,8% të prodhimit të brendshëm bruto. Gjithsesi, insistoj si ekonomiste që izolimi i efekteve financiare është shumë i vështirë, sepse një biznes mund t’i rritë marzhet e fitimit, mund të gjenerojë më shumë të ardhura, mund të ketë rritje të kostove jo vetëm për efekt të zbatimit të këtij ligji, por edhe për efekt të ndryshimeve të kushteve makroekonomike apo të faktorëve të tjerë të jashtëm, që nuk lidhen drejtpërdrejt me zbatimin e një reforme të caktuar apo me përafrimin e një ligji të caktuar.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg70">Në lidhje me të dhënat e kostove, që lidhet në mënyrë të drejtpërdrejtë edhe me pyetjen e parë, siç ju thashë, është e vështirë, pasi rritja e kostove nuk do të jetë lidhur në mënyrë të drejtpërdrejtë vetëm me përafrimin e legjislacionit apo me reformat, që po bëhen në kuadër të përafrimit të tij me acqius-në BE-së. Ndërkohë, në një analizë e përgjithshme, patjetër që përfitimet nga zbatimi i këtij legjislacioni në momentin që ne bëhemi anëtarë të Bashkimit Evropian, patjetër që i tejkalojnë kostot, jo vetëm për faktin që bizneset shqiptare do të kenë një qasje në një treg shumë më të madh se ç’është tregu shqiptar, pra në një treg prej 400 milionë banorësh, nga ana tjetër do të sigurohen që rritja e konkurrencës të realizohet nëpërmjet ofrimit të shërbimeve më cilësore dhe ofrimit të standardeve më të mira, që janë të denja për të konkuruar me biznese apo me ofrues të tjerë shërbimesh në Bashkimin Evropian.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg71">Kështu që, patjetër që bizneset shqiptare aktualisht janë në dijeni të të gjitha proceseve që po ndërmerr qeveria shqiptare për harmonizimin e legjislacionit, për t’i bërë të kuptojnë që është një proces, i cili do të ketë edhe kosto, por, nëse ata duan të përfitojnë nga ky proces, do të duhet që ta përkthejnë punën e përditshme që ata bëjnë në cilësi dhe në standarde më të mira, për të qenë pjesë e këtij tregu.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg72">Pra, janë dy anë: është pjesa e ofertës dhe pjesa e kërkesës. Në mënyrë që shërbimet e tyre të jenë të preferuara nga vendet e Bashkimit Evropian, do të duhet që ata t’i ofrojnë në një standard apo në një cilësi të caktuar.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg73">Ministria e Ekonomisë ka disa paketa mbështetëse, kryesisht të fokusuara te bizneset e vogla dhe të mesme që në fund të ditës përbëjnë mbi 90% të strukturës së bizneseve shqiptare, të cilat u vijnë në ndihmë bizneseve për investime, veçanërisht në infrastrukturën që lidhet me ndikimin që do të ketë harmonizimi i legjislacionit të Bashkimit Evropian.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg74">Ndërkohë, Ministria e Ekonomisë dhe Inovacionit ka rol vendimtar në monitorimin dhe zbatimin e kësaj direktive, si dhe harmonizimin e saj me direktivën 123 të Bashkimit Evropian; është kërkesë e vetë Bashkimit Evropian dizenjimi dhe përcaktimi i një institucioni të vetëm përgjegjës, veçanërisht kur flasim për ngritjen e platformës IMI, që është platforma që do të shërbejë si një regjistër për të gjitha bizneset që do të ofrojnë shërbime. Pra, nuk është një zgjedhja jonë, por është një detyrim që përcaktohet në këtë direktivë. Pra, për çështje të accountability, të llogaridhënies, duhet të jetë një institucion, i cili e monitoron të gjithë procesin.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg75">Nga ana tjetër, Agjencia Kombëtare e Shoqërisë së Informacionit do të jetë në rolin e mbështetëses teknike për zhvillimin e sistemit, në mënyrë që të integrohet kjo platformë brenda platformës “e-Albania” dhe do të kujdeset për mirëmbajtjen e sistemit, duke siguruar që ky sistem të funksionojë gjatë gjithë kohës në kohë reale.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg76">Në lidhje me procesin e konsultimit publik, ju e ngrini me shumë të drejtë këtë çështje, që u ngrit edhe në komisionet e tjera. Në fakt, është e drejtë që ne nuk kemi një listë të inventarizuar të komenteve, që janë sjellë në procesin e konsultimit publik, që është një detyrim ligjor të cilin e zbatojmë për të gjitha nismat ligjore; është i hapur për një periudhë 5-javore, pasi paralelisht me procesin e konsultimit publik, nëpërmjet portalit të dedikuar në kuadër të integrimit evropian, janë ngritur me urdhër të Kryeministrit disa platforma që quhen platformat e partneritetit publik-privat, ku janë të ftuar të marrin pjesë jo vetëm grupet ndërinstitucionale të punës për integrimin evropian, që në përbërje të tij kryesisht janë nga institucionet e qeverisë, por janë të ftuar edhe aktorë të ndryshëm, siç janë bizneset, grupe interesi, shoqëria civile, partnerë socialë, pra të gjitha ata aktorë, të cilët preken në mënyrë të drejtpërdrejtë ose të tërthortë nga zbatimi i ligjit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg77">Sigurisht që ka pasur shumë komente dhe diskutime, por, për shkak se diskutimet janë kryer në platforma joelektronike dhe nuk ka një gjurmueshmëri të komenteve apo diskutimeve, që janë përcjellë, ne i kemi reflektuar në mënyrë të drejtpërdrejtë në amendimin e ligjit, pra në propozimin e një ligji të ri për shërbimet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg78">Ndërkohë, ka edhe një dokumentim shumë të qartë nëpërmjet komunikimit shkresor që ne kemi gjatë procesit të bashkërendimit të ligjit me institucione të tjera, ministri përgjegjëse ose institucione, agjenci, që janë në varësi të ministrive, siç ndodh normalisht në çdo proces ligjor, ku komunikimi mbetet shkresor.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg79">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u11" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg80">Faleminderit, zonja Manjani!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg81">A kemi ndonjë diskutim tjetër për këtë ligj?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg82">Besoj se ky ligj është një gur tjetër drejt rrugëtimit që ka Shqipëria drejt Bashkimit Evropian, që synon ta përafrojë Shqipërinë me tregun e madh evropian. Kështu që, për mendim tim, ky është një ligj shumë i rëndësishëm dhe mjaft pozitiv.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg83">Prandaj, mendoj se duhet të ecim sa më shpejt, sepse nuk kemi edhe shumë diskutime.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg84">Kalojmë në votimin në parim të projektligjit “Për lirinë e vendosjes dhe ofrimit të shërbimit në Republikën e Shqipërisë”.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg85">Kush është dakord në parim? 8 vota pro. Kundër? 1 votë kundër. Abstenim? Nuk ka.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg86">Miratohet në parim.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg87">Kalojmë në shqyrtimin nen për nen.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg88">Kemi disa propozime për amendime nga komisionet e tjera, të cilat do t’i trajtojmë një për një.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg89">Nenin 1.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u12" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg90">Faleminderit!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg91">Si fillim, në të gjithë përmbajtjen e projektligjit fjala “qasja”, “qasjen në një veprimtari shërbimi” të zëvendësohet me togfjalëshin “të drejtën për të ushtruar një veprimtari shërbimi”.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg92">Fillojmë me nenin 1.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg93">Pika 6 e nenit 1 të projektligjit sugjerojmë të riformulohet si më poshtë: “Ky ligj nuk cenon legjislacionin e punës, duke përfshirë çdo dispozitë ligjore ose kontraktore mbi kushtet e punësimit; kushtet e punës dhe marrëdhëniet ndërmjet punëdhënësit dhe punëmarrësit, si dhe rregullat për shëndetin e sigurinë në punë. Po kështu, ky ligj nuk cenon legjislacionin për sigurimet shoqërore, të cilat zbatohen në përputhje me të drejtën e Bashkimit Evropian.”.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u13" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg94">Kush është dakord për miratimin e nenit, me të gjitha ndryshimet? 8 vota pro.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg95">Kundër? 1 votë kundër. Abstenim? Nuk ka.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg96">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg97">Neni 2.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u14" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg98">Germa “c” e pikës 1 të nenit 2 të projektligjit sugjerojmë të riformulohet, si më poshtë: “Shërbimeve dhe rrjeteve të komunikimeve elektronike, si dhe pajisjeve dhe shërbimeve të lidhura me to, vetëm për ato çështje që rregullohen nga legjislacioni për komunikimet elektronike dhe mbrojtjen e të dhënave personale, në përputhje me të drejtën e Bashkimit Evropian.”</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg99">Germa “gj” e pikës 1 të nenit 2 të projektligjit sugjerojmë të riformulohet si më poshtë: “Shërbimeve private të sigurisë”.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u15" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg100">Kush është dakord me nenin 2, bashkë me ndryshimet? 8 vota pro. Kundër? 1 votë kundër. Abstenim? Nuk ka.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg101">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg102">Neni 3.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u16" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg103">Pika 2 e nenit 3 të projektligjit sugjerojmë të riformulohet, si më poshtë: “Ky ligj nuk zbatohet për rregullat e së drejtës ndërkombëtare private, në veçanti ato që përcaktojnë ligjin e zbatueshëm për detyrimet kontraktore dhe jashtëkontraktore, duke përfshirë ato që garantojnë mbrojtjen e konsumatorëve sipas legjislacionit përkatës.”.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u17" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg104">Kush është dakord për miratimin e nenit 3, bashkë me ndryshimet? 8 vota pro.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg105">Kundër? 1 votë kundër. Abstenim? Nuk ka.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg106">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg107">Neni 4.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u18" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg108">Te neni 4 i projektligjit sugjerojmë që pas çdo termi, që përkufizohet, të shtohen fjalët “është”, “janë” ose “nënkupton”, në varësi të kontekstit të fjalisë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg109">Për sa i takon paragrafit të parë të pikës 1 të nenit 4 të projektligjit, sugjerojmë që të riformulohet, si më poshtë: “Arsye madhore, të lidhura me interesin publik, janë arsyet e njohura si të tilla nga jurisprudenca e Gjykatës së Drejtës së Bashkimit Evropian.”.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg110">Pika 2 e nenit 4 të projektligjit sugjerojmë të riformulohet, si më poshtë: “Autoritet kompetent është çdo organ ose autoritet që ka rol mbikëqyrës apo rregullator në një veprimtari shërbimi, duke përfshirë veçanërisht organet administrative, gjykatat kur veprojnë si të tilla, organet profesionale dhe shoqatat ose organizata të tjera profesionale, të cilat në ushtrimin e autonomisë së tyre ligjore rregullojnë në mënyrë kolektive hyrjen në një veprimtari shërbimi ose ushtrimin e saj”.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg111">Pika 5 e nenit 4 të projektligjit sugjerojmë që të riformulohet, si më poshtë: “Kriteret, çdo detyrim, ndalim, kusht ose kufizim, i përcaktuar në dispozitat e legjislacionit në fuqi, në akte nënligjore ose akte administrative, ose që rrjedh nga praktika gjyqësore, praktika administrative, rregullat e organeve profesionale, si dhe nga rregullat e përbashkëta të shoqatave ose organizatave të tjera profesionale, të miratuara në ushtrimin e autonomisë së tyre ligjore. Rregullat e përcaktuara në marrëveshjet kolektive, të negociuara nga partnerët socialë, nuk konsiderohen si kritere në kuptim të këtij ligji.”</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg112">Vazhdojmë me paragrafin e dytë. Pika 13 e nenit 4 të projektligjit sugjerojmë që të riformulohet, si më poshtë: “Në kuptim të këtij ligji, termat “licencë, leje, autorizim, certifikatë, pëlqim, regjistrim pranë një urdhri ose organizatë profesionale, njoftim”, si dhe çdo term tjetër i ngjashëm me to në legjislacionin shqiptar në fuqi, nëpërmjet të cilit lejohet ushtrimi i një aktiviteti apo ofrimi i një shërbimi, konsiderohen si skemë autorizimi.”.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg113">Për sa i takon paragrafit të parë të pikës 14 të nenit 4 të projektligjit, sugjerojmë që të riformulohet, si më poshtë: “Shërbim, çdo veprimtari ekonomike e ushtruar në mënyrë të pavarur që kryhet zakonisht kundrejt një shpërblimi, sipas të drejtës së Bashkimit Evropian.”.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg114">Pika 21 e nenit 4 të projektligjit do të riformulohet, si më poshtë: “Vendosje është ushtrimi faktik i një veprimtarie ekonomike nga një ofrues, sipas të drejtës së Bashkimit Evropian, për një periudhë të pacaktuar dhe përmes një infrastrukture të qëndrueshme, ku realizohet realisht veprimtaria e ofrimit të shërbimeve.”.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u19" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg115">Atëherë, kush është dakord për miratimin e nenit 4, me të gjitha ndryshimet? 8 vota pro. Kundër? 1 votë kundër. Abstenim? Nuk ka.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg116">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg117">Neni 5.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u20" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg118">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u21" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg119">A jeni dakord me nenin 5? 8 vota pro. Kundër? 1 votë kundër. Abstenim? Nuk ka.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg120">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg121">Neni 6.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg122">Nuk ka propozime. Kush është pro nenit 6? 8 vota pro. Kundër? 1 votë kundër. Abstenim? Nuk ka.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg123">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg124">Neni 7.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u22" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg125">Në nenin 7 kemi një propozim.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg126">Te pika 8 e nenit 7 të projektligjit, për teknikë legjislative, sugjerohet të zëvendësohet togfjalëshi “për t'u vlerësuar dhe të njoftuara" me togfjalëshin “objekt vlerësimi dhe njoftimi”.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u23" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg127">Kush është dakord me nenin 7, me të gjitha ndryshimet?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg128">8 vota pro. Kundër? 1 votë kundër. Abstenim? Nuk ka.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg129">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg130">Neni 8.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u24" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg131">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u25" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg132">Kush është dakord me nenin 8? 8 vota pro. Kundër? 1 votë kundër. Abstenim? Nuk ka.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg133">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg134">Neni 9.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u26" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg135">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u27" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg136">Kush është dakord me nenin 9?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg137">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg138">Neni 10.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg139">Kush është dakord me nenin 10? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg140">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg141">Neni 11.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u28" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg142">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u29" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg143">Kush është dakord me nenin 11? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg144">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg145">Neni 12.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u30" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg146">Pika 7 e nenit 12 të projektligjit, për teknikë legjislative, për të evituar subjektivizmin në zbatim, sugjerohet që te fjalia e dytë togfjalëshi "sipas rastit rekomandon mosmiratimin" të zëvendësohet me togfjalëshin "nëse konstaton mospërputhje, ministria rekomandon".</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u31" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg147">Kush është dakord me nenin 12, me të gjitha ndryshimet? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg148">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg149">Neni 13.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u32" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg150">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u33" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg151">Kush është dakord me nenin 13? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg152">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg153">Neni 14.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u34" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg154">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u35" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg155">Kush është dakord me nenin 14? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg156">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg157">Neni 15.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u36" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg158">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u37" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg159">Kush është dakord? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg160">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg161">Neni 16.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u38" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg162">Pika 1 e nenit 16 të projektligjit sugjerojmë që të riformulohet, si më poshtë: “Nëpërmjet PVK-së, autoritetet kompetente sigurojnë që informacioni vijues të jetë lehtësisht i aksesueshëm për ofruesit dhe përfituesit e shërbimeve.”.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg163">Germa “a” e pikës 1 të nenit 16 të projektligjit sugjerojmë që të riformulohet, si më poshtë: “Kërkesat që zbatohen për ofruesit e vendosur në territorin e tyre, në veçanti ato që lidhen me procedurat dhe formalitetet që duhen plotësuar për fillimin dhe ushtrimin e veprimtarisë së shërbimit.”.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg164">Germa b e pikës 1 të nenit 16 të projektligjit sugjerojmë që të riformulohet, si më poshtë: “Të dhënat e kontaktit të autoriteteve kompetente, që mundësojnë kontaktimin e drejtpërdrejtë të këtyre të fundit, duke përfshirë detajet e autoriteteve përgjegjëse për çështjet, që kanë të bëjnë me ushtrimin e veprimtarive të shërbimit.”.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg165">Pika 2 e nenit 16 të projektligjit sugjerojmë që të riformulohet, si më poshtë: “Informacioni, dhe ndihma e parashikuar sipas pikës 1 të këtij neni, duhet të jetë lehtësisht i aksesueshëm në mënyrë elektronike, i përditësuar, i qartë, i drejtpërdrejtë dhe i formuluar në gjuhë të thjeshtë e të kuptueshme në gjuhën shqipe dhe angleze.”.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u39" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg166">Kush është dakord me nenin 16, me të gjitha ndryshimet? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg167">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg168">Neni 17.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u40" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg169">Pika 2 e nenit 17 sugjerojmë që të riformulohet, si më poshtë: “Kur sipas legjislacionit përkatës të Bashkimit Evropian miratohen formularë të harmonizuar, këta formularë janë të barasvlershëm me certifikatat, vërtetimet dhe çdo dokument tjetër që kërkohet nga ofruesi.”.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u41" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg170">Pro? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg171">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg172">Neni 18.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u42" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg173">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u43" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg174">Kush është dakord me nenin 18? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg175">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg176">Neni 19.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u44" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg177">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u45" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg178">Kush është dakord me nenin 19? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg179">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg180">Neni 20.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u46" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg181">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u47" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg182">Kush është dakord me nenin 20? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg183">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg184">Neni 21.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u48" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg185">Pika 2 e nenit 21 sugjerojmë të riformulohet, si më poshtë: “Informacioni dhe asistenca jepen në mënyrë të qartë, të kuptueshme dhe të paanshme. Janë lehtësisht të aksesueshme në distancë dhe me mjete elektronike dhe mbahen të përditësuara. Kur është e përshtatshme, autoritetet kompetente vënë në dispozicion udhëzues të thjeshtë, hap pas hapi.”.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u49" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg186">Kush është dakord me nenin 21, me të gjitha ndryshimet? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg187">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg188">Neni 22.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u50" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg189">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u51" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg190">Kush është dakord me nenin 22? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg191">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg192">Neni 23.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u52" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg193">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u53" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg194">Pro? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg195">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg196">Neni 24.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u54" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg197">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u55" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg198">Kush është dakord me nenin 24? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg199">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg200">Neni 25.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u56" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg201">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u57" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg202">Pro? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg203">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg204">Neni 26.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u58" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg205">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u59" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg206">Pro? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg207">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg208">Neni 27.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u60" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg209">Pika 4 e nenit 27 sugjerojmë të riformulohet, si më poshtë: “Autoritetet kompetente sigurojnë që ofruesit, që i nënshtrohen një kodi etik ose që janë anëtarë të një shoqate tregtare apo organizate profesionale, që ofron mekanizma jashtëgjyqësorë për zgjidhjen e mosmarrëveshjeve, të informojnë përfituesit për ekzistencën e këtyre mekanizmave dhe të tregojnë qartë mënyrën e aksesit dhe përdorimin e tyre.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u61" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg210">Kush është dakord me nenin 27, me të gjitha ndryshimet? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg211">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg212">Neni 28.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u62" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg213">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u63" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg214">Pro? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg215">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg216">Neni 29.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u64" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg217">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u65" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg218">Pro? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg219">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg220">Neni 30.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u66" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg221">Te pika 2 e nenit 30 të projektligjit, për teknikë legjislative, fjala "ndëshkuese" sugjerohet të zëvendësohet me fjalën "administrative".</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u67" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg222">Pro? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg223">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg224">Neni 31.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u68" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg225">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u69" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg226">Pro? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg227">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg228">Neni 32.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u70" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg229">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u71" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg230">Pro? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg231">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg232">Neni 33.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u72" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg233">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u73" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg234">Pro? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg235">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg236">Neni 34.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u74" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg237">Pika 2 e nenit 34 për harmonizim me legjislacionin në fuqi sugjerohet që togfjalëshi “njofton datën e pritshme të marrjes së vendimit të apelit” të zëvendësohet me togfjalëshin “njofton se çështja është ende objekt ankimimi”.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u75" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg238">Kush është dakord me nenin 34, me të gjitha ndryshimet? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg239">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg240">Neni 35.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u76" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg241">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u77" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg242">Pro? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg243">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg244">Neni 36.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u78" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg245">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u79" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg246">Pro? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg247">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg248">Neni 37.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u80" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg249">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u81" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg250">Pro? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg251">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg252">Neni 38.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u82" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg253">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u83" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg254">Pro? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg255">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg256">Neni 39.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u84" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg257">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u85" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg258">Pro? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg259">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg260">Neni 40.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u86" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg261">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u87" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg262">Pro? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg263">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg264">Neni 41.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u88" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg265">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u89" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg266">Pro? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg267">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg268">Neni 42.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u90" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg269">Te pika 2 e nenit 42, për teknikë legjislative, sugjerohet që togfjalëshi "shfuqizohen automatikisht me hyrjen në fuqi të tyre" të zëvendësohet me togfjalëshin "me hyrjen në fuqi të akteve të reja të nxjerra sipas nenit 39 të këtij ligji".</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u91" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg270">Kush është dakord me nenin 42, me të gjitha ndryshimet? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg271">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg272">Neni i fundit i këtij ligji, neni 43. Kush është dakord me nenin 43?</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u92" ana="#regular" who="#AL_PERS_BesaSpaho">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg273">Nuk ka ndryshime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-21-1.u93" ana="#chair" who="#AL_PERS_CenoKlosi">
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg274">Pro? Kundër?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg275">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg276">Faleminderit shumë, zonja Spaho!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg277">Kalojmë në votimin në tërësi të këtij projektligji. Kush është dakord? 8 vota pro. Kundër? 1 votë kundër.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg278">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-21-1.seg279">Shumë faleminderit të gjithëve!</seg>
+          <note type="comment">MBYLLET MBLEDHJA</note>
+        </u>
+      </div>
+    </body>
+  </text>
+</TEI>

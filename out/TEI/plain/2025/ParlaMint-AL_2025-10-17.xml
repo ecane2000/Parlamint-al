@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2025-10-17" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2025-10-17" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2025-10-17</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2025-10-17</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Konferenca e Kryetarëve, 2025-10-17</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Conference of Chairpersons, 2025-10-17</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KonferencaKryetareve" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -39,7 +39,7 @@
       <sourceDesc>
         <bibl>
           <title type="main" xml:lang="sq">Procesverbal i Kuvendit të Shqipërisë</title>
-          <idno type="URI">https://www.kuvendi.gov.al/</idno>
+          <idno type="URI">https://kuvendiwebfiles.blob.core.windows.net/webfiles/202510241107180185Procesverbal%2C_dat%C3%AB_17.10.2025.pdf</idno>
           <date when="2025-10-17">2025-10-17</date>
         </bibl>
       </sourceDesc>
@@ -160,7 +160,7 @@
         <u xml:id="ParlaMint-AL_2025-10-17.u13" ana="#chair" who="#AL_PERS_NikoPeleshi">
           <seg xml:id="ParlaMint-AL_2025-10-17.seg46">Zoti Balla.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-17.u14" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2025-10-17.u14" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2025-10-17.seg47">Zoti Kryetar, zoti Nënkryetar, ne nuk e zgjedhim...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -174,7 +174,7 @@
         <u xml:id="ParlaMint-AL_2025-10-17.u15" ana="#chair" who="#AL_PERS_NikoPeleshi">
           <seg xml:id="ParlaMint-AL_2025-10-17.seg50">Jo, po të pyes: çfarë do të thuash, se po më komunikon? Është gjëja më normale: po merr fjalën një koleg dhe e kanë kërkuar 2 të tjerë para teje.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-17.u16" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2025-10-17.u16" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2025-10-17.seg51">Zoti Gjekmarkaj, zoti Boçi, ne nuk e zgjedhim dot njëri-tjetrin; as ne nuk ju zgjedhim dot ju, as ju nuk na zgjidhni dot ne. Jemi të detyruar ta pranojmë njëri-tjetrin, siç jemi. Kurrë nuk bëj pjesë tek ata që mendojnë se do të jenë gjithë jetën në pushtet dhe në çdo mbledhje grupi u them kolegëve të mi: kurrë mos i bëni kundërshtarit atë që nuk do të donit që të na e bënte kundërshtari neve.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-17.seg52">Unë kam qenë këtu, kur në seancën e Kuvendit, me kryetare Jozefina Topallin, nuk flisje dot, të merrje fjalën, nëse nuk e filloje me nenin 49 (ka qenë 47 atëherë, se ka ndryshuar Rregullorja); do të filloje e do të thoshe: bazuar në këtë nen, kërkoj këtë, ndryshe nuk e nisje dot fjalën.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-17.seg53">Unë kam qenë këtu që kam bërë grevë urie për të hapur një komision hetimor, që nuk u ngrit kurrë, edhe pas grevës së urisë.</seg>
@@ -239,7 +239,7 @@
         <u xml:id="ParlaMint-AL_2025-10-17.u17" ana="#chair" who="#AL_PERS_NikoPeleshi">
           <seg xml:id="ParlaMint-AL_2025-10-17.seg87">Mbaruat?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-17.u18" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2025-10-17.u18" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2025-10-17.seg88">Po, po, mbarova!</seg>
         </u>
         <u xml:id="ParlaMint-AL_2025-10-17.u19" ana="#chair" who="#AL_PERS_NikoPeleshi">
@@ -416,7 +416,7 @@
         <u xml:id="ParlaMint-AL_2025-10-17.u26" ana="#chair" who="#AL_PERS_NikoPeleshi">
           <seg xml:id="ParlaMint-AL_2025-10-17.seg159">Zoti Balla.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-17.u27" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2025-10-17.u27" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2025-10-17.seg160">Zoti Kryetar, e para, kërkoj shumë ndjesë për ndonjë të folur nga vendi, kur po fliste kolegu, edhe pse, t’ju them të drejtën, unë nuk e kam kuptuar qëndrimin tuaj në sallë dje!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-17.seg161">Ndjesë!</seg>
           <vocal type="interruption">
@@ -641,7 +641,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2025-10-17.seg249">Unë nuk e di se çfarë është.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-17.u45" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2025-10-17.u45" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2025-10-17.seg250">Unë them, për shkak edhe të njohjes së vjetër, ne mund t’i themi njëri-tjetrit shumë gjëra, por miqësisht, të lutem, pa replikë, e lëmë pastaj ta diskutojmë, si më i vjetër si deputet (jo si moshë, se s’jam shumë i vjetër në moshë).</seg>
           <seg xml:id="ParlaMint-AL_2025-10-17.seg251">Ju kam ndjekur dje në një reagim për mediet, jo se Niko Peleshin e kam koleg dhe shok, por citimi, në një komunikim publik, i babait të ndjerë të një kolegu, nuk i bën nder askujt. Unë kështu e shikoj. Domethënë, prindërit...</seg>
           <seg xml:id="ParlaMint-AL_2025-10-17.seg252">Zoti Gjekmarkaj ishte këtu, kur më detyroi t’i kërkoja falje zotit Bardhi.</seg>
@@ -697,7 +697,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2025-10-17.seg267">Patjetër. Vazhdoni ju, s’ka problem!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-17.u49" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2025-10-17.u49" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2025-10-17.seg268">Tani, zoti Këlliçi, si drejtuesi më i lartë i grupit parlamentar përfaqësues këtu sot, dhe kolegë të tjerë të opozitës, ky Parlament, nga viti 1998, kur miratoi në Kushtetutë nenin për ngritjen e komisioneve hetimore, dhe nga viti 2002, kur filluan për herë të parë komisionet hetimore, ka pasur disa rregulla se si ngrihen komisionet hetimore, pjesa më e madhe e të cilave janë sot në ligjin për komisionet hetimore. Kemi pasur shumë beteja me njëri-tjetrin, kur unë isha në opozitë dhe partia juaj ishte në pushtet, edhe më pas. Në fakt, këto përplasje kanë ndikuar që ligji të përmirësohet jo me dakordësi politike, për fat të keq, por me vendimet e Gjykatë Kushtetuese.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-17.seg269">Aktualisht, zoti Kryetar, të nderuar kolegë deputetë, jemi në momentin kur kemi të depozituar një projektligj tjetër për detyrën që ka Kuvendi, që të japë shembullin i pari, që vendimet e Gjykatës Kushtetuese t’i zbatojë. Uroj ta kalojmë me konsensus, sepse ka ardhur një vendim tjetër i Gjykatës Kushtetuese për një kërkesë tuajën, që ta bëjmë, por kjo nuk e ndalon ngritjen e komisioneve hetimore. Pra, ajo gjë duhet bërë. Edhe pse nuk kemi ardhur në Kuvend si juristë, 20 vjet punë na kanë bërë të kuptojmë nga ky profesion i nderuar.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-17.seg270">Ku jemi tani? Jemi në një situatë që komisionet hetimore, si parim i përgjithshëm i parashikuar në ligj, bazohen në parimin e prezumimit të pafajësisë (citoj këtu neni 4, germa “c”), dhe, po ashtu, ka nevojë që Kuvendi të investohet në një komision hetimor, si instrument i kontrollit parlamentar, sipas nenit 5, për çështje që kanë të bëjnë me funksionin ligjvënës. Në Konferencën e Kryetarëve ne nuk bëjmë dot asgjë, nuk hyjmë gjëkundi për t’u shprehur për këtë çështje, por ligji thotë se mund të rregullojmë përmbajtjen.</seg>
@@ -794,7 +794,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-17.seg316">Patjetër, thuhet, në bazë të shumë dëshmive, dhe të jeni të bindur që në momentin që do të aprovohet edhe lista e dëshmitarëve, do të thirren edhe dëshmitarët, të cilët u qëndrojnë këtyre deklaratave dhe qëndrimeve.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-17.seg317">Për sa kohë biem dakord që në kërkesën për zgjedhjet 11 majit ka thjesht gabime ose gramatikore, ose drejtshkrimore, ose çështje të nivelit teknik, shumë të vogla për t’u rregulluar, patjetër ne do të marrim kohën tonë dhe do t’i risjellim edhe një herë të edituara dhe të rregulluara, ndërsa për sa i përket thelbit të objektit (mua kjo më intereson), nuk kemi ndonjë diskutim dhe nuk kemi ndonjë problem.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-17.u53" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2025-10-17.u53" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2025-10-17.seg318">Më fal, sepse është shumë e rëndësishme, se na rroftë ajo një orë e gjysmë që harxhuam dhe të thuhet pastaj që këta nuk janë burra dhe nuk e mbajnë fjalën, se nuk më shkon.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-17.seg319">Unë nuk të thashë që jam dakord me thelbin, sepse thelbin do ta diskutojmë. Bazuar në ligj, unë nuk kam kompetencë fare sot, si anëtar i kësaj Konference, ta diskutoj.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-17.seg320">“Kryetari i Kuvendit, - thuhet në Rregullore, - jo më vonë se 5 ditë nga data e marrjes së kërkesës, mbledh Konferencën e Kryetarëve për të diskutuar mbi kërkesën e nismëtarëve, përbërjen e komisionit dhe caktimin e datës së miratimit në Kuvend”. Ne sot mund të biem dakord për caktimin e datës, se nuk ia heq dot unë kompetencën.</seg>
@@ -834,7 +834,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-17.seg338">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-17.seg339">Fjala për zotin Balla.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-17.u59" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2025-10-17.u59" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2025-10-17.seg340">Atëherë, edhe ne si grup parlamentar kemi bërë shpeshherë diskutime për këto çështje, edhe me ministren përkatëse.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-17.seg341">Tani, sugjerimi për të shkuar te një zgjidhje e menjëhershme. Shpresoj që zoti Këlliçi, në cilësinë e drejtuesit këtu, ta miratojë bashkë me ju.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-17.seg342">Në seancën më të parë, në pikën e parë të rendit të ditës: interpelancë me ministren për këtë çështje. Rregulloja e lejon që të bashkojmë mocionin me një kërkesë për interpelancë. Pra, të kemi një interpelancë për këtë çështje.</seg>
@@ -864,7 +864,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-17.seg350">Unë e kuptoj diferencën mes mocionit me debat dhe interpelancës, ndaj të mos të bëjmë sikur nuk e dimë, se interpelanca ka rregullat e veta të zhvillimit. Ne kemi kërkuar, jo më kot, mocion me debat, sepse duam të fokusohemi te çështja konkrete dhe te situata.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-17.seg351">E di që do të raportojë drejtuesi i KLSH-së, por ai vjen të referojë për ecurinë e institucionit të tij për vitin 2024, dhe nuk do të jetë fokusi i vërtetë te kjo çështje, që, siç e thashë, është jetike për qytetarët. Ndaj, të lutem, kërkoj dakordësinë për kërkesën që kemi bërë për mocion me debat.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-17.u62" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2025-10-17.u62" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2025-10-17.seg352">... po them gjë tjetër, por më duket se nuk u kuptuam...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -917,7 +917,7 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-17.u68" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2025-10-17.u68" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2025-10-17.seg366">Jo, unë nuk thashë që...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>

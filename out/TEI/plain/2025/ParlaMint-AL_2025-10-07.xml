@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2025-10-07" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2025-10-07" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2025-10-07</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2025-10-07</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për të Drejtat e Njeriut dhe Mjetet e Informimit Publik, 2025-10-07</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Human Rights and Public Information Media, 2025-10-07</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KDNJMIP" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -39,7 +39,7 @@
       <sourceDesc>
         <bibl>
           <title type="main" xml:lang="sq">Procesverbal i Kuvendit të Shqipërisë</title>
-          <idno type="URI">https://www.kuvendi.gov.al/</idno>
+          <idno type="URI">https://kuvendiwebfiles.blob.core.windows.net/webfiles/202510281244562738Procesverbal%2C_dat%C3%AB_07.10._2025.pdf</idno>
           <date when="2025-10-07">2025-10-07</date>
         </bibl>
       </sourceDesc>
@@ -104,7 +104,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-07.seg13">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg14">Zonja Ballanca, fjala për ju.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u4" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u4" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg15">E nderuar zonja Tabaku,</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg16">E nderuar zonja Luarasi,</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg17">Të nderuar anëtarë të këtyre komisioneve të Kuvendit, Sigurisht, edhe Avokati i Popullit ka pasur një ditë shumë të keqe, përveçse i gjithë institucioni është tronditur nga kjo çështje, jo vetëm sepse unë kam pasur fatin ta njoh personalisht të ndjerin, por edhe sepse e kam ndjekur punën e tij në disa forume, një ndër to edhe në Këshillin e Emërimeve në Drejtësi, ku ai realisht ka ushtruar detyrën dhe funksionin e tij në kohë të vështirë.</seg>
@@ -482,7 +482,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-07.seg189">Të drejtën e fjalës në këtë komision nuk ia heqim askujt.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg190">Duke i kërkuar ndjesë Avokates së Popullit (zoti Bardhi bëri disa komente dhe disa pyetje), për pyetjet, ju lutem, duam përgjigje!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u73" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u73" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg191">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg192">Është më mirë kur bëjmë pyetje-përgjigje, sepse përndryshe humbet herë pas here aktualiteti.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg193">Unë i kam mbajtur shënim pyetjet dhe po filloj nga pyetja e parë, sipas radhës, po filloj nga pyetja e zotit Bardhi, që lidhet me zbatimin e minimumit jetik. Minimumi jetik është një referencë shumë e rëndësishme, e cila mungon në sistemin social ose të mbrojtjes shoqërore në Republikën e Shqipërisë. Ky nuk është raporti i parë që ka bërë Avokati i Popullit, është raporti i dytë; raporti i parë është bërë në vitin 2014, më tej u ngritën disa komisione pranë Ministrisë së Shëndetësisë, kemi pasur edhe dëgjesa parlamentare në lidhje me këtë çështje dhe u duk sikur do të ngrihej një komision për të përcaktuar metodologjinë e identifikimit dhe përcaktimit të minimumit jetik, por çështja, që kur ka qenë Erion Veliaj në atë ministri dhe deri më tani, nuk ka avancuar më.</seg>
@@ -511,13 +511,13 @@
         <u xml:id="ParlaMint-AL_2025-10-07.u74" ana="#chair" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg215">Kam përshtypjen se keni vetëm çështjen në sigurinë në sistemin gjyqësor dhe zbatimin e hartës së re gjyqësore, aksesin në drejtësi. Këto dy tema kanë mbetur?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u75" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u75" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg216">Gjykata administrative, siguria në sistemin gjyqësor dhe harta e re gjyqësore.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2025-10-07.u76" ana="#chair" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg217">Po mundët, përmbledhtazi, sepse janë 6 kolegë që kanë kërkuar fjalën.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u77" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u77" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg218">Keni shumë të drejtë, por unë entuziazmohem.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2025-10-07.u78" ana="#chair" who="#AL_PERS_JoridaTabaku">
@@ -540,7 +540,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-07.seg231">Nga përvoja juaj e gjatë në drejtimin e këtij institucioni, a mendoni se ka një mungesë të kulturës institucionale, apo ka një mungesë vullneti politik në drejtim të rritjes së kësaj përqindjeje, zbatimit të rekomandimeve tuaja?</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg232">Së dyti, a keni konsideruar që të propozoni ndryshime specifike në ligjin që rregullon veprimtarinë dhe funksionimin e institucionit tuaj, në mënyrë që të pajiseni, po them, me një fuqi detyruese që të garantoni zbatimin e rekomandimeve në të ardhmen?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u81" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u81" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg233">Faleminderit shumë për pyetjet!</seg>
         </u>
         <u xml:id="ParlaMint-AL_2025-10-07.u82" ana="#chair" who="#AL_PERS_JoridaTabaku">
@@ -681,7 +681,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-07.seg289">Në fakt, është një shqetësim që e kisha ngritur edhe unë. E ngriti zonja Budini, e ngriti edh zoti Mile. Çfarë mund të bëjë Kuvendi për zbatimin e rekomandimeve? A ju ka thërritur ndonjëherë Kuvendi i Shqipërisë në lidhje me shqetësimin se si mund t’i zbatojmë këto rekomandime që ju keni lënë dhe që nuk zbatohen? A ka ndonjë masë ligjore që mund të merret, përveç detyrimit kushtetues?</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg290">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u103" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u103" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg291">Ndoshta jap edhe shpjegim. Për sa i përket nivelit të zbatimit të rekomandimeve të Avokatit të Popullit, unë dua të shpjegoj se kur ne themi “rekomandim”, ju e keni parë, sepse sigurisht që kanë ardhur edhe tek ju, e kemi fjalën për një dokument që lidhet me një çështje që ne kemi hetuar. Në lidhje me çështjen që ne hetojmë, në përfundim të hetimit që kryejmë nxjerrim një, dy, tre, pesëmbëdhjetë nënrekomandime. Në statistikat që kemi paraqitur, ne themi se kemi 300 rekomandime, gjë që do të thotë se kemi dalë me një raport për 300 nga hetimet që kemi kryer. Ama numri i zërave të rekomandimeve është tjetër, është tre, katër a pesëfish më i lartë se ky.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg292">Në metodologjinë e vlerësimit të zbatimit të rekomandimeve, mjafton të mos jetë zbatuar vetëm njëri nga pesëmbëdhjetë pikat, për shembull, dhe ai përfshihet tek rekomandimet e zbatuara pjesërisht. Pra, edhe metodologjia duhet kuptuar në mënyrë thelbësore, që ne nuk mëtojmë të kemi të zbatuara 100 % të rekomandimeve. Asnjë institucion i të drejtave të njeriut, as kolegët e mi nuk mëtojnë t’i kenë 100 % të zbatuara. Kjo sepse ka çështje, të cilat janë strukturore dhe kanë nevojë për investime, të cilat duhet të kryhen në të ardhmen.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg293">Thënë kjo, unë e kam të pamundur që në rekomandimet e mia të ndryshoj atë që e kam si detyrim ligjor të përcaktuar nga neni 2 i ligjit “Për Avokatin e Popullit”. Neni 2 i ligjit “Për Avokatin e Popullit”, aty ku thotë: “Detyrat e Avokatit të Popullit”, më ngarkon me detyrim që të nxis standardet më të larta të të drejtave dhe lirive të njeriut. Pra, unë nuk mundem për shkak të këtij detyrimi ligjor, aty ku thotë “Detyrat e Avokatit të Popullit”.</seg>
@@ -707,13 +707,13 @@
         <u xml:id="ParlaMint-AL_2025-10-07.u104" ana="#chair" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg308">Faleminderit, zonja Ballanca!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u105" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u105" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg309">Dua të mbaroj. Më fal!</seg>
         </u>
         <u xml:id="ParlaMint-AL_2025-10-07.u106" ana="#chair" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg310">Kujtova se përfunduat! Ndjesë!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u107" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u107" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg311">Cilat janë ndryshimet që ne kemi kërkuar në ligjin aktual, ligj që është shumë i rëndësishëm për t’u paraqitur.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg312">Së pari, detyrimi që institucioni i Avokatit të Popullit, duke pasur një mandat jo si ombudsman klasik, mandati ynë si ombudsman klasik vjen nga Kushtetuta. Ndërkohë, mandati ynë si mbrojtës i të drejtave të njeriut, që është një mandat shtesë, jo domosdoshëmrisht i njëjtë me mandatin e ombudsman-it klasik, na vjen nga ligji, të cilin po ky Kuvend e ka miratuar me shumicë të cilësuar.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg313">Ne jemi institucion me mandat të gjerë. Pra, nuk kemi vetëm mandat vis a vis administrata shtetërore, por kemi mandat edhe si promovuese të të drejtave të njeriut. Në këtë kuptim ne duhet ta ushtrojmë veprimtarinë tonë në përputhje me Parimet e Parisit, e cila është një rezolutë e miratuar nga Kombet e Bashkuara. Në Kombet e Bashkuara ne akreditohemi çdo herë në katër vjet. Ashtu siç do vend, çojmë institucionin tonë të të drejtave të njeriut, bëhet një vlerësim nga Komiteti i Akreditimit të Kombeve të Bashkuara, nëse institucioni përkatës, që është garantues i të drejtave të njeriut i plotëson apo jo kriteret e miratuara në këtë vendim të Kombeve të Bashkuara.</seg>
@@ -1037,7 +1037,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-07.seg431">Fjala është për Avokaten e Popullit.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg432">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u169" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u169" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg433">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg434">Unë do të doja ta filloja me radhë, por realisht e kam humbur radhën, sepse ishin shumë pyetje.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg435">Po e filloj me çështjen për të cilën u debatua shumë, me mbrojtjen e të drejtave të grave, si një grup pak më vulnerabël, e cila u ngrit në disa aspekte. Do të mundohem të jap një përgjigje të përgjithshme. Ne nuk kemi një rol specifik, por do të donim ta kishim pasur, do të donim të kishim një komisioner të posaçëm pranë Avokatit të Popullit, i cili të merrej me barazinë gjinore. Ka pasur disa tentativa, disa iniciativa për ta pasur një komisoner të posaçëm pranë institucionit të Avokatit të Popullit, në lidhje me mbrojtjen e të drejtave të grave, për t’i dhënë edhe një potencialitet më të madh, por duket se Ministria e Çështjeve Sociale ka dashur ta ketë si pjesë së punës dhe të aktivitetit të vet. Ndaj vijojnë ta kenë si pjesë të tyre. Edhe në ligjin që është sjellë, nuk është konsideruar që të ketë një komisioner të posaçëm pranë Avokatit të Popullit. Ne kemi vlerësuar që do të ishte më efikase shtimi i një numri të vogël punonjësish pranë institucionit tonë, duke ruajtur, duke përfituar dhe duke pasur gjithë bagazhin dhe punën që kemi bërë deri më tani.</seg>
@@ -1048,7 +1048,7 @@
         <u xml:id="ParlaMint-AL_2025-10-07.u170" ana="#regular" who="#AL_PERS_IrisLuarasi">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg439">Kam një pyetje: a nuk keni ju një ndihmëskomisioner që merret me pjesën e gender-it?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u171" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u171" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg440">Jo. Ne kemi 6 persona në total dhe kanë gjithë këto gjëra; është për të drejtat e grave në përgjithësi dhe për LGBTI-në bashkë. Pra, nuk kemi një person të dedikuar apostafat. Ne kemi kapacitete shumë të kufizuara, por kemi një komisioner, që, ndër të tjera, merret edhe me çështje të caktuara. Ndaj kemi bërë një rekomandim, që të ketë një ndryshim të kësaj qasjeje, pra të paktën të bëhet në nivel qarku çështja e qendrave që asistojnë, që të jenë më efektive.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg441">Për shembull, nëse shkojmë në Roskovec, qendra duhet të ekzistojë, por nuk ka pasur asnjë person për një vit. Atëherë, për çfarë duhet mbajtur? Pra, edhe për eficiencë, njëri të organizojë njërën qendër dhe tjetri qendrën tjetër, në mënyrë që të ketë një koordinim më të mirë dhe këto fonde të përdoren në mënyrë më të drejtë.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg442">Nuk kam dijeni të posaçme në lidhje me strukturat e Ministrisë së Brendshme, por di të them që, edhe në vitet kur e shpallëm femicidin, por edhe më tej, kemi pasur mbështetjen e Ministrisë së Brendshme edhe në qëndrime, edhe në raportime, edhe në adresimin e çështjeve. Pra, është një nga temat që edhe ata e kanë pasur për zemër.</seg>
@@ -1061,7 +1061,7 @@
         <u xml:id="ParlaMint-AL_2025-10-07.u172" ana="#regular" who="#AL_PERS_IrisLuarasi">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg448">Pyetja ishte për mbipopullimin e klasave.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u173" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u173" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg449">Ishte edhe një pyetje për klasat kolektive, ose të paktën unë e kam të shënuar këtu, mund ta kem shënuar gabim.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg450">Nga ana tjetër, ky diskutim vjen sepse vendi u trondit nga tërmeti, rehabilitimi i shkollave ka qenë prioritar, ka pasur shumë më tepër përmirësim se vitet e kaluara, pas tërmetit, në lidhje me numrin e shkollave të reja që janë duke u bërë, por gjatë kohës që shkollat po ndërtohen problem është aksesimi nëpër vendet e tjera, ka shkolla që punojnë me dy turne.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg451">Përmirësimi i infrastrukturës shtetërore po ndodh, të paktën në qytetet e mëdha, por ka nevojë për fonde shumë të mëdha. Politika se si po kryhet është nëpërmjet projekteve, të cilat duhet të paraqiten nga bashkitë. Pra, përveç një numri të caktuar shkollash, që janë pjesë e programit të rindërtimit, mënyra tjetër është që ministria me fondet që ka çdo vit, jo sa është nevoja, por më të kufizuara, shpall garën se cilat nga bashkitë do të futet në garë, më pas kanë parametrat e tyre se cilës shkollë do t’i japin prioritet.</seg>
@@ -1074,16 +1074,16 @@
           <seg xml:id="ParlaMint-AL_2025-10-07.seg456">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg457">Po.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u175" ana="#regular" who="#AL_PERS_OltaAlia">
+        <u xml:id="ParlaMint-AL_2025-10-07.u175" ana="#guest" who="#AL_PERS_OltaAlia">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg458">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg459">Unë dua t’u shtoj diçka atyre që tha avokatja, të cilat ishin një ilustrim i punës që kemi bërë gjatë gjithë vitit.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg460">Sa i përket bullizmit në shkolla, ne kemi bërë shumë aktivitete promovuese për të edukuar fëmijët për të njohur të drejtën e tyre, sidomos për t’u ankuar dhe për t’u njohur me institucionin tonë, që ne jemi një mekanizëm dhe jemi aty për ata. Pra, nëse ka raste të bullizmit, ata mund të ankohen te ne. Gjithashtu, kemi insistuar edhe te fakti që në shkolla duhet të ndiqen protokolle të kësaj natyre, domethënë kur ka fenomene të bullizmit, që fëmijët të ndihen të sigurt, të ndajnë informacion dhe të referojnë raste te persona të besuar, që mund të jenë mësuesit, prindërit, apo edhe njerëz në komunitetin ku jetojnë. Gjithashtu, kemi insistuar edhe te pjesa që ata vetë mund të krijojnë grupe të tilla në shkollë me njëri-tjetrin, sepse fëmijët janë gjithmonë më të prirur të flasin dhe t’i ndajnë këto gjëra me njëri-tjetrin, më pas të adresohen tek institucionet apo te njerëzit e rritur, të cilët mund të ndërmarrin hapa të mëtejshëm.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg461">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u176" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u176" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg462">Mund të shtojmë diçka për çështjen e femicidit.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u177" ana="#regular" who="#AL_PERS_VilmaShurdha">
+        <u xml:id="ParlaMint-AL_2025-10-07.u177" ana="#guest" who="#AL_PERS_VilmaShurdha">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg463">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg464">Ju kërkoj ndjesë për zërin, pasi nuk jam në gjendjen optimale shëndetësore!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg465">Unë dua të shtoj faktin që prej muajit mars të vitit 2023 institucioni i Avokatit të Popullit ka marrë tashmë cilësinë e observatorit të femicidit, i cili është një mekanizëm për mbledhjen në nivel kombëtar të të dhënave në lidhje me vrasjen e grave dhe vajzave, analizimin e thelluar të këtyre të dhënave, për të evidentuar motivet pse vriten gratë dhe vajzat, ngushtësisht për faktin e të qenit gra. Natyrisht, raporti i parë u prezantua në fund të vitit 2024, i cili përmbante, në mënyrë të strukturuar, rekomandime të përgjithshme, që lidheshim me hartimin e politikave dhe strategjive për parandalimin e dhunës me bazë gjinore dhe dhunës në familje.</seg>
@@ -1110,7 +1110,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-07.seg478">Zoti Malaj ka ngritur një pyetje, që është pyetja e tretë e zonjës Bardeli, në lidhje me shpronësimet, edhe një pyetje të dytë, dhe janë edhe dy kolegë të tjerë që kanë kërkuar fjalën.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg479">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u179" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u179" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg480">Atëherë, po i përgjigjem pyetjes së parë të zotit Malaj, në lidhje me shkaqet e vonesave në sistemin gjyqësor dhe nga se vijnë ato. Shkaqet janë komplekse. Të tria ato që përmendët ju janë të vërteta, nuk është vetëm njëra, por mendoj se kontrolli dhe menaxhimi i brendshëm i gjykatave është më i ulëti për dy arsye. Së pari, kur ne flasim për sistemin gjyqësor, kuptojmë prokurorinë dhe gjykatën, sepse të dyja së bashku janë pjesë e atij sistemi. Numri i ankesave që kemi për prokurorinë është edhe më i madh, sepse aty është identifikuar kjo qasja e re apo ideja e re që u fut me reformën në drejtësi, që prokurori është i zoti i çështjes, duke ulur thelbësisht kompetencat e prokurorëve të rretheve dhe Prokurorit të Përgjithshëm. Duket që kjo, në një realitet si Shqipëria, nuk shkon drejt përgjegjshmërisë, por shkon drejt individualitetit dhe vlerësimit individual që prokurorët mund të kenë për trajtimin e rasteve. Ne kemi një bashkëpunim shumë të mirë me Këshillin e Lartë të Prokurorisë. Një kopje të rekomandimeve, që ne dërgojmë për rastet e hetimeve të vonuara, të tejzgjatura apo me probleme, sa u përket të drejtave dhe garancive, në procesin penal nga ana e prokurorëve, ia çojmë edhe Këshillit të Lartë të Prokurorisë që do ta konsiderojnë, zbatimet e Avokatit të Popullit, në vlerësimin që do të bëjnë për gjyqtarët sipas viteve përkatëse. Kjo është një nga risitë që po bëjmë në dy vjet rresht.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg481">Sa i përket sistemit gjyqësor, aty ne i kemi kompetencat edhe më të kufizuara, sepse kompetencat tona lidhen me vendimmarrjen. Dihet që janë zero, pasi vendimmarrja i përket sistemit gjyqësor. Ne mund të ndërhyjmë vetëm në garantimin e të drejtave procedurale dhe në menaxhimin e afateve të këtyre sistemeve. Për shembull, zbardhja e vendimeve gjyqësore ka qenë një nga problematikat që ne kemi ndeshur, për të cilën kemi bërë një sërë rekomandimesh. Kjo, siç jua thashë, lidhet me numrin shumë të vogël të gjyqtarëve dhe me numrin shumë të madh të çështjeve që ata kanë për të adresuar. Kjo është pranuar edhe nga Inspektori i Lartë i Drejtësisë, i cili në një raport të veçantë ka vendosur me standard një afat të ndryshëm nga ai i parashikuar me ligj për nisjen e procedurave disiplinore për gjyqtarët dhe prokurorët, nëse nuk zbardhen vendimet gjyqësore. Pra, edhe këtu ka pasur një debat shumë të madh, sepse ligji përcakton një standard tjetër, i cili është i pamundur për t’u realizuar nga gjyqtarët. Nuk bëhen dot edhe seancat gjyqësore, edhe vendimet gjyqësore brenda afatit të përcaktuar, prandaj themi që ka përsëri shumë nevojë për shtim të buxhetit të sistemit gjyqësor, për të pasur sa më shumë ndihmës dhe persona asistentë, të cilët duhet të ndihmojnë gjyqtarët në përgatitjen e çështjeve, në hedhjen e rrethanave të fakteve e të tjera dhe pastaj ata të merren me arsyetimin përfundimtar të vendimeve, gjë e cila është njohur nga legjislacioni, por nuk është efektiv numri i tyre. Për momentin kjo është e vetmja gjë për t’u bërë, në vlerësimin tonë, si Avokat i Popullit.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg482">Të kalojmë te çështja e të drejtës së pronës. Atëherë, po dëgjoja dje një koleg jurist, ish-gjyqtar. Një nga problematikat thelbësore që paraqiti për këtë situatë ku është vendi, sa i përket të drejtës së pronësisë, ishte një infrastrukturë shumë e vështirë ligjore dhe nënligjore që rregullon çështjen e pronës. Pra, në të gjitha këto vite problematikat e pronës nëpërmjet ndërhyrjeve të ndryshme ligjore që janë marrë ndër vite, ligjeve të posaçme nga politika të caktuara, e kanë bërë jashtëzakonisht shumë të vështirë kuptimin e gjendjes dhe të situatës reale të pronës për qytetarët.</seg>
@@ -1134,7 +1134,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg496">Po.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u181" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u181" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg497">Më falni, edhe një herë, se nuk ju kuptova!</seg>
         </u>
         <u xml:id="ParlaMint-AL_2025-10-07.u182" ana="#chair" who="#AL_PERS_JoridaTabaku">
@@ -1143,13 +1143,13 @@
         <u xml:id="ParlaMint-AL_2025-10-07.u183" ana="#regular" who="#AL_PERS_KiduinaZaka">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg499">Për çështjen e të miturve, pra përfshirjen e psikologut, ju përgëzova për rekomandimin e ngritur dhe të realizuar. Shqetësimi im lidhej me ambientet në të cilat...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u184" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u184" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg500">Më falni, se e kam harruar! Prandaj ju thashë...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2025-10-07.u185" ana="#regular" who="#AL_PERS_KiduinaZaka">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg501">Nuk ka problem, se diskutimi ishte shumë dinamik.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u186" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u186" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg502">Marrja në pyetje e të miturve duhet të realizohet në kushte të tjera infrastrukturore. Për shkak të një projekti që ka pasur qeveria shqiptare me qeverinë suedeze janë ndërtuar në një numër të konsiderueshëm komisariatesh dhoma për marrjen në pyetje, në mënyrë miqësore për fëmijët. Nuk e kemi të realizuar në çdo komisariat këtë gjë, por ajo që ne kemi vënë re është se, pavarësisht se ekzistojnë këto dhoma, në një numër komisariatesh ato nuk përdoren.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg503">Rekomandimet përkatëse specifike për çdo komisariat ne i bëjmë sa herë bëjmë raportimin tonë për ata që..., sepse ndoshta nuk është... Metodologjia e punës së mekanizmit për parandalimin e torturës është që bën vizita inspektuese parandaluese, të paktën një herë në vit në çdo komisariat në Republikën e Shqipërisë që ka dhoma sigurie, dhe të paktën një herë në vit në çdo institucion penitenciar, ku mbahen personat e dënuar. Kjo është metodologjia që kemi ne. Pse themi: të paktën një herë në vit? Sepse, në qoftë se ka ankesa apo ndonjë problem të caktuar, shkojmë më shumë sesa një herë në vit.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg504">Në raportin që do t’ju paraqesim për këtë vit ne do ta shënojmë dhe një nga statistikat që do të paraqesim, për ta pasur edhe në përgjigje të vëmendjes suaj, do të jetë pikërisht edhe numri i komisariateve, sa për qind e komisariateve, të paktën në rang qarku, kanë apo nuk kanë dhoma të posaçme për fëmijët dhe sa do të përdoren këto, se ky është një problem tjetër.</seg>
@@ -1197,7 +1197,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-07.seg534">Disa prej çështjeve që ngriti zoti Gjoni ne i diskutuam më parë, por duke qenë se ai ka qenë paralelisht edhe në një komision tjetër, që zhvillohej në orën 10:00, na u bashkua më vonë, kështu që do t’ju lutesha të përgjigjeshit vetëm për çështjet për të cilat nuk jeni përgjigjur.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg535">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u193" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u193" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg536">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg537">Sa i përket çështjes së minimumit jetik, do t’ju dërgojmë një informacion drejtpërsëdrejti, pasi u diskutua në mënyrë të hollësishme.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg538">Sa u përket marrëdhënieve tona me pushtetin lokal, edhe kjo është në dy drejtime.</seg>
@@ -1241,7 +1241,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-07.seg558">Kujtova se ishte për prishjet, meqenëse kërkuat fjalën, ndërkohë që po fliste Avokatja.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg559">Ju lutem, përfundojmë edhe pyetjet e fundit, sepse janë edhe dy kolegë që kanë pyetje. Ka shumë interes për ju, zonja Avokate.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u197" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u197" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg560">Gjithmonë ka qenë kështu dhe jam shumë e lumtur që institucioni gjen mundësinë të shpalosë punën e tij në këto mbledhje! Nuk ka mënyrë më të mirë për të treguar punën e bërë sesa duke u pyetur nga nivelet më të larta të shtetit në këtë vend.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg561">Si funksionon Avokati i Popullit për sa u përket çështjeve të shpronësimeve? Si fillim, Avokati i Popullit çdo ankesë që paraqitet e merr dhe e trajton. Në lidhje me rastet përjashtimore, janë shumë të kufizuara rastet kur ne mund të veprojmë vetë me iniciativë, pra t’i nisim rastet me iniciativë, ky është përjashtimi.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg562">Për rastet e shpronësimeve për interes publik dhe prishjeve të shumta, që kanë ndodhur e janë bërë publike, ne kemi nisur vetë raste dhe kemi dërguar raporte të veçanta në Kuvendin e Shqipërisë. Mjeti më i madh, më i fuqishëm që ne kemi, është të bëjmë një raport dhe t’ia dërgojmë Kuvendit të Republikës së Shqipërisë, i cili më pas lexon raportin tonë dhe nxjerr se cilat janë shkeljet dhe çfarë duhet të përmirësojë. Ne kemi dërguar vit pas viti raporte të veçanta në Kuvend për çështjen e prishjeve të ndërtimeve pa leje. Nuk janë trajtuar asnjëherë dhe nuk janë diskutuar asnjëherë në seancat dëgjimore të Komisionit të Ligjeve, në atë kohë, raportet e Avokatit të Popullit, të veçantat, tematiket. Për shpronësimet ka pasur disa.</seg>
@@ -1259,7 +1259,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-07.seg572">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg573">Zoti Gjoni, kishte një pyetje të fundit, që nuk iu përgjigjët.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-07.u199" ana="#regular" who="#AL_PERS_ErindaBalanca">
+        <u xml:id="ParlaMint-AL_2025-10-07.u199" ana="#guest" who="#AL_PERS_ErindaBalanca">
           <seg xml:id="ParlaMint-AL_2025-10-07.seg574">Rasti “Meta” është një rast që ka filluar të hetohet në tetor të vitit të kaluar. Rastin e kemi nisur me iniciativë, pasi arrestimi i tij ka qenë publik. Arrestimi është bërë mbi bazën e një vendimi gjyqësor, pra shkaku i kufizimit të lirisë ekziston, dhe është një shkak ligjor. Problematika që Avokati i Popullit ka ngritur ka të bëjë me mënyrën e ndalimit, e cila nuk ka respektuar dinjitetin njerëzor të zotit Meta.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg575">Po ashtu kemi identifikuar një sërë problematikash në lidhje me vendimmarrjen e Policisë së Shtetit për përdorimin e Forcave Speciale në arrestimin e tij. Përdorimi i Forcave Speciale, në bazë të ligjit, është i kufizuar vetëm për operacionet me rrezikshmëri të lartë shoqërore. Nuk na rezulton që personi në fjalë të ketë një rrezikshmëri të lartë shoqërore, sepse është një nga figurat publike më të rëndësishme të këtij vendi, ka pasur detyra shumë të rëndësishme shtetërore për vite me radhë.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-07.seg576">Gjithsesi, është shumë e rëndësishme të themi se trajtimi i zotit Meta brenda strukturave policore, pra brenda komisariatit të Drejtorisë së Policisë së Tiranës dhe brenda bllokut të sigurisë ka qenë më i mirë sesa ai i parashikuar nga ligji. Ai nuk qëndruar brenda zonës së ndalimit, pra ka qenë preferencial. Personit që e shoqëronte atë i janë vendosur prangat në mënyrë të padrejtë dhe ka vijuar të mbahet me pranga, ndërsa për zotin Meta trajtimi ka qenë më i mirë.</seg>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-07-20" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-07-20" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-07-20</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-07-20</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Kulturën, Turizmin dhe Diasporën, 2026-07-20</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Culture, Tourism and Diaspora, 2026-07-20</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KKTD" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -110,7 +110,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-20.seg22">Shumë faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-20.seg23">Fjala për ju.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-20.u4" ana="#regular" who="#AL_PERS_MarinelaPrifti">
+        <u xml:id="ParlaMint-AL_2026-07-20.u4" ana="#guest" who="#AL_PERS_MarinelaPrifti">
           <seg xml:id="ParlaMint-AL_2026-07-20.seg24">Faleminderit, e nderuar kryetare e komisionit!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-20.seg25">Të nderuar deputetë,</seg>
           <seg xml:id="ParlaMint-AL_2026-07-20.seg26">Me shumë kënaqësi paraqes sot para komisionit projektligjin “Për disa shtesa dhe ndryshime në ligjin nr. 35/2016 “Për të drejtat e autorit dhe të drejtat e tjera të lidhura me to”, një nga aktet më të rëndësishme legjislative që Ministria e Turizmit, Kulturës dhe Sportit ka përgatitur në kuadër të procesit të integrimit evropian të vendit tonë.</seg>
@@ -142,7 +142,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-20.seg50">Sigurisht, unë edhe në atë rast abstenova, sepse dua shumë më shumë, por minimalisht ka një reflektim nga dëgjesat e bëra nga komisioni. Të njëjtën gjë duam ta bëjmë edhe me këtë ligj të rëndësishëm që ne, si komision, minimalisht të ndjekim të gjitha hapat që na detyron Rregullorja, por edhe të jemi të përgjegjshëm në punën tonë edhe në reflektim në raport me gjithë Kuvendin dhe me vetë faktorët e interesit. Nëse ju keni disa shtesa, mund t'i thoni tani, në mënyrë të tillë që t'ua jap fjalën dhe kolegëve.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-20.seg51">Duhet të prezantohesh emër për efekt të regjistrimit.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-20.u6" ana="#regular" who="#AL_PERS_LlambriolaMisto">
+        <u xml:id="ParlaMint-AL_2026-07-20.u6" ana="#guest" who="#AL_PERS_LlambriolaMisto">
           <seg xml:id="ParlaMint-AL_2026-07-20.seg52">Llambriola.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-20.seg53">Në fakt, për të ndihmuar procesin ndoshta këshilltarja jonë Ada mund t'u vendos në dispozicion të gjithë deputetëve të pranishëm një kopje të materialit të të gjitha rekomandimeve që kanë ardhur nga Komisioni Evropian dhe mënyrën se si ne i kemi reflektuar ato dhe janë përcjellë dhe e miratuar dhe në Këshillin e Ministrave. Kjo do t'ju ndihmonte të gjithëve më shumë për procesin.</seg>
         </u>

@@ -121,11 +121,16 @@ def build_tei_header(
 
     session_ana = "#parla.committee.standing #parla.meeting.committee" if meta.meeting_type == "parla.committee" else "#parla.sitting #reference"
     session_label = "Mbledhje komisioni" if meta.meeting_type == "parla.committee" else "Dita e mbledhjes"
+    body_refs = " ".join(
+        f"#{b.strip()}" if not b.strip().startswith("#") else b.strip()
+        for b in (meta.body_org_ids or "AL_ORG_Kuvendi").split(";")
+        if b.strip()
+    ) or "#AL_ORG_Kuvendi"
     ET.SubElement(
         titleStmt,
         qname("meeting"),
         {
-            "corresp": "#AL_ORG_Kuvendi",
+            "corresp": body_refs,
             "ana": session_ana,
         },
     ).text = session_label

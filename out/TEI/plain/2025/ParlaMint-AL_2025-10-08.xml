@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2025-10-08" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2025-10-08" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2025-10-08</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2025-10-08</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për të Drejtat e Njeriut dhe Mjetet e Informimit Publik / Komisioni për Nismat Qytetare, Bashkëpunimin dhe Mbikëqyrjen Institucionale, 2025-10-08</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Human Rights and Public Information Media / Committee on Civic Initiatives, Cooperation and Institutional Oversight, 2025-10-08</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KDNJMIP #AL_ORG_KNQBMI" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -39,7 +39,7 @@
       <sourceDesc>
         <bibl>
           <title type="main" xml:lang="sq">Procesverbal i Kuvendit të Shqipërisë</title>
-          <idno type="URI">https://www.kuvendi.gov.al/</idno>
+          <idno type="URI">https://kuvendiwebfiles.blob.core.windows.net/webfiles/202510281245171998Procesverbal%2C_dat%C3%AB_08.10.2025_.pdf</idno>
           <date when="2025-10-08">2025-10-08</date>
         </bibl>
       </sourceDesc>
@@ -92,7 +92,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-08.seg7">Fjalën e ka komisioneri. Relator është zoti Bido, i cili besoj se do të na bashkohet së shpejti.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg8">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-08.u2" ana="#regular" who="#AL_PERS_RobertGajda">
+        <u xml:id="ParlaMint-AL_2025-10-08.u2" ana="#guest" who="#AL_PERS_RobertGajda">
           <seg xml:id="ParlaMint-AL_2025-10-08.seg9">Përshëndetje të gjithëve!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg10">Faleminderit për dëgjesën ditën e sotme!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg11">Në radhë të parë dua të përshëndes krijimin e Komisionit për të Drejtat e Njeriut. Mendoj se është një organ i brendshëm i Kuvendit i munguar në këto vite dhe jam shumë mirënjohës për krijimin e një komisioni të posaçëm, i cili dedikohet ekskluzivisht në të drejtat e njeriut.</seg>
@@ -185,7 +185,7 @@
         <u xml:id="ParlaMint-AL_2025-10-08.u9" ana="#chair" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2025-10-08.seg79">Atëherë, po ia jap fjalën Komisionerit.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-08.u10" ana="#regular" who="#AL_PERS_RobertGajda">
+        <u xml:id="ParlaMint-AL_2025-10-08.u10" ana="#guest" who="#AL_PERS_RobertGajda">
           <seg xml:id="ParlaMint-AL_2025-10-08.seg80">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg81">Po i marr me radhë pyetje dhe po ndjek një rend kronologjik.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg82">Në lidhje me bindjen politike, neve na rezulton që janë gati 5 vjet rresht, kjo nuk do të thotë që nuk ka pasur edhe më parë, por në 5 vjetët e fundit ka qenë një nga tri shkaqet më të pretenduara, për rrjedhojë ka një numër të madh ankesash. Në vitin 2024 bëhet fjalë për rreth 30 ankesa, por në vite të ndryshme ka pasur diçka më pak, diçka më tepër, por, gjithsesi, mbetet trend, dhe bindja politike është një ndër tri shkaqet më të kërkuara. Gjëja që ka ndryshuar, sidomos vitet e fundit, është që kryesisht ka qenë e adresuar më shumë në pushtetin vendor. Pra, ne kemi vënë re që në pushtetin vendor ka një numër të madh ankesash dhe, për rrjedhojë, edhe vendime diskriminimi ku janë evidentuar heqje nga puna vetëm për shkak të bindjes politike. Kuptohet, kemi pasur edhe një dialektikë të përhershme me gjykatat. Gjykatat kanë kërkuar një interpretim pak më të ngushtë në lidhje me kuptimin e bindjes politike, ndërkohë që ne e kemi pasur më të gjerë. Pra, gjykata na ka kërkuar, duke na rrëzuar vendimet, por edhe duke arsyetuar në disa raste, jo gjithmonë, që nevojitet edhe një moment publik i bindjes politike, një moment manifestimi i personit, jo thjesht anëtarësia. Kjo ka qenë më shumë, edhe pse dialektika jonë ka qenë që në realitete të vogla, sidomos në bashki të vogla, vetë anëtarësia është një manifestim i bindjes politike, por, le të themi, ky është një dialog i përhershëm që ne kemi me gjykatat.</seg>
@@ -237,7 +237,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-08.seg108">Tha se ia ka propozuar disa herë Komisionit të Ligjeve.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg109">Përmendët ndryshimet e tjera ligjore që prekin diskriminimin në ligje sektoriale. Po për ligjin tuaj, të Komisionerit, pra lidhur me rekomandimin nr. 5, a keni një draft? A është propozuar këtu, në Parlament, apo jo?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-08.u12" ana="#regular" who="#AL_PERS_RobertGajda">
+        <u xml:id="ParlaMint-AL_2025-10-08.u12" ana="#guest" who="#AL_PERS_RobertGajda">
           <seg xml:id="ParlaMint-AL_2025-10-08.seg110">Atëherë, në dijeninë tonë, sidomos me nxitjen që edhe ne kemi bërë pas miratimit të direktivave të Bashkimit Europian, që e kanë marrë tashmë shumë seriozisht shqetësimin, sepse organet e barazisë kanë probleme kudo, kemi qenë në kontakt me Ministrinë e Shëndetësisë dhe Mbrojtjes Sociale, e cila, në dijeninë tonë, ka kontraktuar disa ekspertë, me të cilët ne kemi bashkëbiseduar. Ata na kanë paraqitur një draft, ne kemi dhënë mendimet tona në këtë fazë, le të themi, paraprake, por nuk di të them dhe nuk jam në dijeni nëse ka ndodhur ose jo një propozim konkret këto kohë në Kuvend në lidhje me ndryshimet ligjore për ligjin... Por nuk ndiejmë probleme sa i përket ligjit në lidhje me shkaqet e mbrojtura, është goxha i hapur dhe i bërë mirë; sa u përket formave të diskriminimit, parashikojmë shumë forma të ndryshme diskriminimi; fushave të diskriminimit... Pra, nuk ndiejmë “duar të lidhura” sa i përket kësaj hapësire.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg111">Momenti për të cilin ne kemi insistuar më shumë se duhet të ketë ndryshime ligjore, lidhet me elementet e pavarësisë së institucionit, sidomos pastaj me momentin, që është një dispozitë tashmë në këto direktiva, ku parashikohet se çfarëdolloj kompetence që ushtron Komisioneri apo që i jepet e re, do të duhet gjithmonë të shoqërohet me faturën përkatëse, me mjetet e nevojshme për ta realizuar atë. Kjo ka qenë një gjë që ne e kemi vuajtur më përpara, kur kemi pasur kompetenca të cilat nuk kemi pasur mundësi t’i ushtronim dot pikërisht për faktin se nuk kishim mundësinë objektive reale që të mund të ushtroheshin në vetvete, në mënyrë cilësore dhe efektive.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg112">Ky ka qenë më shumë shqetësimi ynë në lidhje me këto direktiva, dhe në këtë aspekt ne jemi në mospërputhje me këto direktiva, ndërkohë që i tejkalojmë shumë direktivat e Bashkimit Europian sa u përket shkaqeve, formave të diskriminimit, fushave, sepse është goxha i bërë mirë në këtë aspekt.</seg>
@@ -247,7 +247,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-08.seg114">Duke qenë se unë kisha të njëjtat shqetësime si zoti Kaso, vetëm për të vijuar me pyetjen e parë: edhe në raport, edhe tani në prezantim, përmendët pushimin nga puna si shkak të pretenduar të bindjes politike. A keni bashkëpunim me Komisionerin për Mbikëqyrjen e Shërbimit Civil sa i përket kësaj çështjeje?</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg115">Sipas informacioneve që kanë qenë publike deri pak vite më parë, kishte një faturë financiare shumë të lartë për pushimet nga puna për shkak të bindjeve politike, për çështje të fituara në sistemin gjyqësor dhe rikthimin në detyrë, për dy paga për të njëjtin pozicion... Rreth 140 milionë euro ka qenë dy vite më parë fatura e shtetit shqiptar për këtë çështje. A keni bashkëpunim me Komisionerin për Mbikëqyrjen e Shërbimit Civil apo me institucione të tjera, sa i përket këtij fenomeni?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-08.u14" ana="#regular" who="#AL_PERS_RobertGajda">
+        <u xml:id="ParlaMint-AL_2025-10-08.u14" ana="#guest" who="#AL_PERS_RobertGajda">
           <seg xml:id="ParlaMint-AL_2025-10-08.seg116">Po, veçse duhet të vë në evidencë se pjesa më e madhe e çështjeve që ne trajtojmë nuk mbrohet nga statusi i nëpunësit. Në çështjet që janë...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -280,7 +280,7 @@
         <u xml:id="ParlaMint-AL_2025-10-08.u17" ana="#chair" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2025-10-08.seg134">Komisioner, disa nga çështjet do t’i kemi në diskutim edhe në vijim për ligjin për barazinë gjinore, që do të vijë këtu, por janë edhe çështje të rëndësishme që kanë nevojë për debat publik.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-08.u18" ana="#regular" who="#AL_PERS_RobertGajda">
+        <u xml:id="ParlaMint-AL_2025-10-08.u18" ana="#guest" who="#AL_PERS_RobertGajda">
           <seg xml:id="ParlaMint-AL_2025-10-08.seg135">Faleminderit për pyetjet!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg136">Atëherë, edhe këtu po eci kronologjikisht.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg137">Lidhur me dijeninë dhe informimin sa i takon institucionit, po, është e vërtetë, ne e ndiejmë, është një ndjesi e përhershme nga viti në vit që ka nevojë gjithmonë për informim në lidhje me institucionin. Për këtë arsye ndërmerren gjatë vitit fushata të ndryshme. Unë po përmend vetëm njërën, të cilën e kemi edhe merak: zakonisht në muajin shkurt të çdo viti, që përkon edhe me miratimin e ligjit “Për mbrojtjen nga diskriminimi”, zhvillojmë “Javën kundër diskriminimit”, ku specifika është që të gjitha aktivitetet ndodhin në qytete dhe zona rurale. Pra, këtë e kemi merak të përhershëm dhe kryesisht edhe ajo gjë që ne duam të bëjmë është që gjithmonë në pjesën më të madhe të aktiviteteve të jemi jo në Tiranë, pasi është e mbingarkuar (jo se nuk ka nevojë, por ka më pak nevojë, le të themi), të jemi sa më shumë nëpër qytete, qoftë edhe në qytete të vogla, edhe në zona rurale, që të mund të komunikojmë me autoritetet publike, me organizatat nëse janë lokale, aktivistët, në bashkëpunim edhe me aktorë të tjerë, në mënyrë që të informojmë për çështjet që lidhen... edhe për ligjin në vetvete, edhe për potencialin e mekanizmit të Komisionerit për të realizuar të drejtat.</seg>
@@ -300,7 +300,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-08.seg143">Dhe unë kam ankesa, pavarësisht se jam deputet i një zone tjetër, jetoj prej 40 vjetësh në Tiranë dhe kam njohjet e mia. Është reale. Domethënë, parcela është e ndarë dhe këtu janë të lidhur me interesa, se do të ndërtojë filan firmë, do të futet tjetra e me radhë. Ama, këto janë në kushtet e diskriminimit real.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg144">Faleminderit dhe më falni!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-08.u20" ana="#regular" who="#AL_PERS_RobertGajda">
+        <u xml:id="ParlaMint-AL_2025-10-08.u20" ana="#guest" who="#AL_PERS_RobertGajda">
           <seg xml:id="ParlaMint-AL_2025-10-08.seg145">Ne jemi shumë të predispozuar që të presim dhe të shikojmë, le të themi, të kryejmë hetimet tona në lidhje me çështjen, por praktikë të maturuar kemi. Pra, nuk është se ndiejmë këtu ndonjë padijeni. Praktika na ka lejuar që edhe të kuptojmë se si funksionon ligji “Për legalizimet”.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg146">Kështu që, patjetër, në një adresim të çështjeve, ato do të shikohen.</seg>
         </u>
@@ -310,13 +310,13 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-08.u22" ana="#regular" who="#AL_PERS_RobertGajda">
+        <u xml:id="ParlaMint-AL_2025-10-08.u22" ana="#guest" who="#AL_PERS_RobertGajda">
           <seg xml:id="ParlaMint-AL_2025-10-08.seg148">E diskutuar, po themi, kështu, patjetër, por do të duhet ta shikojmë pastaj në terren dhe më konkretisht gjënë; shkon në këtë logjikë.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2025-10-08.u23" ana="#chair" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2025-10-08.seg149">Unë besoj se shqetësimi është: a ka pasur raste që ju i keni hetuar, a ka pasur hetime administrative për një diskriminim të tillë, sepse nuk po ndodh për herë të parë, por ka vite?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-08.u24" ana="#regular" who="#AL_PERS_RobertGajda">
+        <u xml:id="ParlaMint-AL_2025-10-08.u24" ana="#guest" who="#AL_PERS_RobertGajda">
           <seg xml:id="ParlaMint-AL_2025-10-08.seg150">Jo, ka pasur për legalizime, pra jo për shkak të bindjeve politike, por për shkak të racës dhe etnisë, të paktën nga çështjet që na janë adresuar. Pra, jurisprudencë kemi, por jo për bindje politike në këtë lloj fushe.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg151">Një nga pyetjet lidhej me pagesën midis grave dhe burrave. Edhe në këtë rast ka një direktivë të Bashkimit Europian, por jo vetëm, janë disa institucione. Ne jemi në bashkëpunim të ngushtë me organizatat, sidomos ato që merren me çështjet gjinore, në mënyrë që të mund të kemi, në radhë të parë, monitorime, që pastaj mund të nxisin edhe kryerjen e hetimeve edhe ex officio nga ana e institucionit, që të mund të shikohet diferencim. Jo më larg se dje, isha në një aktivitet, ku flitej kryesisht për punonjësit që merren me pastrimin e qyteteve dhe, për shembull, një nga gjërat që dilte aty, ishte që, sidomos, kur pastrimi i qyteteve bëhej nga subjekte private, të paktën nga monitorimi që ishte bërë, ekzistonte një lloj diferencimi në pagesat midis grave dhe burrave.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg152">Kjo ishte për të marrë një shembull shumë të freskët. Kemi dijeni për këtë gjë, por ankesa të adresuara të kësaj natyre nuk ka. Kjo nuk do të thotë që ajo do të pengonte gjë, por na nevojiten monitorime më të strukturuara, që të na nxisë për të bërë një hetim dhe për të hyrë në një fushë të caktuar, sepse çështja është e ndarë edhe në sektorë, për të parë më nga afër nëse për të njëjtën punë, për të njëjtën kohë ka një diferencim gjinor të pagës midis burrave dhe grave.</seg>
@@ -335,7 +335,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-08.seg161">Kjo është shumë e rëndësishme, sepse duhet të dalim jashtë ankesës. Për shembull, në pikëpamjen time të kohëve të fundit, edhe për shkak të mosqenies këtu, shumë veta ankohen për energjinë elektrike tek OSHEE-ja, në një kohë që mund të kenë Entin Rregullator të Energjisë që mund ta rregullojë; ose shumë veta shkojnë në një institucion tjetër, sepse e dinë që aty bëhet lidhja, por problemi i ankesës duhet adresuar diku tjetër. Në rastin konkret, ju e keni të nevojshëm ndryshimin e legjislacionit për t’u futur me iniciativë, për të ndjekur një kategori të caktuar, një problem, qoftë edhe nga shtypi? Jo të gjithë njerëzit kanë mundësi të shkojnë tek avokati, sepse nuk dinë të formulojnë kërkesën që adresohet, në mënyrën e kërkuar nga ligji.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg162">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-08.u27" ana="#regular" who="#AL_PERS_RobertGajda">
+        <u xml:id="ParlaMint-AL_2025-10-08.u27" ana="#guest" who="#AL_PERS_RobertGajda">
           <seg xml:id="ParlaMint-AL_2025-10-08.seg163">Institucioni e ka mundësinë, nuk ka pengesë ligjore për këtë gjë, e ushtron.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg164">Sipas ligjit, duhet të jetë një burim informacioni i besueshëm dhe zakonisht, kur neve na vijnë sinjalizime nga organizatat e shoqërisë civile apo nga media, kemi nisur çështje ex oficcio. Për shembull, një shqetësim që na ka lindur me mediet është se në disa raste ka rezultuar që lajmi ka qenë i pavërtetë dhe pastaj kjo e ka rrëzuar të gjithë nisjen e çështjes. Nuk ndodh shpesh, ky nuk është shqetësim madhor, në këndvështrimin tim, por shqetësimi madhor ngelet në faktin që, duke qenë se institucioni është në përballje të madhe me ankesat që i vijnë dhe kjo lidhet me kapacitetet, ne mendojmë se duhet të kemi njerëz të posaçëm, të cilët duhet të merren vetëm me nisjen e çështjeve ex oficcio. Jam shumë dakord edhe me evidentimin që bëri relatori i raportit që institucioni kryesisht ka qenë reaktiv, por patjetër do të ishte shumë proaktiv, nëse do të kishte kapacitetet e duhura për ta bërë. Mendoj se kjo është pika kryesore. Çështjet ex oficcio nuk na kanë munguar, por duhet të ishin më të shumta dhe më efektive, sepse çështjet ex oficcio kanë edhe diçka tjetër, që ne nuk nisim çështje ex oficcio për një individ, por, kur shohim që ka një situatë problematike për një grup të tërë, atëherë e nisim, por këto janë çështje më komplekse për t’u trajtuar, çka do të thotë që kërkojnë më shumë energji, kohë, njerëz që do të merren me këtë gjë.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg165">Kryesisht, kjo ka qenë, pra shtimi i numrit të ankesave të cilat, në një farë mënyre, e kanë mbuluar aspektin, por përsëri mendoj se nuk mund të konsiderohet i mbuluar, sepse është e nevojshme të ketë një proaktivitet më të madh, pa diskutim.</seg>
@@ -350,7 +350,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-08.seg170">Pyetjen e tretë e kam pak më konkrete. Qysh në fillim të raportimit tuaj ju folët për problematikat që kanë shtresat e margjinalizuara në aksesin e punësimit, të arsimit, të marrjes së shërbimeve shëndetësore apo të shërbimeve të llojeve të tjera. Në fakt, unë do të ndalem te personat me aftësi të kufizuara. Ka një ligj, ligji nr.15 i vitit 2019 “Për nxitjen e punësimit”, në nenin 23 të të cilit përcaktohet që punëdhënësit, të cilët kanë më shumë se 25 punonjës të punësuar, janë të detyruar të punësojnë një person me aftësi të kufizuara. Dua të di se cili është roli juaj në monitorimin e zbatimit të këtij ligji, sidomos në institucionet publike. A keni shumë raste ankimimesh që kanë këtë adresim, këtë shkak, të adresuara drejt institucionit tuaj? Gjithashtu, cilat janë vendimet tuaja në këto raste?</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg171">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-08.u30" ana="#regular" who="#AL_PERS_RobertGajda">
+        <u xml:id="ParlaMint-AL_2025-10-08.u30" ana="#guest" who="#AL_PERS_RobertGajda">
           <seg xml:id="ParlaMint-AL_2025-10-08.seg172">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg173">Edhe në bazë të ligjit “Për përfshirjen dhe aksesueshmërinë e personave me aftësi të kufizuara”, Komisioneri është pjesë dhe duhet të jetë pjesë edhe e mbledhjes që duhet të bëhet me organizatat e shoqërisë civile për aftësitë e kufizuara, që është në formë komiteti, për të diskutuar për çështje politikash. Kështu që, jemi gjerësisht të interesuar për monitorimin, jo vetëm për trajtimin e ankesave. Specifikisht, ne kemi bërë një monitorim në lidhje me këtë shqetësim që ju ngrini, sepse në këndvështrimin tonë është një mundësi shumë e mirë të garantohet punësimi i personave më aftësi të kufizuara, qoftë edhe për interes ekonomik të shtetit. Sa më shumë persona me aftësi të kufizuara të punësuar të ketë, aq më pak je i detyruar të paguash aspekte të tjera dhe jo vetëm. Normalisht, kjo u krijon mundësi reale dhe pavarësi ekonomike e shoqërore personave me aftësi të kufizuara, që të ndihen pjesë normale e të gjithë shoqërisë, pa qenë të përjashtuar.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg174">Pyetësorin tonë e kemi fokusuar kryesisht në administratën publike, qendrore dhe vendore, ku nga përgjigjet që na kanë ardhur ka rezultuar se asnjë institucion në Republikën e Shqipërisë nuk e respekton kuotën që një në 25 punonjës duhet të jetë me aftësi të kufizuara.</seg>
@@ -369,7 +369,7 @@
         <u xml:id="ParlaMint-AL_2025-10-08.u32" ana="#chair" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2025-10-08.seg184">Zoti Komisioner.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-08.u33" ana="#regular" who="#AL_PERS_RobertGajda">
+        <u xml:id="ParlaMint-AL_2025-10-08.u33" ana="#guest" who="#AL_PERS_RobertGajda">
           <seg xml:id="ParlaMint-AL_2025-10-08.seg185">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg186">Atëherë, po i marrë me radhë pyetjet edhe këtu. Kryesisht gjetjet e Komisionerit bëhen, në radhë të parë, në bazë të hetimeve që institucioni kryen dhe hetimet konsistojnë në disa faza. E para është faza dokumentare, pra korrespodenca me institucionin; e dyta është inspektimi dhe e treta është seanca dëgjimore. Në pjesën më të madhe ftohen subjektet dhe ka një ballafaqim mes palëve, që regjistrohet me audio dhe pastaj bëhet edhe objekt shqyrtimi në gjyqësor. Pra, dijenia jonë nuk është perceptive, por është hetimore. Janë gjetje ku ndër vite ndodh e njëjta gjë, nuk është vetëm i këtij viti ky trend. Bëhen hetime dhe gjenden shkaqe. Nuk është bërë një studim analitik përmbledhës i këtyre shkaqeve, në këndvështrimin që ju thoni, por në pjesën më të madhe nga gjetjet tona rezulton se përdoret shpesh koncepti i ristrukturimit, për t’i bërë këto heqje nga puna.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg187">Për shembull, na ka rezultuar që ristrukturimi të bëhet edhe vetëm për një vend pune, nuk i prek të gjitha, dhe mund të ndodhë shumë shpesh. Ka ristrukturime që ndodhin brenda 2 apo 3 muajve apo edhe më shumë, gjatë një viti. Gjithsesi, në pjesën më të madhe, ju duhet ta kuptoni që, sidomos për bindjet politike, një nga përgjigjet që na vjen nga administrata është: ne nuk e kemi bindjen politike të personit, sepse me ligj na ndalohet të kemi bindjet politike të personit, por në pjesën më të madhe ne shohim se situatat që lidhen me bindjen politike janë situatat në të cilat administrata nuk ka arritur dot të argumentojë objektivisht pse e ka hequr dikë nga puna. Pra, ne shohim shkelje haptazi të ligjit, edhe për procedurat që duhet të ndjekë një administratë për të hequr dikë nga puna, por edhe motivi pastaj, që duhet të jetë një shkak objektivisht i arsyeshëm, nuk na jepet (dhe kjo është në pjesën më të madhe të vendimmarrjes sonë) fare nga administrata pse është hequr dikush, por jepen arsye që janë të pavërteta. Për shembull, etika në punë, por pa pasur asnjë vlerësim performance, masa disiplinore të mëparshme apo ndonjë evidencë se si është shkelur kjo etikë, por thjesht vendoset aty si arsyetim për ta hequr dikë, por më pas, kur kërkohet argument për ta pasur këtë aspekt, le të themi se kjo ka qenë mangësi nga ana e administratës.</seg>
@@ -389,7 +389,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-08.seg191">Duke iu referuar 30% të rasteve, pa dyshim, unë jam shumë e bindur se hetimi në këtë rast ka qenë i thelluar dhe i gjithë argumenti qëndron. Arritja në këtë përfundim, bazuar në rastet që ju si institucion keni hetuar është relative, sepse, nëse në një vit (nëse i referohemi raportimit të vitit 2024 në këtë rast, për të marrë një njësi matëse të caktuar) ne kemi 500 apo 1000 vendime gjyqësore, të cilat janë të një natyre të caktuar dhe që ndoshta të gjitha mund të interpretohen në linjën e diskriminimit, për shkak të bindjes politike, sikundër të gjitha jo.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg192">Pyetja ime është: raporti i hetimit tuaj, në raport me masën e përgjithshme të vendimeve për largimin nga puna, në çfarë përqindje qëndron, për të vlerësuar ne nëse përfundimi juaj ka realisht një ndikim të madh në këtë proces? Pra, bindja juaj që kjo vjen për diskriminim politik është realisht e qenësishme në raport me situatën në përgjithësi për këtë problematikë. Ky ishte qëllimi im, pra relativizimi në raport me situatën, apo ju, për të ndalë në këtë përfundim, u referoheni vetëm 30 rasteve hetimore?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-08.u36" ana="#regular" who="#AL_PERS_RobertGajda">
+        <u xml:id="ParlaMint-AL_2025-10-08.u36" ana="#guest" who="#AL_PERS_RobertGajda">
           <seg xml:id="ParlaMint-AL_2025-10-08.seg193">E para, unë nuk absolutizova asgjë, por përmenda gjetjet që ne kemi në institucion.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg194">E dyta, unë konfirmova që shifra e vitit 2024 është trend, nuk është vetëm viti 2024, prandaj duhet bërë një shumatore e të gjitha viteve, madje gjatë viteve të tjera ka pasur edhe më shumë ankesa që lidheshin me bindjet politike. Unë nuk marr përsipër të them nëse ky është shkaku predominant i heqjeve nga puna që ndodhin qoftë në pushtetin vendor apo në pushtetin qendror.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg195">Së pari, nuk e kemi bërë një statistikë të tillë.</seg>
@@ -523,7 +523,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-08.seg264">Po e vazhdoj unë drejtimin, në mungesë të kryetares.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg265">Fjala për ju, zoti Komisioner.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-08.u62" ana="#regular" who="#AL_PERS_RobertGajda">
+        <u xml:id="ParlaMint-AL_2025-10-08.u62" ana="#guest" who="#AL_PERS_RobertGajda">
           <seg xml:id="ParlaMint-AL_2025-10-08.seg266">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg267">Po e nis me rekomandimin nr. 5, për ndryshimin e ligjit në lidhje me zbatueshmërinë e tij.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg268">Unë mendoj se për sa i përket ligjit, ne nuk ndiejmë kufizime, prandaj nuk mendoj që ka pasur nevojë për sa i zbatimit, por gjëja që ne kemi vënë re është se na nevojitet një raport mbikëqyrjeje apo një mënyrë mbikëqyrjeje, komunikimi dhe raportimi, sidomos në lidhje me Kuvendin. Prandaj jemi shumë entuziastë dhe kemi dashur të bëhemi pjesë të parët në këtë projekt pilot në lidhje me këtë gjë, sepse ndiejmë që, duke pasur një komunikim më të mirë dhe duke gjetur disa pika të përbashkëta, disa aspekte, të paktën që lidhen me pushtetin qendror, mund të jenë të zbatueshme dhe të ekzekutueshme. Problemi na mbetet hapur për dy kategori të tjera subjektesh: pushtetin vendor dhe subjektet private. Le të themi që këto nuk mbulohen nga ky mekanizëm në vetvete.</seg>
@@ -562,7 +562,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-08.seg296">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg297">Unë mendoj të nisim një komunikim dhe bashkëpunim të ri me institucionin tuaj.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-08.u64" ana="#regular" who="#AL_PERS_RobertGajda">
+        <u xml:id="ParlaMint-AL_2025-10-08.u64" ana="#guest" who="#AL_PERS_RobertGajda">
           <seg xml:id="ParlaMint-AL_2025-10-08.seg298">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg299">Më erdhi mirë, sepse iu kushtua një vëmendje kaq e madhe veprimtarisë sonë si institucion, me një set pyetjesh dhe kuriozitetesh, që lidheshin pikërisht me punën që ne bëjmë dhe nuk dolën jashtë fokusit të saj.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-08.seg300">Faleminderit!</seg>

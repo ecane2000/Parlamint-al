@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2025-11-27" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2025-11-27" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2025-11-27</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2025-11-27</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni i Posaçëm Parlamentar për Reformën Administrativo-Territoriale, 2025-11-27</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Special Parliamentary Committee on Administrative-Territorial Reform, 2025-11-27</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KPRAT" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -39,7 +39,7 @@
       <sourceDesc>
         <bibl>
           <title type="main" xml:lang="sq">Procesverbal i Kuvendit të Shqipërisë</title>
-          <idno type="URI">https://www.kuvendi.gov.al/</idno>
+          <idno type="URI">https://kuvendiwebfiles.blob.core.windows.net/webfiles/202608060725076446Procesverbal_Dt_27.11.2025.pdf</idno>
           <date when="2025-11-27">2025-11-27</date>
         </bibl>
       </sourceDesc>
@@ -240,7 +240,7 @@
           <seg xml:id="ParlaMint-AL_2025-11-27.seg106">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-11-27.seg107">Zoti Nallbati, fjala për ju.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-11-27.u19" ana="#regular" who="#AL_PERS_BledionNallbati">
+        <u xml:id="ParlaMint-AL_2025-11-27.u19" ana="#regular" who="#AL_PERS_BledjonNallbati">
           <seg xml:id="ParlaMint-AL_2025-11-27.seg108">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-11-27.seg109">Së pari, unë dua t’i uroj punë të mbarë këtij komisioni, që të dalë me një produkt sa më të mirë e në interes të qytetarëve. E që produkti të jetë në interes të qytetarëve, kjo varet nga mënyra se si ne e shikojmë pozicionin tonë këtu ku jemi ulur. Nëse kemi ardhur këtu duke e menduar veten tonë si shërbëtorë të qytetarëve, pa diskutim që do të kemi një produkt të mirë.</seg>
           <seg xml:id="ParlaMint-AL_2025-11-27.seg110">Nëse e shikojmë veten si shërbëtorë të partisë e të pushtetit, pa diskutim që produkti do të jetë ai që ka qenë, ai i 2014-ës, e ndoshta edhe më i keq, sikundër duket tendenca.</seg>
@@ -317,7 +317,7 @@
           <seg xml:id="ParlaMint-AL_2025-11-27.seg158">Pra, na duhet ta rishikojmë dhe të bëjmë një analizë të thellë me shifra e me statistika, që të mund të dalim në konkluzionin se kjo reformë duhet thelluar akoma më shumë.</seg>
           <seg xml:id="ParlaMint-AL_2025-11-27.seg159">Shumë faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-11-27.u30" ana="#regular" who="#AL_PERS_ArbanMazniku">
+        <u xml:id="ParlaMint-AL_2025-11-27.u30" ana="#chair" who="#AL_PERS_ArbjanMazniku">
           <seg xml:id="ParlaMint-AL_2025-11-27.seg160">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-11-27.seg161">Zoti Likaj.</seg>
         </u>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-09-17" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-09-17" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-09-17</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-09-17</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Konferenca e Kryetarëve, 2026-09-17</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Conference of Chairpersons, 2026-09-17</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KonferencaKryetareve" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -97,13 +97,13 @@
         <u xml:id="ParlaMint-AL_2026-09-17.u2" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-09-17.seg11">Kërkesën e relatove ti, kështu që, meqenëse kemi kohë të kufizuar...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-17.u3" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-09-17.u3" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-09-17.seg12">Kam unë diçka.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-17.u4" ana="#chair" who="#AL_PERS_NikoPeleshi">
           <seg xml:id="ParlaMint-AL_2026-09-17.seg13">Po, zoti Balla.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-17.u5" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-09-17.u5" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-09-17.seg14">Gjithmonë para prezantimit të një kërkese për ngritjen e komisionit hetimor, bëhen dy vlerësime: një i aspektit formal dhe tjetri i aspektit përmbajtjesor.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-17.seg15">Për sa i përket aspektit formal, nuk kam gjë, sepse kërkesa i plotëson parakushtet që përcaktojnë Kushtetuta dhe ligji i posaçëm për komisionet hetimore.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-17.seg16">Lidhur me çështjet përmbajtjesore, në vlerësimin tim, kërkesa nuk i përmbush kriteret kushtetuese dhe ligjore për ngritjen e një komisioni hetimor parlamentar, në mënyrë të veçantë sa i përket ekzistencës së një çështjeje të veçantë, e cila të mund të justifikohet me fakte dhe grupfakte, sipas përcaktimeve të Gjykatës Kushtetuese në lëmin e procedurave dhe të vlerësimeve që bën Kuvendi, kur bëhet fjalë për ngritjen e një komisioni hetimor.</seg>
@@ -221,13 +221,13 @@
         <u xml:id="ParlaMint-AL_2026-09-17.u21" ana="#regular" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2026-09-17.seg94">Unë e kuptova sikur do të ishte e mundur të shohim... Ai u shpreh kundër, por...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-17.u22" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-09-17.u22" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-09-17.seg95">Jam kundër kësaj, por argumentet e tjera do t’i shpreh në seancë.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-17.u23" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-09-17.seg96">Kështu e kuptova edhe unë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-17.u24" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-09-17.u24" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-09-17.seg97">Argumente të tjera kundër.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-17.u25" ana="#regular" who="#AL_PERS_JoridaTabaku">
@@ -236,7 +236,7 @@
         <u xml:id="ParlaMint-AL_2026-09-17.u26" ana="#chair" who="#AL_PERS_NikoPeleshi">
           <seg xml:id="ParlaMint-AL_2026-09-17.seg99">Kemi 15 ditë kohë. Pra, brenda 15 ditëve i kalon seancës.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-17.u27" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-09-17.u27" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-09-17.seg100">Nuk jemi të detyruar ta fusim sot në seancë.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-17.u28" ana="#regular" who="#AL_PERS_GazmentBardhi">
@@ -267,7 +267,7 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-17.u35" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-09-17.u35" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-09-17.seg112">E para, e vlerësoj shumë që dje ka pasur një punë të përbashkët të kryetarit e të nënkryetares së komisionit, ku u dakordësua që sot të ulemi përsëri. Duke qenë se kemi një eksperiencë pozitive nga komisioni, mendoj se Kryetari i Kuvendit, kryetari i komisionit dhe zonja Vokshi, në një moment përgjatë seancës të ulen përsëri, pasi ka disa detaje për të saktësuar. Personalisht, por besoj edhe ju, zoti Bardhi, edhe ju, zoti Mediu, edhe të tjerë, mund të gjejmë aty detaje që duhen saktësuar.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-17.seg113">Në ç’kuptim? Në kuptimin që ne duhet të kemi një deklaratë shumë të mirë. Duke pasur parasysh edhe dokumentet që keni publikuar dje, na duhet të kemi një kontakt edhe me Kuvendin e Kosovës, për të qenë në të njëjtën linjë. Kështu që, le të mos e prishim këtë fillesë të mirë që ka nisur në komision. Le të bëjnë një takim në orën 11, për shembull (se ne këtu jemi gjatë sot), Kryetari i Kuvendit me kryetarin dhe nënkryetaren, për të parë deklaratën, sepse unë mendoj se do të na duhet një plan pune shumë i detajuar nga sot, nesër, pasnesër e në ditët që vijnë. Pra, nuk do të mjaftohemi thjesht të bëjmë një deklaratë, pasi, realisht, jemi në kushtet kur, sipas vlerësimit tim, ka ndodhur një gjëmë e madhe, në kuptimin e arsyetimit. Gjithsesi, nuk po hyj në këtë çështje, pasi zoti Bardhi ishte shterues në atë çfarë tha. Këtu nuk ka nevojë për të bërë politikë, ka nevojë për të bërë atë që është e duhura. Kështu që, meqenëse u nis aty dhe kishte një mirëkuptim, siç e thatë edhe ju, le t’ia lëmë Kryetarit të Kuvendit ta udhëheqë këtë proces, në konsultim me aty ku jemi të përfaqësuar për këtë çështje, se kjo nuk është vetëm politikë e jashtme, është politikë kombëtare. Gjithsesi, mendoj se instrumenti i nisur është i duhuri.</seg>
         </u>
@@ -343,7 +343,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-09-17.seg135">Ose caktoj dikë tjetër.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-17.u49" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-09-17.u49" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-09-17.seg136">Mund të caktosh dikë nga Komisioni i Jashtëm.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-17.u50" ana="#regular" who="#AL_PERS_GazmentBardhi">
@@ -406,14 +406,14 @@
         <u xml:id="ParlaMint-AL_2026-09-17.u61" ana="#regular" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-17.seg151">Për t’i dhënë rëndësinë e duhur, unë mendoj ta hapim seancën me rendin e ditës e me të gjitha, dhe pastaj Kryetari i Kuvendit të thotë...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-17.u62" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-09-17.u62" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-09-17.seg152">Do të vazhdojmë ne me ato, sepse do të vazhdojë puna. Ka një çikë punë ajo.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-17.seg153">Kush është marrë me shkrimin e deklaratave, e di. Duhet të bëjmë një gjë tamam.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-17.u63" ana="#regular" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-17.seg154">Është punuar qysh dje për deklaratën.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-17.u64" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-09-17.u64" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-09-17.seg155">Por nuk është gati.</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -422,7 +422,7 @@
         <u xml:id="ParlaMint-AL_2026-09-17.u65" ana="#regular" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2026-09-17.seg156">Ne shprehim besimin tonë te zoti Hasani dhe te zonja Vokshi.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-17.u66" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-09-17.u66" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-09-17.seg157">Se kush do ta zëvendësojë zonjën Vokshi, do ta thotë zoti...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>

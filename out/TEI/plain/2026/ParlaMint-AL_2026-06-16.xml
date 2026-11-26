@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-06-16" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-06-16" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-06-16</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-06-16</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Çështjet Ligjore dhe Administratën Publike, 2026-06-16</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Legal Affairs and Public Administration, 2026-06-16</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_CLAP" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -231,7 +231,7 @@
         <u xml:id="ParlaMint-AL_2026-06-16.u14" ana="#regular" who="#AL_PERS_EnkelejdaMuçaj">
           <seg xml:id="ParlaMint-AL_2026-06-16.seg109">E merr fjalën zoti Kalemi.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-06-16.u15" ana="#regular" who="#AL_PERS_GledisKalemi">
+        <u xml:id="ParlaMint-AL_2026-06-16.u15" ana="#guest" who="#AL_PERS_GledisKalemi">
           <seg xml:id="ParlaMint-AL_2026-06-16.seg110">Faleminderit, zoti kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-06-16.seg111">Faleminderit për pyetjen, zonja deputete!</seg>
           <seg xml:id="ParlaMint-AL_2026-06-16.seg112">Koncepti i furnizuesit të mundësisë së fundit është një mekanizëm i krijuar nga ligji për të garantuar nevojën e konsumatorëve për të gjetur një mbështetje në rast se ata nuk arrijnë të sigurojnë një kontratë të re furnizimi në afatin e caktuar, si dhe në rastet kur furnizuesi aktual humbet aftësinë paguese ndaj prodhuesit të energjisë elektrike dhe shkon drejt falimentimit.</seg>
@@ -256,7 +256,7 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2026-06-16.u19" ana="#regular" who="#AL_PERS_GledisKalemi">
+        <u xml:id="ParlaMint-AL_2026-06-16.u19" ana="#guest" who="#AL_PERS_GledisKalemi">
           <seg xml:id="ParlaMint-AL_2026-06-16.seg124">Faleminderit për pyetjet!</seg>
           <seg xml:id="ParlaMint-AL_2026-06-16.seg125">Lidhur me infrastrukturën energjetike të nevojshme për vendosjen e paneleve fotovoltaike për vetëkonsum nga ana e konsumatorëve, dua të theksoj se aktualisht në Republikën e Shqipërisë janë të instaluara rreth 400 megavatë fuqi nga impiante fotovoltaike. Pra, është një koncept që ka filluar të implementohet në Shqipëri me miratimin e ligjit "Për burimet e rinovueshme", i cili është miratuar në Parlament në vitin 2023, dhe sot jemi në kushtet që janë 400 megavatë fuqi e instaluar nga këta konsumatorë.</seg>
           <seg xml:id="ParlaMint-AL_2026-06-16.seg126">Ky projektligj jo vetëm që forcon rolin e tyre, por bën të mundur edhe krijimin e disa koncepteve të reja, siç janë komunitetet energjetike të qytetarëve, si dhe konceptin e ndarjes së energjisë elektrike. Pra, në qoftë se deri më sot trajtimi i klientëve ishte si vetëprodhues në forma të veçanta, tashmë do të kenë mundësinë edhe për t’u bashkuar në komunitete dhe për të fuqizuar investimet e tyre, si dhe do të kenë mundësinë e një koncepti që quhet "ndarja e energjisë elektrike".</seg>
@@ -416,7 +416,7 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2026-06-16.u41" ana="#regular" who="#AL_PERS_GledisKalemi">
+        <u xml:id="ParlaMint-AL_2026-06-16.u41" ana="#guest" who="#AL_PERS_GledisKalemi">
           <seg xml:id="ParlaMint-AL_2026-06-16.seg198">Zoti Ndoja, duke ju falënderuar për pyetjen doja t'ju sqaroja se instalimi i matjes inteligjente për të gjitha kontratat e furnizimit me energji elektrike në Republikën e Shqipërisë do të bëhet pas një vlerësimi pozitiv të analizës kosto-përfitim, e cila do të zgjasë nga momenti i fillimit të kësaj, pra duhet të shkojë brenda 7 vjetëve, dhe do të jetë pa pagesë për klientët e energjisë elektrike.</seg>
           <seg xml:id="ParlaMint-AL_2026-06-16.seg199">Pra, Operatori i Sistemit të Shpërndarjes do të bëjë të gjitha analizat e saj në raport me implementimin e matjes inteligjente dhe bazuar në analizën kosto-përfitim, në rastin e një rezultati pozitiv, të gjithë matësit e kontratave të furnizimit me energji elektrike do të shkojnë drejt sistemit të matjes inteligjente dhe pa pagesë shtesë për klientët.</seg>
           <seg xml:id="ParlaMint-AL_2026-06-16.seg200">Ju faleminderit!</seg>

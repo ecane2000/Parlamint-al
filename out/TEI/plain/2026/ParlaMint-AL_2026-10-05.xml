@@ -3,8 +3,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-10-05</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-10-05</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Seancë plenare, 2026-10-05</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Plenary sitting, 2026-10-05</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
         <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
         <respStmt>
@@ -236,7 +236,7 @@
           <seg xml:id="ParlaMint-AL_2026-10-05.seg77">Fjalën e ka zoti Taulant Balla, 10 minuta nga koha e Grupit Parlamentar të Partisë Socialiste.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-05.seg78">Më pas fjala për zonjën Jorida Tabaku, 5 minuta.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-05.u8" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-10-05.u8" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-10-05.seg79">Herën e fundit që e kam dëgjuar shprehjen “nuk qëndrojmë më në këtë sallë me ju”, ka qenë diku në fillim të vitit 2019.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-05.seg80">Historia që pasoi dihet: Partia Demokratike iku nga Kuvendi, iku nga zgjedhjet dhe pastaj fundi dihet. Shumë miqësisht, uroj të mos e merrni këtë vendim. Megjithatë, zgjedhjet janë tuajat.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-05.seg81">Në vitin 2014 morët të njëjtin vendim për të bojkotuar reformën administrativo-territoriale. Së bashku me partinë aleate me ju sot, Lëvizjen Socialiste për Integrim, asokohe, ne i dhamë të një reforme Shqipërisë hapin e parë administrativo-territoriale. Shkuam nga 384 njësi në 61. Rezultatet janë tejet pozitive, sepse të ardhurat vendore për çdo banor u katërfishuan, ndërsa borxhet dhe detyrimet e prapambetura u ulën me 3/4-tat. Dhe ky është një hap i madh.</seg>

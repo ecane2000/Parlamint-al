@@ -1,0 +1,617 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-04-08-1" xml:lang="sq" ana="#parla.committee.standing #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Evropën dhe Punët e Jashtme, 2026-04-08</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Europe and Foreign Affairs, 2026-04-08</title>
+        <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
+        <meeting corresp="#AL_ORG_KEPJ" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
+        <respStmt>
+          <resp xml:lang="sq">Përgatitur nga</resp>
+          <resp xml:lang="en">Prepared by</resp>
+          <name>ParlaMint-AL</name>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="sq">CLARIN ERIC</orgName>
+          <orgName xml:lang="en">CLARIN ERIC</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>5.0</edition>
+      </editionStmt>
+      <extent>
+        <measure unit="speeches" quantity="61" xml:lang="sq">61 fjalime</measure>
+        <measure unit="speeches" quantity="61" xml:lang="en">61 speeches</measure>
+        <measure unit="words" quantity="13707" xml:lang="sq">13707 fjalë</measure>
+        <measure unit="words" quantity="13707" xml:lang="en">13707 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Kuvendi i Shqipërisë; CLARIN ERIC</publisher>
+        <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2004</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="sq">Ky punim publikohet nën licencën Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+          <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+        </availability>
+        <date when="2026-08-28">2026-08-28</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="sq">Procesverbal i Kuvendit të Shqipërisë</title>
+          <idno type="URI">https://kuvendiwebfiles.blob.core.windows.net/webfiles/202610051255324114Procesverbal dt 8.4.2026 pj 1.pdf</idno>
+          <date when="2026-04-08">2026-04-08</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="sq">ParlaMint-AL: korpus i krahasueshëm i seancave parlamentare, i përputhshëm me ParlaMint v5.</p>
+        <p xml:lang="en">ParlaMint-AL: comparable parliamentary corpus of Albania, conforming to ParlaMint v5.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1" />
+          <tagUsage gi="body" occurs="1" />
+          <tagUsage gi="div" occurs="1" />
+          <tagUsage gi="note" occurs="2" />
+          <tagUsage gi="u" occurs="61" />
+          <tagUsage gi="seg" occurs="339" />
+          <tagUsage gi="vocal" occurs="22" />
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kuvendi i Shqipërisë</name>
+          <name type="city">Tiranë</name>
+          <name type="country" key="AL">Albania</name>
+          <date when="2026-04-08">2026-04-08</date>
+        </setting>
+      </settingDesc>
+      <langUsage>
+        <language ident="sq" xml:lang="sq">shqip</language>
+        <language ident="en" xml:lang="en">English</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-08-28">: Initial conversion to ParlaMint 5.0 TEI XML.<name>ParlaMint-AL</name></change>
+    </revisionDesc>
+  </teiHeader>
+  <text ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u1" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg1">Mirëmëngjesi, të nderuar kolegë!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg2">Shoh që e kemi kuorumin e nevojshëm për të hapur mbledhjen e ditës së sotme 8 prill 2026, me rend dite: miratimi i procesverbalit të mbledhjes së Komisionit për Evropën dhe Punët e Jashtme të datës 5 dhjetor 2025, më pas do të shqyrtojmë projektligjin “Për ratifikimin e konventës shumëpalëshe “Për lehtësimin e zbatimit të shtyllës së dytë të subjektit të rregullit tatimor”, si dhe projektligjin “Për aderimin e Republikës së Shqipërisë në marrëveshjen për zbatimin e dispozitave të “Konventës së Kombeve të Bashkuara për të drejtën e detit të 10 dhjetorit 1982, që lidhen me ruajtjen dhe menaxhimin e burimeve peshkore ndërkufitare dhe të burimeve shumëmigruese”.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg3">Për procedurë, kush e do fjalën?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg4">Zoti Shehu, fjala për ju.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u2" ana="#regular" who="#AL_PERS_TritanShehu">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg5">Faleminderit, zoti kryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg6">Dua të tërheq vëmendjen e komisionit për një shkelje të rëndë të Rregullores që po ndodh. Në bazë të Rregullores, siç folëm së bashku, ne, shtatë deputetë, kemi paraqitur kërkesën për zotin Rama për të ardhur në seancë dëgjimore në komision në lidhje me artikullin e publikuar në gazetën gjermane me Vuçiçin, artikull që bie ndesh me interesat kombëtare, me konceptet e integrimit dhe që realisht mori një përgjigje shumë negative edhe nga vetë Brukseli këtë periudhë, sepse bie ndesh me parimet e Brukselit në fushat e integrimit të vendeve kandidate. Duke qenë se zoti Rama është Kryeministri i Shqipërisë, pa dyshim implikimet janë mjaft të mëdha. Kjo, jo vetë se ai shkrim ishte për Shqipërinë, por edhe sepse del në një artikull me Vuçiçin, i cili ka interesa krejt të ndryshme ndaj Shqipërisë në lidhje me integrimin evropian dhe varësi krejt të tjera, me një fytyrë drejt lindjes. Në këto kushte, pa dyshim, nuk mund që mos tërhiqej vëmendja e anëtarëve të Komisionit të Jashtëm, të shqetësoheshim thellësisht për këtë gjë, sepse kjo është një tentativë, që realisht e minon integrimin evropian, prandaj ne kërkuam që zoti Rama të vijë në komision dhe të japë shpjegimet e tija për atë artikull, i cili nuk mund të merret në titull si një artikull personal, si çdo autor tjetër, pasi ai është Kryeministri i Shqipërisë. Pra, është me implikime të mëdha politike, diplomatike dhe integruese të vendit tonë. Pa dyshim, kjo shpreh filozofinë, trendin, vizion e tij si Kryeministër, jo si individ, sidomos të qeverisë shqiptare, të kësaj mazhorance që është sot. Në këto kushte, ne e konsiderojmë të domosdoshme që zoti Rama të vijë në këtë komision, të japë shpjegime, të dëgjojë pyetjet, vërejtjet, mendimet e deputetëve, siç bëhet në çdo vend demokratik dhe siç do të bëhej në çdo vend demokratik kur kryeministri i një vendi mund të dilte në një artikull të tillë, aq më shumë me Vuçiçin, për një çështje thelbësore për Shqipërinë. Deri tani ne nuk kemi marrë asnjë lloj përgjigje për këtë çështje, ka një heshtje të plotë, që bie në ndesh me Rregulloren e këtij të Parlamenti. Unë mendoj se kjo duhet ta shqetësojë të gjithë komisionin, jo vetëm ne. Kjo realisht është një ofendim për të gjithë Komisionin e Jashtëm, nuk është vetëm një mohim i një të drejte të deputetëve që janë ngarkuar. Unë mendoj se në këtë mënyrë shkelet një e drejtë e anëtarëve të komisionit. Nesër mund të jeni ju që të kërkoni diçka të tillë dhe është një e drejtë absolute e rregulluar me Rregulloren e Parlamentit e deputetëve. Për këtë nuk ka asnjë lloj përgjigjeje. Prandaj, unë kërkoj të sensibilizoj Komisionin e Jashtëm, ju, si kryetar, që ta ngrini këtë shqetësim edhe në Konferencën e Kryetarëve sa më shpejt për një shkelje të rëndë të Rregullores. Duke e parë këtë heshtje, kam kërkuar një interpelancë parlamentare me Kryeministrin për këtë çështje, për këto probleme që fola pak më parë, për këtë vizion të deformuar në krahasim me rrugën tonë të integrimit, me traditën tonë integruese të Shqipërisë, me objektivat tona të integrimin e Shqipërisë dhe me standardet e Bashkimit Evropian, gjë që Bashkimi Evropian i deklaroi qartësisht vetë. Nuk e di se çfarë përgjigjeje do të marr, a do ta korrigjojë Kryeministri atë gafë politike që po bën me Komisionin e Jashtëm duke ardhur në interpelancë, ashtu siç unë e kam kërkuar brenda të gjitha parametrave të Rregullores së parlamentit shqiptar.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg7">Unë këtë doja të thosha sot dhe kërkoj mbështetjen e të gjithë deputetëve, të gjithë krahëve, thjesht për të respektuar Rregulloren dhe dinjitetin e këtij komisioni.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg8">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u3" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg9">Faleminderit, zoti Shehu!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg10">Ndonjë çështje tjetër?</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u4" ana="#regular" who="#AL_PERS_AlbanaVokshi">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg11">Mirëmëngjesi!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg12">Faleminderit!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg13">Edhe unë një prej pikave që doja të ngrija si shqetësim ishte kjo që sapo trajtoi zoti Shehu në lidhje me kërkesën për dëgjesë që keni bërë. Ju na keni informuar në mbledhjen e fundit që prisni përgjigje nga Këshilli i Ministrave, ndërkohë që kanë kaluar të gjitha afatet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg14">Prandaj, gjykoj që të bëni përsëri një kërkesë dhe, sikurse e përmendi edhe zoti Shehu, ta ngrini si shqetësim edhe në Konferencë të Kryetarëve, nëse do të mundeni, mungesën e përgjigjes, por edhe të përgjegjshmërisë nga ana e Këshillit të Ministrave, në këtë rast të Kryeministrit, për t'iu përgjigjur kërkesave, bazuar në Rregullore dhe në Kushtetutë, të deputetëve të opozitës.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg15">Kjo ishte çështja e parë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg16">Për sa i përket një çështjeje tjetër të rëndësishme, që ka të bëjë me veprimtarinë dhe me fushën e përgjegjësisë së këtij komisioni, është edhe raportimi në lidhje me rezolutën 2455 të Asamblesë Parlamentare të Këshillit të Evropës. Mua më ka rënë në dorë rastësisht një email që ka qarkulluar në disa komisione, ku u është kërkuar që të raportojnë në lidhje me pikat të ndryshme, në detyrat që ka lënë rezoluta 2455, e cila ka të bëjë me nxjerrjen e Shqipërisë nga monitorimi dhe kalimi në postmonitorim. Kam kërkuar që të kem një kopjo të këtij email-i, nuk më është dërguar, më kanë thënë që nuk punon email-i nuk e kemi e tjerë, dhe sot e kësaj dite unë nuk e kam. Edhe si email, unë gjykoj që përmbajtja është krejt e gabuar, sepse nuk e di se çfarë mund të raportojnë komisionet. Detyra e një komisioni nuk është për të raportuar, raportojnë ato agjenci shtetërore apo institucione shtetërore, që kanë për detyrë që të marrin masa, të miratojnë projektligje apo të implementojnë projektligjet apo politikat e ndryshme qeveritare dhe, më tej, të raportohet, por, gjithsesi, çdo gjë duhet të kalojë në këtë komision.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg17">Pra, unë gjykoj që ky komision, jo vetëm që ishte gabim bashkimi i tij, me qëllimin e vetëm për t'ju hequr opozitës si kryesim, duke e downgrade procesin e integrimit, pavarësisht se ju pretendoni që e kundërta ka ndodhur, po anashkalohet dhe nuk po trajtohet me respektin që meriton. Ky është komisioni që në përgjegjësinë e tij ka marrëdhëniet me të gjitha institucionet ndërkombëtare, sepse është Komisioni për Evropën dhe Marrëdhëniet me Jashtë. Pra, çdo deputet i këtij komisioni, së pari, duhet të njihet me rezolutën dhe, së dyti, duhet të njihet me ecurinë e secilës pikë të rezolutës. Pra, ne duhet të thërrasim në dëgjesa të gjitha ato ministri dhe ministra që të raportojnë në lidhje me pikat e rezolutës. Kjo është një kërkesë që unë po e bëj sot, me shpresën që do të futet në kalendarin e tri javëve në vijim, në mënyrë që të kapim afatet. Bashkëraporterët ishin para dy javësh apo disa ditësh në Shqipëri, ku, në gjykimin tim, u bë gabim shumë i madh dhe është skandal që raporterët nuk takuan përfaqësuesit e këtij komisioni. Pse ndodh kjo?! Sepse agjenda bëhet nga stafi i Kuvendit, me urdhrat politikë, që ne i dimë. Po si mund të anashkalohet Komisioni i Jashtëm në këtë rast?! Nuk po përmend skandalin tjetër, që anëtarët e delegacionit të opozitës as nuk u njoftuan, as nuk u ftuan që të ishin pjesë e takimit të delegacionit të Kuvendit të Shqipërisë pranë Asamblesë Parlamentare me raporterët.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg18">Pra, zoti kryetar, unë gjykoj që ky komision duhet të ketë vendin e duhur, të mbajë përgjegjësitë e përcaktuara në Rregullore dhe të fillojnë të raportohen, ashtu siç është përcaktuar në Rregullore, dhe komisioni të marrë rolin e vet. Ky është komisioni më i rëndësishëm në këtë në këtë mandat, është absolutisht më i rëndësishmi dhe ka detyrat më të rëndësishme. Pra, e përsëris edhe një herë kërkesën: të bëhet një plan pune dhe të raportojnë të gjitha institucionet në lidhje me të gjitha pikat, me të gjitha detyrat që ka lënë rezoluta 2455 e Këshillit të Evropës. Raporterët kanë thënë që do të vijnë përsëri pas disa muajsh në Shqipëri, kështu që, le t’i kapim afatet e duhura, dhe kur të vijnë herën tjetër, jo vetëm të kërkojmë takim me përfaqësues të këtij komisioni, komisioni nuk duhet anashkaluar më, të informojë raporterët dhe komisionin e monitorimit dhe Asamblenë Parlamentare të Këshillit të Evropës në lidhje me secilën prej detyrave që ato na kanë vënë. Përndryshe, duke pasur parasysh që jo vetëm s'kemi bërë progres, por kemi bërë regres, Shqipëria shumë shpejt do të dalë edhe nga postmonitorimi dhe do të kthehet në monitorim. Mos mendoni që kjo gjë na kënaq, sepse do të jetë një tjetër lajm i keq për Shqipërinë dhe për shqiptarët.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg19">Së dyti, e ka përmendur në seancë e fundit edhe zoti Gazment Bardhi, kryetari i Grupit Parlamentar të Partisë Demokratike, mungesën e raportimit në komision sa i përket ecurisë së negociatave dhe shkeljen e të gjitha afateve. Pra, bazuar edhe në ligjin për rolin e Parlamentit për sa i përket ecurisë së procesit të integrimit, por edhe Rregullores së Kuvendit, janë shkelur të gjitha afatet për të raportuar dhe për ta kaluar raportin edhe në seancë plenare. Unë ju kërkoj nga ju, kryetar, që të kërkojmë të raportohet sa më parë, sepse janë shkelur afatet, ta diskutojmë në Parlament dhe pastaj t'ia kalojmë seancës plenare, bashkë me mendimin e komisionit. Nuk besoj se është e nevojshme t'u referohem pikave të ndryshme, ku neni 14, që është bërë neni 18, e përcakton si është procedura dhe afatet për të raportuar në komision dhe në seancë plenare dhe janë disa nene të këtij ligji që unë sapo përmenda.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg20">E fundit. Është bërë publike tashmë në të gjitha mediat kryesore të vendit çështja e diskutimit të IBAR-it. Për të mos ua lënë vendin spekulimeve të ndryshme, unë kërkoj që ministri i Jashtëm dhe Kryenegociatorja të vijnë të raportojnë pranë këtij komisioni sa më parë, ju lutem, në lidhje me diskutimin e e fundit, që, nëse nuk gaboj, ka qenë ditët e para të marsit në Bruksel, në lidhje me IBAR-in sa më parë!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg21">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u5" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg22">Faleminderit, zonja Vokshi!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg23">Për çështjen e parë që ju ngritët, unë jam njohur nga ju për sa i përket qarkullimit të një emaili në stafin e administratës së Kuvendit, ku i kam kërkuar sqarime sekretarit të Përgjithshëm dhe pres sqarime të detajuara për atë që ka ndodhur. E kuptoj që ka një problem të madh teknik në këtë godinë dhe problemi teknik nuk është problemi im, as problemi ynë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg24">Prandaj, ne kërkojmë sqarim dhe duam të dimë çfarë ka ndodhur dhe si do të procedojmë. Sapo të kem një sqarim nga ana e sekretarit të Përgjithshëm, do t'ua vë të gjithë anëtarëve të këtij komisioni në dispozicion.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg25">Për raportin vjetor, u kam kërkuar dje në Konferencën e Kryetarëve të gjithë kolegëve që ky raport të bëhet sa më shpejt, të vijë në komision dhe të kalojnë në seancë sipas përcaktimeve si në Rregullore, ashtu edhe në ligj. Duhet të jeni të qartë që gjëra të tilla nuk mund të harrohen. Kuptoj gjithmonë që ky problemi i famshëm teknik që ka kjo godinë ka krijuar gap-e të mëdha, por nuk shoh asnjë problem në sjelljen e raportit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg26">Për sa i përket kërkesës suaj për të sjellë në këtë komision ministrin e Jashtëm dhe Kryenegociatoren për të diskutuar për çështjet e integrimit evropian, menjëherë kërkesa juaj, që do të jetë kërkesa e këtij komisioni, do të shkojë dhe do të bëjmë të pamundurën që këtë takim ta kemi sa më shpejt.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg27">Zoti Haxhinasto.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u6" ana="#regular" who="#AL_PERS_EdmondHaxhinasto">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg28">Faleminderit, kryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg29">Zoti kryetar, unë i bashkohem shqetësimit që kanë kolegët për sa i takon sqarimit në këtë komision të tezave që janë hedhur në editorialin e përbashkët të Kryeministrit Rama me Vuçiçin. Kjo nuk është vetëm një çështje dhe një shqetësim i brendshëm yni, por është shumë themelor, sepse ndryshon konceptin që ne kemi për sa i takon integrimit në Bashkimin Evropian, i cili është një proces i bazuar në meritë, në plotësimin e të gjitha standardeve të nevojshme që kërkon Bashkimi Evropian për integrimin për arsye gjeopolitike dhe gjeostrategjike të partneriteteve të caktuara rajonale apo për të përfituar nga situatat dhe zhvillimet ndërkombëtare. Pra, me një cilësi tjetër, me një standard tjetër dhe me një kategori tjetër të hyrjes në Bashkimin Evropian. Them që nuk është vetëm çështje e brendshme, por është një çështje shumë e ndjeshme edhe e partnerëve tanë. Unë ju përmenda diçka nga takimi që patëm në Berlin, në Bundestag, ku edhe kryetarja e Bundestagut, edhe kryetari i Komisionit të Jashtëm shprehën dy shqetësime. Shqetësimi i parë ishte për këtë editorial, çfarë donte të thoshte, nëse ky ishte qëndrim i të gjithë institucioneve shqiptare apo ishte një editorial i Kryeministrit dhe, shqetësimi i dytë ishte si respektohet opozita në Kuvend dhe çfarë bëhet në Kuvend për të evituar polarizimin ekstrem sipas fjalëve të tyre, që ne e dimë që shpeshherë kështu është. Prandaj, kjo nuk është thjesht një çështje procedurale nëse vjen apo s'vjen Kryeministri në këtë komision, por mendoj që kjo është një çështje shumë thelbësore, e cila duhet sqaruar dhe duhet komunikuar, sepse ndryshon thelbin e përqasjes sonë ndaj Bashkimit Evropian. Në qoftë se ne këtu jemi të angazhuar për të miratuar ligje, për të zbatuar ligjet dhe për të vendosur një standard të rëndësishëm sa më pranë atyre të Bashkimit Evropian dhe pastaj të vazhdojmë me procesin e integrimit, është e domosdoshme që të themi qartë që integrimi ynë do të bazohet në meritë në plotësimin e standardeve. Based on merit, thanë edhe përfaqësuesit e delegacionit të Parlamentit Evropian, edhe delegacioni për rajonin, McAllister, dhe përfaqësues të tjerë të lartë të Republikës Federale Gjermane, të Parlamentit Evropian dhe të Bashkimit Evropian. Pra, ata thanë që procesi për Shqipërinë do të jetë i bazuar në meritë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg30">Prandaj kjo është e domosdoshme për t'u sqaruar.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg31">E dyta, duhet të kemi parasysh edhe pasojat që ka pasur një deklarim i tillë dhe një qëndrimi i tillë për Kosovën, e cila ka reaguar në mënyrë shumë të drejtë për sa u takon dëmeve që mund t'i bëhet një promovimi të tillë, një integrimi të tillë për Serbinë, ndërkohë që ajo ka shumë punë për të bërë dhe shumë standarde për të arritur.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg32">Këtu po e mbyll. U tha shumë qartë në Berlin që Serbia po përdor termin si e përdorin ata is back sliding, Serbia po përkeqëson standardet. Të dalim në këtë moment dhe të kompromentojmë procesin i integrimit të Shqipërisë për defektet që kanë ata, mua më duket një papërgjegjshmëri shumë e rëndë, qoftë politike, qoftë diplomatike. Kështu që, e shoh të domosdoshme që kjo çështje të sqarohet dhe të mbahet një qëndrim për sa i takon cilësisë që duhet të ketë procesi i integrimit të Shqipërisë në Bashkimin Evropian.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg33">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u7" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg34">Faleminderit, zoti Haxhinasto!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg35">Zoti Dule, fjala për ju.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u8" ana="#regular" who="#AL_PERS_VangjelDule">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg36">Faleminderit, zoti kryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg37">Ne nuk kemi disa fenomene dytësore në ushtrimin e politikës së jashtme, siç është botimi i një artikulli, por kemi një politikë të jashtme të privatizuar dhe kjo është demonstruar në mënyrë sistematike. Nuk besoj se i keni harruar iniciativat e Ballkanit të mbyllur, të hapur.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg38">Vetë i hap, vetë i mbyll, pa asnjë miratim Kuvendi, për rrjedhojë jemi në kushtet që nuk mund të merremi nga partnerët tanë seriozisht në ushtrimin e politikës së jashtme. Tezat më të rënda që mund të manifestohen nga një qeveri e vendit tonë ndaj procesit strategjik, i cili nuk prek vetëm të tashmen dhe disa 5-vjeçarë të së ardhmes, por fatet e vendit në pafundësi, të tjetërsohen nga një individ! Çfarë është thënë, jo në Kuvendin e Republikës, por në mediat e huaja, që ne nuk kemi pretendime për t’u përfaqësuar me komisionerë në momentin që do të vijë anëtarësimi në Bashkimin Evropian. A jemi pyetur si deputetë?! A ka vendosur Parlamenti për një objektiv të tillë?! Nga ana tjetër, ka hequr po në deklarata nëpër media, të drejtën e vetos në rastin e anëtarësimit të Republikës së Shqipërisë në Bashkimin Evropian. Si të gjitha ato vende që janë anëtarësuar, që kryesisht janë vende të vogla, edhe ne jemi një vend i vogël që kërkon të drejtën e votës, të përfaqësimit me komisionerë dhe të vetos, sepse Bashkimi Evropian nuk është shoqëria e engjëjve, edhe atje ka interesa midis shteteve përbërëse. Atëherë, ne këto të drejtat tona në të gjitha fushat, që nga ushtrimi i politikës së jashtme deri në konkurrencë, në prodhim, në mbrojtjen e prodhimit vendas, si do t’i mbrojmë?! Kjo ka vetëm një qëllim: tolerancën e vendeve të veçanta, por edhe të Bashkimit Evropian ndaj asaj që po ndodh në vendin tonë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg39">Zoti Rama, Kryeministri, me votën e grabitur të proceseve zgjedhore në vazhdimësi, tenton dhe shpreson në mendjen e tij të joshë vende anëtare të Bashkimit Evropian për të toleruar atë që ai po bën me fatet e demokracisë dhe të shtetit të së drejtës në vendin tonë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg40">Natyrisht, kjo nuk ka asnjë shans për të kaluar. Por ne jemi përpara përgjegjësisë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg41">Unë dëshiroj të jem shumë i sinqertë me ju, kolegë të mazhorancës. Ju, me sa duket, keni marrë një vendim, jo të gjithë, disa prej jush keni dhënë në mënyrë të vullnetshme dorëheqjen nga misioni juaj kushtetues; ju nuk doni ta ushtroni të drejtën dhe detyrën që ju jep Kushtetuta e Republikës së Shqipërisë për të ushtruar kontroll mbi qeverinë e vendit. Kjo është detyra jonë numër një, por mos na pengoni ne, nuk e keni këtë të drejtë, në një kohë që problemi i parë është çështja e ndërgjegjes suaj, çështja e dytë është çështje ligjore.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg42">Këtu në komision, në seancën plenare, ju refuzoni që të ngrihen komisione hetimore.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg43">Nëse me argumentet ambulante të përfaqësuesve tuaj të grupit parlamentar, në parlamentet e civilizuara do të kondicionoheshin ngritjet e komisioneve hetimore nga mazhoranca, atëherë nuk do të kishim asnjëherë komisione hetimore. Prandaj, për t’iu rikthyer sërish Komisionit të Politikës së Jashtme, termin nuk e gjej të përshtatshëm dhe nuk do ta lëshoj veten drejt termave të papërshtatshëm, por ende ka mbaruar sesioni i parë i kësaj legjislature, nuk kemi bërë një analizë të ecurisë së procesit të integrimit në Bashkimin Evropian. Për çfarë i do këta tituj dhe këto ndere Komisioni i Integrimit, pa asnjë objekt diskutimi për integrimin?! Prandaj, asnjëherë nuk është vonë, le t’i rikthehemi me një reflektim asaj që ka ndodhur dhe përpiquni edhe ju, merrni kurajën. Ka shumë kolegë prej jush që e kanë bërë, artikuloni 2-3 vendime serioze të common sense-it, pavarësisht se nuk mund t’i pëlqejnë liderit tuaj të shumëndritur.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg44">Ju faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u9" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg45">Faleminderit, zoti Dule!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg46">Zonja Vokshi.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u10" ana="#regular" who="#AL_PERS_AlbanaVokshi">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg47">Zoti kryetar, kam një replikë me atë që ju thatë se një pjesë e problemit është çështje teknike. Mund të jetë çështje teknike, dhe nuk dua t’i futem kësaj, por, nëse kjo çështje teknike pengon punën e këtij komisioni, atëherë e tejkalon çështjen teknike, sepse pengohet puna e komisionit, i cili duhej të kishte rolin më të rëndësishëm. IBAR-i nuk mund të jetë çështje teknike.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg48">E di se ju referuat çështjes së raportit për rezolutën e Këshillit të Evropës, por jam e sigurt se problemi teknik ndodh në vijueshmëri dhe unë gjykoj se ky komision nuk e ka marrë rolin që duhet të ketë, qoftë në marrëdhëniet me politikën e jashtme, por qoftë me ecurinë e procesit të negociatave.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg49">Me raportin e IBAR-it, që ka nisur prej shkurtit, 9 vende anëtare nuk kanë rënë dakord, përkundrazi kanë shtuar kërkesa shtesë, pas mbrojtjes që ju i bëtë zëvendëskryeministres Belinda Balluku, mbrojtjes që i bëtë korrupsionit, refuzimit të kërkesës së SPAK-ut për një person që për 11 akuza zyrtare korrupsioni rrezikonte 35 vjet burg. Atëherë, kjo është një kambanë alarmi dhe ky komision nuk duhet të presë më çështje teknike, por duhet të thirren personat përgjegjës, ministri dhe kryenegociatorët që të vijnë të raportojnë. Kjo nuk është çështje vetëm e opozitës. Besoj se gjithsecilin prej jush kjo çështje duhet ta shqetësojë. Kjo është ajo që mua, si zëvendëskryetare, më shqetëson! Nuk kemi rolin që duhet të kemi si komision, por po anashkalohemi qëllimisht për një arsye apo për një tjetër. Sipas nenit 103/1, pika 2, çdo fillim viti Kuvendi shqyrton raportin e detajuar të Këshillit të Ministrave për procesin e integrimit, sipas Planit Kombëtar të Integrimit Evropian dhe thotë që, pas depozitimit, pra në fillim të vitit, Kryetari i Kuvendit ia dërgon menjëherë komisionit përgjegjës për shqyrtim, komisioni organizon menjëherë seancë dëgjimore për shqyrtimin e raportit dhe më tej Kuvendi organizon seancë me debat dhe miraton një rezolutë. Pika 6 thotë: “Komisioni për Evropën dhe Punët e Jashtme dhe komisionet e tjera, sipas fushave përkatëse të përgjegjësisë, thërrasin institucionet kushtetuese të pavarura dhe institucionet e krijuara me ligj të raportojnë”. Ligji e ka që duhet raportuar për grupkapitujt apo për ecurinë një herë në tre muaj. Pra, le të marrim përgjegjësitë tona, sepse është mungesë e veprimit të komisionit që nuk ka kërkuar që në fillim të vitit të sillej në këtë komision raporti, që nuk e kemi detyruar Këshillin e Ministrave që të zbatojë Rregulloren dhe ligjin për rolin e Parlamentit, sepse deri tani ne duhej ta kishim diskutuar, duhej të kishim thirrur edhe ministritë. Propozimi im është që të organizojmë mbledhje të përbashkëta me komisionet e tjera, në mënyrë që, sipas kapitujve, grupkapitujve, të thërrasim ministrat përkatës për të raportuar, që të mos kemi overlap me komisionet e tjera, por mund t’i bëjmë të përbashkëta. Pra, e tejkalon çështjen teknike, apo çështjet teknike po e minojnë punën e këtij komisioni. Ndaj kërkoj, kryetar, që, edhe në emër të komisionit, të ngrini zërin që të fillojë të zbatohen Rregullorja dhe ligji. Ka një ligj të veçantë për rolin e Parlamentit në këtë proces, i cili po shkelet me të dyja këmbët. Ta kalojmë menjëherë në këtë komision dhe t’ia kalojmë seancës plenare. Është raporti më i rëndësishëm i vitit, kështu që të thërrasim menjëherë për IBAR-in ministrin e Jashtëm, i cili, jo më larg se dje, në një intervistë që e dëgjova në një televizion, tha se gjithçka po ecën shumë mirë. Edhe në intervistë, edhe në takimin që bëri me Kryeministrin, tha: kush ju qënjen që kanë ngecur negociatat. Pra, le të vijë të na raportojë për këtë, në qoftë se gjithçka është shumë mirë, në qoftë se po ecet me të njëjtin ritëm si më përpara, që unë them se nuk është kështu. Atëherë për këto deklarata të vijë dhe të raportojë ministri i Jashtëm që na e bën fushë me lule dhe thotë se gjithçka po ecën ashtu siç ishte parashikuar, apo ashtu siç duhet të ecë. Pra, ju lutem, bëni kërkesën, nëse keni nevojë që ta firmosim të gjithë deputetët, e firmosim, por besoj se ju e keni tagrin si kryetar, apo po jua japim tagrin si kryetar që të kërkoni, qoftë për IBAR-in me urgjencë, ose të vijë raporti në komision që t’ia kalojë më tej seancës me mendimin tonë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg50">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u11" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg51">Faleminderit, zonja Vokshi!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg52">Kam përshtypjen që nuk patët replikë me mua, patët replikë me veten, sepse ju thashë se raportin vjetor e kam kërkuar dhe do të vijë sa më parë që të jetë e mundur. Për çështjen e IBAR-it, ju thashë se do t’i çoj letër ministrit të Jashtëm dhe kryenegociatores që të vijnë në komision. Këto janë gjërat që unë i thashë.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg53">Po pra, ministrit të Jashtëm dhe kryenegociatores.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg54">Po, do të bëjmë të pamundurën që të dy të vijnë...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg55">Zoti Shehu paska bërë kërkesë për interpelancë për sa i përket artikullit!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg56">Edhe këto pikëpyetjet që dëgjova nga një nga parafolësit, që mbulojnë një gamë të gjerë habish, shpresoj që të kalojnë në nivelin e seancës, për sa kohë që zoti Shehu e ka kaluar në interpelancë. Kështu tha...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u12" ana="#regular" who="#AL_PERS_TritanShehu">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg57">Dakord, por unë thashë edhe këtë gjë, që ne kemi kërkuar seancë dëgjimore këtu me Kryeministrin....</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg58">Duke pritur seancën dëgjimore, e cila nuk ka marrë asnjë përgjigje, në kundërshtim me Rregulloren, në kundërshtim me gjithçka, unë kërkova edhe një interpelancë, për të cilën përsëri pres një përgjigje, por kjo nuk përjashton absolutisht seancën dëgjimore në Komision të Jashtëm me Kryeministrin. Janë dy gjëra të ndryshme, Komisioni i Jashtëm është edhe Komision i Jashtëm, edhe i Integrimit, prandaj u bë edhe i Integrimit ky...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg59">Pra, ne i kemi të gjitha hapësirat dhe kompetencat dhe detyrimet ndaj procesit të integrimit.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u13" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg60">Kjo ishte biseda që bëmë dje, zonja Spahiu.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg61">Po, pra po presim raportin, sepse kjo ishte biseda që bëmë dje.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg62">Jo, nuk ishte për raportin, ishte për...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg63">Kështu që, kjo është gjëja, sapo t’i kemi këto, siç e thashë edhe pak më parë kërkesa do t’i shkojë menjëherë ministrit për Evropën dhe Punët e Jashtme dhe kryenegociatores, që të vijnë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg64">Nuk e di nëse të gjithë kolegët, zonja Vokshi e mban mend, zotin Shehu e mban mend, zotin Haxhinasto e mban mend, në nëntor kryenegociatorja ka ardhur në komision, ka bërë një paraqitje të punës. Gjithashtu, më 18 mars është shpërndarë edhe raporti 4-mujor i punës.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg65">Megjithatë, asnjëherë nuk është mjaftueshëm, ne kemi nevojë që të jemi sa më shumë të informuar dhe për këtë do të vazhdojmë që të kërkojmë informim.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg66">Zonja Vokshi.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u14" ana="#regular" who="#AL_PERS_AlbanaVokshi">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg67">Së pari, një instrument nuk zëvendëson tjetrin. Nëse kemi kërkuar dëgjesë në këtë komision, ne e kërkojmë në bazë të Rregullores që të vijë Kryeministri dhe të raportojë. Nëse zoti Shehu kërkon një interpelancë, është tjetër gjë, nuk zëvendësojnë njëra-tjetrën. Ne kërkojmë që të paraqitet Kryeministri para këtij komisioni, për një kërkesë që është bërë në bazë të Rregullores. Ka shkelur afatet, ne ende po e presim, sepse është një çështje jo vetëm me rëndësi kombëtare, por edhe rajonale.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg68">Së dyti, faleminderit që përgënjeshtruat Kryetarin e Kuvendit, i cili në seancën e fundit qënjeu seancën dhe tha se raporti ka mbërritur. Në fakt, raporti nuk paska mbërritur fare. Kështu që të paktën dikush thotë të vërtetën nga ana e mazhorancës në këtë Parlament.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg69">Së treti, ju thatë se ka ardhur në nëntor. Çdo 3 muaj duhet të vijnë dhe të raportojnë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg70">Kështu që, ne si komision le të bëjmë një kalendar, kemi të gjithë predispozitën që ne të kontribuojmë si opozitë, të kontribuojmë pozitivisht me të gjithë këshilltarët tanë, ne si deputetë, nëse ju e kërkoni ndihmën tonë, që të kthehemi në rolin që duhet të kemi, të bëjmë programin. Pra, të vijë një kalendar i plotë i punës së Kuvendit, bazuar në Rregullore dhe në ligj, sipas afateve të vijnë të raportojnë, t’i respektojmë afatet e vendosura në Rregullore dhe ta fusim në shinat e duhura këtë komision. Nuk mund të thoni se ka ardhur në nëntor dhe në mars ka sjellë 4-mujorin. Jo, duhet të vijnë të raportojnë të gjithë ministrat, sipas Rregullores, pra le të zbatojmë Rregulloren dhe legjislacionin përkatës.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg71">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u15" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg72">Faleminderit, zonja Vokshi!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg73">Kryetari i Kuvendit nuk kishte asnjë arsye as të qënjente, as e ka në natyrën që të qënjejë. Ai iu referua këtij raporti 4-mujor që unë përmenda.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg74">Informacioni që iu dha nga stafi, u dha për atë raport dhe menjëherë folën, diskutuan dhe kjo ka qenë një nga çështjet e diskutimit, siç e përmenda me zonjën Spahiu, edhe dje në Konferencë...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg75">Prandaj jemi duke u përgatitur që i gjithë dokumentacioni i nevojshëm të vijë, të kalojë procedurën e nevojshme dhe të vazhdojmë me ato detyrime që kemi të gjithë së bashku.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg76">Zoti Kapri.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u16" ana="#regular" who="#AL_PERS_EraldKapri">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg77">Faleminderit, zoti kryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg78">Në fakt, Shqipëria ndodhet në një moment kyç për sa i përket të gjithë rrugëtimit të saj drejt Bashkimit Evropian dhe, si moment kyç, duhet të kemi parasysh që në këtë moment qartësia e mazhorancës në raport jo vetëm me kriteret, por edhe me bashkëpunimin politik duhet të jetë e hapur dhe transparente.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg79">Opozita është anashkaluar, është dhunuar, nuk është përfshirë; opozita nuk merr vesh në mënyrë institucionale se çfarë po ndodh me negociatat, fatmirësisht kemi mediat Perëndimore, në të cilat informohemi për qëndrime qoftë informale, qoftë edhe publike.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg80">Kryeministri nuk vjen në Parlament, nuk raporton në këtë komision, shpesh mungojnë zyrtarë të caktuar, që duhet të vijnë dhe duhet të japin llogari, sepse kemi shpesh deklarata kontradiktore nga zyrtarët më të lartë të qeverisë. Konkretisht, para një muaji ministri i Bujqësisë tha që janë hapur fondet e IPARD-it dhe brenda qershorit ne do të marrim fondin prej gati 140 milionë eurosh. Por një media shqiptare citoi një zyrtar të Komisionit Evropian dhe tha se kjo nuk është e vërtetë. Pra, sigurisht që kjo meriton një debat, por nuk është thjesht te këto deklarata, deri diku edhe politike, dhe ndoshta të nxituara nga zyrtarë të rinj. Por më shqetësues është fakti që ne kemi parë lëvizje të Kryeministrit, të cilat nuk janë konsultuar me askënd në politikën e jashtme. Për mua është e papranueshme, edhe për ne si forcë politike është e papranueshme që Kryeministri i Shqipërisë, Edi Rama, njëson rrugëtimin e Shqipërisë në Bashkimin Evropian me atë të Serbisë. Artikulli i përbashkët me presidentin e Rusisë në një media Perëndimore, ku i kërkohet Bashkimit Evropian që Shqipëria dhe Serbia të kenë një rrugëtim të përbashkët, madje që ne të hyjmë në Bashkimin Evropian si dy anëtarë gjysmakë, gjoja pa të drejta të plota, nuk është normal, madje unë do ta konsideroj edhe antikombëtar. Ne nuk kemi punë me Serbinë, ne nuk kemi punë me një aleat të Rusisë në Ballkan. Ne kemi rrugëtimin tonë dhe, fatkeqësisht, ne do të ishim nga vendet e para që duhej të bashkoheshin me Bashkimin Evropian pas rënies së komunizmit, sepse jemi vendi më properëndimor në të gjithë ish-Lindjen dhe kemi mbetur të fundit, dhe kjo është tragjedi për shqiptarët. Pra, kur ndodhemi në një moment të tillë, që hapim të gjitha negociatat dhe ka nevojë për një transparencë të gjerë, çfarë ndodh?! Kryeministri i hedh sytë nga Beogradi, kur duhet t’i hedhë sytë nga Brukseli! Të mos bëhemi naivë, nuk mund të bëjmë deklarata që nuk e heqim imunitetin e zonjës Balluku dhe rrugëtimi në Bashkimin Evropian vazhdon pa probleme! Këto janë deklarata nihiliste, për të cilat do të keni një kosto të jashtëzakonshme, sepse e paralajmëruan vendet anëtare të Bashkimit Evropian. Prandaj u ngrit SPAK-u, prandaj u ngrit GJKKO-ja, pikërisht për të luftuar korrupsionin në Shqipëri. Në rastin e parë kur për një ministër në detyrë erdhi akuza dhe kërkesa për arrestim, mazhoranca e bllokoi. Pra, qartësisht kemi të bëjmë me një bllokim politik, që për interesa politikë të Edi Ramës po sakrifikohet integrimi i vendit, dhe kjo është e rëndë, meriton debat. Nuk mund t’i fshihemi kësaj, ashtu siç realisht Kryeministri po i fshihet debatit politik në Shqipëri, sepse tashmë ka hallin e tij politik, sepse e di që drejtësia vetëm atë ka lënë pa proceduar, të gjithë të tjerët janë proceduar. Çfarë po bën tani?! Po shpik çdolloj marifeti politik për të shpëtuar veten e tij, sepse e di që shumë shpejt do t’i trokasin në dhomë ata të SPAK-ut. Këtë e di ai, e ka kuptuar shumë mirë, por, për t’i shpëtuar kësaj, është i gatshëm të sakrifikojë çdo përpjekje shekullore të shqiptarëve që është afrimi me Perëndimin. Kjo është shumë e rëndë!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg81">Së fundi, mazhoranca ka 86 mandate në Parlament, është në mandatin e katërt, ka një shumicë të cilësuar dhe, realisht, opozita nuk i duhet për vota. Atëherë, për çfarë akuzohet opozita, se nuk e kuptoj? Pra, opozita akuzohet se shan Shqipërinë. Ju keni të gjithë numrat dhe mund të votoni çfarë të doni, ndaj përgjegjësia është e gjitha juaja. Nuk mbajmë ne përgjegjësi pse nuk votuat për zonjën Balluku, nuk mbajmë ne përgjegjësi për mosrealizimin e reformave dhe nuk mbajmë ne përgjegjësi që ju, si mazhorancë nuk bëni transparencë për shqiptarët, dhe ka shumë gjëra që e meritojnë të bëhen transparente, siç përmenda rastin e fondeve të IPARD-it.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg82">Por, fatkeqësisht, vazhdon i njëjti model ballkanik politik, ku në çdo dështim politik Kryeministri fajëson opozitën, veçanërisht kur flet në gjuhë të huaj. Mendoj se ky është një moment kyç dhe nëse nuk veprohet me transparencë, në mënyrë të hapur, të gjithë përgjegjësinë e ndonjë lajmi të keq nga Brukseli do ta kenë Edi Rama dhe mazhoranca.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg83">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u17" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg84">Faleminderit, zoti Kapri!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg85">Besoj që është e nevojshme të them një detaj shumë të rëndësishëm për sa i përket bisedës që po bëjmë: ka dy vende që janë më të përparuara në progresin drejt integrimit evropian, Mali i Zi dhe Shqipëria. Kështu që, çdo gjë tjetër është mënyrë për të ndryshuar dëshirën për të vazhduar këtë diskurs politik.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg86">Zonja Spahiu.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u18" ana="#regular" who="#AL_PERS_KlodianaSpahiu">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg87">Faleminderit, kryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg88">I dëgjova me kujdes kolegët e opozitës. Unë mendoj se ky proces është dinamik, është shumë i vështirë, që pa dyshim ka sfidat e veta. Opozita ka kohë që i bën akuzat e veta, se procesi është frenuar. Unë sugjeroj që të presim me qetësi, sepse raporti do të dalë shumë shpejt, por deri në momentin që raporti do të dalë, i cili është në një proces shumë intensiv pyetjesh dhe përgjigjesh që bëhen nga të dyja palët, ne duhet të presim se çfarë ai do të vendosë. Të nxjerrim konkluzione përpara daljes së tij, ndoshta nuk është mirë, sepse jo vetëm çorientojmë veten tonë këtu brenda, por çorientojmë të gjithë opinionin publik. Puna po bëhet intensive, mbështetja ka qenë maksimale dhe vazhdon të jetë maksimale.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg89">Nëse ka ndonjë konfirmim ose ka diçka deklarative dhe të vërtetë që ky proces qenka ndërprerë dhe nuk është në dinamikën e tij, atëherë të na e thonë kolegët e opozitës, sepse informacioni që ne kemi, të paktën deri tani, është që po punohet intensivisht, pyetjet që ata bëjnë dhe përgjigjet që po marrin. Ne po presim që të dalin këto konkluzionet dhe vetëm atëherë është në të drejtën e të gjithëve ne që të bëjmë diskutimet tona.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg90">Sa i përket kërkesës së kolegëve, është plotësisht e drejtë, dhe dje në Konferencën e Kryetarëve u diskutua që të paktën në fillim të majit ne të kemi mundësi të realizojmë një mocion me debat për këtë proces, por, për hir të së vërtetës, nuk pati dakordësi midis dy kërkesave që ishin bërë. Ka pasur një dakordësi që të zhvillohej në fillim të këtij sesioni, por pastaj kryetari i Grupit Parlamentar të Partisë Demokratike nuk ra dakord që të bashkoheshin të dyja kërkesat. Megjithatë, besoj se shumë shpejt ne do të kemi një mocion me debat për këtë temë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg91">Ndërsa për konkluzionet, mendoj se ne duhet të presim që të dalë raporti. Përderisa personi që merren me këtë proces, ministri i Jashtëm, del dhe deklaron publikisht që nuk ka asnjë bllokim të procesit dhe po punohet intensivisht, besoj se ne nuk kemi të drejtë të dalim dhe të themi se procesi është bllokuar, sepse mendoj që ai e ka informacionin më të drejtpërdrejtë, i cili duhet të dëgjohet dhe të pritet nga ne. Unë gjykoj që duhet të jemi më të qetë dhe më gjakftohtë, sepse ky është një proces që na prek të gjithëve dhe opinioni është shumë i ndikueshëm edhe te qytetarët që na dëgjojnë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg92">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u19" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg93">Nuk qenka e fundit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg94">Zonja Vokshi.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u20" ana="#regular" who="#AL_PERS_AlbanaVokshi">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg95">Të kërkoj zonja Spahiu, që t’i themi...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg96">Ne atë po ofrojmë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg97">Në bazë të cilit informacion thoni se nuk është e vërtetë që procesi i integrimit nuk po ecën? Pra, ju merrni informacione më vete, personale?</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg98">Të lutem, sepse nuk të ndërhyra, të dëgjova!</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg99">Mund të më respektosh? Të dëgjova.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg100">Këto nuk janë akuza për ju, ne po kërkojmë të zbatohet kjo Rregullore. Sa duhet të presim ne, se jeni nënkryetare e Parlamentit?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg101">Të lutem, Klodi!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg102">Sa duhet të presim ne, kur Rregullorja e ka të përcaktuar? Fillimviti – thotë. Fillimviti nuk është prilli. Në prill duhet të kishte përfunduar dhe të shkonte në seancë. Ju thoni të presim deri kur disa njerëz të shkruajnë një raport, siç ua thotë Kryeministri. Nuk është kështu. Unë nuk kam pse të dëgjoj ministrin e Jashtëm në intervistë apo kur del me Kryeministrin, që flet në turin e tij, ministri duhet të vijë këtu. Unë po kërkoj të zbatohet Rregullorja, nuk po kërkoj asgjë që nuk është në Rregullore. Unë nuk duhet të pres majin që të vijë raporti, sepse ky raport duhet të kishte ardhur dhe ju duhet të ishit shqetësuar të parët që raporti nuk ka ardhur në komision. Juve thoni të presim derisa t’u teket atyre që ta sjellin.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg103">Ju thoni që unë të dëgjoj ministrit në intervistë kur thotë që procesi po ecën siç duhet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg104">Jo, të vijë këtu ministri. Këtë po kërkojmë. Vetëm kaq po kërkojmë, dhe bazuar vetëm në Rregullore. Është shkelur Rregullorja. Kjo duhet t’ju shqetësojë juve si zëvendëskryetare, dhe duhet ta ngrini zërin në Konferencën e Kryetarëve që ky raport duhet të kishte ardhur. Mos më flisni mua sipas informacioneve që ju keni. Nuk duhet t’i keni ju private informacionet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg105">Informacionet duhet të vijnë në komision, duhet t’i kenë gjithë deputetët, të flasim me një zë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg106">Në procesin e integrimit ne duhet të flasim me një zë. Procesi i integrimit nuk është pozitën apo për opozitën, është për qytetarët shqiptarë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg107">Edhe nëse IBAR-i nuk është miratuar dhe 9 vende kanë refuzuar dhe kanë bërë kërkesa shtesë, duhet të vijë të na raportojë, që ne të mos dëgjojmë çfarë kanë thënë disa burime konfidenciale. Nëse duhet të jenë konfidenciale, le të vijnë të na raportojnë këtu. Po kërkojmë vetëm që të zbatohet kjo Rregullore dhe që ky komision më në fund të marrë rolin që i takon si komisioni më i rëndësishëm. Ne kemi gatishmërinë më të madhe që të ndihmojmë dhe të kontribuojmë në këtë proces. Po e përsëris edhe një herë: mos justifikoni diçka që është e pajustifikueshme. Është e shkruar me qëllim në Rregullore që raporti vjetor vjen në fillim të vitit. Nuk ka ardhur as në prill, dhe ju thoni për të presim akoma.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg108">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u21" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg109">Zonja Spahiu, mesa ju kuptova, besoj se ju e keni për atë thashethemnajën që na kanë bllokuar disa vende që kanë disa mendime ...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg110">Rëndësie ka që të dy krahët e këtij komisioni duan që vendi ynë të integrohet sa më shpejt. Për fat të mirë, opozita po e njeh faktin që negociatat kanë filluar shumë mirë, që të gjithë kapitujt janë hapur, sepse ka pasur një periudhë që edhe kjo vihej në dyshim. Më vjen mirë që jemi në këtë fazë dhe, siç e thashë për të tretën herë, t’ua çojmë sa më shpejt kërkesën ministrave, në mënyrë që ata të vijnë të raportojnë në rastin më të parë për procesin ku jemi futur me shumë seriozitet, si një nga dy vendet pararojë në procesin e integrimit në raport me të gjitha vendet e tjera kandidate.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg111">Unë nuk flas dot në emër të askujt. Nuk besoj se ka hequr dorë. Marta dhe të gjithë komisionerët e zgjerimit kanë qenë gjithmonë të mbështetës për çdo vend.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg112">Nuk ka asnjë deklaratë që heq dorë nga Shqipëria, përkundrazi.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg113">Megjithatë, le të fillojmë me pikën e parë të rendit të ditës: miratimin e procesverbalit të mbledhjes së Komisionit për Evropën dhe Punët e Jashtme të datës 5.12.2025.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg114">A ka ndonjë nga kolegët vërejtje për procesverbalin? Nuk ka.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg115">Le ta votojmë procesverbalin e 5 dhjetorit. Pro? Kundër? Abstenim?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg116">Miratohet me 8 vota, asnjë kundër dhe asnjë abstenim.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg117">Sekretare Marjana Koçeku Përgjegjësja e Shërbimit të Redaktorëve Koordinatori i Komisionit Euzheni Pengili Leandro Xhama</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg118">REPUBLIKA E SHQIPËRISË</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg119">KUVENDI</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg120">Komisioni për Evropën dhe Punët e Jashtme</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg121">PROCESVERBAL</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg122">Tiranë, më 8.4.2026, ora 10:00</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg123">Drejton mbledhjen:</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u22" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg124">kryetar i Komisionit Rend i ditës:</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg125">Shqyrtimi i projektligjit “Për ratifikimin e Konventës Shumëpalëshe për Lehtësimin e Zbatimit të Shtyllës së Dytë, Subjekt i Rregullit Tatimor””.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg126">Marrin pjesë:</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg127">Igli Hasani, Bora Muzhaqi, Marjana Koçeku, Ervin Hoxha, Romina Kuko, Edmond Haxhinasto, Sara Mila, Vangjel Dule, Albana Vokshi, Tritan Shehu, Klodiana Spahiu, Skënder Pashaj dhe Erald Kapri.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg128">Mungojnë:</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg129">Taulant Balla, Tomor Alizoti dhe Agron Shehaj.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg130">Të ftuar:</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u23" ana="#guest" who="#AL_PERS_EndritYzeiraj">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg131">zëvendësministër i Financave</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u24" ana="#guest" who="#AL_PERS_ArjanaDyrmishi">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg132">drejtoreshë e Përgjithshme e Politikave Tatimore në Ministrinë e Financave</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u25" ana="#guest" who="#AL_PERS_DorianaToro">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg133">përfaqësuese nga Drejtoria e Tatimeve Direkte</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u26" ana="#guest" who="#AL_PERS_IldaKoja">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg134">përfaqësuese nga Drejtoria Ligjore në Drejtorinë e Përgjithshme të Tatimeve</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u27" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg135">Vazhdojmë me pikën tjetër të rendit të ditës.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg136">Do të shqyrtojmë projektligjin “Për ratifikimin e Konventës Shumëpalëshe për Lehtësimin e Zbatimit të Shtyllës së Dytë, Subjekt i Rregullit Tatimor”. Në këtë procedurë jemi komision për dhënie mendimi.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg137">Kemi të ftuar kolegë të Ministrisë së Financave.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg138">Në pritje të mbërritjes së tyre, le të bëjmë dy minuta pushim.</seg>
+          <note type="comment">Pas pushimit.</note>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg139">Siç e përmenda, të ftuar kemi zëvendësministrin e Financave, zotin Endrit Yzeiraj, së bashku me kolegët e tij.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg140">Do t’ia jap menjëherë fjalën zëvendësministrit për të bërë prezantimin e projektligjit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg141">Zoti Yzeiraj, fjala për ju.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u28" ana="#guest" who="#AL_PERS_EndritYzeiraj">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg142">Faleminderit, i nderuar kryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg143">Të nderuar anëtarë të komisionit,</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg144">Sot kemi kënaqësinë të prezantojmë përpara jush projektligjin “Për ratifikimin e Konventës Shumëpalëshe për Lehtësimin e Zbatimit të Shtyllës së Dytë, Subjekt i Rregullit Tatimor”, një nismë që nuk është thjesht një akt formal politik, por një hap i rëndësishëm në formimin dhe forcimin e sistemit tonë fiskal dhe në pozicionimin e Shqipërisë si një aktor i përgjegjshëm në fushën e taksimit ndërkombëtar.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg145">Dua të theksoj që ky projektligj është rezultat i drejtpërdrejtë i disa angazhimeve që vendi ynë ka marrë në kuadër të bashkëpunimit ndërkombëtar, dhe, më e rëndësishmja, si pjesë e kuadrit gjithëpërfshirës të OECD-së mbi BEPS (Base Erosion and Price Shifting), një marrëveshje ku Shqipëria është anëtare që prej vitit 2019.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg146">Në këtë kuadër, komuniteti ndërkombëtar ka ndërmarrë një reformë të rëndësishme dhe të thellë në sistemin tatimor global për të adresuar sfidat që rrjedhin nga globalizimi dhe digjitalizimi i ekonomisë, reformë kjo e njohur si zgjidhja me dy shtylla.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg147">Shtylla e dytë e kësaj reforme, për të cilën jemi sot këtu, përfaqëson një ndryshim thelbësor në mënyrën se si tatohen subjektet shumëkombëshe, duke vendosur një nivel tatimi minimal dhe duke kufizuar shmangien e kompanive shumëkombëshe. Pra, me pak fjalë, kemi të bëjmë me rregullimin e rasteve kur kompanitë shumëkombëshe përdorin ato që shpesh quhen “tax havens”, për të shmangur detyrime dhe për të deklaruar të ardhura në burime, kur, në fakt, nuk po realizohen ato të ardhura.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg148">Një nga elementet më të rëndësishme të kësaj shtylle është rregulli i njohur si “subject to tax rule” (STTR), i cili është një mekanizëm që mbron të drejtën e vendeve në zhvillim për të taksuar të ardhurat ndërkufitare kur ato tatohen në nivele shumë të ulëta në juridiksione të tjera, pra në ato që përmendëm si “tax havens”.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg149">Ky rregull lejon juridiksionin burimor të aplikojë një tatim shtesë deri në një nivel minimal, aktualisht 9%, në rastet kur pagesa të caktuara ndërmjet subjekteve të lidhura, si interesat apo honorarët, tatohen nën këtë nivel në vendin pritës.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg150">Kjo përfaqëson një instrument të rëndësishëm për të parandaluar zhvendosjen artificiale të fitimeve dhe për të garantuar që ky tatim paguhet aty ku krijohet vlera ekonomike.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg151">Konventa që propozohet për ratifikim është instrumenti shumëpalësh që bën të mundur zbatimin praktik të këtij rregulli. Është një konventë e zhvilluar nga OECD-ja dhe është finalizuar në vitin 2023, si pjesë e paketës globale të reformave, me qëllim që të mundësojë implementimin e saj. Shqipëria e ka nënshkruar këtë marrëveshje në Paris, më 23 shtator 2025, nëpërmjet ministrit të Financave.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg152">Një aspekt i rëndësishëm i kësaj konvente është që çon më tej angazhimin e Shqipërisë për të pasur një rol aktiv në zhvillimet ndërkombëtare, duke rritur në këtë mënyrë kredibilitetin si një partner i besueshëm në bashkëpunimin tatimor. Fakti që vendi ynë është ndër juridiksionet që e kanë nënshkruar relativisht herët këtë instrument, tregon qartë orientimin strategjik drejt përputhjes me standardet globale dhe përforcon imazhin e Shqipërisë si një vend që mbështet transparencën dhe integritetin fiskal.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg153">Konventa shoqërohet me dokumentin e pozicionit të Republikës së Shqipërisë, në të cilin jepet statusi i listës së njoftimeve në momentin e nënshkrimit, lidhur me marrëveshjet tatimore të mbuluara nga konventa. Në këtë listë njoftimesh, nga 46 marrëveshjet tatimore bilaterale që janë aktualisht në fuqi dhe që janë nënshkruar nga Republika e Shqipërisë, janë përfshirë 21 prej tyre, pra thuajse gjysma. Kjo referuar edhe analizave të OECD-së mbi legjislacionet e brendshme të këtyre vendeve, të cilat mund të aplikojnë norma nominale të tatimit mbi të ardhurat nën normën minimale prej 9% ndaj disa të ardhurave specifike.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg154">Ratifikimi i kësaj konvente, si vijim i drejtpërdrejtë i nënshkrimit të saj në shtator 2025 pranë OECD-së, gjykojmë që është një hap i domosdoshëm për të përmbushur angazhimet tona ndërkombëtare dhe për këtë arsye, me shumë mirësjellje dhe respekt, kërkojmë miratimin e saj edhe nga komisioni.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg155">Ju faleminderit.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u29" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg156">Faleminderit juve, zëvendësministër!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg157">Do t’ia jap fjalën menjëherë relatores së komisionit, zonjës Sara Mila.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u30" ana="#regular" who="#AL_PERS_SaraMila">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg158">Faleminderit, kryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg159">Në emër të Komisionit për Evropën dhe Punët e Jashtme, po paraqes mendimin për projektligjin “Për ratifikimin e Konventës Shumëpalëshe për Lehtësimin e Zbatimit të Shtyllës së Dytë, Subjekt i Rregullit Tatimor”.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg160">Ky projektligj ka për objekt ratifikimin e konventës së bërë në Paris më 15 shtator 2023, ndërsa për Republikën e Shqipërisë ajo është miratuar në parim me vendim të Këshillit të Ministrave dhe më pas është nënshkruar nga ministri i Financave në Paris, më 23 shtator 2025.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg161">Nga pikëpamja kushtetuese dhe procedurale, projektligji mbështetet në dispozitat përkatëse të Kushtetutës dhe në ligjin “Për marrëveshjet ndërkombëtare në Republikën e Shqipërisë”. Nga këndvështrimi i komisionit tonë, është e rëndësishme të theksohet se ky nuk është thjesht një projektligj teknik në fushën fiskale, por për ne ai ka një dimension të qartë të politikës së jashtme, sepse lidhet me mënyrën se si Shqipëria pozicionohet në raport me standardet ndërkombëtare dhe me angazhimet që ka marrë në kuadër të bashkëpunimit shumëpalësh.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg162">Shqipëria është pjesë e kuadrit gjithëpërfshirës të OECD/G20 mbi erozionin e bazës tatimore dhe zhvendosjen e fitimit që prej vitit 2019, dhe kjo konventë është një nga instrumentet kryesore për zbatimin e rregullit “subject to tax rule”, si pjesë e shtyllës së dytë të reformës globale tatimore.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg163">Në thelb, bëhet fjalë për një mekanizëm që synon të garantojë një nivel minimal tatimi për kategori të caktuara pagesash ndërkufitare dhe të kufizojë praktikat e planifikimit tatimor agresiv. Pikërisht këtu qëndron rëndësia politike e këtij ratifikimi, në një kohë kur shtetet vlerësohen jo vetëm për qëndrimet që mbajnë, por edhe për seriozitetin me të cilin zbatojnë rregullat e përbashkëta.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg164">Ratifikimi i kësaj konvente forcon profilin e Shqipërisë si shtet i besueshëm, që respekton angazhimet e marra dhe që mbështet multilaterizmin si mënyrën më të qëndrueshme për përballimin e sfidave globale.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg165">Ky është edhe një mesazh i rëndësishëm për partnerët tanë. Shqipëria synon të jetë pjesë aktive e arkitekturës ndërkombëtare të drejtësisë fiskale dhe përpjekjeve për të mbrojtur integritetin e sistemeve tatimore.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg166">Rëndësia e këtij projektligji për Komisionin për Evropën dhe Punët e Jashtme bëhet edhe më e prekshme po të kemi parasysh se ai prodhon efekte në marrëdhëniet tona tatimore dypalëshe. Sipas dokumentacionit shoqërues, të cilin e kemi lexuar të gjithë besoj, nga 46 marrëveshje tatimore dypalëshe të nënshkruara nga Shqipëria, 21 janë identifikuar si marrëveshje të mbuluara nga kjo konventë, përfshirë marrëveshje me shtete anëtare të BE-së, me vendet e rajonit dhe me partnerë të tjerë strategjikë po aq të rëndësishëm. Kjo do të thotë se ratifikimi nuk ka vetëm një vlerë juridike të brendshme, por edhe një vlerë të drejtpërdrejtë në planin e marrëdhënieve tona me partnerët ndërkombëtarë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg167">Një element tjetër me peshë është se ky instrument mundëson ndryshimin e marrëveshjeve ekzistuese pa kaluar në rinegocime të gjata dypalëshe, çka e bën atë një zgjedhje më efikase dhe më koherente në frymën e bashkëpunimit shumëpalësh.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg168">Nga këndvështrimi i integrimit evropian, duhet të jemi të saktë, ky projektligj nuk synon përafrimin e drejtpërdrejtë me acquis të BE-së, megjithatë, siç vlerësohet edhe në memon e sekretariatit të komisionit, ai është në përputhje të plotë me parimet, objektivat dhe zhvillimet më të fundit të politikës fiskale të BE-së në luftën kundër erozionit të bazës tatimore dhe zhvendosjes së fitimit, si dhe në harmoni të plotë me qasjen e ndjekur nga BE-ja në kuadër të zbatimit të zgjidhjes globale të OECD/G20, me dy shtylla, përfshirë edhe objektivat e direktivës nr. 2022/2523.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg169">Pra, edhe pse nuk kemi të bëjmë me një akt klasik transpozimi, kemi të bëjmë me një instrument që lëviz qartë në të njëjtin drejtim me standardet dhe orientimet e BE-së.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg170">Në përfundim, si relatore për Komisionin për Evropën dhe Punët e Jashtme, vlerësoj se ky projektligj është në përputhje me Kushtetutën dhe legjislacionin në fuqi për marrëveshjet ndërkombëtare, si dhe forcon besueshmërinë ndërkombëtare të Shqipërisë, konsolidon angazhimin e vendit tonë ndaj bashkëpunimit shumëpalësh dhe mbështet orientimin tonë evropian në një fushë me rëndësi të veçantë për drejtësinë fiskale dhe integritetin institucional.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg171">Për këto arsye, edhe pse ne jemi komision për dhënie mendimi, propozoj miratimin e projektligjit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg172">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u31" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg173">Faleminderit, zonja Mila!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg174">E ka falën për pyetje zoti Kapri dhe më pas zoti Haxhinasto.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u32" ana="#regular" who="#AL_PERS_EraldKapri">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg175">Faleminderit, zoti kryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg176">Kam një pyetje, zoti zëvendësministër. Me sa kuptojmë, marrëveshja ndërkombëtare i mundëson Shqipërisë që të mos bjerë pre e çdo mashtrimi të mundshëm, që të mos lejojë praktikën e shëmtuar që ndodh në shumë vende, ku kapitalet zhvendosen vetëm për të shmangur tatimet. Sigurisht, përderisa e mbështesin edhe vendet më të zhvilluara dhe vendet e OECD-së, kjo formë vlen shumë edhe për Shqipërinë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg177">Problemi është që javën e kaluar ne miratuam në Parlament ligjin për “Duranën”, që është përtej një parajse fiskale. Pra, ne e dimë që aty, sipas ligjit, përjashtimi nga taksat shkon deri në 10 vjet (përjashtohen nga taksa, madje edhe nga TVSH-ja dhe taksat doganore për çdo import dhe për teknologji), apo të kenë mundësi që punonjësit të sigurohen vetëm me pagë minimale. Pra, janë lehtësira që nuk i gjen në asnjë vend tjetër.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg178">Tani këtu lind edhe konflikti. Në qoftë se ne bëjmë një marrëveshje ndërkombëtare, që Shqipëria të mos lejojë të bjerë pre e ndonjë mashtrimi të mundshëm, apo të mos lejojë të vijnë kompani, të cilat i zhvendosin fitimet këtu vetëm për të mos u taksuar, por nga ana tjetër ne e bëjmë vetë këtë gjë në mënyrë jotransparente, duke bërë ligjin për “Duranën” për një numër të caktuar kompanish, pyetja ime është: kjo marrëveshje ndërkombëtare, e cila është mbi ligjin, a respektohet te “Durana”? Pra, në bazë të marrëveshjes, ju a mund të ndërhyni te kompanitë që regjistrohen te “Durana” dhe t’u thoni: do të paguash edhe 9% tatim, pavarësisht se me ligj e ke zero?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg179">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u33" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg180">Faleminderit, zoti Kapri!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg181">Zoti Haxhinasto, fjala për ju. T’i mbledhim pyetjet dhe pastaj të vazhdojmë,</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u34" ana="#regular" who="#AL_PERS_EdmondHaxhinasto">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg182">Faleminderit, kryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg183">Zoti zëvendësministër, kam disa pyetje.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg184">E para, a jeni konsultuar me komunitetin e biznesit dhe cili ka qenë reagimi që keni marrë prej tyre?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg185">E dyta, a keni një pamje të qartë të vendeve të BE-së që e kanë ratifikuar këtë marrëveshje? Cilat nga vendet e BE-së e ka bërë këtë?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg186">E treta, a parashikon kjo marrëveshje që të gjitha palët firmosëse të saj duhet ta ratifikojnë atë njëkohësisht që ajo të ketë funksionim normal dhe të ketë vlefshmëri në funksionimin e saj? Në qoftë se jo, çfarë pasojash mund të ketë vendi që e firmos dhe e ratifikon marrëveshjen krahasuar me vendet që e firmosin, por nuk e ratifikojnë?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg187">Pyetja tjetër: çfarë përfitimi konkret ka ekonomia shqiptare dhe komuniteti i biznesit nga një marrëveshje e tillë? E fundit, a mendoni se një politikë e tillë vendos disa kufizime në qoftë se ne do të zgjedhim të bëjmë politika më agresive për uljen e taksave, me qëllim që të nxisim kryesisht prodhimin vendas dhe ekonominë në tërësi?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg188">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u35" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg189">Faleminderit, zoti Haxhinasto!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg190">Nëse nuk ka pyetje të tjera, po ia jap fjalën menjëherë fjalën ...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg191">Më falni! Zonja Muzhaqi, fjala për ju.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u36" ana="#regular" who="#AL_PERS_BoraMuzhaqi">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg192">Faleminderit, kryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg193">Duke u nisur nga diskutimet dhe bashkëbisedimet me komunitetin, dua t’ju përgëzoj për të gjitha iniciativat dhe marrëveshjet e tatimit të dyfishtë që janë nënshkruar gjatë kësaj periudhe!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg194">Sigurisht, kjo është një punë shumë e mirë, sepse i ka lehtësuar pafund bizneset në raportet e tyre ndërkombëtare. Pyetja që kam për marrëveshjen që po diskutojmë sot është: Në dijeninë time, në marrëveshjet tatimore dypalëshe të Republikës së Shqipërisë aktualisht janë rreth 46 marrëveshje funksionale, ndërkohë që, nga i gjithë studimi i materialeve që keni përcjellë sot, në listën e OECD-së ne kemi përfshirë vetëm 21 prej tyre. Për t’i informuar edhe pak më shumë bizneset që janë subjekt i këtyre marrëveshjeve, a ka pasur një argumentim, një logjikë, pse ne kemi përfshirë gjysmën e këtyre marrëveshjeve, pritet që marrëveshjet e tjera të përfshihen në një moment të dytë, apo kjo lidhet me normën e tatimit? Pra, për marrëveshjet që janë lënë jashtë, mos ndoshta norma e tatimit është më e lartë dhe nuk aplikohet 9%-shi?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg195">Mendoj se kjo është me relevancë për t’u kuptuar edhe nga ana e bizneseve që i përdorin këto marrëveshje të tatimit të dyfishtë në mënyrë të përditshme për të vijuar me biznesin e tyre.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg196">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u37" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg197">Faleminderit, zonja Muzhaqi!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg198">Zoti zëvendësministër, fjala për ju.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u38" ana="#guest" who="#AL_PERS_EndritYzeiraj">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg199">Faleminderit, zoti kryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg200">Do t’u përgjigjem disa pyetjeve, por më pas mund të ndërhyjë edhe stafi me plotësime të tjera.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg201">Për sa i përket pyetjes së zotit Kapri, marrëveshja nuk prek çështjen që ngritët ju, por trajton kompanitë jorezidente, të cilat, teksa operojnë në Shqipëri, qendrën e tyre e listojnë diku tjetër dhe fitimin ekonomik e transferojnë në një vendndodhje tjetër, për ta tatuar atë më pas me një normë më të ulët. Ndërkohë, rasti për të cilin ju po flisni ka të bëjë vetëm me bizneset rezidente, të cilat në njëfarë mënyre nuk preken fare nga kjo marrëveshje.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg202">Sa u takon pyetjeve të zotit Haxhinasto dhe zonjës Muzhaqi (besoj se kanë disa elemente të përbashkëta), praktika e përdorimit të atyre që në anglisht quhen “tax havens”, ose parajsave fiskale, në diskutimet ndërkombëtare po konsiderohet gjithmonë e më shumë e gabuar dhe vendet më të zhvilluara të botës në njëfarë mënyre po përpiqen ta limitojnë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg203">Konsiderohet e gabuar, sepse, mbi të gjitha, konsiderohet false. Pra, përdoren boshllëqe teknike, ligjore, për ta transferuar fitimin e aktivitetit ekonomik në vendburim ose në vendndodhje, kur, në fakt, aktiviteti ekonomik nuk po ndodh vërtet, duke shfrytëzuar përdorimin e konsulentëve apo të shërbimeve të tjera ekonomike, shërbime të vetë kompanive, për ta transferuar më pas fitimin në këto vende dhe për të deklaruar tatime më të vogla.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg204">Kuptohet, kjo nuk është një mënyrë as për të zhvilluar vendet në afatgjatë, as një politikë optimale botërore që vendet duan ta mbajnë. Ka pasur dhe ka një tendencë globale, pikërisht nisur edhe nga vendet më të zhvilluara të botës, për të limituar përdorimin e këtyre praktikave.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg205">Kjo marrëveshje, e cila është zhvilluar nga OECD-ja, që praktikisht është një organizatë e vendeve më të zhvilluara të botës, synon të ndihmojë vendet në zhvillim, të cilat mund të bëhen pre e politikave të kompanive shumëkombëshe, të kompanive të mëdha, të cilat gjenerojnë aktivitet ekonomik në vendet në zhvillim, por ndërkohë nuk kanë kapacitetet administrative për të ndjekur më pas të gjithë zinxhirin e menaxhimit të një kompanie, e cila më pas i s’poston të ardhurat në një vendburim tjetër.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg206">Këtë marrëveshje, zonja Muzhaqi, po ua bashkëngjisim 21 marrëveshjeve aktuale, sepse në 21 marrëveshje aktuale, nga 46 që ne kemi, janë gjetur norma tatimore për dividendin, interesat apo honorarët më të ulëta se ato që ne kemi aktualisht. Pra, duke e bashkëngjitur si një lloj aneksi në fund të marrëveshjeve, në mënyrë automatike ne fitojmë të drejtën për të aplikuar në vend një normë tatimore më të lartë për dividendin, interesat dhe honorarët.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg207">Ndërkohë, 25 marrëveshjet e tjera, patjetër që nuk e kanë këtë lloj rasti, sepse janë vende që kanë norma më të larta tatimore.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg208">A janë bizneset të lumtura? Bizneset gjithmonë zero tatime duan. Kjo nuk është një shpikje apo ndonjë gjetje e madhe. Për aq kohë sa këto janë rregulla globale dhe ku të gjitha vendet bien dakord për të pasur një normë tavan, kuptohet që është patjetër diçka pozitive edhe për ne dhe për të gjithë, sepse kompanitë duhet t’i paguajnë tatimet e tyre diku dhe jo të përdorin kurthe të ndryshme legjislative për t’iu shmangur tatimeve të tyre.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u39" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg209">Dakord.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg210">Po, zoti Haxhinasto.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u40" ana="#regular" who="#AL_PERS_EdmondHaxhinasto">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg211">Zoti zëvendësministër, pyetjen e bëra shumë konkrete, por nuk iu përgjigjët. Ju pyeta se cilat nga vendet e Bashkimit Evropian e kanë ratifikuar. Në mënyrë specifike dua t’ju pyes: Luksemburgu a e ka ratifikuar? Po ndonjë vend tjetër nga këto që quhen “parajsa fiskale të BE-së”, të cilat ju i dini shumë mirë, a e ka ratifikuar?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg212">E dyta (ky është një koment pak i përgjithshëm), unë i kuptoj detyrimet ndërkombëtare që kemi, ndonëse edhe në detyrimet ndërkombëtare vihet re një tendencë shumë e spikatur për t’i hedhur sytë nga interesat direkte që kanë ekonomitë e secilit vend. Kështu që, të mos vazhdojmë atë ecjen by default, duke ecur përpara me symbyllur, por të shikojmë interesat e ekonomisë sonë, sepse në fund fare do të konkurrojmë me ekonominë tonë dhe do t’u shërbejmë qytetarëve tanë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg213">Ne duam të shkojmë te bota, nuk do të vijë bota te ne. Kështu që, të rritemi ekonomikisht, t’i shërbejmë ekonomisë sonë, prandaj ju bëra edhe pyetjen specifike: çfarë përfiton ekonomia jonë? Nuk ju bëra një pyetje morale: a është e drejtë apo jo të paguhen taksa, por ju bëra një pyetje shumë specifike në aspektin ekonomik: a përfiton ekonomia jonë nga kjo apo jo, në mënyrë të kuantifikuar? A keni bërë një përllogaritje se çfarë impakti ka kjo në ekonomi?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg214">Unë e kuptoj se detyrimi për të paguar taksa është universal, por çdo vend ka sovranitetin për të pasur fleksibilitetin për të bërë politika fiskale të caktuara në bazë të interesave dhe të objektivave të veta ekonomik, për nxitje ekonomike, për qëllime që, në fund të fundit, nuk janë ekskluzivisht për ekonominë si e tërë, por për t’u shërbyer qytetarëve, për t’u ulur koston e jetesës dhe për t’u rritur mirëqenien.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg215">Pra, këto elemente a janë marrë në konsideratë nga ana juaj, apo jo? Unë i kuptoj detyrimet ndërkombëtare, por kemi detyrime edhe ndaj qytetarëve shqiptarë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg216">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u41" ana="#guest" who="#AL_PERS_EndritYzeiraj">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg217">Faleminderit, zoti kryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg218">Zoti Haxhinasto, nga vendet që aktualisht kemi një marrëveshje bilaterale, ku konventa në fjalë shtohet automatikisht, disa prej tyre janë pjesë të Bashkimit Evropian, si: Belgjika, Republika Çeke, Estonia, Hungaria, Letonia, Holanda, Polonia, Rumania, Spanja dhe Suedia.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg219">Pra, marrëveshjes që ne aktualisht kemi në fuqi do t’i shtohet automatikisht edhe kjo marrëveshje. Procesin e ratifikimit të të gjitha vendeve, procesin e brendshëm, nuk e disponoj në këtë moment, por mund t’jua vë në dispozicion edhe juve informacionin.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg220">Sa i takon pjesës më të madhe të diskutimit, se çfarë përfitojmë në raport me çfarë humbasim, gjykoj se për aq kohë Shqipëria është në një proces tashmë tejet të avancuar të integrimit evropian, çështja e sovranitetit apo e humbjes së tij është një pyetje të cilës populli shqiptar i ka dhënë një përgjigje. Patjetër që ne e kemi, sepse nuk di që të ketë një parti politike, të paktën parlamentare, me një program të qartë pro sovranizmit dhe kundër proceseve integruese. Përgjigjja që politika shqiptare i ka dhënë prej disa dekadash kësaj pyetjeje është: patjetër, ne pranojmë disa rregulla të rëndësishme ndërkombëtare dhe si përfitim kemi aksesin në tregje ndërkombëtare, shumë herë më të mëdha sesa tregu ynë tejet i limituar. Pastaj, nëse do të donim të aplikonim norma tatimore tërësisht të pavarura, kuptohet që mund ta bënim këtë, por, nga ana tjetër, do të na limitohej aksesi në të gjitha burimet dhe tregjet më të rëndësishme ndërkombëtare, ku vendet patjetër kërkojnë një mënyrë bilaterale të zhvillimit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg221">Më lejoni t’ju bëj me dije se vetëm për shkak të një kapitulli që ne kemi me Bashkimin Evropian, kapitullit 16, aktualisht po bëjmë një rishikim thuajse të të gjithë kodit tonë tatimor: ligjit për TVSH-në, ligjit për të ardhurat personale, ligjit për akcizat, ligjit për taksat kombëtare, pikërisht për t’iu përafruar niveleve të Bashkimit Evropian. Këto janë detyrime që eventualisht vendi ynë duhet t’i zbatojë në momentin e integrimit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg222">A mund të interpretohet kjo herë pas here si kosto? Patjetër, por përfitimi është shumë herë më i madh: hyrja në tregun e përbashkët evropian, për të cilin ne të gjithë kemi rënë dakord, qoftë politikisht, qoftë ekonomikisht, që është një objektiv shumë herë më i rëndësishëm se çdolloj kosto tjetër afatshkurtër.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u42" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg223">Zoti Haxhinasto.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u43" ana="#regular" who="#AL_PERS_EdmondHaxhinasto">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg224">Faleminderit, zoti zëvendësministër!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg225">Duhet të ma kishit kursyer çështjen e partive që merren me aspektet sovraniste. Çdo parti serioze duhet të merret me aspektet sovraniste, sepse pa u marrë me aspektet sovraniste nuk mund të jesh një anëtar solid i një formacioni, siç është Bashkimi Evropian. E para.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg226">E dyta, ju falënderoj që pranoni se ka kosto për ekonominë shqiptare, por, krahasuar me përfitimet e një angazhimi në një format më të gjerë, këto kosto nuk llogariten. Kjo është pikërisht ajo që kam frikë: që ndjeshmëria për rritjen e kostove për ekonominë shqiptare, për prodhuesit shqiptarë, nuk është aty ku duhet të jetë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg227">Jam shumë dakord që t’i respektojmë detyrimet ndërkombëtare, por, para së gjithash, duhet të ndihmojmë ekonominë e vendit, të kemi një ngarkesë fiskale të pranueshme dhe nuk kemi pse të jemi më katolikë se Papa dhe të vendosim detyrime që vende të tjera, të cilat janë në fazë më të zhvilluar sesa ne, nuk i kanë vendosur akoma.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg228">I dëgjova vendet e BE-së, por nuk ishin as gjysma.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg229">Dakord.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg230">Ju mirëkuptoj, por është e domosdoshme që për akte të tilla të llogarisim me përgjegjësi maksimale sa është kostoja e ekonomisë dhe e biznesit shqiptar. Patjetër, janë detyrime ndërkombëtare, por, para së gjithash, kemi detyrime ndaj ekonomisë shqiptare dhe qytetarëve shqiptarë.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u44" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg231">Atëherë, nëse nuk ka kërkesa të tjera për pyetje apo për diskutime, vazhdojmë me procesin e votimit.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg232">Po, zoti Kapri.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u45" ana="#regular" who="#AL_PERS_EraldKapri">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg233">Faleminderit, kryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg234">Ka një problem në mënyrën se si qeveria e shikon të gjithë këtë proces për ndryshimin e legjislacionit për t’u përafruar me Bashkimin Evropian vetëm si një proces tërësisht politik.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg235">Sigurisht, ardhja e kësaj marrëveshjeje ndërkombëtare këtu është për t’u vlerësuar në pikëpamjen e garancive që ofron, por në realitetin tonë të brendshëm shikojmë se vetë qeveria sillet shumë sovraniste në disa aspekte të tjera. Pra, nga njëra anë, ne përfshihemi në marrëveshje ndërkombëtare, të cilat garantojnë që të mos biem pre e asnjë mashtruesi të caktuar që mund të sjellë një kapital këtu për të shpëtuar nga taksat, por, nga ana tjetër, krijon parqe të dyshimta teknologjike, që nuk e di se kush anëtarësohet dhe si anëtarësohen aty, për të shpëtuar miliona euro taksa. Këtu ka diçka që cedon, ka diçka që është totalisht pa kuptim.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg236">Pra, ne nuk mund të ndjekim një standard të caktuar evropian dhe më pas këtu brenda gjejmë një kleçkë ligjore dhe bëjmë ashtu siç dimë, siç duam vetë dhe përfitojmë sa duam vetë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg237">Kjo nuk është evropiane.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg238">Së dyti, për çështjen e kostos që ka biznesi shqiptar nga përafrimi i legjislacionit dhe anëtarësimi në Bashkimin Evropian, kjo gjë duhet marrë shumë seriozisht. Nuk mund të themi thjesht se përfitimet që kemi në Bashkimin Evropian janë kaq të mëdha saqë, pavarësisht kostove afatshkurtra, ne do t’i marrim parasysh. Ka studime shumë serioze që thonë se nga i gjithë procesi i përafrimit dhe i unifikimit drejt tregut të përbashkët, më shumë se gjysma e kompanive shqiptare do të falimentojnë. Problemi është çfarë duhet të bëjmë ne që ato të përshtaten? Ne nuk po bëjmë një dialog dhe nuk jemi transparentë me biznesin dhe me qytetarët se çfarë masash duhet të marrin. U tha se do të ndryshojmë kodin tatimor, do të ndryshojmë të gjitha procedurat, që t’i përafrojmë ato me Bashkimin Evropian, por këto janë procese që kërkojnë një informim sa më të gjerë, që bizneset të përllogarisin kostot, por edhe vetë njerëzit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg239">Për shembull, unifikimi me tregun e energjisë do ta rrisë koston e faturës mujore të energjisë të qytetarëve shqiptarë. Kjo është e sigurt. Por, kjo duhet thënë më parë. Nuk mund të thuhet: meqë kemi përfitime të mëdha dhe, o burra, përpara! Nuk po i futem pastaj diskutimit nëse kemi ndonjë element që duhet ta mbrojmë, ta promovojmë, që pavarësisht përfshirjes në tregun e përbashkët të ishte një vlerë e shtuar “Made in Albania”, që ka nevojë për një mbrojtje specifike. Me sa duket nuk e kemi. Por, minimalisht, me njerëzit ne duhet të jemi transparentë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg240">Sepse pavarësisht vështirësive, biznesi shqiptar është një biznes që ka operuar me vështirësi, shumica e tyre janë heronj, paguajnë taksat dhe minimalisht presin transparencë nga qeveria.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg241">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u46" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg242">Faleminderit, zoti Kapri!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg243">Atëherë, nëse nuk ka kërkesa të tjera për diskutime unë po vazhdoj me procesin e votimit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg244">Votojmë në parim projektligjin “Për ratifikimin e Konventës Shumëpalëshe “Për lehtësimin e zbatimit të shtyllës së dytë, subjekt i rregullit tatimor””.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg245">Kush është pro? Kundër? Abstenim?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg246">Miratohet me 8 vota pro, asnjë kundër dhe 2 abstenime.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg247">Votojmë nen për nen.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg248">Me sa kuptoj kemi një ndryshim të propozuar lidhur me titullin e projektligjit, që tregon shkallën e përafrimit të legjislacionit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg249">Neni 1. Pro? Kundër? Abstenim?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg250">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg251">Neni 2. Pro? Kundër? Abstenim?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg252">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg253">Votojmë në tërësi projektligjin.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg254">Kush është pro? Kundër? Abstenim?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg255">Atëherë, projektligji “Për ratifikimin e Konventës Shumëpalëshe “Për lehtësimin e zbatimit të shtyllës së dytë, subjekt i rregullit tatimor””, miratohet me 8 vota pro, asnjë kundër dhe 1 abstenim.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg256">Falënderoj zëvendësministrin Yzeiraj dhe kolegët e tij! Konsideratë për të gjithë pjesëmarrjet në këtë komision!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg257">Sekretare Marjana Koçeku Përgjegjësja e Shërbimit të Redaktorëve Koordinatori i Komisionit Euzheni Pengili Leandro Xhama</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg258">REPUBLIKA E SHQIPËRISË</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg259">KUVENDI</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg260">Komisioni për Evropën dhe Punët e Jashtme</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg261">PROCESVERBAL</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg262">Tiranë, më 8.4.2026, ora 10:00</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg263">Drejton mbledhjen:</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u47" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg264">kryetar i Komisionit</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg265">Rendi i ditës:</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg266">Shqyrtimi i projektligjit “Për aderimin e Republikës së Shqipërisë në marrëveshjen për zbatimin e dispozitave të Konventës së Kombeve të Bashkuara për të Drejtën e Detit të 10 dhjetorit 1982, që lidhen me ruajtjen dhe menaxhimin e burimeve peshkore ndërkufitare dhe të burimeve shumëmigruese”.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg267">Marrin pjesë:</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg268">Igli Hasani, Bora Muzhaqi, Marjana Koçeku, Ervin Hoxha, Romina Kuko, Edmond Haxhinasto, Sara Mila, Vangjel Dule, Albana Vokshi, Tritan Shehu, Klodiana Spahiu, Skënder Pashaj dhe Erald Kapri.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg269">Mungojnë:</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg270">Taulant Balla, Tomor Alizoti dhe Agron Shehaj.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg271">Të ftuar:</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u48" ana="#guest" who="#AL_PERS_FatmirGuri">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg272">zëvendësministër i Bujqësisë dhe Zhvillimit Rural</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u49" ana="#guest" who="#AL_PERS_VasjarSherrmadhi">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg273">drejtor në Drejtorinë e Politikave, Strategjisë dhe Programeve të Peshkimit dhe Akuakulturës në Ministrinë e Bujqësisë dhe Zhvillimit Rural</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u50" ana="#guest" who="#AL_PERS_EvaBica">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg274">drejtore Juridike në Ministrinë e Bujqësisë dhe Zhvillimit Rural</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u51" ana="#guest" who="#AL_PERS_MarkoKule">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg275">përgjegjës i peshkimit në Ministrinë e Bujqësisë dhe Zhvillimit Rural</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u52" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg276">Vazhdojmë me pikën tjetër të rendit të ditës. Do të shqyrtojmë projektligjin “Për aderimin e Republikës së Shqipërisë në marrëveshjen për zbatimin e dispozitave të Konventës së Kombeve të Bashkuara për të Drejtën e Detit të 10 dhjetorit 1982, që lidhen me ruajtjen dhe menaxhimin e burimeve peshkore ndërkufitare dhe të burimeve shumë shtegtare”. Të ftuar, si përfaqësues të Këshillit të Ministrave, kemi zëvendësministrin e Bujqësisë dhe Zhvillimit Rural, zotin Fatmir Guri, i shoqëruar nga kolegët e tij nga Ministria e Bujqësisë dhe Zhvillimit Rural.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg277">Do t’ia jap menjëherë fjalën zëvendësministrit Guri, të bëjë prezantimin e këtij projektligji.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u53" ana="#guest" who="#AL_PERS_FatmirGuri">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg278">I nderuar kryetar i komisionit, Të nderuar deputetë, Është kënaqësi për mua të paraqes sot marrëveshjen për zbatimin e dispozitave të Konventës së Kombeve të Bashkuara për të Drejtën e Detit të dhjetorit 1982, që lidhet me ruajtjen dhe menaxhimin e burimeve peshkore ndërkufitare dhe të burimeve shumëmigruese.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg279">Kjo nuk është thjesht një marrëveshje teknike e sektorit të peshkimit, por është një instrument i rëndësishëm i rendit juridik ndërkombëtar, i cili forcon përgjegjësinë e shteteve për të mbrojtur një pasuri që nuk i përket vetëm një brezi, por edhe të brezave pasardhës, pra burimet e përbashkëta detare.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg280">Në një kohë kur presioni mbi ekosistemet ujore është rritur, kur mbipeshkimi, degradimi i habitateve dhe mungesa e koordinimit ndërmjet shteteve prodhojnë pasoja të drejtpërdrejta mbi ekonominë, sigurinë ushqimore dhe stabilitetin mjedisor, kjo marrëveshje merr një rëndësi të veçantë. Marrëveshja në fjalë, e njohur gjerësisht si UN Fish Stocks Agreement, është miratuar si instrument ndërkombëtar juridikisht detyrues në vitin 1995 dhe ka hyrë në fuqi në dhjetor të vitit 2001. Ajo ndërtohet mbi themelet e Konventës së Kombeve të Bashkuara për të Drejtën e Detit dhe u hartua pikërisht për të kthyer detyrimet e përgjithshme të asaj konvente në rregulla më të qarta, më operative dhe më të zbatueshme në praktikë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg281">Objektivi është i qartë: të sigurojmë ruajtjen afatgjatë, të shfrytëzimit të qëndrueshëm të stoqeve të peshkimit që lëvizin përtej juridiksionit kombëtar, qofshin këto shtegtare, qofshin stoqe që shtrihen njëkohësisht në zonat nën juridiksion kombëtar dhe në det të hapur. Thelbi i kësaj marrëveshjeje qëndron në disa parime që sot përbëjnë standardin ndërkombëtar të qeverisjes së peshkimit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg282">Së pari, menaxhimi duhet të mbështetet në evidencat më të mira shkencore në dispozicion.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg283">Së dyti, duhet të zbatohet qasja parandaluese, pra të veprohet me maturi dhe atëherë kur kjo, kur jo çdo e dhënë është e plotë, në mënyrë që dëmi mbi stokun të mos ndodhë, sepse më vonë duhet të përpiqemi ta riparojmë atë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg284">Së treti, masat e ruajtjes dhe të menaxhimit duhet të jenë të përputhshme në të gjithë zonën ku shpërndahet stoku, sepse peshku nuk njeh kufij administrativë dhe nuk mund të menaxhohet me logjika të copëtuara. Kjo është arsyeja pse duhet një bashkëpunim real ndërmjet shteteve, dhe jo një veprim i kufizuar dhe i izoluar në nivel kombëtar. Një nga shtyllat më të forta të marrëveshjes është roli i organizatave rajonale të menaxhimit të peshkimit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg285">Pikërisht, përmes këtyre mekanizmave, parimet ndërkombëtare marrin formë konkrete në nivel rajonal. Në rastin e Shqipërisë, në mënyrë të drejtpërdrejtë, ka rëndësi Komisioni i Përgjithshëm për Peshkimin në Mesdhe (GFCM), dhe Komisioni Ndërkombëtar për Ruajtjen e Tonit Atlantik (ICCAT). Përmes këtyre organizatave, miratohen masat e detyrueshme për ruajtjen, menaxhimin, kontrollin, përputhshmërinë; masa që lidhen me vlerësimet shkencore, planet shumëvjeçare të menaxhimit, kufizimet e kapjeve, kufizimet e përpjekjes së peshkimit, si dhe masat në hapësirë dhe në kohë për mbrojtjen e stokut.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg286">Marrëveshja, po ashtu, ka meritën se forcon ndjeshëm mekanizmat e monitorimit, kontrollit dhe zbatimit. Ajo riafirmon përgjegjësinë e shtetit të flamurit për anijet që mbajnë flamurin e tij dhe kërkon që këto anije të respektojnë masat e miratuara të ruajtjes dhe të menaxhimit. Njëkohësisht, ajo nxit bashkëpunimin ndërkombëtar për inspektimet, kontrollin në det të hapur, masat e shtetit portual, sistemin e monitorimit të anijeve, ditarët e peshkimit, programet e vëzhguesve, kontrollin e transferimit të të dhënave dhe dokumentimin e kapjeve.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg287">Pra, nuk kemi të bëjmë me një deklaratë parimesh të përgjithshme, por me një arkitekturë të plotë përgjegjësish konkrete. Për Shqipërinë rëndësia e kësaj marrëveshje është e shumëfishtë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg288">Së pari, konsolidon më tej profilin e vendit tonë si një shtet që respekton dhe zbaton me seriozitet të drejtën ndërkombëtare.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg289">Së dyti, forcon bazën tonë për menaxhimin e qëndrueshëm të burimeve peshkore, që është jetik për mbrojtjen e pasurisë detare dhe për të ardhmen e sektorit tonë të peshkimit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg290">Së treti, rrit koherencën ndërmjet kuadrit tonë kombëtar dhe angazhimeve që Shqipëria ka marrë tashmë si palë kontraktuese në GFCM dhe në ICCAT. Me fjalë të tjera: Shqipëria nuk hyn në një terren të panjohur, përkundrazi, ajo formalizon më tej një angazhim, të cilin ne e kemi dhe e zhvillojmë në praktikë, që e ka ndërtuar përmes pjesëmarrjes aktive në këto organizata dhe përmes zbatimit të vendimmarrjes së tyre.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg291">Shqipëria si palë kontraktuese e GFCM-së dhe ICCAT-it ka marrë pjesë aktive në proceset vendimmarrëse dhe ka miratuar të gjitha masat e detyrueshme që burojnë prej tyre për aktivitetet e peshkimit në Mesdhe. Përmes zbatimit të këtyre masave, në kuadrin tonë ligjor dhe institucional, vendi ynë përmbush detyrime të rëndësishme si shtet i flamurit, autorizimin dhe monitorimin e anijeve, raportimin e të dhënave, respektimin e masat të ruajtjes dhe menaxhimit, si dhe bashkëpunimin në aspektin shkencor të përputhshmërisë. Prandaj, miratimi i kësaj marrëveshjeje është dhe një akt koherence për rrugën që Shqipëria ka ndjekur deri më tani, por gjithashtu edhe një detyrim, i cili na del nga procesi i anëtarësimit, pra nga negociatat për Kapitullin 13 “Peshkimi dhe akuakultura”.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg292">Po ashtu, kjo marrëveshje ka një dimension të rëndësishëm zhvillimor. Ajo njeh nevojën për ndërtim kapacitetesh, për asistencë teknike dhe për fuqizimin e shteteve në zhvillim, me qëllim që ato të marrin pjesë në mënyrë efektive në menaxhimin, shkencën dhe mekanizmat e përputhshmërisë. Për një vend si Shqipëria kjo do të thotë më shumë mundësi për të forcuar institucionet, për të përmirësuar kapacitetet teknike, për të rritur cilësinë e qeverisjes së sektorit në përputhje me standardet ndërkombëtare dhe me objektivat tona strategjike afatgjata.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg293">Të nderuar deputetë, në thelb kjo marrëveshje përfaqëson tri gjëra njëherazi: përgjegjësi, bashkëpunim dhe vizion. Përgjegjësi ndaj detit, burimeve të tij, bashkëpunim ndërmjet shteteve për të menaxhuar si duhet një pasuri e cila është e përbashkët dhe vizionin për të trajtuar peshkimin si një sektor që duhet të mbështetet mbi qëndrueshmërinë, mbi evidencat shkencore, mbi ligjshmërinë dhe rregullat e përbashkëta. Për këtë arsye, përpara jush sot, nuk sjellim vetëm një akt për ratifikim, por sjellim një angazhim të qartë të Shqipërisë për të qenë pjesë e përgjegjshme e rendit ndërkombëtar, për të forcuar qeverisjen e burimeve të saj detare dhe për të garantuar që përdorimi i këtyre burimeve të mbetet i drejtë, i qëndrueshëm dhe në interes të vendit. Në këtë frymë, dhe duke vlerësuar rëndësinë juridike, institucionale, mjedisore dhe strategjike të kësaj marrëveshjeje, ju ftoj ta miratoni atë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg294">Faleminderit.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u54" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg295">Faleminderit, zëvendësministër! Po ia jap menjëherë fjalën relatores së komisionit, zonjës Bora Muzhaqi, të bëjë prezantimin e saj.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u55" ana="#regular" who="#AL_PERS_BoraMuzhaqi">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg296">Faleminderit, kryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg297">Faleminderit, zëvendësministër për shpjegimin e detajuar të marrëveshjes që diskutojmë sot!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg298">Për të mos përsëritur ato që tha zëvendësministri, do të përpiqem ta përmbledh shkurtimisht qëllimin e kësaj marrëveshjeje, por ndoshta edhe për të ofruar më shumë informacion për kolegët, të cilët nuk janë ekspertë të pjesës së peshkimit. Konkretisht, kjo marrëveshje bën fjalë për burimet peshkore që nuk ndalen te kufiri i një shteti. Pra, praktikisht janë specie që lëvizin nga ujërat tona drejt detit të hapur dhe anasjelltas. Kjo është edhe arsyeja pse detyrimi, kur burimet nuk qëndrojnë fikse, por lëvizin, nuk mund të jetë vetëm i një shteti.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg299">Pra, detyrimi duhet të ndahet, duhet të ketë bashkëpunim, duhet të ketë rregull dhe koordinim.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg300">Kjo është arsyeja pse kjo marrëveshje ka një rëndësi strategjike për Shqipërinë. Ne jemi një vend bregdetar, kemi interes të drejtpërdrejtë në dy dete, në Adriatik dhe në Jon dhe ky interes është ekonomik, është mjedisor, është strategjik, që këto burimet të menaxhohen me përgjegjësi, të ruhen për gjeneratën e ardhshme, por edhe të përdoren për gjeneratën aktuale.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg301">Kjo marrëveshje bën pikërisht këtë punë, që vendimet mbështeten në dhëna shkencore, që të veprohet me kujdes kur ka paqartësi, që të mos pritet derisa dëmi të bëhet i pakthyeshëm. Sepse, siç e dimë shumë mirë detit të fal për momentin, por ta kthen faturën pak më vonë, në momentin kur bëhen dëme të pakthyeshme.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg302">Ndërkohë, diçka që është shumë e rëndësishme për t’u theksuar për këtë komision, duke qenë se ne jemi Komisioni për Evropën dhe Punët e Jashtme, është se aderimi në këtë marrëveshje lidhet drejtpërdrejt me Bashkimin Evropian, por edhe me përgatitjen e Shqipërisë për anëtarësim. E përmendi shumë mirë zëvendësministri, që ky nuk është vetëm një angazhim ndërkombëtar që Shqipëria merr përsipër, por është edhe një nga detyrimet konkrete të përcaktuara nga Komisioni Evropian në Kapitullin 13 “Peshkimi dhe akuakultura”, si dhe në Grupkapitullin V “Burimet, bujqësia dhe kohezioni”.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg303">Konkretisht, Bashkimi Evropian e ka bërë shumë të qartë që përafrimi me aktet e Bashkimit Evropian për peshkimin dhe marrëveshjet ndërkombëtare përkatëse, ku përfshihet edhe kjo marrëveshje, janë pjesë e piketave mbyllëse. Pra, këtu gjej rastin për të thënë se kjo është një hallkë shumë konkrete për mbylljen e këtij kapitulli, dhe ndoshta rikthehemi te narrativa që procesi i integrimit dhe anëtarësimit evropian është duke ecur me hapa të shpejtë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg304">Këtë tregon edhe marrëveshja që diskutojmë ne sot, e cilat lidhet me piketat mbyllëse, pra jo më me piketat hapëse, por me piketat mbyllëse. Kjo është një provë tjetër se Shqipëria po ecën seriozisht drejt përmbushjes së standardeve që kërkon Bashkimi Evropian. Kjo ka peshë për të kthyer edhe një përgjigje që mund ta kenë anëtarët e komisionit: të 27 shtetet anëtare të Bashkimit Evropian e kanë ratifikuar dhe aderojnë në këtë marrëveshje të OKB-së, kështu që edhe Shqipëria me anë të aderimit në këtë marrëveshje përshtatet me një standard evropian dhe ndërkombëtar.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg305">Nga ana tjetër, dua të theksoj se kjo marrëveshje i shërben sigurisht edhe interesit tonë kombëtar sepse, edhe pse Shqipëria ka qenë pjesë e proceseve rajonale ku diskutohen masat për peshkimin në Mesdhe, janë dy komisione specifike, Komisioni i Përgjithshëm i Peshkimit për Mesdheun dhe Komisioni Ndërkombëtar për Ruajtjen e Tonit të Atlantikut, pra pavarësisht se ka qenë pjesë në këto tryeza, zëri i Shqipërisë, duke qenë se nuk ka pasur marrëveshjen e OKB-së të ratifikuar, nuk ka qenë fort i mjaftueshëm.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg306">Kështu që, këtu vlen të theksojmë se edhe kur merren vendime në këto tryeza është e rëndësishme që vendi ynë të jetë aty për të diskutuar, sesa të rrijë mënjanë dhe pastaj të ankohet për rezultatet, apo për kuotat e ndryshme që vendosen në këto tryeza. Duke pasur mundësinë e aderimit në këtë marrëveshje, vendi ynë forcon pozicionin, forcon besueshmërinë dhe, mbi të gjitha, fiton më shumë peshë në këto procese të rëndësishme ku përcaktohen rregullat dhe masat që prekin drejtpërdrejt detin tonë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg307">Një komponent tjetër i rëndësishëm që preket nga kjo marrëveshje e OKB-së është edhe lufta kundër peshkimit të paligjshëm që është i paraportuar apo i parregulluar dhe kjo marrëveshje kërkon më shumë monitorim, më shumë kontroll, më shumë shkëmbim të dhënash dhe më shumë përgjegjësi nga shtetet për anijet që mbajnë flamurin e tyre. Duket pak abstrakte si çështje, por nuk është, pasi ka ndikim në mënyrën se si mbrohen burimet tona natyrore, mbi të gjitha, se si funksionon tregu dhe serioziteti që vendi ynë ka përballë partnerëve ndërkombëtarë. Sepse sot reputacioni i një vendi nuk është vetëm me çfarë thotë një vend, por, mbi të gjitha, me rregullat që zbaton. Prandaj, nëse duam të jemi të besueshëm në tryezën evropiane, ne duhet të menaxhojmë pasuritë tona natyrore në mënyrën e duhur dhe sipas standardeve të Bashkimit Evropian. Kjo marrëveshje e ndihmon këtë, por sigurisht bën dhe mbrojtjen e biodiversitetit detar, duke përdorur në mënyrë të qëndrueshme burimet tona.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg308">Siç e përmendi dhe zëvendësministri, kjo marrëveshje ka përfitime në tri drejtime të ndryshme: në aspektin mjedisor, në aspektin ekonomik dhe sigurisht në përmbushjen e piketave mbyllëse për integrimin evropian në Kapitullin nr. 13. Jo keq për një marrëveshje që duket në pamje të parë sikur flet vetëm për peshkimin, edhe pse ky nuk është rasti, sepse ka disa komponentë shumë të rëndësishëm.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg309">Një tjetër element pozitiv që dua të theksoj është fakti se kjo marrëveshje nuk sjell një barrë të re për buxhetin e shtetit. Pra, është një masë që forcon pozicionin e Shqipërisë, ndihmon në procesin e përafrimit, rrit kapacitetin për menaxhim më të mirë të burimeve ujore, por edhe nuk krijon kosto shtesë. Për të gjitha këto arsye besoj që komisioni duhet ta miratojë këtë projektligj, në përputhje me detyrimet që ne kemi kundrejt anëtarësimit në Bashkimin Evropian.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg310">Ju faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u56" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg311">Faleminderit, zonja Muzhaqi!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg312">Po e hap tryezën për pyetje dhe diskutime.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg313">Zoti Haxhinasto.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u57" ana="#regular" who="#AL_PERS_EdmondHaxhinasto">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg314">Faleminderit, zoti zëvendësministër!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg315">Në fakt, patjetër që e mbështes një marrëveshje të tillë. Shqetësimi im është nëse ne i kemi kapacitetet. Dëshiroj të di nga ju nëse ka një problematikë aktuale sa i takon monitorimit të zbatimit të dispozitave të kësaj marrëveshjeje.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg316">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u58" ana="#guest" who="#AL_PERS_FatmirGuri">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg317">Faleminderit për pyetjen!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg318">Në të vërtetë, ne jemi pjesë e dy organizatave rajonale të peshkimit, të cilat operacionalizojnë parimet dhe vendimet që ne duhet të merrnim në këtë marrëveshje. Si pjesë e këtyre dy organizatave, ne i zbatojmë tashmë të gjitha detyrimet që na lindin si vend nënshkrues për këtë marrëveshje. Pra, në njëfarë mënyre, duke qenë pjesë e këtyre dy organizatave që është ajo e peshkimit në Mesdhe dhe e tonit të Atlantikut, ne i kemi zbatuar detyrimet e kësaj marrëveshjeje, pavarësisht se nuk e kishim nënshkruar dhe ratifikuar atë.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u59" ana="#regular" who="#AL_PERS_EdmondHaxhinasto">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg319">Nuk ishte kjo pyetja. Më vjen keq!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg320">Pra, a kemi kapacitete dhe a duhen forcuar kapacitetet për të garantuar zbatimin e detyrimeve që kemi nga kjo marrëveshje, në kuptimin e inspektimit të anijeve të peshkimit dhe të tjera, që janë të paraqitura aty? A kemi ndonjë problematikë që na pengon në zbatimin e dispozitave të kësaj marrëveshjeje? Këtë po thosha unë. Dakord, jemi pjesë e shoqatave, funksionojmë në formacione të tilla, por ne si vend, a kemi nevojë të forcojmë kapacitetet e inspektimit, të mjeteve për të inspektuar, sepse do të na inspektojnë edhe të tjerët? Është pjesë e aktit që mund të na inspektojnë edhe të tjerët, mund të ndalojnë anijet në det edhe t’i inspektojnë. Ne vetë, a i kemi këto kapacitete, duhet t’i forcojmë kapacitetet? Kjo ishte pyetja.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg321">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u60" ana="#guest" who="#AL_PERS_FatmirGuri">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg322">Faleminderit, edhe njëherë, zoti deputet!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg323">Në të vërtetë, nevoja për të forcuar kapacitetet është e vazhdueshme, të cilën ne e kemi parim të punës sonë, sidomos sa i përket përafrimit të sektorit me Kapitullin 13 për anëtarësimin në Bashkimin Evropian. Por, përtej kësaj, sa i përket kësaj marrëveshjeje specifike, të gjitha detyrimet që na dalin nga kjo marrëveshje sot zbatohen në sektorin e peshkimit, si pjesë e detyrimeve që kemi nga dy institucionet që unë përmenda. Pra, janë detyrime të zbatuara në sektor, janë aktualisht të aplikuara.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg324">Kështu që, absolutisht nevoja për të forcuar kapacitetet tona mbetet. Ne ndërtojmë dhe kemi ndërtuar një plan të plotë për sa i përket këtij procesi, i cili është një proces i vazhduar, por për sa i përket kësaj marrëveshjeje specifike, tashmë i kemi të gjitha kapacitetet për ta zbatuar në sektor.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg325">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-04-08-1.u61" ana="#chair" who="#AL_PERS_IgliHasani">
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg326">Faleminderit, zëvendësministër! Ka kolegë të tjerë që duan të pyesin apo të diskutojnë? Nëse nuk ka, me lejen tuaj, do të kalojmë në votimin e projektligjit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg327">Votojmë në parim projektligjin “Për aderimin e Republikës së Shqipërisë në marrëveshjen për zbatimin e dispozitave të Konventës së Kombeve të Bashkuara për të Drejtën e Detit të 10 dhjetorit 1982, që lidhen me ruajtjen dhe menaxhimin e burimeve peshkore ndërkufitare dhe të burimeve shumështegtuese”. Kush është pro? Kundër? Abstenim?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg328">Miratohet me 10 vota pro, asnjë kundër, asnjë abstenim.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg329">Votojmë nen për nen projektligjin.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg330">Neni 1. Pro? Kundër? Abstenim?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg331">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg332">Neni 2. Pro? Kundër? Abstenim?</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg333">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg334">Votojmë në tërësi projektligjin.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg335">Pro? Kundër? Abstenim? Projektligji “Për aderimin e Republikës së Shqipërisë në marrëveshjen për zbatimin e dispozitave të Konventës së Kombeve të Bashkuara për të Drejtën e Detit, të 10 dhjetorit 1982, që lidhen me ruajtjen dhe menaxhimin e burimeve peshkore ndërkufitare dhe të burimeve shumështegtuese” miratohet me 10 vota pro, asnjë kundër dhe asnjë abstenim.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg336">Falënderoj zëvendësministrin dhe kolegët e Ministrisë së Bujqësisë dhe Zhvillimit Rural për prezencën!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg337">Unë e quaj të mbyllur këtë mbledhje, në mënyrë që në orën 12:00 të vazhdojmë me mbledhjen tjetër të Komisionit për Evropën dhe Punët e Jashtme.</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg338">Faleminderit!</seg>
+          <seg xml:id="ParlaMint-AL_2026-04-08-1.seg339">Sekretare Marjana Koçeku</seg>
+          <note type="comment">MBYLLET MBLEDHJA</note>
+        </u>
+      </div>
+    </body>
+  </text>
+</TEI>

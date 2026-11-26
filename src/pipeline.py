@@ -1,18 +1,21 @@
 # -*- coding: utf-8 -*-
 """
-End-to-End Orchestration Pipeline for ParlaMint-AL conforming to ParlaMint 5.0:
-Coordinates source acquisition, cleaning, segmentation, metadata building,
-taxonomies generation, TEI encoding, root corpus generation, and linguistic annotation.
+End-to-End Orchestration Pipeline for ParlaMint-AL conforming to ParlaMint 5.0
+and the ParlaMint-AL Metadata Collection and Validation Guide:
+Coordinates source acquisition, cleaning, working register & metadata collection,
+M1/M2 membership inference, segmentation, speaker disambiguation, taxonomies generation,
+TEI encoding, root corpus generation, speech metadata TSV export, and release validation.
 
 Stages:
-  --stage tei    : Clean text -> Segment -> Resolve speakers -> out/TEI/plain/YYYY/*.xml
-  --stage lists  : metadata/*.csv -> out/TEI/ParlaMint-AL-listPerson.xml & listOrg.xml & taxonomies
-  --stage root   : Generate/refresh out/TEI/ParlaMint-AL.xml master corpus file
+  --stage tei    : Clean text -> Segment -> Resolve speakers -> out/TEI/plain/YYYY/*.xml & speech_metadata_export.tsv
+  --stage lists  : Reconstruct working register -> out/TEI/ParlaMint-AL-listPerson.xml & listOrg.xml & taxonomies
+  --stage root   : Generate/refresh out/TEI/ParlaMint-AL.xml master corpus file & run validation suite
   --stage ana    : Annotate out/TEI/plain/YYYY/*.xml -> out/TEI/ana/YYYY/*.ana.xml & ParlaMint-AL.ana.xml
-  --stage all    : Run lists -> tei -> root -> (optional) ana
+  --stage all    : Run lists -> tei -> root -> validate -> (optional) ana
 """
 from __future__ import annotations
 import argparse
+import shutil
 import sys
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -44,6 +47,7 @@ from .utils import (
 from .crawl import crawl_urls, crawl_to_txt
 from .extract import clean_folder, extract_header_block
 from .segment import segment_document
+from .collect_metadata import reconstruct_all_metadata
 from .metadata import (
     DocumentMetadata,
     load_metadata_table,
@@ -54,14 +58,20 @@ from .person_org_metadata import (
     load_persons_csv,
     load_affiliations_csv,
     load_orgs_csv,
+    load_org_relations_csv,
     write_listPerson,
     write_listOrg,
 )
 from .taxonomies import write_all_taxonomies
-from .resolve_speakers import resolve_speeches, write_unresolved_report
+from .resolve_speakers import (
+    resolve_speeches,
+    write_unresolved_report,
+    write_speech_metadata_tsv,
+)
 from .tei import segmented_to_tei
 from .build_root import write_root_corpus_file
 from .update_root_includes import update_parlamint_root, update_parlamint_ana_root
+from .validate_metadata import run_all_validations
 
 
 def build_url_index(urls: Optional[List[str]] = None) -> Dict[str, str]:
@@ -84,16 +94,22 @@ def convert_inbox_to_tei(
     """
     Stage 'tei':
     Read cleaned transcripts in inbox_root, segment into sitting and speech turns,
-    resolve speaker entities against persons.csv, and serialize to out_root/plain/YYYY/*.xml.
+    resolve speaker entities against persons.csv/affiliations.csv/org_relations.csv,
+    serialize to out_root/plain/YYYY/*.xml, and export speech_metadata_export.tsv.
     """
     inbox_path = Path(inbox_root)
     out_plain = Path(out_root) / "plain" if not str(out_root).endswith("plain") else Path(out_root)
+    if out_plain.exists():
+        for old_xml in out_plain.rglob("*.xml"):
+            old_xml.unlink()
     ensure_dir(out_plain)
 
     meta_path = Path(metadata_dir)
     docs_csv = meta_path / "documents.csv" if not meta_path.is_file() else meta_path
     persons_csv = meta_path / "persons.csv"
     affs_csv = meta_path / "affiliations.csv"
+    orgs_csv = meta_path / "orgs.csv"
+    org_rels_csv = meta_path / "org_relations.csv"
 
     # Load metadata layers
     doc_table = load_metadata_table(docs_csv) if docs_csv.exists() else {}
@@ -101,46 +117,76 @@ def convert_inbox_to_tei(
     persons = load_persons_csv(persons_csv) if persons_csv.exists() else {}
     if affs_csv.exists() and persons:
         load_affiliations_csv(affs_csv, persons)
+    orgs = load_orgs_csv(orgs_csv) if orgs_csv.exists() else {}
+    org_relations = load_org_relations_csv(org_rels_csv) if org_rels_csv.exists() else []
 
     generated_files: List[Path] = []
     unresolved_all = {}
+    speech_tsv_rows: List[Dict[str, str]] = []
 
     txt_files = sorted(inbox_path.glob("*.txt"))
     if not txt_files:
         print(f"[WARN] No .txt files found in {inbox_path}")
         return generated_files
 
+    date_seen_fallback: Dict[str, int] = {}
+
     for txt_file in txt_files:
         text = read_text(txt_file)
         if not text.strip():
             continue
 
-        # Extract header cues
         hdr_info = extract_header_block(text)
         stem = txt_file.stem
         date = hdr_info.get("date") or guess_date_from_url(stem) or "2025-01-01"
 
-        # Lookup document metadata
         meta = get_document_metadata(stem, url_index=url_index, metadata_table=doc_table)
         if not meta.date or meta.date == "2025-01-01":
             meta.date = date
-        if not meta.doc_id or "0000" in meta.doc_id:
-            meta.doc_id = make_document_id(country_code, date)
-        if hdr_info.get("chair_name"):
+        if not meta.doc_id or "0000" in meta.doc_id or "2025-01-01" in meta.doc_id:
+            date_seen_fallback[meta.date] = date_seen_fallback.get(meta.date, 0) + 1
+            idx = date_seen_fallback[meta.date]
+            meta.doc_id = make_document_id(country_code, meta.date, index=idx if idx > 1 else 0)
+        if hdr_info.get("chair_name") and not meta.chair_name:
             meta.chair_name = hdr_info["chair_name"]
             meta.chair_role = hdr_info.get("chair_role")
 
         # Segment document
         sitting = segment_document(text, doc_id=meta.doc_id, date=meta.date)
 
-        # Resolve speakers
+        # Resolve speakers with date-sensitive affiliations & party status
         resolutions = resolve_speeches(
             sitting.speeches,
             date=meta.date,
             persons=persons,
             sitting_chair_name=meta.chair_name or sitting.chair_name,
+            orgs=orgs,
+            org_relations=org_relations,
         )
         unresolved_all.update(resolutions)
+
+        for sp in sitting.speeches:
+            res = resolutions.get(sp.speech_id)
+            if not res:
+                continue
+            speech_tsv_rows.append({
+                "Speech_ID": sp.speech_id,
+                "Doc_ID": meta.doc_id,
+                "Date": meta.date,
+                "Speaker_ID": res.person_id or "",
+                "Speaker_name": res.speaker_name or res.raw_label or "",
+                "Speaker_role": res.role,
+                "Speaker_MP": "yes" if res.is_mp else "no",
+                "Speaker_minister": "yes" if res.is_minister else "no",
+                "Speaker_party": res.speaker_party or "",
+                "Group_ID": res.group_id or "",
+                "Party_ID": res.party_id or "",
+                "Party_status": res.party_status or "",
+                "Speaker_gender": res.speaker_gender or "",
+                "Speaker_birth": res.speaker_birth or "",
+                "Provenance_basis": res.provenance_basis,
+                "Reliability": res.reliability,
+            })
 
         # Write plain TEI component file
         year = meta.date[:4]
@@ -153,9 +199,13 @@ def convert_inbox_to_tei(
         generated_files.append(out_file)
         print(f"[OK] TEI component: {txt_file.name} -> {out_file.relative_to(PROJECT_ROOT) if out_file.is_relative_to(PROJECT_ROOT) else out_file}")
 
-    # Write unresolved speakers audit report
+    # Write unresolved speakers audit report and v5 speech metadata export
     audit_report = Path(out_root) / "unresolved_speakers_report.csv"
     write_unresolved_report(unresolved_all, audit_report)
+
+    speech_tsv = Path(out_root) / "speech_metadata_export.tsv"
+    write_speech_metadata_tsv(speech_tsv_rows, speech_tsv)
+    print(f"[OK] Wrote speech metadata TSV ({len(speech_tsv_rows)} speeches) -> {speech_tsv}")
 
     return generated_files
 
@@ -163,10 +213,12 @@ def convert_inbox_to_tei(
 def build_lists(
     metadata_dir: Path | str = METADATA_DIR,
     out_root: Path | str = OUT_TEI_DIR,
+    inbox_dir: Path | str = CLEANED_DIR,
 ) -> tuple[Path, Path]:
     """
     Stage 'lists':
-    Load persons, affiliations, and orgs from metadata/ and write:
+    Reconstruct working register tables (including M1/M2 inference), load export-eligible
+    persons, affiliations, orgs, and org_relations from metadata/, and write:
     - out_root/ParlaMint-AL-listPerson.xml
     - out_root/ParlaMint-AL-listOrg.xml
     - Shared ParlaMint 5.0 taxonomies
@@ -175,33 +227,30 @@ def build_lists(
     out_dir = Path(out_root)
     ensure_dir(out_dir)
 
+    reconstruct_all_metadata(inbox_cleaned_dir=inbox_dir, metadata_dir=meta_path)
+
     persons_csv = meta_path / "persons.csv"
     affs_csv = meta_path / "affiliations.csv"
     orgs_csv = meta_path / "orgs.csv"
-
-    # Fallback to meta/ if metadata/ doesn't exist yet
-    if not persons_csv.exists() and (PROJECT_ROOT / "meta" / "speakers.csv").exists():
-        persons_csv = PROJECT_ROOT / "meta" / "speakers.csv"
-    if not orgs_csv.exists() and (PROJECT_ROOT / "meta" / "orgs.csv").exists():
-        orgs_csv = PROJECT_ROOT / "meta" / "orgs.csv"
+    org_rels_csv = meta_path / "org_relations.csv"
 
     persons = load_persons_csv(persons_csv)
     if affs_csv.exists() and persons:
         load_affiliations_csv(affs_csv, persons)
 
     orgs = load_orgs_csv(orgs_csv)
+    org_relations = load_org_relations_csv(org_rels_csv) if org_rels_csv.exists() else []
 
     list_person_path = out_dir / f"ParlaMint-{COUNTRY_CODE}-listPerson.xml"
     list_org_path = out_dir / f"ParlaMint-{COUNTRY_CODE}-listOrg.xml"
 
     write_listPerson(persons.values(), list_person_path)
-    write_listOrg(orgs.values(), list_org_path)
+    write_listOrg(orgs.values(), list_org_path, org_relations=org_relations)
 
-    # Write shared taxonomies
     written_tax = write_all_taxonomies(out_dir)
 
     print(f"[OK] Wrote listPerson ({len(persons)} entries) -> {list_person_path}")
-    print(f"[OK] Wrote listOrg    ({len(orgs)} entries) -> {list_org_path}")
+    print(f"[OK] Wrote listOrg    ({len(orgs)} entries, {len(org_relations)} relations) -> {list_org_path}")
     print(f"[OK] Wrote {len(written_tax)} shared taxonomies -> {out_dir}")
 
     return list_person_path, list_org_path
@@ -275,7 +324,6 @@ def run_pipeline(
     out_p = Path(out_dir)
     meta_p = Path(metadata_dir)
 
-    # Optional pre-processing
     if crawl_first:
         print(f"[*] Stage: Crawling and downloading fresh PDFs (limit={limit or 100}) to {RAW_DIR}...")
         crawl_to_txt(limit=limit or 100)
@@ -290,18 +338,19 @@ def run_pipeline(
 
     if stage in ("lists", "all"):
         if stage == "all":
-            print("[*] --- Step 1/3: Building listPerson, listOrg XML & Taxonomies ---")
-        build_lists(metadata_dir=meta_p, out_root=out_p)
+            print("[*] --- Step 1/3: Reconstructing Working Register & Building listPerson, listOrg XML & Taxonomies ---")
+        build_lists(metadata_dir=meta_p, out_root=out_p, inbox_dir=inbox_p)
 
     if stage in ("tei", "all"):
         if stage == "all":
-            print("[*] --- Step 2/3: Generating component TEI plain files ---")
+            print("[*] --- Step 2/3: Generating component TEI plain files & Speech Metadata TSV ---")
         convert_inbox_to_tei(inbox_root=inbox_p, out_root=out_p, metadata_dir=meta_p)
 
     if stage in ("root", "all"):
         if stage == "all":
-            print("[*] --- Step 3/3: Building master ParlaMint-AL.xml root ---")
+            print("[*] --- Step 3/3: Building master ParlaMint-AL.xml root & Running Guide Validations ---")
         build_roots(out_root=out_p)
+        run_all_validations(metadata_dir=meta_p, out_tei_dir=out_p)
 
     if stage == "ana" or (stage == "all" and with_ana):
         if stage == "all":

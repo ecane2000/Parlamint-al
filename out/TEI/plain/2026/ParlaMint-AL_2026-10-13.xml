@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-10-13" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-10-13" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-10-13</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-10-13</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Konferenca e Kryetarëve, 2026-10-13</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Conference of Chairpersons, 2026-10-13</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KonferencaKryetareve" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -108,7 +108,7 @@
           <seg xml:id="ParlaMint-AL_2026-10-13.seg20">Kush dëshiron të shprehet lidhur me projektkalendarin dhe projektprogramin e punimeve?</seg>
           <seg xml:id="ParlaMint-AL_2026-10-13.seg21">Zoti Balla.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-13.u2" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-10-13.u2" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-10-13.seg22">Kryetar, lidhur me projektkalendarin që është paraqitur për javët në vijim, dua t’ju kujtoj se Kuvendi, pak nga pak, po i afrohet momentit kur qeveria depoziton buxhetin (afati i fundit është 25 tetori, sipas ligjit për menaxhimin e buxhetit), dhe për pasojë do të duhet që edhe kalendarët vijues t’i përshtatim me kalendarin e buxhetit, i cili do të diskutohet, do të prezantohet nga kryetari i Komisionit për Ekonominë dhe do të miratohet në Konferencën e Kryetarëve dhe në seancë. Për të shkuar në këtë pikë, do të propozoja që java pasardhëse të ishte Javë e Gjelbër dhe java që pason të ishte javë pune parlamentare, që Kuvendi, deputetët, kryetarët e komisioneve, anëtarë të Konferencës së Kryetarëve, të jenë të disponueshëm për në seancë. Propozimi im është që në javën 19-23 të mos kemi seanca plenare, kryesisht, dhe punë në komisione, por më 26 dhe 29 të kemi 2 seancat, njëra dedikuar çështjeve të evidentuara nga zgjedhësit, por edhe mund të mbartë ndonjë çështje, dhe ajo e datës 29, gjithashtu. Ne do të ngulmojmë shumë që qeveria t’i përmbahet afatit që kemi përcaktuar...</seg>
           <seg xml:id="ParlaMint-AL_2026-10-13.seg23">Ministre, mbaje shënim, se të paktën afatin që kemi të përcaktuar duhet ta respektojmë.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-13.seg24">...dhe pastaj, qoftë edhe në Javën e Gjelbër, të kemi mundësi të mbledhim Konferencën e Kryetarëve dhe të fillojmë të përcaktojmë buxhetin. Kujtoj këtu se Kuvendi nuk duhet të harrojë se buxheti duhet të miratohet të paktën deri në datën 5 dhjetor, maksimumi më 10 dhjetor, sepse duhet t’u lëmë kohë bashkive të miratojnë buxhetet e tyre. Ju e dini fare mirë që bashkitë s’e miratojnë dot buxhetin nëse nuk miratohet buxheti i qeverisë qendrore.</seg>
@@ -244,7 +244,7 @@
           <seg xml:id="ParlaMint-AL_2026-10-13.seg100">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-10-13.seg101">Zoti Balla.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-13.u12" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-10-13.u12" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-10-13.seg102">Faleminderit, zoti Kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-10-13.seg103">Duke qenë se jam një prej propozuesve të këtij komisioni të posaçëm, pa dyshim që, gjëra që nuk janë adresuar nga komisioni i kaluar, mund të rimerren, edhe pse në parantezë ne kishim njoftuar se komisioni i ri që do të ngrihet, do të ngrihet pikërisht..., por kur Parlamentin e bën shkollë nate dhe nuk di se ka ligje që i ka miratuar ky Kuvend, siç është ligji për zhvillimin rajonal dhe kohezionin, që e kemi votuar në vitin 2020, kur shkolla e natës ishte pushim, nuk e di që në relacionin përkatës, shtylla 4 është pikërisht niveli rajonal, të cilin e kemi propozuar, ku kemi theksuar se fondet e kohezionit të Bashkimit Evropian programohen dhe menaxhohen në nivel rajonal, ndërsa planifikimi i hapësirave, i transportit ndërrajonal, menaxhimi i ujërave, nëse doni, i mbetjeve dhe politikat mjedisore, kërkojnë një shkallë më të gjerë se bashkia. Dhe ky është fakt, pra qoftë në nivelin e ujësjellës-kanalizimeve apo të trajtimit të mbetjeve në transportin ndërrajonal, bazuar në ligjin që ju përmenda, ne kemi krijuar një eksperiencë.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-13.seg104">Ndërkohë, që t’ju sqaroj edhe ju, edhe kolegen, nuk ka nevojë për ndryshime kushtetuese për të forcuar këtë dimension të bashkëpunimit mes bashkive në nivel rajonal për çështje që lidhen edhe me projektet e kohezionit. Megjithatë, nëse nuk e dinë, Konferenca e Kryetarëve sot nuk ka një mandat për të hedhur në votë propozimin. Këtë mandat e ka seanca. Pra, në seancë do të diskutojmë, dhe kërkoj nga ana juaj, Kryetar, që këtë propozim ta përfshini në mbledhjen e ditës së enjte, në mënyrë që të mos vonohemi.</seg>
@@ -276,7 +276,7 @@
         <u xml:id="ParlaMint-AL_2026-10-13.u15" ana="#chair" who="#AL_PERS_NikoPeleshi">
           <seg xml:id="ParlaMint-AL_2026-10-13.seg122">Zoti Balla,</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-13.u16" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-10-13.u16" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-10-13.seg123">E para, është vetëpersekutimi i disa personave, që, për mënyrën e retorikës politike, le t’i shkojë për shtat edhe bojkotit, që vijnë, flasin këtu dhe ikin, s’marrin pjesë në votim.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-13.seg124">Në datën 24 korrik është bërë një kërkesë, por që ishte jashtë afatit dhe nuk kishte asnjë vlerë juridike. Ndërkohë, po themi krejtësisht gjëra të tjera. Edhe më 31 korrik 2014 kemi votuar ndarjen administrativo-territoriale dhe më pas kemi vazhduar me ligjet.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-13.seg125">P a g e 15 | 16</seg>
@@ -294,7 +294,7 @@
           <seg xml:id="ParlaMint-AL_2026-10-13.seg132">Atëherë, miratohet kërkesa për ngritjen e Komisionit të Posaçëm parlamentar për fazën e dytë të Reformës Administrativo-Territoriale në Republikën e Shqipërisë, e cila i kalon seancës për miratim.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-13.seg133">Para se të mbyllim mbledhjen, kam vetëm diçka lidhur me seancën e ditës së hënë: do t’ju lutesha ta mbajmë siç është në Rregullore, seancë vetëm për diskutimet e çështjeve që lidhen me zgjedhësit, sepse, nëse e hapim pastaj dhe për çështje të tjera, një çështje sot, një çështje nesër, do ta denatyrojë dhe do t’i biem në qafë minutazhit të përcaktuar. Kështu që, ju lutem, të bëjmë sforco ekstra për në seancat e radhës, seancat e së enjtes, për të trajtuar të gjitha çështjet, projektligjet dhe jo të krijojmë...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-13.u18" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-10-13.u18" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-10-13.seg134">Po, si rregull, por kur kemi nevojë...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-10-13.u19" ana="#chair" who="#AL_PERS_NikoPeleshi">

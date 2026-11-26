@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-02-10" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-02-10" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-02-10</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-02-10</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Bujqësinë, Ushqimin dhe Zhvillimin Rural, 2026-02-10</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Agriculture, Food and Rural Development, 2026-02-10</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KBUZHR" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -125,7 +125,7 @@
           <seg xml:id="ParlaMint-AL_2026-02-10.seg29">Zoti Jaupllari, doni të shpreheni ju fillimisht, apo t’ia kalojmë fjalën relatorit? Më mirë ta merrni ju fjalën në fillim, që të kemi edhe argumentet e institucioneve qendrore.</seg>
           <seg xml:id="ParlaMint-AL_2026-02-10.seg30">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-02-10.u6" ana="#regular" who="#AL_PERS_ArianJaupllari">
+        <u xml:id="ParlaMint-AL_2026-02-10.u6" ana="#guest" who="#AL_PERS_ArianJaupllari">
           <seg xml:id="ParlaMint-AL_2026-02-10.seg31">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-02-10.seg32">I nderuar kryetar,</seg>
           <seg xml:id="ParlaMint-AL_2026-02-10.seg33">Të nderuar anëtarë të Komisionit,</seg>
@@ -336,7 +336,7 @@
           <seg xml:id="ParlaMint-AL_2026-02-10.seg172">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-02-10.seg173">Fjalën e ka zëvendësministri, pastaj do të kalojmë në procesin e votimit.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-02-10.u28" ana="#regular" who="#AL_PERS_ArianJaupllari">
+        <u xml:id="ParlaMint-AL_2026-02-10.u28" ana="#guest" who="#AL_PERS_ArianJaupllari">
           <seg xml:id="ParlaMint-AL_2026-02-10.seg174">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-02-10.seg175">Absolutisht, nuk thashë asnjë fjalë që nuk jam dakord me projektligjin, por theksova se ky projektligj në paketën ligjore, që do të hartojmë me ligjin “Për kontrollet zyrtare”, përputhet në të gjitha aspektet dhe është mot a mot me ligjin që do të jetë “Për kontrollet zyrtare” në Bashkimin Europian.</seg>
           <seg xml:id="ParlaMint-AL_2026-02-10.seg176">Ligji “Për kontrollet zyrtare” do të kalojë me shpejt sesa ky ligj, i cili do të fillojë sot dhe do të vazhdojë rrugën e tij.</seg>
@@ -350,7 +350,7 @@
         <u xml:id="ParlaMint-AL_2026-02-10.u29" ana="#chair" who="#AL_PERS_BlendiKlosi">
           <seg xml:id="ParlaMint-AL_2026-02-10.seg180">Me kërkesën e përfaqësuesve të opozitës, do të zhvillojmë një dëgjesë. Do ta fiksojmë edhe me ministrin për këtë temë, që është shumë e rëndësishme.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-02-10.u30" ana="#regular" who="#AL_PERS_ArianJaupllari">
+        <u xml:id="ParlaMint-AL_2026-02-10.u30" ana="#guest" who="#AL_PERS_ArianJaupllari">
           <seg xml:id="ParlaMint-AL_2026-02-10.seg181">Do të vijmë me seriozitetin dhe me përgjegjshmërinë më të madhe.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-02-10.u31" ana="#chair" who="#AL_PERS_BlendiKlosi">

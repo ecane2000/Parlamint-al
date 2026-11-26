@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-03-03" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-03-03" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-03-03</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-03-03</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Bujqësinë, Ushqimin dhe Zhvillimin Rural, 2026-03-03</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Agriculture, Food and Rural Development, 2026-03-03</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KBUZHR" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -104,7 +104,7 @@
           <seg xml:id="ParlaMint-AL_2026-03-03.seg19">Më pas fjalën do ta kenë kolegët, për të bërë pyetjet dhe diskutimet përkatëse.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg20">Zoti ministër, fjala për ju.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-03.u2" ana="#regular" who="#AL_PERS_AndisSalla">
+        <u xml:id="ParlaMint-AL_2026-03-03.u2" ana="#guest" who="#AL_PERS_AndisSalla">
           <seg xml:id="ParlaMint-AL_2026-03-03.seg21">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg22">I nderuar kryetar,</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg23">Të nderuar deputetë,</seg>
@@ -132,7 +132,7 @@
           <seg xml:id="ParlaMint-AL_2026-03-03.seg43">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg44">Më pas fjalën e ka kërkuar deputeti Mziu.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-03.u4" ana="#regular" who="#AL_PERS_IrfanTarelli">
+        <u xml:id="ParlaMint-AL_2026-03-03.u4" ana="#guest" who="#AL_PERS_IrfanTarelli">
           <seg xml:id="ParlaMint-AL_2026-03-03.seg45">Faleminderit, zoti kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg46">Është i drejtë konstatimi që ne ende nuk kemi pasur një skemë të qëndrueshme, dhe kjo lidhet me disa faktorë.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg47">Së pari, ka qenë e kushtëzuar nga kufizimet buxhetore. Pra, një skemë synon që të adresojë problematikat dhe nevojat, por të përshtatet edhe me buxhetin. Realisht, sidomos 2-3 vitet e fundit, kemi pasur një rritje të ndjeshme të financimit, dhe këtu dallojmë financimin e planifikuar në buxhet dhe financimin faktik. Pra, synohet të zhvillohet një skemë, që mundëson aplikime të mëdha, pastaj këto të akomodohen nëpërmjet akteve normative.</seg>
@@ -148,14 +148,14 @@
           <seg xml:id="ParlaMint-AL_2026-03-03.seg54">Ne kemi dy sfida të mëdha, që duhet t’i adresojmë nëpërmjet skemës. Në aspektin e formalizimit dhe të kërkesave për miradministrimin e fondeve duhet të plotësojmë regjistrin e fermerëve, të cilët kur bëhen pjesë e tregut detyrimisht duhet të jenë pjesë e këtij regjistri. Gjithashtu, kemi filluar të pilotojmë projektin e sistemit të parcelave të tokës, për ata që do të jenë përfitues në pagesa direkte. Mendojmë se modeli që artikuloi ministri e përafron, natyrisht brenda buxhetit që kemi në dispozicion, edhe modelin e Bashkimit Evropian, si dhe adreson më mirë problematikat dhe nevojat që ka sektori i bujqësisë.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg55">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-03.u5" ana="#regular" who="#AL_PERS_DhimitërKote">
+        <u xml:id="ParlaMint-AL_2026-03-03.u5" ana="#guest" who="#AL_PERS_DhimitërKote">
           <seg xml:id="ParlaMint-AL_2026-03-03.seg56">Zoti kryetar, po më lejoni dy gjëra që po...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-03-03.u6" ana="#chair" who="#AL_PERS_BlendiKlosi">
           <seg xml:id="ParlaMint-AL_2026-03-03.seg57">Nga ju, zoti Dhimo, pres të më thoni një fjali, sepse kemi dëgjuar që skema në kohën tënde dhe të Fadil Nasufit ka qenë për karburantin, që të hiqet TVSH-ja, pastaj u mbështetën arroret, pra arrat dhe bajamet; më pas kaluam te mbështetja për serrat, pastaj te grumbulluesit e mëdhenj.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg58">Pra, cila është fjalia përmbledhëse e kësaj skeme që do të mbështetet?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-03.u7" ana="#regular" who="#AL_PERS_DhimitërKote">
+        <u xml:id="ParlaMint-AL_2026-03-03.u7" ana="#guest" who="#AL_PERS_DhimitërKote">
           <seg xml:id="ParlaMint-AL_2026-03-03.seg59">Atëherë, para se të jap këtë përgjigje, dua të them se bujqësia është në disa faza, që zhvillohet. Pra, gjykimi dhe masat e marra dje nuk përshtaten me kërkesat që ka sot standardi. Pra, bujqësia shqiptare u rrit dhe u zhvillua. Cili është misioni tani? Misioni është standardi dhe konkurrenca në Bashkimin Evropian. Kjo skemë që bëjmë tani është në mbështetje të kësaj gjëje, pra shkuarja në Bashkimin Evropian, përafrimi, me qëllim që të prodhojmë me standardin që kërkon tregu. Kjo është në thelb të gjithë kësaj gjëje, po t’i analizosh të gjitha gjërat që tha ministri.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg60">Po ju marr shembull vetëm luleshtrydhen dhe rrushin në serra, pra dy sektorë, të cilët janë zhvilluar këta 7-8 vjetët e fundit dhe kanë marrë përmasa shumë të mëdha. Pra, mbështetja që iu bë këtyre solli këtë gjë. Tani, ne do të kemi mbështetje me kushte dhe me standarde. Pra, në qoftë se nuk plotëson standardet, nuk mund ta marrësh dot mbështetjen.</seg>
         </u>
@@ -196,7 +196,7 @@
           <seg xml:id="ParlaMint-AL_2026-03-03.seg87">Faleminderit, kolegë!</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg88">Fjalën e ka ministri.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-03.u11" ana="#regular" who="#AL_PERS_AndisSalla">
+        <u xml:id="ParlaMint-AL_2026-03-03.u11" ana="#guest" who="#AL_PERS_AndisSalla">
           <seg xml:id="ParlaMint-AL_2026-03-03.seg89">Shumë faleminderit, zoti Mziu, për të gjithë panoramën e pyetjeve dhe atë çfarë ju mendoni që ne duhet të ndryshojmë nëpërmjet Ministrisë së Bujqësisë!</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg90">Unë dua ta nis nga pyetja e fundit.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg91">Në vitin 2013 kemi pasur një raport 1 me 7 import-eksport dhe sot jemi 1 me 3. Patjetër ka nevojë për përmirësim. Të gjitha investimet që janë duke u kryer në territorin e Shqipërisë tregojnë se ne jemi duke e konsumuar të gjithë produktin vendas dhe kjo vjen si pasojë e të gjitha zhvillimeve në disa nga sektorët kryesorë të bujqësisë. Pra, jemi duke punuar dhe duke i mbështetur.</seg>
@@ -205,7 +205,7 @@
           <seg xml:id="ParlaMint-AL_2026-03-03.seg94">Duke pasur parasysh disa nga problematikat në argjinatura muajt e fundit, kemi parashikuar që të gjitha problematikat e grumbulluara të investohen nëpërmjet bordeve të kullimit. Ne së bashku jemi duke u përgatitur për t’ia kaluar për miratim qeverisë shqiptare një buxhet prej 173 milionë euro për të gjitha argjinaturat, pasi kemi bërë studimin e fizibilitetit.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg95">Shumë faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-03.u12" ana="#regular" who="#AL_PERS_DhimitërKote">
+        <u xml:id="ParlaMint-AL_2026-03-03.u12" ana="#guest" who="#AL_PERS_DhimitërKote">
           <seg xml:id="ParlaMint-AL_2026-03-03.seg96">Atëherë, zoti deputet, pyetja juaj është e qartë. Problemi është se në buxhetin kryesor, që ky buxhet të kalojë te fermerët, përfshihen të gjitha investimet publike, siç janë ujitja, kullimi, hidroforët dhe investimet e ndryshme që bëhen në total. Pra, janë skemat, por kjo nuk duket se shkon direkt. Në qoftë se i çon ujin fermerit, ia ke çuar shërbimin; në qoftë se i bën hidroforin, i ke bërë kullimin.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg97">Pra, buxheti total është në këtë pozicion, kurse nga skema fermeri përfiton drejtpërdrejt, e merr direkt.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg98">Pjesa tjetër shkon në investimet që bëhen nga bordet e kullimit, në mbështetje të bashkive. Këto janë kushtet e Shqipërisë, nuk është e njëjta situatë si në Kosovë, nëse marr si shembull një vend tjetër. Pra, në vendin tonë investimet bëhen për ujitjen, kullimin, por ka edhe investime të tjera.</seg>
@@ -217,7 +217,7 @@
         <u xml:id="ParlaMint-AL_2026-03-03.u13" ana="#regular" who="#AL_PERS_XhelalMziu">
           <seg xml:id="ParlaMint-AL_2026-03-03.seg100">Ne japim në mënyrë të drejtpërdrejtë 43 milionë euro nga 145 milionë. Ndërkohë, ky është një raport i zhdrejtë, ne japim më pak se 40%. Të gjitha vendet e rajonit japin nga 70% deri në 90%.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-03.u14" ana="#regular" who="#AL_PERS_DhimitërKote">
+        <u xml:id="ParlaMint-AL_2026-03-03.u14" ana="#guest" who="#AL_PERS_DhimitërKote">
           <seg xml:id="ParlaMint-AL_2026-03-03.seg101">Pra, pozicionin ta shpjegova, 164...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -232,7 +232,7 @@
         <u xml:id="ParlaMint-AL_2026-03-03.u15" ana="#chair" who="#AL_PERS_BlendiKlosi">
           <seg xml:id="ParlaMint-AL_2026-03-03.seg105">Ky është shpjegimi i Ministrisë, deputet. Do të qëndrojmë në këtë raport.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-03.u16" ana="#regular" who="#AL_PERS_AndisSalla">
+        <u xml:id="ParlaMint-AL_2026-03-03.u16" ana="#guest" who="#AL_PERS_AndisSalla">
           <seg xml:id="ParlaMint-AL_2026-03-03.seg106">Deputet, më fal! Kemi 52 milionë në buxhet të drejtpërdrejtë, kemi 10%-shin që kalon në buxhet të drejtpërdrejtë, kemi mënyrën e mbështetjes nëpërmjet investimeve që kalojnë për bashkitë dhe për bordet e kullimit. Pra, është një buxhet akoma më i madh, në raport me atë çfarë ju thoni. Pra, 52 dhe mbi 40 milionë që shkojnë vetëm investimet në infrastrukturë, janë mbi 92, plus 10%-shin që është në raport të drejtpërdrejtë të faturimeve që kryejnë fermerët dhe në fashën fillestare ajo është 15 milionë euro, akorduar nga Ministria e Financave, që besoj se do të në rritje, pra shkojnë mbi 105-107 milionë euro për investime në sektorin që ju përmendët më lart. Pra, nuk janë 52 milionë, por mbi 100 milionë euro investime.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-03-03.u17" ana="#chair" who="#AL_PERS_BlendiKlosi">
@@ -277,7 +277,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg130">Po, urdhëroni!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-03.u23" ana="#regular" who="#AL_PERS_DhimitërKote">
+        <u xml:id="ParlaMint-AL_2026-03-03.u23" ana="#guest" who="#AL_PERS_DhimitërKote">
           <seg xml:id="ParlaMint-AL_2026-03-03.seg131">I drejtë ishte shqetësimi i zotit deputet për problemin e paneleve, sepse thamë që e gjithë puna fillon kur shkon uji. Në skemat e ujitjes jemi futur me dy projekte të Bankës Botërore, ku është komplet Divjaka edhe një pjesë e fushës së Konispolit. Jemi futur edhe në Roskovec me investime publike. Për problemin e ujitjes nuk është se çdo fermer do të ngrejë një panel për ta ndërtuar këtë gjë. Pra, në qoftë se në të gjithë territorin e vendit ne do të kemi një arterie që quhet “ujitje”, atje ku është konsumimi është më i madh i energjisë, atje ku ka ngritje mekanike, atje ka nevojë për panel diellor, që e ul koston dhe e rrit sipërfaqen e ujitjes. Këto vite ne e kemi rritur sipërfaqen e ujitshme dhe kjo që thoni ju e ul koston dhe e çon ujin te fermeri. Megjithatë, në skemën mbështetëse tek investimet për mbjellje ne japim 50% të vlerës së grantit, çka është vendosur vitin e kaluar. Ka shumë kërkesa për investime, rreth 100 kërkesa këtë vit, ku përfshihen mbjellja, ujitja me pika, stacioni i pompimit. Pra, të gjitha këto përfshihen në projekt dhe fermerët që aplikojnë për ta bërë këtë veprim, për ta marrë ujin nga kanali, mund ta marrin me panel diellor për sipërfaqen që mbjellin, pra e kanë të drejtën të aplikojnë. Ky është një shqetësim dhe këtë vit investimet dhe mbështetja që u kemi dhënë bashkive, buxheti që kemi vendosur, po vazhdojnë ta rrisin ndjeshëm sipërfaqen e ujitjes, por edhe koeficientin e shfrytëzimit të ujit me efektivitet. Mendoj se ujitja është prioritare. Pra, ne do të vazhdojmë. Jemi një zonë që është e gjitha në ujë. Ka zona në rajonet rreth nesh ku ka shira më të shpeshtë, ka një shpërndarje.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg132">Ne kemi planifikuar edhe 25 stacione pompimi, të cilat do ta mbështesin ujitjen në të gjithë territorin, në mbështetje me panelin diellor. Kjo është mbështetja që ne kemi bërë dhe do të vazhdojmë ta bëjmë. Pra, është në qendër të vëmendjes dhe të investimeve. Kuptohet që bujqësia është një sektor i cili kërkon buxhet shumë të madh. Detyra jonë është ta menaxhojmë këtë buxhet si një nikoqir i mirë dhe ta çojmë atje ku jep impakt.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg133">Në vazhdim të pyetjes që bëri deputeti Peçi...</seg>
@@ -337,7 +337,7 @@
           <seg xml:id="ParlaMint-AL_2026-03-03.seg160">Faleminderit, koleg!</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg161">Atëherë, fjalën e ka ministri.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-03.u27" ana="#regular" who="#AL_PERS_AndisSalla">
+        <u xml:id="ParlaMint-AL_2026-03-03.u27" ana="#guest" who="#AL_PERS_AndisSalla">
           <seg xml:id="ParlaMint-AL_2026-03-03.seg162">Zoti Nallbati, në lidhje me pyetjen për subvencionimin me 10%, që është diskutuar disa herë edhe kur kemi paraqitur buxhetin në muajin dhjetor, kjo është një iniciativë që i shërben fermerit. Ju me të drejtë ngrini shqetësimin e autofaturës së biznesit, që mendon se ai do të ngarkohet me barrë financiare. Nuk ka asnjë barrë financiare, e kemi thënë dhe e rithemi përsëri: çdo biznes jep një autofaturë, e cila është me zero TVSH. Fermeri shkon pranë tatimeve, depoziton autofaturën dhe merr 10-përqindëshin e shumës që i është rakorduar. Ju me të drejtë thoni që ai do ta ndërpresë deri në njëfarë mase, për shkak se kur të bëjë dalje në shitje...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -381,7 +381,7 @@
         <u xml:id="ParlaMint-AL_2026-03-03.u30" ana="#chair" who="#AL_PERS_BlendiKlosi">
           <seg xml:id="ParlaMint-AL_2026-03-03.seg179">Faleminderit, koleg!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-03.u31" ana="#regular" who="#AL_PERS_AndisSalla">
+        <u xml:id="ParlaMint-AL_2026-03-03.u31" ana="#guest" who="#AL_PERS_AndisSalla">
           <seg xml:id="ParlaMint-AL_2026-03-03.seg180">Unë jua shpjegova, në datën 9 do të jem në Bruksel pikërisht për këtë arsyetim dhe, pasi të vij, do t’ju jap të gjitha shpjegimet e duhura për datat që ne do të vendosim.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg181">Dua të them që ne i kemi plotësuar të gjitha detyrimet që na janë kërkuar nga Brukseli, kemi bërë çdo detyrë shtëpie që na takon ne dhe jemi në hapat e duhur që brenda vitit IPARD-i të jetë për të aplikuar fermerët shqiptarë.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg182">Sa për dajakun, ne nuk e kemi vizion dajakun, ne monitorojmë të gjitha proceset, edhe atë që i kemi akorduar fermerëve, që të shkojë në xhepat e çdo fermeri shqiptar ajo që qeveria shqiptare ka akorduar, pra një buxhet të konsiderueshëm nëpërmjet autofaturimit. Kjo bëhet për një formalizim të tregut dhe të sektorit bujqësor për fermerët, të cilët janë në këtë proces dhe duam që, nëpërmjet një autofature, t’i japim atij që punon tokën realisht. Pra, nëse deri tani kemi pasur një formulë, ku kalohej nëpërmjet bizneseve të mëdha apo pikave të grumbullimit, tashmë është për fermerët e vegjël, që ata të rriten nëpërmjet skemës direkte që ne u kemi akorduar.</seg>
@@ -399,7 +399,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg187">Dakord, do ta japë përgjigjen kur të jetë momenti.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-03.u33" ana="#regular" who="#AL_PERS_DhimitërKote">
+        <u xml:id="ParlaMint-AL_2026-03-03.u33" ana="#guest" who="#AL_PERS_DhimitërKote">
           <seg xml:id="ParlaMint-AL_2026-03-03.seg188">Për sa i përket ujitjes, kryesisht në zonën e Korçës, por edhe të Devollit pjesërisht, është e vërtetë që bilanci ujor atje është negativ, pra nuk u përgjigjet nevojave që kanë fermerët, sidomos fusha e Korçës.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg189">Deri në vitin ’90 është zgjidh me devijimin e lumit të Devollit dhe depozitimin e ujit në liqenin e Prespës së Vogël, pastaj gjatë verës përdorej për ujitje. Pala greke, në kuadër të marrëveshjes ndërkufitare që kemi për menaxhimin e ujërave, që nga viti 1992-1993 e bllokoi në mënyrë definitive këtë devijim të lumit të Devollit dhe përdorimin për ujitje.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg190">Çfarë ka bërë ministria ndër vite dhe cila është gjendja aktuale? Ndërhyrjet rehabilituese të veprave ekzistuese kanë synuar të mbajnë kapacitetet maksimale të ujit, flas për rezervuarin e Gjançit, që ka aktualisht kapacitetin maksimal, dhe rehabilitimet e skemave të shpërndarjes, në mënyrë që të rrisë eficiencën e përdorimit të ujit. Disa investime të tjera në fushën e Korçës dhe në Devoll kanë synuar ekzaktësisht kjo gjë. Ndërkohë, po shihet mundësia e një studimi të ri fizibiliteti, me dy aspekte kryesore: së pari, të rrisë eficiencën e përdorimit të ujit, pra të fusë teknika moderne, që përdorin më pak ujë, dhe, së dyti, të mundësojë ndërtimin e ndonjë objekti, e them të ndonjë objekti” sepse është shumë delikate zgjidhja teknike, flas në Devollin e Sipërm, ku ka qenë një ide e mëparshme, sepse ka tregues teknikë jo të stabilizuar. Gjithsesi, ngelet çështje e studimit të fizibilitetit.</seg>
@@ -507,7 +507,7 @@
           <seg xml:id="ParlaMint-AL_2026-03-03.seg253">Unë e mbështes shumë atë që thanë zoti Korreshi dhe kolegët e tjerë më parë që, nëpërmjet kësaj platforme parlamentare, mund të ngremë shqetësimet e njerëzve, por edhe ju të shprehni qëndrimet e institucionit dhe të përfitojmë nga mundësia që këto shqetësime t’i çojmë në zonat tona, por edhe të sjellim opinionin e qytetarëve këtu. Besoj se për një periudhë të përshtatshme për ju me institucionet e sigurisë ushqimore mund ta bënim një diskutim konkret në një seancë tjetër të komisionit tonë.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg254">Edhe një herë, duke ju falënderuar, zoti ministër, fjala për ju, për ta përmbyllur këtë bisedë!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-03.u46" ana="#regular" who="#AL_PERS_AndisSalla">
+        <u xml:id="ParlaMint-AL_2026-03-03.u46" ana="#guest" who="#AL_PERS_AndisSalla">
           <seg xml:id="ParlaMint-AL_2026-03-03.seg255">Faleminderit, kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg256">Ne jemi në dispozicion për çdo takim apo dëgjesë me komisionin, por edhe me çdo shqetësim, i cili lidhet me terrenin apo problematikat që hasen në kohë të vazhdueshme siç është lakra, të cilën deputeti Korreshi e ngriti me të drejtë shqetësimin, sepse edhe unë kam diskutuar me disa nga fermerët në zona të ndryshme, të cilët i ka prekur ky fenomen.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-03.seg257">Nga ana e Ministrisë së Bujqësisë kemi ngritur një grup pune për të shkuar në terren dhe për të verifikuar rast pas rasti shqetësimin që lidhet me disa nga fermerët e prekur në këtë kultivim të lakrës.</seg>

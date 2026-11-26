@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-07-17" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-07-17" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-07-17</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-07-17</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Çështjet Ligjore dhe Administratën Publike, 2026-07-17</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Legal Affairs and Public Administration, 2026-07-17</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_CLAP" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -233,7 +233,7 @@
         <u xml:id="ParlaMint-AL_2026-07-17.u20" ana="#regular" who="#AL_PERS_MejvisBejollari">
           <seg xml:id="ParlaMint-AL_2026-07-17.seg101">drejtoreshë e Përgjithshme e Politikave të Nxitjes së Biznesit dhe Çështjeve të Tregtisë</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-17.u21" ana="#regular" who="#AL_PERS_HegaIsmaili">
+        <u xml:id="ParlaMint-AL_2026-07-17.u21" ana="#guest" who="#AL_PERS_HegaIsmaili">
           <seg xml:id="ParlaMint-AL_2026-07-17.seg102">specialiste në Sektorin e Standardizimit</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-17.u22" ana="#regular" who="#AL_PERS_RudolfPapa">
@@ -420,7 +420,7 @@
         <u xml:id="ParlaMint-AL_2026-07-17.u47" ana="#regular" who="#AL_PERS_MejvisBejollari">
           <seg xml:id="ParlaMint-AL_2026-07-17.seg220">drejtoreshë e Përgjithshme e Politikave të Nxitjes së Biznesit dhe Çështjeve të Tregtisë</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-17.u48" ana="#regular" who="#AL_PERS_HegaIsmaili">
+        <u xml:id="ParlaMint-AL_2026-07-17.u48" ana="#guest" who="#AL_PERS_HegaIsmaili">
           <seg xml:id="ParlaMint-AL_2026-07-17.seg221">specialiste në Sektorin e Standardizimit në ministrinë e Ekonomisë dhe Inovacionit</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-17.u49" ana="#regular" who="#AL_PERS_RudolfPapa">
@@ -568,7 +568,7 @@
         <u xml:id="ParlaMint-AL_2026-07-17.u68" ana="#regular" who="#AL_PERS_MejvisBejollari">
           <seg xml:id="ParlaMint-AL_2026-07-17.seg318">drejtoreshë e Përgjithshme e Politikave të Nxitjes së Biznesit dhe Çështjeve të Tregtisë</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-17.u69" ana="#regular" who="#AL_PERS_HegaIsmaili">
+        <u xml:id="ParlaMint-AL_2026-07-17.u69" ana="#guest" who="#AL_PERS_HegaIsmaili">
           <seg xml:id="ParlaMint-AL_2026-07-17.seg319">specialiste në Sektorin e Standardizimit</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-17.u70" ana="#regular" who="#AL_PERS_RudolfPapa">
@@ -648,7 +648,7 @@
         <u xml:id="ParlaMint-AL_2026-07-17.u79" ana="#regular" who="#AL_PERS_MejvisBejollari">
           <seg xml:id="ParlaMint-AL_2026-07-17.seg375">drejtoreshë e Përgjithshme e Politikave të Nxitjes së Biznesit dhe Çështjeve të Tregtisë</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-17.u80" ana="#regular" who="#AL_PERS_HegaIsmaili">
+        <u xml:id="ParlaMint-AL_2026-07-17.u80" ana="#guest" who="#AL_PERS_HegaIsmaili">
           <seg xml:id="ParlaMint-AL_2026-07-17.seg376">specialist në Sektorin e Standardizimit</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-17.u81" ana="#regular" who="#AL_PERS_RudolfPapa">
@@ -759,7 +759,7 @@
         <u xml:id="ParlaMint-AL_2026-07-17.u92" ana="#regular" who="#AL_PERS_MejvisBejollari">
           <seg xml:id="ParlaMint-AL_2026-07-17.seg449">drejtoreshë e Përgjithshme e Politikave të Nxitjes së Biznesit dhe Çështjeve të Tregtisë</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-17.u93" ana="#regular" who="#AL_PERS_HegaIsmaili">
+        <u xml:id="ParlaMint-AL_2026-07-17.u93" ana="#guest" who="#AL_PERS_HegaIsmaili">
           <seg xml:id="ParlaMint-AL_2026-07-17.seg450">specialist në Sektorin e Standardizimit</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-17.u94" ana="#regular" who="#AL_PERS_RudolfPapa">
@@ -865,7 +865,7 @@
         <u xml:id="ParlaMint-AL_2026-07-17.u106" ana="#regular" who="#AL_PERS_MejvisBejollari">
           <seg xml:id="ParlaMint-AL_2026-07-17.seg520">drejtoreshë e Përgjithshme e Politikave të Nxitjes së Biznesit dhe Çështjeve të Tregtisë</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-17.u107" ana="#regular" who="#AL_PERS_HegaIsmaili">
+        <u xml:id="ParlaMint-AL_2026-07-17.u107" ana="#guest" who="#AL_PERS_HegaIsmaili">
           <seg xml:id="ParlaMint-AL_2026-07-17.seg521">specialist në Sektorin e Standardizimit</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-17.u108" ana="#regular" who="#AL_PERS_RudolfPapa">
@@ -958,7 +958,7 @@
         <u xml:id="ParlaMint-AL_2026-07-17.u119" ana="#regular" who="#AL_PERS_MejvisBejollari">
           <seg xml:id="ParlaMint-AL_2026-07-17.seg586">drejtoreshë e Përgjithshme e Politikave të Nxitjes së Biznesit dhe Çështjeve të Tregtisë</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-17.u120" ana="#regular" who="#AL_PERS_HegaIsmaili">
+        <u xml:id="ParlaMint-AL_2026-07-17.u120" ana="#guest" who="#AL_PERS_HegaIsmaili">
           <seg xml:id="ParlaMint-AL_2026-07-17.seg587">specialist, Sektori i Standardizimit</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-17.u121" ana="#regular" who="#AL_PERS_RudolfPapa">
@@ -1036,7 +1036,7 @@
         <u xml:id="ParlaMint-AL_2026-07-17.u134" ana="#regular" who="#AL_PERS_MartinKajo">
           <seg xml:id="ParlaMint-AL_2026-07-17.seg631">Po, jemi dakord.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-17.u135" ana="#regular" who="#AL_PERS_UlsiMaja">
+        <u xml:id="ParlaMint-AL_2026-07-17.u135" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-07-17.seg632">E hedhim në votim në parim me sugjerimin e relatorit, zotit Mile.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-17.seg633">Kush është dakord? Kundër? Abstenim? Nuk ka.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-17.seg634">Miratohet në parim projektligji.</seg>
@@ -1107,7 +1107,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-17.seg688">Mungojnë: Damian Gjiknuri, Oerd Bylykbashi, Aurora Mara.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-17.seg689">Të ftuar:</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-17.u137" ana="#regular" who="#AL_PERS_AndiMemeti">
+        <u xml:id="ParlaMint-AL_2026-07-17.u137" ana="#regular" who="#AL_PERS_AndiMehmeti">
           <seg xml:id="ParlaMint-AL_2026-07-17.seg690">zëvendësministër i Financave</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-17.u138" ana="#regular" who="#AL_PERS_EliraHoxha">

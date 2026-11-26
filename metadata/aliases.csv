@@ -1,0 +1,81 @@
+alias_id,entity_type,canonical_id,retired_id,alias_label,normalized_key,source_id,review_status,reviewer,decision,reliability
+ALIAS_PERS_0001,person,AL_PERS_AgronShehaj,AL_PERS_AgronShahaj,AL_PERS_AgronShahaj,al_pers_agronshahaj,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated typographical duplicate,Verified
+ALIAS_PERS_0002,person,AL_PERS_ArbjanMazniku,AL_PERS_ArbanMazniku,AL_PERS_ArbanMazniku,al_pers_arbanmazniku,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated typographical duplicate,Verified
+ALIAS_PERS_0003,person,AL_PERS_BardhSpahia,AL_PERS_BardhSpahiu,AL_PERS_BardhSpahiu,al_pers_bardhspahiu,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated inflected surname duplicate,Verified
+ALIAS_PERS_0004,person,AL_PERS_BledjonNallbati,AL_PERS_BledionNallbati,AL_PERS_BledionNallbati,al_pers_bledionnallbati,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated spelling variant duplicate,Verified
+ALIAS_PERS_0005,person,AL_PERS_EndiraBushati,AL_PERS_EndriaBushati,AL_PERS_EndriaBushati,al_pers_endriabushati,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated typographical metathesis duplicate,Verified
+ALIAS_PERS_0006,person,AL_PERS_ErindaBalanca,AL_PERS_ErindaBallanca,AL_PERS_ErindaBallanca,al_pers_erindaballanca,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated duplicate double-l spelling variant,Verified
+ALIAS_PERS_0007,person,AL_PERS_IlvaGjuzi,AL_PERS_IldaGjuzi,AL_PERS_IldaGjuzi,al_pers_ildagjuzi,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated OCR variant duplicate,Verified
+ALIAS_PERS_0008,person,AL_PERS_NikoPeleshi,AL_PERS_NIKOPELESHI,AL_PERS_NIKOPELESHI,al_pers_nikopeleshi,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated uppercase duplicate ID,Verified
+ALIAS_PERS_0009,person,AL_PERS_TaulantBalla,BallaTaulant,BallaTaulant,ballataulant,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated legacy surname-first ID into canonical ParlaMint-AL ID,Verified
+ALIAS_PERS_0010,person,AL_PERS_KlotildaBushka,BushkaKlotilda,BushkaKlotilda,bushkaklotilda,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated legacy surname-first ID into canonical ParlaMint-AL ID,Verified
+ALIAS_PERS_0011,person,AL_PERS_LinditaNikolla,NikollaLindita,NikollaLindita,nikollalindita,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated legacy surname-first ID into canonical ParlaMint-AL ID,Verified
+ALIAS_VAR_0012,person,AL_PERS_ArdianaHala,,adriana hala,adriana hala,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Metathesis variant of Ardiana Hala,Verified
+ALIAS_VAR_0013,person,AL_PERS_AdrianaShteti,,adriana sheti,adriana sheti,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consonant omission variant of Adriana Shteti,Verified
+ALIAS_VAR_0014,person,AL_PERS_AdriatikZotkaj,,adriatik zokaj,adriatik zokaj,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Typographical variant of Adriatik Zotkaj,Verified
+ALIAS_VAR_0015,person,AL_PERS_AgronShehaj,,agron shahaj,agron shahaj,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Typographical variant of Agron Shehaj,Verified
+ALIAS_VAR_0016,person,AL_PERS_AhmetPrençi,,ahmet premçi,ahmet premçi,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Typographical variant of Ahmet Prençi,Verified
+ALIAS_VAR_0017,person,AL_PERS_AldiDekavelli,,albi dekavelli,albi dekavelli,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consonant OCR variant of Aldi Dekavelli,Verified
+ALIAS_VAR_0018,person,AL_PERS_AndiMehmeti,,andi memeti,andi memeti,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Variant spelling of Andi Mehmeti,Verified
+ALIAS_VAR_0019,person,AL_PERS_ArbjanMazniku,,arban mazniku,arban mazniku,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Stenographic variant of Arbjan Mazniku,Verified
+ALIAS_VAR_0020,person,AL_PERS_ArbjanMazniku,,arbian mazniku,arbian mazniku,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Stenographic variant of Arbjan Mazniku,Verified
+ALIAS_VAR_0021,person,AL_PERS_ArianNdoja,,arjan ndoja,arjan ndoja,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Variant spelling of Arian Ndoja,Verified
+ALIAS_VAR_0022,person,AL_PERS_AthanasKaraja,,athanas karaj,athanas karaj,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Surname inflection variant of Athanas Karaja,Verified
+ALIAS_VAR_0023,person,AL_PERS_BardhSpahia,,bardh spahiu,bardh spahiu,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Inflected/variant surname of Bardh Spahia,Verified
+ALIAS_VAR_0024,person,AL_PERS_BashkimKasoruho,,bashkim kasaruho,bashkim kasaruho,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Vowel variant of Bashkim Kasoruho,Verified
+ALIAS_VAR_0025,person,AL_PERS_BesaSpaho,,besa spahu,besa spahu,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Typographical variant of Besa Spaho,Verified
+ALIAS_VAR_0026,person,AL_PERS_BledjonNallbati,,bledion nallbati,bledion nallbati,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Variant spelling of Bledjon Nallbati,Verified
+ALIAS_VAR_0027,person,AL_PERS_BlendiHimçi,,blendi humçi,blendi humçi,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Typographical variant of Blendi Himçi,Verified
+ALIAS_VAR_0028,person,AL_PERS_DorianaSuli,,darian suli,darian suli,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,OCR variant of Doriana Suli,Verified
+ALIAS_VAR_0029,person,AL_PERS_ElonaHoxhaj,,elona hoxha,elona hoxha,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Surname -a/-aj variant of Elona Hoxhaj,Verified
+ALIAS_VAR_0030,person,AL_PERS_ElvanaRamaj,,elvana rama,elvana rama,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Surname -a/-aj variant of Elvana Ramaj,Verified
+ALIAS_VAR_0031,person,AL_PERS_EndiraBushati,,endria bushati,endria bushati,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Typographical metathesis variant of Endira Bushati,Verified
+ALIAS_VAR_0032,person,AL_PERS_ErindaBalanca,,erinda ballanca,erinda ballanca,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Variant spelling of Erinda Balanca,Verified
+ALIAS_VAR_0033,person,AL_PERS_ErjoMile,,erio mile,erio mile,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Typographical variant of Erjo Mile,Verified
+ALIAS_VAR_0034,person,AL_PERS_ErjonaIsmaili,,eriona ismaili,eriona ismaili,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,i/j spelling variant of Erjona Ismaili,Verified
+ALIAS_VAR_0035,person,AL_PERS_ErionMalaj,,erjon malaj,erjon malaj,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,i/j spelling variant of Erion Malaj,Verified
+ALIAS_VAR_0036,person,AL_PERS_GentStrazimiri,,gent strazimri,gent strazimri,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Typographical variant of Gent Strazimiri,Verified
+ALIAS_VAR_0037,person,AL_PERS_GretaBardeli,,gerta bardeli,gerta bardeli,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Metathesis variant of Greta Bardeli,Verified
+ALIAS_VAR_0038,person,AL_PERS_IlvaGjuzi,,ilda gjuzi,ilda gjuzi,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Typographical variant of Ilva Gjuzi,Verified
+ALIAS_VAR_0039,person,AL_PERS_IlirjanCelibashi,,ilirian celibashi,ilirian celibashi,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Variant spelling of Ilirjan Celibashi,Verified
+ALIAS_VAR_0040,person,AL_PERS_IlirjanPendavinji,,ilirian pendavinji,ilirian pendavinji,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Variant spelling of Ilirjan Pendavinji,Verified
+ALIAS_VAR_0041,person,AL_PERS_JoniKeta,,jonida keta,jonida keta,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Given name variant of Joni Keta,Verified
+ALIAS_VAR_0042,person,AL_PERS_JosifGorrea,,josif gorea,josif gorea,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Variant spelling of Josif Gorrea,Verified
+ALIAS_VAR_0043,person,AL_PERS_JulianaMemaj,,juliana mema,juliana mema,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Variant spelling of Juliana Memaj,Verified
+ALIAS_VAR_0044,person,AL_PERS_KesjanaHalili,,kesiana halili,kesiana halili,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,i/j spelling variant of Kesjana Halili,Verified
+ALIAS_VAR_0045,person,AL_PERS_KlodianBraho,,klodjan braho,klodjan braho,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Variant spelling of Klodian Braho,Verified
+ALIAS_VAR_0046,person,AL_PERS_KreshnikTërnova,,kreshnik ternova,kreshnik ternova,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Diacritical variant of Kreshnik Tërnova,Verified
+ALIAS_VAR_0047,person,AL_PERS_LoerKume,,loert kume,loert kume,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Variant spelling of Loer Kume,Verified
+ALIAS_VAR_0048,person,AL_PERS_MarkoKule,,marco kule,marco kule,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Variant spelling of Marko Kule,Verified
+ALIAS_VAR_0049,person,AL_PERS_MarjanaKoçeku,,marjana koceku,marjana koceku,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Diacritical variant of Marjana Koçeku,Verified
+ALIAS_VAR_0050,person,AL_PERS_MarkoKule,,marko kuke,marko kuke,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Typographical variant of Marko Kule,Verified
+ALIAS_VAR_0051,person,AL_PERS_MejvisBejollari,,mejvis bajollari,mejvis bajollari,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Vowel variant of Mejvis Bejollari,Verified
+ALIAS_VAR_0052,person,AL_PERS_MejvisBejollari,,mejviz bajollari,mejviz bajollari,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Spelling variant of Mejvis Bejollari,Verified
+ALIAS_VAR_0053,person,AL_PERS_NikoPeleshi,,niko pelshi,niko pelshi,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Typographical variant of Niko Peleshi,Verified
+ALIAS_VAR_0054,person,AL_PERS_OlsianÇela,,olsjan çela,olsjan çela,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Variant spelling of Olsian Çela,Verified
+ALIAS_VAR_0055,person,AL_PERS_PavolSzalai,,pavel sazlai,pavel sazlai,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Phonetic spelling of Pavol Szalai,Verified
+ALIAS_VAR_0056,person,AL_PERS_PirroVengu,,pirro vëngu,pirro vëngu,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Diacritical variant of Pirro Vengu,Verified
+ALIAS_VAR_0057,person,AL_PERS_QerimIsmailaj,,qerim ismaili,qerim ismaili,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Variant surname of Qerim Ismailaj,Verified
+ALIAS_VAR_0058,person,AL_PERS_QerimIsmailaj,,qërim ismailaj,qërim ismailaj,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Diacritical variant of Qerim Ismailaj,Verified
+ALIAS_VAR_0059,person,AL_PERS_RamadanLikaj,,ramadan lika,ramadan lika,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Surname -a/-aj variant of Ramadan Likaj,Verified
+ALIAS_VAR_0060,person,AL_PERS_RexhByberi,,rexhe byberi,rexhe byberi,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Inflected forename variant of Rexh Byberi,Verified
+ALIAS_VAR_0061,person,AL_PERS_RexhByberi,,rexhë byberi,rexhë byberi,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Inflected forename variant of Rexh Byberi,Verified
+ALIAS_VAR_0062,person,AL_PERS_RomeoÇakuli,,romeo çakulli,romeo çakulli,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,l/ll spelling variant of Romeo Çakuli,Verified
+ALIAS_VAR_0063,person,AL_PERS_RonelaRrapollari,,ronelda rrapollari,ronelda rrapollari,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Variant spelling of Ronela Rrapollari,Verified
+ALIAS_VAR_0064,person,AL_PERS_SkënderPashaj,,skender pashaj,skender pashaj,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Diacritical variant of Skënder Pashaj,Verified
+ALIAS_VAR_0065,person,AL_PERS_UlsiManja,,ulshi manja,ulshi manja,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,OCR/stenographic variant of Ulsi Manja,Verified
+ALIAS_VAR_0066,person,AL_PERS_UlsiManja,,ulsi maja,ulsi maja,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,OCR/stenographic variant of Ulsi Manja,Verified
+ALIAS_VAR_0067,person,AL_PERS_UlsiManja,,ulsi mnja,ulsi mnja,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,OCR/stenographic variant of Ulsi Manja,Verified
+ALIAS_VAR_0068,person,AL_PERS_UlsiManja,,usi manja,usi manja,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,OCR/stenographic variant of Ulsi Manja,Verified
+ALIAS_VAR_0069,person,AL_PERS_UlsiManja,,usli manja,usli manja,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,OCR/stenographic variant of Ulsi Manja,Verified
+ALIAS_VAR_0070,person,AL_PERS_VatëStaka,,vate staka,vate staka,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Diacritical variant of Vatë Staka,Verified
+ALIAS_VAR_0071,person,AL_PERS_VullnetSinaj,,vullent sinaj,vullent sinaj,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Typographical variant of Vullnet Sinaj,Verified
+ALIAS_ORG_0072,organization,AL_ORG_GP_AN,AL_ORG_AN,AL_ORG_AN,al_org_an,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized parliamentary group ID to AL_ORG_GP_AN,Verified
+ALIAS_ORG_0073,organization,AL_ORG_CLAP,committee.Ligjet,committee.Ligjet,committee.ligjet,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated legacy committee ID into AL_ORG_CLAP,Verified
+ALIAS_ORG_0074,organization,AL_ORG_GP_PD,group.PD,group.PD,group.pd,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized parliamentary group ID to AL_ORG_GP_PD,Verified
+ALIAS_ORG_0075,organization,AL_ORG_GP_PL,group.PL,group.PL,group.pl,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized parliamentary group ID to AL_ORG_GP_PL,Verified
+ALIAS_ORG_0076,organization,AL_ORG_GP_PS,group.PS,group.PS,group.ps,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized parliamentary group ID to AL_ORG_GP_PS,Verified
+ALIAS_ORG_0077,organization,AL_ORG_Kuvendi,parliament.AL,parliament.AL,parliament.al,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated legacy org ID into AL_ORG_Kuvendi,Verified
+ALIAS_ORG_0078,organization,AL_ORG_PD,party.PD,party.PD,party.pd,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated legacy party ID into AL_ORG_PD,Verified
+ALIAS_ORG_0079,organization,AL_ORG_PL,party.PL,party.PL,party.pl,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated legacy party ID into AL_ORG_PL,Verified
+ALIAS_ORG_0080,organization,AL_ORG_PS,party.PS,party.PS,party.ps,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated legacy party ID into AL_ORG_PS,Verified

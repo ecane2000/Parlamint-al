@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-03-25" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-03-25" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-03-25</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-03-25</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni i Posaçëm Parlamentar për Reformën Administrativo-Territoriale, 2026-03-25</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Special Parliamentary Committee on Administrative-Territorial Reform, 2026-03-25</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KPRAT" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -39,7 +39,7 @@
       <sourceDesc>
         <bibl>
           <title type="main" xml:lang="sq">Procesverbal i Kuvendit të Shqipërisë</title>
-          <idno type="URI">https://www.kuvendi.gov.al/</idno>
+          <idno type="URI">https://kuvendiwebfiles.blob.core.windows.net/webfiles/202608060729220161Proceverbal_Dt_25.03.2026.pdf</idno>
           <date when="2026-03-25">2026-03-25</date>
         </bibl>
       </sourceDesc>

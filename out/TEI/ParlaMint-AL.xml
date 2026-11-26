@@ -19,10 +19,10 @@
         <edition>5.0</edition>
       </editionStmt>
       <extent>
-        <measure unit="speeches" quantity="6658" xml:lang="sq">6658 fjalime</measure>
-        <measure unit="speeches" quantity="6658" xml:lang="en">6658 speeches</measure>
-        <measure unit="words" quantity="1066681" xml:lang="sq">1066681 fjalë</measure>
-        <measure unit="words" quantity="1066681" xml:lang="en">1066681 words</measure>
+        <measure unit="speeches" quantity="10231" xml:lang="sq">10231 fjalime</measure>
+        <measure unit="speeches" quantity="10231" xml:lang="en">10231 speeches</measure>
+        <measure unit="words" quantity="1743087" xml:lang="sq">1743087 fjalë</measure>
+        <measure unit="words" quantity="1743087" xml:lang="en">1743087 words</measure>
       </extent>
       <publicationStmt>
         <publisher>Kuvendi i Shqipërisë; CLARIN ERIC</publisher>
@@ -87,60 +87,109 @@
       <change when="2026-08-28">: ParlaMint 5.0 teiCorpus master root.<name>ParlaMint-AL</name></change>
     </revisionDesc>
   </teiHeader>
-  <xi:include href="plain/2025/ParlaMint-AL_2025-01-01.xml" />
   <xi:include href="plain/2025/ParlaMint-AL_2025-10-06.xml" />
   <xi:include href="plain/2025/ParlaMint-AL_2025-10-07.xml" />
   <xi:include href="plain/2025/ParlaMint-AL_2025-10-08.xml" />
   <xi:include href="plain/2025/ParlaMint-AL_2025-10-17.xml" />
-  <xi:include href="plain/2025/ParlaMint-AL_2025-11-11.xml" />
+  <xi:include href="plain/2025/ParlaMint-AL_2025-11-11-1.xml" />
+  <xi:include href="plain/2025/ParlaMint-AL_2025-11-11-2.xml" />
   <xi:include href="plain/2025/ParlaMint-AL_2025-11-27.xml" />
-  <xi:include href="plain/2025/ParlaMint-AL_2025-12-03.xml" />
+  <xi:include href="plain/2025/ParlaMint-AL_2025-12-03-1.xml" />
+  <xi:include href="plain/2025/ParlaMint-AL_2025-12-03-2.xml" />
+  <xi:include href="plain/2025/ParlaMint-AL_2025-12-03-3.xml" />
+  <xi:include href="plain/2025/ParlaMint-AL_2025-12-03-4.xml" />
+  <xi:include href="plain/2025/ParlaMint-AL_2025-12-03-5.xml" />
+  <xi:include href="plain/2025/ParlaMint-AL_2025-12-03-6.xml" />
   <xi:include href="plain/2025/ParlaMint-AL_2025-12-04.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-01-21.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-01-29.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-02-10.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-02-11.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-02-16.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-02-17.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-02-11-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-02-11-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-02-16-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-02-16-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-02-17-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-02-17-2.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-03-03.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-03-04.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-03-10.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-03-10-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-03-10-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-03-10-3.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-03-10-4.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-03-10-5.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-03-11.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-03-18.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-03-24.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-03-25.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-03-30.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-04-07.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-04-08.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-03-30-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-03-30-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-04-07-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-04-07-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-04-08-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-04-08-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-04-08-3.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-04-08-4.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-04-10.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-04-14.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-04-20.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-04-21.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-04-14-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-04-14-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-04-20-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-04-20-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-04-21-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-04-21-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-04-21-3.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-05-05.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-05-06.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-05-13.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-05-13-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-05-13-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-05-13-3.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-05-13-4.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-05-13-5.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-05-13-6.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-05-13-7.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-05-18.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-05-20.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-05-28.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-06-09.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-06-15.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-05-28-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-05-28-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-06-09-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-06-09-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-06-15-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-06-15-2.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-06-16.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-06-19.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-06-24.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-06-19-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-06-19-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-06-19-3.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-06-24-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-06-24-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-06-24-3.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-06-29.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-07-01.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-07-01-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-07-01-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-07-01-3.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-07-01-4.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-07-03.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-07-06.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-07-07.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-07-06-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-07-06-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-07-06-3.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-07-07-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-07-07-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-07-07-3.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-07-07-4.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-07-08.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-07-14.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-07-15.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-07-14-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-07-14-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-07-14-3.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-07-15-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-07-15-2.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-07-15-3.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-07-15-4.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-07-16.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-07-17.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-07-20.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-07-21.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-07-23.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-09-17.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-09-21.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-09-21-1.xml" />
+  <xi:include href="plain/2026/ParlaMint-AL_2026-09-21-2.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-09-23.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-09-24.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-09-28.xml" />
@@ -152,5 +201,4 @@
   <xi:include href="plain/2026/ParlaMint-AL_2026-10-22.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-10-23.xml" />
   <xi:include href="plain/2026/ParlaMint-AL_2026-10-30.xml" />
-  <xi:include href="plain/2026/ParlaMint-AL_2026-12-03.xml" />
 </teiCorpus>

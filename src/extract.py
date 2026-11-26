@@ -218,16 +218,34 @@ def extract_header_block(txt: str) -> dict:
     date, time = "", ""
     date_line = ""
     start_search = i_proc + 1 if i_proc >= 0 else 0
+    al_months = {
+        "janar": 1, "shkurt": 2, "mars": 3, "prill": 4, "maj": 5, "qershor": 6,
+        "korrik": 7, "gusht": 8, "shtator": 9, "tetor": 10, "nëntor": 11, "nentor": 11, "dhjetor": 12,
+    }
     for j in range(start_search, min(start_search + 10, len(lines))):
-        if re.search(r"(\d{1,2})[._\-](\d{1,2})[._\-](\d{4})", lines[j]):
-            date_line = lines[j]
+        lj = lines[j]
+        if lj.lower().startswith("rendi i ditës") or lj.startswith("1."):
+            break
+        if re.search(r"(\d{1,2})[._\-](\d{1,2})[._\-](\d{2,4})", lj):
+            date_line = lj
+            break
+        m_al = re.search(
+            r"\b(\d{1,2})\s+(janar|shkurt|mars|prill|maj|qershor|korrik|gusht|shtator|tetor|nëntor|nentor|dhjetor)\s+(20\d{2})\b",
+            lj,
+            flags=re.I,
+        )
+        if m_al:
+            d_i, m_name, y_i = int(m_al.group(1)), al_months[m_al.group(2).lower()], int(m_al.group(3))
+            date = f"{y_i:04d}-{m_name:02d}-{d_i:02d}"
+            date_line = lj
             break
 
     if date_line:
         m_time = re.search(r"ora\s*(\d{1,2}:\d{2})", date_line, re.I)
         if m_time:
             time = m_time.group(1)
-        date = guess_date_from_url(date_line)
+        if not date:
+            date = guess_date_from_url(date_line)
 
     # Chair extraction ("Drejton mbledhjen:", "Seancën e drejton", "Drejton seancën")
     chair_name, chair_role = "", ""

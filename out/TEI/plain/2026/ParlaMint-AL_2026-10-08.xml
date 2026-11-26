@@ -3,8 +3,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-10-08</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-10-08</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Seancë plenare, 2026-10-08</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Plenary sitting, 2026-10-08</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
         <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
         <respStmt>
@@ -171,7 +171,7 @@
           <seg xml:id="ParlaMint-AL_2026-10-08.seg39">Ka mbaruar koha, zoti Berisha.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg40">Zoti Balla, keni 10 minuta për fjalën kundër.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-08.u8" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-10-08.u8" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg41">Andi Lila është futbollist, nuk është kompozitor, për të qenë...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -213,7 +213,7 @@
         <u xml:id="ParlaMint-AL_2026-10-08.u9" ana="#chair" who="#AL_PERS_NikoPeleshi">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg61">Përfundoni, ju lutem!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-08.u10" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-10-08.u10" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg62">Merrni avokat individual.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg63">Do të thosha edhe disa çështje për sa i përket pjesës së kontrollit të SHISH-it. Ka instrumente kontrolli...</seg>
           <vocal type="interruption">
@@ -391,7 +391,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg154">Po, për dy kërkesat, dy plus dy.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-08.u24" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-10-08.u24" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg155">Për sa i përket ligjit “Për reformën administrativo-territoriale” 2.0, ne e kemi marrë dakordësinë e qytetarëve shqiptarë më 11 maj 2025, sepse kjo ka qenë pika e parë e programit tonë “Shqipëria 2030”.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg156">Ju i konsultoni programet tona, shkoni lexojini, dhe qytetarët shqiptarë na dhanë jo pak, por 83 mandate për ta çuar përpara këtë reformë.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg157">Ftesa ime për ju sot nuk është të mos diskutojmë, ne do ta diskutojmë dhe do ta votojmë sot këtë pikë të rendit të ditës; ftesa ime për ju sot është që t’i përgjigjeni ofertës, jua thashë edhe një javë më parë, që ditën e enjte, javën e ardhshme, të ngremë së bashku Komisionin e Posaçëm të Reformës Territoriale, tanimë jo për pjesën e ndarjes, por për pjesën e kompetencave.</seg>
@@ -424,7 +424,7 @@
         <u xml:id="ParlaMint-AL_2026-10-08.u25" ana="#chair" who="#AL_PERS_NikoPeleshi">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg172">Përfundoni.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-08.u26" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-10-08.u26" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg173">Nëse doni, bëjeni interpelancën, nëse s’doni, mos harroni, nuk mund ta depozitoni interpelancën brenda këtij sesioni. dy minuta.</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -591,7 +591,7 @@
           <seg xml:id="ParlaMint-AL_2026-10-08.seg243">Kush e do fjalën për t’u shprehur kundër?</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg244">Po, zoti Balla, dy minuta.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-08.u54" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-10-08.u54" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg245">Rend dite, jo renditje.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg246">Për sa i përket rendit të ditës, pak më parë u votua për vijimin e seancës. Pikë të parë të ndarjen ligjin diskutimeve administrativo-territoriale”.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg247">Kështu që, nëse ju mendoni që normalitetin në këtë sallë e caktoni ju, e keni shumë gabim. se Partia Popullore Ndërkohë, besoj Evropiane ka qenë shumë e qartë me ju për sa i përket sjelljes suaj në marrëdhënie me Kuvendin.</seg>
@@ -683,7 +683,7 @@
         <u xml:id="ParlaMint-AL_2026-10-08.u63" ana="#chair" who="#AL_PERS_NikoPeleshi">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg291">Zoti Balla.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-08.u64" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-10-08.u64" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg292">E dini qëndrimin tim sa i përket kësaj padrejtësie me Rregulloren, që ndodh këtu në mënyrë të përsëritur. Deputetja që sapo foli nuk kishte asnjë çështje që lidhej me propozimet e nenit 49 për procedurën, por bëri një diskutim (me të drejtën e saj) për ligjin e ndarjes administrative-territoriale.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg293">Nëse Partia Demokratike dëshiron, unë shpreh dakordësinë që të fillojmë menjëherë diskutimin për ligjin e ndarjes administrative-territoriale dhe aty të gjithë deputetët t’i japin fund të gjitha diskutimeve që kanë për këtë çështje, sepse kështu siç po veprohet, duke përdorur nenin 49, kjo është “t’i bësh naftën” Parlamentit.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg294">Ndërkohë, unë jam i interesuar që qytetarët të ndjekin një diskutim të plotë lidhur me ligjin.</seg>
@@ -1071,7 +1071,7 @@
         <u xml:id="ParlaMint-AL_2026-10-08.u98" ana="#regular" who="#AL_PERS_XhelalMziu">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg458">Pra...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-08.u99" ana="#regular" who="#AL_PERS_NikoPelshi">
+        <u xml:id="ParlaMint-AL_2026-10-08.u99" ana="#chair" who="#AL_PERS_NikoPeleshi">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg459">Nëse vijoni të flisni jashtë procedurës, do të ndërpritet fjala.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-10-08.u100" ana="#regular" who="#AL_PERS_XhelalMziu">
@@ -2604,7 +2604,7 @@
           <seg xml:id="ParlaMint-AL_2026-10-08.seg1228">Fjala për zotin Taulant Balla.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg1229">Të përgatitet zoti Enno Bozdo.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-08.u300" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-10-08.u300" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg1230">Shumë u thanë dhe besoj se për qytetarët vlen edhe një argument që po diskutohet shumë më pak, por që është kryefjalë e reforme: anëtarësimi në Bashkimin kësaj thella, kërkon të Evropian kërkon reforma reforma të vështira, ndoshta edhe jopopullore, por janë reforma që duhen bërë me çdo kusht dhe me çdo çmim. Edhe kjo reformë sot, që duhet të vijojë menjëherë dhe ne duhet të fillojmë punën javën e ardhshme, aty ku e kemi lënë, për pjesën e transferimit të kompetencave, ka dimensionin e vet, një pjesë lidhet edhe me Kapitullin 22. Të mos harrojmë (e keni në raport, lexojeni) se rreth 70% e legjislacionit të Bashkimit Evropian zbatohet në nivel vendor. Pra, duhet t’i kemi gati bashkitë, që në vitin 2030 të jenë gati të fillojnë të zbatojnë legjislacionin evropian në nivelin e tyre; të këshilla bashkiakë, mirëfillta, që dinë të bëjnë dhe të zbatojnë projekte. Por mos harroni: edhe pjesa që lidhet me fondet e paraaderimit, më pas ato të kohezionit, kalon gjithnjë e më shumë përmes pushtetit vendor. Kryetarët dhe këshillat vendorë që do të dalin nga zgjedhjet e vitit 2027, kanë të prekshëm ta bërë përgjegjësinë për anëtarësimin për qytetarët.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg1231">U tha (dhe çfarë s'u tha) se reforma ishte një dështim, por, në fakt, ju jeni shembulli më i mirë për të konfirmuar se reforma ishte një sukses, sepse edhe ju vetë nuk erdhët me një propozim për të shkuar te 373 njësi, por keni ardhur me një propozim për 100 njësi. Sipas matematikës së Lulit, 100 njësi është shumë më pranë 61 sesa 373.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg1232">Pra, paskemi pasur të drejtë, ndoshta duhet të autoritete vendore kishim shkuar te 100, por 373, 308 komuna e 65 bashki ishin shumë për Shqipërinë. Pastaj, prej disa vitesh me radhë (në 2022-shin ngritëm një komision) ju thoni 100, ne themi më pak.</seg>
@@ -2637,7 +2637,7 @@
         <u xml:id="ParlaMint-AL_2026-10-08.u301" ana="#regular" who="#AL_PERS_EvisKushi">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg1250">Po, vijojeni.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-08.u302" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-10-08.u302" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg1251">Vetëm 30 sekonda, meqenëse bëtë një përjashtim për dikë këtu.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg1252">Qytetarët nuk duan një karrige për kryetarin e bashkisë, qytetarët duan punë, dhe punët duan fonde. E gjitha kjo bëhet për të garantuar më shumë fonde për bashkitë tona, për të gjitha bashkitë, pa asnjë dallim. Ju e keni hallin te zgjedhjet e radhës, por dallimi mes nesh është ai që thoshte Churchill-i: ne punojmë për gjeneratën e radhës, ju ndoshta keni shpresë të punoni për zgjedhjet e radhës. Ato të humbura i keni, po hytë, se, si e keni nisur, rrezik nuk hyni prapë!</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg1253">Faleminderit!</seg>
@@ -3645,7 +3645,7 @@
           <seg xml:id="ParlaMint-AL_2026-10-08.seg1920">Fjalën e ka zoti Erjo Mile.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg1921">Të përgatitet zoti Tedi Blushi. Më pas zonja Denisa Vata dhe zoti Ivi Kaso.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-08.u386" ana="#regular" who="#AL_PERS_ErioMile">
+        <u xml:id="ParlaMint-AL_2026-10-08.u386" ana="#regular" who="#AL_PERS_ErjoMile">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg1922">Faleminderit, zonja drejtuese e seancës!</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg1923">Të nderuar kolegë!</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg1924">se kur Besoj reformën administrative-territoriale, pyetja nuk duhet të jetë se sa bashki do të ketë Shqipëria, por çfarë bashkish do të ketë Shqipëria, sa do t’u shërbejnë ato qytetarëve. Kjo sepse territori nuk është thjesht një hapësirë gjeografike, e cila ndahet me pjesë në hartë, por është vendi ku njerëzit jetojnë, punojnë, krijojnë familjet e tyre, ruajnë kujtesën, dhe përpiqen të ndërtojnë një të ardhme më të mirë. Mënyra si ne e organizojmë administrimin e këtyre territoreve, ka ndikim të drejtpërdrejtë në cilësinë e jetës së tyre.</seg>
@@ -4481,7 +4481,7 @@
         <u xml:id="ParlaMint-AL_2026-10-08.u452" ana="#regular" who="#AL_PERS_EvisKushi">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg2502">Konkludoni, ju lutem!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-08.u453" ana="#regular" who="#AL_PERS_VullentSinaj">
+        <u xml:id="ParlaMint-AL_2026-10-08.u453" ana="#regular" who="#AL_PERS_VullnetSinaj">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg2503">Ndërkohë, 11 investime ngelen për t'u bërë nga bashkia e ardhshme. Koha do të vërtetojë se kush kishte të drejtë.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg2504">Faleminderit!</seg>
           <kinesic type="applause">
@@ -5154,7 +5154,7 @@
           <seg xml:id="ParlaMint-AL_2026-10-08.seg2933">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg2934">Për t’u shprehur kundër do ta marrë fjalën zoti Balla, 10 minuta.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-08.u515" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-10-08.u515" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg2935">Ju të gjitha i çoni në Gjykatën Kushtetuese, por jam shumë i qetë që do të çohet në Gjykatën Kushtetuese, si të gjitha të tjerat.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg2936">Fjalimi i tanishëm është argumenti më i fortë që nuk ka nevojë të ngresh komision hetimor për këtë çështje, së pari, sepse fjala nuk ishte fare lidhje me kërkesën dhe, së dyti...</seg>
           <vocal type="interruption">
@@ -5165,7 +5165,7 @@
         <u xml:id="ParlaMint-AL_2026-10-08.u516" ana="#chair" who="#AL_PERS_NikoPeleshi">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg2938">Zoti Balliu, ju lutem, sepse juve ju dëgjuan të gjithë kolegët!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-08.u517" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-10-08.u517" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-10-08.seg2939">Dakord, është një mbetje që bën zhurmë.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg2940">Për sa i përket kërkesës, të gjitha përgjigjet për këtë çështje që keni kërkuar, do t'i gjeni te “Pasqyra e flamingos” në ditët në vijim.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-08.seg2941">Për sa i përket objektit të propozuar të hetimit, i cili përfshin kontrollin e ligjshmërisë, marrëveshjet e bashkëpunimit, verifikimin e procedurave, nga pikëpamja përmbajtjesore kërkesa nuk përmbush asnjë kriter kushtetues dhe ligjor për ngritjen e komisionit hetimor parlamentar, në veçanti një kriter (që ta kemi evidentuar të paktën 20 vjet që jam unë këtu), apo një çështje të veçantë. i hetimit është konceptuar në Objekti mënyrë tepër të gjerë, përfshin një sërë çështjesh të ndryshme, pa shkuar në individualizimin e qartë të faktit apo të grupit të fakteve konkrete, që duhet t'i nënshtrohen hetimit parlamentar, për të cilin ftohemi, si Kuvend, të investojmë një prej instrumenteve të tona më të kontrollit parlamentar. apo përcaktuar janë Nuk mosveprime konkrete të zyrtarëve publikë apo të të shoqërisë “KAYO”, aktet, përfaqësuesve kontratat konkrete, që pretendohet se janë të paligjshme; edhe pse zotëria që prezantoi kërkesën kaloi në evidentimin e veprave penale, madje mori përsipër të ekzekutojë dhe urdhër-arrestet. Në këtë mënyrë, objekti synon kontrollin rëndësishme veprime duke jo hetimin e një çështjeje e përgjithshëm të të gjithë veprimtarisë së shoqërisë, të individualizuar, me një rëndësi të veçantë publike për rastin në fjalë, sikurse na është dashur ta bëjmë shumë vite me radhë diskutimin për çështjet që kërkohet të investohet Kuvendi në një komision hetimor.</seg>

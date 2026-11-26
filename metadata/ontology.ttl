@@ -1,0 +1,31 @@
+@prefix al: <https://parlamint-al.org/ontology#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+al:ParliamentaryGroup a owl:Class ;
+    rdfs:subClassOf org:Organization ;
+    rdfs:label "Parliamentary Group"@en , "Grup Parlamentar"@sq .
+
+al:PartyMembershipEntailingGroup a owl:Class ;
+    rdfs:subClassOf al:ParliamentaryGroup ;
+    rdfs:label "Party-Membership-Entailing Parliamentary Group"@en .
+
+al:Membership a owl:Class ;
+    rdfs:subClassOf org:Membership ;
+    rdfs:label "Time-Bounded Institutional Membership or Office"@en .
+
+al:GroupInParliament a owl:Class ;
+    rdfs:label "Dated Parliamentary Group Operation in Parliament"@en .
+
+al:GroupPartyEntailment a owl:Class ;
+    rdfs:label "Verified Dated Entailment from Qualifying Group to Designated Political Party"@en .
+
+al:forGroup a owl:ObjectProperty ;
+    rdfs:domain al:GroupPartyEntailment ;
+    rdfs:range al:PartyMembershipEntailingGroup .
+
+al:targetOrganization a owl:ObjectProperty ;
+    rdfs:domain al:GroupPartyEntailment ;
+    rdfs:range org:Organization .

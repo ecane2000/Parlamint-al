@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-07-23" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-07-23" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-07-23</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-07-23</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Konferenca e Kryetarëve, 2026-07-23</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Conference of Chairpersons, 2026-07-23</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KonferencaKryetareve" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -169,14 +169,14 @@
         <u xml:id="ParlaMint-AL_2026-07-23.u16" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg46">Jo, ne po kërkojmë të bësh Kryetarin e Kuvendit. Vendos datë. Pse ligjit të Taulantit i kishe vënë datën 23 korriku, ndërkohë që ligjet e opozitës i lë pa datë? Çfarë ndryshimi kanë? Më 2 korrik e dorëzon Taulanti, e fut në kalendar, në shkelje të Rregullores, sepse nuk janë mbushur akoma 2 javë, i cakton datën 23, dhe po miratohet sot, në datën 23. Krejt dakord.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u17" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u17" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg47">Cili ligj?</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-23.u18" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg48">Kodin Civil.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-23.seg49">Në kalendarin e shkuar është dorëzuar më 2 korrik, është futur në kalendar më 6 korrik, në shkelje të Rregullores, pa kaluar afati dyjavor...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u19" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u19" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg50">Është për shqyrtim, jo për ta futur. I ka plotësuar ditët.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-23.u20" ana="#regular" who="#AL_PERS_GazmentBardhi">
@@ -186,7 +186,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-07-23.seg52">Si?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u21" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u21" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg53">E ka futur Konferenca e Kryetarëve.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-23.u22" ana="#regular" who="#AL_PERS_GazmentBardhi">
@@ -259,7 +259,7 @@
         <u xml:id="ParlaMint-AL_2026-07-23.u33" ana="#chair" who="#AL_PERS_NikoPeleshi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg90">Zoti Balla.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u34" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u34" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg91">Faleminderit, zoti Kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-23.seg92">Në fakt, në parashtrimet që u bënë, ishte edhe përgjigjja e çështjes që ngrihet, sepse Konferenca e Kryetarëve (po në këtë sallë është diskutuar) ka marrë vendimin lidhur me dy komisionet e posaçme që ka ngritur Kuvendi në fund të muajit tetor të vitit të kaluar. Dhe, në fakt, po kjo Konferencë e Kryetarëve është gjendur para dy fakteve të ndryshme: për Komisionin e Posaçëm për Reformën Zgjedhore kishim një kërkesë për zgjatje, të ardhur nga të dy bashkëkryetarët dhe, menjëherë, e kemi miratuar zgjatjen me konsensus, ndërsa për komisionin të cilit i referohet kolegu, nuk ka pasur një kërkesë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-23.seg93">E gjendur në këto kushte, Konferenca e Kryetarëve, edhe në respektim të një tradite, kur nuk kemi pasur dakordësi në komision (ja ku e keni kolegen Denaj, e cila tre vite më parë ka drejtuar një komision të ngjashëm, së bashku me kolegen Çupi), ka thënë: për shkak të vendimmarrjes së paritetit të përfaqësimit, 8 me 8, të dyja palët të sjellin në Kuvendin e Shqipërisë gjetjet e tyre. Pra, nuk kemi pasur një kërkesë për zgjatje, por kemi pasur një punë, e cila duhet të quhet e lavdërueshme (citoj këtu edhe rezolutën e fundit të Parlamentit Evropian), se puna që kanë bërë deputetët, pra dy bashkëkryetarët dhe i gjithë komisioni, është intensive, me konsulta dhe takime.</seg>
@@ -287,7 +287,7 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u38" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u38" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg102">Mos më cito gabim!</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -297,38 +297,38 @@
         <u xml:id="ParlaMint-AL_2026-07-23.u39" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg104">Sapo thatë: nuk mund të zhbëjmë vendimin.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u40" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u40" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg105">Jo.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-23.u41" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg106">Kështu thatë. S’ka vendim për moszgjatje afati. Nuk ka.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u42" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u42" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg107">Dakord, ti mund të thuash çfarë të duash, por ti nuk do as të dëgjosh ato që them unë.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-23.u43" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg108">Në rregull, po të dëgjoj.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u44" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u44" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg109">Unë të thashë gjë tjetër.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-23.u45" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg110">Çfarë më thatë?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u46" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u46" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg111">Unë të thashë se ia ke bërë vetes dhe shko qahu ku të duash; për njërin komision ke sjellë kërkesë, për tjetrin nuk ke sjellë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-23.seg112">Shëndet e të mira, bashkë me mua!</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-23.u47" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg113">Po pse?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u48" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u48" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg114">Kaq, pra!</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-23.u49" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg115">Po pse?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u50" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u50" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg116">A do të sillesh tamam ti? Ja, pra, kaq. Pse ta firmosi Oerd Bylykbashi dhe e solli, dhe ai tjetri...?</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-23.u51" ana="#regular" who="#AL_PERS_GazmentBardhi">
@@ -340,25 +340,25 @@
           <seg xml:id="ParlaMint-AL_2026-07-23.seg119">Ke procesverbalet e mbledhjes së komisionit, ku ne kemi kërkuar vazhdimin me një muaj, me dy muaj të punës së komisionit, pengesa ka qenë nga ju. Ajo që thashë...</seg>
           <seg xml:id="ParlaMint-AL_2026-07-23.seg120">P a g e 12 | 31</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u52" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u52" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg121">Sille kërkesën në seancë.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-23.u53" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg122">Është sjellë, pra, kërkesa.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u54" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u54" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg123">Ta shohim dhe...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-23.u55" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg124">Tani, unë nuk merrem edhe me shpërndarjen e materialeve që dorëzohen në protokoll, Taulant.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u56" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u56" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg125">Nëse e ke sjellë sot, je jashtë afatit.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-23.u57" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg126">Pse?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u58" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u58" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg127">Duhej ta kishe sjellë më përpara.</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -371,7 +371,7 @@
         <u xml:id="ParlaMint-AL_2026-07-23.u59" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg129">Më falni, është detyra ime ta sjell?!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u60" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u60" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg130">Kur e ke depozituar?</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -380,7 +380,7 @@
         <u xml:id="ParlaMint-AL_2026-07-23.u61" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg131">Merre në protokoll, siç...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u62" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u62" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg132">Sot e ke sjellë?</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -406,19 +406,19 @@
         <u xml:id="ParlaMint-AL_2026-07-23.u66" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg138">Ajo që unë kuptova ishte se ju keni marrë vendim për moszgjatje, kështu e kuptova, se tha: nuk mund të zhbëhet vendimi i Konferencës. Por nuk e ka në kompetencë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u67" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u67" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg139">Jo, jo, i the Kryetarit të Kuvendit se përse e ka futur këtë sot. Kryetari i Kuvendit ka zbatuar vendimin.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-23.u68" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg140">Çfarë i thashë?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u69" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u69" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg141">I the: pse e ke futur këtë sot, në një copë letër...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-23.u70" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg142">Po ku e dinit ju se do të vinte ky raporti, që kishit marrë vendim me datën 16?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u71" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u71" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg143">E kemi kërkuar ne në Konferencën e Kryetarëve.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-23.seg144">P a g e 13 | 31</seg>
         </u>
@@ -431,7 +431,7 @@
         <u xml:id="ParlaMint-AL_2026-07-23.u74" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg147">Çfarë është ky muhabet? Si mund t’ia kërkoni ju?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u75" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u75" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg148">Merreni procesverbalin e Konferencës së Kryetarëve të radhës së kaluar...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -601,7 +601,7 @@
         <u xml:id="ParlaMint-AL_2026-07-23.u114" ana="#regular" who="#AL_PERS_BlendiKlosi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg204">Pra, nëse zgjedhjet janë në pranverën e vitit 2027,</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u115" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u115" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg205">Jo: në qoftë se janë...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-23.u116" ana="#regular" who="#AL_PERS_BlendiKlosi">
@@ -956,7 +956,7 @@
         <u xml:id="ParlaMint-AL_2026-07-23.u194" ana="#regular" who="#AL_PERS_LuçianoBoçi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg330">A më keni thirrur mua?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u195" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u195" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg331">Jo, jo nuk ishte i thirrur...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -965,7 +965,7 @@
         <u xml:id="ParlaMint-AL_2026-07-23.u196" ana="#regular" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg332">Ai tha se ishte zoti Mazniku...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u197" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u197" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg333">Ju ishit pushim...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-23.u198" ana="#regular" who="#AL_PERS_JoridaTabaku">
@@ -977,7 +977,7 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u200" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u200" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg336">Zoti Mazniku nuk është anëtar i Konferencës së Kryetarëve...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-23.u201" ana="#regular" who="#AL_PERS_JoridaTabaku">
@@ -1133,7 +1133,7 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u229" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u229" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg383">Po e thamë këtë: të enjten do të sjellin raportin. Po çfarë jeni ju kështu?</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -1143,7 +1143,7 @@
         <u xml:id="ParlaMint-AL_2026-07-23.u230" ana="#regular" who="#AL_PERS_GazmentBardhi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg385">A mendon se unë të dëgjoj ty çfarë flet?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u231" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u231" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg386">Foli ai...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -1187,7 +1187,7 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u236" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-07-23.u236" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg396">Edhe ai raport ishte firmosur nga njëri bashkëkryetar.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-23.u237" ana="#regular" who="#AL_PERS_GazmentBardhi">
@@ -1379,7 +1379,7 @@
         <u xml:id="ParlaMint-AL_2026-07-23.u274" ana="#chair" who="#AL_PERS_NikoPeleshi">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg455">Nuk ka mbaruar mbledhja!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-23.u275" ana="#regular" who="#AL_PERS_UlshiManja">
+        <u xml:id="ParlaMint-AL_2026-07-23.u275" ana="#regular" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-07-23.seg456">Më fal!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-23.seg457">Jo nuk mendoj, por ti e the vetë: kur të vijë demokracia, merr vlerë Rregullorja. Për ju, ju nuk jeni në demokraci. Ky ishte kuptimi. Pra, ju nuk e konsideroni veten pjesë të...</seg>
           <vocal type="interruption">

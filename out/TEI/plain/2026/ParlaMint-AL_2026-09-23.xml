@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-09-23" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-09-23" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-09-23</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-09-23</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Çështjet Ligjore dhe Administratën Publike, 2026-09-23</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Legal Affairs and Public Administration, 2026-09-23</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_CLAP" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -791,7 +791,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-23.seg410">Pyetjen e fundit e kam të drejtpërdrejtë: vërtet mendoni se i shërben një performance shumë më të mirë bashkimi i Prrenjasit me Librazhdin? E theksoj edhe një herë pyetjen, sepse e bëj në pozicionin e qytetarit të Prrenjasit dhe jo si deputet.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-23.seg411">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-23.u106" ana="#regular" who="#AL_PERS_UsliManja">
+        <u xml:id="ParlaMint-AL_2026-09-23.u106" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-23.seg412">Faleminderit, zoti Komici!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-23.seg413">Zoti Mazniku.</seg>
         </u>

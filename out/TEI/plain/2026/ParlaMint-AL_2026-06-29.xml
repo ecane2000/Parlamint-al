@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-06-29" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-06-29" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-06-29</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-06-29</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Nismat Qytetare, Bashkëpunimin dhe Mbikëqyrjen Institucionale, 2026-06-29</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Civic Initiatives, Cooperation and Institutional Oversight, 2026-06-29</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KNQBMI" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -163,7 +163,7 @@
           <seg xml:id="ParlaMint-AL_2026-06-29.seg65">Genta Tafa Bungo – Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-06-29.seg66">Meqenëse është një periudhë për të cilën mund të jap një përgjigje, por nuk dua të bëj kompetenten kur nuk jam kompetente. Pra, po ia jap fjalën për pyetjen e parë drejtoreshës Juridike, e cila mund të na thotë brenda një minute, pastaj drejtoresha e Burimeve Njerëzore që të sqarojë përgjigjen e pyetjes për treguesit financiarë, më pas doja ta përmbyllja vetë. Pra, nuk e di si do të funksionojë kjo minuta e ndarë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-06-29.u7" ana="#regular" who="#AL_PERS_AdrianaHala">
+        <u xml:id="ParlaMint-AL_2026-06-29.u7" ana="#regular" who="#AL_PERS_ArdianaHala">
           <seg xml:id="ParlaMint-AL_2026-06-29.seg67">Përshëndetje!</seg>
           <seg xml:id="ParlaMint-AL_2026-06-29.seg68">Për sa i përket pyetjes suaj, dua të cilësoj se vendimi i Komisionerit nuk ka vetëm një karakter rekomandimi, por përmban detyrime konkrete ndaj subjektit që është konstatuar diskriminimi.</seg>
           <seg xml:id="ParlaMint-AL_2026-06-29.seg69">Nga ndryshimet ligjore të vitit 2025, vendimet e Komisionerit janë tituj ekzekutivë dhe në momentin që nuk ka një vendim tjetër nga gjykata, automatikisht bëhen urdhra ekzekutimi.</seg>
@@ -173,7 +173,7 @@
         <u xml:id="ParlaMint-AL_2026-06-29.u8" ana="#chair" who="#AL_PERS_FatmirXhafaj">
           <seg xml:id="ParlaMint-AL_2026-06-29.seg72">Zonjë, nuk ju pyeti çfarë parashikon ligji, ju pyeti pse nuk zbatohet ligji.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-06-29.u9" ana="#regular" who="#AL_PERS_AdrianaHala">
+        <u xml:id="ParlaMint-AL_2026-06-29.u9" ana="#regular" who="#AL_PERS_ArdianaHala">
           <seg xml:id="ParlaMint-AL_2026-06-29.seg73">E kemi bërë këtë ndryshim që këto të dalin tituj ekzekutivë.</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>

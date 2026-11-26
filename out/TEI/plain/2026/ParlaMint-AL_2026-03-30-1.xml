@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-03-30-1" xml:lang="sq" ana="#parla.committee.standing #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Burimet Natyrore, Infrastrukturën dhe Zhvillimin e Qëndrueshëm, 2026-03-30</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Natural Resources, Infrastructure and Sustainable Development, 2026-03-30</title>
+        <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
+        <meeting corresp="#AL_ORG_KBNIZHQ" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
+        <respStmt>
+          <resp xml:lang="sq">Përgatitur nga</resp>
+          <resp xml:lang="en">Prepared by</resp>
+          <name>ParlaMint-AL</name>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="sq">CLARIN ERIC</orgName>
+          <orgName xml:lang="en">CLARIN ERIC</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>5.0</edition>
+      </editionStmt>
+      <extent>
+        <measure unit="speeches" quantity="13" xml:lang="sq">13 fjalime</measure>
+        <measure unit="speeches" quantity="13" xml:lang="en">13 speeches</measure>
+        <measure unit="words" quantity="1757" xml:lang="sq">1757 fjalë</measure>
+        <measure unit="words" quantity="1757" xml:lang="en">1757 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Kuvendi i Shqipërisë; CLARIN ERIC</publisher>
+        <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2004</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="sq">Ky punim publikohet nën licencën Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+          <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+        </availability>
+        <date when="2026-08-28">2026-08-28</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="sq">Procesverbal i Kuvendit të Shqipërisë</title>
+          <idno type="URI">https://kuvendiwebfiles.blob.core.windows.net/webfiles/202610061030103692Procesverbal datë 30.03.2026%2C ora 13%3B00.pdf</idno>
+          <date when="2026-03-30">2026-03-30</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="sq">ParlaMint-AL: korpus i krahasueshëm i seancave parlamentare, i përputhshëm me ParlaMint v5.</p>
+        <p xml:lang="en">ParlaMint-AL: comparable parliamentary corpus of Albania, conforming to ParlaMint v5.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1" />
+          <tagUsage gi="body" occurs="1" />
+          <tagUsage gi="div" occurs="1" />
+          <tagUsage gi="note" occurs="1" />
+          <tagUsage gi="u" occurs="13" />
+          <tagUsage gi="seg" occurs="42" />
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kuvendi i Shqipërisë</name>
+          <name type="city">Tiranë</name>
+          <name type="country" key="AL">Albania</name>
+          <date when="2026-03-30">2026-03-30</date>
+        </setting>
+      </settingDesc>
+      <langUsage>
+        <language ident="sq" xml:lang="sq">shqip</language>
+        <language ident="en" xml:lang="en">English</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-08-28">: Initial conversion to ParlaMint 5.0 TEI XML.<name>ParlaMint-AL</name></change>
+    </revisionDesc>
+  </teiHeader>
+  <text ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-AL_2026-03-30-1.u1" ana="#chair" who="#AL_PERS_AnilaDenaj">
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg1">Përshëndetje!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg2">Të nderuar kolegë deputetë, nisim mbledhjen e Komisionit për Burimet Natyrore, Infrastrukturën dhe Zhvillimin e Qëndrueshëm.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg3">Sot në rendin e ditës kemi miratimin e procesverbaleve të mbledhjeve të komisionit në datat 10.11.2025, 18.11.2025 dhe 25.11.2025. Në pikën e dytë të rendit të ditës kemi seancë dëgjimore me kandidaten për anëtare të Bordit Drejtues të AKEP-it, zonjën Diana Dervishi.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg4">Shqyrtimi i vendimit “Për propozimin e Kuvendit për emërimin e një anëtari të Këshillit Drejtues të Autoritetit të Komunikimeve Elektronike dhe Postare”. Ne jemi komision përgjegjës. Zonja Diana Dervishi është prezente. Faleminderit që jeni e pranishme!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg5">Si pikë të tretë të rendit të ditës kemi projektligjin “Për disa shtesa dhe ndryshime në ligjin nr. 58/2022 “Për krijimin, organizimin dhe funksionimin e parqeve teknologjike dhe shkencore””. Kjo është nismë e deputetit Ramion Kurti. Ne jemi komision përgjegjës, kurse relator është zoti Vullnet Sinaj.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg6">Për pikën e parë të rendit të ditës, ka ndonjë shtesë apo koment për procesverbalet? I quajmë të miratuara.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg7">Kalojmë te seanca dëgjimore, ku e ftuar është zonja Diana Dervishi. Ne jemi komision përgjegjës. Do të vlerësoja një prezantim të përgjithshëm nga ana juaj për karrierën e deritanishme. Më pas do të vazhdojmë me pyetjet e kolegëve deputetë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg8">Zonja Dervishi, fjala për ju.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-30-1.u2" ana="#guest" who="#AL_PERS_DianaDervishi">
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg9">Ju falënderoj për mundësinë që më dhatë për të qenë sot në këtë seancë dëgjimore si kandidate për anëtare e Këshillit Drejtues së AKEP-it!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg10">Quhem Diana Dervishi. Kam përfunduar studimet në Universitetin e Tiranës, dega “Drejtësi”.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg11">Eksperiencat e para të punës i kam pasur pranë Agjencisë Kombëtare të Privatizimit si juriste në procedurat e privatizimit të aseteve shtetërore. Ndërkohë, më tej, me kërkesën time, kam vijuar si ndihmëse avokate e shtetit pranë Avokaturës së Shtetit për 3 vjet, duke e përfaqësuar këtë institucion në Gjykatën e Shkallës së Parë dhe në Gjykatën e Apelit Tiranë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg12">Nga viti 2005 deri në vitin 2023 kam punuar si sekretare e Përgjithshme, trupë e nivelit të lartë drejtues në shërbimin civil, pranë Autoritetit të Konkurrencës. Pranë këtij institucioni shumë të rëndësishëm kam drejtuar një strukturë të quajtur “Sekretariati”, e cila është pjesë përbërëse e këtij organizimi, ku kam kryer zbatimin e procedurave të ligjit “Për konkurrencën”; hartimin dhe paraqitjen e raportit përmbledhës të hetimit para komisionit për vendimmarrje; bashkërendim pune nëpërmjet drejtorisë së kësaj strukture dhe përgatitjen e raportit vjetor të punës së Autoritetit të Konkurrencës.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg13">Gjatë kësaj periudhe kam pasur mundësinë që, nëpërmjet strukturës që drejtoja, të kisha njohuri shumë të mira për tregun e komunikimeve elektronike. Në këtë kuadër, kemi kryer disa vlerësime ligjore të dokumenteve të AKEP-it të nxjerra për këshillim publik, si: analiza e tregut të shërbimeve celulare, tregu me shumicë i aksesit dhe origjinimit, analizë e tregut të telefonisë fikse, tregjet me shumicë të terminimit dhe tranzitimit të thirrjeve në rrjetet telefonike publike nga vendndodhje fikse dhe të tjera si këto, duke dhënë edhe rekomandimet përkatëse.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg14">Rekomandimet që janë dhënë për Autoritetin e Komunikimeve Elektronike dhe Postare kanë krijuar gjithmonë një marrëdhënie bashkëpunimi midis AKEP-it dhe Autoritetit të Konkurrencës, për të treguar që janë dy institucione, ku njëra mbikëqyr tregun, ndërsa tjetra e rregullon, për aq sa është e mundur, nëpërmjet rregullimit për të siguruar një konkurrencë të qëndrueshme dhe efektive.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg15">Gjithashtu, pjesë e kësaj pune ka qenë monitorimi dhe hetimi i dy subjekteve që operojnë sot në tregun e telefonisë celulare.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg16">Përgjatë këtyre viteve të karrierës sime, për periudhën 2005-2023, si sekretare e Përgjithshme në Autoritet kam drejtuar edhe grupin ndërinstitucional të punës për integrimin evropian, që është kapitulli 8: “Tregu i brendshëm dhe konkurrenca”. Kjo ishte një punë dhe eksperiencë e bukur, por e vështirë edhe në procesin e përafrimit të legjislacionit të BE-së për të plotësuar kuadrin ligjor dhe institucional. Kam qenë drejtuese e dy projekteve IPA për binjakëzimin e Autoritetit të Konkurrencës me autoritetet spanjolle, italiane dhe hungareze nga viti 2009 deri në vitin 2019.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg17">Një eksperiencë e veçantë ka qenë edhe ajo si anëtare e bordit në Postën Shqiptare. Pra, për 2 vjet e kam njohur nga afër, ku kam parë punën, nevojat dhe prioritetet e këtij sektori të rëndësishëm. Gjithashtu, kam qenë edhe lektore pranë një instituti të arsimit të lartë për lëndën: “Ndihma shtetërore dhe konkurrenca”. Po ashtu, në këto vite kam pasur edhe një mori trajnimesh, kryesisht në fushën e konkurrencës dhe të zbatimit të ligjit “Për shërbimin civil”.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg18">Për të gjitha sa thashë më sipër, kërkoj mbështetjen tuaj për të qenë anëtare e Këshillit Drejtues në Autoritetin e Komunikimeve Elektronike dhe Postare. Ju falënderoj që më bëtë të mundur prezencën sot këtu!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-30-1.u3" ana="#chair" who="#AL_PERS_AnilaDenaj">
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg19">Faleminderit, zonja Dervishi!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg20">Kalojmë te pyetjet dhe diskutimet. Po, zoti Himçi.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-30-1.u4" ana="#regular" who="#AL_PERS_BlendiHimçi">
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg21">Faleminderit, kryetare!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg22">Dua të bëj disa pyetje në lidhje me AKEP-in. Çfarë problematikash has sot AKEP-i? A jeni në dijeni të problematikave kryesore? Cilat janë mekanizmat që AKEP-i nuk favorizon operatorë të caktuar në treg nëpërmjet kontrollit?</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg23">Këto pyetje kisha.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-30-1.u5" ana="#guest" who="#AL_PERS_DianaDervishi">
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg24">Nga sa jam njohur, duke parë vendimmarrjen e AKEP-it, rezolutën e Kuvendit të miratuar për vitin 2025, por edhe problematikat që ka pasur më parë tregu i komunikimeve elektronike dhe postare, problem ka qenë portabiliteti i numrit. Të paktën edhe nga eksperienca ime pranë Autoritetit të Konkurrencës, gjëja më e evidentuar ndër vite ka qenë ankesa e portabilitetit të numrit. Me sa di unë, nga rezoluta e miratuar për vitin që kaloi, është miratuar një rregullore për portabilitetin e numrit. Gjithashtu, në strategjinë që ka bërë AKEP-i për periudhën 2024-2026, ka parashikuar që pavarësisht se e ka miratuar rregulloren për portabilitetin e numrit, ai do të monitorojë mënyrën se si do të zbatohet nga operatorët që operojnë në tregun e telefonisë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg25">Për sa i përket favorizimit dhe mekanizmave që ka AKEP-i, instrumenti kryesor që ka AKEP-i janë inspektimet. Nga Kuvendi i Shqipërisë është lënë një rekomandim për një rregullore për inspektimet për operatorët, të cilën e kanë miratuar. Gjatë raportimit që ka bërë vjet Autoriteti i Komunikimeve Elektronike dhe Postare në Kuvend kjo ka qenë në proces, ku ishte ngritur grupi i punës. Një nga mekanizmat që AKEP-i ka janë rregulloret dhe zbatimi i tyre, sepse nuk mjafton vetëm të miratosh rregulla, por edhe duhet që të zbatohen nga operatorët. Në momentin që këto rregulla zbatohen nga operatorët, është e pamundur që AKEP-i vetë, si organ rregullator, të mund të favorizojë një operator apo një tjetër. Ky rekomandim është lënë nga Kuvendi i Shqipërisë. Besoj se do të raportohet edhe këtë vit së shpejti nga këshilli drejtues pranë këtij komisioni.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg26">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-30-1.u6" ana="#chair" who="#AL_PERS_AnilaDenaj">
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg27">Pyetje të tjera?</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-30-1.u7" ana="#regular" who="#AL_PERS_BlendiHimçi">
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg28">Ju mendoni se vetëm pjesa e monitorimit do ta zgjidhë këtë lloj problematike që haset sot? Ne e dimë shumë mirë, ju po më tregoni diçka empirike dhe teorike, por ne po flasim për çështje të implementimit dhe të realitetit të përditshëm. Nisur nga kjo që ju sqarova, nëse nesër do të jeni në Këshillit Mbikëqyrës së AKEP-it, për çfarë do ta ngrini zërin për ta përmirësuar këtë lloj mekanizmi të rregullores ose implementimit të saj? Ju po më tregoni si vepron AKEP-i, por këtë e dimë. Problemi është se çfarë pritshmërish ke ti në projektin tënd, sepse nesër do të jesh anëtare e Bordit të AKEP-it. Nuk e di nëse më kuptoni apo jo?</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-30-1.u8" ana="#guest" who="#AL_PERS_DianaDervishi">
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg29">Në lidhje me problematikat që citova dhe aktet nënligjore që ata i kanë miratuar pranë këshillit drejtues, zbatimi i tyre nga operatorët në treg është çështje e mbikëqyrjes dhe inspektimeve. Së fundi, për inspektimet është bërë një rregullore e re, për të cilën ka dhënë rekomandim ky komision dhe Kuvendi në rezolutën e miratuar në vitin 2025.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg30">Një instrument tjetër janë gjobat që aplikohen. Qëllimi në vetvete nuk janë gjobat, por që të arrihet implementimi i ligjit dhe rregullores së miratuar nga AKEP-i. Duhet të kemi parasysh se një nga detyrat që ka lënë Kuvendi janë edhe tryezat e rrumbullakëta me operatorët dhe palët e interesuara; mënyra e implementimit të ligjit nr. 54/2024, pasi ai është një ligj i ri që sapo ka filluar të implementohet dhe të kompletohet me aktet nënligjore që burojnë nga ky ligj.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg31">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-30-1.u9" ana="#chair" who="#AL_PERS_AnilaDenaj">
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg32">Për çështje të terminologjisë “favorizim”, duhej të përgjigjej në mënyrë të drejtpërdrejtë drejtuesi. Ne do të kemi një moment komunikimi, sepse pyetja është më e drejtpërdrejtë për të, edhe pse besoj se në çdo rast përgjigjet do të ishin në bazë të rregullores dhe sipas inspektimeve. Pra, kjo nuk është empirike, por është referenca e një procedure që çdo drejtues dhe anëtar do të ndjekë. Megjithatë, më shumë i bëhet referencë një procedure të dikujt që është duke e ndjekur sesa dikujt që do ta ndjekë. Megjithatë, besoj se çdo pyetje është e mirëpritur për ju.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg33">Kolegë, ka ndonjë pyetje tjetër? Në raport me Postën Shqiptare, sikurse është e përmendur edhe në CV, që keni qenë anëtare e bordit për një periudhë 2-vjeçare...</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg34">Sigurisht, periudha që i referohet është para 5 vjetëve, ndoshta shumë gjëra kanë ndryshuar dhe informacioni që ju keni mund të mos jetë i plotë, por në themel përmbajtja dhe struktura e punës së përditshme të Postës Shqiptare mbetet e njëjtë: shërbimet financiare, rrjeti i degëve dhe të gjitha proceset. Çfarë të reje do të sillnit ju si anëtare e këtij këshilli, pas eksperiencës së kaluar në Postën Shqiptare për 2 vjet?</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-30-1.u10" ana="#guest" who="#AL_PERS_DianaDervishi">
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg35">Faleminderit!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg36">Në planin strategjik të AKEP-it është parashikuar që për periudhën 2024-2026 të bëhet një monitorim i sipërmarrësve të shërbimeve postare. Normalisht, kjo është detyra e AKEP-it, në zbatim të ligjit: të bëjë një monitorim për të parë se si e kryen detyrën Posta Shqiptare. Më shumë nga të gjitha, kanë qenë shqetësimet që ka evidentuar vitin e kaluar edhe Kuvendi në lidhje me shpërndarjen e kolive postare. Mendoj se mbi bazën e rekomandimeve që ka dhënë Kuvendi, do të jap edhe unë ndihmesën time për ta mbështetur këshillin drejtues për të realizuar këtë detyrë që i ka lënë Kuvendi.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-30-1.u11" ana="#chair" who="#AL_PERS_AnilaDenaj">
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg37">Dakord.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg38">Në kontekstin strategjik është e qartë se shumë nga çështjet lidhen edhe me realizimin e të ardhurave. Besoj se është e njohur, edhe në kohën që keni qenë anëtare e bordit, se shërbimet financiare kanë zënë një peshë të rëndësishme. Shikoni hapësira për të sugjeruar më shumë shërbime financiare dhe për të zgjeruar bazën financiare të Postës apo mendoni se janë ezauruar? Dua një informacion më konkret përtej planit strategjik.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-30-1.u12" ana="#guest" who="#AL_PERS_DianaDervishi">
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg39">Gjithmonë ka një mundësi, patjetër mundësitë janë më të mëdha.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg40">Duke e parë dhe vlerësuar më nga afër, ndoshta do të shprehesha në një moment të dytë, duke e njohur dhe prekur materialin që mund të realizohet gjatë kohës që Posta Shqiptare do të jetë e monitoruar dhe mbikëqyrur nga AKEP-i.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-30-1.u13" ana="#chair" who="#AL_PERS_AnilaDenaj">
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg41">Zonja Dervishi, shumë faleminderit për prezencën dhe për përgjigjet tuaja! Ju urojmë suksese!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-30-1.seg42">Kolegë, 5 minuta pushim, që të presim edhe kolegët nga Komisioni i Ekonomisë.</seg>
+          <note type="comment">MBYLLET MBLEDHJA</note>
+        </u>
+      </div>
+    </body>
+  </text>
+</TEI>

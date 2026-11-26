@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-04-10" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-04-10" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-04-10</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-04-10</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Burimet Natyrore, Infrastrukturën dhe Zhvillimin e Qëndrueshëm, 2026-04-10</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Natural Resources, Infrastructure and Sustainable Development, 2026-04-10</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KBNIZHQ" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -114,7 +114,7 @@
           <seg xml:id="ParlaMint-AL_2026-04-10.seg24">Shumë faleminderit, të nderuar kolegë!</seg>
           <seg xml:id="ParlaMint-AL_2026-04-10.seg25">Fjalën dhe mundësinë për të shkuar më shumë në detaje e ka zoti Artur Lorkowski, drejtor i Sekretariatit të Komunitetit të Energjisë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-04-10.u5" ana="#regular" who="#AL_PERS_ArturLorkowski">
+        <u xml:id="ParlaMint-AL_2026-04-10.u5" ana="#guest" who="#AL_PERS_ArturLorkowski">
           <seg xml:id="ParlaMint-AL_2026-04-10.seg26">E nderuar kryetare,</seg>
           <seg xml:id="ParlaMint-AL_2026-04-10.seg27">Të nderuar pjesëtarë të komisionit,</seg>
           <seg xml:id="ParlaMint-AL_2026-04-10.seg28">Është kënaqësi për mua të pranoj ftesën tuaj dhe të prezantoj raportin vjetor në Komisionin për Burimet Njerëzore, Zhvillimin e Qëndrueshëm dhe Infrastrukturën. Jam shumë i impresionuar duke parë shumë fytyra të reja këtu, gjithashtu edhe figura të shquara politike, të cilat kanë qenë më përpara anëtarë të këtij komisioni! Kjo më jep përshtypjen e rëndësisë që ka mjedisi i energjisë dhe agjenda e klimës për Shqipërinë dhe përkushtimin tuaj të madh në këtë agjendë në mënyrë politike.</seg>
@@ -188,7 +188,7 @@
           <seg xml:id="ParlaMint-AL_2026-04-10.seg90">Faleminderit, zonja Çapja!</seg>
           <seg xml:id="ParlaMint-AL_2026-04-10.seg91">Zoti Himçi.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-04-10.u9" ana="#regular" who="#AL_PERS_BlendiHumçi">
+        <u xml:id="ParlaMint-AL_2026-04-10.u9" ana="#regular" who="#AL_PERS_BlendiHimçi">
           <seg xml:id="ParlaMint-AL_2026-04-10.seg92">Unë ju falënderoj!</seg>
           <seg xml:id="ParlaMint-AL_2026-04-10.seg93">Po e rimarr edhe njëherë fjalën. Sigurisht që unë nuk i përkas specifikisht fushës së energjisë elektrike; pra nuk jam një inxhinier apo një teknicien i fushës së energjisë elektrike, por me profesion jam jurist dhe mendoj se analiza dhe raporti që keni bërë mbetet mbresëlënës për ne dhe detyrues për Shqipërinë, sidomos për qeverinë, që të vazhdojë të thellojë pjesën e reformës, sa i përket rritjes së eficiencës në energjinë elektrike.</seg>
           <seg xml:id="ParlaMint-AL_2026-04-10.seg94">Siç u raportua ka progres, por progresi realisht mbetet i kufizuar. Sigurisht, duke e parë në raport me vendet e rajonit, për shembull me Kosovën, e cila ishte edhe më mirë në aspektin e performancës, apo me Gjeorgjinë, të paktën sipas standardeve të rritjes ekonomike, Shqipëria, në krahasim me këto vende, ka një rritje më të mirë. Megjithatë, në sektorin e energjisë, për sa i përket performancës, shohim që mbetet prapa. Sigurisht, kjo gjë ka sjellë pasoja te çmimet, pse jo, ashtu siç e thatë edhe ju, edhe në tregun me pakicë, ku ka një problematikë shumë të madhe. Problematika është edhe në aspektin ligjor, edhe në aspektin e implementimit.</seg>
@@ -248,7 +248,7 @@
           <seg xml:id="ParlaMint-AL_2026-04-10.seg134">Shumë faleminderit, të nderuar kolegë!</seg>
           <seg xml:id="ParlaMint-AL_2026-04-10.seg135">Fjala është për ju, zoti Lorkowski.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-04-10.u17" ana="#regular" who="#AL_PERS_ArturLorkowski">
+        <u xml:id="ParlaMint-AL_2026-04-10.u17" ana="#guest" who="#AL_PERS_ArturLorkowski">
           <seg xml:id="ParlaMint-AL_2026-04-10.seg136">Faleminderit shumë!</seg>
           <seg xml:id="ParlaMint-AL_2026-04-10.seg137">E nderuar kryetare, gjithashtu, dua të shpreh mirënjohjen time për pyetjet që ju më bëtë, si dhe për komentet tuaja, sepse këto provojnë që energjia, pra agjenda e energjisë së Shqipërisë është shumë e rëndësishme për diskutimin e brendshëm! Kjo më bën shumë të lumtur, sepse provon që puna jonë është relevante.</seg>
           <seg xml:id="ParlaMint-AL_2026-04-10.seg138">Dëshiroj t’u përgjigjem pyetjeve në këtë mënyrë; pra, nuk po u hyj në mënyrë specifike, sipas radhës që u bënë.</seg>

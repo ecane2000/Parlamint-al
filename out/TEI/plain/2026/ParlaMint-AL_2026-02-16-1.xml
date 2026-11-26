@@ -1,0 +1,775 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-02-16-1" xml:lang="sq" ana="#parla.committee.standing #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni i Posaçëm Parlamentar për Reformën Administrativo-Territoriale, 2026-02-16</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Special Parliamentary Committee on Administrative-Territorial Reform, 2026-02-16</title>
+        <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
+        <meeting corresp="#AL_ORG_KPRAT" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
+        <respStmt>
+          <resp xml:lang="sq">Përgatitur nga</resp>
+          <resp xml:lang="en">Prepared by</resp>
+          <name>ParlaMint-AL</name>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="sq">CLARIN ERIC</orgName>
+          <orgName xml:lang="en">CLARIN ERIC</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>5.0</edition>
+      </editionStmt>
+      <extent>
+        <measure unit="speeches" quantity="110" xml:lang="sq">110 fjalime</measure>
+        <measure unit="speeches" quantity="110" xml:lang="en">110 speeches</measure>
+        <measure unit="words" quantity="14810" xml:lang="sq">14810 fjalë</measure>
+        <measure unit="words" quantity="14810" xml:lang="en">14810 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Kuvendi i Shqipërisë; CLARIN ERIC</publisher>
+        <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2004</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="sq">Ky punim publikohet nën licencën Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+          <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+        </availability>
+        <date when="2026-08-28">2026-08-28</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="sq">Procesverbal i Kuvendit të Shqipërisë</title>
+          <idno type="URI">https://kuvendiwebfiles.blob.core.windows.net/webfiles/202608060718575248Procesverbal_dt_16.02.2026.pdf</idno>
+          <date when="2026-02-16">2026-02-16</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="sq">ParlaMint-AL: korpus i krahasueshëm i seancave parlamentare, i përputhshëm me ParlaMint v5.</p>
+        <p xml:lang="en">ParlaMint-AL: comparable parliamentary corpus of Albania, conforming to ParlaMint v5.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1" />
+          <tagUsage gi="body" occurs="1" />
+          <tagUsage gi="div" occurs="1" />
+          <tagUsage gi="note" occurs="2" />
+          <tagUsage gi="u" occurs="110" />
+          <tagUsage gi="seg" occurs="306" />
+          <tagUsage gi="vocal" occurs="53" />
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kuvendi i Shqipërisë</name>
+          <name type="city">Tiranë</name>
+          <name type="country" key="AL">Albania</name>
+          <date when="2026-02-16">2026-02-16</date>
+        </setting>
+      </settingDesc>
+      <langUsage>
+        <language ident="sq" xml:lang="sq">shqip</language>
+        <language ident="en" xml:lang="en">English</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-08-28">: Initial conversion to ParlaMint 5.0 TEI XML.<name>ParlaMint-AL</name></change>
+    </revisionDesc>
+  </teiHeader>
+  <text ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u1" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg1">Të nderuar anëtarë të Komisionit, sipas dakordësisë së mbledhjes së shkuar, në këtë mbledhje do të diskutonim planin e punës. Kemi ndarë një dokument të përgatitur nga ne, në raport me kalendarin e punës dhe me detyrat që kemi si Komision, i cili është shumë i detajuar për 2-3 muajt e parë. Më pas, në vijimësi do të detajojmë edhe 2-3 muajt e tjerë të punës së Komisionit. Me dakordësinë e bashkëkryetarit, unë do të doja të merrja kohë për të bërë një prezantim të shkurtër të planit të punës përpara se të hapnim diskutimet, edhe për të dëgjuar opinionet e të gjithë anëtarëve.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u2" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg2">Faleminderit!</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg3">Unë mendoj se tashmë e kemi kaluar këtë fazë. Një pasqyrë e shkurtër e projektkalendarit u bë seancën e kaluar, kështu që të mos kalojmë në përsëritje. Pastaj unë kërkova t’u vihej në dispozicion anëtarëve të Komisionit tonë dhe ata, në bazë të asaj që kanë marrë, të japin projektet e tyre apo kërkesat për ndryshime. Kështu mendoj, përderisa një gjë e tillë tashmë ka kaluar.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u3" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg4">Dakord, nuk kam asnjë problem, thjesht për të qenë të qartë që jemi kuptuar siç duhet, se ndryshe është ta lexosh dhe ndryshe ta kuptosh. Kjo mund të ndihmonte, por nuk ka asnjë problem, shkojmë direkt te komentet, nëse ka komente.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u4" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg5">Unë mendoj se e mjaftueshme ka qenë konsulta me lexim, edhe për të fituar kohë, pse jo.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg6">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u5" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg7">Dakord jam, le të vazhdojmë!</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg8">Atëherë, nëse dikush ka komente për agjendën dhe për planin e punës, është më se i mirëpritur.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg9">Zoti Mziu, fjala është për ju.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u6" ana="#regular" who="#AL_PERS_XhelalMziu">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg10">Përshëndetje, të nderuar kolegë!</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg11">E lexova programin dhe shoh disa gjëra të cilat bien ndesh. Të paktën edhe nga eksperienca ime si anëtar i komisionit të reformës territoriale, mbaj mend edhe në vitin 2014, pavarësisht se nuk u konkludua, edhe në vitet 2021-2022, përsëri u rrëzua apo u bë nul e gjithë ajo punë kolosale.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg12">Shoh se ka një gjë që nuk shkon. Është shtuar numri i ekspertëve, janë 18 ekspertë, pa llogaritur 5 të tjerët që janë në një kohë pak më makro, dhe është hartuar një program që në themel ka ekspertët.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg13">Absolutisht, në këndvështrimin tim, ekspertët vetëm servirin materialet dhe elementet e tjera që kërkohen. Komisioni është mjaftueshëm për të gjykuar jo vetëm politikisht, por edhe në aspektin profesional dhe në këtë kontekst ekspertët nuk janë primarë, por dytësorë dhe janë në shërbim të të dy kaheve të këtij Komisioni. Kjo do të thotë se nuk është parësore t’i lëmë ata të mbledhin informacione, sepse informacionet sot janë zyrtare. Ne mund t’u drejtohemi institucioneve të ndryshme të bashkive dhe të qeverisë, për të paraqitur se cilat kanë qenë dhe cilat janë faktet ose pritshmëritë dhe se si kanë shkuar tendencat. Ndërkohë ne, si Komision, duhet të kemi parësor ballafaqimin e fakteve të kësaj reforme 10-vjeçare, duke e krahasuar jo vetëm me të kaluarën, por edhe me standardin që duhet të ketë në të ardhmen, aq më tepër duke marrë si referencë vendet e Bashkimit Europian, ku ne tentojmë të aderojmë. Pra, qysh në raundin e parë unë e shoh të papërshtatshme që Komisioni, siç është rënë dakord për të qenë 2 herë në javë, të jetë në koherencë edhe për t’i kërkuar këto informacione, duke ua dërguar këtyre institucioneve dhe duke bërë ballafaqimin.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg14">Së dyti, përsëri për t’i paraprirë punës, sepse mund të vijë një moment që për efekt kohe, siç ka ndodhur edhe ne komisione të tjera, të lihen disa gjëra pa u bërë, duhet të përcaktojmë 2 ose 4 vende ku duhet të shkojmë, ne ose, më saktë, një përfaqësi e këtij Komisioni, për të parë se çfarë kanë atje. Për shembull, ne sot kemi Italinë apo Francën dhe mund të zgjedhim një nga këto të dyja, sepse besoj se janë liderë në Europë, por edhe në botë, sa i përket autonomisë vendore. Pra, për ta bërë edhe më të thjeshtë, të zgjidhet një nga këto të dyja, por kjo varet edhe nga ju.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg15">Gjithashtu, për të qenë më koherentë dhe më konkretë, kemi po prapë 2 vende të tjera të rajonit, siç është Kroacia, vend brenda Bashkimit Europian, dhe Maqedonia e Veriut, përsëri për të zgjedhur një nga këto të dyja. Pra, ose zgjedhim Italinë apo Francën, ose Kroacinë apo Maqedoninë e Veriut, sepse të katërta këto vende kanë histori suksesi sa u përket decentralizimit, autonomisë vendore dhe standardit ku ne kërkojmë të shkojmë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg16">Krahas kësaj, ne shohim që është një afat kohor aq i shkurtër sa më duket pak absurde, duke marrë në konsideratë edhe historikun e dy reformave të kaluara, sepse është i pamjaftueshëm.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg17">Ndërkohë, ne duhet të fillojmë me grupet e interesit. Pra, unë mendoj që të dyja palët të bien dakord për personat që do të ftohen, duke filluar nga kryetarët e bashkive, këshilltarët apo edhe përfaqësues nga institucionet qendrore që kanë lidhje me pushtetin vendor. Ne mund të dalim në terren vetëm për të parë dhe thjesht për t’i ilustruar gjërat.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg18">Ndërkohë, bashkitë mund të jenë disproporcionale. Pra, kemi disproporcion brenda vendit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg19">Nuk është e nevojshme t’i përmendim, por po jap vetëm një rast. Në Dibër janë 15 njësi vendore në një bashki, ndërkohë mesatarja në Shqipëri është 6. A nuk është një diskriminim ky? Gjithashtu, kanë qenë 65 bashki dhe 308 komuna deri në vitin 2015, ndërkohë akoma sot kemi 7 ish-qyteza, të cilat nuk kanë bashki, si Fushë-Kruja, Mamurrasi, Miloti, Velipoja, Shëngjini, Rubiku e të tjera, të cilat kanë qenë qytete dhe bashki. Me këtë dua të them se disproporcionaliteti në ndarjen territoriale ka ndikuar ndjeshëm në shpopullim, në mbylljen e shkollave, në mbylljen e qendrave shëndetësore, në rrënimin e bujqësisë dhe të shumë sektorëve të tjerë. Pra, ne mund të përqendrohemi te këto zona për të dalë në terren dhe për të parë se sa larg janë shërbimet, se sa disproporcion ka në bashki.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg20">Mund të ketë edhe gjëra të tjera nga kolegë të tjerë, por unë mendoj se kjo platformë nuk është normale, sepse anashkalon rolin e Komisionit. Duhet të krijojmë tabanin, duke grumbulluar informacionet zyrtare për të bërë krahasimin, ndërkohë duhet të kemi edhe standardin e Bashkimit Europian, ku ne duam të shkojmë, dhe pasi ta krijojmë këtë lloj terreni, të shkojmë aty ku duhet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg21">Ndërkohë, aty lexova edhe për rolin që merrte sekretari. Sekretari ka thjesht rolin e menaxhimit të letrave, janë bashkëkryetarët ata që e drejtojnë Komisionin. Sekretari është thjesht protokolluesi i materialeve.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg22">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u7" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg23">Faleminderit!</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg24">Paraprakisht, unë kam dy komente. Do ta vlerësoja shumë që, nëse ka sugjerime për të gjithë punën, ndoshta edhe në vijimësi, jemi shumë të gatshëm, unë dhe të gjithë të tjerët, t’i dëgjojmë të gjitha sugjerimet. Jam shumë dakord të shohim opsionin e një apo disa vizitave në vende të mundshme. Ta diskutojmë se cilat janë vendet. Nuk kam asnjë problem me opsionin që, qoftë në bashkëpunim me partnerët që kemi, qoftë edhe vetë, të organizojmë vizita për të kuptuar se si ka funksionuar në disa vende të tjera. Në këto kohë moderne ndoshta nuk do të na duhet të shkojmë fizikisht, mund të bëjmë edhe analiza të mënyrës se si funksionon pushteti vendor për më shumë se dy vende, pa shkuar atje fizikisht për të parë se si funksionon. Synimi im kryesor është që kur t’i shohim vendet, të jenë vende nga të cilat duhet të mësojmë. Nuk është se ne mësojmë shumë nga Maqedonia e Veriut, me të gjithë respektin.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg25">Sa u përket dy elementeve të tjera, nuk e kuptova se cili është propozimi për ekspertët, nëse nuk duam apo duam më pak. Është e sigurt që ata janë në varësi të Komisionit dhe do të punojnë për Komisionin.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg26">Ndërkohë, në lidhje me afatin, unë kam qenë...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg27">Cilën pikë të kompetencës, që ua kemi dhënë me agjendë, duam të lëvizim? Për shembull, të themi që te faqja 4 këtë rreshtin nuk e duam, ta ndërrojmë dhe të propozojmë të jetë ndryshe.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg28">Sa i përket afatit, edhe për publikun që na ndjek, është shumë e rëndësishme të kuptojmë që ne kemi ...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg29">E ka Komisioni, nuk e kanë ekspertët, prandaj doja ta bëja shpjegimin. Logjika kryesore e afatit është që ose të kapim dritaren e vitit 2027, ose kjo ngelet për vitin 2031. Mazhoranca e ka shprehur në mënyrë sistematike vullnetin që ne të kapim vitin 2027. Kapja e vitit 2027 kërkon që ne ta mbyllim reformën një vit përpara se të bëhen zgjedhjet e radhës. Pra, muaji korrik është një afat i diktuar nga data të cilat janë në fuqi përtej nesh. Ne ose e bëjmë këtë moment, ose nuk e bëjmë fare. Mazhoranca e ka shprehur në mënyrë sistematike vullnetin që ne duam ta bëjmë këtë gjë me këtë agjendë, prandaj ka ngulur këmbë të mos i humbnim ata dy muaj që humbëm kot, sepse tani mund të kishim bërë një pjesë të madhe të punës që do të fillojmë tani, si daljen në terren, diskutimin me ekspertët dhe me të gjithë njerëzit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg30">Ky është komenti im.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u8" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg31">Zoti Elezi, fjala është për ju.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u9" ana="#regular" who="#AL_PERS_ErmalElezi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg32">Unë po marr shkas nga shqetësimet e paraqitura nga zoti Mziu, por edhe për ta përmbledhur punën tonë. Unë mendoj se Komisionit në asnjë moment nuk i hiqet e drejta dhe mundësia për t’u thelluar ose për të kërkuar informacion. Jemi të bazuar në 2 nivele, nivel teknik dhe strategjik. Dua t’i mëshoj rëndësisë së ekspertëve, për shkak se na duhet një standard, një metodologji dhe një analizë performance mbi palët. Pastaj ne do ta kemi zërin tonë, por ta kemi sa më me ekspertizë. Mendoj se është shumë e shteruar pjesa e konsultimit, pasi kemi 3 raunde, nuk është se kemi dalë vetëm një herë, janë 3 raunde gjatë këtyre muajve me përparim dhe mund ta diskutojmë. E vetmja gjë me vlerë që unë shoh është se biem dakord për ndarjen e fushave, që janë territori, shërbimet, financa, nëse duam t’i shohim ndryshe. Unë këtë shoh se mund të na diferencojë, sepse këto janë kriteret më normale, më bazike, për të na garantuar një punë sa më objektive dhe të paanshme. Mendoj se për këtë duhet të biem të gjithë dakord.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u10" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg33">Faleminderit, zoti Elezi!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u11" ana="#regular" who="#AL_PERS_JoridaTabaku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg34">Faleminderit, zoti kryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg35">Unë kam dy propozime, edhe në vijim të asaj që thanë zoti Mziu dhe zoti Elezi. Detyrimi i këtij Komisioni sot është të miratojë projektkalendarin e punës, ndërkohë të gjitha dokumentet anekse që janë pjesë e këtij dokumenti do të kalojnë në këtë Komision me vendime të veçanta të Komisionit. Ju keni një vendim të veçantë për emërimin e ekspertëve dhe ne do të kalojmë një vendim të veçantë për termat e referencës. Kështu që, të mos nxitohemi ta kalojmë të gjithë dokumentin integral kështu siç është sot, por të kalojmë projektkalendarin dhe pastaj, fazë pas faze, sipas nevojës, në momentin kur t’i propozojmë Byrosë vendimin për ekspertët, të shohim termat e referencës. Për shembull, unë kisha disa shqetësime për punën e sekretarit. Parlamenti i ka të përcaktuara funksionet e sekretarit në komisionet e posaçme, ndërkohë ju këtu keni shkruar se përgatit rendin e ditës. Ai e propozon rendin e ditës dhe koordinon me bashkëkryetarët. Për komunikimin teknik, ai koordinon punën me sekretariatin teknik. Ju thoni që ai merr të gjitha materialet e sekretariatit teknik dhe raporton, në fakt ai koordinon punën mes tyre dhe dy bashkëkryetarëve. Duket sikur dy bashkëkryetarët janë lënë jashtë funksionit dhe këtu shqetësimi im është që zoti Boçi është i opozitës. Kështu që, ne duhet t’i referohemi Rregullores së Parlamentit për detyrat që ka sekretari dhe nuk ka pse të miratojmë një aneks këtu, kur ne kemi një Rregullore dhe e dimë se cilat janë detyrat e tij.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg36">Ndërkohë, sa u përket termave të referencës së ekspertëve, me çdo vendim të marrjes së ekspertëve ne do të kemi edhe terma reference.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg37">Kam dy propozime konkrete në lidhje me kalendarin. Së pari, po i referohem muajit shkurt të vitit 2026 që është aktualisht në përfundim, pikës 3 në projektkalendar, ne duhet të biem dakord për të pasur një analizë të paketës ligjore të nevojshme për ndryshime. Pra, duhet të identifikojmë ligjet bazë që do të ndryshojë ky Komision, duke e nisur nga ligjet për financat e qeverisjes vendore, për taksat kombëtare dhe ligje të tjera, të cilat besoj se do të jenë të nevojshme, si pjesë e bazës së punës sonë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg38">Në rastin e sondazhit publik kemi propozuar një ndryshim, të cilin do ta thotë edhe zoti Bozdo. Në përgjithësi, koha është shumë e ngushtë. Ky nuk është një diskutim nëse ne duam apo nuk duam, nëse do të kapim vitin 2027 apo vitin 2030. Të mos bëjmë populizëm dhe propagandë me njëri-tjetrin tani. A bëhet dot kjo detyrë brenda muajit shkurt? Nuk realizohet dot. A kryhet dot brenda muajit mars? Ne këtu jemi, këtë detyrë kemi, nuk kemi detyra të tjera. Jemi të angazhuar të kontribuojmë në këtë proces, por mendoj se kemi nevojë të lëmë hapësirën e duhur dhe për çështjen e ekspertëve t’i rishikojmë termat e referencës sipas funksioneve të tyre në momentin kur ne do t’i propozojmë Byrosë për t’i marrë ata.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg39">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u12" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg40">Jam dakord me pjesën e parë të propozimit që të shtojmë në pikën 3, si pjesë e raportit vlerësues, edhe një vlerësim tekniko-ligjor të ligjeve që kanë nevojë të preken.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg41">Ky është një sugjerim shumë i mirë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg42">Jam shumë i hapur që, nëse ka sugjerime, secilin prej hapave që kemi këtu ta axhustojmë në kohë, për sa kohë ia dalim të kapim objektivin që kemi. Ta dëgjojmë dhe ta diskutojmë, por kjo agjendë është ndërtuar duke ecur mbrapsht në kohë nga java e fundit të muajit korrik 2026, përpara se të mbyllet sesioni parlamentar, me qëllimin më të mirë të mundshëm që, në përputhje me sugjerimet e Komisionit të Venecias, që zakonisht reformat dhe iniciativat duhet të mbyllen një vit përpara zgjedhjeve (sugjerim është, por është sugjerim i dobishëm), ta mbyllim këtë në muajin korrik. Kemi ecur mbrapsht me afatet kohore që duhet, në mënyrë që të mbërrijmë në atë moment.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg43">Gjithashtu, të sigurohemi që me intensitet të madh pune (jam dakord me ju që agjenda është intensive) të arrijmë të nxjerrim produktet e ndërmjetme, duke kapur një nivel të qenësishëm bashkëbisedimi me të gjitha grupet e interesit. Kemi 3 faza të ndryshme të strukturuara të dëgjesave publike, njëra ndodh në terren, tjetra ndodh me ekspertët dhe tjetra pasi janë prodhuar aktet. Pra, kemi 3 momente të dëgjesave publike, por edhe të marrjes së opinionit nga njerëzit, përveç rastit të sondazhit apo të elementeve të tjera më të prekshme.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg44">Për të gjitha këto unë përsëri mbetem i hapur. Siç e thashë, ishte një sugjerim shumë i mirë ai. Afati është i shkurtër dhe, nëse sugjerohet një afat tjetër, jam shumë i gatshëm ta dëgjoj, për shembull ta bëjmë këtë deri në fund të muajit mars, këtë ta bëjmë edhe për 15 ditë më shumë, këtë edhe për 12 ditë më shumë, këtë 2 javë apo 3 javë më shumë. Jam shumë i gatshëm t’i dëgjoj sugjerimet, por mua më rezulton që nuk duhet të humbasim ditë. Pjesë e arsyes se pse ngulja këmbë për takime në muajt nëntor e dhjetor, pse ngulja këmbë ta miratonim atë ditë dhe të mos humbnim 4 ditë kohë për të parë një agjendë me një faqe ishte pikërisht sepse, kur e kalon agjendën, e kupton që kemi shumë punë përpara. Kemi shumë punë përpara dhe çdo ditë, çdo orë, është e vyer. Përsëri mbetem i hapur, nëse më thoni që ta bëjmë këtë edhe një javë më shumë. Nuk ka problem nëse fazën e parë të diskutimeve të mos e kemi në muajin shkurt, por ta kemi deri në javën e tretë të marsit.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u13" ana="#regular" who="#AL_PERS_KlevisJahaj">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg45">Përshëndetje të gjithëve!</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg46">Në fakt, unë nuk dua të zgjatem shumë, por realisht për të disatën herë në mbledhje themi se nuk kemi kohë. Mbledhjen e parë morëm kohë, pikërisht, për ta parë këtë material dhe për të thënë se këto 3-4 pika konkrete, si termat e referencës e të tjera, mendojmë të ndryshojnë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg47">Ndërkohë, po themi se duhet të marrim përsëri kohë. Besoj se të gjithë këtu e kemi kontrolluar atë proces dhe unë them ta kalojmë këtë kalendar që kemi. Ky kalendar nuk është i shkruar në gur, ne do ta shohim gjatë punës së Komisionit dhe, nëse do të ketë ndryshime në afate, patjetër mund të hiqen disa pika, mund të shtohen të tjera, por deri tani nuk kemi bërë as edhe një gram punë në lidhje me këtë proces. Më vjen shumë keq që vazhdojmë të njëjtat diskutime, kur sot mund të kalonim në miratimin e kalendarit, të diskutonim për hapin tjetër dhe për afatin. Në vazhdimësi, të arrijmë një produkt të caktuar me hapat që duhet të bëjmë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg48">Detyrat e ekspertëve janë të përcaktuara shumë qartë dhe nuk mbivendosen me asnjë nga detyrat që kanë anëtarët e Komisionit këtu, të cilat janë të përcaktuara jo vetëm në statusin e deputetit, por edhe në përshkrimin e punës së komisionit të posaçëm, siç është ai i reformës administrativo-territoriale. Unë besoj se të gjitha diskutimet që nuk bazohen te dokumenti, por janë të natyrës së përgjithshme, nuk i shërbejnë kohës së tanishme. Unë do t’ju propozoja të dy bashkëkryetarëve që ose të dalim me propozime konkrete për ndryshimet që duhet të bëjmë në material, siç ishte edhe ai i koleges Tabaku për të shtuar një pikë tjetër, ose të vazhdojmë me miratimin e këtyre dhe të përcaktojmë mbledhjen e radhës së Komisionit, për t’ia dërguar edhe Byrosë së Kuvendit, për të vazhduar me procedurat e marrjes së ekspertëve, të cilët do të ndihmojnë në punën e Komisionit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg49">Shumë faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u14" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg50">Zoti Bozdo.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u15" ana="#regular" who="#AL_PERS_EnnoBozdo">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg51">Faleminderit, zoti bashkëkryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg52">Dua të trajtoj dy çështje. Njëra ka lidhje drejtpërdrejt me kalendarin dhe tjetra ka lidhje me përqasjen tonë për sa i përket punës së këtij komisioni në vijim.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg53">Për sa u përket aktiviteteve të kalendarit, shoh që aktiviteti nr. 2 është caktimi i ekspertëve, aktiviteti nr. 3 është raporti vlerësues me gjetjet e RAT 1-shit dhe më pas vazhdon konsultimi dhe aktiviteti nr. 7 është zhvillimi i sondazhit publik.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg54">Besoj se të gjithë biem dakord edhe për ndershmëri të argumentit që sa më reale, sa më të afërta me realitetin, sa më të ndershme dhe sa më konkrete të jenë gjetjet, aq më shumë i shërbejnë punës së përbashkët të këtij komisioni dhe rritin vetëbesimin e palëve. Kështu që, në këtë pikë, do të propozoja, se më duket pak e çuditshme vendosja, që konsultimi nëpër qarqe, i cili është një proces shumë i rëndësishëm, të fillojë menjëherë. Bërja e një sondazhi publik, sipas qarqeve mundësisht, besoj me standardin më të mirë të mundshëm, por do të kemi mundësi ta diskutojmë këtë gjë, do t’u ofrojë materialin më të mirë ekspertëve tanë, për të përgatitur një raport për problematikën, gjetjet, sukseset, dështimet e RAT 1-shit. Nuk mendoj se kërkon kohë më shumë sesa një zhvendosje ose një paralelizim të të gjitha aktiviteteve, sepse mendimi im është që këta ekspertë, nëse marrin informacione nga konsultimet publike në terren dhe nëse marrin informacione nga sondazhet që bëjmë, i ndihmojnë shumë për të hartuar një raport sa më të balancuar. Unë kështu do ta dizenjoja për t’i dhënë edhe vlerë raportit, por edhe për t’i ndihmuar ekspertët, për të mbërritur në një raport, shpresojmë të përbashkët për situatën.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg55">Kjo është e para që do të desha ta theksoja.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg56">E dyta, ka lidhje me një çështje që prek punën e komisionit. Praktika parlamentare ka qenë gjithmonë që bashkë me miratimin e komisioneve të posaçme, ad hoc, të miratohet edhe një rezolutë, e cila në njëfarë mënyre përcakton linjat, kornizën e punës së komisionit, mënyrën se si palët ndërveprojnë me njëra-tjetrën dhe, mbi të gjitha, për transparencën e publikut.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg57">Do të propozoja qe ne të punojmë për një rezolutë të përbashkët, sepse kjo gjë nuk ka ndodhur; i detyrohemi vetes sonë, për të vendosur parimet e një pune, palëve të treta për të kuptuar në fund të ditës çfarë bën ky komision, si e bën, por në njëfarë mënyrë dhe bashkëpunimin tonë këtu e futim në disa shina. Ne kemi punuar për një variant që nuk është plotësisht i përfunduar, besoj se brenda 1-2 ditëve mund ta përfundojmë dhe, nëse bini dakord, të paktën në parim jua sjellim menjëherë që të jetë pjesë e punës së këtij komisioni në mbledhjen e ardhshme.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg58">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u16" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg59">Faleminderit, zoti Bozdo!</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg60">Kam 2 komente të shkurtra.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg61">Së pari, e vlerësoj edhe teknikisht sugjerimin.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg62">Po ju jap 2 sugjerime pse e kemi menduar dhe ku e vendosëm sondazhin, pra cila ka qenë logjika, duke qenë se e njoh pak edhe si fushë nga ana praktike. Vetëm përgatitja e fieldwork-ut nga ana procedurale dhe leximi i sondazhit do të na marrë ca kohë. Ne pas miratimit të agjendës që bëjmë sot, agjenda do të përkthehet në një sërë kërkesash ndaj Byrosë, një pjesë prej tyre janë agjenda që kanë nevojë për mbështetje financiare, të cilat duhet të kalojnë faza aprovimesh ose duhet të kalojë në faza fillimi nga ana praktike e punës. Kjo do të marrë të paktën 1 muaj, një muaj e pak, kohë të cilën nuk e kemi, pra që të presim, dhe nga ajo të ushqejmë diskutimet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg63">Nga ana tjetër, sondazhet nga logjika e tyre janë gjithmonë analiza të perceptimit publik mbi një gjë shumë të rëndësishme, prandaj është marrë që në momentin e parë si një sugjerim dhe është aty. Ndërkohë, në fazën e parë të diskutimit presupozohet që ne të shkojmë si komision bashkërisht, të ndarë në grupe pune, dhe të flasim me njerëzit, që kanë përgjegjësinë administrative për qeverisjen e këtij territori, qofshin të zgjedhurit vendorë, të të gjitha forcave politike, të këshilltarëve bashkiakë, qofshin ata që kanë detyra administrative, qoftë edhe stafet e bashkive, ata që janë njerëz teknikë, dhe të bisedojmë me ta për çështje, që kanë të bëjnë me mënyrën se çfarë ka shkuar mirë dhe çfarë jo nga ana operacionale e shërbimeve. Më pas mund ta bashkojmë shumë mirë këtë edhe me opinionin e njerëzve, që të shikojmë nëse ka divergjenca midis opinionit të njerëzve që e bëjnë punën dhe opinionit publik, në raport me gjënë dhe të shikojmë se si zgjidhet gjëja. Pikërisht për këtë arsye është vendosur para publikimit të dokumentit politik me opsione, kritere dhe vlerësime, sepse analizës teknike dhe diskutimi me njerëzit i bashkohet edhe opinioni publik dhe ne i mbledhim të tria burimet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg64">Burimi i parë janë të zgjedhurit vendorë, njerëzit që e kanë detyrë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg65">Burimi i dytë janë ekspertët, prandaj kemi fusha tematike gjatë muajit mars.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg66">Burimi i tretë është opinioni publik.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg67">Të tria rrymat e opinionit i mbledhim dhe i pasqyrojmë në dokumentin e dytë, që është dokumenti publik, dokumenti politik. Ky dokument në çdo rast i paraprin paketës ligjore. Por edhe për çështje fizike, kohe realizimi, nëse do të shkonim me atë opsion, do të thoshte që t’i linim disa gjëra pezull derisa të bëhet gati ky proces. Ky proces në çdo rast, sikur ta nisim sot, ne nuk e bëjmë dot fizikisht sondazhin para prill-majit, sepse koha e përgatitjes, përzgjedhja e ekspertëve, analiza e pyetësorit, pra hapat e procesit në vetvete marrin mjaftueshëm kohë që të mbërrijmë në atë fazë që të kemi produktin, rezultatin e sondazhit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg68">Një sondazh i bërë mirë, veçanërisht i bërë në 12 qarqe, siç e propozoni ju, është propozim shumë i mirë, por duhet parë pastaj çështja e kostove, që do të paktën 2-3 muaj kohë nga konceptimi, te fieldwork-u, te puna në terren, mbledhja e të dhënave, realizimi të dhënave, pasqyrimi i të dhënave dhe dhënia e rezultatit. Ky është një proces që pa 3 muaj ne nuk i dalim dot në krye, sepse është një proces teknik, ka afatet e veta. Kështu që, për këtë arsye, bashkërendimi i proceseve është gjëja më e mirë.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u17" ana="#regular" who="#AL_PERS_XhelalMziu">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg69">Vetëm nga komunikimi që bën bashkëkryetari, shikoj një diskordancë të jashtëzakonshme. Thuhet se kanë vendosur pikë fundore muajin korrik për të bërë reformën. Më kujtohet koha e Enverit, atëherë në zonën ku kam qenë unë thuhej: mbaroi shirja e grurit në muajin korrik. Në fakt, në shtëpinë time ishte akoma në gjelbërim, duheshin edhe nja 2 muaj për t’u korrur.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg70">Të njëjtën gjë po bëni edhe ju me reformën territoriale. Ju thoni: kemi vendosur korrikun dhe të ecim deri sa të bëjmë, që do të thotë se ju e keni paracaktuar.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u18" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg71">Do të ma shpjegosh pse është për procedurë, se nuk e kuptova?</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u19" ana="#regular" who="#AL_PERS_XhelalMziu">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg72">Procedurë është kjo, nuk është procedurë?</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u20" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg73">Jo, fare. Ky është vazhdim i diskutimit që bëmë më parë. Vetëm procedurë nuk është kjo.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u21" ana="#regular" who="#AL_PERS_XhelalMziu">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg74">Për të shkuar aty ku tha zoti Bozdo.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u22" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg75">Nuk ka asnjë rregull parlamentarizmi që këtë ta quajmë procedurë.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u23" ana="#regular" who="#AL_PERS_XhelalMziu">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg76">Zotëri, a ta mbyll unë?</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u24" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg77">Ta mbyllësh, por, nëse kërkon fjalën për procedurë, të flasim për procedurë.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u25" ana="#regular" who="#AL_PERS_XhelalMziu">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg78">Fiks për procedurën po flas.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg79">Zoti Bozdo kërkoi me të drejtë që të bëhet një sondazh dhe ju thatë që sondazhi do minimalisht 3-4 muaj, tani cili është më i rëndësishëm dhe do më shumë kohë, një sondazh apo një reformë, një reformë që ka dështuar në këta 10 vjet dhe që doni të bëni një reformë që po përsëri pas një muaji të dështojë?! Kjo është procedura që edhe ju duhet ta kuptoni, se bëni autogol: një herë thoni sondazhi kërkon minimalisht 3 muaj për ta bërë, si një element që i shërben reformës, ndërkohë thua që duhet ta mbyllim reformën brenda muajit, nga marsi, se erdhi marsi, deri në datën 30 qershor, që do të thotë 4 muaj, pra ne ta mbyllim reformën me 4 muaj, ndërkohë sondazhi zgjatka 3 muaj. Kjo është absurde ose e keni paracaktuar reformën, ose nuk keni bonsensin për të krijuar një reformë që është koherente edhe me Bashkimin Europian dhe me problematikat që ka krijuar sot në Shqipëri. Shqipëria është zbrazur për shkak të reformës territoriale; ke toka pafund djerrë; ka shërbime...</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u26" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg80">Të lutem, se e kërkove fjalën për procedurë!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u27" ana="#regular" who="#AL_PERS_XhelalMziu">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg81">Mos bëj rolin e zhurmuesit tani, se nuk të ka lezet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg82">Kështu që, propozoj të mos merremi me këtë, se ju duket si Bibla, por ju nuk respektoni Kushtetutën kur është për ta zbatuar, jo të zbatojmë tani një gjë që rrezik e keni bërë me ChatGPT dhe na thoni se çfarë duhet të bëjmë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg83">Pra, të krijojmë terrenin, të marrim modelin e vendeve të tjera, të grumbullojmë të dhënat, që kanë qenë deri në vitin 2015 për 373 njësitë, të shikojmë dhe cila ka qenë kauza që u bë atëherë reforma, të shikojmë edhe standardin që është krijuar sot pas 10 vjetësh, ndërkohë që këto problematika që ne i konstatojmë, t’i zgjidhim nëpërmjet një reforme.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u28" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg84">Zoti Mziu, dy fjalë shkurt.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u29" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg85">Jo për çdo gjë sqarim.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg86">A ta marr dhe unë fjalën tani?!</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u30" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg87">Nuk ka problem, thelbi është që adresoi një dokument pune që e kemi propozuar ne. Mendoj që, në respekt të parafolësit...</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u31" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg88">Jo për çdo folës një kundërpërgjigje.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg89">Meqenëse ka një debat për çështjen e kohës, se u hodh insinuata këtu që ka një grup, që jemi ne, që duam ta sabotojmë çështjen e reformës, shtrirjen e saj në kohë, ne kërkojmë kohë më shumë, ndërkohë që koha qenka e përcaktuar edhe me një vendim Parlamenti! Pra, ne jemi brenda një këmishe force që duhet patjetër ta heqim atë në kohën që na e kanë përcaktuar të tjerët.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg90">Të lutem, se nuk të ndërhyra fare, kur fole!</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg91">Unë dëgjova edhe këtë tjetrën: të ecim dhe, nëse kërkohen ndryshime, t’i bëjmë gjatë rrugës, por, nëse i votojmë sot ne, na del ti e na thua: i kemi votuar njëherë. A e kuptoni se çfarë logjike përdoret në këtë rast?! Nuk funksionon kjo lloj mënyre, prandaj kërkojmë arsyetim dhe, kur t’i marrim vendimet, t’i marrim të pjekura.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg92">Pra, nuk ka një tendencë nga ana jonë për të sabotuar në kohë, por tendenca jonë është shumë e saktë, shumë e qartë që produkti, i cili duhet të dalë nga ky komision, t’i ngjasojë produktit të një reforme, e cila impakton pushtetin lokal për 30-40 vjetët e ardhshëm dhe jo t’i rikthehemi pas 10 vjetëve, siç ndodhi me reformën e vitit 2015.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg93">Referencat europiane, Komisioni i Venecia përcaktuaka që koha e mbarimit të një reforme duhet të jetë kaq muaj para zgjedhjeve lokale, por edhe standardet e Bashkimit Europian në raport me reformat territoriale apo Kongresi i Autoriteteve Vendore përcaktojnë disa afate logjike: kur kemi rastin e rishikimit të hartave, duhen të paktën 12 muaj që të jetë diçka serioze. Shqipëria mund të duket e vogël, por ka një problem shumë të madh për hartimin. Nëse hyjmë në kompetenca, në problemet e analizave të tjera, duhen 24 muaj. Po flasim për standardet e BE-së, pra të mos i përdorim kur duam ne dhe, kur nuk duam, nuk i përdorim. Ky është realiteti kohor, por ne kemi angazhimin që të punojmë patjetër, pa u vendosur në këtë këmishë force dhe duke bërë gjithçka që reforma të jetë një konsultim i gjerë me të gjithë aktorët dhe me të gjithë faktorët, e shoqëruar pastaj me analizat dhe punën e ekspertëve.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg94">Në projektkalendar është parashikuar të bëhen dëgjesa, që konsiderohen kryesisht publike, me kryetarët e bashkive apo me këshillat bashkiakë, publike për nga forma, por ajo që po kërkojmë ne, që zoti Mziu e sqaroi shumë qartë, është që na duhen edhe seanca dëgjimore të parashikuara në projektkalendar me popullsinë e atyre territoreve, që shprehin kërkesën, për të krijuar një hartë të re territoriale. Kjo është krejt e domosdoshme; nuk mjafton vetëm sondazhi, nuk e plotëson sondazhi një gjë të tillë; nuk e zëvendëson fare dëgjesën. Nga përvoja juaj, por edhe nga përvoja jonë, dëgjesat më efektive nuk janë dëgjesa me disa zyrtarë, por janë dëgjesa që bëhen me publikun. Pra, janë dëgjesa publike me publikun, që të jemi shumë të saktë. Propozimi ynë është që t’i shtojmë dhe t’i vendosim në projektkalendar pikërisht këto dëgjesa, për ta ndryshuar projektkalendarin.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg95">Ndërkohë, një propozim tjetër real, konkret në lidhje me mënyrën e organizimit të dëgjesave: nuk mund të jenë bashkitë vetë ato që i organizojnë dëgjesat, sepse në shumicën e tyre, patjetër, janë në konflikt interesi. Mendoj se duhet të krijojmë një sekretariat teknik të pavarur, që organizon dëgjesat në qarqet apo në bashkitë kryesore të vendit apo qoftë edhe me publikun, sipas kërkesës sonë. Nëse ua lëmë në dorë bashkive, kjo nuk do të na çojë në konkluzione reale, konkrete, objektive, sepse bashkitë në shumicën e tyre dominohen politikisht nga mazhoranca. Për ta shmangur këtë gjë, meqenëse komisioni ynë është në paritet, duhet një sekretariat teknik dhe krejt i pavarur që merret me organizimin e këtyre dëgjesave. Kjo është një kërkesë reale, konkrete e kërkuar nga ne.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg96">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u32" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg97">Ka një koment praktik që është i vyeshëm. Nuk kemi thënë asnjëherë që dëgjesat të organizohen nga bashkitë, pra dëgjesat do organizohen nga ekspertët respektivë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg98">Prandaj, doja ta bëja shpjegimin. Logjika është që ne kemi një grup, i cili, praktikisht, duhet të përbëhet nga 6 anëtarë të komisionit, të cilit i bashkëngjiten 3-4 ekspertë, që vijnë nga grupi i ekspertëve që do të caktojmë. Ata do të jenë përgjegjës për organizimin e dëgjesave; sekretaria teknike e komisionit janë ekspertët. Ata do të jenë dhe sekretariati teknik, por do të bëjnë edhe pjesën e organizimit. E vetmja gjë që mund t’u kërkojmë bashkive, është që të na facilitojnë vendin ku bëhet takimi, pra të na thonë që do ta bëjmë në qytet te salla e këshillit bashkiak apo në një sallë tjetër, ku është e dobishme, për çështje logjistike. Organizimi i dëgjesave nuk bëhet nga bashkitë, por bëhet nga komisioni dhe nga ekspertët e komisionit. Mund të facilitojmë vetëm logjistikën.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg99">Besoj se është normale që, nëse ne shkojmë në Shkodër apo në Vlorë, ta bëjmë takimin në një vend që të jetë përfaqësues edhe për qytetin, thjesht nga ana teknike e sallës. Kjo është gjëja. Bën sens që të organizohet nga ekspertët, jam dakord me këtë.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u33" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg100">Po, zonja Bylykbashi, fjala për ju.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u34" ana="#regular" who="#AL_PERS_AulonaBylykbashi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg101">Faleminderit, bashkëkryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg102">Në fakt, të gjitha pretendimet që po ngremë në raport me projektkalendarin e punës, besoj se adresohen nga ky projektkalendar, sepse ne po flasim këtu për mbledhje të të dhënave dhe për analizën në raportin se si janë gjetjet e RAT 1 -shit. Pa dyshim që, përveçse komisioni nuk është i përjashtuar nga mënyra se si është konceptuar projektkalendari, kjo është një punë që do ta bëjnë ekspertët, sepse të gjitha ato që referon kolegu Mziu që duhet t’u drejtohemi bashkive, institucioneve që të mbledhim të dhënat, kjo është një punë që e bëjnë ekspertët. Pa dyshim, ne kemi pastaj konkluzionet përfundimtare si komision.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg103">Në këtë projektkalendar adresohet po aq edhe pjesa e konsultimeve dhe dëgjesave publike, që jo vetëm përfshijnë aktorët kryesorë të institucioneve, siç janë bashkitë dhe qarqet nga të cilat ne mund të marrim feedback-un më të mirë, se cilat janë fushat ku ka shkuar mirë reforma territoriale e miratuar dhe që kanë nevojë për t’u rishikuar, por, njëkohësisht, janë të përfshira edhe dëgjesat me grupet e interesit. Edhe nga afatet duket qartë se ne mund të punojmë paralelisht në të njëjtat afate. Nga njëra anë ekspertët mbledhin të dhënat, nga ana tjetër ne vazhdojmë me dëgjesat publike. Në të njëjtën kohë, do të jenë gati edhe sondazhet publike.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg104">Në raport me kërkesën për dëgjesën e qytetarëve, ata janë aktorët më të rëndësishëm në këtë proces, që do të japin feedback-un e tyre, por unë nuk e shikoj se si mund të marrim një feedback qytetarësh, duke bërë dëgjesa me një grup të kufizuar qytetarësh që nuk e di a mund të përfaqësojnë opinionin e tërësisë. Ne mund të bëjmë dëgjesa në një mbledhje me, po themi me 50-60, 100, por është e pamundur t’i dëgjosh të gjithë në një vend. Nuk e di se sa opinioni i këtyre 50-60 apo edhe 100 qytetarëve, që është pamundur t’i dëgjosh në një takim, shpreh opinionin e të gjithë qytetarëve të zonës, ku ne do t’i takojmë. Kështu që, më mirë sesa sondazhet për të shprehur një opinion të qytetarëve, nuk mendoj se ka një mjet tjetër.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg105">Ndërkohë që flasim për afate, pa dyshim që çdo komision dhe çdo nismë e ndërmarrë duhet të ketë një afat përfundimtar, i cili përcakton deadline dhe na bën të kemi një agjendë të punës së mirëpërcaktuar dhe ne flasim për kohën që na ngushton, ndërkohë që e ngushtojmë kohën vet, duke ngritur çdoherë një pretendim. Ja ku jemi përsëri në një mbledhje të radhës, ku duhej të vazhdonim me procesin normal të punës, por vazhdojmë e ngremë pretendime, të cilat janë realisht të pasqyruara tërësisht në këtë projektkalendar pune.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg106">Flasim për rezoluta. Sot del një mekanizëm i ri i ngritur nga kolegu Bozdo. Rezolutë për të shprehur çfarë?! Sepse, zakonisht, edhe në eksperiencat e mëparshme, rezolutat miratohen për të mbajtur një qëndrim politik. Ne jemi një komision, i cili ka për qëllim të bëjë punën përgatitore, analiza, të shqyrtojë dokumentet, të kryejë dëgjesa, por akoma nuk kemi miratuar këtë, ndërkohë ngremë pretendime për mekanizma të tjerë. Për të bërë çfarë, për të shtyrë kohën dhe për të mos pasur mirëfunksionim apo për të mos pasur një fillim pune të këtij komisioni?</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg107">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u35" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg108">Faleminderit!</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg109">Së pari, nuk jemi këtu për të ngritur pretendime, sepse jemi të barabartë dhe secili nga ne përcjell këtu përvojën, mendimin, formimin e vet, qëllimin dhe dëshirën e vet për të pasur një reformë efikase që zgjat shumë dhe që ka një rezultat të pranueshëm jo vetëm brenda politikës, por edhe përtej saj. Nuk jemi për të ngritur kartonin, se na keni marrë këtu dhe na keni paraqitur këtë dhe ne patjetër që duhet të jemi dakord, pra mos u emociononi fare me kundërshtitë tona. Nuk janë pretendime, por janë mendime për të rregulluar punën dhe efikasitetin e komisionit. Kjo qasje duhet të ndryshojë totalisht. Këtu jemi të barabartë, ndaj edhe komisioni është në paritet dhe secili nga ne ka të drejtë t’i paraqesë dhe ne duhet t’i axhustojmë. Ne nuk po themi që planin që keni vendosur ju, duam ta thyejmë për t’ju sabotuar, por themi që janë disa afate, të cilat duhet t’i lëmë relative, me dëshirën për të ecur dhe për t’i marrë në konsideratë edhe kërkesat tona. Pse të mos bëjmë dëgjesa me publikun? Të mos ngelemi vetëm në telefon. Ka njerëz të zonave të caktuara shumë të interesuar, madje kam kontaktuar, për shembull: banorët e krahinës së Mirditës do të na dërgojnë thirrje që të bëjmë një dëgjesë publike me banorët e zonës për çështjen e hartës territoriale dhe, normalisht, komisioni ynë do t’u përgjigjet. Pra, nuk mund të ngelemi në shabllone, por do të kemi kërkesa që vijnë nga komunitete dhe krahina të caktuara për ndarjen territoriale, se janë shumë të interesuar. Mos e mendoni që do të kalojë me një shpejtësi reaktive dhe në fund fare patjetër që do të dalë ai rezultat që është paravendosur, jo fare. Ne duhet ta marrim me qetësinë për të pasur konkludim dhe jo me nxitimin për të plotësuar kohën. Nëse jemi këtu për të arritur kohën, ne jemi zhvendosur nga qëllimi! Nuk jam këtu për të arritur korrikun, pra jam nisur, po turrem dhe aty është finish-i duhet ta pres, por finish-i ynë është të bëjmë një reformë shumë të mirë që reziston për 30 apo 40 vjet. Nëse e arrijmë në korrik, shumë mirë, sepse është shpejtësi shumë e madhe; e arrijmë në një afat, por duke përmbushur të gjitha qëllimet, objektivat dhe mënyrat se si duhet të ecë ky komision, shumë mirë edhe kjo, pra pa paragjykime për gjërat që kërkojmë dhe themi.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg110">Dakord. Po si e tha ai, e bëra një koment, me idenë që na lejohet, por ne nuk po e bëjmë me ndërgjegje, për të dërguar këtë mesazh.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg111">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u36" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg112">Fjala për zotin Bozdo, më pas zoti Likaj.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u37" ana="#regular" who="#AL_PERS_EnnoBozdo">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg113">Zoti Mazniku, nuk dua të hyj fare në debate, aq më tepër të personalizuara, por, nëse këtu paragjykohet çdo kërkesë nga ana e kolegëve tanë si pretendim, nuk jemi kurrkund me diskutimet që jemi duke bërë. Unë bëra propozime konkrete për çështje të kalendarit, duke theksuar faktin që mund të ndodhin gjërat në mënyrë të njëkohshme, që të mos humbim as kohë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg114">Ky nuk është pretendim, por një propozim konkret. Rezoluta nuk është pretendim, por një propozim konkret. Unë mund të përdor gjuhën tuaj dhe të them: a ka pretendim më të madh të thuash se kjo reformë do të mbyllet patjetër brenda korrikut?! Ky është pretendim, ta mbyllësh reformën brenda korrikut, pa marrë parasysh asgjë.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg115">Nuk dua ta fus në këtë linjë, se po mundohemi të prodhojmë diçka, ndaj duhet të jemi të kujdesshëm kur dëgjojmë dhe bëjmë komente. Komentet e mia nuk ishin politike. Me gjuhë politike flas ndryshe, nuk ju përgjigjem fare juve, por komentet e mia janë për të mirën e punës.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg116">Zoti Mazniku, e kuptoj shqetësimin tuaj për sa i përket çështjes së kalendarit dhe vështirësisë që do të kërkojë, por kemi një problem, siç është shkruar pika 3 e aktivitetit “Raport vlerësues, dokument mbi gjetjet e Rat 1, analiza e sfidave vendore dhe parimet e Rat 2”. Një grup ekspertësh që e bën këtë gjë ex-cathedra, pa marrë parasysh as konsultimet dhe gjetjet në terren (pra, do të jenë të ndryshme problematikat që do të dalin, të jeni të sigurt për këtë dhe pa marrë parasysh sondazhin, sepse është e vërtetë që sondazhi është perceptim, por për perceptimet jam duke folur) këtë produkt mund ta quajmë çfarë të duash, por mungesa e këtyre nuk prodhon as raport vlerësues për Rat 1 dhe as kornizë për Rat 2, në dijeninë time. Të gjitha këto gjetje do t’ua themi donatorëve.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg117">Pyetja ime është, se nuk dua t’ju marr më shumë kohë, ekspertiza ndërkombëtare, veçanërisht e autoriteteve që merren me pushtetin vendor, me decentralizimin, që BE-ja i ka të pafund, nëse nuk gaboj, ka 2 apo 3, a është e programuar dhe në cilën fazë do të tentohet të na jepet? Personalisht, nëse do të ishte zgjedhja ime, te grupi i ekspertëve, që fillojnë përpjekjet për të hartuar gjetjet, raporte e tjera, të përfshihen sa më shpejt edhe ekspertët ndërkombëtarë. Pse e them këtë?! Përfshirja e tyre direkt jo vetëm rrit cilësinë për gjetjet e tyre, por edhe orientimin, që besoj se është shumë i rëndësishëm për një reformë territoriale dhe administrative që i përgjigjet edhe sfidës së integrimit të shpejtë në Bashkimin Europian.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u38" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg118">Zoti Bozdo, po i përgjigjem pyetjes së dytë, më pas pyetjes së parë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg119">Me dhimbjen e faktit që më duhet ta përsëris veten disa herë, arsyeja që kam ngulur këmbë jo vetëm këtu, por në çdo ekran të mundshëm, që të fillonte puna e këtij komisioni, lidhet ekzaktësisht me këtë kërkesë. Kam marrë në mënyrë informale kontakte me një pjesë të rëndësishme të kancelarive, që punojnë këtu dhe punojnë në pushtetin vendor, qoftë në Bashkimin Europian, qoftë me Ambasadën Zvicerane, qoftë me Ambasadën Suedeze, që kanë projekte me Bashkimin Europian, por secilit prej tyre i kam thënë: me fillimin e punës së komisionit së bashku me bashkëkryetarin do të zhvillojmë një takim dypalësh, në respekt të atij vendimi që u mor që ky të jetë një element me bashkëkryesi. Me fillimin e punës së komisionit, me fillimin e miratimit të planit të punës, një nga punët e të dy bashkëkryetarëve është të marrim kontakt me secilin prej tyre, që ata ta planifikojnë mbështetjen. Në parim ata e kanë shprehur që në muajin nëntor gatishmërinë e tyre potenciale, por kemi qëndruar edhe në raport me ta në pauzë për sa i përket faktit që të fillonim formalisht.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg120">Një nga faqet e dokumentit është një kërkesë që ne i nisim secilit prej tyre formalisht, të firmosur nga dy bashkëkryetarët, në mënyrë që të jemi formalë me ta. Hapi i mbetur ishte që të miratonim planin e punës dhe një nga detyrat e planit të punës është që zoti Boçi dhe unë mundësisht që nesër të çojmë 10 letra dhe 10 kërkesa për takim, më pas të vendosim një seri kërkesash në agjendë, t’i themi secilit prej tyre se kjo është kërkesa që kemi dhe të shikojmë se sa prej tyre do të na thonë po dhe sa jo. Një diskutim parimor joformal e kam bërë me ta dhe ka gatishmëri, por gatishmëria do të varet nga një bisedë praktike edhe nga kërkesa jonë praktike.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg121">Pra, kanë thënë: çfarë doni nga ne? Nuk e kam pasur autorizimin t’u kërkoj në mënyrë praktike se çfarë kërkojmë, sepse duhet të binim dakord me bashkëkryetarin dhe me komisionin. Por, me këtë agjendë përpara, ne kemi mundësi t’u themi: na duhet sondazhi, na duhet ndihmë në logjistikë, në dëgjesat publike, na duhen edhe 5 ekspertë ekstra; a na ndihmoni dot? A na ndihmoni dot me kërkesën e zotit Mziu për të organizuar 2 apo 3 vizita ndërkombëtare, për të parë se si funksionon në vende të caktuara? Na duhen 2 ekspertë të huaj që të vijnë vetëm për financat vendore, sepse është çështje specifike.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg122">Ndërkohë, për sa i përket çështjes së parë, që u përmend nga 3 folës deri tani, për ta mbyllur studimin në atë fazë, po, është e mundur të realizojmë një reformë shumë të mirë dhe brenda afateve që bëjnë sens. Çështja e vetme që diskutohet është: a e kemi gatishmërinë e të gjithë anëtarëve (të paktën, flas për këtë pjesë të komisionit) për të vendosur, për kohën, energjinë, vëmendjen, takimet, pra që të mos shtyjmë diskutimet? Jam i gatshëm ta kalojmë me radhë këtë agjendë dhe, në qoftë se ka diskutime për një pikë, të themi, për shembull: mendoj se kjo pika duhet, apo nuk duhet, më shumë sesa të diskutojmë çështjen në parim. Po të ndjekim këtë agjendë dhe t’i qëndrojmë, është e mundur të arrijmë një produkt të mirë dhe në kohën e duhur, se, jo 6 muaj, por rrezikojmë t’i humbasim vendit 10 vjet, besomëni për këtë, jua them jo për një reformë, por për miliona njerëz që kanë nevojë për shërbime nga pushteti vendor.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u39" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg123">Zonja Kuko, fjala për ju.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u40" ana="#regular" who="#AL_PERS_RominaKuko">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg124">Faleminderit, zoti bashkëkryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg125">Për fat të keq, mendoj se deri tani po e mikromenaxhojmë procesin, sepse jemi duke folur akoma për formën. Mendoj se duhet të futemi në substancë dhe e mbështes tërësisht atë që tha zoti Bozdo për pjesën e integrimit europian. Dua t’ju rikujtoj se 70% e legjislacionit kombëtar zbatohet në nivel vendor. Kjo do të thotë se kemi një punë kolosale përpara për analizat, minimalisht, ligjore.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg126">Nga ana tjetër, kjo reformë përkon me Kapitullin 22 të acquis communaitaire, që ka të bëjë me pjesën e kohezionit dhe të fondeve strukturore. Në njëfarë mënyre, duhet t’ua themi edhe qytetarëve se, nga kjo reformë dhe se sa e suksesshme do të jetë ajo, do të varet se sa aftësi do të ketë Shqipëria për të përthithur fonde strukturore për t’u zhvilluar në territor. Kështu që, të nderuar bashkëkryetarë, do të sugjeroja që të bënim një komunikim edhe me DG REGION në Komisionin Europian, e cila është drejtoria që merret me pjesën e pushtetit vendor dhe me rajonet, sepse është e rëndësishme të linjëzojmë në tandem pjesën e legjislacionit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg127">Sa u përket ekspertëve, mendoj se nuk kemi nevojë për 18, por për 80, 100, kemi nevojë për të gjitha universitetet, si dhe për juristët dhe ekonomistët më të mirë, sepse këtu po flasim për analizë funksionesh, për financa vendore, për legjislacion dhe, në fund të ditës, për jetën e qytetarëve. Kështu që është shumë e rëndësishme (siç e thashë edhe më lart, jemi duke e mikromenaxhuar) të fillojmë nga puna dhe të kapemi me substancën e gjësë, sepse kjo reformë ka të bëjë me jetën e përditshme të qytetarëve. Siç tha edhe Henry Ford: “Nganjëherë njerëzit më kërkonin karroca më të shpejta, por unë u dhashë makinë”, ndoshta duhet të mendojmë pak më para sesa vetëm kërkesat që mund të kenë qytetarët, por të bëjmë një amalgamë analizash, në mënyrë që të kemi një reformë territoriale, e cila, siç e thatë edhe ju, zoti Mazniku, u jep njerëzve shërbime në territor dhe krijon kohezionin për të cilin Shqipëria ka nevojë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg128">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u41" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg129">Zoti Likaj, fjala për ju.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u42" ana="#regular" who="#AL_PERS_RamadanLikaj">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg130">Faleminderit, bashkëkryetar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg131">Mendoj se te kalendari i punimeve, për t’iu shmangur sa më shumë keqkuptimit dhe t’i japim të drejtën këtij komisioni që të ecë përpara, te dëgjesat të bëjmë një ndryshim, duke pasur edhe përvojën e tillë. Në qoftë se do të marrim në dëgjesë, mendoj se kryetarët e bashkive aktuale, 4, 5 si ta mendoni ju nga mazhoranca, por edhe ne si opozitë të dakordësohemi në parim që 4 ose 5 ish-kryetarë bashkish, si dhe ekspertët e tyre t’i thërrasim të japin mendimet e tyre dhe t’i vazhdojmë dëgjesat me qytetarët në mënyrë të pavarur nga bashkitë. Ky është propozim, i cili mendoj se i vlen këtij komisioni, bëhet sa më transparent dhe gjykoj se është gjëja më pozitive.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg132">Në lidhje me kalendarin e punimeve, e kemi parë dhe mendoj që të miratohet me faza, sepse nuk kemi gjëra të ngutshme. Në qofte se kanë dëshirë të dyja palët, sigurisht që do t’u ofrojmë shqiptarëve një reformë të mirë territoriale, por duke pasur parasysh që nuk ka gjë me nxitim, edhe nëse shtyhet 1 muaj më vonë. Mendoj se kjo i vlen gjithsecilit prej nesh. E kemi thënë edhe herë të tjera që kjo reformë dihet se ka dështuar, por, kur të kalojmë në gjëra konkrete, besoj se gjithsecili nga anëtarët e komisionit do ta thotë fjalën e tij dhe me një konsensus të pastër real mendoj se shqiptarëve ua ofrojmë atë reformë që u vlen jo për 10, 15 apo 20 vjet, por për shumë gjatë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg133">Shpresoj që të bëhet ky ndryshim dhe të përfshihet në kalendarin e punimeve.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg134">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u43" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg135">Fjala për zotin Klosi.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg136">Duke e respektuar njëri-tjetrin në radhë, zoti Klosi.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u44" ana="#regular" who="#AL_PERS_BlendiKlosi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg137">Zoti Nallbati e ka ngritur problemin kohë më parë, ndaj shpresoj shumë që të mos kemi qëndrime të krahut politik që i përkasim. Ne vijmë si përfaqësues të forcave tona politike, por besoj në këtë reformë duhet të arrijmë në konsensusin që jemi së bashku për të bërë më të mirën e mundshme që na takon që të analizojmë situatën, t’i kuptojmë problematikat, të propozojmë zgjidhje për problematika të caktuara që ka sot pushteti vendor.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg138">E thashë edhe në mbledhjen e kaluar: ne kemi fatin, ndoshta momentin historik, që të prodhojmë për politikën shqiptare një punë të përbashkët, ku Shqipëria të jetë pjesë e Bashkimit Europian, më pas të kthehet në normë, sepse për gjërat që kanë rëndësi për vendin besoj se ka pak vend për debat politik. Por kam frikë se, pa hequr vellon politike, ne do ta kemi të vështirë të gjejmë gjuhën për të ecur para. Edhe nga diskutimi i sotëm, pavarësisht se i kuptoj të gjithë kolegët që marrin fjalën, ka një fije mosbesimi që lidh bisedën dhe, për ta hequr frikën e mosbesimit tonë, fillojmë e gjejmë mekanizma i pengojnë gjërat.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg139">Mendoj se duhet t’ia themi shumë qartë njëri-tjetrit dhe opinionit publik se, së pari, nuk jemi në këtë proces se reforma e 2015 ka dështuar, përkundrazi jemi në këtë proces pasi reforma e vitit 2015 ka qenë e jashtëzakonshme, ka çuar përpara një hov cilësor të detyrave kryesore, sepse nuk është numri kryesori, por shërbimet karshi qytetarëve janë krejt tjetër. Ju kolegë, që sot jeni përballë meje, që më parë keni qenë kryetarë bashkie dhe keni qenë përballë opinionit publik, e kuptoni se sa forcë ka pasur Bashkia e Kamzës që t’u shërbejë zonave që më parë kanë qenë komuna të vogla apo Bashkia e Devollit, e cila u shërben 6 komunave që kanë përbërë Devollin, se sa mundësi kanë dhe sa shërbime kanë marrë. Po përmend këto dy bashki, sepse e di që dy kryetarët e bashkive kanë shërbyer për njerëzit. Kjo është arsyeja pse janë sot deputetë, sepse partia ju ka vlerësuar si funksionarë që keni mbështetje popullore.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg140">Pra, ne jemi këtu, sepse reforma e vitit 2015 e ka çuar gjënë përpara, por në një diskutim 10-vjeçar, pa dyshim që kemi momente që duhet t’i diskutojmë dhe këtu thelbi nuk është numri i bashkive, nëse do të jetë më shumë apo më pak, por problem këtu janë funksionet që ne duhet të kemi për diskutim. Si përfaqësues të forcave politike, por edhe eksperienca që kemi në terren dhe në komunikim me qytetarët ne duhet t’i hapim rrugë procesit, por, nëse e mbarsim veten me fillin e mosbesimit, besoj se i kemi dëmtuar këtë tavolinë dhe këtë proces, i cili është shumë delikat.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg141">Pra, është shumë delikate të thuash që sot Parlamenti shqiptar prodhon një produkt konsensual europian. Ditën e enjte nuk do ta kemi këtë harmoni me njëri-tjetrin, por do të jemi komplet në shkallë tjetër adrenaline.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg142">Së dyti, afatin e korrikut nuk ia kemi vënë vetes për të bërë një reformë. Ne jemi komision i posaçëm parlamentar, pra kemi një detyrë, e cila është thellimi i reformës administrative të pushtetit vendor, që nuk janë vetëm kufijtë, por janë edhe kompetencat, janë detyrat, është decentralizmi i pushtetit vendor dhe afati është i përcaktuar, nëse duam që këta mekanizma, që ne ngremë në diskutim, të jenë të vlefshëm në garën e vitit 2027. Ne e kemi këtë afat, kemi një nga reformat që ua kemi premtuar qytetarëve, jo se duam ne, por faktikisht dhe fatkeqësisht vendimi për krijimin e komisionit tonë ka qenë në mes të nëntorit dhe jemi pothuajse në mes të muajit shkurt, pra një periudhe jo e vogël kohe për ta mbajtur me diskutime. Muaji korrik është nëse bëhet apo nuk bëhet dhe jo se e vendosim apo duam ne. Edhe pse i kemi bërë këto 3 apo 4 mbledhje me frymën konsensuale, akoma jemi në fazën e fillit të mosbesimit karshi njëri-tjetrit. Mendoj se duhet ti japim besim njëri-tjetrit dhe, pa dyshim, kemi opinionet tona politike, por në këtë pjesë besoj se kemi shumë dakordësi për të arritur.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg143">Mendoj se dy bashkëkryetarët po luajnë një rol të jashtëzakonshëm në harmonizimin e kërkesave specifike. Ju e kuptoni që nuk janë arsye për ta bllokuar punën, pra arsyet nuk janë të qenësishme, kështu që t’ia heqim vetes fillin e mosbesimit dhe t’i japim besimin që duhet ta bëjmë këtë punë dhe puna do të bëhet. Afatin nuk e kemi përcaktuar ne si mazhorancë, por e përcakton ligji që kjo reformë të implementohet për garën e ardhshme të vitit 2027, përndryshe ne mund të vazhdojmë të bëjmë biseda, por nuk kemi bërë punën për të cilën jemi ngarkuar.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u45" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg144">Faleminderit!</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg145">Vërtet qëllimi kryesor nuk janë numrat, por në fund fare qëllimi kryesor janë numrat, sepse, duam apo nuk duam ne, do të dalim te numrat e bashkive. Kërkesa për numrat nuk është kërkesë formale, ka të bëjë me thelbin nëse duam t’i japim vërtet rolin që duhet të ketë pushteti lokal. Në qoftë se dalim te roli, atëherë dalim te numrat dhe shtimi i numrave, sepse atje na çon funksioni.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg146">Në analizat tona ne ndjekim logjikën e numrave dhe kjo është interesante. Pra, ne futemi në logjikën e numrave, kompetencat, financa dhe performanca janë numra dhe në fund fare thuhet që nuk do të dalim te numrat. Jo, logjika e numrave të çon te numri dhe është e pashmangshme një gjë e tillë. Të mos e parashtrojmë edhe një herë tjetër që ka një afat. Dakord, nuk është se po kundërshtojmë afatin, por të mos jenë kaq striktë, sepse krijon një çlirim në punën e ekspertëve dhe të komisionit. Nuk mund t’i thuash ekspertit: mbylle patjetër deri të hënën, sepse do ta mbarojë materialin shkel e shko, por edhe ta kalojmë deri të mërkurën, sepse iku afati... Pra, konsensusi...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg147">E di, europiane kërkon tren të shpejtë, por le të dalim te diskutimet e tjera.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg148">Fjala për zotin Nallbati.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u46" ana="#regular" who="#AL_PERS_BledjonNallbati">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg149">Faleminderit!</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg150">E kuptoj që kolegëve të mazhorancës u është mbushur mendja që i dinë mirë gjërat dhe gjithçka që bëjnë, e bëjnë mirë. Ne e kemi provuar, me thënë të drejtën, në kaq vjet, bëtë reformë territoriale, e bëtë vetë siç dinit dhe siç donit dhe sot jemi këtu pas dhjetë vjetësh duke pasur jo thjesht pretendime, por fakte për dështimin e kësaj reforme. Kjo reforma juaj e suksesshme na prodhoi një Shqipëri të shpopulluar, kryesisht në zonat rurale. Po të shkosh nëpër zonat tona, ata që i prekin zonat rurale, e kanë të vështirë t’i bëjnë katër veta për të luajtur domino, as pleq nuk ka më, të rinj jo e jo. Kjo ishte një nga arritjet më të mëdha që prodhoi reforma juaj e njëanshme, meqenëse ju është mbushur mendja që dini t’i bëni gjërat mirë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg151">Po marrim reformën e hartës gjyqësore, ju është mbushur mendja që keni bërë një reformë të shkëlqyer të hartës...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg152">Kemi, s’kemi, do t’i diskutojmë këto gjëra, unë prita deri tani.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg153">Ju është mbushur mendja që keni bërë një reformë të shkëlqyer, por çfarë ka prodhuar?! Pa hyrë te çështjet problematike gjyqësore, po përmend vetëm më të thjeshtën, atë të divorcit. Pra, kush do të ndahet nga gruaja, e ka të pamundur të divorcohet për gjashtë vjet. Po përmend këtë më qesharaken, më minimalen, pastaj, po të shkojmë te çështjet e pronave apo te çështjet e tjera penale, është një histori që zgjat me jetë njerëzish. Ju përmenda këto dy reforma, por, po të doni, ju përmend edhe të tjera. Fakti që ju është mbushur mendja se dini t’i bëni gjërat mirë, s’do të thotë se ky është realiteti, sepse koha ka treguar të kundërtën.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg154">Ne jemi këtu të gjithë bashkë dhe po diskutojmë për kohën, pra koha kaq, koha kaq, por ne duhet të ndajmë mendjen: do ta bëjmë këtë reformë, sepse duhet bërë, pasi morëm përsipër një punë për ta bërë dhe duhet bërë apo do ta bëjmë këtë reformë siç duhet bërë. Për mua nuk ka asnjë lloj pengese dhe asnjë lloj problemi sikur të shtyhet edhe një muaj, por mjafton ta bëjmë ashtu siç duhet. Por që ta bëjmë siç duhet, problemi qëndron te propozimet dhe te konsultimet. Ne do të duhet ta prekim qytetarin, që t’i marrim shqetësimet e qytetarit dhe t’i adresojmë ato në këtë reformë. Të mos e bëjmë si te filmi "Gjeneral Gramafoni", ku Sandër Prosi i madh tha: “Eh, o popull, sa gjëra bëhen në emrin tënd”. Prandaj, edhe ne të mos i bëjmë gjërat në emër të popullit dhe pa i pyetur ata që e kanë vuajtur dhe ata, të cilët do t'i impaktojë kjo reformë nesër. Unë propozoj që në këto konsultime publike, që do të bëhen, do të duhet të jenë të përfshirë, pa diskutim, aktorë të të gjitha fushave, kryesisht duhet të ketë një konsultim në zonat rurale, të cilat janë më të impaktuara negativisht dhe në të cilat ka krijuar probleme më të mëdha. Konsultimet duhet të jenë në ambiente publike dhe të hapura për qytetarët. Edhe kur të kemi konsultim publik me kryetarët e bashkive apo qoftë edhe me anëtarët e këshillit bashkiak, do të duhet të jenë në ambiente publike dhe të hapura, ku qytetarët të kenë mundësi të vijnë të dëgjojnë, pse jo edhe të shprehin shqetësimet e tyre. Në fillim do të duhet ta marrim nga ata shqetësimin, pastaj të dimë si ta adresojmë, në mënyrë që të përkthehet në benefit për ta nesër.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg155">Zoti Klosi tha që keni hijen e dyshimit. Po, e kemi, pse të mos e kemi?! A nuk kemi të drejtë ta kemi?! Në të gjithë historikun e qeverisjes suaj nuk keni marrë kurrë një vendim konsensual. Kurrë! Asnjëherë!</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg156">Vetëm ajo s’ka qenë as në dorën dhe as në dëshirën tuaj për ta bërë, por keni shkuar atje, e dini mirë se si, më pas të gjitha aktet ligjore e nënligjore i bëtë vetë, pa e përfshirë opozitën, dhe i bëtë ashtu siç i bëtë, dhe sot keni arritur në pikën që asaj reformës në drejtësi, që lideri juaj global e kishte nxjerrë nga zemra dhe nga shpirti, i është turrur dhe kërkon të futë duart dhe të krijojë imunitet për veten, për kabinetin e vet dhe për njerëzit e vet. Përsëri ju jeni ata që po i bini me shkelm asaj reforme, që pretenduat se e bëtë nga zemra e madhe liderit tuaj. Besoj se e mbani mend marrëveshjen e këshillit politik të 5 qershorit të vitit 2020, që u arrit me suportin dhe insistimin e ndërkombëtarëve, të cilën, sapo dolët, e shkelët me të dyja këmbët dhe e ndryshuat Kushtetutën në mënyrë të njëanshme. Më thoni një rast kur ju keni qenë konsensualë dhe ne të mos e kemi hijen dyshimi, patjetër që e kemi, sepse kjo është fytyra që keni treguar në këta 13 vjet qeverisje. Ju mund të vendosni edhe nesër me ata kartonët që keni atje dhe të bëni përsëri një paçavure si kjo që bëtë, por ne nuk do të jemi pjesë e një paçavureje. Ne do të punojmë, kemi të gjithë angazhimin që të punojmë çdo ditë, edhe natën, po deshtë, nuk përtojmë, por kemi hallin tuaj, sepse ju keni këtë agjendën tjetër të ndryshimeve ligjore të Kushtetutës për të krijuar imunitet, por ne nuk e kemi, ju keni shumë ngarkesë te kjo pjesë, dhe jemi të gatshëm, por duhet ta dini që nuk do të jemi në asnjë rast bashkëfajtorë për një reformë, e cila i shkakton Shqipërisë më shumë dëme sesa i ka shkaktuar deri më sot kjo që ju keni miratuar.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg157">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u47" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg158">Zoti Nallbati, a mund t’ju bëj një pyetje? Për mendimin tënd profesional, si njeri që ka drejtuar Bashkinë e Devollit, a ishte më mirë bashkia bashkë apo e ndarë në 6 pjesë, si para reformës? A do të ishe dakord që ta ndanim përsëri në 6?</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u48" ana="#regular" who="#AL_PERS_BledjonNallbati">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg159">Jo, nuk do të isha dakord që ta ndanim në 6, por as në një. Meqenëse m’u drejtuat si ish-kryetar bashkie, po jua them këtu me sinqeritetin më të madh: unë kam qenë kryetar bashkie dhe nuk kam pasur shansin dhe mundësinë që vëmendjen time ndaj komunitetit ta kem të njëjtë si për qytetin, apo për një fshat, që kishte 500 shtëpi apo 2 500 banorë, me atë që kishte 30 shtëpi, që ishte në distancë më të largët, nuk kisha mundësi se si. Dakord?</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg160">Duhet të kemi të qartë një gjë: sa më pranë dhe sa më i prekshëm të jetë i zgjedhuri për qytetarin, aq më e lehtë është jeta për qytetarin dhe aq më të lehtë e ka ai për t’i zgjidhur problematikat. Bashkia e Devollit ishte e vogël gjithsesi, por ka bashki të tjera që janë masakruar.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg161">Nuk është njësoj, se një qytetar sot, për shembull, në Bashkinë e Devollit, duke qenë se është një territor i vogël, e ka të mundur dhe të arritshëm kryetarin e bashkisë, sepse, në qoftë se nuk e gjen në zyrë, do të shkojë ta gjejë te kafeneja, ose e gjen te dera e shtëpisë. Por me këtë idenë tuaj të zmadhimit të territoreve dhe të zvogëlimit të numrit të bashkive, një qytetar i një fshati të Devollit, për shembull, po marr Vidohovën, e ka të pamundur ta takojë, nëse kjo bashki shpërbëhet dhe shkon te Bashkia e Korçës.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg162">Jo, pra, të thashë jo! Nuk jam dakord për gjashtë njësi, por nuk jam dakord as për një njësi.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg163">Por atë do ta shohim në bazë të të dhënave, sepse tani do të të them propozimin tim...</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u49" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg164">Tani, si fillim, jemi në rrugë të mbarë të diskutimit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg165">Si fillim, biem dakord që 373-shi nuk ishte mirë dhe, pa dyshim, na duhej një numër shumë herë më i vogël.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg166">Domethënë, kemi filluar të themi që 373-shi ishte i paqëndrueshëm, jofunksional dhe duhej të shkonim drejt një sistemi më të përqendruar, pastaj sa, e diskutojmë, por të biem dakord për disa gjëra si fillim.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg167">Zoti Luku.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u50" ana="#regular" who="#AL_PERS_ArtanLuku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg168">Atëherë, për t’i dhënë pak drejtim, në vazhdim të asaj që ju pyetët zotin Nallbati, unë nuk e njoh Bashkinë e Devollit, por njoh Bashkinë e Durrësit dhe ju garantoj që njësitë administrative të përfshira brenda Bashkisë së Durrësit ndihen të shpërfillura totalisht dhe kemi një përqendrim të vëmendjes vetëm në qendrën e qytetit. Periferia është totalisht e harruar nga punët publike, nga shërbimet dhe nga çdo gjë tjetër që e lidh me pushtetin lokal. Hajde t’ju marr t’ju bëj një xhiro nëpër Durrës dhe do ta kuptoni shumë mirë që gjiri i Lalzit është kthyer në kënetë, rrugët janë shembur prej një muaji dhe nuk ka kush të vijë të vërë dorë për t’i rregulluar dhe shërbimet e tjera nuk ofrohen.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg169">Për të dalë te mbledhja e komisionit, unë mendoj se, pasi të mbarojë diskursi politik, të ulemi pak për t’i dhënë drejtim çështjes dhe dua të bëj një propozim. Ne këtu kemi tri propozime: kemi një propozim të zotit Lika, i cili thotë të miratojmë një pjesë të kalendarit, me sa kuptova unë deri, në raundin e parë, e rregulluar kjo me disa ndërhyrje të propozuara më lart, që edhe ju vetë i pranuat. Në të kundërt, pastaj të dy bashkëkryetarët të ulen dhe të gjejnë një rrugë të mesme, për të pasur një kalendar, që puna të vijojë dhe mos të bllokohet, sepse kështu ne, me sa kuptoj, nuk do të arrijmë dot në një emërues të përbashkët.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg170">Kemi edhe një propozim të zotit Bozdo për një rezolutë, të cilën duhet ta hedhim në votim nëse do të pranohet apo jo.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg171">Gjithashtu, kemi një propozim të zotit Likaj, i cili thotë ta miratojmë pjesërisht kalendarin deri në raundin e parë, e rregulluar kjo në pikën tre, dhe nuk di se çfarë kemi tjetër, sepse kemi edhe kalendarin aktual, në të kundërt ju të dy bashkëkryetarët bashkë me sekretarin të uleni që të gjeni gjuhën dhe të na vini me një produkt të dakordësuar dhe të vazhdojmë punën.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u51" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg172">Pra, paraprakisht e kam biseduar me kryetarin. Ky dokumenti me 14 pika ka momente kyçe. Ne në vijimësi duhej të mblidheshim rast pas rasti që të diskutonim agjendën e detajuar të secilës prej pikave, ku përsëri kemi një draft të asaj që mendoj se do të ishte përbërja e asaj pike. Dokumenti që ne miratojmë, janë pikat kryesore, si pika kyçe. Nuk ka sens që ne të miratojmë...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg173">Po, duhet të ndodhë ashtu, e shpjegova.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u52" ana="#regular" who="#AL_PERS_ArtanLuku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg174">E shpjegove pak më parë, por nuk ka sens si na vjen ti, ku e gjete kohën për të përgatitur një dokument politik, kur akoma nuk ke lexuar sondazhin?! Domethënë, mendoj që të zhvishemi pak nga interesat tanë politikë dhe të bëjmë një gjë që ecën dhe që funksionon.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg175">Ndjesë për ndërhyrjen!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u53" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg176">Zoti Luku, pa dyshim që mund të bësh dokument publik bashkë me sondazhin, dhe jo pa arsye është pika e shtatë dhe jo pika e tetë e agjendës, sepse ka edhe një afat kohor. Pra, arsyeja pse është pika e shtatë, është pikërisht që të vijë më parë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg177">Nga ana tjetër, sondazhi është sondazh. Nuk besoj se ka njerëz që janë marrë me atë punë në mënyrë personale, por janë marrë në mënyrë shumë profesionale...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg178">Zoti Luku, dua të them se inputi publik merret në disa mënyra, një ndër këto mënyra është sondazhi. Sondazhi mat vetëm perceptimin e publikut. Nuk mat elemente të tjera, ndërkohë që elementet normative maten nga ata njerëz që... Pra, të dhënat e buxheteve të bashkive nuk i di opinioni publik, se nuk i di opinioni publik nëse bashkia ka më shumë borxhe apo më pak borxhe.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg179">Këtë do ta shikojmë me numra, është fakt, do ta analizojmë me numra. Nëse ka bërë bashkia më shumë investime apo më pak investime, si fillim duhet ta çekojmë me numra, pastaj edhe me opinion publik se si e ka perceptuar publiku.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg180">Ju keni një perceptim, fjalë bie, që e shprehët tani, që gjiri i Lalzit është lënë pas dore. Në nivel numrash, gjiri i Lalzit, në qoftë se do të kishte qenë akoma komunë si dikur, nuk do të ishte lënë pas dore, por do të ishte akoma 200 vjet mbrapa, do të ishte akoma “Pylli i lirisë”.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u54" ana="#regular" who="#AL_PERS_ArtanLuku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg181">Me mundësitë financiare që ka, do të ishte më mirë.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u55" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg182">Absolutisht, jo!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u56" ana="#regular" who="#AL_PERS_ArtanLuku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg183">Hajdeni të bëjmë një projeksion financiar dhe e shohim.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u57" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg184">Ky është ushtrim i vlefshëm dhe realizohet, por të siguroj që nuk është ashtu, sepse investimet publike atje janë të pakrahasueshme.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u58" ana="#regular" who="#AL_PERS_ArtanLuku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg185">Të mos e harxhojmë kohë kot, se ndërtimi i komplekseve “Lura” ka 20 vjet që ka filluar.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u59" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg186">Zoti Luku, të mos e bëjmë debat, sepse ky është një debat që mund t’ua japim si ushtrim disa prej ekspertëve që ta bëjnë. Por ama kemi dy elemente, sepse e përdora si shembull, një element është perceptimi, një element janë faktet. Faktet na duhen nga ekspertët, prandaj i kemi ndarë në tri grupe: një grup që merret me territorin dhe qeverisjen; një grup që merret me kompetencat dhe një grup që merret me funksionet. Për këto ne si komision kemi nevojë të kemi një pozicion politik, ku, pa dyshim, do të shtrojmë mendimet e një shtrese të opinionit publik, por ne kemi nevojë të udhëhiqemi nga fakte ekspertësh. Pra, edhe nga opinioni publik, por nga fakte ekspertësh.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg187">Kështu që, për t’u kthyer përsëri te një çështje, pozicioni ynë është ky. Nga ana e piketave kryesore, ne duhet ta miratojmë të gjithë kalendarin me afate kryesore. Jam shumë dakord nëse ka sugjerime për të ndryshuar një datë: këtë s’e duam deri në mars ose kjo pika nuk duhet, sikurse një pikë duhet ndërruar ose jo. Pastaj, secila prej këtyre pikave ka një plan të vetin të punës, që mund të ulemi dhe ta diskutojmë mbledhje pas mbledhjeje, për pikën e radhës apo... Por nuk mund të themi se do të miratojmë planin e punës deri në mars dhe pastaj, nga marsi, të shohim se çfarë do të bëjmë! Është mungesë respekti edhe ndaj njëri-tjetrit, edhe ndaj vetes sonë për punën, të mos biem dakord për pikat kryesore që duhet të kalojmë deri në fund të kësaj pune.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u60" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg188">Tani, shpresoj që pyetja e zotit Mazniku për të qenët mirë, kur ishte Devolli i ndarë apo bashkë, të mos ketë brenda paragjykimin në nisje, që nuk mund të shtohen njësi bashkiake nga përfundimi i punës së këtij Komisioni për Reformën Zgjedhore, sepse duket sikur ishte ky paragjykim, që është dominant, në të gjithë punën e këtij komisioni.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg189">Gjithsesi, tani doli, dhe ai hezitimi, dyshimi ynë rritet akoma më shumë; duhet të marrim edhe ne ato masat tona mbrojtëse, se, për të sjellë shembuj suksesi apo mossuksesi, ka plot. Mund të sillja sot një zonë në Elbasan, që kërkon të jetë si dikur, kur ka pas goxha investime për shkak të punës së mirë që ka bërë njësia bashkiake apo komuna. Të mos dalim te këto argumente, sepse do të jenë pjesë edhe e parashtrimeve të punës së ekspertëve.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg190">Lidhur me datat, meqenëse po kërkohet t’i përmbahemi këtij projektkalendari, së pari, pa kaluar te data, është diskutuar, por nuk është miratuar midis nesh projektkalendari, sepse miratohet në mbledhjen e komisionit. Zgjidhja më e mirë është që datat të jenë opsionale, si periudha kohore, jo të prera dhe të ndara me thikë.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg191">Po pra, sepse duhen përcaktuar si të tilla, që edhe ne të jemi të lirshëm në punën tonë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg192">Ndërkohë, kërkoj që të gjitha propozimet që dhanë deputetët e opozitës, të përfshihen në projektkalendar, qoftë kjo me ndryshimet që kërkoi zonja Tabaku, qoftë me ndryshimet që kërkuan zoti Mziu apo zoti Likaj, sikurse kam edhe unë një kërkesë, që të zgjerohet grupi “Territori dhe qeverisja”, si dhe të përfshihet sistemi zgjedhor lokal në punën e këtij grupi, sepse, në fund fare, vërtet do të kemi një ndarje territoriale, por do të kemi një impakt në sistemin zgjedhor vendor.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg193">Përderisa ju thoni se qëllimi kryesor është arritja e zgjedhjeve të vitit 2027, atëherë ka një pikëpyetje: kjo reformë do të impaktojë patjetër edhe sistemin zgjedhor. A duhet, apo s’duhet? Pse duhet ta ndërlidhim edhe me sistemin zgjedhor dhe kush do ta bëjë? Do të ngrihet një grup tjetër ekspertize? Jo, duhet ta bëjë “Territori dhe qeverisja”, sepse ky është grupi që merret. Por në qoftë se ti ia zgjeron objektin, atëherë duhet t’ia zgjatësh edhe afatin e punës këtij grupi.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg194">Mendoj se ndoshta do të duhej edhe një kërkesë për shtimin e një specialisti edhe në këtë grup, që është marrë me çështjet zgjedhore, se nuk mund t’ia lëmë kompetencë vetëm...</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u61" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg195">Zoti Boçi.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u62" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg196">...vetëm grupit të reformës zgjedhore. Ata e kanë të gjithë kompetencën.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg197">Ishte thjesht për dhënie mendimi. Në qoftë se e gjykoni, jam dakord që të shtohet një gjë e tillë.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u63" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg198">Jam dakord që, pa dyshim, ka një element që ka të bëjë me mekanizmin e zgjedhjeve. Arsyeja përse e kemi shtuar fjalën “qeverisja” është sepse element kyç i qeverisjes është edhe mënyra se si zgjidhet... Pra, mekanizmi qeverisës buron nga zgjedhja dhe, në presupozimin tonë, ka qenë i përfshirë brenda prej termit “qeverisës”. Nëse kemi nevojë ta detajojmë, nuk jam kundër ta detajojmë edhe “mekanizmi elektoral”, pra keni të drejtë në logjikë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg199">Është vendosur nën occhiello-n, nën termin e qeverisjes, edhe elementi “qeverisës” brenda. Por mund ta specifikojmë, nuk kemi aspak problem.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg200">Nëse biem dakord, atëherë, duke shtuar në pikën 3, te gjetjet e RAP-it, analiza e sfidave vendore, parimet e RAP II, vlerësimin legjislativ për ligje që duhen prekur, që është propozim i zonjës Tabaku... Unë jam dakord që ta shtojmë si pjesë, element të raportit vlerësues, sigurisht, duke qenë se raporti vlerësues do të jetë një dokument pune, që ne do ta diskutojmë rregullisht, do të jemi të hapur për të shtuar edhe dokumente të tjera, që do të shihen të arsyeshëm për sa kohë kapim afatet në vijimësi, duke folur në mënyrë praktike me ekspertët, jam dakord me sugjerimin e dhënë edhe nga zoti Boçi dhe zoti Klosi, që të shtojmë “afate të sugjeruara, afate të synuara”.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg201">Pra, te kolona, në vend të fjalës “afate”, të themi “afate të synuara” (në mënyrë që t’i japim hapësirë vetes për njëfarë tolerance njëjavore, dyjavore, që të kapim objektivat që duhet të kapim), por, duke pasur njëfarë afati, është të paktën element i synuar ose data e synuar për t’i arritur këto afate.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg202">Nuk mendoj se do të ishte e arsyeshme nga ana e këtij komisioni dhe as serioze që ne ta miratojmë agjendën pjesërisht, duhet të miratohet si e tërë dhe me pika kyçe, në mënyrë që të dimë se cilat janë pikat kyçe që duhet të arrijmë deri në ditën e fundit (dhe kjo është përmbledhje, për të konkluduar të paktën pozicionin nga ana jonë), besoj se kjo përfshin... Pastaj, sigurisht, secila prej këtyre pikave...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg203">Nuk mendoj se kemi një problem në raport me faktin që të vlerësojmë tekstin e një rezolute, por kjo është pjesë e punës së përditshme, nuk ka të bëjë me milestone-t e kësaj gjësë, me...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg204">Më falni!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u64" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg205">Një minutë, se ka një propozim, që u dha nga Jorida për çështjet e funksionit dhe të rolit të sekretarit.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u65" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg206">Jam dakord...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg207">Sa i përket rolit të sekretarit...</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u66" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg208">...në mënyrë që të pasqyrohen të gjitha propozimet e zonjës Tabaku.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u67" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg209">Jam dakord. Dëgjo, ajo është marrë në përshtypjen tonë më të mirë nga Rregullorja e Kuvendit dhe nuk duam që sekretari të bëjë asgjë më shumë sesa sekretari që bën...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg210">Zoti Mziu, Kuvendi ka Rregullore, as kryetarët s’vendosin. Kryetarët bashkërendojnë dhe vijnë i propozojnë komisionit. Komisioni vendos. Kështu që, ne bashkërendojmë...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg211">Po, pra. Kështu që, nuk kam...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg212">Ato janë gjëra që korrigjohen dhe nuk do t’i japim asnjë tagër më shumë sesa i jep Rregullorja e Kuvendit sekretarit të çdo komisioni tjetër.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u68" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg213">Po, zoti Mziu.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u69" ana="#regular" who="#AL_PERS_XhelalMziu">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg214">U tha nga bashkëkryetari Mazniku, edhe nga zoti Bylykbashi, që ekspertët do të jenë thjesht formalë, ose më saktë do të grumbullojnë të dhënat. Ndërkohë, përsëri, ju vetë, zoti Mazniku, dhe zoti Bylykbashi, thatë se do të sjellin analizën. Këtë nuk e kuptoj. Pikërisht, që në krye të herës, unë thashë: ata grumbullojnë të dhënat dhe, duke shkuar te RAT I dhe RAT II, çfarë lidhje ka që të shkojnë të bëjnë analizën në bashki, kur ne, si komision, mund t’i drejtohemi Ministrisë së Financave dhe t’i themi: na sill informacion zyrtar për të gjithë buxhetin e bashkive edhe të komunave që kanë qenë në vitin 2015, dhe informacioni i ka të gjitha tendencat dhe mund ta bëjmë edhe vetë analizën?</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg215">Së dyti, mund t’i themi: na sill analizën se sa kanë qenë shifrat për vitin 2025, sa kanë shkuar për investime, sa për shpenzime operative, sa për paga dhe sigurime shoqërore. Kështu që, ndaj e ngrita që në krye të herës këtë çështje, nuk janë specialistët ata që shkojnë dhe bëjnë analizë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg216">Analizën e bëjmë ne. Ata sjellin të dhëna. Nëse do të futemi te bashkitë për këtë gjë, do të ngelemi në terren. Ne kemi nevojë për të pasur analizë të certifikuar, që emetohet nga INSTAT-i dhe nga Ministria e Financave.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg217">Ju, zoti bashkëkryetar, gjatë fjalës suaj, treguat hapur se cila është tendenca juaj. Ju thatë se ne nuk e dimë se kush do të jetë, ndërkohë që edhe zotit Nallbati edhe të tjerëve, u treguat se, kur bashkia është e madhe, është më eficiente. Dhe sot, nëse ka një kauzë në të gjithë Europën, ajo është decentralizimi. Pra, decentralizim nuk do të thotë centralizim. Decentralizim do të thotë që shërbimi t’u shkojë sa më afër qytetarëve, që ta kenë sa më afër bashkinë. Ndërkohë ne, sipas jush, po shkojmë drejt centralizimit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg218">Dhe tjetra, titulli i komisionit tonë është “Reforma Territoriale”. A e kemi përcaktuar ne po themi se cili do të jetë minimumi ose maksimumi apo se cilat do të jenë koordinatat nëse do të shkojmë te ndarja territoriale, që bëhet në krye të herës dhe pastaj mund të vazhdohet me pjesën tjetër?</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u70" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg219">Atëherë, pozicioni...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg220">Urdhëro?</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg221">Ju dëgjova shumë mirë.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg222">Mënyra...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg223">Dëgjo!</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg224">Pse, do të më tregosh ti si të sillem unë?!</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg225">Jo pra, sepse ke folur sa herë ke dashur, ke thënë çfarë ke dashur.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg226">Jo, të lutem! Të lutem!</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg227">Mundesh, patjetër.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg228">Ke folur sa herë ke dashur dhe ke thënë të gjitha gjërat që ke dashur.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg229">Patjetër.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg230">Mënyra sesi...</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u71" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg231">Do të flasë sa herë të dojë dhe do të flasë çfarë të dojë. Çfarë kuptimi ka!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u72" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg232">Prandaj po them, ashtu siç edhe unë kam të drejtën të mendoj atë që mendoj unë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg233">Tani, të të kthej dy-tre përgjigje.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg234">Së pari...</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u73" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg235">Po bëhet një debat. Tani edhe logjika e zoti Mziu është shumë e saktë, sepse centralizimi administrativ nuk të çon te decentralizimi i pushtetit lokal.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u74" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg236">Patjetër që po, 100%.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u75" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg237">Jo, s’është kjo 100% se ka alogjizëm, sepse centralizimi administrativ kërkon të grumbullojë një sërë funksionesh vetëm në një administratë, mos dalim pastaj...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u76" ana="#regular" who="#AL_PERS_BledjonNallbati">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg238">Jo, unë nuk ndryshoj fare mendim, i qëndroj...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u77" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg239">Të lutem!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u78" ana="#regular" who="#AL_PERS_BledjonNallbati">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg240">Më fal! Meqë e morëm rast atë...</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u79" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg241">Jo, të lutem!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u80" ana="#regular" who="#AL_PERS_BledjonNallbati">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg242">Një sekondë!</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg243">Unë e thashë: patjetër që kishte nevojë për një reformë, por jo kjo reformë, kjo masakër që bëtë ju.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg244">Tani, meqë e mora shembull fshatin Vidohovë, po i kthehem prapë. Kur ishte njësi administrative, e përbërë me 12 fshatra (ky fshat sot është një nga fshatrat më të vuajtur dhe më pa investime të Devollit), minimalisht iu bë një urë, kur ishte njësi administrative. Sot e kësaj dite, që kur ndryshoi reforma, nuk është hedhur 1 cent. Dakord? Meqë e morët për shembull Devollin, po ju them: 1 cent.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u81" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg245">Vazhdojmë të shtojmë te propozimet dhe propozimet që dha zoti Likaj, që në dëgjesa të shtohen edhe ish-kryetarët e bashkive, sikurse janë propozimet tona që të parashikohen në kalendar dhe dëgjesat me komunitetet, që i kërkojnë në mënyrë specifike takimet tona.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg246">Duhet t’i bëjmë, sepse e thashë: është një kërkesë, por mund të ketë kërkesa të tjera. E di shumë mirë që mund të shtohen shumë dhe nuk i përballojmë, por tek e fundit kjo është puna e komisionit, të gjejmë format, rrugët, mënyrat për t’i përballuar. Jemi shumë veta, mund të ndahemi dhe të bëjmë dëgjesat në zona të caktuara, me komunitete të caktuara. Por duhet t’i përfshijmë në kalendar si opsion.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u82" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg247">Një ndër dëgjesat e raundit të parë të konsultimeve, ku ne kemi presupozuar që një grup i përbërë nga gjashtë anëtarë të komisionit, plus ekspertët, të shkojnë në një bashki qendër qarku dhe aty gjatë ditës të bëjnë një seri takimesh. Një ndër to është një takim dhe diskutim i hapur publik me njerëz që përfaqësojnë biznesin, akademinë, shoqërinë civile, grupe të caktuara interesi. Pa dyshim që ka shumë tipologji takimesh që ne si komision duhet t’i bëjmë bashkë, por nëse ka nevojë për të bërë takime specifike me një grup të caktuar që kërkon dëgjesë, se është një komunitet i caktuar, një grup i caktuar (sot kemi marrë një letër, sepse tashmë kanë filluar të vijnë letrat nga komunitete të caktuara), besoj që një pjesë të tyre do t’i përfshijmë në agjendë takimi dhe një pjesë mund të takohen nga nëngrupe të caktuara të komisionit. Unë mendoj që bën sens që ne të takojmë grupe të organizuara, të sistemuara, pra grupe që përfaqësojnë një gjë të caktuar, sepse koha është e tillë dhe mënyra që kemi për të mbledhur informacion është e tillë. Nuk jam kundër logjikës që të kemi grupe, por ama presupozimi është që në agjendën ekzistuese, në raundin e parë të konsultimeve, ne të bëjmë katër deri në pesë takime në ditë kur të shkojmë në këto qytete, që i bie në 10-11 orë të bëjmë çdo dy orë një takim, në mënyrë sistematike.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg248">Pra, do të jenë takime goxha intensive. Nuk kam asnjë problem që të shtojmë dhe të bëjmë takime të tjera, por kjo është agjenda paraprake.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg249">Nga ana tjetër, kërkesa është që ta miratojmë sërish ...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg250">Ish-kryetarët e...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg251">Nuk kam asnjë problem që të jenë...</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u83" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg252">Po, duhet ta shtojmë.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u84" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg253">Tek takimi patjetër. S’ka asnjë problem.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg254">Ish-kryetarë bashkish...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg255">Po, po, edhe grupe interesi, patjetër.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg256">Grupe interesi, biznese, fermerë, patjetër.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg257">Patjetër. Jo, jo.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg258">Kur të vijë...</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg259">S’kemi përcaktuar akoma asnjë nga këto gjërat. Çështja nuk është të themi ...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg260">Zoti Luku...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg261">Zoti Luku, është me dy faza procesi. Procesi i parë është të biem dakord që këto janë temat, pastaj do të ulemi të marrim secilën me radhë dhe ta diskutojmë. Çështja është që ne me 14 pika po bëjmë diskutime. Po të kishte secila prej tyre nga 20 pika, do të bëhej pothuajse e pamundur.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg262">Prandaj, do të kalojmë me dy faza. Në fazën e parë do të miratojmë që këto janë 14 pikat që duhet të kalojmë si pika kryesore dhe në mbledhjen e radhës do të themi hajde të bëjmë agjendën e raundit të parë të konsultimeve, që do të jetë vetëm një muaj apo një e gjysmë me institucionet ndërkombëtare, të caktojmë datën, vendin e të gjitha me radhë. Pra, do ta shtjellojmë këtë proces me hapat respektivë kur të vijë momenti i hapit respektiv.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u85" ana="#regular" who="#AL_PERS_EnnoBozdo">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg263">Zoti bashkëkryetar, unë nuk mora përgjigje për çështjet që ngrita, kështu që po i rendis.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg264">E para, raport vlerësues, aktiviteti nr. 3, po futemi në logjikën që këto gjëra ...</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u86" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg265">Ke një asterisk në fund.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u87" ana="#regular" who="#AL_PERS_EnnoBozdo">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg266">Ky nuk mund të quhet raport vlerësues, quajeni raport paraprak, se këtu i mbyllim derën gjithçkaje. Quajeni raport paraprak nga grupi i ekspertëve dhe e mbyllim këtu këtë histori. E dyta...</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u88" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg267">Dakord, raport paraprak.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u89" ana="#regular" who="#AL_PERS_EnnoBozdo">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg268">Parimet e RAT 2-shit nuk nxirren tani, aq më tepër në mungesë të ekspertëve ndërkombëtarë. Parimet e RAT 2-shit dytë janë shumë të rëndësishme. Unë do të doja dhe do të kërkoja (besoj e kam edhe mirëkuptimin në parim), që grupi i ekspertëve tanë duhet të punojë me ekspertët europianë për parimet e RAT 2-shit. Ju them që është proces i komplikuar dhe ka nevojë për ekspertizë.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg269">Po të jetë ashtu, merrini copy-paste nga faqja e Këshillit të Europës dhe i fusim këtu. Unë kam përshtypjen që siç është formuluar kjo, Ermal (më fal se po të thërras me emër), do të thotë që ti bën një raport vlerësimi për RAT 1-shin dhe mbi të, duke u bazuar edhe te konceptet e përgjithshme të RAT 2-shit, del me opsionet e RAT 2-shit. Por kjo është punë e përfunduar kështu.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg270">Në qoftë se unë i shkoj logjikës të Arbrit, po them, dakord, në rregull, qenka e vështirë që ne të ndërmarrim një sondazh, sepse ka rëndësi që sondazhi të jetë i mirëfilltë dhe profesional, e kuptoj këtë gjë. U tha që sondazhi do të ndikojë në raportin politik. Po, patjetër. Caktoni një raport paraprak, që edhe sondazhi, por edhe konsultimet të jenë të gjitha të përfshira, që kur të dalim me një dokument, ta dimë që i kemi përfshirë të gjitha. Dhe mbi to, mbi gjetjet, hajde të diskutojmë se si do t’u përqasemi kërkesave të BE-së, të Komisionit Europian për ndarjen territoriale, se kemi edhe ndarjen për hir të statistikave, të gjitha gjërat e tjera. hajde ta bëjmë kështu të paktën, të paktën të kemi një mundësi.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg271">Për rezolutën, dhe e fundit, ne e kemi pothuajse të përfunduar. Po e përfundojmë, po jua çojmë dhe pastaj e diskutojmë përsëri bashkë.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u90" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg272">Atëherë, unë do të them çfarë kam menduar kur i kemi vendosur aty parimet e RAT 2-shit dhe nëse duhet ta lëvizim si dokument më vete nuk e kam problem. Te logjika e parimeve bëhet fjalë për elementë gjithëpërfshirës, qenien në linjë me Kartën e Autonomisë Vendore, qenien në linjë me aspiratat e...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg273">Dakord. Pa dyshim që mund t’i vëmë, por në pikën tetë kemi marrë gia rrugëtim. Pra, në qoftë se ne kemi thënë që do shkojmë t’i pyesim njerëzit, elementi i gjithëpërfshirjes, është që ti e ke vënë në praktikë procesin. Pra, gjithëpërfshirja, diskutimi publik, respekti ndaj Kartës së Autonomisë Vendore, janë elementë që do ishte mirë që ne t’i kishim si dokument, që unë nuk kam asnjë problem që në qoftë se...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg274">Në këtë nivel po flas.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg275">Nuk kam asnjë problem që disa nga këto, në qoftë se duam t’i nxjerrim nga këtu, t’i marrim nga rezoluta e t’i vëmë këtu, ose t’i heqim nga këtu e t’i vëmë te rezoluta, por presupozimi këtu është që të vendosim dy-tri parime që kanë të bëjnë me respektin e Kartës së Autonomisë Vendore, gjithëpërfshirja e të gjithë aktorëve të mundshëm... Me këtë lloj logjike kemi qenë.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg276">Në këtë nivel. Janë parime që në fakt udhëheqin faktikisht procesin e punës më pas. Pra, nuk do të kalojmë një gjë që se kemi dakordësuar dhe s’kemi rënë dakord në parim. Kjo është gjëja.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u91" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg277">Kam edhe unë një propozim. Meqenëse ne nuk mund t’i mbulojmë të gjitha takimet edhe me komunitetet, ndoshta duhet të dalim në një ftesë të hapur që ata të sjellin propozime grupe të caktuara, që janë të interesuara për reformën, apo komunitete të sjellin propozime për ndarjen territoriale në Sekretariat dhe ne t’i shqyrtojmë apo të merren ekspertët.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg278">Është ftesë e hapur, të dalim në media, në publik, dhe ata t’i sjellin, të mos e bëjnë me iniciativën e tyre, por me pranueshmërinë tonë. Pra, ne të tregohemi të gatshëm për të pritur propozimet e tyre, sepse edhe kjo është një formë sondazhi, është formë reale, konkrete, sepse ata nuk do t’i sjellin individualisht, por të firmosura, sipas një rregulli, formati, që ne mund ta përcaktojmë të vlefshëm për komunikimin me grupe të tilla.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u92" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg279">Zoti Boçi, keni shumë të drejtë. Jam dakord ta shtojmë këtë pikë, në fakt, sepse një ndër gjërat që kam dashur edhe unë dhe e kam pasur ndërmend këto ditë është që ne duhet të ndërtojmë një portal të posaçëm për reformën, një nënfaqe të faqes së Parlamentit, dhe në atë faqe të kemi një element ku njerëzit të kenë mundësi të shtojnë kërkesa e të tjera. Krahas letrave dhe formave të tjera, të jetë një formë elektronike e bërë në mënyrë të thjeshtë. Pra, ta shtojmë si një ndër detyrat. E shton Sekretariati, si një nga pikat.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg280">Atëherë, nëse jemi dakord, a e kalojmë në votim, me ndryshimet përkatëse të propozuara, siç ramë dakord?</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u93" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg281">Miratojmë fazën e parë të punës dhe pastaj të ecim me të tjerat.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u94" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg282">Kalendarin, siç është.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u95" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg283">Fazën e parë të kalendarit.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u96" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg284">Jo, jo, nuk do të miratojmë fazën e parë të kalendarit, e kam thënë 4 herë deri tani.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg285">Patjetër, nuk ka fare problem. Është hera e tretë që e them se është mungesë serioziteti nga një institucion i Kuvendit të Republikës së Shqipërisë, i cili nuk është i aftë të prodhojë një kalendar pune për veten e vet deri në fund të punës.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg286">U pranuan të gjitha, zoti Mziu.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg287">Kush t’i marrë? Jua shpjegova 3-4 herë këtë punë. Arsyeja pse ekziston grupi i ekspertëve është pikërisht që të shkojnë, t’i marrin, t’jua sjellin juve, t’jua bëjnë kopje.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg288">Këtë e ke të detajuar në pikën 6, nëse do të shihni pikën 6 në faqen respektive.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u97" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg289">Zoti Mazniku, të mos e bëjmë patjetër sfidë. Ka një propozim, i cili mua më duket edhe i logjikshëm. Nuk e pengon punën e Komisionit dhe ne e kemi edhe kohën në dispozicion. Nëse na dalin gjëra të papritura përgjatë fazës së parë, t’i shtojmë në kalendar në vazhdimësi, pa prekur në mënyrë drastike afatet, siç u hodh teza këtu, sepse i lamë opsionale. Ne të miratojmë fazën e parë dhe këtu jemi, bëjmë edhe mbledhje tjetër për fazat e tjera, edhe si shenjë konsensusi, se nuk ka asnjë gjë. Fazën e parë kohore, dëgjesat për shembull, përcaktoji dhe pastaj...</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg290">Për dëgjesat po flasim.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u98" ana="#regular" who="#AL_PERS_RamadanLikaj">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg291">Besoj se unë e thashë qartë këtë gjë. Pra, të mbarojmë fazën e parë të punimeve. Ne as po ndërpresim dhe as po bllokojmë gjë.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u99" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg292">Ju dëgjova dhe ju thashë që, në pozicionin tim si bashkëkryetar, flas këtu edhe në emër të mazhorancës, ta miratojmë siç është, të gjithë, duke marrë parasysh të gjitha kërkesat që erdhën deri tani, përfshirë këtu edhe afatin e sugjeruar. Ky është propozimi im, ta hedhim në votë dhe pastaj të veprojmë si duhet.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u100" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg293">Tani të mos kalojmë në ngërç. Ta hedhim në votë, por ne kemi propozimin tonë. Bëmë gjithë këtë dakordësi, në fund fare të mos e hedhim në erë për këtë sfidë. Ta miratojmë raundin e parë dhe ne nuk po shprehim kundërshtim. Thashë që ta pasurojmë me gjëra që do të na dalin përpara.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u101" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg294">Nuk funksionon kështu.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u102" ana="#regular" who="#AL_PERS_BlendiKlosi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg295">Unë propozoj 10 minuta pushim. Dy bashkëkryetarët ta gjejnë një zgjidhje, sepse këtu jemi pas një pune që kemi bërë nga krijimi i këtij Parlamenti. Kemi miratuar programin e punës, i cili është i ndryshueshëm, mund të shtohet, por ne nuk mund t’i lëmë gjërat pa ndarë se çfarë do të bëjmë gjatë të gjithë periudhës së punës së Komisionit. Kështu që, të bëjmë 5 minuta pushim dhe dakordësoheni! Ama, nuk ka asnjë komision pa një agjendë pune, për sa kohë ai komision funksionon. Të gjitha ato që ju thatë, ne do t’i bashkërendojmë, qysh nga mospërcaktimi i afateve fikse apo nga kërkesat që bënë kolegët në lidhje me takimet.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u103" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg296">Dakord.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u104" ana="#regular" who="#AL_PERS_VasilLlajo">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg297">Vetëm të mos futemi tek ai cikli, te guri i Sizifit, siç quhet, që e çon deri në majë, e zbret poshtë, e ngre dhe ulet prapë. Më duket se atë punë do të bëjmë.</seg>
+          <note type="comment">Pas pushimit.</note>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u105" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg298">(Nuk dëgjohet) ...e duhur, kemi si propozim që kalendari të miratohet me ndryshimet e propozuara nga deputetët e Partisë Demokratike, të opozitës, dhe ndërkohë të shtohet shënimi, asterisk, që ky kalendar nuk është strikt dhe në çdo rast, kur është e nevojshme apo e domosdoshme, Komisioni ta ndryshojë atë, sipas qëllimit për të rritur efektivitetin e tij. Kjo të bëhet thjesht me kërkesën e njërës prej palëve.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg299">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u106" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg300">Unë jam dakord me këtë propozim, ta shtojmë një asterisk dhe ta miratojmë në tërësi kalendarin, nëse nuk ka kundërshtime.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u107" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg301">Jo, nuk ka.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u108" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg302">Atëherë, jeni dakord të gjithë?</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u109" ana="#regular" who="#AL_PERS_LuçianoBoçi">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg303">Po.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-02-16-1.u110" ana="#regular" who="#AL_PERS_ArbjanMazniku">
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg304">E hedhim në votim. Të gjitha palët janë dakord.</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg305">Faleminderit dhe ditë të mbarë!</seg>
+          <seg xml:id="ParlaMint-AL_2026-02-16-1.seg306">Do t’ju lajmërojmë për mbledhjen e radhës.</seg>
+          <note type="comment">MBYLLET MBLEDHJA</note>
+        </u>
+      </div>
+    </body>
+  </text>
+</TEI>

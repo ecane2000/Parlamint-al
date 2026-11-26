@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-03-18" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-03-18" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-03-18</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-03-18</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Burimet Natyrore, Infrastrukturën dhe Zhvillimin e Qëndrueshëm, 2026-03-18</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Natural Resources, Infrastructure and Sustainable Development, 2026-03-18</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KBNIZHQ" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -262,13 +262,13 @@
           <seg xml:id="ParlaMint-AL_2026-03-18.seg139">Mungojnë:</seg>
           <seg xml:id="ParlaMint-AL_2026-03-18.seg140">Të ftuar:</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-18.u21" ana="#regular" who="#AL_PERS_MartinKajo">
+        <u xml:id="ParlaMint-AL_2026-03-18.u21" ana="#guest" who="#AL_PERS_MartinKajo">
           <seg xml:id="ParlaMint-AL_2026-03-18.seg141">zëvendësministër i Ekonomisë dhe Inovacionit</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-18.u22" ana="#regular" who="#AL_PERS_DorianaSuli">
+        <u xml:id="ParlaMint-AL_2026-03-18.u22" ana="#guest" who="#AL_PERS_DorianaSuli">
           <seg xml:id="ParlaMint-AL_2026-03-18.seg142">përgjegjëse e sektorit te Informacionit DPPI në Ministrinë e Ekonomisë dhe Inovacionit</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-18.u23" ana="#regular" who="#AL_PERS_PërparimMezini">
+        <u xml:id="ParlaMint-AL_2026-03-18.u23" ana="#guest" who="#AL_PERS_PërparimMezini">
           <seg xml:id="ParlaMint-AL_2026-03-18.seg143">përgjegjës i sektorit juridik DPPI në Ministrinë e Ekonomisë dhe Inovacionit</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-03-18.u24" ana="#regular" who="#AL_PERS_EneaBeqiri">
@@ -283,7 +283,7 @@
           <seg xml:id="ParlaMint-AL_2026-03-18.seg148">Mirë se erdhët!</seg>
           <seg xml:id="ParlaMint-AL_2026-03-18.seg149">Zoti Zëvendësministër, fillojmë me prezantimin nga ana juaj dhe më pas do ta marrë fjalën relatorja.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-18.u27" ana="#regular" who="#AL_PERS_MartinKajo">
+        <u xml:id="ParlaMint-AL_2026-03-18.u27" ana="#guest" who="#AL_PERS_MartinKajo">
           <seg xml:id="ParlaMint-AL_2026-03-18.seg150">Faleminderit, e nderuar kryetare!</seg>
           <seg xml:id="ParlaMint-AL_2026-03-18.seg151">Të nderuar anëtarë,</seg>
           <seg xml:id="ParlaMint-AL_2026-03-18.seg152">Të nderuar deputetë,</seg>
@@ -321,7 +321,7 @@
           <seg xml:id="ParlaMint-AL_2026-03-18.seg176">Së dyti, cenon emrin e mirë të markës tregtare. Nisur nga këto, e shikoj të domosdoshëm implementimin dhe forcimin, nuk po them për pjesën e një ligji, i cili mund të qëndrojë në letër dhe të ketë po të njëjtën histori vazhdimësie, por ajo që konstatoj është të forcohet ose të ngrihet një strukturë e posaçme për sa i përket zbatimit dhe implementimit të ligjit në mbrojtje të markës tregtare apo ai që quhet regjistri i markës, ku shpeshherë konstatojmë me keqardhje ose konfondim të cenimit të markës në emërtesë të përafruar, ose mund të jenë në tregjet industriale, për shembull, të çdo bashkie, ku shikojmë shitje në masë të legjitimuar të mallrave, që janë totalisht false. Ndaj, them që e shikojmë të domosdoshëm forcimin e këtij aspekti, pra të jo mos mbetet vetëm në kuadër të përafrimit të legjislacionit, por edhe të implementimit. Jemi ndër të vendet e rralla që gjejmë produkte masive false në Shqipëri prej shumë e shumë vjetësh.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-18.seg177">Ju faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-18.u32" ana="#regular" who="#AL_PERS_MartinKajo">
+        <u xml:id="ParlaMint-AL_2026-03-18.u32" ana="#guest" who="#AL_PERS_MartinKajo">
           <seg xml:id="ParlaMint-AL_2026-03-18.seg178">Faleminderit për komentin!</seg>
           <seg xml:id="ParlaMint-AL_2026-03-18.seg179">Po, keni shumë të drejtë që duhet përmirësuar zbatueshmëria e ligjit dhe për këtë strukturat kompetente punojnë përditë. Drejtoria e Përgjithshme e Pronësisë Industriale në këtë rast është institucioni ligjbërës për pjesën se si duhen përgatitur procedurat, mban të gjithë regjistrat në bashkëpunimin me WIPO-n dhe me organizatat e tjera, por strukturat që e zbatojnë në terren, referuar strukturave të posaçme, siç është Inspektorati Shtetëror i Mbikëqyrjes së Tregut, që merret me tregun e brendshëm, i cili ka edhe një drejtori të posaçme pikërisht për mbrojtjen e pronës intelektuale, që është si prona industriale në këtë rast, por është dhe prona intelektuale, të drejtat e autorit, që është në varësi të Ministrisë së Kulturës dhe kryen inspektime të vazhdueshme dhe, me kalimin e viteve, shifrat zyrtare të sekuestrimeve janë në rritje.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-18.seg180">Të njëjtën gjë bën Drejtoria e Përgjithshme e Doganave, ku ka një drejtori të përgjithshme specifike që merret edhe me këto raste. Besoj se jeni të qartë që si ex officio, si në rastin që ju vëreni ndonjë shkelje në një treg, normalisht, është një fenomen i markës tregtare shumë i rëndësishëm, siç po e evidentoni, sepse ka të bëjë me çmimin, sa kushton kompania dhe krijon dëme të mëdha. Nuk është një problem vetëm në Republikën e Shqipërisë. Në të gjitha vendet ka mallra kineze, mallra të ndryshme, punohet edhe për tregues gjeografikë, edhe për mbrojtjen e dizajnëve, pra të gjithë pronën intelektuale. Ndërmjet institucioneve ka një bashkëpunim goxha të mirë, sepse preken edhe institucione të tjera, në rastin konkret edhe Policia e Shtetit, sepse, normalisht, inspektimet në këtë rast mund të çojnë në ndjekje penale dhe është mirë të ketë edhe ndjekje penale, kur parashikohet sipas rastit. Por është shumë e rëndësishme që, kur këto çështje shkojnë në gjykatë, edhe gjyqtarët duhet të jenë të informuar, sepse ka mosmarrëveshje, dhe pikërisht ky projektligj në rastin konkret ka të bëjë edhe me pjesën e procedurave administrative, pra e kam regjistruar, nuk e kam regjistruar. Pra, para se të shkojë në gjykatë, ka struktura të posaçme tek institucioni përkatës. Për këtë arsye ne po e shohim, ka vite që ka strategji, ka memorandume bashkëpunimi të shkëmbimit të informacionit për të pasur një kuadër të qartë të gjithë situatës; kurse formimi për stafin në DPPI, për të drejtën e autorit, në ISHMT, por edhe për gjyqtarët, me qëllim përmirësimin dhe zbatimin më të mirë të ligjit. Pra, duhet të ritheksoj edhe njëherë që punohet dita-ditës që të zbatohet në mënyrë sa më të saktë që të mbrohet prona intelektuale në Republikën e Shqipërisë.</seg>

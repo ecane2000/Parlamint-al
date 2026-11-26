@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-10-01" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-10-01" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-10-01</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-10-01</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Konferenca e Kryetarëve, 2026-10-01</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Conference of Chairpersons, 2026-10-01</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KonferencaKryetareve" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -96,7 +96,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-10-01.seg9">E qartë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-01.u2" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-10-01.u2" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-10-01.seg10">A janë bashkuar këto? Se, kur janë me të njëjtin objekt, bashkohen.</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -106,7 +106,7 @@
           <seg xml:id="ParlaMint-AL_2026-10-01.seg11">Janë të ndara, kanë ardhur të ndara. Të diskutojmë dhe të vendosim.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-01.seg12">Zoti Balla.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-01.u4" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-10-01.u4" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-10-01.seg13">E para, sa i përket kapitullit të kontrollit të Kuvendit, pavarësisht formës së kërkesës së kontrollit, qoftë përmes interpelancës apo mocionit me debat, kur çështjet kanë të njëjtin objekt, Kuvendi është i detyruar t’i bashkojë. Megjithatë, pjesa që lidhet me bashkimin është në vlerësimin e Kryetarit të Kuvendit, nuk është kompetencë e Konferencës së Kryetarëve.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-01.seg14">Sa i përket investimit të Kuvendit në një mocion me debat, pra në ushtrimin e funksionit të kontrollit parlamentar, siç thonë kërkuesit, në interes të transparencës dhe llogaridhënies, lidhur me një kërkesë që fillon me konstatimet përfundimtare se shtetasja Vlora Hyseni ka ndihmuar nëpërmjet furnizimit me të dhëna, informacione e të tjera me radhë, kërkuesit kanë arritur në përfundim dhe është e kotë që prokuroria apo gjykata të shprehen tanimë!</seg>
           <seg xml:id="ParlaMint-AL_2026-10-01.seg15">Megjithatë, zoti Kryetar, unë mendoj se, sa u përket hetimeve mbi ish-drejtoren e Shërbimit Informativ, ne duhet të presim që çdo dyshim i organit të akuzës të hetohet dhe të zbardhet deri në fund nga SPAK-u, prokurorët e të cilit, të gjithë së bashku, duhet t’i lëmë të bëjnë punën e tyre, pa asnjë ndërhyrje apo mbivendosje, në rastin në fjalë, të investimit nga ana e Kuvendit të një instrumenti të kontrollit parlamentar. Ne duhet të kemi besim që ky hetim nga SPAK-u do të bëhet përmes një procesi të pavarur të hetimit dhe të gjykimit. Besoj se biem të gjithë dakord se kjo është rruga pa kthim që kemi zgjedhur, edhe rruga e pavarësisë së organeve të drejtësisë, për të hetuar dhe për të gjykuar këdo qoftë, pavarësisht statusit social apo funksionit publik që ka mbajtur deri në një moment të caktuar, në rastin në fjalë, personi i shkarkuar.</seg>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-03-04" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-03-04" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-03-04</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-03-04</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Bujqësinë, Ushqimin dhe Zhvillimin Rural, 2026-03-04</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Agriculture, Food and Rural Development, 2026-03-04</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KBUZHR" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -89,7 +89,7 @@
           <seg xml:id="ParlaMint-AL_2026-03-04.seg4">Relator kemi kolegun Saimir Hasalla. Le t’i dëgjojmë koleget, pastaj do të kalojmë në pyetje dhe diskutime.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-04.seg5">Urdhëroni, fjala për ju!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-04.u2" ana="#regular" who="#AL_PERS_EldaZenelaj">
+        <u xml:id="ParlaMint-AL_2026-03-04.u2" ana="#guest" who="#AL_PERS_EldaZenelaj">
           <seg xml:id="ParlaMint-AL_2026-03-04.seg6">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-03-04.seg7">I nderuar zoti kryetar,</seg>
           <seg xml:id="ParlaMint-AL_2026-03-04.seg8">Të nderuar deputetë,</seg>
@@ -139,7 +139,7 @@
           <seg xml:id="ParlaMint-AL_2026-03-04.seg46">Besoj se për procedurat e parlamentarizmit mund të kishim një dokument që të kalonte në Konferencën e Kryetarëve, ku të merrte dakordësi, të merrte dakordësi në Byronë e Kuvendit, por që të shkojmë me një material në Kuvend dhe të mos flitet për deputetët, unë këtë mendoj se do të duhet ta rishikoni.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-04.seg47">Megjithatë, thashë, ndjesë që jua bëj juve këto komente, por do t’jua bëj edhe titullarëve të institucionit. Me sa kam folur me kolegët, besoj se ka nevojë të rishikohet kjo strategji.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-04.u6" ana="#regular" who="#AL_PERS_EldaZenelaj">
+        <u xml:id="ParlaMint-AL_2026-03-04.u6" ana="#guest" who="#AL_PERS_EldaZenelaj">
           <seg xml:id="ParlaMint-AL_2026-03-04.seg48">Fillimisht, më lejoni të sqaroj se është një dokument strategjik, i cili i referohet kryesisht pjesës së administratës së Kuvendit dhe deputetëve. Prandaj ka qenë në konsultim për një kohë të gjatë, kemi pritur angazhimin e grupeve parlamentare dhe të deputetëve. U është dërguar me e-mail nga drejtoresha e Burimeve Njerëzore dhe u është shpërndarë edhe nga komisioni “Xhafaj” për mendim.</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -149,13 +149,13 @@
         <u xml:id="ParlaMint-AL_2026-03-04.u7" ana="#chair" who="#AL_PERS_BlendiKlosi">
           <seg xml:id="ParlaMint-AL_2026-03-04.seg50">Kjo vërejtje ku duhet të diskutohet? Pra, Plani Strategjik i takon aparatit, apo i takon institucionit? Mendoj që, përderisa kalon në Parlament, i takon institucionit.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-04.u8" ana="#regular" who="#AL_PERS_BesartaVladi">
+        <u xml:id="ParlaMint-AL_2026-03-04.u8" ana="#guest" who="#AL_PERS_BesartaVladi">
           <seg xml:id="ParlaMint-AL_2026-03-04.seg51">Kryetar, nëse më lejoni?</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-03-04.u9" ana="#chair" who="#AL_PERS_BlendiKlosi">
           <seg xml:id="ParlaMint-AL_2026-03-04.seg52">Urdhëroni!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-04.u10" ana="#regular" who="#AL_PERS_BesartaVladi">
+        <u xml:id="ParlaMint-AL_2026-03-04.u10" ana="#guest" who="#AL_PERS_BesartaVladi">
           <seg xml:id="ParlaMint-AL_2026-03-04.seg53">Ky është dokumenti i dytë strategjik, që vjen në vijim të dokumentit të parë strategjik, i cili...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -176,7 +176,7 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-04.u11" ana="#regular" who="#AL_PERS_EldaZenelaj">
+        <u xml:id="ParlaMint-AL_2026-03-04.u11" ana="#guest" who="#AL_PERS_EldaZenelaj">
           <seg xml:id="ParlaMint-AL_2026-03-04.seg60">Jo, t’ju shpjegoj vetëm diçka. Atëherë, pjesa e programit dhe e kalendarit të punës së Kuvendit, duke mos pasur dakordësi në Konferencën e Kryetarëve, ka kaluar për miratim në seancën plenare. Domethënë, e ka vendosur seanca plenare që do t’u kalojë të gjitha komisioneve për mendim. Nuk e kemi vendosur ne si staf i administratës që të diskutohet në komisionet parlamentare. Është marrë vendimi për krijimin e 11 komisioneve të përhershme parlamentare dhe Komisioni për Nismat Qytetare ka objekt të punës edhe pjesën e diskutimit të planeve të veprimit që harton apo zbaton Kuvendi.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-03-04.u12" ana="#chair" who="#AL_PERS_BlendiKlosi">
@@ -188,7 +188,7 @@
           <seg xml:id="ParlaMint-AL_2026-03-04.seg66">Pra, e quajmë të pezulluar mbledhjen e komisionit, me një dakordësi në parim për dokumentin, por që do të duhet që, kur të marrë votën e komisionit, të ketë një diskutim më të thellë për këto çështje, për të cilat ngritëm shqetësime.</seg>
           <seg xml:id="ParlaMint-AL_2026-03-04.seg67">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-03-04.u13" ana="#regular" who="#AL_PERS_BesartaVladi">
+        <u xml:id="ParlaMint-AL_2026-03-04.u13" ana="#guest" who="#AL_PERS_BesartaVladi">
           <seg xml:id="ParlaMint-AL_2026-03-04.seg68">Do t'ju luteshim vetëm që çdo pyetje të na i dërgoni edhe me shkrim, në mënyrë që të kemi mundësi për t’i adresuar.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-03-04.u14" ana="#chair" who="#AL_PERS_BlendiKlosi">

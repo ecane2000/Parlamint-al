@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-01-21" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-01-21" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-01-21</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-01-21</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Bujqësinë, Ushqimin dhe Zhvillimin Rural, 2026-01-21</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Agriculture, Food and Rural Development, 2026-01-21</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KBUZHR" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -125,7 +125,7 @@
         <u xml:id="ParlaMint-AL_2026-01-21.u6" ana="#regular" who="#AL_PERS_MartinKajo">
           <seg xml:id="ParlaMint-AL_2026-01-21.seg32">Po ia kaloj fjalën drejtoreshës së Përgjithshme të Pronësisë Industriale për disa shpjegime më teknike, sepse kanë të bëjnë më shumë me origjinën dhe me ruajtjen e identitetit, pra me terma praktikë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-01-21.u7" ana="#regular" who="#AL_PERS_RudinaBollano">
+        <u xml:id="ParlaMint-AL_2026-01-21.u7" ana="#guest" who="#AL_PERS_RudinaBollano">
           <seg xml:id="ParlaMint-AL_2026-01-21.seg33">Përshëndetje! Ky traktat, duke u nisur edhe nga titulli, ka të bëjë me burimet gjenetike, të cilat, përveç të tjerave, gjenden te bimët dhe kafshët. Ky traktat u vendos detyrim aplikuesve, të cilët vijnë në zyrat e patentave për të marrë një patentë, që (në fjalë të përgjithshme, i bën monopol), kur aplikojnë për një patentë dhe kanë të përdorur një burim gjenetik ose njohuri tradicionale, që lidhen me një burim gjenetik, ta bëjnë të ditur atë, pasi kjo ndikon më pas në dhënien e patentës. Kjo do të thotë se, kur jepet një patentë, një nga kushtet e patentueshmërisë është që ajo duhet të jetë e re. Nëse dikush në aplikimin e tij, kur kërkon të marrë një patentë, pra të bëhet monopol në treg, ka përdorur njohuri tradicionale tonat, që është pronë e të gjithëve ose burime gjenetike të marra nga vendi ynë, ai nuk mund të bëhet monopol dhe nuk mund ta zotërojë atë si pronë të vetën. Ky traktat e vendos këtë si detyrim në aplikimin për patentë.</seg>
           <seg xml:id="ParlaMint-AL_2026-01-21.seg34">Zyrat e patentave nuk e kanë detyrim për të trajtuar vërtetësinë e këtij deklarimi, por më pas, në qoftë se lindin konflikte, ajo shërben si një fakt për të parë më pas vlefshmërinë e patentës.</seg>
           <seg xml:id="ParlaMint-AL_2026-01-21.seg35">Siç e tha edhe zoti zëvendësministër, kjo vendos transparencë në procedurë, pra detyrimin e deklarimit. Gjithashtu, ka të bëjë edhe me vendosjen e drejtësisë në dhënien e të drejtave.</seg>
@@ -134,7 +134,7 @@
           <seg xml:id="ParlaMint-AL_2026-01-21.seg36">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-01-21.seg37">Po për sektorin e bujqësisë, si është gjendja aktuale, jashtë këtij traktati? A kemi patenta të mbrojtura për prodhimet tona bujqësore?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-01-21.u9" ana="#regular" who="#AL_PERS_RudinaBollano">
+        <u xml:id="ParlaMint-AL_2026-01-21.u9" ana="#guest" who="#AL_PERS_RudinaBollano">
           <seg xml:id="ParlaMint-AL_2026-01-21.seg38">Në dijeninë time, nuk kemi aplikime shqiptare, por ka aplikime nga kompani të huaja, të cilat vijnë dhe i mbrojnë, kryesisht për farërat. Pjesa më e madhe e patentave të regjistruara në zyrën tonë, janë patenta të garantuara, të cilat janë ekzaminuar dhe u është dhënë vlefshmëria nga Organizata Europiane e Patentave, në të cilën ne jemi pjesë që nga viti 2010, si dhe kemi marrëveshje me Zyrën e Patentave që nga viti 1995. Kryesisht janë patenta farmaceutike, por jo aplikime kombëtare, nga aplikantë vendas.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-01-21.u10" ana="#chair" who="#AL_PERS_BlendiKlosi">
@@ -147,7 +147,7 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2026-01-21.u11" ana="#regular" who="#AL_PERS_RudinaBollano">
+        <u xml:id="ParlaMint-AL_2026-01-21.u11" ana="#guest" who="#AL_PERS_RudinaBollano">
           <seg xml:id="ParlaMint-AL_2026-01-21.seg41">Duhet të bëjmë dallimin, sepse kjo marrëveshje flet për çështjen e patentimit të shpikjeve, ndërsa në lidhje me panxharin e sheqerit të Maliqit apo produkte...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -162,7 +162,7 @@
           <seg xml:id="ParlaMint-AL_2026-01-21.seg45">Kolegë, keni ndonjë koment?</seg>
           <seg xml:id="ParlaMint-AL_2026-01-21.seg46">Po, zoti Pendavinji, fjala për ju.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-01-21.u14" ana="#regular" who="#AL_PERS_IlirianPendavinji">
+        <u xml:id="ParlaMint-AL_2026-01-21.u14" ana="#regular" who="#AL_PERS_IlirjanPendavinji">
           <seg xml:id="ParlaMint-AL_2026-01-21.seg47">Kam një pyetje: a keni ju një numër të patentave për pronësinë intelektuale, që janë regjistruar në Shqipëri si shpikje shqiptare? Po ta keni, edhe të ndarë sipas fushave, zbulime shkencore...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-01-21.u15" ana="#regular" who="#AL_PERS_MartinKajo">
@@ -175,7 +175,7 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2026-01-21.u17" ana="#regular" who="#AL_PERS_IlirianPendavinji">
+        <u xml:id="ParlaMint-AL_2026-01-21.u17" ana="#regular" who="#AL_PERS_IlirjanPendavinji">
           <seg xml:id="ParlaMint-AL_2026-01-21.seg51">...pronësisë intelektuale, kam idenë se firma “Skënderbeu” është e patentuar në Shqipëri, por ndoshta nuk e kam të saktë. Ka disa produkte të firmës “Skënderbeu” që janë të patentuara. A e kam të saktë?</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-01-21.u18" ana="#regular" who="#AL_PERS_MartinKajo">

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-05-18" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-05-18" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-05-18</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-05-18</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Bujqësinë, Ushqimin dhe Zhvillimin Rural, 2026-05-18</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Agriculture, Food and Rural Development, 2026-05-18</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KBUZHR" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -128,7 +128,7 @@
         <u xml:id="ParlaMint-AL_2026-05-18.u9" ana="#chair" who="#AL_PERS_BlendiKlosi">
           <seg xml:id="ParlaMint-AL_2026-05-18.seg28">Faleminderit, zoti Gazheli.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-05-18.u10" ana="#regular" who="#AL_PERS_IrmaThemeli">
+        <u xml:id="ParlaMint-AL_2026-05-18.u10" ana="#guest" who="#AL_PERS_IrmaThemeli">
           <seg xml:id="ParlaMint-AL_2026-05-18.seg29">Përshëndetje të gjithëve!</seg>
           <seg xml:id="ParlaMint-AL_2026-05-18.seg30">Sa i përket pjesës së përdorimit të burimeve ujore në Shqipëri, dua të theksoj faktin që ligji për burimet ujore e ka fokusin pikërisht tek aspekti mjedisor në mbrojtjen dhe ruajtjen e cilësisë së burimeve ujore, si dhe nga pikëpamja sasiore e tyre. Aktualisht rregullimi i përdorimit të burimit ujor bëhet përmes lëshimit të lejeve dhe autorizimeve nga organet e menaxhimit të burimeve ujore, që konkretisht, sipas ligjit nr. 29, janë Këshilli Kombëtar i Territorit dhe Ujit, si dhe këshillat e baseneve lumore, përgjegjëse për veprimtarinë në nivel baseni.</seg>
           <seg xml:id="ParlaMint-AL_2026-05-18.seg31">Në këtë kontekst, duke qenë se fokusi i ligjit është pikërisht mbrojtja e burimit ujor, kemi të bëjmë më shumë me pjesën e llogaridhënies, me kalimin e kësaj varësie në Ministrinë e Mjedisit, por gjithmonë duke e parë në fokusin e mbrojtjes së burimit ujor edhe gjatë proceseve të përdorimit.</seg>
@@ -148,7 +148,7 @@
         <u xml:id="ParlaMint-AL_2026-05-18.u13" ana="#chair" who="#AL_PERS_BlendiKlosi">
           <seg xml:id="ParlaMint-AL_2026-05-18.seg40">Faleminderit! A ka ndonjë përgjigje nga institucionet?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-05-18.u14" ana="#regular" who="#AL_PERS_IrmaThemeli">
+        <u xml:id="ParlaMint-AL_2026-05-18.u14" ana="#guest" who="#AL_PERS_IrmaThemeli">
           <seg xml:id="ParlaMint-AL_2026-05-18.seg41">Për sa i përket risisë në kontekstin e ndryshimit të varësisë institucionale, se si mund të kontribuojë kjo aktualisht në përmirësim të përmbushjes së funksioneve të ligjit ...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -168,7 +168,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-05-18.seg45">Po, patjetër. Edhe një herë, drejtoresha e ka fjalën.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-05-18.u17" ana="#regular" who="#AL_PERS_IrmaThemeli">
+        <u xml:id="ParlaMint-AL_2026-05-18.u17" ana="#guest" who="#AL_PERS_IrmaThemeli">
           <seg xml:id="ParlaMint-AL_2026-05-18.seg46">Sa i përket risisë pas ndryshimit të varësisë, sikurse u theksua edhe nga zëvendësministri, indicia është marrë nga raporti dhe gjetjet e raportit të SIGMA-s.</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>

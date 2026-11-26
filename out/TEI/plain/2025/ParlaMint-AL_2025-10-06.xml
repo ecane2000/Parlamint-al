@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2025-10-06" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2025-10-06" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2025-10-06</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2025-10-06</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për të Drejtat e Njeriut dhe Mjetet e Informimit Publik / Komisioni për Nismat Qytetare, Bashkëpunimin dhe Mbikëqyrjen Institucionale, 2025-10-06</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Human Rights and Public Information Media / Committee on Civic Initiatives, Cooperation and Institutional Oversight, 2025-10-06</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KDNJMIP #AL_ORG_KNQBMI" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -39,7 +39,7 @@
       <sourceDesc>
         <bibl>
           <title type="main" xml:lang="sq">Procesverbal i Kuvendit të Shqipërisë</title>
-          <idno type="URI">https://www.kuvendi.gov.al/</idno>
+          <idno type="URI">https://kuvendiwebfiles.blob.core.windows.net/webfiles/202510281244347130Procesverbal%2C_dat%C3%AB_06.10.2025_.pdf</idno>
           <date when="2025-10-06">2025-10-06</date>
         </bibl>
       </sourceDesc>
@@ -97,7 +97,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-06.seg12">Së dyti, sa i përket të drejtës së informimit, me sfidat që ka, ashtu siç ju e keni shprehur edhe në raportin tuaj, të sigurohemi që ka të drejtë informimi në të gjitha institucionet publike, jo vetëm ndaj medias, që ka detyrën e informimit, por edhe ndaj qytetarëve dhe shoqërisë.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg13">Fjala për ju.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u2" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u2" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg14">Faleminderit, zonja kryetare!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg15">Të nderuar deputetë,</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg16">Në radhë të parë, më lejoni t’ju uroj suksese në punën tuaj dhe për zgjedhjen tuaj në këtë legjislaturë!</seg>
@@ -141,7 +141,7 @@
         <u xml:id="ParlaMint-AL_2025-10-06.u3" ana="#chair" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg53">Duke respektuar edhe të drejtën e fjalës, besoj se duhet të konkludoni, pasi ka edhe shumë çështje që janë për debat.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u4" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u4" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg54">Edhe një minutë, ju lutem, se mbarova!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg55">Do të përmend vetëm problematikat.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg56">Kontrolluesit nuk disponojnë një strategji për sistemin e menaxhimit të sigurisë së informacionit; kontrolluesit nuk informojnë qartësisht subjektet e të dhënave sipas ligji; nuk kanë marrë masat e duhura për të garantuar konfidencialitetin e të dhënave; nuk kanë parashikuar afatin konkret të ruajtjes së të dhënave personale; nuk respektojnë detyrimin për njoftim ose përditësim; nuk i kushtojnë vëmendje trajnimit të nëpunësve dhe punonjësve; kontrolluesit publikë në përdorimin e të dhënave personale, për shkak të veprimtarisë së tyre, nuk respektojnë masat e sigurisë në këtë proces. Një problem mbetet publikimi i fotove, videove, për shembull, të nxënësve në rrjetet sociale, të marra gjatë mësimit apo aktiviteteve kulturore, sportive, që kryhet në kundërshtim me parimet e ligjit.</seg>
@@ -217,7 +217,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-06.seg116">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg117">Të marrim përgjigjet për pyetjet që u bënë dhe pastaj vazhdojmë me pyetjet e tjera.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u10" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u10" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg118">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg119">Unë e kuptoj se mbrojtja e të dhënave personale është sensibilitet shumë i madh, veçanërisht gjatë fushatës zgjedhore, por, si çdo proces tjetër përpunimi, edhe ai në fushatat zgjedhore u nënshtrohet të njëjtave parime dhe kritere, ashtu si të gjitha përpunimet e tjera të të dhënave personale në çdolloj veprimtarie. Madje, unë do t’ju thosha se nuk ka një fushë të jetës ekonomike apo shoqërore ku të mos ketë përpunim të të dhënave personale, sepse në çdo aspekt apo në çdo fushë përpunimi i të dhënave personale është thelbësor. Në qoftë se do të ndalonim përpunimin e të dhënave personale nuk do të kishim jetë shoqërore, nuk do të kishim zhvillim ekonomik, nuk do të kishim as zgjedhje. Në fund të fundit, çdo veprim që kryhet në procesin zgjedhor është përpunim të dhënash personale.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg120">A ndihmon legjislacioni i ri në këtë fushë? Patjetër që ndihmon, sepse (mjafton të ndalemi vetëm në një aspekt) legjislacioni i ri nuk është gjë tjetër veçse përshtatje me zhvillimet e fundit në drejtim të digjitalizimit, i cili ka përparuar në çdo fushë apo në çdo aspekt institucional. Në këtë pikë, dispozitat përkatëse të ligjit të ri “Për mbrojtjen e të dhënave personale” janë shumë strikte në përpunimin e të dhënave personale.</seg>
@@ -229,7 +229,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-06.seg124">Komisioner, pa dashur t’ju ndërpres, unë kam vënë re publikisht në medie disa shqetësime, për shembull, për qarkun e Tiranës apo qarkun e Fierit, meqenëse kemi këtu deputetë që i mbulojnë të dyja qarqet. Për shumë shtetas, të dhënat publike (për shembull, a zotëron një pronë, a ka një kredi bankare, a ka një procedurë te kadastra) të institucioneve janë përdorur nga subjekti elektoral Partia Socialiste. Deputetë të të gjitha forcave politike mund të na bashkohen te këto pyetje. Ju po më thoni se prej ligjit nuk ka pasur përdorime të këtyre të dhënave?</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg125">Për shembull, një databazë e qarkut të Fierit ka qenë publike dhe ka qarkulluar për çdo qytetar të Fierit, për të gjitha kontaktet që ai ka pasur me shtetin shqiptar, për të gjitha informacionet e tij publike. Pra, ju thoni që gjatë këtij procesi, vetëm pse miratuan ligjin, nuk janë cenuar të dhënat personale, e thoni me siguri të plotë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u12" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u12" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg126">Në fakt, këtë e thatë ju, nuk e thashë unë. Unë thashë se i gjithë procesi zgjedhor, nga fillimi deri në fund, është një përpunim të dhënash personale. Por ndoshta për këtë duhet t’i referohemi nenit 35 të Kushtetutës së Republikës së Shqipërisë, në të cilin përcaktohet se si mund të përpunohen të dhënat personale në mënyrë të ligjshme, që është pëlqimi i vetë subjektit të mbrojtjes së të dhënave apo kur kjo rregullohet me ligj. Në rastin konkret, ne kemi një ligj që e rregullon, pra Kodin Zgjedhor, që përcakton të gjitha procedurat dhe mënyrën se si përpunohen të dhënat personale gjatë një procesi elektoral.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg127">Për të qenë më i drejtpërdrejtë, për sensibilitetin tuaj, natyrisht, së bashku me kolegët në zyrën e Komisionerit përpiqemi të jemi të ftohtë nga emocionet politike dhe t’i referohemi vetëm ligjit, pavarësisht se çdokush prej nesh shkon në kutinë e votimit dhe vendos një kryq aty ku dëshiron, por të paktën në vendimmarrjen tonë (unë e kam thënë edhe herë tjetër këtu) mendoj se kemi qenë krejt të çliruar nga emocionet politike. Kjo që thoni ju, me të vërtetë mund të jetë reflektuar në medie, mund të ketë pasur sensibilitete të tilla, patjetër, por ne jemi të detyruar të administrojmë provat të cilat sigurohen vetëm në mënyrë të ligjshme. Provat të cilat nuk mund të sigurohen në mënyrë të ligjshme, nuk mund t’i administrojmë.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg128">Gjithashtu, mua më duhet t’ju sqaroj edhe një problem tjetër. Shpeshherë ne vihemi në pozitë të vështirë në sigurimin e provës, sepse ne nuk jemi organ i prokurorisë që të vendosim sekuestro, ne e kërkojmë provën dhe, në qoftë se nuk na vihet në dispozicion, natyrisht, përdorim mjetet dhe instrumentet që na jep ligji, që shkojnë deri në sanksion për mosbashkëpunim, por nuk kemi të drejtën e vendosjes së sekuestros, siç ngatërrohet shpeshherë zyra e Komisionerit me funksionet që ushtron një organ tjetër, siç është prokuroria.</seg>
@@ -248,7 +248,7 @@
         <u xml:id="ParlaMint-AL_2025-10-06.u13" ana="#chair" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg140">Pa dashur t’ju ndërpres, nëse keni mundësi ta racionalizoni pak kohën, sepse ka edhe raportime të tjera dhe janë edhe katër kolegë që kanë kërkuar fjalën.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u14" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u14" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg141">Dakord.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg142">Lidhur me konsultimin publik, zyra e Komisionerit nuk është institucioni përgjegjës. Sipas ligjit, është ministri që mbulon inovacionin, kurse ne kemi shqyrtimin e ankesave për një kategori të caktuar. Ju përmendët edhe diskutimet që kemi bërë. Ne kemi qenë aktivë në tryezat e konsultimit publik, madje jemi vetofruar për të dhënë kontributin tonë. Ka një diskutim shumë të gjerë që proceset e monitorimit, njoftimit dhe konsultimit publik t’i kalohen një institucioni të pavarur, të mos jetë më në suazën e qeverisë, por duhet thënë që ka një sensibilitet shumë të ulët në këtë drejtim. Vitin e parë të hyrjes në fuqi ka pasur tri ankesa, më pas ka pasur një ankesë dhe, nëse nuk gaboj, ka dy vjet që nuk ka asnjë ankesë të paraqitur pranë zyrës së Komisionerit, sa u përket njoftimit dhe konsultimit publik. Kjo tregon, të paktën thjesht nga ky këndvështrim, që diçka duhet bërë në këtë pikë.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg143">Sa u përket çështjeve të tjera që ju trajtuat në pyetjen tuaj, janë jashtë objektit të Zyrës së Komisionerit dhe nuk jemi në gjendje të bëjmë komente në lidhje me këtë pikë.</seg>
@@ -263,20 +263,20 @@
         <u xml:id="ParlaMint-AL_2025-10-06.u15" ana="#chair" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg151">Këto janë disa detaje që nuk besoj se na interesojnë në këtë nivel, pasi janë edhe në raport.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u16" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u16" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg152">Në rregull.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2025-10-06.u17" ana="#chair" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg153">Zonja Ismaili bëri disa pyetje.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u18" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u18" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg154">Po.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg155">Për sa i përket pyetjes...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2025-10-06.u19" ana="#chair" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg156">Po mundët, përmbledhtazi, sepse u bënë 5 kolegë që kërkojnë fjalën.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u20" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u20" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg157">Të paktën me sa kuptuam, pyetja kishte të bënte kryesisht me transparencën që ofrohet nga këshillat bashkiakë.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg158">Njësitë e vetëqeverisjes vendore i trajtojmë si bashki, pavarësisht se ato brenda tyre kanë organizmin e administratës së bashkisë me kryetarin në krye, por edhe organizmin e këshillit bashkiak. Patjetër që ne nuk e kemi lënë mënjanë, si të thuash, rëndësinë që ka këshilli bashkiak, sepse, në fund të fundit, vendimmarrja kryesore reflektohet në këshillat bashkiakë. Ndoshta në programin model të transparencës, që ka qenë dhe është ende sot në fuqi, roli i këshillit bashkiak nuk është vënë kaq në dukje. Ne jemi aktualisht në diskutime për miratimin e programit të ri të transparencës të njësive të vetëqeverisjes vendore, ku këshillat bashkiakë do të vendosen edhe nga pikëpamja formale në një pozicionim të tillë, ku të jetë lehtësisht i aksesueshëm roli dhe vendimmarrja e tyre. Besoj se kështu do të eliminohet ndoshta edhe ai ngërçi i vogël, që dukej sikur këshillat bashkiakë luajnë një rol të dorës së dytë kur, në fakt, roli i tyre është primar.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg159">Për sa i përket forcimit të rolit të koordinatorit për të drejtën e informimit dhe për njoftimin dhe konsultimin publik, ndoshta për njësitë e vetëqeverisjes vendore është i vetmi që është i përcaktuar në dy ligje, si në ligjin “Për të drejtën e informimit”, ashtu edhe në legjislacionin “Për organizimin dhe funksionimin e njësive të vetëqeverisjes vendore”. A mund të luajë ai rol brenda autoritetit publik? Patjetër, ne nuk mund të ndërhyjmë në përcaktimin e pozicionit të tij në strukturë, por ligji e ka shumë të qartë në përkufizimin e rolit dhe të detyrave të koordinatorit.</seg>
@@ -306,7 +306,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-06.seg177">Unë gjykoj që më mirë t’u përgjigjeni këtyre dy pyetjeve, që të mos ngatërroheni si në rastin e parë, pasi pyetjet mund të kenë karakter të ndryshëm.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg178">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u24" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u24" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg179">Më duhet të sqaroj të qenët i ftohtë politikisht. Ndoshta nuk jam shprehur qartë ose nuk jam kuptuar qartë, por unë dhe e gjithë Zyra e Komisionerit jemi përpjekur të qëndrojmë të ftohtë ndaj emocioneve politike. Këtë e them me bindje dhe besoj se ia kemi arritur dhe e kemi realizuar. E kam thënë edhe herë tjetër publikisht, jo në formën e sfidës, por nëse dikush ka qoftë edhe dyshimin më të vogël, le të konsultojë të gjithë vendimmarrjen e Komisionerit për të parë nëse në të do të gjejë qoftë edhe një nuancë politike. Nuk ka. Pra, besoj se në këtë pikë duhet të jemi të qartë, sepse më tej humbet roli dhe funksioni i të qenët institucion i pavarur.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg180">Ju përmendët që ka me qindra dhe mijëra ankesa të dërguara. Për hir të së vërtetës...</seg>
           <vocal type="interruption">
@@ -321,7 +321,7 @@
         <u xml:id="ParlaMint-AL_2025-10-06.u25" ana="#chair" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg186">Zoti Komisioner, nuk dua t’ju ndërpres, por kam përshtypjen se jeni duke u përgjigjur për gjë tjetër nga ajo që kërkoi zoti Bardhi. Domethënë, komentet politike janë komentet e tij, të cilave nuk ka nevojë t’u përgjigjeni në qoftë se nuk keni dëshirë, por jemi duke marrë një drejtim tjetër në lidhje me shqetësimet e tij.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u26" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u26" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg187">Unë e kuptoj këtë, por do të ishte mirë që të ishim në të njëjtin opinion sa i përket vlerësimit të institucioneve të pavarura, qoftë edhe kritikave ndaj tyre, por ne jemi mësuar që të përballemi edhe me nuancat politike. Patjetër, përpiqemi të rrimë të ftohtë dhe do të rrimë të ftohtë ndaj tyre. Më duket se unë u përgjigja, sepse pyetja konkrete ishte se çfarë ka bërë Komisioneri. Komisioneri ka bërë atë çfarë është dashur të bëjë në vitin 2021.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg188">Për zgjedhjet e vitit 2023 nuk ka pasur sensibilitete, ashtu si për vitin 2025, por besoj se viti 2025 nuk është objekt i takimit të sotëm, sepse po flasim për raportin e vitit 2024. Besoj se vitin që vjen do të kemi të gjithë kohën e nevojshme për t’i diskutuar edhe këto çështje. Megjithatë, nuk u shmangemi, sepse ne i ndjekim ditë pas dite. Unë ju informova që për vitin 2025 ka pasur një sensibilitet, një ankesë, që e kemi trajtuar. Gjithashtu, jemi njohur edhe me raportin e OSBE-ODIHR-it. Unë ju thashë që kemi kryer monitorimet, por në rastin konkret nuk ka pasur vend për të filluar një hetim administrativ të mirëfilltë.</seg>
         </u>
@@ -329,13 +329,13 @@
           <seg xml:id="ParlaMint-AL_2025-10-06.seg189">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg190">Në vitin 2023 ju keni vendosur një gjobë për subjektin politik Partia Demokratike, por pavarësisht kësaj, edhe ky është zhvillim. Unë kam një pyetje për sqarim. Për termin folklorik “patronazhist”, i referoheni ndonjë baze ligjore? Cilës baze ligjore i referoheni për termin “patronazhist”, që e quajtët “folklorik”?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u28" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u28" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg191">Në këndvështrimin tonë, i thënë, i përdorur shpesh në popull, në ato që lexojmë në medie, natyrisht, si i tillë është trajtuar. Kështu që besoj se përdormi i këtij termi nuk cenon as institucionin, as reputacionin e këtij komisioni.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2025-10-06.u29" ana="#chair" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg192">Jo, ndoshta paragjykon dhe heq këtë gjykimin e ftohtë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u30" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u30" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg193">Megjithatë, nëse më lejoni ta përforcoj...</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg194">Me një pjesë të mirë të anëtarëve të komisionit unë njihem prej vitesh dhe e kam në konsideratë eksperiencën dhe përvojën tuaj politike, por ju ftoj që edhe ju ta keni në konsideratë që, dikur, para shumë vjetësh, edhe unë kam pasur një eksperiencë politike për të cilën jam krenar, dhe kjo më bën ta njoh mirë këtë gjë. Pozicioni në të cilin jam nuk më lejon të mbaj qëndrime politike dhe nuk kam për të mbajtur ndonjëherë. Pra, sa kohë do të jem në këtë pozicion, do të jem i ftohtë. Natyrisht, më besoni që jam në gjendje ta bëj mirë dallimin.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg195">Faleminderit!</seg>
@@ -343,7 +343,7 @@
         <u xml:id="ParlaMint-AL_2025-10-06.u31" ana="#chair" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg196">Përgjigjuni edhe për pyetjen e dytë, para se t’ia jap fjalën zonjës Zaka, për të drejtën e informimit në rastin e ankesave për prokurimet publike nga... Tani, duket butafori të them unë “nga ministrja Diella”, por kështu erdhi momenti, që të bëjmë një pyetje të tillë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u32" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u32" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg197">Atëherë, ashtu siç është bërë publike nga dekreti i Presidentit, por edhe nga vendimmarrja e Kuvendit, ne jemi në administrim dhe në vlerësim të dokumentacionit shkresor në lidhje me të. Në qoftë se nga aktet do të rezultojë që kemi të bëjmë me një autoritet publik, patjetër që do ta përfshijmë në listën e autoriteteve publike dhe do të trajtohet si të gjitha autoritetet e tjera publike. Në qoftë se nuk do të plotësojë kriteret për t’u përfshirë në një autoritet publik, natyrisht që nuk do të trajtohet si i tillë.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg198">Faleminderit!</seg>
         </u>
@@ -358,7 +358,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-06.seg204">Në raport theksohet rëndësia e një trajtimi të veçantë të të dhënave personale të disa kategorive vulnerable, siç janë personat me aftësi të kufizuar, viktimat e dhunës, trafikimit apo krimeve të ndryshme dhe fëmijët. Çfarë protokolli dhe masash të posaçme zbatoni për të siguruar mbrojtje të shtuar dhe për të respektuar standardet ndërkombëtare? Njëkohësisht, si bëhet monitorimi i zbatimit të këtyre masave?</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg205">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u35" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u35" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg206">Faleminderit juve!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg207">Ligji e përcakton në mënyrë shumë të qartë që ne kemi mbrojtje të të dhënave personale, por një kategori e të dhënave personale, që janë këto që përmendët ju, quhen të dhëna sensitive.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg208">Të dhënave sensitive u është dedikuar neni 9 i ligjit, ku garancitë dhe mbrojtja është akoma më e madhe. Pra, për ta thënë më thjesht: në rast se kategoritë e të dhënave personale josensitive mund t’i përpunojmë në mënyrë të ligjshme, edhe kur kemi një interes tjetër publik apo kur vetë subjekti jep pëlqimin, në rastin e të dhënave sensitive jo gjithmonë mjafton pëlqimi i vetë subjektit, madje subjekti mund ta tërheqë këtë pëlqim që ka dhënë në çdo rast.</seg>
@@ -375,7 +375,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-06.seg215">Kur Kryeministri e quan krenari patronazhistin, ju si komisioner a e ndieni si detyrim ligjor apo moral që të reagoni publikisht si mbrojtjes i të dhënave personale?</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg216">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u38" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u38" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg217">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg218">Për sa u përket të dhënave personale që përpunohen nga AKSHI, në radhë të parë duhet të kemi të qartë funksionin që ka AKSHI. AKSHI është motori ndërlidhës i transmetimit të të gjitha të dhënave apo ai mekanizëm që siguron ndërlidhjen e të gjitha databazave nëpërmjet GG-së, pra Government Gateway.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg219">Natyrisht, nëpërmjet e-Albania-s edhe vetë AKSHI merr cilësinë e bashkëkontrolluesit, pra të përpunimit të të dhënave personale, nëpërmjet krijimit të llogarive nga çdo subjekt i mbrojtjes së të dhënave, që, në fund të fundit, është çdo shtetas i Republikës së Shqipërisë që përdor këtë platformë.</seg>
@@ -402,7 +402,7 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u44" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u44" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg229">Ka një specifikë procedurale. Për shkak të statusit, deputeti qëzon një pozitë të veçantë dhe veprimtaria e tij ushtrohet dhe mbrohet nga ligji “Për statusin e deputetit”.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg230">Në qoftë se në cilësinë e deputetit ju dërgoni një kërkesë për informacion pranë kujtdo autoriteti publik, është ligji “Për statusin e deputetit” ai që prevalon në këtë pikë dhe, natyrisht, është jashtë objektit të punës së Zyrës së Komisionerit. Në rast se drejtoheni si qytetar, patjetër që Zyra e Komisionerit do ta shqyrtojë si të gjitha çështjet e tjera që paraqiten pranë saj. Kanë qenë disa raste, për hir të së vërtetës, ku deputetë të ndryshëm të Kuvendit u janë drejtuar autoriteteve publike, nuk kanë marrë përgjigje nga to dhe për këtë shkak janë ankuar pranë Zyrës së Komisionerit. Duket pak si e sajuar, por, në fakt, kjo është thjesht procedurale. Në qoftë se u drejtoheni si deputetë, natyrisht, do t’i nënshtroheni ligjit nr.8551, nëse nuk gaboj, “Për statusin e deputetit”.</seg>
           <vocal type="interruption">
@@ -449,7 +449,7 @@
         <u xml:id="ParlaMint-AL_2025-10-06.u51" ana="#chair" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg256">Komisioner, për të tria çështjet, meqenëse dy çështje mund të grupohen në një.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u52" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u52" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg257">Dakord.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg258">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg259">Nga pikëpamja kronologjike, po filloj me përgjigjen për pyetjen e zotit Bido në lidhje me platformat online: sa garantojnë ato mbrojtjen e të dhënave personale, veçanërisht të fëmijëve? Do të thosha se ky është një problem që sistemi i mbrojtjes së të dhënave e ka, sepse nga pikëpamja teknike kërkohet që këto të jenë të regjistruara te ne. Siç dihet, këto platforma nuk janë të regjistruara në vendin tonë dhe kjo paraqet një problem për sa u përket çështjeve të monitorimit të tyre apo, pse jo, edhe të hetimit administrativ nga ana jonë. Ne jemi përpjekur që këtë handikap për momentin ta zgjidhim nëpërmjet ndërgjegjësimit dhe, jo pa arsye, edhe në raport janë reflektuar takimet me nxënësit. Ne kemi bërë një projekt, jo pa sforco, kemi shkuar në të gjitha shkollat e mesme në të gjithë territorin e vendit, pikërisht për të ndërgjegjësuar për përdorimin e rrjeteve sociale dhe platformave online me të tre komponentët: nxënës, mësues, prindër, sepse mendojmë që kjo është shumë e rëndësishme.</seg>
@@ -471,7 +471,7 @@
         <u xml:id="ParlaMint-AL_2025-10-06.u53" ana="#chair" who="#AL_PERS_JoridaTabaku">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg271">Të gjitha gjërat janë shumë të rëndësishme, por të përgjigjemi për thelbin, sepse këtu ka shumë anëtarë të komisionit që e njohin, për shembull, legjislacionin zgjedhor dhe, ndoshta, nuk kanë nevojë për këtë informacion.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u54" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u54" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg272">Pikërisht, por duhet të kuptojmë këtë që ta sqarojmë.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg273">Kodi Zgjedhor parashikon vendosjen në dispozicion të subjekteve zgjedhore të listave të zgjedhësve. Pra, partitë politike duhet t’i marrin listat e zgjedhësve, duke iu drejtuar Komisionit Qendror të Zgjedhjeve. Çfarë ndodh?! Komisionerët e partive politike në KZA, që i disponojnë listat e zgjedhësve për qendrat e tyre, i vendosin në dispozicion të partive politike. Kjo është një rrugë jo e ligjshme e disponimit apo e përpunimit të këtyre të dhënave, por është periferike për sa i përket çështjes madhore që ngrihet në këtë pikë. Nuk është se ne nuk i kemi bërë konstatimet.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg274">Madje, edhe vetë subjektet politike duhet ta zbatojnë këtë procedurë, pra të mos i bien shkurt që listat e zgjedhësve t’i marrin nga komisionerët e tyre, sepse ato janë lista zgjedhore të përgatitura me të dhëna të përcaktuara të gjendjes civile, që janë në funksion të organeve dhe organizmave që ushtrojnë funksionet e Komisionit Qendror të Zgjedhjeve, ndërsa lista, që vendoset në funksion të partive politike, përpunimin e vetëm të ligjshëm e ka kur vihet në dispozicion nga Komisioni Qendror i Zgjedhjeve. Pra, janë detaje, për të cilat ne kemi punuar, duke i bërë kërkesa të vazhdueshme Komisionit Qendror të Zgjedhjeve, që mban raporte të drejtpërdrejta me subjektet politike.</seg>
@@ -483,7 +483,7 @@
         <u xml:id="ParlaMint-AL_2025-10-06.u56" ana="#regular" who="#AL_PERS_BelindKëlliçi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg277">E kuptoj, dhe është e vërtetë kjo që ju sapo thatë, edhe në kontekstin politik që nuk u gjobit. Kur ju referova opozitës, kuptohej Partia Demokratike, por unë atëherë, për shkak të gjykatave dhe reformës në drejtësi, nuk konsiderohesha kandidat i Partisë Demokratike. Ju e mbani mend shumë mirë. Kemi komunikuar, por i bie që i vetmi precedent, i vendosur në dy palë zgjedhjet e fundit, pa llogaritur këto të tretat, pra të vitit 2025, që e paska shkelur ligjin “Për mbrojtjen e të dhënave personale” qenka vetëm një subjekt opozitar, asnjëherë mazhoranca dhe asnjëherë një kandidat i mazhorancës. Edhe pse ju keni parë në portale, në media, në televizione me qindra raste kronika lajmesh, ku qytetarëve u çohen mesazhe, u çohen letra të personalizuara nëpër adresat e shtëpive të tyre, futen, kategorizohen në databazat e ndryshme, bazuar edhe nevojat më imediate që mund të kenë për çatinë e shtëpisë apo për lejen e të tjera, ndërkohë, i bie që i vetmi problem në këtë vend në 3 palë zgjedhjet e fundit paska qenë një kandidatë i opozitës, që u paksa çuar disa sms promorcionale, le të themi, disa qytetarëve, ku paskemi një qytetarë të revoltuar! Pra, ky qenka produkti i punës së institucionit që ju drejtoni në 3 palë zgjedhjet e fundit. Kjo ishte dhe pyetja ime. Qëndron ajo që ju thatë, në raport me rastin në fjalë, por dua të di, përveç rastit në fjalë, a ka ndonjë precedent tjetër?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u57" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u57" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg278">Patjetër që ka, ka edhe dy sanksione administrative të vendosura ndaj Partisë Socialiste, pikërisht për përpunim jo të ligjshëm të të dhënave personale nga kandidatë, përfaqësues apo deputetë, siç janë edhe dy subjekte të tjera, kontrollues publikë të sanksionuar nga ana e Zyrës së Komisionerit pikërisht për përpunim jo të ligjshëm të të dhënave personale në lidhje me keqpërdorimin apo me mungesën e masave të sigurisë për sa i përket mbrojtjes së të dhënave personale në sistemin e tyre.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg279">Faleminderit!</seg>
         </u>
@@ -528,7 +528,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-06.seg305">Tani në lidhje me pyetjet që u ngritën nga zoti Dhima dhe zoti Çomo, përveç mesazhit të përgjithshëm të institucionit të qarkut Fier, që tre deputetë e përsëritën.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg306">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u65" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u65" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg307">Faleminderit, zonja kryetare!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg308">Sa i përket sigurisë së të dhënave, nga njëra anë ne punojmë fort për forcimin e sistemit të menaxhimit të sigurisë së informacionit, që janë ekskluzivisht për mbrojtjen e të dhënave personale. Natyrisht, jemi në një aspekt më të gjerë edhe për krijimin e kushteve të mbrojtjes kibernetike, që është akoma më e gjerë. Jo domosdoshmërisht një rrjedhje e të dhënave personale mund të shkaktojë incident kibernetik, por kur kemi të bëjmë me sferën e mbrojtjes së të dhënave, patjetër që një incidenti kibernetik e cenon edhe mbrojtjen e të dhënave.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg309">Unë e thashë edhe më parë, ne jemi në një bashkëpunim të ngushtë me AKSK-në, Agjencinë Kombëtare të Sigurisë së Informacionit pikërisht për të koordinuar veprimet në këtë pikë.</seg>
@@ -561,7 +561,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-06.seg330">Faleminderit, zoti Xhafaj!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg331">Zoti Komisioner, fjala për ju!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u69" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u69" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg332">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg333">Të dyja pyetjet janë shumë sfiduese, besoj, ashtu si dhe vetë legjislacioni për Mbrojtjen e të Dhënave Personale, natyrisht pa harruar këtu edhe të drejtën për informim.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg334">Unë do të thosha se nga përpunimi i të dhënave personale jo vetëm që nuk mund të përjashtohet asnjë pushtet, ekzekutiv, legjislativ apo gjyqësor, por nuk mund të përjashtohet asnjë fushë e jetës shoqërore apo ekonomike të vendit, sepse, në qoftë se do të ndalonim përpunimin e të dhënave personale, natyrisht që do të kishim një bllokim të jetës shoqërore apo dhe një bllokim të funksioneve ekonomike.</seg>
@@ -582,7 +582,7 @@
           <seg xml:id="ParlaMint-AL_2025-10-06.seg347">Shihemi nesër në seancën e radhës, me Avokatin e Popullit.</seg>
           <seg xml:id="ParlaMint-AL_2025-10-06.seg348">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-10-06.u71" ana="#regular" who="#AL_PERS_BesnikDervishi">
+        <u xml:id="ParlaMint-AL_2025-10-06.u71" ana="#guest" who="#AL_PERS_BesnikDervishi">
           <seg xml:id="ParlaMint-AL_2025-10-06.seg349">Faleminderit juve!</seg>
           <note type="comment">MBYLLET MBLEDHJA</note>
         </u>

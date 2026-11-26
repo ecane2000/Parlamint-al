@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-05-06" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-05-06" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-05-06</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-05-06</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Bujqësinë, Ushqimin dhe Zhvillimin Rural, 2026-05-06</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Agriculture, Food and Rural Development, 2026-05-06</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KBUZHR" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -111,7 +111,7 @@
           <seg xml:id="ParlaMint-AL_2026-05-06.seg22">Faleminderit, zoti zëvendësministër!</seg>
           <seg xml:id="ParlaMint-AL_2026-05-06.seg23">Fjala për përfaqësuesin e Fondit.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-05-06.u4" ana="#regular" who="#AL_PERS_FatjonNanaj">
+        <u xml:id="ParlaMint-AL_2026-05-06.u4" ana="#guest" who="#AL_PERS_FatjonNanaj">
           <seg xml:id="ParlaMint-AL_2026-05-06.seg24">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-05-06.seg25">I nderuar kryetar,</seg>
           <seg xml:id="ParlaMint-AL_2026-05-06.seg26">Të nderuar anëtarë,</seg>
@@ -188,7 +188,7 @@
           <seg xml:id="ParlaMint-AL_2026-05-06.seg78">Për sa i përket zbatimit dhe nëse është i realizueshëm për 5 vjet ky projekt, mund të bëjnë një përmbledhje përfaqësuesit e Fondit Shqiptar të Zhvillimit, por për sa i përket impaktit që ne kemi ose synojmë të kemi nga ky projekt, paraprakisht gjykojmë që, nëse trendi vjetor i turistëve në këtë zonë ka pasur një normë rritjeje prej gati 5% në vit, mund të kemi edhe një efekt shtesë prej 2% për shkak të lidhshmërisë që do të përmirësojë ky projekt. Mesatarisht një rritje prej gati 10% për vizitor do të siguronte gati 15 deri 20 milionë euro të ardhura në vit shtesë nga zhvillimi i këtij projekti, duke u shoqëruar gjithashtu edhe me një rritje prej 10,5 deri 15% të vlerës së pronës. Pra, këto janë, deri diku, impaktet e pritshme të projektit.</seg>
           <seg xml:id="ParlaMint-AL_2026-05-06.seg79">Për sa i përket zhvillimit të projektit për 5 vjet, mbase përfaqësuesit e FSHZH-së mund të thonë më shumë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-05-06.u13" ana="#regular" who="#AL_PERS_FatjonNanaj">
+        <u xml:id="ParlaMint-AL_2026-05-06.u13" ana="#guest" who="#AL_PERS_FatjonNanaj">
           <seg xml:id="ParlaMint-AL_2026-05-06.seg80">Pikësëpari, për sa i përket pjesës së zbatimit që është përcaktuar 5 vjet, kjo është dakordësuar me bankën që ka bërë edhe një vlerësim të kapaciteteve të Fondit Shqiptar të Zhvillimit. Fondi Shqiptar i Zhvillimit ka disa marrëveshje financimi dhe programe të tilla territoriale, me institucione të ndryshme financiare, përfshirë Bankën Botërore, BERZH-in, Fondin Kuvajtian, Fondin Saudit dhe KfW-në, përveç marrëveshjes së re që presim të nënshkruajmë për të plotësuar pjesën e mbetur, 50% të këtij projekti. Pra, i zotërojmë kapacitetet. Ndërkohë, kuptohet që të gjitha do të realizohen në konsultim dhe në bashkëpunim me institucionet e pushtetit vendor dhe agjencitë e institucionet e tjera rajonale.</seg>
           <seg xml:id="ParlaMint-AL_2026-05-06.seg81">Përveç kësaj, vetë programi shikon edhe një fashë që ka të bëjë me ofrimin e ekspertizës teknike dhe ngritjen e kapaciteteve institucionale, që është ndërkohë e përfshirë në program, përveç kapaciteteve ekzistuese që janë sot në institucionet shqiptare që do të merren me zbatimin e programit.</seg>
           <seg xml:id="ParlaMint-AL_2026-05-06.seg82">Për sa u përket elementeve të ndërlidhjes ndërkufitare, ky është një nga programet që zbaton qeveria shqiptare përmes Fondit Shqiptar të Zhvillimit. Ka dhe projekte të tjera paralele, të cilat janë sinergjike, ndërlidhen me këtë program dhe vetë programi është disenjuar i tillë, për të krijuar këto lloj sinergjish dhe ndërlidhjesh. Investimi ekzistues ose në vazhdim e sipër, që po bëhet me BERZH-in, për të lidhur Shirokën me pjesën e Zogajt, është një investim ndërkufitar, që lidh pjesën e aksesit dhe ndërlidhjes me Malin e Zi. Ndërkohë, ka edhe investime të tjera, që lidhen me pjesën e Alpeve, të cilat përfshihen në buxhetin e shtetit dhe financohen nga qeveria shqiptare apo donatorë të ndryshëm.</seg>

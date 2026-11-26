@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-01-29" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-01-29" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-01-29</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-01-29</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Bujqësinë, Ushqimin dhe Zhvillimin Rural, 2026-01-29</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Agriculture, Food and Rural Development, 2026-01-29</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_KBUZHR" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -90,7 +90,7 @@
           <seg xml:id="ParlaMint-AL_2026-01-29.seg5">Të dyja pikat janë të mbrojtura nga Këshilli i Ministrave nëpërmjet Agjencisë Shtetërore të Programimit Strategjik dhe Koordinimit të Ndihmës (SASPAC) dhe Koordinatorit Kombëtar të IPA-s përkatëse. Të ftuar nga ky institucion janë drejtori, zoti Klajdi Demko, dhe zonja Valbona Kosova, përgjegjëse e Sektorit të Bashkëpunimit Ndërrajonal.</seg>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg6">Atëherë, kolegë, më lejoni ta deklaroj mbledhjen e hapur dhe t’ua jap fjalën përfaqësuesve të institucionit të SASPAC-ut për të paraqitur projektligjin e parë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-01-29.u2" ana="#regular" who="#AL_PERS_KlajdiDemko">
+        <u xml:id="ParlaMint-AL_2026-01-29.u2" ana="#guest" who="#AL_PERS_KlajdiDemko">
           <seg xml:id="ParlaMint-AL_2026-01-29.seg7">Faleminderit, i nderuar kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg8">Të nderuar anëtarë të komisionit, ju falënderoj për mundësinë që më jepet sot për të mbrojtur projektligjin “Për ratifikimin e marrëveshjes së financimit Interreg Europe 2021-2027, të lidhur ndërmjet Republikës së Shqipërisë, Republikës së Francës dhe Komisionit Europian”.</seg>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg9">Kjo marrëveshje përfaqëson bazën ligjore që mundëson pjesëmarrjen e plotë të Shqipërisë në një nga programet më të rëndësishme të Bashkimit Europian për përmirësimin e politikave publike përmes bashkëpunimit ndërrajonal. Programi Interreg Europe është një nga programet me shtrirjen më të gjerë, që përfshin të gjitha shtetet anëtare të Bashkimit Europian, vendet partnere IPA (përfshirë Republikën e Shqipërisë), si dhe Zvicrën dhe Danimarkën.</seg>
@@ -137,7 +137,7 @@
         <u xml:id="ParlaMint-AL_2026-01-29.u7" ana="#chair" who="#AL_PERS_BlendiKlosi">
           <seg xml:id="ParlaMint-AL_2026-01-29.seg41">Po, fjala për zotin Demko.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-01-29.u8" ana="#regular" who="#AL_PERS_KlajdiDemko">
+        <u xml:id="ParlaMint-AL_2026-01-29.u8" ana="#guest" who="#AL_PERS_KlajdiDemko">
           <seg xml:id="ParlaMint-AL_2026-01-29.seg42">Faleminderit, kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg43">Unë do të përpiqem t’i përgjigjem pyetjes suaj duke dhënë të gjithë shpjegimin në nivel administrativ.</seg>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg44">Për sa u përket zonave gjeografike, dua të theksoj që programi Interreg Europe është programi më i madh i bashkëpunimit territorial në Europë. Në të përfshihet e gjithë Europa, duke numëruar 27 vendet anëtare të Bashkimit Europian, Zvicra, Danimarka dhe 7 vende partnere të IPA-s, siç jemi ne, Maqedonia e Veriut dhe Serbia. Për herë të parë ne po bëhemi pjesë e këtij programi dhe po ulemi në të njëjtën tavolinë me Gjermaninë dhe Francën, duke hartuar projekte të përbashkëta, zbatuar projekte të përbashkëta dhe adresuar sfida të përbashkëta. Unë këtu kam një listë me përfituesit e këtij programi, që janë 38 përfitues shqiptarë, institucione publike dhe zona gjeografike që përfshijnë të gjithë territorin e Republikës së Shqipërisë. Kam tri projekte, të cilat do t’i përmend, ndërsa listën e plotë mund ta gjeni të postuar në faqen zyrtare të institucionit tonë. Kemi Bashkinë Tiranë me tri projekte, si dhe Përmetin, Maliqin, Lushnjën, Korçën dhe shumë institucione të tjera qendrore e vendore. Kjo nuk është thjesht një marrëveshje financimi, e cila ka një raport kontributi prej 80% nga Bashkimi Europian dhe 20% nga ana jonë, por ajo u jep mundësi institucioneve shqiptare të bashkëpunojnë drejtpërdrejt dhe të shkëmbejnë praktikat më të mira me vendet e Bashkimit Europian.</seg>
@@ -152,7 +152,7 @@
           <seg xml:id="ParlaMint-AL_2026-01-29.seg49">Në historikun e projekteve Interreg, nga pikëpamja financiare kemi një bilanc ku 90% e përfitueshmërisë financiare shkon nga donatori dhe gati 10% mbetet pjesë përfituese e aktorëve shqiptarë. A kemi një bilanc projektesh për periudhën 2021–2025, që janë mbyllur si vite kalendarike, ndërkohë që programi mbulon periudhën 2021–2027? Gjithashtu, në lidhje me raportimin tuaj se janë 38 institucione përfituese, a kemi përfitime konkrete në fushën e bujqësisë, ushqimit dhe zhvillimit rural, meqenëse jemi edhe komision përgjegjës?</seg>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg50">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-01-29.u11" ana="#regular" who="#AL_PERS_KlajdiDemko">
+        <u xml:id="ParlaMint-AL_2026-01-29.u11" ana="#guest" who="#AL_PERS_KlajdiDemko">
           <seg xml:id="ParlaMint-AL_2026-01-29.seg51">Aktualisht Shqipëria është pjesëmarrëse në 9 programe të bashkëpunimit territorial, duke përfshirë 3 vendet ndërkufitare, dhe në 6 projekte transnacionale. Për sa i përket numrit total të projekteve nga IPA III, dua të theksoj që zbatimi i saj sapo ka nisur dhe janë 293 projekte, me një shumë totale të kontraktuar prej 46,5 milionë eurosh. Ne shpresojmë që ky numër të shkojë përtej 500 projekteve deri në fund të periudhës IPA III. Them 500, sepse duke iu referuar shifrave të IPA II, kur kanë qenë afërsisht 400 projekte, 397 projekte, mendojmë se ambicia jonë, kapacitetet e administratës dhe eksperienca ndër vite janë më të mëdha. Prandaj, numri i projekteve dhe shuma e kontraktuar deri në fund të IPA III do të jetë më i madh sesa tek IPA II.</seg>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg52">Për sa u përket programeve të bashkëpunimit territorial, ato kanë prioritetet e tyre tematike, siç janë: “Europë më inteligjente”, që përfshin inovacionin, digjitalizimin dhe konkurrueshmërinë; si dhe “Europë më e gjelbër”, që përfshin mjedisin dhe klimën, ku përfshihet edhe bujqësia. Pra, bujqësia nuk është një prioritet i drejtpërdrejtë, por është patjetër pjesë e këtyre projekteve zhvillimore në mënyrë të tërthortë.</seg>
         </u>
@@ -183,10 +183,10 @@
           <seg xml:id="ParlaMint-AL_2026-01-29.seg74">Blendi Klosi, Fadil Nasufi, Xhelal Mziu, Saimir Hasalla, Ornaldo Rakipi, Agron Gaxho, Tërmet Peçi, Genti Lakollari, Bledjon Nallbati, Ramadan Likaj, Flamur Hoxha, Artan Luku, Shkurt Lasku dhe Ilirian Pendavinji.</seg>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg75">Të ftuar:</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-01-29.u14" ana="#regular" who="#AL_PERS_KlajdiDemko">
+        <u xml:id="ParlaMint-AL_2026-01-29.u14" ana="#guest" who="#AL_PERS_KlajdiDemko">
           <seg xml:id="ParlaMint-AL_2026-01-29.seg76">drejtor i Drejtorisë së Konvergjencës dhe Kohezionit me BE-në në Agjencinë Shtetërore të Programimit Strategjik dhe Koordinimit të Ndihmës</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-01-29.u15" ana="#regular" who="#AL_PERS_ValbonaKosova">
+        <u xml:id="ParlaMint-AL_2026-01-29.u15" ana="#guest" who="#AL_PERS_ValbonaKosova">
           <seg xml:id="ParlaMint-AL_2026-01-29.seg77">përgjegjëse e Sektorit të Bashkëpunimit Ndërrajonal në Agjencinë Shtetërore të Programimit Strategjik dhe Koordinimit të Ndihmës</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-01-29.u16" ana="#chair" who="#AL_PERS_BlendiKlosi">
@@ -196,13 +196,13 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2026-01-29.u17" ana="#regular" who="#AL_PERS_KlajdiDemko">
+        <u xml:id="ParlaMint-AL_2026-01-29.u17" ana="#guest" who="#AL_PERS_KlajdiDemko">
           <seg xml:id="ParlaMint-AL_2026-01-29.seg80">Nuk kam komente.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-01-29.u18" ana="#chair" who="#AL_PERS_BlendiKlosi">
           <seg xml:id="ParlaMint-AL_2026-01-29.seg81">Prezantoni aktin përkatës.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-01-29.u19" ana="#regular" who="#AL_PERS_KlajdiDemko">
+        <u xml:id="ParlaMint-AL_2026-01-29.u19" ana="#guest" who="#AL_PERS_KlajdiDemko">
           <seg xml:id="ParlaMint-AL_2026-01-29.seg82">Për sa i përket ndryshimit nr. 1 të marrëveshjes ndërkufitare Shqipëri–Kosovë, ai ka karakter juridik e procedural dhe synon miratimin e angazhimit financiar të Bashkimit Europian për vitin 2025, në shumën prej 3,6 milionë euro, pa prekur objektin, qëllimin dhe arkitekturën themelore të programit. Ratifikimi i këtij ndryshimi përbën një kusht të domosdoshëm për vijimësinë e zbatimit të programit dhe për garantimin e sigurisë juridike në administrimin e fondeve në kuadër të programit IPA III. Të gjitha dispozitat e tjera të marrëveshjes së financimit, të ratifikuara me ligjin nr. 71/2024, mbeten të pandryshuara.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-01-29.u20" ana="#chair" who="#AL_PERS_BlendiKlosi">
@@ -247,7 +247,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg108">Po, drejtor, fjala për ju.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-01-29.u25" ana="#regular" who="#AL_PERS_KlajdiDemko">
+        <u xml:id="ParlaMint-AL_2026-01-29.u25" ana="#guest" who="#AL_PERS_KlajdiDemko">
           <seg xml:id="ParlaMint-AL_2026-01-29.seg109">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg110">Është më e thjeshtë nëse i përgjigjem zotit Hoxha në fillim.</seg>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg111">Në programin e bashkëpunimit ndërkufitar Shqipëri-Kosovë, zoti Hoxha, Shqipëria është e drejtuese e programit, por programi menaxhohet në tërësi, nga pikëpamja financiare, nga delegacioni europian në Tiranë, i cili, në bashkëpunim me strukturat shqiptare, harton thirrjet për propozim për projektin, por, në momentin e vlerësimit të projektit, ky veprim kryhet nga Komisioni Europian.</seg>
@@ -276,7 +276,7 @@
           <seg xml:id="ParlaMint-AL_2026-01-29.seg128">Fjala për drejtorin Demko.</seg>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg129">Më pas fjalën e kanë kërkuar zoti Likaj dhe zoti Gaxho.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-01-29.u29" ana="#regular" who="#AL_PERS_KlajdiDemko">
+        <u xml:id="ParlaMint-AL_2026-01-29.u29" ana="#guest" who="#AL_PERS_KlajdiDemko">
           <seg xml:id="ParlaMint-AL_2026-01-29.seg130">Faleminderit, kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg131">Faleminderit për pyetjen!</seg>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg132">Do të mundohem të përgjigjem në tërësi se sa përfiton bujqësia nga ky program. Ky program, me një vlerë 9,7 milionë euro, që përfshin një zonë gjeografike të përcaktuar, por jo qarkun e Lezhës, financon dy prioritete tematike, që janë mbrojtja dhe ruajtja e burimeve mjedisore (pra, bujqësia nuk është prioritet i drejtpërdrejtë, por është në mënyrë të tërthortë), si dhe zhvillimi i turizmit të qëndrueshëm kulturor e natyror. Edhe te prioriteti i dytë, bujqësia është e përfshirë indirekt në këtë prioritet. Pra, nëse ti ke një program apo do një lloj studimi për bujqësinë, mund t’i referohesh njërit prej këtyre dy prioriteteve gjatë hapjes së thirrjes dhe të aplikosh.</seg>
@@ -294,7 +294,7 @@
           <seg xml:id="ParlaMint-AL_2026-01-29.seg140">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg141">Fjala për drejtorin. Ju lutem, shkurt dhe një përgjigje shumë konkrete për pyetjen e kolegut deputet.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-01-29.u32" ana="#regular" who="#AL_PERS_KlajdiDemko">
+        <u xml:id="ParlaMint-AL_2026-01-29.u32" ana="#guest" who="#AL_PERS_KlajdiDemko">
           <seg xml:id="ParlaMint-AL_2026-01-29.seg142">Faleminderit, kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg143">Zoti Mziu, IPARD-i nuk është kompetencë e drejtorisë sime dhe as e Agjencisë së Programimit Strategjik. Unë përfaqësoj Agjencinë në kuadër të fondeve të bashkëpunimit territorial, që përfshijnë projekte ndërkufitare dhe transnacionale, pra Shqipëri-Kosovë dhe transnacionale Interreg Europe. Nuk kam asnjë informacion për pjesën e IPARD-it, sepse është jashtë fushës sime dhe të Agjencisë. Për zonën gjeografike...</seg>
         </u>
@@ -305,7 +305,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg145">Nuk kam përgjigje, tha.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-01-29.u34" ana="#regular" who="#AL_PERS_KlajdiDemko">
+        <u xml:id="ParlaMint-AL_2026-01-29.u34" ana="#guest" who="#AL_PERS_KlajdiDemko">
           <seg xml:id="ParlaMint-AL_2026-01-29.seg146">Për sa i përket zonës gjeografike, siç e përmenda, është caktuar nga Komisioni Europian, në momentin kur është bërë programimi i IPA II. SASPAC-u dhe institucionet e tjera shqiptare insistojnë që ta zgjerojnë këtë zonë gjeografike dhe, patjetër, ne do të kërkojmë që jo vetëm Dibra të përfshihet te Kosova, por edhe Shkodra. Sa më e madhe të jetë zona gjeografike, aq më i madh është përfitimi për Republikën e Shqipërisë, nuk ka dyshim këtu. i Gjithsesi, programet ndërkufitare referohen zakonisht zonës gjeografike, por jo domosdoshmërisht kufirit. Qarku i Dibrës dhe institucionet e saj kanë mundësi të aplikojnë në programe të tjera, sepse ne jemi pjesë e ADRION-it, pjesë e South Adriatic-ut, jemi pjesë e programit të ri urban, që është vetëm për bashkitë, dhe pjesë e Euro-MED-it, e programeve që përfshijnë të gjithë territorin e Republikës së Shqipërisë. Pra, të gjitha institucionet e qarkut të Dibrës e kanë këtë mundësi. Unë kam këtu listën e Interreg Europe, që ka Bashkinë e Maliqit, Bashkinë e Pustecit, që tregon se edhe institucionet e vogla mund të konkurrojnë në këto programe. Por, edhe nëse nuk munden, Agjencia Shtetërore e Programimit Strategjik u ofron asistencë, u ka ofruar asistencë në shkrim projektesh, në orientim, në konsultime dhe në trajnime, pra jemi gjithmonë të gatshëm t’i asistojmë.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-01-29.u35" ana="#chair" who="#AL_PERS_BlendiKlosi">
@@ -344,7 +344,7 @@
           <seg xml:id="ParlaMint-AL_2026-01-29.seg168">A ka koment tjetër nga kolegët, para se t’ua kaloj fjalën përfaqësueses së SASPAC-ut, për ta përmbyllur diskutimin? Nuk ka.</seg>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg169">Fjala për ju, drejtor, për një përmbyllje të shqetësimeve të kolegëve, por edhe një fjalë të fundit për 2 projektaktet, që ju paraqisni që paraqisni për miratim.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-01-29.u40" ana="#regular" who="#AL_PERS_KlajdiDemko">
+        <u xml:id="ParlaMint-AL_2026-01-29.u40" ana="#guest" who="#AL_PERS_KlajdiDemko">
           <seg xml:id="ParlaMint-AL_2026-01-29.seg170">Faleminderit, kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg171">Faleminderit, të nderuar anëtarë për pyetjet!</seg>
           <seg xml:id="ParlaMint-AL_2026-01-29.seg172">Referuar shqetësimeve dhe pyetjeve të ngritura nga zoti Likaj, Bashkia e Malësisë së Madhe ka qenë përfituese, me sa më kujtohet, se nuk e kam listën përpara, në programin trilateral Itali – Shqipëri – Mali i Zi, IPARD II. Me siguri duhet të jetë edhe pjese e programeve të tjera përfituese, gjithsesi, mund t’jua paraqesim zyrtarisht listën e përfituesve jo vetëm të Malësisë së Madhe, por edhe të të gjitha institucioneve përfituese në qarkun e Shkodrës. Gjithashtu, mund të theksoj se aktualisht është në proces vlerësimi thirrja e parë e IPARD III Mali i Zi – Shqipëri me vlerë 7,4 milionë euro, që përfshin posaçërisht zonën e Shkodrës, të Lezhës dhe Bashkinë e Tropojës në qarkun e Kukësit. Kështu që, brenda 1 ose 2 ditësh do të mund t’jua paraqesim listën e saktë.</seg>

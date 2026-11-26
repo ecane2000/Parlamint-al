@@ -1,0 +1,4 @@
+ches_id,survey_edition,observation_year,survey_party_id,corpus_party_id,party_abbrev,variable_id,value,scale,source_id,reliability
+CHES_2019_AL_PS_LRGEN,CHES_2019_Candidate_Survey,2019,4001,AL_ORG_PS,PS,lrgen,3.73,0 (extreme left) to 10 (extreme right),SRC_KQZ_2025,Verified
+CHES_2019_AL_PD_LRGEN,CHES_2019_Candidate_Survey,2019,4002,AL_ORG_PD,PD,lrgen,7.18,0 (extreme left) to 10 (extreme right),SRC_KQZ_2025,Verified
+CHES_2019_AL_PL_LRGEN,CHES_2019_Candidate_Survey,2019,4003,AL_ORG_PL,LSI/PL,lrgen,4.27,0 (extreme left) to 10 (extreme right),SRC_KQZ_2025,Verified

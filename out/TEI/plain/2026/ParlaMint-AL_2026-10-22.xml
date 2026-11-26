@@ -3,8 +3,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-10-22</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-10-22</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Seancë plenare, 2026-10-22</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Plenary sitting, 2026-10-22</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
         <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
         <respStmt>
@@ -172,7 +172,7 @@
           <seg xml:id="ParlaMint-AL_2026-10-22.seg45">Siç dëgjuam zotin Këlliçi, do të dëgjojmë edhe zotin Balla. Ju lutem!</seg>
           <seg xml:id="ParlaMint-AL_2026-10-22.seg46">Zoti Këlliçi, ju dëgjuam!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-10-22.u4" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2026-10-22.u4" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2026-10-22.seg47">Zoti Kryetar, Zonja dhe zotërinj deputetë, Asnjë deklaratë nuk e justifikon dot dhunën.</seg>
           <seg xml:id="ParlaMint-AL_2026-10-22.seg48">Policia e Shtetit meriton mbështetje. Policia e Shtetit po përmbush detyrën, sipas përcaktimeve që ajo ka. Shqipëria duhet të vijojë ...</seg>
           <vocal type="interruption">

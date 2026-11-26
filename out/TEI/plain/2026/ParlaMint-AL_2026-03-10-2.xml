@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-03-10-2" xml:lang="sq" ana="#parla.committee.standing #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Burimet Natyrore, Infrastrukturën dhe Zhvillimin e Qëndrueshëm, 2026-03-10</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Natural Resources, Infrastructure and Sustainable Development, 2026-03-10</title>
+        <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
+        <meeting corresp="#AL_ORG_KBNIZHQ" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
+        <respStmt>
+          <resp xml:lang="sq">Përgatitur nga</resp>
+          <resp xml:lang="en">Prepared by</resp>
+          <name>ParlaMint-AL</name>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="sq">CLARIN ERIC</orgName>
+          <orgName xml:lang="en">CLARIN ERIC</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>5.0</edition>
+      </editionStmt>
+      <extent>
+        <measure unit="speeches" quantity="26" xml:lang="sq">26 fjalime</measure>
+        <measure unit="speeches" quantity="26" xml:lang="en">26 speeches</measure>
+        <measure unit="words" quantity="4641" xml:lang="sq">4641 fjalë</measure>
+        <measure unit="words" quantity="4641" xml:lang="en">4641 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Kuvendi i Shqipërisë; CLARIN ERIC</publisher>
+        <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2004</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="sq">Ky punim publikohet nën licencën Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+          <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+        </availability>
+        <date when="2026-08-28">2026-08-28</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="sq">Procesverbal i Kuvendit të Shqipërisë</title>
+          <idno type="URI">https://kuvendiwebfiles.blob.core.windows.net/webfiles/202610061029291154Procesverbal datë 10.03.2026%2C ora 11%3B00.pdf</idno>
+          <date when="2026-03-10">2026-03-10</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="sq">ParlaMint-AL: korpus i krahasueshëm i seancave parlamentare, i përputhshëm me ParlaMint v5.</p>
+        <p xml:lang="en">ParlaMint-AL: comparable parliamentary corpus of Albania, conforming to ParlaMint v5.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1" />
+          <tagUsage gi="body" occurs="1" />
+          <tagUsage gi="div" occurs="1" />
+          <tagUsage gi="note" occurs="1" />
+          <tagUsage gi="u" occurs="26" />
+          <tagUsage gi="seg" occurs="111" />
+          <tagUsage gi="vocal" occurs="1" />
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kuvendi i Shqipërisë</name>
+          <name type="city">Tiranë</name>
+          <name type="country" key="AL">Albania</name>
+          <date when="2026-03-10">2026-03-10</date>
+        </setting>
+      </settingDesc>
+      <langUsage>
+        <language ident="sq" xml:lang="sq">shqip</language>
+        <language ident="en" xml:lang="en">English</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-08-28">: Initial conversion to ParlaMint 5.0 TEI XML.<name>ParlaMint-AL</name></change>
+    </revisionDesc>
+  </teiHeader>
+  <text ana="#reference">
+    <body>
+      <div type="debateSection">
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u1" ana="#chair" who="#AL_PERS_AnilaDenaj">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg1">Mirëmëngjesi!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg2">Të nderuar kolegë deputetë,</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg3">Sot në rendin e ditës të Komisionit për Burimet Natyrore, Infrastrukturën dhe Zhvillimin e Qëndrueshëm, kemi miratimin e kalendarit të punimeve të komisionit për periudhën 2 deri 20 mars 2026, të përditësuar, si dhe shqyrtimin e projektligjit "Për ratifikimin e marrëveshjes së huas ndërmjet Republikës së Shqipërisë, si huamarrës, përfaqësuar nga Ministria e Financave, dhe Korporatës Elektroenergetike Shqiptare (KESH), e cila është agjencia e zbatimit të projektit, dhe KfW Frankfurt am Main, për rehabilitimin e hidrocentralit të Fierzës". Ne jemi komision për dhënie mendimi, kurse relator është deputeti Ornaldo Rakipi. Përpara se të flasë relatori, këtë nismë do ta prezantoj Ministria e Financave, e përfaqësuar nga drejtoresha e Përgjithshme e Borxhit Shtetëror, zonja Kesiana Halili, dhe zonja Edona Bilali, zëvendësministre e Infrastrukturës së Energjisë dhe Infrastrukturës. Gjithashtu, të ftuar janë edhe zoti Ermal Nuri dhe zoti Fatos Bundo, drejtor i Njësisë së Zbatimit të Projekteve.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg4">Shumë faleminderit që jeni këtu!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg5">Ndoshta prezantimin nga ana e procesit dhe projektit, meqenëse KESH-i është agjencia përkatëse, mendoj ta fillojë zonja Bilali, pastaj zonja Kesiana Halili.</seg>
+          <vocal type="interruption">
+            <desc>Ndërhyrje pa mikrofon.</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg6">Patjetër, zoti Himçi për procedurë.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u2" ana="#regular" who="#AL_PERS_BlendiHimçi">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg7">Faleminderit, kryetare!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg8">Nisur nga pika e parë e rendit të ditës, që është miratimi i kalendarit të punimeve, nuk e di nëse do ta trajtojmë tani apo më vonë, por do të doja që bashkëngjitur të ishte edhe kopja e kalendarit, sepse nuk e shikoj që ta kemi në dispozicion. E kemi në e-mail, por, meqenëse është hapur seanca, do të ishte mirë ta kishim edhe në letër.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg9">Së dyti, lidhur me portet private, me jahtet, meqenëse propozimi i nisur nuk ka kaluar në fazë konsultimi, kërkoj që të planifikohet një tryezë me grupe të caktuara interesi për t'u thirrur apo për të mbajtur një qëndrim përpara se të vazhdohej me diskutimin në komision të këtij projektligji.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg10">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u3" ana="#chair" who="#AL_PERS_AnilaDenaj">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg11">Faleminderit!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg12">Në raport me dokumentacionin, dua t'ju informoj se ka një problem teknik për ta mundësuar printimin, por është dërguar me e-mail dhe prandaj mendova ta diskutonim më vonë. Megjithatë, jam shumë dakord që ta hedhim për votim në fund të kësaj seance dhe, në qoftë se nuk ka asnjë kundërshti nga asnjë koleg deputet, mendoj se seancën dëgjimore me grupet e interesit, që ju propozuat, ta planifikojmë ose të premten, ose të hënën, kur të jetë mundësia. Besoj që këshilltarët e komisionit dhe koordinatori i kanë mbajtur shënim dhe kushdo nga deputetët që ka sugjerime për grupet e interesit, le t’ia përcjellë Redit, në mënyrë që të bëhen ftesat në kohë optimale.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg13">Ndonjë koment tjetër për agjendën? Nuk ka.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg14">Atëherë, fillojmë me prezantimin.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg15">Zonja Bilali, fjala për ju.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u4" ana="#regular" who="#AL_PERS_EdonaBilali">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg16">E nderuar kryetare e Komisionit, Të nderuar anëtarë të Komisionit për Burimet Natyrore, Infrastrukturën dhe Zhvillimin e Qëndrueshëm, Ju falënderoj për mundësinë për të paraqitur sot dhe për të argumentuar projektligjin "Për marrëveshjen e huas ndërmjet Republikës së Shqipërisë, përfaqësuar nga Ministria e Financave, KESH-it dhe KfW-së". Flitet për një hua prej 40 milionë eurosh, e cila është nënshkruar më 15 dhjetor të vitit 2025. Kjo marrëveshje është një marrëveshje shtesë në vijim të financimit të mëparshëm për të njëjtin projekt: rehabilitimin e hidrocentralit të Fierzës, i cili është një nga asetet strategjike të sistemit elektroenergjetik shqiptar. Objektivi kryesor është modernizimi i komponentëve elektromekanikë, rritja e sigurisë, eficiencës dhe jetëgjatësisë së hidrocentralit me të paktën 30 vjet. Praktikisht, kjo ndërhyrje do të mundësojë përmirësimin e kapacitetit prodhues nga burimet e rinovueshme.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg17">Në këndvështrimin e integrimit evropian dhe bashkëpunimit ndërkombëtar, kjo marrëveshje ka një rëndësi të veçantë për disa arsye.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg18">Së pari, financimi sigurohet në kuadër të bashkëpunimit financiar ndërmjet Republikës së Shqipërisë dhe Republikës Federale të Gjermanisë dhe është pjesë e instrumenteve të asistencës zhvillimore, në përputhje me kriteret ndërkombëtare të OECD-së.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg19">Së dyti, projekti bashkëfinancohet nga Kuadri i Investimeve të Ballkanit Perëndimor, nga WBIF, gjë që e lidh drejtpërdrejt këtë investim me prioritetet e Bashkimit Evropian për rajonin dhe tranzicionin e gjelbër energjetik.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg20">Së treti, projekti kontribuon në realizimin e objektivave kombëtare dhe evropiane për sigurinë e furnizimit me energji, rritjen e prodhimit nga burime të rinovueshme, rritjen e fleksibilitetit të sistemit për integrimin e kapaciteteve të tjera në energji të gjelbër dhe forcimin e qëndrueshëm të stabilitetit të sistemit elektroenergjetik.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg21">Sa u takon kushteve financiare të marrëveshjes, ato janë të qëndrueshme për financat publike.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg22">Kjo marrëveshje do të lidhet me një normë interesi fikse 3,9% në vit. Kjo kredi ka maturim pesëmbëdhjetëvjeçar, një periudhë grace period prej 5 vjetësh për principalin, ndërkohë që shlyerja e kredisë nis në vitin 2030 dhe përfundon në vitin 2041.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg23">E rëndësishme për t’u theksuar është që huaja mbështetet nga garancia e Republikës Federale Gjermane dhe përfiton subvencion interesi nga buxheti gjerman, gjë që reflekton edhe nivel të lartë besimi nga partnerët tanë evropianë në këtë projekt në sektorin energjetik shqiptar.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg24">Nga ana e zbatimit, ky projekt vendos një standard të lartë transparence dhe qeverisjeje, sepse do të zbatohen standardet mjedisore dhe sociale ndërkombëtare. Procedura e prokurimit bëhet sipas rregullave të KfW-së, që është institucioni financiar që e mbështet, dhe raportimi i rregullt dhe monitorimi i vazhdueshëm bëhet edhe nga vetë financuesi.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg25">Në planin strategjik, duhet theksuar që KESH-i aktualisht siguron 55% të prodhimit vendas të energjisë elektrike dhe Fierza është elementi kryesor rregullues i kaskadës së Drinit. Modernizimi i saj është thelbësor për rehabilitimin dhe krejt stabilitetin energjetik të vendit dhe për integrimin e burimeve të reja të energjisë së rinovueshme në rrjet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg26">Të nderuar deputetë, ky nuk është vetëm një akt financiar, por është një investim strategjik në sigurinë energjetike të vendit, në tranzicionin e gjelbër, në qëndrueshmërinë ekonomike dhe në forcimin e partneritetit tonë me Bashkimin Evropian dhe shtetet anëtare.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg27">Ratifikimi i kësaj marrëveshjeje do të mundësojë vijimin pa ndërprerje të një projekti kritik kombëtar dhe do të garantojë që një nga asetet tona më të rëndësishme të sistemit energjetik të mbetet i sigurt, efikas dhe i qëndrueshëm për dekadat në vijim.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg28">Për këto arsye, ju ftoj që ta mbështesni!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg29">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u5" ana="#chair" who="#AL_PERS_AnilaDenaj">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg30">Faleminderit, e nderuar!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg31">Zoti Rakipi.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u6" ana="#regular" who="#AL_PERS_OrnaldoRakipi">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg32">Faleminderit, zonja zëvendësministre!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg33">E nderuar kryetare,</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg34">Të nderuar kolegë deputetë, Projektligji "Për ratifikimin e marrëveshjes së huas ndërmjet Republikës së Shqipërisë, Korporatës së Elektroenergjetike Shqiptare dhe KfW-së për rehabilitimin e hidrocentralit të Fierzës" është pjesë e një angazhimi të rëndësishëm strategjik për sigurinë energjetike të vendit dhe përmbushjen e objektivave tona të zhvillimit të qëndrueshëm dhe integrimit europian.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg35">Hidrocentrali i Fierzës është një prej veprave më të rëndësishme elektroenergjetike të vendit, si nga kapaciteti prodhues, ashtu edhe për rolin e tij kritik si rregullator i kaskadës së Drinit. Marrëveshja e huas, që kërkon ratifikimin, parashikon vënien në dispozicion të një financimi prej 40 milionë eurosh, të akorduara nga qeveria gjermane përmes KfW-së. Kjo shumë i shtohet financimit të mëparshëm të miratuar përmes ligjit nr. 44/2022, duke e çuar në një nivel të ri tërësinë e punimeve të nevojshme për rehabilitimin e hidrocentralit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg36">Nëpërmjet këtij financimi shtesë synohet modernizimi i infrastrukturave dhe pajisjeve të amortizuara, rritja e efikasitetit të prodhimit dhe garantimi i funksionimit të sigurt të hidrocentralit për të paktën 30 vjetët e ardhshme.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg37">Pse ishte i domosdoshëm ky financim shtesë? Agregatet e Fierzës janë instaluar rreth 39 vjet më parë dhe sot ndodhemi në një nivel të tillë amortizimi, që rrezikon ndalesat e papritura, dëmtimet e kushtueshme dhe humbje të konsiderueshme energjie.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg38">Sipas vlerësimeve teknike, degradimi i pajisjeve mund të shkaktojë humbje energjie, që përkthehet në afro 2,6 milionë euro humbje financiare në vit. Këto janë kosto që sistemi ynë energjetik nuk mund t’i përballojë në afate të gjata, sidomos në periudha të paqëndrueshmërisë klimatike dhe të tregjeve rajonale të energjisë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg39">Projekti kontribuon në avancimin e detyrimeve tona evropiane në sektorin e energjisë dhe është në përputhje me Marrëveshjen e Stabilizim-Asociimit dhe me parimet e bashkëpunimit financiar të BE-së. Marrëveshja e propozuar është e hartuar në përputhje me Kushtetutën e Republikës së Shqipërisë, me ligjin nr. 43/2016 “Për marrëveshjet ndërkombëtare në Republikën e Shqipërisë”, si dhe me Rregulloren e Kuvendit. Ajo parashikon terma financiarë të favorshëm për shtetin shqiptar: interes fiks 3%, tarifë menaxhimi 1%, tarifë angazhimi të ulët për shumën e padisbursuar dhe një maturim prej pesëdhjetë vjetësh, ku përfshihen edhe pesë vjet periudhë pa pagesë të principalit. Punimet pritet të përfundojnë brenda korrikut të vitit 2030, duke siguruar që procesi të jetë i planifikuar, i monitoruar dhe i koordinuar në mënyrë të vazhdueshme midis institucioneve shqiptare dhe partneritetit gjerman.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg40">Duke marrë parasysh të gjitha këto elemente, si: rëndësia strategjike, urgjenca teknike, ndikimi ekonomik dhe përputhshmëria e plotë juridike, ju ftoj ta votojmë këtë projektligj.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u7" ana="#chair" who="#AL_PERS_AnilaDenaj">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg41">Faleminderit!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg42">Zonja Muzhaqi.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u8" ana="#regular" who="#AL_PERS_BoraMuzhaqi">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg43">Shumë faleminderit zëvendësministres për prezantimin!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg44">Kam tri pyetje, që mendoj se janë edhe në interes të publikut.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg45">Pyetja e parë lidhet me pjesën e financimit. Me sa kuptova nga leximi i relacionit, ka dy komponentë të financimit, pjesa e KfW-së dhe pjesa e WBIF-it. Pyetja më konkrete është: përveç principalit, sa pritet t’u kushtojë qytetarëve shqiptarë kjo hua që propozohet sot?</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg46">Pyetja e dytë lidhet me kohëzgjatjen e rehabilitimit, sa do të zgjasë rehabilitimi për t’u përfunduar i plotë dhe kur do të jetë hera tjetër që do ta rehabilitojmë, pra, sa do të jetë vlefshmëria e këtij procesi?</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg47">Pyetja e tretë lidhet me mënyrën se si ky investim do ta bëjë më efecient transmetimin e energjisë dhe pjesën e furnizimit me energji. A kemi një përllogaritje se sa do të rritet efikasiteti, apo edhe humbjet në rrjet nga ana teknike? Kjo jo vetëm sa u përket qytetarëve të zonës së Fierzës, por edhe të tjerëve, duke e ditur që është një investim kombëtar, jo vetëm lokal.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg48">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u9" ana="#regular" who="#AL_PERS_EdonaBilali">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg49">Lidhur me pyetjen e parë se sa do të na kushtojë kredia, principali është 40 milionë euro, ndërkohë që interesi është 9,8 milionë euro. Ka një fee menaxhimi të kontratës prej 400 000 euro, ndërkohë që komisioni është 169 000 euro. Në total është 10,4 milionë euro, ndërkohë dua të theksoj që 10,12 milionë euro është vlera e grantit që ne marrim nga WBIF-i. Pra, praktikisht, efekti i kostos së kredisë netohet komplet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg50">Pyetja se sa zgjat rehabilitimi, është parashikuar që të përfundojë në vitin 2030, ndërkohë që ky është një proces, i cili ka nisur shumë herët, ka nisur që në vitin 2017 me një asistencë të Bankës Botërore, ku është bërë një raport paraprak vlerësimi, i cili do të kushtonte ishte 43,3 milionë euro, që është vlera e kredisë së parë që ne kemi për Fierzën, por ndërkohë që në vitin 2022 u mor financimi prej 43,3 milionë eurosh, u bë inspektimi në terren nga ekspertët ndërkombëtarë dhe u evidentuan ndërhyrje shtesë të domosdoshme të paparashikuara. Duhet të kemi parasysh një element teknik: punimet rehabilituese të turbinave mësohen në detaje vetëm pasi demontohet turbina, e cila është në gjenerim të vazhdueshëm dhe nuk mund të ndalojë punën për një kohë të gjatë. Agregati është bërë vetëm me mirëmbajtje periodike nga KESH-i dhe nga vetë hidrocentrali, ndërkohë që nuk ka pasur një ndërhyrje të qenësishme në 39 vjet. Ndërhyrja nga KfW-ja është parashikuar të jetë ndërhyrje strukturore, e plotë dhe parashikueshmëria për kohëzgjatjen e kësaj ndërhyrjeje është të paktën 30 vjet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg51">Kështu që, për 30 vjetët e ardhshme shpresojmë që mos të kemi një nevojë tjetër për mirëmbajtje.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg52">Lidhur me pyetjen e tretë se sa do ta rrisë eficiencën e energjisë, duhet të kemi parasysh që në çdo moment që ne nuk ndërhyjmë në rehabilitimin e këtij agregati humbja është 53 gigavat/orë në vit dhe është 4% e kapacitetit vjetor, me një kosto ekonomike të konsiderueshme në sistemin energjetik shqiptar, dhe buxhetit i kushton 2,6 milionë euro në vit. Ndërkohë, dua t'i kërkoj edhe drejtorit të bëjë një shtesë lidhur me atë se si do të përkthehet ekonomikisht kursimi pas kësaj ndërhyrjeje.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u10" ana="#guest" who="#AL_PERS_FatosBundo">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg53">Përshëndetje!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg54">Ashtu siç tha edhe zonja zëvendësministre, ne sot jemi me 4% minus nga eficienca e turbinave, ndërkohë që në vitin 1985 e pesë është bërë një ndërhyrje e pjesshme në rrotën e punës të agregatit numër 3 dhe agregatit numër 1, dhe u arrit në konkluzionin që eficienca u rrit me 7% pas rehabilitimit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg55">Kjo do të thotë që ne sot kemi minus 4 plus 7%, që do ta kemi pas rehabilitimit, domethënë, eficienca është relativisht e konsiderueshme. Flasim për 4 turbina, domethënë flasim për 40 mega, që do të thotë që është një gjysmë turbinë, sepse sot një turbinë e Fierzës është 150, por flasim për një turbinë sa në Vaun e Dejës, domethënë eficienca është evidente dhe është e vërtetuar. Duhet të keni parasysh që rrotat e punës janë prodhuar 50 vjet më parë dhe ka qenë një teknologji tjetër, pa u bërë modelime në 3D, ndërsa sot janë bërë modelime në 3D të rrotës së punës të turbinës dhe është arritur në koeficientin që minimumi është 7% i rritjes së eficiencës. Pastaj, gjatë testimit, gjatë komisionimit të turbinës ne do të bëjmë edhe matjet tona për të parë se sa është rritur realisht. Kjo për të justifikuar edhe kohëzgjatjen e kësaj ndërhyrjeje, sepse nuk mund të fillojmë punë me të 4 turbinat njëkohësisht, sepse kemi nevojë për energji dhe, në qoftë se nuk punon Fierza, ka efekte edhe në Koman, edhe në Vau Dejës, sepse furnizohen nga këto turbina. Kështu që, kjo na kushton në kohëzgjatje dhe kjo do të zgjasë minimalisht deri në 2030-ën, sepse merret turbinë pas turbine, komisionohet turbina e parë, pastaj demontohet turbina e dytë.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u11" ana="#chair" who="#AL_PERS_AnilaDenaj">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg56">Zoti Hoti.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u12" ana="#regular" who="#AL_PERS_KlitiHoti">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg57">Faleminderit, zonja zëvendësministre!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg58">Faleminderit, panelit!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg59">Unë e dëgjova dhe e lexova me shumë kujdes raportin. Për pjesën e humbjeve, e falënderoj drejtorin për sqarimin lidhur me 5,3 kilomegavat humbje, që i bie pak a shumë 2,6 milionë euro në vit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg60">Sigurisht që ne jemi dakord që ky investim duhet bërë, por a është bërë një llogari se për sa kohë kthehet ky investim?</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg61">Pjesa tjetër është 3,9%, a është më e mira që mund të marrim? Pse po e them këtë?! Në mënyrë që të mos jemi inferiorë në negociatat që bëjmë, pavarësisht se kush është partneri përballë. Pra, a keni komunikuar me institucione të ngjashme po kaq serioze sa KfW-ja?</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg62">Nëse prishet përpara kohe ky agregat, cilat janë humbjet, në mënyrë që ta justifikojmë 100% këtë investim që po bëjmë?</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg63">Sigurisht që Fierza duhet rehabilituar, sepse ne e dimë se cila është Fierza dhe sa shumë rëndësi ka për ne, aq më shumë për energjinë e jeshile e të tjerë. Prandaj, propozoj që ne si komision të bëjmë një vizitë në Fierzë dhe ta shohim nga afër atë investim shumë të madh dhe të rëndësishëm për ekonominë shqiptare. Nëse Fierza funksionon mirë, ndryshon edhe GDP-ja e Shqipërisë; nëse Fierza funksionon mirë dhe menaxhohet mirë, jo vetëm nga pikëpamja e agregateve, por edhe nga pikëpamja e sistemit ujëmbledhës, prodhon shumë energji për shqiptarët. Unë si deputet i qarkut të Shkodrës e di shumë mirë se çfarë të mirash sjell menaxhimi i mirë kaskadës e Drinit dhe çfarë dëmesh sjell mosmenaxhimi i mirë. Kështu që, sugjeroj dhe propozoj një vizitë në Fierze për të kuptuar më mirë që edhe ne si ligjvënës të dimë t'i suportojmë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg64">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u13" ana="#regular" who="#AL_PERS_EdonaBilali">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg65">I nderuar deputet, faleminderit për pyetjet!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg66">Lidhur me pyetjen për sa kohë kthehet investimi, dua t’i rikthehem një moment kushteve të kësaj kredie dhe për të argumentuar se kjo nuk është vetëm marrëveshje për sa i përket rëndësisë strategjike, por edhe nga ana financiare është një ndër marrëveshjet më të mira që mund të bëjë qeveria shqiptare. Unë e përmenda pak principalin, që është vlera që ne do të kthejmë, plus tre komponentët e tjerë: interesat, menaxhimi i kontratës, që është 400 000 euro dhe komisioni, që është 10,4 milionë euro, ndërkohë që ne marrim grant nga WBIF 10,12 milionë euro, pra zerohet efekti i vlerave shtesë që ne do të paguajmë në fund për këtë kredi dhe ngelet praktikisht vetëm principali. Pra, marrim 40, në fund do të kthejmë përsëri 40, duke e netuar diferencën. Përveç kësaj ka edhe një element tjetër: edhe vetë 40 milionë euroshi që po investohet, kthimi i investimit, garancia që ekspertët, të cilët kanë bërë parashikimin teknik dhe financiar për këtë vlerë, është 2,8 milionë euro që ne po humbasim për shkak se nuk po e bëjmë këtë ndërhyrje dhe garancia që ata japin është të paktën 30 vjet, tri dekada. 2,6 milionë euro herë 30 vjet bëjnë 78 milionë euro, por që do t'i humbisnim nëse nuk e bëjmë. Pra, jemi vetëm në një situatë win-win.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg67">Një element po kaq i rëndësishëm lidhet me pyetjen tuaj të dytë për normën e interesit, a është 3,9 më e mira që mund të bëjmë, këtu ka një element tjetër që do të doja ta theksoja paraprakisht: për këtë kredi huaja është duke u mbështetur nga garancia e Republikës Federale Gjermane dhe përfiton subvencion interesi nga buxheti gjerman, jo nga ai shqiptar. Pra, kjo, praktikisht, reflekton besimin dhe marrëdhënien jo vetëm strategjike ndërmjet një vendi shumë të rëndësishëm të Bashkimit Evropian, por edhe besimin dhe vlerat e përbashkëta sa i përket investimit në energji të gjelbër edhe në asetin më të rëndësishëm të prodhimit tonë të energjisë vendase. Unë nuk po i përmend me emra, por po them vetëm institucionet financiare ndërkombëtare të tjera në Shqipëri, të cilat ofrojnë normat 4,09%, 4,15%, 4,79% dhe 5,02%. Patjetër që Ministria e Financave kujdeset që ne të marrim kredinë më të lirë të mundshme në treg. Në këtë rast është vlerë e shtuar që kemi KfW-në, sepse prezenca e tyre në energji në kaq shumë vjet në Shqipëri, që para viteve ’90, është një garanci e shtuar edhe për mbarëvajtjen e këtij projekti në momentin që do të fillojë implementimi.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u14" ana="#chair" who="#AL_PERS_AnilaDenaj">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg68">Në raport me vizitat, sigurisht që çdo sugjerim është i mirëpritur. Zotit Marlind, i cili vjen si mbështetje në këtë komision për të koordinuar pjesën e raportit të monitorimeve me vizitat në terren, po ia përcjellim edhe këtë kërkesë. Ashtu siç e bëmë me ERE-n, me AKEP-in me postën e të tjerë, mund ta bëjmë edhe me Fierzën, me propozimin e çdo deputeti.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg69">Po, zoti Hoti.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u15" ana="#regular" who="#AL_PERS_KlitiHoti">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg70">A mund të na thoni diçka për pjesën e menaxhimit të kaskadës së Drinit, pavarësisht se nuk është relevante për atë çfarë keni ardhur sot, por është shumë e rëndësishme, edhe për GDP-në e Shqipërisë dhe fitimet që mund të kemi prej kësaj kaskade, por edhe për konsekuencat dhe problemet që mund të ketë zona e Nënshkodrës në qoftë se do të ketë përmbytje? Me informacionin që kam, ka pasur protokolle përpara, por, me informacionin që kam, nuk po implementohet ashtu siç duhet. Cila është arsyeja pse shitet më lirë dhe blihet më shtrenjtë?</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg71">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u16" ana="#guest" who="#AL_PERS_FatosBundo">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg72">Faleminderit!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg73">Në vijim të të gjitha investimeve që ka bërë KfW-ja, unë mund t’ju raportoj këtu sot që nuk është vetëm rehabilitimi elektromekanik i Fierzës, por tashmë ka përfunduar totalisht rehabilitimi i të gjitha portave të shkarkimit në Fierzë, po ashtu i financuar nga KfW-ja. Vjet ne inauguruam, përsëri nga KfW-ja, qendrën dispeçer të monitorimit për të gjithë kaskadën e Drinit, që është në godinën e KESH-it, dhe është një teknologji shumë moderne. Në këtë qendër dispeçer monitorohet çdo 15 sekonda çdo sinjal që vjen nga tri HEC-et që janë në kaskadën e Drinit.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg74">Dua të raportoj gjithashtu që nëpërmjet investimeve të Sekretariatit Shtetëror Zvicerian, Fierza është pajisur me të gjithë sensorët e mundshëm, duke filluar nga diga, pjesët elektromekanike, zhvendosja e digës, urat nëntokësore, ku të gjitha këto sinjale vijnë në kohë reale në qendrën dispeçer, që monitorohet totalisht. Sot nuk ndodh kurrë, siç ka ndodhur më parë, që porta e shkarkimit të hapet me telefon, çdo gjë është e monitoruar në një ekran shumë të madh, me të dhëna të sakta se sa hapet, sa shkarkon, ku përmbytet e të tjerë. Aty është hartuar edhe harta e përmbytjes dydimensionale, në mënyrë që të gjithë operatorët e dispeçerisë në KESH të kontrollojnë në kohë reale që, në qoftë se do të shkarkohen 500 metër kub, ku do të shkojë kjo njollë. Sivjet nuk ka pasur përmbytje gjatë kohës që ne kishim prurje. Sigurisht që do të ketë, por jo nga hidrocentrali. Kjo qendër dispeçer, e cila është shumë moderne, është e financuar nga KfW-ja në shumën 2,5 milionë euro dhe është në operativitet të plotë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg75">Pra, ky menaxhim bëhet në mënyrën më perfekte të mundshme.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u17" ana="#regular" who="#AL_PERS_KlitiHoti">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg76">Si e komentoni ju faktin që nuk është përmbytur nga hidrocentrali, por është përmbytur nga faktorë të tjerë? Kjo është shumë e rëndësishme për pjesën e kompensimit që nuk i është bërë zonës së nënshkodrës, sepse për mua është një shqetësim i madh, të cilin e realisht e kam shtruar, por që akoma nuk kam marrë një përgjigje as nga Bashkia e Shkodrës dhe as nga ndonjë një ...</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u18" ana="#guest" who="#AL_PERS_FatosBundo">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg77">Në momentin që ndodhën përmbytjet, niveli i Fierzës ishte 22 metra poshtë.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg78">Domethënë, ne kemi një bateri, një rezervë, në mënyrë që kur vjen pllota, ne ta menaxhojmë brenda liqenit të Fierzës, nuk është shkarkuar nga Fierza. Kjo do të thotë që ne e mbrojtëm të gjithë zonën e nënshkodrës, ose pjesën nga Komani deri në Vaun e Dejës.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u19" ana="#regular" who="#AL_PERS_EdonaBilali">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg79">Dua të shtoj vetëm një fjali, meqenëse është edhe e qarkut. Edhe kjo kredi ka një komponent smart që lidhet me digjitalizimin. Praktikisht, meqenëse edhe ju jeni njohës i mirë i sistemeve të informatikës, ajo çfarë po synohet është lehtësimi i vendimmarrjes për të gjithë zinxhirin e komandës. Kjo do të thotë se parametrat në kohë reale dhe parashikimet e skenarëve që vetë softuerët të japin, e lehtësojnë vendimin a duhet shkarkuar, sa duhet shkarkuar dhe efekti që pritet. Pra, me secilën vendimmarrje paraqitet pasoja që sjell. Është vërtetë një vepër dhe një investim i vazhdueshëm edhe në teknologjinë e informacionit, të cilat vetëm kur i shikon nga afër ua kupton vlerën, por disa herë vendimmarrjet janë transmetuar edhe nga kjo qendër kontrolli, që është veçanërisht interesante në zyrat e KESH-it.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg80">Ndërkohë, siç e tha edhe drejtori, kalimet e ujit në sipërfaqe të këtij dimri që lamë pas në zonën e Shkodrës nuk vijnë nga hidrocentrali.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg81">Faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u20" ana="#chair" who="#AL_PERS_AnilaDenaj">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg82">Zoti Jahaj.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u21" ana="#regular" who="#AL_PERS_KlevisJahaj">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg83">Në fakt, unë nuk kisha ndonjë pyetje, thjesht në formë komenti dhe diskutimi, si dhe në vazhdimësi të diskutimeve që janë bërë këtu. Besoj se marrëveshja qeveritare që është me qeverinë gjermane dhe materializohet nëpërmjet KfW-së për menaxhimin e projekteve të rëndësishme, jo vetëm në sektorin e energjisë së ujit, por edhe në sektorë të tjerë, është një nga bankat për zhvillim më të rëndësishme, jo vetëm për afrimin e normave më të favorshme për menaxhimin e tyre, por, gjithashtu, edhe për garancinë për implementimin e investimeve. Duke qenë se të gjitha procedurat janë në bazë te guidelines dhe procedurave që ndiqen me Bankën Gjermane për Zhvillim, kjo është një garanci për suksesin e këtyre investimeve. Ishte shumë e qartë edhe në prezantimin tuaj, por edhe në relacionin e paraqitur që kostot e mosndërhyrjes tani patjetër që do të vazhdojnë të shtohen. Duke qenë se ka një periudhë të mosndërhyrjes në këto agregate për më shumë se 30 vjet, patjetër që rrit edhe rrezikshmërinë që mund të sjellë mosinvestimi dhe zëvendësimi i tyre. Të gjitha investimet, siç parashikohen edhe tani, parashikohen për 25-30 vjetët e ardhshme, duke bërë të mundur që të gjitha këto investime që kryhen tani të shërbejnë edhe për më vonë. Besoj se nuk ka asnjë vend për koment, në krahasim edhe me vitet e tjera të mëparshme, për menaxhimin që është bërë për Fierëzën. Kjo jo vetëm për shkak të investimeve, por edhe në menaxhimin e kuotave dhe prodhimit të energjisë. Kjo është parë jo vetëm në mbulimin që ka ajo për konsumin e brendshëm, por, gjithashtu, edhe në dëmet që shkaktonte më përpara në përmbytjet ose për zonat përreth.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg84">Unë besoj që ne si komision duhet ta vlerësonim këtë marrëveshje dhe të vazhdonim me miratimin e saj, për t’i dhënë mundësi që Korporata Elektroenergjetike të vazhdojë përmirësimet e saj, jo vetëm në zëvendësimin e agregateve të mëparshëm, por edhe në digjitalizimin, që u përmende këtu.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg85">Shumë faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u22" ana="#chair" who="#AL_PERS_AnilaDenaj">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg86">Po, faleminderit!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg87">Zoti Himçi.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u23" ana="#regular" who="#AL_PERS_BlendiHimçi">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg88">Unë nuk e kam në formë pyetje, por në formën e komentit. Biem dakord edhe ne, si përfaqësues të opozitës, që investimi për rikonstruksionin e hidrocentralit të Fierëzës është i domosdoshëm. Pa diskutim që pas 30 vjetësh duhet rikonstruksioni dhe për këtë jemi dakord, por për sa i përket marrëveshjes së huas për vlerën prej 40 milionë eurosh, për këtë nuk biem dakord. Kjo për arsye të vetme: buxheti i shtetit ka pasur kapacitetet për ta mbuluar me të ardhurat e veta edhe pa hyrë në marrëveshje huaje. Kjo, e parë edhe në keqpërdorimin e fondeve që ka bërë qeveria deri tani, qoftë edhe me atë tunelit të Llogarasë, ku janë shpërdoruar 50 milionë euro, ku shumë mirë 40 milionë euro mund të kishin shkuar për rikonstruksionin, gjë që është provuar tashmë edhe nga SPAK-u në aferën korruptive të ish-zëvendëskryeministres Belinda Balluku.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg89">Ndaj, qëndrimi ynë përfundimtar në lidhje me marrëveshjen e huas do të jetë kundër.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg90">Ju faleminderit!</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u24" ana="#chair" who="#AL_PERS_AnilaDenaj">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg91">Unë mendoj që ne në këtë komision gjithmonë kemi diskutuar për projektligjin e parashikuar në rendin e ditës. Gjithmonë ka tendenca për të dalë jashtë diskutimit për projektligjin dhe për të bërë pakte politike ndryshe, por projektligji është shumë i qartë dhe nuk është modeli i parë i investimeve në Shqipëri, sidomos për vepra kaq të rëndësishme, ku huaja dhe granti qërshetohen në mënyrë kaq perfekte, gjë që u prezantua nga zëvendësministrja, ku pjesa e interesit është komplet e mbuluar nga pjesa e grantit. Këto janë marrëveshje që në Ministrinë e Financave janë të rralla dhe janë shumë të mirëpritura, sepse falë WBIF-it na është mundësuar një gjë e tillë. Më përpara, kur nuk kishim këtë mbështetje të projekteve në WBIF, kjo nuk ekzistonte, ishte vetëm kredi me kushte të cilat vërtet ishin me afate më të gjata, me grace period, por normalisht interesi nuk kompensohej në asnjë formë nga granti. Kështu që, falë kësaj mbështetjeje, falë procesit të integrimit dhe të gjitha projekteve brenda procesit të integrimit kjo vjen si një risi. Kështu që, është e mirëvlerësuar dhe falënderues, ndërsa çështjet e tjera le t’ia lëmë drejtësisë të flasë dhe ne të fokusohemi te ky projektligj.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg92">Në qoftë se jemi gati, mendoj të kalojmë në votim, kuorumi plotësohet, madje është me një pjesëmarrje absolute.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg93">E hedhim për votim projektligjin "Për ratifikimin e marrëveshjes së huas ndërmjet Republikës së Shqipërisë, huamarrësi përfaqësuar nga Ministria e Financave dhe Korporatës Elektroenergjetike Shqiptare (KESH), agjencia e zbatimit të projektit dhe KfW Frankfurt am Main për rehabilitimin e hidrocentralit të Fierëzës". Kush është dakord në parim? Kundër? Abstenim?</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg94">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg95">Vijojmë me miratimin nen për nen.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg96">Neni 1. Kush është dakord? Kundër? Abstenim?</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg97">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg98">Neni 2. Kush është dakord? Kundër? Abstenim?</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg99">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg100">Kalojmë në votimin në tërësi.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg101">Kush është dakord? Kundër? Abstenim?</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg102">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg103">E hedhim në votim edhe pikën e parë të rendit të ditës, kalendarin, në qoftë se zoti Himçi është i qartë.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u25" ana="#regular" who="#AL_PERS_BlendiHimçi">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg104">Për sa i përket projektligjit të parashikuar për javën që vjen "Për disa shtesa dhe ndryshime në ligjin "Për krijimin dhe organizimin e funksionit të parqeve teknologjike dhe shkencore", nëse është e mundur, të krijohet mundësia për një dëgjesë me grupet e interesit, të cilat janë të interesuara qoftë për parqet teknologjike, qoftë për etiketimin e produkteve me ndikim në energji.</seg>
+        </u>
+        <u xml:id="ParlaMint-AL_2026-03-10-2.u26" ana="#chair" who="#AL_PERS_AnilaDenaj">
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg105">Dakord, ditën e premte, nëse të gjithë kemi mundësi të jemi prezent dhe të kemi kuorumin e nevojshëm, do ta sugjeroja si ditë për dëgjesat me grupet e interesit për projektligjet e propozuara nga zoti Himçi, sikurse ftoj çdo anëtar të komisionit për të depozituar te koordinatori listën e grupeve të interesit për t’u njoftuar brenda ditës së sotme për mbledhjen e ditës së premte. A jemi dakord me këtë shtesë në kalendar dhe ta hedhim për miratim kalendarin? Dakord.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg106">E hedhim për miratim kalendarin e punimeve.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg107">Kush është dakord? Kundër? Abstenim?</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg108">Miratohet.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg109">Faleminderit!</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg110">Në lidhje me mbledhjen e dytë, atë të orës 12:00, dua t’ju kërkoj, kolegë deputetë, të mos largohemi shumë, pasi jemi duke pritur të përfundojë Komisioni i Ligjeve dhe, duke qenë ne komision përgjegjës, duhet t'i presim të gjitha komisionet e tjera të përfundojnë. Në qoftë se ka një njoftim përpara orës 12:00 të mblidhemi për mbledhjen e radhës.</seg>
+          <seg xml:id="ParlaMint-AL_2026-03-10-2.seg111">Shumë faleminderit!</seg>
+          <note type="comment">MBYLLET MBLEDHJA</note>
+        </u>
+      </div>
+    </body>
+  </text>
+</TEI>

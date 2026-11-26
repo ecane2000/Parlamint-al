@@ -3,8 +3,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-09-24</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-09-24</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Seancë plenare, 2026-09-24</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Plenary sitting, 2026-09-24</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
         <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
         <respStmt>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-07-03" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-07-03" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-07-03</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-07-03</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Çështjet Ligjore dhe Administratën Publike, 2026-07-03</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Legal Affairs and Public Administration, 2026-07-03</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_CLAP" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -104,7 +104,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-03.seg17">Mungojnë: Arian Ndoja.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg18">Të ftuar:</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-03.u3" ana="#regular" who="#AL_PERS_KlodianBraho">
+        <u xml:id="ParlaMint-AL_2026-07-03.u3" ana="#guest" who="#AL_PERS_KlodianBraho">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg19">drejtues i Prokurorisë së Posaçme kundër Korrupsionit dhe Krimit të Organizuar, (SPAK)</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-03.u4" ana="#regular" who="#AL_PERS_VladimirMara">
@@ -125,7 +125,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-03.seg26">Edhe një herë, faleminderit të gjithëve që jeni sot këtu!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg27">Fjala është për ju, zoti Braho.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-03.u9" ana="#regular" who="#AL_PERS_KlodianBraho">
+        <u xml:id="ParlaMint-AL_2026-07-03.u9" ana="#guest" who="#AL_PERS_KlodianBraho">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg28">Të nderuar deputetë, në përmbushje të detyrimit kushtetues, kam nderin të paraqes raportin vjetor të Strukturës së Posaçme për vitin 2025. Ky raportim bën të mundur paraqitjen në mënyrë të hapur dhe të përgjegjshme se cilat kanë qenë rezultatet kryesore, sfidat e hasura dhe drejtimet, ku kërkohet më shumë konsolidim.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg29">Viti 2025 ka qenë një vit pune intensiv për SPAK-un. Veprimtaria jonë është zhvilluar në kushtet e volumit të lartë të çështjeve penale, shpesh me natyrë komplekse, me lidhje ndërkombëtare dhe me ndikim të drejtpërdrejtë në interesin publik. Krimi i organizuar ka marrë gjithnjë e më shumë dimension transnacional, ndërsa hetimet për korrupsion dhe pastrimin e produkteve të veprës penale kërkojnë kapacitete të specializuara, koordinim ndërinstitucional dhe bashkëpunim të ngushtë me partnerët tanë ndërkombëtarë. Në këtë kuadër, Prokuroria e Posaçme ka vijuar të ushtrojë ndjekjes penale dhe të përfaqësojë akuzën në gjyq me fokus jo vetëm te ndjekja e përgjegjësisë individuale penale, por edhe te goditja e përfitimit ekonomik nga veprimtaritë kriminale. Për ne, lufta kundër korrupsionit dhe kundër krimit të organizuar nuk matet vetëm me numrin e procedimeve apo numrin e personave të dënuar, por edhe me aftësinë për të identifikuar, sekuestruar dhe konfiskuar pasuri të krijuara në mënyrë të paligjshme. Puna jonë zhvillohet nën një vëmendje të lartë publike, e cila është e kuptueshme për natyrën e mandatit që ushtron SPAK-u. Kjo vëmendje nuk e zëvendëson standardin ligjor me të cilin veprojmë, por na kujton çdo ditë përgjegjësinë për të punuar me integritet, maturi dhe ekspertizë të plotë me ligjin.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg30">Në të njëjtën kohë, raportimi para Kuvendit nuk lidhet vetëm me paraqitjen e rezultateve vjetore, por edhe me mënyrën se si institucioni u përgjigjet rekomandimeve të Kuvendit dhe i kthen ato në proces pune konkrete. SPAK-u i ka trajtuar këto rekomandime si pjesë të konsolidimit të tij institucional, me fokus forcimin e analizës strategjike dhe rritjen e cilësisë së hetimit dhe bashkëpunimit ndërinstitucional. Për këtë arsye, në vijim do të ndalem te masat e marra për zbatimin e rekomandimeve kryesore të Kuvendit dhe hapat që SPAK-u ka ndërmarrë për secilin prej tyre.</seg>
@@ -255,7 +255,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-03.seg137">Faleminderit, zoti Bylykbashi!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg138">Zoti Braho, e keni fjalën për përgjigje, brenda natyrës që ka raportimi në Komisionin për Çështjet Ligjore dhe Administratën Publike.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-03.u17" ana="#regular" who="#AL_PERS_KlodianBraho">
+        <u xml:id="ParlaMint-AL_2026-07-03.u17" ana="#guest" who="#AL_PERS_KlodianBraho">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg139">Faleminderit, kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg140">Faleminderit, zoti Bylykbashi!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg141">Unë i mbajta shënim pyetjet tuaja, sepse brenda kishin edhe komente.</seg>
@@ -280,7 +280,7 @@
         <u xml:id="ParlaMint-AL_2026-07-03.u19" ana="#regular" who="#AL_PERS_OerdBylykbashi">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg154">Çështja "Balluku" na prodhoi një mekanizëm, i cili ndoshta ka rikthyer imunitetin e zyrtarëve të lartë shtetërorë me veshje politike, siç janë ministrat dhe deputetët. Pra, ne e kufizuam më 2012-ën, tashmë është rikthyer në një formë tjetër. A keni një strategji për këtë gjë? Për sa na takon ne, ne jemi që, në çdo rast që vjen, kjo të mos jetë e diskutueshme. Është gjykata që do të shohë garancitë më pas, por jemi kthyer në një situatë, ku praktikisht çfarë bëmë më 2012-ën, u zhbë në fillim të vitit 2026.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-03.u20" ana="#regular" who="#AL_PERS_KlodianBraho">
+        <u xml:id="ParlaMint-AL_2026-07-03.u20" ana="#guest" who="#AL_PERS_KlodianBraho">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg155">Në lidhje me çështjen konkrete qëndrimi i prokurorisë është publik.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg156">Për sa i përket situatës kushtetuese dhe ligjore, imuniteti ndalon vendosjen dhe caktimin e masës së sigurimit, por nuk e ndalon prokurorinë që të zhvillojë hetime të plota dhe të pavarura.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg157">Sigurisht, ndonjëherë mungesa e një mase mund ta vështirësojë një hetim të caktuar, edhe mund ta dëmtojë, por ne nuk jemi institucioni që miratojmë ligje. Ne kemi këtë kuadër kushtetues dhe ligjor dhe jemi të detyruar t’i bindemi këtij kuadri kushtetues ligjor. Të ishim ne pala që miraton ndryshimet kushtetuese apo ligjore, personalisht mendoj se nuk duhet të ketë imunitet fare, por ky është kuadri ligjor dhe kushtetues.</seg>
@@ -303,7 +303,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-03.seg168">Faleminderit, zoti Pacaj!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg169">Zoti Braho.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-03.u24" ana="#regular" who="#AL_PERS_KlodianBraho">
+        <u xml:id="ParlaMint-AL_2026-07-03.u24" ana="#guest" who="#AL_PERS_KlodianBraho">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg170">Faleminderit për pyetjen!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg171">Pyetja juaj lidhet me një çështje të ndjeshme, me një çështje konkrete, me pretendime për veprime procedurale apo hetimore, por ajo që mund të them është se kjo çështja është në hetim dhe hetimet vazhdojnë. Nuk kam koment tjetër për këtë çështje.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg172">Unë e kuptoj pjesën e përfaqësuesve ligjorë apo të trashëgimtarëve të viktimave, e kuptoj ndjeshmërinë e rastit, por nuk e zgjidhim dot në këtë seancë dëgjimore këtë çështje dhe ato pretendime.</seg>
@@ -336,7 +336,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg186">Ju lutem, prokurori e ka marrë pyetjen, kështu që dëgjoni përgjigjen!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-03.u29" ana="#regular" who="#AL_PERS_KlodjanBraho">
+        <u xml:id="ParlaMint-AL_2026-07-03.u29" ana="#guest" who="#AL_PERS_KlodianBraho">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg187">Pyetja është shumë procedurale, të më falni, por nuk kam komente për çështje konkrete!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg188">Prokurori i çështjes ka detyrën të kryejë çdo veprim hetimor të nevojshëm dhe të domosdoshëm, që do të thotë se mund të kryejë veprime qoftë brenda Shqipërisë apo në vende të tjera duke përdorur mjetet e bashkëpunimit ndërkombëtar. Është kompetencë e grupit të hetimit për të vlerësuar se çfarë veprimi duhet të kryejë dhe si duhet ta kryejë.</seg>
         </u>
@@ -376,7 +376,7 @@
         <u xml:id="ParlaMint-AL_2026-07-03.u40" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg202">Po, zoti prokuror.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-03.u41" ana="#regular" who="#AL_PERS_KlodjanBraho">
+        <u xml:id="ParlaMint-AL_2026-07-03.u41" ana="#guest" who="#AL_PERS_KlodianBraho">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg203">Në radhë të parë, ne nuk na vjen ndonjë dosje e gatshme. Ky perceptim është i gabuar. Patjetër që kemi bashkëpunim ndërkombëtar, partnerët dhe autoritete të tjera na përcjellin informacione apo dokumentacione që ne u kërkojmë, por nuk bëjnë analizë dhe verifikim të provave, sepse këto i kryen vetë SPAK-u, prokurorët dhe hetuesit. Kështu që ne nuk mund të mos jua njohim këtë meritë grupeve hetimore për çështjet që ato kanë ngritur. Konkretisht, çështjet që lidhen me aplikacionet e kriptuara janë 100% punë hetimore e grupeve të hetimit në SPAK.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg204">Pyetje tjetër ishte: a ka pasur dekonspirime për kapjen e personave në kërkim? Nëse prokurori do të konstatojë apo ka konstatuar që në një rast të caktuar mund të ketë dekonspirim ka detyrimin të fillojë hetimet dhe të kërkojë personat përgjegjës. Mund t'ju them se, po, ka pasur dhe mund të ketë në hetim procedime konkrete që mund të lidhen me dekonspirim të hetimeve. Madje, në disa raste, së bashku me ndjekjen penale që prokurorët e çështjeve kanë bërë për personat e përfshirë në krimin e organizuar jo rastësisht kanë ngritur aty edhe akuzë, kanë marrë edhe masa ligjore ndaj punonjësve dhe ish-punonjësve në strukturat shtetërore dhe disa prej tyre janë dërguar edhe për gjykim.</seg>
         </u>
@@ -388,7 +388,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-03.seg207">Këtë, unë do ta konsideroja veprim hetimor thelbësor nga ana e SPAK-ut, megjithëse ky është opinioni im, nuk ka lidhje me ju, ju keni një opinion tjetër. Më pas është opinioni publik që e vlerëson se kush ka të drejtë, ju apo unë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg208">Pyetja tjetër është: a mban përgjegjësi prokurori në qoftë se, siç është rasti i ndodhur para pak kohësh, dënohen në shkallë të parë 14 nëpunës shtetërorë të ARRSH-së, në mos gaboj, për korrupsion, bashkëpunim apo ku di unë se çfarë? Në shkallë të dytë 10 veta marrin pafajësinë, pas 6 apo 7 vjetësh nëpër gjyqe, dhe vetëm 4 mbeten të dënuar me masa dënimi jashtëzakonisht të vogla, qesharake do të thosha, krahasuar me bujën me të cilën janë kapur atëherë. A mban përgjegjësi prokurori? Pra, në qoftë se eventualisht 10 veta dalin të pafajshëm, pasi i ke mbajtur në burg apo për ndjekje penale për 6 vjet rresht dhe në fund fare gjykata ta rrëzon, a ka ndonjë mekanizëm që të mbajë përgjegjësi prokurori, që është zoti i çështjes? A ka një Zot mbi të që t'i thotë: dëgjo, nuk futen njerëzit kështu në burg dhe në fund fare dalin të pafajshëm. A ka një mekanizëm të tillë? A ekziston një mundësi për t’i tërhequr veshin?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-03.u44" ana="#regular" who="#AL_PERS_KlodjanBraho">
+        <u xml:id="ParlaMint-AL_2026-07-03.u44" ana="#guest" who="#AL_PERS_KlodianBraho">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg209">Është perceptim i gabuar që prokurori nuk mban përgjegjësi, apo prokurori i SPAK-ut nuk mban përgjegjësi. Prokurori është një ndër funksionet dhe funksionarët më të kontrolluar në punën e tij. Në radhë të parë e kontrollon publiku, e kontrolloni ju sot, e kontrollon gjykata, e kontrollon ILD-ja, e kontrollojnë edhe gjykatat në shkallët më të larta. Në parim edhe pafajësia është një zgjidhje që është parashikuar në ligj, edhe mund të ndodhë, sepse fakti që prokurori ngre një akuzë jo automatikisht kjo do të përkthehet në vendim. Rezultatet e punës, ku përfshihen edhe pafajësitë apo kohëzgjatjet e çështjeve dhe mënyra e tyre e zgjidhjes janë objekt, së pari, i vlerësimit të punës së prokurorit, vlerësim, të cilin e bën Këshilli i Lartë i Prokurorisë dhe, së dyti, mund të jenë objekt i verifikimeve dhe i procedimeve disiplinore që mund të kryejë Inspektori i Lartë i Drejtësisë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg210">Pra, janë dy mënyra, që ekzistojnë dhe parashikohen në ligj, që mund ta kontrollojnë prokurorin në raste të tilla, nëse ato pafajësi apo shkelje të tjera kanë ardhur për shkak të prokurorit, sepse mund të vijnë edhe për shkak të gjyqtarit, nuk është e thënë se ka gabuar automatikisht prokurori.</seg>
         </u>
@@ -401,7 +401,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-03.seg216">Tjetra, në një pjesë të mirë të ngjarjeve shumë të forta të korrupsionit, të arrestimeve të bujshme e të tjera me radhë, që e kanë qëzuar opinionin publik, tashmë ka një valë lirimesh, si nga paraburgimi, ashtu edhe dënime qesharake, siç është 60 orë shërbim punë në komunitet. Ndërkohë, burri i huaj apo zonja në fjalë, janë disa, akuzohen se kanë deformuar tendera miliona apo dhjetëra miliona euro. A ka një shqetësim, a po ndodh ndonjë gjë në marrëdhëniet midis prokurorisë, SPAK-ut dhe gjykatës?</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg217">Arrestohen, arrestohen dhe arrestohen dhe në fund fare ose përfundojnë me shërbim prove, turp i madh, ose janë fare të pafajshëm. Çfarë po ndodh? A keni ndonjë analizë? Unë e kam shqetësim, po ju, a e keni shqetësim këtë, apo jo?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-03.u46" ana="#regular" who="#AL_PERS_KlodjanBraho">
+        <u xml:id="ParlaMint-AL_2026-07-03.u46" ana="#guest" who="#AL_PERS_KlodianBraho">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg218">Ju po u referoheni rasteve që mendoni se janë...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -426,7 +426,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-03.seg227">Zoti prokuror, fjala për ju, nëse keni përgjigje.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg228">Më pas fjalën e ka zoti Mile.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-03.u50" ana="#regular" who="#AL_PERS_KlodianBraho">
+        <u xml:id="ParlaMint-AL_2026-07-03.u50" ana="#guest" who="#AL_PERS_KlodianBraho">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg229">Kam përshtypjen se e keni keqkuptuar përgjigjen. Kur thashë prokurori, përfshi institucionin e prokurorisë, nuk kisha si qëllim të bëja ndarjen midis prokuror të çështjes dhe drejtuesit të prokurorisë. Prokuroria para gjykatës është një, pavarësisht kompetencave që ka brenda prokurorisë prokurori i çështjes dhe drejtuesi.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg230">Së pari, ne nuk e konstatojmë një dukuri të tillë. Ky është perceptimi juaj.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg231">Së dyti, edhe dënimi me orë pune, nuk e kam parasysh se çfarë rasti mund t'i referoheni, është një dënim që e parashikon ligji. Gjyqtari nuk është noter për të noterizuar aktet e palëve, por është pikërisht për të vlerësuar. Unë nuk di që të ketë ndonjë rast që dikujt, i cili ka fituar miliona euro, t'i jetë caktuar dënimi me orë pune, prandaj jua dhashë atë përgjigje. Në qoftë se prokurori nuk është dakord me palët, prokuroria, po e rirregulloj, ka të drejtat procedurale që ka. Ne kemi si detyrë dhe përgjegjësi të luftojmë krimin e organizuar dhe korrupsionin, por me mjete ligjore. Unë nuk mund të shkoj dhe të debatoj me gjyqtarin, pse e liroi?! Prokuroria ka mjetet ligjore, por ka edhe institucione të tjera që bëjnë kontrollin qoftë midis gjykatave, apo qoftë për sjelljet e gjyqtarëve. Ne kemi kompetencat që kemi.</seg>
@@ -455,7 +455,7 @@
         <u xml:id="ParlaMint-AL_2026-07-03.u55" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg245">Zoti Braho.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-03.u56" ana="#regular" who="#AL_PERS_KlodianBraho">
+        <u xml:id="ParlaMint-AL_2026-07-03.u56" ana="#guest" who="#AL_PERS_KlodianBraho">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg246">Faleminderit për pyetjet!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg247">Pyetja ishte: cilat janë kriteret që e bëjnë çështjen komplekse? Kryesisht këto janë çështje që lidhen me krimin e organizuar. Kriteret janë format e reja të krimit të organizuar, format e reja të të parave, veprimi pastrimit ndërkombëtarizimi dhe sofistikimi i veprimtarisë së tyre, përdorimi i komunikimeve... i grupeve kriminale në disa kontinente, jo në disa shtete,</seg>
           <vocal type="interruption">
@@ -495,7 +495,7 @@
         <u xml:id="ParlaMint-AL_2026-07-03.u61" ana="#regular" who="#AL_PERS_OerdBylykbashi">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg267">Në rregull, të japë përgjigje zoti Braho dhe më pas po bëj konkluzionet.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-03.u62" ana="#regular" who="#AL_PERS_KlodianBraho">
+        <u xml:id="ParlaMint-AL_2026-07-03.u62" ana="#guest" who="#AL_PERS_KlodianBraho">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg268">Ju prapë e lidhni pyetjen me çështje konkrete dhe...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -522,7 +522,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-03.seg282">Faleminderit, zoti Gjiknuri!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg283">Po, zoti Braho.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-03.u66" ana="#regular" who="#AL_PERS_KlodianBraho">
+        <u xml:id="ParlaMint-AL_2026-07-03.u66" ana="#guest" who="#AL_PERS_KlodianBraho">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg284">Faleminderit për pyetjen!</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg285">Është e vërtetë që kemi pasur disa raste (sidomos rastet e fundit) që lidhen me sekuestrimin e pasurive të dyshuara si produkt i veprës penale të krimit të organizuar. Ajo që duhet ta kemi të qartë dhe ta kuptojmë mirë të gjithë është se produktet e pasuritë që rrjedhin nga krimi, posaçërisht nga krimi i organizuar dhe nga grupet kriminale me shtrirje ndërkombëtare, janë si një tumor në ekonominë e një vendi. Nuk ka zgjidhje tjetër përveçse ato të sekuestrohen dhe të konfiskohen, sepse nuk shërbejnë për asgjë tjetër përveçse fuqizojnë po ato grupe dhe u japin fuqinë financiare për të vazhduar veprimtarinë e tyre kriminale. Krimi i organizuar është pikërisht ai produkt që është potenciali që sjell më pas korrupsionin e zyrtarëve publikë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg286">Pra, në këtë pikë, SPAK-u është i vendosur që, në çdo rast kur konstaton pasuri të lidhura me veprën penale (që janë të barazvlefshme me produktin e saj apo që u përkasin personave të përfshirë në këto aktivitete dhe janë të pajustifikuara), të merren masat e parashikuara në ligj për sekuestrimin dhe konfiskimin e tyre.</seg>
@@ -537,7 +537,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-03.seg291">A keni pyetje të tjera, Damian? Pra, zoti Gjiknuri e kishte pyetjen e fundit këtë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg292">Po, zoti Braho.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-03.u69" ana="#regular" who="#AL_PERS_KlodianBraho">
+        <u xml:id="ParlaMint-AL_2026-07-03.u69" ana="#guest" who="#AL_PERS_KlodianBraho">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg293">Kjo është një problematikë e përsëritur. Unë e përsërita edhe sot dhe mendoj se është një problematikë që kërkon vëmendje. Siç e përmenda, kjo nuk lidhet thjesht me karrierën e prokurorëve, por me vazhdimësinë dhe efektivitetin e institucionit, sepse mund të krijojë përshtypjen se lidhet vetëm me karrierën tonë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg294">Ne kemi mandatin tonë 9-vjeçar dhe secili prej prokurorëve ka detyrën dhe përgjegjësinë që, për këtë periudhë, për çdo çështje që ka, të ushtrojë detyrën e vet. Ne nuk kemi strategji tjetër përveç kësaj: të vazhdojmë punën. Se çfarë do të ndodhë pas atij viti kur ne të mbarojmë mandatin (apo pas muajit dhjetor 2028), kjo pastaj (nëse nuk ka rinovim mandati apo të drejtë riaplikimi) do të jetë problematikë e strukturës: e atyre prokurorëve që nuk u mbaron mandati më vonë, si dhe e atyre që mund të vijnë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg295">Pra, ne nuk mund të ndërtojmë një strategji përtej kompetencave tona aktuale dhe mandatit tonë.</seg>
@@ -546,7 +546,7 @@
           <seg xml:id="ParlaMint-AL_2026-07-03.seg296">A ka pyetje të tjera?</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg297">Dua të bëj dy pyetje, zoti prokuror, përpara se të bëjmë edhe konkluzionet e dëgjesës. Shoh te konsolidimi i juridiksionit dhe qasja proaktive e prokurorisë që ju drejtoni se gjatë vitit 2025, 29% e çështjeve janë transferuar në prokuroritë e juridiksionit të përgjithshëm. Po në invers (e kundërta), sa çështje ju kanë ardhur për kompetencë nga prokuroritë e juridiksionit të përgjithshëm në drejtim të Prokurorisë së Posaçme, për shkak të kompetencës që ushtroni? Gjithmonë nëse e keni këtë shifër, sepse, nëse nuk e keni, rezervojmë të drejtën që të na e sillni edhe me shkrim. Kjo është pyetja e parë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-03.u71" ana="#regular" who="#AL_PERS_KlodianBraho">
+        <u xml:id="ParlaMint-AL_2026-07-03.u71" ana="#guest" who="#AL_PERS_KlodianBraho">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg298">Atëherë, patjetër që kjo është një shifër e verifikueshme, e gjurmueshme dhe e disponueshme. Numri i çështjeve që kanë ardhur nga prokuroritë e rretheve në drejtim të Prokurorisë së Posaçme është 46 (në përqindje nuk mund ta them dot, se duhet llogaritur). Për t'u sqaruar, këto 46 çështje janë ato që kanë ardhur dhe janë pranuar nga Prokuroria e Posaçme, sepse mund të ketë edhe një numër më të madh se ky për të cilat është vendosur mospranimi dhe kthimi i akteve në prokuroritë respektive.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-03.u72" ana="#chair" who="#AL_PERS_UlsiManja">
@@ -555,13 +555,13 @@
           <seg xml:id="ParlaMint-AL_2026-07-03.seg301">Tani, në hierarkinë e normave ligjore që kemi dhe që ju përdorni në veprimtarinë tuaj hetimore, nuk është vetëm ligji antimafia. Baza është Kodi i Procedurës Penale, madje është baza kryesore e zhvillimit të hetimit financiar, pavarësisht se, për shkak të kompetencës, ju në shumicën e çështjeve sa u takon sekuestrimeve i referoheni edhe ligjit antimafia. Por dallimi është i qartë te të dyja: ligji antimafia ka spostimin e barrës së provës nga prokuroria në drejtim të subjekteve që keni. Si qëndron ky raporti sekuestrim-konfiskim kur përdoret si bazë Kodi i Procedurës Penale në raport me ligjin antimafia? Pse e bëj këtë pyetje?</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg302">Besoj se në fillim të javës do të kemi në tryezën e komisionit një vlerësim postlegjislativ që i është bërë ligjit antimafia. Sigurisht, ky është një projekt i Komisionit të Ligjeve me ndihmën e Ambasadës Britanike dhe tashmë besoj se javës tjetër (nga fillimi i javës) kolegët do të kenë në tryezë edhe gjetjet e këtij vlerësimi postlegjislativ të ligjit antimafia, nga dita e miratimit dhe hyrjes në fuqi (që është viti 2009) e deri më sot, për të parë, le të themi, eficiencën e zbatimit të këtij ligji nga agjencitë ligjzbatuese. Unë do të doja një përgjigje tuajën: si qëndron ky raport? Mos ndoshta ka probleme të natyrës ligjore edhe në këtë drejtim, pra te spostimi i barrës së provës?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-03.u73" ana="#regular" who="#AL_PERS_KlodianBraho">
+        <u xml:id="ParlaMint-AL_2026-07-03.u73" ana="#guest" who="#AL_PERS_KlodianBraho">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg303">Atëherë, informacioni që ju kërkuat do të kërkojë pak kohë, ndaj ne do ta dërgojmë me shkrim. Në pamje të parë, transferimi i çështjeve duket i paankimueshëm, por nuk është i tillë, sepse çdo çështje do të shkojë te një gjyqtar. Është gjyqtari ai që verifikon se si ka qenë kompetenca dhe si është zbatuar. Është gjyqtari i seancës paraprake ai që, nëse konstaton se çështja duhet të jetë në kompetencë të SPAK-ut, e transferon te Gjykata e Posaçme, dhe pastaj Gjykata e Posaçme e detyron pikërisht atë prokurori të vazhdojë hetimet. Pra, nuk është një vendimmarrje e paankimueshme, por nuk është e ankimueshme në atë moment.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-07-03.u74" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg304">Por ama nuk lejohet të bëhet konflikt kompetencash pasi çështja transferohet nga gjykata në prokuroritë e juridiksionit të përgjithshëm.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-03.u75" ana="#regular" who="#AL_PERS_KlodianBraho">
+        <u xml:id="ParlaMint-AL_2026-07-03.u75" ana="#guest" who="#AL_PERS_KlodianBraho">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg305">Ligji ia ka dhënë këtë kompetencë drejtuesit të SPAK-ut: të vendosë nëse është autoriteti që vendos lidhur me mosmarrëveshjet për kompetencën apo është autoriteti që pranon ose jo një dosje të caktuar. Sepse mund të ndodhë që mjafton të ketë emrin e një zyrtari në një dosje dhe vijnë dosje në mënyrë të padrejtë në Prokurorinë e Posaçme apo për arsye të çfarëdoshme.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg306">Për sa u përket raporteve të sekuestrimit, ne zbatojmë të dyja mënyrat e sekuestrimit dhe të konfiskimit. Në veprimtarinë dhe objektivin tonë plani A (plani i parë) është goditja e pasurive brenda hetimit penal, sepse ai është qëllimi kryesor. Zbatimi i ligjit antimafia është plani B (plani rezervë), atë që teoria e quan binar i dyfishtë. Por balancat mund të ndryshojnë në një vit të caktuar për shkak të peshës që mund të ketë një dosje e caktuar. Për shembull, gjatë këtij viti ne kemi katër konfiskime që në total kalojnë mbi 400 milionë euro deri tani, ndërkohë që buxheti i SPAK-ut është gjithsej 15 milionë euro në vit, të cilat janë të gjitha të kryera brenda hetimit penal. Por kjo nuk do të thotë se ligji antimafia është i padobishëm për ne. E kemi marrë në konsideratë edhe te kontrolli postlegjislativ: kemi kthyer një përgjigje me shkrim dhe mendojmë se ka nevojë për përmirësime të vogla, por ky institut i sekuestrimit të pasurive duhet të vazhdojë dhe është i domosdoshëm për shtetin e organet e drejtësisë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg307">Pasuritë e sekuestruara për vitin 2025, sipas Kodit të Procedurës Penale, janë në vlerën rreth 16 milionë euro, ndërsa sipas ligjit antimafia janë 14 milionë euro. Pasuritë e konfiskuara, sipas Kodit të Procedurës Penale, janë 1 milion euro, ndërsa sipas ligjit antimafia janë 811 mijë euro. Këto janë të përshkruara hollësisht në raport, në kapitullin përkatës që bën fjalë për sekuestrimin dhe konfiskimin në faqet 50-55 të raportit vjetor.</seg>
@@ -599,7 +599,7 @@
         <u xml:id="ParlaMint-AL_2026-07-03.u78" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg328">Po, zoti Braho.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-07-03.u79" ana="#regular" who="#AL_PERS_KlodianBraho">
+        <u xml:id="ParlaMint-AL_2026-07-03.u79" ana="#guest" who="#AL_PERS_KlodianBraho">
           <seg xml:id="ParlaMint-AL_2026-07-03.seg329">Faleminderit edhe një herë për pyetjen, edhe pse pyetja ishte një koment i gjatë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg330">Atëherë, unë po e mbyll vetëm me një fjali timen: është i padiskutueshëm vullneti i SPAK-ut dhe gatishmëria e SPAK-ut për të luftuar çdo fenomen. Nuk lidhet rezultati me mungesën e vullnetit apo me mungesën e gatishmërisë. Rezultati lidhet vetëm me sfidën e gjetjes dhe marrjes së provës dhe për këtë të jeni të sigurt. Këtu po e mbyll dhe unë.</seg>
           <seg xml:id="ParlaMint-AL_2026-07-03.seg331">Faleminderit për të gjitha!</seg>

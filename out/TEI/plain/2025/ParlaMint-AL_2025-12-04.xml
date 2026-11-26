@@ -3,8 +3,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2025-12-04</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2025-12-04</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Seancë plenare, 2025-12-04</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Plenary sitting, 2025-12-04</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
         <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
         <respStmt>
@@ -39,7 +39,7 @@
       <sourceDesc>
         <bibl>
           <title type="main" xml:lang="sq">Procesverbal i Kuvendit të Shqipërisë</title>
-          <idno type="URI">https://www.kuvendi.gov.al/</idno>
+          <idno type="URI">https://kuvendiwebfiles.blob.core.windows.net/webfiles/202512111507528093Procesverbal_dat%C3%AB_4.12.2025.pdf</idno>
           <date when="2025-12-04">2025-12-04</date>
         </bibl>
       </sourceDesc>
@@ -209,7 +209,7 @@
           <seg xml:id="ParlaMint-AL_2025-12-04.seg80">Interpelanca e kërkuar me Kryeministrin për prishjen e ndërtimeve pa leje është planifikuar për datën 11 dhjetor.</seg>
           <seg xml:id="ParlaMint-AL_2025-12-04.seg81">Zoti Balla për replikë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-12-04.u14" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2025-12-04.u14" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2025-12-04.seg82">E dëgjoj shpesh këtë deputetin që, për t’u bërë interesant për rrjetin e tij social, bërtet dhe kujton se është interesant edhe kur ia fut kot. Ti kur të përmendësh emrin tim laj gojën, bëj gargarë, por bëje gargarën me ujë të kripur Vlore, se po u pendua Lul Basha, do të tregojë sa para i ke dhënë për të marrë mandatin në vitin 2017. Dakord? Kujdes se mos bën të penduarin Luli!</seg>
           <seg xml:id="ParlaMint-AL_2025-12-04.seg83">Faleminderit!</seg>
         </u>
@@ -295,7 +295,7 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2025-12-04.u29" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2025-12-04.u29" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2025-12-04.seg128">Zoti Kryetar, unë kam përpara listën e diskutantëve të...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -304,7 +304,7 @@
         <u xml:id="ParlaMint-AL_2025-12-04.u30" ana="#chair" who="#AL_PERS_NikoPeleshi">
           <seg xml:id="ParlaMint-AL_2025-12-04.seg129">Është një krahinë e tërë atje, jo Kryetari i Kuvendit.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-12-04.u31" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2025-12-04.u31" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2025-12-04.seg130">Kemi bërë krushqi, se e kemi dhëndër, nga krahina Korçë-Pogradec e kemi.</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -317,7 +317,7 @@
         <u xml:id="ParlaMint-AL_2025-12-04.u32" ana="#chair" who="#AL_PERS_NikoPeleshi">
           <seg xml:id="ParlaMint-AL_2025-12-04.seg132">Ky është kompliment, zoti Bardhi, nuk është fyerje për mua; nuk e di për ju, por për mua nuk është fyerje, është kompliment.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-12-04.u33" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2025-12-04.u33" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2025-12-04.seg133">Zoti Kryetar i Kuvendit,</seg>
           <seg xml:id="ParlaMint-AL_2025-12-04.seg134">Të nderuar kolegë,</seg>
           <seg xml:id="ParlaMint-AL_2025-12-04.seg135">Ky deputeti, që sapo foli në emër të mohimit të së drejtës për të diskutuar, është i pari për të folur në pikën e parë të rendit të ditës.</seg>
@@ -714,7 +714,7 @@
         <u xml:id="ParlaMint-AL_2025-12-04.u68" ana="#regular" who="#AL_PERS_KlodianaSpahiu">
           <seg xml:id="ParlaMint-AL_2025-12-04.seg416">Fjalën e ka zoti Taulant Balla.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-12-04.u69" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2025-12-04.u69" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2025-12-04.seg417">Në emër të Grupit Parlamentar të Partisë Socialiste, gjej rastin të falënderoj dhe t’i shpreh mirënjohjen, besoj edhe të të gjithë anëtarëve të Kuvendit të Shqipërisë, fondacionit gjerman “Hanns Seidel”, që mban emrin e një prej figurave më të shquara të Unionit Kristian-Socialist të Bavarisë!</seg>
           <seg xml:id="ParlaMint-AL_2025-12-04.seg418">E vërteta është se që prej ditëve të para të pluralizmit politik në Shqipëri ky fondacion, me prezencën e vet, ka asistuar dhe ndihmuar në forcimin e institucioneve demokratike në vend, në forcimin e aktivitetit të partive politike, të trajnimit të administratës publike, të institucioneve të drejtësisë, të Policisë së Shtetit apo edhe të pushtetit vendor. Kështu që, vendimmarrja e drejtuesve të fondacionit, e cila ndërlidhet edhe me një shkurtim të fondeve që qeveria federale gjermane jep, nuk ka të bëjë aspak, po aspak fare, me të gjithë atë përrua psikik që dëgjuam të thuhej nga një folës pararendës se fondacioni po ikën sepse e ka përzënë Shqipëria.</seg>
           <seg xml:id="ParlaMint-AL_2025-12-04.seg419">Unë mendoj që secili prej nesh mban përgjegjësi për ato që nxjerr nga goja. Kur mosha ecën, ndoshta nuk mban përgjegjësi për të tjerat, por jo për ato që nxjerr nga goja.</seg>
@@ -2589,7 +2589,7 @@
           <seg xml:id="ParlaMint-AL_2025-12-04.seg1628">Fjalën e ka zonja Ilda Gjuzi.</seg>
           <seg xml:id="ParlaMint-AL_2025-12-04.seg1629">Të përgatitet zoti Klevis Balliu.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-12-04.u243" ana="#regular" who="#AL_PERS_IldaGjuzi">
+        <u xml:id="ParlaMint-AL_2025-12-04.u243" ana="#regular" who="#AL_PERS_IlvaGjuzi">
           <seg xml:id="ParlaMint-AL_2025-12-04.seg1630">Faleminderit, i nderuar Kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2025-12-04.seg1631">Të nderuar qytetarë,</seg>
           <seg xml:id="ParlaMint-AL_2025-12-04.seg1632">Të nderuar kolegë dhe kolege,</seg>
@@ -3222,7 +3222,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2025-12-04.seg2058">Gjithsesi, do ta marrësh fjalën, mos u mërzit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-12-04.u291" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2025-12-04.u291" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2025-12-04.seg2059">Flamur, unë mendova se sot do ta kërkoje fjalën për të sqaruar punën e 28 Nëntorit.</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -3648,7 +3648,7 @@
           <seg xml:id="ParlaMint-AL_2025-12-04.seg2357">Kalojmë në pikën e gjashtëmbëdhjetë të rendit të ditës, projektligjin “Për disa shtesa dhe ndryshime në ligjin nr. 8454, datë 4.2.1999, “Për Avokatin e Popullit”, të ndryshuar”.</seg>
           <seg xml:id="ParlaMint-AL_2025-12-04.seg2358">Fjalën e ka zoti Taulant Balla.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-12-04.u323" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2025-12-04.u323" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2025-12-04.seg2359">Shumë shkurt, sepse ora e vonë e bën të nevojshme një prezantim të tillë, që do të ishte e mira të ishte më i gjatë.</seg>
           <seg xml:id="ParlaMint-AL_2025-12-04.seg2360">Edhe pse përpara keni një projektligj me dy nene, janë dy nene që sjellin një ndryshim të dukshëm sa i përket asaj që është detyra kryesore e Avokatit të Popullit: raportimi i gjendjes së të drejtave të njeriut apo i të gjitha problematikave të tjera që Kushtetuta dhe ligji ia ka ngarkuar këtij institucioni tepër të rëndësishëm, të cilit shpresoj që në ditët në vijim të kemi mundësi t’i japim edhe drejtuesin e ri, pas një mandati të tejkaluar me 3 vjet të drejtueses aktuale.</seg>
           <seg xml:id="ParlaMint-AL_2025-12-04.seg2361">Shkaku kryesor i kësaj nisme të sjellë me nismë deputeti është evidentuar në raportin e Komisionit Europian për vitin 2024, ku theksohet nevoja e zbatimit të rekomandimeve të Avokatit të Popullit, e cila mbetet e ulët, dhe për të përmirësuar transparencën dhe llogaridhënien Avokati i Popullit duhet të publikojë raportin vjetor përpara se ta paraqesë atë në Kuvendin e Shqipërisë.</seg>
@@ -4032,7 +4032,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2025-12-04.seg2672">Zoti Balla.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2025-12-04.u340" ana="#regular" who="#BallaTaulant">
+        <u xml:id="ParlaMint-AL_2025-12-04.u340" ana="#regular" who="#AL_PERS_TaulantBalla">
           <seg xml:id="ParlaMint-AL_2025-12-04.seg2673">E zgjidhim shumë thjesht, bëjmë një rivotim në seancën pasardhëse dhe e miratojmë aty.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2025-12-04.u341" ana="#chair" who="#AL_PERS_NikoPeleshi">

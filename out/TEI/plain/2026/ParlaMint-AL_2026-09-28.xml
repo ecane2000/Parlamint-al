@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-09-28" xml:lang="sq" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL_2026-09-28" xml:lang="sq" ana="#parla.committee.standing #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, procesverbal, 2026-09-28</title>
-        <title type="main" xml:lang="en">Parliament of Albania, minutes, 2026-09-28</title>
+        <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Komisioni për Çështjet Ligjore dhe Administratën Publike, 2026-09-28</title>
+        <title type="main" xml:lang="en">Parliament of Albania, Committee on Legal Affairs and Public Administration, 2026-09-28</title>
         <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_Kuvendi" ana="#parla.sitting #reference">Dita e mbledhjes</meeting>
+        <meeting corresp="#AL_ORG_CLAP" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>
@@ -1388,7 +1388,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg661">Këtu përfaqësoni Këshillin e Ministrave, por edhe ministritë respektive.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg662">Zoti Muzaka, duam qëndrimin e Këshillit të Ministrave në raport me nismën për ndarjen administrativo-territoriale të njësive të qeverisjes vendore në Republikën e Shqipërisë. Pastaj, pas fjalës suaj, nëse kushdo nga të ftuarit në emër të Këshillit të Ministrave ka për të shtuar diçka, mund të ngrejë dorën e ta marrë fjalën. Në fund do të vijohet me pyetjet e kolegëve.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u207" ana="#regular" who="#AL_PERS_OltjonMuzaka">
+        <u xml:id="ParlaMint-AL_2026-09-28.u207" ana="#guest" who="#AL_PERS_OltjonMuzaka">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg663">I nderuar zoti kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg664">Të nderuar deputetë!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg665">Projektligji që kemi sot për shqyrtim nuk është thjesht një ndryshim i hartës administrativo-territoriale të Shqipërisë, por është një hap i mëtejshëm në reformimin e qeverisjes vendore, me një objektiv shumë konkret: bashki më të forta, me më shumë kapacitete për të ushtruar funksionet e tyre dhe për të ofruar shërbime më të mira, por njëkohësisht edhe një pushtet vendor që mbetet pranë qytetarit.</seg>
@@ -1507,7 +1507,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg740">Faleminderit, zoti Korreshi!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg741">Fjalën e ka zoti Oltjon Muzaka për përgjigjet e pyetjeve nga zoti Korreshi.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u221" ana="#regular" who="#AL_PERS_OltjonMuzaka">
+        <u xml:id="ParlaMint-AL_2026-09-28.u221" ana="#guest" who="#AL_PERS_OltjonMuzaka">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg742">Për korrektesë, deputet...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u222" ana="#chair" who="#AL_PERS_UlsiManja">
@@ -1519,7 +1519,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg746">Në rregull. Pra, është edhe figura, pavarësisht se nuk del këtu.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u223" ana="#regular" who="#AL_PERS_OltjonMuzaka">
+        <u xml:id="ParlaMint-AL_2026-09-28.u223" ana="#guest" who="#AL_PERS_OltjonMuzaka">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg747">I nderuar deputet, për korrektesë, në fjalën time unë citova se propozimi që paraqitet sot është rezultat i punës dhe fryt i komisionit, pra nuk ishte lapsus ose gabim prezantimi në Komisionin e Posaçëm Parlamentar për Reformën.</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -1532,7 +1532,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u224" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg749">Të lutem, lëre të flasë!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u225" ana="#regular" who="#AL_PERS_OltjonMuzaka">
+        <u xml:id="ParlaMint-AL_2026-09-28.u225" ana="#guest" who="#AL_PERS_OltjonMuzaka">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg750">Ndërkaq...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -1544,7 +1544,7 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u227" ana="#regular" who="#AL_PERS_OltjonMuzaka">
+        <u xml:id="ParlaMint-AL_2026-09-28.u227" ana="#guest" who="#AL_PERS_OltjonMuzaka">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg752">Lidhur...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u228" ana="#chair" who="#AL_PERS_UlsiManja">
@@ -1581,13 +1581,13 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg764">Patjetër.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u233" ana="#regular" who="#AL_PERS_OltjonMuzaka">
+        <u xml:id="ParlaMint-AL_2026-09-28.u233" ana="#guest" who="#AL_PERS_OltjonMuzaka">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg765">E dhashë përgjigjen, i nderuar deputet.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u234" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg766">Ju lutem, edhe një herë, saktësojeni edhe ju!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u235" ana="#regular" who="#AL_PERS_OltjonMuzaka">
+        <u xml:id="ParlaMint-AL_2026-09-28.u235" ana="#guest" who="#AL_PERS_OltjonMuzaka">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg767">Citova se është fryt i punës së komisionit.</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -1625,7 +1625,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg779">Ulsi, të lutem!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u240" ana="#regular" who="#AL_PERS_OltjonMuzaka">
+        <u xml:id="ParlaMint-AL_2026-09-28.u240" ana="#guest" who="#AL_PERS_OltjonMuzaka">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg780">Për ta saktësuar, kryetar, nisma ligjore mbështetet në veprimtarinë dhe gjetjet e paraqitura në raportin përfundimtar, të hartuar nga ekspertët e Komisionit të Posaçëm Parlamentar për Reformën Administrativo-Territoriale, dhe gjetjet kryesore nga dëgjesat në 11 qarqe.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u241" ana="#regular" who="#AL_PERS_EnnoBozdo">
@@ -1647,13 +1647,13 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u244" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg785">Mund ta merrni fjalën. Zoti Mazniku, mund të vazhdoni.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u245" ana="#regular" who="#AL_PERS_ArbianMazniku">
+        <u xml:id="ParlaMint-AL_2026-09-28.u245" ana="#regular" who="#AL_PERS_ArbjanMazniku">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg786">Zoti Bozdo, të mbaroj unë, pastaj mund ta merrni fjalën.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u246" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg787">Mund të vazhdoni shkurt?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u247" ana="#regular" who="#AL_PERS_ArbianMazniku">
+        <u xml:id="ParlaMint-AL_2026-09-28.u247" ana="#regular" who="#AL_PERS_ArbjanMazniku">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg788">Unë s'kam folur. Kam ardhur në 10, s'kam folur. Të mbaroj unë, pastaj ti.</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -1671,7 +1671,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg792">Zoti Korreshi, të lutem: ai është deputet i Kuvendit të Shqipërisë, është nismëtar, ka të drejtën ta kërkojë fjalën si të gjithë të tjerët këtu në këtë pjesë!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u249" ana="#regular" who="#AL_PERS_ArbianMazniku">
+        <u xml:id="ParlaMint-AL_2026-09-28.u249" ana="#regular" who="#AL_PERS_ArbjanMazniku">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg793">Sërish e them...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -1681,7 +1681,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg794">Ka të drejtën ta kërkojë fjalën.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg795">Flet zoti Mazniku.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u251" ana="#regular" who="#AL_PERS_ArbianMazniku">
+        <u xml:id="ParlaMint-AL_2026-09-28.u251" ana="#regular" who="#AL_PERS_ArbjanMazniku">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg796">Sërish e them, ky debat është debat bosh.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg797">Është e shkruar në mënyrë eksplicite në dokumentin ligjor se kemi të bëjmë me një propozim të një grupi deputetësh të Republikës së Shqipërisë. Në relacionin bashkëngjitur, grupi i deputetëve, pjesa më e madhe e të cilëve kanë qenë anëtarë të komisionit, janë mbështetur për propozimin e tyre në punën që ka bërë komisioni, pasi puna që ka bërë komisioni është dokument parlamentar. Raportet, diskutimet, raporti i ekspertëve të Partisë Socialiste, raporti i ekspertëve të Partisë Demokratike, dëgjesat dhe raportet e komisioneve, dëgjesat në të gjithë Republikën e Shqipërisë janë dokumente parlamentare, janë sot pjesë e njohurisë që Parlamenti i Shqipërisë ka mbi situatën, dhe ai është një dokument i cili ishte jo vetëm i sugjerueshëm, ishte i domosdoshëm të përdorej nga ana e propozuesve për propozimin e tyre.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg798">Grupi i deputetëve krijoi bindjen për propozimin që bënë, bazuar në punën që komisioni bëri. Komisioni doli pa produkt, sepse u bë i tillë nga pariteti dhe nga fakti se deputetët e Partisë Demokratike zgjodhën të mos e votojnë rendin e ditës në fund, por e gjithë puna që u bë vlejti për të krijuar një vetëdije të caktuar në një grup deputetësh, të cilët më pas sollën propozimin në fjalë.</seg>
@@ -2105,7 +2105,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg958">Faleminderit, zoti Boçi!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg959">Fjalën e ka zoti Muzaka, për të vazhduar me përgjigjet e pyetjeve të kolegu Korreshi.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u346" ana="#regular" who="#AL_PERS_OltjonMuzaka">
+        <u xml:id="ParlaMint-AL_2026-09-28.u346" ana="#guest" who="#AL_PERS_OltjonMuzaka">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg960">Po, kryetar.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg961">Lidhur edhe me debatin doktrinal juridik mbi veprimtarinë e komisionit, ne, si ministri, e shprehëm qëndrimin tonë dhe mendoj se kjo çështje u ezaurua në 3-orëshin e parë.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg962">Lidhur me kriteret financiare, pragjet, si dhe rastin e Divjakës, për arsye specifike të propozimeve mendoj t'ia lë fjalën kolegut Mazniku, si një përfaqësues i propozuesve të grupit të deputetëve.</seg>
@@ -2155,7 +2155,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u353" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg978">Zoti Mazniku, përfaqësuesi i Këshillit të Ministrave tha: të gjitha përgjigjet që ju kërkoni (nëse e kam dëgjuar saktë unë, se janë të regjistruara) u ezauruan në 3-orëshin e parë të debatit dhe qëndrimin tim, në emër të Këshillit të Ministrave, e thashë; mbështes projektligjin.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u354" ana="#regular" who="#AL_PERS_OltjonMuzaka">
+        <u xml:id="ParlaMint-AL_2026-09-28.u354" ana="#guest" who="#AL_PERS_OltjonMuzaka">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg979">E saktë; konfirmoj!</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u355" ana="#chair" who="#AL_PERS_UlsiManja">
@@ -2275,14 +2275,14 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1027">Zoti Muzaka, për pyetjet e zotit Korreshi, por edhe nëse do të ketë pyetje të tjera nga kolegët deputetë, ju duhet të rezervoni të drejtën që, nëse dëshironi të mblidhni pyetjet e deputetëve dhe t’i sillni përgjigjet me shkrim, pa diskutim kjo është rrugë procedurale që duhet ta bëni, por pyetje pa përgjigje për Këshillin e Ministrave nuk do të ketë.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1028">Dakord, fjala është për ju.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u374" ana="#regular" who="#AL_PERS_OltjonMuzaka">
+        <u xml:id="ParlaMint-AL_2026-09-28.u374" ana="#guest" who="#AL_PERS_OltjonMuzaka">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1029">Kryetar, një saktësim: si përfaqësues i Ministrisë së Punëve të Brendshme, ne kemi shprehur opinionin tonë mbi raportin e komisionit, pra kemi shprehur dakordësinë dhe qëndrimin tonë. Duke qenë se pyetjet ishin kryesisht për propozuesit, sugjerova, meqë zoti Mazniku është një nga propozuesit dhe ndodhet këtu, që ai t'u përgjigjet atyre.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1030">Megjithatë, ne, me gjithë ekipin e Këshillit të Ministrave dhe përfaqësuesit e institucioneve, jemi të gatshëm t’u përgjigjemi të gjitha pyetjeve që deputetët do të kenë në vijim.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u375" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1031">Po pra, zoti Korreshi do përgjigje për pyetjet e veta. I mbajti kush shënim pyetjet?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u376" ana="#regular" who="#AL_PERS_OltjonMuzaka">
+        <u xml:id="ParlaMint-AL_2026-09-28.u376" ana="#guest" who="#AL_PERS_OltjonMuzaka">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1032">Po, i kemi mbajtur.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u377" ana="#chair" who="#AL_PERS_UlsiManja">
@@ -2292,7 +2292,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1034">Atëherë shprehuni.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u378" ana="#regular" who="#AL_PERS_OltjonMuzaka">
+        <u xml:id="ParlaMint-AL_2026-09-28.u378" ana="#guest" who="#AL_PERS_OltjonMuzaka">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1035">Atëherë ne, si ekip i institucioneve të Këshillit të Ministrave, do të shprehim përgjigjet tona me shkrim për pyetjet e zotit Korreshi edhe të deputetëve të tjerë.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u379" ana="#chair" who="#AL_PERS_UlsiManja">
@@ -2337,7 +2337,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1052">Patjetër, dëgjoje pra, se atë mendim ka!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u387" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u387" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1053">Ka dy bashki, konkretisht Bashkia e Divjakës dhe Bashkia e Lushnjës, të cilat, duke qenë veç e veç, shpenzimet administrative...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -2346,13 +2346,13 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u388" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1054">Zoti Brahimi, edhe zoti Korreshi e di që ti je ekspert veteran aty.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u389" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u389" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1055">Atëherë, Ministria e Financave dhe Këshilli i Ministrave...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u390" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1056">Ti je i vetmi që na ke mbetur të jetë veteran nga ‘97-ta, kështu që vazhdoni!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u391" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u391" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1057">Këtu është e vështirë të bisedohet nga ana teknike, por nuk është faji im, ose nuk është faji ynë që jemi këtu. Sidoqoftë, nëse keni durimin ta dëgjoni, unë po jap shpjegimet e mia. E thashë edhe një herë: komponenti financiar është komponenti i cili dominon me argumente shumë të forta për kalimin nga numri 61 në 46 bashki. Unë ju solla edhe historikun e mëparshëm, ku numri i bashkive dhe i komunave ishte shumë më i fragmentuar dhe shpenzimet administrative zinin pothuajse 95% të buxhetit. Në vitin 2015 ne bënim shpenzime për investime rreth 13 miliardë lekë, ose 130 milionë euro. Në vitin 2025, vetëm nga të ardhurat e veta, bëjnë rreth 27 miliardë lekë, ose 270 milionë euro.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1058">Së dyti, këtu bëhet fjalë për shërbimet: a ka largim të shërbimeve? 80% ose 90% e shërbimeve publike janë shërbime burokratike. Zoti Mazniku dhe pjesëtarët e qeverisë e dinë mjaft mirë se është një projekt i financuar nga Banka Botërore, pra është kredi e shtetit shqiptar, që po digjitalizon të gjitha shërbimet publike. Pra, shërbimi publik jo vetëm që nuk largohet, por ofrohet dhe mund të merret nga secili prej nesh në celular. Kështu, edhe kosto e shërbimeve publike ulet, edhe shërbimi afrohet.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1059">Tjetra: të gjitha ato bashki që kanë qenë të fragmentuara veç e veç, kanë pasur shpenzime administrative mbi 40-50%. Në qoftë se bashkohen, kursimi është mbi 30-40%. Pra, ato shpenzime që dikur shkonin për paga, dieta dhe administratë, kthehen në shërbim ose në investim, dhe kjo është një provë e vërtetuar. Shifrat janë edhe në relacion, janë edhe në faqen zyrtare të Ministrisë së Financave, pra në faqen e internetit të Ministrisë së Financave, pastaj ka edhe një portal...</seg>
@@ -2360,7 +2360,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u392" ana="#regular" who="#AL_PERS_SaimirKorreshi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1060">Ore, për Roskovecin me Divjakën të pyeta unë: financiarisht cili është më mirë? Roskoveci apo Divjaka, cili ka pasur performancë...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u393" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u393" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1061">Divjaka.</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -2369,13 +2369,13 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u394" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1062">Zoti Brahimi, thuaj mendimin tënd.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u395" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u395" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1063">Pyetjet që kanë lidhje me burimet financiare dhe me financimin, Ministria e Financave dhe qeveria i mbështesin fuqishëm, sepse kjo është një logjikë shumë e thjeshtë. Pra, tentativa për të shkuar drejt një ekonomie shkalle kursen para nga shpenzimet administrative, duke i çuar ato drejt investimit dhe shërbimit.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u396" ana="#regular" who="#AL_PERS_ArbjanMazniku">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1064">Financiarisht, jo ekonomikisht.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u397" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u397" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1065">Po ashtu edhe digjitalizimi jep të njëjtin efekt. Pra, siç jua thashë, pjesa më e madhe e shërbimeve publike nuk do të jenë më në asnjë bashki, por do të jenë në celular dhe në mjetet elektronike, që mund t’i marrë secili qytetar kudo. Rrugët, shkollat, pastrimi dhe gjelbërimi kanë qenë, janë dhe do të jenë aty; as afrohen dhe as largohen, ato aty do të jenë. Ky është argumenti nga pikëpamja financiare dhe ky është pozicioni i Ministrisë së Financave.</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -2401,7 +2401,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u400" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1073">Ju lutem, zoti Brahimi, për përgjigjen.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u401" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u401" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1074">Ne e lamë që t’jua sjellim përgjigjet me shifra dhe me shkrim.</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -2414,13 +2414,13 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u403" ana="#regular" who="#AL_PERS_SaimirKorreshi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1077">Numri i punonjësve me reformën e 2014 është shtuar nëpër bashki apo është pakësuar?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u404" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u404" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1078">Tani, dole te një pyetje shumë e rëndësishme. Po, është shtuar.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u405" ana="#regular" who="#AL_PERS_SaimirKorreshi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1079">Në rregull!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u406" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u406" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1080">Më lëni ta shpjegoj, ju lutem.</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -2438,13 +2438,13 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1084">Jo, sepse ti nuk ia kondicionon dot përgjigjen atij, ndaj lëre ta japë përgjigjen deri në fund.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u408" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u408" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1085">Zoti kryetar, a kam të drejtë t’ia jap përgjigjen?</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u409" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1086">Zoti Brahimi, ju lutem, jepeni përgjigjen.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u410" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u410" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1087">Në vitin 2015, krahasuar me vitin 2025 (pasi këto janë shifrat e fundit), numri i punonjësve është rritur. Pse? Së pari, janë shtuar rreth 20 e ca mijë punonjës, nga të cilët 14 mijë e 800 e ca punonjës janë shtuar për shkak të transferimit, në vitin 2016, të 7 kompetencave.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1088">Nëse nga kjo shifër heqim efektin e këtyre 14 mijë e 800 punonjësve, efekti neto mbetet rreth 5 mijë e 100 punonjës të shtuar. Pse? Sepse në harkun e 10–11 viteve janë bërë investime në nivel vendor prej 5 miliardë eurosh dhe, rrjedhimisht, janë shtuar shkolla, kopshte, çerdhe e rrugë, të cilat...</seg>
           <vocal type="interruption">
@@ -2680,7 +2680,7 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u436" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u436" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1187">Pyetja e parë: nëse ka qenë e suksesshme reforma e vitit 2014, nga pikëpamja e komponentëve financiare, e thashë që ne e quajmë të suksesshme. Pse? Argumentet që dhashë ishin:</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1188">Së pari, janë ulur kostot administrative.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1189">Së dyti, janë rritur të ardhurat dy deri në tri herë, është rritur buxheti dy deri në tri herë, si dhe janë rritur investimet, ndaj e quajmë të suksesshme.</seg>
@@ -2689,13 +2689,13 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1190">Kjo është përgjigjja ime, ndërsa ti mund të bësh komente sa të duash.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u437" ana="#regular" who="#AL_PERS_ArjanNdoja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u437" ana="#regular" who="#AL_PERS_ArianNdoja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1191">I nderuar shumë shkurt...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u438" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1192">Të lutem...!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u439" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u439" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1193">Çfarë kostosh ekonomike...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u440" ana="#chair" who="#AL_PERS_UlsiManja">
@@ -2716,13 +2716,13 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1198">A ishte e suksesshme apo jo...?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u442" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u442" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1199">Reforma?</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u443" ana="#regular" who="#AL_PERS_ArianNdoja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1200">Se kur të lindë nevoja për të dytën, duhet të themi që e para nuk ishte...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u444" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u444" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1201">Atëherë, po të jap përgjigje për pyetjen e tretë. Niveli i mbledhjes së taksave është trefishuar, por, unë po them që është rritur ndjeshëm. Pse? Ne kemi pasur një pushtet lokal shumë të fragmentuar, me komuna që ishin larg qendrave, të cilat pjesën më të madhe të aktivitetit fiskal e kryenin me arka(zyra), ndërsa sot, i gjithë aktiviteti është pothuajse i digjitalizuar. Pra, në ato vite mblidhej rreth 30-40% të kapacitetet, ndërsa sot mblidhet dyfishi i nivelit që është mbledhur më përpara. Kjo ndodh, sepse edhe biznesi, që të jem i sinqertë, është reformuar, por edhe institucionet që merren me mbledhjen e parasë kanë investuar në digjitalizim dhe sot niveli i mbledhjes është shumë më i lartë.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1202">A jemi aty ku duhet? Sigurisht, nuk jemi aty ku duhet për të bërë mbledhjen, sepse përveç detyrimeve që nuk mblidhen, ka edhe detyrime të papaguara që qytetarët i kanë ndaj bashkive, për arsye të ndryshme. Pra, nuk krahasohet një pushtet lokal shumë i fragmentuar, që kishte një administrim fiskal shumë bazik, me pushtet lokal që është sot, i cili është shumë herë më i digjitalizuar dhe nga pikëpamja financiare është shumë herë më i reformuar.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1203">Për shembull, disa vite më parë bilancet, ose le të them të gjitha ato problemet e menaxhimit financiar mbaheshin në tabela Excel-i, ndërsa sot pjesa më e madhe e tyre janë të digjitalizuara.</seg>
@@ -2735,7 +2735,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u445" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1206">Të lutem, zoti Asllani, se do ta keni radhën, pas zotit Brahimi.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u446" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u446" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1207">Këto janë disa elementë që i përkasin reformës. Pra, investimet që janë bërë në sektorë të ndryshëm e kanë përmirësuar ndjeshëm mbledhjen e të ardhurave.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1208">Çfarë kostoje ka numri i punonjësve? Unë e thashë që numri i punonjësve është shtuar në terma nominal, ndërsa në terma relativ, kur e krahasojmë me volumin e funksioneve që janë digjitalizuar dhe me shtimin e shërbimeve që janë bërë... Unë përmenda vetëm një fakt, që janë kryer rreth 5 miliardë euro investime në 10 vjet, që përkthehen në shtim asetesh për hapësira të ndryshme, se janë mbi 10 milionë turistë që kërkojnë shërbime, një pjesë e të cilëve janë gjithëvjetor. Ndërsa në terma real shpenzimet administrative janë të ulura, pavarësisht se në terma nominal duken të rritura.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1209">Janë disa njerëz që nuk e kuptojnë se nuk e kemi si qëllim vetvete që të ulim numrin e punonjësve, por qëllimi ynë është të ruhet shërbimi sa më i mirë dhe afër qytetarit. Pra, nuk është ai qëllimi.</seg>
@@ -2745,7 +2745,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u447" ana="#regular" who="#AL_PERS_ArianNdoja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1212">Numri do të rritet? Ju synoni që të rritet numri?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u448" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u448" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1213">Në vitin 2016, siç e dini, ka qenë një paketë shumë e madhe decentralizimi nga niveli qendror në atë vendor, ku janë përfshirë arsimi parashkollor, policia e mbrojtjes kundër zjarrit, administrimi i pyjeve, ujitja dhe kullimi. Pra, është një paketë shërbimesh me rreth 10 000 punonjës që kanë kaluar nga ministritë në nivel vendor. Sigurisht, si rezultat i shtimit të kompetencave për pushtetin vendor është rritur edhe një pjesë e mirë e buxhetit.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1214">Për sa i përket kostove financiare shtesë, ne nuk mendojmë dhe as parashikojmë që të ketë kosto financiare shtesë, kur të bëhet reduktimi i bashkive, pra, nga 61 të bëhen 46 bashki, përkundrazi, ne parashikojmë që kostot administrative do të ulen. Ndërsa, kosto shtesë për buxhetin e shtetit nuk do të ketë për këtë fazë tranzitore.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1215">Sigurisht që çështjet do të shqyrtohen rast pas rasti, sepse nëse do të shkurtohen punonjës nga bashkimi i dy bashkive, atëherë, do të kenë trajtim financiar për ata punonjës, që mund të jetë një kosto, e cila po të llogaritet me pjesën që kursehet nga shpenzimet administrative, mund të mos e tejkalojnë këtë kosto. Pra, edhe për këtë arsye nuk ka kosto shtesë në buxhetin e shtetit, për këtë reformë.</seg>
@@ -2757,13 +2757,13 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u449" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1217">Të lutem, të mbarojë me përgjigjet, zoti Brahimi.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u450" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u450" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1218">Unë nuk e di nëse kam harruar ndonjë pyetje, por sigurisht që një pjesë të përgjigjeve do t’i sjell edhe me shkrim, por, një pjesë i kam këtu, të cilat do t’i lë...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u451" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1219">Po, faleminderit, zoti Brahimi!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u452" ana="#regular" who="#AL_PERS_OltjonMuzaka">
+        <u xml:id="ParlaMint-AL_2026-09-28.u452" ana="#guest" who="#AL_PERS_OltjonMuzaka">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1220">Deputeti Ndoja ngriti edhe një pyetje tjetër, nëse kanë ndryshuar kompetencat e pushtetit vendor, këto kompetenca janë përshkruar në ligjin nr. 139/2015 “Për vetëqeverisjen vendore”, i cili nuk ka ndryshuar. Pra, përgjigja është jo.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1221">Ndërsa deputetit Sinaj bëri një pyetje për censin, për këtë pyetje duhet të verifikojmë raportin e regjistrimit të gjendjes civile me censin, për të parë pasaktësitë, pastaj do t’ju kthejmë përgjigje me shkrim.</seg>
         </u>
@@ -2771,7 +2771,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1222">Faleminderit, zoti Muzaka!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1223">Po, zonja Hoxha.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u454" ana="#regular" who="#AL_PERS_ElonaHoxha">
+        <u xml:id="ParlaMint-AL_2026-09-28.u454" ana="#guest" who="#AL_PERS_ElonaHoxhaj">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1224">Për t’i kthyer përgjigje deputetit Ndoja, për fushën e përgjegjësisë së Ministrisë së Drejtësisë, lidhur me parimin e subsidiaritetit, ne po e zgjerojmë aksesin...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -2784,7 +2784,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u455" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1226">Ju lutem, mund të vazhdoni, zonja Hoxha.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u456" ana="#regular" who="#AL_PERS_ElonaHoxha">
+        <u xml:id="ParlaMint-AL_2026-09-28.u456" ana="#guest" who="#AL_PERS_ElonaHoxhaj">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1227">Pra, së shpejti do të plotësohet numri 26 i zyrave të ndihmës juridike, deri në fund të vitit 2027 dhe deri në fund të vitit 2030 do të hapim edhe 4 zyra të reja. Kështu, për aksesin në drejtësi, përveç digjitalizimit, si një proces që do ta lehtësojë qytetarin, do të ofrojmë edhe ndihmë juridike falas.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u457" ana="#chair" who="#AL_PERS_UlsiManja">
@@ -2805,13 +2805,13 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1236">Dakord, ju thatë që është rritur dyfish, pra, nëse ka qenë 30-40%, ka shkuar rreth 60-80%, por, pyetja logjike që lidhet me këtë është: sa është borxhi që i kanë bashkitë institucioneve të tjera, pra, të tretëve apo enteve të tjera publike? Nëse të ardhurat e arkëtuara janë rritur si nivel (unë thashë si nivel abonentësh, ju e niset si nivel të ardhurash), sa është borxhi, a është rritur apo është ulur?</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1237">Ne kemi bërë ligjin e ri për mbetjet, ku kemi thënë se si mund të financohen bashkitë, për të krijuar qendra për fazën e parë të mbledhjes, ndërsa pjesa tjetër të çohet për përpunim e të tjera me radhë, ku e marrin buxhetin dhe për sa vite do të mbështeten nga buxheti i shtetit qendror, për të arritur fazën e implementimit të këtij ligji? Mora një rast, se ka edhe shumë raste të tjera.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u461" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u461" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1238">A mund t'i përgjigjem?</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u462" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1239">Po, zoti Brahimi.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u463" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u463" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1240">Atëherë, borxhet ose detyrimet e prapambetura në vitin 2014 kanë qenë 12,8 miliardë lekë, rreth 128 milionë euro.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1241">Detyrimet që ka pushteti vendor ndaj të tretëve, por dhe e kundërta, kanë qenë marrëdhënie kontraktuale midis pushtetit vendor, për shembull ish-komunave, ish-bashkive, të cilat janë bashkuar dhe buxheti i shtetit nuk e ka marrë fillimisht përsipër këtë detyrim. Por, në vitet e mëvonshme, çdo fundvit, në varësi të performancës fiskale të buxhetit, shteti i ka ndihmuar duke likuiduar detyrimet e prapambetura. Aktualisht, nga 12,8 miliardë lekë detyrime të prapambetura që kanë qenë në vitin 2014, sot kemi vetëm 2,8. Edhe këto 2,8 nuk janë borxhe të vjetra të asaj kohe, por janë borxhe të krijuara rishtazi, të cilat na e tërheqin vëmendjen për sistemin tonë, i cili ka nevojë të përmirësohet, se ky fenomen është edhe në nivel qendror, me qëllim që të mos krijohen më borxhe, nga kontrata, shërbime dhe investime të lidhura.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1242">Një nga elementet ose faktorët që kanë ndikuar në detyrimet e prapambetura, në fillimet e viteve 2015, 2016 dhe 2017, kanë qenë edhe parashikimet optimiste të të ardhurave të pushtetit vendor, të cila ishin më shumë optimiste se sa realiste. Duke u mbështetur në këto tregues që kishin, bashkitë bënin edhe kalendarët e prokurimeve. Por, në vitet në vazhdim një ndihmë shumë të madhe kanë dhënë donatorët, të cilët kanë ndihmuar bashkitë, por edhe ne, për të bërë reforma për financimin e tyre. Sot, pjesa e parashikimit, pjesa e shpenzimeve dhe lidhja e kontratave është pothuajse e digjitalizuar, ndaj bashkitë nuk marrin asnjë angazhim nëse nuk i kanë paratë e depozituara në thesar. Pra, ky ka qenë një fenomen i kahershëm, i cili, nuk mund të them që është zhdukur 100%, por sot është në formë e dukurive, nëse dje ka qenë fenomen.</seg>
@@ -2835,7 +2835,7 @@
             <desc>Ndërhyrje pa mikrofon.</desc>
           </vocal>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u465" ana="#regular" who="#AL_PERS_YlliAsllani">
+        <u xml:id="ParlaMint-AL_2026-09-28.u465" ana="#guest" who="#AL_PERS_YlliAsllani">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1248">Një pjesë e borxheve...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u466" ana="#chair" who="#AL_PERS_UlsiManja">
@@ -2876,7 +2876,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1260">Pra, kanë ngelur pa përgjigje dy pyetje të zotit Ndoja. Njëra pyetje ishte: çfarë koeficientesh janë përdorur dhe pyetja tjetër. Kush do të përgjigjet?</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1261">Po, zoti Brahimi.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u471" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u471" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1262">Për sa i përket koeficientit, i keni bllokuar propozuesit, nuk e di, por nuk është mirë të mos kenë të drejtë të thonë... Unë e di që te koeficientet është marrë popullsia; të gjithë koeficientet janë marrë me pesha të ndryshme dhe janë përdorur si kriter për propozimin e ri.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1263">Për sa i përket pyetjes për hapësirat territoriale, janë në Veri dhe në Jug, por më të theksuara i ka Veriu; te skema e financimit që e kemi ndër vite të konsoliduar, kemi një koeficient...</seg>
           <vocal type="interruption">
@@ -2895,7 +2895,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u473" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1268">Zoti Brahimi, ju lutem, përmbylleni përgjigjen.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u474" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u474" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1269">Duke qenë se ky komponent është favorizues për këtë pjesë, sigurisht që shërbimi nuk është i domosdoshëm vetëm në ato zona, por duhet të jetë gjithandej, për shembull, për përdorimin e “e-Albania”-s, për përdorimin e shërbimeve të pushtetit vendor, që duhet të jetë një “e-Albania”. Siç e tha edhe kolegia e Ministrisë së Drejtësisë, do të ketë zyra dhe shërbime, të cilat do të jenë falas për këto zona, për t'u ofruar dhe për t’i ndihmuar njerëzit për të marrë shërbimet burokratike, që s'ka nevojë të shkojnë nga Bugjoni në Fushë-Arrës.</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -2907,7 +2907,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u476" ana="#regular" who="#AL_PERS_ArianNdoja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1271">ILDKPKI-ja, që është organi që na kontrollon të gjithëve, duhet të paguajë tarifë shërbimi tek ASHK-ja për të marrë informacion. Imagjino, falas...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u477" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u477" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1272">Përdora 2 argumente.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u478" ana="#regular" who="#AL_PERS_ArianNdoja">
@@ -2933,7 +2933,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u481" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1284">Fjala për zotin Brahimi për përgjigje.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u482" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u482" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1285">Sigurisht, reforma do të shoqërohet edhe me ndërhyrje të tjera në legjislacion, sepse ajo do të shtrihet në aspektin fiskal, financiar; edhe në raport me kompetencat dhe në raport me anën fiskale e financiare të pushtetit vendor. Pra, duhet të ketë një paketë reformash të tjera, që do ta shoqërojnë, për të bërë ndryshimet e duhura. Qëllimi është, së pari, të përmirësohet mekanizmi i financimit të pushtetit vendor; së dyti, të përmirësohet ndarja e qartë e kompetencave, madje edhe garantimi. U përmend disa herë që mos ndoshta njësitë, që bashkohen, janë të rrezikuara që të mos kenë me financimin që kanë pasur më parë. Sigurisht, ato do të jenë të garantuara, sepse do të gjendet mekanizmi që të mos kenë asnjëherë para më pak, ose të jenë jashtë vëmendjes fiskale.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1286">Kështu që, do të jetë një paketë që do ta shoqërojë këtë reformë, që lidhet me funksionalitetin, që lidhet me anën financiare dhe fiskale, të cilat të gjitha së bashku do të bëjnë një reformë adekuate, dhe kjo të mos bëhet menjëherë, por të jetë me faza deri në përfundimin e reformës.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1287">Së dyti, ne kemi eksperiencën e vitit 2014 për transferimin e kontabilitetit ose të aseteve dhe detyrimeve, që janë të lidhura me njësitë që do të bashkohen me njësinë mëmë, pra konsultimi i bilancit duhet të jetë në një bilanc, por duke mbartur të gjitha të dhënat e bashkisë, për shembull, bashkia X shkon te bashkia Y, kështu të gjitha kontratat dhe detyrimet do të kalojnë te bashkia tjetër. Të gjitha këto detyrime do të jenë në kontabilitetin e detyrimeve të bashkisë që bashkohet me të.</seg>
@@ -3040,7 +3040,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1346">Faleminderit, zoti Shehu!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1347">Po, zoti Asllani.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u498" ana="#regular" who="#AL_PERS_YlliAsllani">
+        <u xml:id="ParlaMint-AL_2026-09-28.u498" ana="#guest" who="#AL_PERS_YlliAsllani">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1348">Po i citoj zotit Mazniku, për të cilin personalisht kam respekt, që performanca e Bashkisë së Selenicës nuk është ashtu siç thoni ju. Ajo ka një nivel borxhi mjaft të ulët, 3,4%.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1349">Ajo renditet në vendin e 14-të në Shqipëri për sa i përket të ardhurave të saj për frymë dhe për përqindjen e shpenzimeve që shkojnë direkt për investime publike. Vetëm në 10 vitet e fundit, nga viti 2015 në vitin 2025, bashkia ka arritur të katërfishojë të ardhurat e saj lokale, duke u mbështetur në diversitetin e ekonomisë dhe pa rritur barrën fiskale, siç kanë bërë shumë bashki të tjera, dhe, siç tha Frani, që e shesin taksën e ndërtimit si të ardhura. Bashkia e Selenicës është një bashki shumë modeste që ka arritur të katërfishojë të ardhurat e saj, duke i mbajtur në nivelin e mëparshëm taksat. Këto janë të dhëna që nuk i kam marrë nga Frani, i kam marrë nga të tjerë.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1350">Pasuritë e mëdha të Selenicës, miniera e bitumit, Gorishti e të tjera, flasin për keqmenaxhim të potencialeve të kësaj bashkie, nuk flasin se e ka fajin ekzistenca e bashkive. Në qoftë se ju, në këto vite që e keni qeverisur, nuk keni arritur ta menaxhoni, atëherë mos harro, Maznik, se janë 47 fshatra, ku më i largëti është mbi 30 kilometra dhe nuk mund t’i mbajë dot Bashkia e Vlorës. Bashkia e Vlorës raportin midis investimeve në qytet dhe në periferi e ka 1 me 4. Domethënë, në qoftë se investimet brenda qytetit të Vlorës janë 4, në periferi janë 1. Kur kjo nuk arrin dot...</seg>
@@ -3053,13 +3053,13 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u499" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1353">Xhelali, ishte një nga ata.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u500" ana="#regular" who="#AL_PERS_YlliAsllani">
+        <u xml:id="ParlaMint-AL_2026-09-28.u500" ana="#guest" who="#AL_PERS_YlliAsllani">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1354">Më vjen keq, por i përmendët me një narrativë përçmuese. Ju aty keni vrarë gjenin shqiptar, keni hequr nga trojet tona njerëzit...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u501" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1355">Mendojmë ndryshe për atë pikë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u502" ana="#regular" who="#AL_PERS_YlliAsllani">
+        <u xml:id="ParlaMint-AL_2026-09-28.u502" ana="#guest" who="#AL_PERS_YlliAsllani">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1356">Janë 425 mijë banorë dhe Dibra ka shumicën e përqindjes në këtë. Mendojeni mirë, sepse ti e di që unë nuk kam asgjë personale me askënd. Mendoj se edhe bindja ndaj familjes politike e ka një cak. Pra, ju sugjeroj që të mos e përdorni tiraninë e votave në dëm të banorëve.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u503" ana="#chair" who="#AL_PERS_UlsiManja">
@@ -3128,7 +3128,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1386">Nga 15 bashki që preken deri tani, përveç Këlcyrës, në bazë të informacioneve që kam deri tani, e cila e ka nesër, në mos gaboj, votimin në këshill bashkiak, 14 të tjerat kanë votuar unanimisht kundërshtimin e draftit që po paraqisni ju në këshillat bashkiakë. Neni 108 i Kushtetutës, nga pika 1 deri në pikën 4, është i gjithi i plotësuar dhe ky draft duhej ndërprerë këtu.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1387">Populli është e shprehur se nuk e do këtë reformë që po bëni. Pyetja ime është e thjeshtë dhe përgjigjen e dua vetëm me një fjalë. Jemi në kushtet e shkeljes së Kushtetutës, po ose jo?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u513" ana="#regular" who="#AL_PERS_ElonaHoxha">
+        <u xml:id="ParlaMint-AL_2026-09-28.u513" ana="#guest" who="#AL_PERS_ElonaHoxhaj">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1388">Jo, nuk jemi.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u514" ana="#regular" who="#AL_PERS_GentStrazimiri">
@@ -3154,7 +3154,7 @@
           </vocal>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1397">Dakord, përgjigjet i do nga zëvendësministri i Brendshëm.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u518" ana="#regular" who="#AL_PERS_OltjonMuzaka">
+        <u xml:id="ParlaMint-AL_2026-09-28.u518" ana="#guest" who="#AL_PERS_OltjonMuzaka">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1398">Zoti kryetar, meqë është përmendur disa herë. Ka disa pyetje që nuk janë për Këshillin e Ministrave. Unë jam përfaqësues i Ministrisë së Punëve të Brendshme...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -3169,7 +3169,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1401">Ju lutem, zoti Strazimiri, sepse do të ta japi përgjigjen!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1402">Prite ta japë përgjigjen.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u520" ana="#regular" who="#AL_PERS_OltjonMuzaka">
+        <u xml:id="ParlaMint-AL_2026-09-28.u520" ana="#guest" who="#AL_PERS_OltjonMuzaka">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1403">Bashkia e Krujës, po ta lexoni draftin, nuk preket.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1404">Ndërsa, për pjesën e Rinasit dhe pjesën e taksave, sinqerisht më duhet ta verifikoj dhe do t’ju kthej një përgjigje me shkrim. Por, po ju them se Bashkia e Krujës nuk preket. Kjo është përgjigja ime.</seg>
         </u>
@@ -3183,7 +3183,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u522" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1407">Aeroporti i Rinasit nuk është punë taksash...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u523" ana="#regular" who="#AL_PERS_OltjonMuzaka">
+        <u xml:id="ParlaMint-AL_2026-09-28.u523" ana="#guest" who="#AL_PERS_OltjonMuzaka">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1408">Nuk preket, megjithatë do t’ju jap një përgjigje ezauruese...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u524" ana="#chair" who="#AL_PERS_UlsiManja">
@@ -3249,7 +3249,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1434">Faleminderit, zoti Korreshi!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1435">Zoti Muzaka e ka fjalën.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u539" ana="#regular" who="#AL_PERS_OltjonMuzaka">
+        <u xml:id="ParlaMint-AL_2026-09-28.u539" ana="#guest" who="#AL_PERS_OltjonMuzaka">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1436">Për pyetjen e parë: po, decentralizon, por nuk ka lidhje me objektin që jemi mbledhur sot. Pra, nuk ka lidhje me ligjin.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1437">Ndërsa, për pyetjen e dytë, do t’ia kaloj fjalën zotit Brahimi.</seg>
         </u>
@@ -3257,7 +3257,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1438">Po, faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1439">Zoti Brahimi, fjala për ju. Vetëm do t’ju lutesha të përgjigjeshit shkurt.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u541" ana="#regular" who="#AL_PERS_FranBrahimi">
+        <u xml:id="ParlaMint-AL_2026-09-28.u541" ana="#guest" who="#AL_PERS_FranBrahimi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1440">Faleminderit për pyetjen!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1441">Është e disata herë që bëhet kjo pyetje, por nuk ka rëndësi. E thashë se borxhi ka qenë tërësisht i pushtetit vendor, pra i bashkive, dhe kryesisht janë marrë përsipër të shlyhen nga bashkitë. Qeveria, në bazë të performancave, kryesisht në fund të vitit, i ka ndihmuar me një formulë. Kryetari i Bashkisë Kavajë është këtu dhe mund ta konfirmojë se vitin e kaluar ka qenë kjo bashkia që ka marrë pjesën më të madhe, sepse kishte borxhin më të madh, me një formulë se cila kishte borxhin më të madh, madje jemi kritikuar për këtë gjë...</seg>
           <vocal type="interruption">
@@ -3282,20 +3282,20 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1453">Në radhë për t'u shprehur është Shoqata Kombëtare e Bashkive të Shqipërisë. Unë do t'i propozoja komisionit që, në emër të shoqatave, të shprehen secili më vete, ndërsa kur të vijmë në fazën e pyetjeve dhe përgjigjeve, nëse ka pyetje që mund të jenë për Shoqatën Kombëtare të Bashkive të Shqipërisë apo për Shoqatën e Bashkive dhe të Zgjedhurve Vendorë, sipas radhës, të ftuarit ta marrin fjalën për përgjigje. Po flas për fazën e pyetje-përgjigjeve. Po ashtu, edhe ekspertët respektivë, të cilët asistojnë shoqatat për t'u ardhur në ndihmë përfaqësuesve të Shoqatës Kombëtare të Bashkive të Shqipërisë dhe Shoqatës së Bashkive dhe të Zgjedhurve Vendorë.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1454">Kështu që, edhe aty ku janë ulur ekspertët, mund ta kërkojnë dhe ta marrim fjalën, gjithmonë me delegimin e të ftuarve respektivë, të cilët unë i kam në panelin përballë. Nuk e di, a jemi dakord të vazhdojmë me këtë procedurë?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u543" ana="#regular" who="#AL_PERS_YlliAsllani">
+        <u xml:id="ParlaMint-AL_2026-09-28.u543" ana="#guest" who="#AL_PERS_YlliAsllani">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1455">Një sqarim, se ne kemi ardhur këtu si ekspertë, jo të reformës së PS-së. Ne kemi ardhur si ekspertë për projektin e Partisë Demokratike...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u544" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1456">Më fal! Të lutem! Zoti Ylli Asllani, të kam te Shoqata e Bashkive dhe Zgjedhurve Vendorë si ekspert. Shoqata e Bashkive dhe të Zgjedhurve Vendorë është shoqata që përfaqëson zoti Qosja.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u545" ana="#regular" who="#AL_PERS_YlliAsllani">
+        <u xml:id="ParlaMint-AL_2026-09-28.u545" ana="#guest" who="#AL_PERS_YlliAsllani">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1457">Nuk e mohoj dhe jam shumë i nderuar, por po flas për tematikën, e cila është vetëm për të mbrojtur apo për të mos mbrojtur 46 bashkitë. Apo diskutimi është më i gjerë dhe përfshin edhe argumentet...?</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u546" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1458">Jo, diskutimi nuk përfshin nismën tjetër, që nuk është sot, për të cilën ne morëm vendim. Nëse zoti Qosja, zoti Curri dhe zoti Malaj, që janë 3 kryetarë bashkish të nderuar, të cilët përfaqësojnë Shoqatën e Bashkive dhe të Zgjedhurve Vendorë mund të kërkojnë asistencën tuaj si ekspert teknik në fazën e pyetjeve-përgjigjeve, ju mund t'ua afroni këtë ndihmë. Kjo është e gjitha. Për nismën tjetër nuk ka diskutim.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1459">Zonja Sako, në emër të Shoqatës Kombëtare të Bashkive të Shqipërisë, edhe një herë, duke ju kërkuar ndjesë të gjithëve nga të dyja shoqatat, por edhe ekspertëve përkatës, për këtë ditë të gjatë dhe për orën në të cilën jeni ftuar të flisni (se mbledhja shkoi përtej çdo limiti që ishte parashikuar, por brenda një dite normale pune të këtij komisioni), fjala është për ju.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u547" ana="#regular" who="#AL_PERS_EmirianaSako">
+        <u xml:id="ParlaMint-AL_2026-09-28.u547" ana="#guest" who="#AL_PERS_EmirianaSako">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1460">Faleminderit, kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1461">Të nderuar deputetë,</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1462">Të nderuar ekspertë,</seg>
@@ -3333,28 +3333,28 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1494">Taksa e qarkullimit të mjeteve Rritja e pjesës që u transferohet bashkive të jetë përtej 25%-shit që është aktualisht, dhe këtu sjell në vëmendje se propozimi ynë shkon 50-75%, duke qenë se automjetet, të cilat lëvizin në territor, konsumojnë hapësirën publike të qyteteve. Në fakt, në Durrës, në vitin 2021 kemi pasur 54 701 mjete; në dhjetor të vitit 2025 kemi pasur 73 171; në qershor të vitit 2026, 75 817, duke raportuar vetëm për 6-mujorin një numër prej 2446 dhe një rritje nga viti 2025, duke bërë diferencë me vitin 2021, me 18 000 mjete. Praktikisht jemi qyteti që ka numrin më të lartë të automjeteve në territorin e tij dhe mendojmë se kjo taksë do të ketë një efekt pozitiv dhe patjetër që, nëpërmjet legjislacionit, mund të përcaktohet dhe destinacioni i saj: të shkojë për sigurinë rrugore, për investime në infrastrukturë dhe për shtimin e hapësirave të parkingjeve në qytete.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1495">Të shqyrtohet përdorimi i një pjese të TVSH-së për forcimin e grantit të pakushtëzuar dhe ekualizimin fiskal; të shqyrtohet edhe ndarja e një pjese të tatimit të fitimit me bashkitë; të shqyrtohet transferimi te bashkitë i të ardhurave nga aktivitetet e zonave të mbrojtura për bashkitë, të cilat kanë zona të mbrojtura në territorin e tyre. Gjithashtu, nga taksat e ndara (ne, si bashki, kemi portin në pjesën e territorit tonë) të shtohet një taksë, të kalojë një taksë portuale dhe një taksë karboni, patjetër, ku qyteti të mos e ketë portin thjesht si një territor që duhet ta menaxhojë, por edhe si një mundësi e burimit të të ardhurave.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u548" ana="#regular" who="#AL_PERS_YlliAsllani">
+        <u xml:id="ParlaMint-AL_2026-09-28.u548" ana="#guest" who="#AL_PERS_YlliAsllani">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1496">Më duket se jeni jashtë temës.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u549" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1497">Ju lutem!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u550" ana="#regular" who="#AL_PERS_EmirianaSako">
+        <u xml:id="ParlaMint-AL_2026-09-28.u550" ana="#guest" who="#AL_PERS_EmirianaSako">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1498">Nuk e kam mbaruar. Ne kemi bërë propozimet tona...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u551" ana="#regular" who="#AL_PERS_YlliAsllani">
+        <u xml:id="ParlaMint-AL_2026-09-28.u551" ana="#guest" who="#AL_PERS_YlliAsllani">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1499">Nuk jemi te funksionet, bëhet fjalë për reformën territoriale.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u552" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1500">Ju lutem, zoti Asllani!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u553" ana="#regular" who="#AL_PERS_EmirianaSako">
+        <u xml:id="ParlaMint-AL_2026-09-28.u553" ana="#guest" who="#AL_PERS_EmirianaSako">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1501">Forcimi i ekualizimit fiskal...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u554" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1502">Ju lutem, zonja Sako!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u555" ana="#regular" who="#AL_PERS_EmirianaSako">
+        <u xml:id="ParlaMint-AL_2026-09-28.u555" ana="#guest" who="#AL_PERS_EmirianaSako">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1503">Mbarova, kryetar, edhe pak kam.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u556" ana="#chair" who="#AL_PERS_UlsiManja">
@@ -3362,7 +3362,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1505">Kam respekt për të gjithë të ftuarit. Për aq kohë sa na keni pritur ne, thojini të gjitha ato për të cilat keni ardhur sot, se na keni pritur nga ora 11 deri në orën 4. Tani, ato që keni ndër mend dhe jeni përgatitur t'i thoni, thojini këtu, nuk ka problem për kohën. Jemi për ndarjen territoriale dhe po flet për funksionet, për kompetencat; janë pjesë e së njëjtës reformë, faza e parë me fazën e dytë. Ju mund t'i thoni të gjitha çfarë keni për të thënë, se boll na pritët.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1506">Ju lutem, mund të vazhdoni!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u557" ana="#regular" who="#AL_PERS_EmirianaSako">
+        <u xml:id="ParlaMint-AL_2026-09-28.u557" ana="#guest" who="#AL_PERS_EmirianaSako">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1507">Një propozim tjetër, që mendojmë se është shumë i rëndësishëm, është ekualizimi fiskal, të cilin reforma e parë nuk e ka pasur. Pra, bashkitë janë financuar nëpërmjet së njëjtës formulë, si bashkitë e mëdha, ashtu dhe bashkitë e vogla. Mendojmë se ekualizimi dhe ndryshimi i komponentëve që parashikon legjislacioni për transfertën e pakushtëzuar, pra ndryshimi i peshës specifike që ka popullsia, dendësia, numri i nxënësve, mendojmë se duhet të futet elementi i nevojës sociale apo i varfërisë në këtë komponent. Patjetër, ekualizimi është një instrument, të cilin edhe rajoni, edhe qytetet evropiane e kanë si instrument të tyre, ku bashkitë, të cilat kanë një peshë për të siguruar të ardhura më të vogla sesa bashkitë e mëdha, kanë një mbështetje më të madhe nga qeveria.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1508">Kompensimi i të ardhurave të munguara Nëse qeveria vendos të ulë të ardhurat e bashkive, mendojmë se patjetër shteti duhet të bëjë kompensimin automatik. Sot ekziston në legjislacion, por kjo masë nuk është marrë asnjëherë. Çdo ndryshim fiskal që prek pushtetin vendor të shoqërohet me analizë të ndikimit financiar dhe përcaktim të burimit të kompensimit.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1509">Territori dhe qeverisja Çdo rishikim i hartës të bazohet në funksionalitet, në lidhje ekonomike, në traditë, në kulturë dhe në histori. Për çdo ndryshim të bashkive, të njësive administrative apo fshatrave, të bëhen konsultime të veçanta me banorët e prekur, anketa, pyetësorë dhe publikimi i rezultateve.</seg>
@@ -3377,7 +3377,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1516">Pra, me sa kuptova unë tani, Shoqata Kombëtare e Bashkive të Shqipërisë është për vijimin e reformës administrativo-territoriale.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1517">Po, zoti Llatja.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u559" ana="#regular" who="#AL_PERS_GledianLlatja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u559" ana="#guest" who="#AL_PERS_GledianLlatja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1518">Faleminderit, i nderuar kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1519">Në fakt, ka qenë një proces i gjatë. Ne këtu duhet të ndajmë rolin tonë, si kryetarë të bashkive, pasi kryetarët e bashkive janë shprehur, pjesa më e madhe e tyre e kanë dërguar në Kuvend mendimin e tyre. Këshillat bashkiakë, një pjesë e madhe, e kanë dërguar, ashtu si këshilli Bashkiak i Elbasanit, dhe dëgjesat publike për reformën janë bërë.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1520">Ne sot shprehim dakordësinë tonë, të miratuar nga Shoqata Kombëtare e Bashkive të Shqipërisë, për vazhdimin e reformës territoriale, për draftin e paraqitur, që na ka ardhur nga një grup deputetësh. Është parë dhe është shqyrtuar nga ne, nga shoqata, me ekspertët tanë. Kuptohet që kjo është faza e parë. Ajo që ne kemi kërkuar, siç edhe kryetarja e cilësoi, duam që ta vazhdojmë më tej. Për ne është shumë e rëndësishme vazhdimi i reformës.</seg>
@@ -3390,7 +3390,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1525">Kush ka diçka tjetër për të shtuar nga Shoqata Kombëtare e Bashkive të Shqipërisë, apo të kalojmë te Shoqata e Bashkive dhe të Zgjedhurve Vendorë? Nuk ka gjë për të shtuar.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1526">Atëherë, zoti Qosja, fjala është për ju, në emër të Shoqatës së Bashkive dhe të Zgjedhurve Vendorë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u561" ana="#regular" who="#AL_PERS_FisnikQosja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u561" ana="#guest" who="#AL_PERS_FisnikQosja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1527">Faleminderit, zoti kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1528">Faleminderit, të nderuar anëtarë të komisionit!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1529">Në fakt, jam shumë dakord për kompetencat, pa diskutim, ndajmë të njëjtat çështje, të njëjtat mendime, por ne si shoqatë, në bazë edhe të mbledhjeve, të takimeve që kemi bërë në asamblenë e shoqatës sonë, A-ja e gjithçkaje është ndarja territoriale. Pra, nëse nuk kemi afërsinë me qytetarin...</seg>
@@ -3398,7 +3398,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u562" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1530">Afrojeni pak mikrofonin, që të dëgjoheni më mirë, për efekt regjistrimi.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u563" ana="#regular" who="#AL_PERS_FisnikQosja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u563" ana="#guest" who="#AL_PERS_FisnikQosja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1531">Jam shumë dakord për kompetencat që u folën nga kolegët, por A-ja e gjithçkaje, sipas të gjitha takimeve që kemi bërë me anëtarët e shoqatës, është afërsia me qytetarin.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1532">Pra, ndarja territoriale është shumë e rëndësishme. Afërsia me qytetarin do të ishte shumë më e rëndësishme sesa kompetenca, sepse disa kompetenca qeveria dhe bashkia i kanë. Kështu që, afërsia është më e rëndësishme. Unë po flas në emër të shoqatës, nuk po flas si kryetari i Bashkisë së Kavajës, sepse ka specifikë tjetër, por më gjatë dhe më gjerë do të flasin edhe kolegët që preken direkt nga kjo ndarje.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1533">Si përfaqësues i Shoqatës së Bashkive dhe të Zgjedhur Vendorë, e cila përfaqëson bashkitë dhe të zgjedhurit vendorë të opozitës, dua ta bëj të qartë qëndrimin tonë. Ne i qëndrojmë dhe mbrojmë propozimin tonë për 100 bashki dhe 12 qarqe. E konsiderojmë këtë një bazë për një qeverisje vendore më pranë qytetarëve, një përfaqësim më të gjerë territorial. Ne e shohim reformën si organizimin e të gjithë sistemit vendor, jo thjesht si ndryshim i hartës.</seg>
@@ -3412,7 +3412,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1539">Faleminderit, zoti Qosja!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1540">Fjalën e kanë zoti Curri, më pas zoti Malaj.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u565" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u565" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1541">Përshëndetje, të gjithëve!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1542">Faleminderit, zoti kryetar!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1543">Sot i dëgjova me vëmendje të gjithë deputetët, si të opozitës, si të mazhorancës. Një moment historik është për çdo njërin prej këtyre deputetëve të nderuar, zonjave dhe zotërinjve, që kanë marrë votat e zgjedhësve, që të hyjnë në histori dhe të mbrojnë dinjitetin e atyre komuniteteve të pambrojtura.</seg>
@@ -3446,13 +3446,13 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u566" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1564">Zoti Curri, të lutem, përmbylleni, sepse e ka kërkuar edhe zoti Malaj fjalën, nuk jemi këtu vetëm për bashkinë e Fushë-Arrësit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u567" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u567" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1565">Unë jam duke folur në emër të demokracisë.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u568" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1566">Nëse ke ardhur për të folur si kryetar i bashkisë së Fushë-Arrësit, jam dakord.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u569" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u569" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1567">Nuk është problem pjesa e bashkisë, problemi është mënyra se si na serviret kjo. Unë edhe mund ta ndërpres, por mendoj se ka vlerë për pjesën demokratike.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1568">Ne i kemi bërë të gjitha siç na ka orientuar Parlamenti dhe në qoftë se ju si deputetë nuk mbani përgjegjësi për këtë firmën që keni lëshuar në fund nga sekretarja e Parlamentit apo nga kush na ka ardhur... Kryeministria thotë: nuk e kemi çuar ne, por kemi qenë dakord. Pra, ne e kemi marrë në çdo fazë ligjore, kemi sjellë një draft dhe kemi dalë në përfundim, por në qoftë se kjo nuk merret parasysh... Ne kemi dy muaj që merremi me këtë punë, por mund të na ishte thënë: zotëri, kjo është një reformë, e cila do të bëhet dhe ju do të jeni pjesë e reformës. Kështu që, ne, dy komunitetet (edhe bashkitë e tjera kanë dalë me të njëjtin përfundim) nuk mund ta pranojmë.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1569">Unë jam shumë i shqetësuar, sepse si ka mundësi që në 3 qarqet e zonës së Veriut, i nderuari zoti Mazniku i ka vënë gishtin vetëm bashkisë së Fushë-Arrësit?! Kjo lë shumë për të dëshiruar dhe nuk dua që t’ju faturohet kjo lloj zoti procedurë, e cila, në rregullat e demokracisë dhe në çdo element që ka Kushtetuta jonë, ne jemi dakord.</seg>
@@ -3462,7 +3462,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1571">Faleminderit, zoti Curri!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1572">Zoti Malaj, do t’ju lutesha për reformën në përgjithësi, sepse ju përfaqësoni edhe bashkinë e Memaliaj, por të lutem!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u571" ana="#regular" who="#AL_PERS_AlbertMalaj">
+        <u xml:id="ParlaMint-AL_2026-09-28.u571" ana="#guest" who="#AL_PERS_AlbertMalaj">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1573">Shumë shkurt, se po shkon 7 orë mbledhje.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1574">I nderuar kryetar,</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1575">Të nderuar deputetë,</seg>
@@ -3484,7 +3484,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1585">Zoti Strazimiri i bën një e nga një, nuk ka mbaruar akoma.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1586">Zoti Llatja.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u575" ana="#regular" who="#AL_PERS_GledianLlatja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u575" ana="#guest" who="#AL_PERS_GledianLlatja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1587">Janë bërë konsultime me bashkitë. Shoqata e Bashkive ka bordin e saj, pra, kemi një bord tonin që janë diskutuar, janë marrë mendimet dhe është kërkuar specifikisht që këshillat bashkiakë të japin mendimet e tyre, apo jo? Kjo është procedura ligjore. Dhe është kërkuar mendimi i shoqatës. Pra, këshillat vendorë e kanë dhënë mendimin e tyre, ku një pjesë e ka dhënë pozitive, një pjesë e ka dhënë negative, edhe tek ata që e kanë dhënë pozitive, edhe në Bashkinë e Elbasanit, ka mendim kundër, është edhe një mendim kundër. Në shkresë thuhej se edhe në qoftë se ka opsione të tjera, pra, ka një opsion të dytë, mund të vijë dhe një opsion i dytë.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1588">Pra, nuk na pëlqen ky variant që ka ligji, ka opsionin që ne e pranojmë, ka opsionin që jemi kundra dhe ka opsionin që një variant tjetër që është menduar nga anëtarët e këshillit bashkiak të propozohet. Të paktën kështu na është thënë në shkresë. Shoqata e Bashkive ka bërë mbledhjet e saj dhe i ka dhënë fokusin maksimal vazhdimit të reformës dhe decentralizimit të kompetencave.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1589">Kjo ka qenë në mbledhjen që ne kemi bërë. Mendimi është zyrtar, pra e kemi sjellë në Kuvend, e keni besoj edhe ju në dosjet tuaja, duhet t'ju ketë ardhur si material...</seg>
@@ -3492,7 +3492,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u576" ana="#regular" who="#AL_PERS_GentStrazimiri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1590">Bashkitë që preken nga reforma, 15 bashkitë që preken nga reforma...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u577" ana="#regular" who="#AL_PERS_GledianLlatja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u577" ana="#guest" who="#AL_PERS_GledianLlatja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1591">Duhet të shohim procesverbalet. Në qoftë se kërkoni një gjë specifike, duhet të shohim procesverbalet.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u578" ana="#regular" who="#AL_PERS_GentStrazimiri">
@@ -3505,7 +3505,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1594">Zoti Llatja, 13 bashkitë që shkrihen a janë pjesë e atij opinioni apo jo?</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1595">Janë apo s'janë, a i përfaqësoni edhe ata këtu, apo jo?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u581" ana="#regular" who="#AL_PERS_EmirianaSako">
+        <u xml:id="ParlaMint-AL_2026-09-28.u581" ana="#guest" who="#AL_PERS_EmirianaSako">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1596">A mund t'ju përgjigjem unë për këtë?</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1597">Materialin që kemi depozituar pranë komisionit, pra, dy bashkëkryetarëve të komisionit, e kemi dërguar përpara se të dilte drafti i ndarjes territoriale, i hartës. Kjo do të thotë se diskutimet tona me kryetarët e bashkive janë bërë kryesisht për problemet që ne na shqetësojnë te menaxhimi i punës tonë të përditshme. Siç e shpreha, ne jemi fokusuar te funksionet dhe financat, që janë dy instrumente, dhe nuk kemi hyrë në detaje specifikisht për mënyrën se si mund të ndahet territori.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1598">Kjo do të thotë se po t’i pyesnim një nga një kryetarët e bashkive në atë fazë, sigurisht do të thoshin...</seg>
@@ -3513,7 +3513,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u582" ana="#regular" who="#AL_PERS_GentStrazimiri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1599">Janë shprehur këshillat bashkiakë, jo kryetarët e bashkive.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u583" ana="#regular" who="#AL_PERS_EmirianaSako">
+        <u xml:id="ParlaMint-AL_2026-09-28.u583" ana="#guest" who="#AL_PERS_EmirianaSako">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1600">Ata do të thoshin që ne nuk duam të na preket, duam të zmadhohemi e të tjerë, pra, mund të kishin një opinion individual për këtë çështje. Gjithsesi, niveli i prezantimit të shoqatës mbetet në trajtën e rekomandimit, sepse vendimmarrës për vendimin e kryetarëve në mënyrë të veçantë flasin ata vetë dhe këshillat bashkiakë.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u584" ana="#regular" who="#AL_PERS_GentStrazimiri">
@@ -3521,7 +3521,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1602">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1603">E njëjta pyetje për zotin Qosja. Zoti Qosja, përveçse me dy kryetarët e bashkive që janë fituar nga Partia Demokratike, me pjesën tjetër të zgjedhurve vendorë, që, në fakt, janë pjesë e shoqatës tjetër, a keni pasur kontakte me ta?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u585" ana="#regular" who="#AL_PERS_FisnikQosja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u585" ana="#guest" who="#AL_PERS_FisnikQosja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1604">Kontakte s'kam pasur, kemi pasur vetëm me kolegët tanë.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1605">Kam pasur me kryetarin e Libohovës dhe është kategorikisht kundër mbylljes së bashkisë së Libohovës. Me atë kam pasur kontakt, me kryetarin e Libohovës. Jo, faleminderit, jo se...</seg>
         </u>
@@ -3529,7 +3529,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1606">Nuk e kisha në këtë prizëm, e kisha më shumë në kuptimin institucional të fjalës, sepse që ata nuk janë dakord dhe janë praktikisht dakord me qëndrimin tuaj, refuzimin e kësaj ndarjeje territoriale, që këta e quajnë reformë, atë e kanë shprehur me votë në këshillat bashkiakë, votë unanime.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1607">Janë që të gjithë me votë unanime dhe janë shprehur në këtë mënyrë. Besoj se në opinionin tuaj ju e keni marrë parasysh edhe faktin se ata janë që të gjithë kundër, apo jo?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u587" ana="#regular" who="#AL_PERS_FisnikQosja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u587" ana="#guest" who="#AL_PERS_FisnikQosja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1608">Absolutisht, po!</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u588" ana="#regular" who="#AL_PERS_GentStrazimiri">
@@ -3542,19 +3542,19 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u590" ana="#regular" who="#AL_PERS_AniDyrmishi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1612">Në fakt, doja të shtoja diçka te pyetja që kishte kolegu Strazimiri, doja të pyesja zotin Qosja: ju, personalisht, a jeni dakord me bashkimin me Rrogozhinën apo kundër?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u591" ana="#regular" who="#AL_PERS_FisnikQosja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u591" ana="#guest" who="#AL_PERS_FisnikQosja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1613">Unë, në radhë të parë, dua t’i dëgjoj qytetarët e Rrogozhinës, sepse unë s'mund të, pavarësisht se unë përfaqësoj Bashkinë e Kavajës, por do të dëgjoj qytetarët e Rrogozhinës a pranojnë ata të bashkohen me Kavajë. Unë dua të bashkohem me Tiranën.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u592" ana="#regular" who="#AL_PERS_AniDyrmishi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1614">Për sa i përket këshillit bashkiak të Rrogozhinës, e morëm vesh që ata nuk donin të bashkoheshin me ju, por po flas për ju, si kryetari i bashkisë së Kavajës, a jeni dakord të bashkoheni, apo jo?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u593" ana="#regular" who="#AL_PERS_FisnikQosja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u593" ana="#guest" who="#AL_PERS_FisnikQosja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1615">Atëherë, unë jam për shërbim ndaj qytetarëve. Si kryetar i bashkisë së Kavajës, unë dua që tu shërbej qytetarëve më së miri, por unë, personalisht, për t'u bashkuar... unë dua ta zmadhoj bashkinë e Kavajës, ta bëj me Dirrësin, me Tiranën, me kë të duash. Unë nuk e kam problem fare dhe nuk i trembem as elektoralisht, as administrativisht.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u594" ana="#regular" who="#AL_PERS_AniDyrmishi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1616">Jo, unë thjesht pyeta: ju, si kryetar i bashkisë që do të përthithni bashkinë e Rrogozhinës, a jeni pro apo kundër bashkisë?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u595" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u595" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1617">Në lidhje me shoqatën, Shoqata e të Zgjedhurve Vendorë ka anëtarët edhe asamblenë. Kështu që të dyja shoqatat funksionojmë edhe në bazë të asamblesë dhe kemi marrë një vendim të gjithë: ne jemi kundër reformës për arsyen e vetme që në këtë reformë nuk janë pyetur qytetarët dhe është mjet demokratik i bollshëm për të rrëzuar një reformë. Kryetari jonë, ne jemi bashkëkryetar, unë jam nënkryetarë dhe ne kemi marrë një vendim. Kjo ishte thjesht një shaka nga kryetari, sepse ne nuk jemi pro bashkimit të asnjë bashkie me bashkinë tjetër në qoftë se nuk ka vullnet. Nëse ka vullnet, jemi dakord.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u596" ana="#chair" who="#AL_PERS_UlsiManja">
@@ -3566,7 +3566,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1621">Kam edhe një pyetje për zonjën Sako. Dëgjova gjatë diskursit të saj që tha që ne mendojmë se administratorëve të njësive administrative duhet t'u shtohen kompetencat, cilat janë ato kompetenca që ju, si kryetarë bashkie, mendoni që duhet të kalojnë tek administratorët për të qenë më afër qytetarëve?</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1622">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u598" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u598" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1623">Besoj se pyetja e parë ishte për bashkitë që kemi marrë draftin edhe e kemi përpunuar. Kryetarët janë shprehur më vete në bazë të draftit, ndërsa dëgjesat publike udhëhiqen nga këshilli bashkiak dhe këshilli bashkiak është një vendim kolegjial, i cili është marrë nga vullneti i lirë i këshillit bashkiak me argumente, sepse argumenti ishte në bazë të draftit, kurse kryetarët e bashkive, unë si kryetar, ose të gjithë kryetarët e të tjerëve, kemi mbajtur qëndrimin tonë dhe e kemi bazuar institucionalisht dhe në kritere, jo jam apo s'jam kundra. Pra, kemi bërë një raport të hollësishëm dhe ia kemi paraqitur Parlamentit. Unë mendoj që Parlamenti duhet t'i marrë në shqyrtim, të paktën Komisioni i Ligjeve duhet t'i marrë në shqyrtim këto elemente.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1624">Me të gjithë kryetarët e bashkive, që janë prekur nga kjo reformë, kemi komunikim, sepse ndajmë të njëjtin hall, dhe deri tani nuk kemi bërë asnjë vepër penale, sepse bashkëbisedojmë me njëri-tjetrin. Mirë do të ishte të ishin të gjithë këtu, por nuk kanë pasur mundësi për arsyen që kanë pasur përfaqësuesit e vetë, por dëshira e tyre ka qenë që edhe ata ta thoshin fjalën e tyre në këtë komision parlamentar.</seg>
         </u>
@@ -3585,7 +3585,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1631">E dyta, ju përmendët këtu konceptin e decentralizimit, të autonomisë, të pushtetit lokal, dhe unë jam shumë dakord me ju, por a mund të ketë autonomi në qoftë se nuk fillon që me pyetjen e komunitetit a do të ekzistojë apo jo ajo njësi.. Pra, a nuk është thelbi kjo gjë? Pyetja e parë është kjo: kur duam të zhdukim, të prishim një bashki, të bëjmë kombinime të mëdha, thelbi i autonomisë a nuk është që t'i pyesim qytetarët a jeni dakord ju, pastaj fillon autonomia, sepse, përndryshe, çfarë autonomie keni?! Shikojeni kartën e Bashkimit Evropian, bazohet te referendumi lokal, jo kot. Pra, mendoj se këtu ka një kontradiktë të madhe, por mendoj se u sqarua që ju nuk jeni marrë fare me çështjen e ndryshimit të njësive, por jeni marrë vetëm thjesht teorikisht me çështjen e menaxhimit. Kjo është shumë e rëndësishme të konfirmohet. Pra, bien krejtësisht poshtë argumentet tuaja si shoqatë.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1632">Unë kam pyetje për zotin Malaj. Zoti Malaj, ju jeni edhe kryetar i bashkisë Memaliaj dhe më thonë se sot është marrë edhe vendimi i këshillit bashkiak të Memaliajt.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u601" ana="#regular" who="#AL_PERS_AlbertMalaj">
+        <u xml:id="ParlaMint-AL_2026-09-28.u601" ana="#guest" who="#AL_PERS_AlbertMalaj">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1633">Po, është marrë, është mbledhur këshilli bashkiak dhe kanë vendosur, janë kundër bashkimit me një bashki tjetër.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u602" ana="#regular" who="#AL_PERS_TritanShehu">
@@ -3598,7 +3598,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1640">E treta, ju keni sonduar, edhe me Tepelenën, keni biseduar për këtë çështje, keni shkuar atje dhe ka një aktivitet për të krijuar mendim, a keni ndonjë të dhënë se si është mendimi i përgjithshëm i Tepelenës?</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1641">Faleminderit!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u603" ana="#regular" who="#AL_PERS_AlbertMalaj">
+        <u xml:id="ParlaMint-AL_2026-09-28.u603" ana="#guest" who="#AL_PERS_AlbertMalaj">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1642">Atëherë, zoti deputet, siç jeni në dijeni, bashkia Memaliaj është një ndër bashkitë më të mëdha në qarkun e Gjirokastrës, pothuajse është e dyta në qark nga sipërfaqja dhe nga popullsia. Në letra sot në gjendje civile ne kemi 18,400 banorë. Bashkia Memaliaj përbëhet nga gjashtë njësi administrative, ka 53 fshatra në territorin e saj dhe ka një sipërfaqe 372 kilometra katrorë. Këto 53 fshatra janë të shpërndara dhe kryesisht janë zona malore, me një infrastrukturë që lë për të dëshiruar. Arsyet dhe argumentet që kanë përdorur të gjithë banorët, kjo është dëgjuar dhe është depozituar në dëgjesat, janë shërbimet që largohen nga banorët. Ne vërtet kemi 53 fshatra, por fshatrat më të largët, ku ne kufizohemi me Përmetin, me Poliçanin, me Beratin dhe me Mallakastrën, janë gati 45-50 kilometra larg nga qyteti Memaliaj. Këto nuk janë kilometra rrugë të asfaltuara, por janë rrugë rurale, që lënë për të dëshiruar. Këto janë argumentet që kanë dhënë, distancat, largimi i shërbimeve e të tjerë. Qyteti është ai që do ta ndiejë më shumë këtë, për shkak të largimit të vendeve të punës. Kjo nxit shpopullimin, ndal zhvillimin ekonomik, si dhe largon shërbimet.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1643">Unë nuk e di dhe nuk jam i qartë as për organigramën, të cilën e marrim të mirëqenë, cila do të jetë organigrama që do të ketë një njësi për qytetin? Çfarë do të ofrojë ajo? Sa punonjës do të ngelen atje? A do të ngelet nesër “Futboll klub Memaliaj” që ne kemi, apo do t'ia shuajmë emrin edhe identitetin? Dhe plot e plot të tjera.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1644">Faleminderit!</seg>
@@ -3617,13 +3617,13 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u607" ana="#regular" who="#AL_PERS_SaimirKorreshi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1650">Pyetja ime e sinqertë për ju: a ju ka informuar zoti Mazniku ju, si shoqatë, se çfarë i ka shërbyer atij dhe pse e ka bërë hartën në mënyrë të tillë? Dua ta dëgjoj nga ju. Pra, çfarë teorie konspirative, çfarë formule kimike ka përdorur zoti Mazniku për hartën e 46 bashkive? Ju jeni në dijeni?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u608" ana="#regular" who="#AL_PERS_GledianLlatja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u608" ana="#guest" who="#AL_PERS_GledianLlatja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1651">Ne nuk jemi anëtarë të Parlamentit, anëtarët e Parlamentit i ke këtu, ne jemi bashkitë.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u609" ana="#regular" who="#AL_PERS_SaimirKorreshi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1652">Thuaj që nuk e di ti.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u610" ana="#regular" who="#AL_PERS_GledianLlatja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u610" ana="#guest" who="#AL_PERS_GledianLlatja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1653">Nuk është puna ta di, thuaj: e di, s’e di. Ne kemi marrë një draft, a na keni sjellë ju, si Kuvend, një draft me firmën e sekretarit të Përgjithshëm? Ne atë draft kemi. I kemi bërë të gjitha. Ne kemi sjellë njerëzit, kur ju, si Kuvend, keni bërë dëgjesat, kur keni sjellë ju...</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1654">Pra, për pyetjet që s'na takojnë, mos na pyesni ne.</seg>
         </u>
@@ -3645,33 +3645,33 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u616" ana="#regular" who="#AL_PERS_SaimirKorreshi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1660">Dhe po të them, pyetje e drejtpërdrejtë: a i ka ardhur ndonjë informacion shoqatës mbi mënyrën apo formulën me të cilën është bërë harta e bashkive? Këtë dua të di unë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u617" ana="#regular" who="#AL_PERS_GledianLlatja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u617" ana="#guest" who="#AL_PERS_GledianLlatja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1661">Na ka ardhur një draftligj, së bashku me të gjithë relacionin përkatës dhe dokumentacionin, i cili është marrë në shqyrtim nga ana jonë. Ky draftligj është shqyrtuar prej nesh.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1662">Pastaj, pjesa tjetër, pra procedurat e brendshme të Kuvendit dhe mënyra se si i ndiqni ato, janë përgjegjësi juaja dhe nuk kanë lidhje me ne.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u618" ana="#regular" who="#AL_PERS_SaimirKorreshi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1663">E kuptova.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u619" ana="#regular" who="#AL_PERS_GledianLlatja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u619" ana="#guest" who="#AL_PERS_GledianLlatja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1664">Domethënë, si i bëni ju me formulë, me...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u620" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1665">Je i qartë, zoti Llatja. Je në rregull.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u621" ana="#regular" who="#AL_PERS_YlliAsllani">
+        <u xml:id="ParlaMint-AL_2026-09-28.u621" ana="#guest" who="#AL_PERS_YlliAsllani">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1666">Zoti Llatja, mund të na thotë, a është pyetur shoqata juaj e bashkive?</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u622" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1667">Zoti Asllani, të lutem, nuk mund të pyetet...</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1668">Pyetjet i bëjnë deputetët, nuk është debat ekspertësh.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u623" ana="#regular" who="#AL_PERS_YlliAsllani">
+        <u xml:id="ParlaMint-AL_2026-09-28.u623" ana="#guest" who="#AL_PERS_YlliAsllani">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1669">Ky ishte thelbi i pyetjes.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u624" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1670">Të lutem!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u625" ana="#regular" who="#AL_PERS_YlliAsllani">
+        <u xml:id="ParlaMint-AL_2026-09-28.u625" ana="#guest" who="#AL_PERS_YlliAsllani">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1671">Thelbi i pyetjes është që duhet pyetur. Pra, a është pyetur shoqata e bashkive për ndryshimet që janë bërë në hartën territoriale ose në projektin që është paraqitur?</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u626" ana="#regular" who="#AL_PERS_SaimirKorreshi">
@@ -3692,7 +3692,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u630" ana="#regular" who="#AL_PERS_SaimirKorreshi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1679">Duke qenë se Durrësi nuk e ka këtë shqetësim, por ju, si shoqatë, patjetër që e keni, në lidhje me vendimet që janë marrë, a do ta azhurnoni dhe riformuloni qëndrimin tuaj drejtuar Komisionit të Ligjeve dhe Parlamentit të Republikës së Shqipërisë lidhur me mendimin tuaj, duke i bashkëngjitur edhe vendimet e këshillave bashkiakë që preken drejtpërdrejt nga shkrirjet?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u631" ana="#regular" who="#AL_PERS_EmirianaSako">
+        <u xml:id="ParlaMint-AL_2026-09-28.u631" ana="#guest" who="#AL_PERS_EmirianaSako">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1680">Jo, nuk është detyra jonë.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u632" ana="#regular" who="#AL_PERS_SaimirKorreshi">
@@ -3710,7 +3710,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1688">Dhe pyetja e dytë është: po për nga kilometrat, mos është më afër Bashkia e Belshit me Lushnjën sesa me qendrën e Elbasanit? Mbase mund t’ia kishit dhënë Lushnjës, nga puna e hartës, se mbase është më afër!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1689">Pra, çfarë mendimi keni?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u635" ana="#regular" who="#AL_PERS_GledianLlatja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u635" ana="#guest" who="#AL_PERS_GledianLlatja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1690">Kryetar, po dalim në specifika më duket, sepse po flasim për bashkitë specifike. Ju kërkoj ndjesë në qoftë se jap mendimin tim edhe si kryetar bashkie, por më duhet ta jap mendimin tim si kryetar bashkie.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1691">Në fakt, Bashkia e Elbasanit ka një performancë të mirë financiare; ka pasur një rritje të buxhetit të saj me reformën territoriale; ka pasur një performancë të mirë; ka treguar që bashkimi ndërmjet njësive administrative ose ish-komunave me qytetin ka sjellë një rritje të përgjithshme të bizneseve, të ekonomisë, të buxhetit të bashkisë dhe të ardhurave tona.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1692">Dua vetëm të përmend një fakt: në vitin 2015, krahasimisht me tani, ka qenë vetëm buxheti i bashkisë, totali, sot janë të ardhurat e bashkisë pa folur për grantet, pa folur për të ardhurat e tjera.</seg>
@@ -3727,7 +3727,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u637" ana="#regular" who="#AL_PERS_SaimirKorreshi">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1700">Kam një pyetje drejtpërdrejtë për centralizimin dhe decentralizimin, se unë u kënaqa nga referimi që ka bërë kryetari, me thënë të drejtën, por do të të pyes për ujësjellës-kanalizimet. Mënyra se si operon këto vitet e fundit, është për ju, centralizim apo decentralizim?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u638" ana="#regular" who="#AL_PERS_GledianLlatja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u638" ana="#guest" who="#AL_PERS_GledianLlatja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1701">Është bërë një reformë për ujin dhe kanalizimet dhe është parë...</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1702">Kuptohet, bashkitë aty janë aksionere të sh.a.,-së.</seg>
           <vocal type="interruption">
@@ -3756,7 +3756,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u643" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1711">Vetëm do t'ju lutesha shkurt.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u644" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u644" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1712">Kryetari e tha shumë mirë: ne ishim pronarë, tani jemi aksionerë të bordeve.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1713">Sh.a.-ja është si reforma; që ka dështuar, ka dështuar. Sepse në të gjitha bashkitë është rritur 600% çmimi i ujit dhe performanca sot lë shumë për të dëshiruar, si anëtarë bordesh që jemi ne.</seg>
         </u>
@@ -3796,13 +3796,13 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1730">Faleminderit, zoti Korreshi!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1731">Ju lutem, zoti Llatja.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u654" ana="#regular" who="#AL_PERS_GledianLlatja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u654" ana="#guest" who="#AL_PERS_GledianLlatja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1732">T’u kthej përgjigje të gjitha pyetjeve apo...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u655" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1733">Ktheju të gjitha. Çfarë përgjigjesh ke për të kthyer, ktheji!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u656" ana="#regular" who="#AL_PERS_GledianLlatja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u656" ana="#guest" who="#AL_PERS_GledianLlatja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1734">Shiko, zoti Korreshi, në fakt, Bashkia e Elbasanit ka qenë një nga bashkitë kryesore, e cila ka implementuar e para, ka më shumë se 14 vjet që implementon buxhetimin me pjesëmarrje. Buxhetimi me pjesëmarrje është forma se si organizohet buxheti në bashki dhe investime. Ai përkthehet patjetër në një përpjesëtim të investimeve për njësitë administrative. Kuptohet, jo për çdo fshat, sepse mund të mos të arrijmë për çdo fshat, por për çdo njësi administrative patjetër që është.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1735">Nuk besoj se territori, shtimi i njësive administrative do të ndryshojë formulën e buxhetimit me pjesëmarrje që sot është e sanksionuar për buxhetimet në të gjitha bashkitë e Shqipërisë, në fakt, dhe shumë e konsoliduar në Bashkinë e Elbasanit. Buxheti, në thelb, ndahet edhe sipas detyrimit ligjor. Në fakt, me sa e kam parë draftin, kërkohet që të jetë i njëjti buxhet, të ketë buxhete të njëjta, investimet të rriten, të ketë performancën dhe gjithçka tjetër, duke e garantuar këtë edhe me një përqindje të anëtarëve të këshillit bashkiak të çdo qyteti në këshillin bashkiak të tij, në bazë të përqindjes së numrit të popullsisë.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1736">Por përgjigja e drejtpërdrejtë për ju është: buxhetimi me pjesëmarrje, pushteti vendor ka një buxhetim me pjesëmarrje ku ndan në mënyrë të drejtpërdrejtë buxhetet që do të implementojnë, dhe qytetarët zgjedhin për projektet e tyre në bazë të prioriteteve të tyre. Kjo është garancia kryesore për financat, në fakt, jo vetëm për Bashkinë e Elbasanit, por për të gjitha bashkitë në thelb.</seg>
@@ -3843,7 +3843,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1759">Në qoftë se ju të gjithë keni lëvizur nga vendi, dhe nuk ju akuzoj për këtë pjesë, sepse i kam dalë për zot kësaj pune, siç i keni dalë edhe ju, por unë kam hyrë këtu dhe jam ulur që në orën 11:00, ndërkohë që tani është ora 18:00.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1760">Ju lutem, zoti Llatja, shumë shkurt.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u660" ana="#regular" who="#AL_PERS_GledianLlatja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u660" ana="#guest" who="#AL_PERS_GledianLlatja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1761">Kryetar, nuk besoj...</seg>
           <vocal type="interruption">
             <desc>Ndërhyrje pa mikrofon.</desc>
@@ -3879,7 +3879,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1772">Po, faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1773">Fjalën e ka zoti Llatja, pastaj edhe kolegët e tjerë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u667" ana="#regular" who="#AL_PERS_GledianLlatja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u667" ana="#guest" who="#AL_PERS_GledianLlatja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1774">Në fakt, i nderuar, unë mendoj se ju keni qenë ndër komisionet që na kanë thirrur më shpesh dhe jemi shumë mirënjohës për këtë, pasi është dëgjuar zëri ynë. Ne jemi të gatshëm të vijmë për çdo reformë që do të ndërmerrni. Edhe për çdo ligj që do të na kërkoni, do të jemi shumë të gatshëm të vijmë, të japim opinionet dhe mendimet tona.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1775">Besoj se një pjesë e këtyre pyetjeve lidhen pikërisht me atë që ndodh më pas, pra kur të bëhen ligjet përkatëse. Mendoj se kjo është çështja...</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1776">Ne këtu jemi për hartën territoriale, apo jo? Ajo që kemi diskutuar dhe për të cilën kemi folur është pikërisht reforma territorialo-administrative, e cila, sipas gjykimit tonë, siç e theksova edhe më parë, është hapi i parë drejt decentralizimit, për të dalë edhe aty ku ishte një pjesë e pyetjeve që u ngritën tani.</seg>
@@ -3890,14 +3890,14 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1779">Po, faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1780">Tani, për sh.a.,-të e sportit, nëse do të kalojë ndarja e re territoriale...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u669" ana="#regular" who="#AL_PERS_AlbertMalaj">
+        <u xml:id="ParlaMint-AL_2026-09-28.u669" ana="#guest" who="#AL_PERS_AlbertMalaj">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1781">Jo, unë pyetjen e pata: do të qëndrojë apo ta marrim të mirëqenë që do të kalojë?</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1782">Dhe tjetra, më falni, zoti Llatja, por nuk jemi në të njëjtat kushte. Juve ju bashkohen edhe dy bashki të tjera. Ndoshta duhet të fliste dikush që i shkrihen bashkitë, jo ju. Juve ju bashkohen Cërriku dhe Belshi, edhe flisni. S’jemi...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u670" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1783">Ju lutem, Elbasanit edhe i ikin, edhe i vijnë, sepse ikën Belshi me Cërrikun, bashkohen me Elbasanin.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u671" ana="#regular" who="#AL_PERS_AlbertMalaj">
+        <u xml:id="ParlaMint-AL_2026-09-28.u671" ana="#guest" who="#AL_PERS_AlbertMalaj">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1784">Po pra, i vënë zotit Llatja.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u672" ana="#chair" who="#AL_PERS_UlsiManja">
@@ -3950,7 +3950,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u679" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1818">Do ta merrni fjalën me radhë, sipas pyetjeve që u bënë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u680" ana="#regular" who="#AL_PERS_EmirianaSako">
+        <u xml:id="ParlaMint-AL_2026-09-28.u680" ana="#guest" who="#AL_PERS_EmirianaSako">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1819">Meqenëse u bënë disa pyetje për Durrësin, unë, zoti Ndoja, kam qenë në dëgjesën që është bërë para 2 apo 3 muajve, ku u thirrëm këtu si kryetarë bashkish nga forca juaj politike, por kishte edhe deputetë të Durrësit me të cilët diskutuam me detaje për të gjitha problematikat, me të drejtë, që ata përcillnin nga qytetarët, por edhe shqetësimet, të cilat mund t’i kenë personale. Ne i kishim përpara të gjitha shifrat e buxhetit, të gjitha raportet e përmbytjeve, çështjen e hodrovorit, çështjen e projektit TID, si dhe shumë çështje të tjera.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1820">Unë dua t’ju kundërshtoj me dy argumente sa i takon asaj që ju thoni: ju kërkoni të fuqizoni njësitë administrative dhe automatikisht nënkuptojmë që po rikthehemi siç ishim përpara reformës së parë territoriale.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1821">Dua t’ju jap disa shifra, të cilat i kam me vete, si dhe t’ju paraqes situatën e buxhetit të njësive administrative të ish-komunave apo të bashkive të Durrësit në vitin 2014, viti i ndryshimit të reformës. Respektivisht:</seg>
@@ -3979,7 +3979,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u682" ana="#regular" who="#AL_PERS_ArianNdoja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1841">Unë nuk ju ndërpreva, zonja Sako, por bëra një përmbledhje të asaj që sapo thatë ju, pra nuk kërkova shifra.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u683" ana="#regular" who="#AL_PERS_EmirianaSako">
+        <u xml:id="ParlaMint-AL_2026-09-28.u683" ana="#guest" who="#AL_PERS_EmirianaSako">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1842">Mendova se donit informacion edhe për përmbytjet.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u684" ana="#regular" who="#AL_PERS_ArianNdoja">
@@ -4006,7 +4006,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1857">Një përgjigje, nëse ka zoti Qosja, për pyetjet e zotit Ndoja.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1858">Më falni, ka për të shtruar diçka zoti Llatja!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u688" ana="#regular" who="#AL_PERS_GledianLlatja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u688" ana="#guest" who="#AL_PERS_GledianLlatja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1859">Në fakt, zoti kryetar, është po e njëjta, me aq sa kuptuam, për pjesën e procedurave apo të kritereve që janë marrë nga komisioni, nga Parlamenti, që nuk kanë lidhje të drejtpërdrejtë me ne, pra kriteret që janë përdorur, territori e të tjera. Pra, nuk jemi ne hartuesit, duhet ta ndajmë këtë gjë.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1860">Ne e kemi marrë draftin, ashtu siç e keni marrë edhe ju, dhe dhamë mendimin tonë për këtë gjë. Pra, mendimi ynë është ky që dhamë. Ndërsa, për pjesën që ka dhënë Komisioni i Reformës Territoriale, deputetët apo anëtarët, nuk i di, ndoshta, edhe ne do të ishim të interesuar t’i dëgjonim më specifikisht në mbledhjen tuaj të radhës, por nuk besoj se jemi ne që duhet të flasim në gojën e tyre. Ne, thjesht lexojmë atë që kemi.</seg>
         </u>
@@ -4015,7 +4015,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1862">Në fakt, edhe ne jemi përpjekur t’i japim, sepse zoti Mazniku e ka prezantuar draftin për 3 orë e 25 minuta, në mbledhjen e datës 23 shtator 2026. Edhe nismëtari, në emër të nismëtarëve, i ka dhënë të gjitha arsyet dhe kriteret, për të gjitha sa pyetët këtu. Por kjo nuk do të thotë që kur të bëjmë diskutimin e nismës në parim, sepse ende nuk kemi vajtur tek ajo pjesë, t’i rikthehemi edhe një herë atij diskutimi.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1863">Fjalën e ka zoti Qosja, për pyetjet e zotit Ndoja, nëse keni përgjigje.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u690" ana="#regular" who="#AL_PERS_FisnikQosja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u690" ana="#guest" who="#AL_PERS_FisnikQosja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1864">Faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1865">Zoti Ndoja, ju falënderoj për pyetjet!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1866">Kavaja dhe Rrogozhina, për hir të së vërtetës, tani po flas si kryetar i Bashkisë së Kavajës dhe jo si kryetar i Shoqatës së Bashkive, kanë të njëjtat tradita. Edhe ne në vitin 2014, kur është bërë reforma e parë, kemi protestuar (në atë kohë kam qenë edhe anëtar i këshillit bashkiak), që pjesa e Rrogozhinës, të paktën Spilleja, Kryevidhi dhe Lekaj, janë disa fshatra atje, të bashkoheshin me Kavajën, sepse nuk kanë shumë lidhje me Rrogozhinën. Kjo ka sens, por është vetëm një rast. Pra, vetëm për këtë rast ne nuk mund ta hedhim të gjithë reformën, që po bëhet, poshtë, meqenëse Kavaja është afër. Kavaja ka 57 fshatra dhe 4 njësi administrative. Po të njëjtën gjë ka edhe Rrogozhina, 4 njësi administrative dhe 54 fshatra. Fshati më i largët i Rrogozhinës me Kavajën është jo më shumë se 20 minuta larg. Kjo nuk do të thotë se Fushë-Arrëzi duhet të bashkohet, ai duhet të jetë ashtu siç është. Pra, është një gjë pak relative kjo pjesa e ndarjes.</seg>
@@ -4025,39 +4025,39 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1868">Zoti Qosja, ti je në rregull.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1869">Sepse të ta them unë: kur kemi bërë reformën territoriale të vitit 2014, unë, për herë të parë në atë kohë, e dija se Spilleja është e Kavajës.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u692" ana="#regular" who="#AL_PERS_FisnikQosja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u692" ana="#guest" who="#AL_PERS_FisnikQosja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1870">Po.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u693" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1871">Edhe në hartën që u miratua në vitin 2014 doli e Rrogozhinës.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u694" ana="#regular" who="#AL_PERS_FisnikQosja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u694" ana="#guest" who="#AL_PERS_FisnikQosja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1872">Nuk ka fare lidhje Luzi i Madh, sepse ka shumë fshatra.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u695" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1873">E kam fjalën këtu: kush ka qenë këtu në reformën territoriale të vitit 2014, shumë nocione gjeografike dhe territoriale ishin...</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1874">Tani, në atë kohë, t’ju them të drejtën, mua më bëri pak çudi se si Spilleja vajti në Rrogozhinë. Megjithatë, ajo ishte harta që u miratua në vitin 2014.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u696" ana="#regular" who="#AL_PERS_FisnikQosja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u696" ana="#guest" who="#AL_PERS_FisnikQosja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1875">Kavaja është rast specifik, edhe për shkak të afërsisë. Fshati më i largët është 20 minuta larg.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u697" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1876">Gjithsesi, ne do ta shprehim mendimin tonë me votë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u698" ana="#regular" who="#AL_PERS_FisnikQosja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u698" ana="#guest" who="#AL_PERS_FisnikQosja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1877">Kurse nga ana elektorale, zoti Ndoja...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u699" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1878">A keni përgjigje të tjera për pyetjet e zotit Ndoja?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u700" ana="#regular" who="#AL_PERS_FisnikQosja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u700" ana="#guest" who="#AL_PERS_FisnikQosja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1879">Jo, e kisha për anën elektorale: i kanë bërë llogaritë gabim. E kam fjalën për Kavajën dhe Rrogozhinën.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u701" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1880">Ju lutem, të qëndrojmë te harta!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1881">Zoti Curri.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u702" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u702" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1882">Zoti kryetar, për 2 vjet unë kam aderuar në shoqatën e kolegëve të mi, me dëshirën më të madhe që të 61 bashkitë e Shqipërisë të ishin në atë procesin demokratik, madje kemi ndërmarrë edhe udhëtime jashtë, si dhe kemi pasur një konsensus të plotë.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1883">Sot, jam shumë i indinjuar (ashtu siç është i indinjuar edhe kryetari, kolegu dhe shoku im), që kryetari i Bashkisë së Elbasanit nuk e merr parasysh zënien e 15 anëtarëve shoqatës. Ti, si nënkryetar, jo si kryetar i Bashkisë së Elbasanit, sepse të gjithë kryetarët e bashkive, edhe unë, personalisht, sepse ata do ta kërkojnë diku...</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1884">Pra, në qoftë se nuk të ndihmon kisha, do të shkosh te xhamia ose te teqeja, diku ke për t’u lutur. Ata kërkojnë mbështetje, të paktën të shprehin diçka, sepse janë nën presion të madh te komunitetet që përfaqësojnë, sepse ata kanë qenë pjesë...</seg>
@@ -4076,7 +4076,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u703" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1896">Po, është shumë i rëndësishëm. Është shumë më i rëndësishëm, se administrata e një bashkie dhe një kryetar bashkie.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u704" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u704" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1897">Pra, në qoftë se një banor është kaq i rëndësishëm, pse e keni kaq ngut bashkimin e tyre, pa i pyetur?!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1898">Urdhëro, ja ku i ke dokumentet!</seg>
         </u>
@@ -4084,14 +4084,14 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1899">Dakord.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1900">Zoti Curri, ju lutem, sepse nuk jemi këtu për të folur vetëm për Bashkinë e Fushë-Arrëzit.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u706" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u706" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1901">Zoti kryetar, unë nuk kam më shumë se fjala dhe nëse ju më ndërprisni nuk kam ku ta them më.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u707" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1902">Thuaje, pra!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1903">Unë i mora të gjitha argumentet që ju thatë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u708" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u708" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1904">Unë jam duke iu përgjigjur vetëm një pyetjeje. Lutja ime është për deputetët e mazhorancës, edhe shpirtërisht, në emër të atyre besimeve që ne kemi, të Muhametit dhe të Krishtit: ju lutem, mos e bëni këtë gjë (po e bëj edhe unë si Albin Kurti, i cili tha: mos e votoni Gjykatën e Hagës), sepse do të jetë shumë vonë për ta përmirësuar këtë gabim! U bë si u bë në vitin 2014 dhe shkoi në Gjykatën Kushtetuese ku u rrëzua, dhe ata thanë: mos e përsërisni më. Sot, ne jemi përballë faktit që dokumentet do t’i çojmë në Gjykatën Kushtetuese.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1905">Me respektin më të madh, sepse unë kam respekt për të gjithë kolegët e mi, pasi nuk kam lindur dhe nuk do të vdes si kryetar bashkie, do t’i mbroj të gjithë ata që janë prekur nga kjo reformë, sepse ata janë kryetarë si unë, edhe si kryetarja e Durrësit, edhe si kryetari i Kavajës.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1906">Unë mendoj se ju duhet tua jepni të drejtën atyre, që të vijnë e të thonë dy fjalët e fundit, si para pushkatimit, që çfarë keni për të thënë...</seg>
@@ -4100,7 +4100,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u709" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1908">Zoti Curri, të lutem!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u710" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u710" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1909">Ju kërkoj falje, sepse ndoshta i kalova pak termat, por e kisha në mënyrë metaforike!</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u711" ana="#chair" who="#AL_PERS_UlsiManja">
@@ -4125,7 +4125,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1920">Tani, përgjigjet do të jepen sipas radhës që u bënë pyetjet.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1921">Kryetari i Bashkisë së Memaliajt e ka fjalën për përgjigjen e parë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u716" ana="#regular" who="#AL_PERS_AlbertMalaj">
+        <u xml:id="ParlaMint-AL_2026-09-28.u716" ana="#guest" who="#AL_PERS_AlbertMalaj">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1922">Nëse përpara reformës apo dikur, kur kanë qenë rrethet, do të isha në Tiranë dhe do më pyeste dikush: nga je; do të thosha: jam nga Labëria, por ju Labërinë e keni copëtuar.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1923">Nëse do të ishim brenda për brenda rrethit, aty do të thoshim që dikush është nga Kalivaçi, dikush nga Damsi apo dikush nga një fshat tjetër.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1924">Memaliaj ka një histori, e cila është ndërtuar mbi punë, mbi djersë, mbi gjak, mbi mund.</seg>
@@ -4134,7 +4134,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u717" ana="#regular" who="#AL_PERS_ArbjanMazniku">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1926">Nuk të pyeta për Memaliajn, të pyeta për Kalivaçin dhe Damsin.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u718" ana="#regular" who="#AL_PERS_AlbertMalaj">
+        <u xml:id="ParlaMint-AL_2026-09-28.u718" ana="#guest" who="#AL_PERS_AlbertMalaj">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1927">Ta thashë, nëse do të isha në Tiranë dhe do më pyesnin: nga je, do thosha: jam nga Labëria; nëse do të isha brenda territorit tim, do të thosha që jam nga Kalivaçi.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u719" ana="#regular" who="#AL_PERS_ArbjanMazniku">
@@ -4168,19 +4168,19 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u728" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1938">Ju lutem, zoti Curri, keni fjalën.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u729" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u729" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1939">Do t’i kthej përgjigje zotërisë shumë të nderuar, por me një kusht: të mos i mbetet hatri.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u730" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1940">Jo, nuk i ngel hatri askujt.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u731" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u731" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1941">Për këtë reformë, të cilën unë e kam çuar tek të gjitha studiot e Bashkimit Evropian, ku unë kam miq, më kanë pyetur: a ke të dhëna? 12 nga 36 shërbimet, që ky nuk m’i ka dhënë... Pra, ne, si kryetarë bashkish, nuk i kemi të gjitha kompetencat, sepse ne e mirëmbajmë shkollën, por nuk kemi asnjë kompetencë mbi shkollën.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u732" ana="#regular" who="#AL_PERS_ArbjanMazniku">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1942">Transportin publik a ke, ta ka dhënë ligji, kështu që...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u733" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u733" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1943">Unë nuk ndërhyra, por prita radhën...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u734" ana="#chair" who="#AL_PERS_UlsiManja">
@@ -4189,7 +4189,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u735" ana="#regular" who="#AL_PERS_ArbjanMazniku">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1945">Kërkoj shumë ndjesë!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u736" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u736" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1946">Për pjesën ku e kanë mbështetur emergjencën civile, draftin e emergjencës, sepse përmendi planet e menaxhimit, Bashkia e Fushë-Arrësit kanë qenë shumë të suksesshme në atë pjesë. Bashkitë kanë pika të forta dhe pika të dobëta, Bashkia e Fushë-Arrësit ka pikë të fortë industrinë dhe sekuestrimin e karbonit. Ne kemi bërë 4 nga këto planet e menaxhimit, që thotë zoti Mazniku, dhe sekuestrimi i karbonit në Bashkinë e Fushë-Arrësit është lider sot në Ballkan. Këtë sekuestrim karboni, që ne e bëjmë falas, e bëjmë edhe për Tiranën, edhe për Elbasanin, e kemi në bazë të sipërfaqes pyjore.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1947">Nëse do të them ndonjë gjë që nuk është e vërtetë, unë jap dorëheqjen, zoti Mazniku.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1948">Shërbimi publik Ministria e Energjetikës ka 10 projekte të energjisë së gjelbër të bëra me Bashkinë e Fushë-Arrësit, e cila te fondi i gjelbër ka 3% që përdoret për komunitetin, janë për panele fotovoltaike, të cilat janë dhënë. Pra, flasim për kompetenca.</seg>
@@ -4201,7 +4201,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u737" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1953">Zoti Curri...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u738" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u738" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1954">Të lutem!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1955">Në lidhje me pyetjen për shërbimin e qytetarëve...</seg>
         </u>
@@ -4211,7 +4211,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u740" ana="#regular" who="#AL_PERS_ArbjanMazniku">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1957">Po, më thoni emrin e një shërbimin, të cilin qytetari duhet të shkojë ta marrë te bashkia e re që krijohet, sepse nuk e merr dot aty ku është?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u741" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u741" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1958">Shërbimin komunitar nuk e merr te bashkia tjetër.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u742" ana="#regular" who="#AL_PERS_ArbjanMazniku">
@@ -4220,7 +4220,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u743" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1960">Online nuk e merr lejen për të luajtur me top...</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u744" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u744" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1961">A të kthej përgjigje për shërbimin komunitar?</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1962">Kryetarët e bashkive, më vjen shumë keq, por nuk janë për pastrim dhe gjelbërim, sepse shërbim më të madh në bashki quajnë pastrim-gjelbërimin.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1963">Në Bashkinë e Fushë-Arrësit...</seg>
@@ -4228,13 +4228,13 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u745" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1964">Pyetja është shumë e drejtpërdrejtë: një emër shërbimi që merret sot fizikisht.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u746" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u746" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1965">A ta mbaroj?</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u747" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1966">Po.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u748" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u748" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1967">Në Bashkinë e Fushë-Arrësit, falë një fondacioni gjerman, sot ne i japim që në gjenezë çdo qytetari shërbim mjekësor.</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u749" ana="#chair" who="#AL_PERS_UlsiManja">
@@ -4245,29 +4245,29 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1970">Ligji i Republikës së Shqipërisë u jep bashkive 42 funksione, brenda të cilave ofrohen disa shërbime, çka do të thotë: bashkia është përgjegjëse për pastrimin, shërbimi i pastrimit; bashkia është përgjegjëse për gjendjen civile, shërbimi i regjistrimit; bashkia është përgjegjëse për dhënien e lejeve të ndërtimit. Pyetja që kam unë është: më thoni një shërbim për të cilin sot rritet distanca, pra që sot ti shkon e merr te njësia administrative ose te Bashkia Fushë-Arrësit dhe nesër nuk do ta marrësh aty? Pra, më thuaj emrin e një shërbimi, jo atë që jep fondacioni gjerman, por atë që jep bashkia me ligj.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1971">Kjo vlen për të gjitha bashkitë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u751" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u751" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1972">Bashkia e Fushë-Arrësit, ku jam votuar unë dhe jam bërë kryetar bashkie, nuk kishte bankë...</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u752" ana="#regular" who="#AL_PERS_ArbjanMazniku">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1973">Nuk e ka bashkia bankën detyrë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u753" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u753" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1974">Zoti kryetar, a e shikoni se si këta të komisionit na ndërhyjnë?</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u754" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1975">Jo, komisioni është shumë i drejtpërdrejtë. A ka mundësi të thuash që vërtetimin e gjendjes civile nuk e merr dot dhe ku duhet të shkojnë ta marrë?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u755" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u755" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1976">Në Pukë.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u756" ana="#regular" who="#AL_PERS_FisnikQosja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u756" ana="#guest" who="#AL_PERS_FisnikQosja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1977">Nëse një fshat i Fushë-Arrësit duhet të ndërrojë llambën e lagjes, për shembull, do t’i thotë Bashkisë së Fushë-Arrësit, drejtorit të shërbimit, që do të vijë të ndërrojë llambën; nëse një lagje e Fushë-Arrësit bashkohet në Pukën, do t’i thotë drejtorit të shërbimeve në Pukë që të vijë ta ndërrojë?</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u757" ana="#regular" who="#AL_PERS_ArbjanMazniku">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1978">Absolutisht, jo.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1979">E para, në qoftë se ti nuk do ta shkrish, do ta bashkosh; në qoftë se ti ose Hila keni shkuar vetë dhe keni ndërruar ndonjë poç në ndonjë fshat me dorën tuaj, atëherë e kemi problem sistematik. Çështja është: që të ndërrohet poçi në fshat, duhet t’ia ndërrojë zyra e shërbimit që është aty. Në qoftë se e keni lënë që për t’ia ndërruar poçin duhet të marrë rrugë ai nga fshati e të vijë atje tek ju ose të shkojë te Hila dhe të thotë: hajde ma ndërro, atëherë kemi një problem më të madh. Ndërrimi i poçit te lagjja e vet në fshat nuk bëhet nga Bashkia e Fushë-Arrësit.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u758" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u758" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1980">Të lutem, kryetar, a ta mbaroj pjesën e pyetjes që m’u bë?</seg>
         </u>
         <u xml:id="ParlaMint-AL_2026-09-28.u759" ana="#chair" who="#AL_PERS_UlsiManja">
@@ -4276,7 +4276,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u760" ana="#regular" who="#AL_PERS_ArbjanMazniku">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1982">Një shërbim dua.</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u761" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u761" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1983">Zoti Mazniku e ka me mua, se në tërë Shqipëri ka krahasuar Bashkinë e Fushë-Arrësit me Bashkinë e Shkodrës.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1984">Ne nuk marrim as shërbim arsimi, si bashki.</seg>
           <vocal type="interruption">
@@ -4291,7 +4291,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u762" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1987">Si ka mundësi, zoti Curri, që ju kishit 2000 të punësuar në bashki, bizneset më të fuqishme në Shqipërinë e Veriut dhe nuk paskeni pasur bankë dhe e sollët ju?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u763" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u763" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1988">Nuk e solla unë.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1989">Unë të mora një shembull, në bazë të pyetjes që më bëri zoti Mazniku. Është e vërtetë që i kemi.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1990">Në lidhje me strehimi social, kam 3 vjet që aplikoj për të marrë hipotekën...</seg>
@@ -4299,7 +4299,7 @@
         <u xml:id="ParlaMint-AL_2026-09-28.u764" ana="#chair" who="#AL_PERS_UlsiManja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1991">Ju lutem, ta përmbyllë përgjigjen e pyetjes, zoti Curri!</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u765" ana="#regular" who="#AL_PERS_HilCurri">
+        <u xml:id="ParlaMint-AL_2026-09-28.u765" ana="#guest" who="#AL_PERS_HilCurri">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1992">Kam 3 vjet që kërkoj me marrë hipotekën për ndërtimin e 2 apartamenteve të strehimit social. Një banesë në Bashkinë e Fushë-Arrësit shkon deri në 30 - 40 mijë euro me tregun e sotëm; para disa vitesh ka qenë edhe 2000 euro.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1993">Pra, rritja ekonomike industriale... Unë i kam me shifra, nuk abuzoj para komisionit dhe të gjithë shqiptarëve, po flas për gjëra që dëshiroj të jenë për Bashkinë e Fushë-Arrësit. Unë kam një shërbim që, në qoftë se e ka një bashki në Shqipëri, jap dorëheqjen, flas për një shërbim që jepet për të gjithë zonën e Veriut.</seg>
         </u>
@@ -4307,7 +4307,7 @@
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1994">Shumë faleminderit, për përgjigjet!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1995">Ka kush për të shtuar gjë? Zoti Llatja, keni gjë për të shtuar?</seg>
         </u>
-        <u xml:id="ParlaMint-AL_2026-09-28.u767" ana="#regular" who="#AL_PERS_GledianLlatja">
+        <u xml:id="ParlaMint-AL_2026-09-28.u767" ana="#guest" who="#AL_PERS_GledianLlatja">
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1996">Zoti kryetar, shumë faleminderit!</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1997">Besoj se ndajmë të njëjtin qëndrim të gjithë ne kryetarët e bashkive, të paktën ne që jemi në terren dhe merremi gjatë gjithë kohës me qytetarët dhe me shqetësimet. Baza jonë janë njësitë administrative, pra aty ofrohen shërbimet, të paktën në Elbasan, por edhe nga kontaktet që kam me të gjithë kryetarët e bashkive. Pra, njësia administrative është baza e parë ku ofrohen shërbimet për qytetarët, aty jepet ndihma ekonomike, aty është punonjësi i taksave, aty është veterineri, agronomi, aty është personi që shërben për qytetarët që kanë nevojë për “e-Albania”, aty është kryetari i njësisë administrative, aty mblidhen kryepleqtë e fshatrave. Pra, në thelb, baza e shërbimit vazhdon të jetë njësia administrative, ndërsa në qytet janë rajonet e qytetit, kur janë qytete të mëdha, apo zyrat e bashkisë.</seg>
           <seg xml:id="ParlaMint-AL_2026-09-28.seg1998">Shërbimet jepen aty dhe aty do të vazhdojnë të jepen. Për t’iu përgjigjur zotit Mazniku, shërbimet janë po aty. Ne jemi kryetarë bashkish dhe e dimë që kryetari i bashkisë ka detyrimet ligjore, që në thelb nuk janë siç janë lejet e ndërtimit, që janë në sistem dhe janë thjesht konfirmim, ne thjesht japim konfirmimin apo kthimin mbrapsht, pra nuk është se kemi një proces të mirëfilltë, ku personi duhet të vijë te zyra e bashkisë apo te kryetari i bashkisë, apo te njësia administrative, aplikohet gjithçka online. Po ashtu edhe tatimet janë po te njësia administrative, inspektorët e tatimeve, personat përgjegjës për familjarët, për bizneset. Pra, shërbimet aplikohen aty dhe ofrohen aty, nuk është se kemi një shërbim, i cili me krijimin e konceptit të qytetit, do të ndryshojë.</seg>
