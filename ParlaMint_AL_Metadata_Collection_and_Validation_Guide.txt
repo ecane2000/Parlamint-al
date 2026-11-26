@@ -1,0 +1,352 @@
+﻿ParlaMint AL Metadata Collection and Validation Guide
+Source collection, membership rules, proceedings and speech metadata
+Use this guide to collect, review and publish ParlaMint-AL metadata. The main gap is what happens after collection: the team must link each speech to a reviewed speaker and a dated proceeding, determine which affiliations and political relations apply on that date, and check the resulting ParlaMint export against expected values. Keep the evidence for each published value.
+Record types and their meaning
+Record
+	What to record separately
+	Person
+	One record per verified identity, including MPs and other identifiable speakers. Name variants and source identifiers point to this record.
+	Organization
+	One record per institution: Kuvendi, a committee, a parliamentary group, a party, the government or another relevant body. A name or acronym alone does not establish identity.
+	Affiliation or office
+	One assertion linking a person to an organization through a role and a time interval. Ordinary membership and a leadership office are different assertions.
+	Electoral record
+	One assertion about an election or mandate allocation. Store district, electoral subject and party within a coalition separately from subsequent membership or office.
+	Participation
+	An appearance in a sitting or speech turn. Speaking, attending, substituting or chairing on one occasion does not establish a standing affiliation.
+	
+
+Which evidence takes precedence
+Question
+	Preferred evidence
+	Who was elected and for which district?
+	KQZ final results, elected-member annexes and later award or replacement decisions.
+	Who served in which parliamentary role?
+	Dated Kuvendi decisions, archived compositions and minutes. An undated current roster supports an observation at retrieval, not the beginning or end of service.
+	Who held a government office?
+	Appointment, approval, dismissal or reorganization acts. Use official biographies to identify candidate dates and corroborate facts.
+	What identifies the person or body?
+	Official profile or institutional record first. Use verified Wikidata IDs as supplementary identifiers, with references and date qualifiers retained.
+	
+
+Every collected data and metadata table must have a reliability column. Keep the original value and evidence; send uncertain or conflicting records for review. Sections 6–12 specify the rules for eligibility, inference, export and acceptance.
+1 Capture parliamentary organizations
+Begin at Kuvendi → Struktura. Follow each relevant structure link and capture its Albanian name, identifier in the URL, formal type, parent body, description or remit, roster sections and available dates. Use English labels as translations; keep the original institutional wording. Record the page and section that support each fact.
+Kuvendi structure
+	Capture and classify
+	Kryetari and zëvendëskryetarët
+	Model Speaker and Deputy Speaker as offices of Kuvendi. Record each known holder and dated appointment or election. Do not hard-code the draft’s proposed number of deputies across terms.
+	Byroja e Kuvendit
+	Record the Bureau as a body and capture Përbërja (composition). Separate the Speaker’s chairing role, deputy Speakers and secretariat secretaries. Store the composition rule separately from actual membership.
+	Konferenca e Kryetarëve
+	Record the Conference of Chairs as a body. Check the Speaker, deputies, group chairs and standing committee chairs against the roster. A deputy acting in someone’s absence, or a participating government liaison, is not automatically a permanent member.
+	Grupet parlamentare
+	Create a record for each group and capture its members and leadership. The draft identifies PS, PD, Partia e Lirisë and Aleanca për Ndryshim as examples to check for the relevant period. “Deputetë jashtë grupeve parlamentare” is a status, not an organization or proof of non-party status.
+	Komisionet and nënkomisionet
+	Distinguish committees and subcommittees, and verify the parent of each subcommittee. Preserve remit, chair, deputy chair, secretary, full members and substitutes as separate facts.
+	Komisionet e posaçme
+	Record each special committee separately. Use the constituting decision to establish remit, dates and composition where available; distinguish special and inquiry bodies as supported by evidence.
+	
+
+Government and party organizations
+Maintain an organization record for the government and record cabinet periods. Create ministry records when required to distinguish portfolios and where the institution is documented. Record prime minister, deputy prime minister, minister, deputy minister and secretary-general roles against their correct bodies. A portfolio title does not prove that a separate ministry exists.
+Maintain political party records independently of parliamentary groups. Party chair, deputy chair, secretary-general and steering committee membership are separate facts. If an official statute or party record identifies the steering committee as a distinct body, record it and its parent party. Record party-to-group representation only when documented. Transfer of membership is allowed only under the verified group-type rules in Section 8.
+Check membership restrictions against the applicable Rules of Procedure and dated decisions. Flag overlapping parliamentary-group memberships for review, but do not resolve them by deleting a record. Do not reject concurrent committee, subcommittee or substitute roles merely because a draft rule assumes one membership per category.
+2 Capture people and official profiles
+From a group or committee roster, open the individual profile. Capture the profile URL and any identifier in its path. Use Jetëshkrimi (CV) as a second source, retaining the PDF link, page number and relevant text. An empty web field does not override an explicit value in another reliable source.
+Field
+	Extraction and normalization
+	person_id
+	Assign an immutable local ID that is valid as an XML ID and unique in the corpus. Maintain a source-ID and alias crosswalk. Do not key records by row number, email, name or Wikidata ID.
+	Given name and surname
+	Preserve the official display name and separate verified name components. Keep ë and ç. Store transcript spellings and historical name variants separately; normalize only a matching key.
+	Patronymic (Atësia)
+	Keep separate from the given name and surname. Use the KQZ value for restricted identity reconciliation where necessary. Do not include it in the public display or TEI export by default.
+	Sex, birth date and birthplace
+	Use explicitly supported values only. Keep birth date and place separate. Preserve year or month precision when that is all the source provides. Do not infer sex from names or birthplace from an electoral district.
+	Constituency and election
+	Record district on the election or mandate record, not as a permanent person property. Preserve election year and the exact political-subject label.
+	Roles and affiliations
+	Store each verified interval under its own organization and role. Record the wording on the page or CV as well as the normalized role.
+	External identifiers
+	Keep official profile IDs and reviewed Wikidata QIDs in a separate identifier field or table. Retain source URLs for CVs and appointment acts as evidence, not as identity identifiers.
+	Optional enrichment
+	Collect former names, occupation, education and other relevant public biography only when needed and sourced. Exclude email, phone and address from the corpus export.
+	
+
+Example from the Socialist parliamentary group
+The draft shows Adea Pirdeni’s profile with Qarku: Tiranë, Subjekti politik: PS (attributed to KQZ), and a separate parliamentary-group field. Capture them as three observations: district, electoral subject and group roster affiliation. Cross-check the first two against the KQZ elected-member annex; the group page is the source for the third. For an undated roster, keep the observation date and do not backdate group membership to election day.
+Resolve an identity using a stable profile ID or corroborating fields such as name, district, term and office. Exact spelling alone is insufficient for homonyms. Do not choose a Wikidata result because it ranks first. Preserve candidate IDs when the match remains uncertain.
+For duplicate people or organizations, record the retained and retired IDs, evidence, reviewer and decision. Review each attached claim before migrating it. Update pointers and aliases through the pipeline, then test that no active pointer targets a retired ID. In the Taulant Balla example from the reviewed snapshot, consolidating identities does not resolve whether the chairship concerned the party or its parliamentary group.
+3 Extract election and mandate records
+Use the KQZ results index to locate historical results, and the 2025 portal to navigate the latest example. For the initial list of elected MPs, prefer the official final-result decision and its annex by district. Select LISTA EMËRORE E DEPUTETËVE TË ZGJEDHUR, not the full candidate list or vote table. Read the district from the page heading when the table has no Qarku column.
+KQZ heading
+	Normalized field
+	Extraction rule
+	Nr.
+	source_row
+	Traceability only; may reset by district. Use with source page or table locator.
+	Emri
+	given_name_raw
+	Given name, not surname. Confirm spelling against the official profile when matching.
+	Atësia
+	patronymic_raw
+	Father’s given name; restricted matching field, not part of the public personal name by default.
+	Mbiemri
+	surname_raw
+	Surname. Preserve original spelling, including diacritics.
+	Qarku
+	district_raw
+	Electoral district. Preserve raw label and map it to a district identifier if available.
+	Subjekti zgjedhor
+	electoral_subject_raw
+	Party or electoral coalition under whose list the person was elected. Classify from official records, not only a name prefix.
+	Sigla or Shkurtesa
+	subject_abbr_raw
+	Abbreviation of the electoral subject. Preserve spelling and map to an election-specific identifier.
+	Partia në Koalicion
+	coalition_party_raw
+	Component party as stated in the results. A blank can be not applicable for a standalone party; missing for a coalition remains unresolved unless verified.
+	
+
+Examples and follow up
+The elected-member annex for Tiranë records Adea Pirdeni under PS as the electoral subject. The draft’s examples involving PD-AMSH with PD or PAA illustrate why the coalition abbreviation and the component-party code must be separate. Neither value proves the parliamentary group joined after the election. Reference the district and named row, not a global row number.
+Keep PD-AMSH and NISMA-SHB as electoral-coalition examples. Retain PS, PD, PSD, MUNDËSIA, PBKD, PL, PR, FRD, PDIU, PBDNJ, BASHKE/BASHKË and PAA from the draft as lookup candidates, not a complete or authoritative list. Verify each code in the applicable election and preserve the source spelling before normalization.
+Store election date, result-decision date, award or replacement date, and start/end of service separately. Follow later KQZ replacement or mandate decisions and Kuvendi service records where available. For historical backfill, use the same method for 2021, 2017, 2013, 2009, 2005 and 2001 only where within corpus scope and supported by available records.
+4 Record roles and dates without inference
+Dates and changes of office
+Preserve the original expression and record its precision: “1 tetor 1983” becomes 1983-10-01; “janar të vitit 2024” becomes 2024-01 with month precision; “Prej shtatorit 2020” provides 2020-09 and no end date by itself. Do not substitute the first day of the month. Keep effective date, document date and retrieval date distinct.
+For each boundary record its meaning and evidence. An absent end can mean “ongoing as of the observation date” or “end unknown”; it is never proof of indefinite service. A title repeated in September after appearing in January may indicate reappointment, a new cabinet, continuity, or merely a biography update. Store each sourced assertion first; merge only after checking the acts. Keep day-level normalization for export separate from source dates.
+Worked example from Adea Pirdeni’s records
+Evidence
+	Record to create
+	Official government biography
+	Records birth in Tiranë on 1 October 1983 and service as Deputy Minister of Justice from September 2020. Keep the latter at month precision unless an appointment act supplies the day. Do not infer the end date from the next job mentioned.
+	Kuvendi decision 6/2024
+	Record 15 January 2024 as the date of the parliamentary approval of decree 13 for the state-minister portfolio on public administration and anticorruption; retain the decision as evidence of the January appointment.
+	Presidential decree of 15 September 2025
+	Record the appointment in the new Council of Ministers as a distinct event. The decree says it takes effect immediately. Check the previous term’s end and any further approval or service milestones separately.
+	KQZ final-result annex
+	Record election in Tiranë with PS as the electoral subject. The election sentence in the CV describes the May 2025 election; it does not supply a parliamentary-group joining date or the start of office.
+	
+
+Worked example from a committee roster
+In the draft’s snapshot of Komisioni për Ekonominë, Punësimin dhe Financat, Milva Ekonomi is listed as chair, Erion Braçe and Enno Bozdo as deputy chairs, and Zamira Sinaj as secretary. The same snapshot distinguishes full members (for example Antoneta Dhima) from substitutes (for example Aulona Bylykbashi). Preserve each source role, not a single undifferentiated “member” list.
+Capture Fushat e përgjegjësisë separately from Përbërja. For this committee the draft lists economic policy and the EU common market, the State Budget and budget oversight, employment and worker mobility, public finance, privatization and banking. Do not use the remit to infer the subject of every hearing.
+Retain tags such as PS, PD and PL beside the names as raw roster labels. Verify whether each label denotes a party, a parliamentary group or another form of representation before creating a separate affiliation. Likewise, capture “Jashtë grupeve parlamentare” as a dated or observed no-group status only when the roster supports it.
+5 Organize extraction and review
+Capture and normalize separately
+Keep a dated source snapshot and extract rows and evidence from it. For dynamic pages, use the public rendered page or a documented public download where available. Discover links by headings, list sections and destination URLs (for example /struktura/ and /deputet/), not a single styling class. Save the profile and PDF separately; do not guess CV filenames. Cache sources, limit requests and log failures distinct from empty results.
+For PDFs, prefer text extraction; use OCR where needed and mark it. Check names, date phrases and table boundaries against the source image. Parse variants such as kryetar/kryetare, zëvendëskryetar/zëvendëskryetare, prej and është zgjedhur as candidate cues. Confirm their scope in the sentence before accepting a role or date.
+Working register
+	Minimum content
+	persons and organizations
+	Canonical ID, original and normalized name, source IDs, entity type (for organizations), aliases and source references. Record organizational parents separately as typed relations.
+	affiliations
+	Assertion ID; person ID; organization ID; normalized role; source role and roster class; start/end and their precision; observation date; source link; review decision.
+	elections and mandates
+	Election ID and date; person ID or unresolved candidate; district; electoral subject type and ID; coalition party if stated; decision and effective dates; locator.
+	organization relations
+	Relation ID; type; organization endpoints; dates; source. Keep electoral coalition, party–group representation and government alignment distinct.
+	sources and evidence
+	Source ID; publisher; URL; document or decision date; retrieval timestamp; page, roster heading or row; relevant raw excerpt; archived copy or checksum where appropriate.
+	
+
+Review queue for unresolved fields
+Use one row per candidate assertion or identity match. Include case_id, entity_type, field, raw_value, candidate_value_or_id, source_id, source_locator, reason, reliability, review_status, confirmed_value_or_id, reviewer, reviewed_at, and review_note. Store supporting and conflicting sources under the same case without overwriting earlier observations.
+Use pending, confirmed, corrected, rejected and deferred for review status. Keep the reason separate: missing, not applicable, ambiguous match, conflicting evidence, invalid date or unavailable source. An accepted correction must contain the confirmed value and a short justification. Only confirmed or corrected assertions enter the canonical export; keep all reviewed alternatives in the audit trail.
+6 Assign reliability to all records
+Add a column named reliability to every collected data and metadata table: sources, people, organizations, aliases, roles, elections, relations, proceedings, participant and absence records, agenda items and transcript or speech records. Add the same column to derived tables or sidecar exports so their values can be traced. Do not change the upstream TSV format to add a local column.
+Reliability value
+	Meaning and handling
+	Verified
+	A reviewer checked the precise claim against evidence that directly supports it, including the relevant date or scope. Record who checked it, when, and at what source locator.
+	Reliable
+	The claim has credible evidence and is usable within its stated scope, but lacks full verification. An authorized reviewer may approve it for export; it remains Reliable.
+	Unsure
+	The identity, reading, date, scope or source is ambiguous or disputed. Retain evidence and route for review. Do not use it for automatic inference or publish it as fact.
+	Blank
+	Use an empty cell, not the literal string “Blank”. No reliability rating has been assigned. Record why the underlying field is missing or not assessed; do not infer a negative.
+	
+
+Keep evidence and decisions at claim level
+A reliable row can contain a doubtful field. Keep one evidence or assertion row per independently assessed fact where values differ in quality: for example, a verified name and an unsure start date. The row-level reliability is a summary, not permission to treat every field alike. Rate the specific claim, not just the publisher: a verified roster snapshot does not verify when membership began.
+Keep reliability separate from review_status and value_state. Review status records pending, confirmed, corrected, rejected or deferred. Value state distinguishes a stated value, confirmed absence, unknown, not applicable and conflict. For a transcript, assess the source and transcription or segmentation claims separately when needed; record OCR uncertainties at the affected segment.
+Publication and derived values
+Export a claim only when it is confirmed or corrected and rated Verified or Reliable, and any applicable release rule allows it. For an inferred claim, retain the rule version and input assertion IDs and cap the rating at the weakest eligible input. Verified inputs alone do not make an inferred claim Verified: keep it Reliable unless a reviewer verifies the derived claim and its scope. Preserve whether each published value is direct or inferred.
+7 Create proceedings and event records
+An event is a documented plenary sitting, committee meeting, hearing or other proceeding covered by the corpus. Keep the body, the event and the transcript as separate records. A legislative term or cabinet term is a different kind of dated record; do not force it into a sitting roster.
+Field or related record
+	What to capture
+	event_id and event type
+	Assign a stable ID. Record the proceeding type, local date, available start/end times and official number. Use distinct IDs for separate meetings on the same date.
+	body or organization
+	Link the convening body by ID; allow multiple bodies for a joint meeting. Preserve their roles where known.
+	legislature and session
+	Link to the legislative term ID. Capture session, meeting and sitting identifiers where documented. Verify all referenced terms exist.
+	chair
+	Link the chair or acting chair by person ID when identified. If chairing changes, record the scope, time span or turn range rather than overwriting the first chair.
+	participants
+	Use a linked participation table. Record role, attendance status and evidence per person and event. A rostered member, a documented attendee and a speaker are not interchangeable.
+	missing persons and guests
+	Record absent or excused persons only when a source documents that status. Keep unknown attendance separate. Record invited guests separately from confirmed attendees or speakers.
+	source of transcript and transcript
+	Link the exact source document and locator, its version or checksum, and the internal transcript or TEI component ID. Preserve raw and corrected text separately.
+	order of business
+	Give items stable IDs, sequence, original title, procedural type, source and optional parent item ID. Distinguish planned order from actual discussion order where known. Link turns to items only with evidence.
+	
+
+Add reliability to the event and every related attendance, agenda and transcript row. Capture agenda issues as official business, separately from CAP policy topics (what a speech is about). Do not infer that everyone on a roster attended, that everyone who attended spoke, or that a non-speaker was absent.
+For the 6 October 2025 committee example from the reviewed snapshot, identify the convening committee from the transcript or official notice, resolve the term pointer (then #KUV.XI), and verify any guest classification from evidence of participation. Do not assign a speaker type from party or office alone.
+8 Define the membership ontology
+Use a time-bounded Membership record to connect a Person to an Organization. Keep the Parliament, each ParliamentaryGroup and each PoliticalParty as separate entities. A qualifying group has two different links: it operates within Parliament, and an approved rule for that group type makes group membership entail membership in its designated party. The party is a membership target, not the group’s parliamentary parent.
+Class or relation
+	Meaning and required information
+	Person and Organization
+	Stable IDs. Organization types include Parliament, ParliamentaryGroup, PoliticalParty, Committee and Government. A government or electoral coalition is not a parliamentary group.
+	Membership and Office
+	Link person, organization and interval. Keep ordinary membership separate from leadership or government office. Store evidence, reliability, review status and direct or inferred basis.
+	GroupInParliament
+	Links a group to its parliament for a documented period. Record whether the group’s formal membership requires an active parliamentary mandate.
+	PartyMembershipEntailingGroup
+	A qualifying classification for a specific group and period. The designation requires a documented rule and a single designated party. Verify the rule, the party mapping and their periods before enabling automatic inheritance.
+	GroupPartyEntailment
+	Dated link from a qualifying group to its designated party, with rule evidence and review status. Ordinary representation, name similarity, coalition participation or electoral nomination does not establish this link.
+	ParliamentaryEvent and SpeechTurn
+	An event links to one or more bodies and a term. A speech links to an event and to its identified speaker when resolved. The event or turn date is used to evaluate memberships.
+	Membership provenance
+	An inferred membership links back to its source group membership, the applicable institutional rule or mapping, sources, and the rule version that produced it.
+	
+
+Group types and exceptions
+For an official parliamentary group whose formal members must hold mandates in its parliament, approved member status entails Parliament membership over the supported interval. For a verified PartyMembershipEntailingGroup, it also entails membership in the designated party. This is the requested double inclusion. Verify eligibility per group and period before running the rule; do not assume every party-named group is eligible.
+For a multi-party, mixed or otherwise non-qualifying group, apply only the Parliament rule if its conditions hold. A group-to-party representation link can name several parties without proving any individual member’s party. A guest, adviser, observer or chairing participant is not a group member merely by appearing in a meeting.
+9 Apply and test membership inference
+Rules for the metadata pipeline
+Treat these as conditional data rules, not an unrestricted transitive “member of” relation. Define active_on using the supported interval and any applicable term. An observation on a single day supports that day only. An unknown boundary must not create a longer interval than the evidence supports.
+Rule
+	Condition and output
+	M1 Parliament membership
+	If approved formal member P belongs to G, G is in Parliament K, and the group rule requires a mandate in K, infer membership of P in K during the shared supported interval. Do not infer the original election, district or exact mandate boundaries from this result.
+	M2 Party membership
+	If approved formal member P belongs to G and a verified dated entailment maps G to party Q, infer membership of P in Q over the intersection of group membership, eligibility and mapping periods; restrict to the applicable term where required.
+	Conflicts and overlaps
+	Use only approved eligible premises. If explicit evidence contradicts a conclusion or two active mappings compete, suppress the inference and open a review case. Keep independently verified direct records; do not overwrite them.
+	Recalculation
+	Deduplicate equivalent conclusions and keep the evidence links. If an input changes or is withdrawn, recompute the affected intervals, TEI and speech metadata. Retain a history of replaced claims.
+	
+
+Keep month and year precision in source records. Evaluate only dates that are unambiguously supported. For exact day-level ranges the reviewed v5 export treats both boundaries as inclusive. Where the source says the new role begins on a certain day and no same-day overlap exists, the previous inclusive end may be the preceding day if justified. Preserve the original evidence and date semantics.
+Compact vocabulary for linked data
+This Turtle vocabulary names the principal classes and relations; M1 and M2 above are the required rule layer. Use instance IRIs, named membership and mapping records, dates and evidence in the working store. Do not add an unconditional OWL property chain.
+@prefix al: <https://example.org/parlamint-al/ontology#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+al:ParliamentaryGroup a owl:Class ; rdfs:subClassOf org:Organization .
+al:PartyMembershipEntailingGroup a owl:Class ;
+  rdfs:subClassOf al:ParliamentaryGroup .
+al:Membership a owl:Class ; rdfs:subClassOf org:Membership .
+al:GroupInParliament a owl:Class .
+al:GroupPartyEntailment a owl:Class .
+al:forGroup a owl:ObjectProperty .
+al:targetOrganization a owl:ObjectProperty .
+The example namespace is a placeholder. Establish a project-controlled namespace before publication. The core vocabulary may reuse org:member and org:organization on membership records; use explicit dated mapping records for both group links.
+10 Encode organization relations and taxonomies
+Relation
+	Evidence and effect
+	Party–group representation
+	Record the group and the party or parties it formally represents, with applicable dates and official evidence. This relation alone never triggers M2.
+	Electoral coalition
+	Record the election, registered coalition and component parties from KQZ. Keep this separate from both Parliament group membership and support for a cabinet.
+	Government coalition and opposition
+	Identify the aligned group or party, cabinet or applicable period, and effective dates from dated institutional evidence. Keep the endpoints consistent with IDs used in speaker affiliations. Do not infer opposition from missing coalition evidence.
+	Rename and succession
+	Keep names and their dates. Preserve one ID for a verified rename of the same body; use distinct IDs and a succession relation where the evidence establishes a different body.
+	
+
+Use the relation names, endpoint attributes and placement allowed by the pinned ParlaMint release. In v5, coalition matching uses mutual and opposition matching uses active; consult the TEI rules for all endpoints, including contextual passive pointers where used. Do not substitute a local parent or representation relation for a coalition or opposition relation.
+Taxonomy and enrichment rules
+Pin the reference release or commit in the corpus build. Import shared category IDs without renaming them; add Albanian labels without changing those IDs. Give permitted local categories a country prefix and test uniqueness after combining taxonomies. Use u/@ana for the turn’s speaker classification, affiliation roles for dated institutional roles, and legislature categories for bodies or proceedings as specified. Keep subcorpus labels separate from speech topics.
+Store political orientation separately from cabinet alignment. For CHES, maintain a reviewed crosswalk with survey edition, observation year, survey party ID, corpus party ID, variable ID, value or scale, source and reliability. The 2019 CHES Candidate Survey includes Albania. Do not copy a party’s historical score to later dates or transfer it to all members or represented groups.
+Capture agenda sequence and procedural type during source collection. Detailed CAP classification, sentiment, NER and RDF enrichment for topics and events belong in separate annotation instructions. Keep the institutional membership rule layer defined here independent of those annotations.
+11 Generate and validate ParlaMint TEI
+Generate listPerson and listOrg from reviewed records and include them from the corpus root’s participant description. Include component files from the root. Follow the pinned schema for meeting/@corresp, the term references and the date in settingDesc.
+Mapping rules and an example
+Map names to persName, reviewed external identifiers to the permitted idno, and dated links to affiliation. Use schema-defined roles such as member, head, deputyHead and minister; use roleName for the exact title where supported. A head assertion alone does not prove membership. Keep details that have no faithful TEI mapping in the working register.
+Illustrative fragments for the synthetic case in Section 12. K1, G1 and Q1 are distinct organizations; P1 is the person. The turn is shown with its illustrative text segment.
+<affiliation role="member" ref="#K1" from="2026-03-01"/>
+<affiliation role="member" ref="#G1" from="2026-03-01"/>
+<affiliation role="member" ref="#Q1" from="2026-03-01"/>
+<u xml:id="T01" who="#P1" ana="#regular">
+  <seg xml:id="T01.seg1">Faleminderit.</seg>
+</u>
+Connect the reviewed records to a speech
+Resolve u/@who to the canonical person and use the proceeding date to select applicable memberships and offices. Export approved inferred affiliations explicitly: the standard exporter does not run M1 or M2. Keep reliability, provenance and inference basis in a keyed audit table. Never emit empty IDs, empty dates or dangling links.
+Output field
+	Check before release
+	Speaker_role
+	Read the turn classification, for example chair, regular or guest. It can differ between turns without a change of office.
+	Speaker_MP and Speaker_minister
+	Check applicable Parliament membership and qualifying minister affiliation under the pinned export rules. Keep verified negatives separate from missing or conflicting evidence in the research table.
+	Speaker_party
+	The v5 export prefers an applicable parliamentary group and falls back to a party. Keep separate group_id and party_id fields for research.
+	Party_status
+	Check date-valid coalition and opposition relations against affiliation IDs. Resolve conflicting statuses or flag the record for review; do not publish a guess as a research fact.
+	
+
+12 Test speeches and release the metadata
+Worked example with synthetic records
+A verified roster and dated acts establish P1’s formal membership in G1. G1 is an eligible group in Kuvendi K1, and its verified type and mapping entail party membership in Q1. The approved group interval spans the days below. M1 produces membership in K1; M2 produces membership in Q1. A dated affiliation establishes a qualifying ministerial role for P1 on both days. Two different sittings contain regular turns by P1.
+Speech and date
+	Group and party
+	Expected v5 field values
+	T01 • 2026-03-30
+	G1 and Q1
+	Regular turn; MP; Minister; Speaker_party shows G1; Party_status is Coalition.
+	T02 • 2026-04-01
+	G1 and Q1
+	Regular turn; MP; Minister; Speaker_party still shows G1; Party_status is Opposition.
+	
+
+The example assumes the status relation changes between the two dates and uses the corresponding group ID in both relations. Display labels may be localized. Reproduce the row values with the pinned stylesheet and save an expected-output fixture. Keep alignment separate from party membership: neither P1 nor G1 changes membership in this example.
+Now test the converse: P1 changes from G1 to G2 while both groups have the same alignment. The group changes but Party_status does not. M2 changes or withdraws party membership only for the portion previously inferred, according to the new group’s verified mapping; a separately documented party affiliation is not automatically closed.
+Release checklist
+Check
+	Acceptance test
+	Structure and links
+	Run the pinned ParlaMint Relax NG validation and repository link/content checks. All exported IDs are unique, and each emitted local pointer resolves to the expected record type.
+	Chronology and coverage
+	Flag inverted or unsupported dates and potentially exclusive overlaps. Check date precision, missing boundaries, roster-only observations and same-day transitions. Store source dates even if export requires documented boundary normalization.
+	Research outputs
+	Test double inclusion, a mixed group, a conflicting claim, a party change, a government alignment change, a guest and a confirmed no-group case. Compare expected values with TSV and vertical outputs.
+	Audit and regeneration
+	Confirm every published claim can be traced to accepted evidence. Report unresolved cases by field and source. Regenerate from the same inputs and approved decisions; do not hand-edit the generated XML.
+	
+
+13 Source register and pilot order
+Albanian Parliament
+Kuvendi homepage and Struktura navigation
+Conference of Chairs composition and remit
+Socialist parliamentary group roster example
+Economy Employment and Finance Committee roster example
+Example Kuvendi MP profile route from the collection notes
+Adea Pirdeni CV link from the collection notes
+Use the group and committee URLs as navigation examples, not as proof of their historical composition. If a page loads only through JavaScript or a CV link fails, follow the public navigation, log the failure and use dated records for verification. Locate the applicable Rules of Procedure and decisions before adopting any numerical or exclusivity rule.
+Electoral and government sources
+KQZ parliamentary election results index
+KQZ 2025 results portal
+KQZ final results annex with elected members by district
+Council of Ministers biography for Adea Pirdeni
+Kuvendi appointment approval decision 6 of 2024
+Presidential decree appointing the Council of Ministers in September 2025
+ParlaMint specifications
+Encoding guidelines especially temporal attributes and speaker organizations
+ParlaMint v5 release and reference files
+Reference corpora in the upstream Samples directory
+ParlaMint v5 transformation logic for affiliations and party status
+CHES Europe and 2019 Candidate Survey
+W3C Organization Ontology
+Pilot before historical backfill
+Start with the 2025 elected-member annex, one plenary sitting and one committee event. Reconcile names and add a reviewed guest, a qualifying group and a contrasting group. Check at least one change against a dated act and run the speech export tests. Then expand by legislature, measuring identity, proceedings coverage, dated affiliations and unresolved evidence separately.
+ParlaMint-AL   •
