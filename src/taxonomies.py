@@ -12,6 +12,8 @@ from __future__ import annotations
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
+from .person_org_metadata import _indent_xml
+
 TEI_NS = "http://www.tei-c.org/ns/1.0"
 XML_NS = "http://www.w3.org/XML/1998/namespace"
 
@@ -33,12 +35,14 @@ def make_taxonomy_root(tax_id: str, title_sq: str, title_en: str, desc_sq: str, 
     
     # Title
     t_sq = ET.SubElement(root, q("desc"), {xml_attr("lang"): "sq"})
-    ET.SubElement(t_sq, q("term")).text = title_sq
-    t_sq.text = desc_sq
+    term_sq_el = ET.SubElement(t_sq, q("term"))
+    term_sq_el.text = title_sq
+    term_sq_el.tail = f": {desc_sq}"
     
     t_en = ET.SubElement(root, q("desc"), {xml_attr("lang"): "en"})
-    ET.SubElement(t_en, q("term")).text = title_en
-    t_en.text = desc_en
+    term_en_el = ET.SubElement(t_en, q("term"))
+    term_en_el.text = title_en
+    term_en_el.tail = f": {desc_en}"
     
     return root
 
@@ -48,14 +52,16 @@ def add_category(parent: ET.Element, cat_id: str, term_sq: str, term_en: str, de
     cat = ET.SubElement(parent, q("category"), {xml_attr("id"): cat_id})
     
     d_sq = ET.SubElement(cat, q("desc"), {xml_attr("lang"): "sq"})
-    ET.SubElement(d_sq, q("term")).text = term_sq
+    term_sq_el = ET.SubElement(d_sq, q("term"))
+    term_sq_el.text = term_sq
     if desc_sq:
-        d_sq.text = desc_sq
+        term_sq_el.tail = f": {desc_sq}"
         
     d_en = ET.SubElement(cat, q("desc"), {xml_attr("lang"): "en"})
-    ET.SubElement(d_en, q("term")).text = term_en
+    term_en_el = ET.SubElement(d_en, q("term"))
+    term_en_el.text = term_en
     if desc_en:
-        d_en.text = desc_en
+        term_en_el.tail = f": {desc_en}"
         
     return cat
 
@@ -183,6 +189,14 @@ def build_parla_roles_taxonomy() -> ET.Element:
     )
     add_category(
         tax,
+        "mayor",
+        "Kryetar Bashkie",
+        "Mayor",
+        "Kryetar i njësisë së vetëqeverisjes vendore (bashkisë)",
+        "Mayor of a local government municipality",
+    )
+    add_category(
+        tax,
         "guest",
         "I ftuar / Ekspert",
         "Guest / Invited expert",
@@ -209,6 +223,7 @@ def write_all_taxonomies(out_dir: Path | str) -> list[Path]:
     written_paths: list[Path] = []
     for fname, root_el in taxonomies:
         target = p / fname
+        _indent_xml(root_el)
         ET.ElementTree(root_el).write(target, encoding="utf-8", xml_declaration=True)
         written_paths.append(target)
         

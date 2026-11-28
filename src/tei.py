@@ -113,7 +113,7 @@ def build_tei_header(
         titleStmt,
         qname("meeting"),
         {
-            "corresp": "#AL_ORG_Kuvendi",
+            "corresp": "#AL_ORG_PARL",
             "n": leg_id,
             "ana": f"#parla.uni #parla.term #KUV.{leg_id}",
         },
@@ -123,9 +123,9 @@ def build_tei_header(
     session_label = "Mbledhje komisioni" if meta.meeting_type == "parla.committee" else "Dita e mbledhjes"
     body_refs = " ".join(
         f"#{b.strip()}" if not b.strip().startswith("#") else b.strip()
-        for b in (meta.body_org_ids or "AL_ORG_Kuvendi").split(";")
+        for b in (meta.body_org_ids or "AL_ORG_PARL").split(";")
         if b.strip()
-    ) or "#AL_ORG_Kuvendi"
+    ) or "#AL_ORG_PARL"
     ET.SubElement(
         titleStmt,
         qname("meeting"),

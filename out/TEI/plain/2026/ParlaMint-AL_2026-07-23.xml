@@ -4,9 +4,9 @@
     <fileDesc>
       <titleStmt>
         <title type="main" xml:lang="sq">Kuvendi i Shqipërisë, Konferenca e Kryetarëve, 2026-07-23</title>
-        <title type="main" xml:lang="en">Parliament of Albania, Conference of Chairpersons, 2026-07-23</title>
-        <meeting corresp="#AL_ORG_Kuvendi" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
-        <meeting corresp="#AL_ORG_KonferencaKryetareve" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
+        <title type="main" xml:lang="en">Parliament of Albania, Conference of Chairs, 2026-07-23</title>
+        <meeting corresp="#AL_ORG_PARL" n="XI" ana="#parla.uni #parla.term #KUV.XI">Legjislatura XI</meeting>
+        <meeting corresp="#AL_ORG_PARL_CHAIR" ana="#parla.committee.standing #parla.meeting.committee">Mbledhje komisioni</meeting>
         <respStmt>
           <resp xml:lang="sq">Përgatitur nga</resp>
           <resp xml:lang="en">Prepared by</resp>

@@ -279,7 +279,7 @@ def resolve_speaker_for_date(
         org_obj = (orgs or {}).get(oid)
         otype = org_obj.org_type if org_obj else ""
 
-        if oid == "AL_ORG_Kuvendi" or otype == "parliament":
+        if oid == "AL_ORG_PARL" or otype == "parliament":
             if aff.role in ("member", "head", "deputyHead"):
                 res.is_mp = True
 
@@ -287,18 +287,19 @@ def resolve_speaker_for_date(
             if aff.role == "minister":
                 res.is_minister = True
 
-        if otype == "parliamentaryGroup" or oid.startswith("AL_ORG_GP_"):
+        if otype == "parliamentaryGroup" or oid.startswith("AL_ORG_PARL_GP_"):
             if aff.role in ("member", "head", "deputyHead") and not res.group_id:
                 res.group_id = oid
 
         if otype == "politicalParty" or oid in (
             "AL_ORG_PS", "AL_ORG_PD", "AL_ORG_PL", "AL_ORG_PR", "AL_ORG_PBDNJ",
             "AL_ORG_PDIU", "AL_ORG_PAA", "AL_ORG_PSD", "AL_ORG_MUNDESIA", "AL_ORG_BASHKE",
+            "AL_ORG_FRD", "AL_ORG_PBKD", "AL_ORG_PLL", "AL_ORG_SHB",
         ):
             if aff.role in ("member", "head", "deputyHead") and not res.party_id:
                 res.party_id = oid
 
-        if aff.role == "guest" or otype in ("independentInstitution", "localGovernment"):
+        if aff.role in ("guest", "mayor") or otype in ("independentInstitution", "localGovernment"):
             has_guest_aff = True
 
         if not res.org_id:

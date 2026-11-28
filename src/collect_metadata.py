@@ -162,15 +162,67 @@ RETIRED_PERSON_IDS: Dict[str, Tuple[str, str]] = {
 }
 
 RETIRED_ORG_IDS: Dict[str, Tuple[str, str]] = {
-    "parliament.AL": ("AL_ORG_Kuvendi", "Consolidated legacy org ID into AL_ORG_Kuvendi"),
-    "committee.Ligjet": ("AL_ORG_CLAP", "Consolidated legacy committee ID into AL_ORG_CLAP"),
+    "parliament.AL": ("AL_ORG_PARL", "Consolidated legacy org ID into AL_ORG_PARL"),
+    "AL_ORG_Kuvendi": ("AL_ORG_PARL", "Standardized Parliament ID to AL_ORG_PARL"),
+    "AL_ORG_Byroja": ("AL_ORG_PARL_BUR", "Standardized Bureau ID under AL_ORG_PARL"),
+    "AL_ORG_KonferencaKryetareve": ("AL_ORG_PARL_CHAIR", "Standardized Conference of Chairs ID under AL_ORG_PARL"),
+    "AL_ORG_SekretariatiPVE": ("AL_ORG_PARL_SECR_PVE", "Standardized Secretariat ID under AL_ORG_PARL_SECR"),
+    "AL_ORG_KKIE": ("AL_ORG_PARL_COM_KKIE", "Standardized committee ID under AL_ORG_PARL_COM"),
+    "committee.Ligjet": ("AL_ORG_PARL_COM_CLAP", "Consolidated legacy committee ID into AL_ORG_PARL_COM_CLAP"),
+    "AL_ORG_CLAP": ("AL_ORG_PARL_COM_CLAP", "Standardized committee ID under AL_ORG_PARL_COM"),
+    "AL_ORG_KEPF": ("AL_ORG_PARL_COM_KEPF", "Standardized committee ID under AL_ORG_PARL_COM"),
+    "AL_ORG_KCBM": ("AL_ORG_PARL_COM_KCBM", "Standardized committee ID under AL_ORG_PARL_COM"),
+    "AL_ORG_KESS": ("AL_ORG_PARL_COM_KESS", "Standardized committee ID under AL_ORG_PARL_COM"),
+    "AL_ORG_KSMS": ("AL_ORG_PARL_COM_KSMS", "Standardized committee ID under AL_ORG_PARL_COM"),
+    "AL_ORG_KBNIZHQ": ("AL_ORG_PARL_COM_BNIZ", "Standardized committee ID under AL_ORG_PARL_COM"),
+    "AL_ORG_KBUZHR": ("AL_ORG_PARL_COM_BUZH", "Standardized committee ID under AL_ORG_PARL_COM"),
+    "AL_ORG_KEPJ": ("AL_ORG_PARL_COM_KEPJ", "Standardized committee ID under AL_ORG_PARL_COM"),
+    "AL_ORG_KNQBMI": ("AL_ORG_PARL_COM_NQBM", "Standardized committee ID under AL_ORG_PARL_COM"),
+    "AL_ORG_KDNJMIP": ("AL_ORG_PARL_COM_DNJM", "Standardized committee ID under AL_ORG_PARL_COM"),
+    "AL_ORG_KKTD": ("AL_ORG_PARL_COM_KKTD", "Standardized committee ID under AL_ORG_PARL_COM"),
+    "AL_ORG_KPRAT": ("AL_ORG_PARL_COM_PRAT", "Standardized committee ID under AL_ORG_PARL_COM"),
     "party.PS": ("AL_ORG_PS", "Consolidated legacy party ID into AL_ORG_PS"),
     "party.PD": ("AL_ORG_PD", "Consolidated legacy party ID into AL_ORG_PD"),
     "party.PL": ("AL_ORG_PL", "Consolidated legacy party ID into AL_ORG_PL"),
-    "group.PS": ("AL_ORG_GP_PS", "Standardized parliamentary group ID to AL_ORG_GP_PS"),
-    "group.PD": ("AL_ORG_GP_PD", "Standardized parliamentary group ID to AL_ORG_GP_PD"),
-    "group.PL": ("AL_ORG_GP_PL", "Standardized parliamentary group ID to AL_ORG_GP_PL"),
-    "AL_ORG_AN": ("AL_ORG_GP_AN", "Standardized parliamentary group ID to AL_ORG_GP_AN"),
+    "group.PS": ("AL_ORG_PARL_GP_PS", "Standardized parliamentary group ID to AL_ORG_PARL_GP_PS"),
+    "group.PD": ("AL_ORG_PARL_GP_PD", "Standardized parliamentary group ID to AL_ORG_PARL_GP_PD"),
+    "group.PL": ("AL_ORG_PARL_GP_PL", "Standardized parliamentary group ID to AL_ORG_PARL_GP_PL"),
+    "AL_ORG_AN": ("AL_ORG_PARL_GP_AN", "Standardized parliamentary group ID to AL_ORG_PARL_GP_AN"),
+    "AL_ORG_GP_PS": ("AL_ORG_PARL_GP_PS", "Standardized parliamentary group ID under AL_ORG_PARL"),
+    "AL_ORG_GP_PD": ("AL_ORG_PARL_GP_PD", "Standardized parliamentary group ID under AL_ORG_PARL"),
+    "AL_ORG_GP_PL": ("AL_ORG_PARL_GP_PL", "Standardized parliamentary group ID under AL_ORG_PARL"),
+    "AL_ORG_GP_AN": ("AL_ORG_PARL_GP_AN", "Standardized parliamentary group ID under AL_ORG_PARL"),
+    "AL_ORG_Qeveria": ("AL_ORG_GOV", "Standardized Government ID to AL_ORG_GOV"),
+    "AL_ORG_MD": ("AL_ORG_GOV_MJ", "Standardized Ministry of Justice ID to AL_ORG_GOV_MJ"),
+    "AL_ORG_MSHAA": ("AL_ORG_GOV_MSHAA", "Standardized ministry ID under AL_ORG_GOV"),
+    "AL_ORG_MSHMP": ("AL_ORG_GOV_MSHMP", "Standardized ministry ID under AL_ORG_GOV"),
+    "AL_ORG_MSHPV": ("AL_ORG_GOV_MSHPV", "Standardized ministry ID under AL_ORG_GOV"),
+    "AL_ORG_Bashkia": ("AL_ORG_LOCGOV_TIR", "Replaced generic localGovernment ID with county-specific AL_ORG_LOCGOV_* IDs"),
+}
+
+ORG_TYPE_LABELS: Dict[str, Tuple[str, str]] = {
+    "parliament": ("Parliament", "Kuvendi / Parlamenti"),
+    "parliamentaryBody": ("Parliamentary Body", "Organ i Kuvendit"),
+    "committee": ("Parliamentary Committee", "Komision Parlamentar"),
+    "parliamentaryGroup": ("Parliamentary Group", "Grup Parlamentar"),
+    "politicalParty": ("Political Party", "Parti Politike"),
+    "electoralCoalition": ("Electoral Coalition", "Koalicion Zgjedhor"),
+    "government": ("Government / Council of Ministers", "Qeveria / Këshilli i Ministrave"),
+    "ministry": ("Ministry", "Ministri"),
+    "independentInstitution": ("Independent Institution", "Institucion i Pavarur"),
+    "localGovernment": ("Local Government", "Pushteti Vendor"),
+}
+
+ROLE_BILINGUAL_LABELS: Dict[str, Tuple[str, str]] = {
+    "head": ("Chairperson / Head", "Kryetar/e"),
+    "deputyHead": ("Deputy Chairperson / Vice-Chair", "Zëvendëskryetar/e / Nënkryetar/e"),
+    "member": ("Member", "Anëtar/e"),
+    "minister": ("Minister", "Ministër/re"),
+    "mayor": ("Mayor", "Kryetar/e Bashkie"),
+    "guest": ("Invited Guest", "I/E Ftuar"),
+    "chair": ("Chairperson", "Kryetar/e Mbledhjeje"),
+    "speaker": ("Speaker", "Folës/e"),
+    "staff": ("Parliamentary Staff", "Staf i Kuvendit"),
 }
 
 
@@ -178,9 +230,9 @@ RETIRED_ORG_IDS: Dict[str, Tuple[str, str]] = {
 # 2. Canonical Organizations Catalog (Section 1 & Section 8)
 # ---------------------------------------------------------------------------
 CANONICAL_ORGS: List[Dict[str, str]] = [
-    # Parliament and internal bodies
+    # Parliament and internal bodies (parent_org_id = AL_ORG_PARL)
     {
-        "org_id": "AL_ORG_Kuvendi",
+        "org_id": "AL_ORG_PARL",
         "org_type": "parliament",
         "name_short": "Kuvendi",
         "name_full": "Kuvendi i Shqipërisë",
@@ -188,6 +240,7 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "orientation": "",
         "parent_org_id": "",
         "remit": "Unicameral national legislature of the Republic of Albania",
+        "remit_sq": "Organi ligjvënës kombëtar njëdhomësh i Republikës së Shqipërisë",
         "country": "AL",
         "source_id": "SRC_KUV_STRUKTURA",
         "source_locator": "https://www.parlament.al/struktura",
@@ -195,14 +248,15 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_Byroja",
+        "org_id": "AL_ORG_PARL_BUR",
         "org_type": "parliamentaryBody",
         "name_short": "Byroja",
         "name_full": "Byroja e Kuvendit",
         "name_en": "Bureau of the Parliament",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Administrative, budget, and internal organizational body of Kuvendi",
+        "remit_sq": "Organ administrativ, buxhetor dhe i funksionimit të brendshëm të Kuvendit",
         "country": "AL",
         "source_id": "SRC_KUV_STRUKTURA",
         "source_locator": "https://www.parlament.al/struktura/byroja",
@@ -210,29 +264,32 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_KonferencaKryetareve",
+        "org_id": "AL_ORG_PARL_CHAIR",
         "org_type": "parliamentaryBody",
         "name_short": "Konferenca e Kryetarëve",
         "name_full": "Konferenca e Kryetarëve",
-        "name_en": "Conference of Chairpersons",
+        "name_en": "Conference of Chairs",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Parliamentary work program and calendar coordination body",
+        "remit_sq": "Organ bashkërendues për programin dhe kalendarin e punimeve të Kuvendit",
         "country": "AL",
         "source_id": "SRC_KUV_STRUKTURA",
         "source_locator": "https://www.parlament.al/struktura/konferenca-e-kryetareve",
         "review_status": "confirmed",
         "reliability": "Verified",
     },
+    # Secretariats (AL_ORG_PARL_SECR_*)
     {
-        "org_id": "AL_ORG_SekretariatiPVE",
+        "org_id": "AL_ORG_PARL_SECR_PVE",
         "org_type": "parliamentaryBody",
         "name_short": "SPVE",
         "name_full": "Sekretariati për Procedurat, Votimet dhe Etikën",
         "name_en": "Secretariat for Procedures, Voting and Ethics",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Parliamentary secretariat for procedural compliance, voting verification, and ethics",
+        "remit_sq": "Sekretariat parlamentar për rregullsinë e procedurave, votimeve dhe etikën",
         "country": "AL",
         "source_id": "SRC_KUV_STRUKTURA",
         "source_locator": "https://www.parlament.al/struktura/sekretariatet",
@@ -240,30 +297,64 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_KKIE",
+        "org_id": "AL_ORG_PARL_SECR_BFA",
+        "org_type": "parliamentaryBody",
+        "name_short": "SBFA",
+        "name_full": "Sekretariati për Buxhetin, Financat dhe Administratën",
+        "name_en": "Secretariat for Budget, Finance and Administration",
+        "orientation": "",
+        "parent_org_id": "AL_ORG_PARL",
+        "remit": "Parliamentary secretariat for budget planning, finance, and internal administration",
+        "remit_sq": "Sekretariat parlamentar për buxhetin, financat dhe administratën e brendshme",
+        "country": "AL",
+        "source_id": "SRC_KUV_STRUKTURA",
+        "source_locator": "https://www.parlament.al/struktura/sekretariatet",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_PARL_SECR_SHPK",
+        "org_type": "parliamentaryBody",
+        "name_short": "SSHPK",
+        "name_full": "Sekretariati për Statusin e Deputetit, Shërbimet Parlamentare dhe Kërkimin",
+        "name_en": "Secretariat for MP Status, Parliamentary Services and Research",
+        "orientation": "",
+        "parent_org_id": "AL_ORG_PARL",
+        "remit": "Parliamentary secretariat for deputy status, parliamentary services, and research",
+        "remit_sq": "Sekretariat parlamentar për statusin e deputetit, shërbimet parlamentare dhe kërkimin",
+        "country": "AL",
+        "source_id": "SRC_KUV_STRUKTURA",
+        "source_locator": "https://www.parlament.al/struktura/sekretariatet",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    # Committees (AL_ORG_PARL_COM_*, parent_org_id = AL_ORG_PARL)
+    {
+        "org_id": "AL_ORG_PARL_COM_KKIE",
         "org_type": "committee",
         "name_short": "KKIE",
         "name_full": "Këshilli Kombëtar i Integrimit Evropian",
         "name_en": "National Council for European Integration",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Advisory and oversight body for European Union accession negotiations",
+        "remit_sq": "Organ këshillimor dhe mbikëqyrës për negociatat e anëtarësimit në Bashkimin Evropian",
         "country": "AL",
         "source_id": "SRC_KUV_STRUKTURA",
         "source_locator": "https://www.parlament.al/struktura/keshilli-kombetar-i-integrimit-evropian",
         "review_status": "confirmed",
         "reliability": "Verified",
     },
-    # Standing Committees (Legislature XI)
     {
-        "org_id": "AL_ORG_CLAP",
+        "org_id": "AL_ORG_PARL_COM_CLAP",
         "org_type": "committee",
         "name_short": "CLAP",
         "name_full": "Komisioni për Çështjet Ligjore dhe Administratën Publike",
         "name_en": "Committee on Legal Affairs and Public Administration",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Justice system, constitutional and legal affairs, public administration, local government",
+        "remit_sq": "Sistemi i drejtësisë, çështjet kushtetuese dhe ligjore, administrata publike dhe pushteti vendor",
         "country": "AL",
         "source_id": "SRC_KUV_KOMISIONET",
         "source_locator": "https://www.parlament.al/struktura/komisionet-e-perhershme",
@@ -271,14 +362,15 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_KEPF",
+        "org_id": "AL_ORG_PARL_COM_KEPF",
         "org_type": "committee",
         "name_short": "KEPF",
         "name_full": "Komisioni për Ekonominë, Punësimin dhe Financat",
         "name_en": "Committee on Economy, Employment and Finance",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Economic policy and EU common market, State Budget and budget oversight, employment and worker mobility, public finance, privatization and banking",
+        "remit_sq": "Politika ekonomike, buxheti i shtetit dhe mbikëqyrja buxhetore, punësimi, financat publike dhe sistemi bankar",
         "country": "AL",
         "source_id": "SRC_KUV_KEPF_ROSTER",
         "source_locator": "https://www.parlament.al/struktura/komisionet-e-perhershme/ekonomia",
@@ -286,14 +378,15 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_KCBM",
+        "org_id": "AL_ORG_PARL_COM_KCBM",
         "org_type": "committee",
         "name_short": "KÇBM",
         "name_full": "Komisioni për Çështjet e Brendshme dhe të Mbrojtjes",
         "name_en": "Committee on Internal Affairs and Defence",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Internal security, public order, state police, armed forces, defense and civil emergencies",
+        "remit_sq": "Siguria e brendshme, rendi publik, policia e shtetit, forcat e armatosura, mbrojtja dhe emergjencat civile",
         "country": "AL",
         "source_id": "SRC_KUV_KOMISIONET",
         "source_locator": "https://www.parlament.al/struktura/komisionet-e-perhershme",
@@ -301,14 +394,15 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_KESS",
+        "org_id": "AL_ORG_PARL_COM_KESS",
         "org_type": "committee",
         "name_short": "KESS",
         "name_full": "Komisioni për Edukimin, Shkencën dhe Sportet",
         "name_en": "Committee on Education, Science and Sports",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Pre-university and higher education, scientific research, innovation, youth and sports",
+        "remit_sq": "Arsimi parauniversitar dhe i lartë, kërkimi shkencor, inovacioni, rinia dhe sportet",
         "country": "AL",
         "source_id": "SRC_KUV_KOMISIONET",
         "source_locator": "https://www.parlament.al/struktura/komisionet-e-perhershme",
@@ -316,14 +410,15 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_KSMS",
+        "org_id": "AL_ORG_PARL_COM_KSMS",
         "org_type": "committee",
         "name_short": "KSMS",
         "name_full": "Komisioni për Shëndetësinë dhe Mirëqenien Sociale",
         "name_en": "Committee on Health and Social Welfare",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Public health, healthcare system, social protection, inclusion and social welfare",
+        "remit_sq": "Shëndeti publik, sistemi shëndetësor, mbrojtja sociale, përfshirja dhe mirëqenia sociale",
         "country": "AL",
         "source_id": "SRC_KUV_KOMISIONET",
         "source_locator": "https://www.parlament.al/struktura/komisionet-e-perhershme",
@@ -331,14 +426,15 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_KBNIZHQ",
+        "org_id": "AL_ORG_PARL_COM_BNIZ",
         "org_type": "committee",
         "name_short": "KBNIZHQ",
         "name_full": "Komisioni për Burimet Natyrore, Infrastrukturën dhe Zhvillimin e Qëndrueshëm",
         "name_en": "Committee on Natural Resources, Infrastructure and Sustainable Development",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Energy, natural resources, transport infrastructure, telecommunications, water and sustainable development",
+        "remit_sq": "Energjia, burimet natyrore, infrastruktura e transportit, telekomunikacioni, uji dhe zhvillimi i qëndrueshëm",
         "country": "AL",
         "source_id": "SRC_KUV_KOMISIONET",
         "source_locator": "https://www.parlament.al/struktura/komisionet-e-perhershme",
@@ -346,14 +442,15 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_KBUZHR",
+        "org_id": "AL_ORG_PARL_COM_BUZH",
         "org_type": "committee",
         "name_short": "KBUZHR",
         "name_full": "Komisioni për Bujqësinë, Ushqimin dhe Zhvillimin Rural",
         "name_en": "Committee on Agriculture, Food and Rural Development",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Agriculture, food safety, veterinary standards, fisheries, forestry and rural development",
+        "remit_sq": "Bujqësia, siguria ushqimore, standardet veterinare, peshkimi, pyjet dhe zhvillimi rural",
         "country": "AL",
         "source_id": "SRC_KUV_KOMISIONET",
         "source_locator": "https://www.parlament.al/struktura/komisionet-e-perhershme",
@@ -361,14 +458,15 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_KEPJ",
+        "org_id": "AL_ORG_PARL_COM_KEPJ",
         "org_type": "committee",
         "name_short": "KEPJ",
         "name_full": "Komisioni për Evropën dhe Punët e Jashtme",
         "name_en": "Committee on Europe and Foreign Affairs",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "European integration, foreign policy, international treaties and diplomatic relations",
+        "remit_sq": "Integrimi evropian, politika e jashtme, marrëveshjet ndërkombëtare dhe marrëdhëniet diplomatike",
         "country": "AL",
         "source_id": "SRC_KUV_KOMISIONET",
         "source_locator": "https://www.parlament.al/struktura/komisionet-e-perhershme",
@@ -376,14 +474,15 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_KNQBMI",
+        "org_id": "AL_ORG_PARL_COM_NQBM",
         "org_type": "committee",
         "name_short": "KNQBMI",
         "name_full": "Komisioni për Nismat Qytetare, Bashkëpunimin dhe Mbikëqyrjen Institucionale",
         "name_en": "Committee on Civic Initiatives, Cooperation and Institutional Oversight",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Civic petitions, institutional oversight of independent constitutional and statutory bodies, post-legislative scrutiny",
+        "remit_sq": "Nismat qytetare, mbikëqyrja institucionale e organeve të pavarura kushtetuese dhe ligjore, kontrolli paslegjislativ",
         "country": "AL",
         "source_id": "SRC_KUV_KOMISIONET",
         "source_locator": "https://www.parlament.al/struktura/komisionet-e-perhershme",
@@ -391,14 +490,15 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_KDNJMIP",
+        "org_id": "AL_ORG_PARL_COM_DNJM",
         "org_type": "committee",
         "name_short": "KDNJMIP",
         "name_full": "Komisioni për të Drejtat e Njeriut dhe Mjetet e Informimit Publik",
         "name_en": "Committee on Human Rights and Public Information Media",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Fundamental human rights, minorities, data protection, freedom of information and public/audiovisual media",
+        "remit_sq": "Të drejtat themelore të njeriut, pakicat, mbrojtja e të dhënave, e drejta e informimit dhe mediat publike/audiovizive",
         "country": "AL",
         "source_id": "SRC_KUV_KOMISIONET",
         "source_locator": "https://www.parlament.al/struktura/komisionet-e-perhershme",
@@ -406,46 +506,48 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_KKTD",
+        "org_id": "AL_ORG_PARL_COM_KKTD",
         "org_type": "committee",
         "name_short": "KKTD",
         "name_full": "Komisioni për Kulturën, Turizmin dhe Diasporën",
         "name_en": "Committee on Culture, Tourism and Diaspora",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Cultural heritage, arts, tourism development and relations with the Albanian diaspora",
+        "remit_sq": "Trashëgimia kulturore, arti, zhvillimi i turizmit dhe marrëdhëniet me diasporën shqiptare",
         "country": "AL",
         "source_id": "SRC_KUV_KOMISIONET",
         "source_locator": "https://www.parlament.al/struktura/komisionet-e-perhershme",
         "review_status": "confirmed",
         "reliability": "Verified",
     },
-    # Special Committee
     {
-        "org_id": "AL_ORG_KPRAT",
+        "org_id": "AL_ORG_PARL_COM_PRAT",
         "org_type": "committee",
         "name_short": "KPRAT",
         "name_full": "Komisioni i Posaçëm Parlamentar për Reformën Administrativo-Territoriale në Republikën e Shqipërisë",
         "name_en": "Special Parliamentary Committee on Administrative-Territorial Reform in the Republic of Albania",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Established by Kuvendi Decisions No. 75 and No. 85 (2025) for administrative-territorial and local governance reform",
+        "remit_sq": "Ngritur me Vendimet nr. 75 dhe nr. 85 (2025) të Kuvendit për reformën administrativo-territoriale dhe qeverisjen vendore",
         "country": "AL",
         "source_id": "SRC_KUV_VENDIM_75_85_2025",
         "source_locator": "Procesverbal 2025-11-11 (Vendimi nr. 75 dhe nr. 85 i Kuvendit)",
         "review_status": "confirmed",
         "reliability": "Verified",
     },
-    # Parliamentary Groups (Section 1 & Section 8: distinct from Political Parties!)
+    # Parliamentary Groups (AL_ORG_PARL_GP_*, parent_org_id = AL_ORG_PARL)
     {
-        "org_id": "AL_ORG_GP_PS",
+        "org_id": "AL_ORG_PARL_GP_PS",
         "org_type": "parliamentaryGroup",
         "name_short": "GP PS",
         "name_full": "Grupi Parlamentar i Partisë Socialiste",
         "name_en": "Parliamentary Group of the Socialist Party",
         "orientation": "centre-left",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Official parliamentary group of the Socialist Party in Kuvendi (PartyMembershipEntailingGroup)",
+        "remit_sq": "Grupi parlamentar zyrtar i Partisë Socialiste në Kuvend",
         "country": "AL",
         "source_id": "SRC_KUV_GRUPET",
         "source_locator": "https://www.parlament.al/struktura/grupet-parlamentare",
@@ -453,14 +555,15 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_GP_PD",
+        "org_id": "AL_ORG_PARL_GP_PD",
         "org_type": "parliamentaryGroup",
         "name_short": "GP PD",
         "name_full": "Grupi Parlamentar i Partisë Demokratike",
         "name_en": "Parliamentary Group of the Democratic Party",
         "orientation": "centre-right",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Official parliamentary group of the Democratic Party in Kuvendi (PartyMembershipEntailingGroup)",
+        "remit_sq": "Grupi parlamentar zyrtar i Partisë Demokratike në Kuvend",
         "country": "AL",
         "source_id": "SRC_KUV_GRUPET",
         "source_locator": "https://www.parlament.al/struktura/grupet-parlamentare",
@@ -468,14 +571,15 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_GP_PL",
+        "org_id": "AL_ORG_PARL_GP_PL",
         "org_type": "parliamentaryGroup",
         "name_short": "GP PL",
         "name_full": "Grupi Parlamentar i Partisë së Lirisë",
         "name_en": "Parliamentary Group of the Freedom Party",
         "orientation": "centre-left",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Official parliamentary group of the Freedom Party in Kuvendi (PartyMembershipEntailingGroup)",
+        "remit_sq": "Grupi parlamentar zyrtar i Partisë së Lirisë në Kuvend",
         "country": "AL",
         "source_id": "SRC_KUV_GRUPET",
         "source_locator": "https://www.parlament.al/struktura/grupet-parlamentare",
@@ -483,14 +587,15 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_GP_AN",
+        "org_id": "AL_ORG_PARL_GP_AN",
         "org_type": "parliamentaryGroup",
         "name_short": "GP AN",
         "name_full": "Grupi Parlamentar “Aleanca për Ndryshim”",
         "name_en": "Parliamentary Group 'Alliance for Change'",
         "orientation": "centre-right",
-        "parent_org_id": "AL_ORG_Kuvendi",
+        "parent_org_id": "AL_ORG_PARL",
         "remit": "Multi-party parliamentary group in Kuvendi (non-party-entailing mixed group)",
+        "remit_sq": "Grup parlamentar shumëpartiak në Kuvend (Aleanca për Ndryshim)",
         "country": "AL",
         "source_id": "SRC_KUV_GRUPET",
         "source_locator": "https://www.parlament.al/struktura/grupet-parlamentare",
@@ -739,16 +844,17 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "review_status": "confirmed",
         "reliability": "Verified",
     },
-    # Government & Ministries (Section 1)
+    # Government & Ministries (parent_org_id = AL_ORG_GOV, IDs = AL_ORG_GOV_*)
     {
-        "org_id": "AL_ORG_Qeveria",
+        "org_id": "AL_ORG_GOV",
         "org_type": "government",
-        "name_short": "Këshilli i Ministrave",
+        "name_short": "Qeveria",
         "name_full": "Këshilli i Ministrave i Republikës së Shqipërisë",
         "name_en": "Council of Ministers of the Republic of Albania",
         "orientation": "",
         "parent_org_id": "",
         "remit": "Executive branch / Council of Ministers of Albania",
+        "remit_sq": "Pushteti ekzekutiv / Këshilli i Ministrave i Republikës së Shqipërisë",
         "country": "AL",
         "source_id": "SRC_DEKRET_2025_09_15",
         "source_locator": "Presidential Decree of 15 September 2025",
@@ -756,14 +862,15 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_MD",
+        "org_id": "AL_ORG_GOV_MJ",
         "org_type": "ministry",
-        "name_short": "MD",
+        "name_short": "MJ",
         "name_full": "Ministria e Drejtësisë",
         "name_en": "Ministry of Justice",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Qeveria",
+        "parent_org_id": "AL_ORG_GOV",
         "remit": "Ministry of Justice of the Republic of Albania",
+        "remit_sq": "Ministria e Drejtësisë e Republikës së Shqipërisë",
         "country": "AL",
         "source_id": "SRC_KM_BIO",
         "source_locator": "https://www.kryeministria.al",
@@ -771,14 +878,15 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_MSHAA",
+        "org_id": "AL_ORG_GOV_MSHAA",
         "org_type": "ministry",
         "name_short": "MSHAA",
         "name_full": "Ministri i Shtetit për Administratën Publike dhe Antikorrupsionin",
         "name_en": "Minister of State for Public Administration and Anticorruption",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Qeveria",
+        "parent_org_id": "AL_ORG_GOV",
         "remit": "State-minister portfolio on public administration and anticorruption",
+        "remit_sq": "Portofol i Ministrit të Shtetit për Administratën Publike dhe Antikorrupsionin",
         "country": "AL",
         "source_id": "SRC_KUV_VENDIM_6_2024",
         "source_locator": "Kuvendi Decision 6/2024 (15 January 2024)",
@@ -786,14 +894,15 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_MSHMP",
+        "org_id": "AL_ORG_GOV_MSHMP",
         "org_type": "ministry",
         "name_short": "MSHMP",
         "name_full": "Ministri i Shtetit për Marrëdhëniet me Parlamentin",
         "name_en": "Minister of State for Relations with Parliament",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Qeveria",
+        "parent_org_id": "AL_ORG_GOV",
         "remit": "State-minister portfolio for legislative coordination with Kuvendi",
+        "remit_sq": "Portofol i Ministrit të Shtetit për Marrëdhëniet me Parlamentin",
         "country": "AL",
         "source_id": "SRC_DEKRET_2025_09_15",
         "source_locator": "Presidential Decree of 15 September 2025",
@@ -801,17 +910,210 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_MSHPV",
+        "org_id": "AL_ORG_GOV_MSHPV",
         "org_type": "ministry",
         "name_short": "MSHPV",
         "name_full": "Ministri i Shtetit për Pushtetin Vendor",
         "name_en": "Minister of State for Local Government",
         "orientation": "",
-        "parent_org_id": "AL_ORG_Qeveria",
+        "parent_org_id": "AL_ORG_GOV",
         "remit": "State-minister portfolio for local government and decentralization",
+        "remit_sq": "Portofol i Ministrit të Shtetit për Pushtetin Vendor dhe Decentralizimin",
         "country": "AL",
         "source_id": "SRC_DEKRET_2025_09_15",
         "source_locator": "Presidential Decree of 15 September 2025",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_GOV_MF",
+        "org_type": "ministry",
+        "name_short": "MF",
+        "name_full": "Ministria e Financave",
+        "name_en": "Ministry of Finance",
+        "orientation": "",
+        "parent_org_id": "AL_ORG_GOV",
+        "remit": "Ministry of Finance of the Republic of Albania",
+        "remit_sq": "Ministria e Financave e Republikës së Shqipërisë",
+        "country": "AL",
+        "source_id": "SRC_KM_BIO",
+        "source_locator": "https://www.kryeministria.al",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_GOV_MEKI",
+        "org_type": "ministry",
+        "name_short": "MEKI",
+        "name_full": "Ministria e Ekonomisë, Kulturës dhe Inovacionit",
+        "name_en": "Ministry of Economy, Culture and Innovation",
+        "orientation": "",
+        "parent_org_id": "AL_ORG_GOV",
+        "remit": "Ministry of Economy, Culture and Innovation of the Republic of Albania",
+        "remit_sq": "Ministria e Ekonomisë, Kulturës dhe Inovacionit e Republikës së Shqipërisë",
+        "country": "AL",
+        "source_id": "SRC_KM_BIO",
+        "source_locator": "https://www.kryeministria.al",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_GOV_MIE",
+        "org_type": "ministry",
+        "name_short": "MIE",
+        "name_full": "Ministria e Infrastrukturës dhe Energjisë",
+        "name_en": "Ministry of Infrastructure and Energy",
+        "orientation": "",
+        "parent_org_id": "AL_ORG_GOV",
+        "remit": "Ministry of Infrastructure and Energy of the Republic of Albania",
+        "remit_sq": "Ministria e Infrastrukturës dhe Energjisë e Republikës së Shqipërisë",
+        "country": "AL",
+        "source_id": "SRC_KM_BIO",
+        "source_locator": "https://www.kryeministria.al",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_GOV_MBZHR",
+        "org_type": "ministry",
+        "name_short": "MBZHR",
+        "name_full": "Ministria e Bujqësisë dhe Zhvillimit Rural",
+        "name_en": "Ministry of Agriculture and Rural Development",
+        "orientation": "",
+        "parent_org_id": "AL_ORG_GOV",
+        "remit": "Ministry of Agriculture and Rural Development of the Republic of Albania",
+        "remit_sq": "Ministria e Bujqësisë dhe Zhvillimit Rural e Republikës së Shqipërisë",
+        "country": "AL",
+        "source_id": "SRC_KM_BIO",
+        "source_locator": "https://www.kryeministria.al",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_GOV_MSHMS",
+        "org_type": "ministry",
+        "name_short": "MSHMS",
+        "name_full": "Ministria e Shëndetësisë dhe Mirëqenies Sociale",
+        "name_en": "Ministry of Health and Social Welfare",
+        "orientation": "",
+        "parent_org_id": "AL_ORG_GOV",
+        "remit": "Ministry of Health and Social Welfare of the Republic of Albania",
+        "remit_sq": "Ministria e Shëndetësisë dhe Mirëqenies Sociale e Republikës së Shqipërisë",
+        "country": "AL",
+        "source_id": "SRC_KM_BIO",
+        "source_locator": "https://www.kryeministria.al",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_GOV_MAS",
+        "org_type": "ministry",
+        "name_short": "MAS",
+        "name_full": "Ministria e Arsimit dhe Sportit",
+        "name_en": "Ministry of Education and Sports",
+        "orientation": "",
+        "parent_org_id": "AL_ORG_GOV",
+        "remit": "Ministry of Education and Sports of the Republic of Albania",
+        "remit_sq": "Ministria e Arsimit dhe Sportit e Republikës së Shqipërisë",
+        "country": "AL",
+        "source_id": "SRC_KM_BIO",
+        "source_locator": "https://www.kryeministria.al",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_GOV_MPB",
+        "org_type": "ministry",
+        "name_short": "MPB",
+        "name_full": "Ministria e Punëve të Brendshme",
+        "name_en": "Ministry of Internal Affairs",
+        "orientation": "",
+        "parent_org_id": "AL_ORG_GOV",
+        "remit": "Ministry of Internal Affairs of the Republic of Albania",
+        "remit_sq": "Ministria e Punëve të Brendshme e Republikës së Shqipërisë",
+        "country": "AL",
+        "source_id": "SRC_KM_BIO",
+        "source_locator": "https://www.kryeministria.al",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_GOV_MM",
+        "org_type": "ministry",
+        "name_short": "MM",
+        "name_full": "Ministria e Mbrojtjes",
+        "name_en": "Ministry of Defence",
+        "orientation": "",
+        "parent_org_id": "AL_ORG_GOV",
+        "remit": "Ministry of Defence of the Republic of Albania",
+        "remit_sq": "Ministria e Mbrojtjes e Republikës së Shqipërisë",
+        "country": "AL",
+        "source_id": "SRC_KM_BIO",
+        "source_locator": "https://www.kryeministria.al",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_GOV_MEPJ",
+        "org_type": "ministry",
+        "name_short": "MEPJ",
+        "name_full": "Ministria për Evropën dhe Punët e Jashtme",
+        "name_en": "Ministry for Europe and Foreign Affairs",
+        "orientation": "",
+        "parent_org_id": "AL_ORG_GOV",
+        "remit": "Ministry for Europe and Foreign Affairs of the Republic of Albania",
+        "remit_sq": "Ministria për Evropën dhe Punët e Jashtme e Republikës së Shqipërisë",
+        "country": "AL",
+        "source_id": "SRC_KM_BIO",
+        "source_locator": "https://www.kryeministria.al",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_GOV_MTM",
+        "org_type": "ministry",
+        "name_short": "MTM",
+        "name_full": "Ministria e Turizmit dhe Mjedisit",
+        "name_en": "Ministry of Tourism and Environment",
+        "orientation": "",
+        "parent_org_id": "AL_ORG_GOV",
+        "remit": "Ministry of Tourism and Environment of the Republic of Albania",
+        "remit_sq": "Ministria e Turizmit dhe Mjedisit e Republikës së Shqipërisë",
+        "country": "AL",
+        "source_id": "SRC_KM_BIO",
+        "source_locator": "https://www.kryeministria.al",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_GOV_MSHSKB",
+        "org_type": "ministry",
+        "name_short": "MSHSKB",
+        "name_full": "Ministri i Shtetit për Sipërmarrjen dhe Klimën e Biznesit",
+        "name_en": "Minister of State for Entrepreneurship and Business Climate",
+        "orientation": "",
+        "parent_org_id": "AL_ORG_GOV",
+        "remit": "State-minister portfolio for entrepreneurship and business climate",
+        "remit_sq": "Portofol i Ministrit të Shtetit për Sipërmarrjen dhe Klimën e Biznesit",
+        "country": "AL",
+        "source_id": "SRC_KM_BIO",
+        "source_locator": "https://www.kryeministria.al",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_GOV_MSHRF",
+        "org_type": "ministry",
+        "name_short": "MSHRF",
+        "name_full": "Ministri i Shtetit për Rininë dhe Fëmijët",
+        "name_en": "Minister of State for Youth and Children",
+        "orientation": "",
+        "parent_org_id": "AL_ORG_GOV",
+        "remit": "State-minister portfolio for youth and children",
+        "remit_sq": "Portofol i Ministrit të Shtetit për Rininë dhe Fëmijët",
+        "country": "AL",
+        "source_id": "SRC_KM_BIO",
+        "source_locator": "https://www.kryeministria.al",
         "review_status": "confirmed",
         "reliability": "Verified",
     },
@@ -1035,6 +1337,7 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "orientation": "",
         "parent_org_id": "",
         "remit": "National statistical institute of Albania",
+        "remit_sq": "Instituti kombëtar i statistikave të Republikës së Shqipërisë",
         "country": "AL",
         "source_id": "SRC_KUV_STRUKTURA",
         "source_locator": "Oversight hearings",
@@ -1042,14 +1345,208 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "reliability": "Verified",
     },
     {
-        "org_id": "AL_ORG_Bashkia",
-        "org_type": "localGovernment",
-        "name_short": "Pushteti Vendor",
-        "name_full": "Bashkitë dhe Këshillat e Qarqeve të Republikës së Shqipërisë",
-        "name_en": "Municipalities and Regional Councils of the Republic of Albania",
+        "org_id": "AL_ORG_AP",
+        "org_type": "independentInstitution",
+        "name_short": "AP",
+        "name_full": "Avokati i Popullit",
+        "name_en": "People's Advocate (Ombudsman)",
         "orientation": "",
         "parent_org_id": "",
-        "remit": "Local self-government units participating in consultative parliamentary hearings",
+        "remit": "Constitutional independent institution for the protection of human rights and freedoms",
+        "remit_sq": "Institucion i pavarur kushtetues për mbrojtjen e të drejtave dhe lirive të njeriut",
+        "country": "AL",
+        "source_id": "SRC_KUV_STRUKTURA",
+        "source_locator": "Oversight hearings",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    # Local Government by County / Province (org_type = localGovernment, parent_org_id = "", ID = AL_ORG_LOCGOV_<2-3 initials>)
+    {
+        "org_id": "AL_ORG_LOCGOV_TIR",
+        "org_type": "localGovernment",
+        "name_short": "Pushteti Vendor Tiranë",
+        "name_full": "Pushteti Vendor – Qarku Tiranë",
+        "name_en": "Local Government of Tirana County",
+        "orientation": "",
+        "parent_org_id": "",
+        "remit": "Local self-government units (municipalities and regional council) of Tirana County",
+        "remit_sq": "Njësitë e vetëqeverisjes vendore (bashkitë dhe këshilli i qarkut) në Qarkun Tiranë",
+        "country": "AL",
+        "source_id": "SRC_KUV_VENDIM_75_85_2025",
+        "source_locator": "Consultative hearings of KPRAT",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_LOCGOV_DUR",
+        "org_type": "localGovernment",
+        "name_short": "Pushteti Vendor Durrës",
+        "name_full": "Pushteti Vendor – Qarku Durrës",
+        "name_en": "Local Government of Durrës County",
+        "orientation": "",
+        "parent_org_id": "",
+        "remit": "Local self-government units (municipalities and regional council) of Durrës County",
+        "remit_sq": "Njësitë e vetëqeverisjes vendore (bashkitë dhe këshilli i qarkut) në Qarkun Durrës",
+        "country": "AL",
+        "source_id": "SRC_KUV_VENDIM_75_85_2025",
+        "source_locator": "Consultative hearings of KPRAT",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_LOCGOV_ELB",
+        "org_type": "localGovernment",
+        "name_short": "Pushteti Vendor Elbasan",
+        "name_full": "Pushteti Vendor – Qarku Elbasan",
+        "name_en": "Local Government of Elbasan County",
+        "orientation": "",
+        "parent_org_id": "",
+        "remit": "Local self-government units (municipalities and regional council) of Elbasan County",
+        "remit_sq": "Njësitë e vetëqeverisjes vendore (bashkitë dhe këshilli i qarkut) në Qarkun Elbasan",
+        "country": "AL",
+        "source_id": "SRC_KUV_VENDIM_75_85_2025",
+        "source_locator": "Consultative hearings of KPRAT",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_LOCGOV_FIE",
+        "org_type": "localGovernment",
+        "name_short": "Pushteti Vendor Fier",
+        "name_full": "Pushteti Vendor – Qarku Fier",
+        "name_en": "Local Government of Fier County",
+        "orientation": "",
+        "parent_org_id": "",
+        "remit": "Local self-government units (municipalities and regional council) of Fier County",
+        "remit_sq": "Njësitë e vetëqeverisjes vendore (bashkitë dhe këshilli i qarkut) në Qarkun Fier",
+        "country": "AL",
+        "source_id": "SRC_KUV_VENDIM_75_85_2025",
+        "source_locator": "Consultative hearings of KPRAT",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_LOCGOV_KOR",
+        "org_type": "localGovernment",
+        "name_short": "Pushteti Vendor Korçë",
+        "name_full": "Pushteti Vendor – Qarku Korçë",
+        "name_en": "Local Government of Korçë County",
+        "orientation": "",
+        "parent_org_id": "",
+        "remit": "Local self-government units (municipalities and regional council) of Korçë County",
+        "remit_sq": "Njësitë e vetëqeverisjes vendore (bashkitë dhe këshilli i qarkut) në Qarkun Korçë",
+        "country": "AL",
+        "source_id": "SRC_KUV_VENDIM_75_85_2025",
+        "source_locator": "Consultative hearings of KPRAT",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_LOCGOV_KUK",
+        "org_type": "localGovernment",
+        "name_short": "Pushteti Vendor Kukës",
+        "name_full": "Pushteti Vendor – Qarku Kukës",
+        "name_en": "Local Government of Kukës County",
+        "orientation": "",
+        "parent_org_id": "",
+        "remit": "Local self-government units (municipalities and regional council) of Kukës County",
+        "remit_sq": "Njësitë e vetëqeverisjes vendore (bashkitë dhe këshilli i qarkut) në Qarkun Kukës",
+        "country": "AL",
+        "source_id": "SRC_KUV_VENDIM_75_85_2025",
+        "source_locator": "Consultative hearings of KPRAT",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_LOCGOV_SHK",
+        "org_type": "localGovernment",
+        "name_short": "Pushteti Vendor Shkodër",
+        "name_full": "Pushteti Vendor – Qarku Shkodër",
+        "name_en": "Local Government of Shkodër County",
+        "orientation": "",
+        "parent_org_id": "",
+        "remit": "Local self-government units (municipalities and regional council) of Shkodër County",
+        "remit_sq": "Njësitë e vetëqeverisjes vendore (bashkitë dhe këshilli i qarkut) në Qarkun Shkodër",
+        "country": "AL",
+        "source_id": "SRC_KUV_VENDIM_75_85_2025",
+        "source_locator": "Consultative hearings of KPRAT",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_LOCGOV_BER",
+        "org_type": "localGovernment",
+        "name_short": "Pushteti Vendor Berat",
+        "name_full": "Pushteti Vendor – Qarku Berat",
+        "name_en": "Local Government of Berat County",
+        "orientation": "",
+        "parent_org_id": "",
+        "remit": "Local self-government units (municipalities and regional council) of Berat County",
+        "remit_sq": "Njësitë e vetëqeverisjes vendore (bashkitë dhe këshilli i qarkut) në Qarkun Berat",
+        "country": "AL",
+        "source_id": "SRC_KUV_VENDIM_75_85_2025",
+        "source_locator": "Consultative hearings of KPRAT",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_LOCGOV_DIB",
+        "org_type": "localGovernment",
+        "name_short": "Pushteti Vendor Dibër",
+        "name_full": "Pushteti Vendor – Qarku Dibër",
+        "name_en": "Local Government of Dibër County",
+        "orientation": "",
+        "parent_org_id": "",
+        "remit": "Local self-government units (municipalities and regional council) of Dibër County",
+        "remit_sq": "Njësitë e vetëqeverisjes vendore (bashkitë dhe këshilli i qarkut) në Qarkun Dibër",
+        "country": "AL",
+        "source_id": "SRC_KUV_VENDIM_75_85_2025",
+        "source_locator": "Consultative hearings of KPRAT",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_LOCGOV_GJI",
+        "org_type": "localGovernment",
+        "name_short": "Pushteti Vendor Gjirokastër",
+        "name_full": "Pushteti Vendor – Qarku Gjirokastër",
+        "name_en": "Local Government of Gjirokastër County",
+        "orientation": "",
+        "parent_org_id": "",
+        "remit": "Local self-government units (municipalities and regional council) of Gjirokastër County",
+        "remit_sq": "Njësitë e vetëqeverisjes vendore (bashkitë dhe këshilli i qarkut) në Qarkun Gjirokastër",
+        "country": "AL",
+        "source_id": "SRC_KUV_VENDIM_75_85_2025",
+        "source_locator": "Consultative hearings of KPRAT",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_LOCGOV_LEZ",
+        "org_type": "localGovernment",
+        "name_short": "Pushteti Vendor Lezhë",
+        "name_full": "Pushteti Vendor – Qarku Lezhë",
+        "name_en": "Local Government of Lezhë County",
+        "orientation": "",
+        "parent_org_id": "",
+        "remit": "Local self-government units (municipalities and regional council) of Lezhë County",
+        "remit_sq": "Njësitë e vetëqeverisjes vendore (bashkitë dhe këshilli i qarkut) në Qarkun Lezhë",
+        "country": "AL",
+        "source_id": "SRC_KUV_VENDIM_75_85_2025",
+        "source_locator": "Consultative hearings of KPRAT",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_LOCGOV_VLO",
+        "org_type": "localGovernment",
+        "name_short": "Pushteti Vendor Vlorë",
+        "name_full": "Pushteti Vendor – Qarku Vlorë",
+        "name_en": "Local Government of Vlorë County",
+        "orientation": "",
+        "parent_org_id": "",
+        "remit": "Local self-government units (municipalities and regional council) of Vlorë County",
+        "remit_sq": "Njësitë e vetëqeverisjes vendore (bashkitë dhe këshilli i qarkut) në Qarkun Vlorë",
         "country": "AL",
         "source_id": "SRC_KUV_VENDIM_75_85_2025",
         "source_locator": "Consultative hearings of KPRAT",
@@ -1067,8 +1564,8 @@ CANONICAL_ORG_RELATIONS: List[Dict[str, str]] = [
     {
         "relation_id": "REL_GIP_PS_XI",
         "relation_type": "GroupInParliament",
-        "active_org_id": "AL_ORG_GP_PS",
-        "passive_org_id": "AL_ORG_Kuvendi",
+        "active_org_id": "AL_ORG_PARL_GP_PS",
+        "passive_org_id": "AL_ORG_PARL",
         "mutual_org_ids": "",
         "from_date": "2021-09-10",
         "to_date": "",
@@ -1083,8 +1580,8 @@ CANONICAL_ORG_RELATIONS: List[Dict[str, str]] = [
     {
         "relation_id": "REL_GIP_PD_XI",
         "relation_type": "GroupInParliament",
-        "active_org_id": "AL_ORG_GP_PD",
-        "passive_org_id": "AL_ORG_Kuvendi",
+        "active_org_id": "AL_ORG_PARL_GP_PD",
+        "passive_org_id": "AL_ORG_PARL",
         "mutual_org_ids": "",
         "from_date": "2021-09-10",
         "to_date": "",
@@ -1099,8 +1596,8 @@ CANONICAL_ORG_RELATIONS: List[Dict[str, str]] = [
     {
         "relation_id": "REL_GIP_PL_XI",
         "relation_type": "GroupInParliament",
-        "active_org_id": "AL_ORG_GP_PL",
-        "passive_org_id": "AL_ORG_Kuvendi",
+        "active_org_id": "AL_ORG_PARL_GP_PL",
+        "passive_org_id": "AL_ORG_PARL",
         "mutual_org_ids": "",
         "from_date": "2021-09-10",
         "to_date": "",
@@ -1115,8 +1612,8 @@ CANONICAL_ORG_RELATIONS: List[Dict[str, str]] = [
     {
         "relation_id": "REL_GIP_AN_XI",
         "relation_type": "GroupInParliament",
-        "active_org_id": "AL_ORG_GP_AN",
-        "passive_org_id": "AL_ORG_Kuvendi",
+        "active_org_id": "AL_ORG_PARL_GP_AN",
+        "passive_org_id": "AL_ORG_PARL",
         "mutual_org_ids": "",
         "from_date": "2021-09-10",
         "to_date": "",
@@ -1132,7 +1629,7 @@ CANONICAL_ORG_RELATIONS: List[Dict[str, str]] = [
     {
         "relation_id": "REL_GPE_PS_XI",
         "relation_type": "GroupPartyEntailment",
-        "active_org_id": "AL_ORG_GP_PS",
+        "active_org_id": "AL_ORG_PARL_GP_PS",
         "passive_org_id": "AL_ORG_PS",
         "mutual_org_ids": "",
         "from_date": "2021-09-10",
@@ -1148,7 +1645,7 @@ CANONICAL_ORG_RELATIONS: List[Dict[str, str]] = [
     {
         "relation_id": "REL_GPE_PD_XI",
         "relation_type": "GroupPartyEntailment",
-        "active_org_id": "AL_ORG_GP_PD",
+        "active_org_id": "AL_ORG_PARL_GP_PD",
         "passive_org_id": "AL_ORG_PD",
         "mutual_org_ids": "",
         "from_date": "2021-09-10",
@@ -1164,7 +1661,7 @@ CANONICAL_ORG_RELATIONS: List[Dict[str, str]] = [
     {
         "relation_id": "REL_GPE_PL_XI",
         "relation_type": "GroupPartyEntailment",
-        "active_org_id": "AL_ORG_GP_PL",
+        "active_org_id": "AL_ORG_PARL_GP_PL",
         "passive_org_id": "AL_ORG_PL",
         "mutual_org_ids": "",
         "from_date": "2021-09-10",
@@ -1181,7 +1678,7 @@ CANONICAL_ORG_RELATIONS: List[Dict[str, str]] = [
     {
         "relation_id": "REL_REP_GP_PS",
         "relation_type": "representing",
-        "active_org_id": "AL_ORG_GP_PS",
+        "active_org_id": "AL_ORG_PARL_GP_PS",
         "passive_org_id": "AL_ORG_PS",
         "mutual_org_ids": "",
         "from_date": "2021-09-10",
@@ -1197,7 +1694,7 @@ CANONICAL_ORG_RELATIONS: List[Dict[str, str]] = [
     {
         "relation_id": "REL_REP_GP_PD",
         "relation_type": "representing",
-        "active_org_id": "AL_ORG_GP_PD",
+        "active_org_id": "AL_ORG_PARL_GP_PD",
         "passive_org_id": "AL_ORG_PD",
         "mutual_org_ids": "",
         "from_date": "2021-09-10",
@@ -1213,7 +1710,7 @@ CANONICAL_ORG_RELATIONS: List[Dict[str, str]] = [
     {
         "relation_id": "REL_REP_GP_PL",
         "relation_type": "representing",
-        "active_org_id": "AL_ORG_GP_PL",
+        "active_org_id": "AL_ORG_PARL_GP_PL",
         "passive_org_id": "AL_ORG_PL",
         "mutual_org_ids": "",
         "from_date": "2021-09-10",
@@ -1229,7 +1726,7 @@ CANONICAL_ORG_RELATIONS: List[Dict[str, str]] = [
     {
         "relation_id": "REL_REP_GP_AN_PR",
         "relation_type": "representing",
-        "active_org_id": "AL_ORG_GP_AN",
+        "active_org_id": "AL_ORG_PARL_GP_AN",
         "passive_org_id": "AL_ORG_PR",
         "mutual_org_ids": "",
         "from_date": "2021-09-10",
@@ -1245,7 +1742,7 @@ CANONICAL_ORG_RELATIONS: List[Dict[str, str]] = [
     {
         "relation_id": "REL_REP_GP_AN_PAA",
         "relation_type": "representing",
-        "active_org_id": "AL_ORG_GP_AN",
+        "active_org_id": "AL_ORG_PARL_GP_AN",
         "passive_org_id": "AL_ORG_PAA",
         "mutual_org_ids": "",
         "from_date": "2021-09-10",
@@ -1261,7 +1758,7 @@ CANONICAL_ORG_RELATIONS: List[Dict[str, str]] = [
     {
         "relation_id": "REL_REP_GP_AN_PBDNJ",
         "relation_type": "representing",
-        "active_org_id": "AL_ORG_GP_AN",
+        "active_org_id": "AL_ORG_PARL_GP_AN",
         "passive_org_id": "AL_ORG_PBDNJ",
         "mutual_org_ids": "",
         "from_date": "2021-09-10",
@@ -1281,7 +1778,7 @@ CANONICAL_ORG_RELATIONS: List[Dict[str, str]] = [
         "relation_type": "coalition",
         "active_org_id": "",
         "passive_org_id": "",
-        "mutual_org_ids": "AL_ORG_Qeveria AL_ORG_GP_PS AL_ORG_PS",
+        "mutual_org_ids": "AL_ORG_GOV AL_ORG_PARL_GP_PS AL_ORG_PS",
         "from_date": "2021-09-10",
         "to_date": "",
         "requires_mandate": "false",
@@ -1295,8 +1792,8 @@ CANONICAL_ORG_RELATIONS: List[Dict[str, str]] = [
     {
         "relation_id": "REL_OPPOSITION_XI",
         "relation_type": "opposition",
-        "active_org_id": "AL_ORG_GP_PD AL_ORG_GP_PL AL_ORG_GP_AN AL_ORG_PD AL_ORG_PL AL_ORG_PR AL_ORG_PBDNJ AL_ORG_PAA AL_ORG_MUNDESIA AL_ORG_BASHKE",
-        "passive_org_id": "AL_ORG_Qeveria",
+        "active_org_id": "AL_ORG_PARL_GP_PD AL_ORG_PARL_GP_PL AL_ORG_PARL_GP_AN AL_ORG_PD AL_ORG_PL AL_ORG_PR AL_ORG_PBDNJ AL_ORG_PAA AL_ORG_MUNDESIA AL_ORG_BASHKE",
+        "passive_org_id": "AL_ORG_GOV",
         "mutual_org_ids": "",
         "from_date": "2021-09-10",
         "to_date": "",
@@ -1312,7 +1809,7 @@ CANONICAL_ORG_RELATIONS: List[Dict[str, str]] = [
     {
         "relation_id": "REL_ELCOAL_PD_AMSH_2025",
         "relation_type": "electoralCoalition",
-        "active_org_id": "AL_ORG_PD AL_ORG_PL AL_ORG_PR AL_ORG_PAA AL_ORG_PBDNJ AL_ORG_PDIU",
+        "active_org_id": "AL_ORG_PD AL_ORG_PL AL_ORG_PR AL_ORG_PAA AL_ORG_PBDNJ AL_ORG_PDIU AL_ORG_FRD AL_ORG_PBKD AL_ORG_PLL",
         "passive_org_id": "AL_ORG_KOAL_PD_AMSH",
         "mutual_org_ids": "",
         "from_date": "2025-03-01",
@@ -1344,63 +1841,63 @@ def map_event_header_to_org_ids(event_type_text: str) -> Tuple[List[str], str, s
     titles_en: List[str] = []
 
     if "konferenca e kryetarëve" in low:
-        org_ids.append("AL_ORG_KonferencaKryetareve")
+        org_ids.append("AL_ORG_PARL_CHAIR")
         titles_sq.append("Konferenca e Kryetarëve")
-        titles_en.append("Conference of Chairpersons")
+        titles_en.append("Conference of Chairs")
     if "sekretariati për procedurat" in low:
-        org_ids.append("AL_ORG_SekretariatiPVE")
+        org_ids.append("AL_ORG_PARL_SECR_PVE")
         titles_sq.append("Sekretariati për Procedurat, Votimet dhe Etikën")
         titles_en.append("Secretariat for Procedures, Voting and Ethics")
     if "këshilli kombëtar i integrimit" in low:
-        org_ids.append("AL_ORG_KKIE")
+        org_ids.append("AL_ORG_PARL_COM_KKIE")
         titles_sq.append("Këshilli Kombëtar i Integrimit Evropian")
         titles_en.append("National Council for European Integration")
     if "reformën administrativo" in low:
-        org_ids.append("AL_ORG_KPRAT")
+        org_ids.append("AL_ORG_PARL_COM_PRAT")
         titles_sq.append("Komisioni i Posaçëm Parlamentar për Reformën Administrativo-Territoriale")
         titles_en.append("Special Parliamentary Committee on Administrative-Territorial Reform")
     if "çështjet ligjore" in low:
-        org_ids.append("AL_ORG_CLAP")
+        org_ids.append("AL_ORG_PARL_COM_CLAP")
         titles_sq.append("Komisioni për Çështjet Ligjore dhe Administratën Publike")
         titles_en.append("Committee on Legal Affairs and Public Administration")
     if "ekonominë, punësimin" in low or "ekonominë dhe financat" in low:
-        org_ids.append("AL_ORG_KEPF")
+        org_ids.append("AL_ORG_PARL_COM_KEPF")
         titles_sq.append("Komisioni për Ekonominë, Punësimin dhe Financat")
         titles_en.append("Committee on Economy, Employment and Finance")
     if "çështjet e brendshme" in low or "sigurisë kombëtare" in low:
-        org_ids.append("AL_ORG_KCBM")
+        org_ids.append("AL_ORG_PARL_COM_KCBM")
         titles_sq.append("Komisioni për Çështjet e Brendshme dhe të Mbrojtjes")
         titles_en.append("Committee on Internal Affairs and Defence")
     if "edukimin, shkencën" in low or "edukimin dhe mjetet" in low:
-        org_ids.append("AL_ORG_KESS")
+        org_ids.append("AL_ORG_PARL_COM_KESS")
         titles_sq.append("Komisioni për Edukimin, Shkencën dhe Sportet")
         titles_en.append("Committee on Education, Science and Sports")
     if "shëndetësinë" in low:
-        org_ids.append("AL_ORG_KSMS")
+        org_ids.append("AL_ORG_PARL_COM_KSMS")
         titles_sq.append("Komisioni për Shëndetësinë dhe Mirëqenien Sociale")
         titles_en.append("Committee on Health and Social Welfare")
     if "burimet natyrore" in low:
-        org_ids.append("AL_ORG_KBNIZHQ")
+        org_ids.append("AL_ORG_PARL_COM_BNIZ")
         titles_sq.append("Komisioni për Burimet Natyrore, Infrastrukturën dhe Zhvillimin e Qëndrueshëm")
         titles_en.append("Committee on Natural Resources, Infrastructure and Sustainable Development")
     if "bujqësinë, ushqimin" in low:
-        org_ids.append("AL_ORG_KBUZHR")
+        org_ids.append("AL_ORG_PARL_COM_BUZH")
         titles_sq.append("Komisioni për Bujqësinë, Ushqimin dhe Zhvillimin Rural")
         titles_en.append("Committee on Agriculture, Food and Rural Development")
     if "evropën dhe punët e jashtme" in low or "europën dhe punët e jashtme" in low or "politikën e jashtme" in low:
-        org_ids.append("AL_ORG_KEPJ")
+        org_ids.append("AL_ORG_PARL_COM_KEPJ")
         titles_sq.append("Komisioni për Evropën dhe Punët e Jashtme")
         titles_en.append("Committee on Europe and Foreign Affairs")
     if "të drejtat e njeriut" in low:
-        org_ids.append("AL_ORG_KDNJMIP")
+        org_ids.append("AL_ORG_PARL_COM_DNJM")
         titles_sq.append("Komisioni për të Drejtat e Njeriut dhe Mjetet e Informimit Publik")
         titles_en.append("Committee on Human Rights and Public Information Media")
     if "nismat qytetare" in low:
-        org_ids.append("AL_ORG_KNQBMI")
+        org_ids.append("AL_ORG_PARL_COM_NQBM")
         titles_sq.append("Komisioni për Nismat Qytetare, Bashkëpunimin dhe Mbikëqyrjen Institucionale")
         titles_en.append("Committee on Civic Initiatives, Cooperation and Institutional Oversight")
     if "kulturën, turizmin" in low:
-        org_ids.append("AL_ORG_KKTD")
+        org_ids.append("AL_ORG_PARL_COM_KKTD")
         titles_sq.append("Komisioni për Kulturën, Turizmin dhe Diasporën")
         titles_en.append("Committee on Culture, Tourism and Diaspora")
 
@@ -1413,7 +1910,7 @@ def map_event_header_to_org_ids(event_type_text: str) -> Tuple[List[str], str, s
         )
 
     return (
-        ["AL_ORG_Kuvendi"],
+        ["AL_ORG_PARL"],
         "parla.sitting",
         "Seancë plenare",
         "Plenary sitting",
@@ -1425,7 +1922,7 @@ def map_event_header_to_org_ids(event_type_text: str) -> Tuple[List[str], str, s
 # ---------------------------------------------------------------------------
 # Keyed by canonical person_id -> dict of verified attributes and direct affiliations
 VERIFIED_BASELINE_PERSONS: Dict[str, Dict] = {
-    # Worked Example 1 from Guide Section 2, 3, 4: Adea Pirdeni
+    # Worked Example 1 from Guide Section 2, 3, 4 & Dependencies Specification: Adea Pirdeni
     "AL_PERS_AdeaPirdeni": {
         "forename": "Adea",
         "surname": "Pirdeni",
@@ -1437,27 +1934,45 @@ VERIFIED_BASELINE_PERSONS: Dict[str, Dict] = {
         "source_locator": "Council of Ministers official biography & KQZ 2025 Tiranë annex",
         "reliability": "Verified",
         "affiliations": [
-            # Deputy Minister of Justice from September 2020 (month precision per Guide Section 4!)
+            # Ministry of Justice (AL_ORG_GOV_MJ) and Government (AL_ORG_GOV) with description 'Minister of Justice'
             {
-                "org_id": "AL_ORG_MD",
+                "org_id": "AL_ORG_GOV_MJ",
                 "role": "minister",
-                "source_role": "Zëvendësministre e Drejtësisë",
+                "description": "Minister of Justice",
+                "description_sq": "Ministre e Drejtësisë",
                 "roster_class": "cabinet",
                 "from_date": "2020-09",
                 "from_precision": "month",
                 "to_date": "",
                 "to_precision": "",
-                "role_name_sq": "Zëvendësministre e Drejtësisë",
-                "role_name_en": "Deputy Minister of Justice",
+                "role_name_sq": "Ministre e Drejtësisë",
+                "role_name_en": "Minister of Justice",
+                "source_id": "SRC_KM_BIO_PIRDENI",
+                "source_locator": "Official government biography ('Prej shtatorit 2020')",
+                "reliability": "Verified",
+            },
+            {
+                "org_id": "AL_ORG_GOV",
+                "role": "minister",
+                "description": "Minister of Justice",
+                "description_sq": "Ministre e Drejtësisë",
+                "roster_class": "cabinet",
+                "from_date": "2020-09",
+                "from_precision": "month",
+                "to_date": "",
+                "to_precision": "",
+                "role_name_sq": "Ministre e Drejtësisë",
+                "role_name_en": "Minister of Justice",
                 "source_id": "SRC_KM_BIO_PIRDENI",
                 "source_locator": "Official government biography ('Prej shtatorit 2020')",
                 "reliability": "Verified",
             },
             # Kuvendi Decision 6/2024 (15 January 2024)
             {
-                "org_id": "AL_ORG_MSHAA",
+                "org_id": "AL_ORG_GOV_MSHAA",
                 "role": "minister",
-                "source_role": "Ministre e Shtetit për Administratën Publike dhe Antikorrupsionin",
+                "description": "Minister of State for Public Administration and Anticorruption",
+                "description_sq": "Ministre e Shtetit për Administratën Publike dhe Antikorrupsionin",
                 "roster_class": "cabinet",
                 "from_date": "2024-01-15",
                 "from_precision": "day",
@@ -1471,9 +1986,10 @@ VERIFIED_BASELINE_PERSONS: Dict[str, Dict] = {
             },
             # Presidential decree of 15 September 2025
             {
-                "org_id": "AL_ORG_Qeveria",
+                "org_id": "AL_ORG_GOV",
                 "role": "minister",
-                "source_role": "Ministre e Shtetit për Administratën Publike dhe Antikorrupsionin",
+                "description": "Minister of State for Public Administration and Anticorruption",
+                "description_sq": "Ministre e Shtetit për Administratën Publike dhe Antikorrupsionin",
                 "roster_class": "cabinet",
                 "from_date": "2025-09-15",
                 "from_precision": "day",
@@ -1487,17 +2003,18 @@ VERIFIED_BASELINE_PERSONS: Dict[str, Dict] = {
             },
             # Parliamentary Group roster observation (not backdated to election day per Guide Section 2!)
             {
-                "org_id": "AL_ORG_GP_PS",
+                "org_id": "AL_ORG_PARL_GP_PS",
                 "role": "member",
-                "source_role": "Anëtare e Grupit Parlamentar PS",
+                "description": "Member of Parliamentary Group of the Socialist Party",
+                "description_sq": "Anëtare e Grupit Parlamentar të Partisë Socialiste",
                 "roster_class": "full_member",
                 "from_date": "2025-09-10",
                 "from_precision": "day",
                 "to_date": "",
                 "to_precision": "",
                 "observation_date": "2025-10-06",
-                "role_name_sq": "Anëtare e Grupit Parlamentar",
-                "role_name_en": "Member of Parliamentary Group",
+                "role_name_sq": "Anëtare e Grupit Parlamentar të Partisë Socialiste",
+                "role_name_en": "Member of Parliamentary Group of the Socialist Party",
                 "source_id": "SRC_KUV_GRUPET",
                 "source_locator": "Grupi Parlamentar PS roster",
                 "reliability": "Verified",
@@ -1516,9 +2033,10 @@ VERIFIED_BASELINE_PERSONS: Dict[str, Dict] = {
         "reliability": "Verified",
         "affiliations": [
             {
-                "org_id": "AL_ORG_KEPF",
+                "org_id": "AL_ORG_PARL_COM_KEPF",
                 "role": "head",
-                "source_role": "Kryetare",
+                "description": "Chair of the Committee on Economy, Employment and Finance",
+                "description_sq": "Kryetare e Komisionit për Ekonominë, Punësimin dhe Financat",
                 "roster_class": "leadership",
                 "from_date": "2025-09-12",
                 "from_precision": "day",
@@ -1531,16 +2049,17 @@ VERIFIED_BASELINE_PERSONS: Dict[str, Dict] = {
                 "reliability": "Verified",
             },
             {
-                "org_id": "AL_ORG_GP_PS",
+                "org_id": "AL_ORG_PARL_GP_PS",
                 "role": "member",
-                "source_role": "Anëtare (PS)",
+                "description": "Member of Parliamentary Group of the Socialist Party",
+                "description_sq": "Anëtare e Grupit Parlamentar të Partisë Socialiste",
                 "roster_class": "full_member",
                 "from_date": "2021-09-10",
                 "from_precision": "day",
                 "to_date": "",
                 "to_precision": "",
-                "role_name_sq": "Anëtare e Grupit Parlamentar",
-                "role_name_en": "Member of Parliamentary Group",
+                "role_name_sq": "Anëtare e Grupit Parlamentar të Partisë Socialiste",
+                "role_name_en": "Member of Parliamentary Group of the Socialist Party",
                 "source_id": "SRC_KUV_GRUPET",
                 "source_locator": "Grupi Parlamentar PS roster",
                 "reliability": "Verified",
@@ -1558,9 +2077,10 @@ VERIFIED_BASELINE_PERSONS: Dict[str, Dict] = {
         "reliability": "Verified",
         "affiliations": [
             {
-                "org_id": "AL_ORG_KEPF",
+                "org_id": "AL_ORG_PARL_COM_KEPF",
                 "role": "deputyHead",
-                "source_role": "Zëvendëskryetar",
+                "description": "Deputy Chair of the Committee on Economy, Employment and Finance",
+                "description_sq": "Zëvendëskryetar i Komisionit për Ekonominë, Punësimin dhe Financat",
                 "roster_class": "leadership",
                 "from_date": "2025-09-12",
                 "from_precision": "day",
@@ -1573,16 +2093,17 @@ VERIFIED_BASELINE_PERSONS: Dict[str, Dict] = {
                 "reliability": "Verified",
             },
             {
-                "org_id": "AL_ORG_GP_PS",
+                "org_id": "AL_ORG_PARL_GP_PS",
                 "role": "member",
-                "source_role": "Anëtar (PS)",
+                "description": "Member of Parliamentary Group of the Socialist Party",
+                "description_sq": "Anëtar i Grupit Parlamentar të Partisë Socialiste",
                 "roster_class": "full_member",
                 "from_date": "2021-09-10",
                 "from_precision": "day",
                 "to_date": "",
                 "to_precision": "",
-                "role_name_sq": "Anëtar i Grupit Parlamentar",
-                "role_name_en": "Member of Parliamentary Group",
+                "role_name_sq": "Anëtar i Grupit Parlamentar të Partisë Socialiste",
+                "role_name_en": "Member of Parliamentary Group of the Socialist Party",
                 "source_id": "SRC_KUV_GRUPET",
                 "source_locator": "Grupi Parlamentar PS roster",
                 "reliability": "Verified",
@@ -1599,9 +2120,10 @@ VERIFIED_BASELINE_PERSONS: Dict[str, Dict] = {
         "reliability": "Verified",
         "affiliations": [
             {
-                "org_id": "AL_ORG_KEPF",
+                "org_id": "AL_ORG_PARL_COM_KEPF",
                 "role": "deputyHead",
-                "source_role": "Zëvendëskryetar",
+                "description": "Deputy Chair of the Committee on Economy, Employment and Finance",
+                "description_sq": "Zëvendëskryetar i Komisionit për Ekonominë, Punësimin dhe Financat",
                 "roster_class": "leadership",
                 "from_date": "2025-09-12",
                 "from_precision": "day",
@@ -1614,16 +2136,17 @@ VERIFIED_BASELINE_PERSONS: Dict[str, Dict] = {
                 "reliability": "Verified",
             },
             {
-                "org_id": "AL_ORG_GP_PD",
+                "org_id": "AL_ORG_PARL_GP_PD",
                 "role": "member",
-                "source_role": "Anëtar (PD)",
+                "description": "Member of Parliamentary Group of the Democratic Party",
+                "description_sq": "Anëtar i Grupit Parlamentar të Partisë Demokratike",
                 "roster_class": "full_member",
                 "from_date": "2025-09-10",
                 "from_precision": "day",
                 "to_date": "",
                 "to_precision": "",
-                "role_name_sq": "Anëtar i Grupit Parlamentar",
-                "role_name_en": "Member of Parliamentary Group",
+                "role_name_sq": "Anëtar i Grupit Parlamentar të Partisë Demokratike",
+                "role_name_en": "Member of Parliamentary Group of the Democratic Party",
                 "source_id": "SRC_KUV_GRUPET",
                 "source_locator": "Grupi Parlamentar PD roster",
                 "reliability": "Verified",
@@ -1639,9 +2162,10 @@ VERIFIED_BASELINE_PERSONS: Dict[str, Dict] = {
         "reliability": "Verified",
         "affiliations": [
             {
-                "org_id": "AL_ORG_KEPF",
+                "org_id": "AL_ORG_PARL_COM_KEPF",
                 "role": "member",
-                "source_role": "Sekretare",
+                "description": "Secretary of the Committee on Economy, Employment and Finance",
+                "description_sq": "Sekretare e Komisionit për Ekonominë, Punësimin dhe Financat",
                 "roster_class": "leadership",
                 "from_date": "2025-09-12",
                 "from_precision": "day",
@@ -1654,16 +2178,17 @@ VERIFIED_BASELINE_PERSONS: Dict[str, Dict] = {
                 "reliability": "Verified",
             },
             {
-                "org_id": "AL_ORG_GP_PS",
+                "org_id": "AL_ORG_PARL_GP_PS",
                 "role": "member",
-                "source_role": "Anëtare (PS)",
+                "description": "Member of Parliamentary Group of the Socialist Party",
+                "description_sq": "Anëtare e Grupit Parlamentar të Partisë Socialiste",
                 "roster_class": "full_member",
                 "from_date": "2025-09-10",
                 "from_precision": "day",
                 "to_date": "",
                 "to_precision": "",
-                "role_name_sq": "Anëtare e Grupit Parlamentar",
-                "role_name_en": "Member of Parliamentary Group",
+                "role_name_sq": "Anëtare e Grupit Parlamentar të Partisë Socialiste",
+                "role_name_en": "Member of Parliamentary Group of the Socialist Party",
                 "source_id": "SRC_KUV_GRUPET",
                 "source_locator": "Grupi Parlamentar PS roster",
                 "reliability": "Verified",
@@ -1680,31 +2205,33 @@ VERIFIED_BASELINE_PERSONS: Dict[str, Dict] = {
         "reliability": "Verified",
         "affiliations": [
             {
-                "org_id": "AL_ORG_KEPF",
+                "org_id": "AL_ORG_PARL_COM_KEPF",
                 "role": "member",
-                "source_role": "Anëtare",
+                "description": "Full Member of the Committee on Economy, Employment and Finance",
+                "description_sq": "Anëtare e Komisionit për Ekonominë, Punësimin dhe Financat",
                 "roster_class": "full_member",
                 "from_date": "2025-09-12",
                 "from_precision": "day",
                 "to_date": "",
                 "to_precision": "",
-                "role_name_sq": "Anëtare e Komisionit",
-                "role_name_en": "Full Member of the Committee",
+                "role_name_sq": "Anëtare e Komisionit për Ekonominë, Punësimin dhe Financat",
+                "role_name_en": "Full Member of the Committee on Economy, Employment and Finance",
                 "source_id": "SRC_KUV_KEPF_ROSTER",
                 "source_locator": "Komisioni për Ekonominë, Punësimin dhe Financat roster",
                 "reliability": "Verified",
             },
             {
-                "org_id": "AL_ORG_GP_PS",
+                "org_id": "AL_ORG_PARL_GP_PS",
                 "role": "member",
-                "source_role": "Anëtare (PS)",
+                "description": "Member of Parliamentary Group of the Socialist Party",
+                "description_sq": "Anëtare e Grupit Parlamentar të Partisë Socialiste",
                 "roster_class": "full_member",
                 "from_date": "2021-09-10",
                 "from_precision": "day",
                 "to_date": "",
                 "to_precision": "",
-                "role_name_sq": "Anëtare e Grupit Parlamentar",
-                "role_name_en": "Member of Parliamentary Group",
+                "role_name_sq": "Anëtare e Grupit Parlamentar të Partisë Socialiste",
+                "role_name_en": "Member of Parliamentary Group of the Socialist Party",
                 "source_id": "SRC_KUV_GRUPET",
                 "source_locator": "Grupi Parlamentar PS roster",
                 "reliability": "Verified",
@@ -1720,31 +2247,33 @@ VERIFIED_BASELINE_PERSONS: Dict[str, Dict] = {
         "reliability": "Verified",
         "affiliations": [
             {
-                "org_id": "AL_ORG_KEPF",
+                "org_id": "AL_ORG_PARL_COM_KEPF",
                 "role": "member",
-                "source_role": "Anëtare zëvendësuese",
+                "description": "Substitute Member of the Committee on Economy, Employment and Finance",
+                "description_sq": "Anëtare zëvendësuese e Komisionit për Ekonominë, Punësimin dhe Financat",
                 "roster_class": "substitute",
                 "from_date": "2025-09-12",
                 "from_precision": "day",
                 "to_date": "",
                 "to_precision": "",
-                "role_name_sq": "Anëtare zëvendësuese e Komisionit",
-                "role_name_en": "Substitute Member of the Committee",
+                "role_name_sq": "Anëtare zëvendësuese e Komisionit për Ekonominë, Punësimin dhe Financat",
+                "role_name_en": "Substitute Member of the Committee on Economy, Employment and Finance",
                 "source_id": "SRC_KUV_KEPF_ROSTER",
                 "source_locator": "Komisioni për Ekonominë, Punësimin dhe Financat roster",
                 "reliability": "Verified",
             },
             {
-                "org_id": "AL_ORG_GP_PS",
+                "org_id": "AL_ORG_PARL_GP_PS",
                 "role": "member",
-                "source_role": "Anëtare (PS)",
+                "description": "Member of Parliamentary Group of the Socialist Party",
+                "description_sq": "Anëtare e Grupit Parlamentar të Partisë Socialiste",
                 "roster_class": "full_member",
                 "from_date": "2025-09-10",
                 "from_precision": "day",
                 "to_date": "",
                 "to_precision": "",
-                "role_name_sq": "Anëtare e Grupit Parlamentar",
-                "role_name_en": "Member of Parliamentary Group",
+                "role_name_sq": "Anëtare e Grupit Parlamentar të Partisë Socialiste",
+                "role_name_en": "Member of Parliamentary Group of the Socialist Party",
                 "source_id": "SRC_KUV_GRUPET",
                 "source_locator": "Grupi Parlamentar PS roster",
                 "reliability": "Verified",
@@ -1753,393 +2282,425 @@ VERIFIED_BASELINE_PERSONS: Dict[str, Dict] = {
     },
 }
 
-# Known parliamentary group memberships (GP PS, GP PD, GP PL, GP AN) and offices for MPs in Legislature XI
+# Known parliamentary group memberships, committees, ministries, local government mayors, and offices
 KNOWN_MP_GROUPS_AND_ROLES: Dict[str, List[Tuple[str, str, str, str, str]]] = {
-    # person_id -> list of (org_id, canonical_role, source_role, roster_class, from_date)
+    # person_id -> list of (org_id, canonical_role, description_sq, roster_class, from_date)
     "AL_PERS_NikoPeleshi": [
-        ("AL_ORG_Kuvendi", "head", "Kryetar i Kuvendit", "leadership", "2025-09-10"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL", "head", "Kryetar i Kuvendit", "leadership", "2025-09-10"),
+        ("AL_ORG_PARL_BUR", "head", "Kryetar i Byrosë së Kuvendit", "leadership", "2025-09-10"),
+        ("AL_ORG_PARL_CHAIR", "head", "Kryetar i Konferencës së Kryetarëve", "leadership", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_KlodianaSpahiu": [
-        ("AL_ORG_Kuvendi", "deputyHead", "Zëvendëskryetare e Kuvendit", "leadership", "2025-09-10"),
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL", "deputyHead", "Zëvendëskryetare e Kuvendit", "leadership", "2025-09-10"),
+        ("AL_ORG_PARL_BUR", "member", "Anëtare e Byrosë së Kuvendit", "leadership", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_AgronGjekmarkaj": [
-        ("AL_ORG_Kuvendi", "deputyHead", "Zëvendëskryetar i Kuvendit", "leadership", "2021-09-10"),
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL", "deputyHead", "Zëvendëskryetar i Kuvendit", "leadership", "2021-09-10"),
+        ("AL_ORG_PARL_BUR", "member", "Anëtar i Byrosë së Kuvendit", "leadership", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_TaulantBalla": [
-        ("AL_ORG_GP_PS", "head", "Kryetar i Grupit Parlamentar të Partisë Socialiste", "leadership", "2025-09-10"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PS", "head", "Kryetar i Grupit Parlamentar të Partisë Socialiste", "leadership", "2025-09-10"),
+        ("AL_ORG_PARL_CHAIR", "member", "Anëtar i Konferencës së Kryetarëve", "leadership", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_GazmentBardhi": [
-        ("AL_ORG_GP_PD", "head", "Kryetar i Grupit Parlamentar të Partisë Demokratike", "leadership", "2023-09-01"),
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PD", "head", "Kryetar i Grupit Parlamentar të Partisë Demokratike", "leadership", "2023-09-01"),
+        ("AL_ORG_PARL_CHAIR", "member", "Anëtar i Konferencës së Kryetarëve", "leadership", "2023-09-01"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_BelindKëlliçi": [
-        ("AL_ORG_GP_PD", "deputyHead", "Zëvendëskryetar i Grupit Parlamentar të Partisë Demokratike", "leadership", "2025-09-10"),
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PD", "deputyHead", "Zëvendëskryetar i Grupit Parlamentar të Partisë Demokratike", "leadership", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_FatmirMediu": [
-        ("AL_ORG_GP_AN", "head", "Kryetar i Grupit Parlamentar Aleanca për Ndryshim", "leadership", "2021-09-10"),
-        ("AL_ORG_GP_AN", "member", "Anëtar (AN)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_AN", "head", "Kryetar i Grupit Parlamentar Aleanca për Ndryshim", "leadership", "2021-09-10"),
+        ("AL_ORG_PARL_CHAIR", "member", "Anëtar i Konferencës së Kryetarëve", "leadership", "2021-09-10"),
+        ("AL_ORG_PARL_GP_AN", "member", "Anëtar i Grupit Parlamentar Aleanca për Ndryshim", "full_member", "2021-09-10"),
         ("AL_ORG_PR", "head", "Kryetar i Partisë Republikane", "leadership", "2001-01-01"),
-        ("AL_ORG_PR", "member", "Anëtar (PR)", "full_member", "2001-01-01"),
+        ("AL_ORG_PR", "member", "Anëtar i Partisë Republikane", "full_member", "2001-01-01"),
     ],
     "AL_PERS_TediBlushi": [
-        ("AL_ORG_GP_PL", "head", "Kryetar i Grupit Parlamentar Partia e Lirisë", "leadership", "2025-09-10"),
-        ("AL_ORG_GP_PL", "member", "Anëtar (PL)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PL", "head", "Kryetar i Grupit Parlamentar të Partisë së Lirisë", "leadership", "2025-09-10"),
+        ("AL_ORG_PARL_CHAIR", "member", "Anëtar i Konferencës së Kryetarëve", "leadership", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PL", "member", "Anëtar i Grupit Parlamentar të Partisë së Lirisë", "full_member", "2025-09-10"),
     ],
     "AL_PERS_ToniGogu": [
-        ("AL_ORG_MSHMP", "minister", "Ministër i Shtetit për Marrëdhëniet me Parlamentin", "cabinet", "2025-09-15"),
-        ("AL_ORG_Qeveria", "minister", "Ministër i Shtetit për Marrëdhëniet me Parlamentin", "cabinet", "2025-09-15"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_GOV_MSHMP", "minister", "Ministër i Shtetit për Marrëdhëniet me Parlamentin", "cabinet", "2025-09-15"),
+        ("AL_ORG_GOV", "minister", "Ministër i Shtetit për Marrëdhëniet me Parlamentin", "cabinet", "2025-09-15"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_UlsiManja": [
-        ("AL_ORG_CLAP", "head", "Kryetar i Komisionit për Çështjet Ligjore dhe Administratën Publike", "leadership", "2025-09-12"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_COM_CLAP", "head", "Kryetar i Komisionit për Çështjet Ligjore dhe Administratën Publike", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_DamianGjiknuri": [
-        ("AL_ORG_CLAP", "deputyHead", "Zëvendëskryetar i Komisionit për Çështjet Ligjore dhe Administratën Publike", "leadership", "2025-09-12"),
-        ("AL_ORG_KPRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_COM_CLAP", "deputyHead", "Zëvendëskryetar i Komisionit për Çështjet Ligjore dhe Administratën Publike", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_COM_PRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_OerdBylykbashi": [
-        ("AL_ORG_CLAP", "deputyHead", "Zëvendëskryetar i Komisionit për Çështjet Ligjore dhe Administratën Publike", "leadership", "2025-09-12"),
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_COM_CLAP", "deputyHead", "Zëvendëskryetar i Komisionit për Çështjet Ligjore dhe Administratën Publike", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_BledarÇuçi": [
-        ("AL_ORG_KCBM", "head", "Kryetar i Komisionit për Çështjet e Brendshme dhe të Mbrojtjes", "leadership", "2025-09-12"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_COM_KCBM", "head", "Kryetar i Komisionit për Çështjet e Brendshme dhe të Mbrojtjes", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_LuçianoBoçi": [
-        ("AL_ORG_KESS", "head", "Kryetar i Komisionit për Edukimin, Shkencën dhe Sportet", "leadership", "2025-09-12"),
-        ("AL_ORG_KPRAT", "head", "Bashkëkryetar i Komisionit të Posaçëm KPRAT", "leadership", "2025-11-11"),
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_COM_KESS", "head", "Kryetar i Komisionit për Edukimin, Shkencën dhe Sportet", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_COM_PRAT", "head", "Bashkëkryetar i Komisionit të Posaçëm KPRAT", "leadership", "2025-11-11"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_EvisKushi": [
-        ("AL_ORG_KESS", "deputyHead", "Zëvendëskryetare e Komisionit për Edukimin, Shkencën dhe Sportet", "leadership", "2025-09-12"),
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_COM_KESS", "deputyHead", "Zëvendëskryetare e Komisionit për Edukimin, Shkencën dhe Sportet", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_BardhSpahia": [
-        ("AL_ORG_KSMS", "head", "Kryetar i Komisionit për Shëndetësinë dhe Mirëqenien Sociale", "leadership", "2025-09-12"),
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_COM_KSMS", "head", "Kryetar i Komisionit për Shëndetësinë dhe Mirëqenien Sociale", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2025-09-10"),
     ],
     "AL_PERS_AnilaDenaj": [
-        ("AL_ORG_KBNIZHQ", "head", "Kryetare e Komisionit për Burimet Natyrore, Infrastrukturën dhe Zhvillimin e Qëndrueshëm", "leadership", "2025-09-12"),
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_COM_BNIZ", "head", "Kryetare e Komisionit për Burimet Natyrore, Infrastrukturën dhe Zhvillimin e Qëndrueshëm", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_BlendiHimçi": [
-        ("AL_ORG_KBNIZHQ", "deputyHead", "Zëvendëskryetar i Komisionit për Burimet Natyrore, Infrastrukturën dhe Zhvillimin e Qëndrueshëm", "leadership", "2025-09-12"),
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_COM_BNIZ", "deputyHead", "Zëvendëskryetar i Komisionit për Burimet Natyrore, Infrastrukturën dhe Zhvillimin e Qëndrueshëm", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_SECR_PVE", "member", "Anëtar i Sekretariatit për Procedurat, Votimet dhe Etikën", "full_member", "2025-09-12"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2025-09-10"),
     ],
     "AL_PERS_CenoKlosi": [
-        ("AL_ORG_KBNIZHQ", "deputyHead", "Zëvendëskryetar i Komisionit për Burimet Natyrore, Infrastrukturën dhe Zhvillimin e Qëndrueshëm", "leadership", "2025-09-12"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_COM_BNIZ", "deputyHead", "Zëvendëskryetar i Komisionit për Burimet Natyrore, Infrastrukturën dhe Zhvillimin e Qëndrueshëm", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_FadilNasufi": [
-        ("AL_ORG_KBUZHR", "head", "Kryetar i Komisionit për Bujqësinë, Ushqimin dhe Zhvillimin Rural", "leadership", "2025-09-12"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_COM_BUZH", "head", "Kryetar i Komisionit për Bujqësinë, Ushqimin dhe Zhvillimin Rural", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_BlendiKlosi": [
-        ("AL_ORG_KBUZHR", "head", "Kryetar i Komisionit për Bujqësinë, Ushqimin dhe Zhvillimin Rural", "leadership", "2025-09-12"),
-        ("AL_ORG_KPRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_COM_BUZH", "head", "Kryetar i Komisionit për Bujqësinë, Ushqimin dhe Zhvillimin Rural", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_COM_PRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_SaimirHasalla": [
-        ("AL_ORG_KBUZHR", "deputyHead", "Zëvendëskryetar i Komisionit për Bujqësinë, Ushqimin dhe Zhvillimin Rural", "leadership", "2025-09-12"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_COM_BUZH", "deputyHead", "Zëvendëskryetar i Komisionit për Bujqësinë, Ushqimin dhe Zhvillimin Rural", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_XhelalMziu": [
-        ("AL_ORG_KBUZHR", "deputyHead", "Zëvendëskryetar i Komisionit për Bujqësinë, Ushqimin dhe Zhvillimin Rural", "leadership", "2025-09-12"),
-        ("AL_ORG_KPRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_COM_BUZH", "deputyHead", "Zëvendëskryetar i Komisionit për Bujqësinë, Ushqimin dhe Zhvillimin Rural", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_COM_PRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_IgliHasani": [
-        ("AL_ORG_KEPJ", "head", "Kryetar i Komisionit për Evropën dhe Punët e Jashtme", "leadership", "2025-09-12"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_COM_KEPJ", "head", "Kryetar i Komisionit për Evropën dhe Punët e Jashtme", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_FatmirXhafaj": [
-        ("AL_ORG_KNQBMI", "head", "Kryetar i Komisionit për Nismat Qytetare, Bashkëpunimin dhe Mbikëqyrjen Institucionale", "leadership", "2025-09-12"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_COM_NQBM", "head", "Kryetar i Komisionit për Nismat Qytetare, Bashkëpunimin dhe Mbikëqyrjen Institucionale", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_ErmalElezi": [
-        ("AL_ORG_KNQBMI", "deputyHead", "Zëvendëskryetar i Komisionit për Nismat Qytetare, Bashkëpunimin dhe Mbikëqyrjen Institucionale", "leadership", "2025-09-12"),
-        ("AL_ORG_KPRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_COM_NQBM", "deputyHead", "Zëvendëskryetar i Komisionit për Nismat Qytetare, Bashkëpunimin dhe Mbikëqyrjen Institucionale", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_COM_PRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_JoridaTabaku": [
-        ("AL_ORG_KDNJMIP", "head", "Kryetare e Komisionit për të Drejtat e Njeriut dhe Mjetet e Informimit Publik", "leadership", "2025-09-12"),
-        ("AL_ORG_KPRAT", "member", "Anëtare e Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
-        ("AL_ORG_GP_PD", "member", "Anëtare (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_COM_DNJM", "head", "Kryetare e Komisionit për të Drejtat e Njeriut dhe Mjetet e Informimit Publik", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_COM_KKIE", "head", "Kryetare e Këshillit Kombëtar të Integrimit Evropian", "leadership", "2021-09-10"),
+        ("AL_ORG_PARL_COM_PRAT", "member", "Anëtare e Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtare e Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_IrisLuarasi": [
-        ("AL_ORG_KDNJMIP", "deputyHead", "Zëvendëskryetare e Komisionit për të Drejtat e Njeriut dhe Mjetet e Informimit Publik", "leadership", "2025-09-12"),
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_COM_DNJM", "deputyHead", "Zëvendëskryetare e Komisionit për të Drejtat e Njeriut dhe Mjetet e Informimit Publik", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_InaZhupa": [
-        ("AL_ORG_KKTD", "head", "Kryetare e Komisionit për Kulturën, Turizmin dhe Diasporën", "leadership", "2025-09-12"),
-        ("AL_ORG_GP_PD", "member", "Anëtare (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_COM_KKTD", "head", "Kryetare e Komisionit për Kulturën, Turizmin dhe Diasporën", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtare e Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_ErionMalaj": [
-        ("AL_ORG_KKTD", "deputyHead", "Zëvendëskryetar i Komisionit për Kulturën, Turizmin dhe Diasporën", "leadership", "2025-09-12"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_COM_KKTD", "deputyHead", "Zëvendëskryetar i Komisionit për Kulturën, Turizmin dhe Diasporën", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_ArbjanMazniku": [
-        ("AL_ORG_KPRAT", "head", "Bashkëkryetar i Komisionit të Posaçëm KPRAT", "leadership", "2025-11-11"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_COM_PRAT", "head", "Bashkëkryetar i Komisionit të Posaçëm KPRAT", "leadership", "2025-11-11"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_BlendiGonxhja": [
-        ("AL_ORG_Qeveria", "minister", "Ministër i Ekonomisë, Kulturës dhe Inovacionit", "cabinet", "2024-01-15"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_GOV_MEKI", "minister", "Ministër i Ekonomisë, Kulturës dhe Inovacionit", "cabinet", "2024-01-15"),
+        ("AL_ORG_GOV", "minister", "Ministër i Ekonomisë, Kulturës dhe Inovacionit", "cabinet", "2024-01-15"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_ErvinDemo": [
-        ("AL_ORG_MSHPV", "minister", "Ministër i Shtetit për Pushtetin Vendor", "cabinet", "2025-09-15"),
-        ("AL_ORG_Qeveria", "minister", "Ministër i Shtetit për Pushtetin Vendor", "cabinet", "2025-09-15"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_GOV_MSHPV", "minister", "Ministër i Shtetit për Pushtetin Vendor", "cabinet", "2025-09-15"),
+        ("AL_ORG_GOV", "minister", "Ministër i Shtetit për Pushtetin Vendor", "cabinet", "2025-09-15"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_DelinaIbrahimaj": [
-        ("AL_ORG_Qeveria", "minister", "Ministre e Shtetit për Sipërmarrjen dhe Klimën e Biznesit", "cabinet", "2023-09-12"),
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_GOV_MSHSKB", "minister", "Ministre e Shtetit për Sipërmarrjen dhe Klimën e Biznesit", "cabinet", "2023-09-12"),
+        ("AL_ORG_GOV", "minister", "Ministre e Shtetit për Sipërmarrjen dhe Klimën e Biznesit", "cabinet", "2023-09-12"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_BoraMuzhaqi": [
-        ("AL_ORG_Qeveria", "minister", "Ministre e Shtetit për Rininë dhe Fëmijët", "cabinet", "2021-09-18"),
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_GOV_MSHRF", "minister", "Ministre e Shtetit për Rininë dhe Fëmijët", "cabinet", "2021-09-18"),
+        ("AL_ORG_GOV", "minister", "Ministre e Shtetit për Rininë dhe Fëmijët", "cabinet", "2021-09-18"),
+        ("AL_ORG_PARL_COM_KEPJ", "deputyHead", "Zëvendëskryetare e Komisionit për Evropën dhe Punët e Jashtme", "leadership", "2025-09-12"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_PetritMalaj": [
-        ("AL_ORG_Qeveria", "minister", "Ministër i Financave", "cabinet", "2024-07-30"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_GOV_MF", "minister", "Ministër i Financave", "cabinet", "2024-07-30"),
+        ("AL_ORG_GOV", "minister", "Ministër i Financave", "cabinet", "2024-07-30"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_ErvinHoxha": [
-        ("AL_ORG_Qeveria", "minister", "Ministër i Punëve të Brendshme", "cabinet", "2024-07-30"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_GOV_MPB", "minister", "Ministër i Punëve të Brendshme", "cabinet", "2024-07-30"),
+        ("AL_ORG_GOV", "minister", "Ministër i Punëve të Brendshme", "cabinet", "2024-07-30"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_PirroVengu": [
-        ("AL_ORG_Qeveria", "minister", "Ministër i Mbrojtjes", "cabinet", "2024-07-30"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_GOV_MM", "minister", "Ministër i Mbrojtjes", "cabinet", "2024-07-30"),
+        ("AL_ORG_GOV", "minister", "Ministër i Mbrojtjes", "cabinet", "2024-07-30"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_OgertaManastirliu": [
-        ("AL_ORG_Qeveria", "minister", "Ministre e Arsimit dhe Sportit", "cabinet", "2023-09-12"),
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_GOV_MAS", "minister", "Ministre e Arsimit dhe Sportit", "cabinet", "2023-09-12"),
+        ("AL_ORG_GOV", "minister", "Ministre e Arsimit dhe Sportit", "cabinet", "2023-09-12"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_MirelaKumbaro": [
-        ("AL_ORG_Qeveria", "minister", "Ministre e Turizmit dhe Mjedisit", "cabinet", "2021-09-18"),
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_GOV_MTM", "minister", "Ministre e Turizmit dhe Mjedisit", "cabinet", "2021-09-18"),
+        ("AL_ORG_GOV", "minister", "Ministre e Turizmit dhe Mjedisit", "cabinet", "2021-09-18"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_ElisaSpiropali": [
-        ("AL_ORG_Kuvendi", "head", "Kryetare e Kuvendit", "leadership", "2024-07-30"),
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL", "head", "Kryetare e Kuvendit", "leadership", "2024-07-30"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_LinditaNikolla": [
-        ("AL_ORG_Kuvendi", "head", "Kryetare e Kuvendit", "leadership", "2021-09-10"),
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL", "head", "Kryetare e Kuvendit", "leadership", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_SaliBerisha": [
         ("AL_ORG_PD", "head", "Kryetar i Partisë Demokratike", "leadership", "2022-05-22"),
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_FlamurNoka": [
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_BujarLeskaj": [
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_TritanShehu": [
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_AlbanaVokshi": [
-        ("AL_ORG_GP_PD", "member", "Anëtare (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtare e Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_LuanBaçi": [
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_SaimirKorreshi": [
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_BledjonNallbati": [
-        ("AL_ORG_KPRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_COM_PRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_RamadanLikaj": [
-        ("AL_ORG_KPRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_COM_PRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_EldaHoti": [
-        ("AL_ORG_GP_PD", "member", "Anëtare (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtare e Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_GretaBardeli": [
-        ("AL_ORG_GP_PD", "member", "Anëtare (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtare e Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_IsufÇelaj": [
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2021-09-10"),
     ],
     "AL_PERS_KlevisBalliu": [
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2025-09-10"),
     ],
     "AL_PERS_IviKaso": [
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2025-09-10"),
     ],
     "AL_PERS_GentStrazimiri": [
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2025-09-10"),
     ],
     "AL_PERS_JozefinaTopalli": [
-        ("AL_ORG_GP_PD", "member", "Anëtare (PD)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtare e Grupit Parlamentar të Partisë Demokratike", "full_member", "2025-09-10"),
     ],
     "AL_PERS_IgliCara": [
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2025-09-10"),
     ],
     "AL_PERS_KlitiHoti": [
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2025-09-10"),
     ],
     "AL_PERS_GjinGjoni": [
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2025-09-10"),
     ],
     "AL_PERS_ArianNdoja": [
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2025-09-10"),
     ],
     "AL_PERS_ArtanLuku": [
-        ("AL_ORG_GP_PD", "member", "Anëtar (PD / PAA)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PD", "member", "Anëtar i Grupit Parlamentar të Partisë Demokratike", "full_member", "2025-09-10"),
         ("AL_ORG_PAA", "member", "Anëtar i Partisë Agrare Ambientaliste", "full_member", "2025-05-11"),
     ],
     "AL_PERS_EdmondHaxhinasto": [
-        ("AL_ORG_KPRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
-        ("AL_ORG_GP_PL", "member", "Anëtar (PL)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_COM_PRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
+        ("AL_ORG_PARL_GP_PL", "member", "Anëtar i Grupit Parlamentar të Partisë së Lirisë", "full_member", "2025-09-10"),
     ],
     "AL_PERS_ErisaXhixho": [
-        ("AL_ORG_GP_PL", "member", "Anëtare (PL)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PL", "member", "Anëtare e Grupit Parlamentar të Partisë së Lirisë", "full_member", "2021-09-10"),
     ],
     "AL_PERS_BrunildaHaxhiu": [
-        ("AL_ORG_GP_PL", "member", "Anëtare (PL)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PL", "member", "Anëtare e Grupit Parlamentar të Partisë së Lirisë", "full_member", "2025-09-10"),
     ],
     "AL_PERS_VangjelDule": [
-        ("AL_ORG_KPRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
-        ("AL_ORG_GP_AN", "member", "Anëtar i Grupit Parlamentar Aleanca për Ndryshim", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_COM_PRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
+        ("AL_ORG_PARL_GP_AN", "member", "Anëtar i Grupit Parlamentar Aleanca për Ndryshim", "full_member", "2021-09-10"),
         ("AL_ORG_PBDNJ", "head", "Kryetar i Partisë Bashkimi për të Drejtat e Njeriut", "leadership", "2002-01-01"),
-        ("AL_ORG_PBDNJ", "member", "Anëtar (PBDNJ)", "full_member", "2002-01-01"),
+        ("AL_ORG_PBDNJ", "member", "Anëtar i Partisë Bashkimi për të Drejtat e Njeriut", "full_member", "2002-01-01"),
     ],
     "AL_PERS_AgronShehaj": [
         ("AL_ORG_MUNDESIA", "head", "Kryetar i Partisë Mundësia", "leadership", "2024-06-01"),
         ("AL_ORG_MUNDESIA", "member", "Deputet i Partisë Mundësia (jashtë grupeve parlamentare)", "full_member", "2025-09-10"),
-        ("AL_ORG_Kuvendi", "member", "Deputet i Kuvendit të Shqipërisë", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL", "member", "Deputet i Kuvendit të Shqipërisë", "full_member", "2021-09-10"),
     ],
     "AL_PERS_EraldKapri": [
         ("AL_ORG_MUNDESIA", "member", "Deputet i Partisë Mundësia", "full_member", "2025-09-10"),
-        ("AL_ORG_Kuvendi", "member", "Deputet i Kuvendit të Shqipërisë", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL", "member", "Deputet i Kuvendit të Shqipërisë", "full_member", "2025-09-10"),
     ],
     "AL_PERS_RediMuçi": [
         ("AL_ORG_BASHKE", "member", "Deputet i Lëvizjes Bashkë", "full_member", "2025-09-10"),
-        ("AL_ORG_Kuvendi", "member", "Deputet i Kuvendit të Shqipërisë", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL", "member", "Deputet i Kuvendit të Shqipërisë", "full_member", "2025-09-10"),
     ],
     "AL_PERS_EndritShabani": [
         ("AL_ORG_KOAL_NISMA_SHB", "head", "Bashkëdrejtues i Koalicionit Nisma Shqipëria Bëhet", "leadership", "2025-03-01"),
-        ("AL_ORG_Kuvendi", "member", "Deputet i Kuvendit të Shqipërisë", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL", "member", "Deputet i Kuvendit të Shqipërisë", "full_member", "2025-09-10"),
     ],
     "AL_PERS_RominaKuko": [
-        ("AL_ORG_KPRAT", "member", "Anëtare e Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_COM_PRAT", "member", "Anëtare e Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_ErmalPacaj": [
-        ("AL_ORG_KPRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_COM_PRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_MarjanaKoçeku": [
-        ("AL_ORG_KPRAT", "member", "Anëtare e Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_COM_PRAT", "member", "Anëtare e Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_KlevisJahaj": [
-        ("AL_ORG_KPRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_COM_PRAT", "member", "Anëtar i Komisionit të Posaçëm KPRAT", "full_member", "2025-11-11"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_VasilLlajo": [
-        ("AL_ORG_KPRAT", "member", "Anëtar zëvendësues i Komisionit të Posaçëm KPRAT", "substitute", "2025-11-11"),
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_COM_PRAT", "member", "Anëtar zëvendësues i Komisionit të Posaçëm KPRAT", "substitute", "2025-11-11"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
+    ],
+    "AL_PERS_ArkendBalla": [
+        ("AL_ORG_PARL_SECR_PVE", "member", "Anëtar i Sekretariatit për Procedurat, Votimet dhe Etikën", "full_member", "2025-09-12"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_ArditBido": [
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_RamionKurti": [
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_EtlevaBudini": [
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_KiduinaZaka": [
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_PiroDhima": [
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_ErjonaIsmaili": [
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_GOV_MSHMP", "minister", "Ministre e Shtetit për Marrëdhëniet me Parlamentin", "cabinet", "2025-09-15"),
+        ("AL_ORG_GOV", "minister", "Ministre e Shtetit për Marrëdhëniet me Parlamentin", "cabinet", "2025-09-15"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_BlediÇomo": [
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_ErjoMile": [
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_AniDyrmishi": [
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_HysenBuzali": [
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_HatixheKonomi": [
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_BesaSpaho": [
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_SaraMila": [
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
     "AL_PERS_OltaXhaçka": [
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_KlotildaBushka": [
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_EduardShalsi": [
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_EdonaBilali": [
-        ("AL_ORG_GP_PS", "member", "Anëtare (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtare e Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_VullnetSinaj": [
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_XhemalQefalia": [
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2021-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2021-09-10"),
     ],
     "AL_PERS_AgronMalaj": [
-        ("AL_ORG_GP_PS", "member", "Anëtar (PS)", "full_member", "2025-09-10"),
+        ("AL_ORG_PARL_GP_PS", "member", "Anëtar i Grupit Parlamentar të Partisë Socialiste", "full_member", "2025-09-10"),
     ],
+    # Mayors in Local Government by County (AL_ORG_LOCGOV_<2-3 initials>, role='mayor')
     "AL_PERS_ErionIsai": [
-        ("AL_ORG_Bashkia", "head", "Kryetar i Bashkisë Kolonjë", "guest", "2019-07-01"),
+        ("AL_ORG_LOCGOV_KOR", "mayor", "Kryetar i Bashkisë Kolonjë", "guest", "2019-07-01"),
     ],
     "AL_PERS_EmirianaSako": [
-        ("AL_ORG_Bashkia", "head", "Kryetare e Bashkisë Durrës", "guest", "2020-04-01"),
+        ("AL_ORG_LOCGOV_DUR", "mayor", "Kryetare e Bashkisë Durrës", "guest", "2020-04-01"),
     ],
     "AL_PERS_GledianLlatja": [
-        ("AL_ORG_Bashkia", "head", "Kryetar i Bashkisë Elbasan", "guest", "2019-07-01"),
+        ("AL_ORG_LOCGOV_ELB", "mayor", "Kryetar i Bashkisë Elbasan", "guest", "2019-07-01"),
     ],
     "AL_PERS_EltonArbana": [
-        ("AL_ORG_Bashkia", "head", "Kryetar i Bashkisë Shijak", "guest", "2019-07-01"),
+        ("AL_ORG_LOCGOV_DUR", "mayor", "Kryetar i Bashkisë Shijak", "guest", "2019-07-01"),
     ],
     "AL_PERS_MajlindaBufi": [
-        ("AL_ORG_Bashkia", "head", "Kryetare e Bashkisë Roskovec", "guest", "2019-07-01"),
+        ("AL_ORG_LOCGOV_FIE", "mayor", "Kryetare e Bashkisë Roskovec", "guest", "2019-07-01"),
     ],
     "AL_PERS_AlbertHalilaj": [
-        ("AL_ORG_Bashkia", "head", "Kryetar i Bashkisë Kukës", "guest", "2023-10-01"),
+        ("AL_ORG_LOCGOV_KUK", "mayor", "Kryetar i Bashkisë Kukës", "guest", "2023-10-01"),
     ],
     "AL_PERS_RexhByberi": [
-        ("AL_ORG_Bashkia", "head", "Kryetar i Bashkisë Tropojë", "guest", "2019-07-01"),
+        ("AL_ORG_LOCGOV_KUK", "mayor", "Kryetar i Bashkisë Tropojë", "guest", "2019-07-01"),
     ],
     "AL_PERS_MiftarDauti": [
-        ("AL_ORG_Bashkia", "head", "Kryetar i Bashkisë Has", "guest", "2023-06-01"),
+        ("AL_ORG_LOCGOV_KUK", "mayor", "Kryetar i Bashkisë Has", "guest", "2023-06-01"),
     ],
     "AL_PERS_HilCurri": [
-        ("AL_ORG_Bashkia", "head", "Kryetar i Bashkisë Fushë-Arrëz", "guest", "2023-06-01"),
+        ("AL_ORG_LOCGOV_SHK", "mayor", "Kryetar i Bashkisë Fushë-Arrëz", "guest", "2023-06-01"),
+    ],
+    "AL_PERS_AlbertMalaj": [
+        ("AL_ORG_LOCGOV_GJI", "mayor", "Kryetar i Bashkisë Memaliaj", "guest", "2023-06-01"),
+    ],
+    "AL_PERS_FisnikQosja": [
+        ("AL_ORG_LOCGOV_TIR", "mayor", "Kryetar i Bashkisë Kavajë", "guest", "2023-06-01"),
     ],
     # Independent Institution Heads / Commissioners (Guest Speakers in Committee Hearings)
     "AL_PERS_BesnikDervishi": [
@@ -2173,7 +2734,7 @@ KNOWN_MP_GROUPS_AND_ROLES: Dict[str, List[Tuple[str, str, str, str, str]]] = {
         ("AL_ORG_ILD", "guest", "Inspektor i Lartë i Drejtësisë", "guest", "2020-01-30"),
     ],
     "AL_PERS_ErindaBalanca": [
-        ("AL_ORG_Kuvendi", "guest", "Avokate e Popullit", "guest", "2017-05-22"),
+        ("AL_ORG_AP", "guest", "Avokate e Popullit", "guest", "2017-05-22"),
     ],
     "AL_PERS_ArmelaKrasniqi": [
         ("AL_ORG_AMA", "guest", "Kryetare e Autoritetit të Mediave Audiovizive (AMA)", "guest", "2021-07-07"),
@@ -2707,7 +3268,7 @@ def apply_m1_m2_inference(
             if not gip_rel:
                 continue
 
-            # Rule M1: Infer Parliament membership in target K (AL_ORG_Kuvendi)
+            # Rule M1: Infer Parliament membership in target K (AL_ORG_PARL)
             k_id = gip_rel["passive_org_id"]
             m1_from, m1_to = intersect_intervals(
                 gp_aff.get("from_date", ""),
@@ -2721,12 +3282,16 @@ def apply_m1_m2_inference(
                 for a in p_affs
             )
             if not already_in_k:
+                r_en, r_sq = ROLE_BILINGUAL_LABELS.get("member", ("Member", "Anëtar/e"))
                 inferred_affiliations.append({
                     "assertion_id": f"AFF_INF_M1_{inf_counter:04d}",
                     "person_id": pid,
                     "org_id": k_id,
                     "role": "member",
-                    "source_role": "Deputet i Kuvendit (inferred via M1)",
+                    "role_en": r_en,
+                    "role_sq": r_sq,
+                    "description": "Member of Parliament",
+                    "description_sq": "Deputet i Kuvendit",
                     "roster_class": "full_member",
                     "from_date": m1_from,
                     "from_precision": detect_date_precision(m1_from),
@@ -2765,12 +3330,16 @@ def apply_m1_m2_inference(
                     for a in p_affs
                 )
                 if not already_in_party:
+                    r_en, r_sq = ROLE_BILINGUAL_LABELS.get("member", ("Member", "Anëtar/e"))
                     inferred_affiliations.append({
                         "assertion_id": f"AFF_INF_M2_{inf_counter:04d}",
                         "person_id": pid,
                         "org_id": q_id,
                         "role": "member",
-                        "source_role": f"Anëtar partie (inferred via M2 from {g_id})",
+                        "role_en": r_en,
+                        "role_sq": r_sq,
+                        "description": "Member of Political Party",
+                        "description_sq": "Anëtar i Partisë Politike",
                         "roster_class": "full_member",
                         "from_date": m2_from,
                         "from_precision": detect_date_precision(m2_from),
@@ -3260,16 +3829,153 @@ def reconstruct_all_metadata(
     direct_affiliations: List[Dict[str, str]] = []
     aff_counter = 1
     seen_direct_keys: Set[Tuple[str, str, str, str]] = set()
+    org_lookup_by_id: Dict[str, Dict[str, str]] = {o["org_id"]: o for o in CANONICAL_ORGS}
+
+    def _translate_description_to_en(desc_sq: str, role: str, org_id: str) -> str:
+        low = (desc_sq or "").strip().lower()
+        o_info = org_lookup_by_id.get(org_id, {})
+        o_name_en = o_info.get("name_en", org_id)
+
+        if "ministër i drejtësisë" in low or "ministre e drejtësisë" in low:
+            return "Minister of Justice"
+        if "zëvendësministre e drejtësisë" in low or "zëvendësministër i drejtësisë" in low:
+            return "Deputy Minister of Justice"
+        if "administratën publike dhe antikorrupsionin" in low:
+            return "Minister of State for Public Administration and Anticorruption"
+        if "marrëdhëniet me parlamentin" in low:
+            return "Minister of State for Relations with Parliament"
+        if "pushtetin vendor" in low and "minist" in low:
+            return "Minister of State for Local Government"
+        if "sipërmarrjen dhe klimën e biznesit" in low:
+            return "Minister of State for Entrepreneurship and Business Climate"
+        if "rininë dhe fëmijët" in low:
+            return "Minister of State for Youth and Children"
+        if "ekonomisë, kulturës dhe inovacionit" in low and "minist" in low:
+            return "Minister of Economy, Culture and Innovation"
+        if "financave" in low and ("ministër" in low or "ministre" in low) and "zëvendës" not in low:
+            return "Minister of Finance"
+        if "punëve të brendshme" in low and ("ministër" in low or "ministre" in low) and "zëvendës" not in low:
+            return "Minister of Internal Affairs"
+        if "mbrojtjes" in low and ("ministër" in low or "ministre" in low) and "zëvendës" not in low:
+            return "Minister of Defence"
+        if "arsimit dhe sportit" in low and ("ministër" in low or "ministre" in low) and "zëvendës" not in low:
+            return "Minister of Education and Sports"
+        if "turizmit dhe mjedisit" in low and ("ministër" in low or "ministre" in low) and "zëvendës" not in low:
+            return "Minister of Tourism and Environment"
+        if "bujqësisë dhe zhvillimit rural" in low and ("ministër" in low or "ministre" in low) and "zëvendës" not in low:
+            return "Minister of Agriculture and Rural Development"
+        if "zëvendësminist" in low:
+            return f"Deputy Minister ({o_name_en})"
+        if role == "mayor" or "kryetar i bashkisë" in low or "kryetare e bashkisë" in low:
+            m_b = re.search(r"bashkisë\s+(?:së\s+)?([A-ZÇËa-zçë\-]+)", desc_sq, flags=re.I)
+            city = m_b.group(1) if m_b else o_name_en
+            return f"Mayor of {city} Municipality"
+        if role == "head":
+            if org_id == "AL_ORG_PARL":
+                return "Speaker of the Parliament"
+            if " bashkëkryetar" in f" {low}":
+                return f"Co-Chair of {o_name_en}"
+            return f"Chair of {o_name_en}"
+        if role == "deputyHead":
+            if org_id == "AL_ORG_PARL":
+                return "Deputy Speaker of the Parliament"
+            return f"Deputy Chair of {o_name_en}"
+        if "sekretar" in low and "_com_" in org_id.lower():
+            return f"Secretary of {o_name_en}"
+        if "zëvendësues" in low and "_com_" in org_id.lower():
+            return f"Substitute Member of {o_name_en}"
+        if role == "member":
+            if org_id == "AL_ORG_PARL":
+                return "Member of Parliament"
+            return f"Member of {o_name_en}"
+        if role == "minister":
+            return f"Minister ({o_name_en})"
+        if "avokat" in low and "popullit" in low:
+            return "People's Advocate (Ombudsman)"
+        if "guvernator" in low:
+            return "Governor of the Bank of Albania"
+        if "prokuror i përgjithshëm" in low:
+            return "Prosecutor General"
+        if "inspektor i lartë i drejtësisë" in low:
+            return "High Justice Inspector"
+        if "komisioner shtetëror i zgjedhjeve" in low:
+            return "State Election Commissioner"
+        if "komisioner" in low:
+            return f"Commissioner ({o_name_en})"
+        return f"Representative / Official ({o_name_en})"
+
+    def _infer_ministry_org_id_from_title(raw_title: str) -> str:
+        low = (raw_title or "").lower()
+        if "drejtësisë" in low:
+            return "AL_ORG_GOV_MJ"
+        if "administratën publike" in low or "antikorrupsion" in low:
+            return "AL_ORG_GOV_MSHAA"
+        if "marrëdhëniet me parlamentin" in low:
+            return "AL_ORG_GOV_MSHMP"
+        if "pushtetin vendor" in low:
+            return "AL_ORG_GOV_MSHPV"
+        if "financave" in low:
+            return "AL_ORG_GOV_MF"
+        if "ekonomisë" in low or "inovacionit" in low:
+            return "AL_ORG_GOV_MEKI"
+        if "infrastrukturës" in low or "energji" in low:
+            return "AL_ORG_GOV_MIE"
+        if "bujqësisë" in low or "zhvillimit rural" in low:
+            return "AL_ORG_GOV_MBZHR"
+        if "shëndetësisë" in low or "mirëqenies sociale" in low:
+            return "AL_ORG_GOV_MSHMS"
+        if "arsimit" in low:
+            return "AL_ORG_GOV_MAS"
+        if "punëve të brendshme" in low or "brendshëm" in low:
+            return "AL_ORG_GOV_MPB"
+        if "mbrojtjes" in low:
+            return "AL_ORG_GOV_MM"
+        if "evropën" in low or "europën" in low or "punët e jashtme" in low:
+            return "AL_ORG_GOV_MEPJ"
+        if "turizmit" in low or "mjedisit" in low:
+            return "AL_ORG_GOV_MTM"
+        if "sipërmarrjen" in low:
+            return "AL_ORG_GOV_MSHSKB"
+        if "rininë" in low:
+            return "AL_ORG_GOV_MSHRF"
+        return "AL_ORG_GOV"
+
+    def _infer_locgov_org_id_from_title(raw_title: str) -> str:
+        low = (raw_title or "").lower()
+        if any(k in low for k in ("durrës", "shijak", "krujë")):
+            return "AL_ORG_LOCGOV_DUR"
+        if any(k in low for k in ("elbasan", "librazhd", "peqin", "gramsh", "cërrik", "belsh", "prrenjas")):
+            return "AL_ORG_LOCGOV_ELB"
+        if any(k in low for k in ("fier", "roskovec", "lushnj", "patos", "divjak", "mallakastër")):
+            return "AL_ORG_LOCGOV_FIE"
+        if any(k in low for k in ("korç", "kolonj", "pogradec", "devoll", "maliq", "pustec")):
+            return "AL_ORG_LOCGOV_KOR"
+        if any(k in low for k in ("kukës", "tropoj", "has")):
+            return "AL_ORG_LOCGOV_KUK"
+        if any(k in low for k in ("shkod", "fushë-arrëz", "malësi e madhe", "vau i dejës", "pukë")):
+            return "AL_ORG_LOCGOV_SHK"
+        if any(k in low for k in ("gjirokast", "memaliaj", "tepel", "përmet", "këlcyr", "dropull", "libohov")):
+            return "AL_ORG_LOCGOV_GJI"
+        if any(k in low for k in ("berat", "kuçov", "skrapar", "poliçan", "urë vajgurore", "dimal")):
+            return "AL_ORG_LOCGOV_BER"
+        if any(k in low for k in ("dibër", "bulqiz", "mat", "klos")):
+            return "AL_ORG_LOCGOV_DIB"
+        if any(k in low for k in ("lezh", "mirdit", "kurbin")):
+            return "AL_ORG_LOCGOV_LEZ"
+        if any(k in low for k in ("vlor", "sarand", "himar", "delvin", "konispol", "selenic", "finiq")):
+            return "AL_ORG_LOCGOV_VLO"
+        return "AL_ORG_LOCGOV_TIR"
 
     def _add_direct_aff(
         person_id: str,
         org_id: str,
         role: str,
-        source_role: str,
+        description_sq: str,
         roster_class: str,
         from_date: str,
         to_date: str = "",
         observation_date: str = "",
+        description: str = "",
         role_name_sq: str = "",
         role_name_en: str = "",
         source_id: str = "SRC_KUV_STRUKTURA",
@@ -3281,20 +3987,28 @@ def reconstruct_all_metadata(
         if key in seen_direct_keys:
             return
         seen_direct_keys.add(key)
+        r_en, r_sq = ROLE_BILINGUAL_LABELS.get(role, (role.title(), role))
+        desc_sq_clean = (description_sq or role_name_sq or r_sq).strip()
+        desc_en_clean = (description or role_name_en or _translate_description_to_en(desc_sq_clean, role, org_id)).strip()
+        rname_sq_clean = (role_name_sq or desc_sq_clean).strip()
+        rname_en_clean = (role_name_en or desc_en_clean).strip()
         direct_affiliations.append({
             "assertion_id": f"AFF_DIR_{aff_counter:04d}",
             "person_id": person_id,
             "org_id": org_id,
             "role": role,
-            "source_role": source_role,
+            "role_en": r_en,
+            "role_sq": r_sq,
+            "description": desc_en_clean,
+            "description_sq": desc_sq_clean,
             "roster_class": roster_class,
             "from_date": from_date,
             "from_precision": detect_date_precision(from_date),
             "to_date": to_date,
             "to_precision": detect_date_precision(to_date),
             "observation_date": observation_date,
-            "role_name_sq": role_name_sq,
-            "role_name_en": role_name_en,
+            "role_name_sq": rname_sq_clean,
+            "role_name_en": rname_en_clean,
             "basis": "direct",
             "rule_version": "",
             "input_assertion_ids": "",
@@ -3313,7 +4027,8 @@ def reconstruct_all_metadata(
                 person_id=pid,
                 org_id=a["org_id"],
                 role=a["role"],
-                source_role=a["source_role"],
+                description_sq=a.get("description_sq") or a.get("source_role") or a.get("role_name_sq", ""),
+                description=a.get("description") or a.get("role_name_en", ""),
                 roster_class=a["roster_class"],
                 from_date=a["from_date"],
                 to_date=a.get("to_date", ""),
@@ -3332,7 +4047,7 @@ def reconstruct_all_metadata(
                 person_id=pid,
                 org_id=org_id,
                 role=crole,
-                source_role=srole,
+                description_sq=srole,
                 roster_class=rclass,
                 from_date=fdate,
                 source_id="SRC_KUV_GRUPET" if "GP_" in org_id else "SRC_KUV_STRUKTURA",
@@ -3347,33 +4062,60 @@ def reconstruct_all_metadata(
             continue
         low_t = raw_title.lower()
         if "zëvendësminist" in low_t or "minist" in low_t:
+            min_oid = _infer_ministry_org_id_from_title(raw_title)
+            is_cab_min = ("ministër" in low_t or "ministre" in low_t or "ministri" in low_t) and "zëvendës" not in low_t and "këshilltar" not in low_t and "drejtor" not in low_t and "përfaqësues" not in low_t and "sekretar" not in low_t and "specialist" not in low_t and "përgjegjës" not in low_t
+            role_val = "minister" if ("zëvendësminist" in low_t or is_cab_min) else "guest"
+            desc_en_val = _translate_description_to_en(raw_title, role_val, min_oid)
             _add_direct_aff(
                 person_id=pid,
-                org_id="AL_ORG_Qeveria",
-                role="minister",
-                source_role=raw_title,
-                roster_class="cabinet",
+                org_id=min_oid,
+                role=role_val,
+                description_sq=raw_title,
+                description=desc_en_val,
+                roster_class="cabinet" if role_val == "minister" else "guest",
                 from_date=obs_date,
                 to_date=obs_date,
                 observation_date=obs_date,
                 role_name_sq=raw_title,
-                role_name_en="Ministry / Government Representative",
+                role_name_en=desc_en_val,
                 source_id=src_id,
                 source_locator=f"Transcript header observation on {obs_date}",
                 reliability="Verified",
             )
+            if role_val == "minister" and min_oid != "AL_ORG_GOV":
+                _add_direct_aff(
+                    person_id=pid,
+                    org_id="AL_ORG_GOV",
+                    role="minister",
+                    description_sq=raw_title,
+                    description=desc_en_val,
+                    roster_class="cabinet",
+                    from_date=obs_date,
+                    to_date=obs_date,
+                    observation_date=obs_date,
+                    role_name_sq=raw_title,
+                    role_name_en=desc_en_val,
+                    source_id=src_id,
+                    source_locator=f"Transcript header observation on {obs_date}",
+                    reliability="Verified",
+                )
         elif "bashki" in low_t or "qark" in low_t or "prefekt" in low_t:
+            loc_oid = _infer_locgov_org_id_from_title(raw_title)
+            is_mayor = "kryetar i bashkisë" in low_t or "kryetare e bashkisë" in low_t
+            role_val = "mayor" if is_mayor else "guest"
+            desc_en_val = _translate_description_to_en(raw_title, role_val, loc_oid)
             _add_direct_aff(
                 person_id=pid,
-                org_id="AL_ORG_Bashkia",
-                role="guest",
-                source_role=raw_title,
+                org_id=loc_oid,
+                role=role_val,
+                description_sq=raw_title,
+                description=desc_en_val,
                 roster_class="guest",
                 from_date=obs_date,
                 to_date=obs_date,
                 observation_date=obs_date,
                 role_name_sq=raw_title,
-                role_name_en="Local Government Representative",
+                role_name_en=desc_en_val,
                 source_id=src_id,
                 source_locator=f"Transcript header observation on {obs_date}",
                 reliability="Verified",
@@ -3381,9 +4123,10 @@ def reconstruct_all_metadata(
         elif "deputet" in low_t or "komisionit" in low_t:
             _add_direct_aff(
                 person_id=pid,
-                org_id="AL_ORG_Kuvendi",
+                org_id="AL_ORG_PARL",
                 role="member",
-                source_role=raw_title,
+                description_sq=raw_title,
+                description="Member of Parliament",
                 roster_class="full_member",
                 from_date=obs_date,
                 to_date="",
@@ -3397,9 +4140,10 @@ def reconstruct_all_metadata(
         else:
             _add_direct_aff(
                 person_id=pid,
-                org_id="AL_ORG_Kuvendi",
+                org_id="AL_ORG_PARL",
                 role="guest",
-                source_role=raw_title,
+                description_sq=raw_title,
+                description="Invited Guest / Institutional Representative",
                 roster_class="guest",
                 from_date=obs_date,
                 to_date=obs_date,
@@ -3661,6 +4405,69 @@ def reconstruct_all_metadata(
         },
     ]
 
+    # Enrich CANONICAL_ORGS with bilingual org_type_en, org_type_sq, and remit_sq
+    for o in CANONICAL_ORGS:
+        ot = o.get("org_type", "")
+        t_en, t_sq = ORG_TYPE_LABELS.get(ot, (ot, ot))
+        o["org_type_en"] = t_en
+        o["org_type_sq"] = t_sq
+        if not o.get("remit_sq"):
+            if ot == "politicalParty":
+                o["remit_sq"] = "Parti politike e regjistruar në Republikën e Shqipërisë"
+            elif ot == "electoralCoalition":
+                o["remit_sq"] = "Koalicion zgjedhor i regjistruar në zgjedhjet parlamentare 2025"
+            elif ot == "independentInstitution":
+                o["remit_sq"] = f"Institucion i pavarur ({o.get('name_full', '')})"
+            else:
+                o["remit_sq"] = o.get("name_full", "")
+
+    # Enrich all_participants with org_id, role, role_en, role_sq, description, description_sq
+    person_primary_org: Dict[str, Tuple[str, str, str, str]] = {}
+    for a in all_affiliations:
+        pid = a["person_id"]
+        if pid not in person_primary_org or a["org_id"].startswith(("AL_ORG_GOV", "AL_ORG_LOCGOV_", "AL_ORG_PARL_COM_", "AL_ORG_PARL_GP_")):
+            person_primary_org[pid] = (a["org_id"], a["role"], a.get("description", ""), a.get("description_sq", ""))
+
+    doc_primary_org: Dict[str, str] = {
+        d["doc_id"]: (d.get("body_org_ids") or "AL_ORG_PARL").split(";")[0]
+        for d in documents_rows
+    }
+
+    for part in all_participants:
+        pid = part["person_id"]
+        raw_t = (part.get("org_or_title_raw") or "").strip()
+        ev_role = part.get("role_in_event", "member")
+        low_t = raw_t.lower()
+        if raw_t and ("minist" in low_t or "zëvendësminist" in low_t):
+            p_oid = _infer_ministry_org_id_from_title(raw_t)
+            is_cab = ("ministër" in low_t or "ministre" in low_t or "ministri" in low_t) and "zëvendës" not in low_t and "këshilltar" not in low_t and "drejtor" not in low_t and "përfaqësues" not in low_t and "sekretar" not in low_t and "specialist" not in low_t and "përgjegjës" not in low_t
+            p_role = "minister" if ("zëvendësminist" in low_t or is_cab) else "guest"
+            p_desc_sq = raw_t
+            p_desc_en = _translate_description_to_en(raw_t, p_role, p_oid)
+        elif raw_t and ("bashki" in low_t or "qark" in low_t or "prefekt" in low_t):
+            p_oid = _infer_locgov_org_id_from_title(raw_t)
+            p_role = "mayor" if ("kryetar i bashkisë" in low_t or "kryetare e bashkisë" in low_t) else "guest"
+            p_desc_sq = raw_t
+            p_desc_en = _translate_description_to_en(raw_t, p_role, p_oid)
+        elif pid in person_primary_org:
+            p_oid, p_role, p_desc_en, p_desc_sq = person_primary_org[pid]
+            if raw_t:
+                p_desc_sq = raw_t
+                p_desc_en = _translate_description_to_en(raw_t, p_role, p_oid)
+        else:
+            p_oid = doc_primary_org.get(part["doc_id"], "AL_ORG_PARL")
+            p_role = ev_role
+            p_desc_sq = raw_t or ROLE_BILINGUAL_LABELS.get(p_role, (p_role, p_role))[1]
+            p_desc_en = _translate_description_to_en(p_desc_sq, p_role, p_oid) if raw_t else ROLE_BILINGUAL_LABELS.get(p_role, (p_role, p_role))[0]
+
+        r_en, r_sq = ROLE_BILINGUAL_LABELS.get(p_role, (p_role.title(), p_role))
+        part["org_id"] = p_oid
+        part["role"] = p_role
+        part["role_en"] = r_en
+        part["role_sq"] = r_sq
+        part["description"] = p_desc_en
+        part["description_sq"] = p_desc_sq
+
     # 9. Build Review Queue Table (Section 5: audit trail of resolved aliases + pending cases)
     review_queue_rows: List[Dict[str, str]] = list(m_review_cases)
     rq_idx = len(review_queue_rows) + 1
@@ -3670,16 +4477,16 @@ def reconstruct_all_metadata(
         "entity_type": "affiliation",
         "field": "org_id",
         "raw_value": "Kryetar i Grupit Parlamentar PS",
-        "candidate_value_or_id": "AL_ORG_GP_PS",
+        "candidate_value_or_id": "AL_ORG_PARL_GP_PS",
         "source_id": "SRC_KUV_GRUPET",
         "source_locator": "Procesverbal 2025-10-17 Marrin pjesë",
         "reason": "ambiguous match",
         "reliability": "Verified",
         "review_status": "confirmed",
-        "confirmed_value_or_id": "AL_ORG_GP_PS",
+        "confirmed_value_or_id": "AL_ORG_PARL_GP_PS",
         "reviewer": "ParlaMint-AL",
         "reviewed_at": RETRIEVAL_TIMESTAMP,
-        "review_note": "Confirmed chairship applies to Parliamentary Group (AL_ORG_GP_PS), not the political party (AL_ORG_PS).",
+        "review_note": "Confirmed chairship applies to Parliamentary Group (AL_ORG_PARL_GP_PS), not the political party (AL_ORG_PS).",
     })
     rq_idx += 1
 
@@ -3727,7 +4534,11 @@ def reconstruct_all_metadata(
     )
     _write_csv(
         meta_p / "orgs.csv",
-        ["org_id", "org_type", "name_short", "name_full", "name_en", "orientation", "parent_org_id", "remit", "country", "source_id", "source_locator", "review_status", "reliability"],
+        [
+            "org_id", "org_type", "org_type_en", "org_type_sq", "name_short", "name_full", "name_en",
+            "orientation", "parent_org_id", "remit", "remit_sq", "country", "source_id",
+            "source_locator", "review_status", "reliability",
+        ],
         CANONICAL_ORGS,
     )
     _write_csv(
@@ -3742,10 +4553,11 @@ def reconstruct_all_metadata(
     _write_csv(
         meta_p / "affiliations.csv",
         [
-            "assertion_id", "person_id", "org_id", "role", "source_role", "roster_class",
-            "from_date", "from_precision", "to_date", "to_precision", "observation_date",
-            "role_name_sq", "role_name_en", "basis", "rule_version", "input_assertion_ids",
-            "source_id", "source_locator", "review_status", "value_state", "reliability",
+            "assertion_id", "person_id", "org_id", "role", "role_en", "role_sq", "description",
+            "description_sq", "roster_class", "from_date", "from_precision", "to_date",
+            "to_precision", "observation_date", "role_name_sq", "role_name_en", "basis",
+            "rule_version", "input_assertion_ids", "source_id", "source_locator",
+            "review_status", "value_state", "reliability",
         ],
         all_affiliations,
     )
@@ -3771,8 +4583,9 @@ def reconstruct_all_metadata(
     _write_csv(
         meta_p / "participants.csv",
         [
-            "participation_id", "doc_id", "date", "person_id", "raw_name", "role_in_event",
-            "attendance_status", "org_or_title_raw", "spoke_in_event", "source_id", "source_locator", "reliability",
+            "participation_id", "doc_id", "date", "person_id", "org_id", "raw_name", "role_in_event",
+            "role", "role_en", "role_sq", "description", "description_sq", "attendance_status",
+            "org_or_title_raw", "spoke_in_event", "source_id", "source_locator", "reliability",
         ],
         all_participants,
     )

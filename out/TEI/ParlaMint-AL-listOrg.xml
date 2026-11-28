@@ -1,2 +1,551 @@
 <?xml version='1.0' encoding='utf-8'?>
-<listOrg xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL-listOrg" xml:lang="sq"><org xml:id="AL_ORG_AMA" role="independentInstitution"><orgName full="yes" xml:lang="sq">Autoriteti i Mediave Audiovizive</orgName><orgName full="yes" xml:lang="en">Audiovisual Media Authority</orgName><orgName full="abb">AMA</orgName></org><org xml:id="AL_ORG_BASHKE" role="politicalParty" ana="#orientation.left"><orgName full="yes" xml:lang="sq">Lëvizja Bashkë</orgName><orgName full="yes" xml:lang="en">Together Movement</orgName><orgName full="abb">BASHKË</orgName></org><org xml:id="AL_ORG_BSH" role="independentInstitution"><orgName full="yes" xml:lang="sq">Banka e Shqipërisë</orgName><orgName full="yes" xml:lang="en">Bank of Albania</orgName><orgName full="abb">BSH</orgName></org><org xml:id="AL_ORG_Bashkia" role="localGovernment"><orgName full="yes" xml:lang="sq">Bashkitë dhe Këshillat e Qarqeve të Republikës së Shqipërisë</orgName><orgName full="yes" xml:lang="en">Municipalities and Regional Councils of the Republic of Albania</orgName><orgName full="abb">Pushteti Vendor</orgName></org><org xml:id="AL_ORG_Byroja" role="parliamentaryBody"><orgName full="yes" xml:lang="sq">Byroja e Kuvendit</orgName><orgName full="yes" xml:lang="en">Bureau of the Parliament</orgName><orgName full="abb">Byroja</orgName><listRelation><relation name="subpart" active="#AL_ORG_Byroja" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_CLAP" role="committee"><orgName full="yes" xml:lang="sq">Komisioni për Çështjet Ligjore dhe Administratën Publike</orgName><orgName full="yes" xml:lang="en">Committee on Legal Affairs and Public Administration</orgName><orgName full="abb">CLAP</orgName><listRelation><relation name="subpart" active="#AL_ORG_CLAP" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_ERE" role="independentInstitution"><orgName full="yes" xml:lang="sq">Enti Rregullator i Energjisë</orgName><orgName full="yes" xml:lang="en">Energy Regulatory Authority</orgName><orgName full="abb">ERE</orgName></org><org xml:id="AL_ORG_ERRU" role="independentInstitution"><orgName full="yes" xml:lang="sq">Enti Rregullator i Ujit</orgName><orgName full="yes" xml:lang="en">Water Regulatory Authority</orgName><orgName full="abb">ERRU</orgName></org><org xml:id="AL_ORG_FRD" role="politicalParty" ana="#orientation.centre-right"><orgName full="yes" xml:lang="sq">Fryma e Re Demokratike</orgName><orgName full="yes" xml:lang="en">New Democratic Spirit</orgName><orgName full="abb">FRD</orgName></org><org xml:id="AL_ORG_GP_AN" role="parliamentaryGroup" ana="#orientation.centre-right"><orgName full="yes" xml:lang="sq">Grupi Parlamentar “Aleanca për Ndryshim”</orgName><orgName full="yes" xml:lang="en">Parliamentary Group 'Alliance for Change'</orgName><orgName full="abb">GP AN</orgName><listRelation><relation name="subpart" active="#AL_ORG_GP_AN" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_GP_PD" role="parliamentaryGroup" ana="#orientation.centre-right"><orgName full="yes" xml:lang="sq">Grupi Parlamentar i Partisë Demokratike</orgName><orgName full="yes" xml:lang="en">Parliamentary Group of the Democratic Party</orgName><orgName full="abb">GP PD</orgName><listRelation><relation name="subpart" active="#AL_ORG_GP_PD" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_GP_PL" role="parliamentaryGroup" ana="#orientation.centre-left"><orgName full="yes" xml:lang="sq">Grupi Parlamentar i Partisë së Lirisë</orgName><orgName full="yes" xml:lang="en">Parliamentary Group of the Freedom Party</orgName><orgName full="abb">GP PL</orgName><listRelation><relation name="subpart" active="#AL_ORG_GP_PL" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_GP_PS" role="parliamentaryGroup" ana="#orientation.centre-left"><orgName full="yes" xml:lang="sq">Grupi Parlamentar i Partisë Socialiste</orgName><orgName full="yes" xml:lang="en">Parliamentary Group of the Socialist Party</orgName><orgName full="abb">GP PS</orgName><listRelation><relation name="subpart" active="#AL_ORG_GP_PS" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_ILD" role="independentInstitution"><orgName full="yes" xml:lang="sq">Inspektori i Lartë i Drejtësisë</orgName><orgName full="yes" xml:lang="en">High Justice Inspector</orgName><orgName full="abb">ILD</orgName></org><org xml:id="AL_ORG_ILDKPK" role="independentInstitution"><orgName full="yes" xml:lang="sq">Inspektorati i Lartë i Deklarimit dhe Kontrollit të Pasurive dhe Konfliktit të Interesave</orgName><orgName full="yes" xml:lang="en">High Inspectorate of Declaration and Audit of Assets and Conflicts of Interest</orgName><orgName full="abb">ILDKPKI</orgName></org><org xml:id="AL_ORG_INSTAT" role="independentInstitution"><orgName full="yes" xml:lang="sq">Instituti i Statistikave</orgName><orgName full="yes" xml:lang="en">Institute of Statistics</orgName><orgName full="abb">INSTAT</orgName></org><org xml:id="AL_ORG_KBNIZHQ" role="committee"><orgName full="yes" xml:lang="sq">Komisioni për Burimet Natyrore, Infrastrukturën dhe Zhvillimin e Qëndrueshëm</orgName><orgName full="yes" xml:lang="en">Committee on Natural Resources, Infrastructure and Sustainable Development</orgName><orgName full="abb">KBNIZHQ</orgName><listRelation><relation name="subpart" active="#AL_ORG_KBNIZHQ" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_KBUZHR" role="committee"><orgName full="yes" xml:lang="sq">Komisioni për Bujqësinë, Ushqimin dhe Zhvillimin Rural</orgName><orgName full="yes" xml:lang="en">Committee on Agriculture, Food and Rural Development</orgName><orgName full="abb">KBUZHR</orgName><listRelation><relation name="subpart" active="#AL_ORG_KBUZHR" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_KCBM" role="committee"><orgName full="yes" xml:lang="sq">Komisioni për Çështjet e Brendshme dhe të Mbrojtjes</orgName><orgName full="yes" xml:lang="en">Committee on Internal Affairs and Defence</orgName><orgName full="abb">KÇBM</orgName><listRelation><relation name="subpart" active="#AL_ORG_KCBM" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_KDIMDP" role="independentInstitution"><orgName full="yes" xml:lang="sq">Komisioneri për të Drejtën e Informimit dhe Mbrojtjen e të Dhënave Personale</orgName><orgName full="yes" xml:lang="en">Information and Data Protection Commissioner</orgName><orgName full="abb">KDIMDP</orgName></org><org xml:id="AL_ORG_KDNJMIP" role="committee"><orgName full="yes" xml:lang="sq">Komisioni për të Drejtat e Njeriut dhe Mjetet e Informimit Publik</orgName><orgName full="yes" xml:lang="en">Committee on Human Rights and Public Information Media</orgName><orgName full="abb">KDNJMIP</orgName><listRelation><relation name="subpart" active="#AL_ORG_KDNJMIP" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_KEPF" role="committee"><orgName full="yes" xml:lang="sq">Komisioni për Ekonominë, Punësimin dhe Financat</orgName><orgName full="yes" xml:lang="en">Committee on Economy, Employment and Finance</orgName><orgName full="abb">KEPF</orgName><listRelation><relation name="subpart" active="#AL_ORG_KEPF" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_KEPJ" role="committee"><orgName full="yes" xml:lang="sq">Komisioni për Evropën dhe Punët e Jashtme</orgName><orgName full="yes" xml:lang="en">Committee on Europe and Foreign Affairs</orgName><orgName full="abb">KEPJ</orgName><listRelation><relation name="subpart" active="#AL_ORG_KEPJ" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_KESS" role="committee"><orgName full="yes" xml:lang="sq">Komisioni për Edukimin, Shkencën dhe Sportet</orgName><orgName full="yes" xml:lang="en">Committee on Education, Science and Sports</orgName><orgName full="abb">KESS</orgName><listRelation><relation name="subpart" active="#AL_ORG_KESS" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_KKIE" role="committee"><orgName full="yes" xml:lang="sq">Këshilli Kombëtar i Integrimit Evropian</orgName><orgName full="yes" xml:lang="en">National Council for European Integration</orgName><orgName full="abb">KKIE</orgName><listRelation><relation name="subpart" active="#AL_ORG_KKIE" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_KKTD" role="committee"><orgName full="yes" xml:lang="sq">Komisioni për Kulturën, Turizmin dhe Diasporën</orgName><orgName full="yes" xml:lang="en">Committee on Culture, Tourism and Diaspora</orgName><orgName full="abb">KKTD</orgName><listRelation><relation name="subpart" active="#AL_ORG_KKTD" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_KLGJ" role="independentInstitution"><orgName full="yes" xml:lang="sq">Këshilli i Lartë Gjyqësor</orgName><orgName full="yes" xml:lang="en">High Judicial Council</orgName><orgName full="abb">KLGJ</orgName></org><org xml:id="AL_ORG_KLP" role="independentInstitution"><orgName full="yes" xml:lang="sq">Këshilli i Lartë i Prokurorisë</orgName><orgName full="yes" xml:lang="en">High Prosecutorial Council</orgName><orgName full="abb">KLP</orgName></org><org xml:id="AL_ORG_KLSH" role="independentInstitution"><orgName full="yes" xml:lang="sq">Kontrolli i Lartë i Shtetit</orgName><orgName full="yes" xml:lang="en">Supreme State Audit Institution</orgName><orgName full="abb">KLSH</orgName></org><org xml:id="AL_ORG_KMD" role="independentInstitution"><orgName full="yes" xml:lang="sq">Komisioneri për Mbrojtjen nga Diskriminimi</orgName><orgName full="yes" xml:lang="en">Commissioner for Protection from Discrimination</orgName><orgName full="abb">KMD</orgName></org><org xml:id="AL_ORG_KNQBMI" role="committee"><orgName full="yes" xml:lang="sq">Komisioni për Nismat Qytetare, Bashkëpunimin dhe Mbikëqyrjen Institucionale</orgName><orgName full="yes" xml:lang="en">Committee on Civic Initiatives, Cooperation and Institutional Oversight</orgName><orgName full="abb">KNQBMI</orgName><listRelation><relation name="subpart" active="#AL_ORG_KNQBMI" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_KOAL_NISMA_SHB" role="electoralCoalition" ana="#orientation.centre"><orgName full="yes" xml:lang="sq">Koalicioni “Nisma Shqipëria Bëhet”</orgName><orgName full="yes" xml:lang="en">Coalition 'Albania Becomes Initiative'</orgName><orgName full="abb">NISMA-SHB</orgName></org><org xml:id="AL_ORG_KOAL_PD_AMSH" role="electoralCoalition" ana="#orientation.centre-right"><orgName full="yes" xml:lang="sq">Koalicioni “Partia Demokratike – Aleanca për Shqipërinë Madhështore”</orgName><orgName full="yes" xml:lang="en">Coalition 'Democratic Party – Alliance for a Greater Albania'</orgName><orgName full="abb">PD-AMSH</orgName></org><org xml:id="AL_ORG_KPRAT" role="committee"><orgName full="yes" xml:lang="sq">Komisioni i Posaçëm Parlamentar për Reformën Administrativo-Territoriale në Republikën e Shqipërisë</orgName><orgName full="yes" xml:lang="en">Special Parliamentary Committee on Administrative-Territorial Reform in the Republic of Albania</orgName><orgName full="abb">KPRAT</orgName><listRelation><relation name="subpart" active="#AL_ORG_KPRAT" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_KQZ" role="independentInstitution"><orgName full="yes" xml:lang="sq">Komisioni Qendror i Zgjedhjeve</orgName><orgName full="yes" xml:lang="en">Central Election Commission</orgName><orgName full="abb">KQZ</orgName></org><org xml:id="AL_ORG_KSMS" role="committee"><orgName full="yes" xml:lang="sq">Komisioni për Shëndetësinë dhe Mirëqenien Sociale</orgName><orgName full="yes" xml:lang="en">Committee on Health and Social Welfare</orgName><orgName full="abb">KSMS</orgName><listRelation><relation name="subpart" active="#AL_ORG_KSMS" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_KonferencaKryetareve" role="parliamentaryBody"><orgName full="yes" xml:lang="sq">Konferenca e Kryetarëve</orgName><orgName full="yes" xml:lang="en">Conference of Chairpersons</orgName><orgName full="abb">Konferenca e Kryetarëve</orgName><listRelation><relation name="subpart" active="#AL_ORG_KonferencaKryetareve" passive="#AL_ORG_Kuvendi" /></listRelation></org><org xml:id="AL_ORG_Kuvendi" role="parliament"><orgName full="yes" xml:lang="sq">Kuvendi i Shqipërisë</orgName><orgName full="yes" xml:lang="en">Parliament of Albania</orgName><orgName full="abb">Kuvendi</orgName><event from="2025-09-10" xml:id="KUV.XI"><label xml:lang="sq">Legjislatura XI e Kuvendit të Shqipërisë</label><label xml:lang="en">Legislature XI of the Parliament of Albania</label></event></org><org xml:id="AL_ORG_MD" role="ministry"><orgName full="yes" xml:lang="sq">Ministria e Drejtësisë</orgName><orgName full="yes" xml:lang="en">Ministry of Justice</orgName><orgName full="abb">MD</orgName><listRelation><relation name="subpart" active="#AL_ORG_MD" passive="#AL_ORG_Qeveria" /></listRelation></org><org xml:id="AL_ORG_MSHAA" role="ministry"><orgName full="yes" xml:lang="sq">Ministri i Shtetit për Administratën Publike dhe Antikorrupsionin</orgName><orgName full="yes" xml:lang="en">Minister of State for Public Administration and Anticorruption</orgName><orgName full="abb">MSHAA</orgName><listRelation><relation name="subpart" active="#AL_ORG_MSHAA" passive="#AL_ORG_Qeveria" /></listRelation></org><org xml:id="AL_ORG_MSHMP" role="ministry"><orgName full="yes" xml:lang="sq">Ministri i Shtetit për Marrëdhëniet me Parlamentin</orgName><orgName full="yes" xml:lang="en">Minister of State for Relations with Parliament</orgName><orgName full="abb">MSHMP</orgName><listRelation><relation name="subpart" active="#AL_ORG_MSHMP" passive="#AL_ORG_Qeveria" /></listRelation></org><org xml:id="AL_ORG_MSHPV" role="ministry"><orgName full="yes" xml:lang="sq">Ministri i Shtetit për Pushtetin Vendor</orgName><orgName full="yes" xml:lang="en">Minister of State for Local Government</orgName><orgName full="abb">MSHPV</orgName><listRelation><relation name="subpart" active="#AL_ORG_MSHPV" passive="#AL_ORG_Qeveria" /></listRelation></org><org xml:id="AL_ORG_MUNDESIA" role="politicalParty" ana="#orientation.centre-right"><orgName full="yes" xml:lang="sq">Partia Mundësia</orgName><orgName full="yes" xml:lang="en">Opportunity Party</orgName><orgName full="abb">MUNDËSIA</orgName></org><org xml:id="AL_ORG_PAA" role="politicalParty" ana="#orientation.centre"><orgName full="yes" xml:lang="sq">Partia Agrare Ambientaliste e Shqipërisë</orgName><orgName full="yes" xml:lang="en">Environmentalist Agrarian Party of Albania</orgName><orgName full="abb">PAA</orgName></org><org xml:id="AL_ORG_PBDNJ" role="politicalParty" ana="#orientation.centre"><orgName full="yes" xml:lang="sq">Partia Bashkimi për të Drejtat e Njeriut</orgName><orgName full="yes" xml:lang="en">Unity for Human Rights Party</orgName><orgName full="abb">PBDNJ</orgName></org><org xml:id="AL_ORG_PBKD" role="politicalParty" ana="#orientation.right"><orgName full="yes" xml:lang="sq">Partia Balli Kombëtar Demokrat</orgName><orgName full="yes" xml:lang="en">Democratic National Front Party</orgName><orgName full="abb">PBKD</orgName></org><org xml:id="AL_ORG_PD" role="politicalParty" ana="#orientation.centre-right"><orgName full="yes" xml:lang="sq">Partia Demokratike e Shqipërisë</orgName><orgName full="yes" xml:lang="en">Democratic Party of Albania</orgName><orgName full="abb">PD</orgName></org><org xml:id="AL_ORG_PDIU" role="politicalParty" ana="#orientation.centre-right"><orgName full="yes" xml:lang="sq">Partia Drejtësi, Integrim dhe Unitet</orgName><orgName full="yes" xml:lang="en">Party for Justice, Integration and Unity</orgName><orgName full="abb">PDIU</orgName></org><org xml:id="AL_ORG_PL" role="politicalParty" ana="#orientation.centre-left"><orgName full="yes" xml:lang="sq">Partia e Lirisë</orgName><orgName full="yes" xml:lang="en">Freedom Party of Albania</orgName><orgName full="abb">PL</orgName></org><org xml:id="AL_ORG_PLL" role="politicalParty" ana="#orientation.right"><orgName full="yes" xml:lang="sq">Partia Lëvizja e Legalitetit</orgName><orgName full="yes" xml:lang="en">Legality Movement Party</orgName><orgName full="abb">PLL</orgName></org><org xml:id="AL_ORG_PP" role="independentInstitution"><orgName full="yes" xml:lang="sq">Prokurori i Përgjithshëm</orgName><orgName full="yes" xml:lang="en">Prosecutor General</orgName><orgName full="abb">PP</orgName></org><org xml:id="AL_ORG_PR" role="politicalParty" ana="#orientation.right"><orgName full="yes" xml:lang="sq">Partia Republikane Shqiptare</orgName><orgName full="yes" xml:lang="en">Republican Party of Albania</orgName><orgName full="abb">PR</orgName></org><org xml:id="AL_ORG_PS" role="politicalParty" ana="#orientation.centre-left"><orgName full="yes" xml:lang="sq">Partia Socialiste e Shqipërisë</orgName><orgName full="yes" xml:lang="en">Socialist Party of Albania</orgName><orgName full="abb">PS</orgName></org><org xml:id="AL_ORG_PSD" role="politicalParty" ana="#orientation.centre-left"><orgName full="yes" xml:lang="sq">Partia Socialdemokrate e Shqipërisë</orgName><orgName full="yes" xml:lang="en">Social Democratic Party of Albania</orgName><orgName full="abb">PSD</orgName></org><org xml:id="AL_ORG_Qeveria" role="government"><orgName full="yes" xml:lang="sq">Këshilli i Ministrave i Republikës së Shqipërisë</orgName><orgName full="yes" xml:lang="en">Council of Ministers of the Republic of Albania</orgName><orgName full="abb">Këshilli i Ministrave</orgName></org><org xml:id="AL_ORG_SHB" role="politicalParty" ana="#orientation.centre"><orgName full="yes" xml:lang="sq">Lëvizja Shqipëria Bëhet</orgName><orgName full="yes" xml:lang="en">Albania Becomes Movement</orgName><orgName full="abb">SHB</orgName></org><org xml:id="AL_ORG_SPAK" role="independentInstitution"><orgName full="yes" xml:lang="sq">Prokuroria e Posaçme kundër Korrupsionit dhe Krimit të Organizuar</orgName><orgName full="yes" xml:lang="en">Special Prosecution Office against Corruption and Organized Crime</orgName><orgName full="abb">SPAK</orgName></org><org xml:id="AL_ORG_SekretariatiPVE" role="parliamentaryBody"><orgName full="yes" xml:lang="sq">Sekretariati për Procedurat, Votimet dhe Etikën</orgName><orgName full="yes" xml:lang="en">Secretariat for Procedures, Voting and Ethics</orgName><orgName full="abb">SPVE</orgName><listRelation><relation name="subpart" active="#AL_ORG_SekretariatiPVE" passive="#AL_ORG_Kuvendi" /></listRelation></org><listRelation><relation name="representing" active="#AL_ORG_GP_PS" passive="#AL_ORG_PS" from="2021-09-10" /><relation name="representing" active="#AL_ORG_GP_PD" passive="#AL_ORG_PD" from="2021-09-10" /><relation name="representing" active="#AL_ORG_GP_PL" passive="#AL_ORG_PL" from="2021-09-10" /><relation name="representing" active="#AL_ORG_GP_AN" passive="#AL_ORG_PR" from="2021-09-10" /><relation name="representing" active="#AL_ORG_GP_AN" passive="#AL_ORG_PAA" from="2021-09-10" /><relation name="representing" active="#AL_ORG_GP_AN" passive="#AL_ORG_PBDNJ" from="2021-09-10" /><relation name="coalition" mutual="#AL_ORG_Qeveria #AL_ORG_GP_PS #AL_ORG_PS" from="2021-09-10" /><relation name="opposition" active="#AL_ORG_GP_PD #AL_ORG_GP_PL #AL_ORG_GP_AN #AL_ORG_PD #AL_ORG_PL #AL_ORG_PR #AL_ORG_PBDNJ #AL_ORG_PAA #AL_ORG_MUNDESIA #AL_ORG_BASHKE" passive="#AL_ORG_Qeveria" from="2021-09-10" /></listRelation></listOrg>
+<listOrg xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AL-listOrg" xml:lang="sq">
+  <org xml:id="AL_ORG_AMA" role="independentInstitution">
+    <orgName full="yes" xml:lang="sq">Autoriteti i Mediave Audiovizive</orgName>
+    <orgName full="yes" xml:lang="en">Audiovisual Media Authority</orgName>
+    <orgName full="abb">AMA</orgName>
+  </org>
+  <org xml:id="AL_ORG_AP" role="independentInstitution">
+    <orgName full="yes" xml:lang="sq">Avokati i Popullit</orgName>
+    <orgName full="yes" xml:lang="en">People's Advocate (Ombudsman)</orgName>
+    <orgName full="abb">AP</orgName>
+  </org>
+  <org xml:id="AL_ORG_BASHKE" role="politicalParty" ana="#orientation.left">
+    <orgName full="yes" xml:lang="sq">Lëvizja Bashkë</orgName>
+    <orgName full="yes" xml:lang="en">Together Movement</orgName>
+    <orgName full="abb">BASHKË</orgName>
+  </org>
+  <org xml:id="AL_ORG_BSH" role="independentInstitution">
+    <orgName full="yes" xml:lang="sq">Banka e Shqipërisë</orgName>
+    <orgName full="yes" xml:lang="en">Bank of Albania</orgName>
+    <orgName full="abb">BSH</orgName>
+  </org>
+  <org xml:id="AL_ORG_ERE" role="independentInstitution">
+    <orgName full="yes" xml:lang="sq">Enti Rregullator i Energjisë</orgName>
+    <orgName full="yes" xml:lang="en">Energy Regulatory Authority</orgName>
+    <orgName full="abb">ERE</orgName>
+  </org>
+  <org xml:id="AL_ORG_ERRU" role="independentInstitution">
+    <orgName full="yes" xml:lang="sq">Enti Rregullator i Ujit</orgName>
+    <orgName full="yes" xml:lang="en">Water Regulatory Authority</orgName>
+    <orgName full="abb">ERRU</orgName>
+  </org>
+  <org xml:id="AL_ORG_FRD" role="politicalParty" ana="#orientation.centre-right">
+    <orgName full="yes" xml:lang="sq">Fryma e Re Demokratike</orgName>
+    <orgName full="yes" xml:lang="en">New Democratic Spirit</orgName>
+    <orgName full="abb">FRD</orgName>
+  </org>
+  <org xml:id="AL_ORG_GOV" role="government">
+    <orgName full="yes" xml:lang="sq">Këshilli i Ministrave i Republikës së Shqipërisë</orgName>
+    <orgName full="yes" xml:lang="en">Council of Ministers of the Republic of Albania</orgName>
+    <orgName full="abb">Qeveria</orgName>
+  </org>
+  <org xml:id="AL_ORG_GOV_MAS" role="ministry">
+    <orgName full="yes" xml:lang="sq">Ministria e Arsimit dhe Sportit</orgName>
+    <orgName full="yes" xml:lang="en">Ministry of Education and Sports</orgName>
+    <orgName full="abb">MAS</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_GOV_MAS" passive="#AL_ORG_GOV" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_GOV_MBZHR" role="ministry">
+    <orgName full="yes" xml:lang="sq">Ministria e Bujqësisë dhe Zhvillimit Rural</orgName>
+    <orgName full="yes" xml:lang="en">Ministry of Agriculture and Rural Development</orgName>
+    <orgName full="abb">MBZHR</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_GOV_MBZHR" passive="#AL_ORG_GOV" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_GOV_MEKI" role="ministry">
+    <orgName full="yes" xml:lang="sq">Ministria e Ekonomisë, Kulturës dhe Inovacionit</orgName>
+    <orgName full="yes" xml:lang="en">Ministry of Economy, Culture and Innovation</orgName>
+    <orgName full="abb">MEKI</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_GOV_MEKI" passive="#AL_ORG_GOV" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_GOV_MEPJ" role="ministry">
+    <orgName full="yes" xml:lang="sq">Ministria për Evropën dhe Punët e Jashtme</orgName>
+    <orgName full="yes" xml:lang="en">Ministry for Europe and Foreign Affairs</orgName>
+    <orgName full="abb">MEPJ</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_GOV_MEPJ" passive="#AL_ORG_GOV" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_GOV_MF" role="ministry">
+    <orgName full="yes" xml:lang="sq">Ministria e Financave</orgName>
+    <orgName full="yes" xml:lang="en">Ministry of Finance</orgName>
+    <orgName full="abb">MF</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_GOV_MF" passive="#AL_ORG_GOV" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_GOV_MIE" role="ministry">
+    <orgName full="yes" xml:lang="sq">Ministria e Infrastrukturës dhe Energjisë</orgName>
+    <orgName full="yes" xml:lang="en">Ministry of Infrastructure and Energy</orgName>
+    <orgName full="abb">MIE</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_GOV_MIE" passive="#AL_ORG_GOV" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_GOV_MJ" role="ministry">
+    <orgName full="yes" xml:lang="sq">Ministria e Drejtësisë</orgName>
+    <orgName full="yes" xml:lang="en">Ministry of Justice</orgName>
+    <orgName full="abb">MJ</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_GOV_MJ" passive="#AL_ORG_GOV" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_GOV_MM" role="ministry">
+    <orgName full="yes" xml:lang="sq">Ministria e Mbrojtjes</orgName>
+    <orgName full="yes" xml:lang="en">Ministry of Defence</orgName>
+    <orgName full="abb">MM</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_GOV_MM" passive="#AL_ORG_GOV" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_GOV_MPB" role="ministry">
+    <orgName full="yes" xml:lang="sq">Ministria e Punëve të Brendshme</orgName>
+    <orgName full="yes" xml:lang="en">Ministry of Internal Affairs</orgName>
+    <orgName full="abb">MPB</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_GOV_MPB" passive="#AL_ORG_GOV" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_GOV_MSHAA" role="ministry">
+    <orgName full="yes" xml:lang="sq">Ministri i Shtetit për Administratën Publike dhe Antikorrupsionin</orgName>
+    <orgName full="yes" xml:lang="en">Minister of State for Public Administration and Anticorruption</orgName>
+    <orgName full="abb">MSHAA</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_GOV_MSHAA" passive="#AL_ORG_GOV" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_GOV_MSHMP" role="ministry">
+    <orgName full="yes" xml:lang="sq">Ministri i Shtetit për Marrëdhëniet me Parlamentin</orgName>
+    <orgName full="yes" xml:lang="en">Minister of State for Relations with Parliament</orgName>
+    <orgName full="abb">MSHMP</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_GOV_MSHMP" passive="#AL_ORG_GOV" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_GOV_MSHMS" role="ministry">
+    <orgName full="yes" xml:lang="sq">Ministria e Shëndetësisë dhe Mirëqenies Sociale</orgName>
+    <orgName full="yes" xml:lang="en">Ministry of Health and Social Welfare</orgName>
+    <orgName full="abb">MSHMS</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_GOV_MSHMS" passive="#AL_ORG_GOV" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_GOV_MSHPV" role="ministry">
+    <orgName full="yes" xml:lang="sq">Ministri i Shtetit për Pushtetin Vendor</orgName>
+    <orgName full="yes" xml:lang="en">Minister of State for Local Government</orgName>
+    <orgName full="abb">MSHPV</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_GOV_MSHPV" passive="#AL_ORG_GOV" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_GOV_MSHRF" role="ministry">
+    <orgName full="yes" xml:lang="sq">Ministri i Shtetit për Rininë dhe Fëmijët</orgName>
+    <orgName full="yes" xml:lang="en">Minister of State for Youth and Children</orgName>
+    <orgName full="abb">MSHRF</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_GOV_MSHRF" passive="#AL_ORG_GOV" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_GOV_MSHSKB" role="ministry">
+    <orgName full="yes" xml:lang="sq">Ministri i Shtetit për Sipërmarrjen dhe Klimën e Biznesit</orgName>
+    <orgName full="yes" xml:lang="en">Minister of State for Entrepreneurship and Business Climate</orgName>
+    <orgName full="abb">MSHSKB</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_GOV_MSHSKB" passive="#AL_ORG_GOV" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_GOV_MTM" role="ministry">
+    <orgName full="yes" xml:lang="sq">Ministria e Turizmit dhe Mjedisit</orgName>
+    <orgName full="yes" xml:lang="en">Ministry of Tourism and Environment</orgName>
+    <orgName full="abb">MTM</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_GOV_MTM" passive="#AL_ORG_GOV" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_ILD" role="independentInstitution">
+    <orgName full="yes" xml:lang="sq">Inspektori i Lartë i Drejtësisë</orgName>
+    <orgName full="yes" xml:lang="en">High Justice Inspector</orgName>
+    <orgName full="abb">ILD</orgName>
+  </org>
+  <org xml:id="AL_ORG_ILDKPK" role="independentInstitution">
+    <orgName full="yes" xml:lang="sq">Inspektorati i Lartë i Deklarimit dhe Kontrollit të Pasurive dhe Konfliktit të Interesave</orgName>
+    <orgName full="yes" xml:lang="en">High Inspectorate of Declaration and Audit of Assets and Conflicts of Interest</orgName>
+    <orgName full="abb">ILDKPKI</orgName>
+  </org>
+  <org xml:id="AL_ORG_INSTAT" role="independentInstitution">
+    <orgName full="yes" xml:lang="sq">Instituti i Statistikave</orgName>
+    <orgName full="yes" xml:lang="en">Institute of Statistics</orgName>
+    <orgName full="abb">INSTAT</orgName>
+  </org>
+  <org xml:id="AL_ORG_KDIMDP" role="independentInstitution">
+    <orgName full="yes" xml:lang="sq">Komisioneri për të Drejtën e Informimit dhe Mbrojtjen e të Dhënave Personale</orgName>
+    <orgName full="yes" xml:lang="en">Information and Data Protection Commissioner</orgName>
+    <orgName full="abb">KDIMDP</orgName>
+  </org>
+  <org xml:id="AL_ORG_KLGJ" role="independentInstitution">
+    <orgName full="yes" xml:lang="sq">Këshilli i Lartë Gjyqësor</orgName>
+    <orgName full="yes" xml:lang="en">High Judicial Council</orgName>
+    <orgName full="abb">KLGJ</orgName>
+  </org>
+  <org xml:id="AL_ORG_KLP" role="independentInstitution">
+    <orgName full="yes" xml:lang="sq">Këshilli i Lartë i Prokurorisë</orgName>
+    <orgName full="yes" xml:lang="en">High Prosecutorial Council</orgName>
+    <orgName full="abb">KLP</orgName>
+  </org>
+  <org xml:id="AL_ORG_KLSH" role="independentInstitution">
+    <orgName full="yes" xml:lang="sq">Kontrolli i Lartë i Shtetit</orgName>
+    <orgName full="yes" xml:lang="en">Supreme State Audit Institution</orgName>
+    <orgName full="abb">KLSH</orgName>
+  </org>
+  <org xml:id="AL_ORG_KMD" role="independentInstitution">
+    <orgName full="yes" xml:lang="sq">Komisioneri për Mbrojtjen nga Diskriminimi</orgName>
+    <orgName full="yes" xml:lang="en">Commissioner for Protection from Discrimination</orgName>
+    <orgName full="abb">KMD</orgName>
+  </org>
+  <org xml:id="AL_ORG_KOAL_NISMA_SHB" role="electoralCoalition" ana="#orientation.centre">
+    <orgName full="yes" xml:lang="sq">Koalicioni “Nisma Shqipëria Bëhet”</orgName>
+    <orgName full="yes" xml:lang="en">Coalition 'Albania Becomes Initiative'</orgName>
+    <orgName full="abb">NISMA-SHB</orgName>
+  </org>
+  <org xml:id="AL_ORG_KOAL_PD_AMSH" role="electoralCoalition" ana="#orientation.centre-right">
+    <orgName full="yes" xml:lang="sq">Koalicioni “Partia Demokratike – Aleanca për Shqipërinë Madhështore”</orgName>
+    <orgName full="yes" xml:lang="en">Coalition 'Democratic Party – Alliance for a Greater Albania'</orgName>
+    <orgName full="abb">PD-AMSH</orgName>
+  </org>
+  <org xml:id="AL_ORG_KQZ" role="independentInstitution">
+    <orgName full="yes" xml:lang="sq">Komisioni Qendror i Zgjedhjeve</orgName>
+    <orgName full="yes" xml:lang="en">Central Election Commission</orgName>
+    <orgName full="abb">KQZ</orgName>
+  </org>
+  <org xml:id="AL_ORG_LOCGOV_BER" role="localGovernment">
+    <orgName full="yes" xml:lang="sq">Pushteti Vendor – Qarku Berat</orgName>
+    <orgName full="yes" xml:lang="en">Local Government of Berat County</orgName>
+    <orgName full="abb">Pushteti Vendor Berat</orgName>
+  </org>
+  <org xml:id="AL_ORG_LOCGOV_DIB" role="localGovernment">
+    <orgName full="yes" xml:lang="sq">Pushteti Vendor – Qarku Dibër</orgName>
+    <orgName full="yes" xml:lang="en">Local Government of Dibër County</orgName>
+    <orgName full="abb">Pushteti Vendor Dibër</orgName>
+  </org>
+  <org xml:id="AL_ORG_LOCGOV_DUR" role="localGovernment">
+    <orgName full="yes" xml:lang="sq">Pushteti Vendor – Qarku Durrës</orgName>
+    <orgName full="yes" xml:lang="en">Local Government of Durrës County</orgName>
+    <orgName full="abb">Pushteti Vendor Durrës</orgName>
+  </org>
+  <org xml:id="AL_ORG_LOCGOV_ELB" role="localGovernment">
+    <orgName full="yes" xml:lang="sq">Pushteti Vendor – Qarku Elbasan</orgName>
+    <orgName full="yes" xml:lang="en">Local Government of Elbasan County</orgName>
+    <orgName full="abb">Pushteti Vendor Elbasan</orgName>
+  </org>
+  <org xml:id="AL_ORG_LOCGOV_FIE" role="localGovernment">
+    <orgName full="yes" xml:lang="sq">Pushteti Vendor – Qarku Fier</orgName>
+    <orgName full="yes" xml:lang="en">Local Government of Fier County</orgName>
+    <orgName full="abb">Pushteti Vendor Fier</orgName>
+  </org>
+  <org xml:id="AL_ORG_LOCGOV_GJI" role="localGovernment">
+    <orgName full="yes" xml:lang="sq">Pushteti Vendor – Qarku Gjirokastër</orgName>
+    <orgName full="yes" xml:lang="en">Local Government of Gjirokastër County</orgName>
+    <orgName full="abb">Pushteti Vendor Gjirokastër</orgName>
+  </org>
+  <org xml:id="AL_ORG_LOCGOV_KOR" role="localGovernment">
+    <orgName full="yes" xml:lang="sq">Pushteti Vendor – Qarku Korçë</orgName>
+    <orgName full="yes" xml:lang="en">Local Government of Korçë County</orgName>
+    <orgName full="abb">Pushteti Vendor Korçë</orgName>
+  </org>
+  <org xml:id="AL_ORG_LOCGOV_KUK" role="localGovernment">
+    <orgName full="yes" xml:lang="sq">Pushteti Vendor – Qarku Kukës</orgName>
+    <orgName full="yes" xml:lang="en">Local Government of Kukës County</orgName>
+    <orgName full="abb">Pushteti Vendor Kukës</orgName>
+  </org>
+  <org xml:id="AL_ORG_LOCGOV_LEZ" role="localGovernment">
+    <orgName full="yes" xml:lang="sq">Pushteti Vendor – Qarku Lezhë</orgName>
+    <orgName full="yes" xml:lang="en">Local Government of Lezhë County</orgName>
+    <orgName full="abb">Pushteti Vendor Lezhë</orgName>
+  </org>
+  <org xml:id="AL_ORG_LOCGOV_SHK" role="localGovernment">
+    <orgName full="yes" xml:lang="sq">Pushteti Vendor – Qarku Shkodër</orgName>
+    <orgName full="yes" xml:lang="en">Local Government of Shkodër County</orgName>
+    <orgName full="abb">Pushteti Vendor Shkodër</orgName>
+  </org>
+  <org xml:id="AL_ORG_LOCGOV_TIR" role="localGovernment">
+    <orgName full="yes" xml:lang="sq">Pushteti Vendor – Qarku Tiranë</orgName>
+    <orgName full="yes" xml:lang="en">Local Government of Tirana County</orgName>
+    <orgName full="abb">Pushteti Vendor Tiranë</orgName>
+  </org>
+  <org xml:id="AL_ORG_LOCGOV_VLO" role="localGovernment">
+    <orgName full="yes" xml:lang="sq">Pushteti Vendor – Qarku Vlorë</orgName>
+    <orgName full="yes" xml:lang="en">Local Government of Vlorë County</orgName>
+    <orgName full="abb">Pushteti Vendor Vlorë</orgName>
+  </org>
+  <org xml:id="AL_ORG_MUNDESIA" role="politicalParty" ana="#orientation.centre-right">
+    <orgName full="yes" xml:lang="sq">Partia Mundësia</orgName>
+    <orgName full="yes" xml:lang="en">Opportunity Party</orgName>
+    <orgName full="abb">MUNDËSIA</orgName>
+  </org>
+  <org xml:id="AL_ORG_PAA" role="politicalParty" ana="#orientation.centre">
+    <orgName full="yes" xml:lang="sq">Partia Agrare Ambientaliste e Shqipërisë</orgName>
+    <orgName full="yes" xml:lang="en">Environmentalist Agrarian Party of Albania</orgName>
+    <orgName full="abb">PAA</orgName>
+  </org>
+  <org xml:id="AL_ORG_PARL" role="parliament">
+    <orgName full="yes" xml:lang="sq">Kuvendi i Shqipërisë</orgName>
+    <orgName full="yes" xml:lang="en">Parliament of Albania</orgName>
+    <orgName full="abb">Kuvendi</orgName>
+    <event from="2025-09-10" xml:id="KUV.XI">
+      <label xml:lang="sq">Legjislatura XI e Kuvendit të Shqipërisë</label>
+      <label xml:lang="en">Legislature XI of the Parliament of Albania</label>
+    </event>
+  </org>
+  <org xml:id="AL_ORG_PARL_BUR" role="parliamentaryBody">
+    <orgName full="yes" xml:lang="sq">Byroja e Kuvendit</orgName>
+    <orgName full="yes" xml:lang="en">Bureau of the Parliament</orgName>
+    <orgName full="abb">Byroja</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_BUR" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_CHAIR" role="parliamentaryBody">
+    <orgName full="yes" xml:lang="sq">Konferenca e Kryetarëve</orgName>
+    <orgName full="yes" xml:lang="en">Conference of Chairs</orgName>
+    <orgName full="abb">Konferenca e Kryetarëve</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_CHAIR" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_COM_BNIZ" role="committee">
+    <orgName full="yes" xml:lang="sq">Komisioni për Burimet Natyrore, Infrastrukturën dhe Zhvillimin e Qëndrueshëm</orgName>
+    <orgName full="yes" xml:lang="en">Committee on Natural Resources, Infrastructure and Sustainable Development</orgName>
+    <orgName full="abb">KBNIZHQ</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_COM_BNIZ" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_COM_BUZH" role="committee">
+    <orgName full="yes" xml:lang="sq">Komisioni për Bujqësinë, Ushqimin dhe Zhvillimin Rural</orgName>
+    <orgName full="yes" xml:lang="en">Committee on Agriculture, Food and Rural Development</orgName>
+    <orgName full="abb">KBUZHR</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_COM_BUZH" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_COM_CLAP" role="committee">
+    <orgName full="yes" xml:lang="sq">Komisioni për Çështjet Ligjore dhe Administratën Publike</orgName>
+    <orgName full="yes" xml:lang="en">Committee on Legal Affairs and Public Administration</orgName>
+    <orgName full="abb">CLAP</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_COM_CLAP" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_COM_DNJM" role="committee">
+    <orgName full="yes" xml:lang="sq">Komisioni për të Drejtat e Njeriut dhe Mjetet e Informimit Publik</orgName>
+    <orgName full="yes" xml:lang="en">Committee on Human Rights and Public Information Media</orgName>
+    <orgName full="abb">KDNJMIP</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_COM_DNJM" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_COM_KCBM" role="committee">
+    <orgName full="yes" xml:lang="sq">Komisioni për Çështjet e Brendshme dhe të Mbrojtjes</orgName>
+    <orgName full="yes" xml:lang="en">Committee on Internal Affairs and Defence</orgName>
+    <orgName full="abb">KÇBM</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_COM_KCBM" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_COM_KEPF" role="committee">
+    <orgName full="yes" xml:lang="sq">Komisioni për Ekonominë, Punësimin dhe Financat</orgName>
+    <orgName full="yes" xml:lang="en">Committee on Economy, Employment and Finance</orgName>
+    <orgName full="abb">KEPF</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_COM_KEPF" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_COM_KEPJ" role="committee">
+    <orgName full="yes" xml:lang="sq">Komisioni për Evropën dhe Punët e Jashtme</orgName>
+    <orgName full="yes" xml:lang="en">Committee on Europe and Foreign Affairs</orgName>
+    <orgName full="abb">KEPJ</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_COM_KEPJ" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_COM_KESS" role="committee">
+    <orgName full="yes" xml:lang="sq">Komisioni për Edukimin, Shkencën dhe Sportet</orgName>
+    <orgName full="yes" xml:lang="en">Committee on Education, Science and Sports</orgName>
+    <orgName full="abb">KESS</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_COM_KESS" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_COM_KKIE" role="committee">
+    <orgName full="yes" xml:lang="sq">Këshilli Kombëtar i Integrimit Evropian</orgName>
+    <orgName full="yes" xml:lang="en">National Council for European Integration</orgName>
+    <orgName full="abb">KKIE</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_COM_KKIE" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_COM_KKTD" role="committee">
+    <orgName full="yes" xml:lang="sq">Komisioni për Kulturën, Turizmin dhe Diasporën</orgName>
+    <orgName full="yes" xml:lang="en">Committee on Culture, Tourism and Diaspora</orgName>
+    <orgName full="abb">KKTD</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_COM_KKTD" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_COM_KSMS" role="committee">
+    <orgName full="yes" xml:lang="sq">Komisioni për Shëndetësinë dhe Mirëqenien Sociale</orgName>
+    <orgName full="yes" xml:lang="en">Committee on Health and Social Welfare</orgName>
+    <orgName full="abb">KSMS</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_COM_KSMS" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_COM_NQBM" role="committee">
+    <orgName full="yes" xml:lang="sq">Komisioni për Nismat Qytetare, Bashkëpunimin dhe Mbikëqyrjen Institucionale</orgName>
+    <orgName full="yes" xml:lang="en">Committee on Civic Initiatives, Cooperation and Institutional Oversight</orgName>
+    <orgName full="abb">KNQBMI</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_COM_NQBM" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_COM_PRAT" role="committee">
+    <orgName full="yes" xml:lang="sq">Komisioni i Posaçëm Parlamentar për Reformën Administrativo-Territoriale në Republikën e Shqipërisë</orgName>
+    <orgName full="yes" xml:lang="en">Special Parliamentary Committee on Administrative-Territorial Reform in the Republic of Albania</orgName>
+    <orgName full="abb">KPRAT</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_COM_PRAT" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_GP_AN" role="parliamentaryGroup" ana="#orientation.centre-right">
+    <orgName full="yes" xml:lang="sq">Grupi Parlamentar “Aleanca për Ndryshim”</orgName>
+    <orgName full="yes" xml:lang="en">Parliamentary Group 'Alliance for Change'</orgName>
+    <orgName full="abb">GP AN</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_GP_AN" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_GP_PD" role="parliamentaryGroup" ana="#orientation.centre-right">
+    <orgName full="yes" xml:lang="sq">Grupi Parlamentar i Partisë Demokratike</orgName>
+    <orgName full="yes" xml:lang="en">Parliamentary Group of the Democratic Party</orgName>
+    <orgName full="abb">GP PD</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_GP_PD" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_GP_PL" role="parliamentaryGroup" ana="#orientation.centre-left">
+    <orgName full="yes" xml:lang="sq">Grupi Parlamentar i Partisë së Lirisë</orgName>
+    <orgName full="yes" xml:lang="en">Parliamentary Group of the Freedom Party</orgName>
+    <orgName full="abb">GP PL</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_GP_PL" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_GP_PS" role="parliamentaryGroup" ana="#orientation.centre-left">
+    <orgName full="yes" xml:lang="sq">Grupi Parlamentar i Partisë Socialiste</orgName>
+    <orgName full="yes" xml:lang="en">Parliamentary Group of the Socialist Party</orgName>
+    <orgName full="abb">GP PS</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_GP_PS" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_SECR_BFA" role="parliamentaryBody">
+    <orgName full="yes" xml:lang="sq">Sekretariati për Buxhetin, Financat dhe Administratën</orgName>
+    <orgName full="yes" xml:lang="en">Secretariat for Budget, Finance and Administration</orgName>
+    <orgName full="abb">SBFA</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_SECR_BFA" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_SECR_PVE" role="parliamentaryBody">
+    <orgName full="yes" xml:lang="sq">Sekretariati për Procedurat, Votimet dhe Etikën</orgName>
+    <orgName full="yes" xml:lang="en">Secretariat for Procedures, Voting and Ethics</orgName>
+    <orgName full="abb">SPVE</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_SECR_PVE" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PARL_SECR_SHPK" role="parliamentaryBody">
+    <orgName full="yes" xml:lang="sq">Sekretariati për Statusin e Deputetit, Shërbimet Parlamentare dhe Kërkimin</orgName>
+    <orgName full="yes" xml:lang="en">Secretariat for MP Status, Parliamentary Services and Research</orgName>
+    <orgName full="abb">SSHPK</orgName>
+    <listRelation>
+      <relation name="subpart" active="#AL_ORG_PARL_SECR_SHPK" passive="#AL_ORG_PARL" />
+    </listRelation>
+  </org>
+  <org xml:id="AL_ORG_PBDNJ" role="politicalParty" ana="#orientation.centre">
+    <orgName full="yes" xml:lang="sq">Partia Bashkimi për të Drejtat e Njeriut</orgName>
+    <orgName full="yes" xml:lang="en">Unity for Human Rights Party</orgName>
+    <orgName full="abb">PBDNJ</orgName>
+  </org>
+  <org xml:id="AL_ORG_PBKD" role="politicalParty" ana="#orientation.right">
+    <orgName full="yes" xml:lang="sq">Partia Balli Kombëtar Demokrat</orgName>
+    <orgName full="yes" xml:lang="en">Democratic National Front Party</orgName>
+    <orgName full="abb">PBKD</orgName>
+  </org>
+  <org xml:id="AL_ORG_PD" role="politicalParty" ana="#orientation.centre-right">
+    <orgName full="yes" xml:lang="sq">Partia Demokratike e Shqipërisë</orgName>
+    <orgName full="yes" xml:lang="en">Democratic Party of Albania</orgName>
+    <orgName full="abb">PD</orgName>
+  </org>
+  <org xml:id="AL_ORG_PDIU" role="politicalParty" ana="#orientation.centre-right">
+    <orgName full="yes" xml:lang="sq">Partia Drejtësi, Integrim dhe Unitet</orgName>
+    <orgName full="yes" xml:lang="en">Party for Justice, Integration and Unity</orgName>
+    <orgName full="abb">PDIU</orgName>
+  </org>
+  <org xml:id="AL_ORG_PL" role="politicalParty" ana="#orientation.centre-left">
+    <orgName full="yes" xml:lang="sq">Partia e Lirisë</orgName>
+    <orgName full="yes" xml:lang="en">Freedom Party of Albania</orgName>
+    <orgName full="abb">PL</orgName>
+  </org>
+  <org xml:id="AL_ORG_PLL" role="politicalParty" ana="#orientation.right">
+    <orgName full="yes" xml:lang="sq">Partia Lëvizja e Legalitetit</orgName>
+    <orgName full="yes" xml:lang="en">Legality Movement Party</orgName>
+    <orgName full="abb">PLL</orgName>
+  </org>
+  <org xml:id="AL_ORG_PP" role="independentInstitution">
+    <orgName full="yes" xml:lang="sq">Prokurori i Përgjithshëm</orgName>
+    <orgName full="yes" xml:lang="en">Prosecutor General</orgName>
+    <orgName full="abb">PP</orgName>
+  </org>
+  <org xml:id="AL_ORG_PR" role="politicalParty" ana="#orientation.right">
+    <orgName full="yes" xml:lang="sq">Partia Republikane Shqiptare</orgName>
+    <orgName full="yes" xml:lang="en">Republican Party of Albania</orgName>
+    <orgName full="abb">PR</orgName>
+  </org>
+  <org xml:id="AL_ORG_PS" role="politicalParty" ana="#orientation.centre-left">
+    <orgName full="yes" xml:lang="sq">Partia Socialiste e Shqipërisë</orgName>
+    <orgName full="yes" xml:lang="en">Socialist Party of Albania</orgName>
+    <orgName full="abb">PS</orgName>
+  </org>
+  <org xml:id="AL_ORG_PSD" role="politicalParty" ana="#orientation.centre-left">
+    <orgName full="yes" xml:lang="sq">Partia Socialdemokrate e Shqipërisë</orgName>
+    <orgName full="yes" xml:lang="en">Social Democratic Party of Albania</orgName>
+    <orgName full="abb">PSD</orgName>
+  </org>
+  <org xml:id="AL_ORG_SHB" role="politicalParty" ana="#orientation.centre">
+    <orgName full="yes" xml:lang="sq">Lëvizja Shqipëria Bëhet</orgName>
+    <orgName full="yes" xml:lang="en">Albania Becomes Movement</orgName>
+    <orgName full="abb">SHB</orgName>
+  </org>
+  <org xml:id="AL_ORG_SPAK" role="independentInstitution">
+    <orgName full="yes" xml:lang="sq">Prokuroria e Posaçme kundër Korrupsionit dhe Krimit të Organizuar</orgName>
+    <orgName full="yes" xml:lang="en">Special Prosecution Office against Corruption and Organized Crime</orgName>
+    <orgName full="abb">SPAK</orgName>
+  </org>
+  <listRelation>
+    <relation name="representing" active="#AL_ORG_PARL_GP_PS" passive="#AL_ORG_PS" from="2021-09-10" />
+    <relation name="representing" active="#AL_ORG_PARL_GP_PD" passive="#AL_ORG_PD" from="2021-09-10" />
+    <relation name="representing" active="#AL_ORG_PARL_GP_PL" passive="#AL_ORG_PL" from="2021-09-10" />
+    <relation name="representing" active="#AL_ORG_PARL_GP_AN" passive="#AL_ORG_PR" from="2021-09-10" />
+    <relation name="representing" active="#AL_ORG_PARL_GP_AN" passive="#AL_ORG_PAA" from="2021-09-10" />
+    <relation name="representing" active="#AL_ORG_PARL_GP_AN" passive="#AL_ORG_PBDNJ" from="2021-09-10" />
+    <relation name="coalition" mutual="#AL_ORG_GOV #AL_ORG_PARL_GP_PS #AL_ORG_PS" from="2021-09-10" />
+    <relation name="opposition" active="#AL_ORG_PARL_GP_PD #AL_ORG_PARL_GP_PL #AL_ORG_PARL_GP_AN #AL_ORG_PD #AL_ORG_PL #AL_ORG_PR #AL_ORG_PBDNJ #AL_ORG_PAA #AL_ORG_MUNDESIA #AL_ORG_BASHKE" passive="#AL_ORG_GOV" from="2021-09-10" />
+  </listRelation>
+</listOrg>

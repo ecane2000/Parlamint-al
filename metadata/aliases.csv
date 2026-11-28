@@ -70,12 +70,39 @@ ALIAS_VAR_0068,person,AL_PERS_UlsiManja,,usi manja,usi manja,SRC_KUV_STRUKTURA,c
 ALIAS_VAR_0069,person,AL_PERS_UlsiManja,,usli manja,usli manja,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,OCR/stenographic variant of Ulsi Manja,Verified
 ALIAS_VAR_0070,person,AL_PERS_VatëStaka,,vate staka,vate staka,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Diacritical variant of Vatë Staka,Verified
 ALIAS_VAR_0071,person,AL_PERS_VullnetSinaj,,vullent sinaj,vullent sinaj,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Typographical variant of Vullnet Sinaj,Verified
-ALIAS_ORG_0072,organization,AL_ORG_GP_AN,AL_ORG_AN,AL_ORG_AN,al_org_an,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized parliamentary group ID to AL_ORG_GP_AN,Verified
-ALIAS_ORG_0073,organization,AL_ORG_CLAP,committee.Ligjet,committee.Ligjet,committee.ligjet,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated legacy committee ID into AL_ORG_CLAP,Verified
-ALIAS_ORG_0074,organization,AL_ORG_GP_PD,group.PD,group.PD,group.pd,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized parliamentary group ID to AL_ORG_GP_PD,Verified
-ALIAS_ORG_0075,organization,AL_ORG_GP_PL,group.PL,group.PL,group.pl,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized parliamentary group ID to AL_ORG_GP_PL,Verified
-ALIAS_ORG_0076,organization,AL_ORG_GP_PS,group.PS,group.PS,group.ps,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized parliamentary group ID to AL_ORG_GP_PS,Verified
-ALIAS_ORG_0077,organization,AL_ORG_Kuvendi,parliament.AL,parliament.AL,parliament.al,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated legacy org ID into AL_ORG_Kuvendi,Verified
-ALIAS_ORG_0078,organization,AL_ORG_PD,party.PD,party.PD,party.pd,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated legacy party ID into AL_ORG_PD,Verified
-ALIAS_ORG_0079,organization,AL_ORG_PL,party.PL,party.PL,party.pl,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated legacy party ID into AL_ORG_PL,Verified
-ALIAS_ORG_0080,organization,AL_ORG_PS,party.PS,party.PS,party.ps,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated legacy party ID into AL_ORG_PS,Verified
+ALIAS_ORG_0072,organization,AL_ORG_PARL_GP_AN,AL_ORG_AN,AL_ORG_AN,al_org_an,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized parliamentary group ID to AL_ORG_PARL_GP_AN,Verified
+ALIAS_ORG_0073,organization,AL_ORG_LOCGOV_TIR,AL_ORG_Bashkia,AL_ORG_Bashkia,al_org_bashkia,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Replaced generic localGovernment ID with county-specific AL_ORG_LOCGOV_* IDs,Verified
+ALIAS_ORG_0074,organization,AL_ORG_PARL_BUR,AL_ORG_Byroja,AL_ORG_Byroja,al_org_byroja,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized Bureau ID under AL_ORG_PARL,Verified
+ALIAS_ORG_0075,organization,AL_ORG_PARL_COM_CLAP,AL_ORG_CLAP,AL_ORG_CLAP,al_org_clap,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized committee ID under AL_ORG_PARL_COM,Verified
+ALIAS_ORG_0076,organization,AL_ORG_PARL_GP_AN,AL_ORG_GP_AN,AL_ORG_GP_AN,al_org_gp_an,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized parliamentary group ID under AL_ORG_PARL,Verified
+ALIAS_ORG_0077,organization,AL_ORG_PARL_GP_PD,AL_ORG_GP_PD,AL_ORG_GP_PD,al_org_gp_pd,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized parliamentary group ID under AL_ORG_PARL,Verified
+ALIAS_ORG_0078,organization,AL_ORG_PARL_GP_PL,AL_ORG_GP_PL,AL_ORG_GP_PL,al_org_gp_pl,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized parliamentary group ID under AL_ORG_PARL,Verified
+ALIAS_ORG_0079,organization,AL_ORG_PARL_GP_PS,AL_ORG_GP_PS,AL_ORG_GP_PS,al_org_gp_ps,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized parliamentary group ID under AL_ORG_PARL,Verified
+ALIAS_ORG_0080,organization,AL_ORG_PARL_COM_BNIZ,AL_ORG_KBNIZHQ,AL_ORG_KBNIZHQ,al_org_kbnizhq,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized committee ID under AL_ORG_PARL_COM,Verified
+ALIAS_ORG_0081,organization,AL_ORG_PARL_COM_BUZH,AL_ORG_KBUZHR,AL_ORG_KBUZHR,al_org_kbuzhr,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized committee ID under AL_ORG_PARL_COM,Verified
+ALIAS_ORG_0082,organization,AL_ORG_PARL_COM_KCBM,AL_ORG_KCBM,AL_ORG_KCBM,al_org_kcbm,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized committee ID under AL_ORG_PARL_COM,Verified
+ALIAS_ORG_0083,organization,AL_ORG_PARL_COM_DNJM,AL_ORG_KDNJMIP,AL_ORG_KDNJMIP,al_org_kdnjmip,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized committee ID under AL_ORG_PARL_COM,Verified
+ALIAS_ORG_0084,organization,AL_ORG_PARL_COM_KEPF,AL_ORG_KEPF,AL_ORG_KEPF,al_org_kepf,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized committee ID under AL_ORG_PARL_COM,Verified
+ALIAS_ORG_0085,organization,AL_ORG_PARL_COM_KEPJ,AL_ORG_KEPJ,AL_ORG_KEPJ,al_org_kepj,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized committee ID under AL_ORG_PARL_COM,Verified
+ALIAS_ORG_0086,organization,AL_ORG_PARL_COM_KESS,AL_ORG_KESS,AL_ORG_KESS,al_org_kess,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized committee ID under AL_ORG_PARL_COM,Verified
+ALIAS_ORG_0087,organization,AL_ORG_PARL_COM_KKIE,AL_ORG_KKIE,AL_ORG_KKIE,al_org_kkie,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized committee ID under AL_ORG_PARL_COM,Verified
+ALIAS_ORG_0088,organization,AL_ORG_PARL_COM_KKTD,AL_ORG_KKTD,AL_ORG_KKTD,al_org_kktd,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized committee ID under AL_ORG_PARL_COM,Verified
+ALIAS_ORG_0089,organization,AL_ORG_PARL_COM_NQBM,AL_ORG_KNQBMI,AL_ORG_KNQBMI,al_org_knqbmi,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized committee ID under AL_ORG_PARL_COM,Verified
+ALIAS_ORG_0090,organization,AL_ORG_PARL_COM_PRAT,AL_ORG_KPRAT,AL_ORG_KPRAT,al_org_kprat,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized committee ID under AL_ORG_PARL_COM,Verified
+ALIAS_ORG_0091,organization,AL_ORG_PARL_COM_KSMS,AL_ORG_KSMS,AL_ORG_KSMS,al_org_ksms,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized committee ID under AL_ORG_PARL_COM,Verified
+ALIAS_ORG_0092,organization,AL_ORG_PARL_CHAIR,AL_ORG_KonferencaKryetareve,AL_ORG_KonferencaKryetareve,al_org_konferencakryetareve,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized Conference of Chairs ID under AL_ORG_PARL,Verified
+ALIAS_ORG_0093,organization,AL_ORG_PARL,AL_ORG_Kuvendi,AL_ORG_Kuvendi,al_org_kuvendi,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized Parliament ID to AL_ORG_PARL,Verified
+ALIAS_ORG_0094,organization,AL_ORG_GOV_MJ,AL_ORG_MD,AL_ORG_MD,al_org_md,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized Ministry of Justice ID to AL_ORG_GOV_MJ,Verified
+ALIAS_ORG_0095,organization,AL_ORG_GOV_MSHAA,AL_ORG_MSHAA,AL_ORG_MSHAA,al_org_mshaa,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized ministry ID under AL_ORG_GOV,Verified
+ALIAS_ORG_0096,organization,AL_ORG_GOV_MSHMP,AL_ORG_MSHMP,AL_ORG_MSHMP,al_org_mshmp,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized ministry ID under AL_ORG_GOV,Verified
+ALIAS_ORG_0097,organization,AL_ORG_GOV_MSHPV,AL_ORG_MSHPV,AL_ORG_MSHPV,al_org_mshpv,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized ministry ID under AL_ORG_GOV,Verified
+ALIAS_ORG_0098,organization,AL_ORG_GOV,AL_ORG_Qeveria,AL_ORG_Qeveria,al_org_qeveria,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized Government ID to AL_ORG_GOV,Verified
+ALIAS_ORG_0099,organization,AL_ORG_PARL_SECR_PVE,AL_ORG_SekretariatiPVE,AL_ORG_SekretariatiPVE,al_org_sekretariatipve,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized Secretariat ID under AL_ORG_PARL_SECR,Verified
+ALIAS_ORG_0100,organization,AL_ORG_PARL_COM_CLAP,committee.Ligjet,committee.Ligjet,committee.ligjet,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated legacy committee ID into AL_ORG_PARL_COM_CLAP,Verified
+ALIAS_ORG_0101,organization,AL_ORG_PARL_GP_PD,group.PD,group.PD,group.pd,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized parliamentary group ID to AL_ORG_PARL_GP_PD,Verified
+ALIAS_ORG_0102,organization,AL_ORG_PARL_GP_PL,group.PL,group.PL,group.pl,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized parliamentary group ID to AL_ORG_PARL_GP_PL,Verified
+ALIAS_ORG_0103,organization,AL_ORG_PARL_GP_PS,group.PS,group.PS,group.ps,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Standardized parliamentary group ID to AL_ORG_PARL_GP_PS,Verified
+ALIAS_ORG_0104,organization,AL_ORG_PARL,parliament.AL,parliament.AL,parliament.al,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated legacy org ID into AL_ORG_PARL,Verified
+ALIAS_ORG_0105,organization,AL_ORG_PD,party.PD,party.PD,party.pd,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated legacy party ID into AL_ORG_PD,Verified
+ALIAS_ORG_0106,organization,AL_ORG_PL,party.PL,party.PL,party.pl,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated legacy party ID into AL_ORG_PL,Verified
+ALIAS_ORG_0107,organization,AL_ORG_PS,party.PS,party.PS,party.ps,SRC_KUV_STRUKTURA,confirmed,ParlaMint-AL,Consolidated legacy party ID into AL_ORG_PS,Verified

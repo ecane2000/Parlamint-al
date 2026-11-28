@@ -348,22 +348,63 @@ def run_all_validations(
     for ret_oid in RETIRED_ORG_IDS:
         assert ret_oid not in orgs, f"Retired org ID {ret_oid} is still active in orgs.csv"
 
-    # 3b. Adea Pirdeni worked example (Section 2, 3, 4)
+    # 3b. Adea Pirdeni worked example (Section 2, 3, 4 & Dependencies Spec)
     assert "AL_PERS_AdeaPirdeni" in persons
     pirdeni = persons["AL_PERS_AdeaPirdeni"]
     assert pirdeni.birth_date == "1983-10-01" and pirdeni.birth_place == "Tiranë"
     pirdeni_orgs = {(a.org_id, a.from_date, a.basis) for a in pirdeni.affiliations}
-    assert ("AL_ORG_MD", "2020-09", "direct") in pirdeni_orgs, "Missing month-precision 2020-09 MD role for Adea Pirdeni"
-    assert ("AL_ORG_MSHAA", "2024-01-15", "direct") in pirdeni_orgs, "Missing 2024-01-15 Decision 6/2024 role for Adea Pirdeni"
-    assert ("AL_ORG_Qeveria", "2025-09-15", "direct") in pirdeni_orgs, "Missing 2025-09-15 Presidential Decree role for Adea Pirdeni"
-    assert ("AL_ORG_Kuvendi", "2025-09-10", "inferred") in pirdeni_orgs, "Missing M1 inferred Parliament membership for Adea Pirdeni"
+    assert ("AL_ORG_GOV_MJ", "2020-09", "direct") in pirdeni_orgs, "Missing month-precision 2020-09 AL_ORG_GOV_MJ role for Adea Pirdeni"
+    assert ("AL_ORG_GOV", "2020-09", "direct") in pirdeni_orgs, "Missing AL_ORG_GOV Minister of Justice role for Adea Pirdeni"
+    assert ("AL_ORG_GOV_MSHAA", "2024-01-15", "direct") in pirdeni_orgs, "Missing 2024-01-15 Decision 6/2024 role for Adea Pirdeni"
+    assert ("AL_ORG_GOV", "2025-09-15", "direct") in pirdeni_orgs, "Missing 2025-09-15 Presidential Decree role for Adea Pirdeni"
+    assert ("AL_ORG_PARL", "2025-09-10", "inferred") in pirdeni_orgs, "Missing M1 inferred Parliament membership for Adea Pirdeni"
     assert ("AL_ORG_PS", "2025-09-10", "inferred") in pirdeni_orgs, "Missing M2 inferred Party membership for Adea Pirdeni"
+    pirdeni_mj_descs = {
+        (a.org_id, a.role, a.description)
+        for a in pirdeni.affiliations
+        if a.org_id in ("AL_ORG_GOV", "AL_ORG_GOV_MJ") and a.from_date == "2020-09"
+    }
+    assert ("AL_ORG_GOV", "minister", "Minister of Justice") in pirdeni_mj_descs
+    assert ("AL_ORG_GOV_MJ", "minister", "Minister of Justice") in pirdeni_mj_descs
 
-    # 3c. Mixed group AL_ORG_GP_AN (Section 8 & 9: M1 applies, M2 does NOT infer party from GP_AN)
+    # 3c. Mixed group AL_ORG_PARL_GP_AN (Section 8 & 9: M1 applies, M2 does NOT infer party from GP_AN)
     dule = persons["AL_PERS_VangjelDule"]
     dule_inferred_orgs = {a.org_id for a in dule.affiliations if a.basis == "inferred"}
-    assert "AL_ORG_Kuvendi" in dule_inferred_orgs, "M1 failed to infer Parliament membership for GP_AN member Vangjel Dule"
+    assert "AL_ORG_PARL" in dule_inferred_orgs, "M1 failed to infer Parliament membership for GP_AN member Vangjel Dule"
     assert len(dule_inferred_orgs) == 1, f"M2 must not infer party membership from multi-party group GP_AN: {dule_inferred_orgs}"
+
+    # 3c-2. Verify organizational hierarchy & parent_org_id rules
+    assert "AL_ORG_GOV" in orgs and not orgs["AL_ORG_GOV"].parent_org_id
+    assert "AL_ORG_PARL" in orgs and not orgs["AL_ORG_PARL"].parent_org_id
+    for oid, o_obj in orgs.items():
+        if o_obj.org_type == "ministry":
+            assert oid.startswith("AL_ORG_GOV_"), f"Ministry {oid} must start with AL_ORG_GOV_"
+            assert o_obj.parent_org_id == "AL_ORG_GOV", f"Ministry {oid} must have parent_org_id == AL_ORG_GOV"
+        elif o_obj.org_type in ("parliamentaryBody", "committee", "parliamentaryGroup"):
+            assert oid.startswith("AL_ORG_PARL_"), f"Parliamentary body/committee/group {oid} must start with AL_ORG_PARL_"
+            assert o_obj.parent_org_id == "AL_ORG_PARL", f"{oid} must have parent_org_id == AL_ORG_PARL"
+            if o_obj.org_type == "committee":
+                assert oid.startswith("AL_ORG_PARL_COM_"), f"Committee {oid} must start with AL_ORG_PARL_COM_"
+            elif o_obj.org_type == "parliamentaryGroup":
+                assert oid.startswith("AL_ORG_PARL_GP_"), f"Parliamentary group {oid} must start with AL_ORG_PARL_GP_"
+        elif o_obj.org_type == "independentInstitution":
+            assert not o_obj.parent_org_id, f"Independent institution {oid} must have no parent_org_id"
+        elif o_obj.org_type == "localGovernment":
+            assert oid.startswith("AL_ORG_LOCGOV_"), f"Local government {oid} must start with AL_ORG_LOCGOV_"
+            assert not o_obj.parent_org_id, f"Local government {oid} must have no parent_org_id"
+        assert o_obj.name_full and o_obj.name_en, f"Organization {oid} must have both Albanian (name_full) and English (name_en) names"
+        assert o_obj.org_type_en and o_obj.org_type_sq, f"Organization {oid} must have bilingual org_type_en and org_type_sq"
+
+    # Verify affiliations.csv has bilingual role (role_en, role_sq) and description (description, description_sq)
+    with (meta_p / "affiliations.csv").open(newline="", encoding="utf-8") as f:
+        aff_reader = csv.DictReader(f)
+        aff_headers = aff_reader.fieldnames or []
+        for req_col in ("role", "role_en", "role_sq", "description", "description_sq"):
+            assert req_col in aff_headers, f"Missing {req_col!r} column in affiliations.csv"
+        assert "source_role" not in aff_headers, "source_role should be renamed to description in affiliations.csv"
+        for a_row in aff_reader:
+            assert a_row.get("role") and a_row.get("role_en") and a_row.get("role_sq"), f"Missing bilingual role in {a_row}"
+            assert a_row.get("description") and a_row.get("description_sq"), f"Missing bilingual description in {a_row}"
 
     # 3d. Guest speaker test (Besnik Dervishi on 2025-10-06)
     res_guest = resolve_speaker_for_date(
@@ -490,6 +531,12 @@ def run_all_validations(
 
     assert not duplicate_ids, f"Duplicate XML IDs found: {duplicate_ids[:10]}"
     assert not dangling_pointers, f"Dangling XML pointers found: {dangling_pointers[:10]}"
+
+    # Verify all generated XML files are multi-line pretty-printed (no single-line XML dumps)
+    for xml_f in list(tei_p.glob("*.xml")) + included_components:
+        if xml_f.exists():
+            line_cnt = len(xml_f.read_text(encoding="utf-8").splitlines())
+            assert line_cnt > 5, f"XML file {xml_f.name} is not properly indented/formatted (only {line_cnt} lines)"
 
     # Save expected-output fixture & validation report
     fixture_path = meta_p / "section12_expected_fixtures.tsv"

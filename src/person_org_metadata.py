@@ -19,6 +19,26 @@ ET.register_namespace("", TEI_NS)
 ET.register_namespace("xml", XML_NS)
 
 
+def _indent_xml(element: ET.Element, level: int = 0) -> None:
+    """Recursively pretty-print an ElementTree XML node with 2-space indentation."""
+    children = list(element)
+    if not children:
+        return
+
+    for child in children:
+        _indent_xml(child, level + 1)
+
+    if (element.text and element.text.strip()) or any(
+        child.tail and child.tail.strip() for child in children
+    ):
+        return
+
+    element.text = "\n" + "  " * (level + 1)
+    for child in children[:-1]:
+        child.tail = "\n" + "  " * (level + 1)
+    children[-1].tail = "\n" + "  " * level
+
+
 def q(tag: str) -> str:
     return f"{{{TEI_NS}}}{tag}"
 
@@ -31,13 +51,16 @@ def xml_attr(local: str) -> str:
 class Affiliation:
     """Represents a temporal affiliation or office assertion linking a person to an organization."""
     org_id: str
-    role: Optional[str] = None  # Canonical: head, deputyHead, member, minister, guest
+    role: Optional[str] = None  # Canonical: head, deputyHead, member, minister, mayor, guest
+    role_en: Optional[str] = None
+    role_sq: Optional[str] = None
+    description: Optional[str] = None
+    description_sq: Optional[str] = None
     from_date: Optional[str] = None
     to_date: Optional[str] = None
     role_name_sq: Optional[str] = None
     role_name_en: Optional[str] = None
     assertion_id: Optional[str] = None
-    source_role: Optional[str] = None
     roster_class: Optional[str] = None
     from_precision: Optional[str] = None
     to_precision: Optional[str] = None
@@ -80,12 +103,15 @@ class OrgMetadata:
     """Metadata for a parliamentary body, political party, parliamentary group, committee, or government body."""
     org_id: str
     org_type: str
+    org_type_en: Optional[str] = None
+    org_type_sq: Optional[str] = None
     name_short: Optional[str] = None
     name_full: Optional[str] = None
     name_en: Optional[str] = None
     orientation: Optional[str] = None
     parent_org_id: Optional[str] = None
     remit: Optional[str] = None
+    remit_sq: Optional[str] = None
     country: str = "AL"
     source_id: Optional[str] = None
     source_locator: Optional[str] = None
@@ -117,6 +143,8 @@ def normalize_affiliation_role(raw_role: Optional[str]) -> Optional[str]:
     if not raw_role:
         return None
     r = raw_role.strip().lower()
+    if r in ("mayor", "kryetar bashkie", "kryetare bashkie"):
+        return "mayor"
     if r in ("head", "chair", "chairperson", "groupleader", "leader", "kryetar", "kryetare", "bashkëkryetar", "bashkëkryetare", "president"):
         return "head"
     if r in ("deputyhead", "deputychair", "deputychairperson", "deputyleader", "vicechair", "nënkryetar", "nënkryetare", "zëvendëskryetar", "zëvendëskryetare", "deputy"):
@@ -138,14 +166,19 @@ def infer_role_names(role: Optional[str], org_id: str, sex: Optional[str] = None
     is_female = bool(sex and sex.upper() in ("F", "FEMALE", "FEMËR"))
     org_lower = org_id.lower()
 
+    if role == "mayor":
+        sq = "Kryetare e Bashkisë" if is_female else "Kryetar i Bashkisë"
+        en = "Mayor"
+        return sq, en
+
     if role == "head":
-        if "kuvend" in org_lower or "parliament" in org_lower:
+        if org_id == "AL_ORG_PARL" or "kuvend" in org_lower or "parliament" in org_lower:
             sq = "Kryetare e Kuvendit" if is_female else "Kryetar i Kuvendit"
             en = "Speaker of the Parliament"
         elif "gp_" in org_lower or "group" in org_lower or "grupi" in org_lower:
             sq = "Kryetare e Grupit Parlamentar" if is_female else "Kryetar i Grupit Parlamentar"
             en = "Chair of Parliamentary Group"
-        elif any(k in org_lower for k in ("clap", "kepf", "kcbm", "kess", "ksms", "kbnizhq", "kbuzhr", "kepj", "knqbmi", "kdnjmip", "kktd", "kprat", "kkie", "committee")):
+        elif "_com_" in org_lower or any(k in org_lower for k in ("clap", "kepf", "kcbm", "kess", "ksms", "kbnizhq", "kbuzhr", "kepj", "knqbmi", "kdnjmip", "kktd", "kprat", "kkie", "committee")):
             sq = "Kryetare e Komisionit" if is_female else "Kryetar i Komisionit"
             en = "Chair of Parliamentary Committee"
         else:
@@ -154,13 +187,13 @@ def infer_role_names(role: Optional[str], org_id: str, sex: Optional[str] = None
         return sq, en
 
     if role == "deputyHead":
-        if "kuvend" in org_lower or "parliament" in org_lower:
+        if org_id == "AL_ORG_PARL" or "kuvend" in org_lower or "parliament" in org_lower:
             sq = "Nënkryetare e Kuvendit" if is_female else "Nënkryetar i Kuvendit"
             en = "Deputy Speaker of the Parliament"
         elif "gp_" in org_lower or "group" in org_lower or "grupi" in org_lower:
             sq = "Nënkryetare e Grupit Parlamentar" if is_female else "Nënkryetar i Grupit Parlamentar"
             en = "Deputy Chair of Parliamentary Group"
-        elif any(k in org_lower for k in ("clap", "kepf", "kcbm", "kess", "ksms", "kbnizhq", "kbuzhr", "kepj", "knqbmi", "kdnjmip", "kktd", "kprat", "kkie", "committee")):
+        elif "_com_" in org_lower or any(k in org_lower for k in ("clap", "kepf", "kcbm", "kess", "ksms", "kbnizhq", "kbuzhr", "kepj", "knqbmi", "kdnjmip", "kktd", "kprat", "kkie", "committee")):
             sq = "Nënkryetare e Komisionit" if is_female else "Nënkryetar i Komisionit"
             en = "Vice Chair of Parliamentary Committee"
         else:
@@ -272,8 +305,11 @@ def load_affiliations_csv(path: Path | str, persons: Dict[str, PersonMetadata]) 
             from_d = (row.get("from_date") or row.get("from") or "").strip() or None
             to_d = (row.get("to_date") or row.get("to") or "").strip() or None
 
-            role_name_sq = (row.get("role_name_sq") or row.get("roleName_sq") or row.get("role_sq") or "").strip() or None
-            role_name_en = (row.get("role_name_en") or row.get("roleName_en") or row.get("role_en") or "").strip() or None
+            desc_en = (row.get("description") or row.get("role_name_en") or "").strip() or None
+            desc_sq = (row.get("description_sq") or row.get("role_name_sq") or row.get("source_role") or "").strip() or None
+
+            role_name_sq = (row.get("role_name_sq") or desc_sq or row.get("role_sq") or "").strip() or None
+            role_name_en = (row.get("role_name_en") or desc_en or row.get("role_en") or "").strip() or None
 
             if not role_name_sq and not role_name_en:
                 inferred_sq, inferred_en = infer_role_names(role, org_id, pers.sex)
@@ -284,12 +320,15 @@ def load_affiliations_csv(path: Path | str, persons: Dict[str, PersonMetadata]) 
                 Affiliation(
                     org_id=org_id,
                     role=role,
+                    role_en=(row.get("role_en") or "").strip() or None,
+                    role_sq=(row.get("role_sq") or "").strip() or None,
+                    description=desc_en,
+                    description_sq=desc_sq,
                     from_date=from_d,
                     to_date=to_d,
                     role_name_sq=role_name_sq,
                     role_name_en=role_name_en,
                     assertion_id=(row.get("assertion_id") or "").strip() or None,
-                    source_role=(row.get("source_role") or "").strip() or None,
                     roster_class=(row.get("roster_class") or "").strip() or None,
                     from_precision=(row.get("from_precision") or "").strip() or None,
                     to_precision=(row.get("to_precision") or "").strip() or None,
@@ -336,12 +375,15 @@ def load_orgs_csv(path: Path | str) -> Dict[str, OrgMetadata]:
             orgs[oid] = OrgMetadata(
                 org_id=oid,
                 org_type=otype,
+                org_type_en=(row.get("org_type_en") or "").strip() or None,
+                org_type_sq=(row.get("org_type_sq") or "").strip() or None,
                 name_short=short_n,
                 name_full=full_n,
                 name_en=en_n,
                 orientation=orient,
                 parent_org_id=parent,
                 remit=remit,
+                remit_sq=(row.get("remit_sq") or "").strip() or None,
                 country=country,
                 source_id=(row.get("source_id") or "").strip() or None,
                 source_locator=(row.get("source_locator") or "").strip() or None,
@@ -450,8 +492,9 @@ def build_listPerson(persons: Iterable[PersonMetadata]) -> ET.Element:
 
 
 def write_listPerson(persons: Iterable[PersonMetadata], out_path: Path | str) -> None:
-    """Serialize <listPerson> to an XML file."""
+    """Serialize <listPerson> to a pretty-printed XML file."""
     root = build_listPerson(persons)
+    _indent_xml(root)
     p = Path(out_path)
     p.parent.mkdir(parents=True, exist_ok=True)
     ET.ElementTree(root).write(p, encoding="utf-8", xml_declaration=True)
@@ -488,7 +531,7 @@ def build_listOrg(
         if org.name_short:
             ET.SubElement(o_el, q("orgName"), {"full": "abb"}).text = org.name_short
 
-        if org.org_id == "AL_ORG_Kuvendi":
+        if org.org_id == "AL_ORG_PARL":
             ev = ET.SubElement(o_el, q("event"), {"from": "2025-09-10", xml_attr("id"): "KUV.XI"})
             ET.SubElement(ev, q("label"), {xml_attr("lang"): "sq"}).text = "Legjislatura XI e Kuvendit të Shqipërisë"
             ET.SubElement(ev, q("label"), {xml_attr("lang"): "en"}).text = "Legislature XI of the Parliament of Albania"
@@ -536,8 +579,9 @@ def write_listOrg(
     out_path: Path | str,
     org_relations: Optional[Iterable[OrgRelation]] = None,
 ) -> None:
-    """Serialize <listOrg> to an XML file."""
+    """Serialize <listOrg> to a pretty-printed XML file."""
     root = build_listOrg(orgs, org_relations=org_relations)
+    _indent_xml(root)
     p = Path(out_path)
     p.parent.mkdir(parents=True, exist_ok=True)
     ET.ElementTree(root).write(p, encoding="utf-8", xml_declaration=True)
