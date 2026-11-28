@@ -23,7 +23,7 @@
       "has_reliability": true
     },
     "elections.csv": {
-      "rows": 5,
+      "rows": 140,
       "has_reliability": true
     },
     "org_relations.csv": {
@@ -31,7 +31,7 @@
       "has_reliability": true
     },
     "orgs.csv": {
-      "rows": 54,
+      "rows": 58,
       "has_reliability": true
     },
     "participants.csv": {
@@ -39,11 +39,11 @@
       "has_reliability": true
     },
     "persons.csv": {
-      "rows": 535,
+      "rows": 542,
       "has_reliability": true
     },
     "review_queue.csv": {
-      "rows": 157,
+      "rows": 164,
       "has_reliability": true
     },
     "sources.csv": {
@@ -51,10 +51,10 @@
       "has_reliability": true
     }
   },
-  "total_verified_persons_in_tei": 536,
-  "total_verified_orgs_in_tei": 56,
+  "total_verified_persons_in_tei": 543,
+  "total_verified_orgs_in_tei": 60,
   "total_component_xml_files": 114,
-  "total_unique_xml_ids": 10937,
+  "total_unique_xml_ids": 10948,
   "duplicate_xml_ids": 0,
   "dangling_pointers": 0
 }

@@ -27,8 +27,10 @@ Implements Sections 1–13 of ParlaMint_AL_Metadata_Collection_and_Validation_Gu
 from __future__ import annotations
 import csv
 import hashlib
+import html
 import json
 import re
+import urllib.request
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
@@ -640,6 +642,66 @@ CANONICAL_ORGS: List[Dict[str, str]] = [
         "orientation": "left",
         "parent_org_id": "",
         "remit": "Registered political party in Albania",
+        "country": "AL",
+        "source_id": "SRC_KQZ_2025",
+        "source_locator": "KQZ 2025 Elected Members Annex",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_FRD",
+        "org_type": "politicalParty",
+        "name_short": "FRD",
+        "name_full": "Fryma e Re Demokratike",
+        "name_en": "New Democratic Spirit",
+        "orientation": "centre-right",
+        "parent_org_id": "",
+        "remit": "Registered political party in Albania (component party of PD-AMSH coalition)",
+        "country": "AL",
+        "source_id": "SRC_KQZ_2025",
+        "source_locator": "KQZ 2025 Elected Members Annex",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_PBKD",
+        "org_type": "politicalParty",
+        "name_short": "PBKD",
+        "name_full": "Partia Balli Kombëtar Demokrat",
+        "name_en": "Democratic National Front Party",
+        "orientation": "right",
+        "parent_org_id": "",
+        "remit": "Registered political party in Albania (component party of PD-AMSH coalition)",
+        "country": "AL",
+        "source_id": "SRC_KQZ_2025",
+        "source_locator": "KQZ 2025 Elected Members Annex",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_PLL",
+        "org_type": "politicalParty",
+        "name_short": "PLL",
+        "name_full": "Partia Lëvizja e Legalitetit",
+        "name_en": "Legality Movement Party",
+        "orientation": "right",
+        "parent_org_id": "",
+        "remit": "Registered political party in Albania (component party of PD-AMSH coalition)",
+        "country": "AL",
+        "source_id": "SRC_KQZ_2025",
+        "source_locator": "KQZ 2025 Elected Members Annex",
+        "review_status": "confirmed",
+        "reliability": "Verified",
+    },
+    {
+        "org_id": "AL_ORG_SHB",
+        "org_type": "politicalParty",
+        "name_short": "SHB",
+        "name_full": "Lëvizja Shqipëria Bëhet",
+        "name_en": "Albania Becomes Movement",
+        "orientation": "centre",
+        "parent_org_id": "",
+        "remit": "Registered political party in Albania (component party of NISMA-SHB coalition)",
         "country": "AL",
         "source_id": "SRC_KQZ_2025",
         "source_locator": "KQZ 2025 Elected Members Annex",
@@ -3404,119 +3466,157 @@ def reconstruct_all_metadata(
         })
         al_idx += 1
 
-    # 7. Build Elections & Mandate Table (Section 3)
-    elections_rows: List[Dict[str, str]] = [
-        {
-            "election_id": "EL_2025_TIR_PIRDENI",
+    # 7. Build Elections & Mandate Table (Section 3) — All 140 Elected Deputies from KQZ 2025
+    # NOTE: https://iemis.kqz.gov.al/results2025-finale/?lang=AL&v1=ALL is a JavaScript SPA whose
+    # static HTML contains empty placeholder tables (<div id="tabcontent_deputy">). The browser
+    # loads the 140 elected deputy records via XMLHttpRequest from:
+    #   https://iemis.kqz.gov.al/results2025-finale/input/deputy/json_all.txt
+    kqz_json_cache = meta_p / "kqz_2025_elected_deputies.json"
+    kqz_legacy_cache = meta_p / "kqz_2025_deputies_json_all.json"
+    kqz_json_url = "https://iemis.kqz.gov.al/results2025-finale/input/deputy/json_all.txt"
+
+    kqz_payload: Dict = {}
+    if kqz_json_cache.exists():
+        kqz_payload = json.loads(kqz_json_cache.read_text(encoding="utf-8"))
+    elif kqz_legacy_cache.exists():
+        kqz_payload = json.loads(kqz_legacy_cache.read_text(encoding="utf-8"))
+        kqz_json_cache.write_text(json.dumps(kqz_payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    else:
+        try:
+            req = urllib.request.Request(kqz_json_url, headers={"User-Agent": "ParlaMint-AL/1.0"})
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                raw_bytes = resp.read()
+                kqz_payload = json.loads(raw_bytes.decode("utf-8"))
+                kqz_json_cache.write_text(json.dumps(kqz_payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        except Exception as exc:
+            raise RuntimeError(
+                f"Could not fetch KQZ 2025 deputy JSON from {kqz_json_url} and no local cache at {kqz_json_cache}: {exc}"
+            ) from exc
+
+    kqz_raw_rows = kqz_payload.get("data", [])
+    if len(kqz_raw_rows) != 140:
+        raise ValueError(f"Expected 140 elected deputy rows from KQZ 2025 JSON endpoint, got {len(kqz_raw_rows)}")
+
+    district_map: Dict[str, Tuple[str, str, str]] = {
+        "BERAT": ("Qarku Berat", "AL_DIST_Berat", "BER"),
+        "DIBËR": ("Qarku Dibër", "AL_DIST_Diber", "DIB"),
+        "DURRËS": ("Qarku Durrës", "AL_DIST_Durres", "DUR"),
+        "ELBASAN": ("Qarku Elbasan", "AL_DIST_Elbasan", "ELB"),
+        "FIER": ("Qarku Fier", "AL_DIST_Fier", "FIE"),
+        "GJIROKASTËR": ("Qarku Gjirokastër", "AL_DIST_Gjirokaster", "GJI"),
+        "KORÇË": ("Qarku Korçë", "AL_DIST_Korce", "KOR"),
+        "KUKËS": ("Qarku Kukës", "AL_DIST_Kukes", "KUK"),
+        "LEZHË": ("Qarku Lezhë", "AL_DIST_Lezhe", "LEZ"),
+        "SHKODËR": ("Qarku Shkodër", "AL_DIST_Shkoder", "SHK"),
+        "TIRANË": ("Qarku Tiranë", "AL_DIST_Tirane", "TIR"),
+        "VLORË": ("Qarku Vlorë", "AL_DIST_Vlore", "VLO"),
+    }
+    subject_id_map: Dict[str, str] = {
+        "PS": "AL_ORG_PS",
+        "PD-AMSH": "AL_ORG_KOAL_PD_AMSH",
+        "NISMA-SHB": "AL_ORG_KOAL_NISMA_SHB",
+        "PSD": "AL_ORG_PSD",
+        "MUNDËSIA": "AL_ORG_MUNDESIA",
+        "BASHKË": "AL_ORG_BASHKE",
+    }
+    # Build party_abbr -> org_id lookup directly from CANONICAL_ORGS (orgs.csv)
+    party_abbr_to_org_id: Dict[str, str] = {
+        o["name_short"].strip(): o["org_id"]
+        for o in CANONICAL_ORGS
+        if o.get("org_type") == "politicalParty" and o.get("name_short")
+    }
+
+    elections_rows: List[Dict[str, str]] = []
+    for k_row in kqz_raw_rows:
+        row_nr = str(k_row.get("v1") or "").strip()
+        given_raw = html.unescape(str(k_row.get("v2") or "")).strip()
+        patronymic_raw = html.unescape(str(k_row.get("v3") or "")).strip()
+        surname_raw = html.unescape(str(k_row.get("v4") or "")).strip()
+        qarku_unescaped = html.unescape(str(k_row.get("v5") or "")).strip().upper()
+        subj_raw = html.unescape(str(k_row.get("v6") or "")).strip()
+        sigla_raw = html.unescape(str(k_row.get("v7") or "")).strip()
+        party_abbr = html.unescape(str(k_row.get("v8") or "")).strip() or sigla_raw
+
+        # Fix upstream KQZ JSON column swap on row 101 (Zegjine Artan Çaushi entered as v3='Caushi', v4='Artan')
+        given_for_id = given_raw
+        surname_for_id = surname_raw
+        patronymic_clean = patronymic_raw
+        if row_nr == "101" and patronymic_raw.lower() in ("caushi", "çaushi") and surname_raw.lower() == "artan":
+            patronymic_clean = "Artan"
+            surname_for_id = "Çaushi"
+
+        # Capitalize patronymic cleanly if lowercase in KQZ (e.g. 'çlirim' -> 'Çlirim')
+        if patronymic_clean and patronymic_clean[0].islower():
+            patronymic_clean = patronymic_clean[0].upper() + patronymic_clean[1:]
+
+        pid, fn, sn, _ = resolve_canonical_person_name(f"{given_for_id} {surname_for_id}")
+        if pid in auto_merged:
+            pid, fn, sn, _ = auto_merged[pid]
+
+        dist_label, dist_id, dist_code = district_map.get(
+            qarku_unescaped, (f"Qarku {qarku_unescaped.title()}", f"AL_DIST_{qarku_unescaped.title()}", qarku_unescaped[:3])
+        )
+        elec_subj_id = subject_id_map.get(sigla_raw, "")
+        party_org_id = party_abbr_to_org_id.get(party_abbr, "")
+
+        # Ensure the elected deputy exists in discovered_persons and populate patronymic_raw (Guide Section 2 & 3)
+        p_entry = discovered_persons.setdefault(pid, {
+            "person_id": pid,
+            "forename": fn,
+            "surname": sn,
+            "patronymic_raw": patronymic_clean,
+            "sex": "",
+            "birth_date": "",
+            "birth_place": "",
+            "education": "",
+            "occupation": "",
+            "wikidata_id": "",
+            "wikipedia": "",
+            "source_id": "SRC_KQZ_2025",
+            "source_locator": f"KQZ 2025 Lista Emërore e Deputetëve (Nr. {row_nr}, {dist_label})",
+            "review_status": "confirmed",
+            "value_state": "stated",
+            "reliability": "Verified",
+        })
+        if patronymic_clean and not p_entry.get("patronymic_raw"):
+            p_entry["patronymic_raw"] = patronymic_clean
+        if pid in wikidata_lookup:
+            w = wikidata_lookup[pid]
+            if w.get("wikidata_id") and not p_entry.get("wikidata_id"):
+                p_entry["wikidata_id"] = w["wikidata_id"]
+            if w.get("sex") and not p_entry.get("sex"):
+                p_entry["sex"] = w["sex"]
+            if w.get("birth_date") and not p_entry.get("birth_date"):
+                p_entry["birth_date"] = w["birth_date"].replace("-00-00", "")
+            if w.get("wikipedia") and not p_entry.get("wikipedia"):
+                p_entry["wikipedia"] = w["wikipedia"]
+
+        elections_rows.append({
+            "election_id": f"EL_2025_{int(row_nr):03d}_{dist_code}_{pid.replace('AL_PERS_', '')}",
             "election_date": "2025-05-11",
-            "person_id": "AL_PERS_AdeaPirdeni",
-            "source_row": "Tiranë-PS-AdeaPirdeni",
-            "given_name_raw": "Adea",
-            "patronymic_raw": "",
-            "surname_raw": "Pirdeni",
-            "district_raw": "Qarku Tiranë",
-            "district_id": "AL_DIST_Tirane",
-            "electoral_subject_raw": "Partia Socialiste e Shqipërisë",
-            "subject_abbr_raw": "PS",
-            "electoral_subject_id": "AL_ORG_PS",
-            "coalition_party_raw": "",
-            "coalition_party_id": "",
-            "decision_date": "2025-07-01",
+            "person_id": pid,
+            "source_row": row_nr,
+            "given_name_raw": given_raw,
+            "patronymic_raw": patronymic_raw,
+            "surname_raw": surname_raw,
+            "district_raw": dist_label,
+            "district_id": dist_id,
+            "electoral_subject_raw": subj_raw,
+            "subject_abbr_raw": sigla_raw,
+            "electoral_subject_id": elec_subj_id,
+            "party_abbr": party_abbr,
+            "org_id": party_org_id,
+            "decision_date": "2025-09-05",
             "effective_date": "2025-09-10",
             "source_id": "SRC_KQZ_2025",
-            "source_locator": "LISTA EMËRORE E DEPUTETËVE TË ZGJEDHUR - Qarku Tiranë (Adea Pirdeni)",
+            "source_locator": (
+                f"https://iemis.kqz.gov.al/results2025-finale/input/deputy/json_all.txt "
+                f"#row={row_nr} ({fn} {sn}, {dist_label}, {sigla_raw}"
+                f"{'/' + party_abbr if party_abbr else ''})"
+            ),
             "review_status": "confirmed",
             "reliability": "Verified",
-        },
-        {
-            "election_id": "EL_2025_KOR_PELESHI",
-            "election_date": "2025-05-11",
-            "person_id": "AL_PERS_NikoPeleshi",
-            "source_row": "Korçë-PS-NikoPeleshi",
-            "given_name_raw": "Niko",
-            "patronymic_raw": "Aleks",
-            "surname_raw": "Peleshi",
-            "district_raw": "Qarku Korçë",
-            "district_id": "AL_DIST_Korce",
-            "electoral_subject_raw": "Partia Socialiste e Shqipërisë",
-            "subject_abbr_raw": "PS",
-            "electoral_subject_id": "AL_ORG_PS",
-            "coalition_party_raw": "",
-            "coalition_party_id": "",
-            "decision_date": "2025-07-01",
-            "effective_date": "2025-09-10",
-            "source_id": "SRC_KQZ_2025",
-            "source_locator": "LISTA EMËRORE E DEPUTETËVE TË ZGJEDHUR - Qarku Korçë (Niko Peleshi)",
-            "review_status": "confirmed",
-            "reliability": "Verified",
-        },
-        {
-            "election_id": "EL_2025_TIR_TABAKU",
-            "election_date": "2025-05-11",
-            "person_id": "AL_PERS_JoridaTabaku",
-            "source_row": "Tiranë-PD-AMSH-JoridaTabaku",
-            "given_name_raw": "Jorida",
-            "patronymic_raw": "",
-            "surname_raw": "Tabaku",
-            "district_raw": "Qarku Tiranë",
-            "district_id": "AL_DIST_Tirane",
-            "electoral_subject_raw": "Koalicioni Partia Demokratike – Aleanca për Shqipërinë Madhështore",
-            "subject_abbr_raw": "PD-AMSH",
-            "electoral_subject_id": "AL_ORG_KOAL_PD_AMSH",
-            "coalition_party_raw": "PD",
-            "coalition_party_id": "AL_ORG_PD",
-            "decision_date": "2025-07-01",
-            "effective_date": "2025-09-10",
-            "source_id": "SRC_KQZ_2025",
-            "source_locator": "LISTA EMËRORE E DEPUTETËVE TË ZGJEDHUR - Qarku Tiranë (Jorida Tabaku, PD-AMSH / PD)",
-            "review_status": "confirmed",
-            "reliability": "Verified",
-        },
-        {
-            "election_id": "EL_2025_DUR_LUKU",
-            "election_date": "2025-05-11",
-            "person_id": "AL_PERS_ArtanLuku",
-            "source_row": "Durrës-PD-AMSH-ArtanLuku",
-            "given_name_raw": "Artan",
-            "patronymic_raw": "",
-            "surname_raw": "Luku",
-            "district_raw": "Qarku Durrës",
-            "district_id": "AL_DIST_Durres",
-            "electoral_subject_raw": "Koalicioni Partia Demokratike – Aleanca për Shqipërinë Madhështore",
-            "subject_abbr_raw": "PD-AMSH",
-            "electoral_subject_id": "AL_ORG_KOAL_PD_AMSH",
-            "coalition_party_raw": "PAA",
-            "coalition_party_id": "AL_ORG_PAA",
-            "decision_date": "2025-07-01",
-            "effective_date": "2025-09-10",
-            "source_id": "SRC_KQZ_2025",
-            "source_locator": "LISTA EMËRORE E DEPUTETËVE TË ZGJEDHUR - Qarku Durrës (Artan Luku, PD-AMSH / PAA)",
-            "review_status": "confirmed",
-            "reliability": "Verified",
-        },
-        {
-            "election_id": "EL_2025_TIR_SHEHAJ",
-            "election_date": "2025-05-11",
-            "person_id": "AL_PERS_AgronShehaj",
-            "source_row": "Tiranë-MUNDESIA-AgronShehaj",
-            "given_name_raw": "Agron",
-            "patronymic_raw": "",
-            "surname_raw": "Shehaj",
-            "district_raw": "Qarku Tiranë",
-            "district_id": "AL_DIST_Tirane",
-            "electoral_subject_raw": "Partia Mundësia",
-            "subject_abbr_raw": "MUNDËSIA",
-            "electoral_subject_id": "AL_ORG_MUNDESIA",
-            "coalition_party_raw": "",
-            "coalition_party_id": "",
-            "decision_date": "2025-07-01",
-            "effective_date": "2025-09-10",
-            "source_id": "SRC_KQZ_2025",
-            "source_locator": "LISTA EMËRORE E DEPUTETËVE TË ZGJEDHUR - Qarku Tiranë (Agron Shehaj)",
-            "review_status": "confirmed",
-            "reliability": "Verified",
-        },
-    ]
+        })
 
     # 8. Build CHES Crosswalk Table (Section 10)
     ches_rows: List[Dict[str, str]] = [
@@ -3654,7 +3754,7 @@ def reconstruct_all_metadata(
         [
             "election_id", "election_date", "person_id", "source_row", "given_name_raw",
             "patronymic_raw", "surname_raw", "district_raw", "district_id", "electoral_subject_raw",
-            "subject_abbr_raw", "electoral_subject_id", "coalition_party_raw", "coalition_party_id",
+            "subject_abbr_raw", "electoral_subject_id", "party_abbr", "org_id",
             "decision_date", "effective_date", "source_id", "source_locator", "review_status", "reliability",
         ],
         elections_rows,

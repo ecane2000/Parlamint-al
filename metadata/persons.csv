@@ -6,10 +6,10 @@ AL_PERS_BoranaAjazi,Borana,Ajazi,,,,,,,,,SRC_PROC_2026_07_07_1,ParlaMint-AL_2026
 AL_PERS_IlirAjdini,Ilir,Ajdini,,,,,,,,,SRC_PROC_2026_07_07_1,ParlaMint-AL_2026-07-07-1 speech turn ParlaMint-AL_2026-07-07-1.u67,confirmed,stated,Verified
 AL_PERS_OltaAlia,Olta,Alia,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_EduartAliaj,Eduart,Aliaj,,,,,,,,,SRC_PROC_2026_07_14_1,ParlaMint-AL_2026-07-14-1 speech turn ParlaMint-AL_2026-07-14-1.u21,confirmed,stated,Verified
-AL_PERS_TomorAlizoti,Tomor,Alizoti,,,,,,,,,SRC_PROC_2026_04_08_1,Header section: absent,confirmed,stated,Verified
+AL_PERS_TomorAlizoti,Tomor,Alizoti,Fejzi,,,,,,,,SRC_PROC_2026_04_08_1,Header section: absent,confirmed,stated,Verified
 AL_PERS_EmiljanoAlla,Emiljano,Alla,,,,,,,,,SRC_PROC_2026_07_20,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_GëzimAllaraj,Gëzim,Allaraj,,,,,,,,,SRC_PROC_2025_11_11_2,ParlaMint-AL_2025-11-11-2 speech turn ParlaMint-AL_2025-11-11-2.u67,confirmed,stated,Verified
-AL_PERS_LedinaAlolli,Ledina,Alolli,,,,,,,,,SRC_PROC_2026_09_23,ParlaMint-AL_2026-09-23 speech turn ParlaMint-AL_2026-09-23.u56,confirmed,stated,Verified
+AL_PERS_LedinaAlolli,Ledina,Alolli,Bardhyl,,,,,,,,SRC_PROC_2026_09_23,ParlaMint-AL_2026-09-23 speech turn ParlaMint-AL_2026-09-23.u56,confirmed,stated,Verified
 AL_PERS_EliraAlushani,Elira,Alushani,,,,,,,,,SRC_PROC_2026_07_14_1,ParlaMint-AL_2026-07-14-1 speech turn ParlaMint-AL_2026-07-14-1.u78,confirmed,stated,Verified
 AL_PERS_LinedaArapaj,Lineda,Arapaj,,,,,,,,,SRC_PROC_2026_07_17,ParlaMint-AL_2026-07-17 speech turn ParlaMint-AL_2026-07-17.u84,confirmed,stated,Verified
 AL_PERS_EltonArbana,Elton,Arbana,,,,,,,,,SRC_PROC_2026_05_13_1,Header section: invited_guest,confirmed,stated,Verified
@@ -22,21 +22,22 @@ AL_PERS_ArmelaBaka,Armela,Baka,,,,,,,,,SRC_PROC_2026_06_09_2,ParlaMint-AL_2026-0
 AL_PERS_JoelBakiu,Joel,Bakiu,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_ErindaBalanca,Erinda,Balanca,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_ShpendBalilaj,Shpend,Balilaj,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_ArkendBalla,Arkend,Balla,,,,,,,,,SRC_PROC_2026_10_05_1,ParlaMint-AL_2026-10-05-1 speech turn ParlaMint-AL_2026-10-05-1.u30,confirmed,stated,Verified
-AL_PERS_TaulantBalla,Taulant,Balla,,,,,,,Q13046645,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_KlevisBalliu,Klevis,Balliu,,,,,,,Q31969483,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_ArkendBalla,Arkend,Balla,Bashkim,,,,,,,,SRC_PROC_2026_10_05_1,ParlaMint-AL_2026-10-05-1 speech turn ParlaMint-AL_2026-10-05-1.u30,confirmed,stated,Verified
+AL_PERS_TaulantBalla,Taulant,Balla,Kasem,,,,,,Q13046645,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_KlevisBalliu,Klevis,Balliu,Fahri,,,,,,Q31969483,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_BelindaBalluku,Belinda,Balluku,Çlirim,,,,,,,,SRC_KQZ_2025,"KQZ 2025 Lista Emërore e Deputetëve (Nr. 27, Qarku Fier)",confirmed,stated,Verified
 AL_PERS_GazmendBarbullushi,Gazmend,Barbullushi,,,,,,,,,SRC_PROC_2026_04_08_2,ParlaMint-AL_2026-04-08-2 speech turn ParlaMint-AL_2026-04-08-2.u8,confirmed,stated,Verified
-AL_PERS_GretaBardeli,Greta,Bardeli,,,,,,,Q116218648,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_GazmentBardhi,Gazment,Bardhi,,,,,,,Q47485981,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_GretaBardeli,Greta,Bardeli,Zef,,,,,,Q116218648,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_GazmentBardhi,Gazment,Bardhi,Durim,,,,,,Q47485981,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_JoniadaBarjaba,Joniada,Barjaba,,,,,,,,,SRC_PROC_2026_07_01_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_EvgjeniBashari,Evgjeni,Bashari,,,,,,,,,SRC_PROC_2026_07_08,ParlaMint-AL_2026-07-08 speech turn ParlaMint-AL_2026-07-08.u63,confirmed,stated,Verified
 AL_PERS_KnidiBashari,Knidi,Bashari,,,,,,,,,SRC_PROC_2026_07_06_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_ArbërBasholli,Arbër,Basholli,,,,,,,,,SRC_PROC_2026_07_08,ParlaMint-AL_2026-07-08 speech turn ParlaMint-AL_2026-07-08.u64,confirmed,stated,Verified
-AL_PERS_LuanBaçi,Luan,Baçi,,,,,,,,,SRC_PROC_2026_10_05_1,ParlaMint-AL_2026-10-05-1 speech turn ParlaMint-AL_2026-10-05-1.u44,confirmed,stated,Verified
+AL_PERS_LuanBaçi,Luan,Baçi,Ramadan,,,,,,,,SRC_PROC_2026_10_05_1,ParlaMint-AL_2026-10-05-1 speech turn ParlaMint-AL_2026-10-05-1.u44,confirmed,stated,Verified
 AL_PERS_BenetBeci,Benet,Beci,,,,,,,,,SRC_PROC_2026_06_24_3,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_DorinaBejko,Dorina,Bejko,,,,,,,,,SRC_PROC_2026_07_03,ParlaMint-AL_2026-07-03 speech turn ParlaMint-AL_2026-07-03.u5,confirmed,stated,Verified
 AL_PERS_IlirBejko,Ilir,Bejko,,,,,,,,,SRC_PROC_2026_06_09_1,ParlaMint-AL_2026-06-09-1 speech turn ParlaMint-AL_2026-06-09-1.u26,confirmed,stated,Verified
-AL_PERS_OnidBejleri,Onid,Bejleri,,,,,,,,,SRC_PROC_2025_10_06,Header section: present,confirmed,stated,Verified
+AL_PERS_OnidBejleri,Onid,Bejleri,Bashkim,,,,,,,,SRC_PROC_2025_10_06,Header section: present,confirmed,stated,Verified
 AL_PERS_MejvisBejollari,Mejvis,Bejollari,,,,,,,,,SRC_PROC_2026_04_08_3,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_NuriBelba,Nuri,Belba,,,,,,,,,SRC_PROC_2026_05_13_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_EniBello,Eni,Bello,,,,,,,,,SRC_PROC_2026_07_01_2,Header section: invited_guest,confirmed,stated,Verified
@@ -45,27 +46,27 @@ AL_PERS_MentorBeqa,Mentor,Beqa,,,,,,,,,SRC_PROC_2026_06_24_1,ParlaMint-AL_2026-0
 AL_PERS_EneaBeqiri,Enea,Beqiri,,,,,,,,,SRC_PROC_2026_02_11_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_FjolaBeqiri,Fjola,Beqiri,,,,,,,,,SRC_PROC_2026_07_06_1,ParlaMint-AL_2026-07-06-1 speech turn ParlaMint-AL_2026-07-06-1.u60,confirmed,stated,Verified
 AL_PERS_LorenaBeqiri,Lorena,Beqiri,,,,,,,,,SRC_PROC_2026_07_15_3,ParlaMint-AL_2026-07-15-3 speech turn ParlaMint-AL_2026-07-15-3.u225,confirmed,stated,Verified
-AL_PERS_SaliBerisha,Sali,Berisha,,,,,,,Q57625,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_SaliBerisha,Sali,Berisha,Ramë,,,,,,Q57625,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_DenarBiba,Denar,Biba,,,,,,,,,SRC_PROC_2026_06_24_1,ParlaMint-AL_2026-06-24-1 speech turn ParlaMint-AL_2026-06-24-1.u8,confirmed,stated,Verified
 AL_PERS_HipokratBiba,Hipokrat,Biba,,,,,,,,,SRC_PROC_2026_07_15_3,ParlaMint-AL_2026-07-15-3 speech turn ParlaMint-AL_2026-07-15-3.u219,confirmed,stated,Verified
 AL_PERS_EvaBica,Eva,Bica,,,,,,,,,SRC_PROC_2026_04_08_1,ParlaMint-AL_2026-04-08-1 speech turn ParlaMint-AL_2026-04-08-1.u50,confirmed,stated,Verified
-AL_PERS_ArditBido,Ardit,Bido,,,,,,,Q31666504,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_ArditBido,Ardit,Bido,Avdi,,,,,,Q31666504,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_EdonaBilali,Edona,Bilali,,,,,,,,,SRC_PROC_2026_03_10_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_KlodianBilushi,Klodian,Bilushi,,,,,,,,,SRC_PROC_2026_07_01_3,ParlaMint-AL_2026-07-01-3 speech turn ParlaMint-AL_2026-07-01-3.u23,confirmed,stated,Verified
 AL_PERS_SokolBizhga,Sokol,Bizhga,,,,,,,,,SRC_PROC_2026_07_01_1,ParlaMint-AL_2026-07-01-1 speech turn ParlaMint-AL_2026-07-01-1.u17,confirmed,stated,Verified
-AL_PERS_TediBlushi,Tedi,Blushi,,,,,,,Q116237899,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_TediBlushi,Tedi,Blushi,Gaqo,,,,,,Q116237899,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_MirelaBogdani,Mirela,Bogdani,,,,,,,,,SRC_PROC_2026_07_07_2,ParlaMint-AL_2026-07-07-2 speech turn ParlaMint-AL_2026-07-07-2.u4,confirmed,stated,Verified
 AL_PERS_RudinaBollano,Rudina,Bollano,,,,,,,,,SRC_PROC_2026_01_21,ParlaMint-AL_2026-01-21 speech turn ParlaMint-AL_2026-01-21.u7,confirmed,stated,Verified
 AL_PERS_HermonBonati,Hermon,Bonati,,,,,,,,,SRC_PROC_2026_07_06_1,ParlaMint-AL_2026-07-06-1 speech turn ParlaMint-AL_2026-07-06-1.u57,confirmed,stated,Verified
-AL_PERS_EnnoBozdo,Enno,Bozdo,,M,,,,,Q13039234,,SRC_KUV_KEPF_ROSTER,KEPF Committee Roster & Wikidata Q13039234,confirmed,stated,Verified
-AL_PERS_LuçianoBoçi,Luçiano,Boçi,,,,,,,Q6706730,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_EnnoBozdo,Enno,Bozdo,Shpetim,M,,,,,Q13039234,,SRC_KUV_KEPF_ROSTER,KEPF Committee Roster & Wikidata Q13039234,confirmed,stated,Verified
+AL_PERS_LuçianoBoçi,Luçiano,Boçi,Dhimitër,,,,,,Q6706730,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_BesnikBrahimi,Besnik,Brahimi,,,,,,,,,SRC_PROC_2026_06_19_3,Header section: present,confirmed,stated,Verified
 AL_PERS_FranBrahimi,Fran,Brahimi,,,,,,,,,SRC_PROC_2026_09_28,ParlaMint-AL_2026-09-28 speech turn ParlaMint-AL_2026-09-28.u387,confirmed,stated,Verified
 AL_PERS_KlodianBraho,Klodian,Braho,,,,,,,,,SRC_PROC_2026_07_03,ParlaMint-AL_2026-07-03 speech turn ParlaMint-AL_2026-07-03.u3,confirmed,stated,Verified
-AL_PERS_ErionBraçe,Erion,Braçe,,M,1972-04-02,,,,Q5389310,,SRC_KUV_KEPF_ROSTER,KEPF Committee Roster & Wikidata Q5389310,confirmed,stated,Verified
+AL_PERS_ErionBraçe,Erion,Braçe,Mirdash,M,1972-04-02,,,,Q5389310,,SRC_KUV_KEPF_ROSTER,KEPF Committee Roster & Wikidata Q5389310,confirmed,stated,Verified
 AL_PERS_ValdeteBucaj,Valdete,Bucaj,,,,,,,,,SRC_PROC_2026_06_16,ParlaMint-AL_2026-06-16 speech turn ParlaMint-AL_2026-06-16.u86,confirmed,stated,Verified
 AL_PERS_RobertBudina,Robert,Budina,,,,,,,,,SRC_PROC_2026_07_06_1,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_EtlevaBudini,Etleva,Budini,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_EtlevaBudini,Etleva,Budini,Namik,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_MajlindaBufi,Majlinda,Bufi,,,,,,,,,SRC_PROC_2026_05_28_1,ParlaMint-AL_2026-05-28-1 speech turn ParlaMint-AL_2026-05-28-1.u22,confirmed,stated,Verified
 AL_PERS_FatosBundo,Fatos,Bundo,,,,,,,,,SRC_PROC_2026_03_10_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_AnxhelaBushati,Anxhela,Bushati,,,,,,,,,SRC_PROC_2026_04_21_1,Header section: invited_guest,confirmed,stated,Verified
@@ -73,12 +74,12 @@ AL_PERS_EndiraBushati,Endira,Bushati,,,,,,,,,SRC_PROC_2026_07_15_2,Header sectio
 AL_PERS_ArturBushi,Artur,Bushi,,,,,,,,,SRC_PROC_2026_05_13_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_PetritBushi,Petrit,Bushi,,,,,,,,,SRC_PROC_2026_07_15_1,ParlaMint-AL_2026-07-15-1 speech turn ParlaMint-AL_2026-07-15-1.u113,confirmed,stated,Verified
 AL_PERS_KlotildaBushka,Klotilda,Bushka,,F,,,,,Q31965785,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_HysenBuzali,Hysen,Buzali,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_HysenBuzali,Hysen,Buzali,Agim,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_RexhByberi,Rexh,Byberi,,,,,,,,,SRC_PROC_2026_05_13_1,ParlaMint-AL_2026-05-13-1 speech turn ParlaMint-AL_2026-05-13-1.u7,confirmed,stated,Verified
-AL_PERS_AulonaBylykbashi,Aulona,Bylykbashi,,F,,,,,Q136905275,,SRC_KUV_KEPF_ROSTER,KEPF Committee Roster,confirmed,stated,Verified
-AL_PERS_OerdBylykbashi,Oerd,Bylykbashi,,,,,,,Q20577429,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_AulonaBylykbashi,Aulona,Bylykbashi,Lavdim,F,,,,,Q136905275,,SRC_KUV_KEPF_ROSTER,KEPF Committee Roster,confirmed,stated,Verified
+AL_PERS_OerdBylykbashi,Oerd,Bylykbashi,Eqrem,,,,,,Q20577429,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_NikolinBërxhiku,Nikolin,Bërxhiku,,,,,,,,,SRC_PROC_2026_06_16,ParlaMint-AL_2026-06-16 speech turn ParlaMint-AL_2026-06-16.u66,confirmed,stated,Verified
-AL_PERS_IgliCara,Igli,Cara,,,,,,,Q5992076,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_IgliCara,Igli,Cara,Latif,,,,,,Q5992076,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_ErvinCeca,Ervin,Ceca,,,,,,,,,SRC_PROC_2026_05_28_2,ParlaMint-AL_2026-05-28-2 speech turn ParlaMint-AL_2026-05-28-2.u67,confirmed,stated,Verified
 AL_PERS_IlirjanCelibashi,Ilirjan,Celibashi,,,,,,,,,SRC_PROC_2026_07_06_1,ParlaMint-AL_2026-07-06-1 speech turn ParlaMint-AL_2026-07-06-1.u76,confirmed,stated,Verified
 AL_PERS_AlidaCenaj,Alida,Cenaj,,,,,,,,,SRC_PROC_2026_07_06_1,ParlaMint-AL_2026-07-06-1 speech turn ParlaMint-AL_2026-07-06-1.u29,confirmed,stated,Verified
@@ -88,7 +89,7 @@ AL_PERS_FatjonaCinaj,Fatjona,Cinaj,,,,,,,,,SRC_PROC_2026_07_14_1,ParlaMint-AL_20
 AL_PERS_HilCurri,Hil,Curri,,,,,,,,,SRC_PROC_2026_05_28_1,ParlaMint-AL_2026-05-28-1 speech turn ParlaMint-AL_2026-05-28-1.u129,confirmed,stated,Verified
 AL_PERS_DonikaDaci,Donika,Daci,,,,,,,,,SRC_PROC_2026_06_15_1,ParlaMint-AL_2026-06-15-1 speech turn ParlaMint-AL_2026-06-15-1.u67,confirmed,stated,Verified
 AL_PERS_EndriDafa,Endri,Dafa,,,,,,,,,SRC_PROC_2026_07_15_3,ParlaMint-AL_2026-07-15-3 speech turn ParlaMint-AL_2026-07-15-3.u231,confirmed,stated,Verified
-AL_PERS_AnaDajko,Ana,Dajko,,,,,,,,,SRC_PROC_2026_07_01_4,Header section: present,confirmed,stated,Verified
+AL_PERS_AnaDajko,Ana,Dajko,Kosta,,,,,,,,SRC_PROC_2026_07_01_4,Header section: present,confirmed,stated,Verified
 AL_PERS_LedjonaDalipaj,Ledjona,Dalipaj,,,,,,,,,SRC_PROC_2026_06_15_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_DhoriDapi,Dhori,Dapi,,,,,,,,,SRC_PROC_2026_02_11_2,ParlaMint-AL_2026-02-11-2 speech turn ParlaMint-AL_2026-02-11-2.u50,confirmed,stated,Verified
 AL_PERS_MiftarDauti,Miftar,Dauti,,,,,,,,,SRC_PROC_2026_05_13_1,ParlaMint-AL_2026-05-13-1 speech turn ParlaMint-AL_2026-05-13-1.u17,confirmed,stated,Verified
@@ -98,58 +99,60 @@ AL_PERS_AldiDekavelli,Aldi,Dekavelli,,,,,,,,,SRC_PROC_2026_07_01_1,Header sectio
 AL_PERS_MaldiDema,Maldi,Dema,,,,,,,,,SRC_PROC_2026_07_07_1,ParlaMint-AL_2026-07-07-1 speech turn ParlaMint-AL_2026-07-07-1.u64,confirmed,stated,Verified
 AL_PERS_EsmeraldaDemiraj,Esmeralda,Demiraj,,,,,,,,,SRC_PROC_2026_04_07_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_KlajdiDemko,Klajdi,Demko,,,,,,,,,SRC_PROC_2026_01_29,ParlaMint-AL_2026-01-29 speech turn ParlaMint-AL_2026-01-29.u2,confirmed,stated,Verified
-AL_PERS_ErvinDemo,Ervin,Demo,,,,,,,,,SRC_PROC_2026_04_07_1,ParlaMint-AL_2026-04-07-1 speech turn ParlaMint-AL_2026-04-07-1.u3,confirmed,stated,Verified
+AL_PERS_ErvinDemo,Ervin,Demo,Zehni,,,,,,,,SRC_PROC_2026_04_07_1,ParlaMint-AL_2026-04-07-1 speech turn ParlaMint-AL_2026-04-07-1.u3,confirmed,stated,Verified
 AL_PERS_AlisaDemollari,Alisa,Demollari,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_AnilaDenaj,Anila,Denaj,,,,,,,Q97241319,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_AnilaDenaj,Anila,Denaj,Spiro,,,,,,Q97241319,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_BesnikDervishi,Besnik,Dervishi,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_DianaDervishi,Diana,Dervishi,,,,,,,,,SRC_PROC_2026_03_30_1,ParlaMint-AL_2026-03-30-1 speech turn ParlaMint-AL_2026-03-30-1.u2,confirmed,stated,Verified
-AL_PERS_AntonetaDhima,Antoneta,Dhima,,F,,,,,Q108043038,,SRC_KUV_KEPF_ROSTER,KEPF Committee Roster,confirmed,stated,Verified
+AL_PERS_AntonetaDhima,Antoneta,Dhima,Nasi,F,,,,,Q108043038,,SRC_KUV_KEPF_ROSTER,KEPF Committee Roster,confirmed,stated,Verified
 AL_PERS_JulianDhima,Julian,Dhima,,,,,,,,,SRC_PROC_2026_07_15_3,ParlaMint-AL_2026-07-15-3 speech turn ParlaMint-AL_2026-07-15-3.u123,confirmed,stated,Verified
-AL_PERS_PiroDhima,Piro,Dhima,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_PiroDhima,Piro,Dhima,Qirjako,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_MariglenDisha,Mariglen,Disha,,,,,,,,,SRC_PROC_2026_05_13_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_TediDobi,Tedi,Dobi,,,,,,,,,SRC_PROC_2026_06_15_2,ParlaMint-AL_2026-06-15-2 speech turn ParlaMint-AL_2026-06-15-2.u4,confirmed,stated,Verified
-AL_PERS_MesilaDoda,Mesila,Doda,,,,,,,,,SRC_PROC_2026_07_14_2,Header section: present,confirmed,stated,Verified
+AL_PERS_MesilaDoda,Mesila,Doda,Fatmir,,,,,,,,SRC_PROC_2026_07_14_2,Header section: present,confirmed,stated,Verified
 AL_PERS_RrokDodaj,Rrok,Dodaj,,,,,,,,,SRC_PROC_2026_06_24_3,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_FlorencDoka,Florenc,Doka,,,,,,,,,SRC_PROC_2026_05_13_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_EdmondDoku,Edmond,Doku,,,,,,,,,SRC_PROC_2026_06_15_1,ParlaMint-AL_2026-06-15-1 speech turn ParlaMint-AL_2026-06-15-1.u53,confirmed,stated,Verified
 AL_PERS_ElkedaDomi,Elkeda,Domi,,,,,,,,,SRC_PROC_2026_07_08,ParlaMint-AL_2026-07-08 speech turn ParlaMint-AL_2026-07-08.u83,confirmed,stated,Verified
-AL_PERS_VangjelDule,Vangjel,Dule,,,,,,,Q1727869,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_TomDoshi,Tom,Doshi,Gjek,,,,,,,,SRC_KQZ_2025,"KQZ 2025 Lista Emërore e Deputetëve (Nr. 130, Qarku Shkodër)",confirmed,stated,Verified
+AL_PERS_VangjelDule,Vangjel,Dule,Jorgji,,,,,,Q1727869,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_DonaldDuraj,Donald,Duraj,,,,,,,,,SRC_PROC_2026_07_08,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_ArtenidaDuraku,Artenida,Duraku,,,,,,,,,SRC_PROC_2026_04_08_4,ParlaMint-AL_2026-04-08-4 speech turn ParlaMint-AL_2026-04-08-4.u12,confirmed,stated,Verified
 AL_PERS_FationDuro,Fation,Duro,,,,,,,,,SRC_PROC_2026_05_28_1,ParlaMint-AL_2026-05-28-1 speech turn ParlaMint-AL_2026-05-28-1.u20,confirmed,stated,Verified
 AL_PERS_HeglaDuro,Hegla,Duro,,,,,,,,,SRC_PROC_2026_07_06_1,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_AniDyrmishi,Ani,Dyrmishi,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_AniDyrmishi,Ani,Dyrmishi,Luan,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_ArjanaDyrmishi,Arjana,Dyrmishi,,,,,,,,,SRC_PROC_2026_04_08_1,ParlaMint-AL_2026-04-08-1 speech turn ParlaMint-AL_2026-04-08-1.u24,confirmed,stated,Verified
-AL_PERS_MilvaEkonomi,Milva,Ekonomi,,F,1962-12-31,,,,Q23771792,,SRC_KUV_KEPF_ROSTER,KEPF Committee Roster & Wikidata Q23771792,confirmed,stated,Verified
-AL_PERS_ErmalElezi,Ermal,Elezi,,,,,,,Q115559237,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_MilvaEkonomi,Milva,Ekonomi,Vilson,F,1962-12-31,,,,Q23771792,,SRC_KUV_KEPF_ROSTER,KEPF Committee Roster & Wikidata Q23771792,confirmed,stated,Verified
+AL_PERS_ErmalElezi,Ermal,Elezi,Fetah,,,,,,Q115559237,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_AdelinaFarrici,Adelina,Farrici,,,,,,,,,SRC_PROC_2026_09_28,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_AlmaFaskaj,Alma,Faskaj,,,,,,,,,SRC_PROC_2026_06_19_1,ParlaMint-AL_2026-06-19-1 speech turn ParlaMint-AL_2026-06-19-1.u53,confirmed,stated,Verified
 AL_PERS_EsiFezolli,Esi,Fezolli,,,,,,,,,SRC_PROC_2026_02_16_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_MegiFino,Megi,Fino,,,,,,,,,SRC_PROC_2026_04_08_2,ParlaMint-AL_2026-04-08-2 speech turn ParlaMint-AL_2026-04-08-2.u2,confirmed,stated,Verified
 AL_PERS_ArgitaFrashëri,Argita,Frashëri,,,,,,,,,SRC_PROC_2026_07_07_3,ParlaMint-AL_2026-07-07-3 speech turn ParlaMint-AL_2026-07-07-3.u2,confirmed,stated,Verified
 AL_PERS_MarielFrroku,Mariel,Frroku,,,,,,,,,SRC_PROC_2026_04_07_1,Header section: invited_guest,confirmed,stated,Verified
+AL_PERS_MirelaFurxhi,Mirela,Furxhi,Mentor,,,,,,,,SRC_KQZ_2025,"KQZ 2025 Lista Emërore e Deputetëve (Nr. 106, Qarku Gjirokastër)",confirmed,stated,Verified
 AL_PERS_RobertGajda,Robert,Gajda,,,,,,,Q125169708,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_ValbonaGaxha,Valbona,Gaxha,,,,,,,,,SRC_PROC_2026_07_01_2,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_AgronGaxho,Agron,Gaxho,,,,,,,,,SRC_PROC_2025_12_03_1,Header section: present,confirmed,stated,Verified
+AL_PERS_AgronGaxho,Agron,Gaxho,Fadil,,,,,,,,SRC_PROC_2025_12_03_1,Header section: present,confirmed,stated,Verified
 AL_PERS_GentiGazheli,Genti,Gazheli,,,,,,,,,SRC_PROC_2026_04_14_1,ParlaMint-AL_2026-04-14-1 speech turn ParlaMint-AL_2026-04-14-1.u2,confirmed,stated,Verified
 AL_PERS_AlbinGega,Albin,Gega,,,,,,,,,SRC_PROC_2026_02_11_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_ErionaGega,Eriona,Gega,,,,,,,,,SRC_PROC_2026_04_08_3,ParlaMint-AL_2026-04-08-3 speech turn ParlaMint-AL_2026-04-08-3.u20,confirmed,stated,Verified
 AL_PERS_MiteaGegushi,Mitea,Gegushi,,,,,,,,,SRC_PROC_2026_07_07_1,ParlaMint-AL_2026-07-07-1 speech turn ParlaMint-AL_2026-07-07-1.u69,confirmed,stated,Verified
 AL_PERS_IdlirGjata,Idlir,Gjata,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_AgronGjekmarkaj,Agron,Gjekmarkaj,,,,,,,Q123847867,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_AgronGjekmarkaj,Agron,Gjekmarkaj,Nikoll,,,,,,Q123847867,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_IliaGjermani,Ilia,Gjermani,,,,,,,,,SRC_PROC_2026_04_20_1,ParlaMint-AL_2026-04-20-1 speech turn ParlaMint-AL_2026-04-20-1.u4,confirmed,stated,Verified
 AL_PERS_AidaGjika,Aida,Gjika,,,,,,,,,SRC_PROC_2026_04_07_1,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_DamianGjiknuri,Damian,Gjiknuri,,,,,,,,,SRC_PROC_2026_05_13_1,Header section: absent,confirmed,stated,Verified
+AL_PERS_DamianGjiknuri,Damian,Gjiknuri,Lekë,,,,,,,,SRC_PROC_2026_05_13_1,Header section: absent,confirmed,stated,Verified
 AL_PERS_XhovanGjini,Xhovan,Gjini,,,,,,,,,SRC_PROC_2026_07_15_3,ParlaMint-AL_2026-07-15-3 speech turn ParlaMint-AL_2026-07-15-3.u213,confirmed,stated,Verified
 AL_PERS_GledisGjipali,Gledis,Gjipali,,,,,,,,,SRC_PROC_2026_07_01_3,ParlaMint-AL_2026-07-01-3 speech turn ParlaMint-AL_2026-07-01-3.u16,confirmed,stated,Verified
 AL_PERS_XhuliaGjoka,Xhulia,Gjoka,,,,,,,,,SRC_PROC_2025_12_03_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_AnisaGjondedaj,Anisa,Gjondedaj,,,,,,,,,SRC_PROC_2026_06_16,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_GjinGjoni,Gjin,Gjoni,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_IlvaGjuzi,Ilva,Gjuzi,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_GjinGjoni,Gjin,Gjoni,Gjon,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_IlvaGjuzi,Ilva,Gjuzi,Ilir,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_JoniadaGocaj,Joniada,Gocaj,,,,,,,,,SRC_PROC_2026_07_08,ParlaMint-AL_2026-07-08 speech turn ParlaMint-AL_2026-07-08.u29,confirmed,stated,Verified
 AL_PERS_ToniGogu,Toni,Gogu,,,,,,,Q136351034,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_FlamurGolemi,Flamur,Golemi,,,,,,,,,SRC_PROC_2026_06_24_3,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_BlendiGonxhja,Blendi,Gonxhja,,,,,,,Q124972664,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_BlendiGonxhja,Blendi,Gonxhja,Agim,,,,,,Q124972664,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_JosifGorrea,Josif,Gorrea,,,,,,,,,SRC_PROC_2026_05_28_1,ParlaMint-AL_2026-05-28-1 speech turn ParlaMint-AL_2026-05-28-1.u7,confirmed,stated,Verified
 AL_PERS_ViktorGumi,Viktor,Gumi,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_FatmirGuri,Fatmir,Guri,,,,,,,,,SRC_PROC_2026_04_08_1,ParlaMint-AL_2026-04-08-1 speech turn ParlaMint-AL_2026-04-08-1.u48,confirmed,stated,Verified
@@ -163,29 +166,29 @@ AL_PERS_JonidaHalili,Jonida,Halili,,,,,,,,,SRC_PROC_2026_07_15_2,Header section:
 AL_PERS_KesjanaHalili,Kesjana,Halili,,,,,,,,,SRC_PROC_2026_03_10_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_LulzimHamitaj,Lulzim,Hamitaj,,,,,,,,,SRC_PROC_2025_11_11_2,ParlaMint-AL_2025-11-11-2 speech turn ParlaMint-AL_2025-11-11-2.u89,confirmed,stated,Verified
 AL_PERS_TomorHarizi,Tomor,Harizi,,,,,,,,,SRC_PROC_2026_07_07_1,ParlaMint-AL_2026-07-07-1 speech turn ParlaMint-AL_2026-07-07-1.u26,confirmed,stated,Verified
-AL_PERS_SaimirHasalla,Saimir,Hasalla,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_IgliHasani,Igli,Hasani,,M,1976,,,,Q99626474,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_SaimirHasalla,Saimir,Hasalla,Shpend,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_IgliHasani,Igli,Hasani,Ali,M,1976,,,,Q99626474,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_FlorensaHaxhi,Florensa,Haxhi,,,,,,,,,SRC_PROC_2026_03_30_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_AgronHaxhimali,Agron,Haxhimali,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_EdmondHaxhinasto,Edmond,Haxhinasto,,,,,,,Q58180,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_AsfloralHaxhiu,Asfloral,Haxhiu,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_BrunildaHaxhiu,Brunilda,Haxhiu,,,,,,,,,SRC_PROC_2026_02_10,ParlaMint-AL_2026-02-10 speech turn ParlaMint-AL_2026-02-10.u4,confirmed,stated,Verified
+AL_PERS_EdmondHaxhinasto,Edmond,Haxhinasto,Llazar,,,,,,Q58180,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_AsfloralHaxhiu,Asfloral,Haxhiu,Asllan,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_BrunildaHaxhiu,Brunilda,Haxhiu,Nail,,,,,,,,SRC_PROC_2026_02_10,ParlaMint-AL_2026-02-10 speech turn ParlaMint-AL_2026-02-10.u4,confirmed,stated,Verified
 AL_PERS_EnriHerri,Enri,Herri,,,,,,,,,SRC_PROC_2026_07_08,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_BlendiHimçi,Blendi,Himçi,,,,,,,Q116165130,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_BlendiHimçi,Blendi,Himçi,Ferdinand,,,,,,Q116165130,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_EnkelejdaHitaj,Enkelejda,Hitaj,,,,,,,,,SRC_PROC_2026_07_01_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_JulianHodaj,Julian,Hodaj,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_EldaHoti,Elda,Hoti,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_EldaHoti,Elda,Hoti,Artan,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_EneaHoti,Enea,Hoti,,,,,,,,,SRC_PROC_2026_07_15_3,ParlaMint-AL_2026-07-15-3 speech turn ParlaMint-AL_2026-07-15-3.u14,confirmed,stated,Verified
-AL_PERS_KlitiHoti,Kliti,Hoti,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_KlitiHoti,Kliti,Hoti,Sami,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_AlmaHoxha,Alma,Hoxha,,,,,,,,,SRC_PROC_2026_06_24_3,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_AltinHoxha,Altin,Hoxha,,,,,,,,,SRC_PROC_2026_06_24_1,ParlaMint-AL_2026-06-24-1 speech turn ParlaMint-AL_2026-06-24-1.u60,confirmed,stated,Verified
 AL_PERS_ArlindHoxha,Arlind,Hoxha,,,,,,,,,SRC_PROC_2026_09_28,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_EliraHoxha,Elira,Hoxha,,,,,,,,,SRC_PROC_2026_07_17,ParlaMint-AL_2026-07-17 speech turn ParlaMint-AL_2026-07-17.u138,confirmed,stated,Verified
 AL_PERS_ErmiraHoxha,Ermira,Hoxha,,,,,,,,,SRC_PROC_2026_07_08,ParlaMint-AL_2026-07-08 speech turn ParlaMint-AL_2026-07-08.u31,confirmed,stated,Verified
 AL_PERS_ErosHoxha,Eros,Hoxha,,,,,,,,,SRC_PROC_2025_11_11_2,ParlaMint-AL_2025-11-11-2 speech turn ParlaMint-AL_2025-11-11-2.u56,confirmed,stated,Verified
-AL_PERS_ErvinHoxha,Ervin,Hoxha,,,,,,,Q131418640,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_ErvinHoxha,Ervin,Hoxha,Bashkim,,,,,,Q131418640,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_EvisaHoxha,Evisa,Hoxha,,,,,,,,,SRC_PROC_2026_05_18,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_FlamurHoxha,Flamur,Hoxha,,,,,,,,,SRC_PROC_2025_12_03_1,Header section: present,confirmed,stated,Verified
+AL_PERS_FlamurHoxha,Flamur,Hoxha,Lutfi,,,,,,,,SRC_PROC_2025_12_03_1,Header section: present,confirmed,stated,Verified
 AL_PERS_RominaHoxha,Romina,Hoxha,,,,,,,,,SRC_PROC_2026_07_07_1,ParlaMint-AL_2026-07-07-1 speech turn ParlaMint-AL_2026-07-07-1.u49,confirmed,stated,Verified
 AL_PERS_ÇeloHoxha,Çelo,Hoxha,,,,,,,,,SRC_PROC_2026_06_24_1,ParlaMint-AL_2026-06-24-1 speech turn ParlaMint-AL_2026-06-24-1.u94,confirmed,stated,Verified
 AL_PERS_ElonaHoxhaj,Elona,Hoxhaj,,,,,,,,,SRC_PROC_2026_09_28,ParlaMint-AL_2026-09-28 speech turn ParlaMint-AL_2026-09-28.u454,confirmed,stated,Verified
@@ -195,7 +198,7 @@ AL_PERS_EgliHyka,Egli,Hyka,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited
 AL_PERS_XhodiHysa,Xhodi,Hysa,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_KlestaHysi,Klesta,Hysi,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_SonilaHysi,Sonila,Hysi,,,,,,,,,SRC_PROC_2026_07_14_1,ParlaMint-AL_2026-07-14-1 speech turn ParlaMint-AL_2026-07-14-1.u95,confirmed,stated,Verified
-AL_PERS_DelinaIbrahimaj,Delina,Ibrahimaj,,,,,,,Q108698181,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_DelinaIbrahimaj,Delina,Ibrahimaj,Sokol,,,,,,Q108698181,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_FatimeImeraj,Fatime,Imeraj,,,,,,,,,SRC_PROC_2026_07_06_1,ParlaMint-AL_2026-07-06-1 speech turn ParlaMint-AL_2026-07-06-1.u58,confirmed,stated,Verified
 AL_PERS_PronësisëIndustriale,Pronësisë,Industriale,,,,,,,,,SRC_PROC_2026_03_18,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_StrategjiveInovative,Strategjive,Inovative,,,,,,,,,SRC_PROC_2026_02_17_1,Header section: invited_guest,confirmed,stated,Verified
@@ -203,91 +206,93 @@ AL_PERS_MbikëqyrjenInstitucionale,Mbikëqyrjen,Institucionale,,,,,,,,,SRC_PROC_
 AL_PERS_ErionIsai,Erion,Isai,,,,,,,,,SRC_PROC_2026_06_24_3,ParlaMint-AL_2026-06-24-3 speech turn ParlaMint-AL_2026-06-24-3.u70,confirmed,stated,Verified
 AL_PERS_ElaIshka,Ela,Ishka,,,,,,,,,SRC_PROC_2026_07_07_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_QerimIsmailaj,Qerim,Ismailaj,,,,,,,,,SRC_PROC_2026_05_28_1,ParlaMint-AL_2026-05-28-1 speech turn ParlaMint-AL_2026-05-28-1.u9,confirmed,stated,Verified
-AL_PERS_ErjonaIsmaili,Erjona,Ismaili,,,,,,,Q139088605,,SRC_PROC_2026_05_20,Header section: present,confirmed,stated,Verified
+AL_PERS_ErjonaIsmaili,Erjona,Ismaili,Hasim,,,,,,Q139088605,,SRC_PROC_2026_05_20,Header section: present,confirmed,stated,Verified
 AL_PERS_HegaIsmaili,Hega,Ismaili,,,,,,,,,SRC_PROC_2026_07_17,ParlaMint-AL_2026-07-17 speech turn ParlaMint-AL_2026-07-17.u21,confirmed,stated,Verified
-AL_PERS_ZijaIsmaili,Zija,Ismaili,,,,,,,,,SRC_PROC_2026_10_05_2,ParlaMint-AL_2026-10-05-2 speech turn ParlaMint-AL_2026-10-05-2.u228,confirmed,stated,Verified
+AL_PERS_ZijaIsmaili,Zija,Ismaili,Fuat,,,,,,,,SRC_PROC_2026_10_05_2,ParlaMint-AL_2026-10-05-2 speech turn ParlaMint-AL_2026-10-05-2.u228,confirmed,stated,Verified
 AL_PERS_RozetaIvanova,Rozeta,Ivanova,,,,,,,,,SRC_PROC_2025_11_11_2,ParlaMint-AL_2025-11-11-2 speech turn ParlaMint-AL_2025-11-11-2.u93,confirmed,stated,Verified
-AL_PERS_KlevisJahaj,Klevis,Jahaj,,,,,,,,,SRC_PROC_2026_05_13_1,Header section: absent,confirmed,stated,Verified
-AL_PERS_EnriketaJaho,Enriketa,Jaho,,,,,,,,,SRC_PROC_2026_07_14_2,ParlaMint-AL_2026-07-14-2 speech turn ParlaMint-AL_2026-07-14-2.u101,confirmed,stated,Verified
+AL_PERS_KlevisJahaj,Klevis,Jahaj,Astrit,,,,,,,,SRC_PROC_2026_05_13_1,Header section: absent,confirmed,stated,Verified
+AL_PERS_EnriketaJaho,Enriketa,Jaho,Maliq,,,,,,,,SRC_PROC_2026_07_14_2,ParlaMint-AL_2026-07-14-2 speech turn ParlaMint-AL_2026-07-14-2.u101,confirmed,stated,Verified
 AL_PERS_AltinJani,Altin,Jani,,,,,,,,,SRC_PROC_2026_06_19_3,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_AdrianJasimi,Adrian,Jasimi,,,,,,,,,SRC_PROC_2026_04_10,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_SofjanJaupaj,Sofjan,Jaupaj,,,,,,,,,SRC_PROC_2025_12_02,ParlaMint-AL_2025-12-02 speech turn ParlaMint-AL_2025-12-02.u237,confirmed,stated,Verified
 AL_PERS_ArianJaupllari,Arian,Jaupllari,,,,,,,,,SRC_PROC_2026_02_10,ParlaMint-AL_2026-02-10 speech turn ParlaMint-AL_2026-02-10.u6,confirmed,stated,Verified
+AL_PERS_SabinaJorgo,Sabina,Jorgo,Mark,,,,,,,,SRC_KQZ_2025,"KQZ 2025 Lista Emërore e Deputetëve (Nr. 121, Qarku Shkodër)",confirmed,stated,Verified
 AL_PERS_EnkelejdJoti,Enkelejd,Joti,,,,,,,,,SRC_PROC_2026_07_14_1,ParlaMint-AL_2026-07-14-1 speech turn ParlaMint-AL_2026-07-14-1.u94,confirmed,stated,Verified
 AL_PERS_NazmiJuniku,Nazmi,Juniku,,,,,,,,,SRC_PROC_2026_07_06_1,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_AdmirKadeli,Admir,Kadeli,,,,,,,,,SRC_PROC_2026_07_01_4,Header section: present,confirmed,stated,Verified
+AL_PERS_AdmirKadeli,Admir,Kadeli,Gjovalin,,,,,,,,SRC_PROC_2026_07_01_4,Header section: present,confirmed,stated,Verified
 AL_PERS_BesjanKadiu,Besjan,Kadiu,,,,,,,,,SRC_PROC_2026_03_18,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_EvaKadzadej,Eva,Kadzadej,,,,,,,,,SRC_PROC_2026_07_06_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_MartinKajo,Martin,Kajo,,,,,,,,,SRC_PROC_2026_02_17_1,ParlaMint-AL_2026-02-17-1 speech turn ParlaMint-AL_2026-02-17-1.u23,confirmed,stated,Verified
 AL_PERS_GledisKalemi,Gledis,Kalemi,,,,,,,,,SRC_PROC_2026_06_16,ParlaMint-AL_2026-06-16 speech turn ParlaMint-AL_2026-06-16.u15,confirmed,stated,Verified
 AL_PERS_AndiKananaj,Andi,Kananaj,,,,,,,,,SRC_PROC_2026_07_14_2,ParlaMint-AL_2026-07-14-2 speech turn ParlaMint-AL_2026-07-14-2.u97,confirmed,stated,Verified
 AL_PERS_NertilKanina,Nertil,Kanina,,,,,,,,,SRC_PROC_2026_07_15_3,ParlaMint-AL_2026-07-15-3 speech turn ParlaMint-AL_2026-07-15-3.u211,confirmed,stated,Verified
-AL_PERS_EraldKapri,Erald,Kapri,,,,,,,Q116218754,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_EraldKapri,Erald,Kapri,Izja,,,,,,Q116218754,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_AthanasKaraja,Athanas,Karaja,,,,,,,,,SRC_PROC_2026_04_08_4,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_IviKaso,Ivi,Kaso,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_IviKaso,Ivi,Kaso,Spiro,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_BashkimKasoruho,Bashkim,Kasoruho,,,,,,,,,SRC_PROC_2026_07_07_4,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_JoniKeta,Joni,Keta,,,,,,,,,SRC_PROC_2026_07_03,ParlaMint-AL_2026-07-03 speech turn ParlaMint-AL_2026-07-03.u6,confirmed,stated,Verified
 AL_PERS_TanaKika,Tana,Kika,,,,,,,,,SRC_PROC_2026_07_06_2,ParlaMint-AL_2026-07-06-2 speech turn ParlaMint-AL_2026-07-06-2.u14,confirmed,stated,Verified
-AL_PERS_BlendiKlosi,Blendi,Klosi,,,,,,,,,SRC_PROC_2026_05_13_1,Header section: absent,confirmed,stated,Verified
-AL_PERS_CenoKlosi,Ceno,Klosi,,,,,,,,,SRC_PROC_2026_02_11_2,ParlaMint-AL_2026-02-11-2 speech turn ParlaMint-AL_2026-02-11-2.u26,confirmed,stated,Verified
+AL_PERS_BlendiKlosi,Blendi,Klosi,Pullumb,,,,,,,,SRC_PROC_2026_05_13_1,Header section: absent,confirmed,stated,Verified
+AL_PERS_CenoKlosi,Ceno,Klosi,Fatmir,,,,,,,,SRC_PROC_2026_02_11_2,ParlaMint-AL_2026-02-11-2 speech turn ParlaMint-AL_2026-02-11-2.u26,confirmed,stated,Verified
 AL_PERS_IldaKoja,Ilda,Koja,,,,,,,,,SRC_PROC_2026_04_08_1,ParlaMint-AL_2026-04-08-1 speech turn ParlaMint-AL_2026-04-08-1.u26,confirmed,stated,Verified
-AL_PERS_OlsiKomici,Olsi,Komici,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_HatixheKonomi,Hatixhe,Konomi,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_EltonKorreshi,Elton,Korreshi,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_SaimirKorreshi,Saimir,Korreshi,,,,,,,,,SRC_PROC_2026_09_17_1,ParlaMint-AL_2026-09-17-1 speech turn ParlaMint-AL_2026-09-17-1.u102,confirmed,stated,Verified
+AL_PERS_OlsiKomici,Olsi,Komici,Lyto,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_HatixheKonomi,Hatixhe,Konomi,Kamber,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_EltonKorreshi,Elton,Korreshi,Xhevit,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_SaimirKorreshi,Saimir,Korreshi,Sadik,,,,,,,,SRC_PROC_2026_09_17_1,ParlaMint-AL_2026-09-17-1 speech turn ParlaMint-AL_2026-09-17-1.u102,confirmed,stated,Verified
 AL_PERS_ValbonaKosova,Valbona,Kosova,,,,,,,,,SRC_PROC_2026_01_29,ParlaMint-AL_2026-01-29 speech turn ParlaMint-AL_2026-01-29.u15,confirmed,stated,Verified
 AL_PERS_DhimitërKote,Dhimitër,Kote,,,,,,,,,SRC_PROC_2026_03_03,ParlaMint-AL_2026-03-03 speech turn ParlaMint-AL_2026-03-03.u5,confirmed,stated,Verified
 AL_PERS_RandoKote,Rando,Kote,,,,,,,,,SRC_PROC_2026_05_05,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_MarjanaKoçeku,Marjana,Koçeku,,,,,,,,,SRC_PROC_2026_03_11,Header section: present,confirmed,stated,Verified
+AL_PERS_MarjanaKoçeku,Marjana,Koçeku,Mark,,,,,,,,SRC_PROC_2026_03_11,Header section: present,confirmed,stated,Verified
+AL_PERS_AlbanaKoçiu,Albana,Koçiu,Xhemal,,,,,,,,SRC_KQZ_2025,"KQZ 2025 Lista Emërore e Deputetëve (Nr. 8, Qarku Tiranë)",confirmed,stated,Verified
 AL_PERS_ArmelaKrasniqi,Armela,Krasniqi,,,,,,,,,SRC_PROC_2026_06_15_1,ParlaMint-AL_2026-06-15-1 speech turn ParlaMint-AL_2026-06-15-1.u2,confirmed,stated,Verified
-AL_PERS_FidelKreka,Fidel,Kreka,,,,,,,,,SRC_PROC_2026_02_11_2,Header section: absent,confirmed,stated,Verified
+AL_PERS_FidelKreka,Fidel,Kreka,Artur,,,,,,,,SRC_PROC_2026_02_11_2,Header section: absent,confirmed,stated,Verified
 AL_PERS_YllkaKukalaj,Yllka,Kukalaj,,,,,,,,,SRC_PROC_2026_05_13_7,ParlaMint-AL_2026-05-13-7 speech turn ParlaMint-AL_2026-05-13-7.u59,confirmed,stated,Verified
-AL_PERS_RominaKuko,Romina,Kuko,,,,,,,Q110854436,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_RominaKuko,Romina,Kuko,Argjir,,,,,,Q110854436,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_MarkoKule,Marko,Kule,,,,,,,,,SRC_PROC_2026_04_08_1,ParlaMint-AL_2026-04-08-1 speech turn ParlaMint-AL_2026-04-08-1.u51,confirmed,stated,Verified
 AL_PERS_MirelaKumbaro,Mirela,Kumbaro,,,,,,,,,SRC_PROC_2026_10_05_2,ParlaMint-AL_2026-10-05-2 speech turn ParlaMint-AL_2026-10-05-2.u351,confirmed,stated,Verified
-AL_PERS_LoerKume,Loer,Kume,,,,,,,,,SRC_PROC_2026_07_01_4,ParlaMint-AL_2026-07-01-4 speech turn ParlaMint-AL_2026-07-01-4.u22,confirmed,stated,Verified
-AL_PERS_RamionKurti,Ramion,Kurti,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_EvisKushi,Evis,Kushi,,,,,,,Q31880612,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_LoerKume,Loer,Kume,Çlirim,,,,,,,,SRC_PROC_2026_07_01_4,ParlaMint-AL_2026-07-01-4 speech turn ParlaMint-AL_2026-07-01-4.u22,confirmed,stated,Verified
+AL_PERS_RamionKurti,Ramion,Kurti,Shaqir,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_EvisKushi,Evis,Kushi,Kolë,,,,,,Q31880612,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_AnteaKushti,Antea,Kushti,,,,,,,,,SRC_PROC_2026_05_05,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_ElonaKuçi,Elona,Kuçi,,,,,,,,,SRC_PROC_2026_07_06_1,ParlaMint-AL_2026-07-06-1 speech turn ParlaMint-AL_2026-07-06-1.u59,confirmed,stated,Verified
 AL_PERS_EnkeledaKuçi,Enkeleda,Kuçi,,,,,,,,,SRC_PROC_2026_04_21_2,ParlaMint-AL_2026-04-21-2 speech turn ParlaMint-AL_2026-04-21-2.u4,confirmed,stated,Verified
-AL_PERS_BelindKëlliçi,Belind,Këlliçi,,,,,,,Q81919278,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_BelindKëlliçi,Belind,Këlliçi,Zamir,,,,,,Q81919278,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_NuriLaknori,Nuri,Laknori,,,,,,,,,SRC_PROC_2026_06_19_3,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_GentiLakollari,Genti,Lakollari,,,,,,,,,SRC_PROC_2025_12_03_1,Header section: present,confirmed,stated,Verified
+AL_PERS_GentiLakollari,Genti,Lakollari,Sotir,,,,,,,,SRC_PROC_2025_12_03_1,Header section: present,confirmed,stated,Verified
 AL_PERS_BesfortLamallari,Besfort,Lamallari,,,,,,,Q115969761,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_ShkurtLasku,Shkurt,Lasku,,,,,,,,,SRC_PROC_2025_12_03_1,Header section: present,confirmed,stated,Verified
 AL_PERS_ValbonaLegisi,Valbona,Legisi,,,,,,,,,SRC_PROC_2026_04_07_2,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_BujarLeskaj,Bujar,Leskaj,,,,,,,Q13037805,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_BujarLeskaj,Bujar,Leskaj,Farudin,,,,,,Q13037805,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_KristianLika,Kristian,Lika,,,,,,,,,SRC_PROC_2026_07_06_3,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_RamadanLikaj,Ramadan,Likaj,,,,,,,,,SRC_PROC_2026_04_14_2,Header section: present,confirmed,stated,Verified
+AL_PERS_RamadanLikaj,Ramadan,Likaj,Rexhep,,,,,,,,SRC_PROC_2026_04_14_2,Header section: present,confirmed,stated,Verified
 AL_PERS_MesdheuLindor,Mesdheu,Lindor,,,,,,,,,SRC_PROC_2026_04_20_2,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_VasilLlajo,Vasil,Llajo,,,,,,,,,SRC_PROC_2026_02_16_1,ParlaMint-AL_2026-02-16-1 speech turn ParlaMint-AL_2026-02-16-1.u104,confirmed,stated,Verified
+AL_PERS_VasilLlajo,Vasil,Llajo,Spiro,,,,,,,,SRC_PROC_2026_02_16_1,ParlaMint-AL_2026-02-16-1 speech turn ParlaMint-AL_2026-02-16-1.u104,confirmed,stated,Verified
 AL_PERS_AlkidaLlakaj,Alkida,Llakaj,,,,,,,,,SRC_PROC_2026_03_10_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_GledianLlatja,Gledian,Llatja,,,,,,,,,SRC_PROC_2026_05_13_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_StiljanLlavdaniti,Stiljan,Llavdaniti,,,,,,,,,SRC_PROC_2026_04_07_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_LefterijeLleshi,Lefterije,Lleshi,,,,,,,,,SRC_PROC_2025_11_11_2,ParlaMint-AL_2025-11-11-2 speech turn ParlaMint-AL_2025-11-11-2.u75,confirmed,stated,Verified
 AL_PERS_ArturLorkowski,Artur,Lorkowski,,,,,,,,,SRC_PROC_2026_04_10,ParlaMint-AL_2026-04-10 speech turn ParlaMint-AL_2026-04-10.u5,confirmed,stated,Verified
-AL_PERS_IrisLuarasi,Iris,Luarasi,,,,,,,Q124211770,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_IrisLuarasi,Iris,Luarasi,Haki,,,,,,Q124211770,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_GertaLubonja,Gerta,Lubonja,,,,,,,,,SRC_PROC_2026_07_06_1,ParlaMint-AL_2026-07-06-1 speech turn ParlaMint-AL_2026-07-06-1.u56,confirmed,stated,Verified
 AL_PERS_LazarinLufi,Lazarin,Lufi,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_LorencLuka,Lorenc,Luka,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_ArtanLuku,Artan,Luku,,,,,,,,,SRC_PROC_2026_05_13_1,Header section: present,confirmed,stated,Verified
-AL_PERS_ManjolaLuku,Manjola,Luku,,,,,,,,,SRC_PROC_2026_10_05_2,ParlaMint-AL_2026-10-05-2 speech turn ParlaMint-AL_2026-10-05-2.u436,confirmed,stated,Verified
+AL_PERS_ArtanLuku,Artan,Luku,Muhamet,,,,,,,,SRC_PROC_2026_05_13_1,Header section: present,confirmed,stated,Verified
+AL_PERS_ManjolaLuku,Manjola,Luku,Ramiz,,,,,,,,SRC_PROC_2026_10_05_2,ParlaMint-AL_2026-10-05-2 speech turn ParlaMint-AL_2026-10-05-2.u436,confirmed,stated,Verified
 AL_PERS_IrenaAlimeri,Irena,Lumi Alimeri,,,,,,,,,SRC_PROC_2026_07_01_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_LefterijeLuzi,Lefterije,Luzi,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_AgronMalaj,Agron,Malaj,,,,,,,,,SRC_PROC_2026_04_07_1,ParlaMint-AL_2026-04-07-1 speech turn ParlaMint-AL_2026-04-07-1.u36,confirmed,stated,Verified
+AL_PERS_AgronMalaj,Agron,Malaj,Rufat,,,,,,,,SRC_PROC_2026_04_07_1,ParlaMint-AL_2026-04-07-1 speech turn ParlaMint-AL_2026-04-07-1.u36,confirmed,stated,Verified
 AL_PERS_AlbertMalaj,Albert,Malaj,,,,,,,,,SRC_PROC_2026_09_28,ParlaMint-AL_2026-09-28 speech turn ParlaMint-AL_2026-09-28.u571,confirmed,stated,Verified
 AL_PERS_AnilaMalaj,Anila,Malaj,,,,,,,,,SRC_PROC_2026_06_24_1,ParlaMint-AL_2026-06-24-1 speech turn ParlaMint-AL_2026-06-24-1.u37,confirmed,stated,Verified
-AL_PERS_ErionMalaj,Erion,Malaj,,,,,,,Q97241598,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_PetritMalaj,Petrit,Malaj,,,,,,,Q11815992,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_ErionMalaj,Erion,Malaj,Petrit,,,,,,Q97241598,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_PetritMalaj,Petrit,Malaj,Limos,,,,,,Q11815992,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_ArturMamadhaj,Artur,Mamadhaj,,,,,,,,,SRC_PROC_2025_11_11_2,ParlaMint-AL_2025-11-11-2 speech turn ParlaMint-AL_2025-11-11-2.u15,confirmed,stated,Verified
-AL_PERS_OgertaManastirliu,Ogerta,Manastirliu,,,,,,,,,SRC_PROC_2026_03_10_4,ParlaMint-AL_2026-03-10-4 speech turn ParlaMint-AL_2026-03-10-4.u34,confirmed,stated,Verified
+AL_PERS_OgertaManastirliu,Ogerta,Manastirliu,Dhionis,,,,,,,,SRC_PROC_2026_03_10_4,ParlaMint-AL_2026-03-10-4 speech turn ParlaMint-AL_2026-03-10-4.u34,confirmed,stated,Verified
 AL_PERS_GazmirMani,Gazmir,Mani,,,,,,,,,SRC_PROC_2026_07_08,ParlaMint-AL_2026-07-08 speech turn ParlaMint-AL_2026-07-08.u84,confirmed,stated,Verified
-AL_PERS_UlsiManja,Ulsi,Manja,,,,,,,Q31970269,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_UlsiManja,Ulsi,Manja,Qerim,,,,,,Q31970269,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_OltaManjani,Olta,Manjani,,,,,,,,,SRC_PROC_2026_04_21_1,ParlaMint-AL_2026-04-21-1 speech turn ParlaMint-AL_2026-04-21-1.u4,confirmed,stated,Verified
 AL_PERS_ArtanManushaqe,Artan,Manushaqe,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_AnduenaManushi,Anduena,Manushi,,,,,,,,,SRC_PROC_2026_07_06_1,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_AuroraMara,Aurora,Mara,,,,,,,,,SRC_PROC_2026_06_15_2,ParlaMint-AL_2026-06-15-2 speech turn ParlaMint-AL_2026-06-15-2.u104,confirmed,stated,Verified
+AL_PERS_AuroraMara,Aurora,Mara,Xhavit,,,,,,,,SRC_PROC_2026_06_15_2,ParlaMint-AL_2026-06-15-2 speech turn ParlaMint-AL_2026-06-15-2.u104,confirmed,stated,Verified
 AL_PERS_VladimirMara,Vladimir,Mara,,,,,,,,,SRC_PROC_2026_07_03,ParlaMint-AL_2026-07-03 speech turn ParlaMint-AL_2026-07-03.u4,confirmed,stated,Verified
 AL_PERS_KlodianaMarika,Klodiana,Marika,,,,,,,,,SRC_PROC_2025_12_03_1,ParlaMint-AL_2025-12-03-1 speech turn ParlaMint-AL_2025-12-03-1.u7,confirmed,stated,Verified
 AL_PERS_ToninMarinaj,Tonin,Marinaj,,,,,,,,,SRC_PROC_2026_05_28_1,ParlaMint-AL_2026-05-28-1 speech turn ParlaMint-AL_2026-05-28-1.u125,confirmed,stated,Verified
@@ -296,9 +301,9 @@ AL_PERS_GjergjMarku,Gjergj,Marku,,,,,,,,,SRC_PROC_2026_06_24_1,ParlaMint-AL_2026
 AL_PERS_RedvinMarku,Redvin,Marku,,,,,,,,,SRC_PROC_2026_04_08_3,ParlaMint-AL_2026-04-08-3 speech turn ParlaMint-AL_2026-04-08-3.u21,confirmed,stated,Verified
 AL_PERS_LulzimMata,Lulzim,Mata,,,,,,,,,SRC_PROC_2026_07_15_3,ParlaMint-AL_2026-07-15-3 speech turn ParlaMint-AL_2026-07-15-3.u82,confirmed,stated,Verified
 AL_PERS_LeidaMatja,Leida,Matja,,,,,,,,,SRC_PROC_2026_06_24_1,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_ArbjanMazniku,Arbjan,Mazniku,,,,,,,,,SRC_PROC_2025_10_06,Header section: absent,confirmed,stated,Verified
+AL_PERS_ArbjanMazniku,Arbjan,Mazniku,Cvetko,,,,,,,,SRC_PROC_2025_10_06,Header section: absent,confirmed,stated,Verified
 AL_PERS_BukuroshMaçi,Bukurosh,Maçi,,,,,,,,,SRC_PROC_2026_05_13_1,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_FatmirMediu,Fatmir,Mediu,,,,,,,Q983272,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_FatmirMediu,Fatmir,Mediu,Ali,,,,,,Q983272,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_AndiMehmeti,Andi,Mehmeti,,,,,,,,,SRC_PROC_2026_05_05,ParlaMint-AL_2026-05-05 speech turn ParlaMint-AL_2026-05-05.u10,confirmed,stated,Verified
 AL_PERS_ErindaMeli,Erinda,Meli,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_AdriatikMema,Adriatik,Mema,,,,,,,,,SRC_PROC_2026_05_28_2,ParlaMint-AL_2026-05-28-2 speech turn ParlaMint-AL_2026-05-28-2.u15,confirmed,stated,Verified
@@ -311,15 +316,15 @@ AL_PERS_SilvanaMerdani,Silvana,Merdani,,,,,,,,,SRC_PROC_2026_04_07_1,Header sect
 AL_PERS_AldoMerkoci,Aldo,Merkoci,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_ManjolaMerlika,Manjola,Merlika,,,,,,,,,SRC_PROC_2026_05_13_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_NajadaMerolli,Najada,Merolli,,,,,,,,,SRC_PROC_2026_07_15_3,ParlaMint-AL_2026-07-15-3 speech turn ParlaMint-AL_2026-07-15-3.u147,confirmed,stated,Verified
-AL_PERS_BrunildaMersini,Brunilda,Mersini,,,,,,,,,SRC_PROC_2026_06_24_3,Header section: invited_guest,confirmed,stated,Verified
+AL_PERS_BrunildaMersini,Brunilda,Mersini,Flamur,,,,,,,,SRC_PROC_2026_06_24_3,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_GjergjMersini,Gjergj,Mersini,,,,,,,,,SRC_PROC_2026_06_24_1,ParlaMint-AL_2026-06-24-1 speech turn ParlaMint-AL_2026-06-24-1.u39,confirmed,stated,Verified
 AL_PERS_ArturMetani,Artur,Metani,,,,,,,,,SRC_PROC_2026_07_07_2,ParlaMint-AL_2026-07-07-2 speech turn ParlaMint-AL_2026-07-07-2.u46,confirmed,stated,Verified
 AL_PERS_PërparimMezini,Përparim,Mezini,,,,,,,,,SRC_PROC_2026_03_18,ParlaMint-AL_2026-03-18 speech turn ParlaMint-AL_2026-03-18.u23,confirmed,stated,Verified
 AL_PERS_EraldMihali,Erald,Mihali,,,,,,,,,SRC_PROC_2026_07_15_3,ParlaMint-AL_2026-07-15-3 speech turn ParlaMint-AL_2026-07-15-3.u171,confirmed,stated,Verified
 AL_PERS_FlorencMihali,Florenc,Mihali,,,,,,,,,SRC_PROC_2026_09_21_2,ParlaMint-AL_2026-09-21-2 speech turn ParlaMint-AL_2026-09-21-2.u47,confirmed,stated,Verified
-AL_PERS_SaraMila,Sara,Mila,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_SaraMila,Sara,Mila,Përparim,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_BlediMile,Bledi,Mile,,,,,,,,,SRC_PROC_2026_07_06_2,ParlaMint-AL_2026-07-06-2 speech turn ParlaMint-AL_2026-07-06-2.u16,confirmed,stated,Verified
-AL_PERS_ErjoMile,Erjo,Mile,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_ErjoMile,Erjo,Mile,Jovan,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_PetraqMilo,Petraq,Milo,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_LlambriolaMisto,Llambriola,Misto,,,,,,,,,SRC_PROC_2026_07_20,ParlaMint-AL_2026-07-20 speech turn ParlaMint-AL_2026-07-20.u6,confirmed,stated,Verified
 AL_PERS_HeldaMitre,Helda,Mitre,,,,,,,,,SRC_PROC_2026_07_07_1,ParlaMint-AL_2026-07-07-1 speech turn ParlaMint-AL_2026-07-07-1.u65,confirmed,stated,Verified
@@ -332,22 +337,22 @@ AL_PERS_EnkelejdMusabelliu,Enkelejd,Musabelliu,,,,,,,,,SRC_PROC_2026_02_11_2,Par
 AL_PERS_ArbenMusaj,Arben,Musaj,,,,,,,,,SRC_PROC_2026_02_16_2,ParlaMint-AL_2026-02-16-2 speech turn ParlaMint-AL_2026-02-16-2.u17,confirmed,stated,Verified
 AL_PERS_EugenMusta,Eugen,Musta,,,,,,,,,SRC_PROC_2026_06_19_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_OltjonMuzaka,Oltjon,Muzaka,,,,,,,,,SRC_PROC_2026_09_28,ParlaMint-AL_2026-09-28 speech turn ParlaMint-AL_2026-09-28.u207,confirmed,stated,Verified
-AL_PERS_BoraMuzhaqi,Bora,Muzhaqi,,,,,,,Q109524653,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_BoraMuzhaqi,Bora,Muzhaqi,Kastriot,,,,,,Q109524653,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_EnkelejdaMuçaj,Enkelejda,Muçaj,,,,,,,,,SRC_PROC_2026_02_16_2,ParlaMint-AL_2026-02-16-2 speech turn ParlaMint-AL_2026-02-16-2.u2,confirmed,stated,Verified
 AL_PERS_HektorMuçaj,Hektor,Muçaj,,,,,,,,,SRC_PROC_2026_07_15_3,ParlaMint-AL_2026-07-15-3 speech turn ParlaMint-AL_2026-07-15-3.u241,confirmed,stated,Verified
-AL_PERS_RediMuçi,Redi,Muçi,,,,,,,Q134530339,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_RediMuçi,Redi,Muçi,Fredi,,,,,,Q134530339,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_ArdianMyslymaj,Ardian,Myslymaj,,,,,,,,,SRC_PROC_2026_07_08,ParlaMint-AL_2026-07-08 speech turn ParlaMint-AL_2026-07-08.u28,confirmed,stated,Verified
 AL_PERS_IsaMyzyraj,Isa,Myzyraj,,,,,,,,,SRC_PROC_2026_06_19_2,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_XhelalMziu,Xhelal,Mziu,,,,,,,Q61079810,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_XhelalMziu,Xhelal,Mziu,Rrahman,,,,,,Q61079810,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_AlbertMëlyshja,Albert,Mëlyshja,,,,,,,,,SRC_PROC_2026_09_28,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_AlbanMësonjësi,Alban,Mësonjësi,,,,,,,,,SRC_PROC_2026_06_15_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_AlbanNako,Alban,Nako,,,,,,,,,SRC_PROC_2026_07_03,ParlaMint-AL_2026-07-03 speech turn ParlaMint-AL_2026-07-03.u7,confirmed,stated,Verified
-AL_PERS_AnaNako,Ana,Nako,,,,,,,,,SRC_PROC_2026_03_04,Header section: present,confirmed,stated,Verified
-AL_PERS_BledjonNallbati,Bledjon,Nallbati,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_AnaNako,Ana,Nako,Mihal,,,,,,,,SRC_PROC_2026_03_04,Header section: present,confirmed,stated,Verified
+AL_PERS_BledjonNallbati,Bledjon,Nallbati,Tomor,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_FatjonNanaj,Fatjon,Nanaj,,,,,,,,,SRC_PROC_2026_05_06,ParlaMint-AL_2026-05-06 speech turn ParlaMint-AL_2026-05-06.u4,confirmed,stated,Verified
 AL_PERS_BlerinaNaska,Blerina,Naska,,,,,,,,,SRC_PROC_2026_07_01_2,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_FadilNasufi,Fadil,Nasufi,,,,,,,Q31880557,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_ArianNdoja,Arian,Ndoja,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_FadilNasufi,Fadil,Nasufi,Ramo,,,,,,Q31880557,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_ArianNdoja,Arian,Ndoja,Zef,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_KlementNdoni,Klement,Ndoni,,,,,,,,,SRC_PROC_2026_06_24_3,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_MarkNdreca,Mark,Ndreca,,,,,,,,,SRC_PROC_2026_06_19_3,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_PjerinNdreu,Pjerin,Ndreu,,,,,,,,,SRC_PROC_2026_06_24_3,Header section: invited_guest,confirmed,stated,Verified
@@ -356,10 +361,10 @@ AL_PERS_MelitjanNezaj,Melitjan,Nezaj,,,,,,,,,SRC_PROC_2025_12_03_1,ParlaMint-AL_
 AL_PERS_VjosanaNeziri,Vjosana,Neziri,,,,,,,,,SRC_PROC_2026_07_01_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_ElaNikaj,Ela,Nikaj,,,,,,,,,SRC_PROC_2026_04_08_3,ParlaMint-AL_2026-04-08-3 speech turn ParlaMint-AL_2026-04-08-3.u22,confirmed,stated,Verified
 AL_PERS_AlbertNikolla,Albert,Nikolla,,,,,,,,,SRC_PROC_2026_06_24_1,ParlaMint-AL_2026-06-24-1 speech turn ParlaMint-AL_2026-06-24-1.u57,confirmed,stated,Verified
-AL_PERS_LinditaNikolla,Lindita,Nikolla,,F,,,,,Q15193651,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_LinditaNikolla,Lindita,Nikolla,Llesh,F,,,,,Q15193651,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_IrenaNino,Irena,Nino,,,,,,,,,SRC_PROC_2025_11_11_2,ParlaMint-AL_2025-11-11-2 speech turn ParlaMint-AL_2025-11-11-2.u69,confirmed,stated,Verified
 AL_PERS_AntonetaNjehrrena,Antoneta,Njehrrena,,,,,,,,,SRC_PROC_2026_07_14_2,ParlaMint-AL_2026-07-14-2 speech turn ParlaMint-AL_2026-07-14-2.u96,confirmed,stated,Verified
-AL_PERS_FlamurNoka,Flamur,Noka,,,,,,,Q5457338,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_FlamurNoka,Flamur,Noka,Dalif,,,,,,Q5457338,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_SofiNoti,Sofi,Noti,,,,,,,,,SRC_PROC_2026_06_24_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_LedioNuraj,Ledio,Nuraj,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_MirelaOktrova,Mirela,Oktrova,,,,,,,,,SRC_PROC_2026_07_06_1,ParlaMint-AL_2026-07-06-1 speech turn ParlaMint-AL_2026-07-06-1.u31,confirmed,stated,Verified
@@ -367,24 +372,24 @@ AL_PERS_GentianOpre,Gentian,Opre,,,,,,,,,SRC_PROC_2026_06_09_1,ParlaMint-AL_2026
 AL_PERS_EltonOrozi,Elton,Orozi,,,,,,,,,SRC_PROC_2026_04_07_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_MasilaOsmani,Masila,Osmani,,,,,,,,,SRC_PROC_2026_05_13_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_OrjanaOsmani,Orjana,Osmani,,,,,,,,,SRC_PROC_2026_06_09_2,ParlaMint-AL_2026-06-09-2 speech turn ParlaMint-AL_2026-06-09-2.u4,confirmed,stated,Verified
-AL_PERS_ErmalPacaj,Ermal,Pacaj,,,,,,,,,SRC_PROC_2026_05_13_1,Header section: absent,confirmed,stated,Verified
-AL_PERS_EdiPaloka,Edi,Paloka,,,,,,,,,SRC_PROC_2025_10_06,Header section: absent,confirmed,stated,Verified
+AL_PERS_ErmalPacaj,Ermal,Pacaj,Tomin,,,,,,,,SRC_PROC_2026_05_13_1,Header section: absent,confirmed,stated,Verified
+AL_PERS_EdiPaloka,Edi,Paloka,Antonin,,,,,,,,SRC_PROC_2025_10_06,Header section: absent,confirmed,stated,Verified
 AL_PERS_RudolfPapa,Rudolf,Papa,,,,,,,,,SRC_PROC_2026_02_11_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_EndriPapajorgji,Endri,Papajorgji,,,,,,,,,SRC_PROC_2025_11_11_2,ParlaMint-AL_2025-11-11-2 speech turn ParlaMint-AL_2025-11-11-2.u47,confirmed,stated,Verified
-AL_PERS_SkënderPashaj,Skënder,Pashaj,,,,,,,,,SRC_PROC_2026_04_08_1,Header section: present,confirmed,stated,Verified
+AL_PERS_SkënderPashaj,Skënder,Pashaj,Imer,,,,,,,,SRC_PROC_2026_04_08_1,Header section: present,confirmed,stated,Verified
 AL_PERS_DëshiraPasko,Dëshira,Pasko,,,,,,,,,SRC_PROC_2026_07_07_2,ParlaMint-AL_2026-07-07-2 speech turn ParlaMint-AL_2026-07-07-2.u48,confirmed,stated,Verified
 AL_PERS_IdlirPeci,Idlir,Peci,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_NikoPeleshi,Niko,Peleshi,,,,,,,Q13043483,,SRC_PROC_2025_12_02,ParlaMint-AL_2025-12-02 header chair,confirmed,stated,Verified
+AL_PERS_NikoPeleshi,Niko,Peleshi,Aleks,,,,,,Q13043483,,SRC_PROC_2025_12_02,ParlaMint-AL_2025-12-02 header chair,confirmed,stated,Verified
 AL_PERS_ElenaPelushi,Elena,Pelushi,,,,,,,,,SRC_PROC_2026_07_07_2,ParlaMint-AL_2026-07-07-2 speech turn ParlaMint-AL_2026-07-07-2.u47,confirmed,stated,Verified
-AL_PERS_IlirjanPendavinji,Ilirjan,Pendavinji,,,,,,,,,SRC_PROC_2026_01_21,ParlaMint-AL_2026-01-21 speech turn ParlaMint-AL_2026-01-21.u14,confirmed,stated,Verified
+AL_PERS_IlirjanPendavinji,Ilirjan,Pendavinji,Anesti,,,,,,,,SRC_PROC_2026_01_21,ParlaMint-AL_2026-01-21 speech turn ParlaMint-AL_2026-01-21.u14,confirmed,stated,Verified
 AL_PERS_AlviPepi,Alvi,Pepi,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_AnaPeti,Ana,Peti,,,,,,,,,SRC_PROC_2026_06_09_1,ParlaMint-AL_2026-06-09-1 speech turn ParlaMint-AL_2026-06-09-1.u42,confirmed,stated,Verified
 AL_PERS_AltinPetre,Altin,Petre,,,,,,,,,SRC_PROC_2026_07_08,ParlaMint-AL_2026-07-08 speech turn ParlaMint-AL_2026-07-08.u85,confirmed,stated,Verified
 AL_PERS_EtritaPetriti,Etrita,Petriti,,,,,,,,,SRC_PROC_2026_06_19_1,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_TërmetPeçi,Tërmet,Peçi,,,,,,,,,SRC_PROC_2025_12_03_1,Header section: present,confirmed,stated,Verified
+AL_PERS_TërmetPeçi,Tërmet,Peçi,Nuro,,,,,,,,SRC_PROC_2025_12_03_1,Header section: present,confirmed,stated,Verified
 AL_PERS_LiraPipa,Lira,Pipa,,,,,,,,,SRC_PROC_2026_07_07_1,ParlaMint-AL_2026-07-07-1 speech turn ParlaMint-AL_2026-07-07-1.u47,confirmed,stated,Verified
-AL_PERS_AdeaPirdeni,Adea,Pirdeni,,F,1983-10-01,Tiranë,,,Q124334183,,SRC_KM_BIO_PIRDENI,Council of Ministers official biography & KQZ 2025 Tiranë annex,confirmed,stated,Verified
-AL_PERS_KastriotPiroli,Kastriot,Piroli,,,,,,,,,SRC_PROC_2026_03_10_4,ParlaMint-AL_2026-03-10-4 speech turn ParlaMint-AL_2026-03-10-4.u41,confirmed,stated,Verified
+AL_PERS_AdeaPirdeni,Adea,Pirdeni,Luan,F,1983-10-01,Tiranë,,,Q124334183,,SRC_KM_BIO_PIRDENI,Council of Ministers official biography & KQZ 2025 Tiranë annex,confirmed,stated,Verified
+AL_PERS_KastriotPiroli,Kastriot,Piroli,Pren,,,,,,,,SRC_PROC_2026_03_10_4,ParlaMint-AL_2026-03-10-4 speech turn ParlaMint-AL_2026-03-10-4.u41,confirmed,stated,Verified
 AL_PERS_BojkenPlaku,Bojken,Plaku,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_KlevinPlaku,Klevin,Plaku,,,,,,,,,SRC_PROC_2026_05_05,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_PjerinPrendi,Pjerin,Prendi,,,,,,,,,SRC_PROC_2026_07_01_3,Header section: present,confirmed,stated,Verified
@@ -395,19 +400,21 @@ AL_PERS_MarinelaPrifti,Marinela,Prifti,,,,,,,,,SRC_PROC_2026_07_20,ParlaMint-AL_
 AL_PERS_InformimitPublik,Informimit,Publik,,,,,,,,,SRC_PROC_2025_10_17,Header section: absent,confirmed,stated,Verified
 AL_PERS_AlfredPupli,Alfred,Pupli,,,,,,,,,SRC_PROC_2026_06_09_1,ParlaMint-AL_2026-06-09-1 speech turn ParlaMint-AL_2026-06-09-1.u27,confirmed,stated,Verified
 AL_PERS_IndritPuteci,Indrit,Puteci,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
+AL_PERS_AlbanaPëllumbi,Albana,Pëllumbi,Leonard,,,,,,,,SRC_KQZ_2025,"KQZ 2025 Lista Emërore e Deputetëve (Nr. 9, Qarku Tiranë)",confirmed,stated,Verified
 AL_PERS_MeritaQato,Merita,Qato,,,,,,,Q115554186,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_XhemalQefalia,Xhemal,Qefalia,,,,,,,,,SRC_PROC_2026_06_16,ParlaMint-AL_2026-06-16 speech turn ParlaMint-AL_2026-06-16.u49,confirmed,stated,Verified
 AL_PERS_AlvinQehaja,Alvin,Qehaja,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_AlbaQirjazi,Alba,Qirjazi,,,,,,,,,SRC_PROC_2026_07_01_2,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_AdiQose,Adi,Qose,,,,,,,,,SRC_PROC_2026_10_05_2,ParlaMint-AL_2026-10-05-2 speech turn ParlaMint-AL_2026-10-05-2.u372,confirmed,stated,Verified
+AL_PERS_AdiQose,Adi,Qose,Luan,,,,,,,,SRC_PROC_2026_10_05_2,ParlaMint-AL_2026-10-05-2 speech turn ParlaMint-AL_2026-10-05-2.u372,confirmed,stated,Verified
 AL_PERS_FisnikQosja,Fisnik,Qosja,,,,,,,,,SRC_PROC_2026_09_28,ParlaMint-AL_2026-09-28 speech turn ParlaMint-AL_2026-09-28.u561,confirmed,stated,Verified
 AL_PERS_EneidaRabdishta,Eneida,Rabdishta,,,,,,,,,SRC_PROC_2026_07_14_1,ParlaMint-AL_2026-07-14-1 speech turn ParlaMint-AL_2026-07-14-1.u87,confirmed,stated,Verified
-AL_PERS_OrnaldoRakipi,Ornaldo,Rakipi,,,,,,,,,SRC_PROC_2026_02_11_2,Header section: present,confirmed,stated,Verified
+AL_PERS_OrnaldoRakipi,Ornaldo,Rakipi,Aqif,,,,,,,,SRC_PROC_2026_02_11_2,Header section: present,confirmed,stated,Verified
 AL_PERS_BlertaRama,Blerta,Rama,,,,,,,,,SRC_PROC_2026_03_30_1,Header section: invited_guest,confirmed,stated,Verified
+AL_PERS_EdiRama,Edi,Rama,Kristaq,,,,,,,,SRC_KQZ_2025,"KQZ 2025 Lista Emërore e Deputetëve (Nr. 46, Qarku Tiranë)",confirmed,stated,Verified
 AL_PERS_ElvanaRamaj,Elvana,Ramaj,,,,,,,,,SRC_PROC_2026_04_14_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_NevilaRepishti,Nevila,Repishti,,,,,,,,,SRC_PROC_2026_02_17_1,ParlaMint-AL_2026-02-17-1 speech turn ParlaMint-AL_2026-02-17-1.u33,confirmed,stated,Verified
 AL_PERS_AlbaRexha,Alba,Rexha,,,,,,,,,SRC_PROC_2026_04_21_1,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_BujarRexha,Bujar,Rexha,,,,,,,,,SRC_PROC_2026_06_19_3,ParlaMint-AL_2026-06-19-3 speech turn ParlaMint-AL_2026-06-19-3.u40,confirmed,stated,Verified
+AL_PERS_BujarRexha,Bujar,Rexha,Ismajl,,,,,,,,SRC_PROC_2026_06_19_3,ParlaMint-AL_2026-06-19-3 speech turn ParlaMint-AL_2026-06-19-3.u40,confirmed,stated,Verified
 AL_PERS_NikollaRistiç,Nikolla,Ristiç,,,,,,,,,SRC_PROC_2026_04_20_2,ParlaMint-AL_2026-04-20-2 speech turn ParlaMint-AL_2026-04-20-2.u2,confirmed,stated,Verified
 AL_PERS_ErisaRodhani,Erisa,Rodhani,,,,,,,,,SRC_PROC_2026_07_17,ParlaMint-AL_2026-07-17 speech turn ParlaMint-AL_2026-07-17.u139,confirmed,stated,Verified
 AL_PERS_EdlirRrapaj,Edlir,Rrapaj,,,,,,,,,SRC_PROC_2026_07_06_1,Header section: invited_guest,confirmed,stated,Verified
@@ -425,18 +432,18 @@ AL_PERS_AndisSalla,Andis,Salla,,,,,,,,,SRC_PROC_2026_03_03,ParlaMint-AL_2026-03-
 AL_PERS_EriseldaSefa,Eriselda,Sefa,,,,,,,,,SRC_PROC_2026_05_28_1,ParlaMint-AL_2026-05-28-1 speech turn ParlaMint-AL_2026-05-28-1.u6,confirmed,stated,Verified
 AL_PERS_DenadaSeferi,Denada,Seferi,,,,,,,,,SRC_PROC_2026_07_14_2,ParlaMint-AL_2026-07-14-2 speech turn ParlaMint-AL_2026-07-14-2.u95,confirmed,stated,Verified
 AL_PERS_GentSejko,Gent,Sejko,,,,,,,,,SRC_PROC_2026_07_08,ParlaMint-AL_2026-07-08 speech turn ParlaMint-AL_2026-07-08.u4,confirmed,stated,Verified
-AL_PERS_AlmaSelami,Alma,Selami,,,,,,,,,SRC_PROC_2026_06_09_1,ParlaMint-AL_2026-06-09-1 speech turn ParlaMint-AL_2026-06-09-1.u49,confirmed,stated,Verified
+AL_PERS_AlmaSelami,Alma,Selami,Nin,,,,,,,,SRC_PROC_2026_06_09_1,ParlaMint-AL_2026-06-09-1 speech turn ParlaMint-AL_2026-06-09-1.u49,confirmed,stated,Verified
 AL_PERS_MajlindaSenka,Majlinda,Senka,,,,,,,,,SRC_PROC_2026_03_10_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_ErjonaSerjani,Erjona,Serjani,,,,,,,,,SRC_PROC_2026_03_18,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_AidaSerreqi,Aida,Serreqi,,,,,,,,,SRC_PROC_2026_07_06_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_EndritShabani,Endrit,Shabani,,,,,,,,,SRC_PROC_2026_06_19_1,ParlaMint-AL_2026-06-19-1 speech turn ParlaMint-AL_2026-06-19-1.u2,confirmed,stated,Verified
 AL_PERS_LedjonShahini,Ledjon,Shahini,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_EduardShalsi,Eduard,Shalsi,,,,,,,,,SRC_PROC_2026_07_01_3,ParlaMint-AL_2026-07-01-3 speech turn ParlaMint-AL_2026-07-01-3.u21,confirmed,stated,Verified
+AL_PERS_EduardShalsi,Eduard,Shalsi,Pajtim,,,,,,,,SRC_PROC_2026_07_01_3,ParlaMint-AL_2026-07-01-3 speech turn ParlaMint-AL_2026-07-01-3.u21,confirmed,stated,Verified
 AL_PERS_ZhaniShapo,Zhani,Shapo,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_AgronShehaj,Agron,Shehaj,,,,,,,Q32025369,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_AgronShehaj,Agron,Shehaj,Siri,,,,,,Q32025369,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_ArbenShehu,Arben,Shehu,,,,,,,,,SRC_PROC_2026_07_08,ParlaMint-AL_2026-07-08 speech turn ParlaMint-AL_2026-07-08.u27,confirmed,stated,Verified
 AL_PERS_IsmailShehu,Ismail,Shehu,,,,,,,,,SRC_PROC_2026_07_15_3,ParlaMint-AL_2026-07-15-3 speech turn ParlaMint-AL_2026-07-15-3.u6,confirmed,stated,Verified
-AL_PERS_TritanShehu,Tritan,Shehu,,,,,,,Q7844256,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_TritanShehu,Tritan,Shehu,Masar,,,,,,Q7844256,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_VasjarSherrmadhi,Vasjar,Sherrmadhi,,,,,,,,,SRC_PROC_2026_04_08_1,ParlaMint-AL_2026-04-08-1 speech turn ParlaMint-AL_2026-04-08-1.u49,confirmed,stated,Verified
 AL_PERS_MalvinaShira,Malvina,Shira,,,,,,,,,SRC_PROC_2026_06_19_3,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_KristianShkreli,Kristian,Shkreli,,,,,,,,,SRC_PROC_2026_05_28_1,ParlaMint-AL_2026-05-28-1 speech turn ParlaMint-AL_2026-05-28-1.u123,confirmed,stated,Verified
@@ -445,27 +452,27 @@ AL_PERS_AdrianaShteti,Adriana,Shteti,,,,,,,,,SRC_PROC_2026_03_30_2,Header sectio
 AL_PERS_VilmaShurdha,Vilma,Shurdha,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_EdvinSimo,Edvin,Simo,,,,,,,,,SRC_PROC_2026_07_15_3,ParlaMint-AL_2026-07-15-3 speech turn ParlaMint-AL_2026-07-15-3.u62,confirmed,stated,Verified
 AL_PERS_IrisaSimo,Irisa,Simo,,,,,,,,,SRC_PROC_2026_05_05,ParlaMint-AL_2026-05-05 speech turn ParlaMint-AL_2026-05-05.u22,confirmed,stated,Verified
-AL_PERS_VullnetSinaj,Vullnet,Sinaj,,,,,,,Q32025745,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_ZamiraSinaj,Zamira,Sinaj,,F,,,,,,,SRC_KUV_KEPF_ROSTER,KEPF Committee Roster,confirmed,stated,Verified
+AL_PERS_VullnetSinaj,Vullnet,Sinaj,Ruzhdi,,,,,,Q32025745,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_ZamiraSinaj,Zamira,Sinaj,Xhevdet,F,,,,,,,SRC_KUV_KEPF_ROSTER,KEPF Committee Roster,confirmed,stated,Verified
 AL_PERS_ErtonSinani,Erton,Sinani,,,,,,,,,SRC_PROC_2026_07_06_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_MirëqeniesSociale,Mirëqenies,Sociale,,,,,,,,,SRC_PROC_2026_07_14_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_ElidaSokoli,Elida,Sokoli,,,,,,,,,SRC_PROC_2026_03_30_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_ImeldSokoli,Imeld,Sokoli,,,,,,,,,SRC_PROC_2026_07_15_2,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_MariaSolis,Maria,Solis,,,,,,,,,SRC_PROC_2026_09_21_2,ParlaMint-AL_2026-09-21-2 speech turn ParlaMint-AL_2026-09-21-2.u64,confirmed,stated,Verified
-AL_PERS_BardhSpahia,Bardh,Spahia,,,,,,,Q31969902,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_KlodianaSpahiu,Klodiana,Spahiu,,,,,,,Q31965321,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_BesaSpaho,Besa,Spaho,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_ElisaSpiropali,Elisa,Spiropali,,,,,,,,,SRC_PROC_2026_10_05_2,ParlaMint-AL_2026-10-05-2 speech turn ParlaMint-AL_2026-10-05-2.u44,confirmed,stated,Verified
+AL_PERS_BardhSpahia,Bardh,Spahia,Ali,,,,,,Q31969902,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_KlodianaSpahiu,Klodiana,Spahiu,Fatmir,,,,,,Q31965321,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_BesaSpaho,Besa,Spaho,Gëzim,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_ElisaSpiropali,Elisa,Spiropali,Aleksander,,,,,,,,SRC_PROC_2026_10_05_2,ParlaMint-AL_2026-10-05-2 speech turn ParlaMint-AL_2026-10-05-2.u44,confirmed,stated,Verified
 AL_PERS_VatëStaka,Vatë,Staka,,,,,,,,,SRC_PROC_2026_07_07_2,ParlaMint-AL_2026-07-07-2 speech turn ParlaMint-AL_2026-07-07-2.u9,confirmed,stated,Verified
 AL_PERS_MarbonaStavro,Marbona,Stavro,,,,,,,,,SRC_PROC_2026_09_21_2,ParlaMint-AL_2026-09-21-2 speech turn ParlaMint-AL_2026-09-21-2.u46,confirmed,stated,Verified
 AL_PERS_ProgramimitStrategjik,Programimit,Strategjik,,,,,,,,,SRC_PROC_2026_05_05,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_GentStrazimiri,Gent,Strazimiri,,,,,,,Q10953116,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_GentStrazimiri,Gent,Strazimiri,Hysen,,,,,,Q10953116,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_ErgysStreza,Ergys,Streza,,,,,,,,,SRC_PROC_2026_07_15_3,ParlaMint-AL_2026-07-15-3 speech turn ParlaMint-AL_2026-07-15-3.u89,confirmed,stated,Verified
 AL_PERS_ArmandoSubashi,Armando,Subashi,,,,,,,,,SRC_PROC_2026_06_24_3,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_GentianaSula,Gentiana,Sula,,,,,,,,,SRC_PROC_2026_06_24_1,ParlaMint-AL_2026-06-24-1 speech turn ParlaMint-AL_2026-06-24-1.u56,confirmed,stated,Verified
 AL_PERS_DorianaSuli,Doriana,Suli,,,,,,,,,SRC_PROC_2026_03_18,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_PavolSzalai,Pavol,Szalai,,,,,,,,,SRC_PROC_2026_06_19_2,ParlaMint-AL_2026-06-19-2 speech turn ParlaMint-AL_2026-06-19-2.u3,confirmed,stated,Verified
-AL_PERS_JoridaTabaku,Jorida,Tabaku,,,,,,,Q16218853,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_JoridaTabaku,Jorida,Tabaku,Hasan,,,,,,Q16218853,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_KlejdaTabaku,Klejda,Tabaku,,,,,,,,,SRC_PROC_2026_07_07_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_GentaTafa,Genta,Tafa,,,,,,,,,SRC_PROC_2026_06_09_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_GentaBungo,Genta,Tafa Bungo,,,,,,,,,SRC_PROC_2026_06_29,Header section: invited_guest,confirmed,stated,Verified
@@ -481,56 +488,56 @@ AL_PERS_ErmiraTepelena,Ermira,Tepelena,,,,,,,,,SRC_PROC_2026_07_08,Header sectio
 AL_PERS_FrancTerihati,Franc,Terihati,,,,,,,,,SRC_PROC_2026_07_06_3,ParlaMint-AL_2026-07-06-3 speech turn ParlaMint-AL_2026-07-06-3.u4,confirmed,stated,Verified
 AL_PERS_EraldThemeli,Erald,Themeli,,,,,,,,,SRC_PROC_2026_07_08,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_IrmaThemeli,Irma,Themeli,,,,,,,,,SRC_PROC_2026_05_18,ParlaMint-AL_2026-05-18 speech turn ParlaMint-AL_2026-05-18.u10,confirmed,stated,Verified
-AL_PERS_JozefinaTopalli,Jozefina,Topalli,,,,,,,Q462441,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_JozefinaTopalli,Jozefina,Topalli,Filip,,,,,,Q462441,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_EnkeleonTopulli,Enkeleon,Topulli,,,,,,,,,SRC_PROC_2026_07_15_3,ParlaMint-AL_2026-07-15-3 speech turn ParlaMint-AL_2026-07-15-3.u78,confirmed,stated,Verified
 AL_PERS_DorianaToro,Doriana,Toro,,,,,,,,,SRC_PROC_2026_04_08_1,ParlaMint-AL_2026-04-08-1 speech turn ParlaMint-AL_2026-04-08-1.u25,confirmed,stated,Verified
 AL_PERS_JoanaTroqe,Joana,Troqe,,,,,,,,,SRC_PROC_2026_07_08,ParlaMint-AL_2026-07-08 speech turn ParlaMint-AL_2026-07-08.u30,confirmed,stated,Verified
 AL_PERS_KreshnikTërnova,Kreshnik,Tërnova,,,,,,,,,SRC_PROC_2026_06_24_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_ArielVasili,Ariel,Vasili,,,,,,,,,SRC_PROC_2025_12_03_1,ParlaMint-AL_2025-12-03-1 speech turn ParlaMint-AL_2025-12-03-1.u5,confirmed,stated,Verified
 AL_PERS_EniVasili,Eni,Vasili,,,,,,,,,SRC_PROC_2026_07_06_1,ParlaMint-AL_2026-07-06-1 speech turn ParlaMint-AL_2026-07-06-1.u5,confirmed,stated,Verified
-AL_PERS_DenisaVata,Denisa,Vata,,,,,,,,,SRC_PROC_2026_10_05_2,ParlaMint-AL_2026-10-05-2 speech turn ParlaMint-AL_2026-10-05-2.u394,confirmed,stated,Verified
+AL_PERS_DenisaVata,Denisa,Vata,Nazmi,,,,,,,,SRC_PROC_2026_10_05_2,ParlaMint-AL_2026-10-05-2 speech turn ParlaMint-AL_2026-10-05-2.u394,confirmed,stated,Verified
 AL_PERS_AulonaVeizi,Aulona,Veizi,,,,,,,,,SRC_PROC_2025_12_03_2,ParlaMint-AL_2025-12-03-2 speech turn ParlaMint-AL_2025-12-03-2.u23,confirmed,stated,Verified
 AL_PERS_GeraldVeizi,Gerald,Veizi,,,,,,,,,SRC_PROC_2026_07_21,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_AlketaVejseli,Alketa,Vejseli,,,,,,,,,SRC_PROC_2026_04_08_3,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_BesaVelaj,Besa,Velaj,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_AurelaVelo,Aurela,Velo,,,,,,,,,SRC_PROC_2026_06_09_1,ParlaMint-AL_2026-06-09-1 speech turn ParlaMint-AL_2026-06-09-1.u23,confirmed,stated,Verified
-AL_PERS_PirroVengu,Pirro,Vengu,,,,,,,,,SRC_PROC_2026_02_16_2,Header section: present,confirmed,stated,Verified
+AL_PERS_PirroVengu,Pirro,Vengu,Thoma,,,,,,,,SRC_PROC_2026_02_16_2,Header section: present,confirmed,stated,Verified
 AL_PERS_BesartaVladi,Besarta,Vladi,,,,,,,,,SRC_PROC_2026_03_04,ParlaMint-AL_2026-03-04 speech turn ParlaMint-AL_2026-03-04.u8,confirmed,stated,Verified
-AL_PERS_AlbanaVokshi,Albana,Vokshi,,,,,,,,,SRC_PROC_2026_04_08_1,ParlaMint-AL_2026-04-08-1 speech turn ParlaMint-AL_2026-04-08-1.u4,confirmed,stated,Verified
+AL_PERS_AlbanaVokshi,Albana,Vokshi,Sadik,,,,,,,,SRC_PROC_2026_04_08_1,ParlaMint-AL_2026-04-08-1 speech turn ParlaMint-AL_2026-04-08-1.u4,confirmed,stated,Verified
 AL_PERS_SkënderVrioni,Skënder,Vrioni,,,,,,,,,SRC_PROC_2026_06_24_1,ParlaMint-AL_2026-06-24-1 speech turn ParlaMint-AL_2026-06-24-1.u59,confirmed,stated,Verified
 AL_PERS_EraldXeka,Erald,Xeka,,,,,,,,,SRC_PROC_2025_12_03_1,ParlaMint-AL_2025-12-03-1 speech turn ParlaMint-AL_2025-12-03-1.u3,confirmed,stated,Verified
 AL_PERS_ErmonelaXhafa,Ermonela,Xhafa,,,,,,,,,SRC_PROC_2025_11_11_2,ParlaMint-AL_2025-11-11-2 speech turn ParlaMint-AL_2025-11-11-2.u58,confirmed,stated,Verified
 AL_PERS_PerparimXhafa,Perparim,Xhafa,,,,,,,,,SRC_PROC_2026_07_06_1,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_FatmirXhafaj,Fatmir,Xhafaj,,,,,,,Q16354928,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
-AL_PERS_BesartXhaferi,Besart,Xhaferi,,,,,,,,,SRC_PROC_2026_10_05_2,ParlaMint-AL_2026-10-05-2 speech turn ParlaMint-AL_2026-10-05-2.u148,confirmed,stated,Verified
+AL_PERS_FatmirXhafaj,Fatmir,Xhafaj,Sezai,,,,,,Q16354928,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_BesartXhaferi,Besart,Xhaferi,Ylli,,,,,,,,SRC_PROC_2026_10_05_2,ParlaMint-AL_2026-10-05-2 speech turn ParlaMint-AL_2026-10-05-2.u148,confirmed,stated,Verified
 AL_PERS_BriseidaXhaferri,Briseida,Xhaferri,,,,,,,,,SRC_PROC_2026_07_20,Header section: present,confirmed,stated,Verified
 AL_PERS_IlirXhakolli,Ilir,Xhakolli,,,,,,,,,SRC_PROC_2026_06_24_3,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_LeandroXhama,Leandro,Xhama,,,,,,,,,SRC_PROC_2026_05_13_1,Header section: invited_guest,confirmed,stated,Verified
-AL_PERS_OltaXhaçka,Olta,Xhaçka,,,,,,,Q13043722,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_OltaXhaçka,Olta,Xhaçka,Anxhelo,,,,,,Q13043722,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_MatildaXhepa,Matilda,Xhepa,,,,,,,,,SRC_PROC_2026_06_16,ParlaMint-AL_2026-06-16 speech turn ParlaMint-AL_2026-06-16.u85,confirmed,stated,Verified
-AL_PERS_ErisaXhixho,Erisa,Xhixho,,,,,,,,,SRC_PROC_2026_02_10,ParlaMint-AL_2026-02-10 speech turn ParlaMint-AL_2026-02-10.u24,confirmed,stated,Verified
+AL_PERS_ErisaXhixho,Erisa,Xhixho,Piro,,,,,,,,SRC_PROC_2026_02_10,ParlaMint-AL_2026-02-10 speech turn ParlaMint-AL_2026-02-10.u24,confirmed,stated,Verified
 AL_PERS_EndritYzeiraj,Endrit,Yzeiraj,,,,,,,,,SRC_PROC_2026_04_08_1,ParlaMint-AL_2026-04-08-1 speech turn ParlaMint-AL_2026-04-08-1.u23,confirmed,stated,Verified
-AL_PERS_KiduinaZaka,Kiduina,Zaka,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_KiduinaZaka,Kiduina,Zaka,Bushat,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_SelamiZalli,Selami,Zalli,,,,,,,,,SRC_PROC_2026_06_24_1,ParlaMint-AL_2026-06-24-1 speech turn ParlaMint-AL_2026-06-24-1.u61,confirmed,stated,Verified
 AL_PERS_EldaZenelaj,Elda,Zenelaj,,,,,,,,,SRC_PROC_2026_03_04,ParlaMint-AL_2026-03-04 speech turn ParlaMint-AL_2026-03-04.u2,confirmed,stated,Verified
 AL_PERS_FatbardhZenelaj,Fatbardh,Zenelaj,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_BeharZeneli,Behar,Zeneli,,,,,,,,,SRC_PROC_2026_07_15_3,ParlaMint-AL_2026-07-15-3 speech turn ParlaMint-AL_2026-07-15-3.u32,confirmed,stated,Verified
 AL_PERS_FiorentZguro,Fiorent,Zguro,,,,,,,,,SRC_PROC_2026_06_24_1,ParlaMint-AL_2026-06-24-1 speech turn ParlaMint-AL_2026-06-24-1.u36,confirmed,stated,Verified
-AL_PERS_InaZhupa,Ina,Zhupa,,F,1987-06-20,,,,Q29233997,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_InaZhupa,Ina,Zhupa,Kadri,F,1987-06-20,,,,Q29233997,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_AdriatikZotkaj,Adriatik,Zotkaj,,,,,,,,,SRC_PROC_2026_05_28_2,ParlaMint-AL_2026-05-28-2 speech turn ParlaMint-AL_2026-05-28-2.u37,confirmed,stated,Verified
 AL_PERS_FlorinZyberaj,Florin,Zyberaj,,,,,,,,,SRC_PROC_2026_06_24_1,ParlaMint-AL_2026-06-24-1 speech turn ParlaMint-AL_2026-06-24-1.u95,confirmed,stated,Verified
 AL_PERS_HakiÇako,Haki,Çako,,,,,,,,,SRC_PROC_2026_06_19_3,ParlaMint-AL_2026-06-19-3 speech turn ParlaMint-AL_2026-06-19-3.u2,confirmed,stated,Verified
 AL_PERS_RomeoÇakuli,Romeo,Çakuli,,,,,,,,,SRC_PROC_2026_06_24_3,ParlaMint-AL_2026-06-24-3 speech turn ParlaMint-AL_2026-06-24-3.u20,confirmed,stated,Verified
 AL_PERS_BriseidaÇakërri,Briseida,Çakërri,,,,,,,,,SRC_PROC_2026_10_05_1,ParlaMint-AL_2026-10-05-1 speech turn ParlaMint-AL_2026-10-05-1.u26,confirmed,stated,Verified
 AL_PERS_EridanaÇano,Eridana,Çano,,,,,,,,,SRC_PROC_2026_05_05,ParlaMint-AL_2026-05-05 speech turn ParlaMint-AL_2026-05-05.u2,confirmed,stated,Verified
-AL_PERS_KlodianaÇapja,Klodiana,Çapja,,,,,,,,,SRC_PROC_2026_02_11_2,Header section: absent,confirmed,stated,Verified
-AL_PERS_ZegjineÇaushi,Zegjine,Çaushi,,,,,,,,,SRC_PROC_2026_10_05_2,ParlaMint-AL_2026-10-05-2 speech turn ParlaMint-AL_2026-10-05-2.u90,confirmed,stated,Verified
+AL_PERS_KlodianaÇapja,Klodiana,Çapja,Ilir,,,,,,,,SRC_PROC_2026_02_11_2,Header section: absent,confirmed,stated,Verified
+AL_PERS_ZegjineÇaushi,Zegjine,Çaushi,Artan,,,,,,,,SRC_PROC_2026_10_05_2,ParlaMint-AL_2026-10-05-2 speech turn ParlaMint-AL_2026-10-05-2.u90,confirmed,stated,Verified
 AL_PERS_EndiÇekani,Endi,Çekani,,,,,,,,,SRC_PROC_2026_06_24_1,Header section: invited_guest,confirmed,stated,Verified
 AL_PERS_JuliaÇela,Julia,Çela,,,,,,,,,SRC_PROC_2026_03_10_4,ParlaMint-AL_2026-03-10-4 speech turn ParlaMint-AL_2026-03-10-4.u2,confirmed,stated,Verified
 AL_PERS_OlsianÇela,Olsian,Çela,,,,,,,,,SRC_PROC_2026_06_15_2,ParlaMint-AL_2026-06-15-2 speech turn ParlaMint-AL_2026-06-15-2.u97,confirmed,stated,Verified
-AL_PERS_XhenisÇela,Xhenis,Çela,,,,,,,,,SRC_PROC_2026_10_05_2,ParlaMint-AL_2026-10-05-2 speech turn ParlaMint-AL_2026-10-05-2.u362,confirmed,stated,Verified
-AL_PERS_IsufÇelaj,Isuf,Çelaj,,,,,,,Q31969563,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_XhenisÇela,Xhenis,Çela,Agron,,,,,,,,SRC_PROC_2026_10_05_2,ParlaMint-AL_2026-10-05-2 speech turn ParlaMint-AL_2026-10-05-2.u362,confirmed,stated,Verified
+AL_PERS_IsufÇelaj,Isuf,Çelaj,Zenel,,,,,,Q31969563,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_EriolaÇollaku,Eriola,Çollaku,,,,,,,,,SRC_PROC_2026_07_01_3,ParlaMint-AL_2026-07-01-3 speech turn ParlaMint-AL_2026-07-01-3.u10,confirmed,stated,Verified
-AL_PERS_BlediÇomo,Bledi,Çomo,,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_BlediÇomo,Bledi,Çomo,Dhimitraq,,,,,,,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
 AL_PERS_LuljetaÇuko,Luljeta,Çuko,,,,,,,,,SRC_PROC_2026_06_16,ParlaMint-AL_2026-06-16 speech turn ParlaMint-AL_2026-06-16.u84,confirmed,stated,Verified
-AL_PERS_BledarÇuçi,Bledar,Çuçi,,,,,,,Q31967316,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified
+AL_PERS_BledarÇuçi,Bledar,Çuçi,Triumf,,,,,,Q31967316,,SRC_KUV_STRUKTURA,Kuvendi MP Registry,confirmed,stated,Verified

@@ -386,6 +386,27 @@ def run_all_validations(
     assert res_nogroup.is_mp and not res_nogroup.group_id and res_nogroup.party_id == "AL_ORG_MUNDESIA"
     assert res_nogroup.speaker_party == "AL_ORG_MUNDESIA" and res_nogroup.party_status == "Opposition"
 
+    # 3f. Verify metadata/elections.csv contains all 140 elected deputy records from KQZ 2025 (Section 3)
+    with (meta_p / "elections.csv").open(newline="", encoding="utf-8") as f:
+        elections_rows = list(csv.DictReader(f))
+    assert len(elections_rows) == 140, (
+        f"Expected exactly 140 elected deputy records in metadata/elections.csv from KQZ 2025, got {len(elections_rows)}"
+    )
+    for er in elections_rows:
+        epid = er["person_id"]
+        assert epid in persons, f"Elected deputy {epid} in elections.csv is missing from persons.csv"
+        esubj = er["electoral_subject_id"]
+        assert esubj in orgs, f"Electoral subject {esubj} in elections.csv is missing from orgs.csv"
+        p_abbr = (er.get("party_abbr") or "").strip()
+        assert p_abbr, f"party_abbr must not be blank in elections.csv (row {er.get('source_row')})"
+        p_org_id = (er.get("org_id") or "").strip()
+        assert p_org_id and p_org_id in orgs, (
+            f"org_id {p_org_id!r} for party_abbr {p_abbr!r} in elections.csv is missing from orgs.csv"
+        )
+        assert orgs[p_org_id].name_short == p_abbr, (
+            f"org_id {p_org_id!r} in elections.csv does not match name_short {p_abbr!r} in orgs.csv"
+        )
+
     # 4. Validate TEI XML Structure, Uniqueness of IDs, and Pointer Resolution (Section 11 & 12)
     xml_id_attr = f"{{{XML_NS}}}id"
     global_ids: Set[str] = set()
