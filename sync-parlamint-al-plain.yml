@@ -1,0 +1,119 @@
+name: Sync ParlaMint-AL plain TEI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'out/TEI/plain/**'
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: 'Push changes to the fork (leave unchecked for a preview)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: parlamint-al-plain-to-data
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.repository == 'ecane2000/Parlamint-al' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out latest source main
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          ref: main
+          path: source
+          persist-credentials: false
+
+      - name: Check publishing credential
+        if: github.event_name == 'push' || inputs.publish
+        env:
+          FORK_TOKEN: ${{ secrets.PARLAMINT_FORK_TOKEN }}
+        run: |
+          if [[ -z "$FORK_TOKEN" ]]; then
+            echo "::error::Set the PARLAMINT_FORK_TOKEN Actions secret in the source repository before publishing."
+            exit 1
+          fi
+
+      - name: Check out fork data branch
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          repository: ecane2000/ParlaMint
+          ref: data
+          path: fork
+          token: ${{ (github.event_name == 'push' || inputs.publish) && secrets.PARLAMINT_FORK_TOKEN || github.token }}
+          persist-credentials: ${{ github.event_name == 'push' || inputs.publish }}
+
+      - name: Copy and preview plain TEI changes
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          import shutil
+          import subprocess
+          import xml.etree.ElementTree as ET
+
+          source = Path("source/out/TEI/plain")
+          fork = Path("fork")
+          target = fork / "Samples/ParlaMint-AL"
+          if not source.is_dir() or not target.is_dir():
+              raise SystemExit("Expected source and destination directories are required")
+
+          pattern = re.compile(r"[0-9]{4}/ParlaMint-AL_.+\.xml")
+          files = sorted(item for item in source.rglob("*.xml") if item.is_file())
+          if not files:
+              raise SystemExit("No plain XML components found; refusing to sync")
+
+          ns = "{http://www.tei-c.org/ns/1.0}"
+          relative_paths = []
+          for item in files:
+              rel = item.relative_to(source)
+              dest = target / rel
+              if not pattern.fullmatch(rel.as_posix()) or not item.resolve().is_relative_to(source.resolve()):
+                  raise SystemExit(f"Unexpected plain XML path: {rel}")
+              if any(p.is_symlink() for p in (target.parent, target, dest.parent, dest)):
+                  raise SystemExit(f"Refusing to write through a symlink: {rel}")
+              if ET.parse(item).getroot().tag != ns + "TEI":
+                  raise SystemExit(f"Not a TEI component document: {rel}")
+              relative_paths.append(rel)
+
+          for rel in relative_paths:
+              dest = target / rel
+              dest.parent.mkdir(parents=True, exist_ok=True)
+              shutil.copyfile(source / rel, dest)
+
+          subprocess.run(["git", "add", "--", *[
+              (target / rel).relative_to(fork).as_posix() for rel in relative_paths
+          ]], cwd=fork, check=True)
+
+          root = ET.parse(target / "ParlaMint-AL.xml")
+          includes = {e.get("href") for e in root.iter("{http://www.w3.org/2001/XInclude}include")}
+          unlisted = [rel for rel in relative_paths if rel.as_posix() not in includes]
+          if unlisted:
+              print(f"::warning::{len(unlisted)} source components are not in the fork's corpus root. "
+                    "This plain-only sync does not update the root, authority lists, or taxonomies.")
+          print(f"Checked {len(relative_paths)} plain TEI components.")
+          PY
+          git -C fork diff --cached --stat
+
+      - name: Publish to the fork
+        if: github.event_name == 'push' || inputs.publish
+        shell: bash
+        run: |
+          if git -C fork diff --cached --quiet; then
+            echo "No component changes to publish."
+            exit 0
+          fi
+          source_commit=$(git -C source rev-parse HEAD)
+          git -C fork -c user.name='github-actions[bot]' \
+            -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+            commit -m "Sync ParlaMint-AL plain TEI" -m "Source: ecane2000/Parlamint-al@$source_commit"
+          git -C fork push origin HEAD:refs/heads/data
